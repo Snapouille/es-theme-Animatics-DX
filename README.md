@@ -1,4 +1,5 @@
-# ES-theme-Animatics-DX
+![LOGO Plein](https://user-images.githubusercontent.com/105559045/215272191-c9416119-ffc7-48ff-b1f2-17daff4977ff.png)
+
 
 Theme for Emulation Station compatible with
 - Batocera <= V35 
