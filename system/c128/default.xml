@@ -1,0 +1,15 @@
+<!-- C128  -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<!-- Sytem AVATAR -->
+		<image name="avatar" extra="static">
+			<pos>0.35 0.1</pos>
+		</image>
+		
+	</view>
+</theme>

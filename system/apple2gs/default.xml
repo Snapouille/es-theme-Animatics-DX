@@ -1,0 +1,27 @@
+<!-- Apple 2 GS -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		
+		<image name="avatar" extra="static">
+			<pos>0.1 0.167</pos>
+			<scale>0.6</scale>
+			<opacity>1</opacity>
+			<storyboard>
+				<animation property="x" to="0.2" begin="" duration="2200" mode="EaseOut"/>
+				
+				<animation property="scale" to="0.9" begin="2700" duration="350" mode="Linear"/>
+				<animation property="x" to="0.38" begin="2700" duration="375" mode="EaseOut"/>
+				<animation property="y" to="0.01" begin="2700" duration="375" mode="EaseOut"/>
+				
+				
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

@@ -1,0 +1,66 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+
+	<view name="splash">
+	
+		<text name="version" extra="true">
+			<text>V.1</text>
+			<pos>0.02 0.951</pos>
+			<color>f4ff1a</color>
+			<fontPath>./art/fonts/ubuntu.ttf</fontPath>
+			<fontSize>0.0220</fontSize>
+			<alignment>left</alignment>
+			<zIndex>100</zIndex>
+		</text>
+		
+		<text name="region" extra="true">
+			<origin>0 0</origin>
+			<pos>-0.02 0.945</pos>
+			<size>1 0.05</size>
+			<color>f4ff1a</color>
+			<fontPath>./art/fonts/ubuntu.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<alignment>right</alignment>
+			<glowColor>00000035</glowColor>
+			<glowSize>1</glowSize>
+			<glowOffset>3 2</glowOffset>
+			<zIndex>60</zIndex>
+			<backgroundColor>ff000000</backgroundColor>
+			<text>by Snapouille</text>
+		</text>
+	
+	
+		<splash name="splash">
+			<backgroundColor>303030FF</backgroundColor>
+		</splash>
+
+		<image name="background" extra="true">
+			<path>./art/divers/splash.png</path>
+			<zIndex>1</zIndex>
+		</image>
+
+		<image name="progressbar">
+				<origin>0 0</origin>
+				<pos>0.250 0.69</pos>
+				<size>0.5 0.04</size>
+		</image>
+
+		<image name="progressbar:active">
+				<color>009cff</color>
+				<colorEnd>f4ff1a</colorEnd>
+				<gradientType>horizontal</gradientType>
+		</image>
+	
+		
+
+	</view>
+
+</theme>

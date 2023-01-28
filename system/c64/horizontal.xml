@@ -1,0 +1,45 @@
+<!-- C64  -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<image name="avatar" extra="static">
+			<pos>0.13 0.119</pos>
+			<scale>0.65</scale>
+			
+					
+
+		<storyboard>
+				
+				<animation property="x" to="0.20" begin="400" duration="2200" mode="EaseOut"/>
+				
+				<animation property="scale" from="0.65" to="0.8" begin="2700" duration="350" mode="Linear"/>
+				<animation property="x" from="0.20" to="0.345" begin="2700" duration="375" mode="EaseOut"/>
+				<animation property="y" from="0.119" to="-0.05" begin="2700" duration="375" mode="EaseOut"/>
+
+        		
+		</storyboard>
+		
+			
+		<storyboard ifSubset="systemview:horizontal">
+				
+				<animation property="x" to="0.20" begin="400" duration="2200" mode="EaseOut"/>
+				
+				<animation property="scale" from="0.65" to="1" begin="2700" duration="350" mode="Linear"/>
+				<animation property="x" from="0.20" to="0.30" begin="2700" duration="375" mode="EaseOut"/>
+				<animation property="y" from="0.119" to="-0.1" begin="2700" duration="375" mode="EaseOut"/>
+				
+		</storyboard>
+		
+		
+		
+		
+		
+		
+		
+		</image>
+	</view>
+
+</theme>

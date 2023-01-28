@@ -1,0 +1,57 @@
+<!-- Camputers LYNX -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="cochon" extra="static">
+			<pos>0.46 0</pos>
+			<scale>0.91</scale>
+			<rotation>-10</rotation>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./cochon.png</path>
+			<linearSmooth>true</linearSmooth>
+		
+		
+			 <storyboard repeat="forever">
+
+				
+                <animation property="rotation" from="-10" to="-7.5" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
+				<animation property="x" from="0.47" to="0.46" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
+				<animation property="scale" from="0.91" to="0.915" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
+				
+				
+
+            </storyboard>		
+			
+		</image>
+		
+		<image name="loup01" extra="static">
+			<pos>0.05 -0.5</pos>
+			<scale>0.9</scale>
+			<rotation>1.5</rotation>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./loup01.png</path>
+			<linearSmooth>true</linearSmooth>
+		
+		
+			 <storyboard repeat="forever">
+
+				
+               
+				<animation property="y" to="1" begin="" duration="20000" mode="linear"/>
+				
+				
+
+            </storyboard>		
+			
+		</image>
+		
+		
+		
+	</view>
+
+</theme>

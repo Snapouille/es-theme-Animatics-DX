@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme defaultView="detailed">
+  <formatVersion>7</formatVersion>
+  <view name="system">
+    <!-- Used by random box need to be declared there -->
+    <image name="box" extra="true">
+      <pos>0.50 0.18</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.24 0.24</maxSize>
+      <zIndex>12</zIndex>
+      <visible>false</visible>
+    </image>
+    <video name="videobox" extra="true">
+      <pos>0.50 0.18</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.24 0.24</maxSize>
+      <visible>false</visible>
+      <zIndex>12</zIndex>
+    </video>
+	
+		<image name="background" extra="static">
+		  <tile>false</tile>
+		  <size>1 1</size>
+		  <pos>0 0</pos>
+		  <origin>0 0</origin>
+		  <path>./../../art/divers/bg.jpg</path>
+		  <color>${backgroundColor}</color>
+		  <zIndex>10</zIndex>
+		</image>
+
+    <text name="logoText">
+      <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
+      <fontSize>0.06</fontSize>
+      <color>FFFFFFFF</color>
+      <glowColor>00000010</glowColor>
+      <glowSize>3</glowSize>
+      <forceUppercase>false</forceUppercase>    
+    </text>
+    
+  
+    
+    <!-- Règle d'affichage et animation des logos des systèmes -->
+	<image name="logo">
+      <path>./../../art/logos/${system.theme}.png</path>
+	  <path>./../../art/logos/${system.theme}.svg</path>
+	  <path>./../../art/logos/${system.theme}-${lang}.png</path>
+	  <path ifSubset="artworkregion:US">./../../art/logos/US/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:JP">./../../art/logos/JP/${system.theme}.png</path>
+	  <linearSmooth>true</linearSmooth>
+	  <storyboard event="activate" repeatAt="300">
+				<animation property="origin" from="0.5 0.5" to="0.5 0.53" begin="50" duration="250" mode="easeInOut"/>
+				<animation property="origin" from="0.5 0.53" to="0.5 0.47" begin="300" duration="1000" autoreverse="true" repeat="10" mode="easeInOut"/>
+				<animation property="rotation" to="360" begin="4300" duration="250" mode="easeInOut"/>
+				<animation property="scale" to="0.9" begin="5800" duration="250" autoreverse="true" mode="bump"/>
+				<animation property="rotation" to="-360" begin="7300" duration="250" mode="easeInOut"/>
+	  </storyboard>
+	  
+    </image>
+	
+	<image name="logo" ifSubset="logostyle:black">
+     
+      <saturation>0</saturation>
+         <storyboard event="activate" repeatAt="300">
+				<animation property="saturation" from="0" to="1" begin="" duration="" mode="Linear"/>
+				<animation property="origin" from="0.5 0.5" to="0.5 0.53" begin="50" duration="250" mode="easeInOut"/>
+				<animation property="origin" from="0.5 0.53" to="0.5 0.47" begin="300" duration="1000" autoreverse="true" repeat="10" mode="easeInOut"/>
+				<animation property="rotation" to="360" begin="4300" duration="250" mode="easeInOut"/>
+				<animation property="scale" to="0.9" begin="5800" duration="250" autoreverse="true" mode="bump"/>
+				<animation property="rotation" to="-360" begin="7300" duration="250" mode="easeInOut"/>
+	  </storyboard>
+    </image> 
+	
+	
+	
+	<!-- Règle d'affichage des consoles -->
+	<image name="Consoles" extra="static">
+      <path>./../../art/consoles/${system.theme}.png</path>
+	  <path>./../../art/consoles/${system.theme}.svg</path>
+	  <path ifSubset="artworkregion:US">./../../art/consoles/US/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:JP">./../../art/consoles/JP/${system.theme}.png</path>
+	  <linearSmooth>false</linearSmooth>
+	  
+	  
+	  <!-- <storyboard> -->
+			<!-- <animation property="scale" to="1.1" begin="3000" duration="250" autoreverse="true" mode="bump"/> -->
+	  <!-- </storyboard> -->
+	  
+  	</image>
+	
+	
+	
+	
+		    
+    <image name="BottomBar" extra="static">
+      <tile>false</tile>
+      <size>1 0.065</size>
+      <pos>0 1</pos>
+      <origin>0 1</origin>
+      <path>./../../art/divers/bottom.png</path>
+      <color>${bottomBarColor}</color>
+      <zIndex>50</zIndex>
+    </image>
+	
+    <image name="ControllerOverlay" extra="true">
+      <tile>false</tile>
+	  <origin>0.5 0.5</origin>
+      <path>./../../art/controllers/default.svg</path>
+      <path>./../../art/controllers/${system.theme}.svg</path>
+      <color>${baseColor}</color>
+      <zIndex>19</zIndex>
+      <linearSmooth>true</linearSmooth>
+    </image>
+	
+	
+	<!-- La barre en bas Helpsystem -->
+		<!-- <view name="system, basic, detailed"> -->
+		<!-- <view> -->
+		
+			<helpsystem name="help">
+				<!-- <size>0.01 0.01</size> -->
+				<maxSize>0.2 0.025</maxSize>
+				
+				<!-- <fontSize>0.023</fontSize> -->
+				<!-- <glowColor>00000080</glowColor> -->
+				<!-- <glowSize>1</glowSize> -->
+				<!-- <glowOffset>1</glowOffset> -->
+			</helpsystem>
+
+		<!-- </view> -->
+	
+	
+	
+	
+  </view>
+    
+  <feature supported="manufacturer">
+    <view name="system">
+      <text name="manufacturerName" extra="static">
+        <text>${system.sortedBy}</text>
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+        <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+        <fontSize>0.040</fontSize>
+        <pos>0.029 0.037</pos>
+        <size>0.942 0.28</size>
+        <color>C0C0C0</color>      
+        <zIndex>100</zIndex>
+        <color>D0D0D0FF</color>
+        <glowColor>00000080</glowColor>
+        <glowSize>1</glowSize>
+      </text>
+	  
+      <text name="fullName" extra="true">
+        <text>${system.fullName}</text>
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+        <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+        <fontSize>0.024</fontSize>
+        <pos>0.03 0.12</pos>
+        <pos verticalScreen="true">0.03 0.10</pos>         
+        <size>0.94 0.28</size>
+        <zIndex>100</zIndex>
+        <color>D0D0D0FF</color>
+        <glowColor>000000A0</glowColor>
+        <glowSize>1</glowSize>
+        
+        
+      </text>
+      <text name="releaseYyear" extra="true">
+        <text>${system.releaseYearOrNull}</text>
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+        <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+        <fontSize>0.024</fontSize>
+        <pos>0.03 0.157</pos>
+        <pos verticalScreen="true">0.03 0.127</pos>         
+        <size>0.94 0.28</size>        
+        <zIndex>100</zIndex>
+        <color>D0D0D0FF</color>
+        <glowColor>000000A0</glowColor>
+        <glowSize>1</glowSize>
+                
+   
+      </text> 
+    </view>
+  </feature>
+  
+</theme>

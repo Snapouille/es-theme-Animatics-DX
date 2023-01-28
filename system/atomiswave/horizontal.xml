@@ -1,0 +1,65 @@
+<!-- Atomiswave  -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		<image name="avatar" extra="static">
+			<pos>0.13 0.263</pos>
+			<scale>0.55</scale>
+			
+					
+
+		<storyboard>
+				
+				<animation property="x" to="0.20" begin="400" duration="2200" mode="EaseOut"/>
+				
+				<animation property="scale" from="0.55" to="0.65" begin="2700" duration="350" mode="Linear"/>
+				<animation property="x" from="0.20" to="0.413" begin="2700" duration="375" mode="EaseOut"/>
+				<animation property="y" from="0.263" to="0.149" begin="2700" duration="375" mode="EaseOut"/>
+
+        		
+		</storyboard>
+		
+			
+		<storyboard ifSubset="systemview:horizontal">
+				
+				<animation property="x" to="0.20" begin="400" duration="2200" mode="EaseOut"/>
+				
+				<animation property="scale" from="0.55" to="0.9" begin="2700" duration="350" mode="Linear"/>
+				<animation property="x"  to="0.38" begin="2700" duration="375" mode="EaseOut"/>
+				<animation property="y"  to="0.05" begin="2700" duration="375" mode="EaseOut"/>
+				
+		</storyboard>
+		
+				
+		</image>
+		
+		
+		<image name="sandstorm" extra="static">
+			<pos>0 0.2</pos>
+			<scale>4</scale>
+			<zIndex>15</zIndex>
+			<opacity>1</opacity>
+			<path>./sandstorm.png</path>
+
+
+			<storyboard repeat="forever">
+				<animation property="x" from="0" to="-0.35" begin="" autoreverse="true" duration="20000" mode="linear"/>
+				<animation property="y" from="0.2" to="0.203" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="scale" from="4" to="4.01" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="opacity" from="1" to="0.6" begin="" autoreverse="true" duration="1000" repeat="20" mode="linear"/>
+			
+			</storyboard>
+
+		
+		</image>
+		
+		
+		
+		
+	</view>
+
+</theme>

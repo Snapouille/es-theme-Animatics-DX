@@ -1,0 +1,154 @@
+<!-- Game Gear -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<image name="mickey" extra="static">
+			<pos>-0.2 0.34</pos>
+			<scale>0.65</scale>
+			<path>./mickey.png</path>
+			<opacity>0</opacity>
+			<zIndex>18</zIndex>
+		</image>	
+	
+		
+		<image name="sorciere" extra="static">
+			<pos>1 0.13</pos>
+			<scale>0.25</scale>
+			<rotation>-10</rotation>
+			<path>./sorciere.png</path>
+			<opacity>1</opacity>
+			<zIndex>18</zIndex>
+		</image>	
+		
+		<image name="sorciere2" extra="static">
+			<pos>-1 0.13</pos>
+			<scale>0.4</scale>
+			<path>./sorciere2.png</path>
+			<opacity>1</opacity>
+			<zIndex>18</zIndex>
+		</image>	
+		
+		
+		<image name="chauvesouris01" extra="static">
+			<pos>-1 -1</pos>
+			<scale>0.5</scale>
+			<path>./chauvesouris.png</path>
+			<opacity>1</opacity>
+			<zIndex>17</zIndex>
+		</image>
+		
+		<image name="chauvesouris02" extra="static">
+			<pos>-1 -1</pos>
+			<scale>0.5</scale>
+			<path>./chauvesouris.png</path>
+			<opacity>1</opacity>
+			<zIndex>17</zIndex>
+		</image>
+		
+		<image name="eye" extra="static">
+			<pos>0.117 0.17</pos>
+			<scale>1</scale>
+			<path>./eye.png</path>
+			<opacity>0</opacity>
+			<zIndex>17</zIndex>
+		</image>
+		
+		
+	<image name="mickey" extra="true">	
+		<storyboard repeat="forever">
+		
+				<animation property="opacity" to="1" begin="1200" duration="1500" mode="linear"/>
+				<animation property="x" to="0.18" begin="2000" autoreverse="true" duration="17000" mode="easeOutCubic"/>
+				<animation property="color" from="202020" to="FFFFFF" begin="2000" autoreverse="true" duration="17000" mode="easeOut"/>
+				
+				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
+				
+				
+			
+		</storyboard>
+	</image>
+	
+	<image name="eye" extra="true">	
+		<storyboard repeat="forever">
+		
+				<animation property="opacity" from ="0" to="0.9" begin="13000" duration="2000" mode="linear"/>
+				<animation property="opacity" from ="0.9" to="0" begin="23000" duration="2000" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
+			
+		</storyboard>
+	</image>
+	
+	
+	<image name="sorciere" extra="true">	
+		<storyboard repeat="forever">
+				
+				<animation property="x" from="1" to="-1" begin="1500" duration="9500" mode="easeIn"/>
+				
+				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
+				
+		</storyboard>
+	</image>
+	
+	
+	<image name="sorciere2" extra="true">	
+		<storyboard repeat="forever">
+				
+				<animation property="rotation" to="5" begin="22000" duration="1500" mode="linear"/>
+				
+				<animation property="x" from="-1" to="0.26" begin="22000" duration="3500" mode="linear"/>
+				
+				<animation property="x" from="0.26" to="0.262" begin="25500" autoreverse="true" duration="500" repeat="4" mode="linear"/>
+				<animation property="rotation" from="5" to="6" begin="25500" autoreverse="true" duration="1000" repeat="2" mode="linear"/>
+				<animation property="y" from="0.13" to="0.12" begin="25500" autoreverse="true" duration="500" repeat="4" mode="linear"/>
+				
+				<animation property="x" from="0.26" to="1" begin="29500" duration="2500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
+				
+		</storyboard>
+	</image>
+	
+	<image name="chauvesouris01" extra="true">	
+		<storyboard repeat="forever">
+		
+				<animation property="rotation" to="2" begin="700" duration="1000" mode="bump"/>
+                <animation property="x" to="0.4" begin="" duration="1700" mode="bump"/>
+                <animation property="rotation" from="2" to="-2" begin="1700" duration="1000" mode="bump"/>
+                
+				<animation property="x" from="0.4" to="0.30" begin="1700" duration="1500" mode="bump"/>
+				<animation property="y" from="0.3" to="0.03" begin="1700" duration="1500" mode="bump"/>
+    
+                <animation property="scale" from="0" to="30" begin="1700" duration="1500" mode="EaseIn"/>
+				<animation property="opacity" to="0" begin="1700" duration="1500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
+				
+		</storyboard>
+	</image>
+	
+	
+	<image name="chauvesouris02" extra="true">	
+		<storyboard repeat="forever">
+		
+				<animation property="rotation" to="-20" begin="1200" duration="2500" mode="bump"/>
+                <animation property="x" to="0.2" begin="1200" duration="1000" mode="bump"/>
+                <animation property="rotation" from="-20" to="-22" begin="2200" duration="1000" mode="bump"/>
+                
+				<animation property="x" from="0.2" to="0.01" begin="2200" duration="1500" mode="bump"/>
+				<animation property="y" from="0.4" to="0.03" begin="2200" duration="1500" mode="bump"/>
+    
+                <animation property="scale" from="0" to="30" begin="2200" duration="2000" mode="EaseIn"/>
+				<animation property="opacity" to="0" begin="2700" duration="1500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
+				
+		</storyboard>
+	</image>
+	
+	
+	
+	</view>
+</theme>

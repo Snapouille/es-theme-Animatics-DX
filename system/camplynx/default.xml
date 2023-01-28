@@ -1,0 +1,37 @@
+<!-- Camputers LYNX -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar-hangman" extra="static">
+			<pos>0.3 0</pos>
+			<scale>0.91</scale>
+			<rotation>1.5</rotation>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar-hangman.png</path>
+			<linearSmooth>true</linearSmooth>
+		
+		
+			 <storyboard repeat="forever">
+
+				
+                <animation property="rotation" from="1.5" to="-1" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
+				<animation property="x" from="0.3" to="0.31" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
+				<animation property="scale" from="0.91" to="0.915" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
+				
+				
+
+            </storyboard>		
+			
+		</image>
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

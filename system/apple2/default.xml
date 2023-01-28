@@ -1,0 +1,26 @@
+<!-- Apple II -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<image name="avatar" extra="static">
+			<pos>0.15 -0.15</pos>
+			<scale>1</scale>
+			<opacity>1</opacity>
+	
+
+
+			<storyboard>
+						
+				
+        		<animation property="x" to="-0.03" begin="900" autoreverse="true" duration="20000" repeat="forever" mode="easyIn"/>
+        		<animation property="color" to="202020" begin="900" autoreverse="true" duration="20000" repeat="forever" mode="easyIn"/>
+        						
+			</storyboard>
+
+		
+		</image>
+	</view>
+
+</theme>

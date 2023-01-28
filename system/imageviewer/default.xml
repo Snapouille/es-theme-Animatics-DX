@@ -1,0 +1,28 @@
+<!-- ImageViewer -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<image name="girlbeyond" extra="static">
+			<pos>0.33 0.27</pos>
+			<scale>1</scale>
+			<opacity>1</opacity>
+			<linearSmooth>true</linearSmooth>
+			<path>./girlbeyond.png</path>
+			<zIndex>17</zIndex>
+
+			<storyboard>
+						
+				
+        		<!-- <animation property="x" from="0.33" to="0.34" begin="" duration="15000" autoreverse="true" repeat="forever" mode="linear"/> -->
+				
+				
+        						
+			</storyboard>
+
+		
+		</image>
+	</view>
+
+</theme>

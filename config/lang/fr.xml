@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- French -->
+  <variables lang="fr">
+	<subset.region>Région</subset.region>
+	<europe>Europe</europe>
+	<usa>Amérique</usa>
+    <japan>Japon</japan>
+	<systemViewName>Vue Système</systemViewName>
+	<systemBackgroundName>Arrière-plan</systemBackgroundName>
+	<systembackground.snap>Avatar animation</systembackground.snap>
+	<systembackground.carboncontrol>Manettes fil de fer</systembackground.carboncontrol>
+	<systembackground.randomvideo>vidéo aléatoire</systembackground.randomvideo>
+	<systembackground.randombox>boîtes de jeu aléatoire</systembackground.randombox>
+    <tilesViewName>Vignettes</tilesViewName>
+    <iconsViewName>Icônes</iconsViewName>
+	<detailedLogoViewName>Détaillé avec liste de logos</detailedLogoViewName>
+    <basicGridName>Boites</basicGridName>
+    <carouselViewName>Carousel de boites</carouselViewName>
+	<InfoCustomView>Infos / Stats</InfoCustomView>
+	<infoDetailed>Détaillées</infoDetailed>
+	<totalGamesInfos>Total des jeux</totalGamesInfos>
+	<subset.colorset>Jeux de couleurs</subset.colorset>
+	<none>Aucun</none>
+    <blue>Bleu</blue>
+    <red>Rouge</red>
+    <green>Vert</green>
+    <yellow>Jaune</yellow>
+    <gray>Gris</gray>
+    <roundBorderSubsetName>Bords arrondis</roundBorderSubsetName>
+    <blinkBorderSubsetName>Bords clignotants</blinkBorderSubsetName>
+    <yes>Oui</yes>
+    <no>Non</no>
+    <previewBarSubsetName>Volet aperçu</previewBarSubsetName>
+    <videoboxesSubsetName>Afficher la video en mode boite</videoboxesSubsetName>
+    <zoomboxesSubsetName>Zoomer les boites</zoomboxesSubsetName>
+    <hideselectionSubsetName>Masquer la sélection</hideselectionSubsetName>
+    <optimizesmallscreensSubsetName>Optimiser pour les petits écrans</optimizesmallscreensSubsetName>
+    <animationsSubsetName>Animations de transition</animationsSubsetName>
+    <helpSubsetName>Icônes d'aide</helpSubsetName>
+    <colored>Colorés</colored>
+    <subset.shader>Effets TV</subset.shader>
+    <glowSubsetName>Sélection en Halo</glowSubsetName>
+    <systemViewExInfos>Informations du système améliorées</systemViewExInfos>
+    <dateFormat>%d/%m/%Y</dateFormat>
+    <helpbuttons>Position des boutons</helpbuttons>
+    <gamecarouseltype>Image source</gamecarouseltype>
+	<gamelistFont>Quelle Police de caractères ?</gamelistFont>
+	<gamelistFontSize>Quelle est la taille des caractères ?</gamelistFontSize>
+	<gamelistLines>Combien de lignes dans la gamelist ?</gamelistLines>
+    <gameBar>Barre d'information des jeux</gameBar>
+    <animatedInfobar>Animation du volet aperçu</animatedInfobar>
+	
+	<subset.logostyle>Style des logos</subset.logostyle>
+	<color>Colorés</color>
+	<blackandwhite>Noir et Blanc</blackandwhite>
+	
+  </variables>
+</theme>

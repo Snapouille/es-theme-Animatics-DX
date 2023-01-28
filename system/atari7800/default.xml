@@ -1,0 +1,100 @@
+<!-- Atari 5200 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar" extra="static">
+			<pos>0.4 1</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar.png</path>
+		</image>
+		
+		<image name="avatar2" extra="static">
+			<pos>0.05 0.2</pos>
+			<scale>0.5</scale>
+			<path>./avatar2.png</path>
+			<opacity>1</opacity>
+			<zIndex>17</zIndex>
+		</image>
+		
+		<image name="avatar3" extra="static">
+			<pos>0.57 0.585</pos>
+			<scale>0.5</scale>
+			<path>./avatar3.png</path>
+			<opacity>1</opacity>
+			<zIndex>17</zIndex>
+		</image>
+		
+		<image name="avatar4" extra="static">
+			<pos>-1 0.5</pos>
+			<scale>1</scale>
+			<path>./avatar4.png</path>
+			<zIndex>17</zIndex>
+		</image>
+		
+		<image name="avatar5" extra="static">
+			<pos>-1 0.5</pos>
+			<scale>1</scale>
+			<path>./avatar5.png</path>
+			<zIndex>17</zIndex>
+		</image>
+		
+		
+		<image name="avatar2" extra="true">
+			<storyboard repeat="forever">
+				<animation property="x" from="0.05" to="0.074" begin="" duration="400" mode="easyIn"/>
+				<animation property="y" from="0.2" to="0.14" begin="400" duration="400" mode="easyIn"/>
+				<animation property="x" from="0.074" to="0.5" begin="800" duration="4000" mode="easyIn"/>
+				<animation property="y" from="0.14" to="0.34" begin="4800" duration="800" mode="easyIn"/>
+				<animation property="x" from="0.5" to="0.537" begin="5600" duration="400" mode="easyIn"/>
+				<animation property="y" from="0.34" to="0.46" begin="6000" duration="400" mode="easyIn"/>
+				<animation property="x" from="0.537" to="0.62" begin="6400" duration="400" mode="easyIn"/>
+				<animation property="opacity" from="1" to="0" begin="6600" duration="200" mode="easyIn"/>
+			</storyboard>			
+		</image>
+		
+		<image name="avatar3" extra="true">
+			<storyboard repeat="forever">
+				<animation property="x" from="0.57" to="0.537" begin="" duration="400" mode="easyIn"/>
+				<animation property="y" from="0.585" to="0.522" begin="400" duration="400" mode="easyIn"/>
+				<animation property="x" from="0.537" to="0.145" begin="800" duration="4000" mode="easyIn"/>
+				<animation property="y" from="0.522" to="0.46" begin="4800" duration="400" mode="easyIn"/>
+				<animation property="x" from="0.145" to="0.01" begin="5200" duration="1200" mode="easyIn"/>
+				<animation property="opacity" from="1" to="0" begin="6000" duration="400" mode="easyIn"/>
+			</storyboard>			
+		</image>
+		
+		
+		<image name="avatar4" extra="true">
+			<storyboard>
+				<animation property="x" from="-1" to="1" begin="" duration="5000" mode="easyIn"/>
+				<animation property="y" to="0.3" begin="1000" duration="1000" mode="easyIn"/>
+				<animation property="y" to="0.1" begin="2000" duration="1000" mode="easyIn"/>
+				<animation property="y" to="0.3" begin="3000" duration="1000" mode="easyIn"/>	
+			</storyboard>			
+		</image>
+		
+		<image name="avatar5" extra="true">
+			<storyboard>
+				<animation property="x" from="1" to="-1" duration="5000" mode="easyIn"/>
+				<animation property="y" to="0.5" begin="1000" duration="1000" mode="easyIn"/>
+				<animation property="y" to="0.3" begin="2000" duration="1000" mode="easyIn"/>
+				<animation property="y" to="0.5" begin="3000" duration="1000" mode="easyIn"/>	
+			</storyboard>			
+		</image>
+		
+		<image name="avatar" extra="true">
+			<storyboard>
+				<animation property="y" from="1" to="0.3" begin="1500" duration="1000" mode="easyIn"/>
+				
+			</storyboard>			
+		</image>
+		
+		
+	</view>
+
+</theme>

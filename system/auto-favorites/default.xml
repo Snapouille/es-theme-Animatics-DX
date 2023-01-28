@@ -1,0 +1,67 @@
+<!-- Auto Favoris -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar" extra="static">
+			<pos>0.2 -1</pos>
+			<scale>1.5</scale>
+			<rotation>-5</rotation>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar.png</path>
+		</image>
+		
+		<image name="avatar2" extra="static">
+			<pos>0.015 -1</pos>
+			<scale>0.85</scale>
+			<path>./avatar2.png</path>
+			<opacity>1</opacity>
+			<zIndex>17</zIndex>
+		</image>
+		
+		<image name="avatar3" extra="static">
+			<pos>0.00 0.47</pos>
+			<scale>0.5</scale>
+			
+			<path>./avatar3.png</path>
+			<opacity>1</opacity>
+			<zIndex>17</zIndex>
+		</image>
+		
+		
+		
+		<image name="avatar" extra="true">
+			<storyboard>
+				<animation property="y" from="-1" to="0.25" begin="4500" duration="400" mode="easyIn"/>
+				<animation property="rotation" to="-1" begin="1900" autoreverse="true" duration="4000" repeat="forever" mode="easyIn"/>
+				<animation property="scale" from="1.5" to="1.6" begin="1900" autoreverse="true" duration="4000" repeat="forever" mode="easyIn"/>
+			</storyboard>			
+		</image>
+		
+		<image name="avatar2" extra="true">
+			<storyboard>
+				<animation property="y" from="-1" to="0.255" begin="300" duration="4000" mode="easyIn"/>
+				<animation property="rotation" to="5" begin="300" autoreverse="true" duration="650" repeat="3" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		<image name="avatar3" extra="true">
+			<storyboard repeat="forever">
+				<animation property="x" from="0" to="0.55" begin="" duration="2000" mode="easyIn"/>
+				<animation property="rotation" to="360" begin="2000" autoreverse="false" duration="1000" repeat="forever" mode="linear"/>
+				<animation property="x" from="0.5" to="1" begin="2000" duration="2000" mode="easyIn"/>
+				<animation property="y" from="0.47" to="-1" begin="2000" duration="1000" mode="easyIn"/>		
+				<animation property="scale" from="0.5" to="8" begin="2000" duration="1000" mode="easyIn"/>
+			</storyboard>			
+		</image>
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

@@ -1,0 +1,62 @@
+<!-- Amiga cd32 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>
+			<pos>0.495 0.50</pos>
+			<scale>0.8</scale>
+			<opacity>1</opacity>
+	
+
+
+			<storyboard repeat="forever">
+				
+				<animation property="rotation" to="1" begin="" autoreverse="true" duration="200" mode="linear"/>
+				
+				<animation property="scale" to="1.7" begin="3000" duration="100" mode="Linear"/>
+				<animation property="rotation" to="6" begin="3000" autoreverse="true" duration="100" mode="linear"/>
+        		<animation property="scale" to="1.2" begin="3150" duration="100" mode="Linear"/>			
+				
+        		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<animation property="color" from="ff000050" to="ff000050" begin="4000" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="4000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="4100" duration="150" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="4100" duration="150" mode="linear"/>
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<animation property="color" from="ff000050" to="ff000050" begin="6000" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="6000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="6050" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="6050" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="5150" duration="" mode="linear"/>
+				<animation property="origin" to="0.55 0.5" 	begin="6150" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="6200" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="6200" duration="50" mode="linear"/>
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<animation property="color" from="ff000050" to="ff000050" begin="9000" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="9000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9050" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5"	begin="9050" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="9150" duration="" mode="linear"/>
+				<animation property="origin" to="0.55 0.5" 	begin="9150" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9200" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="9200" duration="50" mode="linear"/>
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<animation property="color" from="ff000050" to="ff000050" begin="9500" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="9500" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9550" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="9550" duration="50" mode="linear"/>				
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				
+				<animation property="scale" to="8" begin="15000" duration="100" mode="Linear"/>
+				<animation property="rotation" to="15" begin="15000" autoreverse="true" duration="100" mode="linear"/>
+				<animation property="scale" to="0.8" begin="15100" duration="300" mode="Linear"/>
+			</storyboard>
+
+		
+		</image>
+	</view>
+
+</theme>

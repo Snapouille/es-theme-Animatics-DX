@@ -1,0 +1,75 @@
+<!-- Scumm VM -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar-barrel" extra="static">
+			<pos>0.01 0.49</pos>
+			<scale>0.35</scale>
+			<opacity>1</opacity>
+			<path>./avatar-barrel.png</path>
+			<zIndex>15</zIndex>
+			
+		</image>
+	
+	
+		<image name="avatar-monkey" extra="static">
+			<pos>0.025 0.52</pos>
+			<scale>0.63</scale>
+			<opacity>1</opacity>
+			<path>./avatar-monkey.png</path>
+			<zIndex>14</zIndex>
+			
+		<storyboard repeat="forever">
+				<animation property="x" to="0.085" begin="7000" duration="2500" autoreverse="true" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" begin="30000" duration="100" mode="linear"/>
+		</storyboard>
+			
+		
+		</image>
+		
+		
+		<image name="avatar-guybrush1" extra="static">
+			<pos>0.28 0.1175</pos>
+			<scale>0.8</scale>
+			<opacity>1</opacity>
+			<path>./avatar-guybrush1.png</path>
+			<zIndex>14</zIndex>
+			<storyboard repeat="forever">
+				<animation property="x" to="0.13" begin="" duration="2500" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="2400" duration="100" mode="linear"/>
+				
+				
+				<animation property="opacity" to="0" begin="59500" duration="500" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-guybrush2" extra="static">
+			<pos>0.28 0.1175</pos>
+			<scale>0.8</scale>
+			<opacity>0</opacity>
+			<flipX>true</flipX>
+			<path>./avatar-guybrush1.png</path>
+			<zIndex>14</zIndex>
+			<storyboard repeat="forever">
+				<animation property="x" to="0.13" begin="" duration="2500" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="2400" duration="100" mode="linear"/>
+				<animation property="x" to="0.20" begin="2500" duration="6500" autoreverse="true" repeat="3" mode="EaseOutCubic"/>
+				<animation property="x" to="0.25" begin="41500" duration="18500" mode="EaseOutCubic"/>
+				
+				<animation property="opacity" to="0" begin="59500" duration="500" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+	</view>
+	
+	
+	
+
+</theme>

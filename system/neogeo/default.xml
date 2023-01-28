@@ -1,0 +1,225 @@
+<!-- NEO GEO CD -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="disc" extra="static">
+			<pos>-0.8 -0.8</pos>
+			<scale>0.08</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./disc.png</path>
+
+		
+			<storyboard repeat="forever">
+				
+				<animation property="x" to="0.53" begin="" duration="2000" mode="EaseOut"/>
+				<animation property="y" to="0.25" begin="" duration="2000" mode="EaseOut"/>
+				<animation property="scale" to="0.8" begin="" duration="800" mode="bump"/>
+				<animation property="rotation" to="1111" begin="0" autoreverse="false" duration="2000" mode="EaseOut"/>
+				<animation property="scale" to="0.08" begin="800" duration="1200" mode="EaseOut"/>
+				
+				
+				<animation property="opacity" to="0" begin="18400" duration="100" mode="linear"/>
+				
+			</storyboard>
+
+		</image>
+		
+		<image name="energy" extra="static">
+			<pos>-0.8 -1</pos>
+			<scale>0.08</scale>
+			<zIndex>17</zIndex>
+			<opacity>1</opacity>
+			<path>./energy.png</path>
+
+		
+			<storyboard repeat="forever">
+				
+				<animation property="x" to="0.53" begin="" duration="2000" mode="EaseOut"/>
+				<animation property="y" to="0.25" begin="" duration="2000" mode="EaseOut"/>
+				<animation property="scale" to="0.8" begin="" duration="800" mode="bump"/>
+				<animation property="rotation" to="-1111" begin="0" autoreverse="false" duration="2000" mode="EaseOut"/>
+				<animation property="scale" to="0.08" begin="800" duration="1200" mode="EaseOut"/>
+				<animation property="opacity" to="0" begin="2000" duration="300" mode="linear"/>
+				
+				<animation property="scale" to="0.08" begin="18400" duration="100" mode="linear"/>
+				
+				
+			</storyboard>
+
+		</image>
+		
+		
+		
+		
+	
+		<image name="avatar1" extra="static">
+			<pos>-1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar1.png</path>
+
+		
+			<storyboard repeat="forever">
+				
+				<animation property="x" to="0.21" begin="1500" duration="700" mode="linear"/>
+				<animation property="x" to="0.24" begin="2200" duration="1500" mode="linear"/>
+				<animation property="x" to="-1" begin="3700" duration="700" mode="linear"/>
+				
+				<animation property="x" to="-1" begin="18400" duration="100" mode="linear"/>
+				
+			</storyboard>
+
+		</image>
+		
+		
+		<image name="avatar2" extra="static">
+			<pos>1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar2.png</path>
+
+		
+			<storyboard repeat="forever">
+				
+				<animation property="x" to="0.3" begin="3300" duration="700" mode="linear"/>
+				<animation property="x" to="0.27" begin="4000" duration="1500" mode="linear"/>
+				<animation property="x" to="1" begin="5500" duration="700" mode="linear"/>
+				
+				<animation property="x" to="1" begin="18400" duration="100" mode="linear"/>
+				
+				
+			</storyboard>
+		
+		</image>
+		
+		
+		
+		<image name="avatar3" extra="static">
+			<pos>-1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar3.png</path>
+
+		
+			<storyboard repeat="forever">
+				
+				<animation property="x" to="0.21" begin="5100" duration="700" mode="linear"/>
+				<animation property="x" to="0.24" begin="5800" duration="1500" mode="linear"/>
+				<animation property="x" to="-1" begin="7300" duration="700" mode="linear"/>
+				
+				<animation property="x" to="-1" begin="18400" duration="100" mode="linear"/>
+				
+			</storyboard>
+
+		</image>
+		
+		
+		<image name="avatar4" extra="static">
+			<pos>1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar4.png</path>
+
+		
+			<storyboard repeat="forever">
+				
+				<animation property="x" to="0.3" begin="6900" duration="700" mode="linear"/>
+				<animation property="x" to="0.27" begin="7600" duration="1500" mode="linear"/>
+				<animation property="x" to="1" begin="9100" duration="700" mode="linear"/>
+				
+				<animation property="x" to="1" begin="18400" duration="100" mode="linear"/>
+				
+				
+			</storyboard>
+		
+		</image>
+		
+		
+		
+		<image name="avatar5" extra="static">
+			<pos>-1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar5.png</path>
+
+		
+			<storyboard repeat="forever">
+				
+				<animation property="x" to="0.21" begin="8700" duration="700" mode="linear"/>
+				<animation property="x" to="0.24" begin="9400" duration="1500" mode="linear"/>
+				<animation property="x" to="-1" begin="10900" duration="700" mode="linear"/>
+				
+				<animation property="x" to="-1" begin="18400" duration="100" mode="linear"/>
+				
+			</storyboard>
+
+		</image>
+		
+		
+		<image name="avatar6" extra="static">
+		
+			<pos>1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar6.png</path>
+
+		
+			<storyboard repeat="forever">
+				
+				<animation property="x" to="0.3" begin="10500" duration="700" mode="linear"/>
+				<animation property="x" to="0.27" begin="11200" duration="1500" mode="linear"/>
+				
+				
+				<animation property="scale" to="1" begin="12700" duration="300" mode="linear"/>
+				<animation property="x" to="0.346" begin="12700" duration="300" mode="bump"/>
+				<animation property="y" to="0.31" begin="12700" duration="300" mode="linear"/>
+				
+				<animation property="scale" to="5" begin="17500" duration="1000" mode="linear"/>
+				<animation property="x" to="-0.3" begin="17500" duration="1000" mode="linear"/>
+				<animation property="y" to="-0.2" begin="17500" duration="1000" mode="linear"/>
+				
+				
+				
+				
+				
+				
+			</storyboard>
+
+		</image>
+		
+		
+		<image name="avatar6arm" extra="static">
+		
+			<pos>0.338 0.268</pos>
+			<scale>1.1</scale>
+			<rotation>-3</rotation>
+			<zIndex>19</zIndex>
+			<opacity>0</opacity>
+			<path>./avatar6arm.png</path>
+
+		
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="14000" duration="100" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" to="0" begin="14400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="18400" duration="100" mode="linear"/>
+			</storyboard>
+
+		</image>
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

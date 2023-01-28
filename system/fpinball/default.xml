@@ -1,0 +1,26 @@
+<!-- Future Pinball -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+			<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<pos>0.3 0.1</pos>
+			<scale>0.08</scale>
+			<path>./avatar.png</path>
+			<linearSmooth>true</linearSmooth>
+			
+			
+			<storyboard>
+				
+				<animation property="y" to="1" begin="" duration="1700" mode="EaseIn"/>
+				<animation property="rotation" to="1080" begin="" duration="1700" mode="EaseIn"/>
+
+			</storyboard>
+		</image>
+		
+	</view>
+	
+</theme>

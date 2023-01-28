@@ -1,0 +1,14 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+			<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<pos>0.35 0.38</pos>
+			<maxSize>0.3800 0.5000</maxSize>
+			<path>./avatar.png</path>
+			<linearSmooth>true</linearSmooth>
+		</image>
+	</view>
+</theme>

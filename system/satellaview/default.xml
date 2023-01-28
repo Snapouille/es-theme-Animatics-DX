@@ -1,0 +1,49 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+		
+		<text name="bg-image-game-name" extra="true">
+			<text>Sutte Hakkun</text>
+		</text>
+
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<pos>0.396 0.177</pos>
+			<maxSize>0.25 0.8</maxSize>
+			<zIndex>19</zIndex>
+		</image>
+
+		<!-- Arc en ciel -->
+		<!-- <image name="avatar2" extra="static"> -->
+			<!-- <origin>0 0</origin> -->
+			<!-- <pos>0 0.05</pos> -->
+			<!-- <maxSize>1 1</maxSize> -->
+			<!-- <path>./avatar2.png</path> -->
+			<!-- <linearSmooth>true</linearSmooth> -->
+			<!-- <color>FFFFFFB3</color> -->
+			<!-- <zIndex>18</zIndex> -->
+		<!-- </image> -->
+
+		<!-- Sprites -->
+		<image name="avatar3" extra="static">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<maxSize>1 1</maxSize>
+			<path>./avatar3.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>17</zIndex>
+		</image>
+
+		<!-- Nuages -->
+		<image name="avatar4" extra="static">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<maxSize>1 1</maxSize>
+			<path>./avatar4.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>16</zIndex>
+		</image>
+
+	</view>
+</theme>

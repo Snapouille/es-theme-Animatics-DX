@@ -1,0 +1,42 @@
+<!-- Dreamcast  -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		<image name="avatar-ryo" extra="static">
+			<pos>0.18 0.2</pos>
+			<scale>0.55</scale>
+			<opacity>1</opacity>
+			<path>./avatar-ryo.png</path>
+			<zIndex>15</zIndex>
+			
+					
+
+		<storyboard>
+				
+				<animation property="x" to="0.20" begin="400" duration="2200" mode="EaseOut"/>
+				
+				<animation property="scale" to="1.1" begin="2700" duration="350" mode="Linear"/>
+				<animation property="x" from="0.20" to="0.413" begin="2700" duration="375" mode="EaseOut"/>
+				<animation property="y" from="0.263" to="0.149" begin="2700" duration="375" mode="EaseOut"/>
+
+        		
+		</storyboard>
+		
+			
+		
+				
+		</image>
+		
+		
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

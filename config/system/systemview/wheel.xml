@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<!-- <include>./../extendedinfo.xml</include> -->
+	
+  	
+	<!-- HOUR / PAD position -------------------------- -->
+	<!-- <view name="screen"> -->
+
+		<!-- <controllerActivity name="controllerActivity"> -->
+			<!-- <pos>0.0161 0.0107</pos> -->
+		<!-- </controllerActivity> -->
+		<!-- <text name="clock"> -->
+			<!-- <pos>0.6724 0.9573</pos> -->
+		<!-- </text> -->
+
+	<!-- </view> -->
+	
+	<view name="system">
+	
+		<!-- on masque les consoles, pas besoin pour cette vue -->
+		  <image name="Consoles" extra="static" tinyScreen="false">
+			<visible>false</visible>
+		  </image>
+		
+		<!-- HELP BAR position -->
+		<!-- <helpsystem name="help"> -->
+			<!-- <pos>0.0161 0.9648</pos> -->
+		<!-- </helpsystem> -->
+		
+		<!-- Menu WHEEL -->
+		<carousel name="systemcarousel">
+			<pos>0.35 0.075</pos>
+			<size>1 0.85</size>
+			<type>vertical_wheel</type> <!-- horizontal_wheel / vertical_wheel" -->
+			<logoSize>0.18 0.155</logoSize> <!-- 0.25 0.155 -->
+			<logoScale>1.25</logoScale> <!-- 1.2 -->
+			<maxLogoCount>13</maxLogoCount> <!-- Image cache only -->
+			<logoRotation>-7</logoRotation> <!-- 7.5 : Inclinaison des logos, moins incliné = plus de logos -->
+			<logoRotationOrigin>4.2 0.5</logoRotationOrigin> <!-- -5 0.5 : L'éloigner écarte les logos -->
+			<logoAlignment>center</logoAlignment> <!-- left, right / top, bottom / center : of screen -->
+			<color>transparent</color>
+			<zIndex>30</zIndex>
+		</carousel>
+		
+		
+		<!-- Wheel BACKGROUND -->
+		<image name="staticMenu" extra="static">
+			<origin>1 0</origin>
+			<pos>1 0</pos>
+			<size>0.3 1</size>
+			<path>./../../../art/bg-sys-wheel-vert-right.png</path>
+			<color>${baseColor}</color>
+			<zIndex>29</zIndex>
+		</image>
+		
+		
+		<!-- Wheel triangle de Sélection -->
+		
+			<image name="diament" extra="static">
+			<origin>0 0.5</origin>
+			<pos>0.706 0.5</pos>
+			<size>0.028 0.058</size>
+			<path>./../../colorset/${activeColor}-triangle.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>100</zIndex>
+			
+			<storyboard>
+				<animation property="x" from="0.706" to="0.710" begin="100" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
+			</storyboard>
+			
+		</image>
+		
+		 
+	
+	
+<!-- Position de la Darkwheel pour les stats -->
+<!-- Affiche le cadre seulement si on a mis le InfoCustomView sur "detailed" -->
+   <image name="darkwheel" extra="static" tinyScreen="false" ifSubset="InfoCustomView:detailed">
+      <tile>false</tile>
+      <pos>0.668 0.83</pos>
+      <size>0.36 0.18</size>
+      <origin>0.5 0.5</origin>
+      <path>./../../../art/darkwheel5.png</path>
+	  <color>${baseColor}</color>
+      <zIndex>28</zIndex>
+      <visible verticalScreen="true">false</visible>
+	  <opacity>0</opacity>
+	  
+	  <!-- Animation des infos -->
+	  <storyboard repeatAt="5000">
+				<animation property="opacity" from="0" to="1" begin="300" duration="1000" mode="linear"/>
+				<animation property="x" from="1" begin="300" duration="500" mode="easyIn"/>	
+	  </storyboard>
+			
+    </image>
+
+	
+<!-- Position de la MINI Darkwheel pour le total des jeux -->
+<!-- Affiche le cadre seulement si on a mis le InfoCustomView sur "total" -->
+   <image name="darkwheel" extra="static" tinyScreen="false" ifSubset="InfoCustomView:total">
+      <tile>false</tile>
+      <pos>0.72 0.85</pos>
+      <size>0.16 0.0518</size>
+      <origin>0.5 0.5</origin>
+      <path>./../../../art/darkwheel5.png</path>
+	  <color>${baseColor}</color>
+      <zIndex>28</zIndex>
+      <visible verticalScreen="true">false</visible>
+	  <opacity>0</opacity>
+	  
+	  <!-- Animation des infos -->
+	  <storyboard repeatAt="5000">
+				<animation property="opacity" from="0" to="1" begin="700" duration="1000" mode="linear"/>
+				<animation property="x" from="1" begin="700" duration="500" mode="easyIn"/>	
+	  </storyboard>
+			
+    </image>
+
+
+	
+		
+	</view>
+	
+	
+  
+  <feature supported="manufacturer">
+    <view name="system">
+	
+	  <!-- On masque les infos des systèmes, nom, nom complet et année de sortie -->
+	  <text name="manufacturerName, fullName, releaseYyear" extra="static">
+		<visible>false</visible>
+      </text>
+	
+	
+	
+	
+	  <!-- Position des infos sur les statistiques du système -->
+      <text name="systemInfoEx" extra="true">
+        <alignment>left</alignment>
+		<pos>0.5 0.69</pos>
+		<opacity>0.5</opacity>
+		<zIndex>29</zIndex>
+		<storyboard repeatAt="5000">
+				<animation property="opacity" from="1" to="0" duration="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="800" duration="1000" mode="linear"/>
+				<animation property="x" from="1" begin="300" duration="500" mode="easyIn"/>
+	   </storyboard>
+      </text>
+	  
+	  
+	  
+	  
+	  
+	  
+	  <!-- TEXT totaux des jeux -->
+		 
+		<!-- On affiche le total des jeux si l'option TOTAL a été select -->
+		<text name="systemInfo" ifSubset="InfoCustomView:total">
+			<origin>0 0</origin>
+			<size>0.09 0.04</size>
+			<pos>0.65 0.831</pos>
+			<fontSize>0.025</fontSize>
+			<fontPath>./../../art/fonts/BankGothic-Regular.ttf</fontPath>
+			<alignment>center</alignment>
+			<color>ffffff</color>
+			<glowColor>000000</glowColor>
+            <glowSize>0.5</glowSize>
+			<visible>true</visible>
+			<opacity>0</opacity>
+			<zIndex>29</zIndex>
+			<storyboard repeatAt="5000">
+					<animation property="opacity" from="0" to="1" begin="1000" duration="1000" mode="linear"/>
+					<animation property="x" from="1" begin="300" duration="500" mode="easyIn"/>
+		   </storyboard>		
+		</text>
+	  
+	  <!-- On masque tout si l'option NONE a été select -->
+		<text name="systemInfo" ifSubset="InfoCustomView:nothing">
+			<visible>false</visible>	
+		</text>
+	  
+    </view>
+				
+  </feature>
+		
+</theme>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <view name="system">
+    <carousel name="systemcarousel">
+      <defaultTransition>fade &amp; slide</defaultTransition> <!-- slide / fade / instant -->
+    </carousel>
+	
+    <image name="background" extra="true">
+      <!-- <visible>false</visible> -->
+    </image>
+	
+	<!-- System BACK-ILLUSTRAION -->
+    <image name="snapLegacy" extra="true">
+      <tile>false</tile>
+      <linearSmooth>true</linearSmooth>
+      <path>{random:fanart}</path>
+	  <path>./../../../system/background-default.png</path>
+      <path>./../../../system/${system.theme}/background.png</path>
+	  <scale>0.99</scale>
+	  <color>202020</color>
+	  
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <minSize>1 1</minSize>
+      <zIndex>11</zIndex>
+	  
+	  
+	  <storyboard>
+				<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
+				
+        		<animation property="scale" to="1" begin="" duration="500" mode="linear"/>
+				
+				
+			</storyboard>
+	  
+	  
+    </image>
+	
+	<!-- Sytem AVATAR -->
+		<image name="avatar" extra="static">
+			<origin>0 0</origin> <!-- Left -->
+			<pos>0.2823 0.047</pos>
+			<maxSize>0.2969 0.9067</maxSize>
+			<path>./../../../system/${system.theme}/avatar.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>16</zIndex>
+		</image>
+	
+	
+    <image name="backgroundFade" extra="static">
+      <tile>false</tile>
+      <linearSmooth>true</linearSmooth>
+      <path>./../../../art/backfade.png</path>
+      <color>FFFFFFFF</color>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <minSize>1 1</minSize>
+      <zIndex>12</zIndex>
+    </image>
+   
+    <image name="ControllerOverlay" extra="true">
+      <visible>false</visible>
+    </image>
+    
+    
+  </view>
+  
+  
+  <!-- Auto Views Design -->
+	<include>./../../../system/${system.theme}/default.xml</include>
+	<include ifSubset="SystemView:horizontal">./../../../system/${system.theme}/horizontal.xml</include>
+	
+  
+</theme>

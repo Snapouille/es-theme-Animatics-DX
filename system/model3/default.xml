@@ -1,0 +1,63 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- AVATARS -->
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<pos>0.155 0.145</pos>
+			<scale>0.85</scale>
+			<storyboard repeatAt="350">
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+				<animation property="x" from="1" begin="0" duration="350" mode="easyOut"/>
+				<animation property="origin" to="0.01 0.01" begin="350" duration="500" mode="linear"/>
+				<animation property="origin" to="0.02 0" begin="850" duration="500"  mode="linear"/>
+				<animation property="origin" to="0.01 0.01" begin="1350" duration="500" mode="linear"/>
+				<animation property="origin" to="0 0" begin="1850" duration="500"  mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="avatar-wolf" extra="static">
+			<origin>0 0</origin>
+			<pos>0.46 0.05</pos>
+			<scale>0.95</scale>
+			<path>./avatar-wolf.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>15</zIndex>
+			<storyboard repeatAt="350">
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+				<animation property="x" from="1" begin="0" duration="350" mode="easyOut"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		<!-- SMOKE -->
+		<image name="avatar4, avatar5" extra="static">
+			<origin>0 0</origin>
+			<size>0.78 0.625</size>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>17</zIndex>
+		</image>
+		<image name="avatar4" extra="static">
+			<pos>0.016 0.5</pos>
+			<path>./avatar-smoke.png</path>
+			<storyboard repeatAt="350">
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+				<animation property="x" from="-1" begin="0" duration="350" mode="easyOut"/>
+				<animation property="origin" to="-0.3 0" begin="100" duration="10000" autoreverse="true" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="avatar5" extra="static">
+			<pos>0.04 0.38</pos>
+			<path>./avatar-smoke.png</path>
+			<color>ffffff</color>
+			<storyboard repeatAt="350">
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+				<animation property="x" from="1" begin="0" duration="350" mode="easyOut"/>
+				<animation property="origin" to="0.2 0" begin="100" duration="10000" autoreverse="true" mode="linear"/>
+			</storyboard>
+		</image>
+		
+	</view>
+</theme>

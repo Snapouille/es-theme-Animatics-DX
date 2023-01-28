@@ -1,0 +1,61 @@
+<!-- QUAKE -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		
+	
+	
+	
+		<image name="avatar-quakeguy" extra="static">
+			<pos>0.15 0.13</pos>
+			<scale>0.6</scale>
+			<opacity>1</opacity>
+			<path>./avatar-quakeguy.png</path>
+			<zIndex>17</zIndex>
+			
+			<!-- <visible>false</visible>		 -->
+
+			<storyboard repeat="forever">
+					
+					<animation property="x" to="0.21" begin="500" duration="1500" mode="EaseOut"/>
+					
+					<animation property="scale" to="0.8" begin="2000" duration="350" mode="Linear"/>
+					<animation property="x" to="0.37" begin="2000" duration="375" mode="EaseOut"/>
+					<animation property="y" to="0.03" begin="2000" duration="375" mode="EaseOut"/>
+
+					<animation property="opacity" repeatAt="400" begin="3800" from="1" to="0.8" duration="10" autoreverse="true" repeat="5" mode="linear"/>
+					<animation property="opacity" repeatAt="400" begin="4500" from="1" to="0.8" duration="5" autoreverse="true" repeat="3" mode="linear"/>
+					<animation property="opacity" repeatAt="400" begin="6500" from="1" to="0.8" duration="7" autoreverse="true" repeat="2" mode="linear"/>
+					<animation property="opacity" repeatAt="400" begin="7000" from="1" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
+					<animation property="opacity" repeatAt="400" begin="12000" from="1" to="0.8" duration="10" autoreverse="true" repeat="10" mode="linear"/>
+					
+					<animation property="opacity" repeatAt="400" begin="15000" from="1" to="0.8" duration="10" autoreverse="true" repeat="5" mode="linear"/>
+					<animation property="opacity" repeatAt="400" begin="16500" from="1" to="0.8" duration="5" autoreverse="true" repeat="3" mode="linear"/>
+					<animation property="opacity" repeatAt="400" begin="18500" from="1" to="0.8" duration="7" autoreverse="true" repeat="2" mode="linear"/>
+					<animation property="opacity" repeatAt="400" begin="19000" from="1" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
+					<animation property="opacity" repeatAt="400" begin="24000" from="1" to="0.8" duration="10" autoreverse="true" repeat="10" mode="linear"/>
+					
+					<animation property="x" to="1" begin="25000" duration="500" mode="linear"/>
+					<animation property="opacity" to="0" begin="25500" duration="500" mode="linear"/>
+					
+			</storyboard>
+		
+		
+		</image>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

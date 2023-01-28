@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme defaultView="detailed">
+  
+ <formatVersion>7</formatVersion> 
+ <view name="basic">
+ 
+	
+	
+      
+	<image name="background">
+      <tile>false</tile>
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <path>./../../art/divers/bg.png</path>
+	  <color>${backgroundColor}</color>
+      <zIndex>10</zIndex>
+    </image>
+   
+   
+	<image name="logo">
+   
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
+		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.08" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+   
+	
+	
+	
+	
+	
+	<textlist name="gamelist" ifSubset="selectorstyle:bar|cursor">
+     <scrollSound>./art/sounds/scroll.wav</scrollSound>
+	  <selectorColor>${centerFadeColor}</selectorColor>
+	  <selectedColor>fdde0b</selectedColor>
+      <primaryColor>777277</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+	  <fontSize>0.034</fontSize>
+	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+      <forceUppercase>1</forceUppercase>
+	  <pos>0.25 0.21</pos>
+      <size>0.5 0.67</size>
+	  <glowColor>000000aa</glowColor>
+	  <glowSize>1.5</glowSize>
+	  <glowOffset>1.5 1.5</glowOffset>
+	  <lines>11</lines>
+      <alignment>center</alignment>
+	</textlist>
+		
+
+	
+	
+
+	
+			
+	
+	
+</view>
+  
+ <include>./gamelistParameters.xml</include>
+
+  
+</theme>

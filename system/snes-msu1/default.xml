@@ -1,0 +1,247 @@
+<!-- SNES -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="firebrand" extra="static">
+			<pos>1 0.35</pos>
+			<scale>0.25</scale>
+			<zIndex>18</zIndex>
+			<opacity>0</opacity>
+			<path>./firebrand.png</path>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		
+		<image name="firebrandflou" extra="static">
+			<pos>1 0.35</pos>
+			<scale>0.25</scale>
+			<zIndex>18</zIndex>
+			<opacity>0</opacity>
+			<path>./firebrandflou.png</path>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		
+		<image name="flou" extra="static">
+			<pos>1 0.35</pos>
+			<scale>0.25</scale>
+			<zIndex>18</zIndex>
+			<opacity>0</opacity>
+			<path>./flou.png</path>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		
+		<image name="grilles" extra="static">
+			<pos>0 0</pos>
+			<scale>1</scale>
+			<rotation>0</rotation>
+			<zIndex>17</zIndex>
+			<opacity>0</opacity>
+			<path>./grilles.png</path>
+			
+			<storyboard>
+			     <animation property="opacity" from="0" to="1" begin="500" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		
+		<image name="head" extra="static">
+			<pos>0.25 0.19</pos>
+			
+			
+			<scale>1.1</scale>
+			<rotation>-20</rotation>
+			<zIndex>16</zIndex>
+			<opacity>0</opacity>
+			<path>./head.png</path>			
+		</image>
+		
+		
+		<image name="eye1" extra="static">
+			<pos>0.203 0.34</pos>
+			<scale>0.7</scale>
+			<rotation>-20</rotation>
+			<zIndex>16</zIndex>
+			<opacity>0</opacity>
+			<path>./eye1.png</path>			
+		</image>
+		
+		<image name="eye2" extra="static">
+			<pos>0.201 0.339</pos>
+			<scale>0.7</scale>
+			<rotation>-35</rotation>
+			<zIndex>16</zIndex>
+			<opacity>0</opacity>
+			<path>./eye2.png</path>			
+		</image>
+		
+		
+		
+		
+		<image name="head" extra="true">
+		
+			 <storyboard repeat="forever">
+			 
+			    <animation property="opacity" from="0" to="1" begin="7000" duration="10" mode="linear"/>
+				<animation property="x" from="0.25" to="0.187" begin="7000" duration="4000" mode="linear"/>
+				<animation property="y" from="0.19" to="0.195" begin="7000" autoreverse="true" duration="400" repeat="5" mode="EaseIn"/>
+				
+				<animation property="x" from="0.187" to="0.25" begin="21000" duration="4000" mode="linear"/>
+				<animation property="y" from="0.195" to="0.19" begin="21000" autoreverse="true" duration="400" repeat="5" mode="EaseIn"/>
+				
+				<animation property="opacity" from="1" to="0" begin="25000" duration="5000" mode="linear"/>
+									
+			</storyboard>				
+		</image>
+		
+		
+		<image name="eye1" extra="true">
+		
+			 <storyboard repeat="forever">
+			 
+			    <animation property="opacity" from="0" to="1" begin="11000" duration="300" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="11300" duration="300" mode="linear"/>
+				
+				<animation property="opacity" from="0" to="0" begin="29000" duration="1000" mode="linear"/>
+			
+			</storyboard>				
+		</image>
+		
+		<image name="eye2" extra="true">
+		
+			 <storyboard repeat="forever">
+			 
+			    <animation property="opacity" from="0" to="1" begin="11300" duration="300" mode="linear"/>
+				
+				<animation property="opacity" from="1" to="0" begin="14000" duration="100" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="14200" duration="100" mode="linear"/>
+				
+				<animation property="opacity" from="1" to="0" begin="17000" duration="100" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="17200" duration="100" mode="linear"/>
+				
+				<animation property="opacity" from="1" to="0" begin="20000" duration="1000" mode="linear"/>
+				
+				<animation property="opacity" from="0" to="0" begin="29000" duration="1000" mode="linear"/>
+			
+			</storyboard>				
+		</image>
+		
+		
+		
+		
+		<image name="firebrandflou" extra="true">
+		
+			 <storyboard repeat="forever">
+			 
+				<animation property="x" from="0.95" to="0.35" begin="1300" duration="400" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="1700" duration="200" mode="linear"/>
+				<animation property="y" from="0.35" to="0.355" begin="1700" autoreverse="true" duration="400" repeat="1" mode="easeOut"/>
+				
+				<animation property="rotation" to="-0.5" begin="2000" autoreverse="true" duration="500" repeat="1" mode="linear"/>
+				
+				<animation property="x" from="0.35" to="0.50" begin="3000" duration="2000" mode="easeOut"/>
+				<animation property="y" from="0.35" to="0.18" begin="3000" duration="2000" mode="easeIn"/>
+				<animation property="scale" from="0.25" to="0.22" begin="3000" duration="2000" mode="linear"/>
+				<animation property="rotation" to="-5" begin="3000" autoreverse="true" duration="500" repeat="3" mode="linear"/>
+				
+				<animation property="x" to="0.33" begin="6000" duration="500" mode="bump"/>
+				<animation property="y" to="0.21" begin="6000" duration="500" mode="easeOut"/>
+                <animation property="scale" to="0.9" begin="6000" duration="500" mode="easeOut"/>
+				
+				<animation property="opacity" from="1" to="0" begin="6000" duration="500" mode="linear"/>
+				
+				<animation property="x" to="-0.95" begin="29000" duration="1000" mode="linear"/>
+				
+
+            </storyboard>		
+			
+		</image>
+		
+		
+		
+		
+		<image name="firebrand" extra="true">
+		
+			 <storyboard repeat="forever">
+				
+				
+				
+				
+				
+				
+				
+				<animation property="x" to="0.33" begin="6000" duration="500" mode="bump"/>
+				<animation property="y" to="0.21" begin="6000" duration="500" mode="easeOut"/>
+                <animation property="scale" to="0.9" begin="6000" duration="500" mode="easeOut"/>
+				
+				<animation property="opacity" from="0" to="1" begin="6000" duration="500" mode="linear"/>
+				
+				
+				
+				
+				
+				
+				<animation property="rotation" to="0.5" begin="6500" autoreverse="true" duration="650" repeat="14" mode="linear"/>
+				<animation property="y" to="0.23" begin="6500" autoreverse="true" duration="400" repeat="1" mode="easeOut"/>
+				
+				<animation property="opacity" from="1" to="0" begin="25950" duration="50" mode="linear"/>
+				
+				<animation property="x" to="-0.95" begin="29000" duration="1000" mode="linear"/>
+				
+            </storyboard>		
+			
+		</image>
+		
+		<image name="flou" extra="true">
+		
+			 <storyboard repeat="forever">
+			 
+			    <animation property="opacity" from="0" to="1" begin="1300" duration="100" mode="linear"/>
+				
+				<animation property="x" from="0.95" to="0.35" begin="1300" duration="400" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="1700" duration="200" mode="linear"/>
+				<animation property="y" from="0.35" to="0.355" begin="1700" autoreverse="true" duration="400" repeat="1" mode="easeOut"/>
+				
+				<animation property="x" from="0.5" to="0.415" begin="5000" duration="10" mode="linear"/>
+				<animation property="y" from="0.18" to="0.205" begin="5000" duration="10" mode="linear"/>
+                <animation property="scale" from="0.22" to="0.7" begin="5000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" from="0" to="1" begin="25950" duration="50" mode="linear"/>
+				<animation property="x" from="0.415" to="-0.95" begin="26000" duration="400" mode="linear"/>
+				
+				<animation property="x" to="-0.95" begin="29000" duration="1000" mode="linear"/>
+				
+			</storyboard>				
+		
+		</image>
+		
+		
+		<image name="fire" extra="static">
+			<pos>0 0</pos>
+			<scale>1</scale>
+			<opacity>1</opacity>
+			<path>./fire.png</path>
+			<zIndex>16</zIndex>
+		</image>
+		
+		
+		<image name="fire" extra="true">
+		
+			<storyboard repeat="forever">
+				
+				<animation property="opacity" from="0" to="1" begin="" duration="1000" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="5000" duration="100" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="5200" duration="200" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="5600" duration="500" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="7600" duration="200" autoreverse="true" repeat="2" mode="linear"/>
+				
+			</storyboard>
+		
+		</image>
+		
+		
+	</view>
+
+</theme>

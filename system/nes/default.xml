@@ -1,0 +1,78 @@
+<!-- Nintendo NES -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<!-- Sytem AVATAR -->
+		<image name="avatar" extra="static">
+			<pos>0.025 1</pos>
+			<size>1 1</size>
+			<zIndex>17</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar.png</path>
+		</image>
+
+		<image name="avatar2" extra="static">
+			<pos>-1 0</pos>
+			<size>1 1</size>
+			<path>./avatar2.png</path>
+			<zIndex>16</zIndex>
+		</image>
+
+		<image name="avatar3" extra="static">
+			<pos>0 1</pos>
+			<size>0.5 0.5</size>
+			<path>./avatar.png</path>
+			<zIndex>16</zIndex>
+		</image>
+
+		<image name="avatar4" extra="static">
+			<pos>-1 0</pos>
+			<size>1 1</size>
+			<path>./avatar4.png</path>
+			<zIndex>16</zIndex>
+		</image>
+
+
+		<image name="avatar" extra="true">
+			<storyboard repeatat="0">
+				<animation property="y" from="1" to="-0.1" begin="" duration="1000" mode="easyIn"/>
+				<animation property="y" to="1" begin="2000" duration="1000" mode="easyIn"/>
+				<animation property="opacity" from="1" to="0" begin="3000" duration="3000" mode="linear"/>	
+			</storyboard>			
+		</image>
+
+		<image name="avatar2" extra="true">
+			<storyboard repeat="forever">
+				<animation property="x" from="-1" to="1" duration="5000" mode="easyIn"/>
+				<animation property="y" to="0.1" begin="1000" duration="1000" mode="easyIn"/>
+				<animation property="y" to="0" begin="2000" duration="1000" mode="easyIn"/>
+				<animation property="y" to="0.1" begin="3000" duration="1000" mode="easyIn"/>	
+			</storyboard>			
+		</image>
+
+		
+
+		<image name="avatar3" extra="true">
+			<storyboard repeatat="0">
+				<animation property="opacity" from="1" to="0" begin="" duration="" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3500" duration="500" mode="linear"/>
+				<animation property="y" from="1" to="0.1" begin="3000" duration="1000" mode="easyIn"/>
+				<animation property="y" to="1" begin="5000" duration="1000" mode="easyIn"/>
+				<animation property="opacity" from="1" to="0" begin="5000" duration="500" mode="linear"/>
+			</storyboard>			
+		</image>
+
+		<image name="avatar4" extra="true">
+			<storyboard>
+				<animation property="x" from="-1" to="1" begin="10000" duration="5000" mode="easyIn"/>
+				<animation property="y" to="0.1" begin="11000" duration="1000" mode="easyIn"/>
+				<animation property="y" to="0" begin="12000" duration="1000" mode="easyIn"/>
+				<animation property="y" to="0.1" begin="13000" duration="1000" mode="easyIn"/>	
+			</storyboard>			
+		</image>
+		
+	</view>
+</theme>

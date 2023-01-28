@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  
+  <feature supported="manufacturer">
+	<view name="system">
+	
+		<!-- PLUS RIEN n EST PRIS EN COMPTE SUR LE PLACEMENT
+				A VOIR PLUS TARD POUR TROUVER LA SOLUTION -->
+      <text name="manufacturerName" extra="true">
+	    <visible>false</visible>
+        <pos>0.44 0.56</pos>
+		<fontSize>0.033</fontSize>
+        <alignment>center</alignment>
+      </text>
+	  <!-- on vire le nom complet qui fait doublon -->
+      <text name="fullName" extra="true">
+		<visible>false</visible>
+      </text>
+      <text name="releaseYyear" extra="true">
+	   <visible>false</visible>
+       <pos>0.441 0.595</pos>
+	   <fontSize>0.040</fontSize>
+        <alignment>center</alignment>
+      </text>
+  
+	<!-- Position des infos sur les statistiques du système si ils sont affichés -->
+    
+      <text name="systemInfoEx" extra="true">
+        <alignment>right</alignment>
+      </text>
+    </view>
+  </feature>
+  
+  
+  
+  
+  
+  
+  
+  <view name="system">
+	<!-- position du LOGO du systeme -->
+    <carousel name="systemcarousel">
+		<maxLogoCount>1</maxLogoCount>
+		<type>horizontal</type>
+		<!-- <defaultTransition>slide</defaultTransition> -->
+		<pos>0.69 -0.237</pos>
+		<size>0.34 1.435</size>
+		<color>00000000</color>
+		<colorEnd>00000000</colorEnd>
+		<logoScale>1.3</logoScale>
+        <logoSize>0.15 0.12</logoSize>
+    </carousel>
+	
+	 
+	
+	<!-- emplacement et animation du logo avec effet vanish  -->
+		<image name="VanishingColorLogos" extra="static">
+		  <linearSmooth>true</linearSmooth>
+		  <pos>0.86 0.48</pos>
+		  <origin>0.5 0.5</origin>
+		  <maxSize>0.20 0.84</maxSize>
+		  <path>./../../../art/logos/default.png</path>
+		  <path>./../../../art/logos/${system.theme}.png</path>
+		  <path>./../../../art/logos/${system.theme}.svg</path>
+		  <path>./../../../art/logos/${system.theme}-${lang}.svg</path>
+		  <path>./../../../art/logos/${system.theme}-${lang}.png</path>
+		  <path ifSubset="artworkregion:US">./../../../art/logos/US/default.png</path>
+		  <path ifSubset="artworkregion:US">./../../../art/logos/US/${system.theme}.png</path>
+		  <path ifSubset="artworkregion:US">./../../../art/logos/US/${system.theme}.svg</path>
+		  <path ifSubset="artworkregion:JP">./../../../art/logos/JP/default.png</path>
+		  <path ifSubset="artworkregion:JP">./../../../art/logos/JP/${system.theme}.png</path>
+		  <path ifSubset="artworkregion:JP">./../../../art/logos/JP/${system.theme}.svg</path>
+		  <opacity>0</opacity>
+		  <zIndex>20</zIndex>
+		  <storyboard>
+			  <animation property="opacity" from="0.55" to="0" begin="295" duration="1000" mode="EaseOut"/>
+			  <animation property="scale" from="1.05" to="1.2" begin="295" duration="1000" mode="EaseOut"/>
+			  <animation property="color" from="FFAAAA" to="FF7777" begin="275" duration="1000" mode="EaseOut"/>
+		  </storyboard>
+		</image>
+	
+	
+	
+    <text name="systemInfo">
+      <pos>0.04 0.67</pos>
+      <size>0.92 0.25</size>
+    </text>
+		<image name="CenterFade" extra="true">
+		  <tile>false</tile>
+		  <pos>0.5 0</pos>
+		  <size>1 0.2</size>
+		  <origin>0.5 0.5</origin>
+		  <path>./../../../art/divers/centerfade.png</path>
+		  <color>${centerFadeColor}</color>
+		  <visible>true</visible>
+		</image>
+		<image name="CenterFade2" extra="true">
+		  <tile>false</tile>
+		  <pos>0.5 1</pos>
+		  <size>1 0.25</size>
+		  <origin>0.5 0.5</origin>
+		  <path>./../../../art/divers/centerfade.png</path>
+		  <color>${centerFadeColor}</color>
+		  <visible>true</visible>
+		</image>
+	
+		
+	<!-- Position du cadre du système selectionner  -->
+   <image name="darkwheel" extra="static" tinyScreen="false">
+      <tile>false</tile>
+      <pos>0.86 0.525</pos>
+      <size>0.26 0.28</size>
+      <origin>0.5 0.5</origin>
+      <path>./../../../art/divers/darkwheel2.png</path>
+	  <color>${baseColor}</color>
+      <zIndex>12</zIndex>
+      <visible verticalScreen="true">false</visible>
+    </image>
+	
+	<!-- Affichage de la mini console  -->
+	
+	<image name="Consoles" extra="static" tinyScreen="false">
+      <tile>false</tile>
+      <pos>0.791 0.606</pos>
+	  <maxSize>0.099 0.08</maxSize>
+      <origin>0.5 0.5</origin>
+	  <path>./../../../art/consoles/${system.theme}.png</path>
+      <zIndex>100</zIndex>
+      <visible verticalScreen="true">false</visible>
+	  
+	  <storyboard repeatAt="1">
+			<animation property="opacity" from="1" to="1" begin="350" duration="" mode="Linear"/>
+            <animation property="offsetY" from="0" to="-0.06" begin="620" duration="350" mode="EaseOutCubic" autoReverse="true"/>
+            <animation property="offsetY" from="0" to="-0.038" begin="1320" duration="250" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="-0.024" begin="1820" duration="140" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="-0.009" begin="2100" duration="60" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="-0.0025" begin="2220" duration="20" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="0" begin="2260" duration="2500" mode="Linear" autoReverse="true"/>
+	  </storyboard>	
+	  
+    </image>
+	
+	<!-- Mise en place et animation des chevrons gauche et droite -->
+	
+	<image name="Chevron droite" extra="static">
+      <origin>0.5 0.5</origin>
+      <size>0.02 0</size>
+	  <path>./../../../art/divers/chevron-snap.svg</path>
+      <linearSmooth>true</linearSmooth>
+	  <zIndex>41</zIndex>
+	  <pos>0.973 0.481</pos>
+		<rotation>90</rotation>
+		<storyboard repeat="forever">
+            <animation property="offsetX" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetX" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron gauche" extra="static">
+      <origin>0.5 0.5</origin>
+      <size>0.02 0</size>
+	  <path>./../../../art/divers/chevron-snap.svg</path>
+      <linearSmooth>true</linearSmooth>
+	  <zIndex>41</zIndex>
+	  <pos>0.747 0.481</pos>
+	  <rotation>-90</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	
+	
+	<!-- TEXT totaux des jeux -->
+		 
+		<!-- On affiche le total des jeux si l'option TOTAL a été select -->
+		<text name="systemInfo" ifSubset="InfoCustomView:total">
+			<visible>false</visible>
+			<origin>0 0</origin>
+			<size>0.09 0.04</size>
+			<pos>0.87 0.36</pos>
+			<fontSize>0.023</fontSize>
+			<fontPath>./../../../art/fonts/ubuntu.ttf</fontPath>
+			<alignment>center</alignment>
+			<color>${systemInfoColor}</color>
+			<backgroundColor>737373</backgroundColor>
+			<reflexion>0 0</reflexion>
+			<visible>true</visible>			
+			<zIndex>13</zIndex>
+		</text>
+	  
+	  <!-- On affiche RIEN si l'option NONE a été select -->
+		<text name="systemInfo" ifSubset="InfoCustomView:nothing">
+			<visible>false</visible>	
+		</text>
+	
+			
+	
+  </view>
+  
+  
+  
+  
+</theme>

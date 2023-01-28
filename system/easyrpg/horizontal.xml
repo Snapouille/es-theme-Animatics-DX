@@ -1,0 +1,67 @@
+<!-- Easy RPG -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar-girl" extra="static">
+			<pos>0.38 0.06</pos>
+			<scale>0.8</scale>
+			<opacity>1</opacity>
+			<path>./avatar-girl.png</path>
+			<zIndex>14</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" to="0.28" begin="" duration="20000" autoreverse="true" mode="EaseOutCubic"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-island_left" extra="static">
+			<pos>0.05 0.06</pos>
+			<scale>0.9</scale>
+			<opacity>1</opacity>
+			<rotation>20</rotation>
+			<path>./avatar-island_left.png</path>
+			<zIndex>14</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" to="0.07" begin="" duration="7000" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="rotation" from="20" to="10" begin="" duration="28000" autoreverse="true" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-island_center" extra="static">
+			<pos>0.23 0.31</pos>
+			<scale>0.6</scale>
+			<opacity>1</opacity>
+			<rotation>-10</rotation>
+			<path>./avatar-island_center.png</path>
+			<zIndex>14</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" to="0.21" begin="" duration="9000" repeat="2" autoreverse="true" mode="linear"/>
+				<animation property="rotation" from="-10" to="20" begin="" duration="18000" autoreverse="true" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-island_up" extra="static">
+			<pos>0.5 0</pos>
+			<scale>1</scale>
+			<opacity>1</opacity>
+			<rotation>0</rotation>
+			<path>./avatar-island_up.png</path>
+			<zIndex>14</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" to="0.3" begin="" duration="20000" autoreverse="true" mode="linear"/>
+				
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

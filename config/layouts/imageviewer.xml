@@ -1,0 +1,10 @@
+﻿<theme>
+  <formatVersion>7</formatVersion>
+    <view name="system" ifSubset="subsetSystemInfoEx:yes">
+      <text name="systemInfoEx" extra="true">
+        <text>Items : {binding:total}</text>
+        <text lang="fr">Nombre d'élements : {binding:total}</text>
+        <text lang="es">Número de elementos: {binding:total}</text>
+      </text>
+  </view>
+</theme>

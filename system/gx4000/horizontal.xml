@@ -1,0 +1,33 @@
+<!-- GX4000 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<image name="avatar" extra="static">
+			<pos>0.35 0.43</pos>
+			<scale>0.3</scale>
+			<opacity>1</opacity>
+	
+
+
+			<storyboard>
+						
+				<animation property="scale" from="0.3" to="0.6" begin="800" duration="1500" mode="Linear"/>
+        		<animation property="x" from="0.35" to="0.1" begin="1000" duration="1500" mode="EaseOut"/>
+				<animation property="y" from="0.43" to="0.21" begin="1000" duration="1500" mode="EaseOut"/>
+				
+				<animation property="scale" to="0.98" begin="2500" duration="1000" mode="Linear"/>
+				<animation property="x" to="0.33" begin="2500" duration="1000" mode="EaseOut"/>
+				<animation property="y" to="-0.11" begin="2500" duration="1000" mode="EaseOut"/>
+				
+				<animation property="scale" to="1" begin="3500" duration="3000" autoreverse="true" repeat="forever" mode="EaseInOut"/>
+				<animation property="y" to="-0.13" begin="3500" duration="3000" autoreverse="true" repeat="forever" mode="EaseInOut"/>
+        						
+			</storyboard>
+
+		
+		</image>
+	</view>
+
+</theme>

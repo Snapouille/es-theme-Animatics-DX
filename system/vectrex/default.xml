@@ -1,0 +1,112 @@
+<!-- Vectrex -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+
+	<view name="system">
+		<image name="avatar" extra="static">
+			<pos>-1 0.25</pos>
+			<scale>0.7</scale>
+			<path>./avatar.png</path>
+			<opacity>0</opacity>
+			<zIndex>17</zIndex>
+		</image>	
+
+	
+		<image name="avatar2" extra="static">
+			<pos>0.397 0.25</pos>
+			<scale>0.335</scale>
+			<path>./avatar2.png</path>
+			<opacity>0</opacity>
+			<zIndex>16</zIndex>
+		</image>	
+	
+	
+	<image name="avatar3" extra="static">
+			<pos>1 0.11</pos>
+			<scale>0.3</scale>
+			<path>./avatar3.png</path>
+			<opacity>1</opacity>
+			<zIndex>17</zIndex>
+	</image>
+	
+	<image name="avatar4" extra="static">
+			<pos>-1 0.55</pos>
+			<scale>0.35</scale>
+			<path>./avatar.png</path>
+			<opacity>1</opacity>
+			<zIndex>17</zIndex>
+	</image>
+	
+	
+		<image name="avatar" extra="true">	
+		
+			<storyboard repeat="forever">
+					
+					<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear"/>
+					
+					<animation property="x" from="-1" to="0.1" begin="100" duration="700" mode="EaseOut"/>
+					<animation property="x" from="0.1" to="0.40" begin="800" duration="3000" mode="EaseOut"/>
+					
+					<animation property="opacity" from="1" to="0" begin="3900" duration="40" autoreverse="true" repeat="5" mode="linear"/>
+					<animation property="opacity" from="1" to="0" begin="4400" duration="15" mode="linear"/>
+					
+					<animation property="scale" to="1.9" begin="4415" duration="5600" mode="bump"/>
+					<animation property="x" to="-0.1128" begin="4415" duration="5600" mode="EaseOut"/>
+					<animation property="y" to="0.3" begin="4415" duration="5600" mode="EaseOut"/>
+					
+					<animation property="opacity" from="0" to="1" begin="13000" duration="10" mode="linear"/>
+					
+					<animation property="x" from="-0.1128" to="1" begin="13000" duration="2000" mode="EaseOut"/>
+					<animation property="x" from="1" to="1" begin="15000" duration="5000" mode="EaseOut"/>
+					
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="avatar2" extra="true">	
+			<storyboard repeat="forever">
+					
+					<animation property="opacity" from="0" to="1" begin="3800" duration="100" mode="linear"/>
+					<animation property="x" to="0.398" begin="" duration="" mode="EaseOut"/>
+					<animation property="y" to="0.25" begin="" duration="" mode="EaseOut"/>
+					
+					<animation property="scale" to="0.9" begin="5000" duration="6000" mode="Linear"/>
+					<animation property="x" to="-0.11" begin="5000" duration="4000" mode="EaseOut"/>
+					<animation property="y" to="0.3" begin="5000" duration="4000" mode="EaseOut"/>
+					
+					<animation property="y" from="0.3" to="0.299" begin="11000" duration="300" autoreverse="true" repeat="3" mode="EaseOut"/>
+					<animation property="rotation" from="0" to="0.01" begin="11000" duration="300" autoreverse="true" repeat="3" mode="EaseOut"/>
+					<animation property="scale" from="0.9" to="0.901" begin="11000" duration="300" autoreverse="true" repeat="3" mode="EaseOut"/>
+					<animation property="x" from="-0.11" to="-0.111" begin="11000" duration="300" autoreverse="true" repeat="3" mode="EaseOut"/>
+					
+					<animation property="opacity" from="1" to="0" begin="13000" duration="10" mode="EaseOut"/>
+					<animation property="opacity" from="0" to="0" begin="13010" duration="6990" mode="EaseOut"/>
+					
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="avatar3" extra="true">	
+			<storyboard repeat="forever">
+					<animation property="x" from="1" to="-1" begin="3000" duration="10000" mode="EaseOut"/>
+					<animation property="x" from="-1" to="-1" begin="13000" duration="1500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar4" extra="true">	
+			<storyboard repeat="forever">
+				    <animation property="opacity" from="0" to="1" begin="6000" duration="" mode="EaseOut"/>
+					<animation property="x" from="-1" to="1" begin="6000" duration="4000" mode="EaseOut"/>
+					<animation property="opacity" from="1" to="0" begin="10000" duration="5000" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

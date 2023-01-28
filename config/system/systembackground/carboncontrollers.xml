@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <view name="system">
+    <carousel name="systemcarousel">
+      <defaultTransition>fade &amp; slide</defaultTransition> <!-- slide / fade / instant -->
+    </carousel>
+	
+    <image name="background" extra="true">
+      <visible>false</visible>
+    </image>
+	
+	
+	
+    <image name="backgroundFade" extra="static">
+      <tile>false</tile>
+      <linearSmooth>true</linearSmooth>
+      <path>./../../../art/backfade.png</path>
+      <color>FFFFFFFF</color>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <minSize>1 1</minSize>
+      <zIndex>12</zIndex>
+    </image>
+   
+    <image name="ControllerOverlay" extra="true">
+      <tile>false</tile>
+      <pos>0.325 0.385</pos>
+      <origin>0.5 0.5</origin>
+	  <maxSize>0.50 0.55</maxSize> 
+	  <path>./../../../art/controllers/${system.theme}.svg</path>
+	  <path>./../../../art/controllers/${system.theme}.png</path>
+      <linearSmooth>false</linearSmooth>
+	  <scale>0</scale>
+	  <zIndex>23</zIndex>
+	  <color>${baseColor}</color>
+	  <storyboard>
+				<animation property="scale" from="0" to="1" begin="620" duration="375" mode="EaseOut"/>
+	  
+				
+				
+				<animation property="opacity" from="0" to="1" duration="450" mode="linear"/>
+				
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<animation property="color" from="ff000050" to="ff000050" begin="3000" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="3000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="3100" duration="150" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="3100" duration="150" mode="linear"/>
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<animation property="color" from="ff000050" to="ff000050" begin="5000" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="5000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="5050" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="5050" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="5150" duration="" mode="linear"/>
+				<animation property="origin" to="0.55 0.5" 	begin="5150" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="5200" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="5200" duration="50" mode="linear"/>
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<animation property="color" from="ff000050" to="ff000050" begin="9000" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="9000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9050" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5"	begin="9050" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="9150" duration="" mode="linear"/>
+				<animation property="origin" to="0.55 0.5" 	begin="9150" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9200" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="9200" duration="50" mode="linear"/>
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<animation property="color" from="ff000050" to="ff000050" begin="9500" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="9500" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9550" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="9550" duration="50" mode="linear"/>				
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				
+				
+      </storyboard>  
+    </image>
+    
+    
+  </view>
+  
+  
+  
+	
+  
+</theme>

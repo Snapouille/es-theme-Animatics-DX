@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+version : V1
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme defaultView="detailed">
+  <formatVersion>7</formatVersion>
+  <variables>
+    <baseColor>8b0000</baseColor>
+    <gradientEndColor>6b2020</gradientEndColor>
+    <centerFadeColor>8b000050</centerFadeColor>
+    <backgroundColor>200000</backgroundColor>
+    <bottomBarColor>8b0000c0</bottomBarColor>
+    <glowColor>Ab000020</glowColor>
+    <systemInfoColor>DDDDDDD8</systemInfoColor>
+    <groupColor>BD4747</groupColor>
+    <groupSeparatorColor>BD4747</groupSeparatorColor>
+    <!-- <backgroundImage>./art/fiber.png</backgroundImage> -->
+    <tilesViewName>Tiles</tilesViewName>
+    <iconsViewName>Icons</iconsViewName>
+	<!-- <detailedLogoViewName>Detailed with logo list</detailedLogoViewName> -->
+    <roundBorderSubsetName>Round borders</roundBorderSubsetName>
+    <blinkBorderSubsetName>Blinking borders</blinkBorderSubsetName>
+    <previewBarSubsetName>Preview bar</previewBarSubsetName>
+    <!-- <videoboxesSubsetName>Show Video in boxes</videoboxesSubsetName> -->
+    <zoomboxesSubsetName>Zoom boxes</zoomboxesSubsetName>
+    <orientationSubsetName>Orientation</orientationSubsetName>
+    <videosSubsetName>Videos</videosSubsetName>
+    <logosSubsetName>Logos</logosSubsetName>
+    <systemViewExInfos>Extended system informations</systemViewExInfos>
+    <animationsSubsetName>Transition Animations</animationsSubsetName>
+    <hideselectionSubsetName>Hide selection</hideselectionSubsetName>
+    <systemBackgroundName>System background</systemBackgroundName>
+    <optimizesmallscreensSubsetName>Optimize for small screens</optimizesmallscreensSubsetName>
+    <helpSubsetName>Help icons</helpSubsetName>
+    <systemViewName>System view</systemViewName>
+    <systemview.darkened>darkened</systemview.darkened>
+    <systemview.horizontal>horizontal</systemview.horizontal>
+    <systemview.legacy>legacy</systemview.legacy>
+    <systemview.transparent>transparent</systemview.transparent>
+    <systemview.simple>simple</systemview.simple>
+    <systemview.vertical>vertical</systemview.vertical>
+    <systemview.wheel>wheel</systemview.wheel>
+    <colored>Colored</colored>
+    <subset.colorset>Colorset</subset.colorset>
+    <subset.shader>Shader</subset.shader>
+    <glowSubsetName>Glow selection</glowSubsetName>
+    <helpbuttons>Button location</helpbuttons>
+    <xboxbuttons>Xbox buttons</xboxbuttons>
+    <psxbuttons>Playstation buttons</psxbuttons>
+    <marquee>marquee</marquee>
+    <image>image</image>
+    <text>text</text>
+	<gamelistFont>What the Typo?</gamelistFont>
+	<gamelistFontSize>What the size of the Typo?</gamelistFontSize>
+	<gamelistLines>How many lines in the gamelist?</gamelistLines>
+    <thumbnail>thumbnail</thumbnail>
+    <animatedInfobar>Animated preview bar</animatedInfobar>
+	
+	
+	
+	<subset.logostyle>Logo Style</subset.logostyle>
+	<color>Colorful</color>
+	<blackandwhite>Black and White</blackandwhite>
+	
+  </variables>
+  
+  
+
+  <!-- Language  -->
+  <include lang="fr">./config/lang/fr.xml</include>
+  <include lang="pt">./config/lang/pt.xml</include>
+  <include lang="es">./config/lang/es.xml</include>
+  
+  <!-- Subset options for Regional Artwork and Logos -->
+	<subset name="artworkregion" displayName="${subset.region}">
+		<include name="EU" displayName="${europe}"/>
+		<include name="US" displayName="${usa}"/>
+		<include name="JP" displayName="${japan}"/>
+	</subset>
+  
+  
+   <!-- Colorsets  -->
+  <subset name="colorset" displayName="${subset.colorset}">
+    <include name="cyan"  displayName="${cyan}">./config/colorset/cyan.xml</include>
+    <include name="blue" displayName="${blue}">./config/colorset/blue.xml</include>
+	<include name="orange"  displayName="${orange}">./config/colorset/orange.xml</include>
+	<include name="yellow" displayName="${yellow}">./config/colorset/yellow.xml</include>
+    <include name="red" displayName="${red}">./config/colorset/red.xml</include>
+    <include name="green" displayName="${green}">./config/colorset/green.xml</include>
+    <include name="violet"  displayName="${violet}">./config/colorset/violet.xml</include>
+    <include name="gray" displayName="${gray}">./config/colorset/gray.xml</include>
+  </subset>
+  
+  
+  
+  <!-- Affichage des logos couleur/n&b -->
+	  <subset name="logostyle" displayName="${subset.logostyle}">
+		<include name="color" displayName="${color}"/>
+		<include name="black" displayName="${blackandwhite}"/>
+	  </subset>
+			  
+	
+	
+	
+	
+  
+  
+  
+  <!-- Informations complémentaires (statistiques) sur les sets  -->
+  <subset name="InfoCustomView" displayName="${InfoCustomView}" extra="true">
+    <include name="detailed" displayName="${infoDetailed}">./config/system/extendedinfo.xml</include>
+    <include name="total" displayName="${totalGamesInfos}"/>
+    <include name="nothing" displayName="${none}"/>
+  </subset>
+  
+    
+  <!-- Subset options for screen -->
+  <subset name="SystemView" displayName="${systemViewName}">
+    <include name="vertical"  displayName="${systemview.vertical}">./config/system/systemview/vertical.xml</include>
+	<include name="horizontal"  displayName="${systemview.horizontal}">./config/system/systemview/horizontal.xml</include>
+	<!-- <include name="vertical arts"  displayName="${systemview.vertical2}">./config/system/systemview/vertical2.xml</include> -->
+    <!-- <include name="wheel" displayName="${systemview.wheel}">./config/system/systemview/wheel.xml</include> -->
+	<include name="simple" displayName="${systemview.simple}">./config/system/systemview/simple.xml</include>
+  </subset>
+  
+  
+  <!-- Subset option for System view background -->
+  <subset name="systembackground" displayName="${systemBackgroundName}">
+    <include name="snap legacy" displayName="${systembackground.snap}">./config/system/systembackground/snaplegacy.xml</include>
+	<include name="carbon control" displayName="${systembackground.carboncontrol}">./config/system/systembackground/carboncontrollers.xml</include>
+    <include name="random video" displayName="${systembackground.randomvideo}">./config/system/systembackground/video.xml</include>
+    <include name="random box" displayName="${systembackground.randombox}">./config/system/systembackground/box.xml</include>
+  </subset>
+  
+  
+    
+ 
+
+
+
+
+ 
+  
+   <!--  MENU Popup  -->
+  <view name="menu">
+    <menuText name="menutitle">
+      <fontPath>./art/fonts/flatwheat.ttf</fontPath>
+      <fontSize>0.038</fontSize>
+      <color>FAFAFA</color>
+    </menuText>
+    <menuText name="menufooter">
+      <fontPath>./art/fonts/aucune_snap.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+      <color>777777FF</color>
+    </menuText>
+    <menuText name="menutext">
+      <fontPath>./art/fonts/ubuntu.ttf</fontPath>
+      <fontSize>0.030</fontSize>
+      <color>969696</color>
+      <separatorColor>282828</separatorColor>
+      <selectorColor>${baseColor}</selectorColor>
+      <selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+      <selectedColor>FFFFFF</selectedColor>
+      <selectorGradientType>horizontal</selectorGradientType>
+    </menuText>
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./art/fonts/ubuntu.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+      <color>${groupColor}</color>
+    </menuTextSmall>
+    <menuGroup name="menugroup">
+      <fontPath>./art/fonts/ubuntu-bold.ttf</fontPath>
+      <fontSize>0.028</fontSize>
+      <color>${groupColor}</color>
+      <separatorColor>${groupSeparatorColor}</separatorColor>
+      <backgroundColor>00000000</backgroundColor>
+      <lineSpacing>2.5</lineSpacing>
+    </menuGroup>
+    <menuBackground name="menubg">
+      <color>242424</color>
+      <cornerSize>32 32</cornerSize>
+      <path>./art/divers/frame.png</path>
+      <scrollbarColor>96969620</scrollbarColor>
+      <scrollbarCorner>0.49</scrollbarCorner>
+      <scrollbarSize>0.003</scrollbarSize>
+      <scrollbarAlignment>innerright</scrollbarAlignment>
+    </menuBackground>
+    <menuIcons name="menuicons">
+      <iconKodi>./art/icons/Kodi.png</iconKodi>
+      <iconSystem>./art/icons/System.png</iconSystem>
+      <iconUpdates>./art/icons/Updates.png</iconUpdates>
+      <iconGames>./art/icons/Games.png</iconGames>
+      <iconControllers>./art/icons/Controllers.png</iconControllers>
+      <iconUI>./art/icons/UI.png</iconUI>
+      <iconSound>./art/icons/Sound.png</iconSound>
+      <iconNetwork>./art/icons/Network.png</iconNetwork>
+      <iconScraper>./art/icons/Scraper.png</iconScraper>
+      <iconAdvanced>./art/icons/Advanced.png</iconAdvanced>
+      <iconQuit>./art/icons/Quit.png</iconQuit>
+      <iconRestart>./art/icons/Restart.png</iconRestart>
+      <iconShutdown>./art/icons/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./art/icons/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./art/icons/Contest Snap.png</iconRetroachievements>
+      <iconManual>./art/icons/Manual.png</iconManual>
+    </menuIcons>
+    <menuTextEdit name="menutextedit">
+      <inactive>./art/divers/textinput_ninepatch.png</inactive>
+      <active>./art/textinput_ninepatch_active.png</active>
+    </menuTextEdit>
+    <menuButton name="menubutton">
+      <path>./art/divers/button.png</path>
+      <filledPath>./art/divers/button_filled.png</filledPath>
+      <cornerSize>8 8</cornerSize>
+    </menuButton>
+  </view>
+  
+  
+  
+  
+  
+  
+  
+  
+	<!-- View always on TOP Manettes Horloge Indicateurs de batterie -->
+	<view name="screen">
+
+		<controllerActivity name="controllerActivity">
+			  <pos>0.01 0.012</pos>
+			  <size>0.185 0.023</size>
+			  <itemSpacing>0.003</itemSpacing>
+			  <color>FFFFFF90</color>
+			  <!-- controllers -->
+			  <imagePath>./art/gamepad.svg</imagePath>
+			  <gunPath>./art/gun.svg</gunPath>
+			  <activityColor>A0A0FFC0</activityColor>
+			  <hotkeyColor>FFA0A0C0</hotkeyColor>
+		</controllerActivity>
+		
+		
+		
+		<text name="clock">
+			  <origin>1 1</origin>
+			  <color>777777FF</color>
+			  <pos>0.99 0.99</pos>
+			  <fontSize>0.031</fontSize>
+			  <!-- <visible ifHelpPrompts="false">false</visible> -->
+		</text>
+
+		<batteryIndicator name="batteryIndicator">
+			  <pos>0.955 0.012</pos>
+			  <size>0.033 0.0275</size>
+			  <horizontalAlignment>right</horizontalAlignment>
+			  <incharge>./art/battery/incharge.svg</incharge>
+			  <full>./art/battery/full.svg</full>
+			  <at75>./art/battery/75.svg</at75>
+			  <at50>./art/battery/50.svg</at50>
+			  <at25>./art/battery/25.svg</at25>
+			  <empty>./art/battery/empty.svg</empty>
+			  <color>FFFFFFA0</color>
+		</batteryIndicator>
+			  
+		
+	</view>
+  
+  
+	<!-- Si les Cheevos sont activés on affiche le pseudo et change la clock en bas à droite 
+			A REVOIR !!!-->
+	
+	<!-- <view name="screen" ifCheevos="true" > -->
+			
+		<!-- <text name="clock" extra="static"> -->
+			<!-- <origin>1 1</origin> -->
+			<!-- <color>777777FF</color> -->
+			<!-- <alignment>right</alignment> -->
+			<!-- <fontSize>0.031</fontSize> -->
+			<!-- <pos>0.997 0.983</pos> -->
+		<!-- </text> -->
+				
+		<!-- <text name="username" extra="true"> -->
+			<!-- <text>${cheevos.username}</text> -->
+			<!-- <fontPath>./art/fonts/ubuntu.ttf</fontPath> -->
+			<!-- <fontSize>0.019</fontSize> -->
+			<!-- <forceUppercase>true</forceUppercase> -->
+			<!-- <color>${baseColor}</color> -->
+			<!-- <alignment>right</alignment> -->
+			<!-- <verticalAlignment>bottom</verticalAlignment> -->
+			<!-- <origin>1 1</origin> -->
+			<!-- <pos>0.997 0.968</pos> -->
+		<!-- </text> -->
+	<!-- </view> -->
+  
+  
+ 
+  
+  
+  
+  
+  <!-- Fix for controller image size -->
+	  <!-- <include subset="systemview" name="simple" displayName="${systemview.simple}">./config/systemview/controllersizefix.xml</include> -->
+	  <!-- <include subset="systemview" name="vertical" displayName="${systemview.vertical}">./config/systemview/controllersizefix.xml</include> -->
+	  <!-- <include subset="systemview" name="wheel" displayName="${systemview.wheel}">./config/systemview/controllersizefix.xml</include> -->
+
+
+
+
+
+
+
+
+  <include>./config/system/system.xml</include>
+  <include>./config/gamelist/gameinfobar.xml</include>
+ 
+ <!-- Views  -->
+  <include>./config/gamelist/common.xml</include>
+  <include>./config/gamelist/detailed.xml</include>
+  <include>./config/gamelist/video.xml</include>
+  <include>./config/gamelist/grid.xml</include>
+  <include>./config/gamelist/gamecarousel.xml</include>
+  <include>./config/gamelist/basic.xml</include>
+
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+
+  <!-- Subset options for help -->
+  <subset name="helpsystem" displayName="${helpSubsetName}">
+    <include name="buttons" displayName="${helpbuttons}">./config/help/buttons.xml</include>
+    <include name="xboxbuttons" displayName="${xboxbuttons}">./config/help/xboxbuttons.xml</include>
+    <include name="psxbuttons" displayName="${psxbuttons}">./config/help/psxbuttons.xml</include>
+    <include name="colored" displayName="${colored}">./config/help/colorhelp.xml</include>
+    <include name="standard" displayName="${gray}">./config/help/default.xml</include>
+  </subset>
+  
+  <!-- Subset options for screen -->
+  <subset name="shader" displayName="${subset.shader}">
+    <include name="None" displayName="${none}"/>
+    <include name="ScanLines" displayName="${scanlines}">./config/shader/scanlines.xml</include>
+    <include name="Crt" displayName="${crt}">./config/shader/crt.xml</include>
+  </subset>
+
+
+
+
+  <!-- Specific layout for systems -->
+		<include>./config/layouts/${system.theme}.xml</include>
+  <!-- Layout when help is disabled -->
+		<include ifHelpPrompts="false">./config/layouts/nohelp.xml</include>
+
+			
+
+	
+	
+	
+	
+	
+	
+	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="basic, detailed, video">
+        <include name="auto"/>
+		<include name="ubuntu"/>
+		<include name="ubuntu-bold"/>
+        <include name="flatwheat"/>
+    </subset>
+	<subset name="gamelistLines" displayName="${gamelistLines}" appliesTo="basic, detailed, video">
+        <include name="auto"/>
+        <include name="9"/>
+        <include name="11"/>
+        <include name="13"/>
+        <include name="15"/>
+        <include name="17"/>
+        <include name="19"/>
+        <include name="21"/>
+        <include name="23"/>
+    </subset>
+    <subset name="gamelistFontSize" displayName="${gamelistFontSize}" appliesTo="basic, detailed, video">
+        <include name="auto"/>
+        <include name="0.022"/>
+        <include name="0.023"/>
+        <include name="0.024"/>
+        <include name="0.025"/>
+        <include name="0.026"/>
+        <include name="0.027"/>
+        <include name="0.028"/>
+        <include name="0.029"/>
+        <include name="0.030"/>
+        <include name="0.031"/>
+        <include name="0.032"/>
+        <include name="0.033"/>
+        <include name="0.034"/>
+        <include name="0.035"/>
+        <include name="0.036"/>
+        <include name="0.037"/>
+        <include name="0.038"/>
+        <include name="0.039"/>
+        <include name="0.040"/>
+    </subset>
+    
+
+  
+	
+	<!-- Fond animé -->
+	
+  <view name="system">
+  	
+    	
+	<image name="bgsky" extra="static">
+      <pos>1 0.324</pos>
+      <size>0 0</size>
+      <origin>0.5 0.5</origin>
+      <path>./art/divers/bgsky.png</path>
+	  <color>AAAAAA</color>
+      <zIndex>10</zIndex>
+      <storyboard repeat="forever">
+            <animation property="x" from="1" to="0" begin="" duration="80000" mode="Linear" autoReverse="true"/>
+			<animation property="y" from="0.324" to="-0.07" begin="" duration="80000" mode="Linear" autoReverse="true"/>
+			<!-- <animation property="rotation" to="90" begin="" duration="80000" mode="Linear" autoReverse="true"/> -->
+	  </storyboard>	  	  
+    </image>
+  </view>
+  
+  
+	
+  
+</theme>

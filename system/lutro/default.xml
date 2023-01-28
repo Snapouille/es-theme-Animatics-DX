@@ -1,0 +1,27 @@
+<!-- lutro -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar" extra="static">
+			<pos>0.04 0.55</pos>
+			<scale>0.6</scale>
+			<opacity>1</opacity>
+			<path>./avatar.png</path>
+			<zIndex>18</zIndex>
+
+
+			<storyboard repeat="forever">
+						
+				<animation property="x" to="0.38" begin="" duration="7000" autoreverse="true" mode="linear"/>
+				
+        						
+			</storyboard>
+		</image>
+
+	</view>
+	
+</theme>
