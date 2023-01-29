@@ -2,9 +2,9 @@
 
 
 Theme for Emulation Station compatible with
-- Batocera <= V35 
-- Emuelec <= 4.0 
-- Retrobat <= 5.0
+- Batocera
+- Emuelec
+- Retrobat
 
 V1.0 (28 jan 2023)
 
