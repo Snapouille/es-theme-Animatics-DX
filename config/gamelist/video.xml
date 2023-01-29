@@ -290,28 +290,6 @@ originally based on: "carbon"
   </view>
   
   
-  <!-- On masque les manettes et indicateurs de batterie pour cette vue -->
-<view name="screen">
-
-	<controllerActivity name="controllerActivity">
-		  <visible>false</visible>
-	</controllerActivity>
-	
-	<batteryIndicator name="batteryIndicator">
-		  <visible>false</visible>
-	</batteryIndicator>
-	
-	<text name="clock">
-		<visible ifHelpPrompts="false">false</visible>
-	</text>
-
-	<!-- <text name="username" extra="true"> -->
-		<!-- <origin ifHelpPrompts="false">1 1</origin> -->
-		<!-- <pos ifHelpPrompts="false">0.533 0.968</pos> -->
-	<!-- </text> -->
-
-	
-</view>
   
   
   

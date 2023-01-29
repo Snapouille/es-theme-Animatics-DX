@@ -104,10 +104,6 @@ originally based on: "carbon"
 	  </subset>
 			  
 	
-	
-	
-	
-  
   
   
   <!-- Informations complémentaires (statistiques) sur les sets  -->
@@ -137,13 +133,6 @@ originally based on: "carbon"
   </subset>
   
   
-    
- 
-
-
-
-
- 
   
    <!--  MENU Popup  -->
   <view name="menu">
@@ -219,12 +208,6 @@ originally based on: "carbon"
   </view>
   
   
-  
-  
-  
-  
-  
-  
 	<!-- View always on TOP Manettes Horloge Indicateurs de batterie -->
 	<view name="screen">
 
@@ -235,6 +218,7 @@ originally based on: "carbon"
 			  <color>FFFFFF90</color>
 			  <!-- controllers -->
 			  <imagePath>./art/gamepad.svg</imagePath>
+			  <!-- <imagePath>./art/icons/controllers.png</imagePath> -->
 			  <gunPath>./art/gun.svg</gunPath>
 			  <activityColor>A0A0FFC0</activityColor>
 			  <hotkeyColor>FFA0A0C0</hotkeyColor>
@@ -294,21 +278,10 @@ originally based on: "carbon"
 	<!-- </view> -->
   
   
- 
-  
-  
-  
-  
   <!-- Fix for controller image size -->
 	  <!-- <include subset="systemview" name="simple" displayName="${systemview.simple}">./config/systemview/controllersizefix.xml</include> -->
 	  <!-- <include subset="systemview" name="vertical" displayName="${systemview.vertical}">./config/systemview/controllersizefix.xml</include> -->
 	  <!-- <include subset="systemview" name="wheel" displayName="${systemview.wheel}">./config/systemview/controllersizefix.xml</include> -->
-
-
-
-
-
-
 
 
   <include>./config/system/system.xml</include>
@@ -322,43 +295,7 @@ originally based on: "carbon"
   <include>./config/gamelist/gamecarousel.xml</include>
   <include>./config/gamelist/basic.xml</include>
 
-  
-  
-  
-  
-  
-  
-  
  
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  
-  
   
 
   <!-- Subset options for help -->
@@ -385,12 +322,6 @@ originally based on: "carbon"
   <!-- Layout when help is disabled -->
 		<include ifHelpPrompts="false">./config/layouts/nohelp.xml</include>
 
-			
-
-	
-	
-	
-	
 	
 	
 	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="basic, detailed, video">
