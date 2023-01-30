@@ -34,15 +34,40 @@ originally based on: "carbon"
 	
 
 
-	<image name="ecran_console" extra="static">
-		<pos>0.26 0.53</pos>
-		<scale>0.85</scale>
-		<path>./../../system/ecran_console-default.png</path>
+	<!-- <image name="ecran_console" extra="static"> -->
+		<!-- <pos>0.26 0.53</pos> -->
+		<!-- <scale>0.85</scale> -->
+		<!-- <path>./../../system/ecran_console-default.png</path> -->
 		<!-- <path>./../../system/${system.theme}/ecran_console.png</path> -->
+		<!-- <opacity>1</opacity> -->
+		<!-- <flipY>true</flipY> -->
+		<!-- <color>${baseColor}</color> -->
+		<!-- <zIndex>31</zIndex> -->
+			
+		<!-- <storyboard event="open"> -->
+			<!-- <animation property="y" to="0.5" begin="1000" duration="1000" mode="easeOutCubic"/> -->
+		<!-- </storyboard> -->
+			
+		<!-- <storyboard event="activate"> -->
+				<!-- <animation property="y" to="0.5" begin="500" duration="1000" mode="easeOutCubic"/> -->
+		<!-- </storyboard> -->
+			
+		<!-- <storyboard event="deactivate"> -->
+				<!-- <animation property="opacity" to="0" duration="1" mode="linear"/> -->
+		<!-- </storyboard> -->
+			
+			
+	<!-- </image> -->
+	
+	
+	<image name="ecran_consoleTEST" extra="static">
+		<pos>0.26 0.53</pos>
+		<maxSize>0.45 0.446</maxSize>
+		<path>./../../system/ecran_console-default.png</path>
 		<opacity>1</opacity>
 		<flipY>true</flipY>
 		<color>${baseColor}</color>
-		<zIndex>31</zIndex>
+		<zIndex>32</zIndex>
 			
 		<storyboard event="open">
 			<animation property="y" to="0.5" begin="1000" duration="1000" mode="easeOutCubic"/>
@@ -58,6 +83,7 @@ originally based on: "carbon"
 			
 			
 	</image>
+	
 	
 	
   

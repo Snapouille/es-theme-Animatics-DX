@@ -1,13 +1,8 @@
 ﻿<theme>
  
-  
   <view name="basic, detailed">
-  <!-- Affichage de la jaquette <maxSize>x y</maxSize> x=largeur y=hauteur -->
-					
-	
-	
-	
 	<image name="ecran_console" extra="static">
+			<origin>0 0</origin>
 			<pos>0.515 0.17</pos>
 			<scale>0.9</scale>
 			<path>./../art/background/nes/ecran_console.png</path>
@@ -27,29 +22,22 @@
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
 				</storyboard>
 			
-		</image>
+	</image>
   
-  
-		<video name="md_video">
+	<video name="md_video">
+		  <origin>0.5 0.5</origin>
 		  <pos>0.68 0.3688</pos>
 		  <size>0.22 0.30</size>
-		  <roundCorners>0</roundCorners>
-		  
-		  
 				<storyboard event="open">
 					<animation property="x" to="0.728" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
-					
 				<storyboard event="activate">
 						<animation property="x" to="0.728" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
-					
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
 				</storyboard>
-		  
-		</video>
-  
+	</video>
   
   
 	<image name="md_thumbnail">
@@ -58,9 +46,7 @@
 		<maxSize>0.23 0.54</maxSize>
 		<scale>0.55</scale>
 		<zIndex>100</zIndex>
-		<!-- <visible>false</visible> -->
 		<roundCorners>0.01</roundCorners>
-		
 		
 		<storyboard event="open">
                 <animation property="x" to="0.44" begin="1000" duration="200" mode="linear"/>
@@ -78,15 +64,7 @@
 			    <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
 		
-		
-		
-		
-		
 	</image>
-	
-	
-	
-	
 		
    </view>
   
