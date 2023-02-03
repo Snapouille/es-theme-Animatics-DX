@@ -5,58 +5,26 @@
 
 	<view name="system">
 	
-		<image name="oiseau" extra="static">
-			<pos>0.25 -1</pos>
-			<scale>1</scale>
-			<opacity>1</opacity>
-			<path>./oiseau.png</path>
-			<zIndex>17</zIndex>
-		</image>
-		
-		<image name="wagon" extra="static">
+	
+		<image name="wagon" extra="true">
+			<origin>0 0</origin>
 			<pos>-0.05 0.53</pos>
-			<scale>0.25</scale>
+			<size>0.4166667 0.7777778</size>
+			
+			
 			<rotation>-32</rotation>
 			<opacity>0</opacity>
 			<path>./wagon.png</path>
 			<zIndex>17</zIndex>
-		</image>
-		
-		<image name="chute" extra="static">
-			<pos>0.43 -0.2</pos>
-			<scale>0.5</scale>
-			<rotation>0</rotation>
-			<opacity>0</opacity>
-			<path>./chute.png</path>
-			<zIndex>17</zIndex>
-		</image>
-		
-		
-		
-		<image name="chute" extra="true">
-		
-			<storyboard repeat="forever">
-				
-				<animation property="opacity" from="0" to="1" begin="13500" duration="10" mode="linear"/>
-				<animation property="scale" to="1" begin="13500" duration="200" mode="linear"/>
-				<animation property="x" to="0.3" begin="13500" duration="200" mode="linear"/>
-				<animation property="opacity" from="1" to="0" begin="13690" duration="10" mode="linear"/>
-				
-				<animation property="opacity" from="0" to="0" begin="17500" duration="500" mode="linear"/>
-			</storyboard>
-		
-		</image>
-		
-		
-		<image name="wagon" extra="true">
+			
 		
 			<storyboard repeat="forever">
 				
 				<animation property="rotation" to="-32" begin="" duration="10" mode="linear"/>
-				<animation property="opacity" from="0" to="1" begin="" duration="300" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="300" duration="" mode="linear"/>
 				
-				<animation property="x" from="-0.05" to="0.05" begin="300" duration="1100" mode="linear"/>
-				<animation property="y" from="0.53" to="0.245" begin="300" duration="1100" mode="linear"/>
+				<animation property="x" to="0.05" begin="300" duration="1100" mode="linear"/>
+				<animation property="y" to="0.245" begin="300" duration="1100" mode="linear"/>
 				<animation property="scale" from="0.25" to="0.35" begin="300" duration="1100" mode="linear"/>
 				<animation property="rotation" from="-32" to="-30" begin="600" duration="500" mode="linear"/>
 				<animation property="rotation" from="-30" to="-20" begin="1100" duration="1300" mode="linear"/>
@@ -76,9 +44,27 @@
 			</storyboard>
 		
 		</image>
-		
-		
+			
+			
+	
+	
 		<image name="oiseau" extra="true">
+			<origin>0 0</origin>
+			<pos>0.25 -1</pos>
+			<maxSize>0.125 0.125</maxSize>
+			<size>0.05 0.125</size>	
+			
+			<!-- <origin>0.5 0.5</origin> -->
+			<!-- <pos>0.2760417 -0.9365741</pos> -->
+			<!-- <size>0.0520833 0.1268519</size> -->
+			
+
+			<opacity>1</opacity>
+			<path>./oiseau.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>17</zIndex>
+			
+			
 			
 			<storyboard repeat="forever">
 	
@@ -94,6 +80,38 @@
 			</storyboard>
 			
 		</image>
+			
+		
+		
+		
+		
+		
+		<image name="chute" extra="true">
+			<origin>0 0</origin>
+			<pos>0.41 -0.35</pos>
+			<size>0.35 1</size>
+
+			<opacity>0</opacity>
+			<path>./chute.png</path>
+			<zIndex>17</zIndex>
+		
+			<storyboard repeat="forever">
+				
+				<animation property="opacity" from="0" to="1" begin="13500" duration="10" mode="linear"/>
+				<!-- <animation property="scale" to="1" begin="13500" duration="200" mode="linear"/> -->
+				<animation property="y" to="1" begin="13500" duration="200" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="13690" duration="10" mode="linear"/>
+				
+				<animation property="opacity" from="0" to="0" begin="17500" duration="500" mode="linear"/>
+			</storyboard>
+		
+		</image>
+		
+		
+		
+		
+		
+		
 		
 		
 	</view>

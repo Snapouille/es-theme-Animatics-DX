@@ -6,7 +6,7 @@
 	<view name="system">
 		<image name="gombaG" extra="static">
 			<pos>0.55 0.6035</pos>
-			<scale>1</scale>
+			<size>0.0260417 0.037037</size>
 			<path>./gombaG.png</path>
 			<opacity>0</opacity>
 			<zIndex>18</zIndex>
@@ -14,7 +14,7 @@
 	
 		<image name="gombaD" extra="static">
 			<pos>0.32 0.6035</pos>
-			<scale>1</scale>
+			<size>0.0260417 0.037037</size>
 			<path>./gombaD.png</path>
 			<opacity>0</opacity>
 			<zIndex>18</zIndex>
@@ -22,7 +22,7 @@
 	
 		<image name="tuyau" extra="static">
 			<pos>0.283 0.562</pos>
-			<scale>1</scale>
+			<size>0.046875 0.1222222</size>
 			<path>./tuyau.png</path>
 			<opacity>0</opacity>
 			<zIndex>17</zIndex>
@@ -30,6 +30,7 @@
 	
 		<image name="mario0" extra="static">
 			<pos>0.285 0.58</pos>
+			<size>0.1041667 0.2546296</size>
 			<scale>0.4</scale>
 			<path>./mario0.png</path>
 			<opacity>0</opacity>
@@ -38,6 +39,7 @@
 	
 		<image name="mario1" extra="static">
 			<pos>0.282 0.47</pos>
+			<size>0.2885417 0.6888889</size>
 			<scale>0.13</scale>
 			<path>./mario1.png</path>
 			<opacity>0</opacity>
@@ -46,6 +48,7 @@
 		
 		<image name="mario2" extra="static">	
 			<pos>0.282 0.47</pos>
+			<size>0.2885417 0.6888889</size>
 			<scale>0.13</scale>
 			<path>./mario2.png</path>
 			<opacity>0</opacity>
@@ -54,6 +57,7 @@
 	
 		<image name="boulet" extra="static">	
 			<pos>1 0.36</pos>
+			<size>0.2666667 0.3287037</size>
 			<scale>0.8</scale>
 			<path>./boulet.png</path>
 			<opacity>1</opacity>
@@ -73,13 +77,13 @@
 	
 	<image name="tuyau" extra="true">	
 		<storyboard>
-				<animation property="opacity" from="0" to="1" begin="90" duration="10" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="500" duration="" mode="linear"/>
 		</storyboard>
 	</image>
 		
 	<image name="mario0" extra="true">	
 		<storyboard repeat="forever">
-				<animation property="opacity" from="0" to="1" begin="" duration="1000" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="510" duration="" mode="linear"/>
 				<animation property="y" to="0.468" begin="100" duration="2000" mode="linear"/>
 				<animation property="opacity" from="1" to="0" begin="1800" duration="1000" mode="linear"/>
 				<animation property="opacity" from="0" to="0" begin="3000" duration="17000" mode="linear"/>
@@ -135,26 +139,6 @@
 	</image>
 		
 		
-		
-		
-		<!-- <image name="mario" extra="true">	 -->
-		
-			<!-- <storyboard repeat="forever"> -->
-					
-					<!-- <animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear"/> -->
-					<!-- <animation property="x" to="0.27" begin="100" duration="3700" mode="EaseOut"/> -->
-					<!-- <animation property="scale" from="0.65" to="1" begin="4000" duration="350" mode="bump"/> -->
-					<!-- <animation property="x" from="0.25" to="0.38" begin="4000" duration="375" mode="EaseOut"/> -->
-					<!-- <animation property="y" from="0.122" to="-0.03" begin="4000" duration="375" mode="EaseOut"/> -->
-
-					
-					<!-- <animation property="scale" to="7" begin="12800" duration="1500" mode="Linear"/> -->
-					<!-- <animation property="opacity" to="0" begin="12800" duration="1500" mode="linear"/> -->
-					<!-- <animation property="x" from="0.38" to="-0.1" begin="12800" duration="1500" mode="EaseOut"/> -->
-					
-					
-			<!-- </storyboard> -->
-		<!-- </image> -->
 		
 		
 		
