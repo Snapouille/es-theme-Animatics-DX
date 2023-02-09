@@ -8,6 +8,7 @@
 		
 		<image name="avatar-ship" extra="static">
 			<origin>0 0</origin>
+			<size>0.4307292 0.7314815</size>									
 			<pos>0.379 0.33</pos>
 			<scale>0</scale>
 			<rotation>20</rotation>
@@ -41,6 +42,7 @@
 		
 		<image name="avatar-shiplight" extra="static">
 			<origin>0 0</origin>
+			<size>0.4307292 0.7314815</size>									
 			<pos>0.379 0.33</pos>
 			<scale>0</scale>
 			<rotation>20</rotation>
@@ -80,6 +82,8 @@
 		
 		
 		<image name="avatar-m5" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3296875 0.7518519</size>									
 			<pos>0.19 0.26</pos>
 			<scale>0</scale>
 			<opacity>1</opacity>
@@ -112,6 +116,8 @@
 		
 		
 		<image name="avatar-m4" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3296875 0.7518519</size>
 			<pos>0.09 0.26</pos>
 			<scale>0.6</scale>
 			<opacity>0</opacity>
@@ -172,6 +178,8 @@
 		
 		
 		<image name="avatar-m3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3296875 0.7518519</size>
 			<pos>0.09 0.26</pos>
 			<scale>0.6</scale>
 			<opacity>0</opacity>
@@ -224,6 +232,8 @@
 		
 		
 		<image name="avatar-m4bis" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3296875 0.7518519</size>
 			<pos>0.09 0.26</pos>
 			<scale>0.6</scale>
 			<opacity>0</opacity>
@@ -259,6 +269,8 @@
 		
 		
 		<image name="avatar-m3bis" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3296875 0.7518519</size>
 			<pos>0.09 0.26</pos>
 			<scale>0.6</scale>
 			<opacity>0</opacity>
@@ -298,6 +310,8 @@
 		
 		
 		<image name="avatar-m1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3296875 0.7518519</size>
 			<pos>0.13 0.28</pos>
 			<scale>0.6</scale>
 			<opacity>0</opacity>
@@ -337,6 +351,8 @@
 		</image>
 		
 		<image name="avatar-m2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3296875 0.7518519</size>
 			<pos>0.13 0.28</pos>
 			<scale>0.6</scale>
 			<opacity>0</opacity>
@@ -378,6 +394,8 @@
 		</image>
 		
 		<image name="avatar-m2vanish" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3296875 0.7518519</size>
 			<pos>0.435 0.195</pos>
 			<scale>1</scale>
 			<opacity>0</opacity>
@@ -409,8 +427,10 @@
 		
 		
 		<image name="avatar-rainbow1" extra="static">
-			<pos>0 0</pos>
-			<scale>1</scale>
+			<origin>0.5 0.5</origin>									
+			<size>0.0104167 0.6111111</size>									
+			<pos>0.2104167 0.4027778</pos>									
+
 			<opacity>0</opacity>
 			<path>./avatar-rainbow1.png</path>
 			<zIndex>17</zIndex>
@@ -432,9 +452,11 @@
 				<animation property="opacity" to="0" begin="39990" duration="10" mode="Linear"/>
 			</storyboard>
 		</image>
+		
 		<image name="avatar-rainbow2" extra="static">
-			<pos>0 0</pos>
-			<scale>1</scale>
+			<origin>0.5 0.5</origin>									
+			<size>0.0104167 0.6111111</size>									
+			<pos>0.2197917 0.4027778</pos>									
 			<opacity>0</opacity>
 			<path>./avatar-rainbow2.png</path>
 			<zIndex>17</zIndex>
@@ -455,8 +477,9 @@
 			</storyboard>
 		</image>
 		<image name="avatar-rainbow3" extra="static">
-			<pos>0 0</pos>
-			<scale>1</scale>
+			<origin>0.5 0.5</origin>									
+			<size>0.0104167 0.6111111</size>									
+			<pos>0.2296875 0.4027778</pos>									
 			<opacity>0</opacity>
 			<path>./avatar-rainbow3.png</path>
 			<zIndex>17</zIndex>
@@ -478,8 +501,9 @@
 			</storyboard>
 		</image>
 		<image name="avatar-rainbow4" extra="static">
-			<pos>0 0</pos>
-			<scale>1</scale>
+			<origin>0.5 0.5</origin>									
+			<size>0.0104167 0.6111111</size>									
+			<pos>0.2390625 0.4027778</pos>									
 			<opacity>0</opacity>
 			<path>./avatar-rainbow4.png</path>
 			<zIndex>17</zIndex>
@@ -500,8 +524,9 @@
 			</storyboard>
 		</image>
 		<image name="avatar-rainbow5" extra="static">
-			<pos>0 0</pos>
-			<scale>1</scale>
+			<origin>0.5 0.5</origin>									
+			<size>0.0104167 0.6111111</size>									
+			<pos>0.2494792 0.4027778</pos>		
 			<opacity>0</opacity>
 			<path>./avatar-rainbow5.png</path>
 			<zIndex>17</zIndex>
@@ -522,8 +547,9 @@
 			</storyboard>
 		</image>
 		<image name="avatar-rainbow6" extra="static">
-			<pos>0 0</pos>
-			<scale>1</scale>
+			<origin>0.5 0.5</origin>									
+			<size>0.0104167 0.6111111</size>									
+			<pos>0.2588542 0.4027778</pos>									
 			<opacity>0</opacity>
 			<path>./avatar-rainbow6.png</path>
 			<zIndex>17</zIndex>
@@ -544,8 +570,9 @@
 			</storyboard>
 		</image>
 		<image name="avatar-rainbow7" extra="static">
-			<pos>0 0</pos>
-			<scale>1</scale>
+			<origin>0.5 0.5</origin>									
+			<size>0.0104167 0.6111111</size>									
+			<pos>0.2692708 0.4027778</pos>									
 			<opacity>0</opacity>
 			<path>./avatar-rainbow7.png</path>
 			<zIndex>17</zIndex>
@@ -567,30 +594,19 @@
 		</image>
 		
 		
-		
-		
-		
-		
-		
-		
 		<image name="avatar-mickael" extra="static">
-			<pos>0 0</pos>
-			<scale>1</scale>
+			<origin>0.5 0.5</origin>									
+			<size>0.1255208 0.3453704</size>									
+			<pos>0.3471354 0.3013889</pos>									
 			<opacity>0</opacity>
 			<path>./avatar-mickael.png</path>
 			<zIndex>18</zIndex>
 
-
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="30000" duration="7000" mode="Linear"/>
-				
-				
 				<animation property="opacity" to="0" begin="39000" duration="1000" mode="Linear"/>
 			</storyboard>
 		</image>
-		
-		
-		
 		
 		
 	</view>

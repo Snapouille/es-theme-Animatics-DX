@@ -1,0 +1,25 @@
+<!-- CPS 1 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+			<size>1 1</size>									
+								
+			<scale>0.8</scale>						
+								
+			<pos>0 0</pos>									
+								
+			<storyboard>
+				
+        		<animation property="x" to="0.05" begin="" duration="4000" mode="EaseInOut"/>
+        		
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>

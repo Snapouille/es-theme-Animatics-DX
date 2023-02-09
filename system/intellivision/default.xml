@@ -7,6 +7,8 @@
 	
 		<image name="hamburger" extra="static">
 			<pos>0.2 -1</pos>
+			<size>0.15625 0.1351852</size>									
+			<origin>0 0</origin>
 			<scale>0.7</scale>
 			<opacity>1</opacity>
 			<rotation>-30</rotation>
@@ -16,6 +18,8 @@
 		
 		<image name="hamburger2" extra="static">
 			<pos>0.1 -1</pos>
+			<size>0.15625 0.1351852</size>									
+			<origin>0 0</origin>
 			<scale>0.5</scale>
 			<opacity>1</opacity>
 			<rotation>30</rotation>
@@ -27,6 +31,8 @@
 		
 		<image name="h1" extra="static">
 			<pos>0.4 -1</pos>
+			<size>0.2604167 0.2101852</size>									
+			<origin>0 0</origin>
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<path>./h1.png</path>
@@ -35,6 +41,8 @@
 		
 		<image name="h2" extra="static">
 			<pos>0.4 -1</pos>
+			<size>0.2604167 0.2101852</size>									
+			<origin>0 0</origin>
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<path>./h2.png</path>
@@ -43,6 +51,8 @@
 		
 		<image name="h3" extra="static">
 			<pos>0.4 -1</pos>
+			<size>0.2604167 0.2101852</size>									
+			<origin>0 0</origin>
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<path>./h3.png</path>
@@ -51,6 +61,8 @@
 		
 		<image name="h4" extra="static">
 			<pos>0.4 -1</pos>
+			<size>0.2604167 0.2101852</size>									
+			<origin>0 0</origin>
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<path>./h4.png</path>
@@ -64,6 +76,8 @@
 	
 		<image name="peter" extra="static">
 			<pos>0.42 -1</pos>
+			<size>0.3385417 0.787037</size>									
+			<origin>0 0</origin>
 			<scale>0.65</scale>
 			<opacity>1</opacity>
 			<path>./peter.png</path>
@@ -75,6 +89,8 @@
 		
 		<image name="saucisse1" extra="static">
 			<pos>-0.2 0.438</pos>
+			<size>0.2286458 0.5712963</size>									
+			<origin>0 0</origin>
 			<scale>0.6</scale>
 			<opacity>1</opacity>
 			<path>./saucisse1.png</path>
@@ -83,6 +99,8 @@
 		
 		<image name="saucisse2" extra="static">
 			<pos>0.1 0.438</pos>
+			<size>0.2354167 0.5694444</size>									
+			<origin>0 0</origin>									
 			<scale>0.6</scale>
 			<opacity>0</opacity>
 			<path>./saucisse2.png</path>

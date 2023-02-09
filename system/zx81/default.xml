@@ -7,6 +7,8 @@
 	<view name="system">
 	
 		<image name="avatar-ship" extra="static">
+			<origin>0 0</origin>									
+			<size>0.5614583 0.6833333</size>															
 			<pos>1 0.5</pos>
 			<scale>0</scale>
 			<rotation>15</rotation>
@@ -45,6 +47,8 @@
 		
 		
 		<image name="avatar-propulsion" extra="static">
+			<origin>0 0</origin>									
+			<size>0.5614583 0.6833333</size>									
 			<pos>1 0.5</pos>
 			<scale>0</scale>
 			<rotation>15</rotation>
@@ -83,6 +87,8 @@
 		
 		
 		<image name="asteroides_0" extra="static">
+			<origin>0 0</origin>									
+			<size>1.271875 0.6509259</size>			
 			<pos>-0.3 0.45</pos>
 			<scale>1</scale>
 			<rotation>15</rotation>
@@ -97,6 +103,8 @@
 		</image>
 		
 		<image name="asteroides_1" extra="static">
+			<origin>0 0</origin>									
+			<size>1.271875 0.6509259</size>			
 			<pos>0 0.45</pos>
 			<scale>1</scale>
 			<rotation>5</rotation>
@@ -112,6 +120,8 @@
 		
 		
 		<image name="asteroides_2" extra="static">
+			<origin>0 0</origin>									
+			<size>1.271875 0.6509259</size>			
 			<pos>0 0.45</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>

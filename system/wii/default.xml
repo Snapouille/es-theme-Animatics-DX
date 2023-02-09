@@ -1,0 +1,217 @@
+<!-- WII -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+	
+		<image name="JackCayman0" extra="static">
+			<origin>0 0</origin>
+			<pos>-0.3 0.27</pos>
+			<size>0.2447917 0.7259259</size>									
+			<scale>0.6</scale>
+			<path>./JackCayman0.png</path>
+			<opacity>1</opacity>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>16</zIndex>
+		</image>
+	
+		<image name="JackCayman1" extra="static">
+			<origin>0 0</origin>
+			<pos>0.1 0.1</pos>
+			<size>0.4015625 0.9083333</size>									
+			<scale>0.65</scale>
+			<path>./JackCayman1.png</path>
+			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>19</zIndex>
+		</image>
+		
+		<image name="JackCayman2" extra="static">	
+			<origin>0 0</origin>
+			<pos>0.1 0.1</pos>
+			<size>0.4015625 0.9083333</size>									
+			<scale>0.7</scale>
+			<path>./JackCayman2.png</path>
+			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>18</zIndex>
+		</image>
+	
+		<image name="Blood1" extra="static">	
+			<origin>0 0</origin>									
+			<size>0.1567708 0.2592593</size>									
+			<pos>0.0364583 0.4481481</pos>									
+			<path>./blood1.png</path>
+			<scale>0.7</scale>
+			<opacity>0</opacity>
+			<zIndex>15</zIndex>
+		</image>
+	
+		<image name="Blood2" extra="static">	
+			<origin>0 0</origin>									
+			<size>0.3265625 0.3805556</size>									
+			<pos>0.0203125 0.3231481</pos>																							
+			<path>./blood2.png</path>
+			<scale>0.7</scale>
+			<opacity>0</opacity>
+			<zIndex>15</zIndex>
+		</image>
+	
+		<image name="BloodFinal1" extra="static">	
+			<origin>0 0</origin>
+			<pos>0.07 -2</pos>
+			<size>0.8546875 3.7037037</size>																										
+			<scale>0.7</scale>
+			<path>./blood3.png</path>
+			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>18</zIndex>
+		</image>
+	
+		<image name="BloodFinal2" extra="static">	
+			<origin>0 0</origin>
+			<pos>0.15 -3</pos>
+			<size>0.8546875 3.7037037</size>																										
+			<scale>0.7</scale>
+			<path>./blood3.png</path>
+			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>18</zIndex>
+		</image>
+	
+		<image name="BloodFinal3" extra="static">	
+			<origin>0 0</origin>
+			<pos>0.5 -3.5</pos>
+			<size>0.8546875 3.7037037</size>																										
+			<scale>0.7</scale>
+			<path>./blood3.png</path>
+			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>17</zIndex>
+		</image>
+	
+	
+	
+	<image name="Blood1" extra="true">	
+		<storyboard repeat="forever">
+				
+				<animation property="opacity" from="0" to="1" begin="800" duration="" mode="linear"/>
+				<animation property="offsetY" from="0.1" to="0" begin="800" duration="100" mode="Linear"/>				
+				<animation property="scale" to="1" begin="800" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="20300" duration="300" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	<image name="Blood2" extra="true">	
+		<storyboard repeat="forever">
+				
+				<animation property="opacity" from="0" to="1" begin="1600" duration="" mode="linear"/>
+				<animation property="offsetY" from="0.1" to="0" begin="1600" duration="100" mode="Linear"/>				
+				<animation property="scale" to="1" begin="1600" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="20300" duration="300" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	
+		
+	<image name="JackCayman0" extra="true">	
+		<storyboard repeat="forever">
+				<animation property="x" to="0.15" begin="1000" duration="3000" mode="easeInOut"/>
+				<animation property="opacity" from="1" to="0" begin="5900" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+
+		</storyboard>
+	</image>
+	
+	<image name="JackCayman1" extra="true">	
+		<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="5900" duration="100" mode="linear"/>
+				<animation property="x" to="0.25" begin="6000" duration="1000" mode="bump"/>
+				<animation property="y" to="0.05" begin="6000" duration="1000" mode="linear"/>
+				<animation property="scale" to="1" begin="6000" duration="1000" mode="EaseOut"/>
+        		<animation property="opacity" begin="6500" from="1" to="0" duration="500" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+
+		</storyboard>
+	</image>
+	
+	<image name="JackCayman2" extra="true">	
+		<storyboard repeat="forever">
+				<animation property="x" to="0.25" begin="6000" duration="1000" mode="bump"/>
+				<animation property="y" to="0.05" begin="6000" duration="1000" mode="linear"/>
+				<animation property="scale" to="1" begin="6000" duration="1000" mode="EaseOut"/>
+				<animation property="opacity" from="0" to="1" begin="6500" duration="500" mode="linear"/>
+				
+				
+				<animation property="y" to="0.035" begin="7000" duration="10000" mode="EaseIn"/>
+				
+				
+				<animation property="scale" to="6" begin="16000" duration="1000" mode="linear"/>
+				<animation property="y" to="-0.5" begin="16000" duration="1000" mode="EaseIn"/>
+				<animation property="x" to="-0.3" begin="16000" duration="1000" mode="linear"/>
+				<animation property="rotation" from="0" to="-30" begin="16000" duration="500" mode="bump"/>
+				<animation property="rotation" from="-30" to="-40" begin="16500" duration="500" mode="linear"/>
+				
+				<animation property="opacity" from="1" to="0" begin="16500" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+
+
+				
+		</storyboard>
+	</image>
+	
+	
+	<image name="BloodFinal1" extra="true">	
+		<storyboard repeat="forever">
+				
+				<animation property="opacity" from="0" to="1" begin="16500" duration="100" mode="linear"/>
+				<animation property="y" to="-0.1" begin="16500" duration="5600" mode="linear"/>
+				<animation property="x" to="-0.2" begin="16500" duration="5600" mode="linear"/>
+				
+				<animation property="scale" to="1" begin="16500" duration="5600" mode="linear"/>
+				<animation property="opacity" to="0" begin="20500" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	
+	<image name="BloodFinal2" extra="true">	
+		<storyboard repeat="forever">
+				
+				<animation property="opacity" from="0" to="1" begin="16500" duration="100" mode="linear"/>
+				<animation property="y" to="-0.6" begin="16500" duration="5600" mode="linear"/>
+				<animation property="x" to="-0.1" begin="16500" duration="5600" mode="linear"/>
+				
+				<animation property="scale" to="1" begin="16500" duration="5600" mode="linear"/>
+				<animation property="opacity" to="0" begin="20800" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+		</storyboard>
+	</image>
+		
+		
+	<image name="BloodFinal3" extra="true">	
+		<storyboard repeat="forever">
+				
+				<animation property="opacity" from="0" to="1" begin="16500" duration="100" mode="linear"/>
+				<animation property="y" to="0" begin="16500" duration="5600" mode="linear"/>
+				<animation property="x" to="0.1" begin="16500" duration="5600" mode="linear"/>
+				
+				<animation property="scale" to="1" begin="16500" duration="5600" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21900" duration="100" mode="linear"/>
+		</storyboard>
+	</image>
+		
+	</view>
+
+</theme>

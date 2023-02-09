@@ -6,7 +6,10 @@
 	<view name="system">
 	
 		<image name="avatar1" extra="static">
+			<origin>0 0</origin>
 			<pos>0.20 0.23</pos>
+			<size>0.3645833 1.0935185</size>									
+
 			<scale>0.4</scale>
 			<rotation>0</rotation>
 			<zIndex>18</zIndex>
@@ -15,7 +18,10 @@
 		</image>
 		
 		<image name="avatar2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.20 0.23</pos>
+			<size>0.3817708 1.0935185</size>									
+
 			<scale>0.4</scale>
 			<rotation>0</rotation>
 			<zIndex>18</zIndex>
@@ -24,7 +30,10 @@
 		</image>
 		
 		<image name="avatar3" extra="static">
+			<origin>0 0</origin>
 			<pos>0.20 0.23</pos>
+			<size>0.4421875 1.0935185</size>									
+
 			<scale>0.4</scale>
 			<rotation>0</rotation>
 			<zIndex>18</zIndex>
@@ -33,7 +42,10 @@
 		</image>
 		
 		<image name="avatar4" extra="static">
+			<origin>0 0</origin>
 			<pos>0.20 0.18</pos>
+			<size>0.3645833 1.0694444</size>									
+
 			<scale>0.46</scale>
 			<rotation>0</rotation>
 			<zIndex>18</zIndex>
@@ -42,7 +54,10 @@
 		</image>
 		
 		<image name="avatar5" extra="static">
+			<origin>0 0</origin>
 			<pos>0.20 0.18</pos>
+			<size>0.3645833 1.0694444</size>									
+
 			<scale>0.46</scale>
 			<rotation>0</rotation>
 			<zIndex>18</zIndex>
@@ -51,6 +66,7 @@
 		</image>
 				
 		<image name="avatar6" extra="static">
+			<origin>0 0</origin>
 			<pos>0.20 0.23</pos>
 			<scale>0.4</scale>
 			<rotation>0</rotation>
@@ -60,7 +76,9 @@
 		</image>
 		
 		<image name="avatar7" extra="static">
+			<origin>0 0</origin>
 			<pos>0.20 0.23</pos>
+			<size>0.3817708 1.0935185</size>
 			<scale>0.4</scale>
 			<rotation>0</rotation>
 			<zIndex>18</zIndex>
@@ -69,7 +87,9 @@
 		</image>
 		
 		<image name="avatar8" extra="static">
+			<origin>0 0</origin>
 			<pos>0.20 0.23</pos>
+			<size>0.4421875 1.0935185</size>
 			<scale>0.4</scale>
 			<rotation>0</rotation>
 			<zIndex>18</zIndex>
@@ -78,7 +98,9 @@
 		</image>
 		
 		<image name="avatar9" extra="static">
+			<origin>0 0</origin>
 			<pos>0.20 0.18</pos>
+			<size>0.3645833 1.0694444</size>
 			<scale>0.46</scale>
 			<rotation>0</rotation>
 			<zIndex>18</zIndex>
@@ -87,7 +109,10 @@
 		</image>
 		
 		<image name="lumiere1" extra="static">
+			<origin>0 0</origin>
 			<pos>0.183 0.20</pos>
+			<size>0.2692708 0.4888889</size>									
+
 			<scale>1.1</scale>
 			<rotation>0</rotation>
 			<zIndex>17</zIndex>
@@ -96,7 +121,10 @@
 		</image>
 		
 		<image name="lumiere2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.183 0.20</pos>
+			<size>0.2692708 0.4888889</size>									
+
 			<scale>1.1</scale>
 			<rotation>0</rotation>
 			<zIndex>17</zIndex>
@@ -105,7 +133,10 @@
 		</image>
 		
 		<image name="lumiere3" extra="static">
+			<origin>0 0</origin>
 			<pos>0.183 0.18</pos>
+			<size>0.2692708 0.4888889</size>									
+
 			<scale>1</scale>
 			<rotation>0</rotation>
 			<zIndex>17</zIndex>

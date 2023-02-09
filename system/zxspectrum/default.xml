@@ -7,6 +7,8 @@
 	<view name="system">
 	
 		<image name="avatar-hero" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3645833 0.6481481</size>									
 			<pos>0.43 -1</pos>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -22,6 +24,8 @@
 
 		
 		<image name="background-mask" extra="true">
+			<origin>0 0</origin>									
+			<size>1 1</size>									
 			<pos>0 0</pos>
 			<path>./background-mask.png</path>
 			<opacity>1</opacity>
@@ -38,6 +42,8 @@
 		
 		
 		<image name="background-light" extra="true">
+			<origin>0 0</origin>									
+			<size>1 1</size>
 			<pos>0.31 0.45</pos>
 			<scale>0.05</scale>
 			<path>./background-light.png</path>
@@ -70,6 +76,8 @@
 		</image>
 		
 		<image name="avatar-sorcerer" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0932292 0.3064815</size>									
 			<pos>0.315 0.52</pos>
 			<scale>0.05</scale>
 			<opacity>0</opacity>
@@ -100,6 +108,8 @@
 		
 		
 		<image name="avatar-lightning" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2140625 0.1611111</size>									
 			<pos>0.225 0.29</pos>
 			<scale>0.8</scale>
 			<opacity>0</opacity>
@@ -151,6 +161,8 @@
 		
 		
 		<image name="avatar-stone1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1140625 0.2083333</size>									
 			<pos>0.1 -1</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>
@@ -175,6 +187,8 @@
 		
 		
 		<image name="avatar-stone2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0885417 0.1351852</size>									
 			<pos>0.03 -1</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>
@@ -199,6 +213,8 @@
 		
 		
 		<image name="avatar-stone3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0880208 0.2907407</size>									
 			<pos>0.7 -1</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>
@@ -226,6 +242,8 @@
 		
 		
 		<image name="avatar-fruit1" extra="static">
+			<origin>0 0</origin>									
+			<size>1 1</size>
 			<pos>0.28 0.5</pos>
 			<scale>0.05</scale>
 			<opacity>0</opacity>
@@ -253,6 +271,8 @@
 		
 		
 		<image name="avatar-fruit2" extra="static">
+			<origin>0 0</origin>									
+			<size>1 1</size>
 			<pos>0.28 0.5</pos>
 			<scale>0.05</scale>
 			<opacity>0</opacity>
@@ -280,6 +300,8 @@
 		
 		
 		<image name="avatar-fruit3" extra="static">
+			<origin>0 0</origin>									
+			<size>1 1</size>
 			<pos>0.28 0.5</pos>
 			<scale>0.05</scale>
 			<opacity>0</opacity>
@@ -311,6 +333,8 @@
 		
 		
 		<image name="avatar-dragon1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1942708 0.4416667</size>									
 			<pos>0.27 0.55</pos>
 			<scale>0.05</scale>
 			<opacity>0</opacity>
@@ -367,6 +391,8 @@
 		</image>
 		
 		<image name="avatar-dragon2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1942708 0.4416667</size>									
 			<pos>0.27 0.55</pos>
 			<scale>0.05</scale>
 			<opacity>0</opacity>

@@ -6,6 +6,7 @@
 		<!-- AVATARS -->
 		<image name="avatar" extra="static">
 			<origin>0 0</origin>
+			<size>0.2817708 0.6277778</size>									
 			<pos>0.155 0.145</pos>
 			<scale>0.85</scale>
 			<storyboard repeatAt="350">
@@ -19,6 +20,7 @@
 		</image>
 		<image name="avatar-wolf" extra="static">
 			<origin>0 0</origin>
+			<size>0.2015625 0.7111111</size>									
 			<pos>0.46 0.05</pos>
 			<scale>0.95</scale>
 			<path>./avatar-wolf.png</path>
@@ -35,7 +37,9 @@
 		<!-- SMOKE -->
 		<image name="avatar4, avatar5" extra="static">
 			<origin>0 0</origin>
-			<size>0.78 0.625</size>
+			<size>0.75 0.5555556</size>									
+
+			<!-- <size>0.78 0.625</size> -->
 			<linearSmooth>true</linearSmooth>
 			<zIndex>17</zIndex>
 		</image>

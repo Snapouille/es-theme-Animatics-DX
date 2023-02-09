@@ -9,6 +9,7 @@
   
 		<image name="ecran_console" extra="static">
 			<pos>0.523 0.49</pos>
+			<size>0.4838542 0.4009259</size>
 			<scale>0.8</scale>
 			<path>./../art/background/psp/ecran_console.png</path>
 			<opacity>1</opacity>
@@ -36,17 +37,17 @@
   
 		<video name="md_video">
 		  <pos>0.718 0.639</pos>
-		  <maxSize>0.23 0.21</maxSize>
+		  <size>0.23 0.219</size>
 		  <roundCorners>0</roundCorners>
 		  
 		  <storyboard event="open">
 					<animation property="x" to="0.745" begin="1000" duration="200" mode="linear"/>
-					<animation property="y" to="0.699" begin="1000" duration="200" mode="linear"/>
+					<animation property="y" to="0.697" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
 						<animation property="x" to="0.745" begin="1000" duration="200" mode="linear"/>
-						<animation property="y" to="0.699" begin="1000" duration="200" mode="linear"/>
+						<animation property="y" to="0.697" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">

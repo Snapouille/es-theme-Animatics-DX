@@ -6,7 +6,10 @@
 	<view name="system">
 	
 		<image name="dark" extra="static">
+			<origin>0 0</origin>
 			<pos>0 0</pos>
+			<size>1 1</size>									
+
 			<scale>1</scale>
 			<opacity>0</opacity>
 			<path>./dark.png</path>
@@ -34,7 +37,10 @@
 	
 	
 		<image name="alienCut" extra="static">
+			<origin>0 0</origin>
 			<pos>0.17 0.25</pos>
+			<size>0.5114583 0.5222222</size>									
+
 			<scale>0.8</scale>
 			<path>./alienCut.png</path>
 			<opacity>1</opacity>
@@ -58,7 +64,10 @@
 		
 		
 		<image name="alienPiece" extra="static">
+			<origin>0 0</origin>
 			<pos>0.17 0.25</pos>
+			<size>0.5114583 0.5222222</size>									
+
 			<scale>0.8</scale>
 			<path>./alienPiece.png</path>
 			<opacity>1</opacity>
@@ -82,7 +91,10 @@
 		
 		
 		<image name="alienBlood" extra="static">
+			<origin>0 0</origin>
 			<pos>0.14 0.26</pos>
+			<size>0.5114583 0.5222222</size>									
+
 			<scale>0.85</scale>
 			<path>./alienBlood.png</path>
 			<opacity>0</opacity>
@@ -106,7 +118,10 @@
 		</image>
 		
 		<image name="alienBloodbis" extra="static">
+			<origin>0 0</origin>
 			<pos>-0.02 0.14</pos>
+			<size>0.5114583 0.5222222</size>									
+
 			<scale>1.45</scale>
 			<path>./alienBlood.png</path>
 			<opacity>0</opacity>
@@ -123,7 +138,11 @@
 		
 		
 		<image name="alienBlood2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.348 0.405</pos>
+			<size>0.0395833 0.0527778</size>									
+								
+
 			<scale>1</scale>
 			<path>./alienBlood2.png</path>
 			<opacity>0</opacity>
@@ -139,7 +158,11 @@
 		
 		
 		<image name="alienBlood3" extra="static">
+			<origin>0 0</origin>
 			<pos>0.475 0.333</pos>
+			<size>0.0598958 0.075</size>									
+									
+
 			<scale>1</scale>
 			<rotation>33</rotation>
 			<path>./alienBlood3.png</path>
@@ -158,7 +181,10 @@
 		
 		
 		<image name="predatorUp" extra="static">
+			<origin>0 0</origin>
 			<pos>0.14 0.26</pos>
+			<size>0.5114583 0.5222222</size>									
+
 			<scale>0.85</scale>
 			<path>./predatorUp.png</path>
 			<opacity>0</opacity>
@@ -187,7 +213,10 @@
 		
 		
 		<image name="predatorDown" extra="static">
+			<origin>0 0</origin>
 			<pos>0.11 0.26</pos>
+			<size>0.5114583 0.5222222</size>									
+
 			<scale>0.85</scale>
 			<path>./predatorDown.png</path>
 			<opacity>1</opacity>

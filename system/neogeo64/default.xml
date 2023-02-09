@@ -6,6 +6,8 @@
 	<view name="system">
 	
 		<image name="warrior" extra="static">
+			<origin>0 0</origin>									
+			<size>0.259375 0.7574074</size>									
 			<pos>0.11 0.3</pos>
 			<scale>0.5</scale>
 			<opacity>1</opacity>
@@ -34,8 +36,8 @@
 		
 		
 		<image name="caligra" extra="static">
-			<!-- <pos>0.1 -0.1</pos> -->
-			<!-- <scale>2</scale> -->
+			<origin>0 0</origin>									
+<size>0.1145833 0.5185185</size>									
 			<pos>0.19 0.2</pos>
 			<scale>0.65</scale>
 			<opacity>0</opacity>
@@ -59,30 +61,13 @@
 	
 	
 	
-		<image name="lumiere" extra="static">
-			<pos>0 0</pos>
-			<scale>1</scale>
-			<opacity>0</opacity>
-			<path>./lumiere.png</path>
-			<zIndex>16</zIndex>
-		</image>
 		
-		
-		<image name="lumiere" extra="true">
-		
-			<storyboard repeat="forever">
-				
-				<animation property="opacity" from="0" to="1" begin="3000" duration="10000" autoreverse="true" mode="EaseOutQuint"/>
-        		
-			
-			</storyboard>
-		
-		</image>
 	
 	
 		<image name="fog" extra="static">
+			<origin>0 0</origin>									
+			<size>1 1</size>									
 			<pos>0 0</pos>
-			<scale>1</scale>
 			<opacity>0</opacity>
 			<path>./fog.png</path>
 			<zIndex>16</zIndex>

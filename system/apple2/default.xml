@@ -5,11 +5,11 @@
 
 	<view name="system">
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>
 			<pos>0.15 -0.15</pos>
+			<size>0.29375 0.9092593</size>									
 			<scale>1</scale>
 			<opacity>1</opacity>
-	
-
 
 			<storyboard>
 						

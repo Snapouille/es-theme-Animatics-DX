@@ -6,7 +6,10 @@
 	<view name="system">
 	
 		<image name="avatar-girl" extra="static">
+			<origin>0 0</origin>
 			<pos>0.38 0.06</pos>
+			<size>0.3072917 0.9092593</size>									
+
 			<scale>0.8</scale>
 			<opacity>1</opacity>
 			<path>./avatar-girl.png</path>
@@ -19,7 +22,10 @@
 		
 		
 		<image name="avatar-island_left" extra="static">
+			<origin>0 0</origin>
 			<pos>0.05 0.06</pos>
+			<size>0.1479167 0.2444444</size>									
+
 			<scale>0.9</scale>
 			<opacity>1</opacity>
 			<rotation>20</rotation>
@@ -33,7 +39,10 @@
 		</image>
 		
 		<image name="avatar-island_center" extra="static">
+			<origin>0 0</origin>
 			<pos>0.23 0.31</pos>
+			<size>0.1557292 0.2416667</size>									
+
 			<scale>0.6</scale>
 			<opacity>1</opacity>
 			<rotation>-10</rotation>
@@ -48,7 +57,10 @@
 		
 		
 		<image name="avatar-island_up" extra="static">
+			<origin>0 0</origin>
 			<pos>0.5 0</pos>
+			<size>0.2567708 0.2166667</size>									
+
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<rotation>0</rotation>

@@ -1,11 +1,12 @@
 ﻿<theme>
   
-  <customView name="detailed, detailedLogo">
+  <customView name="detailed">
   
-  <!-- <view name="basic, detailed"> -->
   
 		<image name="ecran_console" extra="static">
 			<pos>0.528 0.43</pos>
+			<size>0.4427083 0.525</size>
+
 			<scale>0.85</scale>
 			<path>./../art/background/gba/ecran_console.png</path>
 			<opacity>1</opacity>

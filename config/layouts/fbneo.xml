@@ -1,9 +1,6 @@
 ﻿<theme>
  
   
-  
-  
-  
   <view name="basic, detailed">
   
 		<!-- On masque le logo et le cadre du logo car on la deja dans le MARQUEE du bartop 
@@ -23,6 +20,7 @@
 		
 		<image name="ecran_console" extra="true">
 			<pos>0.42 0.05</pos>
+			<size>0.5072917 0.6018519</size>
 			<scale>1</scale>
 			<path>./../art/background/fbneo/ecran_console.png</path>
 			<opacity>1</opacity>

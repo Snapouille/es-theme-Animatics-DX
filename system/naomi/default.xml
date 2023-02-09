@@ -6,20 +6,24 @@
 
 	<view name="system">
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3125 1.1111111</size>									
 			<pos>0.17 0.09</pos>
-			<scale>0.7</scale>
+			<scale>0.65</scale>
 			<opacity>0</opacity>
 		</image>	
 	
 	
 	<image name="avatar2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0520833 0.1185185</size>		
 			<pos>0.45 0.20</pos>
 			<scale>1</scale>
 			<path>./avatar2.png</path>
 			<opacity>0</opacity>
 			<zIndex>18</zIndex>
 			<linearSmooth>true</linearSmooth>
-		</image>
+	</image>
 	
 	
 		<image name="avatar" extra="true">	
@@ -28,7 +32,7 @@
 					
 					<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear"/>
 					<animation property="x" to="0.27" begin="100" duration="3700" mode="EaseOut"/>
-					<animation property="scale" from="0.65" to="1" begin="4000" duration="350" mode="bump"/>
+					<animation property="scale" from="0.65" to="0.815" begin="4000" duration="350" mode="bump"/>
 					<animation property="x" from="0.25" to="0.38" begin="4000" duration="375" mode="EaseOut"/>
 					<animation property="y" from="0.122" to="0.05" begin="4000" duration="375" mode="EaseOut"/>
 

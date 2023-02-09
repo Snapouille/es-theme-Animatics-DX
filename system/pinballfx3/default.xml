@@ -7,8 +7,10 @@
 	
 			<image name="avatar" extra="static">
 			<origin>0 0</origin>
+			<size>0.1041667 0.1851852</size>									
+
 			<pos>0.07 0.1</pos>
-			<scale>0.1</scale>
+			<scale>0.35</scale>
 			<path>./avatar.png</path>
 			<linearSmooth>true</linearSmooth>
 			

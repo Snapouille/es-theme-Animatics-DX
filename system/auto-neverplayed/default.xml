@@ -7,13 +7,16 @@
 
 		
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+<size>0.1041667 0.3231481</size>									
 			<pos>0.315 0.37</pos>
-			<scale>0.1</scale>
+			<scale>0.3</scale>
 			<opacity>0</opacity>
 		</image>
 		
 		
 		<image name="avatar2" extra="static">
+<size>0.1322917 0.2490741</size>									
 			<origin>1 1</origin> 
 			<pos>-1 0.33</pos>
 			<scale>0.8</scale>
@@ -22,6 +25,7 @@
 		</image>
 		
 		<image name="avatar3" extra="static">
+<size>0.2208333 0.262037</size>									
 			<origin>1 1</origin> 
 			<pos>1 0.54</pos>
 			<scale>0.8</scale>
@@ -30,6 +34,7 @@
 		</image>
 		
 		<image name="avatar4" extra="static">
+<size>0.234375 0.762963</size>									
 			<origin>1 1</origin> 
 			<pos>0.35 0.48</pos>
 			<scale>0.2</scale>

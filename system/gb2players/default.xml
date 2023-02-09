@@ -8,7 +8,10 @@
 	
 	
 		<image name="avatar-run2" extra="static">
+			<origin>0 0</origin>
 			<pos>-0.1 0.407</pos>
+			<size>0.1192708 0.2842593</size>									
+
 			<scale>0.5</scale>
 			<path>./avatar-run2.png</path>
 			<opacity>1</opacity>
@@ -52,9 +55,10 @@
 	
 	
 		<image name="avatar-run" extra="static">
-			
+			<origin>0 0</origin>
 			<pos>-0.1 0.394</pos>
-			
+			<size>0.1192708 0.2842593</size>									
+
 			
 			<scale>0.5</scale>
 			<path>./avatar-run.png</path>
@@ -99,7 +103,10 @@
 		
 		
 		<image name="avatar-run2_inverse" extra="static">
+			<origin>0 0</origin>
 			<pos>0.42 0.39</pos>
+			<size>0.1192708 0.2842593</size>									
+
 			<scale>0.5</scale>
 			<path>./avatar-run2_inverse.png</path>
 			<opacity>0</opacity>
@@ -128,7 +135,10 @@
 		</image>		
 		
 		<image name="avatar-run_inverse" extra="static">
+			<origin>0 0</origin>
 			<pos>0.42 0.39</pos>
+			<size>0.1192708 0.2842593</size>									
+
 			<scale>0.5</scale>
 			<path>./avatar-run_inverse.png</path>
 			<opacity>0</opacity>
@@ -157,7 +167,10 @@
 		
 		
 		<image name="avatar-stand" extra="static">
+			<origin>0 0</origin>
 			<pos>0.12 0.413</pos>
+			<size>0.1192708 0.2842593</size>									
+
 			<scale>0.5</scale>
 			<path>./avatar-stand.png</path>
 			<opacity>0</opacity>
@@ -177,7 +190,11 @@
 		
 		
 		<image name="avatar-general_jump" extra="static">
+			<origin>0 0</origin>
 			<pos>1.1 -0.3</pos>
+			<size>0.1489583 0.3685185</size>									
+									
+
 			<scale>1</scale>
 			<path>./avatar-general_jump.png</path>
 			<opacity>1</opacity>
@@ -201,7 +218,10 @@
 		
 		
 		<image name="avatar-general_stand" extra="static">
+			<origin>0 0</origin>
 			<pos>0.5 0.377</pos>
+			<size>0.1265625 0.3324074</size>									
+
 			<scale>0.5</scale>
 			<path>./avatar-general_stand.png</path>
 			<opacity>0</opacity>
@@ -228,7 +248,10 @@
 	
 	
 		<image name="bloc_jaune" extra="static">
+			<origin>0 0</origin>
 			<pos>0.2 -0.1</pos>
+			<size>0.4302083 0.7268519</size>									
+
 			<scale>0.1</scale>
 			<path>./bloc_jaune.png</path>
 			<zIndex>14</zIndex>
@@ -242,7 +265,10 @@
 		</image>		
 		
 		<image name="bloc_rouge" extra="static">
+			<origin>0 0</origin>
 			<pos>0.35 -0.1</pos>
+			<size>0.58125 0.7037037</size>									
+
 			<scale>0.1</scale>
 			<path>./bloc_rouge.png</path>
 			<zIndex>14</zIndex>
@@ -258,81 +284,14 @@
 		
 	
 			
-		<!-- <image name="bloc_bleu" extra="static"> -->
-			<!-- <pos>0.27 -1</pos> -->
-			<!-- <scale>0.4</scale> -->
-			<!-- <path>./bloc_bleu.png</path> -->
-			<!-- <zIndex>14</zIndex> -->
-			
-			<!-- <storyboard repeat="forever"> -->
-				<!-- <animation property="y" from="-1" to="1.5" begin="2000" duration="3000" mode="linear"/> -->
-				
-				<!-- <animation property="rotation" to="50" begin="11000" duration="10" mode="linear"/> -->
-				<!-- <animation property="scale" to="0.3" begin="11000" duration="10" mode="linear"/> -->
-				<!-- <animation property="x" to="0.64" begin="11000" duration="" mode="linear"/> -->
-				<!-- <animation property="y" from="-1" to="1.5" begin="11000" duration="3000" mode="linear"/> -->
-				
-				<!-- <animation property="rotation" to="-20" begin="22000" duration="10" mode="linear"/> -->
-				<!-- <animation property="scale" to="0.5" begin="22000" duration="10" mode="linear"/> -->
-				<!-- <animation property="x" to="0.33" begin="22000" duration="" mode="linear"/> -->
-				<!-- <animation property="y" from="-1" to="1.5" begin="22000" duration="3000" mode="linear"/> -->
-				
-			<!-- </storyboard> -->
-		<!-- </image>		 -->
-		
-	
-		<!-- <image name="bloc_vert" extra="static"> -->
-			<!-- <pos>0.04 -1</pos> -->
-			<!-- <scale>0.3</scale> -->
-			<!-- <path>./bloc_vert.png</path> -->
-			<!-- <zIndex>14</zIndex> -->
-			
-			<!-- <storyboard repeat="forever"> -->
-				<!-- <animation property="y" from="-1" to="1.5" begin="4000" duration="3000" mode="linear"/> -->
-				
-				<!-- <animation property="rotation" to="40" begin="13000" duration="10" mode="linear"/> -->
-				<!-- <animation property="scale" to="0.2" begin="13000" duration="10" mode="linear"/> -->
-				<!-- <animation property="x" to="0.77" begin="13000" duration="" mode="linear"/> -->
-				<!-- <animation property="y" from="-1" to="1.5" begin="13000" duration="3000" mode="linear"/> -->
-				
-				<!-- <animation property="rotation" to="-60" begin="24000" duration="10" mode="linear"/> -->
-				<!-- <animation property="scale" to="0.4" begin="24000" duration="10" mode="linear"/> -->
-				<!-- <animation property="x" to="0.34" begin="24000" duration="" mode="linear"/> -->
-				<!-- <animation property="y" from="-1" to="1.5" begin="24000" duration="3000" mode="linear"/> -->
-				
-			<!-- </storyboard> -->
-		<!-- </image>		 -->
-		
-		
-		<!-- <image name="bloc_orange" extra="static"> -->
-			<!-- <pos>0.44 -1</pos> -->
-			<!-- <scale>0.4</scale> -->
-			<!-- <path>./bloc_vert.png</path> -->
-			<!-- <zIndex>14</zIndex> -->
-			
-			<!-- <storyboard repeat="forever"> -->
-				<!-- <animation property="y" from="-1" to="1.5" begin="6000" duration="3000" mode="linear"/> -->
-				
-				<!-- <animation property="rotation" to="90" begin="15000" duration="10" mode="linear"/> -->
-				<!-- <animation property="scale" to="0.3" begin="15000" duration="10" mode="linear"/> -->
-				<!-- <animation property="x" to="0.04" begin="15000" duration="" mode="linear"/> -->
-				<!-- <animation property="y" from="-1" to="1.5" begin="15000" duration="3000" mode="linear"/> -->
-				
-				<!-- <animation property="rotation" to="-90" begin="27000" duration="10" mode="linear"/> -->
-				<!-- <animation property="scale" to="0.2" begin="27000" duration="10" mode="linear"/> -->
-				<!-- <animation property="x" to="0.68" begin="27000" duration="" mode="linear"/> -->
-				<!-- <animation property="y" from="-1" to="1.5" begin="27000" duration="3000" mode="linear"/> -->
-				
-			<!-- </storyboard> -->
-		<!-- </image>		 -->
-		
-		
-		
 		
 		
 		
 		<image name="bloc_violet_flou" extra="static">
+			<origin>0 0</origin>
 			<pos>0.44 -1</pos>
+			<size>0.5916667 0.7444444</size>									
+
 			<scale>0.8</scale>
 			<path>./bloc_violet_flou.png</path>
 			<zIndex>10</zIndex>
@@ -355,7 +314,10 @@
 		
 		
 		<image name="bloc_orange_flou" extra="static">
+			<origin>0 0</origin>
 			<pos>0.64 -1</pos>
+			<size>0.6510417 0.7685185</size>									
+
 			<scale>1.1</scale>
 			<path>./bloc_orange_flou.png</path>
 			<zIndex>10</zIndex>
@@ -379,7 +341,10 @@
 		
 		
 		<image name="bloc_vert_flou" extra="static">
+			<origin>0 0</origin>
 			<pos>0.24 -1</pos>
+			<size>0.58125 0.7037037</size>									
+
 			<scale>0.8</scale>
 			<path>./bloc_vert_flou.png</path>
 			<zIndex>10</zIndex>
@@ -403,7 +368,10 @@
 		
 		
 		<image name="bloc_jaune_flou" extra="static">
+			<origin>0 0</origin>
 			<pos>0.04 -1</pos>
+			<size>0.4302083 0.7268519</size>									
+
 			<scale>0.7</scale>
 			<path>./bloc_jaune_flou.png</path>
 			<zIndex>10</zIndex>
@@ -423,7 +391,10 @@
 		</image>		
 		
 		<image name="bloc_rouge_flou" extra="static">
+			<origin>0 0</origin>
 			<pos>0.24 -1</pos>
+			<size>0.58125 0.7037037</size>									
+
 			<scale>1</scale>
 			<path>./bloc_rouge_flou.png</path>
 			<zIndex>10</zIndex>
@@ -444,7 +415,10 @@
 		</image>		
 		
 		<image name="bloc_bleu_flou" extra="static">
+			<origin>0 0</origin>
 			<pos>0.24 -1</pos>
+			<size>0.7859375 0.4296296</size>									
+
 			<scale>0.5</scale>
 			<path>./bloc_bleu_flou.png</path>
 			<zIndex>10</zIndex>

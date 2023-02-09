@@ -1,0 +1,24 @@
+<!-- Creativision -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.2869792 0.8194444</size>									
+									
+								
+			<pos>0.4296875 0.49</pos>									
+								
+			<storyboard>
+				
+        		<animation property="x" to="0.51" begin="" duration="4000" mode="EaseInOut"/>
+        		
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>

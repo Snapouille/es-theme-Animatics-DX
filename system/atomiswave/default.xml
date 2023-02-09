@@ -7,7 +7,10 @@
 	<view name="system">
 		
 		<image name="avatar" extra="static">
-			<pos>-0.2 0.263</pos>
+			<origin>0 0</origin>
+			<pos>-0.2 0.207</pos>
+			<size>0.3333333 0.9101852</size>									
+
 			<scale>0.55</scale>
 			<zIndex>15</zIndex>
 					
@@ -34,11 +37,15 @@
 		
 		
 		<image name="avatar2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.37 0.19</pos>
+			<size>0.3333333 0.9101852</size>									
+
 			<scale>1</scale>
-			<zIndex>20</zIndex>
+			<zIndex>16</zIndex>
+			<flipX>true</flipX>
 			<opacity>0</opacity>
-			<path>./avatar2.png</path>
+			<path>./avatar.png</path>
 
 
 			<storyboard repeat="forever">
@@ -60,7 +67,10 @@
 		
 		
 		<image name="avatar2-eyes" extra="static">
+			<origin>0 0</origin>
 			<pos>0.37 0.19</pos>
+			<size>0.3333333 0.9101852</size>									
+
 			<scale>1</scale>
 			<zIndex>20</zIndex>
 			<opacity>0</opacity>
@@ -95,7 +105,10 @@
 		
 		
 		<image name="sandstorm" extra="static">
+			<origin>0 0</origin>
 			<pos>0 0.2</pos>
+			<size>0.3427083 0.2240741</size>									
+
 			<scale>4</scale>
 			<zIndex>15</zIndex>
 			<opacity>1</opacity>

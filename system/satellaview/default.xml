@@ -9,9 +9,17 @@
 
 		<image name="avatar" extra="static">
 			<origin>0 0</origin>
-			<pos>0.396 0.177</pos>
-			<maxSize>0.25 0.8</maxSize>
+			<size>0.2385417 0.6444444</size>									
+
+			<pos>0.33 0.177</pos>
 			<zIndex>19</zIndex>
+			
+			<storyboard>
+				
+        		<animation property="x" to="0.39" begin="" duration="4000" mode="EaseInOut"/>
+        		
+			</storyboard>	
+			
 		</image>
 
 		<!-- Arc en ciel -->

@@ -6,6 +6,7 @@
 	<view name="system">
 		
 		<image name="avatar-light" extra="static">
+			<origin>0 0</origin>									
 			<pos>0 0</pos>
 			<size>0.51 0.9061</size>
 			<path>./avatar-light.png</path>
@@ -23,6 +24,7 @@
 		</image>
 		
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>
 			<pos>0.18 0.055</pos>
 			<opacity>0</opacity>
 			<maxSize>0.6 0.7</maxSize>
@@ -34,6 +36,7 @@
 		</image>
 		
 		<image name="avatar-shadow" extra="static">
+			<origin>0 0</origin>
 			<pos>0 0.055</pos>
 			<maxSize>0.6 0.7</maxSize>
 			<opacity>0</opacity>

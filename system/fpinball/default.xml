@@ -5,10 +5,12 @@
 
 	<view name="system">
 	
-			<image name="avatar" extra="static">
+			<image name="avatar" extra="true">
 			<origin>0 0</origin>
+			<size>0.1041667 0.1851852</size>									
+
 			<pos>0.3 0.1</pos>
-			<scale>0.08</scale>
+			<scale>0.25</scale>
 			<path>./avatar.png</path>
 			<linearSmooth>true</linearSmooth>
 			

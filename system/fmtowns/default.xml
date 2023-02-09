@@ -7,6 +7,8 @@
 
 	<view name="system">
 		<image name="avatar-ship" extra="static">
+			<origin>0 0</origin>									
+			<size>0.5114583 0.5222222</size>									
 			<pos>0.2 0.3</pos>
 			<scale>0</scale>
 			<opacity>1</opacity>

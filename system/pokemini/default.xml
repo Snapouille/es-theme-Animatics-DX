@@ -8,6 +8,9 @@
 	
 	
 		<image name="Pikachu01" extra="static">
+			<origin>0 0</origin>									
+			<size>0.75 1.1222222</size>									
+
 			<pos>0.23 0.32</pos>
 			<scale>0.01</scale>
 			<rotation>0</rotation>
@@ -55,6 +58,8 @@
 		
 		
 		<image name="Pikachu02" extra="static">
+			<origin>0 0</origin>									
+			<size>0.75 1.1222222</size>									
 			<pos>0.3 0.3</pos>
 			<scale>0.05</scale>
 			<rotation>10</rotation>
@@ -93,6 +98,8 @@
 		
 		
 		<image name="Pikachu03" extra="static">
+			<origin>0 0</origin>									
+			<size>0.75 1.1222222</size>
 			<pos>0.21 0.05</pos>
 			<scale>0.8</scale>
 			<opacity>0</opacity>
@@ -116,6 +123,8 @@
 		
 		
 		<image name="Pikachu04" extra="static">
+			<origin>0 0</origin>									
+			<size>0.75 1.1222222</size>
 			<pos>0.21 0.05</pos>
 			<scale>0.8</scale>
 			<opacity>0</opacity>
@@ -133,6 +142,8 @@
 		</image>
 		
 		<image name="Pikachu05" extra="static">
+			<origin>0 0</origin>									
+			<size>0.75 1.1222222</size>
 			<pos>0.21 0.05</pos>
 			<scale>0.75</scale>
 			<opacity>0</opacity>
@@ -152,6 +163,8 @@
 		</image>
 		
 		<image name="Pikachu06" extra="static">
+			<origin>0 0</origin>									
+			<size>0.75 1.1222222</size>
 			<pos>0.21 0.05</pos>
 			<scale>0.75</scale>
 			<opacity>0</opacity>
@@ -173,6 +186,8 @@
 		
 		
 		<image name="pokeball" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4166667 0.725</size>									
 			<pos>0.31 0.26</pos>
 			<scale>15</scale>
 			<opacity>0</opacity>

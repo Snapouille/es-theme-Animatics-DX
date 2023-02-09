@@ -7,6 +7,8 @@
 	<view name="system">
 	
 		<image name="avatar-barrel" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2604167 0.5935185</size>
 			<pos>-0.01 0.47</pos>
 			<scale>0.7</scale>
 			<opacity>1</opacity>
@@ -17,6 +19,8 @@
 	
 	
 		<image name="avatar-monkey" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0854167 0.2175926</size>	
 			<pos>0.07 0.52</pos>
 			<scale>0.65</scale>
 			<opacity>1</opacity>
@@ -34,6 +38,8 @@
 		
 		
 		<image name="avatar-guybrush1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2515625 0.737037</size>	
 			<pos>0.38 0.1165</pos>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -49,6 +55,8 @@
 		</image>
 		
 		<image name="avatar-guybrush2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2515625 0.737037</size>	
 			<pos>0.38 0.1165</pos>
 			<scale>0.9</scale>
 			<opacity>0</opacity>

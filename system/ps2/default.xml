@@ -6,10 +6,13 @@
 
 	<view name="system">
 	
-		<image name="avatar" extra="static">
-			<pos>0.15 0.1725</pos>
-			<scale>0.65</scale>
+		<image name="avatar1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3645833 1.0157407</size>	
+			<pos>0.15 0.151</pos>
+			<scale>0.55</scale>
 			<opacity>0</opacity>
+			<path>./avatar1.png</path>
 			<zIndex>17</zIndex>
 			
 		<storyboard repeat="forever">
@@ -18,7 +21,7 @@
 					<animation property="x" to="0.23" begin="100" duration="3700" mode="EaseOut"/>
 					<animation property="scale" from="0.65" to="1" begin="4000" duration="350" mode="bump"/>
 					<animation property="x" to="0.3" begin="4000" duration="375" mode="EaseOut"/>
-					<animation property="y" to="0.18" begin="4000" duration="375" mode="EaseOut"/>
+					<animation property="y" to="-0.01" begin="4000" duration="375" mode="EaseOut"/>
 					<animation property="scale" to="5" begin="9000" duration="1000" mode="Linear"/>
 					<animation property="x" to="-0.2" begin="9000" duration="1000" mode="linear"/>
 					<animation property="y" to="-0.8" begin="9000" duration="1000" mode="linear"/>
@@ -29,12 +32,12 @@
 		</image>
 		
 		<image name="avatar2" extra="static">
-			<origin>0 0</origin> 
-			<pos>0.15 0.1725</pos>
-			<scale>0.65</scale>
+			<origin>0 0</origin>									
+			<size>0.3645833 1.0157407</size>	
+			<pos>0.15 0.151</pos>
+			<scale>0.55</scale>
 			<opacity>0</opacity>
 			<path>./avatar2.png</path>
-			<maxSize>0.2969 0.9067</maxSize>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>17</zIndex>
 			
@@ -44,7 +47,7 @@
 					<animation property="x" to="0.23" begin="11000" duration="3000" mode="EaseOut"/>
 					<animation property="scale" from="0.65" to="1" begin="14000" duration="350" mode="bump"/>
 					<animation property="x" to="0.3" begin="14000" duration="375" mode="EaseOut"/>
-					<animation property="y" to="0.18" begin="14000" duration="375" mode="EaseOut"/>
+					<animation property="y" to="-0.01" begin="14000" duration="375" mode="EaseOut"/>
 					<animation property="scale" to="5" begin="19000" duration="1000" mode="Linear"/>
 					<animation property="x" to="-0.2" begin="19000" duration="1000" mode="linear"/>
 					<animation property="y" to="-0.8" begin="19000" duration="1000" mode="linear"/>
@@ -56,12 +59,12 @@
 		
 		
 		<image name="avatar3" extra="static">
-			<origin>0 0</origin> 
-			<pos>0.15 0.1725</pos>
-			<scale>0.65</scale>
+			<origin>0 0</origin>									
+			<size>0.3645833 1.0157407</size>	
+			<pos>0.15 0.151</pos>
+			<scale>0.55</scale>
 			<opacity>0</opacity>
 			<path>./avatar3.png</path>
-			<maxSize>0.2969 0.9067</maxSize>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>17</zIndex>
 			
@@ -71,7 +74,7 @@
 					<animation property="x" to="0.23" begin="21000" duration="3000" mode="EaseOut"/>
 					<animation property="scale" from="0.65" to="1" begin="24000" duration="350" mode="bump"/>
 					<animation property="x" to="0.3" begin="24000" duration="375" mode="EaseOut"/>
-					<animation property="y" to="0.18" begin="24000" duration="375" mode="EaseOut"/>
+					<animation property="y" to="-0.01" begin="24000" duration="375" mode="EaseOut"/>
 					<animation property="scale" to="5" begin="29000" duration="1000" mode="Linear"/>
 					<animation property="x" to="-0.2" begin="29000" duration="1000" mode="linear"/>
 					<animation property="y" to="-0.8" begin="29000" duration="1000" mode="linear"/>
@@ -88,6 +91,8 @@
 		
 		
 		<image name="background2" extra="static">
+			<origin>0 0</origin>									
+			<size>1 1</size>	
 			<pos>0 0</pos>
 			<scale>1</scale>
 			<opacity>0</opacity>

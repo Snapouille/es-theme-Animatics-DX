@@ -1,17 +1,12 @@
 ﻿<theme>
  
   
-  
-  
-  
-  
   <view name="basic, detailed">
-  <!-- Affichage de la jaquette <maxSize>x y</maxSize> x=largeur y=hauteur -->
-  
   
   
 		<image name="ecran_console" extra="static">
 			<pos>0.53 0.19</pos>
+			<size>0.3729167 0.3518519</size>
 			<scale>1</scale>
 			<path>./../art/background/wiiu/ecran_console.png</path>
 			<opacity>1</opacity>

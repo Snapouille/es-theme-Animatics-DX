@@ -7,6 +7,7 @@
 
 		<!-- Sytem AVATAR -->
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
 			<pos>0.025 1</pos>
 			<size>1 1</size>
 			<zIndex>17</zIndex>
@@ -15,6 +16,7 @@
 		</image>
 
 		<image name="avatar2" extra="static">
+			<origin>0 0</origin>
 			<pos>-1 0</pos>
 			<size>1 1</size>
 			<path>./avatar2.png</path>
@@ -22,6 +24,7 @@
 		</image>
 
 		<image name="avatar3" extra="static">
+			<origin>0 0</origin>
 			<pos>0 1</pos>
 			<size>0.5 0.5</size>
 			<path>./avatar.png</path>
@@ -29,6 +32,7 @@
 		</image>
 
 		<image name="avatar4" extra="static">
+			<origin>0 0</origin>
 			<pos>-1 0</pos>
 			<size>1 1</size>
 			<path>./avatar4.png</path>

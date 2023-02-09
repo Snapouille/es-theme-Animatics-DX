@@ -6,7 +6,10 @@
 	<view name="system">
 	
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>
 			<pos>0.4 1</pos>
+			<size>0.25 0.6324074</size>									
+
 			<scale>0.8</scale>
 			<zIndex>18</zIndex>
 			<opacity>1</opacity>
@@ -14,7 +17,10 @@
 		</image>
 		
 		<image name="avatar2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.05 0.2</pos>
+			<size>0.0395833 0.0962963</size>									
+
 			<scale>0.5</scale>
 			<path>./avatar2.png</path>
 			<opacity>1</opacity>
@@ -22,7 +28,10 @@
 		</image>
 		
 		<image name="avatar3" extra="static">
+			<origin>0 0</origin>
 			<pos>0.57 0.585</pos>
+			<size>0.040625 0.0962963</size>									
+
 			<scale>0.5</scale>
 			<path>./avatar3.png</path>
 			<opacity>1</opacity>
@@ -30,14 +39,20 @@
 		</image>
 		
 		<image name="avatar4" extra="static">
+			<origin>0 0</origin>
 			<pos>-1 0.5</pos>
+			<size>0.0401042 0.0962963</size>									
+
 			<scale>1</scale>
 			<path>./avatar4.png</path>
 			<zIndex>17</zIndex>
 		</image>
 		
 		<image name="avatar5" extra="static">
+			<origin>0 0</origin>
 			<pos>-1 0.5</pos>
+			<size>0.0395833 0.0962963</size>									
+
 			<scale>1</scale>
 			<path>./avatar5.png</path>
 			<zIndex>17</zIndex>

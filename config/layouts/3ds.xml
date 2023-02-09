@@ -10,6 +10,8 @@
   
 		<image name="ecran_console" extra="static">
 			<pos>0.528 0.435</pos>
+			<size>0.4427083 0.525</size>
+
 			<scale>0.85</scale>
 			<path>./../art/background/3ds/ecran_console.png</path>
 			<color>FFFFFF</color>

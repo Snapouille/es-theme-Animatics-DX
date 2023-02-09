@@ -6,21 +6,31 @@
 	<view name="system">
 	
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1791667 0.7814815</size>									
 			<pos>0.25 -1</pos>
-			<scale>0.65</scale>
+			<scale>0.3</scale>
 			<rotation>2</rotation>
 			<zIndex>18</zIndex>
 			<opacity>1</opacity>
 			<path>./avatar.png</path>
+			<linearSmooth>true</linearSmooth>
+
 		</image>
 		
 		
 		
 		<image name="avatar" extra="true">
 			<storyboard>
-				<animation property="y" from="-1" to="0.11" begin="1000" duration="400" mode="easyIn"/>
+			
+				<animation property="scale" from="0.3" to="0.8" begin="400" duration="1000" mode="bump"/>
+				<animation property="y" from="-1" to="0.17" begin="400" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.11" begin="1400" duration="500" mode="bump"/>
+			
+			
+				<!-- <animation property="y" from="-1" to="0.11" begin="1000" duration="400" mode="easyIn"/> -->
 				<animation property="rotation" from="2" to="-2" begin="1400" autoreverse="true" duration="4000" repeat="forever" mode="linear"/>
-				<animation property="scale" from="0.65" to="0.7" begin="1400" autoreverse="true" duration="4000" repeat="forever" mode="linear"/>
+				<animation property="scale" from="0.8" to="0.83" begin="1400" autoreverse="true" duration="4000" repeat="forever" mode="linear"/>
 				<animation property="y" from="0.11" to="0.07" begin="1400" autoreverse="true" duration="4000" repeat="forever" mode="easeOut"/>
 				
 			</storyboard>			

@@ -7,7 +7,10 @@
 	
 	
 		<image name="ball" extra="static">
+			<origin>0 0</origin>
 			<pos>-0.3 0.4</pos>
+			<size>0.0255208 0.0453704</size>									
+
 			<scale>0.8</scale>
 			<zIndex>17</zIndex>
 			<opacity>1</opacity>
@@ -39,7 +42,10 @@
 	
 	
 		<image name="snoopy1" extra="static">
+			<origin>0 0</origin>
 			<pos>0.35 0.28</pos>
+			<size>0.2447917 0.3444444</size>									
+
 			<scale>0.8</scale>
 			<zIndex>18</zIndex>
 			<opacity>1</opacity>
@@ -69,7 +75,10 @@
 		</image>
 		
 		<image name="snoopy2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.25 0.28</pos>
+			<size>0.2765625 0.3546296</size>									
+
 			<scale>0.8</scale>
 			<zIndex>18</zIndex>
 			<opacity>0</opacity>
@@ -97,7 +106,10 @@
 		
 		
 		<image name="snoopy3" extra="static">
+			<origin>0 0</origin>
 			<pos>0.38 0.18</pos>
+			<size>0.3645833 0.6074074</size>									
+
 			<scale>0.9</scale>
 			<zIndex>17</zIndex>
 			<opacity>0</opacity>
@@ -116,7 +128,10 @@
 		</image>
 		
 		<image name="eye" extra="static">
+			<origin>0 0</origin>
 			<pos>0.38 0.18</pos>
+			<size>0.3645833 0.6074074</size>									
+
 			<scale>0.9</scale>
 			<zIndex>18</zIndex>
 			<opacity>0</opacity>

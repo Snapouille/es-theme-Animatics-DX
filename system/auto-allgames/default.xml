@@ -7,6 +7,8 @@
 
 		
 		<image name="sofa" extra="static">
+			<origin>0 0</origin>									
+			<size>0.5208333 0.6046296</size>									
 			<pos>0.235 0.28</pos>
 			<scale>0.45</scale>
 			<color>202020</color>
@@ -16,6 +18,8 @@
 		</image>
 		
 		<image name="ghost" extra="static">
+			<origin>0 0</origin>									
+			<size>0.5208333 0.6046296</size>
 			<pos>-1 0.28</pos>
 			<scale>0.45</scale>
 			<color>202020</color>
@@ -24,6 +28,8 @@
 		</image>
 		
 		<image name="tuyau" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1197917 0.3898148</size>									
 			<pos>0.08 -1</pos>
 			<scale>0.8</scale>
 			<path>./tuyau.png</path>
@@ -31,6 +37,8 @@
 		</image>
 		
 		<image name="tuyauH" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1197917 0.3898148</size>	
 			<pos>0.08 -1</pos>
 			<scale>0.8</scale>
 			<path>./tuyauH.png</path>
@@ -38,6 +46,8 @@
 		</image>
 		
 		<image name="mario" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1302083 0.2657407</size>									
 			<pos>0.095 0.45</pos>
 			<scale>0.57</scale>
 			<path>./mario.png</path>

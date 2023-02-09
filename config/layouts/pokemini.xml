@@ -6,7 +6,7 @@
 	<image name="ecran_console" extra="static">
 			<pos>0.555 0.115</pos>
 			<scale>1</scale>
-			<!-- <path>./../art/background/pokemini/ecran_console.png</path> -->
+			<size>0.3125 0.5555556</size>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
 			<zIndex>61</zIndex>

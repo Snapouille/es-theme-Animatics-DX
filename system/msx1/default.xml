@@ -6,6 +6,8 @@
 	<view name="system">
 	
 		<image name="penguin" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3182292 0.5509259</size>										
 			<pos>1 0.34</pos>
 			<scale>0.7</scale>
 			<rotation>0</rotation>
@@ -47,19 +49,17 @@
 		
 		
 		<image name="sky" extra="static">
+			<origin>0 0</origin>									
+			<size>0.5255208 0.2777778</size>									
 			<pos>0.07 0.12</pos>
 			<path>./sky.png</path>
 			<opacity>1</opacity>
 			<zIndex>30</zIndex>
 			
-			
 			<storyboard repeat="forever">
 						
-					
 					<animation property="opacity" from="1" to="0.8" begin="" autoreverse="true" duration="1500" repeat="30" mode="linear"/>
 					<animation property="x" to="0.03" begin="" autoreverse="true" duration="46000" mode="linear"/>
-					
-					
 					
 			</storyboard>
 		</image>

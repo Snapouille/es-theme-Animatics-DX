@@ -5,7 +5,10 @@
 
 	<view name="system">
 		<image name="mickey" extra="static">
+			<origin>0 0</origin>									
 			<pos>-0.2 0.34</pos>
+			<size>0.1895833 0.5990741</size>									
+
 			<scale>0.65</scale>
 			<path>./mickey.png</path>
 			<opacity>0</opacity>
@@ -14,7 +17,9 @@
 	
 		
 		<image name="sorciere" extra="static">
+			<origin>0 0</origin>
 			<pos>1 0.13</pos>
+			<size>0.2916667 0.3814815</size>									
 			<scale>0.25</scale>
 			<rotation>-10</rotation>
 			<path>./sorciere.png</path>
@@ -23,16 +28,22 @@
 		</image>	
 		
 		<image name="sorciere2" extra="static">
+			<origin>0 0</origin>
 			<pos>-1 0.13</pos>
+			<size>0.2916667 0.3814815</size>									
 			<scale>0.4</scale>
-			<path>./sorciere2.png</path>
+			<flipX>true</flipX>
+			<path>./sorciere.png</path>
 			<opacity>1</opacity>
 			<zIndex>18</zIndex>
 		</image>	
 		
 		
 		<image name="chauvesouris01" extra="static">
+			<origin>0 0</origin>
 			<pos>-1 -1</pos>
+			<size>0.0442708 0.0416667</size>									
+
 			<scale>0.5</scale>
 			<path>./chauvesouris.png</path>
 			<opacity>1</opacity>
@@ -40,7 +51,9 @@
 		</image>
 		
 		<image name="chauvesouris02" extra="static">
+			<origin>0 0</origin>
 			<pos>-1 -1</pos>
+			<size>0.0442708 0.0416667</size>									
 			<scale>0.5</scale>
 			<path>./chauvesouris.png</path>
 			<opacity>1</opacity>
@@ -48,7 +61,10 @@
 		</image>
 		
 		<image name="eye" extra="static">
+			<origin>0 0</origin>
 			<pos>0.117 0.17</pos>
+			<size>0.0619792 0.0759259</size>									
+
 			<scale>1</scale>
 			<path>./eye.png</path>
 			<opacity>0</opacity>

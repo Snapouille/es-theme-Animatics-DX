@@ -6,6 +6,7 @@
 	<image name="ecran_console" extra="static">
 			<pos>0.625 0.12</pos>
 			<scale>0.95</scale>
+			<size>0.1989583 0.6083333</size>
 			<path>./../art/background/gb/ecran_console.png</path>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>

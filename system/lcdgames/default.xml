@@ -6,7 +6,10 @@
 	<view name="system">
 	
 		<image name="helico" extra="static">
+			<origin>0 0</origin>
 			<pos>0.465 0.07</pos>
+			<size>0.2473958 0.2564815</size>									
+
 			<scale>0.5</scale>
 			<zIndex>17</zIndex>
 			<opacity>0</opacity>
@@ -14,7 +17,10 @@
 		</image>
 	
 		<image name="gw1" extra="static">
+			<origin>0 0</origin>
 			<pos>0.45 0.14</pos>
+			<size>0.0671875 0.1398148</size>									
+
 			<scale>0.5</scale>
 			<zIndex>17</zIndex>
 			<opacity>0</opacity>
@@ -22,7 +28,10 @@
 		</image>
 		
 		<image name="gw2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.39 0.17</pos>
+			<size>0.1015625 0.2462963</size>									
+
 			<scale>0.5</scale>
 			<zIndex>17</zIndex>
 			<opacity>0</opacity>
@@ -30,7 +39,10 @@
 		</image>
 		
 		<image name="gw3" extra="static">
+			<origin>0 0</origin>
 			<pos>0.32 0.27</pos>
+			<size>0.1104167 0.2361111</size>									
+
 			<rotation>10</rotation>
 			<scale>0.6</scale>
 			<zIndex>17</zIndex>
@@ -39,7 +51,10 @@
 		</image>
 		
 		<image name="gw3bis" extra="static">
+			<origin>0 0</origin>
 			<pos>0.38 0.36</pos>
+			<size>0.1104167 0.2361111</size>									
+
 			<rotation>-10</rotation>
 			<scale>0.6</scale>
 			<zIndex>17</zIndex>
@@ -48,7 +63,10 @@
 		</image>
 		
 		<image name="gw3bisbis" extra="static">
+			<origin>0 0</origin>
 			<pos>0.33 0.46</pos>
+			<size>0.1104167 0.2361111</size>									
+
 			<rotation>0</rotation>
 			<scale>0.6</scale>
 			<zIndex>17</zIndex>
@@ -60,7 +78,10 @@
 		
 		
 		<image name="barque" extra="static">
+			<origin>0 0</origin>
 			<pos>0.28 0.5</pos>
+			<size>0.1770833 0.1916667</size>									
+
 			<scale>0.6</scale>
 			<zIndex>17</zIndex>
 			<opacity>0</opacity>
@@ -70,12 +91,17 @@
 		
 		
 		<image name="aileron" extra="static">
+			<origin>0 0</origin>
 			<pos>0.45 0.63</pos>
+			<size>0.0453125 0.0685185</size>									
+
 			<scale>0.6</scale>
 			<zIndex>17</zIndex>
 			<opacity>0</opacity>
 			<path>./aileron.png</path>
 		</image>
+		
+		
 		
 		
 		

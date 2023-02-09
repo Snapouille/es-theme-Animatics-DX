@@ -6,7 +6,10 @@
 	<view name="system">
 	
 		<image name="blob1" extra="static">
+			<origin>0 0</origin>
 			<pos>1 0.03</pos>
+			<size>0.15625 0.2648148</size>									
+
 			<scale>0.6</scale>
 			<opacity>1</opacity>
 			<path>./blob.png</path>
@@ -14,7 +17,10 @@
 		</image>
 		
 		<image name="blob2" extra="static">
+			<origin>0 0</origin>
 			<pos>1 0.3</pos>
+			<size>0.15625 0.2648148</size>									
+
 			<scale>0.3</scale>
 			<rotation>35</rotation>
 			<opacity>1</opacity>
@@ -23,7 +29,10 @@
 		</image>
 		
 		<image name="rebecca1" extra="static">
+			<origin>0 0</origin>
 			<pos>0.16 0.24</pos>
+			<size>0.1734375 0.7416667</size>									
+
 			<scale>0.5</scale>
 			<opacity>0</opacity>
 			<path>./rebecca1.png</path>
@@ -31,7 +40,10 @@
 		</image>
 		
 		<image name="rebecca2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.15 0.35</pos>
+			<size>0.4166667 0.7166667</size>									
+
 			<scale>0.5</scale>
 			<opacity>0</opacity>
 			<path>./rebecca2.png</path>
@@ -39,7 +51,10 @@
 		</image>
 		
 		<image name="fire" extra="static">
+			<origin>0 0</origin>
 			<pos>0.36 0.279</pos>
+			<size>0.1333333 0.1138889</size>									
+
 			<scale>0.3</scale>
 			<opacity>0</opacity>
 			<path>./fire.png</path>
@@ -47,7 +62,10 @@
 		</image>
 		
 		<image name="blood" extra="static">
+			<origin>0 0</origin>
 			<pos>0.15 0.25</pos>
+			<size>0.1041667 0.3018519</size>									
+
 			<scale>0.3</scale>
 			<opacity>0</opacity>
 			<path>./blood.png</path>
@@ -55,7 +73,10 @@
 		</image>
 		
 		<image name="lumiere" extra="static">
+			<origin>0 0</origin>
 			<pos>0.027 0.062</pos>
+			<size>0.5791667 0.6453704</size>									
+
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<path>./lumiere.png</path>

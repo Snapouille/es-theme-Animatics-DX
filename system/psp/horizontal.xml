@@ -8,7 +8,8 @@
 	<view name="system">
 
 		<image name="kratos1" extra="static">
-			
+			<origin>0 0</origin>									
+			<size>0.5020833 2.0935185</size>		
 			<pos>0.15 0.183</pos>
 			<scale>0.25</scale>
 			
@@ -37,6 +38,8 @@
 		
 		
 		<image name="kratos2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3583333 0.6944444</size>	
 			<pos>0.3 0.085</pos>
 			<scale>1</scale>
 			<path>./kratos2.png</path>
@@ -61,6 +64,8 @@
 		
 		
 		<image name="fire" extra="static">
+			<origin>0 0</origin>									
+			<size>1 1</size>
 			<pos>0 0</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>

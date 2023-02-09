@@ -6,7 +6,10 @@
 	<view name="system">
 	
 		<image name="giddy1" extra="static">
+			<origin>0 0</origin>
 			<pos>0.45 0.42</pos>
+			<size>0.1333333 0.237037</size>									
+
 			<scale>0.55</scale>
 			<opacity>1</opacity>
 			<path>./giddy1.png</path>
@@ -61,7 +64,10 @@
 	
 	
 		<image name="giddy2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.45 0.42</pos>
+			<size>0.1333333 0.237037</size>									
+
 			<scale>0.55</scale>
 			<opacity>0</opacity>
 			<path>./giddy2.png</path>
@@ -106,7 +112,10 @@
 		</image>
 		
 		<image name="dirk1" extra="static">
+			<origin>0 0</origin>
 			<pos>-0.25 0.4</pos>
+			<size>0.26875 0.4898148</size>									
+
 			<scale>0.8</scale>
 			<path>./dirk1.png</path>
 			<opacity>1</opacity>
@@ -124,7 +133,10 @@
 		</image>
 		
 		<image name="dirk2" extra="static">
+			<origin>0 0</origin>
 			<pos>-0.25 0.4</pos>
+			<size>0.26875 0.4898148</size>									
+
 			<scale>0.8</scale>
 			<path>./dirk2.png</path>
 			<opacity>0</opacity>
@@ -147,7 +159,10 @@
 		
 		
 		<image name="ripper" extra="static">
+			<origin>0 0</origin>
 			<pos>0.265 0.26</pos>
+			<size>0.1286458 0.237963</size>									
+
 			<scale>0.8</scale>
 			<path>./ripper.png</path>
 			<rotation>-0.5</rotation>
@@ -179,7 +194,10 @@
 		
 		
 		<image name="light" extra="static">
+			<origin>0 0</origin>
 			<pos>0 0</pos>
+			<size>1 1</size>									
+
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<path>./light.png</path>
@@ -209,7 +227,10 @@
 		
 		
 		<image name="fire1" extra="static">
+			<origin>0 0</origin>
 			<pos>-0.1 0.2</pos>
+			<size>0.5890625 0.7611111</size>									
+
 			<scale>1</scale>
 			<path>./fire1.png</path>
 			<rotation>5</rotation>
@@ -232,7 +253,10 @@
 		</image>
 		
 		<image name="fire2" extra="static">
+			<origin>0 0</origin>
 			<pos>-0.1 0.2</pos>
+			<size>0.5890625 0.7611111</size>									
+
 			<scale>1</scale>
 			<path>./fire2.png</path>
 			<rotation>5</rotation>
@@ -253,7 +277,10 @@
 		</image>
 		
 		<image name="fire3" extra="static">
+			<origin>0 0</origin>
 			<pos>-0.1 0.2</pos>
+			<size>0.5890625 0.7611111</size>									
+
 			<scale>1</scale>
 			<path>./fire3.png</path>
 			<rotation>5</rotation>
@@ -274,7 +301,10 @@
 		</image>
 		
 		<image name="fire4" extra="static">
+			<origin>0 0</origin>
 			<pos>-0.1 0.2</pos>
+			<size>0.5890625 0.7611111</size>									
+
 			<scale>1</scale>
 			<path>./fire4.png</path>
 			<rotation>5</rotation>
@@ -295,7 +325,10 @@
 		</image>
 		
 		<image name="fire5" extra="static">
+			<origin>0 0</origin>
 			<pos>-0.1 0.2</pos>
+			<size>0.5890625 0.7611111</size>									
+
 			<scale>1</scale>
 			<path>./fire5.png</path>
 			<rotation>5</rotation>
@@ -315,7 +348,10 @@
 		</image>
 
 		<image name="fire6" extra="static">
+			<origin>0 0</origin>
 			<pos>-0.1 0.2</pos>
+			<size>0.5890625 0.7611111</size>									
+
 			<scale>1</scale>
 			<path>./fire6.png</path>
 			<rotation>5</rotation>

@@ -1,17 +1,11 @@
 ﻿<theme>
   
   
-  
-  
-  
-  
   <view name="basic, detailed">
-  <!-- Affichage de la jaquette <maxSize>x y</maxSize> x=largeur y=hauteur -->
-  
-  
   
 		<image name="ecran_console" extra="static">
 			<pos>0.49 0.37</pos>
+			<size>0.5307292 0.6277778</size>
 			<scale>0.85</scale>
 			<path>./../art/background/amstradcpc/ecran_console.png</path>
 			<color>FFFFFF</color>

@@ -9,6 +9,7 @@
   
 		<image name="ecran_console" extra="static">
 			<pos>0.55 0.165</pos>
+			<size>0.4197917 0.5842593</size>
 			<scale>0.8</scale>
 			<path>./../art/background/atarist/ecran_console.png</path>
 			<opacity>1</opacity>

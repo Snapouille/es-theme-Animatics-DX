@@ -7,8 +7,9 @@
 	
 		
 		<image name="avatar-yeti2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.28125 0.6259259</size>									
 			<pos>0.3 0.26</pos>
-			<scale>1</scale>
 			<opacity>1</opacity>
 			<path>./avatar-yeti2.png</path>
 			<zIndex>14</zIndex>
@@ -19,8 +20,9 @@
 		</image>
 		
 		<image name="avatar-yeti1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.28125 0.6259259</size>	
 			<pos>0.3 0.26</pos>
-			<scale>1</scale>
 			<opacity>0</opacity>
 			<path>./avatar-yeti1.png</path>
 			<zIndex>14</zIndex>

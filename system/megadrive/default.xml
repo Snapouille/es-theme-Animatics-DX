@@ -7,6 +7,8 @@
 	<view name="system">
 		
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+			<size>0.265625 0.8361111</size>									
 			<pos>0.17 0.21</pos>
 			<scale>0.55</scale>
 			<opacity>0</opacity>
@@ -14,6 +16,8 @@
 	
 	
 		<image name="avatar2" extra="static">
+				<origin>0 0</origin>									
+				<size>0.3671875 0.8481481</size>									
 				<pos>0.43 0.15</pos>
 				<scale>1</scale>
 				<path>./avatar2.png</path>
@@ -22,6 +26,8 @@
 		</image>
 		
 		<image name="avatar3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3671875 0.8481481</size>									
 			<pos>0.35 0.01</pos>
 			<scale>1</scale>
 			<path>./avatar3.png</path>

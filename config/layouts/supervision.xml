@@ -5,6 +5,7 @@
 	
 	<image name="ecran_console" extra="static">
 			<pos>0.555 0.115</pos>
+			<size>0.1989583 0.6083333</size>
 			<scale>0.95</scale>
 			<path>./../art/background/supervision/ecran_console.png</path>
 			<opacity>1</opacity>

@@ -6,7 +6,8 @@
 	<view name="system">
 		
 		<image name="avatar-girl" extra="static">
-			
+			<origin>0 0</origin>									
+			<size>0.3505208 0.7277778</size>	
 			<pos>0.05 0.126</pos>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -26,7 +27,9 @@
 			</storyboard>
 		</image>
 		
-		<image name="avatar-girl2" ifSubset="systemview:horizontal" extra="static">
+		<image name="avatar-girl2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3505208 0.7277778</size>	
 			<pos>0.05 0.126</pos>
 			<scale>0.9</scale>
 			<opacity>0</opacity>
@@ -47,6 +50,8 @@
 		
 		
 		<image name="avatar-enemy" extra="static">
+			<origin>0 0</origin>									
+<size>0.3255208 0.4453704</size>									
 			<pos>0.1 -0.1</pos>
 			<scale>0.1</scale>
 			<opacity>1</opacity>
@@ -68,6 +73,8 @@
 		
 		
 		<image name="avatar-ship" extra="static">
+			<origin>0 0</origin>									
+<size>0.2661458 0.5009259</size>									
 			<pos>-0.1 0.63</pos>
 			<scale>0.12</scale>
 			<opacity>1</opacity>
@@ -91,6 +98,8 @@
 		
 		
 		<image name="avatar-shoot" extra="static">
+			<size>0.0489583 0.1972222</size>									
+
 			<origin>-2.2 -1</origin>
 			<pos>-0.1 0.63</pos>
 			<scale>0.12</scale>
@@ -131,6 +140,8 @@
 		
 		
 		<image name="avatar-explo1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0666667 0.1203704</size>	
 			<pos>0.115 0.22</pos>
 			<scale>0.6</scale>
 			<opacity>0</opacity>
@@ -147,6 +158,8 @@
 		
 		
 		<image name="avatar-explo2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0666667 0.1203704</size>	
 			<pos>0.115 0.22</pos>
 			<scale>0.6</scale>
 			<opacity>0</opacity>
@@ -163,6 +176,8 @@
 		
 		
 		<image name="avatar-explo3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0666667 0.1203704</size>	
 			<pos>0.115 0.22</pos>
 			<scale>0.6</scale>
 			<opacity>0</opacity>

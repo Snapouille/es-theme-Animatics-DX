@@ -6,6 +6,8 @@
 	<view name="system">
 	
 		<image name="chauvesouris" extra="static">
+			<origin>0 0</origin>									
+<size>0.1979167 0.2777778</size>									
 			<pos>0.18 -1</pos>
 			<scale>0.4</scale>
 			<opacity>1</opacity>
@@ -15,6 +17,8 @@
 		</image>
 		
 		<image name="banane" extra="static">
+			<origin>0 0</origin>									
+<size>0.0416667 0.0694444</size>									
 			<pos>0.38 0.25</pos>
 			<scale>0.9</scale>
 			<opacity>0</opacity>
@@ -24,6 +28,8 @@
 	
 		
 		<image name="WBwheelBack" extra="static">
+			<origin>0 0</origin>									
+<size>0.0416667 0.0740741</size>									
 			<pos>0.0618 0.6783</pos>
 			<scale>0.4</scale>
 			<path>./WBwheel.png</path>
@@ -33,6 +39,8 @@
 		
 		
 		<image name="WBwheelFront" extra="static">
+			<origin>0 0</origin>									
+<size>0.0416667 0.0740741</size>									
 			<pos>0.1205 0.6783</pos>
 			<scale>0.4</scale>
 			<path>./WBwheel.png</path>
@@ -41,6 +49,8 @@
 		</image>	
 		
 		<image name="WBskate" extra="static">
+		<origin>0 0</origin>									
+<size>0.2083333 0.1333333</size>									
 			<pos>0.025 0.63</pos>
 			<rotation>0</rotation>
 			<scale>0.65</scale>
@@ -51,6 +61,8 @@
 		
 		
 		<image name="WBboy" extra="static">
+			<origin>0 0</origin>									
+<size>0.3645833 0.6685185</size>									
 			<pos>0.045 0.485</pos>
 			<rotation>0</rotation>
 			<scale>0.3</scale>

@@ -7,8 +7,10 @@
 	
 			<image name="avatar" extra="static">
 			<origin>0 0</origin>
+			<size>0.1041667 0.1851852</size>									
+
 			<pos>0.217 0.13</pos>
-			<scale>0.05</scale>
+			<scale>0.2</scale>
 			<path>./avatar.png</path>
 			<linearSmooth>true</linearSmooth>
 			
@@ -17,18 +19,19 @@
 				
 					<animation property="x" to="0.22" begin="" duration="300" mode="EaseIn"/>
 					<animation property="y" to="0.168" begin="" duration="300" mode="EaseIn"/>
-					<animation property="scale" to="0.07" begin="" duration="300" mode="EaseIn"/>
+					<animation property="scale" to="0.2" begin="" duration="300" mode="EaseIn"/>
 				
 					<animation property="x" to="0.33" begin="300" duration="600" mode="Linear"/>
 					<animation property="x" to="0.35" begin="900" duration="1100" mode="Linear"/>
 				
 					<animation property="y" to="1" begin="300" duration="1700" mode="EaseIn"/>
-					<animation property="scale" to="0.2" begin="300" duration="1100" mode="linear"/>
+					<animation property="scale" to="0.4" begin="300" duration="1100" mode="linear"/>
 
 					
 					<animation property="opacity" to="0" begin="20000" duration="10" mode="EaseIn"/>
 
 			</storyboard>
+			
 		</image>
 		
 	</view>

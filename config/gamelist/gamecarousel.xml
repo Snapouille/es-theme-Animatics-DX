@@ -142,16 +142,23 @@ originally based on: "carbon"
 	  <zIndex>150</zIndex>
 			
 			<storyboard event="open">
-                <animation property="offsetX" from="-0.2" to="0" duration="500" mode="EaseOutQuint"/>
+                <animation property="scale" from="0.2" to="1" duration="400" mode="EaseOutQuint"/>
+				<animation property="rotation" from="-45" to="0" duration="400" mode="EaseOutCubic"/>
 			</storyboard>
 			
 			<storyboard event="activate">
-                <animation property="offsetX" from="-0.2" to="0" begin="" duration="500" mode="EaseOutQuint"/>
+                <animation property="scale" from="0.2" to="1" duration="400" mode="EaseOutQuint"/>
+				<animation property="rotation" from="-45" to="0" duration="400" mode="EaseOutCubic"/>
 			</storyboard>
 			
 			<storyboard event="deactivate">
-			    <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			    <animation property="offsetX" from="0" to="-0.2" duration="200" mode="EaseOut"/>
+				<animation property="scale" to="0.5" duration="200" mode="EaseOut"/>
+				<animation property="rotation" to="90" duration="200" mode="EaseOut"/>
 			</storyboard>
+			
+			
+			
 	</image>	  
 	
 	
@@ -163,7 +170,7 @@ originally based on: "carbon"
       <type>vertical_wheel</type>
 	  <logoAlignment>center</logoAlignment>
 	  <logoRotationOrigin>3.6 0.5</logoRotationOrigin>
-	  <logoRotation>12</logoRotation>
+	  <logoRotation>-12</logoRotation>
 	  <origin>0.5 0.5</origin>
       <pos>0.75 0.47</pos>
       <size>0.4 0.93</size>
@@ -177,7 +184,7 @@ originally based on: "carbon"
     </gamecarousel>    
     
 	<text name="gamecarouselLogoText">
-      <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
+      <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 	  <color>AABBBBFF</color>
 	  <fontSize>0.042</fontSize>
       <glowColor>000000FF</glowColor>

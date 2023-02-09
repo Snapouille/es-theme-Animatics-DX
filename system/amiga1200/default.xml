@@ -5,8 +5,10 @@
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<image name="avatar" extra="static">
-			<pos>0.09 0.122</pos>
+		<image name="avatar" extra="true">
+			<origin>0 0</origin>
+			<pos>0.11 0.1198</pos>
+			<size>0.29375 0.9092593</size>									
 			<scale>0.65</scale>
 			
 					

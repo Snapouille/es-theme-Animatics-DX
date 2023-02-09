@@ -6,6 +6,8 @@
 	<view name="system">
 	
 		<image name="cochon" extra="static">
+			<origin>0 0</origin>									
+<size>0.278125 0.7712963</size>									
 			<pos>0.46 0</pos>
 			<scale>0.91</scale>
 			<rotation>-10</rotation>
@@ -29,6 +31,9 @@
 		</image>
 		
 		<image name="loup01" extra="static">
+			<origin>0 0</origin>									
+<size>0.1526042 0.6490741</size>									
+
 			<pos>0.05 -0.5</pos>
 			<scale>0.9</scale>
 			<rotation>1.5</rotation>

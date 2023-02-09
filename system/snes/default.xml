@@ -6,6 +6,8 @@
 	<view name="system">
 	
 		<image name="avatar-yoshi" extra="static">
+			<origin>0 0</origin>									
+			<size>0.29375 0.6675926</size>									
 			<pos>1 0.35</pos>
 			<scale>0.45</scale>
 			<zIndex>18</zIndex>
@@ -17,6 +19,8 @@
 		
 		
 		<image name="avatar-flou" extra="static">
+			<origin>0 0</origin>									
+			<size>0.29375 0.6675926</size>									
 			<pos>1 0.35</pos>
 			<scale>0.45</scale>
 			<zIndex>18</zIndex>

@@ -6,24 +6,12 @@
 	<view name="system">
 		
 		
-		<image name="avatar-punisher" extra="static">
+		<image name="avatar-punisher" extra="true">
+			<origin>0 0</origin>
 			<pos>0.2 0.167</pos>
-			<scale>0.7</scale>
-			<zIndex>16</zIndex>
-			<opacity>1</opacity>
-			<path>./avatar-punisher.png</path>
-			<storyboard>
-				<animation property="x" to="0.25" begin="500" duration="1500" mode="EaseOut"/>
-			</storyboard>
-		</image>
-		
-	</view>
-	
-	
-	<view name="system" ifSubset="systemview:horizontal" extra="static">
-		
-		<image name="avatar-punisher" >
-			<pos>-0.25 0.2</pos>
+			<size>0.2661458 0.7407407</size>									
+
+
 			<scale>0.8</scale>
 			<zIndex>16</zIndex>
 			<opacity>1</opacity>
@@ -49,7 +37,10 @@
 		
 		
 		<image name="bulletfire1" extra="static">
+			<origin>0 0</origin>
 			<pos>0.184 0.279</pos>
+			<size>0.1604167 0.262963</size>									
+
 			<scale>0.5</scale>
 			<zIndex>18</zIndex>
 			<opacity>0</opacity>
@@ -62,8 +53,11 @@
 		</image>
 		
 		<image name="background-color" extra="static">
-			<pos>0 0</pos>
-			<scale>1</scale>
+			<origin>0.5 0.5</origin>									
+			<pos>0.4875 0.3856481</pos>									
+			<size>0.240625 0.6453704</size>									
+								
+
 			<zIndex>17</zIndex>
 			<opacity>0</opacity>
 			<path>./background-color.png</path>
@@ -77,7 +71,10 @@
 		</image>
 		
 		<image name="bulletfire2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.134 0.279</pos>
+			<size>0.1604167 0.262963</size>									
+
 			<scale>0.5</scale>
 			<zIndex>18</zIndex>
 			<opacity>0</opacity>
@@ -92,7 +89,10 @@
 		
 		
 		<image name="avatar-glass" extra="static">
+			<origin>0 0</origin>
 			<pos>0.055 0.13</pos>
+			<size>0.625 1.1111111</size>									
+
 			<scale>0.4</scale>
 			<zIndex>18</zIndex>
 			<opacity>0</opacity>

@@ -7,15 +7,22 @@
 		
 		
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>
 			<pos>0.1 0.4</pos>
+			<size>0.2911458 0.6666667</size>									
+
 			<scale>0.5</scale>
+			<linearSmooth>true</linearSmooth>
 			<rotation>20</rotation>
 			<opacity>1</opacity>
 		</image>
 		
 		
 		<image name="shadow" extra="static">
+			<origin>0 0</origin>
 			<pos>0.333 0.59</pos>
+			<size>0.1125 0.2259259</size>									
+
 			<scale>0.3</scale>
 			<rotation>12</rotation>
 			<path>./shadow.png</path>
@@ -26,7 +33,10 @@
 		
 		
 		<image name="monster" extra="static">
+			<origin>0 0</origin>
 			<pos>0.08 -1</pos>
+			<size>0.2083333 0.2990741</size>									
+
 			<scale>0.65</scale>
 			<opacity>1</opacity>
 			<path>./monster.png</path>

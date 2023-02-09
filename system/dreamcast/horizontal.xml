@@ -7,7 +7,10 @@
 	<view name="system">
 		
 		<image name="avatar-ryo" extra="static">
+			<origin>0 0</origin>
 			<pos>0.18 0.2</pos>
+			<size>0.2541667 0.7407407</size>									
+
 			<scale>0.55</scale>
 			<opacity>1</opacity>
 			<path>./avatar-ryo.png</path>

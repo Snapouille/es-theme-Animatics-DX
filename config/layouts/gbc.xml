@@ -7,6 +7,7 @@
 	
 	<image name="ecran_console" extra="static">
 			<pos>0.625 0.115</pos>
+			<size>0.2546875 0.7472222</size>
 			<scale>0.77</scale>
 			<path>./../art/background/gbc/ecran_console.png</path>
 			<opacity>1</opacity>

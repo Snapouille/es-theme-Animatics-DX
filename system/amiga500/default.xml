@@ -6,16 +6,23 @@
 
 	<view name="system">
 	
-		<image name="background-dungeon" extra="static">
-			<pos>0 0</pos>
+		<image name="background-dungeon" extra="true">
+			<origin>0.5 0.5</origin>									
+			<pos>0.2755208 0.2814815</pos>									
+			<size>0.0458333 0.1907407</size>									
+			<opacity>0</opacity>
 			<path>./background-dungeon.png</path>
 			<zIndex>12</zIndex>
+			<storyboard>
+					<animation property="opacity" from="0" to="1" begin="500" duration="0" mode="linear"/>
+			</storyboard>
 		</image>
 	
 	
-		<image name="avatar-rouge" extra="static">
-		
+		<image name="avatar-rouge" extra="true">
+			<origin>0 0</origin>
 			<pos>0.6 1</pos>
+			<size>0.2333333 1.1111111</size>																	
 			<scale>0.5</scale>
 			<path>./avatar-rouge.png</path>
 			<zIndex>12</zIndex>
@@ -33,8 +40,10 @@
 		</storyboard>
 		</image>
 		
-		<image name="avatar-jaune" extra="static">
+		<image name="avatar-jaune" extra="true">
+			<origin>0 0</origin>
 			<pos>0.42 0.1</pos>
+			<size>0.2333333 1.1111111</size>
 			<scale>0.75</scale>
 			<path>./avatar-jaune.png</path>
 			<opacity>0</opacity>
@@ -48,8 +57,10 @@
 		</image>
 		
 		
-		<image name="avatar-vert" extra="static">
+		<image name="avatar-vert" extra="true">
+			<origin>0 0</origin>
 			<pos>0.42 0.1</pos>
+			<size>0.2333333 1.1111111</size>
 			<scale>0.75</scale>
 			<path>./avatar-vert.png</path>
 			<opacity>0</opacity>
@@ -62,8 +73,10 @@
 				</storyboard>
 		</image>
 		
-		<image name="avatar-bleu" extra="static">
+		<image name="avatar-bleu" extra="true">
+			<origin>0 0</origin>
 			<pos>0.42 0.1</pos>
+			<size>0.2333333 1.1111111</size>
 			<scale>0.75</scale>
 			<path>./avatar-bleu.png</path>
 			<opacity>0</opacity>
@@ -80,9 +93,10 @@
 		
 		
 		
-		<image name="dragon1" extra="static">
-		
+		<image name="dragon1" extra="true">
+			<origin>0 0</origin>
 			<pos>-0.1 0.16</pos>
+			<size>0.1921875 0.3148148</size>									
 			<scale>0.2</scale>
 			<path>./dragon1.png</path>
 			<opacity>1</opacity>
@@ -150,9 +164,10 @@
 		
 		
 		
-		<image name="dragon2" extra="static">
-		
+		<image name="dragon2" extra="true">
+			<origin>0 0</origin>
 			<pos>-0.1 0.16</pos>
+			<size>0.1921875 0.3148148</size>
 			<scale>0.2</scale>
 			<path>./dragon2.png</path>
 			<opacity>0</opacity>
@@ -214,9 +229,10 @@
 		</image>
 		
 		
-		<image name="dragon3" extra="static">
-		
+		<image name="dragon3" extra="true">
+			<origin>0 0</origin>
 			<pos>-0.1 0.16</pos>
+			<size>0.1921875 0.3148148</size>
 			<scale>0.2</scale>
 			<path>./dragon3.png</path>
 			<opacity>0</opacity>
@@ -278,8 +294,10 @@
 		
 		
 		
-		<image name="background-starsky" extra="static">
+		<image name="background-starsky" extra="true">
+			<origin>0 0</origin>
 			<pos>-0.2 0.19</pos>
+			<size>0.584375 0.3814815</size>									
 			<path>./background-starsky.png</path>
 			<opacity>0</opacity>
 			<zIndex>11</zIndex>
@@ -299,11 +317,13 @@
 		
 		
 		
-		<image name="fog" extra="static">
+		<image name="fog" extra="true">
+			<origin>0 0</origin>
 			<pos>0 0.2</pos>
+			<size>0.3427083 0.2240741</size>	
 			<scale>4</scale>
 			<zIndex>15</zIndex>
-			<opacity>1</opacity>
+			<opacity>1</opacity>								
 			<path>./fog.png</path>
 
 

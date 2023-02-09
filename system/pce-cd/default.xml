@@ -8,6 +8,8 @@
 		
 		
 		<image name="avatar-sleepZsmall" extra="static">
+			<origin>0 0</origin>									
+<size>0.0541667 0.0972222</size>									
 			<pos>0.34 0.5</pos>
 			<scale>0.85</scale>
 			<zIndex>18</zIndex>
@@ -38,6 +40,8 @@
 		
 		
 		<image name="avatar-sleepZbig" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0859375 0.1574074</size>									
 			<pos>0.28 0.39</pos>
 			<scale>0.85</scale>
 			<zIndex>18</zIndex>
@@ -67,6 +71,8 @@
 		
 		
 		<image name="avatar-sleep" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4583333 0.6185185</size>									
 			<pos>0.29 0.35</pos>
 			<scale>0.85</scale>
 			<zIndex>18</zIndex>
@@ -87,6 +93,8 @@
 		</image>
 		
 		<image name="avatar-debout1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4583333 0.6185185</size>	
 			<pos>0.21 0.27</pos>
 			<scale>1</scale>
 			<zIndex>18</zIndex>
@@ -123,6 +131,8 @@
 		</image>
 		
 		<image name="avatar-debout2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4583333 0.6185185</size>	
 			<pos>0.21 0.27</pos>
 			<scale>1</scale>
 			<zIndex>18</zIndex>
@@ -165,6 +175,8 @@
 		
 		
 		<image name="avatar-debout3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4583333 0.6185185</size>	
 			<pos>0.21 0.27</pos>
 			<scale>1</scale>
 			<zIndex>18</zIndex>
@@ -185,6 +197,8 @@
 		
 		
 		<image name="avatar-debout4" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4583333 0.6185185</size>	
 			<pos>0.21 0.27</pos>
 			<scale>1</scale>
 			<zIndex>18</zIndex>
@@ -209,6 +223,8 @@
 		
 		
 		<image name="avatar-debout5" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4583333 0.6185185</size>	
 			<pos>0.21 0.27</pos>
 			<scale>1</scale>
 			<zIndex>18</zIndex>

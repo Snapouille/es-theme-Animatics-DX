@@ -8,9 +8,10 @@
 		
 		
 		<image name="avatar-mario1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4208333 0.6731481</size>									
 			<pos>0.072 0.306</pos>
 			<scale>0.6</scale>
-			<rotation>0</rotation>
 			<opacity>0</opacity>
 			<path>./avatar-mario1.png</path>
 			<zIndex>16</zIndex>
@@ -27,9 +28,10 @@
 		
 		
 		<image name="avatar-mario2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4208333 0.6731481</size>
 			<pos>0.072 0.306</pos>
 			<scale>0.6</scale>
-			<rotation>0</rotation>
 			<opacity>0</opacity>
 			<path>./avatar-mario2.png</path>
 			<zIndex>16</zIndex>
@@ -53,9 +55,10 @@
 	
 		
 		<image name="avatar-chapeau" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2494792 0.3981481</size>									
 			<pos>0.135 0.237</pos>
 			<scale>0.6</scale>
-			<rotation>0</rotation>
 			<opacity>0</opacity>
 			<path>./avatar-chapeau.png</path>
 			<zIndex>17</zIndex>
@@ -91,6 +94,8 @@
 		</image>	
 		
 		<image name="avatar-chapeau2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2494792 0.3981481</size>									
 			<pos>0.135 0.237</pos>
 			<scale>0.6</scale>
 			<rotation>0</rotation>

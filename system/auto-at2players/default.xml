@@ -6,31 +6,26 @@
 
 	<view name="system">
 		<image name="avatar" extra="static">
-			<pos>0.05 0.41</pos>
-			<scale>0.85</scale>
-			
-					
+			<origin>0 0</origin>									
+			<size>0.4036458 0.4453704</size>									
+			<pos>0.05 0.37</pos>
+			<scale>0.5</scale>
+			<linearSmooth>true</linearSmooth>
+
 
 		<storyboard >
 				
-			
-								
 				<animation property="x" to="0.12" begin="" duration="2000" mode="EaseOut"/>
-				<animation property="scale" from="0.85" to="1" begin="" duration="2000" mode="Linear"/>
-				<animation property="x" from="0.12" to="0.19" begin="2000" duration="175" mode="EaseOut"/>
-				<animation property="y" from="0.41" to="0.21" begin="2000" duration="175" mode="EaseOut"/>
+				<animation property="scale" from="0.5" to="0.85" begin="" duration="2000" mode="Linear"/>
+				<animation property="x" from="0.12" to="0.21" begin="2000" duration="175" mode="EaseOut"/>
+				<animation property="y" from="0.31" to="0.21" begin="2000" duration="175" mode="EaseOut"/>
 				<animation property="rotation" to="1.005" begin="2000" autoreverse="true" duration="300" repeat="forever" mode="linear"/>
-				<animation property="scale" to="1.4" begin="2000" duration="170" mode="Linear"/>
-				<animation property="scale" to="1.55" begin="2500" autoreverse="true" duration="10000" repeat="forever" mode="Linear"/>
-        		
+				<animation property="scale" to="0.95" begin="2000" duration="170" mode="Linear"/>
+				<animation property="scale" to="1.15" begin="2500" autoreverse="true" duration="10000" repeat="forever" mode="Linear"/>
+				<animation property="y" to="0.31" begin="2500" autoreverse="true" duration="10000" repeat="forever" mode="Linear"/>
         		
 		</storyboard>
 				
-		
-		
-		
-		
-		
 		
 		</image>
 	</view>

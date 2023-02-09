@@ -7,7 +7,10 @@
 		
 		
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>
 			<pos>0.1 0.167</pos>
+			<size>0.29375 0.7833333</size>									
+
 			<scale>0.6</scale>
 			<opacity>1</opacity>
 			<storyboard>

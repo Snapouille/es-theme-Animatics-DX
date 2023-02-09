@@ -6,6 +6,8 @@
 	<view name="system">
 	
 		<image name="disc" extra="static">
+			<origin>0 0</origin>									
+			<size>0.6651042 1.1824074</size>	
 			<pos>-0.8 -0.8</pos>
 			<scale>0.08</scale>
 			<zIndex>18</zIndex>
@@ -28,6 +30,8 @@
 		</image>
 		
 		<image name="energy" extra="static">
+			<origin>0 0</origin>									
+			<size>0.6651042 1.1824074</size>	
 			<pos>-0.8 -1</pos>
 			<scale>0.08</scale>
 			<zIndex>17</zIndex>
@@ -56,6 +60,8 @@
 		
 	
 		<image name="avatar1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3552083 0.6944444</size>	
 			<pos>-1 0.23</pos>
 			<scale>0.8</scale>
 			<zIndex>18</zIndex>
@@ -77,6 +83,8 @@
 		
 		
 		<image name="avatar2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4489583 0.6944444</size>
 			<pos>1 0.23</pos>
 			<scale>0.8</scale>
 			<zIndex>18</zIndex>
@@ -100,6 +108,8 @@
 		
 		
 		<image name="avatar3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3390625 0.6944444</size>
 			<pos>-1 0.23</pos>
 			<scale>0.8</scale>
 			<zIndex>18</zIndex>
@@ -121,6 +131,8 @@
 		
 		
 		<image name="avatar4" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3791667 0.6944444</size>	
 			<pos>1 0.23</pos>
 			<scale>0.8</scale>
 			<zIndex>18</zIndex>
@@ -144,6 +156,8 @@
 		
 		
 		<image name="avatar5" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3171875 0.6944444</size>	
 			<pos>-1 0.23</pos>
 			<scale>0.8</scale>
 			<zIndex>18</zIndex>
@@ -165,11 +179,8 @@
 		
 		
 		<image name="avatar6" extra="static">
-		
-			<!-- <pos>0.346 0.09</pos> -->
-			<!-- <scale>1</scale> -->
-		
-		
+			<origin>0 0</origin>									
+			<size>0.3072917 0.6944444</size>
 			<pos>1 0.23</pos>
 			<scale>0.8</scale>
 			<zIndex>18</zIndex>
@@ -192,23 +203,18 @@
 				<animation property="y" to="-0.2" begin="17500" duration="1000" mode="linear"/>
 				
 				
-				
-				
-				
-				
 			</storyboard>
 
 		</image>
 		
 		
 		<image name="avatar6arm" extra="static">
-		
+			<origin>0 0</origin>									
+			<size>0.3072917 0.6944444</size>
 			<pos>0.338 0.048</pos>
 			<scale>1.1</scale>
 			<rotation>-3</rotation>
 		
-			<!-- <pos>1 0.23</pos> -->
-			<!-- <scale>0.8</scale> -->
 			<zIndex>19</zIndex>
 			<opacity>0</opacity>
 			<path>./avatar6arm.png</path>
@@ -216,23 +222,10 @@
 		
 			<storyboard repeat="forever">
 				
-				<!-- <animation property="x" to="0.3" begin="10500" duration="700" mode="linear"/> -->
-				<!-- <animation property="x" to="0.27" begin="11200" duration="1500" mode="linear"/> -->
-				<!-- <animation property="scale" to="1" begin="12700" duration="300" mode="linear"/> -->
-				
-				
-				
 				
 				<animation property="opacity" to="1" begin="14000" duration="100" autoreverse="true" repeat="2" mode="linear"/>
 				
 				<animation property="opacity" to="0" begin="14400" duration="10" mode="linear"/>
-				
-				
-				
-				
-							
-				
-				
 				
 				
 				

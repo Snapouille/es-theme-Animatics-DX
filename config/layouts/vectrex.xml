@@ -1,15 +1,12 @@
 ﻿<theme>
  
   
-  
-  
-  
-  
   <view name="basic, detailed">
   
 		
 		<image name="ecran_console" extra="true">
-			<pos>0.42 0.11</pos>
+			<pos>0.42 0.119</pos>
+			<size>0.5072917 0.6018519</size>
 			<scale>0.9</scale>
 			<path>./../art/background/vectrex/ecran_console.png</path>
 			<opacity>1</opacity>
@@ -32,7 +29,7 @@
   
 		
 		<video name="md_video">
-		  <pos>0.643 0.312</pos>
+		  <pos>0.643 0.321</pos>
 		  <size>0.125 0.26</size>
 		  <!-- <maxSize>0.13 0.17</maxSize> -->
 		  <roundCorners>0</roundCorners>

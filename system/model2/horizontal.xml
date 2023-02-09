@@ -6,9 +6,12 @@
 
 	<view name="system">
 	
+
+		
 		<image name="zombi1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0791667 0.2472222</size>									
 			<pos>0.3 0.35</pos>
-			<scale>1</scale>
 			<rotation>10</rotation>
 			<zIndex>16</zIndex>
 			<opacity>1</opacity>
@@ -27,8 +30,9 @@
 		
 		
 		<image name="zombi2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3447917 0.5527778</size>									
 			<pos>0.1 0.1</pos>
-			<scale>1</scale>
 			<rotation>10</rotation>
 			<zIndex>16</zIndex>
 			<opacity>0</opacity>
@@ -48,6 +52,8 @@
 		
 		
 		<image name="zombi3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.465625 0.4435185</size>									
 			<pos>0.0399 0.25</pos>
 			<scale>1.03</scale>
 			<rotation>0</rotation>
@@ -71,6 +77,8 @@
 		</image>
 		
 		<image name="bloodhole1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1604167 0.262963</size>									
 			<pos>0.236 0.343</pos>
 			<scale>0.85</scale>
 			<rotation>-30</rotation>
@@ -93,6 +101,8 @@
 		
 		
 		<image name="bulletfire1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1604167 0.262963</size>									
 			<pos>0.236 0.343</pos>
 			<scale>0.85</scale>
 			<zIndex>18</zIndex>
@@ -105,6 +115,8 @@
 		</image>
 		
 		<image name="blood1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1697917 0.1851852</size>									
 			<pos>0.167 0.385</pos>
 			<scale>1</scale>
 			<zIndex>18</zIndex>
@@ -119,6 +131,8 @@
 		
 		
 		<image name="bloodhole2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1697917 0.1851852</size>									
 			<pos>0.31 0.218</pos>
 			<scale>0.8</scale>
 			<rotation>0</rotation>
@@ -138,6 +152,8 @@
 		</image>
 		
 		<image name="bulletfire2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1604167 0.262963</size>									
 			<pos>0.31 0.218</pos>
 			<scale>0.8</scale>
 			<zIndex>18</zIndex>
@@ -150,6 +166,8 @@
 		</image>
 		
 		<image name="blood2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1697917 0.1851852</size>
 			<pos>0.235 0.2</pos>
 			<scale>1</scale>
 			<rotation>30</rotation>
@@ -166,6 +184,8 @@
 		
 		
 		<image name="bloodhole3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1697917 0.1851852</size>
 			<pos>0.347 0.285</pos>
 			<scale>0.65</scale>
 			<rotation>30</rotation>
@@ -186,6 +206,8 @@
 		</image>
 		
 		<image name="bulletfire3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1604167 0.262963</size>	
 			<pos>0.347 0.285</pos>
 			<scale>0.65</scale>
 			<zIndex>18</zIndex>
@@ -198,6 +220,8 @@
 		</image>
 		
 		<image name="blood3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1697917 0.1851852</size>
 			<pos>0.345 0.21</pos>
 			<scale>1</scale>
 			<rotation>130</rotation>
@@ -213,6 +237,8 @@
 		
 		
 		<image name="bloodhole4" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1697917 0.1851852</size>
 			<pos>0.31 0.33</pos>
 			<scale>0.65</scale>
 			<rotation>70</rotation>
@@ -233,6 +259,8 @@
 		</image>
 		
 		<image name="bulletfire4" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1604167 0.262963</size>	
 			<pos>0.31 0.33</pos>
 			<scale>0.65</scale>
 			<zIndex>18</zIndex>
@@ -245,6 +273,8 @@
 		</image>
 		
 		<image name="blood4" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1697917 0.1851852</size>
 			<pos>0.328 0.341</pos>
 			<scale>1</scale>
 			<rotation>190</rotation>
@@ -260,6 +290,8 @@
 		
 		
 		<image name="bloodhole5" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1604167 0.262963</size>	
 			<pos>0.34 0.375</pos>
 			<scale>0.7</scale>
 			<rotation>160</rotation>
@@ -280,6 +312,8 @@
 		</image>
 		
 		<image name="bulletfire5" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1604167 0.262963</size>	
 			<pos>0.34 0.375</pos>
 			<scale>0.7</scale>
 			<zIndex>18</zIndex>
@@ -292,6 +326,8 @@
 		</image>
 		
 		<image name="blood5" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1697917 0.1851852</size>
 			<pos>0.342 0.445</pos>
 			<scale>1</scale>
 			<rotation>240</rotation>
@@ -307,9 +343,11 @@
 		
 		
 		<image name="agentG1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2598958 0.7407407</size>
 			<pos>-1 0.01</pos>
 			<scale>1</scale>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			<opacity>1</opacity>
 			<path>./agentG1.png</path>
 			<storyboard repeat="forever">
@@ -322,10 +360,11 @@
 		
 		
 		<image name="agentG2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2598958 0.7407407</size>									
 			<pos>-1 0.01</pos>
-			<!-- <pos>0.41 0.01</pos> -->
 			<scale>1</scale>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			<opacity>0</opacity>
 			<path>./agentG1.png</path>
 			<flipX>true</flipX>
@@ -338,8 +377,9 @@
 		</image>
 		
 		<image name="fire" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1333333 0.1138889</size>									
 			<pos>0.315 -0.01</pos>
-			<scale>1</scale>
 			<zIndex>18</zIndex>
 			<opacity>0</opacity>
 			<path>./fire.png</path>
@@ -353,17 +393,65 @@
 		
 		
 		<image name="lumiere" extra="static">
-			<pos>0 0</pos>
-			<scale>1</scale>
+			<origin>0 0</origin>									
+			<size>0.0447917 0.0268519</size>									
+			<pos>0.3328125 0.3990741</pos>									
 			<opacity>0</opacity>
 			<path>./lumiere.png</path>
 			<zIndex>16</zIndex>
 		
 			<storyboard repeat="forever">
 			<animation property="opacity" from="0" to="1" begin="7000" duration="40" autoreverse="true" repeat="3" mode="linear"/>
+			<animation property="opacity" from="0" to="1" begin="11000" duration="40" autoreverse="true" repeat="5" mode="linear"/>
+			<animation property="opacity" from="0" to="1" begin="15000" duration="40" autoreverse="true" repeat="3" mode="linear"/>
 			<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear"/>
 			</storyboard>
-		</image>
+		</image>		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- <image name="agentG1" extra="static"> -->
+			<!-- <pos>-1 0.01</pos> -->
+			<!-- <scale>1</scale> -->
+			<!-- <zIndex>18</zIndex> -->
+			<!-- <opacity>1</opacity> -->
+			<!-- <path>./agentG1.png</path> -->
+			<!-- <storyboard repeat="forever"> -->
+					<!-- <animation property="x" to="0.41" begin="2800" duration="2000" mode="linear"/> -->
+					<!-- <animation property="opacity" to="0" begin="4400" duration="300" mode="linear"/> -->
+					<!-- <animation property="x" to="-1" begin="15000" duration="2000" mode="linear"/> -->
+					<!-- <animation property="opacity" to="1" begin="15100" duration="300" mode="linear"/> -->
+			<!-- </storyboard> -->
+		<!-- </image> -->
+		
+		
+		<!-- <image name="agentG2" extra="static"> -->
+			<!-- <pos>-1 0.01</pos> -->
+			<!-- <scale>1</scale> -->
+			<!-- <zIndex>18</zIndex> -->
+			<!-- <opacity>0</opacity> -->
+			<!-- <path>./agentG1.png</path> -->
+			<!-- <flipX>true</flipX> -->
+			<!-- <storyboard repeat="forever"> -->
+					<!-- <animation property="x" to="0.41" begin="2800" duration="2000" mode="linear"/> -->
+					<!-- <animation property="opacity" to="1" begin="4400" duration="300" mode="linear"/> -->
+					<!-- <animation property="x" to="-1" begin="15000" duration="2000" mode="linear"/> -->
+					<!-- <animation property="opacity" to="0" begin="15100" duration="300" mode="linear"/> -->
+			<!-- </storyboard> -->
+		<!-- </image> -->
+		
+		
+		
+		
+		
+		
+		
 		
 		
 	</view>

@@ -1,4 +1,4 @@
-<!-- Dreamcast -->
+<!-- SEGA CD -->
 
 
 <theme>
@@ -6,6 +6,8 @@
 
 	<view name="system">
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+			<size>0.625 0.637963</size>									
 			<pos>0.04 0.17</pos>
 			<scale>0.1</scale>
 			<rotation>0</rotation>
@@ -14,6 +16,9 @@
 	
 	
 	<image name="avatar2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1270833 0.1546296</size>									
+
 			<pos>0.1 0.35</pos>
 			<scale>0.1</scale>
 			<path>./avatar2.png</path>
@@ -27,19 +32,19 @@
 			<storyboard repeat="forever">
 					
 					<animation property="rotation" from="" to="10" begin="5000" duration="10" mode="Linear"/>
-					<animation property="opacity" from="0" to="1" begin="5000" duration="1500" mode="linear"/>
-					<animation property="scale" from="0.1" to="1.3" begin="5000" duration="11500" mode="EaseIn"/>
+					<animation property="opacity" from="0" to="1" begin="5700" duration="1500" mode="linear"/>
+					<animation property="scale" from="0.1" to="0.75" begin="5000" duration="11500" mode="EaseIn"/>
 					<animation property="x" to="0.09" begin="5000" duration="11500" mode="EaseIn"/>
 					<animation property="y" to="0.148" begin="5000" duration="11500" mode="EaseIn"/>
 					<animation property="rotation" from="10" to="5" begin="5000" duration="11500" mode="Linear"/>
 					
 					<animation property="x" from="0.09" to="0.10" begin="16500" duration="1500" mode="EaseOut"/>
-					<animation property="scale" from="1.3" to="1.5" begin="16500" duration="2000" mode="Linear"/>
+					<animation property="scale" from="0.75" to="0.85" begin="16500" duration="2000" mode="Linear"/>
 					
 					
 					<animation property="x" from="0.10" to="0.06" begin="18500" duration="14500" mode="Linear"/>
 					<animation property="y" from="0.148" to="0.158" begin="18500" duration="14500" mode="Linear"/>
-					<animation property="scale" from="1.5" to="1.55" begin="18500" duration="14500" mode="Linear"/>
+					<animation property="scale" from="0.85" to="0.95" begin="18500" duration="14500" mode="Linear"/>
 					
 					<animation property="scale" to="10" begin="33000" duration="500" mode="EaseIn"/>
 					<animation property="x" to="1" begin="33000" duration="2000" mode="EaseOut"/>

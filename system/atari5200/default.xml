@@ -8,7 +8,10 @@
 	<view name="system">
 	
 		<image name="Body" extra="static">
+			<origin>0 0</origin>
 			<pos>0.11 0.3329</pos>
+			<size>0.29375 0.6833333</size>									
+
 			<scale>0.55</scale>
 			
 			<!-- <pos>0.235 0.1618</pos> -->
@@ -50,7 +53,10 @@
 		
 		
 		<image name="Left" extra="static">
+			<origin>0 0</origin>
 			<pos>0.11 0.3329</pos>
+			<size>0.29375 0.6833333</size>									
+
 			<scale>0.55</scale>
 			
 			<!-- <pos>0.382 0.234</pos> -->
@@ -344,7 +350,10 @@
 		
 		
 		<image name="Right" extra="static">
+			<origin>0 0</origin>
 			<pos>0.11 0.3329</pos>
+			<size>0.29375 0.6833333</size>									
+
 			<scale>0.55</scale>
 			
 			<!-- <pos>0.382 0.234</pos> -->
@@ -628,7 +637,10 @@
 		
 		
 		<image name="Eyes" extra="static">
+			<origin>0 0</origin>
 			<pos>0.11 0.3329</pos>
+			<size>0.29375 0.6833333</size>									
+
 			<scale>0.55</scale>
 			
 			<!-- <pos>0.382 0.234</pos> -->
@@ -668,9 +680,10 @@
 		
 		
 		
-		<image name="Eclat1" extra="static">
-			
-			
+		<image name="Eclat1" extra="static">	
+			<origin>0 0</origin>
+			<size>0.0817708 0.125</size>									
+
 			<pos>0.25 0.1388</pos>
 			<scale>1</scale>
 			<path>./Eclat1.png</path>
@@ -701,8 +714,9 @@
 		
 		
 		<image name="Eclat2" extra="static">
-			
-			
+			<origin>0 0</origin>
+			<size>0.065625 0.1203704</size>									
+
 			<pos>0.25 0.1388</pos>
 			<scale>1</scale>
 			<path>./Eclat2.png</path>
@@ -727,8 +741,9 @@
 		
 		
 		<image name="Eclat3" extra="static">
-			
-			
+			<origin>0 0</origin>
+			<size>0.0776042 0.1416667</size>									
+
 			<pos>0.244 0.1258</pos>
 			<scale>1</scale>
 			<path>./Eclat3.png</path>
@@ -749,8 +764,9 @@
 		
 		
 		<image name="Eclat4" extra="static">
-			
-			
+			<origin>0 0</origin>
+			<size>0.3145833 0.5925926</size>									
+
 			<pos>0.203 0.1078</pos>
 			<scale>1</scale>
 			<rotation>90</rotation>

@@ -7,6 +7,9 @@
 
 		
 		<image name="vaisseau" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2604167 0.7194444</size>									
+
 			<pos>0.2 0.14</pos>
 			<scale>0.7</scale>
 			<path>./vaisseau.png</path>
@@ -15,6 +18,8 @@
 		</image>
 		
 		<image name="propulsion" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2604167 0.7194444</size>	
 			<pos>0.2 0.14</pos>
 			<scale>0.7</scale>
 			<path>./propulsion.png</path>
@@ -23,6 +28,8 @@
 		</image>
 		
 		<image name="fire" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2166667 0.1916667</size>									
 			<pos>0.19 0.492</pos>
 			<scale>1</scale>
 			<path>./fire.png</path>
@@ -31,6 +38,7 @@
 		</image>
 
 		<image name="smoke" extra="static"> 
+			<origin>0 0</origin>									
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<path>./smoke.png</path>
@@ -39,6 +47,8 @@
 		</image>
 		
 		<image name="planetes" extra="static"> 
+			<origin>0 0</origin>									
+			<size>0.39375 0.2444444</size>									
 			<pos>0.1 0.111</pos>
 			<scale>1</scale>
 			<path>./planetes.png</path>
@@ -48,6 +58,8 @@
 		
 		
 		<image name="etoiles" extra="static">
+			<origin>0 0</origin>									
+			<size>0.584375 0.3814815</size>									
 			<pos>0 0.03</pos>
 			<path>./etoiles.png</path>
 			<opacity>0</opacity>
@@ -63,6 +75,8 @@
 		</image>
 		
 		<image name="etoiles2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.584375 0.3814815</size>		
 			<pos>0 0.03</pos>
 			<path>./etoiles.png</path>
 			<opacity>0</opacity>

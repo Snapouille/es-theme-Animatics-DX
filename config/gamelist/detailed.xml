@@ -11,6 +11,7 @@ originally based on: "carbon"
   
 	<image name="ecran_console" extra="static">
 		<pos>0.53 0.149</pos>
+		<size>0.4427083 0.525</size> <!-- 850 x 567 -->
 		<scale>0.85</scale>
 		<path>./../../system/ecran_console-default.png</path>
 		<path>./../../system/${system.theme}/ecran_console.png</path>
@@ -29,7 +30,7 @@ originally based on: "carbon"
 	</image>
 	
 	
-  
+	
     <video name="md_video">
 	  <pos>0.718 0.3897</pos>
 	  <maxSize>0.32 0.32</maxSize>

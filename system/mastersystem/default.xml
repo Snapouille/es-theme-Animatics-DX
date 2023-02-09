@@ -6,7 +6,10 @@
 	<view name="system">
 	
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>
 			<pos>1 0.4</pos>
+			<size>0.2083333 0.35</size>									
+
 			<scale>0.7</scale>
 			<rotation>0</rotation>
 			<zIndex>18</zIndex>
@@ -15,7 +18,10 @@
 		</image>
 		
 		<image name="avatar2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.10 0.55</pos>
+			<size>0.1526042 0.2277778</size>									
+
 			<scale>0.7</scale>
 			<opacity>0</opacity>
 			<path>./avatar2.png</path>
@@ -23,7 +29,10 @@
 		</image>
 		
 		<image name="avatar3" extra="static">
+			<origin>0 0</origin>
 			<pos>0.09 -1</pos>
+			<size>0.1197917 0.1805556</size>									
+
 			<scale>0.7</scale>
 			<opacity>1</opacity>
 			<path>./avatar3.png</path>
@@ -31,7 +40,10 @@
 		</image>
 		
 		<image name="avatar4" extra="static">
+			<origin>0 0</origin>
 			<pos>0.34 0.55</pos>
+			<size>0.2015625 0.2740741</size>									
+
 			<scale>0.6</scale>
 			<rotation>-20</rotation>
 			<path>./avatar4.png</path>
@@ -40,7 +52,10 @@
 		</image>
 		
 		<image name="nuage0" extra="static">
+			<origin>0 0</origin>
 			<pos>0.27 0.08</pos>
+			<size>0.2083333 0.2333333</size>									
+
 			<scale>0.52</scale>
 			<rotation>0</rotation>
 			<opacity>0.95</opacity>
@@ -49,7 +64,10 @@
 		</image>
 		
 		<image name="nuage1" extra="static">
+			<origin>0 0</origin>
 			<pos>0.01 0.12</pos>
+			<size>0.1822917 0.1685185</size>									
+
 			<scale>0.52</scale>
 			<rotation>5</rotation>
 			<opacity>0</opacity>
@@ -58,7 +76,10 @@
 		</image>
 		
 		<image name="nuage2" extra="static">
+			<origin>0 0</origin>
 			<pos>0.18 0.1</pos>
+			<size>0.234375 0.262037</size>									
+
 			<scale>0.5</scale>
 			<rotation>0</rotation>
 			<opacity>0</opacity>
@@ -67,7 +88,10 @@
 		</image>
 		
 		<image name="nuage3" extra="static">
+			<origin>0 0</origin>
 			<pos>0.35 0.11</pos>
+			<size>0.2083333 0.2333333</size>									
+
 			<scale>0.58</scale>
 			<opacity>0</opacity>
 			<path>./nuage3.png</path>
@@ -75,7 +99,9 @@
 		</image>
 		
 		<image name="nuage4" extra="static">
+			<origin>0 0</origin>
 			<pos>0.01 0.15</pos>
+			<size>0.1822917 0.1685185</size>
 			<scale>0.7</scale>
 			<rotation>0</rotation>
 			<opacity>0</opacity>

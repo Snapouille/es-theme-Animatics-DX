@@ -5,9 +5,20 @@
 
 		
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+<size>0.2083333 0.3648148</size>									
+
 			<pos>0.27 0.31</pos>
-            <scale>1</scale>
+			<path>./avatar.png</path>
+			<linearSmooth>true</linearSmooth>
+			
+			<storyboard>
+				
+        		<animation property="x" to="0.33" begin="" duration="4000" mode="EaseInOut"/>
+        		
+			</storyboard>	
 		</image>
+
 		
 		
 		

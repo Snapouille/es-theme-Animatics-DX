@@ -6,8 +6,10 @@
 	<view name="system">
 	
 		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4166667 0.7981481</size>									
 			<pos>1 0.25</pos>
-			<scale>0.7</scale>
+			<scale>0.6</scale>
 			<rotation>0</rotation>
 			<zIndex>18</zIndex>
 			<opacity>0</opacity>
@@ -15,6 +17,8 @@
 		</image>
 		
 		<image name="looking" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2458333 0.1759259</size>									
 			<pos>0.052 0.487</pos>
 			<scale>1</scale>
 			<opacity>0</opacity>
@@ -24,6 +28,8 @@
 		
 		
 		<image name="nuage0" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2083333 0.2333333</size>									
 			<pos>0.27 0.08</pos>
 			<scale>0.52</scale>
 			<rotation>0</rotation>
@@ -33,6 +39,8 @@
 		</image>
 		
 		<image name="nuage1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1822917 0.1685185</size>									
 			<pos>0.01 0.11</pos>
 			<scale>0.52</scale>
 			<rotation>3</rotation>
@@ -42,6 +50,8 @@
 		</image>
 		
 		<image name="nuage2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.234375 0.262037</size>									
 			<pos>0.18 0.1</pos>
 			<scale>0.5</scale>
 			<rotation>-2</rotation>
@@ -51,6 +61,8 @@
 		</image>
 		
 		<image name="nuage3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2083333 0.2333333</size>									
 			<pos>0.35 0.11</pos>
 			<scale>0.58</scale>
 			<opacity>0</opacity>
@@ -59,6 +71,8 @@
 		</image>
 		
 		<image name="nuage4" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1822917 0.1685185</size>		
 			<pos>0.01 0.13</pos>
 			<scale>0.7</scale>
 			<rotation>0</rotation>
@@ -70,6 +84,8 @@
 		
 		
 		<image name="lave1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0135417 0.0268519</size>									
 			<pos>0.1355 0.32</pos>
 			<rotation>-30</rotation>
 			<scale>0.5</scale>
@@ -95,6 +111,8 @@
 		
 		
 		<image name="lave2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0135417 0.0268519</size>
 			<pos>0.1355 0.32</pos>
 			<rotation>-30</rotation>
 			<scale>0.5</scale>
@@ -120,6 +138,8 @@
 		
 		
 		<image name="lave3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0135417 0.0268519</size>
 			<pos>0.1355 0.32</pos>
 			<rotation>-30</rotation>
 			<scale>0.5</scale>
@@ -140,6 +160,9 @@
 		
 		
 		<image name="smoke" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1041667 0.1509259</size>									
+
 			<pos>0.1045 0.218</pos>
 			<rotation>0</rotation>
 			<scale>0.7</scale>
@@ -163,6 +186,8 @@
 		
 		
 		<image name="smoke2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1041667 0.1277778</size>									
 			<pos>0.455 0.277</pos>
 			<rotation>0</rotation>
 			<scale>0.6</scale>
@@ -255,12 +280,12 @@
 				<!-------------------------------------------------------------------------------------------------->
 				
 			    <animation property="rotation" to="2" begin="4300" duration="2000" mode="bump"/>
-                <animation property="x" to="0.3" begin="4300" duration="2000" mode="bump"/>
+                <animation property="x" to="0.28" begin="4300" duration="2000" mode="bump"/>
 				
                 <animation property="rotation" from="2" to="-2" begin="6300" duration="1000" mode="bump"/>
-				<animation property="x" from="0.3" to="0.35" begin="6300" duration="1000" mode="bump"/>
+				<animation property="x" from="0.28" to="0.33" begin="6300" duration="1000" mode="bump"/>
 				<animation property="y" from="0.25" to="0.18" begin="6300" duration="1000" mode="bump"/>
-                <animation property="scale" from="0.7" to="1.1" begin="6300" duration="1000" mode="easeIn"/>
+                <animation property="scale" from="0.6" to="0.9" begin="6300" duration="1000" mode="easeIn"/>
 				
 				<animation property="rotation" to="0.5" begin="7300" autoreverse="true" duration="650" repeat="7" mode="linear"/>
 				<animation property="y" from="0.18" to="0.185" begin="7300" autoreverse="true" duration="400" repeat="1" mode="easeOut"/>

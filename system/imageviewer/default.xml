@@ -5,21 +5,21 @@
 
 	<view name="system">
 		<image name="girlbeyond" extra="static">
-			<pos>0.33 0.27</pos>
-			<scale>1</scale>
+			<origin>0 0</origin>
+			<pos>0.28 0.27</pos>
+			<size>0.4390625 0.7407407</size>									
+
 			<opacity>1</opacity>
 			<linearSmooth>true</linearSmooth>
 			<path>./girlbeyond.png</path>
 			<zIndex>17</zIndex>
-
+			
+			
 			<storyboard>
-						
 				
-        		<!-- <animation property="x" from="0.33" to="0.34" begin="" duration="15000" autoreverse="true" repeat="forever" mode="linear"/> -->
-				
-				
-        						
-			</storyboard>
+        		<animation property="x" to="0.33" begin="" duration="4000" mode="EaseInOut"/>
+        		
+			</storyboard>	
 
 		
 		</image>

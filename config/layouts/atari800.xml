@@ -8,6 +8,7 @@
 	
 	<image name="ecran_console" extra="static">
 			<pos>0.515 0.17</pos>
+			<size>0.4427083 0.525</size>
 			<scale>0.9</scale>
 			<path>./../art/background/atari800/ecran_console.png</path>
 			<opacity>1</opacity>

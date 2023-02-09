@@ -5,7 +5,9 @@
 
 	<view name="system">
 		<image name="frog" extra="static">
+			<origin>0 0</origin>
 			<pos>0.4 -0.1</pos>
+			<size>0.29375 0.9092593</size>									
 			<scale>0</scale>
 			<rotation>0</rotation>
 			<zIndex>16</zIndex>
@@ -41,7 +43,10 @@
 		
 		
 		<image name="wink" extra="static">
+			<origin>0 0</origin>
 			<pos>0.484 0.223</pos>
+			<size>0.0291667 0.0481481</size>									
+
 			<scale>0.85</scale>
 			<rotation>0</rotation>
 			<zIndex>16</zIndex>

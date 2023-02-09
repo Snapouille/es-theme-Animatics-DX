@@ -7,6 +7,8 @@
 	
 	
 		<image name="crabEyes" extra="static">
+			<origin>0 0</origin>									
+<size>0.0375 0.0074074</size>									
 			<pos>0.177 0.515</pos>
 			<scale>1</scale>
 			<path>./crabEyes.png</path>
@@ -22,6 +24,8 @@
 	
 	
 		<image name="apple" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0520833 0.1083333</size>									
 			<pos>0.28 -1</pos>
 			<scale>0.8</scale>
 			<opacity>1</opacity>
@@ -42,6 +46,8 @@
 		
 		
 		<image name="apple2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0520833 0.1083333</size>	
 			<pos>0.08 -1</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>
@@ -60,6 +66,8 @@
 	
 	
 		<image name="apple3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0520833 0.1083333</size>	
 			<pos>0.365 -1</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>
@@ -79,6 +87,9 @@
 	
 			
 		<image name="chute" extra="static">
+			<origin>0 0</origin>									
+			<size>0.46875 0.4851852</size>									
+
 			<pos>0.27 -1</pos>
 			<scale>0.8</scale>
 			<rotation>0</rotation>
@@ -99,6 +110,8 @@
 		
 		
 		<image name="crash" extra="static">
+			<origin>0 0</origin>									
+<size>0.2484375 0.7777778</size>									
 			<pos>0.3 1</pos>
 			<scale>0.5</scale>
 			<opacity>1</opacity>
@@ -122,6 +135,8 @@
 
 		
 	<image name="crash2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.29375 0.7777778</size>									
 			<pos>0.3 1</pos>
 			<scale>0.5</scale>
 			<opacity>0</opacity>

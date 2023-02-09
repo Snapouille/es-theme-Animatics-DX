@@ -11,6 +11,8 @@
 	
 	
 		<image name="avatar-quakeguy" extra="static">
+			<origin>0 0</origin>									
+			<size>0.29375 0.9092593</size>									
 			<pos>0.15 0.13</pos>
 			<scale>0.6</scale>
 			<opacity>1</opacity>

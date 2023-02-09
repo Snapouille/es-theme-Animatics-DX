@@ -6,6 +6,8 @@
 	<view name="system">
 		
 		<image name="avatar-dragon" extra="static">
+			<origin>0 0</origin>									
+			<size>0.29375 0.9092593</size>									
 			<pos>1.1 -0.3</pos>
 			<scale>0.5</scale>
 			<path>./avatar-dragon.png</path>
