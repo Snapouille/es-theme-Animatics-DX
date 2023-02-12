@@ -1,14 +1,5 @@
 ﻿<theme>
-  
-  
-  
-  
-  
-  
   <view name="basic, detailed">
-  <!-- Affichage de la jaquette <maxSize>x y</maxSize> x=largeur y=hauteur -->
-  
-  
   
 		<image name="ecran_console" extra="static">
 			<pos>0.528 0.44</pos>
@@ -19,13 +10,13 @@
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.565" begin="1000" duration="200" mode="linear"/>
-					<animation property="y" to="0.473" begin="1000" duration="200" mode="linear"/>
+					<animation property="x" to="0.560" begin="1000" duration="200" mode="linear"/>
+					<animation property="y" to="0.470" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.565" begin="1000" duration="200" mode="linear"/>
-						<animation property="y" to="0.473" begin="1000" duration="200" mode="linear"/>
+						<animation property="x" to="0.560" begin="1000" duration="200" mode="linear"/>
+						<animation property="y" to="0.470" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -39,16 +30,15 @@
 		  <pos>0.728 0.647</pos>
 		  <maxSize>0.215 0.215</maxSize>
 		  <roundCorners>0</roundCorners>
-		  <!-- <visible>false</visible> -->
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.765" begin="1000" duration="200" mode="linear"/>
-					<animation property="y" to="0.68" begin="1000" duration="200" mode="linear"/>
+					<animation property="x" to="0.760" begin="1000" duration="200" mode="linear"/>
+					<animation property="y" to="0.677" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.765" begin="1000" duration="200" mode="linear"/>
-						<animation property="y" to="0.68" begin="1000" duration="200" mode="linear"/>
+						<animation property="x" to="0.760" begin="1000" duration="200" mode="linear"/>
+						<animation property="y" to="0.677" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -65,7 +55,6 @@
 		<maxSize>0.235 0.54</maxSize>
 		<scale>0.55</scale>
 		<zIndex>100</zIndex>
-		<!-- <visible>false</visible> -->
 		<roundCorners>0.01</roundCorners>
 		
 		
@@ -84,9 +73,6 @@
 		<storyboard event="deactivate">
 			   <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
-		
-		
 		
 		
 	</image>
@@ -111,9 +97,6 @@
 			</storyboard>
 		  
 	</text>
-	
-	
-	
 	
 		
    </view>

@@ -17,12 +17,12 @@
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.565" begin="1000" duration="200" mode="linear"/>
+					<animation property="x" to="0.560" begin="1000" duration="200" mode="linear"/>
 					<animation property="y" to="0.473" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.565" begin="1000" duration="200" mode="linear"/>
+						<animation property="x" to="0.560" begin="1000" duration="200" mode="linear"/>
 						<animation property="y" to="0.473" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
 					
@@ -40,12 +40,12 @@
 		  <!-- <visible>false</visible> -->
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.773" begin="1000" duration="200" mode="linear"/>
+					<animation property="x" to="0.768" begin="1000" duration="200" mode="linear"/>
 					<animation property="y" to="0.689" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.773" begin="1000" duration="200" mode="linear"/>
+						<animation property="x" to="0.768" begin="1000" duration="200" mode="linear"/>
 						<animation property="y" to="0.69" begin="1000" duration="200" mode="linear"/>
 				</storyboard>
 					
@@ -70,13 +70,13 @@
 		<storyboard event="open">
                 <animation property="x" to="0.439" begin="1000" duration="200" mode="linear"/>
 				<animation property="y" to="0.265" begin="1000" duration="200" mode="linear"/>
-				<animation property="scale" to="0.98" begin="1000" duration="200" mode="linear"/>
+				<animation property="scale" to="0.95" begin="1000" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
                 <animation property="x" to="0.439" begin="1000" duration="200" mode="linear"/>
 				<animation property="y" to="0.265" begin="1000" duration="200" mode="linear"/>
-				<animation property="scale" to="0.98" begin="1000" duration="200" mode="linear"/>
+				<animation property="scale" to="0.95" begin="1000" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
