@@ -56,11 +56,9 @@
 
 
 			<storyboard repeat="forever">
-					<animation property="opacity" to="0" begin="150" duration="10" mode="linear"/>
-					<animation property="opacity" to="1" begin="450" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="170" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="680" duration="10" mode="linear"/>
 					
-					
-        						
 			</storyboard>
 		</image>
 		
@@ -76,9 +74,10 @@
 
 
 			<storyboard repeat="forever">
-					<animation property="opacity" to="1" begin="150" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="300" duration="10" mode="linear"/>	
-        			<animation property="opacity" to="0" begin="450" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="170" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="340" duration="10" mode="linear"/>	
+        			<animation property="opacity" to="1" begin="510" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="680" duration="10" mode="linear"/>
 
 					
 			</storyboard>
@@ -96,9 +95,9 @@
 
 
 			<storyboard repeat="forever">
-					<animation property="opacity" to="1" begin="300" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="450" duration="10" mode="linear"/>	
-        						
+					<animation property="opacity" to="1" begin="340" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="510" duration="10" mode="linear"/>	
+        			<animation property="opacity" to="0" begin="680" duration="10" mode="linear"/>				
 			</storyboard>
 		</image>
 		

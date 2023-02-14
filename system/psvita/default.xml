@@ -1,0 +1,36 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.265625 0.787037</size>									
+			
+			<pos>0.5 0.5</pos>									
+			
+			<linearSmooth>true</linearSmooth>
+			<zIndex>16</zIndex>
+			
+			<storyboard>
+				
+        		<animation property="x" to="0.47" begin="" duration="6000" mode="EaseInOut"/>
+        		
+			</storyboard>					
+
+		</image>
+		
+		<image name="blacky" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.1213542 0.4435185</size>									
+			<pos>0.28 0.60</pos>									
+			<linearSmooth>true</linearSmooth>
+			<scale>0.3</scale>
+			<path>./blacky.png</path>
+			<zIndex>16</zIndex>
+		</image>
+		
+		
+		
+	</view>
+</theme>
