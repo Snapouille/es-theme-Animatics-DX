@@ -7,7 +7,7 @@ originally based on: "carbon"
 -->
 <theme defaultView="detailed">
 
-  <view name="basic, detailed, video, gamecarousel">
+  <view name="basic, detailed, video, gamecarousel, grid, fanart">
   
 	<!-- Ligne de séparation en bas avec l'aide -->
     <image name="bottom" extra="true">

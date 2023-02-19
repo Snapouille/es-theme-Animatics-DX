@@ -159,7 +159,7 @@
 		<!-- On affiche le total des jeux si l'option TOTAL a été select -->
 		<text name="systemInfo" ifSubset="InfoCustomView:total">
 			<origin>0 0</origin>
-			<size>0.09 0.04</size>
+			<size>0.11 0.04</size>
 			<pos>0.6835 0.51035</pos>
 			<fontSize>0.023</fontSize>
 			<fontPath>./../../../art/fonts/ubuntu.ttf</fontPath>

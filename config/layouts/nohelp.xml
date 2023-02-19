@@ -1,5 +1,5 @@
 ﻿<theme>
-  <view name="system" ifSubset="SystemView:vertical|vertical arts|simple">
+  <view name="system" ifSubset="SystemView:vertical|vertical arts|simple|wheel">
 		<image name="BottomBar" extra="true">
 		  <visible>false</visible>
 		</image>
@@ -10,23 +10,26 @@
 		
 		<!-- On repositionne les stats des vues vertical, vertical arts et simple -->
 		<text name="systemInfoEx" >
-			<pos>0.07 0.72</pos>
+			<pos>0.07 0.725</pos>
 			<alignment>left</alignment>
 		</text>
   </view>
   
   
-    
+  
+  <!-- On repositionne la barre en bas pour la mettre tout en bas de l'écran-->
+	<view name="basic, detailed, fanart, gamecarousel, grid, video">
+		<image name="bottom" extra="true">
+			  <visible>true</visible>
+			  <pos>0 1.06</pos>
+		</image>
+    </view>
+	
   
   <view name="video">
-    <image name="bottom" extra="true">
-      <visible>true</visible>
-	  <pos>0 1.06</pos>
-    </image>
-
-    <image name="bottom-shadow" extra="true">
-      <pos>0 0.96</pos>
-    </image>
+    <!-- <image name="bottom-shadow" extra="true"> -->
+      <!-- <pos>0 0.96</pos> -->
+    <!-- </image> -->
 
     <textlist name="gamelist">
       <size>0.35 0.83</size>
@@ -34,7 +37,7 @@
     </textlist>
 	
 	<image name="iconsLine" extra="true">
-			<size>0.003 0.90</size>
+		<size>0.003 0.90</size>
 	</image>
 	
 	<image name="md_flag">
@@ -49,20 +52,10 @@
   
   
   
-  
-  
-  
-  
-  
   <view name="detailed">
-    <image name="bottom" extra="true">
-      <visible>true</visible>
-	  <pos>0 1.06</pos>
-    </image>
-
-    <image name="bottom-shadow" extra="true">
-      <pos>0 0.96</pos>
-    </image>
+    <!-- <image name="bottom-shadow" extra="true"> -->
+      <!-- <pos>0 0.96</pos> -->
+    <!-- </image> -->
 
     <textlist name="gamelist">
       <size>0.321 0.817</size>
@@ -94,9 +87,6 @@
 		<pos>0.373 0.955</pos>
 		</text>
 		
-		
-    
-	
 	
 	<text name="md_lbl_genre">
 		<size>0.115 0.03</size>
@@ -114,7 +104,6 @@
 		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
 	</text>
 	
-	
 	<text name="md_lbl_developer">
 		<size>0.115 0.03</size>
 		<pos>0.48 0.962</pos>
@@ -130,8 +119,6 @@
 	  <color>${baseColor}</color>
     </text>
 	
-	
-	
 		<image name="iconsLine2" extra="true">
 			<path>./../../art/divers/white.png</path>
 			<color>${baseColor}</color>
@@ -140,13 +127,26 @@
 			<size>0.52 0.005</size>
 			<zIndex>14</zIndex>
 		</image>  
-		
-		
   </view>
   
   
   
-  <!-- Choix de la Police, Taille et Nombres de lignes dans la gamelist -->
-  <include>./../gamelist/gamelistParameters.xml</include>
+  <view name="grid">
+  
+	<imagegrid name="gamegrid">
+		 <pos>0.025 0.495</pos>
+		 <size>0.950 0.47</size>
+		 <margin>0.005 0.006</margin>
+		 <padding>0.008 0.05</padding>
+		  
+		  <autoLayout>5 1</autoLayout>
+		  <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
+    </imagegrid>
+  
+  </view>
+  
+  
+  
+  
   
 </theme>

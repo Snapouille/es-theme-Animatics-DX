@@ -156,15 +156,17 @@ originally based on: "carbon"
 	  <zIndex>42</zIndex>
 			
 			<storyboard event="open">
-                <animation property="offsetY" from="0.5" to="0" begin="" duration="400" mode="EaseInOut"/>
+                <animation property="offsetX" from="-0.5" to="0" begin="" duration="500" mode="EaseInOut"/>
+				<animation property="scale" from="0" to="1" begin="" duration="500" mode="EaseInOut"/>
 			</storyboard>
 			
 			<storyboard event="activate">
-                <animation property="offsetY" from="0.5" to="0" begin="" duration="400" mode="EaseInOut"/>
+                <animation property="offsetX" from="-0.5" to="0" begin="" duration="500" mode="EaseInOut"/>
+				<animation property="scale" from="0" to="1" begin="" duration="500" mode="EaseInOut"/>
 			</storyboard>
 			
 			<storyboard event="deactivate">
-				<animation property="offsetX" to="-0.5" begin="" duration="600" mode="Linear"/>
+				<animation property="offsetY" to="0.5" begin="" duration="600" mode="Linear"/>
 				<animation property="scale" to="0" begin="" duration="600" mode="Linear"/>
 			</storyboard>
 	</image>	  
