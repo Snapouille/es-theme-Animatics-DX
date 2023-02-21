@@ -66,8 +66,20 @@ originally based on: "carbon"
 	<color>Colorful</color>
 	<blackandwhite>Black and White</blackandwhite>
 	
+	<custom>Custom</custom>
+	<user.logo>Your Logo</user.logo>
+	<user.username>Your Nickname</user.username>
+	
   </variables>
   
+  
+  
+  <!-- Personalisation Utilisateurs-->
+	<include>./your-nickname.xml</include>
+	<include>./config/system/user-variables.xml</include>
+	
+	<!-- <include>./config/system/var-usernames.xml</include> -->
+	<!-- <include>./config/system/var-avatars.xml</include> -->
   
 
   <!-- Language  -->
@@ -131,6 +143,36 @@ originally based on: "carbon"
     <include name="random video" displayName="${systembackground.randomvideo}">./config/system/systembackground/video.xml</include>
     <include name="random box" displayName="${systembackground.randombox}">./config/system/systembackground/box.xml</include>
   </subset>
+  
+
+
+	<!--Avatar du client-->
+	<subset name="user-logo" displayName="${user.logo}">
+		<include name="none" displayName="${none}" />
+		<include name="custom" displayName="${custom}" />
+		<include name="batocera" displayName="Batocera" />
+		<include name="emulationstation" displayName="Emulation Station" />
+		<include name="recalbox" displayName="Recalbox" />
+		<include name="retroachievements" displayName="Retroachivements standard" />
+		<include name="retrobat" displayName="Retrobat" />
+		<include name="retropie" displayName="Retropie" />
+	</subset>
+
+
+	<!--NickName du client-->
+	<subset name="user-username" displayName="${user.username}">
+		<include name="none" displayName="${none}" />
+		<include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements ID: ${cheevos.username}" />
+		<include if="{global.netplay} == true" name="netplay" displayName="Netplay ID: ${global.netplay.username}" />
+		<include name="custom" displayName="${custom}: ${custom.nick}" />
+		<include name="batocera" displayName="Batocera" />
+		<include name="retrobat" displayName="Retrobat" />
+		<include name="retropie" displayName="Retropie" />
+		<include name="animatics-dx" displayName="Animatics-DX" />
+	</subset>
+
+
+	
   
   
   
@@ -286,7 +328,9 @@ originally based on: "carbon"
 
 
   <include>./config/system/system.xml</include>
+  <include>./config/system/user.xml</include>
   <include>./config/gamelist/gameinfobar.xml</include>
+  
  
  <!-- Views  -->
   <include>./config/gamelist/common.xml</include>

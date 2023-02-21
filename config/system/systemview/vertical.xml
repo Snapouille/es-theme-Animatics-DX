@@ -72,7 +72,6 @@
       <path>./../../../art/divers/darkwheel4.png</path>
 	  <color>${baseColor}</color>
 	  <zIndex>12</zIndex>
-      <visible verticalScreen="true">false</visible>
     </image>
 	
 	<!-- Affichage de la mini console  -->
@@ -82,7 +81,6 @@
 	  <maxSize>0.09 0.1</maxSize>
       <origin>0.5 0.5</origin>
       <zIndex>13</zIndex>
-      <visible verticalScreen="true">false</visible>
 	  <scale>0</scale>
 	  <linearSmooth>true</linearSmooth>
 	  <storyboard>
@@ -159,7 +157,7 @@
 		<!-- On affiche le total des jeux si l'option TOTAL a été select -->
 		<text name="systemInfo" ifSubset="InfoCustomView:total">
 			<origin>0 0</origin>
-			<size>0.11 0.04</size>
+			<size>0.09 0.04</size>
 			<pos>0.6835 0.51035</pos>
 			<fontSize>0.023</fontSize>
 			<fontPath>./../../../art/fonts/ubuntu.ttf</fontPath>
