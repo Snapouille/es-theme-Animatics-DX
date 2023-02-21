@@ -25,12 +25,15 @@ System View Vertical
 System View Horizontal
 ![2 horizontal](https://user-images.githubusercontent.com/105559045/215271483-93a6c470-843a-4606-ab0f-79274b7334cb.png)
 
+System View Wheel
+![System view Wheel](https://user-images.githubusercontent.com/105559045/219969807-9295fd53-4bb5-423c-890a-21ce12fb5c81.png)
+
 
 Gamelist view : Detailed
 ![4 detailed](https://user-images.githubusercontent.com/105559045/215271537-8cc97dc3-4adb-47b5-ad2e-79bd1e833a65.png)
 
 Gamelist view : Grid
-![5 grid](https://user-images.githubusercontent.com/105559045/215271551-063b884a-95f7-4594-944e-8b10e02fe23b.png)
+![gamelist Grid](https://user-images.githubusercontent.com/105559045/219969836-e5bc356b-0fcc-436d-a227-31029da367a8.png)
 
 Gamelist view : Game Carousel
 ![6 gamecarousel](https://user-images.githubusercontent.com/105559045/215271568-f9cc0739-25a5-4d71-b7b2-bb26411475c9.png)
