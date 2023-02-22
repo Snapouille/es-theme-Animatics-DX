@@ -2,6 +2,7 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables>
+		<!-- Variables pour les nickname -->
 		<text.nick ifSubset="user-username:batocera">Batocera</text.nick>
 		<text.nick ifSubset="user-username:emulationstation">EmulationStation</text.nick>
 		<text.nick ifSubset="user-username:retrobat">Retrobat</text.nick>
@@ -13,12 +14,14 @@
 		<text.nick ifSubset="user-username:netplay" if="{screen.ratio} == '0/0'">Netplay ID ${theme.bato35compatilble}</text.nick>
 		<text.nick ifSubset="user-username:animatics-dx">Animatics-DX</text.nick>
 
+		<!-- Variables pour les logos -->
 		<image.logo ifSubset="user-logo:batocera">batocera.png</image.logo>
 		<image.logo ifSubset="user-logo:retrobat">retrobat.png</image.logo>
 		<image.logo ifSubset="user-logo:emulationstation">emulationstation.png</image.logo>
 		<image.logo ifSubset="user-logo:recalbox">recalbox.png</image.logo>
 		<image.logo ifSubset="user-logo:retroachievements">retroachievements.png</image.logo>
 		<image.logo ifSubset="user-logo:retropie">retropie.png</image.logo>
+		<image.logo ifSubset="user-logo:tychus">tychus.png</image.logo>
 		
 	</variables>
 	

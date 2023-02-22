@@ -13,7 +13,7 @@
 			<pos>0.2 0.14</pos>
 			<scale>0.7</scale>
 			<path>./vaisseau.png</path>
-			<zIndex>18</zIndex>
+			<zIndex>111</zIndex>
 			<opacity>0</opacity>
 		</image>
 		
@@ -23,7 +23,7 @@
 			<pos>0.2 0.14</pos>
 			<scale>0.7</scale>
 			<path>./propulsion.png</path>
-			<zIndex>19</zIndex>
+			<zIndex>112</zIndex>
 			<opacity>0</opacity>
 		</image>
 		

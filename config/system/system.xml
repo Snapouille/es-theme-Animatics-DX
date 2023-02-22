@@ -122,15 +122,15 @@ originally based on: "carbon"
 		<!-- <view name="system, basic, detailed"> -->
 		<!-- <view> -->
 		
-			<helpsystem name="help">
+			<!-- <helpsystem name="help"> -->
 				<!-- <size>0.01 0.01</size> -->
-				<maxSize>0.2 0.025</maxSize>
+				<!-- <maxSize>0.1 0.025</maxSize> -->
 				
 				<!-- <fontSize>0.023</fontSize> -->
 				<!-- <glowColor>00000080</glowColor> -->
 				<!-- <glowSize>1</glowSize> -->
 				<!-- <glowOffset>1</glowOffset> -->
-			</helpsystem>
+			<!-- </helpsystem> -->
 
 		<!-- </view> -->
 	
