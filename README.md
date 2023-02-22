@@ -10,24 +10,23 @@ V1.1 - (2023 02 09)
 
 Features :
 
-    3 Animated System Views (Simple, Vertical and Horizontal)
+    4 Animated System Views (Simple, Vertical, Wheel and Horizontal)
     5 Gamelist Views
     Regional Logos and Artwork (EU, US and JAP)
     16/9 Only, not compatible with 4/3 or 5/4 for now
     Pi4 or more powerfull recommended
 
 System View Simple
-![3 simple](https://user-images.githubusercontent.com/105559045/215271920-06a791a9-b92d-4968-a4ca-b3e8d4dcebf4.png)
+![Vue Simple](https://user-images.githubusercontent.com/105559045/220708495-71c14bcc-86f8-48ad-819d-4cd7df510a11.png)
 
 System View Vertical
 ![1 vertical](https://user-images.githubusercontent.com/105559045/215271909-bde6a89f-ee0d-43ce-8e22-8de47700a031.png)
 
 System View Horizontal
-![2 horizontal](https://user-images.githubusercontent.com/105559045/215271483-93a6c470-843a-4606-ab0f-79274b7334cb.png)
+![Vue Horizontale](https://user-images.githubusercontent.com/105559045/220708543-dd20bf76-f4e4-442b-91ec-054b4c4149d1.png)
 
 System View Wheel
-![System view Wheel](https://user-images.githubusercontent.com/105559045/219969807-9295fd53-4bb5-423c-890a-21ce12fb5c81.png)
-
+![Vue Wheel](https://user-images.githubusercontent.com/105559045/220708635-d810d4d0-a708-4e47-ba4e-672168f2ac39.png)
 
 Gamelist view : Detailed
 ![4 detailed](https://user-images.githubusercontent.com/105559045/215271537-8cc97dc3-4adb-47b5-ad2e-79bd1e833a65.png)
@@ -40,3 +39,14 @@ Gamelist view : Game Carousel
 
 Gamelist view : Video 
 ![7 video](https://user-images.githubusercontent.com/105559045/215271576-336ea719-7a8e-4ac8-8597-39500ef27680.png)
+
+
+Big Thanks and credits to :
+
+- Darknior RVGM (large artworks dealer)
+- Pajarorrojo Playstation-X (inspiration and code for avatars-logo and nickname)
+- EvilDindon Arcade Planet (large inspiration for gamelist view)
+- Lehcimcramtrebor know as the great HelMic Hexa and RCBX (many many tips and code tricks)
+- Elardramora known as my savior (tips and tricks + tricks and tips, and more)
+
+and never forget f.caruso and Lbrpdx, without whom none of this would be possible :)
