@@ -43,14 +43,10 @@ Gamelist view : Video
 
 Big Thanks and credits to :
 
-Darknior RVGM (large artworks dealer)
-
-Pajarorrojo Playstation-X (inspiration and code for avatars-logo and nickname)
-
-EvilDindon Arcade Planet (large inspiration for gamelist view)
-
-Lehcimcramtrebor know as the great HelMic Hexa and RCBX (many many tips and code tricks)
-
-Elardramora known as my savior (tips and tricks + tricks and tips, and more)
+- Darknior RVGM (large artworks dealer)
+- Pajarorrojo Playstation-X (inspiration and code for avatars-logo and nickname)
+- EvilDindon Arcade Planet (large inspiration for gamelist view)
+- Lehcimcramtrebor know as the great HelMic Hexa and RCBX (many many tips and code tricks)
+- Elardramora known as my savior (tips and tricks + tricks and tips, and more)
 
 and never forget f.caruso and Lbrpdx, without whom none of this would be possible :)
