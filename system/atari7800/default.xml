@@ -1,22 +1,78 @@
-<!-- Atari 5200 -->
+<!-- Atari 7800 -->
 
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
 	
-		<image name="avatar" extra="static">
-			<origin>0 0</origin>
-			<pos>0.4 1</pos>
-			<size>0.25 0.6324074</size>									
-
-			<scale>0.8</scale>
-			<zIndex>18</zIndex>
+		
+		<image name="pacman1, pacman2, pacman-arm-down, pacman-arm-up">
+			<origin>0.5 0.5</origin>		
 			<opacity>1</opacity>
-			<path>./avatar.png</path>
+			<zIndex>18</zIndex>
 		</image>
 		
-		<image name="avatar2" extra="static">
+		<image name="pacman-arm-down, pacman-arm-up">
+			<zIndex>19</zIndex>
+		</image>
+	
+	
+	
+		<image name="pacman1" extra="true">
+			<size>0.2151042 0.5037037</size>									
+			<pos>0.5013021 0.6268519</pos>									
+			<path>./pacman1.png</path>
+			<opacity>0</opacity>
+			
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="800" duration="10" mode="linear"/>	
+				<animation property="offsetY" from="1" to="0" begin="800" duration="1000" mode="bump"/>	
+				<animation property="offsetX" from="1" to="0" begin="800" duration="1000" mode="linear"/>	
+
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		
+		<image name="pacman2" extra="static">
+			<size>0.2151042 0.5037037</size>									
+			<pos>0.5013021 0.6268519</pos>										
+			<path>./pacman2.png</path>
+			<opacity>0</opacity>
+		</image>
+								
+		
+		<image name="pacman-arm-down" extra="true">
+			<size>0.1104167 0.1657407</size>									
+			<pos>0.64375 0.5652778</pos>									
+			<path>./pacman-arm-down.png</path>
+			<opacity>0</opacity>
+			
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="800" duration="10" mode="linear"/>	
+				<animation property="offsetY" from="1" to="0" begin="800" duration="1000" mode="bump"/>	
+				<animation property="offsetX" from="1" to="0" begin="800" duration="1000" mode="linear"/>	
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="pacman-arm-up" extra="true">
+			<size>0.0854167 0.2564815</size>									
+			<pos>0.5911458 0.3930556</pos>									
+			<path>./pacman-arm-up.png</path>
+			<opacity>0</opacity>
+		</image>
+		
+		
+		
+
+		
+		
+		<image name="avatar2" extra="true">
 			<origin>0 0</origin>
 			<pos>0.05 0.2</pos>
 			<size>0.0395833 0.0962963</size>									
@@ -27,7 +83,7 @@
 			<zIndex>17</zIndex>
 		</image>
 		
-		<image name="avatar3" extra="static">
+		<image name="avatar3" extra="true">
 			<origin>0 0</origin>
 			<pos>0.57 0.585</pos>
 			<size>0.040625 0.0962963</size>									
@@ -38,7 +94,7 @@
 			<zIndex>17</zIndex>
 		</image>
 		
-		<image name="avatar4" extra="static">
+		<image name="avatar4" extra="true">
 			<origin>0 0</origin>
 			<pos>-1 0.5</pos>
 			<size>0.0401042 0.0962963</size>									
@@ -48,7 +104,7 @@
 			<zIndex>17</zIndex>
 		</image>
 		
-		<image name="avatar5" extra="static">
+		<image name="avatar5" extra="true">
 			<origin>0 0</origin>
 			<pos>-1 0.5</pos>
 			<size>0.0395833 0.0962963</size>									
@@ -61,53 +117,47 @@
 		
 		<image name="avatar2" extra="true">
 			<storyboard repeat="forever">
-				<animation property="x" from="0.05" to="0.074" begin="" duration="400" mode="easyIn"/>
-				<animation property="y" from="0.2" to="0.14" begin="400" duration="400" mode="easyIn"/>
-				<animation property="x" from="0.074" to="0.5" begin="800" duration="4000" mode="easyIn"/>
-				<animation property="y" from="0.14" to="0.34" begin="4800" duration="800" mode="easyIn"/>
-				<animation property="x" from="0.5" to="0.537" begin="5600" duration="400" mode="easyIn"/>
-				<animation property="y" from="0.34" to="0.46" begin="6000" duration="400" mode="easyIn"/>
-				<animation property="x" from="0.537" to="0.62" begin="6400" duration="400" mode="easyIn"/>
-				<animation property="opacity" from="1" to="0" begin="6600" duration="200" mode="easyIn"/>
+				<animation property="x" from="0.05" to="0.074" begin="" duration="400" mode="linear"/>
+				<animation property="y" from="0.2" to="0.14" begin="400" duration="400" mode="linear"/>
+				<animation property="x" from="0.074" to="0.5" begin="800" duration="4000" mode="linear"/>
+				<animation property="y" from="0.14" to="0.34" begin="4800" duration="800" mode="linear"/>
+				<animation property="x" from="0.5" to="0.537" begin="5600" duration="400" mode="linear"/>
+				<animation property="y" from="0.34" to="0.46" begin="6000" duration="400" mode="linear"/>
+				<animation property="x" from="0.537" to="0.62" begin="6400" duration="400" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="6600" duration="200" mode="linear"/>
 			</storyboard>			
 		</image>
 		
 		<image name="avatar3" extra="true">
 			<storyboard repeat="forever">
-				<animation property="x" from="0.57" to="0.537" begin="" duration="400" mode="easyIn"/>
-				<animation property="y" from="0.585" to="0.522" begin="400" duration="400" mode="easyIn"/>
-				<animation property="x" from="0.537" to="0.145" begin="800" duration="4000" mode="easyIn"/>
-				<animation property="y" from="0.522" to="0.46" begin="4800" duration="400" mode="easyIn"/>
-				<animation property="x" from="0.145" to="0.01" begin="5200" duration="1200" mode="easyIn"/>
-				<animation property="opacity" from="1" to="0" begin="6000" duration="400" mode="easyIn"/>
+				<animation property="x" from="0.57" to="0.537" begin="" duration="400" mode="linear"/>
+				<animation property="y" from="0.585" to="0.522" begin="400" duration="400" mode="linear"/>
+				<animation property="x" from="0.537" to="0.145" begin="800" duration="4000" mode="linear"/>
+				<animation property="y" from="0.522" to="0.46" begin="4800" duration="400" mode="linear"/>
+				<animation property="x" from="0.145" to="0.01" begin="5200" duration="1200" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="6000" duration="400" mode="linear"/>
 			</storyboard>			
 		</image>
 		
 		
 		<image name="avatar4" extra="true">
 			<storyboard>
-				<animation property="x" from="-1" to="1" begin="" duration="5000" mode="easyIn"/>
-				<animation property="y" to="0.3" begin="1000" duration="1000" mode="easyIn"/>
-				<animation property="y" to="0.1" begin="2000" duration="1000" mode="easyIn"/>
-				<animation property="y" to="0.3" begin="3000" duration="1000" mode="easyIn"/>	
+				<animation property="x" from="-1" to="1" begin="" duration="5000" mode="linear"/>
+				<animation property="y" to="0.3" begin="1000" duration="1000" mode="linear"/>
+				<animation property="y" to="0.1" begin="2000" duration="1000" mode="linear"/>
+				<animation property="y" to="0.3" begin="3000" duration="1000" mode="linear"/>	
 			</storyboard>			
 		</image>
 		
 		<image name="avatar5" extra="true">
 			<storyboard>
-				<animation property="x" from="1" to="-1" duration="5000" mode="easyIn"/>
-				<animation property="y" to="0.5" begin="1000" duration="1000" mode="easyIn"/>
-				<animation property="y" to="0.3" begin="2000" duration="1000" mode="easyIn"/>
-				<animation property="y" to="0.5" begin="3000" duration="1000" mode="easyIn"/>	
+				<animation property="x" from="1" to="-1" duration="5000" mode="linear"/>
+				<animation property="y" to="0.5" begin="1000" duration="1000" mode="linear"/>
+				<animation property="y" to="0.3" begin="2000" duration="1000" mode="linear"/>
+				<animation property="y" to="0.5" begin="3000" duration="1000" mode="linear"/>	
 			</storyboard>			
 		</image>
 		
-		<image name="avatar" extra="true">
-			<storyboard>
-				<animation property="y" from="1" to="0.3" begin="1500" duration="1000" mode="easyIn"/>
-				
-			</storyboard>			
-		</image>
 		
 		
 	</view>
