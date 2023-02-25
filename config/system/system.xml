@@ -294,7 +294,7 @@ originally based on: "carbon"
 		</text> 
 	
 	
-		<text name="system_description" extra="true">
+		<text name="system_description" ifSubset="system-description:Show" extra="true">
 			<pos>0.685 0.65</pos>
 			<size>0.3 0.1</size>
 			<color>FFFF00</color>
