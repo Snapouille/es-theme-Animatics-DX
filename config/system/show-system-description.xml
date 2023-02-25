@@ -1,0 +1,17 @@
+<theme>
+     <formatVersion>7</formatVersion>
+     <view name="system">
+          <text name="system_description" ifSubset="SystemView:vertical" extra="true">
+               <alignment>right</alignment>
+               <verticalAlignment>top</verticalAlignment>
+               <color>FFFFFF</color>
+               <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+			   <fontSize>0.026</fontSize>
+               <lineSpacing>1.3</lineSpacing>
+               <zIndex>80</zIndex>
+               <glowColor>00000069</glowColor>
+               <glowSize>1</glowSize>
+               <glowOffset>3 2</glowOffset>
+          </text>
+     </view>
+</theme>

@@ -1,0 +1,36 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		
+		<text name="system_description" extra="true" >
+			<text>These portable consoles housed a single game with an LCD screen and various levels of difficulty, and also used to include a clock and an alarm.
+		</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+		<text>Ces consoles portables contenaient un seul jeu avec un écran LCD et différents niveaux de difficulté. On avait aussi en général une horloge et une alarme pour les modèles de Game and Watch de la marque Nintendo.
+		</text>
+		</text>
+
+		
+		
+		<text name="system_description" extra="true" lang="es">
+		<text>Estas consolas portátiles -que en España se conocían popularmente como «maquinitas»- albergaban un único juego con pantalla LCD y varios niveles de dificultad, además solian incluir reloj y alarma. 
+									
+		</text>
+		</text>
+
+		
+		
+				
+
+	</view>
+</theme>

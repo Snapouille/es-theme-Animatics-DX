@@ -1,0 +1,27 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<text name="system_description" extra="true" >
+			<text>Auto gamelist.
+
+Packs of two or more previously released video games (usually bestsellers) in a later edition at a lower price.			</text>
+		</text>
+		
+
+
+	<text name="system_description" extra="true" lang="es">
+		<text>Lista de juegos automática.
+
+Packs de dos o más videojuegos lanzados anteriormente (normalmente éxitos en ventas) en una edición posterior y a un precio más ajustado.
+		</text>
+	</text>
+
+	</view>
+</theme>

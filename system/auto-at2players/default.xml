@@ -9,8 +9,7 @@
 		<image name="avatar2p" extra="true">
 			<origin>0 0</origin>									
 			<size>0.4036458 0.4453704</size>									
-			<pos>0.175 0.33</pos>
-			<scale>1</scale>
+			<pos>0.213 0.33</pos>
 			<opacity>1</opacity>
 			<path>./avatar2p.png</path>
 			<linearSmooth>true</linearSmooth>
@@ -30,8 +29,7 @@
 		<image name="avatarbis" extra="true">
 			<origin>0 0</origin>									
 			<size>0.4036458 0.4453704</size>									
-			<pos>0.175 0.33</pos>
-			<scale>1</scale>
+			<pos>0.213 0.33</pos>
 			<opacity>0</opacity>
 			<linearSmooth>true</linearSmooth>
 			<path>./avatarbis.png</path>

@@ -1,0 +1,32 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		
+		<text name="system_description" extra="true" >
+			<text>An automatic list of all Retroachivements compatible games available on the system.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="es" >
+			<text>Una lista de todos los juegos compatibles con Retroachievements disponibles en el sistema.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Bienvenue dans le monde des Achievements, vous trouverez ici une liste de tous les jeux compatibles avec les Retroachivements disponibles sur le système.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>Uma lista automática de todos os jogos compatíveis com Retroachivements disponíveis no sistema. </text>
+		</text>
+		
+						
+
+	</view>
+</theme>

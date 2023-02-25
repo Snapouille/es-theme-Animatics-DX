@@ -2,7 +2,7 @@
 <!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
-version : V1
+version : V1.3
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
@@ -65,10 +65,16 @@ originally based on: "carbon"
 	<subset.logostyle>Logo Style</subset.logostyle>
 	<color>Colorful</color>
 	<blackandwhite>Black and White</blackandwhite>
-	
 	<custom>Custom</custom>
 	<user.logo>Your Logo</user.logo>
 	<user.username>Your Nickname</user.username>
+	
+	<system-description>System descriptions</system-description>
+	<system-controllers>Controller / Keyboard / Joystick</system-controllers>
+	
+	<show>Show</show>
+	<hide>Hide</hide>
+	
 	
   </variables>
   
@@ -146,6 +152,23 @@ originally based on: "carbon"
   
 
 
+	<!-- Affichage des Controlleurs-->
+	<subset name="system-controllers" displayName="${system-controllers}">
+		<include name="Show" displayName="${show}">./config/system/show-system-controllers.xml</include>
+		<include name="Hide" displayName="${hide}"/>
+	</subset>
+
+
+
+	<!-- Affichage des Infos sur les systèmes-->
+	<subset name="system-description" displayName="${system-description}">
+		<include name="Show" displayName="${show}">./config/system/show-system-description.xml</include>
+		<include name="Hide" displayName="${hide}"/>
+	</subset>
+
+
+
+
 	<!--Avatar du client-->
 	<subset name="user-logo" displayName="${user.logo}">
 		<include name="none" displayName="${none}" />
@@ -173,6 +196,7 @@ originally based on: "carbon"
 	</subset>
 
 
+	
 	
   
   
@@ -331,6 +355,8 @@ originally based on: "carbon"
   <include>./config/system/system.xml</include>
   <include>./config/system/user.xml</include>
   <include>./config/gamelist/gameinfobar.xml</include>
+  
+  <include>./system/infos/${system.theme}.xml</include>
   
  
  <!-- Views  -->

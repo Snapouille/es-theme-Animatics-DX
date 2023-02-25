@@ -19,7 +19,7 @@ originally based on: "carbon"
 			<visible ifSubset="user-logo:none">false</visible>		
 			
 		<storyboard>
-			<animation property="offsetX" to="0.13" begin="6000" duration="200" mode="easeInOut"/>
+			<animation property="offsetX" to="0.10" begin="6000" duration="200" mode="easeInOut"/>
 			<animation property="offsetX" to="0" begin="6200" duration="1500" mode="easeInCubic"/>
 		  </storyboard>
 			
@@ -35,7 +35,7 @@ originally based on: "carbon"
          <zIndex>98</zIndex>
 		 
 		 <storyboard>
-			<animation property="offsetX" to="0.13" begin="6000" duration="200" mode="easeInOut"/>
+			<animation property="offsetX" to="0.10" begin="6000" duration="200" mode="easeInOut"/>
 			<animation property="offsetX" to="0" begin="6200" duration="1500" mode="easeInCubic"/>
 		  </storyboard>
 		 
@@ -51,7 +51,7 @@ originally based on: "carbon"
 		 <visible ifSubset="user-logo:none">false</visible>
 		 
 		 <storyboard>
-			<animation property="offsetX" to="0.13" begin="6000" duration="200" mode="easeInOut"/>
+			<animation property="offsetX" to="0.10" begin="6000" duration="200" mode="easeInOut"/>
 			<animation property="offsetX" to="0" begin="6200" duration="1500" mode="easeInCubic"/>
 		  </storyboard>
 		 
@@ -61,10 +61,10 @@ originally based on: "carbon"
 		 <text>${text.nick}</text>
 		 <text ifSubset="user-username:custom">${custom.nick}</text>
 		 <pos>0.157 0.05</pos>
-		 <size>0.165 0.035</size>
+		 <size>0.21 0.035</size>
 		 <color>${baseColor}</color>
-		 <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-		 <fontSize>0.028</fontSize>
+		 <fontPath>./../../art/fonts/flatwheat.ttf</fontPath>
+		 <fontSize>0.025</fontSize>
 		 <alignment>left</alignment>
 		 <glowColor>00000035</glowColor>
 		 <glowSize>1</glowSize>
@@ -75,7 +75,7 @@ originally based on: "carbon"
 		 <visible ifSubset="user-username:none">false</visible>
 		 
 		  <storyboard>
-			<animation property="offsetX" to="0.13" begin="6000" duration="200" mode="easeInOut"/>
+			<animation property="offsetX" to="0.10" begin="6000" duration="200" mode="easeInOut"/>
 			<animation property="offsetX" to="0" begin="6200" duration="1500" mode="easeInCubic"/>
 			
 			<animation property="color" to="FFFF00" begin="6200" duration="1500" autoreverse="true" mode="linear"/>

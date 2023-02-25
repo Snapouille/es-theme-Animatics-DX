@@ -1,0 +1,21 @@
+<theme>
+     <formatVersion>7</formatVersion>
+     <view name="system">
+		  
+		  
+		<image name="controllers2" ifSubset="SystemView:vertical" extra="true">
+			<origin>0 0</origin>	
+			<path>./../../art/controllers2/${system.theme}.png</path>
+			<path ifSubset="artworkregion:US">./../../art/controllers2/US/${system.theme}.png</path>
+			<path ifSubset="artworkregion:JP">./../../art/controllers2/JP/${system.theme}.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>14</zIndex>
+			  
+	  
+		</image>
+		  
+		  
+		  
+		  
+     </view>
+</theme>

@@ -1,0 +1,28 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<text name="system_description" extra="true" >
+			<text>Auto gamelist.
+
+In this list you will basically find equestrian games or horse racing.
+			</text>
+		</text>
+		
+
+
+	<text name="system_description" extra="true" lang="es">
+		<text>Lista de juegos automática.
+
+En esta lista encontrás basicamente juegos de hípica o carreras de caballos.
+		</text>
+	</text>
+
+	</view>
+</theme>

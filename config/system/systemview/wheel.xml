@@ -18,35 +18,55 @@
 		
 		<!-- Menu WHEEL -->
 		<carousel name="systemcarousel">
-			<pos>0.35 0</pos>
+			<pos>0.37 0</pos>
 			<size>1 1</size>
 			<type>vertical_wheel</type> <!-- horizontal_wheel / vertical_wheel" -->
 			<logoSize>0.18 0.155</logoSize> <!-- 0.25 0.155 -->
-			<logoScale>1.15</logoScale> <!-- 1.2 -->
+			<logoScale>1.25</logoScale> <!-- 1.2 -->
 			<maxLogoCount>13</maxLogoCount> <!-- Image cache only -->
-			<logoRotation>-7</logoRotation> <!-- 7.5 : Inclinaison des logos, moins incliné = plus de logos -->
-			<logoRotationOrigin>4.2 0.5</logoRotationOrigin> <!-- -5 0.5 : L'éloigner écarte les logos -->
+			<logoRotation>8</logoRotation> <!-- 7.5 : Inclinaison des logos, moins incliné = plus de logos -->
+			<logoRotationOrigin>-5 0.5</logoRotationOrigin> <!-- -5 0.5 : L'éloigner écarte les logos -->
 			<logoAlignment>center</logoAlignment> <!-- left, right / top, bottom / center : of screen -->
 			<color>00000000</color>
+			<defaultTransition>instant</defaultTransition>
+			<systemInfoDelay>0</systemInfoDelay>
 			<zIndex>30</zIndex>
 		</carousel>
 		
 		
+	<!-- Menu WHEEL d'origine-->
+		<!-- <carousel name="systemcarousel"> -->
+			<!-- <pos>0.35 0</pos> -->
+			<!-- <size>1 1</size> -->
+			<!-- <type>vertical_wheel</type>  -->
+			<!-- <logoSize>0.18 0.155</logoSize>  -->
+			<!-- <logoScale>1.15</logoScale>  -->
+			<!-- <maxLogoCount>13</maxLogoCount>  -->
+			<!-- <logoRotation>-7</logoRotation>  -->
+			<!-- <logoRotationOrigin>4.2 0.5</logoRotationOrigin>  -->
+			<!-- <logoAlignment>center</logoAlignment> -->
+			<!-- <color>00000000</color> -->
+			<!-- <zIndex>30</zIndex> -->
+		<!-- </carousel> -->
 		
-	<!-- <carousel name="systemcarousel"> -->
-		<!-- <type>vertical</type> -->
-		<!-- <pos>0 0</pos> -->
-		<!-- <size>1 1</size> -->
-		<!-- <origin>0 0</origin> -->
-		<!-- <color>00000000</color> -->
-		<!-- <logoScale>1.3</logoScale> -->
-		<!-- <logoSize>0.2 0.2</logoSize> -->
-		<!-- <logoAlignment>right</logoAlignment> -->
-		<!-- <maxLogoCount>5</maxLogoCount> -->
-		<!-- <defaultTransition>instant</defaultTransition> -->
-		<!-- <zIndex>50</zIndex> -->
-	<!-- </carousel> -->
 		
+		<image name="logo">
+			<linearSmooth>true</linearSmooth>
+			<storyboard event="activate" repeatAt="1">
+				<animation property="opacity" to="1" begin="0" duration="0" mode="linear"/>
+				<animation property="scale" from="1" to="0.7" begin="" duration="1" mode="linear"/>
+				<animation property="offsetX" from="0" to="0.03" begin="" duration="1" mode="linear"/>
+				<animation property="offsetX" from="0.03" to="0.05" begin="1000" duration="1000" mode="EaseInOut"/>
+			</storyboard>
+			
+			<storyboard event="scroll">
+				<!-- <animation property="opacity" from="0" to="0.6" duration="0" mode="Linear"/> -->
+				<animation property="scale" from="1" to="0.7" begin="" duration="1" mode="linear"/>
+				<animation property="offsetX" from="0" to="0.03" begin="" duration="1" mode="linear"/>
+				<animation property="offsetX" from="0.03" to="0.05" begin="1000" duration="1000" mode="EaseInOut"/>
+			</storyboard>
+			
+		</image>
 		
 		
 	
@@ -173,7 +193,6 @@
 			<pos>0.0619792 0.7583333</pos>
 			<pos ifHelpPrompts="false">0.0619792 0.7983333</pos>
 			<opacity>0</opacity>			
-			<visible ifSubset="user-logo:none">false</visible>		
 			
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="2990" duration="10" mode="linear"/>
