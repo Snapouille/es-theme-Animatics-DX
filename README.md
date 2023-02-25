@@ -6,7 +6,7 @@ Theme for Emulation Station compatible with
 - Emuelec
 - Retrobat
 
-V1.1 - (2023 02 09)
+V1.3 - (2023 02 25)
 
 Features :
 
@@ -21,6 +21,7 @@ System View Simple
 
 System View Vertical
 ![1 vertical](https://user-images.githubusercontent.com/105559045/215271909-bde6a89f-ee0d-43ce-8e22-8de47700a031.png)
+![2023-02-25 17_49_00-EmulationStation](https://user-images.githubusercontent.com/105559045/221369266-f8585a55-363c-4070-acdd-98efaec54934.png)
 
 System View Horizontal
 ![Vue Horizontale](https://user-images.githubusercontent.com/105559045/220708543-dd20bf76-f4e4-442b-91ec-054b4c4149d1.png)
