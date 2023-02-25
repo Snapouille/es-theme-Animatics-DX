@@ -237,15 +237,14 @@ originally based on: "carbon"
 
 		<image name="controllers2" extra="true">
 			
-			<pos>0.7572917 0.05</pos>									
+			<pos>1.1572917 0.05</pos>									
 			<maxSize>0.2302083 0.1787037</maxSize>									
 
 			<horizontalAlignment>right</horizontalAlignment>
 			<verticalAlignment>bottom</verticalAlignment>
 			
 			<storyboard>
-				<animation property="offsetX" to="0.4" begin="" duration="1" mode="linear"/>
-				<animation property="offsetX" to="0" begin="6500" duration="1500" mode="EaseOutCubic"/>
+				<animation property="offsetX" to="-0.4" begin="6500" duration="1500" mode="EaseOutCubic"/>
 			</storyboard>	
 	  
 		</image>
@@ -256,7 +255,7 @@ originally based on: "carbon"
 		<text name="manufacturerName" extra="static">
 			<alignment>right</alignment>
 			<fontSize>0.040</fontSize>
-			<pos>0.511 0.38</pos>
+			<pos>0.711 0.38</pos>
 			<size>0.942 0.28</size>
 			<color>FFFF00</color>
 			<zIndex>14</zIndex>
@@ -264,22 +263,20 @@ originally based on: "carbon"
 			<rotation>0</rotation>
 			
 				<storyboard>
-					<animation property="offsetX" to="0.2" begin="" duration="1" mode="linear"/>
-					<animation property="offsetX" to="0" begin="6500" duration="1500" mode="EaseOutCubic"/>
+					<animation property="offsetX" to="-0.2" begin="6500" duration="1500" mode="EaseOutCubic"/>
 				</storyboard>	
 		</text>
 		
 			
 		<text name="releaseYyear" extra="true">
 			<fontSize>0.05</fontSize>
-			<pos>0.951 0.44</pos>
+			<pos>1.151 0.44</pos>
 			<zIndex>14</zIndex>
 			<scale>1</scale>
 			<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
 					
 			<storyboard>
-				<animation property="offsetX" to="0.2" begin="" duration="1" mode="linear"/>
-				<animation property="offsetX" to="0" begin="6500" duration="1500" mode="EaseOutCubic"/>
+				<animation property="offsetX" to="-0.2" begin="6500" duration="1500" mode="EaseOutCubic"/>
 				
 				
 				<animation property="color" to="FFFF00" begin="3000" duration="1000" autoreverse="true" mode="linear"/>
@@ -295,13 +292,12 @@ originally based on: "carbon"
 	
 	
 		<text name="system_description" ifSubset="system-description:Show" extra="true">
-			<pos>0.685 0.65</pos>
+			<pos>1.085 0.65</pos>
 			<size>0.3 0.1</size>
 			<color>FFFF00</color>
 
 			<storyboard>
-				<animation property="offsetX" to="0.4" begin="" duration="1" mode="linear"/>
-				<animation property="offsetX" to="0" begin="6500" duration="1500" mode="EaseOutCubic"/>
+				<animation property="offsetX" to="-0.4" begin="6500" duration="1500" mode="EaseOutCubic"/>
 			</storyboard>	
 
 		</text>
