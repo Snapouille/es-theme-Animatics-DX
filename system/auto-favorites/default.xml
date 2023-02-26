@@ -8,7 +8,7 @@
 		<image name="avatar" extra="static">
 			<origin>0 0</origin>									
 			<size>0.5114583 0.5222222</size>									
-			<pos>0.2 -1</pos>
+			<pos>0.17 -1</pos>
 			<scale>0.85</scale>
 			<rotation>-5</rotation>
 			<zIndex>112</zIndex>
@@ -51,15 +51,15 @@
 				<animation property="rotation" to="0" begin="4900" duration="2300" mode="linear"/>
 				
 				<animation property="y" from="0.33" to="0.30" begin="4900" autoreverse="true" duration="400" repeat="1" mode="easeOut"/>
-				<animation property="x" to="0.21" begin="4900" duration="400" mode="linear"/>
+				<animation property="x" to="0.18" begin="4900" duration="400" mode="linear"/>
 				<animation property="y" from="0.32" to="0.30" begin="5700" autoreverse="true" duration="400" repeat="1" mode="easeOut"/>
-				<animation property="x" to="0.22" begin="5700" duration="400" mode="linear"/>
+				<animation property="x" to="0.19" begin="5700" duration="400" mode="linear"/>
 				<animation property="y" from="0.31" to="0.30" begin="6500" autoreverse="true" duration="200" repeat="1" mode="easeOut"/>
-				<animation property="x" to="0.228" begin="6500" duration="400" mode="linear"/>
+				<animation property="x" to="0.198" begin="6500" duration="400" mode="linear"/>
 				<animation property="y" from="0.305" to="0.30" begin="6900" autoreverse="true" duration="100" repeat="1" mode="easeOut"/>
-				<animation property="x" to="0.23" begin="6900" duration="400" mode="linear"/>
+				<animation property="x" to="0.20" begin="6900" duration="400" mode="linear"/>
 				<animation property="y" from="0.3025" to="0.30" begin="7100" autoreverse="true" duration="50" repeat="1" mode="easeOut"/>
-				<animation property="x" to="0.231" begin="7100" duration="400" mode="linear"/>
+				<animation property="x" to="0.201" begin="7100" duration="400" mode="linear"/>
 				<animation property="y" from="0.30225" to="0.30" begin="7200" autoreverse="true" duration="25" repeat="1" mode="easeOut"/>
 				
 			</storyboard>			
