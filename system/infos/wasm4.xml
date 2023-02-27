@@ -1,0 +1,31 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="system_description" extra="true">
+			<text>WASM-4 allows developing game cartridges (ROMs) that can be built with any programming language that compiles to WebAssembly. The size limit of the cartridge and the memory is 64 KB, while the screen is a 160x160 pixel square with 4 customizable colors.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>WASM-4 permite desarrollar cartuchos de juego (ROMs) que pueden construirse con cualquier lenguaje de programación que compile a WebAssembly. El límite de tamaño del cartucho y la memoria es de 64 KB, mientras que la pantalla es un cuadrado de 160x160 píxeles con 4 colores personalizables.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>WASM-4 permet de développer des cartouches de jeu (ROMs) qui peuvent être construits avec n'importe quel langage de programmation qui compile vers WebAssembly. La taille limite de la cartouche et de la mémoire sont de 64 Ko, l'écran quant à lui est un carré de 160x160 pixels avec 4 couleurs personnalisables.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>WASM-4 permite desenvolver cartuchos de jogo (ROMs) que podem ser construídos com qualquer linguagem de programação que se compila para WebAssembly. O limite de tamanho do cartucho e da memória é de 64 KB, enquanto que o ecrã é um quadrado de 160x160 pixels com 4 cores personalizáveis.</text>
+		</text>
+		
+				
+	</view>
+</theme>
