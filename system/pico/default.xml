@@ -1,0 +1,24 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.1572917 0.6231481</size>									
+									
+									
+									
+			<pos>0.4796875 0.45</pos>									
+								
+			<storyboard>
+				
+        		<animation property="x" to="0.45" begin="" duration="3500" mode="EaseInOut"/>
+        		
+        						
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>

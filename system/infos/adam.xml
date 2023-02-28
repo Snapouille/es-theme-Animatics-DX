@@ -4,25 +4,52 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>The Coleco Adam is a home computer and expansion device for the ColecoVision released in 1983 by American toy and video game manufacturer Coleco. It was an attempt to follow on the success of the company's ColecoVision video game console. 
-					
-The Adam was not very successful, partly because of early production problems, and was discontinued in early 1985.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>El Coleco Adam es un ordenador doméstico, con dos encarnaciones: una como equipo independiente, y otra como el Expansion Module #3 de la videoconsola ColecoVision, lanzado en 1983 por el fabricante de juguetes Coleco. Fue un intento de seguir con el éxito de la ColecoVision. 
-					
-El Adam no tuvo mucho éxito, en parte debido a los problemas iniciales de fabricación, y fue descatalogado a principio de 1985.</text>
-		</text>
+<text name="system_description" extra="true">
+<text>The Coleco Adam is a personal computer from the Connecticut Leather Company (Coleco). It is also a plug-in for the Colecovision console. It was a commercial failure for the company.</text>
+</text>
 
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le Coleco Adam est un ordinateur personnel de la société Connecticut Leather Company (Coleco). Il s'agit également d'un module d'extension pour la console Colecovision. C'est un échec commercial pour la société.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Der Coleco Adam ist ein Personalcomputer der Firma Connecticut Leather Company (Coleco). Er ist auch ein Erweiterungsmodul für die Konsole Colecovision. Es war ein kommerzieller Misserfolg für das Unternehmen.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>El Coleco Adam es un ordenador personal de la Connecticut Leather Company (Coleco). También es un complemento para la consola Colecovision. Fue un fracaso comercial para la empresa.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Coleco Adam è un personal computer della Connecticut Leather Company (Coleco). È anche un plug-in per la console Colecovision. Fu un fallimento commerciale per l'azienda.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="ja">
+<text>Coleco Adamは、Connecticut Leather Company（Coleco社）のパーソナルコンピュータである。また、ゲーム機「Colecovision」のプラグインでもある。同社にとっては商業的に失敗作であった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Coleco Adam is een personal computer van de Connecticut Leather Company (Coleco). Het is ook een plug-in voor de Colecovision console. Het was een commerciële mislukking voor het bedrijf.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Coleco Adam to komputer osobisty firmy Connecticut Leather Company (Coleco). Jest to również wtyczka do konsoli Colecovision. Była to komercyjna porażka dla firmy.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Coleco Adam é um computador pessoal da Connecticut Leather Company (Coleco). É também um plug-in para a consola Colecovision. Foi um fracasso comercial para a empresa.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Coleco Adam - это персональный компьютер от компании Connecticut Leather Company (Coleco). Он также является плагином для консоли Colecovision. Для компании это был коммерческий провал.</text>
+</text>
+
+</view>
 </theme>

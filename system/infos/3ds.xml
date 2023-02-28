@@ -4,31 +4,52 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The 3DS is a portable console that has the ability to produce three-dimensional images without the need for special glasses. It is the successor to the Nintendo DS, and is backwards compatible with the latter's software. Its main competitor is Sony's PlayStation Vita.</text>
+</text>
 
-				
-				<text name="system_description" extra="true" >
-			<text>The Nintendo 3DS (abbreviated as 3DS) is a portable console produced by Nintendo and released in 2011, successor to the Nintendo DS. It has the ability to produce three-dimensional images without special glasses.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La Nintendo 3DS (abreviado como 3DS) es una consola portátil producida por Nintendo y lanzada en 2011, sucesor de la Nintendo DS. Tiene la capacidad de producir imágenes en tres dimensiones sin gafas especiales.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Nintendo 3DS (en abrégé 3DS) est une console portable produite par Nintendo et sortie en 2011, successeur de la Nintendo DS. Il a la capacité de produire des images en trois dimensions sans lunettes spéciales.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La 3DS est une console portable qui a la capacité de produire des images tridimensionnelles sans besoin de lunettes spécifiques. Elle succède à la Nintendo DS, et est rétrocompatible avec les logiciels de cette dernière. Sa principale concurrente est la PlayStation Vita de Sony.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Nintendo 3DS (abreviado como 3DS) é um console portátil produzido pela Nintendo e lançado em 2011, sucessor do Nintendo DS. Tem a capacidade de produzir imagens em três dimensões sem óculos especiais.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der 3DS ist eine tragbare Konsole, die die Fähigkeit besitzt, dreidimensionale Bilder zu erzeugen, ohne dass eine spezielle Brille erforderlich ist. Er ist der Nachfolger des Nintendo DS und abwärtskompatibel mit dessen Software. Sein Hauptkonkurrent ist die PlayStation Vita von Sony.</text>
+</text>
 
-				
 
-		
-		
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La 3DS es una consola portátil capaz de producir imágenes tridimensionales sin necesidad de gafas especiales. Es la sucesora de la Nintendo DS y es retrocompatible con el software de esta última. Su principal competidora es la PlayStation Vita de Sony.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il 3DS è una console portatile in grado di produrre immagini tridimensionali senza bisogno di occhiali speciali. È il successore del Nintendo DS ed è retrocompatibile con il software di quest'ultimo. Il suo principale concorrente è la PlayStation Vita di Sony.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="ja">
+<text>3DSは、特殊なメガネを使わずに立体的な映像が楽しめる携帯ゲーム機です。ニンテンドーDSの後継機であり、DSのソフトとの後方互換性がある。主な競合機種はソニーの「プレイステーション ヴィータ」。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De 3DS is een draagbare console die driedimensionale beelden kan weergeven zonder dat een speciale bril nodig is. Het is de opvolger van de Nintendo DS en is compatibel met de software van de Nintendo DS. Zijn belangrijkste concurrent is Sony's PlayStation Vita.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>3DS to przenośna konsola, która posiada możliwość tworzenia trójwymiarowych obrazów bez konieczności używania specjalnych okularów. Jest następcą Nintendo DS i jest wstecznie kompatybilna z oprogramowaniem tego ostatniego. Jej głównym konkurentem jest PlayStation Vita firmy Sony.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O 3DS é uma consola portátil que tem a capacidade de produzir imagens tridimensionais sem a necessidade de óculos especiais. É o sucessor do Nintendo DS, e é retrocompatível com o software deste último. O seu principal concorrente é a PlayStation Vita da Sony.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>3DS - это портативная консоль, способная создавать трехмерные изображения без использования специальных очков. Она является преемницей Nintendo DS и имеет обратную совместимость с программным обеспечением последней. Ее главным конкурентом является PlayStation Vita от Sony.</text>
+</text>
+
+</view>
 </theme>

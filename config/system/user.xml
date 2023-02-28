@@ -44,8 +44,12 @@ originally based on: "carbon"
 	  <image name="logo-user" extra="static">
 		 <path>./../../art/logo-user/${image.logo}</path>
 		 <path ifSubset="user-logo:custom">./../../your-logo.png</path>
-		 <pos>0.1053125 0.0444444</pos>									
-		 <maxSize>0.0416667 0.0740741</maxSize>									
+		 
+		<size>0.0458333 0.0796296</size>									
+		<pos>0.103125 0.0416667</pos>									
+
+		 
+		 
 		 <zIndex>99</zIndex>
 		 <linearSmooth>true</linearSmooth>
 		 <visible ifSubset="user-logo:none">false</visible>

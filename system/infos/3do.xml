@@ -1,34 +1,54 @@
-﻿<!--
+<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
-		<text name="system_description" extra="true">
-			<text>The 3DO Interactive Multiplayer, often called the 3DO, is a home video game console developed by The 3DO Company. Conceived by entrepreneur and Electronic Arts founder Trip Hawkins, the 3DO was not a console manufactured by the company itself, but a series of specifications, originally designed by Dave Needle and R. J. Mical of New Technologies Group, that could be licensed by third parties. Panasonic produced the first models in 1993, and further renditions of the hardware were released in 1994 by GoldStar (now LG Electronics) and in 1995 by Sanyo. </text>
-		</text>
+<text name="system_description" extra="true">
+<text>The 3DO is a home console designed by entrepreneur and Electronic Arts founder : Trip Hawkins. Not manufactured by the company itself, it was licensed to third parties. Panasonic produced the first models in 1993, and further versions were released in 1994 by GoldStar (now LG Electronics) and in 1995 by Sanyo.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>3DO Interactive Multiplayer (comúnmente llamada la 3DO) fue una línea de videoconsolas lanzada en 1993 y 1994 por Panasonic, Sanyo y Goldstar (Actualmente LG Electronics). Las consolas fueron fabricadas según las especificaciones creadas por The 3DO Company, siendo originalmente diseñada por Dave Needle y RJ Mical de New Technology Group. El sistema fue concebido por el empresario y fundador de EA Games, Trip Hawkins.
+<text name="system_description" extra="true" lang="fr">
+<text>La 3DO est une console de salon conçue par l'entrepreneur et fondateur d'Electronic Arts : Trip Hawkins. N'étant pas fabriquée par la société elle-même, elle a été cédée sous licence à des tiers. Panasonic a produit les premiers modèles en 1993. D'autres versions ont vu le jour par la suite en 1994 par la société GoldStar (aujourd'hui LG Electronics) et en 1995 par la société Sanyo.</text>
+</text>
 
-A pesar de su lanzamiento altamente promocionado y su avanzada tecnología, el alto precio de la consola ($699.95 en el lanzamiento) y el sobresaturado mercado de las consolas, condenó la '3DO' al fracaso precipitado. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>3DO Interactive Multiplayer est initialement le nom porté par la première console de jeux vidéo développée par la société Panasonic et répondant au standard 3DO établi par The 3DO Company.</text>
-		</text>
+<text name="system_description" extra="true" lang="gr">
+<text>Die 3DO ist eine Heimkonsole, die von dem Unternehmer und Gründer von Electronic Arts Trip Hawkins entwickelt wurde. Da sie nicht vom Unternehmen selbst hergestellt wurde, wurde sie an Dritte lizenziert. Panasonic produzierte die ersten Modelle 1993, weitere Versionen wurden 1994 von GoldStar (heute LG Electronics) und 1995 von Sanyo veröffentlicht.</text>
+</text>
 
-			<text name="system_description" extra="true" lang="pt">
-			<text>3DO Interactive Multiplayer foi um videogame doméstico com arquitetura de 32 bits. O 3DO consiste em especificações técnicas criadas pela "3DO Company", que é uma sociedade entre 7 diferentes empresas.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La 3DO es una consola doméstica diseñada por el empresario y fundador de Electronic Arts : Trip Hawkins. No fue fabricada por la propia empresa, sino que se concedió bajo licencia a terceros. Panasonic fabricó los primeros modelos en 1993, y GoldStar (ahora LG Electronics) y Sanyo lanzaron nuevas versiones en 1994 y 1995, respectivamente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il 3DO è una console domestica progettata dall'imprenditore e fondatore di Electronic Arts Trip Hawkins. Non è stata prodotta dall'azienda stessa, ma è stata data in licenza a terzi. Panasonic ha prodotto i primi modelli nel 1993, mentre altre versioni sono state rilasciate nel 1994 da GoldStar (ora LG Electronics) e nel 1995 da Sanyo.</text>
+</text>
 
 
-				
-		
-	</view>
+<text name="system_description" extra="true" lang="jp">
+<text>3DOは、起業家でありエレクトロニック・アーツの創設者であるトリップ・ホーキンスが設計した家庭用ゲーム機です。同社自身では製造されず、サードパーティにライセンスされた。1993年にパナソニックが最初のモデルを製造し、1994年にゴールドスター（現LGエレクトロニクス）、1995年に三洋電機がさらなるバージョンをリリースした。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De 3DO is een thuisconsole ontworpen door ondernemer en Electronic Arts-oprichter Trip Hawkins. Hij werd niet door het bedrijf zelf geproduceerd, maar in licentie gegeven aan derden. Panasonic produceerde de eerste modellen in 1993, en verdere versies werden in 1994 uitgebracht door GoldStar (nu LG Electronics) en in 1995 door Sanyo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>3DO to domowa konsola zaprojektowana przez przedsiębiorcę i założyciela Electronic Arts - Tripa Hawkinsa. Nie produkowana przez samą firmę, była licencjonowana przez firmy trzecie. Panasonic wyprodukował pierwsze modele w 1993 roku, a kolejne wersje zostały wydane w 1994 roku przez GoldStar (obecnie LG Electronics) i w 1995 roku przez Sanyo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A 3DO é uma consola doméstica concebida pelo empresário e fundador da Electronic Arts Trip Hawkins. Não fabricada pela própria empresa, foi licenciada a terceiros. A Panasonic produziu os primeiros modelos em 1993, e outras versões foram lançadas em 1994 pela GoldStar (agora LG Electronics) e em 1995 pela Sanyo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>3DO - это домашняя консоль, разработанная предпринимателем и основателем Electronic Arts Трипом Хокинсом. Она не производилась самой компанией, а была лицензирована третьими лицами. Первые модели были выпущены компанией Panasonic в 1993 году, последующие версии были выпущены в 1994 году компанией GoldStar (сейчас LG Electronics) и в 1995 году компанией Sanyo</text>
+</text>
+
+</view>
 </theme>

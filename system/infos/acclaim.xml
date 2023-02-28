@@ -4,29 +4,52 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Acclaim Entertainment was a North American video game development and publishing company founded in 1987 and closed in 2004.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Acclaim Entertainment était une société nord-américaine de développement et d'édition de jeux vidéo fondée en 1987 et disparue en 2004.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Acclaim Entertainment war ein nordamerikanisches Unternehmen für die Entwicklung und Veröffentlichung von Videospielen, das 1987 gegründet wurde und 2004 verschwand.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>Acclaim Entertainment fue un desarrollador y editor de videojuegos norteamericano fundado en 1987 y desaparecido en 2004.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Acclaim Entertainment è stato uno sviluppatore ed editore di videogiochi nordamericano fondato nel 1987 e scomparso nel 2004.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="ja">
+<text>アクレイム・エンターテイメントは、1987年に設立され、2004年に消滅した北米のビデオゲーム開発会社およびパブリッシャーです。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Acclaim Entertainment was een Noord-Amerikaanse ontwikkelaar en uitgever van videospelletjes, opgericht in 1987 en verdwenen in 2004.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Acclaim Entertainment był północnoamerykańskim producentem i wydawcą gier wideo, założonym w 1987 roku i nieistniejącym od 2004 roku.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Acclaim Entertainment foi uma empresa norte-americana de desenvolvimento e publicação de jogos de vídeo fundada em 1987 e extinta em 2004.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Acclaim Entertainment - североамериканский разработчик и издатель видеоигр, основанный в 1987 году и прекративший существование в 2004 году.</text>
+</text>
+
+</view>
 </theme>
