@@ -12,6 +12,7 @@ Features :
 
     4 Animated System Views (Simple, Vertical, Wheel and Horizontal)
     5 Gamelist Views
+    9 languages (German, Spanish, French, Italian, Japanese, Dutch, Polish, Portuguese and Russian)
     Regional Logos and Artwork (EU, US and JAP)
     16/9 Only, not compatible with 4/3 or 5/4 for now
     Pi4 or more powerfull recommended
