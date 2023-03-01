@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The A600, also known as the Amiga 600, was the last computer in the A500 line. Launched in June 1992, it was essentially a repackaged A500. Commodore International's intention was to boost sales of the A500 before the new, more sophisticated A1200 became available.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Also known as the A600, is a home computer that was introduced at the CeBIT show in March 1992. The A600 is Commodore International's final model based on the Motorola 68000 CPU.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Amiga 600, también conocido como A600 y June Bug durante su desarrollo, fue un ordenador personal presentado en el CeBIT en Marzo de 1992 por Commodore International.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>A600, aussi nommé Amiga 600, fut le dernier ordinateur de la lignée des A500. L'A600 utilisait le processeur Motorola 68000, cadencé à 7,09 MHz (PAL) ou 7,16 MHz (NTSC).</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>L'A600, aussi nommé Amiga 600, fut le dernier ordinateur de la lignée des A500. Lancé en juin 1992, il était essentiellement un A500 repackagé. L'intention de Commodore International était de faire remonter les ventes des A500 avant que le nouvel A1200, plus sophistiqué, devienne disponible.</text>
+</text>
 
-						<text name="system_description" extra="true" lang="pt">
-			<text>Commodore Amiga é uma família de computadores de 16/32 bits fabricados pela empresa canadense Commodore Business Machines nos anos 80 e 90. Ficaram famosos pelos recursos muito a frente dos rivais IBM-PC.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der A600, auch Amiga 600 genannt, war der letzte Computer aus der A500-Reihe. Er kam im Juni 1992 auf den Markt und war im Wesentlichen ein neu verpackter A500. Die Absicht von Commodore International war es, die Verkaufszahlen des A500 wieder zu steigern, bevor der neue, anspruchsvollere A1200 verfügbar wurde.</text>
+</text>
 
-				
-		
-		
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El A600, también conocido como Amiga 600, fue el último ordenador de la línea A500. Lanzado en junio de 1992, era esencialmente un A500 reempaquetado. La intención de Commodore International era impulsar las ventas del A500 antes de que estuviera disponible el nuevo y más sofisticado A1200.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'A600, noto anche come Amiga 600, è stato l'ultimo computer della linea A500. Lanciato nel giugno 1992, era essenzialmente un A500 riconfezionato. L'intenzione di Commodore International era quella di incrementare le vendite dell'A500 prima che fosse disponibile il nuovo e più sofisticato A1200.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>A600は、Amiga 600としても知られ、A500の最後のコンピュータでした。1992年6月に発売され、基本的にはA500の再パッケージ版でした。コモドールインターナショナルの意図は、より洗練された新しいA1200が発売される前に、A500の売り上げを伸ばすことだった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De A600, ook bekend als de Amiga 600, was de laatste computer in de A500 lijn. Hij werd gelanceerd in juni 1992 en was in wezen een herverpakte A500. Commodore International wilde de verkoop van de A500 stimuleren voordat de nieuwe, meer geavanceerde A1200 beschikbaar kwam.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>A600, znana również jako Amiga 600, była ostatnim komputerem z linii A500. Wprowadzona na rynek w czerwcu 1992 roku, była w zasadzie przepakowaną A500. Intencją Commodore International było zwiększenie sprzedaży A500 przed pojawieniem się nowej, bardziej zaawansowanej A1200.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O A600, também conhecido como Amiga 600, foi o último computador da linha A500. Lançado em Junho de 1992, era essencialmente um A500 reembalado. A intenção da Commodore International era impulsionar as vendas do A500 antes de o novo e mais sofisticado A1200 se tornar disponível.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>A600, также известный как Amiga 600, был последним компьютером в линейке A500. Выпущенный в июне 1992 года, он был по сути переделанным A500. Намерением Commodore International было увеличить продажи A500 до появления нового, более сложного A1200.</text>
+</text>
+
+</view>
 </theme>

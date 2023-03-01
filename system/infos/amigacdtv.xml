@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The CDTV, for Commodore Dynamic Total Vision, is a personal computer and game console in the form of a black turntable. It was aimed at a family audience that was new to computers, interested in games but also in multimedia capabilities and interactivity.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Amiga CDTV (acronym for Commodore Dynamic Total Vision) was a model of the Commodore Amiga personal computer released in March 1991, being the first console in history to have a factory-built CD player.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Amiga CDTV (acrónimo de Commodore Dynamic Total Vision) fue un modelo de la computadora personal Commodore Amiga lanzada en marzo de 1991, siendo la primera consola en la historia en tener un reproductor de CD de fábrica.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Amiga CDTV (acronyme de Commodore Dynamic Total Vision) est un modèle d'ordinateur personnel Commodore Amiga lancé en mars 1991, la première console de l'histoire à disposer d'un lecteur de CD fabriqué en usine.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le CDTV, pour Commodore Dynamic Total Vision, est un ordinateur personnel et une console de jeu prenant la forme d'une platine de salon de couleur noire. Elle visait un public familial néophyte en informatique, intéressé par les jeux mais aussi par les capacités multimédia et l'interactivité.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Amiga CDTV (acrônimo para Commodore Dynamic Total Vision) foi um modelo do computador pessoal Commodore Amiga lançado em março de 1991, sendo o primeiro console da história, a ter um leitor de CDs de fábrica.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der CDTV, der für Commodore Dynamic Total Vision steht, ist ein Personal Computer und eine Spielkonsole in Form eines schwarzen Plattenspielers für das Wohnzimmer. Er zielte auf ein Familienpublikum ab, das Computerneulinge war und sich für Spiele, aber auch für Multimediafähigkeiten und Interaktivität interessierte.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>El CDTV, por Commodore Dynamic Total Vision, es un ordenador personal y consola de juegos con forma de tocadiscos negro. Estaba dirigido a un público familiar que se iniciaba en la informática, interesado en los juegos pero también en las capacidades multimedia y la interactividad.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il CDTV, acronimo di Commodore Dynamic Total Vision, è un personal computer e una console di gioco a forma di giradischi nero. Si rivolgeva a un pubblico familiare alle prime armi con i computer, interessato ai giochi ma anche alle funzionalità multimediali e all'interattività.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>CDTVは、コモドール・ダイナミック・トータル・ビジョンの略で、黒いターンテーブルの形をしたパーソナルコンピュータとゲーム機である。コンピュータに初めて触れるファミリー層をターゲットに、ゲームだけでなくマルチメディア機能やインタラクティビティにも関心を持たせた。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De CDTV, voor Commodore Dynamic Total Vision, is een personal computer en spelconsole in de vorm van een zwarte draaitafel. Het was gericht op een familiepubliek dat nieuw was met computers, geïnteresseerd in spelletjes maar ook in multimediamogelijkheden en interactiviteit.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>CDTV, czyli Commodore Dynamic Total Vision, to komputer osobisty i konsola do gier w formie czarnego gramofonu. Była skierowana do rodzinnej publiczności, która była nowa dla komputerów, zainteresowana grami, ale także możliwościami multimedialnymi i interaktywnością.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O CDTV, para Commodore Dynamic Total Vision, é um computador pessoal e uma consola de jogos sob a forma de mesa giratória preta. Era dirigido a um público familiar que era novo nos computadores, interessado em jogos mas também em capacidades multimédia e interactividade.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>CDTV, для Commodore Dynamic Total Vision, - это персональный компьютер и игровая консоль в виде черного проигрывателя. Он был нацелен на семейную аудиторию, которая была новичком в компьютерах, заинтересована в играх, а также в мультимедийных возможностях и интерактивности.</text>
+</text>
+
+</view>
 </theme>

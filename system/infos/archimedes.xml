@@ -4,24 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Acorn Archimedes is the first consumer computer based on a RISC processor. It is the successor to the BBC Micro, which was widely used in the UK but was becoming increasingly outdated technically.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>Acorn Archimedes is a family of personal computers designed by Acorn Computers of Cambridge, England. The systems are based on Acorn's own ARM architecture processors and the proprietary operating systems Arthur and RISC OS. 
-					
-The first models were introduced in 1987, and systems in the Archimedes family were sold until the mid-1990s. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Acorn Archimedes est le premier ordinateur grand public basé sur un processeur RISC. Il est le successeur du BBC Micro, très répandu au Royaume-Uni mais de plus en plus dépassé techniquement.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>El Acorn Archimedes fue el primer ordenador personal de propósito general de Acorn Computers basado en su propia CPU RISC ARM de 32 bits. 
-				
-El nombre también es usado comúnmente para describir ordenadores que están basados en la misma arquitectura, incluso cuando Acorn no incluye 'Archimedes' en el nombre oficial. </text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Acorn Archimedes ist der erste Computer für den Massenmarkt, der auf einem RISC-Prozessor basiert. Er ist der Nachfolger des in Großbritannien weit verbreiteten, aber technisch zunehmend veralteten BBC Micro.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>Acorn Archimedes es el primer ordenador de consumo basado en un procesador RISC. Es el sucesor del BBC Micro, muy utilizado en el Reino Unido pero cada vez más anticuado técnicamente.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>Acorn Archimedes è il primo computer consumer basato su un processore RISC. È il successore del BBC Micro, ampiamente utilizzato nel Regno Unito ma sempre più obsoleto dal punto di vista tecnico.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>Acorn Archimedesは、RISCプロセッサを搭載した最初の民生用コンピュータである。英国で広く使われていたものの、技術的に時代遅れとなりつつあったBBC Microの後継機である。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Acorn Archimedes is de eerste consumentencomputer op basis van een RISC-processor. Het is de opvolger van de BBC Micro, die in het Verenigd Koninkrijk veel werd gebruikt maar technisch steeds meer verouderd raakte.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Acorn Archimedes to pierwszy konsumencki komputer oparty na procesorze RISC. Jest następcą BBC Micro, który był powszechnie używany w Wielkiej Brytanii, ale stawał się coraz bardziej przestarzały technicznie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Acorn Archimedes é o primeiro computador de consumo baseado num processador RISC. É o sucessor da BBC Micro, que era amplamente utilizada no Reino Unido mas que estava a tornar-se cada vez mais desactualizada tecnicamente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Acorn Archimedes - первый потребительский компьютер на базе RISC-процессора. Он стал преемником BBC Micro, который широко использовался в Великобритании, но становился все более устаревшим технически.</text>
+</text>
+
+</view>
 </theme>

@@ -4,34 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Amiga is a family of computers marketed by Commodore between 1985 and 1994. In nine years of marketing, a dozen models were offered to the public and to professionals. The most famous version remains the Amiga 500, released in 1987. Commodore went bankrupt in 1994, marking the end of their production.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" >
-			<text>The Amiga is a family of personal computers introduced by Commodore in 1985. The original model is one of a number of computers with 16 or 32-bit processors, 256 KB or more of RAM, mouse-based GUIs, and significantly improved graphics and audio over 8-bit systems. This includes the Atari ST—released earlier the same year—Macintosh, and the Acorn Archimedes. 
+<text name="system_description" extra="true" lang="fr">
+<text>L’Amiga est une famille d’ordinateurs commercialisée par Commodore entre 1985 et 1994. En neuf ans de commercialisation, une dizaine de modèles sont proposés au public et aux professionnels. La version la plus célèbre reste l'Amiga 500, sorti en 1987. Commodore est placé en faillite en 1994, signant la fin de leur production.</text>
+</text>
 
-Based on the Motorola 68000 microprocessor, the Amiga differs from its contemporaries through the inclusion of custom hardware to accelerate graphics and sound, including sprites and a blitter, and a pre-emptive multitasking operating system called AmigaOS. </text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="es">
-			<text>El Commodore Amiga fue un ordenador personal comercializado por Commodore International entre 1985 y 1994. Fue diseñado por Jay Glenn Miner y un reducido equipo de ingenieros pertenecientes a la empresa Didbit ubicada en Santa Clara, California. 
+<text name="system_description" extra="true" lang="de">
+<text>Der Amiga ist eine Computerfamilie, die von Commodore zwischen 1985 und 1994 vermarktet wurde. In den neun Jahren, in denen der Amiga vermarktet wurde, wurden etwa zehn verschiedene Modelle für die Öffentlichkeit und für professionelle Anwender angeboten. Die bekannteste Version bleibt der Amiga 500, der 1987 auf den Markt kam. Commodore musste 1994 Insolvenz anmelden, was das Ende ihrer Produktion bedeutete.</text>
+</text>
 
-Su módico precio de entrada y sus capacidades multimedia, mucho más avanzadas que los compatibles PC y Macintosh de la época, le confirió mayor popularidad entre los amantes de los videojuegos. Su sistema operativo tiene una particularidad excepcional para la informática de la época, consistente en ser el primer ordenador multitarea y multimedia orientado al gran público.</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="fr">
-			<text>L’Amiga est une famille d’ordinateurs personnels commercialisée par Commodore International entre 1985 et 1994. Dans les années 1990, il est très populaire sur la scène démo, parmi les amateurs de jeux vidéo et dans l'industrie de la vidéo. Dans les années 1980, l'Amiga offrait en standard un affichage plus coloré et plus animé, un meilleur son et un système d'exploitation (multitâche avec interface graphique) plus avancé que la plupart de ses concurrents. </text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El Amiga es una familia de ordenadores comercializada por Commodore entre 1985 y 1994. En nueve años de comercialización, se ofrecieron una docena de modelos al público y a los profesionales. La versión más famosa es el Amiga 500, lanzado en 1987. Commodore quebró en 1994, marcando el fin de su producción.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt">
-			<text>Commodore Amiga é uma família de computadores de 16/32 bits fabricados pela empresa canadense Commodore Business Machines nos anos 80 e 90. Ficaram famosos pelos recursos muito a frente dos rivais IBM-PC.</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>L'Amiga è una famiglia di computer commercializzata da Commodore tra il 1985 e il 1994. In nove anni di commercializzazione, una dozzina di modelli sono stati offerti al pubblico e ai professionisti. La versione più famosa rimane l'Amiga 500, uscito nel 1987. Commodore fallì nel 1994, segnando la fine della sua produzione.</text>
+</text>
 
-				
-		
-		
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>Amigaは、コモドール社が1985年から1994年にかけて販売したコンピュータのシリーズです。9年間のマーケティングで、12機種が一般向けとプロ向けに提供されました。最も有名なのは、1987年に発売されたAmiga 500である。コモドールは1994年に倒産し、その生産は終わりを告げました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Amiga is een familie van computers die tussen 1985 en 1994 door Commodore op de markt werd gebracht. In negen jaar marketing werden een dozijn modellen aangeboden aan het publiek en aan professionals. De bekendste versie blijft de Amiga 500, uitgebracht in 1987. Commodore ging failliet in 1994, wat het einde van hun productie betekende.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Amiga to rodzina komputerów sprzedawanych przez firmę Commodore w latach 1985-1994. W ciągu dziewięciu lat wprowadzania na rynek zaoferowano kilkanaście modeli, zarówno dla publiczności, jak i dla profesjonalistów. Najbardziej znaną wersją pozostaje Amiga 500, wydana w 1987 roku. Firma Commodore zbankrutowała w 1994 roku, co oznaczało koniec ich produkcji.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Amiga é uma família de computadores comercializados pela Commodore entre 1985 e 1994. Em nove anos de comercialização, uma dúzia de modelos foram oferecidos ao público e a profissionais. A versão mais famosa continua a ser o Amiga 500, lançado em 1987. Commodore foi à falência em 1994, marcando o fim da sua produção.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Amiga - это семейство компьютеров, продававшихся компанией Commodore с 1985 по 1994 год. За девять лет маркетинга десяток моделей были предложены широкой публике и профессионалам. Самой известной версией остается Amiga 500, выпущенная в 1987 году. Commodore обанкротилась в 1994 году, что ознаменовало конец их производства.</text>
+</text>
+
+</view>
 </theme>

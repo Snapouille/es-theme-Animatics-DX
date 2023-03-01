@@ -4,34 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Amstrad CPC is an 8-bit personal computer. CPC stands for Colour Personal Computer, although a version with a monochrome monitor was also available. There are three different models, the 464 cassette and then the 664 and 6128 floppy. They sold about three million copies worldwide, including about one million in France.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>Is a series of 8-bit home computers produced by Amstrad between 1984 and 1990. It was designed to compete in the mid-1980s home computer market dominated by the Commodore 64 and the ZX Spectrum.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>L'Amstrad CPC est un ordinateur personnel 8 bits. CPC est le sigle de Colour Personal Computer, même si une version dotée d'un moniteur monochrome était aussi disponible. Il existe trois modèles différents, le 464 à cassette puis le 664 et 6128 à disquettes. Ils se sont vendu à environ trois millions d'exemplaires dans le monde, dont environ un million en France.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Amstrad CPC (acrónimo del inglés Colour Personal Computer) fue una serie de ordenadores personales de 8 bits producidos por Amstrad durante la década de 1980 y a principios de la década de 1990. 
+<text name="system_description" extra="true" lang="de">
+<text>Der Amstrad CPC ist ein 8-Bit-Personalcomputer. CPC steht für Colour Personal Computer, obwohl es auch eine Version mit einem monochromen Monitor gab. Es gibt drei verschiedene Modelle, den 464 mit Kassetten, den 664 und den 6128 mit Disketten. Weltweit wurden etwa drei Millionen Exemplare verkauft, davon etwa eine Million in Frankreich.</text>
+</text>
 
-La primera máquina, el CPC 464, se presentó oficialmente y se comercializó a gran escala a partir del 21 de junio de 1984. Se diseñó como competidor directo del Commodore 64 y del Sinclair ZX Spectrum. La gama CPC tuvo mucho éxito. Se vendieron más de 3 millones de equipos durante la vida útil de la máquina.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El Amstrad CPC es un ordenador personal de 8 bits. CPC son las siglas de Colour Personal Computer, aunque también existía una versión con monitor monocromo. Existen tres modelos diferentes, el 464 de casete y luego los 664 y 6128 de disquete. Se vendieron alrededor de tres millones de copias en todo el mundo, de las cuales cerca de un millón en Francia.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>L'Amstrad CPC est un ordinateur personnel 8 bits produit par Amstrad dans les années 1980. CPC est le sigle de Colour Personal Computer, même si une version dotée d'un moniteur monochrome était disponible.</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>L'Amstrad CPC è un personal computer a 8 bit. CPC è l'acronimo di Colour Personal Computer, sebbene fosse disponibile anche una versione con monitor monocromatico. Esistono tre diversi modelli, il 464 a cassetta e poi il 664 e il 6128 a floppy. Sono stati venduti circa tre milioni di esemplari in tutto il mondo, di cui circa un milione in Francia.</text>
+</text>
 
-			    <text name="system_description" extra="true" lang="pt" >
-			<text>Amstrad CPC foi uma série computadores pessoais de 8 bits produzidos pela Amstrad durante a década de 1980 e início de 1990. CPC significa Colour Personal Computer ("Computador Colorido Pessoal").</text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text>アムストラッドCPCは、8ビットのパーソナルコンピュータです。CPCはColour Personal Computerの略ですが、モノクロモニターを搭載したバージョンもありました。464のカセット、それから664と6128のフロッピーと3種類のモデルがある。全世界で約300万台、そのうちフランスで約100万台売れたという。</text>
+</text>
 
-		
-		
+<text name="system_description" extra="true" lang="nl">
+<text>De Amstrad CPC is een 8-bit personal computer. CPC staat voor Colour Personal Computer, hoewel er ook een versie met een monochroom beeldscherm beschikbaar was. Er zijn drie verschillende modellen, de 464 cassette en vervolgens de 664 en 6128 floppy. Er werden wereldwijd ongeveer drie miljoen exemplaren van verkocht, waaronder ongeveer een miljoen in Frankrijk.</text>
+</text>
 
+<text name="system_description" extra="true" lang="pl">
+<text>Amstrad CPC to 8-bitowy komputer osobisty. CPC oznacza Colour Personal Computer, choć dostępna była również wersja z monitorem monochromatycznym. Istnieją trzy różne modele, kaseta 464, a następnie dyskietka 664 i 6128. Sprzedały się one w około trzech milionach egzemplarzy na całym świecie, w tym około miliona we Francji.</text>
+</text>
 
-		
+<text name="system_description" extra="true" lang="pt">
+<text>O CPC Amstrad é um computador pessoal de 8 bits. CPC significa Computador Pessoal a Cores, embora também estivesse disponível uma versão com um monitor monocromático. Existem três modelos diferentes, a cassete 464 e depois a disquete 664 e 6128. Venderam cerca de três milhões de cópias em todo o mundo, incluindo cerca de um milhão em França.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ru">
+<text>Amstrad CPC - это 8-битный персональный компьютер. CPC расшифровывается как Colour Personal Computer, хотя также выпускалась версия с монохромным монитором. Существует три различных модели: кассетная 464, а затем 664 и 6128 с дискетами. Было продано около трех миллионов экземпляров по всему миру, в том числе около миллиона во Франции.</text>
+</text>
+
+</view>
 </theme>

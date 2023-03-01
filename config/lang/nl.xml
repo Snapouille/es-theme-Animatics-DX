@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<!-- Netherlands -->
+<variables lang="nl">
+
+<subset.region>Regio</subset.region>
+<europe>Europa</europe>
+<usa>USA</usa>
+<japan>Japan</japan>
+<systemViewName>Systeemoverzicht</systemViewName>
+<systemBackgroundName>Achtergrond</systemBackgroundName>
+<systembackground.snap>Avatar animatie</systembackground.snap>
+<systembackground.carboncontrol>Draadhendels</systembackground.carboncontrol>
+<systembackground.randomvideo>Willekeurige video</systembackground.randomvideo>
+<systembackground.randombox>Willekeurige spellendozen</systembackground.randombox>
+<tilesViewName>Vignetten</tilesViewName>
+<iconsViewName>Pictogrammen</iconsViewName>
+<detailedLogoViewName>Gedetailleerd met lijst van logo's</detailedLogoViewName>
+<basicGridName>Dozen</basicGridName>
+<carouselViewName>Carrousel van dozen</carouselViewName>
+<InfoCustomView>Nieuws / Statistieken</InfoCustomView>
+<infoDetailed>Gedetailleerd</infoDetailed>
+<totalGamesInfos>Totaal spellen</totalGamesInfos>
+<subset.colorset>Kleurenschema's</subset.colorset>
+<none>Geen</none>
+<blue>Blauw</blue>
+<red>Rood</red>
+<green>Groen</green>
+<yellow>Geel</yellow>
+<gray>Grijs</gray>
+<roundBorderSubsetName>Afgeronde randen</roundBorderSubsetName>
+<blinkBorderSubsetName>Knipperende randen</blinkBorderSubsetName>
+<yes>ja</yes>
+<no>niet</no>
+<previewBarSubsetName>Overzichtsvenster</previewBarSubsetName>
+<animationsSubsetName>Overgangsanimaties</animationsSubsetName>
+<helpSubsetName>Help-pictogrammen</helpSubsetName>
+<colored>Gekleurd</colored>
+<subset.shader>TV effecten</subset.shader>
+<glowSubsetName>Selectie in Halo</glowSubsetName>
+<systemViewExInfos>Verbeterde systeeminformatie</systemViewExInfos>
+<dateFormat>%d/%m/%Y</dateFormat>
+<helpbuttons>Positie van de knoppen</helpbuttons>
+<gamecarouseltype>Bron afbeelding</gamecarouseltype>
+<gamelistFont>Welk lettertype?</gamelistFont>
+<gamelistFontSize>Wat is de lettergrootte?</gamelistFontSize>
+<gamelistLines>Hoeveel regels in de gamelijst?</gamelistLines>
+<gameBar>Spel informatie balk</gameBar>
+<animatedInfobar>Animatie van het overzichtsdeel</animatedInfobar>
+<subset.logostyle>Logo stijl</subset.logostyle>
+<color>Gekleurd</color>
+<blackandwhite>Zwart en wit</blackandwhite>
+<custom>Gepersonaliseerde</custom>
+<user.logo>Uw logo</user.logo>
+<user.username>Uw bijnaam</user.username>
+<system-description>Systeembeschrijvingen</system-description>
+<system-controllers>Beeld van de controleurs</system-controllers>
+<show>Bekijk</show>
+<hide>Verberg</hide>
+
+</variables>
+
+</theme>

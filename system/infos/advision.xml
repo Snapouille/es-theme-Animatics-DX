@@ -4,25 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Adventure Vision is a cartridge-based console released by Entex Industries in 1982. The monitor, game controls and computer hardware are all contained in a single portable unit. The LED monitor can only display red pixels. Four games were released, all of which are arcade ports.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>Adventure Vision is a cartridge-based video game console released by Entex Industries in either August or October 1982. The monitor, game controls, and computer hardware are all contained within a single portable unit. The LED monitor can only display red pixels. Four games were released, all of which are arcade ports.
+<text name="system_description" extra="true" lang="fr">
+<text>Adventure Vision est une console à cartouche commercialisée par Entex Industries en 1982. Le moniteur, les commandes du jeu et le matériel informatique sont tous contenus dans une seule unité portable. Le moniteur LED ne peut afficher que des pixels rouges. Quatre jeux sont sortis, qui sont tous des ports d'arcade.</text>
+</text>
 
-Adventure Vision was Entex's second-generation system following the Entex Select-A-Game, released a year earlier in 1981. </text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Adventure Vision ist eine Kassettenkonsole, die 1982 von Entex Industries auf den Markt gebracht wurde. Der Monitor, die Spielsteuerung und die Computerhardware sind alle in einer einzigen tragbaren Einheit enthalten. Der LED-Monitor kann nur rote Pixel anzeigen. Es wurden vier Spiele veröffentlicht, die alle Arcade-Ports sind.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Adventure Vision es una consola de videojuegos autocontenida (no necesita de un monitor externo) lanzado al mercado por la empresa Entex en 1982, siendo la sucesora de la Entex Select-A-Game. El Adventure Vision era una consola de segunda generación.
+<text name="system_description" extra="true" lang="es">
+<text>Adventure Vision es una consola basada en cartuchos lanzada por Entex Industries en 1982. El monitor, los controles del juego y el hardware del ordenador están contenidos en una única unidad portátil. El monitor LED sólo puede mostrar píxeles rojos. Se lanzaron cuatro juegos, todos ellos arcade.</text>
+</text>
 
-Una interesante característica del Adventure Vision era su "monitor", la consola usaba una línea de 40 LEDs rojos combinados con un espejo rotante localizado adentro de la máquina. Esto permitía una resolución de 150 x 40 píxeles.
-				</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Adventure Vision è una console a cartuccia rilasciata da Entex Industries nel 1982. Il monitor, i controlli di gioco e l'hardware del computer sono contenuti in un'unica unità portatile. Il monitor a LED può visualizzare solo pixel rossi. Sono stati rilasciati quattro giochi, tutti portati da sala giochi.</text>
+</text>
 
+<text name="system_description" extra="true" lang="ja">
+<text>アドベンチャービジョンは、1982年にエンテックス・インダストリアルから発売されたカートリッジ式ゲーム機です。モニター、ゲーム操作部、コンピュータのハードウェアが1つの携帯用ユニットに収められています。LEDモニターは赤色の画素しか表示できません。4本のゲームが発売されたが、いずれもアーケードの移植である。</text>
+</text>
 
+<text name="system_description" extra="true" lang="nl">
+<text>Adventure Vision is een console op basis van een cartridge die in 1982 door Entex Industries werd uitgebracht. De monitor, spelbesturing en computerhardware zitten allemaal in één draagbare eenheid. De LED-monitor kan alleen rode pixels weergeven. Er zijn vier spellen uitgebracht, allemaal arcadepoorten.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>Adventure Vision to konsola oparta na kartridżu wydana przez Entex Industries w 1982 roku. Monitor, elementy sterujące grą i sprzęt komputerowy znajdują się w jednym przenośnym urządzeniu. Monitor LED może wyświetlać tylko czerwone piksele. Wydano cztery gry, z których wszystkie są portami arcade.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Adventure Vision é uma consola baseada em cartuchos lançada pela Entex Industries em 1982. O monitor, os controlos do jogo e o hardware do computador estão todos contidos numa única unidade portátil. O monitor LED só pode exibir pixels vermelhos. Quatro jogos foram lançados, todos eles são portas de arcada.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Adventure Vision - это консоль на базе картриджа, выпущенная компанией Entex Industries в 1982 году. Монитор, игровые элементы управления и компьютерное оборудование находятся в одном портативном устройстве. Светодиодный монитор может отображать только красные пиксели. Было выпущено четыре игры, все они являются аркадными портами.</text>
+</text>
+
+</view>
 </theme>

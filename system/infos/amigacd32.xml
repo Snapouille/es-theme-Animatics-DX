@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The CD32 is a 32-bit console whose architecture is based on the Amiga 1200 computer. It was the first 32-bit console to be released in the West (the FM Towns Marty preceded it in Japan). It did not manage to break into the market despite the support of Amiga fans.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Amiga CD32 was a video game console, the first being a 32-bit CD-ROM sold in Western Europe and North America. It was released in September 1993, in Europe, Australia, Canada and Brazil.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La Amiga CD32 es la primera consola de videojuegos de 32 bits basada en CD-ROM vendida en Europa occidental y Norteamérica. Fue lanzada en septiembre de 1993, en Europa, Australia, Canadá y Brasil.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Amiga CD32 était une console de jeux vidéo, la première étant un CD-ROM 32 bits vendu en Europe occidentale et en Amérique du Nord. Il a été publié en septembre 1993 en Europe, en Australie, au Canada et au Brésil.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La CD32 est une console 32-bit dont l'architecture est basée sur l'ordinateur Amiga 1200. Il s'agit de la première 32-bit à voir le jour en Occident (la FM Towns Marty l'a précédée au Japon). Elle ne sera pas parvenue à percer sur le marché malgré le soutien des fans de la gamme Amiga.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Amiga CD32 foi um console de videogame, sendo o primeiro baseado CD-ROM de 32-bit vendido na Europa ocidental e na América do Norte.  Foi lançado em setembro de 1993, na Europa, Austrália, Canadá e Brasil.</text>
-		</text>
-		
-		
+<text name="system_description" extra="true" lang="de">
+<text>Der CD32 ist eine 32-Bit-Konsole, deren Architektur auf dem Computer Amiga 1200 basiert. Sie war die erste 32-Bit-Konsole, die im Westen auf den Markt kam (in Japan war die FM Towns Marty vor ihr erschienen). Trotz der Unterstützung durch die Fans der Amiga-Reihe gelang ihr der Durchbruch auf dem Markt nicht.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La CD32 es una consola de 32 bits cuya arquitectura se basa en el ordenador Amiga 1200. Fue la primera consola de 32 bits que salió a la venta en Occidente (la FM Towns Marty la precedió en Japón). No consiguió introducirse en el mercado a pesar del apoyo de los aficionados a Amiga.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il CD32 è una console a 32 bit la cui architettura è basata sul computer Amiga 1200. È stata la prima console a 32 bit a essere rilasciata in Occidente (la FM Towns Marty l'ha preceduta in Giappone). Non è riuscita a sfondare sul mercato nonostante il supporto dei fan di Amiga.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>CD32は、Amiga 1200コンピュータをベースとしたアーキテクチャを持つ32ビットゲーム機です。欧米で発売された最初の32ビットゲーム機です（日本ではFMタウンズマーティが先行して発売されました）。Amigaファンの支持を得たが、市場には定着しなかった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De CD32 is een 32-bit console waarvan de architectuur is gebaseerd op de Amiga 1200 computer. Het was de eerste 32-bit console die in het Westen werd uitgebracht (de FM Towns Marty ging hem voor in Japan). Ondanks de steun van Amiga-fans slaagde hij er niet in door te breken op de markt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>CD32 to 32-bitowa konsola, której architektura została oparta na komputerze Amiga 1200. Była to pierwsza 32-bitowa konsola wydana na Zachodzie (w Japonii poprzedzała ją FM Towns Marty). Nie udało jej się przebić na rynku mimo wsparcia fanów Amigi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O CD32 é uma consola de 32-bit cuja arquitectura é baseada no computador Amiga 1200. É a primeira consola de 32-bit a ser lançada no Ocidente (a FM Towns Marty precedeu-a no Japão). Não conseguiu penetrar no mercado apesar do apoio dos fãs do Amiga.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>CD32 - это 32-битная консоль, архитектура которой основана на компьютере Amiga 1200. Это была первая 32-битная консоль, выпущенная на Западе (в Японии ей предшествовала FM Towns Marty). Несмотря на поддержку фанатов Amiga, ей не удалось пробиться на рынок.</text>
+</text>
+
+</view>
 </theme>

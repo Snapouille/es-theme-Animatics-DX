@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<!-- Russian -->
+<variables lang="ru">
+
+<subset.region>Регион</subset.region>
+<europe>Европа</europe>
+<usa>США</usa>
+<japan>Япония</japan>
+<systemViewName>Вид системы</systemViewName>
+<systemBackgroundName>Справочная информация</systemBackgroundName>
+<systembackground.snap>Анимация аватара</systembackground.snap>
+<systembackground.carboncontrol>Проволочные рычаги</systembackground.carboncontrol>
+<systembackground.randomvideo>случайное видео</systembackground.randomvideo>
+<systembackground.randombox>Случайные игровые коробки</systembackground.randombox>
+<tilesViewName>Виньетки</tilesViewName>
+<iconsViewName>Иконки</iconsViewName>
+<detailedLogoViewName>Подробно со списком логотипов</detailedLogoViewName>
+<basicGridName>Коробки</basicGridName>
+<carouselViewName>Карусель из коробок</carouselViewName>
+<InfoCustomView>Новости / Статистика</InfoCustomView>
+<infoDetailed>Подробно</infoDetailed>
+<totalGamesInfos>Всего игр</totalGamesInfos>
+<subset.colorset>Цветовые схемы</subset.colorset>
+<none>Нет</none>
+<blue>Голубой</blue>
+<red>Красный</red>
+<green>Зеленый</green>
+<yellow>Желтый</yellow>
+<gray>Серый</gray>
+<roundBorderSubsetName>Закругленные края</roundBorderSubsetName>
+<blinkBorderSubsetName>Облицовочные кромки</blinkBorderSubsetName>
+<yes>да</yes>
+<no>не</no>
+<previewBarSubsetName>Панель обзора</previewBarSubsetName>
+<animationsSubsetName>Переходные анимации</animationsSubsetName>
+<helpSubsetName>Значки помощи</helpSubsetName>
+<colored>Цветной</colored>
+<subset.shader>ТВ эффекты</subset.shader>
+<glowSubsetName>Выбор в Halo</glowSubsetName>
+<systemViewExInfos>Улучшенная системная информация</systemViewExInfos>
+<dateFormat>%d/%m/%Y</dateFormat>
+<helpbuttons>Положение кнопок</helpbuttons>
+<gamecarouseltype>Источник изображения</gamecarouseltype>
+<gamelistFont>Какой шрифт?</gamelistFont>
+<gamelistFontSize>Каков размер шрифта?</gamelistFontSize>
+<gamelistLines>Сколько строк в геймлисте?</gamelistLines>
+<gameBar>Информационная панель игры</gameBar>
+<animatedInfobar>Анимация раздела обзора</animatedInfobar>
+<subset.logostyle>Стиль логотипа</subset.logostyle>
+<color>Цветной</color>
+<blackandwhite>Черное и белое</blackandwhite>
+<custom>Персонализированный</custom>
+<user.logo>Ваш логотип</user.logo>
+<user.username>Ваше прозвище</user.username>
+<system-description>Системные описания</system-description>
+<system-controllers>Имидж контролеров</system-controllers>
+<show>Посмотреть</show>
+<hide>Скрыть</hide>
+
+</variables>
+
+</theme>

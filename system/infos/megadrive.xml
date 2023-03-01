@@ -21,7 +21,7 @@ Compitió contra la SNES de Nintendo, como parte de las videoconsolas de cuarta 
 		</text>
 
 		<text name="system_description" extra="true" lang="fr" >
-			<text>La Mega Drive (メガドライブ, Mega Doraibu?), ou Genesis en Amérique du Nord, est une console de jeux vidéo de quatrième génération conçue et commercialisée par le constructeur japonais Sega Enterprises, Ltd. La Mega Drive est la troisième console de Sega, elle succède à la Master System.</text>
+			<text>La Mega Drive (メガドライブ, Mega Doraibu), ou Genesis en Amérique du Nord, est commercialisée par le constructeur japonais Sega Enterprises, Ltd. C'est la troisième console de Sega, elle succède à la Master System et rivalisera avec ferveur contre la SNES de Nintendo. Quoi qu'il arrive n'oublies jamais que Sega c'est plus fort que toi.</text>
 		</text>
 
 			    <text name="system_description" extra="true" lang="pt" >
@@ -33,12 +33,6 @@ Compitió contra la SNES de Nintendo, como parte de las videoconsolas de cuarta 
 		
 				
 
-		<text name="system_name" extra="true" >
-			<text>Mega Drive</text>
-		</text>
-		<text name="system_name" extra="true" region="us" >
-			<text>SEGA Genesis</text>
-		</text>
 		
 	</view>
 </theme>

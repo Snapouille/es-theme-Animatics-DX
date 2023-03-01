@@ -80,25 +80,30 @@ originally based on: "carbon"
   
   
   
-  <!-- Personalisation Utilisateurs-->
+<!-- Personalisation Utilisateurs-->
 	<include>./your-nickname.xml</include>
 	<include>./config/system/user-variables.xml</include>
-	
 	<!-- <include>./config/system/var-usernames.xml</include> -->
 	<!-- <include>./config/system/var-avatars.xml</include> -->
   
 
-  <!-- Language  -->
-  <include lang="fr">./config/lang/fr.xml</include>
-  <include lang="pt">./config/lang/pt.xml</include>
-  <include lang="es">./config/lang/es.xml</include>
+<!-- Language  -->
+	<include lang="de">./config/lang/de.xml</include>
+	<include lang="es">./config/lang/es.xml</include>
+	<include lang="fr">./config/lang/fr.xml</include>
+	<include lang="it">./config/lang/it.xml</include>
+	<include lang="ja">./config/lang/ja.xml</include>
+	<include lang="nl">./config/lang/nl.xml</include>
+	<include lang="pl">./config/lang/pl.xml</include>
+	<include lang="pt">./config/lang/pt.xml</include>
+	<include lang="ru">./config/lang/ru.xml</include>
   
-  <!-- Subset options for Regional Artwork and Logos -->
-	<subset name="artworkregion" displayName="${subset.region}">
-		<include name="EU" displayName="${europe}"/>
-		<include name="US" displayName="${usa}"/>
-		<include name="JP" displayName="${japan}"/>
-	</subset>
+<!-- Subset options for Regional Artwork and Logos -->
+<subset name="artworkregion" displayName="${subset.region}">
+	<include name="EU" displayName="${europe}"/>
+	<include name="US" displayName="${usa}"/>
+	<include name="JP" displayName="${japan}"/>
+</subset>
   
   
    <!-- Colorsets  -->

@@ -4,24 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The arduboy is an 8-bit portable game console based on the open source2 Arduino platform. It was initially a Kickstarter3 project by Kevin Bates that came to life in early 2015 and has secured over $400,000 with over 7,000 contributors. It embeds a 1.3-inch monochrome OLED display with a resolution of 128 x 64.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Arduboy is a handheld game console with open source software, based on the Arduino hardware platform. The original version of the Arduboy was 1.6 millimetres (0.063 in) thick, with the height and width of a credit card, and was initially designed as an electronic business card.
+<text name="system_description" extra="true" lang="fr">
+<text>L'arduboy est une console de jeu portable 8 bits basée sur la plateforme open source2 Arduino. C'est initialement un projet Kickstarter3 de Kevin Bates qui a vu le jour début 2015 et qui a obtenu plus de 400 000$ avec plus de 7 000 contributeurs. Il embarque un écran OLED monochrome de 1.3 pouces et de résolution de 128 x 64.</text>
+</text>
 
-Later consumer versions replaced the first version's touch-sensitive panels by physical buttons, and include a protective plastic case, raising the thickness to 5 millimetres (0.20 in). 
-			</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Arduboy ist eine tragbare 8-Bit-Spielkonsole, die auf der Open-Source-Plattform2 Arduino basiert. Er war ursprünglich ein Kickstarter3 -Projekt von Kevin Bates, das Anfang 2015 ins Leben gerufen wurde und mit über 7.000 Unterstützern mehr als 400.000 US-Dollar einbrachte. Es hat einen 1,3 Zoll großen monochromen OLED-Bildschirm mit einer Auflösung von 128 x 64.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Arduboy es una consola de juegos portátil con software de código abierto, basada en la plataforma de hardware Arduino. El desarrollo se financió mediante una campaña de Kickstarter en 2015. La versión original del Arduboy tenía 1,6 mm de grosor, la altura y el ancho de una tarjeta de crédito, y fue diseñada inicialmente como una tarjeta de presentación electrónica.
-					
-Las versiones de consumo posteriores reemplazaron los paneles sensibles al tacto de la primera versión por botones físicos e incluyen una caja protectora de plástico, lo que aumenta el grosor a 5 mm. </text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El arduboy es una videoconsola portátil de 8 bits basada en la plataforma de código abierto2 Arduino. Originalmente fue un proyecto de Kickstarter3 de Kevin Bates que cobró vida a principios de 2015 y ha recaudado más de 400.000 dólares con más de 7.000 contribuyentes. Incorpora una pantalla OLED monocroma de 1,3 pulgadas con una resolución de 128 x 64.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>L'arduboy è una console di gioco portatile a 8 bit basata sulla piattaforma open source2 Arduino. Originariamente era un progetto Kickstarter3 di Kevin Bates che ha preso vita all'inizio del 2015 e ha raccolto oltre 400.000 dollari con più di 7.000 collaboratori. Incorpora un display OLED monocromatico da 1,3 pollici con una risoluzione di 128 x 64.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>arduboyは、オープンソース2であるArduinoプラットフォームをベースとした8ビット携帯ゲーム機です。もともとはKevin BatesによるKickstarter3プロジェクトで、2015年初頭に実現し、7000人以上の貢献者を得て40万ドル以上の資金を調達しています。解像度128×64の1.3インチモノクロ有機ELディスプレイを埋め込んでいます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De arduboy is een 8-bit draagbare spelconsole gebaseerd op het open source2 Arduino platform. Het was aanvankelijk een Kickstarter-project3 van Kevin Bates dat begin 2015 tot leven kwam en meer dan 400.000 dollar opbracht met meer dan 7.000 bijdragers. Het bevat een 1,3-inch monochroom OLED-scherm met een resolutie van 128 x 64.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Arduboy to 8-bitowa przenośna konsola do gier oparta na platformie open source2 Arduino. Pierwotnie był to projekt Kickstarter3 autorstwa Kevina Batesa, który ożył na początku 2015 roku i zebrał ponad 400 000 dolarów dzięki ponad 7000 wpłat. Osadzono w niej 1,3-calowy monochromatyczny wyświetlacz OLED o rozdzielczości 128 x 64.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O arduboy é uma consola de jogos portátil de 8 bits baseada na plataforma Arduino open source2. Foi originalmente um projecto Kickstarter3 de Kevin Bates que ganhou vida no início de 2015 e angariou mais de $400.000 com mais de 7.000 contribuintes. Incorpora um ecrã OLED monocromático de 1,3 polegadas com uma resolução de 128 x 64.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>arduboy - это 8-битная портативная игровая консоль на базе платформы Arduino с открытым исходным кодом2. Первоначально это был проект Кевина Бейтса на Kickstarter3, который стартовал в начале 2015 года и собрал более 400 000 долларов при участии более 7 000 вкладчиков. В него встроен 1,3-дюймовый монохромный OLED-дисплей с разрешением 128 x 64.</text>
+</text>
+
+</view>
 </theme>

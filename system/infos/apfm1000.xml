@@ -4,25 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>The APF Microcomputer System is a second generation 8-bit cartridge-based home video game console released in October 1978 by APF Electronics Inc. with six cartridges. 
-					
-The console is often referred to M-1000 or MP-1000, which are the two model numbers of the console.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>El APF Microcomputer System es una consola de videojuegos de 8 bits basada en cartuchos de segunda generación lanzada en 1978 por APF Electronics Inc con seis cartuchos.
+<text name="system_description" extra="true">
+<text>The APF-MP1000 is a cartridge-based video game console. The two controllers are not detachable and include a joystick and a 12-button pad each. It comes with a built-in game, Rocket Patrol, and can only be used on a colour television.</text>
+</text>
 
-La consola a menudo se refiere a M-1000 o MP-1000, que son los dos números de modelo de la consola. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>L'APF-MP1000 est une console de jeux vidéo à cartouches. Les deux contrôleurs ne sont pas détachables, ils comprennent un joystick et un pavé de 12 boutons chacun. Livrée avec un jeu intégré, Rocket Patrol, elle peut être utilisée que sur une télévision couleur.</text>
+</text>
 
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der APF-MP1000 ist eine Videospielkonsole mit Kassetten. Die beiden Controller sind nicht abnehmbar und bestehen aus einem Joystick und einem Tastenfeld mit jeweils 12 Tasten. Sie wird mit dem integrierten Spiel Rocket Patrol geliefert und kann nur auf einem Farbfernseher verwendet werden.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La APF-MP1000 es una videoconsola basada en cartuchos. Los dos mandos no son desmontables e incluyen un joystick y un pad de 12 botones cada uno. Viene con un juego incorporado, Rocket Patrol, y sólo puede utilizarse en un televisor en color.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'APF-MP1000 è una console per videogiochi basata su cartucce. I due controller non sono staccabili e comprendono un joystick e un pad a 12 tasti ciascuno. Viene fornita con un gioco incorporato, Rocket Patrol, e può essere utilizzata solo su un televisore a colori.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>APF-MP1000は、カートリッジを使用したゲーム機です。2つのコントローラは着脱式ではなく、ジョイスティックと12ボタンパッドがそれぞれ1つずつ入っています。ゲーム「ロケットパトロール」が内蔵されており、カラーテレビでのみ使用できる。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De APF-MP1000 is een videospelconsole op basis van een cartridge. De twee controllers zijn niet afneembaar en bevatten elk een joystick en een pad met 12 knoppen. Hij wordt geleverd met een ingebouwd spel, Rocket Patrol, en kan alleen worden gebruikt op een kleurentelevisie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>APF-MP1000 to konsola do gier wideo oparta na kartridżach. Dwa kontrolery nie są odłączane i zawierają joystick oraz pad z 12 przyciskami każdy. Posiada wbudowaną grę Rocket Patrol i może być używana tylko na kolorowym telewizorze.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O APF-MP1000 é uma consola de videojogos baseada em cartuchos. Os dois controladores não são destacáveis e incluem um joystick e um bloco de 12 botões cada um. Vem com um jogo incorporado, Rocket Patrol, e só pode ser utilizado numa televisão a cores.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>APF-MP1000 - это игровая консоль на базе картриджа. Два контроллера не являются съемными и включают в себя джойстик и 12-кнопочную панель каждый. Она поставляется со встроенной игрой Rocket Patrol и может использоваться только с цветным телевизором.</text>
+</text>
+
+</view>
 </theme>

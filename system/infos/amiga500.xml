@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Amiga 500 is the first entry-level model in Commodore's Amiga family of personal computers. It was released in 1987, two years after the Amiga 1000, at the same time as the high-end Amiga 2000. It competed directly with the Atari 520ST. The Amiga 500+ released in 1991 is a slightly improved version.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Also known as the A600, is a home computer that was introduced at the CeBIT show in March 1992. The A600 is Commodore International's final model based on the Motorola 68000 CPU.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El Commodore Amiga 500 es un ordenador personal de la gama Commodore Amiga, que fue lanzado en 1987 destinado hacía el mercado doméstico y del videojuego. El precio inicial, sin monitor, en Estados Unidos fue de $595,95 dólares.
+<text name="system_description" extra="true" lang="fr">
+<text>L'Amiga 500 est le premier modèle d'entrée de gamme de la famille d'ordinateurs personnels Amiga de Commodore. Il sort en 1987, deux ans après l'Amiga 1000, en même temps que le modèle haut de gamme Amiga 2000. Il est en concurrence directe avec l'Atari 520ST. L'Amiga 500+ sortie en 1991 en est une version légèrement améliorée.</text>
+</text>
 
-Ha sido el modelo de la gama con mayores ventas, con un éxito remarcable en Europa, donde dominó el mercado del videojuego para ordenadores, rivalizando con las videoconsolas Sega Megadrive y Super Nintendo. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>A600, aussi nommé Amiga 600, fut le dernier ordinateur de la lignée des A500. L'A600 utilisait le processeur Motorola 68000, cadencé à 7,09 MHz (PAL) ou 7,16 MHz (NTSC).</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Amiga 500 ist das erste Einstiegsmodell der Amiga-Personalcomputerfamilie von Commodore. Er kam 1987, zwei Jahre nach dem Amiga 1000, zusammen mit dem Spitzenmodell Amiga 2000 auf den Markt. Er stand in direkter Konkurrenz zum Atari 520ST. Der 1991 veröffentlichte Amiga 500+ ist eine leicht verbesserte Version des Amiga.</text>
+</text>
 
-						<text name="system_description" extra="true" lang="pt">
-			<text>Commodore Amiga é uma família de computadores de 16/32 bits fabricados pela empresa canadense Commodore Business Machines nos anos 80 e 90. Ficaram famosos pelos recursos muito a frente dos rivais IBM-PC.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El Amiga 500 es el primer modelo básico de la familia Amiga de ordenadores personales de Commodore. Salió a la venta en 1987, dos años después del Amiga 1000, al mismo tiempo que el Amiga 2000 de gama alta. Compitió directamente con el Atari 520ST. El Amiga 500+ lanzado en 1991 es una versión ligeramente mejorada.</text>
+</text>
 
-				
-		
-		
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>L'Amiga 500 è il primo modello entry-level della famiglia di personal computer Amiga di Commodore. È stato rilasciato nel 1987, due anni dopo l'Amiga 1000, contemporaneamente all'Amiga 2000 di fascia alta. Era in concorrenza diretta con l'Atari 520ST. L'Amiga 500+ rilasciato nel 1991 è una versione leggermente migliorata.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Amiga 500は、コモドール社のパーソナルコンピュータ「Amiga」シリーズの最初のエントリーモデルです。Amiga 1000から2年後の1987年に、ハイエンドのAmiga 2000と同時に発売された。アタリ520STと直接競合していた。1991年に発売されたAmiga500+は、若干の改良が加えられたバージョンである。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Amiga 500 was het eerste instapmodel in Commodore's Amiga familie van personal computers. Het werd uitgebracht in 1987, twee jaar na de Amiga 1000, tegelijk met de high-end Amiga 2000. Het concurreerde rechtstreeks met de Atari 520ST. De Amiga 500+ uitgebracht in 1991 is een licht verbeterde versie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Amiga 500 to pierwszy podstawowy model w rodzinie komputerów osobistych Amiga firmy Commodore. Została wydana w 1987 roku, dwa lata po Amidze 1000, w tym samym czasie co high-endowa Amiga 2000. Konkurowała bezpośrednio z Atari 520ST. Amiga 500+ wydana w 1991 roku to nieco ulepszona wersja.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Amiga 500 é o primeiro modelo de nível básico na família de computadores pessoais Amiga da Commodore. Foi lançado em 1987, dois anos após o Amiga 1000, ao mesmo tempo que o Amiga 2000 de gama alta. Competiu directamente com o Atari 520ST. O Amiga 500+, lançado em 1991, é uma versão ligeiramente melhorada.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Amiga 500 - это первая модель начального уровня в семействе персональных компьютеров Amiga компании Commodore. Она была выпущена в 1987 году, через два года после Amiga 1000, одновременно с высококлассной Amiga 2000. Она напрямую конкурировала с Atari 520ST. Amiga 500+, выпущенная в 1991 году, является немного улучшенной версией.</text>
+</text>
+
+</view>
 </theme>

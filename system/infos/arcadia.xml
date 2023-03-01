@@ -4,24 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>The Arcadia 2001 is a second-generation 8-bit home video game console released by Emerson Radio in May 1982 for a price of US$ 99, several months before the release of ColecoVision. It was discontinued only 18 months later, with a total of 35 games having been released. Emerson licensed the Arcadia 2001 to Bandai, which released it in Japan. Over 30 Arcadia 2001 clones exist.
+<text name="system_description" extra="true">
+<text>The Home Arcade created by Bandai is the French version of the American console Arcadia 2001 from Emerson Radio Corp. The competitors of this console are the Atari 5200 and the Intellivision.</text>
+</text>
 
-The unrelated Arcadia Corporation, manufacturer of the Atari 2600 Supercharger add-on, was sued by Emerson for trademark infringement. Arcadia Corporation then changed its name to Starpath. </text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>Arcadia 2001 es una consola de 8 bits de segunda generación lanzada por Emerson Radio en 1982 tras el lanzamiento de ColecoVision. Fue retirada solo 18 meses después, habiéndose lanzado un total de 35 juegos. Emerson licenció el Arcadia 2001 a Bandai, que lo lanzó en Japón. Existen más de 30 clones de Arcadia 2001.
+<text name="system_description" extra="true" lang="fr">
+<text>La Home Arcade créée par Bandai est la version française de la console américaine Arcadia 2001 d'Emerson Radio Corp. Les concurrentes de cette console sont l'Atari 5200 et l'Intellivision.</text>
+</text>
 
-Una empresa no relacionada con Arcadia Corporation, fabricante del complemento Atari 2600 Supercharger fue demandada por Emerson por infracción de marca registrada. Arcadia Corporation luego cambió su nombre a Starpath. </text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Die von Bandai entworfene Home Arcade ist die französische Version der amerikanischen Konsole Arcadia 2001 von Emerson Radio Corp. Die Konkurrenten dieser Konsole sind der Atari 5200 und das Intellivision.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Home Arcade creada por Bandai es la versión francesa de la consola americana Arcadia 2001 de Emerson Radio Corp. Los competidores de esta consola son la Atari 5200 y la Intellivision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'Home Arcade creato da Bandai è la versione francese della console americana Arcadia 2001 di Emerson Radio Corp. I concorrenti di questa console sono l'Atari 5200 e l'Intellivision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>バンダイが制作したホームアーケードは、アメリカのエマーソンラジオ社のゲーム機「Arcadia 2001」のフランス版である。このゲーム機のライバルは、アタリ5200とインテリビジョンです。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Home Arcade van Bandai is de Franse versie van de Amerikaanse console Arcadia 2001 van Emerson Radio Corp. De concurrenten van deze console zijn de Atari 5200 en de Intellivision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Home Arcade stworzony przez Bandai jest francuską wersją amerykańskiej konsoli Arcadia 2001 firmy Emerson Radio Corp. Konkurentami tej konsoli są Atari 5200 oraz Intellivision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Home Arcade criado pela Bandai é a versão francesa da consola americana Arcadia 2001 da Emerson Radio Corp. Os concorrentes desta consola são a Atari 5200 e a Intellivision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Домашняя аркада, созданная компанией Bandai, является французской версией американской консоли Arcadia 2001 от Emerson Radio Corp. Конкурентами этой консоли являются Atari 5200 и Intellivision.</text>
+</text>
+
+</view>
 </theme>

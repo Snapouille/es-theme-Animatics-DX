@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-
-		
-				<text name="system_description" extra="true" >
-			<text>Arcade is an electronic gaming device installed in entertainment establishments. It consists of an enclosure, CRT or monitor, power supply, game controller (s) and game system.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es" >
-			<text>Una lista con todos los juegos arcade.
-
-Arcade es el término genérico de las máquinas recreativas de videojuegos disponibles en lugares públicos de diversión, bares, o salones recreativos especializados. Posteriormente el término se empleó para nombrar a los salones dedicados a las máquinas recreativas y, con el tiempo, a estas últimas y a los juegos en sí mismos.
+<text name="system_description" extra="true">
+<text>The Arcade stands for electronic gaming machines that are subject to a fee. The origin of the name comes from the places where these terminals were often installed, under the arcades in order to make the space more profitable. By extension in the English-speaking world, an arcade refers to the entire public place, whether or not it has arcades. In French, the term "salle d'arcade" is used.</text>
 </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Arcade est un appareil de jeu électronique installé dans les établissements de divertissement. Il comprend un boîtier, un tube cathodique ou un moniteur, une alimentation, des contrôleurs de jeu et un système de jeu.</text>
-		</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Arcade é um aparelho de jogo eletrônico instalado em estabelecimentos de entretenimento. Compõe-se de um gabinete, tubo de imagem (CRT) ou monitor, fonte de alimentação, controle(s) de jogo e sistema de jogo.</text>
-		</text>
-		
-						
+<text name="system_description" extra="true" lang="fr">
+<text>L'Arcade représente des appareils de jeu électronique payant. L'origine du nom provient des lieux où ces bornes étaient souvent installées, sous les arcades afin de rentabiliser l'espace. Par extension dans le monde anglophone, une arcade désigne le lieu public en entier, qu'il comporte ou non des arcades. En français, on utilise le terme « salle d'arcade ».</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Arcade steht für gebührenpflichtige elektronische Spielgeräte. Der Ursprung des Namens stammt von den Orten, an denen diese Automaten häufig aufgestellt wurden, nämlich unter Arkaden, um den Platz gewinnbringend zu nutzen. Durch Erweiterung in der englischsprachigen Welt bezeichnet eine Arcade den gesamten öffentlichen Ort, unabhängig davon, ob er Arkaden hat oder nicht. Im Französischen wird der Begriff "salle d'arcade" (Spielhalle) verwendet.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Arcade significa máquinas recreativas electrónicas de pago. El origen del nombre proviene de los lugares donde a menudo se instalaban estos terminales, debajo de los salones recreativos para rentabilizar el espacio. Por extensión en el mundo anglosajón, un arcade se refiere a todo el lugar público, tenga o no máquinas recreativas. En francés, se utiliza el término "salle d'arcade".</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'acronimo Arcade indica le macchine da gioco elettroniche a pagamento. L'origine del nome deriva dai luoghi in cui questi terminali venivano spesso installati, sotto i portici, per rendere lo spazio più redditizio. Per estensione, nel mondo anglosassone, una sala giochi si riferisce all'intero locale pubblico, dotato o meno di sale giochi. In francese si usa il termine "salle d'arcade".</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>アーケードは、使用料が発生する電子ゲーム機の略です。名前の由来は、この端末がよく設置されていた場所、つまりアーケードの下に、その空間をより収益性の高いものにするために設置されていたことによる。英語圏での延長で、アーケードは、アーケードの有無にかかわらず、公共の場全体を指す。フランス語では「salle d'arcade（サル・ダーケード）」という。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Arcade staat voor elektronische speelautomaten waarvoor betaald moet worden. De oorsprong van de naam komt van de plaatsen waar deze terminals vaak werden geïnstalleerd, onder de arcades om de ruimte winstgevender te maken. Bij uitbreiding in de Engelstalige wereld verwijst een arcade naar de hele openbare plaats, of er nu arcades zijn of niet. In het Frans wordt de term "salle d'arcade" gebruikt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Arcade oznacza elektroniczne automaty do gier, które pobierają opłaty za ich użytkowanie. Pochodzenie nazwy pochodzi od miejsc, w których często instalowano te terminale, pod arkadami, aby przestrzeń była bardziej dochodowa. Przez rozszerzenie w świecie anglojęzycznym, arcade odnosi się do całego miejsca publicznego, niezależnie od tego, czy posiada ono arkady, czy nie. W języku francuskim używa się określenia "salle d'arcade".</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Arcade significa máquinas de jogos electrónicos que estão sujeitas a uma taxa. A origem do nome provém dos locais onde estes terminais foram frequentemente instalados, sob as arcadas, a fim de tornar o espaço mais rentável. Por extensão, no mundo anglófono, uma arcada refere-se a todo o local público, quer tenha ou não arcadas. Em francês, o termo "salle d'arcade" é utilizado.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Аркада обозначает электронные игровые автоматы, за использование которых взимается плата. Происхождение названия происходит от мест, где эти терминалы часто устанавливались, под аркадами, чтобы сделать это место более прибыльным. В англоязычном мире под аркадой понимается все общественное место, независимо от того, есть в нем игровые автоматы или нет. Во французском языке используется термин "salle d'arcade".</text>
+</text>
+
+</view>
 </theme>

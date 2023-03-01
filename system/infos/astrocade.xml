@@ -4,19 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Astrocade is a video game console designed by a team at Midway, then the video game division of Bally Manufacturing. The device was marketed from 1977 and for a limited period before Bally decided to leave the market. The rights were then taken over by a third party company, which re-released the console for sale until 1983. The Astrocade was noted for its very powerful graphics capabilities at the time of its release, but also for the difficulty of accessing those same capabilities.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Bally Astrocade is a second-generation home video game console and simple computer system designed by a team at Midway, at that time the videogame division of Bally. It was originally announced as the "Bally Home Library Computer" in October 1977 and initially made available for mail order in December 1977.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>L'Astrocade est une console de jeux vidéo conçue par une équipe de chez Midway, alors division jeu vidéo de Bally Manufacturing. L'appareil a été commercialisé à partir de 1977 et durant une période limitée avant que Bally ne décide de quitter le marché. Les droits ont ensuite été repris par une société tierce, qui a réédité la console pour la vendre jusqu'en 1983. L'Astrocade a été remarquée pour ses capacités graphiques très puissantes à sa sortie, mais aussi pour la difficulté d'accès à ces mêmes capacités.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>La Bally Astrocade fue una videoconsola de segunda generación y un sencillo sistema de ordenador que se lanzó al mercado en 1978. Fue diseñada por un equipo de la Midway Games, en aquel momento la división de videojuegos de la Bally Manufactoring.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die Astrocade ist eine Videospielkonsole, die von einem Team bei Midway, der damaligen Videospielsparte von Bally Manufacturing, entwickelt wurde. Das Gerät wurde ab 1977 für einen begrenzten Zeitraum vermarktet, bevor Bally beschloss, den Markt zu verlassen. Die Rechte wurden dann von einem Drittunternehmen übernommen, das die Konsole neu auflegte und bis 1983 verkaufte. Die Astrocade fiel bei ihrer Veröffentlichung durch ihre sehr leistungsfähigen Grafikfähigkeiten auf, aber auch durch die Schwierigkeit, auf dieselben Fähigkeiten zuzugreifen.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>La Astrocade es una videoconsola diseñada por un equipo de Midway, entonces la división de videojuegos de Bally Manufacturing. El aparato se comercializó a partir de 1977 y durante un periodo limitado antes de que Bally decidiera abandonar el mercado. Los derechos pasaron entonces a manos de una tercera empresa, que volvió a poner a la venta la consola hasta 1983. La Astrocade destacó por sus potentísimas capacidades gráficas en el momento de su lanzamiento, pero también por la dificultad de acceder a esas mismas capacidades.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>L'Astrocade è una console per videogiochi progettata da un team di Midway, l'allora divisione videogiochi di Bally Manufacturing. Il dispositivo fu commercializzato a partire dal 1977 e per un periodo limitato prima che Bally decidesse di abbandonare il mercato. I diritti vennero quindi acquisiti da una società terza, che rimise in vendita la console fino al 1983. L'Astrocade è stato notato per le sue capacità grafiche molto potenti all'epoca della sua uscita, ma anche per la difficoltà di accesso a queste stesse capacità.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>アストロケードは、当時Bally Manufacturing社のビデオゲーム部門であったMidway社のチームによって設計されたビデオゲーム機である。この装置は1977年から販売され、Bally社が市場から撤退することを決定するまでの限られた期間だけ販売されました。その後、サードパーティーの会社が権利を引き継ぎ、1983年までゲーム機を再販して販売した。アストロケードは、発売当時、非常に強力なグラフィック性能を持つ一方で、その性能にアクセスすることが困難であったことが指摘されている。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Astrocade is een videospelconsole ontworpen door een team van Midway, destijds de videospeldivisie van Bally Manufacturing. Het apparaat werd vanaf 1977 en gedurende een beperkte periode op de markt gebracht voordat Bally besloot de markt te verlaten. De rechten werden toen overgenomen door een derde bedrijf, dat de console opnieuw op de markt bracht tot 1983. De Astrocade stond bekend om zijn zeer krachtige grafische mogelijkheden ten tijde van zijn uitgave, maar ook om de moeilijke toegang tot diezelfde mogelijkheden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Astrocade to konsola do gier wideo zaprojektowana przez zespół w Midway, ówczesnym oddziale gier wideo Bally Manufacturing. Urządzenie było sprzedawane od 1977 roku i przez ograniczony okres, zanim Bally zdecydowało się opuścić rynek. Prawa zostały następnie przejęte przez firmę zewnętrzną, która ponownie wydała konsolę do sprzedaży do 1983 roku. Astrocade był zauważany ze względu na bardzo potężne możliwości graficzne w momencie premiery, ale także ze względu na trudności w dostępie do tychże możliwości.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Astrocade é uma consola de jogos de vídeo concebida por uma equipa da Midway, depois a divisão de jogos de vídeo da Bally Manufacturing. O dispositivo foi comercializado a partir de 1977 e durante um período limitado antes de Bally decidir abandonar o mercado. Os direitos foram então assumidos por uma empresa terceira, que relançou a consola para venda até 1983. A Astrocade foi notada pelas suas capacidades gráficas muito poderosas na altura do seu lançamento, mas também pela dificuldade de acesso a essas mesmas capacidades.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Astrocade - это игровая консоль, разработанная командой Midway, тогдашнего подразделения видеоигр компании Bally Manufacturing. Приставка продавалась с 1977 года и в течение ограниченного периода времени, пока Bally не решила уйти с рынка. После этого права перешли к сторонней компании, которая перевыпускала консоль в продажу до 1983 года. Astrocade была отмечена очень мощными графическими возможностями на момент ее выпуска, но также и сложностью доступа к этим возможностям.</text>
+</text>
+
+</view>
 </theme>

@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>With a move to 16-bit, the Apple 2 GS could display thousands of colours on screen simultaneously, also having a sound card that could play up to 15 sounds at once. However, either due to a lack of publicity or because the public was now more interested in the Macintosh and the IBM PC, its sales never took off.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Is an 8-bit home computer, one of the first highly successful mass-produced microcomputer products. It was introduced in 1977 by Jobs and was the first consumer product sold by Apple Computer, Inc.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Apple II fue la primera serie de microcomputadoras de producción masiva hecha por la empresa Apple Computer. El Apple II tenía una arquitectura de 8 bits basada en el procesador 6502.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Apple II (parfois orthographié Apple ][ ou Apple //) est l'un des premiers ordinateurs personnels au monde fabriqué à grande échelle1. Conçu par Steve Wozniak, commercialisé le 10 juin 1977 par Apple.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Avec un passage à l'air du 16 bits, l'apple 2 GS pouvait afficher simultanément des milliers de couleurs à l'écran, disposant également d'une carte son pouvant jouer jusqu'à 15 sons à la fois. Cependant, soit par manque de publicité, soit parce que le public s'intéressait maintenant davantage au Macintosh et à l'IBM PC, ses ventes n'ont jamais décollé.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Foi um modelo de computador fabricado pela Apple Inc. no final da década de 70. O primeiro Apple II era equipado com um processador MOS Technology 6502 com um clock de 1 MHz e 4 kB de memória RAM.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Mit der Umstellung auf 16-Bit konnte der Apple 2 GS Tausende von Farben gleichzeitig auf dem Bildschirm darstellen und verfügte über eine Soundkarte, die bis zu 15 Töne gleichzeitig abspielen konnte. Doch entweder aufgrund mangelnder Werbung oder weil sich die Öffentlichkeit nun mehr für den Macintosh und den IBM PC interessierte, kamen die Verkaufszahlen nie in Schwung.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Con el paso a los 16 bits, el Apple 2 GS podía mostrar miles de colores en pantalla simultáneamente, disponiendo además de una tarjeta de sonido que podía reproducir hasta 15 sonidos a la vez. Sin embargo, ya fuera por falta de publicidad o porque el público estaba ahora más interesado en el Macintosh y el IBM PC, sus ventas nunca despegaron.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Con il passaggio a 16 bit, l'Apple 2 GS poteva visualizzare contemporaneamente migliaia di colori sullo schermo e disponeva di una scheda audio in grado di riprodurre fino a 15 suoni contemporaneamente. Tuttavia, sia per mancanza di pubblicità sia perché il pubblico era ormai più interessato al Macintosh e al PC IBM, le sue vendite non decollarono mai.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>16ビットに移行したApple 2 GSは、画面に何千色もの色を同時に表示でき、同時に15音まで再生できるサウンドカードも備えていた。しかし、宣伝不足のためか、世間の関心がMacintoshやIBM PCに向いていたためか、売れ行きは伸びなかった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Met een overgang naar 16-bit kon de Apple 2 GS duizenden kleuren tegelijk op het scherm weergeven en had het een geluidskaart die tot 15 geluiden tegelijk kon afspelen. Maar door een gebrek aan publiciteit of omdat het publiek nu meer geïnteresseerd was in de Macintosh en de IBM PC, kwam de verkoop nooit van de grond.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Dzięki przejściu na 16 bitów, Apple 2 GS mógł wyświetlać na ekranie tysiące kolorów jednocześnie, posiadał również kartę dźwiękową, która mogła odtwarzać do 15 dźwięków jednocześnie. Jednakże, albo z powodu braku rozgłosu, albo dlatego, że społeczeństwo było teraz bardziej zainteresowane Macintoshem i IBM PC, jego sprzedaż nigdy nie wzrosła.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Com uma mudança para 16 bits, o Apple 2 GS poderia exibir milhares de cores no ecrã simultaneamente, tendo também uma placa de som que poderia reproduzir até 15 sons ao mesmo tempo. No entanto, ou por falta de publicidade ou porque o público estava agora mais interessado no Macintosh e no PC da IBM, as suas vendas nunca decolaram.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Благодаря переходу на 16-битный формат Apple 2 GS мог одновременно отображать на экране тысячи цветов, а также имел звуковую карту, способную воспроизводить до 15 звуков одновременно. Однако то ли из-за недостатка рекламы, то ли потому, что общественность теперь больше интересовалась Macintosh и IBM PC, его продажи так и не взлетели.</text>
+</text>
+
+</view>
 </theme>

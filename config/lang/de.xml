@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<!-- German -->
+<variables lang="de">
+
+<subset.region>Region</subset.region>
+<europe>Europa</europe>
+<usa>USA</usa>
+<japan>Japan</japan>
+<systemViewName>Systemansicht</systemViewName>
+<systemBackgroundName>Hintergrund</systemBackgroundName>
+<systembackground.snap>Avatar-Animation</systembackground.snap>
+<systembackground.carboncontrol>Drahtgriffe</systembackground.carboncontrol>
+<systembackground.randomvideo>Zufallsvideo</systembackground.randomvideo>
+<systembackground.randombox>Zufällige Spielboxen</systembackground.randombox>
+<tilesViewName>Vignetten</tilesViewName>
+<iconsViewName>Icons</iconsViewName>
+<detailedLogoViewName>Detailliert mit Logoliste</detailedLogoViewName>
+<basicGridName>Boxen</basicGridName>
+<carouselViewName>Karussell der Schachteln</carouselViewName>
+<InfoCustomView>Infos / Statistiken</InfoCustomView>
+<infoDetailed>Detailliert</infoDetailed>
+<totalGamesInfos>Spiele insgesamt</totalGamesInfos>
+<subset.colorset>Farbspiele</subset.colorset>
+<none>Keine</none>
+<blue>Blau</blue>
+<red>Rot</red>
+<green>Grün</green>
+<yellow>Gelb</yellow>
+<gray>Grau</gray>
+<roundBorderSubsetName>Abgerundete Kanten</roundBorderSubsetName>
+<blinkBorderSubsetName>Blinkende Ränder</blinkBorderSubsetName>
+<yes>ja</yes>
+<no>nicht</no>
+<previewBarSubsetName>Klappe Vorschau</previewBarSubsetName>
+<animationsSubsetName>Übergangsanimationen</animationsSubsetName>
+<helpSubsetName>Hilfe-Symbole</helpSubsetName>
+<colored>Farbig</colored>
+<subset.shader>TV-Effekte</subset.shader>
+<glowSubsetName>Auswahl in Halo</glowSubsetName>
+<systemViewExInfos>Verbesserte Systeminformationen</systemViewExInfos>
+<dateFormat>%d/%m/%Y</dateFormat>
+<helpbuttons>Position der Tasten</helpbuttons>
+<gamecarouseltype>Quellbild</gamecarouseltype>
+<gamelistFont>Welche Schriftart?</gamelistFont>
+<gamelistFontSize>Wie groß ist die Schriftgröße?</gamelistFontSize>
+<gamelistLines>Wie viele Zeilen in der Gameliste?</gamelistLines>
+<gameBar>Informationsleiste der Spiele</gameBar>
+<animatedInfobar>Animation des Überblicks</animatedInfobar>
+<subset.logostyle>Stil der Logos</subset.logostyle>
+<color>Farbig</color>
+<blackandwhite>Schwarz und Weiß</blackandwhite>
+<custom>Persönlich</custom>
+<user.logo>Ihr Logo</user.logo>
+<user.username>Ihr Spitzname</user.username>
+<system-description>Systembeschreibungen</system-description>
+<system-controllers>Bild von Controllern</system-controllers>
+<show>Anzeigen</show>
+<hide>Ausblenden</hide>
+
+</variables>
+
+</theme>

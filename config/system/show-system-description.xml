@@ -1,7 +1,7 @@
 <theme>
      <formatVersion>7</formatVersion>
      <view name="system">
-          <text name="system_description" ifSubset="SystemView:vertical" extra="true">
+          <text name="system_description" ifSubset="SystemView:vertical || SystemView:wheel">
                <alignment>right</alignment>
                <verticalAlignment>top</verticalAlignment>
                <color>FFFFFF</color>

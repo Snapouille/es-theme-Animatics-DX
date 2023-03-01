@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Amiga 1200 was Commodore's third generation Amiga microcomputer, aimed at the home market. Like its predecessors it was designed as an "all-in-one" system, incorporating processors, keyboard and floppy drive in a single unit. It was sold with the Amiga graphics chipset (AGA) and AmigaOS 3.0.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Is Commodore International's third-generation Amiga computer, aimed at the home computer market. It was launched on October 21, 1992, at a base price of £399 in the United Kingdom.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>A1200 utiliza una CPU CISC Motorola MC68EC020. Es notorio que como el 68000, el 68EC020 tiene un bus de expansión de 24-bits, lo que limita a un máximo de 16 Megabytes la memoria direccionable directamente.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Amiga 1200, ou A1200, était l'ordinateur Amiga de troisième génération de Commodore International, destiné au marché familial. il sortit en octobre 1992, au prix de 399 £ au Royaume-Uni et 599 $ aux États-Unis.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>L'Amiga 1200 était le micro-ordinateur Amiga de troisième génération de Commodore, destiné au marché familial. Comme ses prédécesseurs il était conçu comme un « tout en un », incorporant processeurs, clavier et lecteur de disquettes dans une seule unité. Il était vendu avec le chipset graphique Amiga (AGA) et l'AmigaOS 3.0.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Commodore Amiga é uma família de computadores de 16/32 bits fabricados pela empresa canadense Commodore Business Machines nos anos 80 e 90. Ficaram famosos pelos recursos muito a frente dos rivais IBM-PC.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Amiga 1200 war der Amiga-Mikrocomputer der dritten Generation von Commodore, der für den Familienmarkt bestimmt war. Wie seine Vorgänger war er als All-in-One-Gerät konzipiert, das Prozessoren, Tastatur und Diskettenlaufwerk in einem Gerät vereinte. Er wurde mit dem Amiga-Grafikchipsatz (AGA) und AmigaOS 3.0 verkauft.</text>
+</text>
 
-				
-		
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El Amiga 1200 fue la tercera generación del microordenador Amiga de Commodore, destinado al mercado doméstico. Al igual que sus predecesores, fue diseñado como un sistema "todo en uno", incorporando procesadores, teclado y disquetera en una sola unidad. Se vendía con el chipset gráfico Amiga (AGA) y AmigaOS 3.0.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'Amiga 1200 è stato il microcomputer Amiga di terza generazione di Commodore, destinato al mercato domestico. Come i suoi predecessori, è stato progettato come sistema "all-in-one", incorporando processore, tastiera e unità floppy in un'unica unità. Veniva venduto con il chipset grafico Amiga (AGA) e con AmigaOS 3.0.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Amiga 1200は、コモドール社の家庭用マイクロコンピュータAmigaの第3世代である。先代同様、プロセッサー、キーボード、フロッピーディスクドライブを一体化した「オールインワン」システムとして設計されていた。Amigaグラフィックチップセット(AGA)とAmigaOS 3.0を搭載して販売されました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Amiga 1200 was Commodore's derde generatie Amiga microcomputer, gericht op de thuismarkt. Net als zijn voorgangers was het ontworpen als een "alles-in-één" systeem, met processors, toetsenbord en floppy drive in één apparaat. Het werd verkocht met de Amiga grafische chipset (AGA) en AmigaOS 3.0.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Amiga 1200 była trzecią generacją mikrokomputera Amiga firmy Commodore, skierowaną na rynek domowy. Podobnie jak jego poprzednicy, został zaprojektowany jako system "all-in-one", zawierający procesor, klawiaturę i stację dyskietek w jednym urządzeniu. Sprzedawany był z chipsetem graficznym Amiga (AGA) i systemem AmigaOS 3.0.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Amiga 1200 foi o microcomputador Amiga de terceira geração da Commodore, destinado ao mercado doméstico. Tal como os seus predecessores, foi concebido como um sistema "tudo em um", incorporando processadores, teclado e drive de disquetes numa única unidade. Foi vendido com o chipset gráfico Amiga (AGA) e AmigaOS 3.0.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Amiga 1200 был микрокомпьютером Amiga третьего поколения компании Commodore, ориентированным на семейный рынок. Как и его предшественники, он был разработан как система "все-в-одном", включающая процессор, клавиатуру и флоппи-дисковод в одном устройстве. Он продавался с графическим чипсетом Amiga (AGA) и операционной системой AmigaOS 3.0.</text>
+</text>
+
+</view>
 </theme>

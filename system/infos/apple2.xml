@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Apple II has a special place in the history of computing. It was the first successful personal computer to be produced on a large scale. Personal computers, then confined to the garages of enthusiasts, became available to millions of homes and small businesses, mainly in the United States.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Is an 8-bit home computer, one of the first highly successful mass-produced microcomputer products. It was introduced in 1977 by Jobs and was the first consumer product sold by Apple Computer, Inc.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Apple II fue la primera serie de microcomputadoras de producción masiva hecha por la empresa Apple Computer. El Apple II tenía una arquitectura de 8 bits basada en el procesador 6502.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Apple II (parfois orthographié Apple ][ ou Apple //) est l'un des premiers ordinateurs personnels au monde fabriqué à grande échelle1. Conçu par Steve Wozniak, commercialisé le 10 juin 1977 par Apple.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>L'Apple II occupe une place particulière dans l'histoire de l'informatique. Il est le premier ordinateur personnel à rencontrer le succès et produit à grande échelle. Les ordinateurs personnels, alors cantonnés dans les garages de passionnés, sont devenus accessibles à des millions de foyers et aux petites entreprises, principalement aux Etats-Unis.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Foi um modelo de computador fabricado pela Apple Inc. no final da década de 70. O primeiro Apple II era equipado com um processador MOS Technology 6502 com um clock de 1 MHz e 4 kB de memória RAM.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der Apple II nimmt einen besonderen Platz in der Geschichte der Computer ein. Er war der erste erfolgreiche Personal Computer, der in großem Umfang produziert wurde. Computer, die bis dahin nur in den Garagen von Enthusiasten zu finden waren, wurden für Millionen von Haushalten und kleinen Unternehmen, vor allem in den USA, erschwinglich.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El Apple II ocupa un lugar especial en la historia de la informática. Fue el primer ordenador personal fabricado con éxito a gran escala. Los ordenadores personales, entonces confinados a los garajes de los entusiastas, pasaron a estar al alcance de millones de hogares y pequeñas empresas, principalmente en Estados Unidos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'Apple II occupa un posto speciale nella storia dell'informatica. È stato il primo personal computer di successo a essere prodotto su larga scala. I personal computer, allora confinati nei garage degli appassionati, divennero disponibili per milioni di case e piccole imprese, soprattutto negli Stati Uniti.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Apple IIは、コンピュータの歴史の中で特別な位置を占めている。Apple IIは、大規模な生産に成功した最初のパーソナルコンピュータである。当時は愛好家のガレージにしかなかったパソコンが、アメリカを中心に何百万という家庭や中小企業で利用されるようになったのだ。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Apple II heeft een bijzondere plaats in de geschiedenis van de computerwereld. Het was de eerste succesvolle personal computer die op grote schaal werd geproduceerd. Personal computers, toen nog beperkt tot de garages van liefhebbers, werden beschikbaar voor miljoenen huishoudens en kleine bedrijven, voornamelijk in de Verenigde Staten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Apple II zajmuje szczególne miejsce w historii informatyki. Był to pierwszy udany komputer osobisty produkowany na dużą skalę. Komputery osobiste, wówczas ograniczone do garaży entuzjastów, stały się dostępne dla milionów domów i małych firm, głównie w Stanach Zjednoczonych.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Apple II tem um lugar especial na história da informática. Foi o primeiro computador pessoal de sucesso a ser produzido em grande escala. Os computadores pessoais, então confinados às garagens dos entusiastas, tornaram-se disponíveis para milhões de lares e pequenas empresas, principalmente nos Estados Unidos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Apple II занимает особое место в истории вычислительной техники. Это был первый успешный персональный компьютер, выпускавшийся в больших масштабах. Персональные компьютеры, в то время ограничивавшиеся гаражами энтузиастов, стали доступны в миллионах домов и малых предприятий, в основном в США.</text>
+</text>
+
+</view>
 </theme>

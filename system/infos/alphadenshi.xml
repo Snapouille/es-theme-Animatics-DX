@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>ADK Corporation, formerly known as Alpha Denshi Corporation, was a Japanese company founded in 1980 that was engaged in the development of video games and ceased operations in 2000. SNK bought ADK's intellectual properties.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>ADK Corporation précédemment appelé Alpha Denshi Corporation est une entreprise japonaise fondée en 1980 qui exerce son activité dans le développement de jeux vidéo et qui a cessé ses activités en 2000. SNK a racheté les propriétés intellectuelles d'ADK.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>ADK Corporation vormals Alpha Denshi Corporation ist ein 1980 gegründetes japanisches Unternehmen, das in der Entwicklung von Videospielen tätig ist und seine Tätigkeit im Jahr 2000 eingestellt hat. SNK kaufte das geistige Eigentum von ADK.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>ADK Corporation, antes conocida como Alpha Denshi Corporation, fue una empresa japonesa fundada en 1980 que se dedicaba al desarrollo de videojuegos y cesó sus operaciones en 2000. SNK compró las propiedades intelectuales de ADK.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>ADK Corporation, precedentemente nota come Alpha Denshi Corporation, era una società giapponese fondata nel 1980 che si occupava dello sviluppo di videogiochi e che ha cessato le attività nel 2000. SNK ha acquistato le proprietà intellettuali di ADK.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社ADKは、旧社名がアルファ電子株式会社で、1980年に設立された日本のゲーム開発会社であり、2000年に事業を停止しています。SNKはADKの知的財産を買い取りました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>ADK Corporation, voorheen bekend als Alpha Denshi Corporation, was een in 1980 opgerichte Japanse onderneming die zich bezighield met de ontwikkeling van videospelletjes en haar activiteiten in 2000 staakte. SNK kocht de intellectuele eigendommen van ADK.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>ADK Corporation, wcześniej znana jako Alpha Denshi Corporation, była japońską firmą założoną w 1980 roku, która zajmowała się tworzeniem gier wideo i zakończyła działalność w 2000 roku. SNK kupiło własności intelektualne ADK.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A ADK Corporation, anteriormente conhecida como Alpha Denshi Corporation, era uma empresa japonesa fundada em 1980 que estava empenhada no desenvolvimento de jogos de vídeo e cessou as suas operações em 2000. A SNK comprou as propriedades intelectuais da ADK.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>ADK Corporation, ранее известная как Alpha Denshi Corporation, была японской компанией, основанной в 1980 году, которая занималась разработкой видеоигр и прекратила свою деятельность в 2000 году. SNK купила интеллектуальную собственность ADK.</text>
+</text>
+
+</view>
 </theme>

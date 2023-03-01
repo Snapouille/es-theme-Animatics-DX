@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Adventure Game Studio is a freeware program for creating graphic point & click adventure games in the style of the early Sierra or LucasArts games. It was created by the British Chris Jones. The versatility of the code also allows the creation of RPGs or games with text input.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Adventure Game Studio est un logiciel freeware de création de jeux d'aventure graphique en point & click dans le style des premiers jeux de Sierra ou de LucasArts. Il a été créé par le britannique Chris Jones. La polyvalence du code permet aussi la création de RPG ou de jeu avec entrées de textes.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Adventure Game Studio ist eine Freeware-Software zur Erstellung von Point & Click-Grafik-Adventure-Spielen im Stil der frühen Spiele von Sierra oder LucasArts. Es wurde von dem Briten Chris Jones entwickelt. Die Vielseitigkeit des Codes ermöglicht auch die Erstellung von RPGs oder Spielen mit Texteingaben.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Adventure Game Studio es un programa gratuito para crear aventuras gráficas point & click al estilo de los primeros juegos de Sierra o LucasArts. Fue creado por el británico Chris Jones. La versatilidad del código también permite crear RPG o juegos con entrada de texto.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Adventure Game Studio è un programma freeware per la creazione di giochi grafici di avventura punta e clicca nello stile dei primi giochi Sierra o LucasArts. È stato creato dal britannico Chris Jones. La versatilità del codice consente anche la creazione di giochi di ruolo o di giochi con input di testo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Adventure Game Studioは、初期のSierraやLucasArtsのようなスタイルのグラフィックポイント＆クリックアドベンチャーゲームを作成するためのフリーウェアプログラムです。イギリスのクリス・ジョーンズによって作成されました。コードの汎用性により、RPGやテキスト入力のゲームも作成できる。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Adventure Game Studio is een freeware programma voor het maken van grafische point & click adventure games in de stijl van de vroege Sierra of LucasArts games. Het is gemaakt door de Brit Chris Jones. De veelzijdigheid van de code maakt het ook mogelijk om RPG's of spellen met tekstinvoer te maken.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Adventure Game Studio to darmowy program do tworzenia graficznych gier przygodowych typu point & click w stylu wczesnych gier Sierry czy LucasArts. Został on stworzony przez Brytyjczyka Chrisa Jonesa. Uniwersalność kodu pozwala również na tworzenie gier RPG lub gier z wejściem tekstowym.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Adventure Game Studio é um programa freeware para criar jogos de aventura point & click no estilo dos primeiros jogos da Serra ou LucasArts. Foi criado pelo britânico Chris Jones. A versatilidade do código permite também a criação de RPGs ou jogos com entrada de texto.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Adventure Game Studio - это бесплатная программа для создания графических приключенческих игр в стиле ранних игр Sierra или LucasArts. Она была создана британцем Крисом Джонсом. Универсальность кода также позволяет создавать ролевые игры или игры с текстовым вводом.</text>
+</text>
+
+</view>
 </theme>

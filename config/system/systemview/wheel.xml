@@ -34,42 +34,25 @@
 		</carousel>
 		
 		
-	<!-- Menu WHEEL d'origine-->
-		<!-- <carousel name="systemcarousel"> -->
-			<!-- <pos>0.35 0</pos> -->
-			<!-- <size>1 1</size> -->
-			<!-- <type>vertical_wheel</type>  -->
-			<!-- <logoSize>0.18 0.155</logoSize>  -->
-			<!-- <logoScale>1.15</logoScale>  -->
-			<!-- <maxLogoCount>13</maxLogoCount>  -->
-			<!-- <logoRotation>-7</logoRotation>  -->
-			<!-- <logoRotationOrigin>4.2 0.5</logoRotationOrigin>  -->
-			<!-- <logoAlignment>center</logoAlignment> -->
-			<!-- <color>00000000</color> -->
-			<!-- <zIndex>30</zIndex> -->
-		<!-- </carousel> -->
-		
+	
 		
 		<image name="logo">
 			<linearSmooth>true</linearSmooth>
 			<storyboard event="activate" repeatAt="1">
-				<animation property="opacity" to="1" begin="0" duration="0" mode="linear"/>
 				<animation property="scale" from="1" to="0.7" begin="" duration="1" mode="linear"/>
-				<animation property="offsetX" from="0" to="0.03" begin="" duration="1" mode="linear"/>
-				<animation property="offsetX" from="0.03" to="0.05" begin="1000" duration="1000" mode="EaseInOut"/>
+				<animation property="offsetX" from="0" to="0.03" begin="1000" duration="1000" mode="EaseInOut"/>
+				<animation property="offsetX" from="0.03" to="0.3" begin="5000" duration="1500" mode="EaseInOut"/>
 			</storyboard>
 			
 			<storyboard event="scroll">
-				<!-- <animation property="opacity" from="0" to="0.6" duration="0" mode="Linear"/> -->
 				<animation property="scale" from="1" to="0.7" begin="" duration="1" mode="linear"/>
-				<animation property="offsetX" from="0" to="0.03" begin="" duration="1" mode="linear"/>
-				<animation property="offsetX" from="0.03" to="0.05" begin="1000" duration="1000" mode="EaseInOut"/>
+				<animation property="offsetX" from="0" to="0.03" begin="1000" duration="1000" mode="EaseInOut"/>
+				<animation property="offsetX" from="0.03" to="0.3" begin="5000" duration="1500" mode="EaseInOut"/>
 			</storyboard>
 			
 		</image>
 		
 		
-	
 	
 	<!-- Encadrement de la console -->
 	 
@@ -153,12 +136,6 @@
 	</image>
 	
 	
-	
-	
-	
-	
-	
-		
 		 
 	<image name="Consoles" extra="static">
       <tile>false</tile>
@@ -181,9 +158,6 @@
 	  
     </image>
 	
-
-
-
 	<image name="ca-tourne" extra="true">
 			<path>./../../../art/divers/white.png</path>
 			<color>FFFF00</color>
@@ -211,10 +185,6 @@
 			
 	</image>
 
-
-
-	
-	
 	
 	<!-- TEXT totaux des jeux -->
 		

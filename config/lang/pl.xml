@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<!-- Polish -->
+<variables lang="pl">
+
+<subset.region>Region</subset.region>
+<europe>Europa</europe>
+<usa>USA</usa>
+<japan>Japonia</japan>
+<systemViewName>Widok systemu</systemViewName>
+<systemBackgroundName>Tło</systemBackgroundName>
+<systembackground.snap>Animacja awatara</systembackground.snap>
+<systembackground.carboncontrol>Dźwignie druciane</systembackground.carboncontrol>
+<systembackground.randomvideo>Losowy filmik</systembackground.randomvideo>
+<systembackground.randombox>Losowe pudełka z grami</systembackground.randombox>
+<tilesViewName>Winiety</tilesViewName>
+<iconsViewName>Ikony</iconsViewName>
+<detailedLogoViewName>Szczegółowy z wykazem logotypów</detailedLogoViewName>
+<basicGridName>Pudełka</basicGridName>
+<carouselViewName>Karuzela pudełek</carouselViewName>
+<InfoCustomView>Aktualności / Statystyki</InfoCustomView>
+<infoDetailed>Szczegółowy</infoDetailed>
+<totalGamesInfos>Łącznie gry</totalGamesInfos>
+<subset.colorset>Schematy kolorów</subset.colorset>
+<none>Nie</none>
+<blue>Niebieski</blue>
+<red>Czerwony</red>
+<green>Zielona</green>
+<yellow>Żółty</yellow>
+<gray>Szary</gray>
+<roundBorderSubsetName>Afgeronde randen</roundBorderSubsetName>
+<blinkBorderSubsetName>Krawędzie kołnierza</blinkBorderSubsetName>
+<yes>tak</yes>
+<no>nie</no>
+<previewBarSubsetName>Okno przeglądowe</previewBarSubsetName>
+<animationsSubsetName>Animacje przejściowe</animationsSubsetName>
+<helpSubsetName>Ikony pomocy</helpSubsetName>
+<colored>Kolorowe</colored>
+<subset.shader>Efekty telewizyjne</subset.shader>
+<glowSubsetName>Wybór w Halo</glowSubsetName>
+<systemViewExInfos>Ulepszone informacje o systemie</systemViewExInfos>
+<dateFormat>%d/%m/%Y</dateFormat>
+<helpbuttons>Pozycja przycisków</helpbuttons>
+<gamecarouseltype>Obraz źródłowy</gamecarouseltype>
+<gamelistFont>Jaka czcionka?</gamelistFont>
+<gamelistFontSize>Jaki jest rozmiar czcionki?</gamelistFontSize>
+<gamelistLines>Ile jest linii w gamelistach?</gamelistLines>
+<gameBar>Pasek informacji o grze</gameBar>
+<animatedInfobar>Animacja sekcji przeglądowej</animatedInfobar>
+<subset.logostyle>Styl logo</subset.logostyle>
+<color>Kolorowe</color>
+<blackandwhite>Czerń i biel</blackandwhite>
+<custom>Spersonalizowana</custom>
+<user.logo>Twoje logo</user.logo>
+<user.username>Twój pseudonim</user.username>
+<system-description>Opisy systemów</system-description>
+<system-controllers>Obraz kontrolerów</system-controllers>
+<show>Zobacz</show>
+<hide>Ukryj</hide>
+
+</variables>
+
+</theme>
