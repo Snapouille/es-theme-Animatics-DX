@@ -6,12 +6,13 @@ Theme for Emulation Station compatible with
 - Emuelec
 - Retrobat
 
-V1.3 - (2023 02 25)
+V1.31 - (2023 03 01)
 
 Features :
 
     4 Animated System Views (Simple, Vertical, Wheel and Horizontal)
     5 Gamelist Views
+    9 languages (German, Spanish, French, Italian, Japanese, Dutch, Polish, Portuguese and Russian)
     Regional Logos and Artwork (EU, US and JAP)
     16/9 Only, not compatible with 4/3 or 5/4 for now
     Pi4 or more powerfull recommended
@@ -27,7 +28,8 @@ System View Horizontal
 ![Vue Horizontale](https://user-images.githubusercontent.com/105559045/220708543-dd20bf76-f4e4-442b-91ec-054b4c4149d1.png)
 
 System View Wheel
-![Vue Wheel](https://user-images.githubusercontent.com/105559045/220708635-d810d4d0-a708-4e47-ba4e-672168f2ac39.png)
+![2023-03-01 17_54_57-EmulationStation](https://user-images.githubusercontent.com/105559045/222210887-665a35b9-ff8e-4212-8a2d-b14081781bb1.png)
+![2023-03-01 17_53_10-EmulationStation](https://user-images.githubusercontent.com/105559045/222210912-49937b37-89de-45d6-8db8-fe495febb7e9.png)
 
 Gamelist view : Detailed
 ![4 detailed](https://user-images.githubusercontent.com/105559045/215271537-8cc97dc3-4adb-47b5-ad2e-79bd1e833a65.png)
