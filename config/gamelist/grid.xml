@@ -71,6 +71,18 @@ originally based on: "carbon"
     </ninepatch>
 
      
+	 
+	 
+	 <image name="gridtile.favorite">
+		 <origin>0 0</origin>
+         <path>./../../art/divers/favoris.png</path>
+         <pos>0.06 0.95</pos>
+		 <maxSize>0.09 0.09</maxSize>									
+         <color>F3C300</color>
+      </image>
+	 
+	 
+	 
 	  <text name="md_name">
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
