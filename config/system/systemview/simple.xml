@@ -8,22 +8,25 @@
 	
 		<!-- PLUS RIEN n EST PRIS EN COMPTE SUR LE PLACEMENT
 				A VOIR PLUS TARD POUR TROUVER LA SOLUTION -->
-      <text name="manufacturerName" extra="true">
-	    <visible>false</visible>
-        <pos>0.44 0.56</pos>
-		<fontSize>0.033</fontSize>
-        <alignment>center</alignment>
-      </text>
+      <!-- <text name="manufacturerName" extra="true"> -->
+	    <!-- <visible>false</visible> -->
+        <!-- <pos>0.44 0.56</pos> -->
+		<!-- <fontSize>0.033</fontSize> -->
+        <!-- <alignment>center</alignment> -->
+      <!-- </text> -->
+	  
 	  <!-- on vire le nom complet qui fait doublon -->
+	  
       <text name="fullName" extra="true">
 		<visible>false</visible>
       </text>
-      <text name="releaseYyear" extra="true">
-	   <visible>false</visible>
-       <pos>0.441 0.595</pos>
-	   <fontSize>0.040</fontSize>
-        <alignment>center</alignment>
-      </text>
+	  
+      <!-- <text name="releaseYyear" extra="true"> -->
+	   <!-- <visible>false</visible> -->
+       <!-- <pos>0.441 0.595</pos> -->
+	   <!-- <fontSize>0.040</fontSize> -->
+        <!-- <alignment>center</alignment> -->
+      <!-- </text> -->
   
 	<!-- Position des infos sur les statistiques du système si ils sont affichés -->
     

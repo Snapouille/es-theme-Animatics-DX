@@ -1,5 +1,5 @@
 ﻿<theme>
-  <view name="system" ifSubset="SystemView:vertical|vertical arts|simple|wheel">
+  <view name="system" ifSubset="SystemView:vertical|vertical arts|wheel">
 		<image name="BottomBar" extra="true">
 		  <visible>false</visible>
 		</image>
@@ -9,11 +9,37 @@
 		</image>
 		
 		<!-- On repositionne les stats des vues vertical, vertical arts et simple -->
-		<text name="systemInfoEx" >
+		<text name="systemInfoEx">
 			<pos>0.07 0.725</pos>
 			<alignment>left</alignment>
 		</text>
+		
   </view>
+  
+  <view name="system" ifSubset="SystemView:simple">
+		<image name="BottomBar" extra="true">
+		  <visible>false</visible>
+		</image>
+		
+		<image name="BottomBar-shadow" extra="true">
+		  <visible>false</visible>
+		</image>
+		
+		<!-- On repositionne les stats des vues vertical, vertical arts et simple -->
+		<text name="systemInfoEx">
+			<pos>0.03 0.725</pos>
+			<!-- <alignment>left</alignment> -->
+		</text>
+		
+		<text name="system_description" ifSubset="system-description:Show">
+			
+			<pos>0.055 0.755</pos>
+		</text>
+		
+		
+  </view>
+  
+  
   
   
   
