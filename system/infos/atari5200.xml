@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-
-		
-				<text name="system_description" extra="true">
-			<text>Launched by Atari in 1982 to replace the Atari 2600. Because of serious problems with its control, the product was considered a commercial failure.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Lanzado por Atari en 1982 para sustituir al Atari 2600. Debido a los serios problemas con su control, el producto fue considerado un fracaso comercial.
+<text name="system_description" extra="true">
+<text>Released only in the US. It was created to compete with the ColecoVision and Intellivision, which at the time were the most powerful and cheapest systems on the market. The 5200 was innovative at the time thanks to its four standard joystick ports and its storage drawer for the latter. However, these elements were not enough and the console was a commercial failure.</text>
 </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Lancé par Atari en 1982 pour remplacer le Atari 2600. En raison de graves problèmes de contrôle, le produit était considéré comme un échec commercial.</text>
-		</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Lançado pela Atari em 1982 para substituir o Atari 2600. Por causa dos sérios problemas com seu controle, o produto foi considerado um fracasso comercial.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Sortie uniquement aux États-Unis. Elle est créée dans le but de concurrencer la ColecoVision et l'Intellivision qui à cette époque sont les plus puissantes et les moins chères du marché. La 5200 se veut innovante à l'époque grâce à ses quatre ports manettes de série, et son tiroir de rangement pour ces dernières. Ces éléments ne seront toutefois pas suffisant et la console sera un échec commercial.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Wurde nur in den USA veröffentlicht. Sie wurde mit dem Ziel entwickelt, mit ColecoVision und Intellivision zu konkurrieren, die zu dieser Zeit die leistungsstärksten und preisgünstigsten Geräte auf dem Markt waren. Die 5200 war mit ihren vier serienmäßigen Controller-Ports und der Schublade für die Controller zu dieser Zeit innovativ. Diese Elemente reichten jedoch nicht aus und die Konsole wurde zu einem kommerziellen Misserfolg.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Sólo salió a la venta en EE.UU. Se creó para competir con la ColecoVision y la Intellivision, que en aquel momento eran los sistemas más potentes y baratos del mercado. La 5200 fue innovadora en su momento gracias a sus cuatro puertos para joystick estándar y su cajón de almacenamiento para este último. Sin embargo, estos elementos no fueron suficientes y la consola fue un fracaso comercial.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Uscito solo negli Stati Uniti. Fu creato per competere con il ColecoVision e l'Intellivision, che all'epoca erano i sistemi più potenti ed economici sul mercato. Il 5200 era innovativo per l'epoca grazie alle quattro porte standard per i joystick e al cassetto per riporre questi ultimi. Tuttavia, questi elementi non furono sufficienti e la console fu un fallimento commerciale.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>アメリカでのみ発売。当時、最も高性能で安価なシステムであったColecoVisionとIntellivisionに対抗するために作られた。5200は、4つの標準ジョイスティックポートと後者のための収納引き出しのおかげで、当時としては革新的なものでした。しかし、これらの要素は十分ではなく、このゲーム機は商業的に失敗した。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Alleen uitgebracht in de VS. Het werd gemaakt om te concurreren met de ColecoVision en Intellivision, die destijds de krachtigste en goedkoopste systemen op de markt waren. De 5200 was destijds vernieuwend dankzij zijn vier standaard joystickpoorten en zijn opberglade voor de laatste. Deze elementen waren echter niet voldoende en de console werd een commerciële mislukking.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Wydany tylko w Stanach Zjednoczonych. Został stworzony, aby konkurować z ColecoVision i Intellivision, które w tamtym czasie były najpotężniejszymi i najtańszymi systemami na rynku. 5200 była w tamtym czasie innowacyjna dzięki czterem standardowym portom joysticków oraz szufladce do przechowywania tych ostatnich. Jednak te elementy nie wystarczyły i konsola okazała się komercyjną porażką.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lançado apenas nos EUA. Foi criado para competir com o ColecoVision e Intellivision, que na altura eram os sistemas mais poderosos e mais baratos do mercado. O 5200 foi inovador na altura, graças às suas quatro portas de joystick padrão e à sua gaveta de armazenamento para este último. No entanto, estes elementos não eram suficientes e a consola era um fracasso comercial.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Выпущена только в США. Она была создана для конкуренции с ColecoVision и Intellivision, которые в то время были самыми мощными и дешевыми системами на рынке. В то время 5200 была инновационной благодаря четырем стандартным портам для джойстиков и ящику для хранения последних. Однако этих элементов оказалось недостаточно, и консоль потерпела коммерческий провал.</text>
+</text>
+
+</view>
 </theme>

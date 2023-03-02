@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Atari 8-bit refers to a series of computers designed by Jay Miner and produced by Atari. The first models, Atari 400 and Atari 800, were distributed from November 1979. The XL series (600XL and 800XL) was introduced in 1983, and the XE series (65XE,130XE,800XE) in 1985. The computer series was a great commercial success, selling two million units between 1979 and 1985.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>The Atari 800 was a microcomputer developed by Atari for the domestic audience, launched in conjunction with the Atari 400.
+<text name="system_description" extra="true" lang="fr">
+<text>L'Atari 8-bits désigne une série d'ordinateurs conçus par Jay Miner et produits par Atari. Les premiers modèles, Atari 400 et Atari 800, ont été distribués à partir de novembre 1979. La gamme XL (600XL et 800XL) a été introduite en 1983, et la gamme XE (65XE,130XE,800XE) en 1985. La série d'ordinateurs a été un grand succès commercial, vendant deux millions d'unités entre 1979 et 1985.</text>
 </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El Atari 800 fue un microcomputador desarrollado por Atari para el público doméstico, lanzado conjuntamente con el Atari 400.
-</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>L'Atari 800 était un micro-ordinateur développé par Atari pour le public domestique, lancé conjointement avec l'Atari 400.
-</text>
-		</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Atari 800 foi um microcomputador desenvolvido pela Atari para o público doméstico, lançado conjuntamente com o Atari 400.
+<text name="system_description" extra="true" lang="de">
+<text>Der Atari 8-Bit bezeichnet eine Reihe von Computern, die von Jay Miner entworfen und von Atari hergestellt wurden. Die ersten Modelle, Atari 400 und Atari 800, wurden ab November 1979 vertrieben. Die XL-Serie (600XL und 800XL) wurde 1983 und die XE-Serie (65XE,130XE,800XE) 1985 eingeführt. Die Computerserie war ein großer kommerzieller Erfolg und verkaufte zwischen 1979 und 1985 zwei Millionen Einheiten.</text>
 </text>
-		</text>
-		
-				
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El Atari 8-bit hace referencia a una serie de ordenadores diseñados por Jay Miner y producidos por Atari. Los primeros modelos, Atari 400 y Atari 800, se distribuyeron a partir de noviembre de 1979. La serie XL (600XL y 800XL) se introdujo en 1983, y la serie XE (65XE,130XE,800XE) en 1985. La serie de ordenadores fue un gran éxito comercial, vendiéndose dos millones de unidades entre 1979 y 1985.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'Atari 8-bit si riferisce a una serie di computer progettati da Jay Miner e prodotti da Atari. I primi modelli, Atari 400 e Atari 800, furono distribuiti a partire dal novembre 1979. La serie XL (600XL e 800XL) fu introdotta nel 1983 e la serie XE (65XE,130XE,800XE) nel 1985. La serie di computer ebbe un grande successo commerciale, vendendo due milioni di unità tra il 1979 e il 1985.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Atari 8bitとは、Jay Minerが設計し、Atariが製造したコンピュータのシリーズを指す。最初のモデルであるAtari 400とAtari 800は、1979年11月から配布されました。1983年にXLシリーズ（600XL、800XL）、1985年にXEシリーズ（65XE、130XE、800XE）が発売されました。このコンピュータシリーズは商業的に大成功を収め、1979年から1985年の間に200万台を販売した。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Atari 8-bit verwijst naar een reeks computers ontworpen door Jay Miner en geproduceerd door Atari. De eerste modellen, Atari 400 en Atari 800, werden verdeeld vanaf november 1979. De XL-serie (600XL en 800XL) werd geïntroduceerd in 1983, en de XE-serie (65XE,130XE,800XE) in 1985. De computerserie was een groot commercieel succes en er werden tussen 1979 en 1985 twee miljoen exemplaren van verkocht.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Atari 8-bit odnosi się do serii komputerów zaprojektowanych przez Jaya Minera i produkowanych przez firmę Atari. Pierwsze modele, Atari 400 i Atari 800, były dystrybuowane od listopada 1979 roku. W 1983 roku wprowadzono serię XL (600XL i 800XL), a w 1985 roku serię XE (65XE,130XE,800XE). Seria komputerów odniosła wielki sukces komercyjny, sprzedając w latach 1979-1985 dwa miliony sztuk.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Atari 8-bit refere-se a uma série de computadores concebidos por Jay Miner e produzidos pela Atari. Os primeiros modelos, Atari 400 e Atari 800, foram distribuídos a partir de Novembro de 1979. A série XL (600XL e 800XL) foi introduzida em 1983, e a série XE (65XE,130XE,800XE) em 1985. A série de computadores foi um grande sucesso comercial, vendendo dois milhões de unidades entre 1979 e 1985.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Atari 8-bit относится к серии компьютеров, разработанных Джеем Майнером и выпускаемых компанией Atari. Первые модели, Atari 400 и Atari 800, распространялись с ноября 1979 года. Серия XL (600XL и 800XL) была представлена в 1983 году, а серия XE (65XE, 130XE, 800XE) - в 1985 году. Серия компьютеров имела большой коммерческий успех, было продано два миллиона единиц в период с 1979 по 1985 год.</text>
+</text>
+
+</view>
 </theme>

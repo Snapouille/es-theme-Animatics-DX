@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The successor to the 5200, the Atari 7800 was temporarily delayed due to the sale of the company after the collapse of the video game market. It was released as a competitor to the Nintendo Entertainment System and the Sega Master System during the third generation video game console era. However, the console never really competed with its rivals.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Is a home video game console released by the Atari Corporation in 1986. It is almost fully backward-compatible with the Atari 2600, the first console to have backward compatibility.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La sucesora de la consola Atari 5200 o supersystem, en un intento de Atari de recuperar su supremacía en el mercado de la videoconsola frente a sus rivales locales Intellivision y Colecovision.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>L'Atari 7800 est une console de jeux vidéo 8-bit de troisième génération, conçue et commercialisée par le constructeur américain Atari. Elle est sortie début 1986 aux États-Unis.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Succédant à la 5200, l'Atari 7800 est temporairement retardées en raison de la vente de la société après l'écroulement du marché du jeu vidéo. Elle sort comme concurrente à la Nintendo Entertainment System et à la Sega Master System pendant l'ère des consoles de jeux vidéo de troisième génération. Toutefois, la console ne rivalisera jamais réellement avec ses concurrentes.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console de videogame lançado pela Atari em junho de 1986. Foi desenvolvido para substituir o Atari 5200 e restabelecer a supremacia da Atari em relação a Intellivision e Colecovision.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Als Nachfolger des 5200 wurde der Atari 7800 vorübergehend verschoben, da das Unternehmen nach dem Zusammenbruch des Videospielmarktes verkauft wurde. Sie wurde als Konkurrenz für das Nintendo Entertainment System und das Sega Master System während der Ära der Videospielkonsolen der dritten Generation herausgebracht. Die Konsole wird jedoch nie wirklich mit ihren Konkurrenten konkurrieren.</text>
+</text>
 
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>La sucesora de la 5200, la Atari 7800, se retrasó temporalmente debido a la venta de la empresa tras el colapso del mercado de los videojuegos. Salió al mercado como competidora de la Nintendo Entertainment System y la Sega Master System durante la era de la tercera generación de videoconsolas. Sin embargo, la consola nunca llegó a competir realmente con sus rivales.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Successore del 5200, l'Atari 7800 fu temporaneamente ritardato a causa della vendita dell'azienda dopo il crollo del mercato dei videogiochi. Fu rilasciata come concorrente del Nintendo Entertainment System e del Sega Master System durante l'era delle console per videogiochi di terza generazione. Tuttavia, la console non riuscì mai a competere veramente con i suoi rivali.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>5200の後継機であるアタリ7800は、ゲーム市場の崩壊に伴う会社売却のため、一時期発売が延期されていた。第3世代ゲーム機時代、Nintendo Entertainment SystemやSega Master Systemの対抗馬として発売された。しかし、このゲーム機はライバルと競争することはなかった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De opvolger van de 5200, de Atari 7800, werd tijdelijk uitgesteld vanwege de verkoop van het bedrijf na de ineenstorting van de videogamemarkt. Hij werd uitgebracht als concurrent van het Nintendo Entertainment System en het Sega Master System tijdens het tijdperk van de derde generatie videogameconsoles. De console concurreerde echter nooit echt met zijn rivalen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Następca 5200, Atari 7800 został czasowo opóźniony z powodu sprzedaży firmy po załamaniu się rynku gier wideo. Został wydany jako konkurent dla Nintendo Entertainment System i Sega Master System podczas ery konsoli gier wideo trzeciej generacji. Jednak konsola nigdy nie będzie naprawdę konkurować z rywalami.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O sucessor do 5200, o Atari 7800 foi temporariamente adiado devido à venda da empresa após o colapso do mercado dos jogos de vídeo. Foi lançado como concorrente do Nintendo Entertainment System e do Sega Master System durante a era da consola de jogos de vídeo de terceira geração. No entanto, a consola nunca competiu realmente com os seus rivais.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Преемник модели 5200, Atari 7800, был временно отложен из-за продажи компании после краха рынка видеоигр. Она была выпущена в качестве конкурента Nintendo Entertainment System и Sega Master System в эпоху видеоигровых консолей третьего поколения. Однако консоль так и не смогла составить реальную конкуренцию своим соперникам.</text>
+</text>
+
+</view>
 </theme>

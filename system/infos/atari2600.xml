@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>With between 25 and 40 million units sold, the Atari 2600 is the most popular console of its generation. It was a historic success, marking the advent of a mass market for video games. The console made Atari a lot of money until 1983 and the crisis of the video game market in the United States.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Is a home video game console by Atari, Inc. Released on September 11, 1977, it is credited with popularizing the use of microprocessor-based hardware and ROM cartridges containing game code.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Atari 2600 es una videoconsola lanzada al mercado en 1977, convirtiéndose en el primer sistema de videojuegos en tener gran éxito, e hizo popular los cartuchos intercambiables.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Atari 2600, à l’origine appelée Atari VCS, est une console de jeux vidéo de deuxième génération produite par Atari entre 1977 et 1992. L’Atari 2600 est lancée en octobre 1977 au prix de 199 USD (de l’époque).</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Avec entre 25 et 40 millions d’unités vendues, l’Atari 2600 est la console la plus populaire de sa génération. Le succès est historique, marquant l’avènement d’un marché de masse pour le jeu vidéo. La console rapporte beaucoup d’argent à la société Atari jusqu’en 1983 et la crise du marché du jeu vidéo aux États-Unis.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Considerado um símbolo cultural dos anos 80, foi um fenômeno de vendas no Brasil entre os anos de 1984 a 1986 e seus jogos permanecem na memória de muitos que viveram a juventude naquela época.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Mit 25 bis 40 Millionen verkauften Einheiten ist der Atari 2600 die erfolgreichste Konsole seiner Generation. Der Erfolg war historisch und markierte den Beginn eines Massenmarktes für Videospiele. Die Konsole brachte dem Unternehmen Atari bis 1983 und der Krise des Videospielmarktes in den USA viel Geld ein.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Con entre 25 y 40 millones de unidades vendidas, la Atari 2600 es la consola más popular de su generación. Fue un éxito histórico, que marcó el advenimiento de un mercado de masas para los videojuegos. La consola hizo ganar mucho dinero a Atari hasta 1983 y la crisis del mercado de los videojuegos en Estados Unidos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Con un numero di unità vendute compreso tra 25 e 40 milioni, l'Atari 2600 è la console più popolare della sua generazione. Fu un successo storico, che segnò l'avvento di un mercato di massa per i videogiochi. La console fece guadagnare molto ad Atari fino al 1983 e alla crisi del mercato dei videogiochi negli Stati Uniti.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>2500万台から4000万台を売り上げたアタリ2600は、その世代で最も人気のあるゲーム機です。ビデオゲームの大衆市場の到来を告げる、歴史的な成功を収めた。1983年に米国でビデオゲーム市場の危機が訪れるまで、このゲーム機はアタリ社に大きな利益をもたらしました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Met 25 tot 40 miljoen verkochte exemplaren is de Atari 2600 de populairste console van zijn generatie. Het was een historisch succes en markeerde de komst van een massamarkt voor videospelletjes. De console bracht Atari veel geld op tot 1983 en de crisis van de videogamemarkt in de Verenigde Staten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Z 25 do 40 milionów sprzedanych sztuk, Atari 2600 jest najpopularniejszą konsolą swojej generacji. Był to historyczny sukces, oznaczający nadejście masowego rynku gier wideo. Konsola sprawiła, że Atari zarabiało dużo pieniędzy aż do 1983 roku i kryzysu rynku gier wideo w Stanach Zjednoczonych.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Com entre 25 e 40 milhões de unidades vendidas, o Atari 2600 é a consola mais popular da sua geração. Foi um sucesso histórico, marcando o advento de um mercado de massas para jogos de vídeo. A consola fez muito dinheiro à Atari até 1983 e a crise do mercado dos jogos de vídeo nos Estados Unidos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Продав от 25 до 40 миллионов единиц, Atari 2600 стала самой популярной консолью своего поколения. Этот успех был историческим, ознаменовав появление массового рынка видеоигр. Консоль приносила Atari много денег до 1983 года и кризиса рынка видеоигр в США.</text>
+</text>
+
+</view>
 </theme>

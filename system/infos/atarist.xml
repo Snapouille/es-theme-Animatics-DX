@@ -4,27 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Atari ST is a family of personal computers whose commercial success marked the second half of the 1980s and the beginning of the 1990s. It was a success for both the general public and professionals. It is particularly notable in computer history as the machine that enabled the development of computer music and the democratisation of the MIDI standard.</text>
+</text>
 
-				<text name="system_description" extra="true" >
-			<text>Is a line of home computers from Atari Corporation and the successor to the Atari 8-bit family. The initial ST model, the 520ST, saw limited release in April–June 1985 and was widely available in July.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Atari ST es una computadora doméstica presentada por la empresa Atari. Las letras "ST" es la abreviación de "Sixteen/Thirty-two" (en castellano, dieciséis/treinta y dos).</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Les Atari ST forment une famille d'ordinateurs personnels conçus par la firme américaine Atari dont le succès commercial a marqué la deuxième moitié des années 1980 et le début des années 1990.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Les Atari ST forment une famille d'ordinateurs personnels dont le succès commercial a marqué la deuxième moitié des années 1980 et le début des années 1990. Le succès fut autant grand public que professionnel. Elle marque plus particulièrement l’histoire informatique comme la machine ayant permis l'essor de la musique assistée par ordinateur et la démocratisation de la norme MIDI.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um computador doméstico/pessoal produzido pela Atari Corporation e vendido entre 1985 e o início da década de 1990. Oficialmente, ST significava "Sixteen/Thirty-two" ("Dezesseis/Trinta e dois").</text>
-		</text>
-		
-		
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Der Atari ST ist eine Familie von Personalcomputern, deren kommerzieller Erfolg die zweite Hälfte der 1980er und den Beginn der 1990er Jahre prägte. Der Erfolg war sowohl für die breite Öffentlichkeit als auch für Unternehmen. Der Atari ST ist ein Computer, der die Entwicklung der Computermusik und die Verbreitung des MIDI-Standards ermöglicht hat.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Atari ST es una familia de ordenadores personales cuyo éxito comercial marcó la segunda mitad de los años ochenta y principios de los noventa. Tuvo tanto éxito entre el gran público como entre los profesionales. Es particularmente notable en la historia de la informática como la máquina que permitió el desarrollo de la música por ordenador y la democratización del estándar MIDI.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'Atari ST è una famiglia di personal computer il cui successo commerciale ha segnato la seconda metà degli anni Ottanta e l'inizio degli anni Novanta. Il successo è stato tanto per il grande pubblico quanto per i professionisti. È particolarmente importante nella storia dell'informatica come macchina che ha permesso lo sviluppo della computer music e la democratizzazione dello standard MIDI.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>アタリSTは、1980年代後半から1990年代初頭にかけて商業的成功を収めたパーソナルコンピュータのファミリーである。1980年代後半から1990年代初頭にかけて、商業的な成功を収めたパーソナルコンピュータである。コンピュータ音楽の発展とMIDI規格の普及を可能にしたマシンとして、コンピュータの歴史において特に注目されている。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Atari ST is een familie van personal computers waarvan het commerciële succes de tweede helft van de jaren tachtig en het begin van de jaren negentig markeerde. Het was even succesvol voor het grote publiek als voor professionals. Het is vooral opmerkelijk in de computergeschiedenis als de machine die de ontwikkeling van computermuziek en de democratisering van de MIDI-standaard mogelijk maakte.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Atari ST to rodzina komputerów osobistych, których sukces komercyjny zaznaczył się w drugiej połowie lat 80. i na początku lat 90. Był on równie udany dla ogółu społeczeństwa, jak i dla profesjonalistów. Jest szczególnie godny uwagi w historii komputerów jako maszyna, która umożliwiła rozwój muzyki komputerowej i demokratyzację standardu MIDI.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Atari ST é uma família de computadores pessoais cujo sucesso comercial marcou a segunda metade da década de 1980 e o início da década de 1990. Foi tão bem sucedido para o público em geral como para os profissionais. É particularmente notável na história da informática como a máquina que permitiu o desenvolvimento da música informática e a democratização da norma MIDI.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Atari ST - семейство персональных компьютеров, коммерческий успех которых пришелся на вторую половину 1980-х и начало 1990-х годов. Он пользовался успехом как у широкой публики, так и у профессионалов. В истории компьютеров он особенно выделяется как машина, которая обеспечила развитие компьютерной музыки и демократизацию стандарта MIDI.</text>
+</text>
+
+</view>
 </theme>

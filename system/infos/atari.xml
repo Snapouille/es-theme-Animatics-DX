@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Atari was originally an American company founded in 1972 by Nolan Bushnell and Ted Dabney, considered a pioneer and founder of the video game industry. It specialises in the development of video games and manufactures arcade terminals, game consoles and personal computers from the 1970s to the 1990s.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Atari est à l'origine une entreprise américaine fondée en 1972 par Nolan Bushnell et Ted Dabney, considérée comme pionnière et fondatrice de l'industrie du jeu vidéo, devenue française en 2003 par son rachat par Infogrames. Elle est spécialisée dans le développement des jeux vidéo et fabrique des bornes d'arcade, des consoles de jeux et des ordinateurs personnels des années 1970 à 1990.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Atari ist ursprünglich ein 1972 von Nolan Bushnell und Ted Dabney gegründetes US-amerikanisches Unternehmen, das als Pionier und Begründer der Videospielindustrie gilt und 2003 durch die Übernahme durch Infogrames französisch wurde. Das Unternehmen ist auf die Entwicklung von Videospielen spezialisiert und stellt Arcade-Terminals, Spielkonsolen und Personalcomputer aus den 1970er bis 1990er Jahren her.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Atari es una empresa estadounidense fundada en 1972 por Nolan Bushnell y Ted Dabney, considerado pionero y fundador de la industria del videojuego. Está especializada en el desarrollo de videojuegos y fabrica terminales arcade, videoconsolas y ordenadores personales desde los años 70 hasta los 90.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Atari è un'azienda americana fondata nel 1972 da Nolan Bushnell e Ted Dabney, considerato un pioniere e fondatore dell'industria dei videogiochi. È specializzata nello sviluppo di videogiochi e produce terminali arcade, console di gioco e personal computer dagli anni '70 agli anni '90.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>アタリはもともと、ビデオゲーム業界のパイオニアであり創業者とされるノーラン・ブッシュネルとテッド・ダブニーが1972年に設立したアメリカの企業である。ビデオゲームの開発に特化し、1970年代から1990年代にかけて、業務用端末、ゲーム機、パーソナルコンピュータを製造しています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Atari was oorspronkelijk een Amerikaans bedrijf dat in 1972 werd opgericht door Nolan Bushnell en Ted Dabney, die als pionier en grondlegger van de videospellenindustrie wordt beschouwd. Het is gespecialiseerd in de ontwikkeling van videospelletjes en vervaardigt arcade-terminals, spelconsoles en personal computers van de jaren 1970 tot de jaren 1990.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Atari to pierwotnie amerykańska firma założona w 1972 roku przez Nolana Bushnella i Teda Dabneya, uważana za pioniera i założyciela branży gier wideo. Specjalizuje się w rozwoju gier wideo i produkuje terminale arcade, konsole do gier i komputery osobiste od lat 70. do 90.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Atari foi originalmente uma empresa americana fundada em 1972 por Nolan Bushnell e Ted Dabney, considerado um pioneiro e fundador da indústria dos jogos de vídeo. É especializada no desenvolvimento de jogos de vídeo e fabrica terminais de arcade, consolas de jogos e computadores pessoais desde os anos 70 até aos anos 90.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Atari изначально была американской компанией, основанной в 1972 году Ноланом Бушнеллом и Тедом Дабни, которые считаются пионерами и основателями индустрии видеоигр. Она специализируется на разработке видеоигр и производит аркадные терминалы, игровые приставки и персональные компьютеры с 1970-х по 1990-е годы.</text>
+</text>
+
+</view>
 </theme>

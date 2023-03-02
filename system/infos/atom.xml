@@ -4,19 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Acorn Atom is a home computer made by Acorn Computers Ltd from 1980 to 1982, when it was replaced by the BBC Micro. The Micro began life as an upgrade to the Atom, originally known as the Proton.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Acorn Atom is a home computer made by Acorn Computers Ltd from 1980 to 1982, when it was replaced by the BBC Micro. The Micro began life as an upgrade to the Atom, originally known as the Proton.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>L'Acorn Atom est un ordinateur de salon fabriqué par Acorn Computers Ltd de 1980 à 1982, date à laquelle il a été remplacé par le BBC Micro. Le Micro a commencé sa vie comme une mise à niveau de l'Atom, initialement connu sous le nom de Proton.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>El Acorn Atom era un ordenador doméstico vendido por Acorn Computers desde 1981 a 1983, cuando fue sustituido por el BBC Micro, (originalmente Proton), y después por el Acorn Electron (una versión barata del BBC Micro).</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Acorn Atom ist ein Heimcomputer, der von 1980 bis 1982 von Acorn Computers Ltd. hergestellt wurde. Danach wurde er durch den BBC Micro ersetzt. Der Micro war ursprünglich eine Weiterentwicklung des Atom, der ursprünglich als Proton bekannt war.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>El Acorn Atom es un ordenador doméstico fabricado por Acorn Computers Ltd de 1980 a 1982, cuando fue sustituido por el BBC Micro. El Micro comenzó su vida como una actualización del Atom, originalmente conocido como Proton.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>L'Acorn Atom è un home computer prodotto da Acorn Computers Ltd dal 1980 al 1982, quando fu sostituito dal BBC Micro. Il Micro nasce come aggiornamento dell'Atom, originariamente noto come Proton.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Acorn Atomは、Acorn Computers Ltdが1980年から1982年まで製造したホームコンピュータで、BBC Microに取って代わられた。MicroはAtomのアップグレード版として誕生し、当初はProtonとして知られていました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Acorn Atom is een thuiscomputer die door Acorn Computers Ltd werd gemaakt van 1980 tot 1982, toen hij werd vervangen door de BBC Micro. De Micro begon zijn leven als een upgrade van de Atom, oorspronkelijk bekend als de Proton.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Acorn Atom to komputer domowy produkowany przez Acorn Computers Ltd w latach 1980-1982, kiedy to został zastąpiony przez BBC Micro. Micro rozpoczął życie jako upgrade do Atoma, pierwotnie znanego jako Proton.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Acorn Atom é um computador doméstico fabricado pela Acorn Computers Ltd de 1980 a 1982, quando foi substituído pela BBC Micro. O Micro começou a sua vida como uma actualização para o Atom, originalmente conhecido como Proton.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Acorn Atom - это домашний компьютер, выпускавшийся компанией Acorn Computers Ltd с 1980 по 1982 год, когда его сменил BBC Micro. Micro начал свою жизнь как модернизация Atom, первоначально известного как Proton.</text>
+</text>
+
+</view>
 </theme>

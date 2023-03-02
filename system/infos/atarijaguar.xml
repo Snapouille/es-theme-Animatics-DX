@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>This was the penultimate console produced by Atari Corporation. With a limited game library, it was not a great success despite its innovative technology with its very atypical controller. The release of the PlayStation and the Saturn sounded its death knell.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Atari Jaguar was a video game console released by Atari in 1993. It was developed to outperform Mega Drive and Super Nintendo in processing power.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La Atari Jaguar es una videoconsola lanzada en 1993 y es la última consola lanzada al mercado por Atari.
-			
-Las características de la máquina eran impresionantes para la época, funcionaba a 64 bits cuando la competencia seguía en los 16 bits. Utilizaba cartuchos de videojuegos, aunque posteriormente salió a la venta su unidad de CD, la Atari Jaguar CD. La Jaguar fue un fracaso en ventas, se estima que no vendieron más de doscientas cincuenta mil unidades. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Atari Jaguar était une console de jeux vidéo lancée par Atari en 1993. Elle a été développée pour surpasser Mega Drive et Super Nintendo en termes de puissance de traitement.Console de 64bits</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Voici l'avant-dernière console produite par Atari Corporation. Disposant d'une ludothèque limitée, elle n'a pas connu un grand succès malgré sa technologie innovante avec sa manette très atypique. Les sorties de la PlayStation et de la Saturn sonneront son glas.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Atari Jaguar foi um console de videogame lançado pela Atari em 1993. Ele foi desenvolvido para superar o Mega Drive e o Super Nintendo em poder de processamento.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Dies war die vorletzte Konsole, die von der Atari Corporation hergestellt wurde. Sie hatte nur eine begrenzte Spielbibliothek und war trotz ihrer innovativen Technologie mit einem sehr atypischen Controller kein großer Erfolg. Als die PlayStation und der Saturn auf den Markt kamen, war das Ende der Konsole besiegelt.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>Fue la penúltima consola producida por Atari Corporation. Con una biblioteca de juegos limitada, no fue un gran éxito a pesar de su innovadora tecnología con un mando muy atípico. El lanzamiento de la PlayStation y la Saturn supuso su sentencia de muerte.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>È stata la penultima console prodotta da Atari Corporation. Con una libreria di giochi limitata, non ebbe un grande successo nonostante la sua tecnologia innovativa con un controller molto atipico. L'uscita della PlayStation e del Saturn ne segnò la fine.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>アタリ社が製造した最後のゲーム機である。限られたゲームライブラリで、非常に非定型なコントローラーを備えた革新的な技術にもかかわらず、大きな成功を収めることはできませんでした。プレイステーションとサターンの発売が、このゲーム機の命取りとなった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Dit was de voorlaatste console die door Atari Corporation werd geproduceerd. Met een beperkte spelbibliotheek was het geen groot succes ondanks zijn innovatieve technologie met zijn zeer atypische controller. De release van de PlayStation en de Saturn betekende de doodsteek.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Była to przedostatnia konsola wyprodukowana przez Atari Corporation. Z ograniczoną biblioteką gier nie odniosła wielkiego sukcesu, mimo innowacyjnej technologii z bardzo nietypowym kontrolerem. Premiera PlayStation i Saturna zabrzmiała jak śmiertelna klątwa.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Esta foi a penúltima consola produzida pela Atari Corporation. Com uma biblioteca de jogos limitada, não foi um grande sucesso, apesar da sua tecnologia inovadora com o seu controlador muito atípico. O lançamento da PlayStation e do Saturn soou o seu toque de morte.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Это была предпоследняя консоль, выпущенная корпорацией Atari. Имея ограниченную библиотеку игр, она не имела большого успеха, несмотря на инновационную технологию с очень нетипичным контроллером. Выпуск PlayStation и Saturn стал предвестником ее смерти.</text>
+</text>
+
+</view>
 </theme>

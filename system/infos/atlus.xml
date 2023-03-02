@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Atlus Co, Ltd (株式会社アトラス) is a Japanese video game development, publishing and distribution company, founded in April 1986 in Tokyo. The company was acquired by Takara in October 2003, Index Holdings in November 2006, and then Sega Sammy Holdings in November 2013 as a subsidiary of Sega.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Atlus Co., Ltd. (株式会社アトラス) est une société japonaise de développement, d'édition et de distribution de jeux vidéo, fondée en avril 1986 à Tokyo. L'entreprise est rachetée par Takara en octobre 2003, Index Holdings en novembre 2006, puis Sega Sammy Holdings en novembre 2013 en tant que filiale de Sega.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Atlus Co, Ltd (株式会社アトラス) ist ein japanisches Unternehmen für die Entwicklung, Veröffentlichung und den Vertrieb von Videospielen, das im April 1986 in Tokio gegründet wurde. Das Unternehmen wurde im Oktober 2003 von Takara, im November 2006 von Index Holdings und im November 2013 von Sega Sammy Holdings als Tochterunternehmen von Sega aufgekauft.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Atlus Co, Ltd (株式会社アトラス) es una empresa japonesa de desarrollo, publicación y distribución de videojuegos, fundada en abril de 1986 en Tokio. La empresa fue adquirida por Takara en octubre de 2003, Index Holdings en noviembre de 2006 y, posteriormente, Sega Sammy Holdings en noviembre de 2013 como filial de Sega.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Atlus Co, Ltd (株式会社アトラス) è una società giapponese di sviluppo, pubblicazione e distribuzione di videogiochi, fondata nell'aprile 1986 a Tokyo. La società è stata acquisita da Takara nell'ottobre 2003, da Index Holdings nel novembre 2006 e da Sega Sammy Holdings nel novembre 2013 come filiale di Sega.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社アトラス（株式会社アトラス）は、1986年4月に東京で設立された日本のゲーム開発・出版・販売会社である。2003年10月にタカラ、2006年11月にインデックス・ホールディングス、そして2013年11月にセガサミーホールディングスに買収され、セガの子会社となった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Atlus Co, Ltd (株式会社アトラス) is een Japans bedrijf voor de ontwikkeling, uitgave en distributie van videogames, opgericht in april 1986 in Tokio. Het bedrijf werd in oktober 2003 overgenomen door Takara, in november 2006 door Index Holdings en in november 2013 door Sega Sammy Holdings als dochteronderneming van Sega.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Atlus Co, Ltd (株式会社アトラス) to japońska firma zajmująca się tworzeniem, wydawaniem i dystrybucją gier wideo, założona w kwietniu 1986 roku w Tokio. Firma została przejęta przez Takarę w październiku 2003 roku, Index Holdings w listopadzie 2006 roku, a następnie Sega Sammy Holdings w listopadzie 2013 roku jako spółka zależna Sega.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Atlus Co, Ltd (株式会社アトラス) é uma empresa japonesa de desenvolvimento, publicação e distribuição de jogos de vídeo, fundada em Abril de 1986 em Tóquio. A empresa foi adquirida pela Takara em Outubro de 2003, pela Index Holdings em Novembro de 2006, e depois pela Sega Sammy Holdings em Novembro de 2013, como subsidiária da Sega.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Atlus Co, Ltd (株式会社アトラス) - японская компания по разработке, изданию и распространению видеоигр, основанная в апреле 1986 года в Токио. Компания была приобретена Takara в октябре 2003 года, Index Holdings в ноябре 2006 года, а затем Sega Sammy Holdings в ноябре 2013 года в качестве дочерней компании Sega.</text>
+</text>
+
+</view>
 </theme>
