@@ -19,6 +19,9 @@ Features :
 
 System View Simple
 ![Vue Simple](https://user-images.githubusercontent.com/105559045/220708495-71c14bcc-86f8-48ad-819d-4cd7df510a11.png)
+![2023-03-02 17_43_24-EmulationStation](https://user-images.githubusercontent.com/105559045/222496095-8e6ef8d6-8248-4d58-9a2a-7e5e2bb72b9c.png)
+![2023-03-02 17_40_31-EmulationStation](https://user-images.githubusercontent.com/105559045/222496123-2ae3b265-9fd9-4503-bbdb-fab4aabe0a51.png)
+
 
 System View Vertical
 ![1 vertical](https://user-images.githubusercontent.com/105559045/215271909-bde6a89f-ee0d-43ce-8e22-8de47700a031.png)
