@@ -6,14 +6,14 @@
 
 <subset.region>Région</subset.region>
 <europe>Europe</europe>
-<usa>Amérique</usa>
+<usa>USA</usa>
 <japan>Japon</japan>
 <systemViewName>Vue Système</systemViewName>
 <systemBackgroundName>Arrière-plan</systemBackgroundName>
 <systembackground.snap>Avatar animation</systembackground.snap>
 <systembackground.carboncontrol>Manettes fil de fer</systembackground.carboncontrol>
-<systembackground.randomvideo>vidéo aléatoire</systembackground.randomvideo>
-<systembackground.randombox>boîtes de jeu aléatoire</systembackground.randombox>
+<systembackground.randomvideo>Vidéo aléatoire</systembackground.randomvideo>
+<systembackground.randombox>Boîtes de jeu aléatoire</systembackground.randombox>
 <tilesViewName>Vignettes</tilesViewName>
 <iconsViewName>Icônes</iconsViewName>
 <detailedLogoViewName>Détaillé avec liste de logos</detailedLogoViewName>
@@ -24,6 +24,13 @@
 <totalGamesInfos>Total des jeux</totalGamesInfos>
 <subset.colorset>Jeux de couleurs</subset.colorset>
 <none>Aucun</none>
+<systemview.vertical>Vertical</systemview.vertical>
+<systemview.horizontal>Horizontal</systemview.horizontal>
+<systemview.wheel>Roue</systemview.wheel>
+<systemview.simple>Simple</systemview.simple>
+<cyan>Cyan</cyan>
+<orange>Orange</orange>
+<purple>Violet</purple>
 <blue>Bleu</blue>
 <red>Rouge</red>
 <green>Vert</green>

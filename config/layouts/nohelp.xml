@@ -27,13 +27,12 @@
 		
 		<!-- On repositionne les stats des vues vertical, vertical arts et simple -->
 		<text name="systemInfoEx">
-			<pos>0.03 0.725</pos>
+			<pos>0.03 0.733</pos>
 			<!-- <alignment>left</alignment> -->
 		</text>
 		
 		<text name="system_description" ifSubset="system-description:Show">
-			
-			<pos>0.055 0.755</pos>
+			<pos>0.055 0.763</pos>
 		</text>
 		
 		

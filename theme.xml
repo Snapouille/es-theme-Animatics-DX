@@ -70,7 +70,7 @@ originally based on: "carbon"
 	<user.username>Your Nickname</user.username>
 	
 	<system-description>System descriptions</system-description>
-	<system-controllers>Controller / Keyboard / Joystick</system-controllers>
+	<system-controllers>Controllers</system-controllers>
 	
 	<show>Show</show>
 	<hide>Hide</hide>
@@ -106,17 +106,17 @@ originally based on: "carbon"
 </subset>
   
   
-   <!-- Colorsets  -->
-  <subset name="colorset" displayName="${subset.colorset}">
+ <!-- Colorsets  -->
+    <subset name="colorset" displayName="${subset.colorset}">
     <include name="cyan"  displayName="${cyan}">./config/colorset/cyan.xml</include>
     <include name="blue" displayName="${blue}">./config/colorset/blue.xml</include>
-	<include name="orange"  displayName="${orange}">./config/colorset/orange.xml</include>
-	<include name="yellow" displayName="${yellow}">./config/colorset/yellow.xml</include>
+    <include name="orange"  displayName="${orange}">./config/colorset/orange.xml</include>
+    <include name="yellow" displayName="${yellow}">./config/colorset/yellow.xml</include>
     <include name="red" displayName="${red}">./config/colorset/red.xml</include>
     <include name="green" displayName="${green}">./config/colorset/green.xml</include>
-    <include name="violet"  displayName="${violet}">./config/colorset/violet.xml</include>
+    <include name="purple"  displayName="${purple}">./config/colorset/purple.xml</include>
     <include name="gray" displayName="${gray}">./config/colorset/gray.xml</include>
-  </subset>
+    </subset>
   
   
   

@@ -314,37 +314,26 @@ originally based on: "carbon"
 	<view name="system" ifSubset="SystemView:wheel">
 	
 		<image name="controllers2" extra="true">
-			
 			<pos>1.1592917 0.1</pos>	
 			<!-- <pos>0.6772917 0.09</pos>									 -->
-			
 			<maxSize>0.3 0.3</maxSize>									
-
 			<horizontalAlignment>right</horizontalAlignment>
 			<verticalAlignment>center</verticalAlignment>
-			
 			<storyboard>
 				<animation property="offsetX" to="-0.465" begin="6500" duration="1500" mode="EaseOutCubic"/>
 			</storyboard>	
-	  
 		</image>
 
-		
-		
-	
 		<text name="system_description" ifSubset="system-description:Show">
-			<pos>1.082 0.64</pos>
-
+			<pos>1.082 0.62</pos>
 			<size>0.317 0.293</size>
 			<color>FFFF00</color>
 			<autoScroll>vertical</autoScroll>
-
 			<storyboard>
 				<animation property="offsetX" to="-0.415" begin="6500" duration="1500" mode="EaseOutCubic"/>
 			</storyboard>	
-
 		</text>
-	
+		
 	</view>
 	
 	
@@ -413,15 +402,11 @@ originally based on: "carbon"
 		
 	
 		<text name="system_description" ifSubset="system-description:Show">
-			
 			<pos>0.055 0.73</pos>
-
 			<alignment>left</alignment>
-			<size>0.4 0.2</size>
+			<size>0.5 0.2</size>
 			<color>FFFF00</color>
 			<autoScroll>vertical</autoScroll>
-
-
 		</text>
 	
 	</view>
