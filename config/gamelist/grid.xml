@@ -23,8 +23,8 @@ originally based on: "carbon"
 	
    
    <imagegrid name="gamegrid">
-		 <pos>0.025 0.46</pos>
-		 <size>0.950 0.45</size>
+		 <pos>0.025 0.457</pos>
+		 <size>0.950 0.47</size>
 		 <margin>0.005 0.006</margin>
 		 <padding>0.008 0.05</padding>
 		  
@@ -50,7 +50,7 @@ originally based on: "carbon"
     <gridtile name="selected">
       <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
       <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
-      <padding>64 16</padding>
+      <padding>64 34</padding>
     </gridtile>
 	
     <text name="gridtile">
@@ -78,7 +78,22 @@ originally based on: "carbon"
          <path>./../../art/divers/favoris.png</path>
          <pos>0.06 0.95</pos>
 		 <maxSize>0.09 0.09</maxSize>									
-         <color>F3C300</color>
+         <color>f4ff1a</color>
+		 
+		
+		<storyboard repeatAt="forever">
+		
+			<animation property="scale" to="3" begin="1000" duration="500" autoreverse="true" mode="bump"/>
+			<animation property="offsetY" to="-0.08" begin="1000" duration="500" autoreverse="true" mode="bump"/>
+			
+			<animation property="rotation" to="1000" begin="6000" duration="2000" autoreverse="true" mode="easeInOut"/>
+			
+			<animation property="offsetX" to="0.03" begin="20000" duration="500" autoreverse="true" mode="bump"/>
+			
+			
+		</storyboard>
+		
+		 
       </image>
 	 
 	 

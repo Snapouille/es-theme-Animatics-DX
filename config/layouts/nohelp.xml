@@ -8,11 +8,15 @@
 		  <visible>false</visible>
 		</image>
 		
-		<!-- On repositionne les stats des vues vertical, vertical arts et simple -->
 		<text name="systemInfoEx">
 			<pos>0.07 0.725</pos>
 			<alignment>left</alignment>
 		</text>
+		
+		<text name="system_description" ifSubset="system-description:Show">
+			<pos>1.082 0.67</pos>
+		</text>
+		
 		
   </view>
   
@@ -43,7 +47,7 @@
   
   
   <!-- On repositionne la barre en bas pour la mettre tout en bas de l'écran-->
-	<view name="basic, detailed, fanart, gamecarousel, grid, video">
+	<view name="basic, detailed, fanart, grid, video">
 		<image name="bottom" extra="true">
 			  <visible>true</visible>
 			  <pos>0 1.06</pos>

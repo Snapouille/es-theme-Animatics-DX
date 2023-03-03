@@ -29,38 +29,7 @@ originally based on: "carbon"
 			<size>0.003 0.935</size>
 	</image> 
 
-	
-	
-	
-
-
-	<!-- <image name="ecran_console" extra="static"> -->
-		<!-- <pos>0.26 0.53</pos> -->
-		<!-- <scale>0.85</scale> -->
-		<!-- <path>./../../system/ecran_console-default.png</path> -->
-		<!-- <path>./../../system/${system.theme}/ecran_console.png</path> -->
-		<!-- <opacity>1</opacity> -->
-		<!-- <flipY>true</flipY> -->
-		<!-- <color>${baseColor}</color> -->
-		<!-- <zIndex>31</zIndex> -->
-			
-		<!-- <storyboard event="open"> -->
-			<!-- <animation property="y" to="0.5" begin="1000" duration="1000" mode="easeOutCubic"/> -->
-		<!-- </storyboard> -->
-			
-		<!-- <storyboard event="activate"> -->
-				<!-- <animation property="y" to="0.5" begin="500" duration="1000" mode="easeOutCubic"/> -->
-		<!-- </storyboard> -->
-			
-		<!-- <storyboard event="deactivate"> -->
-				<!-- <animation property="opacity" to="0" duration="1" mode="linear"/> -->
-		<!-- </storyboard> -->
-			
-			
-	<!-- </image> -->
-	
-	
-	<image name="ecran_consoleTEST" extra="static">
+	<image name="ecran_console" extra="static">
 		<pos>0.26 0.53</pos>
 		<maxSize>0.45 0.446</maxSize>
 		<path>./../../system/ecran_console-default.png</path>
@@ -120,7 +89,7 @@ originally based on: "carbon"
 		  <storyboard>
 			<animation property="scale" from="0" to="4" begin="" duration="300" mode="Linear"/>
 			<animation property="scale" from="4" to="0.5" begin="620" duration="175" mode="Linear"/>
-			<animation property="y" from="0.5" to="0.1" begin="620" duration="175" mode="Linear"/>
+			<animation property="y" from="0.5" to="0.15" begin="620" duration="175" mode="Linear"/>
 			<animation property="x" from="0.5" to="0.977" begin="620" duration="175" mode="Linear"/>
 			<animation property="rotation" to="90" begin="620" duration="175" mode="Linear"/>
 		  </storyboard>
@@ -180,7 +149,7 @@ originally based on: "carbon"
       <imageSource>marquee</imageSource>
       <zIndex>10</zIndex>
 	  <scrollSound>./../../art/sounds/scroll.wav</scrollSound>
-	   
+				   
     </gamecarousel>    
     
 	<text name="gamecarouselLogoText">
@@ -191,6 +160,8 @@ originally based on: "carbon"
       <glowSize>4</glowSize>
       <lineSpacing>1.0</lineSpacing>
     </text>
+	
+	
 	
 	
 	
@@ -226,55 +197,55 @@ originally based on: "carbon"
 	
 	
 		<rating name="md_rating">
-				<pos>0.976 0.26</pos>
+				<pos>0.976 0.29</pos>
 		</rating>
 	
 		<image name="md_manual,md_nomanual">
-			<pos>0.976 0.45</pos>
+			<pos>0.976 0.47</pos>
 		</image>
 		
 		<image name="ghost_manual" extra="true">
-			<pos>0.976 0.45</pos>
+			<pos>0.976 0.47</pos>
 		</image>
 	
 		<image name="md_map, md_nomap">
-			<pos>0.976 0.50</pos>
+			<pos>0.976 0.52</pos>
 		</image>
 		
 		<image name="ghost_md_map" extra="true"> 
-			<pos>0.976 0.50</pos>
+			<pos>0.976 0.52</pos>
 		</image>
 		
 		 <image name="md_savestate,md_nosavestate">
-			  <pos>0.976 0.55</pos>
+			  <pos>0.976 0.57</pos>
 		</image>
 		
 		<image name="ghost_savestate" extra="true">
-			  <pos>0.976 0.55</pos>
+			  <pos>0.976 0.57</pos>
 		</image>
 		
 		<image name="md_kidgame, md_notkidgame"> 
-			<pos>0.976 0.60</pos>
+			<pos>0.976 0.62</pos>
 		</image>
 		
 		<image name="ghost_kidgame" extra="true"> 
-			<pos>0.976 0.60</pos>
+			<pos>0.976 0.62</pos>
 		</image>
 		
 		<image name="md_cheevos,md_notcheevos">
-			<pos>0.976 0.65</pos>
+			<pos>0.976 0.67</pos>
 		</image>
 		
 		<image name="ghost_cheevos" extra="true">
-			<pos>0.976 0.65</pos>
+			<pos>0.976 0.67</pos>
 		</image>
     
 		<image name="md_hidden">
-			<pos>0.976 0.70</pos>
+			<pos>0.976 0.72</pos>
 		</image>
 		
 		<image name="ghost_hidden" extra="true">
-			<pos>0.976 0.70</pos>
+			<pos>0.976 0.72</pos>
 		</image>
 		
 		
