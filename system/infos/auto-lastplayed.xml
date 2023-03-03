@@ -4,35 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>A list of the last 50 games you played. It might be time to consider finishing them, what do you think?</text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text>Une liste des 50 derniers jeux auxquels vous avez joué. Il serait peut-être temps de considérer de les finir, qu'en pensez-vous ?</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>A list of the last 50 games you played. It might be time to consider finishing them, right?</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Eine Liste der letzten 50 Spiele, die Sie gespielt haben. Vielleicht wäre es an der Zeit, in Erwägung zu ziehen, sie zu beenden. Was denken Sie?</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Una lista de los últimos 50 juegos que has jugado. Quizá sea hora de plantearse terminarlos, ¿eh?</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Una lista de los últimos 50 juegos a los que has jugado. Puede que sea el momento de plantearse terminarlos, ¿qué te parece?</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>Une liste des 50 derniers jeux auxquels vous avez joué. Il serait peut-être temps de considérer de les finir, non ?
+<text name="system_description" extra="true" lang="it">
+<text>Un elenco degli ultimi 50 giochi a cui avete giocato. Potrebbe essere il momento di pensare di finirli, cosa ne pensate?</text>
+</text>
 
-Personne ne me traite de mauviette !</text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text>最近遊んだゲーム50本のリスト。そろそろ終了を検討する時期かもしれませんが、どうでしょうか？</text>
+</text>
 
-			    <text name="system_description" extra="true" lang="pt" >
-			<text>Uma lista dos últimos 50 jogos que jogou. Talvez seja altura de considerar terminá-los, eh?</text>
-		</text>
+<text name="system_description" extra="true" lang="nl">
+<text>Een lijst van de laatste 50 spellen die je gespeeld hebt. Het is misschien tijd om te overwegen ze af te maken, wat denk je?</text>
+</text>
 
-		
+<text name="system_description" extra="true" lang="pl">
+<text>Lista ostatnich 50 gier, w które grałeś. Może czas rozważyć ich ukończenie, co o tym sądzicie?</text>
+</text>
 
+<text name="system_description" extra="true" lang="pt">
+<text>Uma lista dos últimos 50 jogos que jogou. Talvez seja altura de considerar terminá-los, o que pensa?</text>
+</text>
 
+<text name="system_description" extra="true" lang="ru">
+<text>Список последних 50 игр, в которые вы играли. Возможно, пришло время подумать о том, чтобы закончить их, что вы думаете?</text>
+</text>
 
-				
-
-	</view>
+</view>
 </theme>
+

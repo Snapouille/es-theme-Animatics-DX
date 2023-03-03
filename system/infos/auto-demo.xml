@@ -4,25 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>Auto gamelist. Fragment or limited version of a video game distributed by its own publisher, usually free of charge, in order to publicize the main features of the game and promote it among players.</text>
+</text>
 
-Fragment or limited version of a video game distributed by its own publisher, usually free of charge, in order to publicize the main features of the game and promote it among players.
-			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Auto gamelist. Fragment ou version limitée d'un jeu vidéo distribué par son propre éditeur, généralement gratuitement, afin de faire connaître les principales caractéristiques du jeu et de le promouvoir auprès des joueurs.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Auto Gamelist. Fragment oder eingeschränkte Version eines Videospiels, das von seinem eigenen Herausgeber in der Regel kostenlos verteilt wird, um die Hauptmerkmale des Spiels bekannt zu machen und es bei den Spielern zu bewerben.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>Auto gamelist. Fragmento o versión limitada de un videojuego distribuido por su propio editor, normalmente de forma gratuita, con el fin de dar a conocer las principales características del juego y promocionarlo entre los jugadores.</text>
+</text>
 
-Fragmento o versión limitada de un videojuego distribuído por la propia editora del mismo, normalmente de manera gratuíta, con el fin de dar a conocer las características principales del juego y promocionarlo entre los jugadores.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>Auto gamelist. Frammento o versione limitata di un videogioco distribuito dal proprio editore, di solito gratuitamente, per pubblicizzare le caratteristiche principali del gioco e promuoverlo tra i giocatori.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>オートゲーメリスト。ゲームの主な特徴を公表し、プレイヤーの間で宣伝するために、自社のパブリッシャーが配布するビデオゲームの断片または限定バージョンで、通常は無料で提供される。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Auto gamelist. Fragment of beperkte versie van een videospel dat door de eigen uitgever wordt verspreid, meestal gratis, om de belangrijkste kenmerken van het spel bekend te maken en het te promoten onder de spelers.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Auto gamelist. Fragment lub ograniczona wersja gry wideo rozpowszechniana przez własnego wydawcę, zwykle bezpłatnie, w celu upublicznienia głównych cech gry i jej promocji wśród graczy.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista automática de jogos. Fragmento ou versão limitada de um jogo de vídeo distribuído pela sua própria editora, geralmente gratuito, a fim de divulgar as principais características do jogo e promovê-lo entre os jogadores.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Автогеймлист. Фрагмент или ограниченная версия видеоигры, распространяемая ее собственным издателем, обычно бесплатно, с целью рекламы основных особенностей игры и продвижения ее среди игроков.</text>
+</text>
+
+</view>
 </theme>
+

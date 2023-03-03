@@ -4,32 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Ahead of its time, the PC-Engine (PCエンジン), known as the TurboGrafx-16 in North America, is an 8-bit video game console with a 16-bit graphics processor. Outside of its native country and North American territory, the console line has had a relatively low-profile existence, with little or no distribution. </text>
+</text>
 
-		
-		<text name="system_description" extra="true">
-			<text>TurboGrafx-16 (PC Engine) is a home video game console jointly developed by Hudson Soft and NEC Home Electronics, released in Japan on October 30, 1987 and in the United States on August 29, 1989.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>PC Engine es una videoconsola que fue lanzada primeramente en Japón por NEC el 30 de octubre de 1987. El sistema fue lanzado en el mercado norteamericano a finales de agosto de 1989 con el nombre de TurboGrafx-16.</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="fr">
-			<text>PC-Engine (PCエンジン, Piishii Enjin?), connue sous le nom TurboGrafx-16 en Amérique du Nord, est une console de jeux vidéo 8 bits fabriquée par NEC Corporation et commercialisée à partir de 1987 au Japon.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>En avance sur son temps, la PC-Engine (PCエンジン), connue sous le nom TurboGrafx-16 en Amérique du Nord, est une console de jeux vidéo 8 bits avec un processeur graphique 16 bits. En dehors de son pays natal et du territoire nord-américain, la gamme de consoles a connu une existence relativement confidentielle, car peu ou pas distribuée. </text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console de videogame lançado em 1987 pela NEC e Hudson Soft. Após seu lançamento no Japão e sua aceitação nesse país, foi lançado em 1988 nos Estados Unidos batizado de Turbo Grafx-16.</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="de">
+<text>Die ihrer Zeit vorausgehende PC-Engine (PCエンジン), in Nordamerika unter dem Namen TurboGrafx-16 bekannt, ist eine 8-Bit-Videospielkonsole mit einem 16-Bit-Grafikprozessor. Außerhalb ihres Heimatlandes und Nordamerikas fristete die Konsolenreihe ein relativ vertrauliches Dasein, da sie kaum oder gar nicht vertrieben wurde.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>Adelantada a su tiempo, la PC-Engine (PCエンジン), conocida como TurboGrafx-16 en Norteamérica, es una videoconsola de 8 bits con un procesador gráfico de 16 bits. Fuera de su país natal y del territorio norteamericano, la línea de consolas ha tenido una existencia de perfil relativamente bajo, con escasa o nula distribución. </text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>In anticipo sui tempi, il PC-Engine (PCエンジン), noto come TurboGrafx-16 in Nord America, è una console per videogiochi a 8 bit con processore grafico a 16 bit. Al di fuori del suo paese natale e del territorio nordamericano, la linea di console ha avuto un'esistenza relativamente di basso profilo, con una distribuzione scarsa o nulla.</text>
+</text>
 
+<text name="system_description" extra="true" lang="ja">
+<text>PC-Engine（PCエンジン）は、北米ではTurboGrafx-16と呼ばれ、16ビットグラフィックプロセッサを搭載した8ビットビデオゲーム機として、時代を先取りしています。母国と北米の領域以外では、このゲーム機ラインはほとんど流通しておらず、比較的地味な存在であった。</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>De PC-Engine (PCエンジン), in Noord-Amerika bekend als de TurboGrafx-16, was zijn tijd ver vooruit en is een 8-bit videospelconsole met een 16-bit grafische processor. Buiten zijn geboorteland en Noord-Amerika heeft de console-lijn een relatief low-profile bestaan gehad, met weinig of geen distributie. </text>
+</text>
 
+<text name="system_description" extra="true" lang="pl">
+<text>Wyprzedzająca swoje czasy PC-Engine (PCエンジン), znana jako TurboGrafx-16 w Ameryce Północnej, to 8-bitowa konsola do gier wideo z 16-bitowym procesorem graficznym. Poza rodzimym krajem i terytorium Ameryki Północnej, linia konsoli miała stosunkowo mało prestiżową egzystencję, z niewielką lub żadną dystrybucją. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>À frente do seu tempo, o PC-Engine (PCエンジン), conhecido como TurboGrafx-16 na América do Norte, é uma consola de videojogos de 8 bits com um processador gráfico de 16 bits. Fora do seu país de origem e do território norte-americano, a linha de consola tem tido uma existência relativamente pouco visível, com pouca ou nenhuma distribuição. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Опередив свое время, PC-Engine (PCエンジン), известная в Северной Америке как TurboGrafx-16, является 8-битной игровой консолью с 16-битным графическим процессором. За пределами своей родины и Северной Америки эта линейка консолей вела относительно скромное существование, практически не распространяясь. </text>
+</text>
+
+</view>
 </theme>
+

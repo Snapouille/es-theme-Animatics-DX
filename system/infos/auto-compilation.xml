@@ -4,24 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>Packs of two or more previously released video games (usually bestsellers) in a later edition at a lower price.</text>
+</text>
 
-Packs of two or more previously released video games (usually bestsellers) in a later edition at a lower price.			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Packs de deux ou plusieurs jeux vidéo sortis précédemment (généralement des best-sellers) dans une édition ultérieure à un prix inférieur.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Packungen mit zwei oder mehr bereits veröffentlichten Videospielen (in der Regel Bestseller) in einer späteren Ausgabe zu einem niedrigeren Preis.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>Packs de dos o más videojuegos lanzados anteriormente (normalmente superventas) en una edición posterior a un precio inferior.</text>
+</text>
 
-Packs de dos o más videojuegos lanzados anteriormente (normalmente éxitos en ventas) en una edición posterior y a un precio más ajustado.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>Pacchetti di due o più videogiochi precedentemente pubblicati (di solito bestseller) in un'edizione successiva a un prezzo inferiore.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>過去に発売されたビデオゲーム（通常はベストセラー）を2本以上、後日廉価版としてパッケージ化したもの。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Pakketten van twee of meer eerder uitgebrachte videospellen (meestal bestsellers) in een latere uitgave tegen een lagere prijs.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Pakiety dwóch lub więcej wcześniej wydanych gier wideo (zwykle bestsellerów) w późniejszym wydaniu po niższej cenie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Pacotes de dois ou mais jogos de vídeo lançados anteriormente (geralmente best-sellers) numa edição posterior a um preço mais baixo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Пакеты из двух или более ранее выпущенных видеоигр (обычно бестселлеров) в более позднем издании по более низкой цене.</text>
+</text>
+
+</view>
 </theme>
+

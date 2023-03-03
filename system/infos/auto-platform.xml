@@ -4,25 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>A subgenre of action games, they are characterized by a level design featuring uneven terrain and suspended platforms of varying heights, which requires the use of the player character's abilities, such as jumping and climbing, to navigate the environment and achieve its objective.</text>
+</text>
 
-A platform game (often simplified as platformer or jump 'n' run games) is a video game genre and subgenre of action games in which the core objective is to move the player character between points in a rendered environment. Platform games are characterized by their level design featuring uneven terrain and suspended platforms of varying height that requires use of the player character's abilities, such as jumping and climbing, to navigate the player's environment and reach their goal. 
-			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Sous-genre de jeu d'action, ils se caractérisent par une conception de niveau comportant un terrain irrégulier et des plates-formes suspendues de hauteur variable, qui nécessite l'utilisation des capacités du personnage du joueur, comme le saut et l'escalade, pour naviguer dans l'environnement et atteindre son objectif.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Untergattung der Actionspiele, sie zeichnen sich durch ein Leveldesign mit unregelmäßigem Gelände und hängenden Plattformen unterschiedlicher Höhe aus, das den Einsatz von Fähigkeiten der Spielerfigur wie Springen und Klettern erfordert, um durch die Umgebung zu navigieren und das Ziel zu erreichen.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>Subgénero de los juegos de acción, se caracterizan por un diseño de niveles con terreno irregular y plataformas suspendidas de distintas alturas, que requiere el uso de las habilidades del personaje del jugador, como saltar y trepar, para recorrer el entorno y alcanzar su objetivo.</text>
+</text>
 
-Género de habilidad donde el jugador controla un personaje que debe avanzar a través de un escenario superando diversos obstáculos y enemigos mediante saltos, rebotes, balanceos y en general todo tipo de movimientos acrobáticos, a veces potenciados o ayudados por elementos del propio entorno u objetos especiales que debe recoger.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>Sottogenere dei giochi d'azione, sono caratterizzati da un design dei livelli caratterizzato da terreni irregolari e piattaforme sospese di altezza variabile, che richiede l'uso delle abilità del giocatore, come il salto e l'arrampicata, per navigare nell'ambiente e raggiungere l'obiettivo.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>アクションゲームの亜流で、凹凸のある地形や高さの異なる吊り下げ式のプラットフォームが特徴的なレベルデザインで、プレイヤーキャラクターがジャンプやクライミングなどの能力を駆使して環境を移動し、目的を達成することが要求されるゲームです。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Dit subgenre van actiegames wordt gekenmerkt door een levelontwerp met oneffen terrein en hangende platforms van verschillende hoogte, waarbij de vaardigheden van de speler, zoals springen en klimmen, moeten worden gebruikt om door de omgeving te navigeren en het doel te bereiken.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Podgatunek gier akcji, charakteryzują się projektem poziomu zawierającym nierówny teren i zawieszone platformy o różnej wysokości, co wymaga użycia umiejętności postaci gracza, takich jak skoki i wspinaczka, aby poruszać się po środowisku i osiągnąć swój cel.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Um sub-género de jogos de acção, caracterizam-se por um desenho de nível com terreno irregular e plataformas suspensas de diferentes alturas, o que requer a utilização das capacidades do personagem jogador, tais como saltar e escalar, para navegar no ambiente e alcançar o seu objectivo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Поджанр экшн-игр, для них характерен дизайн уровней с неровным рельефом и подвесными платформами разной высоты, что требует использования способностей персонажа игрока, таких как прыжки и лазание, для перемещения по окружению и достижения цели.</text>
+</text>
+
+</view>
 </theme>
+

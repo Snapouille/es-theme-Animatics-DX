@@ -4,28 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
+<text name="system_description" extra="true">
+<text>Automatic game list. Got an itchy trigger finger? Then you've come to the right place to satisfy your cravings!</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>An automatic list of all Light Gun compatible games available on the system.</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="es" >
-			<text>Una lista de todos los juegos compatibles con pistolas disponibles en el sistema.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Une liste de tous les jeux compatibles avec Ligh Guns disponibles sur le système.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Liste de jeux automatique. Vous avez la gâchette qui démange ? Alors vous êtes au bon endroit pour satisfaire vos envies !</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Uma lista automática de todos os jogos compatíveis com Light Guns disponíveis no sistema. </text>
-		</text>
-		
-		
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Automatische Liste von Spielen. Juckt es Sie in den Fingern, den Abzug zu betätigen? Dann sind Sie hier genau richtig, um Ihre Lust zu befriedigen!</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Lista automática de juegos. ¿Le pica el dedo en el gatillo? Entonces ha venido al lugar adecuado para satisfacer sus ansias.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Elenco automatico dei giochi. Vi prude il dito del grilletto? Allora siete nel posto giusto per soddisfare le vostre voglie!</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>自動ゲームリスト。トリガーフィンガーが痒い？それなら、あなたの欲求を満たすために正しい場所に来たんだ!</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Automatische spelletjeslijst. Heb je een jeukende vinger? Dan ben je op de juiste plaats om je verlangens te bevredigen!</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Automatyczna lista gier. Masz swędzący palec u nogi? W takim razie trafiłeś we właściwe miejsce, aby zaspokoić swoje pragnienia!</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista de jogos automática. Tem comichão no dedo do gatilho? Então veio ao lugar certo para satisfazer os seus desejos!</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Автоматический список игр. У вас чешется палец? Тогда вы пришли в правильное место, чтобы удовлетворить свои желания!</text>
+</text>
+
+</view>
 </theme>
+

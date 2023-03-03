@@ -4,25 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>Auto gamelist. An adventure game is a video game in which the player assumes the role of a protagonist in an interactive story driven by exploration and/or puzzle-solving.</text>
+</text>
 
-An adventure game is a video game in which the player assumes the role of a protagonist in an interactive story driven by exploration and/or puzzle-solving
-			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Liste de jeux automatique. Un jeu d'aventure est un jeu vidéo dans lequel le joueur joue le rôle du protagoniste d'une histoire interactive basée sur l'exploration et/ou la résolution d'énigmes.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Auto-Gameliste. Ein Abenteuerspiel ist ein Videospiel, in dem der Spieler die Rolle eines Protagonisten in einer interaktiven Geschichte übernimmt, die durch Erkundung und/oder das Lösen von Rätseln vorangetrieben wird.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>Auto gamelist. Un juego de aventuras es un videojuego en el que el jugador asume el papel de un protagonista en una historia interactiva impulsada por la exploración y/o la resolución de puzles.</text>
+</text>
 
-Estos juegos se caracterizan por la exploración, la investigación, la resolución de puzzles, la interacción con personajes y el avance de manera lineal y centrado en la trama del juego.			
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>Elenco automatico dei giochi. Un gioco di avventura è un videogioco in cui il giocatore assume il ruolo di protagonista in una storia interattiva guidata dall'esplorazione e/o dalla risoluzione di enigmi.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>自動ゲームリスト。アドベンチャーゲームとは、プレイヤーが主人公となり、探索や謎解きによって進められるインタラクティブなストーリーを楽しむビデオゲームのことです。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Auto gamelist. Een avonturenspel is een videospel waarin de speler de rol aanneemt van een hoofdpersoon in een interactief verhaal, gedreven door exploratie en/of het oplossen van puzzels.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Auto gamelist. Gra przygodowa to gra wideo, w której gracz przyjmuje rolę bohatera w interaktywnej historii napędzanej eksploracją i/lub rozwiązywaniem zagadek.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista automática de jogos. Um jogo de aventura é um videojogo em que o jogador assume o papel de protagonista numa história interactiva impulsionada pela exploração e/ou resolução de puzzles.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Автоматический список игр. Приключенческая игра - это видеоигра, в которой игрок берет на себя роль главного героя в интерактивной истории, движимой исследованием и/или решением головоломок.</text>
+</text>
+
+</view>
 </theme>
+

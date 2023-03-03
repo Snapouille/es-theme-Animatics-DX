@@ -4,28 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Here you can find all your available games. That's a bit much, isn't it?</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Ici vous allez pouvoir retrouver tout vos jeux disponible. Ça fait un peu beaucoup, non ?</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Hier findest du alle deine verfügbaren Spiele. Das ist ein bisschen viel, oder?</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Aquí puedes encontrar todos los juegos disponibles. Es demasiado, ¿no?</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Qui potete trovare tutti i giochi disponibili. È un po' troppo, vero?</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>ここでは、利用可能なすべてのゲームを見つけることができます。ちょっと多すぎませんかね？</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Hier vind je al je beschikbare spellen. Dat is een beetje veel, hè?</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Tutaj możesz znaleźć wszystkie swoje dostępne gry. To trochę dużo, prawda?</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Aqui pode encontrar todos os seus jogos disponíveis. Isso é um pouco demais, não é?</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Здесь вы можете найти все доступные вам игры. Многовато, не правда ли?</text>
+</text>
+
+</view>
 </theme>
+

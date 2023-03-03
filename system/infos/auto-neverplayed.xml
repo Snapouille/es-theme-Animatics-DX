@@ -4,33 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>But why? Fear? Lack of time? Make an effort to narrow down this list anyway!</text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text>Mais pourquoi ? La peur ? Le manque de temps ? Faites un effort pour diminuez cette liste tout de même !</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Aber warum ist das so? Aus Angst? Mangel an Zeit? Geben Sie sich Mühe, diese Liste trotzdem zu verkürzen!</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Pero, ¿por qué? ¿Por miedo? ¿Falta de tiempo? De todos modos, ¡haga un esfuerzo por reducir la lista!</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Ma perché? Paura? Mancanza di tempo? Sforzatevi comunque di restringere l'elenco!</text>
+</text>
 
-			    <text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text>でも、なぜ？恐怖心か？時間がないのか？とにかくこのリストを絞り込む努力をしましょう!</text>
+</text>
 
-		
+<text name="system_description" extra="true" lang="nl">
+<text>Maar waarom? Angst? Tijdgebrek? Doe toch een poging om deze lijst in te korten!</text>
+</text>
 
+<text name="system_description" extra="true" lang="pl">
+<text>Ale dlaczego? Strach? Brak czasu? Podejmij wysiłek, by mimo wszystko zawęzić tę listę!</text>
+</text>
 
+<text name="system_description" extra="true" lang="pt">
+<text>Mas porquê? Medo? Falta de tempo? Faça um esforço para reduzir esta lista de qualquer maneira!</text>
+</text>
 
-				
+<text name="system_description" extra="true" lang="ru">
+<text>Но почему? Страх? Нехватка времени? Все равно сделайте усилие, чтобы сузить этот список!</text>
+</text>
 
-	</view>
+</view>
 </theme>
+

@@ -4,26 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>Automatic game list. Do people really play this?</text>
+</text>
 
-In this type of video game the player basically fishes or hunts. Usually they take the form of tournaments and many have a wide variety of places to catch and collect the largest number of pieces.			
-	</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Liste de jeux automatique. Il y a vraiment des gens qui jouent à ça ?</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Automatische Liste von Spielen. Gibt es wirklich Leute, die das spielen?</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>Lista automática de juegos. ¿De verdad juega la gente a esto?</text>
+</text>
 
-En este tipo de videojuegos el jugador basicamente pesca o caza. En general suelen adoptar la forma de torneos y muchos cuentan con una amplia variedad de lugares en los que atrapar y coleccionar el mayor numero de piezas.
-	</text>
-		</text>
-	
+<text name="system_description" extra="true" lang="it">
+<text>Elenco automatico dei giochi. Ma la gente ci gioca davvero?</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>自動ゲームリスト。これ、本当にみんなプレイしてるの？</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Automatische spelletjeslijst. Spelen mensen dit echt?</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Automatyczna lista gier. Czy ludzie naprawdę w to grają?</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista de jogos automática. Será que as pessoas jogam mesmo isto?</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Автоматический список игр. Неужели люди действительно играют в это?</text>
+</text>
+
+</view>
 </theme>
+

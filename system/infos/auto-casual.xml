@@ -4,25 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-			<text name="system_description" extra="true" >
-				<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>Automatic game list. A simple game that does not require much skill or dedication from the player. Not really for the hardcore gamer, more for family fun.</text>
+</text>
 
-Simple game that does not require great skill or great dedication on the part of the player.
-				</text>
-			</text>
-			
-	
-	
-		<text name="system_description" extra="true" lang="es">
-			<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="fr">
+<text>Liste de jeux automatique. Un jeu simple qui ne demande pas beaucoup d'habileté ou de dévouement de la part du joueur. Il n'est pas vraiment destiné aux joueurs invétérés, mais plutôt aux familles.</text>
+</text>
 
-Juego sencillo, que no requiere de gran habilidad ni de gran dedicación por parte del jugador.
-			</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Automatische Spielliste. Ein einfaches Spiel, das dem Spieler nicht viel Geschick oder Hingabe abverlangt. Nicht wirklich für den Hardcore-Gamer, mehr für die Familie Spaß.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Lista automática de juegos. Un juego sencillo que no requiere mucha habilidad ni dedicación por parte del jugador. No es realmente para el jugador hardcore, más para la diversión familiar.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Elenco automatico dei giochi. Un gioco semplice che non richiede molta abilità o dedizione da parte del giocatore. Non è adatto ai giocatori più accaniti, ma è più adatto al divertimento della famiglia.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>自動ゲームリスト。プレイヤーのスキルや献身をあまり必要としない、シンプルなゲームです。ハードコアゲーマー向けではなく、家族で楽しむのに適しています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Automatische spellijst. Een eenvoudig spel dat niet veel vaardigheid of toewijding van de speler vraagt. Niet echt voor de hardcore gamer, meer voor familieplezier.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Automatyczna lista gier. Prosta gra, która nie wymaga od gracza dużych umiejętności ani poświęcenia. Raczej nie dla hardcorowego gracza, bardziej do rodzinnej zabawy.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista de jogos automática. Um jogo simples que não requer muita habilidade ou dedicação por parte do jogador. Não realmente para o jogador hardcore, mais para diversão familiar.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Автоматический список игр. Простая игра, которая не требует от игрока большого мастерства или самоотверженности. Не совсем для хардкорных геймеров, скорее для семейного развлечения.</text>
+</text>
+
+</view>
 </theme>
+

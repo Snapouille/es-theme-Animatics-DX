@@ -4,24 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.</text>
-		</text>
-		
+<text name="system_description" extra="true">
+<text>Auto gamelist. You felt like a little fight ? You are at the right place :)</text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text>Auto gamelist. Vous aviez envie d'un petit coup de castagne ? Vous êtes au bon endroit :)</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="de">
+<text>Auto gamelist. Sie hatten Lust auf einen kleinen Kampf? Dann sind Sie hier richtig :)</text>
+</text>
 
-Subgénero de los juegos de acción donde el jugador se enfrenta contra otros pesonajes, normalmente en combates de uno contra uno y controlados por la máquina o por otro jugador humano. En este género cada personaje cuenta con una gran cantidad de movimientos distintos, que son encadenables entre sí mediante combos.
-			
-Aunque a menudo el término se intercambia con el de Beat'em Up, por lo general los juegos de lucha son exclusivamente aquellos donde el combate es uno contra uno, y no uno contra varios. 
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="es">
+<text>Auto gamelist. ¿Tienes ganas de pelea? Has venido al lugar adecuado :)</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Lista di gioco automatica. Avete voglia di litigare un po'? Siete nel posto giusto :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>オートゲーマーリスト。ちょっと戦いたい気分？あなたは正しい場所に来ている :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Auto gamelist. Heb je zin in een robbertje vechten? Dan ben je op de juiste plaats :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Auto gamelist. Miałeś ochotę na małą walkę? Trafiłeś w odpowiednie miejsce :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista automática de jogos. Apeteceu-lhe um pouco de luta? Veio ao lugar certo :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Автоматический геймлист. Вам захотелось немного подраться? Вы пришли по адресу :)</text>
+</text>
+
+</view>
 </theme>
+

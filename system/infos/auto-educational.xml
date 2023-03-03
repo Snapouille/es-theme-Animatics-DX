@@ -4,24 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true">
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>List of automatic games. An educational video game provides players with learning or training value. Very popular with parents who still hope to do something with their offspring.</text>
+</text>
 
-An educational video game is a video game that provides learning or training value to the player. Edutainment describes an intentional merger of video games and educational software into a single product (and could therefore also comprise more serious titles sometimes described under children's learning software).
-			</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Liste de jeux automatique. Un jeu vidéo éducatif offre aux joueurs une valeur d'apprentissage ou de formation. Très prisée des parents qui espèrent encore pouvoir faire quelque chose de leurs rejetons.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Liste von automatischen Spielen. Ein Lernvideospiel bietet den Spielern einen Lern- oder Ausbildungswert. Beliebt bei Eltern, die noch hoffen, mit ihren Sprösslingen etwas anfangen zu können.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>Lista de juegos automáticos. Un videojuego educativo ofrece a los jugadores un valor de aprendizaje o formación. Muy popular entre los padres que aún esperan hacer algo con sus hijos.</text>
+</text>
 
-Un videojuego educativo es un material multimedia interactivo por medio del que se puede aprender uno o varios temas. La idea ha tomado fuerza en el siglo XXI bajo diversos términos como Game-Based Learning, edutainment o applied games. 
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>Elenco dei giochi automatici. Un videogioco educativo offre ai giocatori un valore di apprendimento o di formazione. Molto popolare tra i genitori che sperano ancora di fare qualcosa con i propri figli.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>自動ゲーム一覧。教育用ビデオゲームは、プレイヤーに学習やトレーニングの価値を提供するものです。子供と一緒に何かをすることを望む親に非常に人気がある。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Lijst van automatische spelletjes. Een educatief videospel biedt spelers een leer- of trainingswaarde. Zeer populair bij ouders die nog iets met hun kinderen willen doen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Lista gier automatycznych. Edukacyjna gra wideo oferuje graczom wartość edukacyjną lub szkoleniową. Bardzo popularna wśród rodziców, którzy wciąż mają nadzieję, że zrobią coś ze swoimi dziećmi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista de jogos automáticos. Um jogo de vídeo educativo oferece aos jogadores um valor de aprendizagem ou formação. Muito popular entre pais que ainda esperam fazer algo com os seus filhos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Список автоматических игр. Образовательная видеоигра предлагает игрокам обучающую или тренировочную ценность. Очень популярна среди родителей, которые все еще надеются чем-то занять своих детей.</text>
+</text>
+
+</view>
 </theme>
+

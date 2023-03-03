@@ -4,25 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>Automatic game list. Slots, roulette, cards or any other type of casino game suitable for screens. Be careful not to spend too much money.</text>
+</text>
 
-Slots, roulette, cards or any other type of casino game adapted to screens.
-			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Liste de jeux automatique. Machines à sous, roulette, cartes ou tout autre type de jeu de casino adapté aux écrans. Attention de pas dépenser trop d'argent.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Automatische Liste der Spiele. Spielautomaten, Roulette, Karten oder jede andere Art von Casinospielen, die für Bildschirme geeignet sind. Achten Sie darauf, dass Sie nicht zu viel Geld ausgeben.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>Lista automática de juegos. Tragaperras, ruleta, cartas o cualquier otro tipo de juego de casino apto para pantallas. Tenga cuidado de no gastar demasiado dinero.</text>
+</text>
 
-Tragaperras, ruleta, cartas o cualquier otro tipo de juego de casino adaptado a la pantalla.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>Elenco automatico dei giochi. Slot machine, roulette, carte o qualsiasi altro tipo di gioco da casinò adatto agli schermi. Attenzione a non spendere troppo denaro.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>自動ゲームリスト。スロット、ルーレット、カードなど、スクリーンに適したカジノゲーム。お金を使いすぎないように注意しましょう。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Automatische spellijst. Gokkasten, roulette, kaarten of elk ander soort casinospel dat geschikt is voor schermen. Pas op dat je niet te veel geld uitgeeft.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Automatyczna lista gier. Sloty, ruletka, karty lub jakikolwiek inny rodzaj gry kasynowej nadający się na ekrany. Uważaj, aby nie wydać zbyt dużo pieniędzy.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista de jogos automática. Caça-níqueis, roleta, cartas ou qualquer outro tipo de jogo de casino adequado para ecrãs. Tenha cuidado para não gastar demasiado dinheiro.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Автоматический список игр. Слоты, рулетка, карты или любой другой вид игры казино, подходящий для экранов. Будьте осторожны, чтобы не потратить слишком много денег.</text>
+</text>
+
+</view>
 </theme>
+

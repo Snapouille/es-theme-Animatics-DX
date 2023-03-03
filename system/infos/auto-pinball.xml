@@ -4,25 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-	
-The simulation of pinball machines has been a popular theme in video games since the beginning of the industry, with titles such as Gee Bee (1978), Cutie Q (1979) or Video Pinball (1980).
-			</text>
-		</text>
-		
+<text name="system_description" extra="true">
+<text>If you know how to make forks and tilts don't scare you, you're in the right place.</text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text>Si vous savez faire des fourchettes et que les tilts ne vous font pas peur, vous êtes au bon endroit.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="de">
+<text>Wenn Sie wissen, wie man Gabeln herstellt und vor Tilsiter keine Angst haben, sind Sie hier richtig.</text>
+</text>
 
-El pinball, flipper, petacos, pinbola, pimbola, pímbol, pímbolo, pichilín, balompín, millonseta o milloncete. La simulación de máquinas pinball ha sido una temática popular en los videojuegos desde los inicios de la industria, con titulos como Gee Bee (1978), Cutie Q (1979) o Video Pinball (1980)
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="es">
+<text>Si sabe hacer horquillas y no le asustan las inclinaciones, ha llegado al lugar adecuado.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Se sapete fare le forchette e non avete paura dei ribaltamenti, siete nel posto giusto.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>フォークの作り方を知っていて、ティルトに抵抗がない人なら</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Als je weet hoe je vorken moet maken en niet bang bent voor kantelen, ben je hier aan het juiste adres.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Jeśli umiesz robić widły i nie boisz się przechyłów, to dobrze trafiłeś.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Se souber fazer garfos e não tiver medo de inclinação, veio ao sítio certo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Если вы умеете делать вилки и не боитесь наклонов, вы пришли по адресу.</text>
+</text>
+
+</view>
 </theme>
+

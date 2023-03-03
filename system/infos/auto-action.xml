@@ -4,28 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>Auto gamelist. An action game is a video game genre that emphasizes physical challenges, including hand-eye coordination and reaction-time. The genre includes a large variety of sub-genres, such as fighting games, beat 'em ups, shooter games, and platform games.</text>
+</text>
 
-An action game is a video game genre that emphasizes physical challenges, including hand-eye coordination and reaction-time. The genre includes a large variety of sub-genres, such as fighting games, beat 'em ups, shooter games, and platform games.
+<text name="system_description" extra="true" lang="fr">
+<text>Liste de jeux automatique. Un jeu d'action est un genre de jeu vidéo qui met l'accent sur les défis physiques, notamment la coordination main-œil et le temps de réaction. Le genre comprend une grande variété de sous-genres, tels que les jeux de combat, les beat 'em ups, les jeux de tir et les jeux de plateforme.</text>
+</text>
 
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Auto-Gameliste. Ein Actionspiel ist ein Videospielgenre, das körperliche Herausforderungen wie Hand-Augen-Koordination und Reaktionszeit in den Vordergrund stellt. Das Genre umfasst eine Vielzahl von Untergenres, wie Kampfspiele, Beat 'em ups, Shooter und Plattformspiele.</text>
+</text>
 
-			</text>
-		
+<text name="system_description" extra="true" lang="es">
+<text>Auto gamelist. Un juego de acción es un género de videojuegos que hace hincapié en los desafíos físicos, como la coordinación mano-ojo y el tiempo de reacción. El género incluye una gran variedad de subgéneros, como juegos de lucha, beat 'em ups, juegos de disparos y juegos de plataformas.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>Elenco dei giochi d'azione. Un gioco d'azione è un genere di videogiochi che enfatizza le sfide fisiche, tra cui la coordinazione occhio-mano e il tempo di reazione. Il genere comprende una grande varietà di sottogeneri, come i giochi di combattimento, i beat 'em up, gli sparatutto e i giochi di piattaforma.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="ja">
+<text>オートゲーメリスト。アクションゲームとは、手と目の連携や反応時間など、身体的な挑戦を重視するビデオゲームのジャンルです。このジャンルには、格闘ゲーム、ビート・エム・アップ、シューティングゲーム、プラットフォームゲームなど、多種多様なサブジャンルがあります。</text>
+</text>
 
-Género que se caracteriza porque el jugador debe hacer uso de su velocidad, destreza en el control y tiempo de reacción para avanzar. Se trata de un género muy amplio que abarca los juegos de disparos, los juegos de lucha y que da lugar a hibridaciones con casi cualquier otro tipo de género.			
+<text name="system_description" extra="true" lang="nl">
+<text>Auto gamelist. Een actiespel is een videogamegenre dat de nadruk legt op fysieke uitdagingen, zoals hand-oogcoördinatie en reactietijd. Het genre omvat een groot aantal subgenres, zoals vechtspellen, beat 'em ups, schietspellen en platformspellen.</text>
+</text>
 
-	</text>
-	</text>
+<text name="system_description" extra="true" lang="pl">
+<text>Auto gamelist. Gra akcji to gatunek gier wideo, który podkreśla fizyczne wyzwania, w tym koordynację ręka-oko i czas reakcji. Gatunek ten obejmuje wiele różnych podgatunków, takich jak gry walki, beat 'em ups, strzelanki i gry platformowe.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pt">
+<text>Lista automática de jogos. Um jogo de acção é um género de videojogo que enfatiza os desafios físicos, incluindo a coordenação mão-olho e o tempo de reacção. O género inclui uma grande variedade de subgéneros, tais como jogos de luta, jogos de tiros, e jogos de plataforma.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Автоматический игровой список. Экшн-игра - это жанр видеоигр, в котором особое внимание уделяется физическим нагрузкам, включая координацию движений рук и время реакции. Жанр включает в себя большое количество поджанров, таких как файтинги, beat 'em ups, шутеры и платформенные игры.</text>
+</text>
+
+</view>
 </theme>
+

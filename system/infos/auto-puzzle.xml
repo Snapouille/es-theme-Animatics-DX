@@ -4,26 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-				
-Puzzle video games make up a broad genre of video games that emphasize puzzle solving. The types of puzzles can test problem-solving skills, including logic, pattern recognition, sequence solving, spatial recognition, and word completion.
+<text name="system_description" extra="true">
+<text>Puzzle games are a broad genre of video games that focus on solving puzzles. The types of puzzles can test problem-solving skills such as logic, pattern recognition, sequence solving or word completion.</text>
+</text>
 
-			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux vidéo de réflexion constituent un vaste genre de jeux vidéo qui mettent l'accent sur la résolution d'énigmes. Les types d'énigmes peuvent mettre à l'épreuve les capacités de résolution de problèmes, notamment la logique, la reconnaissance des formes, la résolution de séquences ou encore la complétion de mots.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Rätsel-Videospiele sind ein breites Genre von Videospielen, bei denen das Lösen von Rätseln im Vordergrund steht. Die Arten von Rätseln können die Problemlösungsfähigkeiten auf die Probe stellen, darunter Logik, Mustererkennung, das Lösen von Sequenzen oder das Vervollständigen von Wörtern.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>Los juegos de puzles son un amplio género de videojuegos que se centran en la resolución de rompecabezas. Los tipos de puzles pueden poner a prueba habilidades de resolución de problemas como la lógica, el reconocimiento de patrones, la resolución de secuencias o la compleción de palabras.</text>
+</text>
 
-Género de videojuegos que se caracteriza por exigir agilidad mental al jugador para resolver enigmas por lo general en una sola pantalla. Algunos videojuegos involucran problemas de lógica, matemáticas, estrategia, completar palabras o reconocimiento de patrones.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>I giochi di enigmistica sono un ampio genere di videogiochi che si concentrano sulla risoluzione di enigmi. I tipi di puzzle possono mettere alla prova abilità di risoluzione di problemi come la logica, il riconoscimento di schemi, la risoluzione di sequenze o il completamento di parole.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>パズルゲームは、パズルを解くことに焦点を当てた幅広いジャンルのビデオゲームです。パズルの種類は、ロジック、パターン認識、シーケンス解決、単語補完などの問題解決能力をテストすることができます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Puzzelspellen zijn een breed genre videospellen waarin het oplossen van puzzels centraal staat. De soorten puzzels kunnen probleemoplossende vaardigheden testen, zoals logica, patroonherkenning, het oplossen van reeksen of het aanvullen van woorden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Gry logiczne to szeroki gatunek gier wideo, które skupiają się na rozwiązywaniu zagadek. Rodzaje zagadek mogą testować umiejętności rozwiązywania problemów, takie jak logika, rozpoznawanie wzorów, rozwiązywanie sekwencji lub uzupełnianie słów.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Os jogos de puzzle são um amplo género de jogos de vídeo que se concentram na resolução de puzzles. Os tipos de puzzles podem testar capacidades de resolução de problemas tais como lógica, reconhecimento de padrões, resolução de sequências ou preenchimento de palavras.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Логические игры - это широкий жанр видеоигр, в которых основное внимание уделяется решению головоломок. Типы головоломок могут проверять навыки решения проблем, такие как логика, распознавание образов, решение последовательности или завершение слов.</text>
+</text>
+
+</view>
 </theme>
+

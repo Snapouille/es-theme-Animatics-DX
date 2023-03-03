@@ -4,29 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>You feel like a musician or a dancer? Then make yourself happy, it's here that it happens.</text>
+</text>
 
-Genre that is characterized by focusing on the use of music to develop the gameplay, often based on the more or less realistic interpretation of it.
+<text name="system_description" extra="true" lang="fr">
+<text>Vous vous sentez l'âme d'un musicien ou d'un danseur ? Alors faites vous plaisir, c'est ici que ça ce passe.</text>
+</text>
 
-It includes karaoke games, rhythm games, dance games and musical instrument games.
-			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="de">
+<text>Fühlen Sie sich wie ein Musiker oder Tänzer? Dann tun Sie sich selbst einen Gefallen, denn hier geht es los.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>¿Te sientes músico o bailarín? Entonces complácete, aquí es donde sucede.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="it">
+<text>Ti senti un musicista o un ballerino? Allora fatevi piacere, è qui che accade.</text>
+</text>
 
-Género que se caracteriza por centrarse en el uso de la música para desarrollar la jugabilidad, a menudo basada en la interpretación más o menos realista de la misma.
+<text name="system_description" extra="true" lang="ja">
+<text>あなたはミュージシャンやダンサーになった気分ですか？それなら、自分自身を喜ばせてください、ここがその場所なのです。</text>
+</text>
 
-Incluye juegos de karaoke, juegos de ritmo, juegos de baile y juegos con instrumentos musicales.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="nl">
+<text>Heb je zin in een muzikant of een danser? Doe jezelf dan een plezier, hier gebeurt het.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>Czujesz się jak muzyk lub tancerz? To proszę bardzo, tu się to dzieje.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Sente-se um músico ou um bailarino? Então, por favor, é aqui que isso acontece.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Вы чувствуете себя музыкантом или танцором? Тогда порадуйте себя, здесь это происходит.</text>
+</text>
+
+</view>
 </theme>
+

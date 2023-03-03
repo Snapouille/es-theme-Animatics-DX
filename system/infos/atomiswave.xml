@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
-		
-				<text name="system_description" extra="true">
-			<text>Atomiswave is an arcade card released by Sammy Corporation in 2003, based on the Sega Dreamcast technical specifications (thus slightly lower than Sega NAOMI in technical terms).</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Atomiswave es una tarjeta arcade lanzada por Sammy Corporation en 2003, basada en las especificaciones técnicas de Sega Dreamcast (muy ligeramente inferior a Sega NAOMI en términos técnicos).</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Atomiswave est une carte arcade publiée par Sammy Corporation en 2003, basée sur les spécifications techniques de Sega Dreamcast (donc légèrement inférieure à celle de Sega NAOMI sur le plan technique).</text>
-		</text>
+<text name="system_description" extra="true">
+<text>The Atomiswave is a cartridge-based video game system for JAMMA compatible arcade terminals. It is a low-cost, easy-to-use and easily scalable game system, with the possibility to easily connect a gun, a steering wheel or a trackball.</text>
+</text>
 
-			<text name="system_description" extra="true" lang="pt">
-			<text>Atomiswave é uma placa de arcade lançada pela Sammy Corporation em 2003, baseado nas especificações técnicas do Sega Dreamcast (portanto, em termos técnicos, levemente inferior à Sega NAOMI).</text>
-		</text>
-		
-						
+<text name="system_description" extra="true" lang="fr">
+<text>L'Atomiswave est un système de jeux vidéo à cartouche pour borne d'arcade compatible JAMMA. Il se veut être un système de jeu à bas coût, très facile d'utilisation et aisément modulable, avec la possibilité de brancher facilement un pistolet, un volant ou un trackball.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Atomiswave ist ein JAMMA-kompatibles Videospielsystem mit Kassetten für Arcade-Automaten. Es soll ein kostengünstiges, sehr benutzerfreundliches und leicht erweiterbares Spielsystem sein, mit der Möglichkeit, eine Pistole, ein Lenkrad oder einen Trackball problemlos anzuschließen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Atomiswave es un sistema de juego basado en cartuchos para terminales arcade compatibles con JAMMA. Pretende ser un sistema de juego de bajo coste, muy fácil de usar y fácilmente actualizable, con la posibilidad de conectar fácilmente una pistola, un volante o un trackball.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Atomiswave è un sistema di gioco basato su cartucce per terminali arcade compatibili con JAMMA. Si tratta di un sistema di gioco a basso costo, molto facile da usare e facilmente aggiornabile, con la possibilità di collegare facilmente una pistola, un volante o una trackball.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Atomiswaveは、JAMMA互換のアーケード端末用のカートリッジ式ゲームシステムです。銃やステアリングホイール、トラックボールなどを簡単に接続することができ、低コストで非常に使いやすく、簡単にアップグレードできるゲーミングシステムを目指したものです。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Atomiswave is een cartridge-gebaseerd spelsysteem voor JAMMA-compatibele arcade-terminals. Het is bedoeld als een goedkoop, zeer eenvoudig te gebruiken en gemakkelijk te upgraden spelsysteem, met de mogelijkheid om gemakkelijk een pistool, stuurwiel of trackball aan te sluiten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Atomiswave jest systemem gier opartym na kartridżach dla terminali arcade kompatybilnych z JAMMA. Ma to być tani, bardzo prosty w obsłudze i łatwy do rozbudowy system gier, z możliwością łatwego podłączenia pistoletu, kierownicy lub trackballa.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Atomiswave é um sistema de jogo baseado em cartuchos para terminais de arcada compatíveis com JAMMA. Destina-se a ser um sistema de jogo de baixo custo, muito fácil de usar e facilmente actualizável, com a capacidade de ligar facilmente uma arma, volante ou trackball.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Atomiswave - это игровая система на базе картриджа для аркадных терминалов, совместимых с JAMMA. Это недорогая, очень простая в использовании и легко модернизируемая игровая система, к которой можно легко подключить пистолет, руль или трекбол.</text>
+</text>
+
+</view>
 </theme>

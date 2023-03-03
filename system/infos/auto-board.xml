@@ -4,24 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>Auto gamelist. Generally in this list you will find classic board games adapted to the screen and especially chess games.</text>
+</text>
 
-Board game is the classification given to games that consist of a board and pieces of different shapes and colors more or less elaborate, usually in this list you will find classic board games adapted to the screen and especially chess games.			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Auto gamelist. Généralement dans cette liste vous trouverez des jeux de société classiques adaptés à l'écran et notamment des jeux d'échecs.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Auto gamelist. In der Regel finden Sie in dieser Liste klassische Brettspiele, die für den Bildschirm angepasst wurden, insbesondere Schachspiele.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>Auto gamelist. Por lo general, en esta lista encontrarás juegos de mesa clásicos adaptados a la pantalla y, en particular, juegos de ajedrez.</text>
+</text>
 
-Juego de mesa es la clasificación que se da a los juegos que constan de un tablero y fichas de diferentes formas y colores mas o menos elaboradas, por lo general en esta lista encontrarás juegos de mesa clásicos adaptados a la pantalla y sobretodo juegos de ajedrez.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>Elenco di giochi automatici. In generale, in questo elenco troverete i classici giochi da tavolo adattati allo schermo e in particolare i giochi di scacchi.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>自動ゲームリスト。このリストでは一般的に、スクリーンに適応した古典的なボードゲーム、特にチェスゲームを見つけることができます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Automatische spelletjeslijst. Over het algemeen vindt u in deze lijst klassieke bordspellen aangepast aan het scherm en in het bijzonder schaakspellen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Auto gamelist. Ogólnie na tej liście znajdziecie klasyczne gry planszowe przystosowane do ekranu, a w szczególności gry szachowe.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista automática de jogos. Geralmente nesta lista encontrará jogos de tabuleiro clássicos adaptados ao ecrã e, em particular, jogos de xadrez.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Автоматический список игр. Как правило, в этом списке вы найдете классические настольные игры, адаптированные для экрана, и, в частности, шахматные игры.</text>
+</text>
+
+</view>
 </theme>
+

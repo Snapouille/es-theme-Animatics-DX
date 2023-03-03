@@ -4,32 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>So this is where you put all your favorites! We should think about finishing them one day, right?</text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text>C'est donc là que vous avez ranger tout vos favoris. Il faudrait penser à les finir un jour, non ?</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Hier haben Sie also all Ihre Favoriten untergebracht! Sie sollten sich überlegen, ob Sie sie nicht irgendwann einmal aufessen wollen, oder?</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Así que aquí es donde has guardado todos tus favoritos. Deberíamos pensar en terminarlos algún día, ¿no?</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>È qui che avete riposto tutti i vostri preferiti! Dovremmo pensare di finirli un giorno, non è vero?</text>
+</text>
 
-			    <text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text>ここにお気に入りが収納されているんですね！？いつか完成させることを考えないといけませんよね？</text>
+</text>
 
-		
+<text name="system_description" extra="true" lang="nl">
+<text>Dus hier heb je al je favorieten opgeslagen! We moeten er eens aan denken om ze af te maken, nietwaar?</text>
+</text>
 
+<text name="system_description" extra="true" lang="pl">
+<text>Więc to jest miejsce, gdzie przechowujesz wszystkie swoje ulubione! Powinniśmy pomyśleć o tym, żeby kiedyś je skończyć, prawda?</text>
+</text>
 
-				
+<text name="system_description" extra="true" lang="pt">
+<text>Por isso é aqui que guardou todos os seus favoritos! Deveríamos pensar em acabar com eles um dia, não deveríamos?</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ru">
+<text>Так что здесь вы храните все свои любимые вещи! Мы должны подумать о том, чтобы когда-нибудь их закончить, не так ли?</text>
+</text>
+
+</view>
 </theme>
+

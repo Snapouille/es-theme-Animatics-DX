@@ -4,38 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-
-
-		<text name="system_description" extra="true" >
-			<text>A list of all compatible games for two players, of any system.</text>
-		</text>
-
-		<text name="system_description" extra="true" lang="es">
-			<text>Una lista con todos los juegos compatibles para dos jugadores, de cualquier sistema.
+<text name="system_description" extra="true">
+<text>Automatic game list. Here you will find all the games that are compatible for two players on any system. How about a little Street Fighter 2?</text>
 </text>
-		</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>Une liste de tous les jeux compatibles pour deux joueurs, de n'importe quel système.
+<text name="system_description" extra="true" lang="fr">
+<text>Vous trouverez ici tous les jeux compatibles pour deux joueurs tout système confondus. Que diriez-vous d'un petit Street Fighter 2 ?</text>
 </text>
-		</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text>Uma lista de todos os jogos compatíveis para dois jogadores, de qualquer sistema.
+<text name="system_description" extra="true" lang="de">
+<text>Automatische Liste von Spielen. Hier finden Sie alle kompatiblen Spiele für zwei Spieler aller Systeme. Wie wäre es mit einem kleinen Street Fighter 2?</text>
 </text>
-		</text>
-		
-		
 
-		
+<text name="system_description" extra="true" lang="es">
+<text>Lista automática de juegos. Aquí encontrarás todos los juegos compatibles para dos jugadores en todos los sistemas. ¿Qué tal un poco de Street Fighter 2?</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>Elenco automatico dei giochi. Qui troverete tutti i giochi compatibili per due giocatori su tutti i sistemi. Che ne dite di un po' di Street Fighter 2?</text>
+</text>
 
+<text name="system_description" extra="true" lang="ja">
+<text>自動ゲームリストです。ここでは、すべてのシステムで2人プレイに対応しているすべてのゲームを見つけることができます。ストリートファイター2なんてどうでしょう？</text>
+</text>
 
-		
+<text name="system_description" extra="true" lang="nl">
+<text>Automatische spelletjeslijst. Hier vind je alle spellen die geschikt zijn voor twee spelers op alle systemen. Wat dacht je van een beetje Street Fighter 2?</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>Automatyczna lista gier. Tutaj znajdziesz wszystkie gry, które są kompatybilne dla dwóch graczy na wszystkich systemach. Co powiesz na odrobinę Street Fighter 2?</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista de jogos automática. Aqui encontrará todos os jogos que são compatíveis para dois jogadores em todos os sistemas. Que tal um pequeno Street Fighter 2?</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Список автоматических игр. Здесь вы найдете все игры, совместимые для двух игроков на всех системах. Как насчет небольшого Street Fighter 2?</text>
+</text>
+
+</view>
 </theme>
+

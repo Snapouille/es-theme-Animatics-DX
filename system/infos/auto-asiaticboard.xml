@@ -4,25 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.</text>
+<text name="system_description" extra="true">
+<text>Auto gamelist. They are basically mahjong games and variants of this classic Chines board game.</text>
+</text>
 
-They are basically mahjong games and variants of this classic Chines board game.
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Liste de jeux automatique. Il s'agit essentiellement de jeux de mahjong et de variantes de ce jeu de société chinois classique.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Auto-Gameliste. Sie sind im Grunde Mahjong-Spiele und Varianten dieses klassischen chinesischen Brettspiels.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>Auto gamelist. Básicamente son juegos de mahjong y variantes de este clásico juego de mesa chino.</text>
+</text>
 
-Basicamente son juegos de mahjong y variantes de este clásico juego de mesa de origen chino.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>Elenco automatico dei giochi. Si tratta essenzialmente di giochi di mahjong e di varianti di questo classico gioco da tavolo cinese.</text>
+</text>
 
-	
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>自動ゲームリスト。これらは基本的に麻雀ゲームと、この古典的な中国のボードゲームの亜種である。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Auto gamelist. Het zijn mahjongspellen en varianten van dit klassieke Chinese bordspel.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Auto gamelist. Są to w zasadzie gry typu mahjong i warianty tej klasycznej gry planszowej Chines.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista automática de jogos. São basicamente jogos de mahjong e variantes deste clássico jogo de tabuleiro chinês.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Автоматический список игр. В основном это игры маджонг и варианты этой классической китайской настольной игры.</text>
+</text>
+
+</view>
 </theme>
+

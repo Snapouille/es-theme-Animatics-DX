@@ -4,33 +4,51 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>This extension that increases the technical capabilities of the PC-Engine includes a CD-ROM drive but also a new BIOS and 64 kB of memory (to load data and code from the CD). The American name of the device is TurboGrafx-CD. The game library is mostly known for its excellent shoot them up.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The CD-ROM² System (シーディーロムロムシステム Shī Dī Romu Romu Shisutemu, pronounced "CD-ROM-ROM") is an add-on attachment for the TurboGrafx-16 that was released in Japan on December 4, 1988.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Fue la primera consola que tenía la opción de un añadido de CD permitiendo obtener las mejoras por utilizar un sistema basado en CD: más memoria, costes más baratos y compatibilidad con Red Book.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Le CD-ROM² System a été lancé le 4 décembre 1988 au Japon (en 1990 en France7). Cette extension inclus un lecteur CD-ROM qui lit les jeux au format CD-ROM², les CD Audio et CD+G (karaoké).</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Cette extension qui accroît les capacités techniques de la PC-Engine inclus un lecteur CD-ROM mais aussi un nouveau BIOS et 64 ko de mémoire (pour charger les données et le code à partir du CD). L'appellation américaine du périphérique est TurboGrafx-CD. La ludothèque est surtout connue pour ses excellents shoot them up.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Possibilitado por um acessório era vendido separadamente, lançado como PC-Engine CD-ROM² no Japão em abril de 1988 e TurboGrafx-CD nos EUA, proporcionava músicas digitais, vozes e animações de melhor qualidade.</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="de">
+<text>Diese Erweiterung, die die technischen Möglichkeiten der PC-Engine erweitert, enthält neben einem CD-ROM-Laufwerk auch ein neues BIOS und 64 KB Speicher (um Daten und Code von der CD zu laden). Die amerikanische Bezeichnung für das Gerät lautet TurboGrafx-CD. Die Spielothek ist vor allem für ihre hervorragenden Shoot them up's bekannt.</text>
+</text>
 
-	
+<text name="system_description" extra="true" lang="es">
+<text>Esta ampliación de las capacidades técnicas del PC-Engine incluye una unidad de CD-ROM, pero también una nueva BIOS y 64k de memoria (para cargar datos y código del CD). El nombre americano del aparato es TurboGrafx-CD. La biblioteca de juegos es más conocida por sus excelentes juegos de disparos.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>Questo ampliamento delle capacità tecniche del PC-Engine comprende un lettore CD-ROM, ma anche un nuovo BIOS e 64k di memoria (per caricare dati e codice dal CD). Il nome americano del dispositivo è TurboGrafx-CD. La libreria di giochi è nota soprattutto per i suoi eccellenti sparatutto.</text>
+</text>
 
-						
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>PC-Engineの技術力を拡張したもので、CD-ROMドライブはもちろん、新しいBIOSや64kのメモリ（CDからデータやコードを読み込むため）などが搭載されています。この装置のアメリカでの名称はTurboGrafx-CDです。ゲームライブラリは、優れたシューティングゲームでよく知られている。</text>
+</text>
 
+<text name="system_description" extra="true" lang="nl">
+<text>Deze uitbreiding van de technische mogelijkheden van de PC-Engine omvat een CD-ROM drive, maar ook een nieuw BIOS en 64k geheugen (om gegevens en code van de CD te laden). De Amerikaanse naam voor het apparaat is TurboGrafx-CD. De spelbibliotheek is vooral bekend om zijn uitstekende shoot them up spellen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Rozszerzenie to, zwiększające możliwości techniczne PC-Engine, zawiera napęd CD-ROM, nowy BIOS oraz 64 KB pamięci (do ładowania danych i kodu z płyty CD). Amerykańska nazwa urządzenia to TurboGrafx-CD. Biblioteka gier jest najbardziej znana z doskonałych gier typu shoot them up.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Esta extensão às capacidades técnicas do PC-Engine inclui uma unidade de CD-ROM, mas também uma nova BIOS e 64k de memória (para carregar dados e código do CD). O nome americano para o dispositivo é TurboGrafx-CD. A biblioteca de jogos é mais conhecida pelos seus excelentes jogos de tiro.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Это расширение технических возможностей PC-Engine включает в себя привод CD-ROM, а также новый BIOS и 64k памяти (для загрузки данных и кода с CD). Американское название устройства - TurboGrafx-CD. Библиотека игр наиболее известна своими превосходными играми в жанре shoot them up.</text>
+</text>
+
+</view>
 </theme>
+
