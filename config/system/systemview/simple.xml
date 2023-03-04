@@ -5,31 +5,10 @@
   
   <feature supported="manufacturer">
 	<view name="system">
-	
-		<!-- PLUS RIEN n EST PRIS EN COMPTE SUR LE PLACEMENT
-				A VOIR PLUS TARD POUR TROUVER LA SOLUTION -->
-      <!-- <text name="manufacturerName" extra="true"> -->
-	    <!-- <visible>false</visible> -->
-        <!-- <pos>0.44 0.56</pos> -->
-		<!-- <fontSize>0.033</fontSize> -->
-        <!-- <alignment>center</alignment> -->
-      <!-- </text> -->
-	  
-	  <!-- on vire le nom complet qui fait doublon -->
-	  
       <text name="fullName" extra="true">
 		<visible>false</visible>
       </text>
-	  
-      <!-- <text name="releaseYyear" extra="true"> -->
-	   <!-- <visible>false</visible> -->
-       <!-- <pos>0.441 0.595</pos> -->
-	   <!-- <fontSize>0.040</fontSize> -->
-        <!-- <alignment>center</alignment> -->
-      <!-- </text> -->
-  
 	<!-- Position des infos sur les statistiques du système si ils sont affichés -->
-    
       <text name="systemInfoEx" extra="true">
         <alignment>right</alignment>
       </text>
@@ -38,12 +17,7 @@
   
   
   
-  
-  
-  
-  
   <view name="system">
-	<!-- position du LOGO du systeme -->
     <carousel name="systemcarousel">
 		<maxLogoCount>1</maxLogoCount>
 		<type>horizontal</type>
@@ -146,7 +120,6 @@
     </image>
 	
 	<!-- Mise en place et animation des chevrons gauche et droite -->
-	
 	<image name="Chevron droite" extra="static">
       <origin>0.5 0.5</origin>
       <size>0.02 0</size>
@@ -183,15 +156,23 @@
 			<visible>false</visible>
 			<origin>0 0</origin>
 			<size>0.09 0.04</size>
-			<pos>0.87 0.36</pos>
+			<pos>0.87 0.76</pos>
 			<fontSize>0.023</fontSize>
 			<fontPath>./../../../art/fonts/ubuntu.ttf</fontPath>
 			<alignment>center</alignment>
 			<color>${systemInfoColor}</color>
 			<backgroundColor>737373</backgroundColor>
-			<reflexion>0 0</reflexion>
+			<backgroundColor>${baseColor}</backgroundColor>
 			<visible>true</visible>			
 			<zIndex>13</zIndex>
+			<opacity>1</opacity>
+			
+			<storyboard>
+				<animation property="opacity" from="0" to="1" begin="200" duration="115" mode="linear" />
+				<animation property="offsetX" from="0" to="-0.01" begin="2000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+				<animation property="offsetX" from="0" to="-0.01" begin="18000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			</storyboard>
+			
 		</text>
 	  
 	  <!-- On affiche RIEN si l'option NONE a été select -->

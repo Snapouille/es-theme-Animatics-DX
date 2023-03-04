@@ -335,8 +335,6 @@ originally based on: "carbon"
 	
 	<view name="system" ifSubset="SystemView:simple">
 	
-	
-	
 		<text name="manufacturerName">
 			<alignment>right</alignment>
 			<fontSize>0.040</fontSize>
@@ -344,13 +342,26 @@ originally based on: "carbon"
 			<size>0.942 0.28</size>
 			<color>FFFF00</color>
 			<zIndex>14</zIndex>
-			
 			<rotation>0</rotation>
-			
 				<storyboard>
-					<animation property="offsetX" to="-0.2" begin="1500" duration="1500" mode="EaseOutCubic"/>
+					<animation property="offsetX" to="-0.2" begin="" duration="1100" mode="EaseOutCubic"/>
 				</storyboard>	
 		</text>
+		
+		
+	
+	
+	
+		<image name="controllers2" extra="true">
+			<pos>1.1592917 0.11</pos>	
+			<maxSize>0.3 0.25</maxSize>									
+			<horizontalAlignment>right</horizontalAlignment>
+			<verticalAlignment>bottom</verticalAlignment>
+			<storyboard>
+				<animation property="offsetX" to="-0.47" begin="" duration="1100" mode="EaseOutCubic"/>
+			</storyboard>	
+		</image>
+
 		
 		<text name="releaseYyear">
 			<fontSize>0.05</fontSize>
@@ -360,8 +371,6 @@ originally based on: "carbon"
 			<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
 					
 			<storyboard>
-				
-				
 				<animation property="color" to="FFFF00" begin="3000" duration="1000" autoreverse="true" mode="linear"/>
 				<animation property="offsetY" to="-0.005" begin="3000" duration="100" autoreverse="true" mode="linear"/>
 				<animation property="color" to="FFFF00" begin="9000" duration="1000" autoreverse="true" mode="linear"/>
@@ -372,26 +381,6 @@ originally based on: "carbon"
 				<animation property="offsetY" to="-0.005" begin="21000" duration="100" autoreverse="true" mode="linear"/>
 			</storyboard>		
 		</text> 
-	
-	
-	
-		<image name="controllers2" extra="true">
-			
-			<pos>1.1592917 0.11</pos>	
-			<!-- <pos>0.6772917 0.09</pos>									 -->
-			
-			<maxSize>0.3 0.25</maxSize>									
-
-			<horizontalAlignment>right</horizontalAlignment>
-			<verticalAlignment>bottom</verticalAlignment>
-			
-			<storyboard>
-				<animation property="offsetX" to="-0.47" begin="1500" duration="1500" mode="EaseOutCubic"/>
-			</storyboard>	
-	  
-		</image>
-
-		
 		
 	
 		<text name="system_description" ifSubset="system-description:Show">
