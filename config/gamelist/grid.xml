@@ -80,20 +80,12 @@ originally based on: "carbon"
 		 <maxSize>0.09 0.09</maxSize>									
          <color>f4ff1a</color>
 		 
-		
 		<storyboard repeatAt="forever">
-		
 			<animation property="scale" to="3" begin="1000" duration="500" autoreverse="true" mode="bump"/>
 			<animation property="offsetY" to="-0.08" begin="1000" duration="500" autoreverse="true" mode="bump"/>
-			
 			<animation property="rotation" to="1000" begin="6000" duration="2000" autoreverse="true" mode="easeInOut"/>
-			
 			<animation property="offsetX" to="0.03" begin="20000" duration="500" autoreverse="true" mode="bump"/>
-			
-			
 		</storyboard>
-		
-		 
       </image>
 	 
 	 

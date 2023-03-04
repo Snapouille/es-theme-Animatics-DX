@@ -15,6 +15,11 @@
       <text name="releaseYyear" extra="true">
 	   <visible>false</visible>
       </text>
+	  <text name="system_description" ifSubset="system-description:Show">
+			<visible>false</visible>
+		</text>
+	  
+	  
     </view>
   </feature>
 	

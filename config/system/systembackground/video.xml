@@ -7,28 +7,56 @@
       <defaultTransition>fade &amp; slide</defaultTransition> <!-- slide / fade / instant -->
     </carousel>
 	
-    <image name="background" extra="true">
-      <color>000000FF</color>
-    </image>
+	<image name="background, bgsky">
+		  <visible>false</visible>
+	</image>
+	
+	
+	
+	
+
+	<image name="background-cut" extra="static">
+		  <tile>false</tile>
+		  <size>1 1</size>
+		  <pos>0 0</pos>
+		  <origin>0 0</origin>
+		  <path>./../../../art/divers/bg-cut.png</path>
+		  <color>${backgroundColor}</color>
+		  <zIndex>11</zIndex>
+	</image>
+	
+	<image name="background-frame" extra="static">
+		  <tile>false</tile>
+			<size>0.6010417 0.7361111</size>									
+			<pos>0.0229167 0.0527778</pos>									
+		  <origin>0 0</origin>
+		  <path>./../../../art/divers/bg-frame.png</path>
+		  <zIndex>12</zIndex>
+	</image>
+	
+	
+	
+	
+	
+	
     <video name="backgroundvideo" extra="true">
-      <path>{random}</path>
-      <pos>0.5 0.475</pos>
-      <origin>0.5 0.5</origin>
-      <minSize>1 0.935</minSize>
-      <delay>0</delay>
-      <color>FFFFFFA0</color>
-      <effect>none</effect>
-      <zIndex>11</zIndex>
+		<path>{random}</path>
+		<default>./../../../art/divers/mediamissing2.png</default>
+		<pos>0.32 0.38</pos>									
+		<minSize>0.85 0.93</minSize>									
+		<maxSize>0.85 0.93</maxSize>		
+		<origin>0.5 0.5</origin>
+		<delay>0</delay>
+		<color>FFFFFFA0</color>
+		<effect>none</effect>
+		<zIndex>9</zIndex>
+		
+		
     </video>
-    <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
-      <pos>0.5 0.5</pos>
-      <minSize>1 1</minSize>
-    </video>
+    
     <image name="ControllerOverlay" extra="true">
       <visible>false</visible>
     </image>
-    <image name="CenterFade" extra="true">
-      <color>000000A0</color>
-    </image>    
+     
   </view>
 </theme>

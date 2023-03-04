@@ -34,6 +34,10 @@ originally based on: "carbon"
     <animationsSubsetName>Transition Animations</animationsSubsetName>
     <hideselectionSubsetName>Hide selection</hideselectionSubsetName>
     <systemBackgroundName>System background</systemBackgroundName>
+	<systembackground.snap>Avatar animation</systembackground.snap>
+	<systembackground.carboncontrol>Carbon Controller</systembackground.carboncontrol>
+	<systembackground.randomvideo>Random Video</systembackground.randomvideo>
+	<systembackground.fanart>Fanart</systembackground.fanart>
     <optimizesmallscreensSubsetName>Optimize for small screens</optimizesmallscreensSubsetName>
     <helpSubsetName>Help icons</helpSubsetName>
     <systemViewName>System view</systemViewName>
@@ -59,22 +63,16 @@ originally based on: "carbon"
 	<gamelistLines>How many lines in the gamelist?</gamelistLines>
     <thumbnail>thumbnail</thumbnail>
     <animatedInfobar>Animated preview bar</animatedInfobar>
-	
-	
-	
 	<subset.logostyle>Logo Style</subset.logostyle>
 	<color>Colorful</color>
 	<blackandwhite>Black and White</blackandwhite>
 	<custom>Custom</custom>
 	<user.logo>Your Logo</user.logo>
 	<user.username>Your Nickname</user.username>
-	
 	<system-description>System descriptions</system-description>
 	<system-controllers>Controllers</system-controllers>
-	
 	<show>Show</show>
 	<hide>Hide</hide>
-	
 	
   </variables>
   
@@ -152,7 +150,7 @@ originally based on: "carbon"
     <include name="snap legacy" displayName="${systembackground.snap}">./config/system/systembackground/snaplegacy.xml</include>
 	<include name="carbon control" displayName="${systembackground.carboncontrol}">./config/system/systembackground/carboncontrollers.xml</include>
     <include name="random video" displayName="${systembackground.randomvideo}">./config/system/systembackground/video.xml</include>
-    <include name="random box" displayName="${systembackground.randombox}">./config/system/systembackground/box.xml</include>
+    <include name="random box" displayName="${systembackground.fanart}">./config/system/systembackground/fanart.xml</include>
   </subset>
   
 

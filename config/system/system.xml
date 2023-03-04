@@ -231,18 +231,13 @@ originally based on: "carbon"
     </view>
 	
 	
-	
-	<!-- <view name="system" ifSubset="SystemView:vertical"> -->
-	
 		<view name="system" ifSubset="SystemView:vertical">
 
 	
 		<image name="controllers2" extra="true">
 			
 			<pos>1.1572917 0.05</pos>	
-			
 			<maxSize>0.2302083 0.1787037</maxSize>									
-
 			<horizontalAlignment>right</horizontalAlignment>
 			<verticalAlignment>bottom</verticalAlignment>
 			
@@ -293,8 +288,6 @@ originally based on: "carbon"
 	
 		<text name="system_description" ifSubset="system-description:Show" extra="true">
 			<pos>1.082 0.64</pos>
-						<!-- <pos>0.682 0.64</pos> -->
-
 			<size>0.3145 0.293</size>
 			<color>FFFF00</color>
 			<autoScroll>vertical</autoScroll>
