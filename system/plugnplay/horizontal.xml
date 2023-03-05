@@ -1,0 +1,17 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+<size>0.29375 0.8398148</size>									
+
+			<origin>0 0</origin>
+			<pos>0.317 0.14</pos>
+			<maxSize>1 1</maxSize>
+		</image>
+		
+	</view>
+	
+</theme>

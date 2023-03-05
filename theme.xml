@@ -73,7 +73,6 @@ originally based on: "carbon"
 	<system-controllers>Controllers</system-controllers>
 	<show>Show</show>
 	<hide>Hide</hide>
-	
   </variables>
   
   
@@ -81,9 +80,6 @@ originally based on: "carbon"
 <!-- Personalisation Utilisateurs-->
 	<include>./your-nickname.xml</include>
 	<include>./config/system/user-variables.xml</include>
-	<!-- <include>./config/system/var-usernames.xml</include> -->
-	<!-- <include>./config/system/var-avatars.xml</include> -->
-  
 
 <!-- Language  -->
 	<include lang="de">./config/lang/de.xml</include>
@@ -104,8 +100,8 @@ originally based on: "carbon"
 </subset>
   
   
- <!-- Colorsets  -->
-    <subset name="colorset" displayName="${subset.colorset}">
+<!-- Colorsets  -->
+ <subset name="colorset" displayName="${subset.colorset}">
     <include name="cyan"  displayName="${cyan}">./config/colorset/cyan.xml</include>
     <include name="blue" displayName="${blue}">./config/colorset/blue.xml</include>
     <include name="orange"  displayName="${orange}">./config/colorset/orange.xml</include>
@@ -114,89 +110,86 @@ originally based on: "carbon"
     <include name="green" displayName="${green}">./config/colorset/green.xml</include>
     <include name="purple"  displayName="${purple}">./config/colorset/purple.xml</include>
     <include name="gray" displayName="${gray}">./config/colorset/gray.xml</include>
-    </subset>
+ </subset>
   
   
   
-  <!-- Affichage des logos couleur/n&b -->
-	  <subset name="logostyle" displayName="${subset.logostyle}">
-		<include name="color" displayName="${color}"/>
-		<include name="black" displayName="${blackandwhite}"/>
-	  </subset>
+<!-- Affichage des logos couleur/n&b -->
+<subset name="logostyle" displayName="${subset.logostyle}">
+	<include name="color" displayName="${color}"/>
+	<include name="black" displayName="${blackandwhite}"/>
+</subset>
 			  
-	
   
-  
-  <!-- Informations complémentaires (statistiques) sur les sets  -->
-  <subset name="InfoCustomView" displayName="${InfoCustomView}" extra="true">
+<!-- Informations complémentaires (statistiques) sur les sets  -->
+<subset name="InfoCustomView" displayName="${InfoCustomView}" extra="true">
     <include name="detailed" displayName="${infoDetailed}">./config/system/extendedinfo.xml</include>
     <include name="total" displayName="${totalGamesInfos}"/>
     <include name="nothing" displayName="${none}"/>
-  </subset>
+</subset>
   
     
-  <!-- Subset options for screen -->
-  <subset name="SystemView" displayName="${systemViewName}">
+<!-- Subset options for screen -->
+<subset name="SystemView" displayName="${systemViewName}">
     <include name="vertical"  displayName="${systemview.vertical}">./config/system/systemview/vertical.xml</include>
 	<include name="horizontal"  displayName="${systemview.horizontal}">./config/system/systemview/horizontal.xml</include>
 	<!-- <include name="vertical arts"  displayName="${systemview.vertical2}">./config/system/systemview/vertical2.xml</include> -->
     <include name="wheel" displayName="${systemview.wheel}">./config/system/systemview/wheel.xml</include>
 	<include name="simple" displayName="${systemview.simple}">./config/system/systemview/simple.xml</include>
-  </subset>
+</subset>
   
   
-  <!-- Subset option for System view background -->
-  <subset name="systembackground" displayName="${systemBackgroundName}">
+<!-- Subset option for System view background -->
+<subset name="systembackground" displayName="${systemBackgroundName}">
     <include name="snap legacy" displayName="${systembackground.snap}">./config/system/systembackground/snaplegacy.xml</include>
 	<include name="carbon control" displayName="${systembackground.carboncontrol}">./config/system/systembackground/carboncontrollers.xml</include>
     <include name="random video" displayName="${systembackground.randomvideo}">./config/system/systembackground/video.xml</include>
     <include name="random box" displayName="${systembackground.fanart}">./config/system/systembackground/fanart.xml</include>
-  </subset>
+</subset>
   
 
-
-	<!-- Affichage des Controlleurs-->
-	<subset name="system-controllers" displayName="${system-controllers}">
-		<include name="Show" displayName="${show}">./config/system/show-system-controllers.xml</include>
-		<include name="Hide" displayName="${hide}"/>
-	</subset>
-
-
-
-	<!-- Affichage des Infos sur les systèmes-->
-	<subset name="system-description" displayName="${system-description}">
-		<include name="Show" displayName="${show}">./config/system/show-system-description.xml</include>
-		<include name="Hide" displayName="${hide}"/>
-	</subset>
+<!-- Affichage des Controlleurs-->
+<subset name="system-controllers" displayName="${system-controllers}">
+	<include name="Show" displayName="${show}">./config/system/show-system-controllers.xml</include>
+	<include name="Hide" displayName="${hide}"/>
+</subset>
 
 
 
-
-	<!--Avatar du client-->
-	<subset name="user-logo" displayName="${user.logo}">
-		<include name="none" displayName="${none}" />
-		<include name="custom" displayName="${custom}" />
-		<include name="batocera" displayName="Batocera" />
-		<include name="emulationstation" displayName="Emulation Station" />
-		<include name="recalbox" displayName="Recalbox" />
-		<include name="retroachievements" displayName="Retroachivements standard" />
-		<include name="retrobat" displayName="Retrobat" />
-		<include name="retropie" displayName="Retropie" />
-		<include name="tychus" displayName="Tychus Findlay" />
-	</subset>
+<!-- Affichage des Infos sur les systèmes-->
+<subset name="system-description" displayName="${system-description}">
+	<include name="Show" displayName="${show}">./config/system/show-system-description.xml</include>
+	<include name="Hide" displayName="${hide}"/>
+</subset>
 
 
-	<!--NickName du client-->
-	<subset name="user-username" displayName="${user.username}">
-		<include name="none" displayName="${none}" />
-		<include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements ID: ${cheevos.username}" />
-		<include if="{global.netplay} == true" name="netplay" displayName="Netplay ID: ${global.netplay.username}" />
-		<include name="custom" displayName="${custom}: ${custom.nick}" />
-		<include name="batocera" displayName="Batocera" />
-		<include name="retrobat" displayName="Retrobat" />
-		<include name="retropie" displayName="Retropie" />
-		<include name="animatics-dx" displayName="Animatics-DX" />
-	</subset>
+
+
+<!--Avatar du client-->
+<subset name="user-logo" displayName="${user.logo}">
+	<include name="none" displayName="${none}" />
+	<include name="custom" displayName="${custom}" />
+	<include name="batocera" displayName="Batocera" />
+	<include name="emulationstation" displayName="Emulation Station" />
+	<include name="recalbox" displayName="Recalbox" />
+	<include name="retroachievements" displayName="Retroachivements standard" />
+	<include name="retrobat" displayName="Retrobat" />
+	<include name="retropie" displayName="Retropie" />
+	<include name="tychus" displayName="Tychus Findlay" />
+</subset>
+
+
+<!--NickName du client-->
+<subset name="user-username" displayName="${user.username}">
+	<include name="none" displayName="${none}" />
+	<include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements ID: ${cheevos.username}" />
+	<include if="{global.netplay} == true" name="netplay" displayName="Netplay ID: ${global.netplay.username}" />
+	<include name="custom" displayName="${custom}: ${custom.nick}" />
+	<include name="batocera" displayName="Batocera" />
+	<include name="retrobat" displayName="Retrobat" />
+	<include name="retropie" displayName="Retropie" />
+	<include name="animatics-dx" displayName="Animatics-DX" />
+</subset>
 
 
 	
@@ -204,8 +197,8 @@ originally based on: "carbon"
   
   
   
-   <!--  MENU Popup  -->
-  <view name="menu">
+<!--  MENU Popup  -->
+<view name="menu">
     <menuText name="menutitle">
       <fontPath>./art/fonts/flatwheat.ttf</fontPath>
       <fontSize>0.038</fontSize>
@@ -275,11 +268,11 @@ originally based on: "carbon"
       <filledPath>./art/divers/button_filled.png</filledPath>
       <cornerSize>8 8</cornerSize>
     </menuButton>
-  </view>
+</view>
   
   
-	<!-- View always on TOP Manettes Horloge Indicateurs de batterie -->
-	<view name="screen">
+<!-- View always on TOP Manettes Horloge Indicateurs de batterie -->
+<view name="screen">
 
 		<controllerActivity name="controllerActivity">
 			  <pos>0.01 0.012</pos>
@@ -319,7 +312,7 @@ originally based on: "carbon"
 		</batteryIndicator>
 			  
 		
-	</view>
+</view>
   
   
 	<!-- Si les Cheevos sont activés on affiche le pseudo et change la clock en bas à droite 
@@ -355,14 +348,14 @@ originally based on: "carbon"
 	  <!-- <include subset="systemview" name="wheel" displayName="${systemview.wheel}">./config/systemview/controllersizefix.xml</include> -->
 
 
-  <include>./config/system/system.xml</include>
-  <include>./config/system/user.xml</include>
-  <include>./config/gamelist/gameinfobar.xml</include>
-  
-  <include>./system/infos/${system.theme}.xml</include>
+<include>./config/system/system.xml</include>
+<include>./config/system/user.xml</include>
+<include>./config/gamelist/gameinfobar.xml</include>
+
+<include>./system/infos/${system.theme}.xml</include>
   
  
- <!-- Views  -->
+<!-- Views  -->
   <include>./config/gamelist/common.xml</include>
   <include>./config/gamelist/detailed.xml</include>
   <include>./config/gamelist/video.xml</include>
@@ -373,7 +366,7 @@ originally based on: "carbon"
  
   
 
-  <!-- Subset options for help -->
+<!-- Subset options for help -->
   <subset name="helpsystem" displayName="${helpSubsetName}">
     <include name="buttons" displayName="${helpbuttons}">./config/help/buttons.xml</include>
     <include name="xboxbuttons" displayName="${xboxbuttons}">./config/help/xboxbuttons.xml</include>
@@ -382,7 +375,7 @@ originally based on: "carbon"
     <include name="standard" displayName="${gray}">./config/help/default.xml</include>
   </subset>
   
-  <!-- Subset options for screen -->
+<!-- Subset options for screen -->
   <subset name="shader" displayName="${subset.shader}">
     <include name="None" displayName="${none}"/>
     <include name="ScanLines" displayName="${scanlines}">./config/shader/scanlines.xml</include>
@@ -392,10 +385,10 @@ originally based on: "carbon"
 
 
 
-  <!-- Specific layout for systems -->
-		<include>./config/layouts/${system.theme}.xml</include>
-  <!-- Layout when help is disabled -->
-		<include ifHelpPrompts="false">./config/layouts/nohelp.xml</include>
+<!-- Specific layout for systems -->
+	<include>./config/layouts/${system.theme}.xml</include>
+<!-- Layout when help is disabled -->
+	<include ifHelpPrompts="false">./config/layouts/nohelp.xml</include>
 
 	
 	
@@ -439,14 +432,9 @@ originally based on: "carbon"
         <include name="0.040"/>
     </subset>
     
-
-  
 	
-	<!-- Fond animé -->
-	
+<!-- Fond qui défile-->
   <view name="system">
-  	
-    	
 	<image name="bgsky" extra="static">
       <pos>1 0.324</pos>
       <size>0 0</size>
@@ -462,7 +450,5 @@ originally based on: "carbon"
     </image>
   </view>
   
-  
-	
   
 </theme>

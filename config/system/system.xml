@@ -301,9 +301,6 @@ originally based on: "carbon"
 	</view>
 	
 	
-	
-	
-	
 	<view name="system" ifSubset="SystemView:wheel">
 	
 		<image name="controllers2" extra="true">
@@ -330,9 +327,6 @@ originally based on: "carbon"
 	</view>
 	
 	
-	
-	
-	
 	<view name="system" ifSubset="SystemView:simple">
 	
 		<text name="manufacturerName">
@@ -344,13 +338,10 @@ originally based on: "carbon"
 			<zIndex>14</zIndex>
 			<rotation>0</rotation>
 				<storyboard>
-					<animation property="offsetX" to="-0.2" begin="" duration="1100" mode="EaseOutCubic"/>
+					<animation property="offsetX" to="-0.2" begin="" duration="1300" mode="EaseOutCubic"/>
 				</storyboard>	
 		</text>
 		
-		
-	
-	
 	
 		<image name="controllers2" extra="true">
 			<pos>1.1592917 0.11</pos>	
@@ -358,7 +349,7 @@ originally based on: "carbon"
 			<horizontalAlignment>right</horizontalAlignment>
 			<verticalAlignment>bottom</verticalAlignment>
 			<storyboard>
-				<animation property="offsetX" to="-0.47" begin="" duration="1100" mode="EaseOutCubic"/>
+				<animation property="offsetX" to="-0.47" begin="" duration="1300" mode="EaseOutCubic"/>
 			</storyboard>	
 		</image>
 
@@ -392,9 +383,6 @@ originally based on: "carbon"
 		</text>
 	
 	</view>
-	
-	
-	
 	
 	
   </feature>
