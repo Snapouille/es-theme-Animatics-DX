@@ -10,7 +10,8 @@
       </text>
 	<!-- Position des infos sur les statistiques du système si ils sont affichés -->
       <text name="systemInfoEx" extra="true">
-        <alignment>right</alignment>
+        <alignment>left</alignment>
+		<alignment ifSubset="system-description:Show">right</alignment>
       </text>
     </view>
   </feature>
@@ -58,12 +59,7 @@
 		  </storyboard>
 		</image>
 	
-	
-	
-    <text name="systemInfo">
-      <pos>0.04 0.67</pos>
-      <size>0.92 0.25</size>
-    </text>
+		
 		<image name="CenterFade" extra="true">
 		  <tile>false</tile>
 		  <pos>0.5 0</pos>
