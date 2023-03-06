@@ -349,7 +349,7 @@ originally based on: "carbon"
 			<horizontalAlignment>right</horizontalAlignment>
 			<verticalAlignment>bottom</verticalAlignment>
 			<storyboard>
-				<animation property="offsetX" to="-0.47" begin="" duration="1300" mode="EaseOutCubic"/>
+				<animation property="offsetX" to="-0.475" begin="" duration="1300" mode="EaseOutCubic"/>
 			</storyboard>	
 		</image>
 
