@@ -203,7 +203,7 @@
 	<!-- Affichage de la mini console  -->
 	<image name="Consoles" extra="static">
       <tile>false</tile>
-      <pos>0.728 0.475</pos>
+      <pos>0.728 0.477</pos>
 	  <maxSize>0.09 0.1</maxSize>
       <origin>0.5 0.5</origin>
       <zIndex>13</zIndex>

@@ -11,7 +11,7 @@
 			<pos>0.17 -1</pos>
 			<scale>0.85</scale>
 			<rotation>-5</rotation>
-			<zIndex>112</zIndex>
+			<zIndex>50</zIndex>
 			<opacity>1</opacity>
 			<path>./avatar.png</path>
 			<linearSmooth>true</linearSmooth>
@@ -25,7 +25,7 @@
 			<scale>0.6</scale>
 			<path>./avatar2.png</path>
 			<opacity>1</opacity>
-			<zIndex>111</zIndex>
+			<zIndex>49</zIndex>
 		</image>
 		
 		<image name="avatar3" extra="static">
