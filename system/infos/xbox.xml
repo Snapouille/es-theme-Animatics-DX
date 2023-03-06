@@ -4,34 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>Xbox is a video gaming brand created and owned by Microsoft. The brand consists of five video game consoles, as well as applications (games), streaming services, an online service by the name of Xbox Live, and the development arm by the name of Xbox Game Studios. The brand was first introduced in the United States in November 2001, with the launch of the original Xbox console.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>Xbox, también llamada Xbox Clásica, es una videoconsola de sobremesa de sexta generación producida por Microsoft y la primera de esta empresa, en colaboración con Intel. Su principal característica es su procesador central basado en el procesador Intel Pentium III. El sistema también incorpora un lector de DVD, un disco duro interno, un puerto ethernet y cuatro conectores para los mandos. Las unidades vendidas de este equipo fueron 24 000 000 consolas, según las cifras oficiales.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text>La Xbox de Microsoft est une console de jeux vidéo sortie aux États-Unis le 15 novembre 2001. Microsoft fait avec ses premiers pas dans ce secteur, après avoir collaboré avec Sega pour porter Windows CE sur Dreamcast, et après avoir développé depuis plusieurs années des jeux Microsoft Game Studios et des accessoires de jeux vidéo SideWinder pour les PC sous Windows. </text>
-		</text>
+<text name="system_description" extra="true">
+<text>The first steps of microsoft in the sector of video game consoles. It is part of the sixth generation whose main competitors are Sony's PlayStation 2, Nintendo's Gamecube and Sega's Dreamcast. The console has a catalog of more than 825 games, with series like Halo, Star Wars and Fable.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text>Xbox é uma marca de consoles de jogos eletrônicos criada pela Microsoft. O nome Xbox é incluído em uma série de consoles desenvolvidos pela Microsoft, desde a sexta geração até a nona geração de consoles, bem como o serviço on-line Xbox Live e Xbox Game Pass. A marca foi introduzida pela primeira vez em 15 de novembro de 2001, nos Estados Unidos, com o lançamento do console Xbox. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Les premiers pas de microsoft dans le secteur des consoles de jeux video. Elle fait partie de la sixième génération dont les principales concurrentes sont la PlayStation 2 de Sony, la Gamecube de Nintendo et la Dreamcast de Sega. La console possède un catalogue de plus de 825 jeux, avec des séries comme Halo, Star Wars et Fable.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Die ersten Schritte von microsoft im Bereich der Videospielkonsolen. Sie gehört zur sechsten Generation, deren Hauptkonkurrenten die PlayStation 2 von Sony, der Gamecube von Nintendo und die Dreamcast von Sega sind. Die Konsole verfügt über einen Katalog mit über 825 Spielen, darunter Serien wie Halo, Star Wars und Fable.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="it">
-				<text>Xbox è la prima console da tavolo per videogiochi prodotta da Microsoft. Appartenente alla sesta generazione, venne messa in vendita il 15 novembre 2001 in America del Nord, il 22 febbraio 2002 in Giappone e il 14 marzo in Europa e Australia.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>Primeros pasos de Microsoft en el sector de las consolas de videojuegos. Forma parte de la sexta generación, cuyos principales competidores son la PlayStation 2 de Sony, la Gamecube de Nintendo y la Dreamcast de Sega. La consola cuenta con un catálogo de más de 825 juegos, con series como Halo, Star Wars y Fable.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>I primi passi di Microsoft nel settore delle console per videogiochi. Fa parte della sesta generazione, i cui principali concorrenti sono PlayStation 2 di Sony, Gamecube di Nintendo e Dreamcast di Sega. La console ha un catalogo di oltre 825 giochi, con serie come Halo, Star Wars e Fable.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>マイクロソフトがゲーム機部門に参入した最初の一歩。ソニーのプレイステーション2、任天堂のゲームキューブ、セガのドリームキャストを主なライバルとする第6世代に属します。このゲーム機には825以上のゲームカタログがあり、Halo、Star Wars、Fableなどのシリーズがあります。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De eerste stappen van Microsoft op het gebied van videogameconsoles. Hij maakt deel uit van de zesde generatie waarvan de belangrijkste concurrenten de PlayStation 2 van Sony, de Gamecube van Nintendo en de Dreamcast van Sega zijn. De console heeft een catalogus van meer dan 825 spellen, met series als Halo, Star Wars en Fable.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Pierwsze kroki Microsoftu w sektorze konsol do gier wideo. Należy ona do szóstej generacji, której głównymi konkurentami są PlayStation 2 firmy Sony, Gamecube firmy Nintendo oraz Dreamcast firmy Sega. Konsola posiada katalog ponad 825 gier, z takimi seriami jak Halo, Star Wars czy Fable.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Os primeiros passos da Microsoft no sector das consolas de videojogos. Faz parte da sexta geração cujos principais concorrentes são a PlayStation 2 da Sony, o Gamecube da Nintendo e o Dreamcast da Sega. A consola tem um catálogo de mais de 825 jogos, com séries como Halo, Star Wars e Fábula.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Первые шаги Microsoft в секторе игровых консолей. Она относится к шестому поколению, основными конкурентами которого являются PlayStation 2 от Sony, Gamecube от Nintendo и Dreamcast от Sega. Каталог консоли насчитывает более 825 игр, среди которых такие серии, как Halo, Star Wars и Fable.</text>
+</text>
+
+</view>
 </theme>

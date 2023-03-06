@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Sinclair ZX81 is an 8-bit personal computer, designed by Sinclair Research and marketed by Timex Corporation. Based on a Zilog Z80A microprocessor running at 3.25 MHz, it had 1 kB of RAM. The display was in black and white (24 lines of 32 characters) on a standard television set. The computer did not have a sound output.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The ZX81 is a home computer that was produced by Sinclair Research and manufactured in Dundee, Scotland by Timex Corporation. It was launched in the United Kingdom in March 1981 as the successor to ZX80.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>ZX81, lanzado por Sinclair Research en 1981, fue el computador de menor precio de la época y se vendía en la versión de kit por 49,95 libras esterlinas, y por 69,95 montado. Este era la versión mejorada del ZX80.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La conception du ZX81 avait pour objectif de produire un ordinateur aux performances, certes modeste, mais à un coût raisonnable. Cela passait d'abord par une réduction du nombre des composants et par l'optimisation de leur utilisation.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Sinclair ZX81 est un ordinateur personnel 8 bits, conçu par Sinclair Research et commercialisé par Timex Corporation. Basé sur un microprocesseur Zilog Z80A cadencé à 3,25 MHz, il possédait 1 ko de mémoire vive. L'affichage se faisait en noir et blanc (24 lignes de 32 caractères) sur un téléviseur standard. L'ordinateur ne possédait pas de sortie son.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Sinclair ZX81, lançado pela Sinclair Research em 1981, veio em sequência ao ZX80. Foi o primeiro computador doméstico no mundo vendido abaixo de US$ 100 (sob a forma de "kit").</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der Sinclair ZX81 war ein 8-Bit-Personalcomputer, der von Sinclair Research entwickelt und von der Timex Corporation vermarktet wurde. Er basierte auf einem Zilog Z80A Mikroprozessor mit einer Taktfrequenz von 3,25 MHz und verfügte über 1 KB RAM. Die Anzeige erfolgte in Schwarz-Weiß (24 Zeilen à 32 Zeichen) auf einem Standardfernseher. Der Computer verfügte über keinen Tonausgang.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El Sinclair ZX81 fue un ordenador personal de 8 bits diseñado por Sinclair Research y comercializado por Timex Corporation. Basado en un microprocesador Zilog Z80A que funcionaba a 3,25 MHz, tenía 1 kB de RAM. La pantalla era en blanco y negro (24 líneas de 32 caracteres) en un televisor estándar. El ordenador no tenía salida de sonido.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Sinclair ZX81 era un personal computer a 8 bit progettato da Sinclair Research e commercializzato da Timex Corporation. Basato su un microprocessore Zilog Z80A funzionante a 3,25 MHz, aveva 1 kB di RAM. La visualizzazione era in bianco e nero (24 righe di 32 caratteri) su un televisore standard. Il computer non disponeva di un'uscita audio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Sinclair ZX81は、Sinclair Researchが設計し、Timex Corporationが販売した8ビットパーソナルコンピュータです。3.25MHzで動作するZilog Z80Aマイクロプロセッサーをベースに、1kBのRAMを搭載していました。ディスプレイは、標準的なテレビに白黒（24行32文字）で表示されていた。このコンピュータには、サウンド出力はなかった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Sinclair ZX81 was een 8-bit personal computer ontworpen door Sinclair Research en op de markt gebracht door Timex Corporation. Hij was gebaseerd op een Zilog Z80A microprocessor die draaide op 3,25 MHz en beschikte over 1 kB RAM. Het display was in zwart-wit (24 regels van 32 tekens) op een standaard televisietoestel. De computer had geen geluidsweergave.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Sinclair ZX81 był 8-bitowym komputerem osobistym zaprojektowanym przez Sinclair Research i sprzedawanym przez Timex Corporation. Oparty na mikroprocesorze Zilog Z80A pracującym z częstotliwością 3,25 MHz, posiadał 1 kB pamięci RAM. Wyświetlacz był czarno-biały (24 linie po 32 znaki) na standardowym telewizorze. Komputer nie posiadał wyjścia dźwiękowego.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Sinclair ZX81 era um computador pessoal de 8 bits, concebido pela Sinclair Research e comercializado pela Timex Corporation. Baseado num microprocessador Zilog Z80A que funciona a 3,25 MHz, tinha 1 kB de RAM. O visor estava a preto e branco (24 linhas de 32 caracteres) num aparelho de televisão padrão. O computador não tinha uma saída de som.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Sinclair ZX81 был 8-битным персональным компьютером, разработанным компанией Sinclair Research и продаваемым корпорацией Timex. Основанный на микропроцессоре Zilog Z80A, работающем на частоте 3,25 МГц, он имел 1 кБ оперативной памяти. Дисплей был черно-белым (24 строки по 32 символа) и отображался на экране стандартного телевизора. Компьютер не имел звукового выхода.</text>
+</text>
+
+</view>
 </theme>

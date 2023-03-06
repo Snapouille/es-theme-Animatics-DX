@@ -4,36 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
-		
-				<text name="system_description" extra="true">
-			<text>The ZX Spectrum is an 8-bit personal home computer released in the United Kingdom in 1982 by Sinclair Research. It was launched as the ZX Spectrum by Sinclair to highlight the machine's colour display.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El Sinclair ZX Spectrum es un ordenador de 8 bits basado en el microprocesador Zilog Z80A, fabricado por la compañía británica Sinclair Research y lanzado al mercado el 23 de abril de 1982.
-
-El Sinclair ZX Spectrum fue uno de los microordenadores domésticos más populares de los años 1980 en Europa, su optimizado y compacto diseño hizo las delicias de miles de aficionados a la informática y los videojuegos de aquella década.  
-
+<text name="system_description" extra="true">
+<text>The ZX Spectrum is a small personal computer put on the market by the English manufacturer Sinclair Research. Based on the Zilog Z80 processor running at 3.5 MHz, the Spectrum was equipped with 16 kB of RAM (an extension was also available to go from 16 to 48 kB). It was the first consumer personal computer in the UK.</text>
 </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>ZX Spectrum est un petit ordinateur personnel mis sur le marché par le constructeur informatique anglais Sinclair Research en 1982. Basé sur le processeur Zilog Z80 tournant à 3,5 MHz.</text>
-		</text>
 
-			<text name="system_description" extra="true" lang="pt">
-			<text>Baseado num processador Zilog Z80-A a 3,50 MHz com 16 KBytes de ROM, Sinclair ZX Spectrum foi um dos mais influentes microcomputadores europeus de 8 bits durante a década de 1980. Foi lançado em 1982.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le ZX Spectrum est un petit ordinateur personnel mis sur le marché par le constructeur anglais Sinclair Research. Basé sur le processeur Zilog Z80 tournant à 3,5 MHz, le Spectrum était équipé avec 16 ko de mémoire vive (une extension était aussi disponible pour passer de 16 à 48 ko). Il s'agit du premier ordinateur personnel grand public au Royaume-Uni.</text>
+</text>
 
-		<text name="system_name" extra="true">
-			<text>ZX Spectrum</text>
-		</text>
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Der ZX Spectrum war ein kleiner Personalcomputer, der von dem englischen Hersteller Sinclair Research auf den Markt gebracht wurde. Der Spectrum basierte auf dem Zilog Z80-Prozessor mit 3,5 MHz und war mit 16 KB RAM ausgestattet (eine Erweiterung von 16 auf 48 KB war ebenfalls erhältlich). Es handelte sich um den ersten Personal Computer für den Massenmarkt in Großbritannien.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El ZX Spectrum es un pequeño ordenador personal comercializado por el fabricante británico Sinclair Research. Basado en el procesador Z80 de Zilog que funcionaba a 3,5 MHz, el Spectrum estaba equipado con 16 kB de RAM (también existía una ampliación para pasar de 16 a 48 kB). Fue el primer ordenador personal de consumo del Reino Unido.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Lo ZX Spectrum è un piccolo personal computer commercializzato dal produttore britannico Sinclair Research. Basato sul processore Zilog Z80 a 3,5 MHz, lo Spectrum era dotato di 16 kB di RAM (era disponibile anche un'estensione per passare da 16 a 48 kB). È stato il primo personal computer di consumo del Regno Unito.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ZX Spectrumは、イギリスのメーカーSinclair Researchが販売した小型パーソナルコンピュータです。3.5MHzで動作するZilog Z80プロセッサをベースに、Spectrumは16kBのRAMを搭載していた（16kBから48kBに拡張することも可能だった）。英国初の民生用パーソナルコンピュータである。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De ZX Spectrum is een kleine personal computer die op de markt werd gebracht door de Britse fabrikant Sinclair Research. De Spectrum is gebaseerd op de Zilog Z80-processor op 3,5 MHz en was uitgerust met 16 kB RAM (er was ook een uitbreiding beschikbaar van 16 naar 48 kB). Het was de eerste personal computer voor consumenten in het Verenigd Koninkrijk.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>ZX Spectrum to mały komputer osobisty wprowadzony na rynek przez brytyjskiego producenta Sinclair Research. Oparty na procesorze Zilog Z80 pracującym z częstotliwością 3,5 MHz, Spectrum był wyposażony w 16 kB pamięci RAM (dostępne było również rozszerzenie pozwalające na przejście z 16 do 48 kB). Był to pierwszy konsumencki komputer osobisty w Wielkiej Brytanii.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O ZX Spectrum é um pequeno computador pessoal comercializado pelo fabricante britânico Sinclair Research. Com base no processador Zilog Z80 a 3,5 MHz, o Spectrum foi equipado com 16 kB de RAM (uma extensão também estava disponível para ir de 16 a 48 kB). Foi o primeiro computador pessoal de consumo no Reino Unido.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>ZX Spectrum - это небольшой персональный компьютер, выпущенный на рынок британской компанией Sinclair Research. Основанный на процессоре Zilog Z80, работающем на частоте 3,5 МГц, Spectrum был оснащен 16 кБ оперативной памяти (также было доступно расширение для увеличения объема памяти с 16 до 48 кБ). Это был первый потребительский персональный компьютер в Великобритании.</text>
+</text>
+
+</view>
 </theme>

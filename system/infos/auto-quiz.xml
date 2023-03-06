@@ -4,25 +4,60 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+"<text>This type of video game generally adopts a contest format for several players in turn. 
+Tests, questions, puzzles... Who will win?</text>"
+</text>
 
-This type of video game usually adopts the contest format for several players in turns. Tests, questions, riddles... Who will win?
-			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+"<text>Ce type de jeu vidéo adopte généralement un format de concours pour plusieurs joueurs à tour de rôle. 
+Tests, questions, énigmes... Qui va gagner ?</text>"
+</text>
 
+<text name="system_description" extra="true" lang="de">
+"<text>Diese Art von Videospielen nimmt in der Regel ein Wettbewerbsformat an, bei dem mehrere Spieler abwechselnd gegeneinander antreten. 
+Tests, Fragen, Rätsel ... Wer wird gewinnen?</text>"
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+"<text>Este tipo de videojuegos adopta generalmente un formato de competición para varios jugadores por turnos. 
+Pruebas, preguntas, rompecabezas... ¿Quién ganará?</text>"
+</text>
 
-Este tipo de videojuegos suele adoptar el formato de concurso para varios jugadores por turnos. Pruebas, preguntas, acertijos... ¿Quién ganará?.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+"<text>Questo tipo di videogiochi adotta generalmente un formato di competizione per più giocatori a turno. 
+Test, domande, enigmi... Chi vincerà?</text>"
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+"<text>この種のビデオゲームは、一般に複数のプレイヤーが順番に対戦する形式が採用されています。
+テスト、問題、パズル...。誰が勝つのでしょうか？</text>"
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+"<text>Dit type videospel heeft over het algemeen een competitievorm voor meerdere spelers om de beurt. 
+Tests, vragen, puzzels... Wie zal er winnen?</text>"
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+"<text>Ten typ gry wideo zazwyczaj przyjmuje format konkurencji dla kilku graczy z kolei. 
+Testy, pytania, zagadki... Kto wygra?</text>"
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+"<text>Este tipo de jogo de vídeo adopta geralmente um formato de competição para vários jogadores por sua vez. 
+Testes, perguntas, puzzles... Quem vai ganhar?</text>"
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+"<text>Этот тип видеоигр обычно принимает формат соревнования для нескольких игроков по очереди. 
+Тесты, вопросы, головоломки... Кто победит?</text>"
+</text>
+
+</view>
 </theme>

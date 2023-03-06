@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>The Sharp X1 is the name given to a series of Japanese microcomputers created by Sharp Corporation from 1982 to 1988. They all integrate a Zilog Z80 processor. The X1 did not use the BASIC language but loaded the interpreter directly from an audio cassette. This concept allowed access to RAM space via data recording.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The X1 (エックスワン, Ekkusuwan), sometimes called the Sharp X1, is a series of home computers released by Sharp Corporation from 1982 to 1988. It was based on a Z80 CPU. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Sharp X1 est le nom donné à une série de micro-ordinateurs japonais créé par Sharp Corporation de 1982 à 1988. Ils intègrent tous un processeur Zilog Z80. Le X1 n'utilisait pas le langage BASIC mais chargeait directement l'interprète depuis une cassette audio. Ce concept permettait l'accès à un espace pour la mémoire vive via l'enregistrement des données.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>Le Sharp X1 est le nom donné à une série de micro-ordinateurs japonais créé par Sharp Corporation de 1982 à 1988. Ils intègrent tous un processeur Zilog Z80. </text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Sharp X1 ist der Name einer Reihe von japanischen Mikrocomputern, die von der Sharp Corporation von 1982 bis 1988 hergestellt wurden. In allen war ein Zilog Z80-Prozessor eingebaut. Der X1 verwendete nicht die Programmiersprache BASIC, sondern lud den Interpreter direkt von einer Audiokassette. Dieses Konzept ermöglichte den Zugriff auf RAM-Speicherplatz über die Datenaufzeichnung.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>El Sharp X1, también llamado solo X1, fue una serie de computadoras domésticas lanzadas por Sharp Corporation entre 1982 y 1988. Se basó en una CPU Z80.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Sharp X1 es el nombre dado a una serie de microordenadores japoneses creados por Sharp Corporation entre 1982 y 1988. Todos ellos incorporaban un procesador Z80 de Zilog. El X1 no utilizaba el lenguaje BASIC, sino que cargaba el intérprete directamente desde un casete de audio. Este concepto permitía acceder al espacio RAM mediante la grabación de datos.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text>O computador doméstico X1 (ou CZ-800C) foi o primeiro de uma bem-sucedida série de máquinas multimídia precoces vendidas no Japão entre 1982 e 1988 pela Sharp.</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Sharp X1 è il nome dato a una serie di microcomputer giapponesi creati da Sharp Corporation dal 1982 al 1988. Tutti incorporavano un processore Zilog Z80. L'X1 non utilizzava il linguaggio BASIC, ma caricava l'interprete direttamente da una cassetta audio. Questo concetto permetteva di accedere allo spazio RAM tramite la registrazione dei dati.</text>
+</text>
 
+<text name="system_description" extra="true" lang="ja">
+<text>シャープX1は、1982年から1988年にかけてシャープ株式会社が製作した日本製マイクロコンピュータのシリーズ名である。いずれもZilog Z80プロセッサを搭載している。X1はBASIC言語を使わず、オーディオカセットから直接インタプリタを読み込んでいた。このコンセプトにより、データ記録によるRAM空間へのアクセスが可能になった。</text>
+</text>
 
-		
-				
+<text name="system_description" extra="true" lang="nl">
+<text>De Sharp X1 is de naam van een serie Japanse microcomputers die van 1982 tot 1988 door Sharp Corporation zijn gemaakt. Ze bevatten allemaal een Zilog Z80 processor. De X1 gebruikte niet de BASIC-taal, maar laadde de interpreter rechtstreeks vanaf een audiocassette. Dit concept maakte toegang tot RAM ruimte mogelijk via data opname.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>Sharp X1 to nazwa nadana serii japońskich mikrokomputerów stworzonych przez Sharp Corporation w latach 1982-1988. Wszystkie one zawierały procesor Zilog Z80. X1 nie używał języka BASIC, ale ładował interpreter bezpośrednio z kasety audio. Taka koncepcja pozwalała na dostęp do przestrzeni RAM poprzez nagrywanie danych.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Sharp X1 é o nome dado a uma série de microcomputadores japoneses criados pela Sharp Corporation de 1982 a 1988. Todos eles incorporaram um processador Zilog Z80. O X1 não utilizou a linguagem BASIC mas carregou o intérprete directamente a partir de uma cassete áudio. Este conceito permitiu o acesso ao espaço RAM através da gravação de dados.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Sharp X1 - это название серии японских микрокомпьютеров, созданных корпорацией Sharp с 1982 по 1988 год. Все они были оснащены процессором Zilog Z80. В X1 не использовался язык BASIC, а интерпретатор загружался непосредственно с аудиокассеты. Эта концепция позволяла получить доступ к пространству оперативной памяти через запись данных.</text>
+</text>
+
+</view>
 </theme>

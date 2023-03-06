@@ -4,28 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Wii (ウィー) has the particularity of using an accelerometer capable of detecting the position, orientation and movements in space of its controller (wiimote). It marked a turning point in the history of video games by opening this hobby to a wider audience, thus targeting the whole society, which partly explains its success.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Is a home video game console released by Nintendo on November 19, 2006. As a seventh-generation console, the Wii competed with Microsoft's Xbox 360 and Sony's PlayStation 3.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Wii (ウィー Uī) es una videoconsola producida por Nintendo y estrenada el 19 de noviembre de 2006 en Norteamérica y el 8 de diciembre del mismo año en Europa. Perteneciente a la séptima generación de consolas.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Wii est une console de jeux de salon du fabricant japonais Nintendo, sortie en 2006. Console de la septième génération, tout comme la Xbox 360 et la PlayStation 3 avec lesquelles elle est en rivalité. Bien que moins puissante techniquement elle s'imposera allègrement en nombre d'exemplaires vendus dans le monde.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Wii (ウィー) a comme particularité d'utiliser un accéléromètre capable de détecter la position, l'orientation et les mouvements dans l'espace de sa manette (wiimote). Elle a marqué un tournant dans l'histoire du jeu vidéo en ouvrant ce loisir à un public plus large, ciblant ainsi l'ensemble de la société, ce qui explique en partie son succès.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console de videogame doméstico produzido pela Nintendo e lançado em 2006. É um videogame da sétima geração e o quinto console da Nintendo. Seus principais concorrentes são o Xbox 360 e o Playstation 3.</text>
-		</text>
-		
-				
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Die Wii (ウィー) zeichnet sich dadurch aus, dass sie einen Beschleunigungsmesser verwendet, der die Position, Ausrichtung und räumliche Bewegung ihres Controllers (Wiimote) erfassen kann. Sie markierte einen Wendepunkt in der Geschichte der Videospiele, indem sie dieses Hobby einem breiteren Publikum öffnete und damit die gesamte Gesellschaft ansprach, was zum Teil ihren Erfolg erklärt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La Wii (ウィー) tiene la particularidad de utilizar un acelerómetro capaz de detectar la posición, orientación y movimientos en el espacio de su mando (wiimote). Marcó un antes y un después en la historia de los videojuegos al abrir esta afición a un público más amplio, dirigiéndose así a toda la sociedad, lo que explica en parte su éxito.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>La Wii (ウィー) ha la particolarità di utilizzare un accelerometro in grado di rilevare la posizione, l'orientamento e i movimenti nello spazio del suo controller (wiimote). Ha segnato una svolta nella storia dei videogiochi aprendo questo passatempo a un pubblico più vasto, rivolgendosi quindi all'intera società, il che spiega in parte il suo successo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Wiiは、コントローラ（wiimote）の位置、向き、空間内の動きを検出する加速度センサーを搭載しているのが特徴です。Wiiは、ゲームという趣味をより多くの人々に開放し、社会全体をターゲットにした、ビデオゲーム史の転換点となる製品であり、その成功の一因となった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Wii (ウィー) heeft als bijzonderheid dat hij gebruik maakt van een versnellingsmeter die de positie, de oriëntatie en de bewegingen in de ruimte van zijn controller (wiimote) kan detecteren. Het betekende een keerpunt in de geschiedenis van videospelletjes door deze hobby open te stellen voor een breder publiek, dus gericht op de hele samenleving, wat deels zijn succes verklaart.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Wii (ウィー) ma tę szczególną cechę, że wykorzystuje akcelerometr zdolny do wykrywania pozycji, orientacji i ruchów w przestrzeni swojego kontrolera (wiimote). Stanowiła ona punkt zwrotny w historii gier wideo, otwierając to hobby dla szerszej publiczności, a tym samym kierując je do całego społeczeństwa, co częściowo wyjaśnia jej sukces.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Wii (ウィー) tem a particularidade de utilizar um acelerómetro capaz de detectar a posição, orientação e movimentos no espaço do seu controlador (wiimote). Marcou um ponto de viragem na história dos videojogos ao abrir este passatempo a um público mais vasto, visando assim toda a sociedade, o que explica em parte o seu sucesso.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Особенностью Wii (ウィー) является использование акселерометра, способного определять положение, ориентацию и перемещения в пространстве своего контроллера (wiimote). Она стала поворотным моментом в истории видеоигр, открыв это хобби для более широкой аудитории, тем самым ориентируясь на все общество, что отчасти объясняет ее успех.</text>
+</text>
+
+</view>
 </theme>

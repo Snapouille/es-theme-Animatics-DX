@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
+<text name="system_description" extra="true">
+<text>Windows was originally a unified graphical interface produced by Microsoft, which later became a range of operating systems in its own right, mainly for PC-compatible computers.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Windows est au départ une interface graphique unifiée produite par Microsoft, qui est devenue ensuite une gamme de systèmes d’exploitation à part entière, principalement destinés aux ordinateurs compatibles PC.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Windows war ursprünglich eine von Microsoft produzierte einheitliche grafische Benutzeroberfläche, die sich später zu einer eigenen Reihe von Betriebssystemen entwickelte, die hauptsächlich für PC-kompatible Computer bestimmt waren.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Windows comenzó como una interfaz gráfica unificada producida por Microsoft, que más tarde se convirtió en una gama de sistemas operativos por derecho propio, principalmente para ordenadores compatibles con PC.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Windows è nato come interfaccia grafica unificata prodotta da Microsoft, che in seguito è diventata una gamma di sistemi operativi a sé stanti, principalmente per i computer compatibili con PC.</text>
+</text>
 
-		
-		
-				
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>Windowsは、マイクロソフト社の統一されたグラフィカル・インターフェースとして始まり、その後、主にPC互換機用のオペレーティング・システムとして、その地位を確立した。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Windows begon als een uniforme grafische interface van Microsoft, die later uitgroeide tot een reeks eigen besturingssystemen, voornamelijk voor pc-compatibele computers.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Windows rozpoczął działalność jako zunifikowany interfejs graficzny wyprodukowany przez firmę Microsoft, który później stał się samodzielnym systemem operacyjnym, przeznaczonym głównie dla komputerów kompatybilnych z PC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Windows começou como uma interface gráfica unificada produzida pela Microsoft, que mais tarde se tornou uma gama de sistemas operativos por direito próprio, principalmente para computadores compatíveis com PC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Windows начиналась как унифицированный графический интерфейс, созданный компанией Microsoft, который позже стал самостоятельной операционной системой, в основном для PC-совместимых компьютеров.</text>
+</text>
+
+</view>
 </theme>

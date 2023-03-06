@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The WonderSwan is a portable video game console, created by Koto Laboratory founded by Gunpei Yokoi and sold by Bandai. Equipped with a 16-bit processor, it is positioned as an alternative to the Game Boy Color and the Neo-Geo Pocket released in the same year.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Is a handheld game console released in Japan by Bandai. It was developed by Gunpei Yokoi's company Koto Laboratory and Bandai, and was the last piece of hardware Yokoi developed before his death in 1997.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>WonderSwan (ワンダースワン) es una videoconsola portátil de 16 bits de la compañía Bandai que fue lanzada en Japón en 1999. Bandai siempre ha estado muy ligada al manga y al anime.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>WonderSwan est une console de jeux vidéo 16 bits, portable, créée par Koto Laboratory — fondé par Gunpei Yokoi — et vendue par Bandai. L'inventeur de cette console est Gunpei Yokoi, le géniteur de la Game Boy.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La WonderSwan est une console de jeux vidéo portable, créée par Koto Laboratory fondé par Gunpei Yokoi et vendue par Bandai. Équipé d'un processeur 16 bits, elle se positionne comme une alternative à la Game Boy Color et la Neo-Geo Pocket sorties dans la même année.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console portátil lançado pela Bandai em 1999 apenas no Japão, recebeu mais duas versões com melhorias, o WonderSwan Color e o Swan Crystal, juntos todos eles venderam 3,5 milhões de unidades.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der WonderSwan ist eine tragbare Videospielkonsole, die von dem von Gunpei Yokoi gegründeten Koto Laboratory entwickelt und von Bandai vertrieben wird. Ausgestattet mit einem 16-Bit-Prozessor, positionierte sie sich als Alternative zum Game Boy Color und Neo-Geo Pocket, die im selben Jahr veröffentlicht wurden.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>La WonderSwan es una videoconsola portátil creada por Koto Laboratory, fundada por Gunpei Yokoi, y comercializada por Bandai. Equipada con un procesador de 16 bits, se posiciona como una alternativa a la Game Boy Color y la Neo-Geo Pocket lanzadas el mismo año.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il WonderSwan è una console portatile per videogiochi, creata da Koto Laboratory fondata da Gunpei Yokoi e venduta da Bandai. Dotata di un processore a 16 bit, si posiziona come alternativa al Game Boy Color e al Neo-Geo Pocket uscito nello stesso anno.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ワンダースワンは、横井軍平が設立した江東研究所が制作し、バンダイが販売した携帯ゲーム機である。16ビットプロセッサを搭載し、同年発売のゲームボーイカラーやネオジオポケットの代替機として位置づけられる。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De WonderSwan is een draagbare videospelconsole, gemaakt door Koto Laboratory, opgericht door Gunpei Yokoi, en verkocht door Bandai. Uitgerust met een 16-bit processor, is het gepositioneerd als een alternatief voor de Game Boy Color en de Neo-Geo Pocket die in hetzelfde jaar werden uitgebracht.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>WonderSwan to przenośna konsola do gier wideo, stworzona przez Koto Laboratory założone przez Gunpei Yokoi i sprzedawana przez Bandai. Wyposażona w 16-bitowy procesor, jest pozycjonowana jako alternatywa dla Game Boy Color i Neo-Geo Pocket wydanych w tym samym roku.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O WonderSwan é uma consola de videojogos portátil, criada pelo Laboratório Koto fundado por Gunpei Yokoi e vendido pela Bandai. Equipada com um processador de 16 bits, posiciona-se como uma alternativa ao Game Boy Color e ao Neo-Geo Pocket lançado no mesmo ano.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>WonderSwan - это портативная игровая консоль, созданная компанией Koto Laboratory, основанной Гунпеем Йокои, и продаваемая компанией Bandai. Оснащенная 16-битным процессором, она позиционируется как альтернатива Game Boy Color и Neo-Geo Pocket, выпущенным в том же году.</text>
+</text>
+
+</view>
 </theme>

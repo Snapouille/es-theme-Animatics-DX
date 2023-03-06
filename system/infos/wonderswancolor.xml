@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The WonderSwan Color is an improvement of the original WonderSwan and remains backwards compatible. It was released in Japan and was quite successful, taking up to 8% of the Japanese market, dominated by Nintendo and its various Game Boys. In November 2002, Bandai released an evolution under the name of SwanCrystal, with a better screen.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>WonderSwan Color and SwanCrystal were officially supported until being discontinued by Bandai in 2003. During its lifespan, no variation of the WonderSwan was released outside of Japan.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>WonderSwan Color (ワンダースワンカラー Wandāsuwan Karā?) es una videoconsola portátil diseñada por Bandai. Fue lanzada en Japón el 30 de diciembre de 1999, teniendo un éxito moderado.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Elle est une amélioration de la WonderSwan originale. Elle sort le 30/12/2000 au Japon et rencontre un assez grand succès, prenant jusqu'à 8 % du marché japonais, dominé par Nintendo et ses différentes Game Boy.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La WonderSwan Color est une amélioration de la WonderSwan originale et reste rétrocompatible. Elle sort au Japon et rencontre un assez grand succès, prenant jusqu'à 8 % du marché japonais, dominé par Nintendo et ses différentes Game Boy. En novembre 2002, Bandai sort une évolution sous le nom de SwanCrystal, bénéficiant d'un meilleur écran.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Além de tela colorida, ele possui uma memória de 512kbit, que permite a criação de jogos mais complexos. A Bandai conseguiu uma parceria com a Square, que lançou títulos como os remakes de Final Fantasy I, II e IV.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der WonderSwan Color ist eine Verbesserung des ursprünglichen WonderSwan und bleibt abwärtskompatibel. Sie wurde in Japan veröffentlicht und war ein großer Erfolg. Sie nahm bis zu 8 % des japanischen Marktes ein, der von Nintendo und seinen verschiedenen Game Boys dominiert wurde. Im November 2002 brachte Bandai eine Weiterentwicklung unter dem Namen SwanCrystal mit einem besseren Bildschirm heraus.</text>
+</text>
 
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>La WonderSwan Color es una mejora de la WonderSwan original y sigue siendo compatible con versiones anteriores. Salió a la venta en Japón y tuvo bastante éxito, acaparando hasta el 8% del mercado japonés, dominado por Nintendo y sus diversas Game Boys. En noviembre de 2002, Bandai lanzó una evolución bajo el nombre de SwanCrystal, con una pantalla mejorada.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il WonderSwan Color è un miglioramento del WonderSwan originale e rimane retrocompatibile. È stato rilasciato in Giappone e ha avuto un discreto successo, conquistando fino all'8% del mercato giapponese, dominato da Nintendo e dai suoi vari Game Boys. Nel novembre 2002, Bandai rilascia un'evoluzione con il nome di SwanCrystal, con uno schermo migliore.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>WonderSwan Colorは、初代WonderSwanを改良したもので、後方互換性を保っています。日本で発売され、任天堂とその様々なゲームボーイによって支配されていた日本市場の8%まで奪って、かなり成功した。2002年11月、バンダイはSwanCrystalという名前で、より良い画面を持つ進化版をリリースした。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De WonderSwan Color is een verbetering van de originele WonderSwan en blijft achterwaarts compatibel. Het werd uitgebracht in Japan en was vrij succesvol, het veroverde tot 8% van de Japanse markt, gedomineerd door Nintendo en zijn verschillende Game Boys. In november 2002 bracht Bandai een evolutie uit onder de naam SwanCrystal, met een beter scherm.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>WonderSwan Color jest ulepszeniem oryginalnego WonderSwana i pozostaje kompatybilny wstecz. Został wydany w Japonii i odniósł spory sukces, zajmując do 8% japońskiego rynku, zdominowanego przez Nintendo i jego różne Game Boys. W listopadzie 2002 roku Bandai wydał ewolucję pod nazwą SwanCrystal, z lepszym ekranem.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O WonderSwan Color é uma melhoria do WonderSwan original e continua a ser compatível com o passado. Foi lançado no Japão e teve bastante sucesso, ocupando até 8% do mercado japonês, que foi dominado pela Nintendo e pelos seus vários Game Boys. Em Novembro de 2002, a Bandai lançou uma evolução sob o nome SwanCrystal, com um ecrã melhor.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>WonderSwan Color является усовершенствованием оригинального WonderSwan и сохраняет обратную совместимость. Она была выпущена в Японии и оказалась довольно успешной, заняв до 8% японского рынка, на котором доминировала Nintendo со своими различными Game Boys. В ноябре 2002 года компания Bandai выпустила новую версию под названием SwanCrystal с более качественным экраном.</text>
+</text>
+
+</view>
 </theme>

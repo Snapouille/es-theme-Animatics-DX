@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Wii U (ウィー ユー) is the successor video game console to the Wii. It is the first eighth-generation video game console to be released, competing with the PlayStation 4 and Xbox One. The Wii U is the first home console to feature a controller with a built-in touch screen, the Wii U GamePad.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Is a home video game console released by Nintendo on November 19, 2006. As a seventh-generation console, the Wii competed with Microsoft's Xbox 360 and Sony's PlayStation 3.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Wii (ウィー Uī) es una videoconsola producida por Nintendo y estrenada el 19 de noviembre de 2006 en Norteamérica y el 8 de diciembre del mismo año en Europa. Perteneciente a la séptima generación de consolas.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Nintendo Wii U est une console de jeux de salon du fabricant japonais Nintendo, sortie en 2012. Console de la huitième génération, tout comme la Xbox One et la PlayStation 4 avec lesquelles elle est en rivalité bien que également moins puissante techniquement.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Wii U (ウィー ユー) est la console de jeu vidéo succédant à la Wii. Il s'agit de la première console de jeu vidéo de huitième génération à sortir, en concurrence avec la PlayStation 4 et la Xbox One. La Wii U est la première console de salon à proposer une manette avec un écran tactile intégré, le Wii U GamePad.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console de videogame doméstico produzido pela Nintendo e lançado em 2006. É um videogame da sétima geração e o quinto console da Nintendo. Seus principais concorrentes são o Xbox 360 e o Playstation 3.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Die Wii U (ウィー ユー) ist die Videospielkonsole als Nachfolger der Wii. Sie ist die erste Videospielkonsole der achten Generation, die veröffentlicht wird, und konkurriert mit der PlayStation 4 und der Xbox One. Die Wii U ist die erste Heimkonsole, die einen Controller mit integriertem Touchscreen bietet, das Wii U GamePad.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Wii U (ウィー ユー) es la videoconsola sucesora de la Wii. Es la primera videoconsola de octava generación que sale al mercado, compitiendo con la PlayStation 4 y la Xbox One. La Wii U es la primera consola doméstica que incorpora un mando con pantalla táctil integrada, el Wii U GamePad.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>La Wii U (ウィー ユー) è la console per videogiochi che succede alla Wii. È la prima console per videogiochi di ottava generazione a essere rilasciata, in concorrenza con PlayStation 4 e Xbox One. La Wii U è la prima console domestica dotata di un controller con touch screen integrato, il Wii U GamePad.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Wii U（ウィーユー）は、Wiiの後継機となるビデオゲーム機です。第8世代のゲーム機として初めて発売され、PlayStation 4やXbox Oneと競合しています。Wii Uは、家庭用ゲーム機として初めてタッチスクリーン内蔵のコントローラー「Wii U GamePad」を搭載しています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Wii U (ウィー ユー) is de opvolger van de Wii. Het is het eerste videospelconsole van de achtste generatie dat wordt uitgebracht en concurreert met de PlayStation 4 en de Xbox One. De Wii U is de eerste thuisconsole met een controller met een ingebouwd aanraakscherm, de Wii U GamePad.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Wii U (ウィー ユー) to następca konsoli gier wideo do Wii. Jest to pierwsza wydana konsola do gier wideo ósmej generacji, konkurująca z PlayStation 4 i Xbox One. Wii U jest pierwszą konsolą domową wyposażoną w kontroler z wbudowanym ekranem dotykowym, Wii U GamePad.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Wii U (ウィー ユー) é a consola de jogos de vídeo sucessora da Wii. É a primeira consola de jogos de vídeo da oitava geração a ser lançada, competindo com a PlayStation 4 e Xbox One. A Wii U é a primeira consola doméstica a ter um controlador com ecrã táctil incorporado, o Wii U GamePad.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Wii U (ウィー ユー) является преемником игровой консоли Wii. Это первая выпущенная игровая консоль восьмого поколения, конкурирующая с PlayStation 4 и Xbox One. Wii U - первая домашняя консоль, оснащенная контроллером со встроенным сенсорным экраном - Wii U GamePad.</text>
+</text>
+
+</view>
 </theme>
