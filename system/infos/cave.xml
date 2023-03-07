@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Cave Co, Ltd (株式会社ケイブ?), an acronym for Computer Art Visual Entertainment, is a Japanese company that creates arcade, console and mobile video games.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Cave Co., Ltd. (株式会社ケイブ?), acronyme de Computer Art Visual Entertainment, est une société japonaise de création de jeux vidéo en arcade, sur console et sur téléphone portable.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Cave Co., Ltd. (株式会社ケイブ?), Abkürzung für Computer Art Visual Entertainment, ist ein japanisches Unternehmen, das Videospiele für Arcade, Konsole und Mobiltelefon entwickelt.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Cave Co, Ltd (株式会社ケイブ?), acrónimo de Computer Art Visual Entertainment, es una empresa japonesa creadora de videojuegos arcade, para consolas y móviles.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Cave Co, Ltd (株式会社ケイブ?), acronimo di Computer Art Visual Entertainment, è un'azienda giapponese che crea videogiochi arcade, per console e per cellulari.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社ケイブ（Cave Co, Ltd）は、Computer Art Visual Entertainmentの頭文字をとったもので、アーケードゲーム、コンソールゲーム、モバイルゲームを制作する日本の企業である。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Cave Co, Ltd (株式会社ケイブ?), een acroniem voor Computer Art Visual Entertainment, is een Japans bedrijf dat arcade-, console- en mobiele videospelletjes maakt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Cave Co, Ltd (株式会社ケイブ?), czyli skrót od Computer Art Visual Entertainment, to japońska firma zajmująca się tworzeniem gier wideo na zręcznościówki, konsole i urządzenia mobilne.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Cave Co, Ltd (株式会社ケイブ?), um acrónimo de Computer Art Visual Entertainment, é uma empresa japonesa que cria arcade, consola e videojogos móveis.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Cave Co, Ltd (株式会社ケイブ?), аббревиатура от Computer Art Visual Entertainment, - японская компания, создающая аркадные, консольные и мобильные видеоигры.</text>
+</text>
+
+</view>
 </theme>

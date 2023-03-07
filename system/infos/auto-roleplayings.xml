@@ -4,25 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>A role-playing video game (RPG) is a video game genre where the player controls the actions of a character (or several party of members) immersed in some well-defined world, usually involving some form of character development by way of recording statistics.</text>
+</text>
 
-A role-playing video game (commonly referred to as simply a role-playing game or RPG) is a video game genre where the player controls the actions of a character (or several party members) immersed in some well-defined world, usually involving some form of character development by way of recording statistics. Many role-playing video games have origins in tabletop role-playing games and use much of the same terminology, settings and game mechanics.
-			</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Un jeu vidéo de rôle (RPG) est un genre de jeu vidéo dans lequel le joueur contrôle les actions d'un personnage (ou de plusieurs membres d'un groupe) immergé dans un monde bien défini, impliquant généralement une forme de développement du personnage par le biais de l'enregistrement de statistiques.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="de">
+<text>Ein Rollenspiel-Videospiel (RPG) ist ein Videospielgenre, bei dem der Spieler die Handlungen einer Figur (oder mehrerer Gruppenmitglieder) steuert, die in eine genau definierte Welt eintaucht, wobei in der Regel eine Form der Charakterentwicklung durch die Aufzeichnung von Statistiken vorgesehen ist.</text>
+</text>
 
-Los videojuegos de rol, también llamados por simplificación con las siglas inglesas RPG (role-playing game) pertenecen a un género donde el jugador controla las acciones y la historia de uno o varios personajes inmersos en un mundo o mapa detallado. 
+<text name="system_description" extra="true" lang="es">
+<text>Un videojuego de rol (RPG) es un género de videojuego en el que el jugador controla las acciones de un personaje (o varios miembros de un grupo) inmerso en un mundo bien definido, que suele implicar algún tipo de desarrollo del personaje mediante el registro de estadísticas.</text>
+</text>
 
-Este género normalmente implica alguna forma de desarrollo progresivo de sus personajes a medida que transcurre la historia, ya sea mediante el registro de estadísticas varias o la evolución de habilidades, magias, mejores armas, armaduras etc...
-			</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Un videogioco di ruolo (RPG) è un genere di videogiochi in cui il giocatore controlla le azioni di un personaggio (o di un gruppo di membri) immerso in un mondo ben definito, che di solito prevede una forma di sviluppo del personaggio attraverso la registrazione di statistiche.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>ロールプレイング・ビデオゲーム（RPG）は、ビデオゲームのジャンルの一つで、プレイヤーは、ある定義された世界に没入するキャラクター（または複数のパーティメンバー）の行動をコントロールし、通常、統計を記録することによって何らかの形でキャラクターの成長を伴います。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Een role-playing video game (RPG) is een videogame genre waarbij de speler de acties van een personage (of meerdere partijen) bestuurt, ondergedompeld in een welbepaalde wereld, meestal met een vorm van karakterontwikkeling door middel van het vastleggen van statistieken.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Role-playing video game (RPG) to gatunek gier wideo, w których gracz kontroluje działania postaci (lub kilku partii członków) zanurzonych w jakimś dobrze zdefiniowanym świecie, zwykle obejmującym jakąś formę rozwoju postaci poprzez zapisywanie statystyk.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Um jogo de role-playing (RPG) é um género de videojogo onde o jogador controla as acções de uma personagem (ou de vários membros) imersa em algum mundo bem definido, geralmente envolvendo alguma forma de desenvolvimento de personagens através de estatísticas de gravação.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Ролевая видеоигра (RPG) - это жанр видеоигры, в котором игрок управляет действиями персонажа (или нескольких членов партии), погруженного в некий четко определенный мир, обычно включающий некоторую форму развития персонажа путем записи статистики.</text>
+</text>
+
+</view>
 </theme>

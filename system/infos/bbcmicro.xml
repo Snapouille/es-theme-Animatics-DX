@@ -4,19 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The BBC Micro is a series of microcomputers built by Acorn Computers Ltd. Created for educational use, the computers in the range are renowned for their modularity and the quality of their operating systems.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The BBC Micro is a series of microcomputers and associated peripherals designed and built by Acorn Computers in 1981 for The British Broadcasting Corporation (BBC).</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Les BBC Micro sont une série de micro-ordinateurs construits par Acorn Computers Ltd. Créés pour une utilisation pédagogique, les ordinateurs de la gamme sont réputés pour leur modularité et la qualité de leurs systèmes d'exploitation.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>El BBC Micro, conocido cariñosamente como el Beeb, fue uno de los primeros ordenadores domésticos. Fue diseñado y construido en 1981 por Acorn Computers para la British Broadcasting Corporation (BBC).</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die BBC Micro sind eine Serie von Mikrocomputern, die von Acorn Computers Ltd. hergestellt werden. Die Computer dieser Reihe wurden für den Einsatz im Bildungsbereich entwickelt und sind für ihre Modularität und die Qualität ihrer Betriebssysteme bekannt.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>El BBC Micro es una serie de microordenadores fabricados por Acorn Computers Ltd.. Diseñados para uso educativo, los ordenadores de la gama son famosos por su modularidad y la calidad de sus sistemas operativos.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il BBC Micro è una serie di microcomputer prodotti da Acorn Computers Ltd. Progettati per uso didattico, i computer della serie sono rinomati per la loro modularità e la qualità dei loro sistemi operativi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>BBC Microは、Acorn Computers Ltd.が製造したマイクロコンピュータのシリーズである。教育用に設計されたこのシリーズのコンピュータは、そのモジュール性とオペレーティングシステムの品質で有名である。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De BBC Micro is een reeks microcomputers die door Acorn Computers Ltd. werd vervaardigd. Ontworpen voor educatief gebruik, staan de computers van de reeks bekend om hun modulariteit en de kwaliteit van hun besturingssystemen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>BBC Micro to seria mikrokomputerów produkowanych przez Acorn Computers Ltd. Zaprojektowane do użytku edukacyjnego, komputery z tej serii są znane ze swojej modularności i jakości systemów operacyjnych.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A BBC Micro é uma série de microcomputadores fabricados pela Acorn Computers Ltd. Concebidos para uso educacional, os computadores da gama são conhecidos pela sua modularidade e pela qualidade dos seus sistemas operativos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>BBC Micro - это серия микрокомпьютеров, выпущенных компанией Acorn Computers Ltd. Они были разработаны для использования в учебных заведениях. Компьютеры этой серии, предназначенные для использования в образовательных учреждениях, известны своей модульностью и качеством операционных систем.</text>
+</text>
+
+</view>
 </theme>

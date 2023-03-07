@@ -4,25 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
-
-Racing games are a video game genre in which the player participates in a racing competition. They may be based on anything from real-world racing leagues to fantastical settings. They are distributed along a spectrum between more realistic racing simulations and more fantastical arcade-style racing games.
-			</text>
-		</text>
-		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
-
-Suelen existir dos tipos de juegos de carreras, los arcade y los de simulación. Los juegos de carreras estilo arcade brindan diversión y una experiencia trepidante por encima de todo, mientras que en los de simulación se centran en imitar realísticamente el manejo de los vehículos, condiciones de la pista o la propia mecánica física.
+<text name="system_description" extra="true">
+<text>The games range from realistic racing simulations to more fantasy arcade-style racing games. They can be based on any type of competition, from real-world racing championships to complete fantasy settings and championships.</text>
 </text>
-	</text>
 
-	</view>
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux se répartissent sur un spectre allant des simulations de course réalistes aux jeux de course plus fantastiques de type arcade. Ils peuvent être basés sur n'importe quel type de compétition, qu'il s'agisse de championnats de course du monde réel ou de décors et championnats complètements fantastiques.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die Spiele reichen von realistischen Rennsimulationen bis hin zu eher fantastischen Rennspielen im Arcade-Stil. Sie können auf jeder Art von Wettbewerb basieren, von Rennmeisterschaften in der realen Welt bis hin zu komplett fantastischen Hintergründen und Meisterschaften.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Los juegos van desde simulaciones de carreras realistas hasta juegos de carreras más fantásticos de estilo arcade. Pueden basarse en cualquier tipo de competición, desde campeonatos de carreras del mundo real hasta escenarios y campeonatos totalmente fantásticos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>I giochi spaziano da simulazioni di corse realistiche a giochi di corse in stile arcade più fantasy. Possono essere basati su qualsiasi tipo di competizione, da campionati di corse reali ad ambientazioni e campionati di fantasia.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ゲームは、リアルなレースシミュレーションから、よりファンタジーなアーケードスタイルのレースゲームまで、さまざまです。また、現実のレース選手権から完全なファンタジー設定や選手権まで、あらゆるタイプの競技をベースとすることができます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De spellen variëren van realistische racesimulaties tot meer fantasievolle arcade-achtige racespellen. Ze kunnen gebaseerd zijn op elk type competitie, van echte racekampioenschappen tot volledige fantasiesettings en -kampioenschappen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Gry te obejmują zarówno realistyczne symulacje wyścigów, jak i bardziej fantastyczne gry wyścigowe w stylu arcade. Mogą być oparte na dowolnym rodzaju zawodów, od mistrzostw wyścigowych w świecie rzeczywistym do pełnych fantazji ustawień i mistrzostw.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Os jogos variam de simulações de corrida realistas a mais jogos de corrida ao estilo arcade de fantasia. Podem ser baseados em qualquer tipo de competição, desde campeonatos de corridas do mundo real a cenários e campeonatos completos de fantasia.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Игры варьируются от реалистичных гоночных симуляторов до более фантазийных гоночных игр в аркадном стиле. Они могут быть основаны на любом типе соревнований, от реальных гоночных чемпионатов до полностью фантастических условий и чемпионатов.</text>
+</text>
+
+</view>
 </theme>

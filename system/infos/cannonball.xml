@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
+<text name="system_description" extra="true">
+<text>CannonBall is an souped up game engine for the OutRun arcade game. The original 68000 and Z80 assembler code has been rewritten in C++.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>Cannonball is a program which allows you to play an enhanced version of Yu Suzuki's seminal arcade racer, OutRun, on a variety of systems.
+<text name="system_description" extra="true" lang="fr">
+<text>CannonBall est un moteur de jeu amélioré pour le jeu d'arcade OutRun. Le code assembleur 68000 et Z80 original a été réécrit en C++.</text>
+</text>
 
-Cannonball is not an emulator; it is a complete rewrite of the original game into portable C++</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>CannonBall ist eine aufgemotzte Spiel-Engine für das OutRun Arcade-Spiel. Der ursprüngliche 68000- und Z80-Assembler-Code wurde in C++ umgeschrieben.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Cannonball es un programa que te permite jugar una versión mejorada del juego de carreras arcade de Yu Suzuki, OutRun, en una variedad de sistemas.
+<text name="system_description" extra="true" lang="es">
+<text>CannonBall es un motor de juego mejorado para el juego arcade OutRun. El código ensamblador original de 68000 y Z80 ha sido reescrito en C++.</text>
+</text>
 
-Cannonball no es un emulador; es una reescritura completa del juego original en C ++ portable</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>CannonBall è un motore di gioco potenziato per il gioco arcade OutRun. Il codice assembler originale per 68000 e Z80 è stato riscritto in C++.</text>
+</text>
 
+<text name="system_description" extra="true" lang="ja">
+<text>CannonBallは、OutRunアーケードゲーム用のスープアップされたゲームエンジンです。オリジナルの68000とZ80のアセンブラコードは、C++で書き直されています。</text>
+</text>
 
+<text name="system_description" extra="true" lang="nl">
+<text>CannonBall is een opgevoerde game engine voor het OutRun arcade spel. De originele 68000 en Z80 assembler code is herschreven in C++.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="pl">
+<text>CannonBall jest ulepszonym silnikiem gry dla gry zręcznościowej OutRun. Oryginalny kod z asemblera 68000 i Z80 został przepisany w C++.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pt">
+<text>CannonBall é um motor de jogo com sopa para o jogo arcade OutRun. O código de montagem original 68000 e Z80 foi reescrito em C++.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>CannonBall - это усовершенствованный игровой движок для аркадной игры OutRun. Оригинальный код на ассемблере 68000 и Z80 был переписан на C++.</text>
+</text>
+
+</view>
 </theme>

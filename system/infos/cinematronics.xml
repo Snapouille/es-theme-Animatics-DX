@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Cinematronics Incorpored is an American company founded in 1975 that was active in the development of video games for arcade terminals. The company disappeared in 1987, when it was bought by Tradewest and renamed Leland Corporation.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Cinematronics Incorpored est une entreprise américaine fondée en 1975 qui a exercé son activité dans le domaine du développement de jeux vidéo sur borne d'arcade. L'entreprise a disparu en 1987, à la suite du rachat par Tradewest et son renommage en Leland Corporation.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Cinematronics Incorpored ist ein 1975 gegründetes US-amerikanisches Unternehmen, das im Bereich der Entwicklung von Videospielen für Arcade-Automaten tätig war. Das Unternehmen verschwand 1987 nach der Übernahme durch Tradewest und der Umbenennung in Leland Corporation.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Cinematronics Incorpored fue una empresa estadounidense fundada en 1975 que se dedicaba al desarrollo de juegos arcade. La empresa desapareció en 1987, cuando fue comprada por Tradewest y rebautizada como Leland Corporation.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Cinematronics Incorpored era un'azienda americana fondata nel 1975 e attiva nello sviluppo di giochi arcade. L'azienda è scomparsa nel 1987, quando è stata acquistata da Tradewest e rinominata Leland Corporation.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>Cinematronics Incorporedは、1975年に設立されたアメリカの会社で、アーケードゲームの開発で活躍していた。1987年にTradewest社に買収され、Leland Corporationと改称され、消滅しました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Cinematronics Incorpored was een in 1975 opgericht Amerikaans bedrijf dat zich bezighield met de ontwikkeling van arcadespellen. Het bedrijf verdween in 1987, toen het werd opgekocht door Tradewest en omgedoopt tot Leland Corporation.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Cinematronics Incorpored była amerykańską firmą założoną w 1975 roku, która zajmowała się tworzeniem gier zręcznościowych. Firma zniknęła w 1987 roku, kiedy to została kupiona przez Tradewest i przemianowana na Leland Corporation.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Cinematronics Incorpored foi uma empresa americana fundada em 1975 que estava activa no desenvolvimento de jogos arcade. A empresa desapareceu em 1987, quando foi comprada pela Tradewest e rebaptizada Leland Corporation.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Cinematronics Incorpored - американская компания, основанная в 1975 году и занимавшаяся разработкой аркадных игр. Компания исчезла в 1987 году, когда была куплена компанией Tradewest и переименована в Leland Corporation.</text>
+</text>
+
+</view>
 </theme>

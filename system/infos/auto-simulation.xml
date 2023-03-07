@@ -4,24 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.</text>
-		</text>
-		
+<text name="system_description" extra="true">
+<text>A genre that aims to simulate reality as closely as possible, avoiding the simplistic controls or mechanics characteristic of games and applying the laws of physics in a realistic manner. There are countless types of games depending on their subject matter, such as flight, driving or control simulations (business, construction, etc.). </text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text>Genre qui vise à simuler la réalité le plus fidèlement possible, en évitant les contrôles ou mécaniques simplistes caractéristiques des jeux et en appliquant les lois de la physique de manière réaliste. Il existe d'innombrables types de jeux en fonction de leur sujet, tels que les simulations de vol, de conduite ou de contrôle (affaires, construction, etc.). </text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="de">
+<text>Genre, das darauf abzielt, die Realität so genau wie möglich zu simulieren, indem es die für Spiele typischen simplen Steuerungen oder Mechaniken vermeidet und die Gesetze der Physik realistisch anwendet. Je nach Thema gibt es unzählige Arten von Spielen, z. B. Flug-, Fahr- oder Kontrollsimulationen (Wirtschaft, Bauwesen usw.). </text>
+</text>
 
-Juego o género que pretende imitar lo más fielmente posible la realidad, evitando la simplificación de controles o mecánicas propia de los juegos y aplicando las leyes físicas de una manera realista y a menudo sin un objetivo final definido.
+<text name="system_description" extra="true" lang="es">
+<text>Género que pretende simular la realidad lo más fielmente posible, evitando los controles o mecánicas simplistas característicos de los juegos y aplicando las leyes de la física de forma realista. Existen innumerables tipos de juegos en función de su temática, como las simulaciones de vuelo, de conducción o de control (empresas, construcción, etc.). </text>
+</text>
 
-Existen infinidad de tipos en base a su temática, como la simulación de vuelo, la de conducción o la de gestión (negocios, construcción, etc). Son la contraposición a los juegos Arcade.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>Un genere che mira a simulare il più possibile la realtà, evitando i controlli o le meccaniche semplicistiche tipiche dei giochi e applicando le leggi della fisica in modo realistico. Esistono innumerevoli tipi di giochi a seconda dell'argomento trattato, come ad esempio le simulazioni di volo, di guida o di controllo (affari, costruzioni, ecc.). </text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>ゲーム特有の単純化された操作や仕組みを避け、物理法則をリアルに適用して、できるだけ現実をシミュレートすることを目的としたジャンルをいう。飛行、運転、制御シミュレーション（ビジネス、建設など）など、対象によって数え切れないほどの種類がある。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Een genre dat ernaar streeft de werkelijkheid zo dicht mogelijk te benaderen, waarbij de voor games kenmerkende simplistische besturing of mechanica wordt vermeden en de wetten van de fysica op realistische wijze worden toegepast. Er zijn talloze soorten games, afhankelijk van hun onderwerp, zoals vlucht-, rij- of besturingssimulaties (bedrijfsleven, bouw, enz.). </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Gatunek gier, który ma na celu jak najwierniejsze symulowanie rzeczywistości, unikając charakterystycznego dla gier uproszczonego sterowania czy mechaniki i stosując prawa fizyki w sposób realistyczny. Istnieje niezliczona ilość rodzajów gier w zależności od ich tematyki, np. symulacje lotu, jazdy samochodem czy sterowania (biznes, budownictwo itp.). </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Um género que visa simular a realidade o mais próximo possível, evitando os controlos simplistas ou mecânicos característicos dos jogos e aplicando as leis da física de uma forma realista. Existem inúmeros tipos de jogos em função do seu tema, tais como simulações de voo, condução ou controlo (negócios, construção, etc.). </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Жанр, который стремится как можно ближе имитировать реальность, избегая упрощенного управления или механики, характерных для игр, и реалистично применяя законы физики. Существует бесчисленное множество типов игр в зависимости от их тематики, например, симуляторы полетов, вождения или управления (бизнес, строительство и т.д.). </text>
+</text>
+
+</view>
 </theme>

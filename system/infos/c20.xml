@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
+<text name="system_description" extra="true">
+<text>The VIC-20 is an 8-bit personal computer with 5 kB of RAM (including 3.5 kB for BASIC applications) and a CPU based on a MOS 6502 processor. It looked like its successors the C64 and the C16.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The Commodore VIC-20 (known as the VC-20 in Germany and the VIC-1001 in Japan) is an 8-bit home computer that was sold by Commodore Business Machines. The VIC-20 was announced in 1980, roughly three years after Commodore's first personal computer, the PET. The VIC-20 was the first computer of any description to sell one million units. It was described as "one of the first anti-spectatorial, non-esoteric computers by design...no longer relegated to hobbyist/enthusiasts or those with money, the computer Commodore developed was the computer of the future</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le VIC-20 est un ordinateur personnel 8 bits avec 5 ko de RAM (dont 3,5 ko pour les applications BASIC) et une unité centrale basée sur un processeur MOS 6502. Il ressemblait à ses successeurs le C64 et le C16.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>El Commodore VIC-20 (Commodore VC20 en Alemania, VIC-1001 en Japón) fue un ordenador doméstico de 8 bits fabricado y diseñado por Commodore Business Machines con 5 KB de RAM y una CPU MOS 6502. Tenía una forma similar al Commodore 64 y el C16, que fueron comercializados posteriormente. El VIC-20 fue lanzado en junio de 1980, cerca de 3 años después del primer computador personal de Commodore, el PET.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der VIC-20 war ein 8-Bit-Personalcomputer mit 5 kB RAM (davon 3,5 kB für BASIC-Anwendungen) und einer CPU, die auf einem MOS-6502-Prozessor basierte. Er ähnelte seinen Nachfolgern C64 und C16.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>Le VIC-20 est un ordinateur personnel 8 bits qui était construit par Commodore International avec 5 ko de RAM (dont 3,5 ko pour les applications BASIC) et une unité centrale basée sur un processeur MOS 6502. Il ressemblait à ses successeurs le C64 et le C16. Le VIC-20 apparut en juin 1980, 2 ans et 9 mois après la sortie du premier ordinateur personnel de Commodore, le PET.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El VIC-20 es un ordenador personal de 8 bits con 5 kB de RAM (incluyendo 3,5 kB para aplicaciones BASIC) y una CPU basada en un procesador MOS 6502. Se parecía a sus sucesores el C64 y el C16.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text>O VIC-20 (Alemanha: VC-20; Japão: VIC-1001) é um computador doméstico de 8 bits. Ele foi construído pela Commodore Business Machines, com 5 KB de RAM e uma UCP MOS Technology 6502. O design exterior da máquina foi posteriormente aproveitado no Commodore 64 e C16. O VIC-20 foi lançado no Japão em 1980 e nos Estados Unidos e Europa em 1981, cerca de três anos após o lançamento do primeiro computador pessoal da Commodore, o PET.</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Il VIC-20 è un personal computer a 8 bit con 5 kB di RAM (di cui 3,5 kB per le applicazioni BASIC) e una CPU basata su un processore MOS 6502. Assomigliava ai suoi successori, il C64 e il C16.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="ja">
+<text>VIC-20は、5kBのRAM（うち3.5kBはBASICアプリケーション用）とMOS 6502プロセッサをベースにしたCPUを搭載した8ビットパーソナルコンピュータです。後継機のC64やC16に似ている。</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>De VIC-20 is een 8-bit personal computer met 5 kB RAM (waarvan 3,5 kB voor BASIC-toepassingen) en een CPU gebaseerd op een MOS 6502 processor. Hij leek op zijn opvolgers de C64 en C16.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>VIC-20 to 8-bitowy komputer osobisty wyposażony w 5 kB pamięci RAM (w tym 3,5 kB na aplikacje BASIC) i procesor oparty na układzie MOS 6502. Przypominał on swoich następców C64 i C16.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O VIC-20 é um computador pessoal de 8 bits com 5 kB de RAM (incluindo 3,5 kB para aplicações BASIC) e uma CPU baseada num processador MOS 6502. Parecia os seus sucessores, o C64 e o C16.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>VIC-20 - это 8-битный персональный компьютер с 5 кБ оперативной памяти (включая 3,5 кБ для приложений BASIC) и центральным процессором на базе процессора MOS 6502. Он был похож на своих преемников C64 и C16.</text>
+</text>
+
+</view>
 </theme>

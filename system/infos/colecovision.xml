@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-
-		
-				<text name="system_description" extra="true" >
-			<text>Is Coleco Industries' second-generation home video-game console that was released in August 1982. The ColecoVision offered a closer experience to more powerful arcade game systems.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>ColecoVision es una consola de videojuegos de segunda generación lanzada al mercado estadounidense en agosto de 1982 por la empresa Coleco.
+<text name="system_description" extra="true">
+<text>The ColecoVision offers graphics similar to the arcade games of the time. Coleco released a module that made the console compatible with the Atari 2600, giving it the largest library of games of any console at the time. The module caused Atari to take legal action, but Atari was unable to prevent the module from being sold.</text>
 </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La ColecoVision est une console de jeu vidéo de deuxième génération commercialisée par Coleco, sortie en août 1982. Elle propose des graphismes et des manettes similaires aux jeux d'arcade de l'époque.</text>
-		</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É o video game de segunda geração da Coleco Industries lançado em agosto de 1982. Ele oferecia gráficos e estilo de jogo de qualidade similar aos encontrados nos fliperamas (arcade) da época.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>La ColecoVision propose des graphismes similaires aux jeux d'arcade de l'époque. Coleco a commercialisé un module qui rend la console compatible avec l'Atari 2600, lui apportant la plus vaste bibliothèque de jeux de toutes les consoles du moment. Le module a provoqué une action judiciaire d'Atari, mais cette dernière n'a pas pu en empêcher les ventes du module.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Die ColecoVision bot eine Grafik, die den Arcade-Spielen der damaligen Zeit ähnelte. Coleco vermarktete ein Modul, das die Konsole mit dem Atari 2600 kompatibel machte und ihr die umfangreichste Spielebibliothek aller damaligen Konsolen verschaffte. Das Modul führte zu einer gerichtlichen Klage Ataris, die Atari jedoch nicht daran hindern konnte, das Modul zu verkaufen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>ColecoVision presenta gráficos similares a los de los juegos arcade de la época. Coleco comercializó un módulo que hacía que la consola fuera compatible con la Atari 2600, con lo que disponía de la mayor biblioteca de juegos de todas las consolas de la época. El módulo provocó acciones legales por parte de Atari, que no pudo impedir su venta.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>ColecoVision presenta una grafica simile a quella dei giochi arcade dell'epoca. Coleco commercializzò un modulo che rendeva la console compatibile con l'Atari 2600, offrendo la più ampia libreria di giochi di qualsiasi altra console dell'epoca. Il modulo provocò un'azione legale da parte di Atari, che però non riuscì a bloccarne la vendita.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ColecoVisionは、当時のアーケードゲームに近いグラフィックが特徴です。Colecoはこのゲーム機をAtari 2600と互換性を持たせるモジュールを販売し、当時のゲーム機の中で最大のゲームライブラリーを提供した。このモジュールはアタリ社に法的措置をとらせたが、アタリ社はモジュールの販売を止めることができなかった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>ColecoVision heeft graphics die lijken op de arcadespellen uit die tijd. Coleco bracht een module op de markt die de console compatibel maakte met de Atari 2600, waardoor het de grootste spelbibliotheek van alle consoles in die tijd kreeg. De module zorgde ervoor dat Atari juridische stappen ondernam, maar Atari kon de verkoop van de module niet tegenhouden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>ColecoVision posiada grafikę zbliżoną do ówczesnych gier arcade. Coleco wprowadziło na rynek moduł, który sprawił, że konsola była kompatybilna z Atari 2600, dając jej największą bibliotekę gier ze wszystkich ówczesnych konsol. Moduł spowodował, że Atari podjęło działania prawne, ale Atari nie było w stanie powstrzymać modułu przed sprzedażą.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>ColecoVision apresenta gráficos semelhantes aos dos jogos arcade da época. A Coleco comercializou um módulo que tornou a consola compatível com o Atari 2600, dando-lhe a maior biblioteca de jogos de qualquer consola da época. O módulo fez com que a Atari tomasse medidas legais, mas a Atari não conseguiu impedir que o módulo fosse vendido.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>ColecoVision обладает графикой, похожей на аркадные игры того времени. Компания Coleco выпустила модуль, который сделал консоль совместимой с Atari 2600, обеспечив ей самую большую библиотеку игр среди всех консолей того времени. Этот модуль вызвал судебные иски со стороны Atari, но Atari не смогла остановить продажу модуля.</text>
+</text>
+
+</view>
 </theme>

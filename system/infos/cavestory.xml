@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Cave Story is an amateur video game of platform and adventure (metroidvania) released in 2004 on PC. Developed in 5 years by Daisuke "Pixel" Amaya in his spare time, Cave Story is notably inspired by classic 2D platformers such as Metroid (1986) or Castlevania (1986), which Pixel played during his childhood. </text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Cave Story (洞窟物語 Dōkutsu Monogatari) is a metroidvania platform-adventure video game released in 2004 for the Windows PC. It was developed over five years by Daisuke "Pixel" Amaya in his free time.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Creado en Japón por Daisuke Amaya (conocido por su seudónimo Pixel) en 5 años de desarrollo continuo, Cave Story es un título de acción-plataformas estilo "Metroidvania".</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Cave Story (洞窟物語 Dōkutsu Monogatari) est un jeu vidéo amateur de plate-formes et d'aventure (metroidvania) sorti en 2004 sur PC. Développé en 5 ans par Daisuke "Pixel" Amaya sur son temps libre.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Cave Story est un jeu vidéo amateur de plate-formes et d'aventure (metroidvania) sorti en 2004 sur PC. Développé en 5 ans par Daisuke "Pixel" Amaya sur son temps libre, Cave Story s'inspire notamment de classiques du jeu de plate-formes 2D tels que Metroid (1986) ou Castlevania (1986), auxquels Pixel a joué durant son enfance. </text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Cave Story (洞窟物語, Dōkutsu Monogatari?) é um jogo eletrônico freeware de ação-aventura para computador criado e desenvolvido por Daisuke Amaya em 2004.</text>
-		</text>
-		
-			
+<text name="system_description" extra="true" lang="de">
+<text>Cave Story ist ein Amateur-Jump-and-Run-Abenteuer (Metroidvania), das 2004 für den PC veröffentlicht wurde. Cave Story wurde von Daisuke "Pixel" Amaya in seiner Freizeit innerhalb von fünf Jahren entwickelt und orientiert sich vor allem an klassischen 2D-Jump'n'Runs wie Metroid (1986) oder Castlevania (1986), die Pixel in seiner Kindheit gespielt hatte.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Cave Story es un videojuego amateur de plataformas y aventuras (metroidvania) lanzado en 2004 para PC. Desarrollado en 5 años por Daisuke "Pixel" Amaya en su tiempo libre, Cave Story está inspirado en clásicos de plataformas 2D como Metroid (1986) o Castlevania (1986), a los que Pixel jugó durante su infancia. </text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Cave Story è un videogioco amatoriale di avventura e platform (metroidvania) pubblicato nel 2004 su PC. Sviluppato in 5 anni da Daisuke "Pixel" Amaya nel suo tempo libero, Cave Story si ispira ai classici platform 2D come Metroid (1986) o Castlevania (1986), a cui Pixel giocava durante la sua infanzia. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Cave Storyは、2004年にPCで発売されたアマチュア向けのプラットフォーマー、アドベンチャービデオゲーム（メトロイドヴァニア）です。天谷 "ピクセル "大輔が余暇を利用して5年間で開発したCave Storyは、ピクセルが幼少期に遊んだメトロイド（1986年）やキャッスルヴァニア（1986年）などのクラシックな2Dプラットフォーマーからインスピレーションを得ています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Cave Story is een amateur platformer en adventure video game (metroidvania) uitgebracht in 2004 op PC. Ontwikkeld in 5 jaar door Daisuke "Pixel" Amaya in zijn vrije tijd, is Cave Story geïnspireerd door klassieke 2D platformers zoals Metroid (1986) of Castlevania (1986), die Pixel speelde tijdens zijn jeugd. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Cave Story to amatorska platformówka i przygodowa gra wideo (metroidvania) wydana w 2004 roku na PC. Opracowany w ciągu 5 lat przez Daisuke "Pixel" Amaya w swoim wolnym czasie, Cave Story jest inspirowany klasycznymi platformówkami 2D, takimi jak Metroid (1986) lub Castlevania (1986), w które Pixel grał w dzieciństwie. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Cave Story é um jogo de vídeo amador de plataforma e aventura (metroidvania) lançado em 2004 no PC. Desenvolvido em 5 anos por Daisuke "Pixel" Amaya no seu tempo livre, Cave Story é inspirado em platformers clássicos 2D, como Metroid (1986) ou Castlevania (1986), que Pixel jogou durante a sua infância.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Cave Story - это любительская видеоигра в жанре платформера и приключений (metroidvania), выпущенная в 2004 году на ПК. Разработанная за 5 лет Дайсуке "Пикселем" Амайя в свободное время, Cave Story вдохновлена классическими 2D платформерами, такими как Metroid (1986) или Castlevania (1986), в которые Пиксель играл в детстве. </text>
+</text>
+
+</view>
 </theme>

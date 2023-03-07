@@ -4,30 +4,70 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+"<text>Capcom Co, Ltd (株式会社カプコン) is a Japanese company, founded in 1983, that develops and publishes video games worldwide through subsidiaries and branches located in North America, Europe, as well as East Asia.
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+The company is known as the creator of several famous video game franchises that have sold millions of copies, including the Monster Hunter, Resident Evil, Street Fighter, and Megaman series.</text>"
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+"<text>Capcom Co., Ltd. (株式会社カプコン) est une société japonaise, fondée en 1983, qui développe et édite des jeux vidéo dans le monde entier, par le biais de filiales et succursales situées en Amérique du Nord, en Europe, ainsi qu'en Asie orientale.
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+L'entreprise est connue pour être à l'origine de plusieurs franchises de jeux vidéo célèbres dont les épisodes se sont vendus à plusieurs millions d'exemplaires, notamment pour les séries Monster Hunter, Resident Evil, Street Fighter, ou encore Megaman.</text>"
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+"<text>Capcom Co, Ltd (株式会社カプコン) ist ein japanisches Unternehmen, das 1983 gegründet wurde und über Tochtergesellschaften und Niederlassungen in Nordamerika, Europa sowie Ostasien weltweit Videospiele entwickelt und veröffentlicht.
 
-	</view>
+Das Unternehmen ist bekannt dafür, dass es hinter mehreren berühmten Videospiel-Franchises steht, deren Episoden sich millionenfach verkauft haben, darunter die Serien Monster Hunter, Resident Evil, Street Fighter und Megaman.</text>"
+</text>
+
+<text name="system_description" extra="true" lang="es">
+"<text>Capcom Co, Ltd (株式会社カプコン) es una empresa japonesa, fundada en 1983, que desarrolla y publica videojuegos en todo el mundo a través de filiales y sucursales situadas en Norteamérica, Europa y Asia Oriental.
+
+La empresa es conocida por ser la creadora de varias famosas franquicias de videojuegos que han vendido millones de copias, como las series Monster Hunter, Resident Evil, Street Fighter y Megaman.</text>"
+</text>
+
+<text name="system_description" extra="true" lang="it">
+"<text>Capcom Co, Ltd (株式会社カプコン) è una società giapponese, fondata nel 1983, che sviluppa e pubblica videogiochi in tutto il mondo attraverso filiali e succursali situate in Nord America, Europa e Asia orientale.
+
+L'azienda è nota per essere la creatrice di numerosi e famosi franchise di videogiochi che hanno venduto milioni di copie, tra cui le serie Monster Hunter, Resident Evil, Street Fighter e Megaman.</text>"
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+"<text>株式会社カプコンは、1983年に設立された日本の企業であり、北米、ヨーロッパ、東アジアにある子会社や支店を通じて、世界中でビデオゲームを開発し、パブリッシングしています。
+
+モンスターハンター」「バイオハザード」「ストリートファイター」「ロックマン」シリーズなど、数百万本を売り上げた有名なビデオゲームフランチャイズのクリエイターとして知られています。</text>"
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+"<text>Capcom Co, Ltd (株式会社カプコン) is een Japanse onderneming, opgericht in 1983, die wereldwijd videospelletjes ontwikkelt en uitgeeft via dochterondernemingen en filialen in Noord-Amerika, Europa en Oost-Azië.
+
+Het bedrijf staat bekend als de maker van verschillende beroemde videospelfranchises waarvan miljoenen exemplaren zijn verkocht, waaronder de series Monster Hunter, Resident Evil, Street Fighter en Megaman.</text>"
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+"<text>Capcom Co, Ltd (株式会社カプコン) to japońska firma, założona w 1983 roku, która rozwija i wydaje gry wideo na całym świecie poprzez filie i oddziały zlokalizowane w Ameryce Północnej, Europie, a także Azji Wschodniej.
+
+Firma jest znana jako twórca kilku słynnych franczyz gier wideo, które sprzedały się w milionach egzemplarzy, w tym serii Monster Hunter, Resident Evil, Street Fighter i Megaman.</text>"
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+"<text>Capcom Co, Ltd (株式会社カプコン) é uma empresa japonesa, fundada em 1983, que desenvolve e publica jogos de vídeo a nível mundial através de filiais e sucursais localizadas na América do Norte, Europa, bem como na Ásia Oriental.
+
+A empresa é conhecida como a criadora de várias famosas franquias de videojogos que venderam milhões de cópias, incluindo a série Monster Hunter, Resident Evil, Street Fighter, e Megaman.</text>"
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+"<text>Capcom Co, Ltd (株式会社カプコン) - японская компания, основанная в 1983 году, которая разрабатывает и издает видеоигры по всему миру через дочерние компании и филиалы, расположенные в Северной Америке, Европе, а также Восточной Азии.
+
+Компания известна как создатель нескольких известных франшиз видеоигр, проданных миллионными тиражами, включая серии Monster Hunter, Resident Evil, Street Fighter и Megaman.</text>"
+</text>
+
+</view>
 </theme>

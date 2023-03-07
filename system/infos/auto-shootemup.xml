@@ -4,24 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>The shoot 'em up (shmup) originated in the arcade, with Space Invaders generally credited with the birth of the genre. The genre reached a peak in popularity in the late 1980s and early 1990s. Game styles range from cute to serious, fantasy, science fiction and even historical fact.</text>
+</text>
 
-Shoot 'em ups are a sub-genre of shooter video games, which are in turn a sub-genre of action video games. There is no consensus as to which design elements compose a shoot 'em up; some restrict the definition to games featuring spacecraft and certain types of character movement, while others allow a broader definition including characters on foot and a variety of perspectives. 
-			</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le shoot 'em up (shmup) est originaire des salles d'arcade, avec Space Invaders généralement crédité de la naissance du genre. Le genre atteint un niveau record de popularité à la fin des années 1980 et au début des années 1990. Les styles de jeu varie du mignon au sérieux, de la fantasy, de la science-fiction voir même des faits historiques.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Lista de juegos automática.
-				
-El término shoot 'em up define un género de videojuegos en los que el jugador controla un personaje u objeto solitario, generalmente una nave espacial, un avión o algún otro vehículo, que dispara contra hordas de enemigos que van apareciendo en pantalla. Es un subgénero de los videojuegos de disparos. </text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Shoot 'em up (Shmup) hat seinen Ursprung in den Arcade-Hallen, wobei Space Invaders allgemein als Geburtsstunde des Genres angesehen wird. Das Genre erreichte in den späten 1980er und frühen 1990er Jahren einen Popularitätsrekord. Die Spielstile reichen von niedlich bis ernst, von Fantasy über Science-Fiction bis hin zu historischen Fakten.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>Los juegos de disparos (shmup) se originaron en los salones recreativos, y se suele atribuir a Space Invaders el nacimiento del género. El género alcanzó su máxima popularidad a finales de los ochenta y principios de los noventa. Los estilos de juego van de lo simpático a lo serio, pasando por la fantasía, la ciencia ficción e incluso los hechos históricos.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>Gli shoot 'em up (shmup) hanno avuto origine nelle sale giochi, e Space Invaders è generalmente accreditato come l'ideatore del genere. Il genere ha raggiunto il picco di popolarità tra la fine degli anni '80 e l'inizio degli anni '90. Gli stili di gioco vanno dal simpatico al serio, al fantasy, alla fantascienza e persino ai fatti storici.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>シューティングゲーム（shmup）はアーケードで生まれたもので、一般的には『スペースインベーダー』がこのジャンルの発祥とされています。1980年代後半から1990年代前半にかけて、その人気はピークに達した。ゲームのスタイルは、かわいいものからシリアスなもの、ファンタジー、SF、歴史的事実まで、さまざまなものがあります。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De shoot 'em up (shmup) vindt zijn oorsprong in de arcades, waarbij Space Invaders over het algemeen wordt beschouwd als de geboorte van het genre. Het genre bereikte een piek in populariteit eind jaren tachtig en begin jaren negentig. Spelstijlen variëren van schattig tot serieus, fantasie, sciencefiction en zelfs historische feiten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Shoot 'em up (shmup) wywodzi się z salonów gier, a za narodziny gatunku powszechnie uznaje się Space Invaders. Gatunek ten osiągnął szczyt popularności w późnych latach 80. i wczesnych 90. Style gry wahają się od słodkich do poważnych, fantasy, science fiction, a nawet faktów historycznych.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O shoot 'em up (shmup) teve origem nas arcadas, sendo os Space Invaders geralmente creditados com o nascimento do género. O género atingiu um pico de popularidade no final da década de 1980 e início da década de 1990. Os estilos de jogo vão desde o engraçado ao sério, à fantasia, à ficção científica e mesmo ao facto histórico.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Жанр shoot 'em up (shmup) зародился в игровых автоматах, а рождение жанра обычно приписывают Space Invaders. Жанр достиг пика популярности в конце 1980-х - начале 1990-х годов. Стили игр варьируются от милых до серьезных, фэнтези, научной фантастики и даже исторических фактов.</text>
+</text>
+
+</view>
 </theme>

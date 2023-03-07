@@ -4,25 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The RadioShack TRS-80 Color Computer, later marketed as the Tandy Color Computer and sometimes nicknamed the CoCo, is a line of home computers developed and sold by Tandy Corporation. The Tandy Color Computer line started in 1980 with what is now called the Color Computer.</text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text>Le RadioShack TRS-80 Color Computer, plus tard commercialisé sous le nom de Tandy Color Computer et parfois surnommé CoCo, est une gamme d'ordinateurs domestiques développés et vendus par Tandy Corporation. La gamme Tandy Color Computer a débuté en 1980 avec ce qui est aujourd'hui appelé le Color Computer.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The RadioShack TRS-80 Color Computer, later marketed as the Tandy Color Computer and sometimes nicknamed the CoCo, is a line of home computers developed and sold by Tandy Corporation.
+<text name="system_description" extra="true" lang="de">
+<text>Der RadioShack TRS-80 Color Computer, der später als Tandy Color Computer vermarktet wurde und manchmal den Spitznamen CoCo trägt, ist eine Reihe von Heimcomputern, die von der Tandy Corporation entwickelt und verkauft wurden. Die Tandy Color Computer-Reihe begann 1980 mit dem, was heute als Color Computer bezeichnet wird.</text>
+</text>
 
-The Tandy Color Computer line started in 1980 with what is now called the Color Computer 1.
-			</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El RadioShack TRS-80 Color Computer, posteriormente comercializado como Tandy Color Computer y a veces apodado CoCo, es una línea de ordenadores domésticos desarrollada y comercializada por Tandy Corporation. La línea Tandy Color Computer comenzó en 1980 con lo que ahora se denomina Color Computer.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>RadioShack TRS-80 Color Computer, más tarde comercializado como Tandy Color Computer y apodado CoCo, fue una línea de ordenadores para el hogar desarrollada por Tandy Corporation.
+<text name="system_description" extra="true" lang="it">
+<text>Il RadioShack TRS-80 Color Computer, successivamente commercializzato come Tandy Color Computer e talvolta soprannominato CoCo, è una linea di home computer sviluppata e venduta da Tandy Corporation. La linea di computer a colori Tandy è iniziata nel 1980 con quello che oggi viene chiamato Color Computer.</text>
+</text>
 
-La línea Tandy Color Computer comenzó en 1980 con el que ahora conocemos como el Color Computer 1.</text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text>RadioShack TRS-80 Color Computerは、後にTandy Color Computerとして販売され、CoCoの愛称で呼ばれることもある、Tandy Corporationが開発・販売したホームコンピュータのラインである。Tandy Color Computerのラインは、1980年に現在Color Computerと呼ばれているもので始まりました。</text>
+</text>
 
+<text name="system_description" extra="true" lang="nl">
+<text>De RadioShack TRS-80 Color Computer, later op de markt gebracht als de Tandy Color Computer en soms bijgenaamd de CoCo, is een lijn van thuiscomputers ontwikkeld en verkocht door Tandy Corporation. De Tandy Color Computer lijn begon in 1980 met wat nu de Color Computer heet.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>RadioShack TRS-80 Color Computer, później sprzedawany jako Tandy Color Computer i czasami nazywany CoCo, to linia komputerów domowych opracowanych i sprzedawanych przez Tandy Corporation. Linia Tandy Color Computer rozpoczęła się w 1980 roku od tego, co obecnie nazywa się Color Computer.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O RadioShack TRS-80 Color Computer, mais tarde comercializado como Tandy Color Computer e por vezes apelidado de CoCo, é uma linha de computadores domésticos desenvolvida e vendida pela Tandy Corporation. A linha Tandy Color Computer começou em 1980 com o que agora se chama o Computador de Cor.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>RadioShack TRS-80 Color Computer, позже продававшийся как Tandy Color Computer и иногда прозванный CoCo, - это линейка домашних компьютеров, разработанных и продаваемых корпорацией Tandy. Линейка Tandy Color Computer началась в 1980 году с того, что сейчас называется Color Computer.</text>
+</text>
+
+</view>
 </theme>

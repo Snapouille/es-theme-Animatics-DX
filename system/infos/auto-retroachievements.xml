@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Welcome to the world of Retro-Achievements, you will find here the list of all your games compatible with Retroachivements. Weak players will be tempted by Softcore, real players will swear by Hardcore.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" >
-			<text>An automatic list of all Retroachivements compatible games available on the system.</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="es" >
-			<text>Una lista de todos los juegos compatibles con Retroachievements disponibles en el sistema.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Bienvenue dans le monde des Achievements, vous trouverez ici une liste de tous les jeux compatibles avec les Retroachivements disponibles sur le système.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Bienvenue dans le monde des Retro-Achievements, vous trouverez ici la liste de tous vos jeux compatibles avec les Retroachivements. Les joueurs faibles se laisseront tenter par le Softcore, les vrais joueurs ne jureront que par le Hardcore.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Uma lista automática de todos os jogos compatíveis com Retroachivements disponíveis no sistema. </text>
-		</text>
-		
-						
+<text name="system_description" extra="true" lang="de">
+<text>Willkommen in der Welt der Retro-Achievements. Hier findest du eine Liste all deiner Spiele, die mit Retroachievements kompatibel sind. Schwache Spieler werden sich von Softcore verführen lassen, echte Spieler werden auf Hardcore schwören.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Bienvenido al mundo de Retro-Achievements, aquí encontrarás una lista de todos tus juegos compatibles con Retroachivements. Los jugadores débiles se verán tentados por el Softcore, los jugadores de verdad jurarán por el Hardcore.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Benvenuti nel mondo di Retro-Achievements, qui troverete un elenco di tutti i giochi compatibili con Retroachivements. I giocatori deboli saranno tentati da Softcore, i veri giocatori giureranno su Hardcore.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>レトロアチーブメントの世界へようこそ！ここでは、レトロアチーブメントと互換性のあるすべてのゲームのリストを見ることができます。弱いプレイヤーはソフトコアに誘惑され、本当のプレイヤーはハードコアに誓うでしょう。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Welkom in de wereld van Retro-Achievements, hier vindt u een lijst van alle spellen die compatibel zijn met Retroachivements. Zwakke spelers zullen verleid worden door Softcore, echte spelers zullen zweren bij Hardcore.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Witamy w świecie Retro Osiągnięć, tutaj znajdziesz listę wszystkich swoich gier kompatybilnych z Retroachivements. Słabych graczy skusi Softcore, prawdziwi gracze będą przeklinać Hardcore.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Bem-vindo ao mundo dos Retro-Achievements, aqui encontrará uma lista de todos os seus jogos compatíveis com Retro-Achievements. Jogadores fracos serão tentados por Softcore, jogadores reais jurarão por Hardcore.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Добро пожаловать в мир Retro-Achievements, здесь вы найдете список всех игр, совместимых с Retroachivements. Слабые игроки будут соблазняться Softcore, настоящие игроки будут клясться Hardcore.</text>
+</text>
+
+</view>
 </theme>

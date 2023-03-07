@@ -4,19 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.</text>
-		</text>
-		
+<text name="system_description" extra="true">
+<text>Thinking games are distinguished by the use of abstract mechanisms, where chance has a zero (or limited) part. It can be a puzzle, a solitaire game, a game where you have to solve a riddle, a word game, a simulation game...</text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux de réflexion se distinguent par l'utilisation de mécanismes abstraits, où le hasard a une part nulle (ou limitée). Ça peut être un casse-tête, un jeu de solitaire, un jeu ou il faut résoudre une énigme, un jeu de lettres, un jeu de simulation ...</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.</text>
-	</text>
+<text name="system_description" extra="true" lang="de">
+<text>Denkspiele zeichnen sich dadurch aus, dass sie abstrakte Mechanismen verwenden, bei denen der Zufall keine (oder nur eine begrenzte) Rolle spielt. Das kann ein Puzzle, ein Solitärspiel, ein Spiel, bei dem man ein Rätsel lösen muss, ein Briefspiel, ein Simulationsspiel ... sein.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Los juegos de reflexión se distinguen por el uso de mecanismos abstractos, en los que el azar tiene una parte nula (o limitada). Puede tratarse de un rompecabezas, un juego de solitario, un juego en el que hay que resolver un acertijo, un juego de palabras, un juego de simulación...</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>I giochi di pensiero si distinguono per l'uso di meccanismi astratti, in cui il caso ha una parte nulla (o limitata). Può trattarsi di un puzzle, di un solitario, di un gioco in cui si deve risolvere un indovinello, di un gioco di parole, di un gioco di simulazione...</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>思考型ゲームは、抽象的なメカニズムを用いることで、偶然の部分がゼロ（または限定的）であることが特徴です。パズル、ソリティアゲーム、謎解きゲーム、ワードゲーム、シミュレーションゲーム...。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Denkspellen onderscheiden zich door het gebruik van abstracte mechanismen, waarbij het toeval een nul- (of beperkte) rol speelt. Het kan gaan om een puzzel, een solitairespel, een spel waarbij je een raadsel moet oplossen, een woordspel, een simulatiespel...</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Gry myślące wyróżniają się zastosowaniem abstrakcyjnych mechanizmów, w których przypadek ma zerowy (lub ograniczony) udział. Mogą to być puzzle, pasjans, gra, w której trzeba rozwiązać zagadkę, gra słowna, gra symulacyjna...</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Os jogos de pensamento distinguem-se pelo uso de mecanismos abstractos, onde o acaso tem uma parte zero (ou limitada). Pode ser um puzzle, um jogo de solitário, um jogo onde se tem de resolver um enigma, um jogo de palavras, um jogo de simulação...</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Мыслительные игры отличаются использованием абстрактных механизмов, где случайность имеет нулевую (или ограниченную) роль. Это может быть головоломка, пасьянс, игра, где нужно разгадать загадку, игра в слова, игра-симулятор...</text>
+</text>
+
+</view>
 </theme>

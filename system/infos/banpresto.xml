@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Banpresto Co, Ltd (株式会社バンプレスト) is a Japanese toy and action figure manufacturing and video game publishing and development company, founded in April 1977 and located in Shinagawa Ward, Tokyo.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Banpresto Co., Ltd. (株式会社バンプレスト) est une société japonaise de fabrication de jouets et de figurines ainsi que d’édition et de développement de jeux vidéo, fondée en avril 1977 et située dans l'arrondissement de Shinagawa à Tokyo.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Banpresto Co, Ltd (株式会社バンプレスト) ist ein japanisches Unternehmen, das Spielzeuge und Figuren herstellt sowie Videospiele veröffentlicht und entwickelt. Es wurde im April 1977 gegründet und hat seinen Sitz im Bezirk Shinagawa in Tokio.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Banpresto Co, Ltd (株式会社バンプレスト) es una empresa japonesa fabricante de juguetes y figuras de acción y editora y desarrolladora de videojuegos, fundada en abril de 1977 y ubicada en Shinagawa Ward, Tokio.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Banpresto Co, Ltd (株式会社バンプレスト) è una società giapponese di produzione di giocattoli e action figure e di pubblicazione e sviluppo di videogiochi, fondata nell'aprile del 1977 e con sede nel quartiere di Shinagawa, a Tokyo.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社バンプレストは、1977年4月に設立された日本の玩具・アクションフィギュア製造会社、ビデオゲーム出版・開発会社です（所在地：東京都品川区）。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Banpresto Co, Ltd (株式会社バンプレスト) is een Japanse fabrikant van speelgoed en actiefiguren en uitgever en ontwikkelaar van videospelletjes, opgericht in april 1977 en gevestigd in Shinagawa Ward, Tokio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Banpresto Co, Ltd (株式会社バンプレスト) to japońska firma produkująca zabawki i figurki akcji oraz wydająca i rozwijająca gry wideo, założona w kwietniu 1977 roku i mieszcząca się w Shinagawa Ward w Tokio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Banpresto Co, Ltd (株式会社バンプレスト) é uma empresa japonesa de fabrico de brinquedos e figuras de acção e de edição e desenvolvimento de jogos de vídeo, fundada em Abril de 1977 e localizada em Shinagawa Ward, Tóquio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Banpresto Co, Ltd (株式会社バンプレスト) - японская компания по производству игрушек и фигурок, изданию и разработке видеоигр, основанная в апреле 1977 года и расположенная в токийском квартале Синагава.</text>
+</text>
+
+</view>
 </theme>

@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Fairchild Channel F, released in North America, is notable for being the first in the world based on a cartridge system, as well as the first to have a microprocessor. At the time of its launch, the console was known as the Video Entertainment System (VES).</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Fairchild Channel F, short for "Channel Fun",[2] was the first programmable ROM cartridge–based video game console, and the first console to use a microprocessor. It was released by Fairchild Camera and Instrument in November 1976 across North America[3] at a retail price of US$169.95 </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Fairchild Channel F, sortie en Amérique du Nord, est notable pour être la première au monde basée sur un système de cartouches, ainsi que la première à disposer d'un microprocesseur. Lors de son lancement, la console est connue sous le nom de Video Entertainment System (VES).</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Fairchild Channel F es una consola de videojuegos publicada por Fairchild Semiconductor en agosto de 1976, su precio de ventas fue de $169.95. Inicialmente fue titulado VES (Sistema de Entretenimiento de Video), pero cuando se lanzó el Atari VCS, el año siguiente, se le cambió el nombre a Fairchild. 
-				
-Fue la primera videoconsola con un microprocesador y que utilizara cartuchos, o ROMs.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Fairchild Channel F, der in Nordamerika veröffentlicht wurde, war die weltweit erste Konsole, die auf einem Kassettensystem basierte, und die erste, die mit einem Mikroprozessor ausgestattet war. Bei ihrer Einführung war die Konsole unter dem Namen Video Entertainment System (VES) bekannt.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr">
-			<text>La Fairchild Channel F est une console de jeux vidéo produite par Fairchild Semiconductor. Sortie en novembre 1976 en Amérique du Nord, elle y est vendue au prix de 169,95 $. La console est notable pour être la première au monde basée sur un système de cartouches, ainsi que la première à disposer d'un microprocesseur.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La Fairchild Channel F, lanzada en Norteamérica, destaca por ser el primer sistema del mundo basado en cartuchos, así como el primero en contar con un microprocesador. En el momento de su lanzamiento, la consola se conocía como Video Entertainment System (VES).</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>Il Fairchild Channel F, rilasciato in Nord America, è famoso per essere il primo sistema al mondo basato su cartucce e il primo ad avere un microprocessore. Al momento del lancio, la console era nota come Video Entertainment System (VES).</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt">
-			<text>Lançado em agosto de 1976 pela Fairchild Semiconductor, o Fairchild Channel F foi o primeiro videogame da segunda geração de consoles(as) de jogos, além de ser também o primeiro realmente programável, ou seja, os jogos podiam ser vendidos separadamente do videogame, pois, com o novo sistema de cartuchos era possível lê-los no próprio videogame. </text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text>北米で発売された「Fairchild Channel F」は、世界初のカートリッジ式システムであると同時に、マイクロプロセッサーを搭載していたことでも知られている。発売当時、このゲーム機は「VES（Video Entertainment System）」と呼ばれていた。</text>
+</text>
 
+<text name="system_description" extra="true" lang="nl">
+<text>De Fairchild Channel F, die in Noord-Amerika werd uitgebracht, staat bekend als 's werelds eerste systeem met een cartridge en als het eerste met een microprocessor. Bij de lancering stond de console bekend als het Video Entertainment System (VES).</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>Fairchild Channel F, wydany w Ameryce Północnej, jest godny uwagi jako pierwszy na świecie system oparty na kartridżach, a także jako pierwszy posiadający mikroprocesor. W momencie premiery konsola była znana jako Video Entertainment System (VES).</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Fairchild Channel F, lançado na América do Norte, é notável por ser o primeiro sistema baseado em cartuchos do mundo, bem como o primeiro a ter um microprocessador. Na altura do seu lançamento, a consola era conhecida como o Sistema de Entretenimento Vídeo (VES).</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Fairchild Channel F, выпущенная в Северной Америке, примечательна тем, что стала первой в мире консолью на базе картриджной системы, а также первой консолью с микропроцессором. На момент выпуска консоль была известна как Video Entertainment System (VES).</text>
+</text>
+
+</view>
 </theme>

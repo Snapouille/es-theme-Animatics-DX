@@ -4,28 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The CD-i (Compact Disc Interactive), is a video game console and multimedia player designed by Philips, Sony and Matsushita to impose a new "multimedia" standard. This multimedia system provides more functionalities than an audio CD player or a video game console, while remaining lower than the price of a computer.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Compact Disc-Interactive (CD-I, later CD-i) is a digital optical disc data storage format that was mostly developed and marketed by Dutch company Philips.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le CD-i (Compact Disc Interactif), est une console de jeux vidéo et lecteur multimédia conçu par Philips, Sony et Matsushita pour imposer un nouveau standard « multimédia ». Ce système multimédia permet de fournir plus de fonctionnalités qu'un lecteur de CD audio ou qu'une console de jeux vidéo, tout en restant inférieur au prix d'un ordinateur.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>CD-i o Compact Disc Interactive es el nombre del reproductor multimedia interactivo desarrollado y comercializado por Royal Philips Electronics N.V.. El primer reproductor Philips de CD-i, lanzado en 1991, rondaba el precio de $400 y era capaz de utilizar discos CD-i, Photo CD, Audio CD, CD+G (CD+Graphics), Karaoke CD, y Video CDs (VCD).</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die CD-i (Compact Disc Interactive), ist eine Videospielkonsole und ein Multimedia-Player, der von Philips, Sony und Matsushita entwickelt wurde, um einen neuen "Multimedia"-Standard zu setzen. Dieses Multimediasystem bietet mehr Funktionen als ein Audio-CD-Player oder eine Videospielkonsole, kostet aber weniger als ein Computer.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr">
-			<text>Le CD-i, sigle de Compact Disc Interactif, est une console de jeux vidéo et lecteur multimédia conçu par Philips, Sony et Matsushita pour imposer un nouveau standard « multimédia », concept très en vogue depuis le début de l'année 1991. </text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El CD-i (Compact Disc Interactive) es una consola de videojuegos y reproductor multimedia diseñada por Philips, Sony y Matsushita para establecer un nuevo estándar "multimedia". Este sistema multimedia ofrece más funciones que un reproductor de CD de audio o una consola de videojuegos, pero a un precio inferior al de un ordenador.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="it">
-			<text>Il CD-i (conosciuto anche come Compact Disc Interactive o Philips CD-i) è un lettore multimediale, anche console per videogiochi, sviluppato e commercializzato dalla Philips tra il 1991 e il 1998. </text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Il CD-i (Compact Disc Interactive) è una console per videogiochi e un lettore multimediale progettato da Philips, Sony e Matsushita per stabilire un nuovo standard "multimediale". Questo sistema multimediale offre più funzionalità di un lettore CD audio o di una console per videogiochi, ma a un prezzo inferiore a quello di un computer.</text>
+</text>
 
+<text name="system_description" extra="true" lang="ja">
+<text>CD-i（Compact Disc Interactive）は、フィリップス、ソニー、松下電器が新しい「マルチメディア」の基準を設定するために設計したビデオゲーム機とマルチメディアプレーヤーである。このマルチメディアシステムは、オーディオCDプレーヤーやビデオゲーム機よりも高機能でありながら、コンピュータよりも低価格で提供されます。</text>
+</text>
 
+<text name="system_description" extra="true" lang="nl">
+<text>De CD-i (Compact Disc Interactive) is een videospelconsole en multimediaspeler die door Philips, Sony en Matsushita is ontworpen om een nieuwe "multimedia"-standaard te zetten. Dit multimediasysteem biedt meer functionaliteit dan een audio-CD-speler of een videogameconsole, maar tegen een lagere prijs dan een computer.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>CD-i (Compact Disc Interactive) to konsola do gier wideo i odtwarzacz multimedialny zaprojektowany przez firmy Philips, Sony i Matsushita w celu ustanowienia nowego standardu "multimedialnego". Ten multimedialny system zapewnia więcej funkcji niż odtwarzacz audio CD lub konsola do gier wideo, ale w cenie niższej niż komputer.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O CD-i (Compact Disc Interactive) é uma consola de videojogos e um leitor multimédia concebido pela Philips, Sony e Matsushita para definir um novo padrão "multimédia". Este sistema multimédia oferece mais funcionalidade do que um leitor de CD áudio ou uma consola de jogos de vídeo, mas a um preço inferior ao de um computador.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>CD-i (Compact Disc Interactive) - это игровая консоль и мультимедийный проигрыватель, разработанный компаниями Philips, Sony и Matsushita для установления нового стандарта "мультимедиа". Эта мультимедийная система обладает большей функциональностью, чем проигрыватель аудио компакт-дисков или консоль для видеоигр, но при этом стоит дешевле компьютера.</text>
+</text>
+
+</view>
 </theme>

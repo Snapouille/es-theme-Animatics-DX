@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Chihiro is an arcade system for arcade terminals, created by Sega. The system is based on the architecture of the Xbox home console from Microsoft, which is itself built on a PC architecture.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le Chihiro est un système d'arcade destiné aux bornes d'arcade, créé par Sega. Le système est basé sur l'architecture de la console de salon Xbox de Microsoft celle-ci étant elle-même construite sur une architecture PC.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Chihiro ist ein Arcade-System für Spielhallen, das von Sega entwickelt wurde. Das System basiert auf der Architektur der Xbox-Heimkonsole von Microsoft, die wiederum auf einer PC-Architektur basiert.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Chihiro es un sistema arcade para terminales recreativas, creado por Sega. El sistema se basa en la arquitectura de la consola doméstica Xbox de Microsoft, que a su vez está construida sobre una arquitectura de PC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Chihiro è un sistema arcade per terminali arcade, creato da Sega. Il sistema è basato sull'architettura della console domestica Microsoft Xbox, a sua volta costruita su un'architettura PC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ちひろは、セガが制作したアーケード端末用のシステムである。このシステムは、マイクロソフトの家庭用ゲーム機「Xbox」のアーキテクチャをベースにしており、それ自体はPCのアーキテクチャをベースに作られている。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Chihiro is een systeem voor arcade-terminals, gemaakt door Sega. Het systeem is gebaseerd op de architectuur van de Microsoft Xbox thuisconsole, die zelf is gebouwd op een PC-architectuur.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Chihiro to system dla terminali arcade, stworzony przez firmę Sega. System oparty jest na architekturze konsoli domowej Microsoft Xbox, która sama jest zbudowana na architekturze PC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Chihiro é um sistema de arcada para terminais de arcada, criado pela Sega. O sistema é baseado na arquitectura da consola doméstica Microsoft Xbox, que por sua vez é construída sobre uma arquitectura de PC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Chihiro - это система для аркадных терминалов, созданная компанией Sega. Система основана на архитектуре домашней консоли Microsoft Xbox, которая сама построена на архитектуре ПК.</text>
+</text>
+
+</view>
 </theme>

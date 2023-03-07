@@ -4,25 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>Shooter video games or shooters are a subgenre of action video games where the focus is almost entirely on the defeat of the character's enemies using the weapons given to the player.</text>
+</text>
 
-Shooter video games or shooters are a subgenre of action video games where the focus is almost entirely on the defeat of the character's enemies using the weapons given to the player.
-			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux vidéo de tir ou shooters sont un sous-genre des jeux vidéo d'action où l'accent est presque entièrement mis sur la défaite des ennemis du personnage à l'aide des armes mises à la disposition du joueur.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Shooter-Videospiele oder Shooter sind ein Subgenre von Action-Videospielen, bei denen der Schwerpunkt fast ausschließlich auf dem Besiegen der Feinde der Spielfigur mit den dem Spieler zur Verfügung stehenden Waffen liegt.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>Los videojuegos de disparos o shooters son un subgénero de los videojuegos de acción en los que la atención se centra casi por completo en la derrota de los enemigos del personaje utilizando las armas que se le dan al jugador.</text>
+</text>
 
-Género de acción donde el principal objetivo es disparar y matar enemigos, generalmente con armas de fuego. Aunque existen multitud de subgéneros, se divide principalmente en dos grupos, según la perspectiva que tengamos de nuestro personaje: en 1ª persona (o FPS) y en 3ª persona (o TPS).
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>I videogiochi sparatutto o sparatutto sono un sottogenere di videogiochi d'azione in cui l'attenzione si concentra quasi esclusivamente sulla sconfitta dei nemici del personaggio utilizzando le armi a disposizione del giocatore.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>シュータービデオゲームまたはシューティングゲームは、アクションビデオゲームのサブジャンルであり、プレイヤーに与えられた武器を使ってキャラクターの敵を倒すことにほとんど焦点が当てられています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Shooter video games of shooters zijn een subgenre van actie video games waar de nadruk bijna volledig ligt op het verslaan van de vijanden van het personage met behulp van de wapens die de speler krijgt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Shooter gry wideo lub strzelanki są podgatunek akcji gier wideo, w których koncentruje się prawie całkowicie na pokonaniu wrogów bohatera za pomocą broni podanych do gracza.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Os jogos de vídeo shooters ou atiradores são um subgénero de jogos de vídeo de acção em que o foco está quase inteiramente na derrota dos inimigos da personagem usando as armas dadas ao jogador.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Видеоигры-стрелялки или шутеры - это поджанр видеоигр в жанре экшн, где основное внимание почти полностью сосредоточено на поражении врагов персонажа с помощью оружия, предоставленного игроку.</text>
+</text>
+
+</view>
 </theme>

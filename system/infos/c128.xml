@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
+<text name="system_description" extra="true">
+<text>The Commodore 128 is an extended and compatible version of the Commodore 64, but redesigned (the look of which was to inspire the Amiga 500) with 128 kilobytes of RAM. This hybrid computer integrated 2 different interconnected microprocessors, which ensured full hardware compatibility with different operating systems.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The Commodore 128, also known as the C128, C-128, C= 128,[n 1] is the last 8-bit home computer that was commercially released by Commodore Business Machines (CBM). Introduced in January 1985 at the CES in Las Vegas, it appeared three years after its predecessor, the bestselling Commodore 64.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Commodore 128 est une version étendue et compatible du Commodore 64, mais relooké (allure dont allait s'inspirer l'Amiga 500) avec 128 kilo Octets de mémoire vive. Cet ordinateur hybride, intégrait 2 microprocesseurs différents interconnectés, qui assuraient une compatibilité matérielle complète avec différents systèmes d'exploitation.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>El ordenador doméstico/personal Commodore 128 ('C128, CBM 128, C=128) fue la última máquina de 8 bits comercializada por Commodore Business Machines (CBM). Presentada en enero de 1985 en el CES de Las Vegas, apareció tres años después de su predecesor, el exitoso Commodore 64. El diseñador principal del hardware de la C128 fue Bil Herd.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Commodore 128 war eine erweiterte und kompatible Version des Commodore 64, aber mit einem neuen Design (das dem Amiga 500 nachempfunden war) und 128 Kilobyte Arbeitsspeicher. Dieser Hybrid-Computer enthielt zwei verschiedene, miteinander verbundene Mikroprozessoren, die eine vollständige Hardwarekompatibilität mit verschiedenen Betriebssystemen gewährleisteten.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>C'était une version étendue et compatible du Commodore 64, mais relooké (allure dont allait s'inspirer l'Amiga 500) avec 128 kilo Octets de mémoire vive. Il était doté du processeur 6510 du Commodore 64 pour lui assurer une compatibilité à 100 %, mais également d'un nouveau processeur 8502 avec un jeu d'instructions BASIC plus étendu et des possibilités d'extension par cartouche mémoire, jusqu'à 512 Ko. Il contenait également un processeur Zilog Z80 avec le système d'exploitation CP/M. Enfin, il proposait une commutation d'écran du mode standard 40 colonnes vers un mode 80 colonnes.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El Commodore 128 es una versión ampliada y compatible del Commodore 64, pero rediseñado (cuyo aspecto iba a inspirar al Amiga 500) con 128 kilobytes de RAM. Este ordenador híbrido integraba 2 microprocesadores diferentes interconectados, lo que garantizaba una total compatibilidad de hardware con diferentes sistemas operativos.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Il Commodore 128 è una versione estesa e compatibile del Commodore 64, ma ridisegnata (il cui look avrebbe ispirato l'Amiga 500) con 128 kilobyte di RAM. Questo computer ibrido integrava 2 diversi microprocessori interconnessi, che garantivano la completa compatibilità hardware con diversi sistemi operativi.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="ja">
+<text>コモドール128は、コモドール64の拡張互換版ですが、128キロバイトのRAMを搭載して再設計されました（その外観は、Amiga500にインスピレーションを与えるものでした）。このハイブリッドコンピュータは、2つの異なる相互接続されたマイクロプロセッサを統合し、異なるオペレーティングシステムとの完全なハードウェア互換性を確保した。</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>De Commodore 128 is een uitgebreide en compatibele versie van de Commodore 64, maar opnieuw ontworpen (waarvan het uiterlijk de Amiga 500 moest inspireren) met 128 kilobyte RAM. Deze hybride computer integreerde 2 verschillende onderling verbonden microprocessoren, wat zorgde voor volledige hardwarecompatibiliteit met verschillende besturingssystemen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Commodore 128 to rozbudowana i kompatybilna wersja Commodore 64, ale przeprojektowana (której wygląd miał być inspiracją dla Amigi 500) ze 128 kilobajtami pamięci RAM. Ten hybrydowy komputer integrował 2 różne połączone ze sobą mikroprocesory, co zapewniało pełną kompatybilność sprzętową z różnymi systemami operacyjnymi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Commodore 128 é uma versão ampliada e compatível do Commodore 64, mas redesenhado (cujo aspecto foi para inspirar o Amiga 500) com 128 kilobytes de RAM. Este computador híbrido integrou 2 microprocessadores diferentes interligados, o que garantiu a compatibilidade completa do hardware com diferentes sistemas operativos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Commodore 128 - это расширенная и совместимая версия Commodore 64, но с измененным дизайном (внешний вид которого должен был вдохновить Amiga 500) и 128 килобайтами оперативной памяти. Этот гибридный компьютер объединял 2 различных взаимосвязанных микропроцессора, что обеспечивало полную аппаратную совместимость с различными операционными системами.</text>
+</text>
+
+</view>
 </theme>

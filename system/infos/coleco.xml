@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Coleco was founded in 1932 as the Connecticut Leather Company. It became one of the most famous toy companies in the 1980s and was an early manufacturer of consoles, Coleco Telstar and ColecoVision among others. It was bought by Hasbro in 1989.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Coleco était une entreprise fondée en 1932 sous le nom de « Connecticut Leather Company ». Elle devint l'une des plus célèbres entreprises de jouets dans les années 1980 et fut un des premiers fabricants de consoles, Coleco Telstar et ColecoVision entre autres. Elle a été rachetée par Hasbro en 1989.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Coleco war ein Unternehmen, das 1932 unter dem Namen "Connecticut Leather Company" gegründet wurde. Sie wurde in den 1980er Jahren zu einer der bekanntesten Spielzeugfirmen und war einer der ersten Hersteller von Konsolen, u. a. Coleco Telstar und ColecoVision. Im Jahr 1989 wurde sie von Hasbro aufgekauft.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Coleco se fundó en 1932 con el nombre de Connecticut Leather Company. Se convirtió en una de las empresas jugueteras más famosas de la década de 1980 y fue uno de los primeros fabricantes de consolas, Coleco Telstar y ColecoVision entre otras. Fue comprada por Hasbro en 1989.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Coleco è stata fondata nel 1932 come Connecticut Leather Company. Negli anni '80 divenne una delle aziende di giocattoli più famose e fu uno dei primi produttori di console, tra cui Coleco Telstar e ColecoVision. Fu acquistata da Hasbro nel 1989.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>Colecoは、1932年にConnecticut Leather Companyとして設立されました。1980年代に最も有名な玩具会社の1つとなり、特にColeco TelstarとColecoVisionというゲーム機の初期メーカーでした。1989年にハズブロ社に買収された。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Coleco werd in 1932 opgericht als de Connecticut Leather Company. Het werd een van de beroemdste speelgoedbedrijven in de jaren 1980 en was een vroege fabrikant van consoles, onder meer Coleco Telstar en ColecoVision. Het werd in 1989 gekocht door Hasbro.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Firma Coleco została założona w 1932 roku jako Connecticut Leather Company. Stała się jedną z najbardziej znanych firm zabawkarskich w latach 80. Była wczesnym producentem konsol, między innymi Coleco Telstar i ColecoVision. W 1989 roku została kupiona przez Hasbro.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Coleco foi fundada em 1932 como a Connecticut Leather Company. Tornou-se uma das mais famosas empresas de brinquedos nos anos 80 e foi um dos primeiros fabricantes de consolas, Coleco Telstar e ColecoVision, entre outras. Foi comprada pela Hasbro em 1989.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Компания Coleco была основана в 1932 году как Connecticut Leather Company. Она стала одной из самых известных компаний по производству игрушек в 1980-х годах и была одним из первых производителей консолей, в том числе Coleco Telstar и ColecoVision. В 1989 году компания была куплена Hasbro.</text>
+</text>
+
+</view>
 </theme>
