@@ -29,9 +29,9 @@
 		  <visible>false</visible>
 		</image>
 		
-		<!-- On repositionne les stats des vues vertical, vertical arts et simple -->
+		<!-- On repositionne les stats  -->
 		<text name="systemInfoEx">
-			<pos>0.03 0.733</pos>
+			<pos>0.03 0.713</pos>
 			<!-- <alignment>left</alignment> -->
 		</text>
 		
