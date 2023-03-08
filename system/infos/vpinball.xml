@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Visual Pinball is a freeware video game engine for pinball tables and similar games such as pachinko machines. The software consists of an editor and the simulator itself. It is also able to work with Visual PinMAME, a ROM image emulator of real pinball machines.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Visual Pinball est un moteur de jeu vidéo freeware pour les tables de flipper et les jeux similaires tels que les machines de pachinko. Le logiciel est composé d'un éditeur et du simulateur lui-même. Il est également capable de fonctionner avec Visual PinMAME, un émulateur d'images ROM de flippers réels.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Visual Pinball ist eine Freeware-Videospielmaschine für Flippertische und ähnliche Spiele wie Pachinko-Maschinen. Die Software besteht aus einem Editor und dem Simulator selbst. Sie kann auch mit Visual PinMAME, einem Emulator für ROM-Images von echten Flipperautomaten, zusammenarbeiten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Visual Pinball es un motor de videojuegos gratuito para mesas de pinball y juegos similares, como las máquinas pachinko. El software consta de un editor y del simulador propiamente dicho. También es capaz de trabajar con Visual PinMAME, un emulador de imágenes ROM de máquinas de pinball reales.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Visual Pinball è un motore di videogiochi freeware per tavoli da flipper e giochi simili, come le macchine da pachinko. Il software consiste in un editor e nel simulatore stesso. È anche in grado di lavorare con Visual PinMAME, un emulatore di immagini ROM di flipper reali.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Visual Pinballは、ピンボール台やパチンコ台などの類似ゲーム用のフリーウェアのビデオゲームエンジンです。ソフトウェアはエディタとシミュレータ本体で構成されています。また、実際のピンボールマシンのROMイメージエミュレータであるVisual PinMAMEと連携することも可能です。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Visual Pinball is een freeware video game engine voor pinball tafels en soortgelijke spellen zoals pachinko machines. De software bestaat uit een editor en de simulator zelf. Het kan ook werken met Visual PinMAME, een ROM-image emulator van echte flipperkasten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Visual Pinball to darmowy silnik gier wideo dla stołów pinballowych i podobnych gier, takich jak pachinko machines. Oprogramowanie składa się z edytora i samego symulatora. Jest również w stanie współpracować z Visual PinMAME, emulatorem obrazów ROM prawdziwych maszyn pinballowych.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Visual Pinball é um motor de jogos de vídeo freeware para mesas de pinball e jogos semelhantes, tais como máquinas de pachinko. O software é composto por um editor e pelo próprio simulador. É também capaz de trabalhar com Visual PinMAME, um emulador de imagem ROM de máquinas de pinball reais.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Visual Pinball - это свободно распространяемый движок для видеоигр для столов пинбола и подобных игр, таких как автоматы пачинко. Программное обеспечение состоит из редактора и самого симулятора. Он также может работать с Visual PinMAME, эмулятором ROM-образов реальных пинбольных автоматов.</text>
+</text>
+
+</view>
 </theme>

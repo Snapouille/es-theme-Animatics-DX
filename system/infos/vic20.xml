@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>The VIC-20 is an 8-bit personal computer that was with 5 kB of RAM (including 3.5 kB for BASIC applications) and a CPU based on a MOS 6502 processor. It resembled its successors the C64 and the C16. The VIC-20 appeared in June 1980, 2 years and 9 months after the release of Commodore's first personal computer, the PET.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le VIC-20 est un ordinateur personnel 8 bits qui était avec 5 ko de RAM (dont 3,5 ko pour les applications BASIC) et une unité centrale basée sur un processeur MOS 6502. Il ressemblait à ses successeurs le C64 et le C16. Le VIC-20 apparut en juin 1980, 2 ans et 9 mois après la sortie du premier ordinateur personnel de Commodore, le PET.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Der VIC-20 war ein 8-Bit-Personalcomputer, der mit 5 KB RAM (davon 3,5 KB für BASIC-Anwendungen) und einer CPU auf der Basis eines MOS-6502-Prozessors ausgestattet war. Er ähnelte seinen Nachfolgern C64 und C16. Der VIC-20 erschien im Juni 1980, 2 Jahre und 9 Monate nach der Veröffentlichung des ersten Personal Computers von Commodore, dem PET.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El VIC-20 es un ordenador personal de 8 bits que venía con 5 kB de RAM (de los cuales 3,5 kB eran para aplicaciones BASIC) y una CPU basada en un procesador MOS 6502. Se parecía a sus sucesores el C64 y el C16. El VIC-20 apareció en junio de 1980, 2 años y 9 meses después del lanzamiento del primer ordenador personal de Commodore, el PET.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il VIC-20 è un personal computer a 8 bit dotato di 5 kB di RAM (di cui 3,5 kB per le applicazioni BASIC) e di una CPU basata su un processore MOS 6502. Assomigliava ai suoi successori, il C64 e il C16. Il VIC-20 apparve nel giugno del 1980, 2 anni e 9 mesi dopo l'uscita del primo personal computer di Commodore, il PET.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>VIC-20は、5kBのRAM（うち3.5kBはBASICアプリケーション用）とMOS 6502プロセッサをベースにしたCPUを搭載した8ビットパーソナルコンピュータである。後継機のC64やC16に似ている。VIC-20は、コモドール社初のパーソナルコンピュータPETの発売から2年9ヶ月後の1980年6月に登場しました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De VIC-20 is een 8-bit personal computer met 5 kB RAM (waarvan 3,5 kB voor BASIC-toepassingen) en een CPU gebaseerd op een MOS 6502 processor. Hij leek op zijn opvolgers de C64 en de C16. De VIC-20 verscheen in juni 1980, 2 jaar en 9 maanden na de release van Commodore's eerste personal computer, de PET.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>VIC-20 to 8-bitowy komputer osobisty, który wyposażony był w 5 kB pamięci RAM (z czego 3,5 kB przeznaczone było na aplikacje BASIC) oraz procesor oparty na układzie MOS 6502. Przypominał swoich następców C64 i C16. VIC-20 pojawił się w czerwcu 1980 roku, 2 lata i 9 miesięcy po premierze pierwszego komputera osobistego firmy Commodore - PET.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O VIC-20 é um computador pessoal de 8 bits que veio com 5 kB de RAM (dos quais 3,5 kB eram para aplicações BASIC) e um CPU baseado num processador MOS 6502. Era semelhante aos seus sucessores, o C64 e o C16. O VIC-20 apareceu em Junho de 1980, 2 anos e 9 meses após o lançamento do primeiro computador pessoal da Commodore, o PET.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>VIC-20 - это 8-битный персональный компьютер, который поставлялся с 5 кБ оперативной памяти (из которых 3,5 кБ предназначались для приложений BASIC) и центральным процессором на базе процессора MOS 6502. Он был похож на своих преемников C64 и C16. VIC-20 появился в июне 1980 года, через 2 года и 9 месяцев после выпуска первого персонального компьютера Commodore, PET.</text>
+</text>
+
+</view>
 </theme>

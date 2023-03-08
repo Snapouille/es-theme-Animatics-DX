@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Visco Corporation (株式会社ビスコ) is a Japanese company that originally developed video games for several platforms including arcade and NES, as well as Nintendo 64 and Neo-Geo. Visco also collaborated with Seta and Sammy in the development of the System SSV (Sammy, Seta, Visco) arcade system.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Visco Corporation (株式会社ビスコ) est une entreprise japonaise qui développe à l'origine des jeux vidéo pour plusieurs plates-formes notamment en arcade et sur NES, ainsi que sur Nintendo 64 et Neo-Geo. Visco a également collaboré avec Seta et Sammy au développement du système d’arcade System SSV (Sammy, Seta, Visco).</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Visco Corporation (株式会社ビスコ) ist ein japanisches Unternehmen, das ursprünglich Videospiele für verschiedene Plattformen entwickelt, insbesondere für Arcade und NES, sowie für Nintendo 64 und Neo-Geo. Visco hat auch mit Seta und Sammy an der Entwicklung des Arcade-Systems System SSV (Sammy, Seta, Visco) zusammengearbeitet.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Visco Corporation (株式会社ビスコ) es una empresa japonesa que originalmente desarrolló videojuegos para varias plataformas, como arcade y NES, así como Nintendo 64 y Neo-Geo. Visco también colaboró con Seta y Sammy en el desarrollo del sistema arcade System SSV (Sammy, Seta, Visco).</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Visco Corporation (株式会社ビスコ) è un'azienda giapponese che originariamente sviluppava videogiochi per diverse piattaforme, tra cui arcade e NES, oltre a Nintendo 64 e Neo-Geo. Visco ha anche collaborato con Seta e Sammy allo sviluppo del sistema arcade System SSV (Sammy, Seta, Visco).</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社ビスコは、アーケードやファミコン、NINTENDO64やネオジオなど、複数のプラットフォームでビデオゲームを開発していた日本の会社です。また、ビスコはセタやサミーと共同で、アーケードシステム「システムSSV（サミー、セタ、ビスコ）」を開発したこともある。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Visco Corporation (株式会社ビスコ) is een Japanse onderneming die oorspronkelijk videospelletjes ontwikkelde voor verschillende platforms, waaronder arcade en NES, alsook Nintendo 64 en Neo-Geo. Visco werkte ook samen met Seta en Sammy bij de ontwikkeling van het arcadesysteem System SSV (Sammy, Seta, Visco).</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Visco Corporation (株式会社ビスコ) to japońska firma, która pierwotnie tworzyła gry wideo na kilka platform, w tym arcade i NES, a także Nintendo 64 i Neo-Geo. Visco współpracowało również z Seta i Sammy przy tworzeniu systemu arcade System SSV (Sammy, Seta, Visco).</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Visco Corporation (株式会社ビスコ) é uma empresa japonesa que originalmente desenvolveu videojogos para várias plataformas incluindo arcade e NES, bem como Nintendo 64 e Neo-Geo. Visco também colaborou com Seta e Sammy no desenvolvimento do sistema de arcade System SSV (Sammy, Seta, Visco).</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Visco Corporation (株式会社ビスコ) - японская компания, которая первоначально разрабатывала видеоигры для нескольких платформ, включая аркады и NES, а также Nintendo 64 и Neo-Geo. Visco также сотрудничала с Seta и Sammy в разработке аркадной системы System SSV (Sammy, Seta, Visco).</text>
+</text>
+
+</view>
 </theme>

@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Universal Entertainment Corporation is a Japanese manufacturer of pachinko, slot machines, arcade games and other gaming products, as well as a video game publisher. It is also the licensee of the Shadow Hearts video game franchise. </text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Universal Entertainment Corporation est un fabricant japonais de pachinko, de machines à sous, de jeux d'arcade et d'autres produits de jeu, ainsi qu'un éditeur de jeux vidéo. Il est également le détenteur de la licence de la franchise de jeux vidéo Shadow Hearts.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Die Universal Entertainment Corporation ist ein japanischer Hersteller von Pachinko, Spielautomaten, Arcade-Spielen und anderen Glücksspielprodukten sowie ein Videospielverlag. Sie ist außerdem der Lizenznehmer des Videospiel-Franchise Shadow Hearts. </text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Universal Entertainment Corporation es un fabricante japonés de pachinko, máquinas tragaperras, juegos arcade y otros productos de juego, así como un editor de videojuegos. También es licenciataria de la franquicia de videojuegos Shadow Hearts. </text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Universal Entertainment Corporation è un produttore giapponese di pachinko, slot machine, giochi arcade e altri prodotti di gioco, nonché editore di videogiochi. È anche licenziataria della serie di videogiochi Shadow Hearts. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社ユニバーサルエンターテインメントは、パチンコ、スロットマシン、アーケードゲーム、その他のゲーム製品の日本のメーカーであり、ビデオゲームのパブリッシャーでもあります。また、ビデオゲームフランチャイズ「シャドウハーツ」のライセンシーである。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Universal Entertainment Corporation is een Japanse fabrikant van pachinko, speelautomaten, arcadespellen en andere spelproducten, alsook een uitgever van videospellen. Het is ook de licentiehouder van het videospel Shadow Hearts. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Universal Entertainment Corporation to japoński producent pachinko, automatów do gry, gier zręcznościowych i innych produktów do gier, a także wydawca gier wideo. Jest również licencjobiorcą franczyzy gier wideo Shadow Hearts. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Universal Entertainment Corporation é um fabricante japonês de pachinko, slot machines, jogos arcade e outros produtos de jogos, bem como uma editora de jogos de vídeo. É também o licenciado da franquia de jogos de vídeo da Shadow Hearts. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Universal Entertainment Corporation - японский производитель пачинко, игровых автоматов, аркадных игр и других игровых продуктов, а также издатель видеоигр. Она также является лицензиатом франшизы видеоигр Shadow Hearts. </text>
+</text>
+
+</view>
 </theme>

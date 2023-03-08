@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Toaplan is a Japanese company created in 1984 which carries out its activity in the development of the video game and which closed in 1994. It is known for its innovative arcade games for the time, mainly shoot them up like Tiger Heli, Twin Cobra, Out Zone or Batsugun.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Toaplan est une entreprise japonaise créée en 1984 qui exerce son activité dans le développement du jeu vidéo et qui a fermé en 1994. Elle est connu pour ses jeux d'arcade novateurs pour l'époque, principalement des shoot them up comme Tiger Heli, Twin Cobra, Out Zone ou encore Batsugun.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Toaplan ist ein japanisches Unternehmen, das 1984 gegründet wurde, sich mit der Entwicklung von Videospielen beschäftigte und 1994 geschlossen wurde. Sie ist bekannt für ihre für die damalige Zeit innovativen Arcade-Spiele, hauptsächlich Shoot them up-Spiele wie Tiger Heli, Twin Cobra, Out Zone oder Batsugun.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Toaplan es una empresa japonesa creada en 1984 que se dedicaba al desarrollo de videojuegos y que cerró en 1994. Es conocida por sus juegos arcade innovadores para la época, principalmente de disparos como Tiger Heli, Twin Cobra, Out Zone o Batsugun.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Toaplan è un'azienda giapponese creata nel 1984, attiva nello sviluppo di videogiochi e chiusa nel 1994. È nota per i suoi giochi arcade innovativi per l'epoca, soprattutto sparatutto come Tiger Heli, Twin Cobra, Out Zone o Batsugun.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>トアプランは、1984年に設立され、ビデオゲームの開発で活躍した日本の会社で、1994年に閉鎖された。タイガーヘリ」「ツインコブラ」「アウトゾーン」「バツグン」など、当時としては斬新なシューティングゲームを中心としたアーケードゲームで知られています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Toaplan is een in 1984 opgericht Japans bedrijf dat zich bezighield met de ontwikkeling van videospelletjes en dat in 1994 werd gesloten. Het staat bekend om zijn innovatieve arcadespellen voor die tijd, voornamelijk schietspellen zoals Tiger Heli, Twin Cobra, Out Zone of Batsugun.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Toaplan to japońska firma powstała w 1984 roku, która zajmowała się tworzeniem gier wideo i która została zamknięta w 1994 roku. Znana jest z innowacyjnych jak na tamte czasy gier zręcznościowych, głównie shoot them up jak Tiger Heli, Twin Cobra, Out Zone czy Batsugun.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Toaplan é uma empresa japonesa criada em 1984 que estava activa no desenvolvimento de jogos de vídeo e que encerrou em 1994. É conhecida pelos seus jogos de arcada inovadores da época, principalmente jogos de tiro como Tiger Heli, Twin Cobra, Out Zone ou Batsugun.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Toaplan - это японская компания, созданная в 1984 году и занимавшаяся разработкой видеоигр, которая закрылась в 1994 году. Она известна своими инновационными для того времени аркадными играми, в основном стрелялками, такими как Tiger Heli, Twin Cobra, Out Zone или Batsugun.</text>
+</text>
+
+</view>
 </theme>

@@ -4,21 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>The Interton Video Computer 4000 (officially abbreviated as Interton VC 4000) is an early 8-bit ROM cartridge-based second-generation home video game console that was released in Germany, England, France, Spain, Austria, the Netherlands and Australia in 1978.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>Interton Video Computer 4000 (abreviado oficialmente como Interton VC 4000) es una de las primeras consolas de videojuegos domésticas de segunda generación basadas en cartuchos de 8 bits que se lanzó en Alemania, Inglaterra, Francia, España, Austria, los Países Bajos y Australia en 1978.</text>
-		</text>
-		
-		
-				
+<text name="system_description" extra="true">
+<text>The Interton VC4000 is an 8-bit cartridge video game console released in Germany. The console is not well known outside Germany, but many systems with compatible software can be found in several European countries. </text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="fr">
+<text>L'Interton VC4000 est une console de jeux vidéo 8-bits à cartouches sortie en Allemagne. La console est assez peu connue en dehors de l'Allemagne, mais de nombreux systèmes aux logiciels compatibles peuvent être trouvés dans plusieurs pays européens.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Interton VC4000 ist eine 8-Bit-Videospielkonsole mit Kassetten, die in Deutschland veröffentlicht wurde. Die Konsole ist außerhalb Deutschlands recht unbekannt, aber viele Systeme mit kompatibler Software sind in mehreren europäischen Ländern zu finden. </text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La Interton VC4000 es una videoconsola de cartuchos de 8 bits lanzada en Alemania. La consola no es muy conocida fuera de Alemania, pero se pueden encontrar muchos sistemas con software compatible en varios países europeos. </text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Interton VC4000 è una console per videogiochi a cartuccia a 8 bit rilasciata in Germania. La console non è molto conosciuta al di fuori della Germania, ma si possono trovare molti sistemi con software compatibile in diversi paesi europei. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>インタートンVC4000は、ドイツで発売された8ビットカートリッジ式ビデオゲーム機である。ドイツ以外ではあまり知られていないゲーム機ですが、ヨーロッパ数カ国では互換ソフトを搭載したシステムが多く見られます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Interton VC4000 is een in Duitsland uitgebrachte 8-bit spelcomputer met cartridges. De console is niet bekend buiten Duitsland, maar in verschillende Europese landen zijn veel systemen met compatibele software te vinden. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Interton VC4000 to 8-bitowa konsola do gier wideo na kartridżach wydana w Niemczech. Konsola nie jest dobrze znana poza Niemcami, ale wiele systemów z kompatybilnym oprogramowaniem można znaleźć w kilku krajach europejskich. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Interton VC4000 é uma consola de videojogos de 8-bit baseada em cartuchos lançada na Alemanha. A consola não é bem conhecida fora da Alemanha, mas muitos sistemas com software compatível podem ser encontrados em vários países europeus. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Interton VC4000 - это 8-битная игровая консоль на картриджах, выпущенная в Германии. Консоль не очень известна за пределами Германии, но многие системы с совместимым программным обеспечением можно найти в нескольких европейских странах. </text>
+</text>
+
+</view>
 </theme>

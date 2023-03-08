@@ -4,20 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The V.Smile is a video game console with software developed for several age groups between 3 and 9 years old. Based on its educational function, the console offers many games derived from universes known to children, such as those of Disney or Dora the Explorer. </text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The V.Smile is a sixth-generation educational home video game console manufactured and released by VTech. Titles are available on ROM cartridges called "Smartridges" and the graphics are primarily sprite-based. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La V.Smile est une console de jeu vidéo offrant un logiciel élaboré pour plusieurs groupes d'âge situés entre 3 et 9 ans. S’appuyant sur sa fonction éducative, la console propose de nombreux jeux dérivés d'univers connus des enfants, comme ceux de Disney ou celui de Dora l'exploratrice. </text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>V.Smile es una consola de videojuegos doméstica educativa de sexta generación fabricada y lanzada por VTech. Los títulos están disponibles en cartuchos ROM llamados "Smartridges" y los gráficos se basan principalmente en sprites.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die V.Smile ist eine Videospielkonsole, die Software für verschiedene Altersgruppen zwischen 3 und 9 Jahren bietet. Die Konsole bietet eine Vielzahl von Spielen aus bekannten Kinderuniversen wie Disney oder Dora the Explorer. </text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>La V.Smile es una videoconsola con software desarrollado para varios grupos de edades comprendidas entre los 3 y los 9 años. Basada en su función educativa, la consola ofrece varios juegos derivados de universos conocidos por los niños, como Disney o Dora la Exploradora. </text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>V.Smile è una console per videogiochi con software sviluppato per diverse fasce d'età tra i 3 e i 9 anni. Basata sulla sua funzione educativa, la console offre una serie di giochi derivati da universi noti ai bambini, come Disney o Dora l'esploratrice. </text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>V.Smileは、3歳から9歳までの幅広い年齢層に向けて開発されたソフトを搭載したゲーム機です。教育機能をベースに、ディズニーやドラえもんなど、子どもたちが知っている世界観のゲームを多数用意しています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De V.Smile is een videospelconsole met software die is ontwikkeld voor verschillende leeftijdsgroepen tussen 3 en 9 jaar. Op basis van zijn educatieve functie biedt de console een aantal spelletjes die zijn afgeleid van voor kinderen bekende universums, zoals Disney of Dora the Explorer. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>V.Smile to konsola do gier wideo z oprogramowaniem opracowanym dla kilku grup wiekowych w przedziale od 3 do 9 lat. Bazując na funkcji edukacyjnej, konsola oferuje szereg gier wywodzących się ze znanych dzieciom uniwersów, takich jak Disney czy Dora the Explorer. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O V.Smile é uma consola de videojogos com software desenvolvido para vários grupos etários entre 3 e 9 anos. Com base na sua função educativa, a consola oferece uma série de jogos derivados de universos conhecidos pelas crianças, tais como Disney ou Dora the Explorer. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>V.Smile - это игровая приставка с программным обеспечением, разработанным для нескольких возрастных групп от 3 до 9 лет. Основываясь на своей образовательной функции, консоль предлагает множество игр, основанных на известных детям сюжетах, таких как Disney или Dora the Explorer. </text>
+</text>
+
+</view>
 </theme>

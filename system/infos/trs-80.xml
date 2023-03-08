@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>The TRS-80 is a line of microcomputers and handhelds built by Tandy RadioShack. Equipped with a Zilog Z80 microprocessor, clocked at 1.77 MHz, the model 1 in its first version has 4 kB of RAM and 4 kB of ROM.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le TRS-80 est une gamme de micro-ordinateurs et d'ordinateurs de poche construits par Tandy RadioShack. Doté d'un microprocesseur Zilog Z80, cadencé à 1,77 MHz, le modèle 1 dans sa première version dispose de 4 ko de mémoire vive et de 4 ko de mémoire morte.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Der TRS-80 ist eine Reihe von Mikro- und Handheld-Computern, die von Tandy RadioShack gebaut wurden. Ausgestattet mit einem Zilog Z80 Mikroprozessor, der mit 1,77 MHz getaktet ist, verfügt das Modell 1 in seiner ersten Version über 4 KB RAM und 4 KB ROM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El TRS-80 es una gama de microordenadores y dispositivos portátiles fabricados por Tandy RadioShack. Equipado con un microprocesador Zilog Z80 a 1,77 MHz, el Modelo 1 en su primera versión tiene 4 kB de RAM y 4 kB de ROM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il TRS-80 è una gamma di microcomputer e palmari costruiti da Tandy RadioShack. Dotato di un microprocessore Zilog Z80 con clock a 1,77 MHz, il Model 1 nella sua prima versione ha 4 kB di RAM e 4 kB di ROM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>TRS-80は、Tandy RadioShackが製造したマイクロコンピュータとハンドヘルドのシリーズである。1.77MHzのZilog Z80マイクロプロセッサを搭載し、最初のバージョンのモデル1は、4kBのRAMと4kBのROMを備えています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De TRS-80 is een reeks microcomputers en handhelds gebouwd door Tandy RadioShack. Uitgerust met een Zilog Z80 microprocessor, geklokt op 1,77 MHz, heeft het Model 1 in zijn eerste versie 4 kB RAM en 4 kB ROM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>TRS-80 to seria mikrokomputerów i handheldów zbudowanych przez firmę Tandy RadioShack. Wyposażony w mikroprocesor Zilog Z80, taktowany zegarem 1,77 MHz, Model 1 w pierwszej wersji posiada 4 kB pamięci RAM i 4 kB pamięci ROM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O TRS-80 é uma gama de microcomputadores e aparelhos de mão construídos pela Tandy RadioShack. Equipado com um microprocessador Zilog Z80, relógio a 1,77 MHz, o Modelo 1 na sua primeira versão tem 4 kB de RAM e 4 kB de ROM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>TRS-80 - это серия микрокомпьютеров и карманных компьютеров, созданных компанией Tandy RadioShack. Оснащенная микропроцессором Zilog Z80 с тактовой частотой 1,77 МГц, модель 1 в своей первой версии имеет 4 кБ ОЗУ и 4 кБ ПЗУ.</text>
+</text>
+
+</view>
 </theme>

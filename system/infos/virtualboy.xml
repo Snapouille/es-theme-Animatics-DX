@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Virtual Boy is a video game console released in Japan and the United States, in the form of a 3D video headset. Attempting to innovate with a stereoscopic display, the console was ultimately a commercial failure. Despite several price cuts, sales did not take off and the marketing of the console in Europe was cancelled.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Is a 32-bit table-top video game console developed and manufactured by Nintendo. Released in 1995, it was marketed as the first console capable of displaying stereoscopic 3D graphics.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Virtual Boy fue una consola de videojuegos, lanzada en 1995 por Nintendo, que usaba un proyector de estilo gafas para mostrar los juegos en «verdadero» 3D, por medio de un efecto estereoscópico.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Virtual Boy est une console de jeux vidéo créée par Nintendo et sortie en 1995 au Japon et aux États-Unis, se présentant sous la forme d'un casque de réalité virtuelle avec un effet stereoscopique en rouge et noir.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Virtual Boy est une console de jeux vidéo sortie au Japon et aux États-Unis, se présentant sous la forme d'un visiocasque 3D. Tentant l'innovation avec un affichage stéréoscopique, la console est finalement un échec commercial. Malgré plusieurs baisses de prix, les ventes ne décollent pas et la commercialisation de la console en Europe sera annulée.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console portátil lançado em agosto de 1995 e se tornou o maior fracasso da Nintendo. Com um processador de 32 bits e duas telas no formato de um óculos apoiado sobre um tripé, pouco móvel para um 'portátil'.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der Virtual Boy ist eine Videospielkonsole, die in Japan und den USA in Form eines 3D-Visiokastens veröffentlicht wurde. Der Versuch, mit einem stereoskopischen Display eine Innovation zu schaffen, führte zu einem kommerziellen Misserfolg. Trotz mehrerer Preissenkungen kamen die Verkäufe nicht in Schwung und die Konsole wurde in Europa nicht mehr vermarktet.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Virtual Boy es una videoconsola lanzada en Japón y Estados Unidos en forma de casco 3D. Intentando innovar con una pantalla estereoscópica, la consola fue finalmente un fracaso comercial. A pesar de varias reducciones de precio, las ventas no despegaron y se canceló la comercialización de la consola en Europa.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Virtual Boy è una console per videogiochi rilasciata in Giappone e negli Stati Uniti sotto forma di cuffie 3D. Tentando di innovare con un display stereoscopico, la console si è rivelata un fallimento commerciale. Nonostante i numerosi tagli di prezzo, le vendite non sono decollate e la commercializzazione della console in Europa è stata cancellata.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>バーチャルボーイは、日本と米国で発売された3Dヘッドセット型のビデオゲーム機である。立体視ディスプレイでイノベーションを起こそうとしたこのゲーム機は、結局商業的には失敗だった。何度かの値下げにもかかわらず、売上は伸びず、ヨーロッパでの販売も中止された。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Virtual Boy is een in Japan en de Verenigde Staten uitgebrachte spelcomputer in de vorm van een 3D-headset. In een poging tot innovatie met een stereoscopisch scherm werd de console uiteindelijk een commerciële mislukking. Ondanks verschillende prijsverlagingen kwam de verkoop niet van de grond en werd de console in Europa niet op de markt gebracht.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Virtual Boy to konsola do gier wideo wydana w Japonii i Stanach Zjednoczonych w formie zestawu słuchawkowego 3D. Próbując wprowadzić innowacje w postaci stereoskopowego wyświetlacza, konsola okazała się ostatecznie komercyjną porażką. Pomimo kilku obniżek cen, sprzedaż nie ruszyła i marketing konsoli w Europie został anulowany.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Virtual Boy é uma consola de videojogos lançada no Japão e nos Estados Unidos sob a forma de um auricular 3D. Tentando inovar com um ecrã estereoscópico, a consola acabou por ser um fracasso comercial. Apesar de vários cortes de preços, as vendas não descolaram e a comercialização da consola na Europa foi cancelada.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Virtual Boy - это консоль для видеоигр, выпущенная в Японии и США в виде 3D-гарнитуры. Пытаясь внедрить инновации с помощью стереоскопического дисплея, консоль в конечном итоге оказалась коммерчески неудачной. Несмотря на несколько снижений цен, продажи не пошли вверх, и маркетинг консоли в Европе был отменен.</text>
+</text>
+
+</view>
 </theme>

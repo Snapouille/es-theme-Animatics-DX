@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Tyr-Quake is a branch of the Quake source code published by id Software. It is intended to support Quake and Quakeworld while fixing small bugs that have appeared over the years.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Tyr-Quake est une branche du code source de Quake publiée par id Software. Elle est destinée à supporter Quake et Quakeworld tout en corrigeant les petits bugs qui sont apparus au fil des années.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Tyr-Quake ist ein Zweig des Quake-Quellcodes, der von id Software veröffentlicht wurde. Er soll Quake und Quakeworld unterstützen und gleichzeitig kleine Fehler beheben, die im Laufe der Jahre aufgetreten sind.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Tyr-Quake es una rama del código fuente de Quake publicada por id Software. Su objetivo es dar soporte a Quake y Quakeworld a la vez que se corrigen pequeños errores que han ido apareciendo a lo largo de los años.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Tyr-Quake è un ramo del codice sorgente di Quake rilasciato da id Software. Ha lo scopo di supportare Quake e Quakeworld e di correggere piccoli bug che sono apparsi nel corso degli anni.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>Tyr-Quakeは、id Softwareが公開したQuakeのソースコードのブランチである。QuakeとQuakeworldをサポートすることを目的とし、長年にわたって現れた小さなバグを修正しています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Tyr-Quake is een tak van de Quake broncode vrijgegeven door id Software. Het is bedoeld om Quake en Quakeworld te ondersteunen en tegelijkertijd kleine bugs te repareren die in de loop der jaren zijn opgedoken.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Tyr-Quake to gałąź kodu źródłowego Quake'a wydana przez id Software. Ma on na celu wspieranie Quake'a i Quakeworlda, naprawiając jednocześnie drobne błędy, które pojawiły się na przestrzeni lat.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Tyr-Quake é um ramo do código fonte do Quake lançado pela id Software. Destina-se a apoiar o Quake e o Quakeworld ao mesmo tempo que corrige pequenos bugs que têm aparecido ao longo dos anos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Tyr-Quake - это ветвь исходного кода Quake, выпущенная id Software. Она предназначена для поддержки Quake и Quakeworld и исправления мелких ошибок, появившихся за прошедшие годы.</text>
+</text>
+
+</view>
 </theme>

@@ -4,21 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Produced by Texas Instruments, this computer has some similarities with the concept of a video game console. It can be connected to a television set via a SCART socket, can read cartridges and has a connector allowing two game controllers to be attached. It can also use audio cassettes.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The TI-99/4 and TI-99/4A were home computers released by Texas Instruments in 1979 and 1981, respectively. Based on the Texas Instruments TMS9900 microprocessor originally used in minicomputers, the TI-99/4 was the first 16-bit home computer, and the associated video display controller provided color graphics and sprite support that was among the best of its era. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Produit par Texas Instruments, cet ordinateur présente quelques similarités avec le concept de console de jeux vidéo. Il peut se brancher sur un téléviseur par l'intermédiaire d'une prise péritel, peut lire des cartouches et dispose d'un connecteur permettant de lui adjoindre deux manettes de jeu. Il peut également utiliser des cassettes audio.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>El microordenador Texas Instruments TI-99/4A salió a la venta en los Estados Unidos en junio de 1981. Fue muy popular en la década de los 80.
+<text name="system_description" extra="true" lang="de">
+<text>Dieser von Texas Instruments hergestellte Computer weist einige Ähnlichkeiten mit dem Konzept der Videospielkonsole auf. Er kann über einen Scart-Anschluss an einen Fernseher angeschlossen werden, kann Spielkassetten abspielen und hat einen Anschluss für zwei Joysticks. Er kann auch Audiokassetten verwenden.</text>
+</text>
 
-La serie de microordenadores TI-99/4 a la que pertenecía la TI-99/4A fue la primera serie de ordenadores personales de 16 bits.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Fabricado por Texas Instruments, este ordenador tiene algunas similitudes con el concepto de consola de videojuegos. Puede conectarse a un televisor a través de una toma SCART, puede leer cartuchos y tiene un conector para dos mandos de juego. También puede utilizar casetes de audio.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>Prodotto da Texas Instruments, questo computer presenta alcune analogie con il concetto di console per videogiochi. Può essere collegato a un televisore tramite una presa SCART, può leggere cartucce e dispone di un connettore per due controller di gioco. Può anche utilizzare cassette audio.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>テキサス・インスツルメンツ社が製造したこのコンピュータは、ビデオゲーム機のコンセプトと似ているところがある。SCARTソケットでテレビに接続でき、カートリッジを読み込むことができ、2つのゲームコントローラー用のコネクタを備えています。また、オーディオカセットも使用可能です。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Deze computer, geproduceerd door Texas Instruments, vertoont enige overeenkomsten met het concept van een videospelconsole. Hij kan worden aangesloten op een televisie via een SCART-aansluiting, kan cassettes lezen en heeft een aansluiting voor twee spelcontrollers. Hij kan ook audiocassettes gebruiken.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Wyprodukowany przez Texas Instruments, komputer ten ma pewne podobieństwa do koncepcji konsoli do gier wideo. Może być podłączony do telewizora przez gniazdo SCART, może czytać kasety i ma złącze dla dwóch kontrolerów gier. Może również korzystać z kaset audio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Produzido pela Texas Instruments, este computador tem algumas semelhanças com o conceito de uma consola de videojogo. Pode ser ligado a um aparelho de televisão através de uma tomada SCART, pode ler cartuchos e tem um conector para dois controladores de jogos. Pode também utilizar cassetes áudio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Произведенный компанией Texas Instruments, этот компьютер имеет некоторое сходство с концепцией игровой приставки. Он может быть подключен к телевизору через разъем SCART, может считывать картриджи и имеет разъем для двух джойстиков. Он также может использовать аудиокассеты.</text>
+</text>
+
+</view>
 </theme>

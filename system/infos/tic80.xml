@@ -4,41 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text> TIC-80 is a fantasy computer for making, playing and sharing tiny games.
+<text name="system_description" extra="true">
+<text>Inspired by the Pico-8, the TIC-80 is a fantasy console under a free license (there is also a paid version with more options). It works with Android, HTML5 (in WebAssembly4), Linux, macOS and Windows platforms.</text>
+</text>
 
-There are built-in tools for development: code, sprites, maps, sound editors and the command line, which is enough to create a mini retro game. At the exit you will get a cartridge file, which can be stored and played on the website. </text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>TIC-80 es una computadora imaginaria para crear, jugar y compartir juegos pequeños.
+<text name="system_description" extra="true" lang="fr">
+<text>Inspirée du Pico-8, le TIC-80 est une fantasy console sous licence libre (il existe également une version payante avec plus d'options), . Elle fonctionne avec les plateformes Android, HTML5 (en WebAssembly4), Linux, macOS et Windows.</text>
+</text>
 
-Hay herramientas integradas para el desarrollo: código, sprites, mapas, editores de sonido y línea de comandos, suficiente para crear un mini juego retro. Al finalizar, obtendrá un archivo de cartucho, que se puede almacenar y reproducir en el sitio web.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text>TIC-80 est une fantasy console sous licence libre, inspirée de Pico-8</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die TIC-80 ist eine Fantasy-Konsole unter einer freien Lizenz (es gibt auch eine kostenpflichtige Version mit mehr Optionen), die vom Pico-8 inspiriert wurde. Sie funktioniert mit den Plattformen Android, HTML5 (in WebAssembly4), Linux, macOS und Windows.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text>TIC-80 é um computador de fantasia para criar, jogar e compartilhar pequenos jogos.
+<text name="system_description" extra="true" lang="es">
+<text>Inspirada en el Pico-8, la TIC-80 es una consola de fantasía de código abierto (también hay una versión de pago con más opciones). Funciona con plataformas Android, HTML5 (en WebAssembly4), Linux, macOS y Windows.</text>
+</text>
 
-Existem ferramentas integradas para desenvolvimento: código, sprites, mapas, editores de som e linha de comando, o suficiente para criar um minijogo retrô. Após a conclusão, você receberá um arquivo de cartucho, que pode ser armazenado e reproduzido no site.</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Ispirato al Pico-8, il TIC-80 è una console fantasy open source (esiste anche una versione a pagamento con più opzioni). Funziona con le piattaforme Android, HTML5 (in WebAssembly4), Linux, macOS e Windows.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="it">
-				<text>TIC-80 è un computer fantasy per creare, giocare e condividere piccoli giochi.
+<text name="system_description" extra="true" lang="ja">
+<text>Pico-8にインスパイアされたTIC-80は、オープンソースのファンタジーコンソールです（より多くのオプションを備えた有料版もあります）。Android、HTML5（WebAssembly4で）、Linux、macOS、Windowsプラットフォームで動作します。</text>
+</text>
 
-Ci sono strumenti integrati per lo sviluppo: codice, sprite, mappe, editor di suoni e riga di comando, sufficienti per creare un mini gioco retrò. Al termine, otterrai un file della cartuccia, che può essere memorizzato e riprodotto sul sito web.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="nl">
+<text>Geïnspireerd door de Pico-8 is de TIC-80 een open source fantasieconsole (er is ook een betaalde versie met meer opties). Het werkt met Android, HTML5 (in WebAssembly4), Linux, macOS en Windows platforms.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>Zainspirowany przez Pico-8, TIC-80 jest konsolą fantasy o otwartym kodzie źródłowym (istnieje również wersja płatna z większą ilością opcji). Działa z platformami Android, HTML5 (w WebAssembly4), Linux, macOS i Windows.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Inspirado no Pico-8, o TIC-80 é uma consola de fantasia de código aberto (há também uma versão paga com mais opções). Funciona com Android, HTML5 (em WebAssembly4), Linux, macOS e plataformas Windows.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Вдохновленная Pico-8, TIC-80 - это фантазийная консоль с открытым исходным кодом (есть также платная версия с более широкими возможностями). Она работает на платформах Android, HTML5 (на WebAssembly4), Linux, macOS и Windows.</text>
+</text>
+
+</view>
 </theme>

@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Triforce is an arcade system developed jointly by Nintendo, Sega and Namco and first introduced in 2002. The name Triforce refers to Nintendo's The Legend of Zelda series and also symbolizes the alliance of these three companies involved in the project. The system is based on the architecture of the Nintendo GameCube.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le Triforce est un système d'arcade développé conjointement par Nintendo, Sega et Namco et présenté pour la première fois en 2002. Le nom Triforce fait référence à la série The Legend of Zelda de Nintendo et symbolise également l'alliance de ces trois compagnies impliquées dans le projet. Le système est basé sur l'architecture de la Nintendo GameCube.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Das Triforce ist ein Arcade-System, das gemeinsam von Nintendo, Sega und Namco entwickelt und 2002 erstmals vorgestellt wurde. Der Name Triforce bezieht sich auf Nintendos The Legend of Zelda-Serie und symbolisiert auch die Allianz dieser drei an dem Projekt beteiligten Unternehmen. Das System basiert auf der Architektur des Nintendo GameCube.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Triforce es una consola arcade desarrollada conjuntamente por Nintendo, Sega y Namco y presentada por primera vez en 2002. El nombre Triforce hace referencia a la serie The Legend of Zelda de Nintendo y también simboliza la alianza de las tres compañías implicadas en el proyecto. La consola se basa en la arquitectura de la Nintendo GameCube.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Triforce è una console arcade sviluppata congiuntamente da Nintendo, Sega e Namco e presentata per la prima volta nel 2002. Il nome Triforce si riferisce alla serie The Legend of Zelda di Nintendo e simboleggia anche l'alleanza delle tre aziende coinvolte nel progetto. La console è basata sull'architettura del Nintendo GameCube.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>トライフォースは、任天堂、セガ、ナムコが共同開発し、2002年に発売されたアーケードシステムです。トライフォースという名前は、任天堂の『ゼルダの伝説』シリーズを意味し、またプロジェクトに関わった3社の同盟を象徴している。このシステムは、ニンテンドーゲームキューブのアーキテクチャをベースにしています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Triforce is een arcadesysteem dat gezamenlijk is ontwikkeld door Nintendo, Sega en Namco en in 2002 voor het eerst werd geïntroduceerd. De naam Triforce verwijst naar Nintendo's The Legend of Zelda-serie en symboliseert tevens de alliantie van de drie bij het project betrokken bedrijven. Het systeem is gebaseerd op de architectuur van de Nintendo GameCube.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Triforce to system zręcznościowy opracowany wspólnie przez Nintendo, Sega i Namco i po raz pierwszy zaprezentowany w 2002 roku. Nazwa Triforce nawiązuje do serii The Legend of Zelda firmy Nintendo, a także symbolizuje sojusz trzech firm zaangażowanych w projekt. System oparty jest na architekturze Nintendo GameCube.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Triforce é um sistema arcade desenvolvido conjuntamente pela Nintendo, Sega e Namco e introduzido pela primeira vez em 2002. O nome Triforce refere-se à série The Legend of Zelda da Nintendo e também simboliza a aliança das três empresas envolvidas no projecto. O sistema é baseado na arquitectura da Nintendo GameCube.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Triforce - это аркадная система, разработанная совместно Nintendo, Sega и Namco и впервые представленная в 2002 году. Название Triforce отсылает к серии игр The Legend of Zelda от Nintendo, а также символизирует союз трех компаний, участвовавших в проекте. Система основана на архитектуре Nintendo GameCube.</text>
+</text>
+
+</view>
 </theme>

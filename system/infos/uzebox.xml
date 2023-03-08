@@ -4,24 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>The Uzebox is a retro-minimalist 8-bit open source game console. It is based on an AVR 8-bit general purpose microcontroller made by Atmel. </text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>Uzebox es una videoconsola libre de diseño retro. Se basa en el microcontrolador AVR de 8 bits de Atmel.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text>La Uzebox est une console de jeux vidéo open source, aux graphismes rétro minimalistes. Elle est basée sur un microcontrôleur AVR 8-bit, fabriqué par la société Atmel. La particularité du système est l'utilisation d'un noyau conduit interrompu, et qu'il n'a pas de framebuffer. Les jeux sont développables en C.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true">
+<text>The Uzebox is an open source video game console with minimalist retro graphics. It is based on an 8-bit AVR microcontroller, manufactured by the company Atmel. The particularity of the system is the use of an interrupted conducted core, and that it has no framebuffer. The games can be developed in C. </text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="fr">
+<text>La Uzebox est une console de jeu vidéo open source aux graphismes rétro minimalistes. Elle est basée sur un microcontrôleur AVR 8-bit, fabriqué par la société Atmel. La particularité du système est l'utilisation d'un noyau conduit interrompu, et qu'il n'a pas de framebuffer. Les jeux sont développables en C. </text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die Uzebox ist eine Open-Source-Videospielkonsole mit minimalistischer Retro-Grafik. Sie basiert auf einem 8-Bit AVR-Mikrocontroller, der von der Firma Atmel hergestellt wird. Die Besonderheit des Systems ist die Verwendung eines unterbrochenen Conduit-Kernels und dass es keinen Framebuffer hat. Die Spiele sind in C entwickelbar. </text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La Uzebox es una videoconsola de código abierto con gráficos retro minimalistas. Se basa en un microcontrolador AVR de 8 bits, fabricado por la empresa Atmel. La particularidad del sistema es el uso de un núcleo conducido interrumpido, y que no tiene framebuffer. Los juegos pueden desarrollarse en C. </text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Uzebox è una console per videogiochi open source con una grafica retrò minimalista. È basata su un microcontrollore AVR a 8 bit, prodotto dalla società Atmel. La particolarità del sistema è l'uso di un core a conduzione interrotta e l'assenza di framebuffer. I giochi possono essere sviluppati in C. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Uzeboxは、最小限のレトロなグラフィックを持つオープンソースのビデオゲーム機です。Atmel社製の8ビットAVRマイクロコントローラをベースにしています。このシステムの特徴は、割り込み伝導コアを使用していることと、フレームバッファがないことです。ゲームはC言語で開発することができます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Uzebox is een open source videospelconsole met minimalistische retro graphics. Hij is gebaseerd op een 8-bit AVR microcontroller, vervaardigd door het bedrijf Atmel. De bijzonderheid van het systeem is het gebruik van een onderbroken geleide kern, en dat het geen framebuffer heeft. De spellen kunnen worden ontwikkeld in C. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Uzebox to opensource'owa konsola do gier wideo z minimalistyczną grafiką retro. Oparta jest na 8-bitowym mikrokontrolerze AVR, wyprodukowanym przez firmę Atmel. Specyfiką układu jest użycie przerwanego rdzenia przewodzącego oraz to, że nie posiada on framebuffera. Gry mogą być tworzone w języku C. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Uzebox é uma consola de videojogos de código aberto com gráficos retro minimalistas. Baseia-se num microcontrolador AVR de 8 bits, fabricado pela empresa Atmel. A particularidade do sistema é a utilização de um núcleo conduzido interrompido, e que não tem tampão de fotogramas. Os jogos podem ser desenvolvidos em C. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Uzebox - это игровая консоль с открытым исходным кодом и минималистичной ретро-графикой. Она основана на 8-битном микроконтроллере AVR, производимом компанией Atmel. Особенностью системы является использование ядра с прерыванием и отсутствие фреймбуфера. Игры могут быть разработаны на языке C. </text>
+</text>
+
+</view>
 </theme>

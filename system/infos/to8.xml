@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Thomson TO8 is a home computer introduced by the French company Thomson SA. It replaces its predecessor, the Thomson TO7/70, while remaining fully compatible. It comes with more RAM and better graphic modes than its predecessor.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The Thomson TO8 is a home computer introduced by French company Thomson SA in 1986. It replaces its predecessor, the Thomson TO7/70 while remaining essentially fully compatible.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Thomson TO8 es una computadora domestica introducida por la compañía francesa Thomson SA en 1986. Sustituye a su predecesora, la Thomson TO7 / 70, y sigue siendo esencialmente totalmente compatible.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Thomson TO8 est un ordinateur créé par la SIMIV ; commercialisé en France en septembre 1986, il remplace le Thomson TO7/70 avec lequel il reste essentiellement compatible. En 1986, le Thomson TO8 seul était vendu 2990 FF.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Thomson TO8 est un ordinateur domestique introduit par la société française Thomson SA. Il remplace son prédécesseur, le Thomson TO7/70, tout en restant entièrement compatible. Il arrive avec plus de mémoire vive et de meilleurs modes graphiques que son prédécesseur.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Thomson TO8 é um computador caseiro produzido pela empresa francesa Thomson SA em 1986. Substituiu seu antecessor, o Thomson TO7/70 enquanto continuou totalmente compatível.</text>
-		</text>
-		
-						
+<text name="system_description" extra="true" lang="de">
+<text>Der Thomson TO8 ist ein Heimcomputer, der von der französischen Firma Thomson SA eingeführt wurde. Er ersetzt seinen Vorgänger, den Thomson TO7/70, ist aber weiterhin voll kompatibel. Er kommt mit mehr RAM und besseren Grafikmodi als sein Vorgänger.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El Thomson TO8 es un ordenador doméstico presentado por la empresa francesa Thomson SA. Sustituye a su predecesor, el Thomson TO7/70, aunque sigue siendo totalmente compatible. Viene con más RAM y mejores modos gráficos que su predecesor.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>Il Thomson TO8 è un home computer introdotto dall'azienda francese Thomson SA. Sostituisce il suo predecessore, il Thomson TO7/70, pur rimanendo pienamente compatibile. È dotato di una maggiore quantità di RAM e di migliori modalità grafiche rispetto al suo predecessore.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Thomson TO8は、フランスのThomson SA社が発売した家庭用コンピュータです。前身であるThomson TO7/70を完全に互換性を保ちながら置き換えたものです。前任者よりも多くのRAMと優れたグラフィックモードが搭載されています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Thomson TO8 is een door de Franse onderneming Thomson SA geïntroduceerde homecomputer. Hij vervangt zijn voorganger, de Thomson TO7/70, maar blijft volledig compatibel. Hij heeft meer RAM en betere grafische mogelijkheden dan zijn voorganger.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Thomson TO8 to komputer domowy wprowadzony na rynek przez francuską firmę Thomson SA. Zastępuje on swojego poprzednika, Thomson TO7/70, zachowując pełną kompatybilność. Wyposażony jest w większą ilość pamięci RAM oraz lepsze tryby graficzne niż jego poprzednik.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O TO8 da Thomson é um computador doméstico introduzido pela empresa francesa Thomson SA. Substitui a sua antecessora, a Thomson TO7/70, mantendo-se ao mesmo tempo totalmente compatível. Vem com mais RAM e melhores modos gráficos do que a sua antecessora.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Thomson TO8 - это домашний компьютер, представленный французской компанией Thomson SA. Он пришел на смену своему предшественнику Thomson TO7/70, сохранив при этом полную совместимость. Он оснащен большим объемом оперативной памяти и лучшими графическими режимами, чем его предшественник.</text>
+</text>
+
+</view>
 </theme>

@@ -4,28 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The WASM-4 allows developing game cartridges (ROMs) that can be built with any programming language that compiles to WebAssembly. The size limit of the cartridge and the memory is 64 KB, while the screen is a 160x160 pixel square with 4 customizable colors.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>WASM-4 allows developing game cartridges (ROMs) that can be built with any programming language that compiles to WebAssembly. The size limit of the cartridge and the memory is 64 KB, while the screen is a 160x160 pixel square with 4 customizable colors.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>WASM-4 permite desarrollar cartuchos de juego (ROMs) que pueden construirse con cualquier lenguaje de programación que compile a WebAssembly. El límite de tamaño del cartucho y la memoria es de 64 KB, mientras que la pantalla es un cuadrado de 160x160 píxeles con 4 colores personalizables.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>WASM-4 permet de développer des cartouches de jeu (ROMs) qui peuvent être construits avec n'importe quel langage de programmation qui compile vers WebAssembly. La taille limite de la cartouche et de la mémoire sont de 64 Ko, l'écran quant à lui est un carré de 160x160 pixels avec 4 couleurs personnalisables.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le WASM-4 permet de développer des cartouches de jeu (ROMs) qui peuvent être construits avec n'importe quel langage de programmation qui compile vers WebAssembly. La taille limite de la cartouche et de la mémoire sont de 64 Ko, l'écran quant à lui est un carré de 160x160 pixels avec 4 couleurs personnalisables.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>WASM-4 permite desenvolver cartuchos de jogo (ROMs) que podem ser construídos com qualquer linguagem de programação que se compila para WebAssembly. O limite de tamanho do cartucho e da memória é de 64 KB, enquanto que o ecrã é um quadrado de 160x160 pixels com 4 cores personalizáveis.</text>
-		</text>
-		
-				
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Das WASM-4 ermöglicht die Entwicklung von Spielkassetten (ROMs), die mit jeder Programmiersprache, die nach WebAssembly kompiliert werden kann, erstellt werden können. Der Bildschirm ist ein Quadrat mit 160x160 Pixeln und vier anpassbaren Farben.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El WASM-4 permite desarrollar cartuchos de juego (ROMs) que pueden construirse con cualquier lenguaje de programación que compile a WebAssembly. El límite de tamaño del cartucho y de la memoria es de 64 KB, mientras que la pantalla es un cuadrado de 160x160 píxeles con 4 colores personalizables.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il WASM-4 permette di sviluppare cartucce di gioco (ROM) che possono essere costruite con qualsiasi linguaggio di programmazione che compili in WebAssembly. Il limite di dimensione della cartuccia e della memoria è di 64 KB, mentre lo schermo è un quadrato di 160x160 pixel con 4 colori personalizzabili.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>WASM-4は、WebAssemblyにコンパイルできる任意のプログラミング言語で構築できるゲームカートリッジ（ROM）の開発が可能です。カートリッジとメモリのサイズ制限は64KBで、画面は160x160ピクセルの正方形で、4色のカスタマイズが可能です。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Met de WASM-4 kunnen spelcassettes (ROM's) worden ontwikkeld die kunnen worden gebouwd met elke programmeertaal die compileert naar WebAssembly. De grootte van de cartridge en het geheugen is beperkt tot 64 KB, terwijl het scherm een vierkant van 160x160 pixels is met 4 aanpasbare kleuren.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>WASM-4 umożliwia tworzenie kartridży z grami (ROM), które można budować za pomocą dowolnego języka programowania kompilowanego do WebAssembly. Limit wielkości kartridża i pamięci wynosi 64 KB, natomiast ekran to kwadrat 160x160 pikseli z 4 konfigurowalnymi kolorami.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O WASM-4 permite desenvolver cartuchos de jogo (ROMs) que podem ser construídos com qualquer linguagem de programação que se compila para WebAssembly. O limite de tamanho do cartucho e da memória é de 64 KB, enquanto que o ecrã é um quadrado de 160x160 pixels com 4 cores personalizáveis.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>WASM-4 позволяет разрабатывать игровые картриджи (ПЗУ), которые могут быть созданы с помощью любого языка программирования, компилируемого в WebAssembly. Размер картриджа и памяти ограничен 64 КБ, а экран представляет собой квадрат 160x160 пикселей с 4 настраиваемыми цветами.</text>
+</text>
+
+</view>
 </theme>

@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Vectrex was originally conceived as a mini arcade machine, but it differs in that it is a stand-alone device with its own monitor that displays vector graphics. Although the screen is monochrome, all the games are supplied with a colored cellulose acetate filter that had to be slid in front of the screen.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The Vectrex is a vector display-based home video game console that was developed by Western Technologies/Smith Engineering. It was licensed and distributed first by General Consumer Electronics (GCE).</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Es una consola con pantalla integrada, blanco y negro. Una de sus innovaciones, además de tener la pantalla incluida, son los gráficos basados en vectores, en vez de los indefinidos gráficos a pixeles.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Vectrex est une console de jeux vidéo 8 bits développée par Smith Engineering et distribuée par General Consumer Electric, et plus tard par MB (Milton Bradley Company) après le rachat de GCE.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Vectrex pensé dès l'origine comme une mini borne d'arcade s'en distingue dans la mesure où il s'agit d'un appareil autonome disposant de son propre moniteur qui affiche des graphismes vectoriels. Bien que l'écran soit monochrome, tous les jeux sont fournis avec un filtre en acétate de cellulose coloré qui devait être glissé devant l'écran.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Vectrex, que usava o processador Motorola MC68A09, era o único videogame que empregava e apresentava gráficos vetoriais em seu monitor pré-integrado ao console, ao qual era possível conectar até dois controladores.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der Vectrex, der ursprünglich als Mini-Arcade gedacht war, unterscheidet sich von diesem insofern, als es sich um ein eigenständiges Gerät mit einem eigenen Monitor handelt, der Vektorgrafiken anzeigt. Obwohl der Bildschirm einfarbig war, wurden alle Spiele mit einem farbigen Celluloseacetatfilter geliefert, der vor den Bildschirm geschoben werden musste.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Vectrex, concebida originalmente como una mini máquina recreativa, difiere en que es un dispositivo autónomo con su propio monitor que muestra gráficos vectoriales. Aunque la pantalla era monocroma, todos los juegos se suministraban con un filtro de acetato de celulosa coloreado que había que deslizar delante de la pantalla.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Vectrex, originariamente concepito come una mini macchina arcade, si differenzia per essere un dispositivo autonomo con un proprio monitor che visualizza grafica vettoriale. Sebbene lo schermo fosse monocromatico, tutti i giochi venivano forniti con un filtro colorato in acetato di cellulosa che doveva essere fatto scorrere davanti allo schermo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ベクトレックスは、もともとミニアーケード機として考案されたもので、ベクターグラフィックスを表示する独自のモニターを持つ独立した機器である点が異なっている。画面はモノクロだが、すべてのゲームには色付きの酢酸セルロースフィルターが付属しており、画面の前にスライドさせる必要があった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Vectrex, oorspronkelijk ontworpen als een mini-arcademachine, verschilt in die zin dat het een zelfstandig apparaat is met een eigen monitor die vectorafbeeldingen weergeeft. Hoewel het scherm monochroom was, werden alle spelletjes geleverd met een gekleurd celluloseacetaatfilter dat voor het scherm moest worden geschoven.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Vectrex, pierwotnie pomyślany jako mini automat do gier, różni się tym, że jest samodzielnym urządzeniem z własnym monitorem wyświetlającym grafikę wektorową. Chociaż ekran był monochromatyczny, wszystkie gry były dostarczane z kolorowym filtrem z octanu celulozy, który należało wsunąć przed ekran.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Vectrex, originalmente concebido como uma mini máquina de arcada, difere no facto de ser um dispositivo autónomo com o seu próprio monitor a exibir gráficos vectoriais. Embora o ecrã fosse monocromático, todos os jogos eram fornecidos com um filtro de acetato de celulose colorido que tinha de ser deslizado para a frente do ecrã.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Vectrex, изначально задуманный как аркадный мини-автомат, отличается тем, что это автономное устройство с собственным монитором, на котором отображается векторная графика. Хотя экран был монохромным, все игры поставлялись с цветным фильтром из ацетата целлюлозы, который нужно было задвигать перед экраном.</text>
+</text>
+
+</view>
 </theme>
