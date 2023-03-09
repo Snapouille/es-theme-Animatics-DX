@@ -324,6 +324,17 @@ originally based on: "carbon"
 		</text>
 		
 		
+		<!-- Placement des stats détaillés avec la HelpPrompts -->
+		<text name="systemInfoEx" ifSubset="InfoCustomView:detailed" ifHelpPrompts="true" extra="true">
+			<storyboard>
+				<animation property="offsetY" to="0.005"/>
+				<animation property="opacity" to="0"/>
+				<animation property="opacity" from="0" to="1" begin="300" duration="1300" mode="linear"/>
+			</storyboard>
+		</text>
+		
+		
+		
 	
 	</view>
 	
@@ -414,7 +425,7 @@ originally based on: "carbon"
 		</text>
 	
 	
-		<!-- Animation de la bar jaune + stats détaillés -->
+		<!-- Animation de la bar jaune + stats détaillés avec la HelpPrompts masquer -->
 		<image name="YellowBarDesc" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false"  extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.0510417 0.312963</size>
@@ -438,6 +449,21 @@ originally based on: "carbon"
 				<animation property="opacity" from="0" to="1" begin="700" duration="300" mode="Linear"/>
 			</storyboard>
 		</text>
+		
+		
+		
+		<!-- Placement des stats détaillés avec la HelpPrompts -->
+		<text name="systemInfoEx" ifSubset="InfoCustomView:detailed" ifHelpPrompts="true" extra="true">
+			<storyboard>
+				<animation property="offsetX" to="0.03"/>
+				<animation property="offsetY" to="0.045"/>
+				<animation property="opacity" to="0"/>
+				<animation property="opacity" from="0" to="1" begin="300" duration="1300" mode="linear"/>
+			</storyboard>
+		</text>
+		
+		
+		
 	
 	
 	</view>
