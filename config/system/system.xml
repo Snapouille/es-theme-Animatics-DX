@@ -297,6 +297,33 @@ originally based on: "carbon"
 			</storyboard>	
 
 		</text>
+		
+		<!-- Animation de la bar jaune + stats détaillés -->
+		<image name="YellowBarDesc" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false"  extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0510417 0.312963</size>
+			<pos>0.0885417 0.575</pos>
+			<path>./../../art/divers/YellowBarDesc.png</path>
+			<zIndex>10</zIndex>
+			<opacity>0</opacity>
+			
+			<storyboard>
+				<animation property="opacity" from="0" to="1" begin="300" duration="100" mode="Linear"/>
+				<animation property="offsetY" to="0.25" begin="300" duration="700" mode="easeInOut"/>
+			</storyboard>
+			
+		</image>
+	
+		<text name="systemInfoEx" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false" extra="true">
+			<storyboard>
+				<animation property="offsetX" to="0.005"/>
+				<animation property="offsetY" to="-0.02"/>
+				<animation property="opacity" to="0"/>
+				<animation property="opacity" from="0" to="1" begin="700" duration="300" mode="Linear"/>
+			</storyboard>
+		</text>
+		
+		
 	
 	</view>
 	
@@ -379,12 +406,39 @@ originally based on: "carbon"
 	
 		<text name="system_description" ifSubset="system-description:Show">
 			<visible>true</visible>
-			<pos>0.055 0.73</pos>
+			<pos>0.071 0.73</pos>
 			<alignment>left</alignment>
 			<size>0.5 0.2</size>
 			<color>FFFF00</color>
 			<autoScroll>vertical</autoScroll>
 		</text>
+	
+	
+		<!-- Animation de la bar jaune + stats détaillés -->
+		<image name="YellowBarDesc" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false"  extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0510417 0.312963</size>
+			<pos>0.0885417 0.575</pos>
+			<path>./../../art/divers/YellowBarDesc.png</path>
+			<zIndex>10</zIndex>
+			<opacity>0</opacity>
+			
+			<storyboard>
+				<animation property="opacity" from="0" to="1" begin="300" duration="100" mode="Linear"/>
+				<animation property="offsetY" to="0.25" begin="300" duration="700" mode="easeInOut"/>
+			</storyboard>
+			
+		</image>
+	
+		<text name="systemInfoEx" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false" extra="true">
+			<storyboard>
+				<animation property="offsetX" to="0.05"/>
+				<animation property="offsetY" to="-0.005"/>
+				<animation property="opacity" to="0"/>
+				<animation property="opacity" from="0" to="1" begin="700" duration="300" mode="Linear"/>
+			</storyboard>
+		</text>
+	
 	
 	</view>
 	

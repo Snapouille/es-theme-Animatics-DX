@@ -36,7 +36,22 @@
 		</text>
 		
 		<text name="system_description" ifSubset="system-description:Show">
-			<pos>0.055 0.763</pos>
+			<!-- <pos>0.071 0.513</pos> -->
+			<pos>0.071 -0.487</pos>
+			<color>FFFFFF00</color>
+			<opacity>0</opacity>
+			<zIndex>10</zIndex>
+			
+			<storyboard>
+				<animation property="offsetY" to="1" begin="100" duration="100" mode="linear"/>
+
+				<animation property="opacity" from="0" to="1" begin="310" duration="10" mode="Linear"/>
+				<animation property="color" to="FFFF00" begin="300" duration="10" mode="Linear"/>	
+				<animation property="offsetY" to="1.25" begin="300" duration="700" mode="easeInOut"/>
+							
+				<animation property="zIndex" to="30000" begin="800"/>
+			</storyboard>
+			
 		</text>
 		
 		

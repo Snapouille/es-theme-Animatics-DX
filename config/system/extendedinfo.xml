@@ -28,9 +28,6 @@ Favoritos : {binding:favorites}
 Jugados : {binding:gamesPlayed}
 El más jugado : {binding:mostPlayed}
 Última partida : {binding:lastPlayedDate}</text>
-        <!-- <alignment>left</alignment> -->
-        <!-- <alignment>center</alignment> -->
-        <!-- <verticalAlignment>center</verticalAlignment> -->
         <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
         <fontSize>0.024</fontSize>
         <pos>0.03 0.64</pos>
@@ -39,10 +36,11 @@ El más jugado : {binding:mostPlayed}
         <color>D0D0D0FF</color>
         <glowColor>000000A0</glowColor>
         <glowSize>1</glowSize>
-		
-		
-		
-		
       </text>
+	  
+	  
+	  
+	  
+	  
   </view>
 </theme>

@@ -13,5 +13,23 @@
                <glowSize>1</glowSize>
                <glowOffset>3 2</glowOffset>
           </text>
+		  
+		  
+		  
+		  <image name="YellowBarDesc" ifSubset="SystemView:simple" ifHelpPrompts="false" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0510417 0.312963</size>
+			<pos>0.0885417 0.575</pos>
+			<path>./../../art/divers/YellowBarDesc.png</path>
+			<zIndex>10</zIndex>
+			<opacity>0</opacity>
+			
+			<storyboard>
+				<animation property="opacity" from="0" to="1" begin="300" duration="100" mode="Linear"/>
+				<animation property="offsetY" to="0.25" begin="300" duration="700" mode="easeInOut"/>
+			</storyboard>
+			
+		</image>
+		  
      </view>
 </theme>
