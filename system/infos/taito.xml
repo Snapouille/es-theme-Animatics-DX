@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Taito Corporation is a Japanese company specializing in video games, toys, arcade terminals and game centers, based in Shinjuku, Tokyo. It began producing video games in 1973. In 2005, Taito was acquired by Square Enix and became a wholly-owned subsidiary in 2006.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Taito Corporation est une entreprise japonaise spécialisée dans les jeux vidéo, les jouets, les bornes d'arcade et les centres de jeux, basée à Shinjuku, Tokyo. Elle a commencé à produire des jeux vidéo en 1973. En 2005, Taito a été rachetée par Square Enix, dont elle est devenue une filiale à part entière en 2006.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Die Taito Corporation ist ein japanisches Unternehmen mit Sitz in Shinjuku, Tokio, das sich auf Videospiele, Spielzeug, Arcade-Terminals und Spielzentren spezialisiert hat. Sie begann 1973 mit der Produktion von Videospielen. Im Jahr 2005 wurde Taito von Square Enix aufgekauft und ist seit 2006 eine hundertprozentige Tochtergesellschaft des Unternehmens.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Taito Corporation es una empresa japonesa especializada en videojuegos, juguetes, terminales arcade y centros de juego, con sede en Shinjuku, Tokio. Comenzó a producir videojuegos en 1973. En 2005, Taito fue adquirida por Square Enix y se convirtió en una filial al 100% en 2006.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Taito Corporation è un'azienda giapponese specializzata in videogiochi, giocattoli, terminali arcade e centri di gioco, con sede a Shinjuku, Tokyo. Ha iniziato a produrre videogiochi nel 1973. Nel 2005 Taito è stata acquisita da Square Enix e nel 2006 è diventata una società interamente controllata.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社タイトーは、東京都新宿区に本社を置く、ビデオゲーム、玩具、アーケード端末、ゲームセンターを専門に扱う日本の企業です。1973年にビデオゲームの生産を開始した。2005年、タイトーはスクウェア・エニックスに買収され、2006年に完全子会社となった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Taito Corporation is een Japanse onderneming die gespecialiseerd is in videospelletjes, speelgoed, arcade-terminals en spelcentra, gevestigd in Shinjuku, Tokio. Het begon videospelletjes te produceren in 1973. In 2005 werd Taito overgenomen door Square Enix en in 2006 werd het een volledige dochteronderneming.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Taito Corporation to japońska firma specjalizująca się w grach wideo, zabawkach, terminalach arcade i centrach gier, z siedzibą w Shinjuku w Tokio. Rozpoczęła produkcję gier wideo w 1973 roku. W 2005 roku Taito zostało przejęte przez Square Enix, a w 2006 roku stało się spółką zależną w całości.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Taito Corporation é uma empresa japonesa especializada em jogos de vídeo, brinquedos, terminais de jogos e centros de jogos, sediada em Shinjuku, Tóquio. Começou a produzir jogos de vídeo em 1973. Em 2005, a Taito foi adquirida pela Square Enix e tornou-se uma subsidiária totalmente detida em 2006.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Taito Corporation - японская компания, специализирующаяся на производстве видеоигр, игрушек, аркадных терминалов и игровых центров, расположенная в Синдзюку, Токио. Она начала выпускать видеоигры в 1973 году. В 2005 году Taito была приобретена компанией Square Enix, а в 2006 году стала ее дочерней компанией.</text>
+</text>
+
+</view>
 </theme>

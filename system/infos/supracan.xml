@@ -1,22 +1,53 @@
-﻿<!--
+<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Super A'Can is a video game console released exclusively in Taiwan. Even if, at first sight, the Super A'Can seems to be a clone of the American version of the Super Nintendo, it is equipped with a Motorola 68000 processor like the Mega Drive and the Neo-Geo. There are only 12 games compatible with the console.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Super A'can is a home video game console released exclusively in Taiwan in 1995 by Funtech/Dunhuang Technology. It is based around the Motorola 68000 microchip, which is also used in the Sega Genesis and Neo Geo. Twelve games have been confirmed to exist for the system. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Super A'Can est une console de jeux vidéo sortie exclusivement à Taïwan. Même si, à première vue, la Super A'Can semble être un clone de la version américaine de la Super Nintendo, elle est dotée d'un processeur Motorola 68000 comme la Mega Drive et la Neo-Geo. Il existe seulement 12 jeux compatibles avec la console.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>El Super A'can es una consola de sobremesa que fue lanzada exclusivamente en Taiwán, en 1995, por la empresa Funtech. En el interior posee un Motorola 68000, también utilizado en la Sega Génesis y Neo-Geo. Doce juegos fueron confirmados para el sistema. </text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die Super A'Can ist eine Videospielkonsole, die ausschließlich in Taiwan veröffentlicht wurde. Obwohl die Super A'Can auf den ersten Blick wie ein Klon der amerikanischen Version des Super Nintendo aussieht, ist sie wie das Mega Drive und das Neo-Geo mit einem Motorola 68000-Prozessor ausgestattet. Es gibt nur 12 Spiele, die mit der Konsole kompatibel sind.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>La Super A'Can es una videoconsola lanzada exclusivamente en Taiwán. Aunque a primera vista la Super A'Can parece un clon de la versión americana de la Super Nintendo, está equipada con un procesador Motorola 68000 como la Mega Drive y la Neo-Geo. Sólo hay 12 juegos compatibles con la consola.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il Super A'Can è una console per videogiochi rilasciata esclusivamente a Taiwan. Sebbene a prima vista il Super A'Can sembri un clone della versione americana del Super Nintendo, è dotato di un processore Motorola 68000 come il Mega Drive e il Neo-Geo. La console è compatibile con soli 12 giochi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Super A'Canは、台湾で独占的に発売されたビデオゲーム機である。一見するとアメリカ版スーパーファミコンのクローンのように見えるが、メガドライブやネオジオのようにモトローラ68000プロセッサを搭載したスーパーアカンである。このゲーム機と互換性のあるゲームは12本しかない。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Super A'Can is een uitsluitend in Taiwan uitgebrachte spelcomputer. Hoewel de Super A'Can op het eerste gezicht een kloon lijkt van de Amerikaanse versie van de Super Nintendo, is hij uitgerust met een Motorola 68000-processor zoals de Mega Drive en de Neo-Geo. Er zijn slechts 12 spellen compatibel met de console.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Super A'Can to konsola do gier wideo wydana wyłącznie na Tajwanie. Chociaż na pierwszy rzut oka Super A'Can wydaje się być klonem amerykańskiej wersji Super Nintendo, to jest wyposażona w procesor Motorola 68000, tak jak Mega Drive i Neo-Geo. Z konsolą kompatybilnych jest tylko 12 gier.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Super A'Can é uma consola de videojogos lançada exclusivamente em Taiwan. Embora à primeira vista o Super A'Can pareça ser um clone da versão americana do Super Nintendo, está equipado com um processador Motorola 68000 como o Mega Drive e o Neo-Geo. Existem apenas 12 jogos compatíveis com a consola.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Super A'Can - это игровая приставка, выпущенная исключительно на Тайване. Хотя на первый взгляд Super A'Can кажется клоном американской версии Super Nintendo, она оснащена процессором Motorola 68000, как Mega Drive и Neo-Geo. С консолью совместимы только 12 игр.</text>
+</text>
+
+</view>
 </theme>

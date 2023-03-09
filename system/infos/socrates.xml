@@ -1,25 +1,53 @@
-﻿<!--
+<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The VTech Socrates is an 8-bit educational video game console. It features a robot, Socrates, named after the philosopher. The character is visually similar to Johnny Five from the Short Circuit movies. The system features standard wireless controllers that communicate via infrared reception.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The VTech Socrates is an 8-bit educational home video game console manufactured and released in 1988 by VTech. The console features a robot character Socrates, named after the philosopher. The character is visually similar to Johnny Five from the Short Circuit movies. It was discontinued in the early 1990s.
+<text name="system_description" extra="true" lang="fr">
+<text>La VTech Socrates est une console de jeu vidéo éducative de 8 bits. Elle met en scène un robot, Socrate, nommé d'après le philosophe. Le personnage est visuellement similaire à Johnny Five des films Short Circuit. Le système comprend des manettes sans fil standard qui communiquent par réception infrarouge.</text>
+</text>
 
-The system features standard wireless controllers that communicated via infrared reception. </text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die VTech Socrates ist eine pädagogische 8-Bit-Videospielkonsole. Sie zeigt einen Roboter namens Sokrates, der nach dem Philosophen benannt ist. Die Figur ähnelt optisch Johnny Five aus den Short Circuit-Filmen. Das System umfasst standardmäßige kabellose Controller, die über Infrarotempfang kommunizieren.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>VTech Socrates es una consola de videojuegos educativa de tercera generación lanzada por VTech en 1988. La consola fue nombrada en honor del antiguo filósofo griego Sócrates.
+<text name="system_description" extra="true" lang="es">
+<text>La VTech Socrates es una videoconsola educativa de 8 bits. Presenta un robot, Sócrates, llamado así en honor al filósofo. El personaje es visualmente similar a Johnny Five de las películas de Cortocircuito. El sistema incluye mandos inalámbricos estándar que se comunican mediante recepción de infrarrojos.</text>
+</text>
 
-El sistema estaba acompañado por un teclado inalámbrico estándar con un haz infrarrojo y dos controladores conectados a los cables superiores, así como un ratón inalámbrico. </text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>VTech Socrates è una console per videogiochi educativi a 8 bit. Presenta un robot, Socrate, che prende il nome dal filosofo. Il personaggio è visivamente simile a Johnny Five dei film Short Circuit. Il sistema include controller wireless standard che comunicano tramite ricezione a infrarossi.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>VTech Socratesは、8ビット教育用ビデオゲーム機です。哲学者にちなんで名付けられたロボット、ソクラテスを搭載しています。このキャラクターは、映画「ショートサーキット」のジョニー・ファイブに視覚的に似ています。赤外線受信で通信する標準的なワイヤレスコントローラーが付属しています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De VTech Socrates is een 8-bit educatieve video game console. Het bevat een robot, Socrates, genoemd naar de filosoof. Het personage lijkt visueel op Johnny Five uit de Short Circuit films. Het systeem bevat standaard draadloze controllers die communiceren via infraroodontvangst.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>VTech Socrates to 8-bitowa edukacyjna konsola do gier wideo. Występuje na niej robot Sokrates, nazwany na cześć filozofa. Postać jest wizualnie podobna do Johnny'ego Five z filmów Short Circuit. System zawiera standardowe bezprzewodowe kontrolery, które komunikują się za pomocą odbioru podczerwieni.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A VTech Sócrates é uma consola de jogos de vídeo educativo de 8 bits. Apresenta um robô, Sócrates, com o nome do filósofo. A personagem é visualmente semelhante a Johnny Cinco dos filmes do Short Circuit. O sistema inclui controladores sem fios padrão que comunicam através de recepção de infravermelhos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>VTech Socrates - это 8-битная образовательная игровая приставка. В ней представлен робот Сократ, названный в честь философа. Персонаж визуально похож на Джонни Файва из фильма "Короткое замыкание". Система включает в себя стандартные беспроводные контроллеры, которые обмениваются данными посредством инфракрасного приема.</text>
+</text>
+
+</view>
 </theme>

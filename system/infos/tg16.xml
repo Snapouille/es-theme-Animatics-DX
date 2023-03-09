@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The TurboGrafx-16 is the name of the PC-Engine (PCエンジン) that was released in North America. The console line had a relatively confidential existence, as it had little or no distribution. Ahead of its time, it has an 8-bit central processor and a 16-bit graphics processor.</text>
+</text>
 
-		
-		<text name="system_description" extra="true">
-			<text>TurboGrafx-16 (PC Engine) is a home video game console jointly developed by Hudson Soft and NEC Home Electronics, released in Japan on October 30, 1987 and in the United States on August 29, 1989.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>PC Engine es una videoconsola que fue lanzada primeramente en Japón por NEC el 30 de octubre de 1987. El sistema fue lanzado en el mercado norteamericano a finales de agosto de 1989 con el nombre de TurboGrafx-16.</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="fr">
-			<text>PC-Engine (PCエンジン, Piishii Enjin?), connue sous le nom TurboGrafx-16 en Amérique du Nord, est une console de jeux vidéo 8 bits fabriquée par NEC Corporation et commercialisée à partir de 1987 au Japon.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La TurboGrafx-16 est le nom de la PC-Engine (PCエンジン) qui est sorti  en Amérique du Nord. La gamme de consoles a connu une existence relativement confidentielle, car peu ou pas distribuée. En avance sur son temps, elle possède un processeur central 8 bits et un processeur graphique 16 bits.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console de videogame lançado em 1987 pela NEC e Hudson Soft. Após seu lançamento no Japão e sua aceitação nesse país, foi lançado em 1988 nos Estados Unidos batizado de Turbo Grafx-16.</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="de">
+<text>TurboGrafx-16 ist der Name der PC-Engine (PCエンジン), die in Nordamerika veröffentlicht wurde. Die Konsolenreihe hatte ein relativ vertrauliches Dasein, da sie kaum oder gar nicht vertrieben wurde. Sie war ihrer Zeit weit voraus und verfügte über einen 8-Bit-Hauptprozessor und einen 16-Bit-Grafikprozessor.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>TurboGrafx-16 es el nombre de la PC-Engine (PCエンジン) que se lanzó en Norteamérica. La gama para consola ha tenido una existencia relativamente confidencial, ya que su distribución fue escasa o nula. Adelantada a su tiempo, tiene un procesador central de 8 bits y un procesador gráfico de 16 bits.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>TurboGrafx-16 è il nome del PC-Engine (PCエンジン) rilasciato in Nord America. La gamma di console ha avuto un profilo relativamente basso, con una distribuzione scarsa o nulla. In anticipo sui tempi, ha un processore centrale a 8 bit e un processore grafico a 16 bit.</text>
+</text>
 
+<text name="system_description" extra="true" lang="ja">
+<text>TurboGrafx-16は、北米で発売されたPC-Engine（PCエンジン）の名称である。このゲーム機シリーズは、流通がほとんどなかったため、比較的秘匿性の高い存在であった。時代に先駆けて、8ビットのセントラルプロセッサーと16ビットのグラフィックプロセッサーを搭載しています。</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>De TurboGrafx-16 is de naam van de PC-Engine (PCエンジン) die in Noord-Amerika werd uitgebracht. De console reeks heeft een relatief vertrouwelijk bestaan gehad, aangezien er weinig of geen distributie was. Hij was zijn tijd ver vooruit met een 8-bit centrale processor en een 16-bit grafische processor.</text>
+</text>
 
+<text name="system_description" extra="true" lang="pl">
+<text>TurboGrafx-16 to nazwa konsoli PC-Engine (PCエンジン), która została wydana w Ameryce Północnej. Zakres konsoli miał stosunkowo poufne istnienie, ponieważ było mało lub nie było dystrybucji. Wyprzedzając swoje czasy, posiada 8-bitowy procesor centralny i 16-bitowy procesor graficzny.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O TurboGrafx-16 é o nome do PC-Engine (PCエンジン) que foi lançado na América do Norte. A gama de consolas tem tido uma existência relativamente baixa, com pouca ou nenhuma distribuição. À frente do seu tempo, tem um processador central de 8 bits e um processador gráfico de 16 bits.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>TurboGrafx-16 - это название PC-Engine (PCエンジン), которая была выпущена в Северной Америке. Серия консолей имела относительно скромное существование, практически не распространяясь. Опережая свое время, она имела 8-битный центральный процессор и 16-битный графический процессор.</text>
+</text>
+
+</view>
 </theme>

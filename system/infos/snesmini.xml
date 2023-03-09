@@ -4,35 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Super NES Mini is a dedicated system that emulates the Super Nintendo video game system with twenty-one pre-installed games. It is distributed in three variants, featuring the unique design of the original systems marketed in Japan, North America and Europe respectively.</text>
+</text>
 
-	
-		
-				<text name="system_description" extra="true" >
-			<text>Is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America.</text>
-		</text>
-				
-				<text name="system_description" lang="es" >
-			<text>La Super Nintendo Entertainment System, conocida popularmente como la Super Nintendo en Europa, Super Famicom en Japón y también nombrada oficialmente de forma abreviada como la Super NES o SNES en América.
+<text name="system_description" extra="true" lang="fr">
+<text>La Super NES Mini est une console dédiée qui émule la console de jeux vidéo Super Nintendo avec vingt-et-un jeux préinstallés. Elle est distribuée en trois variantes, présentant la conception unique des systèmes originaux commercialisés respectivement au Japon, en Amérique du Nord et en Europe.</text>
+</text>
 
-Segunda videoconsola de sobremesa de Nintendo y la sucesora de Nintendo Entertainment System (NES) en América y Europa. Mantuvo una gran rivalidad en todo el mundo con la Sega Mega Drive (o Sega Genesis) durante la era de 16 bits.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Super Nintendo Entertainment System, ou Super Famicom (スーパーファミコン?) au Japon, est une console de jeux vidéo 16 bits du constructeur japonais Nintendo commercialisée à partir de août 1991.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das Super NES Mini ist ein spezielles System, das die Super Nintendo Videospielkonsole mit 21 vorinstallierten Spielen nachahmt. Sie wird in drei Varianten vertrieben, die das einzigartige Design der Originalsysteme aufweisen, die jeweils in Japan, Nordamerika und Europa vertrieben wurden.</text>
+</text>
 
-			<text name="system_description" extra="true" lang="pt">
-			<text>O SNES é o segundo home console da Nintendo. O console apresentou gráficos avançados e recursos de som em comparação com outros consoles na época. Considerado um dos melhores consoles da história.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La Super NES Mini es una consola dedicada que emula la consola de videojuegos Super Nintendo con veintiún juegos preinstalados. Se distribuye en tres variantes, con el diseño exclusivo de las consolas originales comercializadas en Japón, Norteamérica y Europa, respectivamente.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Il Super NES Mini è una console dedicata che emula la console per videogiochi Super Nintendo con ventuno giochi preinstallati. È distribuita in tre varianti, caratterizzate dal design unico delle console originali commercializzate rispettivamente in Giappone, Nord America ed Europa.</text>
+</text>
 
+<text name="system_description" extra="true" lang="ja">
+<text>スーパーファミコンミニは、スーパーファミコンのゲーム機を模した専用機で、21本のゲームがプリインストールされています。日本、北米、欧州で発売された当時のデザインを踏襲し、3種類のバリエーションで展開しています。</text>
+</text>
 
-		</view>
+<text name="system_description" extra="true" lang="nl">
+<text>De Super NES Mini is een speciale console die het Super Nintendo videospel systeem emuleert met eenentwintig voorgeïnstalleerde spellen. Hij wordt verdeeld in drie varianten, met het unieke ontwerp van de originele systemen die respectievelijk in Japan, Noord-Amerika en Europa op de markt werden gebracht.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Super NES Mini to dedykowana konsola emulująca system gier wideo Super Nintendo z dwudziestoma jeden preinstalowanymi grami. Jest dystrybuowana w trzech wariantach, charakteryzujących się unikalnym wyglądem oryginalnych systemów sprzedawanych odpowiednio w Japonii, Ameryce Północnej i Europie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Super NES Mini é uma consola dedicada que emula o sistema de videojogos Super Nintendo com vinte e um jogos pré-instalados. Está distribuído em três variantes, apresentando o design único dos sistemas originais comercializados no Japão, América do Norte e Europa, respectivamente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Super NES Mini - это специализированная консоль, эмулирующая видеоигровую систему Super Nintendo с двадцатью одной предустановленной игрой. Она выпускается в трех вариантах, отличающихся уникальным дизайном оригинальных систем, продаваемых в Японии, Северной Америке и Европе соответственно.</text>
+</text>
+
+</view>
 </theme>

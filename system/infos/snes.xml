@@ -4,34 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Super Nintendo Entertainment System (commonly abbreviated as Super NES, SNES, or Super Nintendo), or Super Famicom (スーパーファミコン) in Japan, is a 16-bit console from the Japanese manufacturer. In North America, the console was released with a decidedly different look.</text>
+</text>
 
-	
-		
-				<text name="system_description" extra="true" >
-			<text>Is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America.</text>
-		</text>
-				
-				<text name="system_description" lang="es" >
-			<text>La Super Nintendo Entertainment System, conocida popularmente como la Super Nintendo en Europa, Super Famicom en Japón y también nombrada oficialmente de forma abreviada como la Super NES o SNES en América.
+<text name="system_description" extra="true" lang="fr">
+<text>La Super Nintendo Entertainment System (couramment abrégée Super NES, SNES ou encore Super Nintendo), ou Super Famicom (スーパーファミコン) au Japon, est une console 16 bits du constructeur japonais. En Amérique du Nord, la console est sortie avec un look résolument différent.</text>
+</text>
 
-Segunda videoconsola de sobremesa de Nintendo y la sucesora de Nintendo Entertainment System (NES) en América y Europa. Mantuvo una gran rivalidad en todo el mundo con la Sega Mega Drive (o Sega Genesis) durante la era de 16 bits.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Super Nintendo Entertainment System, ou Super Famicom (スーパーファミコン?) au Japon, est une console de jeux vidéo 16 bits du constructeur japonais Nintendo commercialisée à partir de août 1991.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das Super Nintendo Entertainment System (üblicherweise abgekürzt als Super NES, SNES oder auch Super Nintendo), oder Super Famicom (スーパーファミコン) in Japan, ist eine 16-Bit-Konsole des japanischen Herstellers. In Nordamerika wurde die Konsole mit einem entschieden anderen Look veröffentlicht.</text>
+</text>
 
-			<text name="system_description" extra="true" lang="pt">
-			<text>O SNES é o segundo home console da Nintendo. O console apresentou gráficos avançados e recursos de som em comparação com outros consoles na época. Considerado um dos melhores consoles da história.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La Super Nintendo Entertainment System (comúnmente abreviada como Super NES, SNES o Super Nintendo), o Super Famicom (スーパーファミコン) en Japón, es una consola de 16 bits del fabricante japonés. En Norteamérica, la consola salió a la venta con un aspecto decididamente diferente.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Il Super Nintendo Entertainment System (comunemente abbreviato in Super NES, SNES o Super Nintendo), o Super Famicom (スーパーファミコン) in Giappone, è una console a 16 bit del produttore giapponese. In Nord America, la console è stata rilasciata con un look decisamente diverso.</text>
+</text>
 
-		</view>
+<text name="system_description" extra="true" lang="ja">
+<text>スーパーファミコン（Super Nintendo Entertainment System、通称スーパーNES、SNES、スーパーファミコン）、日本ではスーパーファミコン（Super Famicom）は、日本のメーカーによる16ビットゲーム機である。北米では、このゲーム機は明らかに異なる外観で発売されました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Het Super Nintendo Entertainment System (meestal afgekort als Super NES, SNES of Super Nintendo), of Super Famicom (スーパーファミコン) in Japan, is een 16-bit console van de Japanse fabrikant. In Noord-Amerika werd de console uitgebracht met een duidelijk ander uiterlijk.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Super Nintendo Entertainment System (potocznie skracany jako Super NES, SNES, lub Super Nintendo), lub Super Famicom (スーパーファミコン) w Japonii, to 16-bitowa konsola japońskiego producenta. W Ameryce Północnej konsola została wydana ze zdecydowanie innym wyglądem.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Super Nintendo Entertainment System (normalmente abreviado como Super NES, SNES, ou Super Nintendo), ou Super Famicom (スーパーファミコン) no Japão, é uma consola de 16 bits do fabricante japonês. Na América do Norte, a consola foi lançada com um aspecto decididamente diferente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Super Nintendo Entertainment System (обычно сокращенно называемая Super NES, SNES или Super Nintendo), или Super Famicom (スーパーファミコン) в Японии, - 16-битная консоль японского производителя. В Северной Америке консоль была выпущена с совершенно другим внешним видом.</text>
+</text>
+
+</view>
 </theme>

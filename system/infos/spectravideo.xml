@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Spectravideo International Limited (SVI) was an American computer manufacturer and software company.  The company produced video games and other software for the VIC-20, the Atari 2600 and its CompuMate peripheral. Some of their own computers were compatible with Microsoft's MSX or IBM's PC.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Spectravideo International Limited (SVI) était un fabricant d'ordinateurs et un éditeur de logiciels américain.  La société a produit des jeux vidéo et d'autres logiciels pour le VIC-20, l'Atari 2600 et son périphérique CompuMate. Certains de leurs propres ordinateurs étaient compatibles avec le MSX de Microsoft ou le PC d'IBM.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Spectravideo International Limited (SVI) war ein US-amerikanischer Computerhersteller und Softwareentwickler.  Das Unternehmen produzierte Videospiele und andere Software für den VIC-20, den Atari 2600 und dessen Peripheriegerät CompuMate. Einige ihrer eigenen Computer waren mit dem MSX von Microsoft oder dem PC von IBM kompatibel.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Spectravideo International Limited (SVI) fue una empresa estadounidense fabricante de ordenadores y software.  La empresa producía videojuegos y otros programas para el VIC-20, el Atari 2600 y su periférico CompuMate. Algunos de sus ordenadores eran compatibles con Microsoft MSX o IBM PC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Spectravideo International Limited (SVI) era un'azienda americana produttrice di computer e software.  L'azienda produceva videogiochi e altri software per il VIC-20, l'Atari 2600 e la sua periferica CompuMate. Alcuni dei suoi computer erano compatibili con il Microsoft MSX o l'IBM PC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Spectravideo International Limited（SVI）は、アメリカのコンピュータメーカー、ソフトウェア会社である。 同社はVIC-20やAtari2600、その周辺機器であるCompuMate向けにビデオゲームやその他のソフトウェアを製造していました。自社のコンピュータの中には、マイクロソフト社のMSXやIBM PCと互換性のあるものもあった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Spectravideo International Limited (SVI) was een Amerikaanse computerfabrikant en softwarebedrijf.  Het bedrijf produceerde videospelletjes en andere software voor de VIC-20, de Atari 2600 en zijn CompuMate-randapparaat. Sommige van hun eigen computers waren compatibel met de Microsoft MSX of IBM PC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Spectravideo International Limited (SVI) był amerykańskim producentem komputerów i firmą produkującą oprogramowanie.  Firma produkowała gry wideo i inne oprogramowanie dla VIC-20, Atari 2600 i jego peryferii CompuMate. Niektóre z ich własnych komputerów były kompatybilne z Microsoft MSX lub IBM PC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Spectravideo International Limited (SVI) era um fabricante americano de computadores e uma empresa de software.  A empresa produzia jogos de vídeo e outro software para o VIC-20, o Atari 2600 e o seu periférico CompuMate. Alguns dos seus próprios computadores eram compatíveis com o Microsoft MSX ou IBM PC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Spectravideo International Limited (SVI) - американский производитель компьютеров и программного обеспечения.  Компания выпускала видеоигры и другое программное обеспечение для VIC-20, Atari 2600 и периферийного устройства CompuMate. Некоторые из их собственных компьютеров были совместимы с Microsoft MSX или IBM PC.</text>
+</text>
+
+</view>
 </theme>

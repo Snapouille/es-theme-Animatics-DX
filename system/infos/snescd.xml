@@ -4,24 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>The Super NES CD-ROM Systemv is an unreleased video game peripheral for the Super Nintendo Entertainment System (SNES). The add-on built upon the functionality of the cartridge-based SNES by adding support for a CD-ROM-based format known as Super Disc.
+<text name="system_description" extra="true">
+<text>The SNES CD-ROM Adapter was born out of a partnership between Nintendo and Sony to develop a peripheral for the Super Nintendo system, designed to allow it to play video games on CD-ROM. Due to a disagreement over the licensing of the games, the device was never released.</text>
+</text>
 
-The SNES-CD platform was developed in a partnership between Nintendo and Sony. The platform was planned to be launched as an add-on for the standard SNES, as well as a hybrid console by Sony called the PlayStation.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>El Super NES CD-ROM System es un periférico para la Super Nintendo Entertainment System (SNES) que no se llegó a comercializar. El complemento se basó en la funcionalidad del SNES basado en cartuchos al agregar soporte para un formato basado en CD-ROM conocido como Super Disc.
+<text name="system_description" extra="true" lang="fr">
+<text>Le SNES CD-ROM Adapter est né d'un partenariat entre Nintendo et Sony pour le développement d'un périphérique destiné à la console Super Nintendo, conçu pour lui permettre de lire des jeux vidéo sur CD-ROM. A cause d'un désaccord sur les droits de licence des jeux, ce périphérique n'a jamais été commercialisé.</text>
+</text>
 
-La plataforma SNES-CD se desarrolló en asociación entre Nintendo y Sony. Se planeó lanzar la plataforma como un complemento para el SNES estándar, así como una consola híbrida de Sony llamada PlayStation.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der SNES CD-ROM Adapter entstand aus einer Partnerschaft zwischen Nintendo und Sony zur Entwicklung eines Peripheriegeräts für die Super Nintendo-Konsole, mit dem diese Videospiele auf CD-ROM abspielen konnte. Aufgrund von Meinungsverschiedenheiten über die Lizenzrechte an den Spielen wurde das Gerät nie veröffentlicht.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El adaptador de CD-ROM para SNES nació de una asociación entre Nintendo y Sony para desarrollar un periférico para la consola Super Nintendo, diseñado para permitirle reproducir videojuegos en CD-ROM. Debido a un desacuerdo sobre las licencias de los juegos, el dispositivo nunca salió a la venta.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'adattatore per CD-ROM SNES è nato da una collaborazione tra Nintendo e Sony per sviluppare una periferica per la console Super Nintendo, progettata per consentire la riproduzione di videogiochi su CD-ROM. A causa di un disaccordo sulla licenza dei giochi, la periferica non fu mai rilasciata.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>SNES CD-ROMアダプターは、任天堂とソニーの提携により、スーパーファミコンの周辺機器を開発し、CD-ROMでビデオゲームをプレイできるようにするために誕生したものである。しかし、ゲームのライセンスをめぐる意見の相違から、この製品は発売されることはありませんでした。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De SNES CD-ROM Adapter kwam voort uit een partnerschap tussen Nintendo en Sony om een randapparaat voor het Super Nintendo systeem te ontwikkelen waarmee videospellen op CD-ROM konden worden afgespeeld. Door een meningsverschil over de licenties van de spellen werd het apparaat nooit uitgebracht.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>SNES CD-ROM Adapter powstał w wyniku współpracy między Nintendo i Sony w celu opracowania urządzenia peryferyjnego dla systemu Super Nintendo, zaprojektowanego tak, aby umożliwić mu odtwarzanie gier wideo na CD-ROM. Z powodu nieporozumień dotyczących licencjonowania gier, urządzenie nigdy nie zostało wydane.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Adaptador de CD-ROM SNES nasceu de uma parceria entre a Nintendo e a Sony para desenvolver um periférico para o sistema Super Nintendo, concebido para lhe permitir jogar jogos de vídeo em CD-ROM. Devido a um desacordo sobre o licenciamento dos jogos, o dispositivo nunca foi lançado.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>SNES CD-ROM Adapter появился в результате сотрудничества между Nintendo и Sony по разработке периферийного устройства для системы Super Nintendo, позволяющего воспроизводить видеоигры на CD-ROM. Из-за разногласий по поводу лицензирования игр устройство так и не было выпущено.</text>
+</text>
+
+</view>
 </theme>

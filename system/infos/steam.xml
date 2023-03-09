@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Steam is an online content distribution platform developed by Valve. Oriented towards video games, it allows users to buy games, content for games, automatically update them, manage the multiplayer part of games and offers community tools around games using Steam.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Steam est une plateforme de distribution de contenu en ligne développée par Valve. Orientée vers les jeux vidéo, elle permet aux utilisateurs d'acheter des jeux, du contenu pour les jeux, de les mettre à jour automatiquement, de gérer la partie multijoueur des jeux et offre des outils communautaires autour des jeux utilisant Steam.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Steam ist eine von Valve entwickelte Online-Plattform für den Vertrieb von Inhalten. Sie ist auf Videospiele ausgerichtet und ermöglicht es den Nutzern, Spiele und Inhalte für Spiele zu kaufen, diese automatisch zu aktualisieren, den Mehrspielerpart von Spielen zu verwalten und bietet Community-Tools rund um die Spiele, die Steam nutzen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Steam es una plataforma de distribución de contenidos en línea desarrollada por Valve. Orientada a los videojuegos, permite a los usuarios comprar juegos, contenidos para juegos, actualizar automáticamente los juegos, gestionar la parte multijugador de los juegos y ofrece herramientas de comunidad en torno a los juegos que utilizan Steam.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Steam è una piattaforma di distribuzione di contenuti online sviluppata da Valve. Orientata ai videogiochi, consente agli utenti di acquistare giochi, contenuti per i giochi, di aggiornare automaticamente i giochi, di gestire la parte multigiocatore dei giochi e di offrire strumenti per la comunità che utilizza Steam.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Steamは、Valve社が開発したオンラインコンテンツ配信プラットフォームです。ビデオゲームに特化しており、ゲームやゲーム用コンテンツの購入、ゲームの自動アップデート、ゲームのマルチプレイヤーパートの管理、Steamを使用したゲームに関するコミュニティツールの提供などが可能です。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Steam is een door Valve ontwikkeld platform voor de distributie van online inhoud. Het is gericht op videogames en stelt gebruikers in staat games en content voor games te kopen, games automatisch bij te werken, het multiplayer gedeelte van games te beheren en biedt community tools rond games met behulp van Steam.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Steam to platforma dystrybucji treści online opracowana przez firmę Valve. Zorientowana na gry wideo, pozwala użytkownikom kupować gry, zawartość do gier, automatycznie aktualizować gry, zarządzać częścią wieloosobową gier i oferuje narzędzia społecznościowe wokół gier za pomocą Steam.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Steam é uma plataforma de distribuição de conteúdo online desenvolvida pela Valve. Orientada para jogos de vídeo, permite aos utilizadores comprar jogos, conteúdo para jogos, actualizar automaticamente jogos, gerir a parte multijogadores de jogos e oferece ferramentas de comunidade em torno de jogos utilizando o Steam.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Steam - это онлайн-платформа для распространения контента, разработанная компанией Valve. Ориентированная на видеоигры, она позволяет пользователям приобретать игры, контент для игр, автоматически обновлять их, управлять многопользовательской частью игр и предлагает инструменты сообщества для игр, использующих Steam.</text>
+</text>
+
+</view>
 </theme>

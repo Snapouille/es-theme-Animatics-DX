@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>The MSU-1 chip does not exist in physical form on the console, it is a virtual chip created by a genius, reminiscent of Nintendo and Sony coming together to release the Super Nintendo PlayStation Super CD. This chip allows, among other things, to have new sound features with the addition of audio tracks.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>La puce MSU-1 n'existe pas en physique sur la console, c'est une puce virtuelle créer par un génie qui rappelle le rapprochement de Nintendo et de Sony pour sortir la Super Nintendo PlayStation Super CD. Cette puce permet entre autres d'avoir de nouvelles fonctionnalités sonores avec l'ajout de pistes audio.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Der MSU-1-Chip existiert nicht physisch auf der Konsole, sondern ist ein virtueller Chip, der von einem Genie geschaffen wurde, das an die Annäherung von Nintendo und Sony bei der Veröffentlichung der Super Nintendo PlayStation Super CD erinnert. Dieser Chip ermöglicht unter anderem neue Soundfunktionen durch Hinzufügen von Audiospuren.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El chip MSU-1 no existe de forma física en la consola, es un chip virtual creado por un genio que recuerda el acercamiento entre Nintendo y Sony para lanzar la Super Nintendo PlayStation Super CD. Este chip permite, entre otras cosas, disponer de nuevas funciones de sonido con la adición de pistas de audio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il chip MSU-1 non esiste in forma fisica sulla console, è un chip virtuale creato da un genio che ricorda il riavvicinamento tra Nintendo e Sony per rilasciare il Super Nintendo PlayStation Super CD. Questo chip permette, tra le altre cose, di avere nuove caratteristiche sonore con l'aggiunta di tracce audio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>MSU-1チップはゲーム機に物理的に存在するものではなく、任天堂とソニーが和解してスーパーファミコン・プレイステーション・スーパーCDを発売したことを思い出した天才が作ったバーチャルチップである。このチップによって、とりわけ、オーディオトラックの追加による新しいサウンド機能を持つことができる。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De MSU-1 chip bestaat niet in fysieke vorm op de console, het is een virtuele chip gemaakt door een genie die zich de toenadering tussen Nintendo en Sony herinnert om de Super Nintendo PlayStation Super CD uit te brengen. Deze chip maakt onder andere nieuwe geluidsfuncties mogelijk met de toevoeging van audiotracks.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Chip MSU-1 nie istnieje w formie fizycznej na konsoli, jest to wirtualny chip stworzony przez geniusza, który wspomina zbliżenie Nintendo i Sony w celu wydania Super Nintendo PlayStation Super CD. Chip ten pozwala między innymi na posiadanie nowych funkcji dźwiękowych z dodaniem ścieżek audio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O chip MSU-1 não existe em forma física na consola, é um chip virtual criado por um génio que recorda a aproximação entre a Nintendo e a Sony para o lançamento do Super Nintendo PlayStation Super CD. Este chip permite, entre outras coisas, ter novas características sonoras com a adição de faixas de áudio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Чип MSU-1 не существует в физической форме на консоли, это виртуальный чип, созданный гением, который вспомнил о сближении Nintendo и Sony для выпуска Super Nintendo PlayStation Super CD. Этот чип позволяет, помимо прочего, иметь новые звуковые возможности с добавлением аудиодорожек.</text>
+</text>
+
+</view>
 </theme>

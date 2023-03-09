@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The SuperGrafx is an improved version of the PC-Engine (or CoreGrafX). Compared to the latter, it has four times more memory for the processor, a second video chip with its own memory, and a priority controller that allowed combining the output of the two video chips in different ways.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The PC Engine SuperGrafx (PCエンジンスーパーグラフィックス), is a video game console by NEC Home Electronics, released exclusively in Japan. It is an upgraded version of the PC Engine, released two years prior.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Fue lanzado en el continente europeo en noviembre de 1989 bajo el nombre de Turbografx, pero era muy difícil encontrar la consola ya que fueron lanzadas pocas unidades en ese mercado.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>SuperGrafx est une console de jeux vidéo fabriquée par NEC Corporation et lancée en décembre 1989 au Japon. Il s'agit d'une version améliorée de la PC-Engine (ou CoreGrafX).</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La SuperGrafx est une version améliorée de la PC-Engine (ou CoreGrafX). Comparée à cette dernière, elle a quatre fois plus de mémoire pour le processeur, une deuxième puce vidéo avec sa propre mémoire, et un contrôleur de priorité qui permettait de combiner la sortie des deux puces vidéo de différentes manières.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Além de rodar todos os jogos do PC Engine, rodava jogos feitos exclusivamente para ele. Porém, somente 5 jogos foram lançados (1941: Counter Attack, Aldynes, Battle Ace, Ghouls'n Ghosts e Madō King Granzort).</text>
-		</text>
-		
-					
+<text name="system_description" extra="true" lang="de">
+<text>Die SuperGrafx ist eine verbesserte Version der PC-Engine (oder CoreGrafX). Im Vergleich zu dieser hatte sie viermal so viel Speicher für den Prozessor, einen zweiten Videochip mit eigenem Speicher und einen Prioritätscontroller, der es ermöglichte, die Ausgabe der beiden Videochips auf verschiedene Weise zu kombinieren.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La SuperGrafx es una versión mejorada de la PC-Engine (o CoreGrafX). En comparación con el PC-Engine, tiene cuatro veces más memoria para el procesador, un segundo chip de vídeo con su propia memoria y un controlador de prioridad que permitía combinar la salida de los dos chips de vídeo de diferentes maneras.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il SuperGrafx è una versione migliorata del PC-Engine (o CoreGrafX). Rispetto al PC-Engine, dispone di una memoria quattro volte superiore per il processore, di un secondo chip video con memoria propria e di un controller di priorità che permetteva di combinare l'uscita dei due chip video in modi diversi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>SuperGrafxは、PC-Engine（またはCoreGrafX）の改良版である。PC-Engineに比べ、プロセッサのメモリが4倍になり、独自のメモリを持つ第2のビデオチップを搭載し、2つのビデオチップの出力を異なる方法で組み合わせることができるプライオリティコントローラが搭載されました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De SuperGrafx is een verbeterde versie van de PC-Engine (of CoreGrafX). Vergeleken met de PC-Engine heeft hij vier keer meer geheugen voor de processor, een tweede videochip met een eigen geheugen en een prioriteitscontroller waarmee de output van de twee videochips op verschillende manieren kon worden gecombineerd.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>SuperGrafx to ulepszona wersja komputera PC-Engine (lub CoreGrafX). W porównaniu z PC-Engine posiadał cztery razy więcej pamięci dla procesora, drugi układ wideo z własną pamięcią oraz kontroler priorytetów, który pozwalał na łączenie w różny sposób wyjścia obu układów wideo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O SuperGrafx é uma versão melhorada do PC-Engine (ou CoreGrafX). Em comparação com o PC-Engine, tem quatro vezes mais memória para o processador, um segundo chip de vídeo com memória própria, e um controlador prioritário que permitiu combinar a saída dos dois chips de vídeo de formas diferentes.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>SuperGrafx - это улучшенная версия PC-Engine (или CoreGrafX). По сравнению с PC-Engine, она имеет в четыре раза больше памяти для процессора, второй видеочип с собственной памятью и контроллер приоритетов, который позволял комбинировать вывод двух видеочипов различными способами.</text>
+</text>
+
+</view>
 </theme>

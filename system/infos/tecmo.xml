@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Tecmo (テクモ株式会社) is a Japanese video game development and publishing company founded in 1967. The company is known for notable video game series such as Ninja Gaiden, Dead or Alive, Monster Rancher, Rygar, Project Zero and Star Force.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Tecmo (テクモ株式会社) est une entreprise vidéoludique japonaise spécialisée dans le développement et l'édition, fondée en 1967. L'entreprise est connue pour des séries de jeux vidéo notables telles que Ninja Gaiden, Dead or Alive, Monster Rancher, Rygar, Project Zero ou encore Star Force.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Tecmo (テクモ株式会社) ist ein japanisches Videospielunternehmen, das sich auf die Entwicklung und Veröffentlichung von Spielen spezialisiert hat und 1967 gegründet wurde. Das Unternehmen ist bekannt für bemerkenswerte Videospielserien wie Ninja Gaiden, Dead or Alive, Monster Rancher, Rygar, Project Zero oder Star Force.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Tecmo (テクモ株式会社) es una empresa japonesa de desarrollo y publicación de videojuegos fundada en 1967. La empresa es conocida por series de videojuegos notables como Ninja Gaiden, Dead or Alive, Monster Rancher, Rygar, Project Zero y Star Force.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Tecmo (テクモ株式会社) è una società giapponese di sviluppo e pubblicazione di videogiochi fondata nel 1967. L'azienda è nota per importanti serie di videogiochi come Ninja Gaiden, Dead or Alive, Monster Rancher, Rygar, Project Zero e Star Force.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>テクモ株式会社は、1967年に設立された日本のビデオゲーム開発・出版会社である。忍者龍剣伝、デッドオアアライブ、モンスターランチャー、ライガー、プロジェクトゼロ、スターフォースなどのビデオゲームシリーズで知られている。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Tecmo (テクモ株式会社) is een in 1967 opgerichte Japanse onderneming die videospelletjes ontwikkelt en uitgeeft. De onderneming is bekend van opmerkelijke videospelseries zoals Ninja Gaiden, Dead or Alive, Monster Rancher, Rygar, Project Zero en Star Force.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Tecmo (テクモ株式会社) to japońska firma zajmująca się tworzeniem i wydawaniem gier wideo, założona w 1967 roku. Firma jest znana z godnych uwagi serii gier wideo, takich jak Ninja Gaiden, Dead or Alive, Monster Rancher, Rygar, Project Zero i Star Force.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Tecmo (テクモ株式会社) é uma empresa japonesa de desenvolvimento e publicação de jogos de vídeo fundada em 1967. A empresa é conhecida por séries notáveis de videojogos como Ninja Gaiden, Dead or Alive, Monster Rancher, Rygar, Project Zero e Star Force.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Tecmo (テクモ株式会社) - японская компания по разработке и изданию видеоигр, основанная в 1967 году. Компания известна такими известными сериями видеоигр, как Ninja Gaiden, Dead or Alive, Monster Rancher, Rygar, Project Zero и Star Force.</text>
+</text>
+
+</view>
 </theme>

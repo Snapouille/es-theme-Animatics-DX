@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The SuFami Turbo is an adapter that allows you to put specially adapted game cartridges. It is a proprietary format created by Bandaï and released only in Japan. It had two cartridge ports, to allow a friend to exchange backup data.</text>
+</text>
 
-				
-				<text name="system_description" extra="true">
-			<text>The SuFami Turbo, often compared to the Aladdin Deck Enhancer, is an accessory released by Bandai for Nintendo's Super Famicom system and was released in 1996.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El SuFami Turbo, a menudo comparado con el Aladdin Deck Enhancer, es un accesorio lanzado por Bandai para el sistema Super Famicom de Nintendo y fue lanzado en 1996.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Le SuFami Turbo, souvent comparé à Aladdin Deck Enhancer, est un accessoire sorti par Bandai pour le système Super Famicom de Nintendo. Il est sorti en 1996.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le SuFami Turbo est un adaptateur permettant de mettre des cartouches de jeux spécialement adaptées. C'est un format propriétaire créé par Bandaï et sorti uniquement au Japon. Il avait deux ports cartouche, pour permettre à un ami d'échanger des données de sauvegarde.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O SuFami Turbo, muitas vezes comparado ao Aladdin Deck Enhancer, é um acessório lançado pela Bandai para o sistema Super Famicom da Nintendo e foi lançado em 1996.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der SuFami Turbo ist ein Adapter, in den speziell angepasste Spielkassetten eingesetzt werden können. Es ist ein proprietäres Format, das von Bandai entwickelt und nur in Japan veröffentlicht wurde. Er hatte zwei Cartridge-Anschlüsse, um einem Freund den Austausch von Speicherdaten zu ermöglichen.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El SuFami Turbo es un adaptador que permite poner cartuchos de juegos especialmente adaptados. Es un formato propietario creado por Bandai y lanzado sólo en Japón. Tenía dos puertos para cartuchos, para permitir a un amigo intercambiar datos de copia de seguridad.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il SuFami Turbo è un adattatore che consente di inserire cartucce di gioco appositamente adattate. Si tratta di un formato proprietario creato da Bandai e rilasciato solo in Giappone. Aveva due porte per le cartucce, per consentire a un amico di scambiare i dati di backup.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>SuFamiターボは、特別にアレンジされたゲームカートリッジを入れることができるアダプターです。バンダイが作成した独自のフォーマットで、日本でのみ発売された。カートリッジポートが2つあり、友人とバックアップデータの交換ができるようになっていた。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De SuFami Turbo is een adapter waarmee je speciaal aangepaste spelcassettes kunt plaatsen. Het is een eigen formaat gemaakt door Bandai en alleen in Japan uitgebracht. Het had twee cartridge-poorten, zodat een vriend back-up gegevens kon uitwisselen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>SuFami Turbo to adapter, który pozwala na umieszczenie specjalnie przystosowanych kartridży z grami. Jest to zastrzeżony format stworzony przez Bandai i wydany tylko w Japonii. Posiadał dwa porty kartridży, aby umożliwić znajomemu wymianę danych kopii zapasowych.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O SuFami Turbo é um adaptador que lhe permite colocar cartuchos de jogo especialmente adaptados. É um formato proprietário criado pela Bandai e lançado apenas no Japão. Tinha duas portas de cartuchos, para permitir a um amigo a troca de dados de reserva.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>SuFami Turbo - это адаптер, который позволяет ставить специально адаптированные игровые картриджи. Это проприетарный формат, созданный компанией Bandai и выпущенный только в Японии. Он имел два порта для картриджей, чтобы позволить другу обмениваться резервными данными.</text>
+</text>
+
+</view>
 </theme>

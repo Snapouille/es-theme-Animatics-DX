@@ -1,34 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
 
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>The Nintendo Switch is a video game console developed by Nintendo and released worldwide in most regions on March 3, 2017. 
-The console itself is a tablet that can either be docked for use as a home console or used as a portable device, making it a hybrid console.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>Nintendo Switch es una consola de videojuegos desarrollada por Nintendo. Se dio a conocer en octubre de 2016 y fue lanzada mundialmente el 3 de marzo de 2017.
-Nintendo considera a Switch una consola híbrida. Se puede utilizar como consola de sobremesa con la unidad principal insertada en una estación de acoplamiento para conectarla con un televisor.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text>La Switch est la septième console de salon de Nintendo. Elle est sortie au début du mois de mars 2017. Celle-ci reprend en partie le principe de la Wii U, mais en rendant son module portable totalement indépendant, ce qui permet d’en profiter aussi bien dans son salon qu’en mobilité.
-		</text>
-		</text>
+<text name="system_description" extra="true">
+<text>The Nintendo Switch (ニンテンドースイッチ) is the firm's first hybrid console, it partly takes the principle of the Wii U but making its portable module completely independent, which allows you to enjoy it both in your living room and on the move.  It competes indirectly with the Xbox One from Microsoft and the PlayStation 4 from Sony.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text>O Nintendo Switch é um console de videogame híbrido produzido pela empresa Nintendo, tendo sido revelado em 20 de outubro de 2016. Foi lançado oficialmente no dia 3 de março de 2017</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Nintendo Switch (ニンテンドースイッチ) est la première console hybride de la firme, elle reprend en partie le principe de la Wii U mais en rendant son module portable totalement indépendant, ce qui permet d’en profiter aussi bien dans son salon qu’en mobilité.  Elle se place en concurrence indirecte avec la Xbox One de Microsoft et la PlayStation 4 de Sony.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="it">
-				<text>Nintendo Switch è una console a 64 bit di natura ibrida sviluppata da Nintendo e distribuita in tutto il mondo a partire dal 3 marzo 2017.
-Nintendo Switch è stato ufficialmente rivelato il 20 ottobre 2016 ed è arrivato sul mercato in Giappone, Europa e America del Nord il 3 marzo 2017. </text>
-		</text>
-				
+<text name="system_description" extra="true" lang="de">
+<text>Die Nintendo Switch (ニンテンドースイッチ) ist die erste Hybridkonsole der Firma. Sie übernimmt teilweise das Prinzip der Wii U, macht aber ihr tragbares Modul völlig unabhängig, so dass man sie sowohl im Wohnzimmer als auch unterwegs nutzen kann.  Sie steht in indirektem Wettbewerb mit der Xbox One von Microsoft und der PlayStation 4 von Sony.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Nintendo Switch (ニンテンドースイッチ) es la primera consola híbrida de la firma, toma en parte el principio de la Wii U pero independiza por completo su módulo portátil, lo que permite disfrutarla tanto en el salón como en movimiento.  Compite indirectamente con la Xbox One de Microsoft y la PlayStation 4 de Sony.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Nintendo Switch (ニンテンドースイッチ) è la prima console ibrida dell'azienda, che riprende in parte il principio della Wii U ma rende il suo modulo portatile completamente indipendente, consentendo di utilizzarlo sia in salotto che in viaggio.  È in concorrenza indiretta con la Xbox One di Microsoft e la PlayStation 4 di Sony.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Nintendo Switch（ニンテンドースイッチ）は、同社初のハイブリッドゲーム機で、Wii Uの原理を一部受け継ぎつつ、携帯型モジュールを完全に独立させ、リビングルームでも移動中でも楽しむことができる。 マイクロソフトのXbox One、ソニーのPlayStation 4と間接的に競合しています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Nintendo Switch (ニンテンドースイッチ) is de eerste hybride console van de firma, die gedeeltelijk het principe van de Wii U overneemt, maar de handheld-module volledig onafhankelijk maakt, zodat hij zowel in de huiskamer als onderweg kan worden gebruikt.  Hij concurreert indirect met de Xbox One van Microsoft en de PlayStation 4 van Sony.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Nintendo Switch (ニンテンドースイッチ) to pierwsza hybrydowa konsola firmy, częściowo przejmuje zasadę działania Wii U, ale całkowicie uniezależnia swój moduł handhelda, pozwalając cieszyć się nim zarówno w salonie, jak i w podróży.  Pośrednio konkuruje z Xbox One od Microsoftu i PlayStation 4 od Sony.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Nintendo Switch (ニンテンドースイッチ) é a primeira consola híbrida da empresa, aceita parcialmente o princípio do Wii U mas torna o seu módulo portátil completamente independente, permitindo que seja apreciado tanto na sala de estar como em movimento.  Compete indirectamente com a Xbox One da Microsoft e com a PlayStation 4 da Sony.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Nintendo Switch (ニンテンドースイッチ) - это первая гибридная консоль компании. Она частично повторяет принцип Wii U, но делает свой портативный модуль полностью независимым, позволяя играть как в гостиной, так и на ходу.  Она косвенно конкурирует с Xbox One от Microsoft и PlayStation 4 от Sony.</text>
+</text>
+
+</view>
 </theme>

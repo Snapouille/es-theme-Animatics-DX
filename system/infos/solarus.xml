@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-			<text>Solarus was specifically designed with cult 2D action-RPG classics in mind, such as The Legend of Zelda: A Link to the Past and Secret of Mana on the Super Nintendo, or Soleil on the Sega Megadrive/Genesis.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Solarus se diseñó específicamente teniendo en cuenta los clásicos de los juegos de rol de acción 2D, como The Legend of Zelda: A Link to the Past and Secret of Mana en Super Nintendo, o Soleil en Sega Megadrive / Genesis.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Solarus a été spécialement conçu pour les classiques 2D d'action-RPG cultes, tels que 'The Legend of Zelda: A Link to The Past' et 'Secret of Mana' sur Super Nintendo ou de 'Soleil' sur Sega Megadrive / Genesis.</text>
-		</text>
+<text name="system_description" extra="true">
+<text>Solarus is a cross-platform game engine, specialized in 2D graphics and the Action-RPG genre. It is released under a free and open source license. It was originally created to overcome the shortcomings of the RPG Maker software.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-			<text>Solarus foi projetado especificamente com clássicos cult de RPG de ação em 2D, como The Legend of Zelda: A Link to the Past and Secret of Mana no Super Nintendo, ou Soleil no Sega Megadrive / Genesis.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Solarus est un moteur de jeu multiplateforme, spécialisé dans les graphismes 2D et le genre Action-RPG. Il est publié sous licence libre et open source. Il a été a été créé à l'origine pour pallier les manques du logiciel RPG Maker.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Solarus ist eine plattformübergreifende Spiel-Engine, die sich auf 2D-Grafiken und das Action-RPG-Genre spezialisiert hat. Sie wird unter einer freien und Open-Source-Lizenz veröffentlicht. Es wurde ursprünglich entwickelt, um die Mängel der RPG Maker-Software zu beheben.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Solarus es un motor de juegos multiplataforma, especializado en gráficos 2D y en el género Action-RPG. Se publica bajo una licencia libre y de código abierto. Fue creado originalmente para superar las deficiencias del software RPG Maker.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Solarus è un motore di gioco multipiattaforma, specializzato in grafica 2D e nel genere Action-RPG. È rilasciato sotto licenza libera e open source. È stato originariamente creato per superare le carenze del software RPG Maker.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Solarusは、2DグラフィックスとアクションRPGのジャンルに特化したクロスプラットフォームゲームエンジンです。フリー・オープンソースライセンスで公開されています。もともとはRPG Makerの欠点を克服するために作られたものです。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Solarus is een cross-platform game engine, gespecialiseerd in 2D graphics en het Action-RPG genre. Het is uitgebracht onder een vrije en open source licentie. Het is oorspronkelijk gemaakt om de tekortkomingen van de RPG Maker software te verhelpen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Solarus to cross-platformowy silnik gier, specjalizujący się w grafice 2D i gatunku Action-RPG. Wydany jest na licencji free and open source. Pierwotnie został stworzony, aby przezwyciężyć niedociągnięcia oprogramowania RPG Maker.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Solarus é um motor de jogo multi-plataforma, especializado em gráficos 2D e no género Action-RPG. É lançado sob uma licença gratuita e de código aberto. Foi originalmente criado para superar as deficiências do software RPG Maker.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Solarus - это кроссплатформенный игровой движок, специализирующийся на 2D-графике и жанре Action-RPG. Он выпускается под свободной лицензией с открытым исходным кодом. Изначально он был создан для устранения недостатков программы RPG Maker.</text>
+</text>
+
+</view>
 </theme>

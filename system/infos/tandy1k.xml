@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>The Tandy 1000 is the first in a line of IBM PC compatible home computer systems produced by Tandy Corporation. It is a large computer that is almost the same size as the IBM PC, but has a plastic case covered with an aluminum bottom chassis to reduce weight.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le Tandy 1000 est le premier d'une gamme de systèmes informatiques domestiques compatibles IBM PC produits par Tandy Corporation. Il s'agit d'un gros ordinateur qui a presque la même taille que l'IBM PC, mais dont le boîtier en plastique est recouvert d'un châssis inférieur en aluminium pour réduire le poids.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Der Tandy 1000 ist das erste einer Reihe von IBM PC-kompatiblen Heimcomputersystemen, die von der Tandy Corporation hergestellt werden. Es handelt sich um einen großen Computer, der fast die gleiche Größe wie der IBM PC hat, dessen Kunststoffgehäuse jedoch zur Gewichtsreduzierung mit einem unteren Aluminiumrahmen verkleidet ist.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Tandy 1000 es el primero de una gama de sistemas informáticos domésticos compatibles con IBM PC producidos por Tandy Corporation. Se trata de un ordenador de gran tamaño, casi igual que el IBM PC, pero con una carcasa de plástico cubierta por un chasis inferior de aluminio para reducir el peso.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Tandy 1000 è il primo di una serie di home computer compatibili con il PC IBM prodotti da Tandy Corporation. Si tratta di un computer di grandi dimensioni che ha quasi le stesse dimensioni del PC IBM, ma con un case in plastica coperto da un telaio inferiore in alluminio per ridurre il peso.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Tandy 1000は、Tandy Corporationが製造したIBM PC互換のホームコンピュータシステムの最初の製品です。IBM PCとほぼ同じ大きさの大型コンピュータであるが、軽量化のためにプラスチックケースをアルミニウム製のボトムシャーシで覆ったものである。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Tandy 1000 is de eerste van een reeks IBM PC-compatibele thuiscomputersystemen van Tandy Corporation. Het is een grote computer die bijna even groot is als de IBM PC, maar met een plastic behuizing bedekt door een aluminium onderchassis om het gewicht te verminderen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Tandy 1000 to pierwszy z serii domowych systemów komputerowych kompatybilnych z IBM PC, produkowanych przez firmę Tandy Corporation. Jest to duży komputer o niemal identycznych rozmiarach jak IBM PC, ale z plastikową obudową przykrytą aluminiowym dnem w celu zmniejszenia wagi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Tandy 1000 é o primeiro de uma gama de sistemas de computadores domésticos compatíveis com IBM PC produzidos pela Tandy Corporation. É um computador grande, quase do mesmo tamanho que o PC IBM, mas com uma caixa de plástico coberta por um chassis inferior de alumínio para reduzir o peso.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Tandy 1000 - первый из серии IBM PC-совместимых домашних компьютеров, выпущенных корпорацией Tandy. Это большой компьютер, почти такого же размера, как IBM PC, но с пластиковым корпусом, покрытым алюминиевым нижним шасси для уменьшения веса.</text>
+</text>
+
+</view>
 </theme>

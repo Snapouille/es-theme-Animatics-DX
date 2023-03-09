@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The SG-1000 (エスジー・セン), also known as the Sega Game 1000, is designed and marketed by Japanese manufacturer Sega Enterprises, Ltd. The console marks Sega's entry into home video gaming and is a foundation for the more successful Master System. It was released on the same day as Nintendo's Famicom in Japan.</text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text>La SG-1000 (エスジー・セン), également connue sous le nom Sega Game 1000, est conçue et commercialisée par le constructeur japonais Sega Enterprises, Ltd. La console marque l'entrée de Sega dans le jeu vidéo à domicile et constitue une base pour la plus fructueuse Master System. Elle sort le même jour que la Famicom de Nintendo au Japon.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The SG-1000[a] is a home video game console manufactured by Sega and released in Japan, Australia, New Zealand, and other regions. It was Sega's first entry into the home video game hardware business. Introduced in 1983, the SG-1000 was released on the same day that Nintendo released the Family Computer in Japan.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die SG-1000 (エスジー・セン), auch bekannt als Sega Game 1000, wird von dem japanischen Hersteller Sega Enterprises, Ltd. entwickelt und vermarktet. Die Konsole markiert Segas Einstieg in das Heimvideospiel und bildet die Grundlage für das erfolgreichere Master System. Sie wird am selben Tag wie Nintendos Famicom in Japan veröffentlicht.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>La SG-1000 (エスジー・セン), également connue sous le nom Sega Game 1000, est une console de jeux vidéo de troisième génération conçue et commercialisée par le constructeur japonais Sega Enterprises, Ltd. La console marque l'entrée de Sega dans le jeu vidéo à domicile et constitue une base pour la plus fructueuse Master System. Elle sort le même jour que la Famicom de Nintendo au Japon.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La SG-1000 (エスジー・セン), también conocida como Sega Game 1000, es una consola diseñada y comercializada por el fabricante japonés Sega Enterprises, Ltd. (Sega). La consola marca la entrada de Sega en los videojuegos domésticos y es la base de la más exitosa Master System. Salió a la venta el mismo día que la Famicom de Nintendo en Japón.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text>SG-1000, fue la primera videoconsola de sobremesa desarrollada por Sega. Fue primero lanzada al mercado en una primera fase de pruebas en Japón en 1981 y finalmente lanzada al mercado japonés en julio de 1983 por 15.000¥. 
+<text name="system_description" extra="true" lang="it">
+<text>La console SG-1000 (エスジー・セン), nota anche come Sega Game 1000, è stata progettata e commercializzata dal produttore giapponese Sega Enterprises, Ltd. La console segna l'ingresso di Sega nel settore dei videogiochi domestici e costituisce la base per il Master System, di maggior successo. È uscita in Giappone lo stesso giorno del Famicom di Nintendo.</text>
+</text>
 
-La consola no consiguió gran éxito en ese mercado. Sin embargo, el sistema se vendió bien en Asia hasta 1985. Fue también comercializada en Australia por John Sands, en Nueva Zelanda por Grandstand Leisure Limited, y en otros países como Italia, España, y Sudáfrica. La consola en su versión original nunca llegó a Norteamérica, su nombre es el acrónimo de Sega Game 1000. </text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text>SG-1000（エスジー・セン）、別名セガゲーム1000は、日本のメーカーである株式会社セガ・エンタープライゼスが設計し、販売したものです。このゲーム機はセガの家庭用ゲーム機への参入を示すものであり、より成功したマスターシステムの基礎となるものである。日本では任天堂のファミコンと同日に発売された。</text>
+</text>
 
-			    <text name="system_description" extra="true" lang="pt" >
-			<text>O SG-1000 foi um console de videogame da terceira geração, lançado pela Sega em 1981 (na sua versão de testes) e em 1983 (para o mercado japonês). Este console não obteve grande representatividade. Porém, seu sucessor (o Master System) alcançou grande sucesso no mercado dos consoles.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="nl">
+<text>De SG-1000 (エスジー・セン), ook bekend als de Sega Game 1000, is ontworpen en op de markt gebracht door de Japanse fabrikant Sega Enterprises, Ltd. De console markeert Sega's intrede in home video gaming en is een basis voor het meer succesvolle Master System. Het werd uitgebracht op dezelfde dag als Nintendo's Famicom in Japan.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>SG-1000 (エスジー・セン), znany również jako Sega Game 1000, został zaprojektowany i wprowadzony na rynek przez japońskiego producenta Sega Enterprises, Ltd. Konsola zaznacza wejście Sega w domowe gry wideo i jest podstawą dla bardziej udanego Master System. Został wydany w tym samym dniu, co Nintendo's Famicom w Japonii.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O SG-1000 (エスジー・セン), também conhecido como Sega Game 1000, é concebido e comercializado pelo fabricante japonês Sega Enterprises, Ltd. A consola marca a entrada da Sega em jogos de vídeo em casa e é uma base para o sistema Master mais bem sucedido. Foi lançada no mesmo dia que a Famicom da Nintendo no Japão.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>SG-1000 (エスジー・セン), также известная как Sega Game 1000, разработана и продается японским производителем Sega Enterprises, Ltd. Консоль была разработана и продается японской компанией Sega. Консоль знаменует собой выход Sega на рынок домашних видеоигр и является основой для более успешной Master System. Она была выпущена в тот же день, что и Nintendo Famicom в Японии.</text>
+</text>
+
+</view>
 </theme>

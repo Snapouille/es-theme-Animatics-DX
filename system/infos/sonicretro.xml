@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Retro Sonic is a platform game engine with the same capabilities as the engine built for Sonic the hedgehog. It was designed by "The Taxman" (Christian Whitehead).</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Retro Sonic est un moteur de jeu de plateforme avec les mêmes capacités que le moteur construit pour Sonic the hedgehog. On le doit à "The Taxman" (Christian Whitehead).</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Retro Sonic ist eine Engine für Jump'n'Run-Spiele mit den gleichen Fähigkeiten wie die Engine, die für Sonic the hedgehog gebaut wurde. Sie wurde von "The Taxman" (Christian Whitehead) entwickelt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Retro Sonic es un motor para juegos de plataformas con las mismas capacidades que el motor construido para Sonic el erizo. Fue desarrollado por "The Taxman" (Christian Whitehead).</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Retro Sonic è un motore di gioco a piattaforme con le stesse capacità del motore costruito per Sonic the hedgehog. È stato sviluppato da "The Taxman" (Christian Whitehead).</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>レトロソニックは、ソニック・ザ・ヘッジホッグのために作られたエンジンと同じ機能を持つプラットフォームゲームエンジンです。The Taxman」（Christian Whitehead）により開発されました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Retro Sonic is een platform game engine met dezelfde mogelijkheden als de engine gebouwd voor Sonic the hedgehog. Het werd ontwikkeld door "The Taxman" (Christian Whitehead).</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Retro Sonic to silnik gry platformowej o takich samych możliwościach jak silnik zbudowany dla jeża Sonic. Został on opracowany przez "The Taxman" (Christian Whitehead).</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Retro Sonic é um motor de jogo de plataforma com as mesmas capacidades que o motor construído para Sonic o ouriço-cacheiro. Foi desenvolvido por "The Taxman" (Christian Whitehead).</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Retro Sonic - это движок для платформенной игры с теми же возможностями, что и движок, созданный для ежа Соника. Он был разработан "The Taxman" (Кристиан Уайтхед).</text>
+</text>
+
+</view>
 </theme>

@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>SNK Corporation is a Japanese company founded in 1973 that plans, develops and publishes video games and video game systems, and creates and manages entertainment centers. SNK is the founder of the popular Neo-Geo system.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>SNK Corporation est une entreprise japonaise fondée en 1973 dont l'activité est la planification, le développement et l'édition de jeux vidéo et de systèmes de jeu vidéo, ainsi que la création et la gestion de centres de divertissement. SNK est le fondateur du cultissime système Neo-Geo.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>SNK Corporation ist ein 1973 gegründetes japanisches Unternehmen, das sich mit der Planung, Entwicklung und Veröffentlichung von Videospielen und Videospielsystemen sowie mit der Schaffung und Verwaltung von Unterhaltungszentren befasst. SNK ist der Gründer des kultigen Neo-Geo-Systems.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>SNK Corporation es una empresa japonesa fundada en 1973 que planifica, desarrolla y publica videojuegos y sistemas de videojuegos, y crea y gestiona centros de entretenimiento. SNK es la creadora del popular sistema Neo-Geo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>SNK Corporation è una società giapponese fondata nel 1973 che progetta, sviluppa e pubblica videogiochi e sistemi di videogiochi e crea e gestisce centri di intrattenimento. SNK è il fondatore del popolare sistema Neo-Geo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社SNKは、1973年に設立された日本の会社で、ビデオゲームやビデオゲームシステムの企画・開発・出版、エンターテイメントセンターの制作・運営を行っています。SNKは、人気の高いネオジオ・システムの創始者です。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>SNK Corporation is een in 1973 opgerichte Japanse onderneming die videospelletjes en videospelsystemen plant, ontwikkelt en uitgeeft, en amusementscentra creëert en beheert. SNK is de grondlegger van het populaire Neo-Geo-systeem.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>SNK Corporation to japońska firma założona w 1973 roku, która planuje, rozwija i wydaje gry wideo i systemy gier wideo, a także tworzy i zarządza centrami rozrywki. SNK jest twórcą popularnego systemu Neo-Geo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A SNK Corporation é uma empresa japonesa fundada em 1973 que planeia, desenvolve e publica jogos de vídeo e sistemas de jogos de vídeo, e cria e gere centros de entretenimento. A SNK é a fundadora do popular sistema Neo-Geo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>SNK Corporation - японская компания, основанная в 1973 году, которая планирует, разрабатывает и издает видеоигры и видеоигровые системы, а также создает и управляет развлекательными центрами. SNK является создателем популярной системы Neo-Geo.</text>
+</text>
+
+</view>
 </theme>

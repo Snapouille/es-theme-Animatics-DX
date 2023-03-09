@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Technōs Japan Corporation (株式会社テクノスジャパン) is a Japanese company founded in 1981. Now defunct, it was active in the arcade game market. Its most popular franchises are the Nekketsu Kōha Kunio-kun license and the Double Dragon series both created by Yoshihisa Kishimoto.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Technōs Japan Corporation (株式会社テクノスジャパン) est une société japonaise fondée en 1981. Aujourd'hui disparue, elle a été active sur le marché des jeux d'arcade. Ses franchises les plus populaires sont la licence Nekketsu Kōha Kunio-kun et la série Double Dragon toutes deux créées par Yoshihisa Kishimoto.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Technōs Japan Corporation (株式会社テクノスジャパン) ist ein japanisches Unternehmen, das 1981 gegründet wurde. Das heute nicht mehr existierende Unternehmen war auf dem Markt für Arcade-Spiele aktiv. Seine beliebtesten Franchises sind die Nekketsu-Lizenz Kōha Kunio-kun und die Double Dragon-Serie, die beide von Yoshihisa Kishimoto entwickelt wurden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Technōs Japan Corporation (株式会社テクノスジャパン) es una empresa japonesa fundada en 1981. Actualmente desaparecida, estuvo activa en el mercado de los juegos arcade. Sus franquicias más populares son la licencia Nekketsu Kōha Kunio-kun y la serie Double Dragon, ambas creadas por Yoshihisa Kishimoto.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Technōs Japan Corporation (株式会社テクノスジャパン) è una società giapponese fondata nel 1981. Oggi scomparsa, era attiva nel mercato dei giochi arcade. I suoi franchise più popolari sono la licenza Nekketsu Kōha Kunio-kun e la serie Double Dragon, entrambe create da Yoshihisa Kishimoto.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>テクノスジャパン株式会社（株式会社テクノスジャパン）は、1981年に設立された日本の企業である。現在では消滅していますが、アーケードゲーム市場で活躍していました。最も人気のあるフランチャイズは、岸本義久が作った『熱血行進曲 くにお君』ライセンスと『ダブルドラゴン』シリーズです。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Technōs Japan Corporation (株式会社テクノスジャパン) is een Japanse onderneming die in 1981 werd opgericht. Het is nu ter ziele, maar was actief op de markt van arcadespellen. De populairste franchises zijn de Nekketsu Kōha Kunio-kun licentie en de Double Dragon serie, beide gemaakt door Yoshihisa Kishimoto.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Technōs Japan Corporation (株式会社テクノスジャパン) to japońska firma założona w 1981 roku. Obecnie nieistniejąca, działała na rynku gier arcade. Jej najpopularniejsze franczyzy to licencja Nekketsu Kōha Kunio-kun oraz seria Double Dragon, obie stworzone przez Yoshihisę Kishimoto.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Technōs Japan Corporation (株式会社テクノスジャパン) é uma empresa japonesa fundada em 1981. Agora extinta, estava activa no mercado dos jogos arcade. As suas franquias mais populares são a licença Nekketsu Kōha Kunio-kun e a série Double Dragon, ambas criadas por Yoshihisa Kishimoto.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Technōs Japan Corporation (株式会社テクノスジャパン) - японская компания, основанная в 1981 году. Ныне не существующая, она активно работала на рынке аркадных игр. Наиболее популярными франшизами компании являются лицензия Nekketsu Kōha Kunio-kun и серия Double Dragon, созданная Йошихисой Кисимото.</text>
+</text>
+
+</view>
 </theme>

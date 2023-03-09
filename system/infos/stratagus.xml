@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Stratagus was originally a Warcraft clone. Following the threat of a lawsuit by Blizzard, the game has been revised and is now available as an open source engine to allow the creation of real-time strategy games as well as a full game, Battle of Survival, set in a science fiction universe.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Stratagus est à l’origine un clone de Warcraft. Suite à la menace de procès par Blizzard, le jeu a été revu est maintenant disponible sous forme de moteur open source pour permettre la création de jeux de stratégie en temps réel ainsi qu’en tant que jeu complet, Battle of Survival, se déroulant dans un univers de science-fiction.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Stratagus war ursprünglich ein Klon von Warcraft. Nachdem Blizzard mit einer Klage gedroht hatte, wurde das Spiel überarbeitet und ist nun als Open-Source-Engine erhältlich, um die Erstellung von Echtzeitstrategiespielen zu ermöglichen, sowie als komplettes Spiel, Battle of Survival, das in einem Science-Fiction-Universum spielt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Stratagus era originalmente un clon de Warcraft. Tras la amenaza de acciones legales por parte de Blizzard, el juego ha sido rediseñado y ahora está disponible como motor de código abierto para permitir la creación de juegos de estrategia en tiempo real, así como un juego completo, Battle of Survival, ambientado en un universo de ciencia ficción.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Stratagus era originariamente un clone di Warcraft. In seguito alla minaccia di azioni legali da parte di Blizzard, il gioco è stato riprogettato ed è ora disponibile come motore open source per consentire la creazione di giochi di strategia in tempo reale e di un gioco completo, Battle of Survival, ambientato in un universo fantascientifico.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>StratagusはもともとWarcraftのクローンゲームでした。Blizzard社による法的措置の脅威を受け、デザインを一新し、リアルタイムストラテジーゲームを作成できるオープンソースエンジンとして、またSFの世界を舞台にしたフルゲーム「Battle of Survival」も公開されています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Stratagus was oorspronkelijk een Warcraft-kloon. Nadat Blizzard met juridische stappen dreigde, is het spel opnieuw ontworpen en nu beschikbaar als een open source engine voor het maken van real-time strategiespellen en een volledig spel, Battle of Survival, dat zich afspeelt in een sciencefiction-universum.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Stratagus był pierwotnie klonem Warcrafta. Po groźbie podjęcia działań prawnych przez Blizzard, gra została przeprojektowana i jest obecnie dostępna jako silnik open source, umożliwiający tworzenie gier strategicznych czasu rzeczywistego, a także pełnej gry, Battle of Survival, osadzonej w uniwersum science fiction.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Stratagus é originalmente um clone de Warcraft. Após a ameaça de acção legal da Blizzard, o jogo foi redesenhado e está agora disponível como um motor de código aberto para permitir a criação de jogos de estratégia em tempo real, bem como um jogo completo, Battle of Survival, ambientado num universo de ficção científica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Изначально Stratagus был клоном Warcraft. После угрозы судебного иска со стороны Blizzard игра была переработана и теперь доступна в качестве движка с открытым исходным кодом для создания стратегических игр в реальном времени, а также полноценной игры "Битва за выживание", действие которой происходит в научно-фантастической вселенной.</text>
+</text>
+
+</view>
 </theme>
