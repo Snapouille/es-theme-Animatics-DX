@@ -228,14 +228,14 @@ originally based on: "carbon"
 	<menuGroup name="menugroup">
       <fontPath>./art/fonts/flatwheat.ttf</fontPath> 
       <fontSize>0.023</fontSize>
-      <color>4075D8C5</color>
-      <separatorColor>${groupSeparatorColor}</separatorColor>    
+      <color>bf9f1c</color>
+      <separatorColor>bf9f1c</separatorColor>    
       <backgroundColor>${glowColor}</backgroundColor>
       <lineSpacing>2.7</lineSpacing>
     </menuGroup>
 	
     <menuBackground name="menubg">
-      <color>242424ee</color>
+      <color>161616</color>
       <cornerSize>32 32</cornerSize>
       <path>./art/divers/frame.png</path>
       <scrollbarColor>96969620</scrollbarColor>
