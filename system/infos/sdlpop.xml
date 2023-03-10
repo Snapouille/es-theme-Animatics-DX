@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
+<text name="system_description" extra="true">
+<text>SDLPoP (formerly "David's open-source port of PoP") is an open-source, cross-platform, enhanced port of the game Prince Of Persia. It is based on the MsDOS version.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>An open-source port of Prince of Persia, based on the disassembly of the DOS version, extended with new features.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>SDLPoP (anciennement "David's open-source port of PoP") est un portage open-source, multi-plateforme et amélioré du jeu Prince Of Persia. Il est basé sur la version MsDOS.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Un port de código abierto del famoso videojuego Prince Of Persia, ampliado con nuevas características</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>SDLPoP (früher "David's open-source port of PoP") ist eine plattformübergreifende, verbesserte Open-Source-Portierung des Spiels Prince Of Persia. Er basiert auf der MsDOS-Version.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>Un port open-source de Prince of Persia, basé sur le démontage de la version DOS, étendu avec de nouvelles fonctionnalités.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>SDLPoP (antes "David's open-source port of PoP") es un port mejorado, multiplataforma y de código abierto del juego Prince Of Persia. Está basado en la versión MsDOS.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text>Um porte de código aberto do Prince of Persia, baseado na desmontagem da versão DOS, ampliado com novos recursos. </text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>SDLPoP (precedentemente "David's open-source port of PoP") è una versione open-source, multipiattaforma e migliorata del gioco Prince Of Persia. È basato sulla versione MsDOS.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="ja">
+<text>SDLPoP（旧称：David's open-source port of PoP）は、オープンソース、クロスプラットフォーム、ゲームPrince Of Persiaの強化移植版である。MsDOS版をベースにしています。</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>SDLPoP (voorheen "David's open-source port of PoP") is een open-source, cross-platform, verbeterde port van het spel Prince Of Persia. Het is gebaseerd op de MsDOS-versie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>SDLPoP (anteriormente "David's open-source port of PoP") é um porto de código-fonte aberto, de código-fonte cruzado, melhorado do jogo Prince Of Persia. É baseado na versão MsDOS.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>SDLPoP (anteriormente "David's open-source port of PoP") é um porto de código-fonte aberto, de código-fonte cruzado, melhorado do jogo Prince Of Persia. É baseado na versão MsDOS.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>SDLPoP (ранее "David's open-source port of PoP") - это кросс-платформенный порт игры Prince Of Persia с открытым исходным кодом. Он основан на версии для MsDOS.</text>
+</text>
+
+</view>
 </theme>

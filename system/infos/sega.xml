@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Sega Corporation (株式会社セガ short for SErvice GAmes, commonly stylized SEGA) is a Japanese video game development and publishing company, as well as a manufacturer of arcade terminals and systems. In France, the company's motto is "Sega, c'est plus fort que toi!</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Sega Corporation (株式会社セガ abréviation de SErvice GAmes, couramment stylisé SEGA) est une société japonaise de développement et d'édition de jeux vidéo, ainsi qu'un fabricant de bornes et systèmes d'arcade. En France, la devise de la société est « Sega, c’est plus fort que toi ! ».</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Sega Corporation (株式会社セガ Abkürzung für SErvice GAmes, üblicherweise stilisiert SEGA) ist ein japanisches Unternehmen für die Entwicklung und Veröffentlichung von Videospielen sowie ein Hersteller von Arcade-Terminals und -Systemen. In Frankreich lautet das Motto des Unternehmens "Sega, c'est plus fort que toi!".</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Sega Corporation (株式会社セガ abreviatura de SErvice GAmes, comúnmente estilizada SEGA) es una empresa japonesa de desarrollo y publicación de videojuegos, así como fabricante de terminales y sistemas arcade. ¡En Francia, el lema de la empresa es "Sega, c'est plus fort que toi!</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Sega Corporation (株式会社セガ abbreviazione di SErvice GAmes, comunemente stilizzata SEGA) è una società giapponese di sviluppo e pubblicazione di videogiochi, nonché produttrice di terminali e sistemi arcade. In Francia, il motto dell'azienda è "Sega, c'est plus fort que toi!</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社セガ（株式会社セガ、SErvice GAmesの略、通称SEGA）は、日本のビデオゲーム開発・出版会社であり、アーケード端末・システムメーカーでもある。フランスでは「Sega, c'est plus fort que toi！」を社是としている。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Sega Corporation (株式会社セガ kort voor SErvice GAmes, meestal gestileerd SEGA) is een Japans bedrijf dat videospelletjes ontwikkelt en uitgeeft, alsook een fabrikant van arcade-terminals en -systemen. In Frankrijk luidt het motto van het bedrijf: "Sega, c'est plus fort que toi!</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Sega Corporation (株式会社セガ skrót od SErvice GAmes, potocznie stylizowany SEGA) to japońska firma zajmująca się tworzeniem i wydawaniem gier wideo, a także producent terminali i systemów arcade. We Francji motto firmy brzmi: "Sega, c'est plus fort que toi!</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Sega Corporation (株式会社セガ abreviatura de SErvice GAmes, comumente estilizada SEGA) é uma empresa japonesa de desenvolvimento e publicação de jogos de vídeo, bem como um fabricante de terminais e sistemas de arcade. Em França, o lema da empresa é "Sega, c'est plus fort que toi!</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Sega Corporation (株式会社セガ сокращение от SErvice GAmes, обычно стилизация SEGA) - японская компания по разработке и изданию видеоигр, а также производитель аркадных терминалов и систем. Во Франции девиз компании звучит как "Sega, c'est plus fort que toi!</text>
+</text>
+
+</view>
 </theme>

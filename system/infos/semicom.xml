@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>SemiCom (세미콤) is a former Korean indie studios who developing arcade-game founded in 1994.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>SemiCom (세미콤) est un ancien studio indépendant coréen de développement de jeux d'arcade fondé en 1994.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>SemiCom (세미콤) ist ein 1994 gegründetes koreanisches Indie-Studio, das Arcade-Spiele entwickelt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>SemiCom (세미콤) es un antiguo estudio independiente coreano de desarrollo de juegos arcade fundado en 1994.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>SemiCom (세미콤) è un ex studio indie coreano che sviluppava giochi arcade fondato nel 1994.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>セミコム（세미콤）は、1994年に設立されたアーケードゲームを開発していた韓国のインディーズスタジオです。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>SemiCom (세미콤) is een voormalige Koreaanse indie-studio die arcade-games ontwikkelt, opgericht in 1994.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>SemiCom (세미콤) to byłe koreańskie studio indie, które tworzyło gry zręcznościowe założone w 1994 roku.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>SemiCom (세미콤) é um antigo estúdio indie coreano que desenvolveu um jogo arcade fundado em 1994.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>SemiCom (세미콤) - бывшая корейская инди-студия, разрабатывающая аркадные игры, основанная в 1994 году.</text>
+</text>
+
+</view>
 </theme>

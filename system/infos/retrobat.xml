@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Welcome to Retrobat. This is where you will be able to tune your different emulators supported by the beautiful front-end you have in your hands. In case of doubt or difficulty, come and join us on the discord so we can discuss it together.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Bienvenue sur Retrobat. C'est ici que vous allez pouvoir régler vos différents émulateurs pris en charge par le magnifique Front-end que vous avez entre les mains. En cas de doute ou de difficulté, venez nous rejoindre sur le discord qu'on en discute ensemble.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Willkommen bei Retrobat. Hier werden Sie Ihre verschiedenen Emulatoren einstellen können, die von dem großartigen Frontend, das Sie in Ihren Händen halten, unterstützt werden. Wenn Sie Zweifel oder Schwierigkeiten haben, kommen Sie zu uns in den Discord, damit wir gemeinsam darüber diskutieren können.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Bienvenido a Retrobat. Aquí es donde podrás tunear tus diferentes emuladores apoyándote en el precioso front-end que tienes en tus manos. En caso de duda o dificultad, ven y únete a nosotros en el discord para que podamos discutirlo juntos.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>Benvenuti in Retrobat. Qui potrete mettere a punto i vostri diversi emulatori supportati dal bellissimo front-end che avete tra le mani. In caso di dubbi o difficoltà, unisciti a noi su discord per discuterne insieme.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text>Retrobatへようこそ。ここでは、あなたの手にある美しいフロントエンドでサポートされているさまざまなエミュレータを調整することができます。疑問や困難がある場合は、discordに参加して、一緒に議論しましょう。</text>
+</text>
 
+<text name="system_description" extra="true" lang="nl">
+<text>Welkom bij Retrobat. Hier zul je je verschillende emulators kunnen tunen, ondersteund door de prachtige front-end die je in handen hebt. In geval van twijfel of moeilijkheden, kom bij ons op de discord zodat we het samen kunnen bespreken.</text>
+</text>
 
+<text name="system_description" extra="true" lang="pl">
+<text>Witamy w Retrobat. To tutaj będziesz mógł dostroić swoje różne emulatory wspierane przez piękny front-end, który masz w swoich rękach. W przypadku wątpliwości lub trudności, dołącz do nas na discordzie, abyśmy mogli wspólnie podyskutować.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pt">
+<text>Bem-vindo ao Retrobat. É aqui que poderá instalar os seus diferentes emuladores apoiados pela bela fachada que tem nas suas mãos. Em caso de dúvida ou dificuldade, venha juntar-se a nós na discórdia para que possamos discuti-la em conjunto.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Добро пожаловать в Retrobat. Здесь вы сможете настроить различные эмуляторы, поддерживаемые прекрасным фронтэндом, который вы держите в руках. В случае сомнений или трудностей, присоединяйтесь к нам на discord, чтобы мы могли обсудить это вместе.</text>
+</text>
+
+</view>
 </theme>

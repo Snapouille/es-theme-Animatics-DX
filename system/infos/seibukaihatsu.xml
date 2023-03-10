@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Seibu Kaihatsu Inc (有限会社 セイブ開発) is a Japanese arcade game company founded in 1982. It is known worldwide for the creation of the mythical shoot'em up series Raiden.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Seibu Kaihatsu Inc. (有限会社 セイブ開発) est une société japonaise créatrice de jeux vidéo d'arcade fondée en 1982. Elle est mondialement connu pour la création de la mythique serie des shoot'em up Raiden.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Seibu Kaihatsu Inc. (有限会社 セイブ開発) ist ein japanisches Unternehmen, das Arcade-Videospiele entwickelt und 1982 gegründet wurde. Sie ist weltweit bekannt für die Entwicklung der legendären Shoot'em up-Serie Raiden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Seibu Kaihatsu Inc (有限会社 セイブ開発) es una empresa japonesa de juegos arcade fundada en 1982. Es mundialmente conocida por la creación de la mítica serie de shoot'em up Raiden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Seibu Kaihatsu Inc (有限会社 セイブ開発) è una società giapponese di giochi arcade fondata nel 1982. È conosciuta in tutto il mondo per la creazione della mitica serie di shoot'em up Raiden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>西武開発株式会社（有限会社セイブ開発）は、1982年に設立された日本のアーケードゲーム会社である。神話的なシューティングゲーム「雷電」シリーズを生み出したことで、世界的に知られています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Seibu Kaihatsu Inc (有限会社 セイブ開発) is een in 1982 opgerichte Japanse arcadespelonderneming. Het staat wereldwijd bekend om de creatie van de mythische shoot'em up serie Raiden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Seibu Kaihatsu Inc (有限会社 セイブ開発) to japońska firma produkująca gry zręcznościowe założona w 1982 roku. Jest znana na całym świecie ze stworzenia mitycznej serii shoot'em up Raiden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Seibu Kaihatsu Inc (有限会社 セイブ開発) é uma empresa japonesa de jogos arcade fundada em 1982. É conhecida mundialmente pela criação da mítica série de shoot'em up Raiden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Seibu Kaihatsu Inc (有限会社 セイブ開発) - японский создатель аркадных видеоигр, основанный в 1982 году. Она известна во всем мире благодаря созданию мифической серии игр Raiden.</text>
+</text>
+
+</view>
 </theme>

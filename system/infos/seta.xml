@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>SETA Corporation (株式会社セタ) for Super Entertainment and Total Amusement, is a Japanese company founded in 1985 and which disappeared in 2009. The company participated with the Visco and Sammy companies in the creation of the System SSV arcade card, but also created several arcade systems.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>SETA Corporation (株式会社セタ) pour Super Entertainment and Total Amusement, est une entreprise japonaise fondée en 1985 et qui a disparu en 2009. La société a participé avec les sociétés Visco et Sammy à la création de la carte d'arcade System SSV, mais également créé plusieurs systèmes d'arcade.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>SETA Corporation (株式会社セタ) für Super Entertainment and Total Amusement, ist ein japanisches Unternehmen, das 1985 gegründet wurde und seit 2009 nicht mehr existiert. Das Unternehmen war zusammen mit den Firmen Visco und Sammy an der Entwicklung der Arcade-Karte System SSV beteiligt, schuf aber auch mehrere Arcade-Systeme.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>SETA Corporation (株式会社セタ) de Super Entertainment y Total Amusement, es una empresa japonesa fundada en 1985 y que desapareció en 2009. La empresa participó con las compañías Visco y Sammy en la creación de la tarjeta arcade System SSV, pero también creó varios sistemas arcade.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>SETA Corporation (株式会社セタ) per Super Entertainment e Total Amusement, è una società giapponese fondata nel 1985 e scomparsa nel 2009. L'azienda ha partecipato con le società Visco e Sammy alla creazione della scheda arcade System SSV, ma ha anche creato diversi sistemi arcade.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社セタ（SETA）for Super Entertainment and Total Amusementは、1985年に設立され、2009年に消滅した日本の会社である。同社は、ビスコ社やサミー社とともにアーケードカード「システムSSV」の制作に参加したが、いくつかのアーケードシステムも制作している。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>SETA Corporation (株式会社セタ) voor Super Entertainment en Total Amusement, is een Japans bedrijf dat in 1985 werd opgericht en in 2009 verdween. Het bedrijf nam samen met de bedrijven Visco en Sammy deel aan de creatie van de System SSV arcadekaart, maar creëerde ook verschillende arcadesystemen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>SETA Corporation (株式会社セタ) dla Super Entertainment i Total Amusement, to japońska firma założona w 1985 roku, która zniknęła w 2009 roku. Firma uczestniczyła wraz z firmami Visco i Sammy w tworzeniu karty arcade System SSV, ale także stworzyła kilka systemów arcade.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A SETA Corporation (株式会社セタ) for Super Entertainment and Total Amusement, é uma empresa japonesa fundada em 1985 e que desapareceu em 2009. A empresa participou com as empresas Visco e Sammy na criação do cartão de arcada System SSV, mas também criou vários sistemas de arcada.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>SETA Corporation (株式会社セタ), что означает Super Entertainment and Total Amusement, - японская компания, основанная в 1985 году и исчезнувшая в 2009 году. Компания участвовала вместе с компаниями Visco и Sammy в создании аркадной карты System SSV, а также создала несколько аркадных систем.</text>
+</text>
+
+</view>
 </theme>

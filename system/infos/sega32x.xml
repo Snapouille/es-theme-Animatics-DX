@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Sega 32X is an extension of the Mega Drive. Developed under the code name Mars, it increases the power by transforming the console into a 32-bit system. It uses its own cartridges and has a game library of forty games. It thus served as a transitional console until the arrival of the Saturn.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The 32X is an add-on for the Sega Genesis video game console. Codenamed "Project Mars", the 32X was designed to expand the power of the Genesis and serve as a transitional console into the 32-bit.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Mega Drive 32X, también llamada Sega 32X (en América) o Super 32X (en Japón), es un periférico lanzado por Sega en 1994, que ofrecía una ampliación de 32 bits para la consola de 16 bits Sega Mega Drive.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Sega 32X est une extension de la Mega Drive, console du constructeur japonais Sega. Développée sous le nom de code Mars, celle-ci permet d'augmenter la puissance de la Mega Drive en la transformant en un système 32 bits et sert ainsi de console de transition en attendant l'arrivée de la Saturn.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Sega 32X est une extension de la Mega Drive. Développée sous le nom de code Mars, celle-ci permet d'augmenter la puissance en transformant la console en un système 32 bits. Elle utilise ses propres cartouches et dispose d'une ludothèque de quarante jeux. Elle sert ainsi de console de transition en attendant l'arrivée de la Saturn.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Sega 32x é um acessório para o console da Sega, o Mega Drive, Genesis Na América do Norte. O acessório deveria ser inserido na entrada de cartucho do Mega Drive, recebendo cartuchos próprios ou do Mega Drive.</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="de">
+<text>Das Sega 32X ist eine Erweiterung für das Mega Drive. Sie wurde unter dem Codenamen Mars entwickelt und ermöglicht eine Leistungssteigerung, indem sie die Konsole in ein 32-Bit-System umwandelt. Sie verwendet ihre eigenen Cartridges und verfügt über eine Spielbibliothek mit vierzig Spielen. Sie diente somit als Übergangskonsole bis zum Erscheinen des Saturn.</text>
+</text>
 
-	
-				
+<text name="system_description" extra="true" lang="es">
+<text>La Sega 32X es una extensión de la Mega Drive. Desarrollada bajo el nombre en clave Mars, aumenta la potencia transformando la consola en un sistema de 32 bits. Utiliza sus propios cartuchos y dispone de una ludoteca de cuarenta juegos. Sirvió así de consola de transición hasta la llegada de la Saturn.</text>
+</text>
 
-	</view>
-	
+<text name="system_description" extra="true" lang="it">
+<text>Il Sega 32X è un'estensione del Mega Drive. Sviluppato con il nome in codice Mars, aumenta la potenza trasformando la console in un sistema a 32 bit. Utilizza le proprie cartucce e dispone di una libreria di quaranta giochi. È servita come console di transizione fino all'arrivo del Saturn.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>セガ32Xは、メガドライブの拡張版である。Marsというコードネームで開発され、ゲーム機を32ビットシステムに変えることでパワーアップしています。独自のカートリッジを使用し、40本のゲームライブラリーを搭載しています。このため、サターンが登場するまでの過渡的なコンソールとして機能した。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Sega 32X is een uitbreiding van de Mega Drive. Ontwikkeld onder de codenaam Mars, verhoogt het de kracht door de console om te vormen tot een 32-bit systeem. Het gebruikt zijn eigen cartridges en heeft een spelbibliotheek van veertig spellen. Het diende dus als een overgangsconsole tot de komst van de Saturnus.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Sega 32X jest rozwinięciem konsoli Mega Drive. Opracowany pod nazwą kodową Mars, zwiększa moc poprzez przekształcenie konsoli w system 32-bitowy. Używa własnych kartridży i posiada bibliotekę gier składającą się z czterdziestu gier. Służyła więc jako konsola przejściowa do czasu nadejścia Saturna.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Sega 32X é uma extensão do Mega Drive. Desenvolvida sob o nome de código Mars, aumenta a potência ao transformar a consola num sistema de 32 bits. Utiliza os seus próprios cartuchos e tem uma biblioteca de jogos de quarenta jogos. Assim, serviu como uma consola de transição até à chegada do Saturno.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Sega 32X является продолжением Mega Drive. Разработанная под кодовым названием Mars, она увеличивает мощность, превращая консоль в 32-битную систему. Она использует собственные картриджи и имеет библиотеку игр из сорока игр. Таким образом, она служила переходной консолью до появления Saturn.</text>
+</text>
+
+</view>
 </theme>

@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Satellaview is an extension of the Super Famicom, marketed only in Japan. This system provided some additional technical capabilities as well as a download service for games, codes and information. All data was sent through a satellite TV station.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El Satellaview fue un satmódem producido por Nintendo para la Super Famicom lanzado en 1995 únicamente en Japón. Salió al precio de ¥ 14.000 (unos 99,59 euros o dólares americanos).
+<text name="system_description" extra="true" lang="fr">
+<text>Le Satellaview est une extension de la Super Famicom commercialisée uniquement au Japon. Ce système apportait quelques capacités techniques supplémentaires ainsi qu'un service de téléchargement de jeux, de codes et d'informations. Toutes les données transitaient en effet par une station de télévision par satellite.</text>
+</text>
 
-Con 1 megabit de espacio de ROM y 512 kB adicionales de RAM, Satellaview permitía a los jugadores descargar juegos, revistas y otras formas de contenido a través de emisiones vía satélite proporcionadas por la compañía japonesa St.GIGA. Para utilizar Satellaview, los jugadores tenían que comprar un sintonizador especial de satélite (BS) directamente de St.GIGA o alquilar uno por una cuota de seis meses, y pagar cuotas mensuales de mantenimiento tanto a St.GIGA como a Nintendo.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Satellaview est un périphérique qui a servi de modem satellite pour le système Super Famicom de Nintendo sorti au Japon en 1995.</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="de">
+<text>Das Satellaview war eine Erweiterung des Super Famicom, die nur in Japan vertrieben wurde. Das System bot einige zusätzliche technische Möglichkeiten sowie einen Service zum Herunterladen von Spielen, Codes und Informationen. Alle Daten wurden über eine Satelliten-TV-Station übertragen.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt">
-			<text>O Satellaview é um periférico que funcionava como um modem via satélite para o sistema Super Famicom da Nintendo que foi lançado em Japão em 1995.</text>
-		</text>	
+<text name="system_description" extra="true" lang="es">
+<text>El Satellaview es una extensión de la Super Famicom, comercializada únicamente en Japón. Este sistema ofrecía algunas capacidades técnicas adicionales, así como un servicio de descarga de juegos, códigos e información. Todos los datos se enviaban a través de una estación de televisión por satélite.</text>
+</text>
 
-		
-						
+<text name="system_description" extra="true" lang="it">
+<text>Il Satellaview è un'estensione del Super Famicom, commercializzato solo in Giappone. Questo sistema offriva alcune funzionalità tecniche aggiuntive e un servizio di download di giochi, codici e informazioni. Tutti i dati venivano inviati attraverso una stazione televisiva satellitare.</text>
+</text>
 
-		</view>
+<text name="system_description" extra="true" lang="ja">
+<text>サテラビューは、日本でのみ販売されたスーパーファミコンの拡張版である。このシステムは、ゲーム、コード、情報のダウンロードサービスだけでなく、いくつかの追加の技術的機能を提供しました。すべてのデータは衛星テレビ局を通じて送信されました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Satellaview is een uitbreiding van de Super Famicom, die alleen in Japan op de markt werd gebracht. Dit systeem bood enkele extra technische mogelijkheden en een downloaddienst voor spelletjes, codes en informatie. Alle gegevens werden verzonden via een satelliet TV station.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Satellaview to rozszerzenie Super Famicom, sprzedawane tylko w Japonii. System ten zapewniał pewne dodatkowe możliwości techniczne, a także usługę pobierania gier, kodów i informacji. Wszystkie dane były przesyłane za pośrednictwem satelitarnej stacji telewizyjnej.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Satellaview é uma extensão da Super Famicom, comercializada apenas no Japão. Este sistema forneceu algumas capacidades técnicas adicionais, bem como um serviço de download de jogos, códigos e informações. Todos os dados foram enviados através de uma estação de televisão por satélite.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Satellaview - это продолжение Super Famicom, продававшееся только в Японии. Эта система предоставляла некоторые дополнительные технические возможности, а также услугу загрузки игр, кодов и информации. Все данные передавались через спутниковую телевизионную станцию.</text>
+</text>
+
+</view>
 </theme>

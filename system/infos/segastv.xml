@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>The ST-V, or Sega Titan Video Game System, is a JAMMA format arcade card released in 1994. Its architecture, similar to that of the Saturn console, made it possible to reduce the development costs of the system and the games, making identical conversions between the two platforms.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le ST-V, ou Sega Titan Video Game System, est une carte d'arcade au format JAMMA sortie en 1994. Son architecture, similaire à celle de la console Saturn permettait de réduire les coûts de développement du système et des jeux, réalisant des conversions à l'identique entre les deux plates-formes.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Das ST-V, oder Sega Titan Video Game System, ist eine Arcade-Karte im JAMMA-Format, die 1994 veröffentlicht wurde. Seine Architektur, die der der Saturn-Konsole ähnelte, ermöglichte es, die Kosten für die Entwicklung des Systems und der Spiele zu senken, indem sie identische Konvertierungen zwischen den beiden Plattformen durchführte.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El ST-V, o Sega Titan Video Game System, es una tarjeta arcade con formato JAMMA lanzada en 1994. Su arquitectura, similar a la de la consola Saturn, permitió reducir los costes de desarrollo del sistema y de los juegos, realizando conversiones idénticas entre ambas plataformas.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'ST-V, o Sega Titan Video Game System, è una scheda arcade in formato JAMMA uscita nel 1994. La sua architettura, simile a quella della console Saturn, ha permesso di ridurre i costi di sviluppo del sistema e dei giochi, realizzando conversioni identiche tra le due piattaforme.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ST-V（Sega Titan Video Game System）は、1994年に発売されたJAMMAフォーマットのアーケードカードである。サターンのゲーム機と同様のアーキテクチャを採用したことで、システムおよびゲームの開発コストを削減し、2つのプラットフォーム間で同一のコンバージョンを作ることが可能になりました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De ST-V, of Sega Titan Video Game System, is een in 1994 uitgebrachte arcadekaart in JAMMA-formaat. Zijn architectuur, vergelijkbaar met die van de Saturn-console, maakte het mogelijk de ontwikkelingskosten van het systeem en de spelletjes te drukken, waardoor identieke conversies tussen de twee platforms mogelijk werden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>ST-V, czyli Sega Titan Video Game System, to karta arcade w formacie JAMMA wydana w 1994 roku. Jej architektura, podobna do tej z konsoli Saturn, pozwoliła na obniżenie kosztów rozwoju systemu i gier, dzięki czemu dokonano identycznych konwersji pomiędzy obiema platformami.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O ST-V, ou Sega Titan Video Game System, é um cartão arcade em formato JAMMA lançado em 1994. A sua arquitectura, semelhante à da consola de Saturno, permitiu reduzir os custos de desenvolvimento do sistema e dos jogos, fazendo conversões idênticas entre as duas plataformas.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>ST-V, или Sega Titan Video Game System, - это аркадная карта формата JAMMA, выпущенная в 1994 году. Ее архитектура, схожая с архитектурой консоли Saturn, позволила снизить стоимость разработки системы и игр, сделав идентичные конверсии между двумя платформами.</text>
+</text>
+
+</view>
 </theme>

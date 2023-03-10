@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>The SAM Coupe is a British 8-bit personal computer. It was originally manufactured by Miles Gordon Technology (MGT), located in Swansea, UK. The microprocessor is a Zilog Z80B clocked at 6 MHz. Production of this computer ended around 1995 and 12,000 were sold.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le SAM Coupé est un ordinateur personnel 8 bits britannique. Il a été fabriqué à l'origine par Miles Gordon Technology (MGT), situé à Swansea au Royaume-Uni. Le microprocesseur est un Zilog Z80B cadencé à 6 MHz. La production de cet ordinateur a pris fin vers 1995 et il a été vendu à 12 000 exemplaires.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Der SAM Coupé ist ein britischer 8-Bit-Personalcomputer. Er wurde ursprünglich von Miles Gordon Technology (MGT) mit Sitz in Swansea, Großbritannien, hergestellt. Der Mikroprozessor ist ein Zilog Z80B mit einer Taktfrequenz von 6 MHz. Die Produktion des Computers endete etwa 1995 und er wurde 12.000 Mal verkauft.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El SAM Coupe es un ordenador personal británico de 8 bits. Fue fabricado originalmente por Miles Gordon Technology (MGT), con sede en Swansea (Reino Unido). El microprocesador es un Zilog Z80B a 6 MHz. La producción de este ordenador finalizó alrededor de 1995 y se vendieron 12.000 unidades.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il SAM Coupe è un personal computer britannico a 8 bit. È stato originariamente prodotto da Miles Gordon Technology (MGT), con sede a Swansea, Regno Unito. Il microprocessore è uno Zilog Z80B con clock a 6 MHz. La produzione di questo computer è terminata intorno al 1995 e ne sono stati venduti 12.000 esemplari.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>SAM Coupeは、イギリスの8ビットパーソナルコンピュータである。元々はイギリスのスウォンジーにあったマイルズ・ゴードン・テクノロジー（MGT）社で製造されていました。マイクロプロセッサはZilog Z80Bで、クロックは6MHzである。このコンピュータの生産は1995年頃に終了し、12,000台が販売されました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De SAM Coupe is een Britse 8-bit personal computer. Hij werd oorspronkelijk vervaardigd door Miles Gordon Technology (MGT), gevestigd in Swansea, Verenigd Koninkrijk. De microprocessor is een Zilog Z80B geklokt op 6 MHz. De productie van deze computer eindigde rond 1995 en er werden er 12.000 van verkocht.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>SAM Coupe to brytyjski 8-bitowy komputer osobisty. Został on pierwotnie wyprodukowany przez firmę Miles Gordon Technology (MGT) z siedzibą w Swansea w Wielkiej Brytanii. Mikroprocesor to Zilog Z80B taktowany zegarem o częstotliwości 6 MHz. Produkcja tego komputera zakończyła się około 1995 roku, sprzedano 12 000 sztuk.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O SAM Coupe é um computador pessoal britânico de 8 bits. Foi originalmente fabricado por Miles Gordon Technology (MGT), localizado em Swansea, Reino Unido. O microprocessador é um Zilog Z80B com relógio a 6 MHz. A produção deste computador terminou por volta de 1995 e 12.000 foram vendidos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>SAM Coupe - это британский 8-битный персональный компьютер. Первоначально он был произведен компанией Miles Gordon Technology (MGT), расположенной в Суонси, Великобритания. Микропроцессор - Zilog Z80B с тактовой частотой 6 МГц. Производство этого компьютера закончилось около 1995 года, было продано 12 000 штук.</text>
+</text>
+
+</view>
 </theme>

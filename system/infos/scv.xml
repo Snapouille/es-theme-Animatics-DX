@@ -4,20 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>The Super Cassette Vision is a home video game console made by Epoch Co. and released in Japan on July 17, 1984, and in Europe, specifically France, later in 1984. A successor to the Cassette Vision, it competed with Nintendo's Family Computer and Sega's SG-1000 line in Japan. </text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>Super Cassette Vision es una consola de videojuegos hecha por Epoch Co. y lanzada en Japón el 17 de julio de 1984, y en Europa, específicamente en Francia, más tarde en 1984. Sucesor de Cassette Vision, compitió con la Family Computer de Nintendo y el SG-1000 de Sega en Japón. </text>
-		</text>
-		
-				
+<text name="system_description" extra="true">
+<text>The Super Cassette Vision is a home video game console manufactured and marketed in Japan and Europe. The successor to the Cassette Vision, it competed with Nintendo's Family Computer and Sega's SG-1000 series in Japan. This system is not compatible with the Epoch Cassette Vision cartridges.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="fr">
+<text>La Super Cassette Vision est une console de jeu vidéo de salon fabriquée et commercialisée au Japon et en Europe. Succédant à la Cassette Vision, elle était en concurrence avec le Family Computer de Nintendo et la gamme SG-1000 de Sega au Japon. Ce système n'est pas compatible avec les cartouches de la Epoch Cassette Vision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die Super Cassette Vision ist eine Videospielkonsole für den Heimgebrauch, die in Japan und Europa hergestellt und vertrieben wurde. Als Nachfolger der Cassette Vision konkurrierte sie in Japan mit dem Family Computer von Nintendo und der SG-1000-Reihe von Sega. Dieses System war nicht mit den Kassetten der Epoch Cassette Vision kompatibel.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La Super Cassette Vision es una videoconsola doméstica fabricada y comercializada en Japón y Europa. Sucesora de la Vision Cassette, compitió en Japón con la Family Computer de Nintendo y la serie SG-1000 de Sega. Este sistema no es compatible con los cartuchos Epoch Cassette Vision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Super Cassette Vision è una console per videogiochi domestica prodotta e commercializzata in Giappone e in Europa. Successore della Vision Cassette, in Giappone competeva con il Family Computer di Nintendo e la serie SG-1000 di Sega. Questa console non è compatibile con le cartucce Epoch Cassette Vision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>スーパーカセットビジョンは、日本とヨーロッパで製造・販売された家庭用ゲーム機である。ビジョンカセットの後継機で、日本では任天堂のファミリーコンピュータやセガのSG-1000シリーズと競合した。エポック社製カセットビジョンのカートリッジとは互換性がない。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Super Cassette Vision is een in Japan en Europa vervaardigde en in de handel gebrachte spelcomputer voor thuisgebruik. Als opvolger van de Vision Cassette concurreerde het met de Family Computer van Nintendo en de SG-1000-serie van Sega in Japan. Dit systeem is niet compatibel met de Epoch Cassette Vision cartridges.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Super Cassette Vision to domowa konsola do gier wideo produkowana i sprzedawana w Japonii i Europie. Następca Vision Cassette, konkurował z Nintendo's Family Computer i Sega's SG-1000 series w Japonii. System ten nie jest kompatybilny z kartridżami Epoch Cassette Vision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Super Cassette Vision é uma consola de videojogos doméstica fabricada e comercializada no Japão e na Europa. Sucessor do Vision Cassette, competiu com o Computador Familiar da Nintendo e a série SG-1000 da Sega no Japão. Este sistema não é compatível com os cartuchos da Epoch Cassette Vision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Super Cassette Vision - это домашняя игровая консоль, производимая и продаваемая в Японии и Европе. Преемница Vision Cassette, она конкурировала в Японии с семейным компьютером Nintendo и серией SG-1000 от Sega. Эта система не совместима с картриджами Epoch Cassette Vision.</text>
+</text>
+
+</view>
 </theme>

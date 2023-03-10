@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-
-		
-				<text name="system_description" extra="true">
-			<text>Script Creation Utility for Maniac Mansion Virtual Machine (ScummVM) is a set of game engine recreations. Originally designed to play LucasArts adventure games that use the SCUMM system.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>ScummVM (Scumm Virtual Machine, máquina virtual de Scumm en español) es un programa informático que permite ejecutar las aventuras gráficas creadas originalmente para el motor SCUMM de LucasArts.
-
-ScummVM también soporta una variedad de juegos que no utilizan el motor SCUMM, realizados por compañías como Revolution Software o Adventure Soft.
+<text name="system_description" extra="true">
+<text>Abbreviation for "Script Creation Utility for Maniac Mansion". SCUMM is a game engine designed by programmers Ron Gilbert and Aric Wilmunder to facilitate the creation of adventure games and port them to different platforms. ScummVM is a virtual machine that allows you to play games that use the SCUMM system.</text>
 </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>ScummVM est une machine virtuelle qui permet de jouer aux jeux qui utilisent le système SCUMM (comme les jeux d'aventure de LucasArts) sur des plates-formes autres que celles originellement supportées par le jeu.</text>
-		</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>ScummVM é um software/máquina virtual que visa oferecer suporte para jogos antigos da Lucas Arts. Tais jogos são incompatíveis com os sistemas operacionais de hoje pois fazem exigências exóticas sobre memória.</text>
-		</text>
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Abréviation de "Script Creation Utility for Maniac Mansion". SCUMM est un moteur de jeux conçu par les programmeurs Ron Gilbert et Aric Wilmunder afin de faciliter la création de jeux d'aventure et de les porter sur différentes plateformes. ScummVM est une machine virtuelle qui permet de jouer aux jeux qui utilisent le système SCUMM.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Abkürzung für "Script Creation Utility for Maniac Mansion". SCUMM ist eine Spiele-Engine, die von den Programmierern Ron Gilbert und Aric Wilmunder entwickelt wurde, um die Entwicklung von Abenteuerspielen zu erleichtern und sie auf verschiedene Plattformen zu portieren. ScummVM ist eine virtuelle Maschine, mit der Spiele gespielt werden können, die das SCUMM-System verwenden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Abreviatura de "Script Creation Utility for Maniac Mansion". SCUMM es un motor de juegos diseñado por los programadores Ron Gilbert y Aric Wilmunder para facilitar la creación de juegos de aventuras y portarlos a distintas plataformas. ScummVM es una máquina virtual que permite jugar a juegos que utilizan el sistema SCUMM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Abbreviazione di "Script Creation Utility for Maniac Mansion". SCUMM è un motore di gioco progettato dai programmatori Ron Gilbert e Aric Wilmunder per facilitare la creazione di giochi di avventura e portarli su diverse piattaforme. ScummVM è una macchina virtuale che permette di giocare a giochi che utilizzano il sistema SCUMM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Script Creation Utility for Maniac Mansion（マニアックマンション用スクリプト作成ユーティリティ）」の略。SCUMMは、プログラマーのRon GilbertとAric Wilmunderがアドベンチャーゲームの制作を容易にし、様々なプラットフォームに移植するために設計したゲームエンジンである。ScummVMは、SCUMMシステムを使用したゲームをプレイできるようにする仮想マシンである。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Afkorting voor "Script Creation Utility for Maniac Mansion". SCUMM is een game engine ontworpen door de programmeurs Ron Gilbert en Aric Wilmunder om het maken van avonturenspellen te vergemakkelijken en ze te porten naar verschillende platforms. ScummVM is een virtuele machine waarmee je spellen kunt spelen die het SCUMM-systeem gebruiken.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Skrót od "Script Creation Utility for Maniac Mansion". SCUMM to silnik gry zaprojektowany przez programistów Rona Gilberta i Arica Wilmundera w celu ułatwienia tworzenia gier przygodowych i przenoszenia ich na różne platformy. ScummVM to maszyna wirtualna, która pozwala grać w gry wykorzystujące system SCUMM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Abreviatura de "Script Creation Utility for Maniac Mansion". SCUMM é um motor de jogo concebido pelos programadores Ron Gilbert e Aric Wilmunder para facilitar a criação de jogos de aventura e transportá-los para diferentes plataformas. ScummVM é uma máquina virtual que lhe permite jogar jogos que utilizam o sistema SCUMM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Аббревиатура от "Script Creation Utility for Maniac Mansion". SCUMM - это игровой движок, разработанный программистами Роном Гилбертом и Ариком Вилмундером для облегчения создания приключенческих игр и переноса их на различные платформы. ScummVM - это виртуальная машина, позволяющая играть в игры, использующие систему SCUMM.</text>
+</text>
+
+</view>
 </theme>

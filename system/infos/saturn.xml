@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Saturn (セガサターン) features an architecture incorporating eight processors, including two microprocessors, two graphics processors and two dedicated to audio. It receives a very mixed reception from observers and gamers. Its complex architecture making it difficult to program is one of the factors of the console's poor results.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The Sega Saturn is a home video game console developed by Sega and released on November 22, 1994 in Japan, May 11, 1995 in North America, and July 8, 1995 in Europe. Part of the fifth generation of video game consoles, it was the successor to the successful Sega Genesis.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Sega Saturn es la quinta videoconsola de sobremesa producida por Sega. Fue desarrollada para suceder a la Mega Drive y competir contra la 3DO Interactive Multiplayer, Atari Jaguar, Neo Geo CD, PlayStation, y más adelante Nintendo 64, entre otras.
+<text name="system_description" extra="true" lang="fr">
+<text>La Saturn (セガサターン) est  dotée d'une architecture intégrant huit processeurs, dont deux microprocesseurs, deux processeurs graphiques et deux dédiés à l'audio. Elle reçoit un accueil très partagé des observateurs et des joueurs. Son architecture complexe rendant sa programmation difficile est un des facteurs des mauvais résultats de la console.</text>
+</text>
 
-Fue lanzada al mercado en noviembre de 1994 en Japón, y en mayo de 1995 en Norteamérica. Se vendieron 170.000 máquinas el primer día de venta en Japón, siendo sacada anticipadamente para intentar imponerse a la PlayStation de Sony. Esto propició que hubiese muy pocos juegos desarrollados para el día de su estreno y que la calidad de estos no reflejaran las verdaderas capacidades de la máquina. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Saturn ou Sega Saturn (セガサターン, Sega Satān) est une console de jeux vidéo de cinquième génération commercialisée par Sega. Quatrième console de salon conçue par l'entreprise japonaise, succédant à la Mega Drive, elle sort le 22 novembre 1994 au Japon, le 11 mai 1995 en Amérique du Nord et le 8 juillet 1995 en Europe. Concurrente de la Sony PlayStation.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Saturn (セガサターン) verfügt über eine Architektur mit acht integrierten Prozessoren, darunter zwei Mikroprozessoren, zwei Grafikprozessoren und zwei dedizierte Audioprozessoren. Sie wird von Beobachtern und Spielern sehr unterschiedlich aufgenommen. Ihre komplexe Architektur, die die Programmierung erschwert, ist einer der Faktoren für die schlechten Ergebnisse der Konsole.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Sega Saturn foi um console de videogame da quinta geração com 32 bits, lançado pela empresa Sega em 22 de Novembro de 1994 no Japão. Meses depois foi lançado em outros países em: 11 de Maio de 1995 na América do Norte, 30 de agosto de 1995 no Brasil e, 8 de Julho na Europa. </text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La Saturn (セガサターン) presenta una arquitectura que incorpora ocho procesadores, incluidos dos microprocesadores, dos procesadores gráficos y dos dedicados al audio. Recibe una acogida muy desigual por parte de observadores y jugadores. Su compleja arquitectura, que dificulta su programación, es uno de los factores de los malos resultados de la consola.</text>
+</text>
 
-		
-		
-				
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il Saturn (セガサターン) presenta un'architettura che incorpora otto processori, di cui due microprocessori, due processori grafici e due dedicati all'audio. Riceve un'accoglienza molto contrastante da parte di osservatori e giocatori. La sua complessa architettura, che la rende difficile da programmare, è uno dei fattori degli scarsi risultati della console.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>サターン（セガサターン）は、2つのマイクロプロセッサ、2つのグラフィックプロセッサ、2つのオーディオ専用プロセッサを含む、8つのプロセッサを組み込んだアーキテクチャを採用しています。そのため、ユーザーやゲーマーからは賛否両論があった。その複雑なアーキテクチャがプログラミングを難しくしていることが、このゲーム機の不調の要因の一つである。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Saturn (セガサターン) heeft een architectuur met acht processors, waaronder twee microprocessors, twee grafische processors en twee voor audio. Hij krijgt een zeer gemengde ontvangst van waarnemers en gamers. De complexe architectuur waardoor hij moeilijk te programmeren is, is een van de factoren van de slechte resultaten van de console.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Saturn (セガサターン) posiada architekturę zawierającą osiem procesorów, w tym dwa mikroprocesory, dwa procesory graficzne i dwa dedykowane dla audio. Otrzymuje bardzo mieszane przyjęcie od obserwatorów i graczy. Jej skomplikowana architektura utrudniająca programowanie jest jednym z czynników słabych wyników konsoli.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Saturno (セガサターン) apresenta uma arquitectura que incorpora oito processadores, incluindo dois microprocessadores, dois processadores gráficos e dois dedicados ao áudio. Recebe uma recepção muito mista de observadores e gamers. A sua arquitectura complexa que torna difícil a programação é um dos factores de maus resultados da consola.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Saturn (セガサターン) имеет архитектуру, включающую восемь процессоров, в том числе два микропроцессора, два графических процессора и два, предназначенных для аудио. Она получила очень неоднозначную оценку от обозревателей и геймеров. Ее сложная архитектура, затрудняющая программирование, является одним из факторов низких результатов консоли.</text>
+</text>
+
+</view>
 </theme>
