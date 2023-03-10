@@ -224,16 +224,18 @@ originally based on: "carbon"
       <fontSize>0.02</fontSize>
       <color>${groupColor}</color>
     </menuTextSmall>
-    <menuGroup name="menugroup">
-      <fontPath>./art/fonts/ubuntu-bold.ttf</fontPath>
-      <fontSize>0.028</fontSize>
-      <color>${groupColor}</color>
-      <separatorColor>${groupSeparatorColor}</separatorColor>
-      <backgroundColor>00000000</backgroundColor>
-      <lineSpacing>2.5</lineSpacing>
+	
+	<menuGroup name="menugroup">
+      <fontPath>./art/fonts/flatwheat.ttf</fontPath> 
+      <fontSize>0.023</fontSize>
+      <color>4075D8C5</color>
+      <separatorColor>${groupSeparatorColor}</separatorColor>    
+      <backgroundColor>${glowColor}</backgroundColor>
+      <lineSpacing>2.7</lineSpacing>
     </menuGroup>
+	
     <menuBackground name="menubg">
-      <color>242424</color>
+      <color>242424ee</color>
       <cornerSize>32 32</cornerSize>
       <path>./art/divers/frame.png</path>
       <scrollbarColor>96969620</scrollbarColor>
@@ -241,6 +243,7 @@ originally based on: "carbon"
       <scrollbarSize>0.003</scrollbarSize>
       <scrollbarAlignment>innerright</scrollbarAlignment>
     </menuBackground>
+	
     <menuIcons name="menuicons">
       <iconKodi>./art/icons/Kodi.png</iconKodi>
       <iconSystem>./art/icons/System.png</iconSystem>
