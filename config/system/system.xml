@@ -443,10 +443,11 @@ originally based on: "carbon"
 	
 		<text name="systemInfoEx" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false" extra="true">
 			<storyboard>
-				<animation property="offsetX" to="0.05"/>
-				<animation property="offsetY" to="-0.005"/>
+				<animation property="offsetX" to="0.01"/>
+				<animation property="offsetY" to="-0.03"/>
 				<animation property="opacity" to="0"/>
 				<animation property="opacity" from="0" to="1" begin="700" duration="300" mode="Linear"/>
+				
 			</storyboard>
 		</text>
 		
@@ -455,8 +456,8 @@ originally based on: "carbon"
 		<!-- Placement des stats détaillés avec la HelpPrompts -->
 		<text name="systemInfoEx" ifSubset="InfoCustomView:detailed" ifHelpPrompts="true" extra="true">
 			<storyboard>
-				<animation property="offsetX" to="0.03"/>
-				<animation property="offsetY" to="0.045"/>
+				<animation property="offsetX" to="0.01"/>
+				<animation property="offsetY" to="0.04"/>
 				<animation property="opacity" to="0"/>
 				<animation property="opacity" from="0" to="1" begin="300" duration="1300" mode="linear"/>
 			</storyboard>

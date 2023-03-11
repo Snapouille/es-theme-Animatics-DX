@@ -133,7 +133,6 @@ originally based on: "carbon"
 <subset name="SystemView" displayName="${systemViewName}">
     <include name="vertical"  displayName="${systemview.vertical}">./config/system/systemview/vertical.xml</include>
 	<include name="horizontal"  displayName="${systemview.horizontal}">./config/system/systemview/horizontal.xml</include>
-	<!-- <include name="vertical arts"  displayName="${systemview.vertical2}">./config/system/systemview/vertical2.xml</include> -->
     <include name="wheel" displayName="${systemview.wheel}">./config/system/systemview/wheel.xml</include>
 	<include name="simple" displayName="${systemview.simple}">./config/system/systemview/simple.xml</include>
 </subset>
