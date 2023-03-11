@@ -49,7 +49,9 @@ originally based on: "carbon"
     <systemview.vertical>vertical</systemview.vertical>
     <systemview.wheel>wheel</systemview.wheel>
     <colored>Colored</colored>
+	<subset.region>Region</subset.region>
     <subset.colorset>Colorset</subset.colorset>
+	<InfoCustomView>Infos / Statistics</InfoCustomView>
     <subset.shader>Shader</subset.shader>
     <glowSubsetName>Glow selection</glowSubsetName>
     <helpbuttons>Button location</helpbuttons>
