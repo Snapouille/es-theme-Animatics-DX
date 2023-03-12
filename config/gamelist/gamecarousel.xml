@@ -162,15 +162,32 @@ originally based on: "carbon"
     </text>
 	
 	
-	
+	<text name="md_name">
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>
+         <size>0.8 0.08</size>
+         <color>ffffff</color>
+         <pos>0.18 0.09</pos>
+         <fontPath>./../../art/fonts/flatwheat.ttf</fontPath>
+         <fontSize>0.03</fontSize>
+         <origin>0 0</origin>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>502</zIndex>
+         <singleLineScroll>true</singleLineScroll>
+         <backgroundColor>ff000000</backgroundColor>
+    </text>
 	
 	
 	<text name="md_developer">
 	  <origin>0 0</origin>
 	  <color>928e94D0</color>
 	  <size>0.25 0.03</size>
-	  <pos>0.18 0.097</pos>
+	  <pos>0.143 0.69</pos>
+	  <rotation>-90</rotation>
 	</text>
+	
 	
 	<text name="md_genre">
 	  <visible>true</visible>
