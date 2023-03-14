@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The PlayStation Classic (プレイステーション クラシック) is a dedicated video game console modelled on the manufacturer's first console, the PlayStation, released in 1994. It is released on December 3, 2018, which corresponds to the 24th anniversary of the Japanese release of the original PlayStation.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Is a home video game console developed by Sony Computer Entertainment. The console was the first of the PlayStation lineup of home video game consoles as part of the fifth generation of video game consoles.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>PlayStation oficialmente abreviada como PS1 o PSX es la primera videoconsola de Sony. Lanzada el 3 de diciembre de 1994 en Japón, el 9 de septiembre de 1995 en Estados Unidos y el 29 de septiembre de 1995 en Europa. Se considera la videoconsola más exitosa de la quinta generación tanto en ventas como en popularidad.
+<text name="system_description" extra="true" lang="fr">
+<text>La PlayStation Classic (プレイステーション クラシック) est une console de jeux vidéo dédiée sur le modèle de la première console du constructeur, la PlayStation, sortie en 1994. Elle sort le 3 décembre 2018, ce qui correspond au 24e anniversaire de la sortie japonaise de la PlayStation originale.</text>
+</text>
 
-Tuvo gran éxito al implantar el CD-ROM a pesar de que otras compañías ya lo habían hecho. A finales de los 80, Nintendo acordó con Sony desarrollar para Super Nintendo un perférico que cargara juegos en disco. Finalmente, Nintendo y Sony no llegaron a un acuerdo y esta última decidió lanzar la consola que todos conocemos. Se estima que Sony pudo vender 105 millones de unidades en diez años.  </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La PlayStation (プレイステーション) est une console de jeux vidéo de cinquième génération, produite par Sony Computer Entertainment à partir de 1994. Première machine de la gamme PlayStation.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die PlayStation Classic (プレイステーション クラシック) ist eine dedizierte Videospielkonsole nach dem Vorbild der ersten Konsole des Herstellers, der PlayStation, die 1994 veröffentlicht wurde. Sie wird am 3. Dezember 2018 veröffentlicht, was dem 24. Jahrestag der japanischen Veröffentlichung der ursprünglichen PlayStation entspricht.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Foi o primeiro console de vídeo game fabricado pela Sony, desde o seu lançamento vendeu mais de 100 milhões de unidades. Ocupa a posição de segundo console de mesa mais vendido de todos os tempos.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La PlayStation Classic (プレイステーション クラシック) es una videoconsola dedicada calcada de la primera consola del fabricante, la PlayStation, lanzada en 1994. Sale a la venta el 3 de diciembre de 2018, que se corresponde con el 24 aniversario del lanzamiento japonés de la PlayStation original.</text>
+</text>
 
-		
-						
+<text name="system_description" extra="true" lang="it">
+<text>La PlayStation Classic (プレイステーション クラシック) è una console per videogiochi dedicata che ricalca la prima console del produttore, la PlayStation, uscita nel 1994. È stata rilasciata il 3 dicembre 2018, data che corrisponde al 24° anniversario dell'uscita giapponese della PlayStation originale.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>プレイステーション クラシック」（PlayStation Classic）は、1994年に発売されたメーカー初のゲーム機「プレイステーション」をモデルとしたゲーム専用機です。初代「プレイステーション」の日本発売から24年目に当たる2018年12月3日に発売されます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De PlayStation Classic (プレイテーション クラシック) is een speciale videogameconsole naar het model van de eerste console van de fabrikant, de PlayStation, die in 1994 werd uitgebracht. Het is uitgebracht op 3 december 2018, wat overeenkomt met de 24e verjaardag van de Japanse release van de originele PlayStation.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>PlayStation Classic (プレイステーション クラシック) to dedykowana konsola do gier wideo wzorowana na pierwszej konsoli producenta, PlayStation, wydanej w 1994 roku. Został wydany 3 grudnia 2018 roku, co odpowiada 24. rocznicy japońskiego wydania oryginalnego PlayStation.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A PlayStation Classic (プレイステーション クラシック) é uma consola de videojogos dedicada, modelada na primeira consola do fabricante, a PlayStation, lançada em 1994. É lançada a 3 de Dezembro de 2018, o que corresponde ao 24º aniversário do lançamento japonês da PlayStation original.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>PlayStation Classic (プレイステーション クラシック) - это специализированная игровая консоль, созданная на основе первой консоли производителя, PlayStation, выпущенной в 1994 году. Она выпущена 3 декабря 2018 года, что соответствует 24-й годовщине японского релиза оригинальной PlayStation.</text>
+</text>
+
+</view>
 </theme>

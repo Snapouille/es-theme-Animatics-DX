@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
-		
-				<text name="system_description" extra="true">
-			<text>PSP is a handheld game console developed by Sony Computer Entertainment. Development of the handheld was announced during E3 2003 and it was unveiled on May 11, 2004, at a Sony press conference before E3 2004.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>PSP es una videoconsola portátil de la multinacional de origen japonés, Sony Computer Entertainment, para videojuegos y multimedia. Se trata de la primera consola portátil a nivel mundial de Sony.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>PlayStation Portable (プレイステーション・ポータブル) est la première console de jeux vidéo portable de Sony, commercialisée entre 2004 et 2014. Elle marque un tournant dans l'histoire des consoles portables car elle propose une qualité d'image et des capacités générales approchant celles de la PlayStation 2, une console de salon.</text>
-		</text>
+<text name="system_description" extra="true">
+<text>The PlayStation Portable (プレイステーション・ポータブル), more commonly abbreviated as PSP, is Sony's first portable video game console, released between 2004 and 2015. It marks a turning point in the history of portable consoles as it offers image quality and general capabilities approaching those of the PlayStation 2, a home console.</text>
+</text>
 
-			<text name="system_description" extra="true" lang="pt">
-			<text>Também conhecido pela sigla PSP, é um console portátil de videogames da família PlayStation desenvolvido pela Sony Computer Entertainment. Seu principal concorrente é o Nintendo DS, console portátil da Nintendo.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La PlayStation Portable (プレイステーション・ポータブル) plus communément abrégé en PSP est la première console de jeux vidéo portable de Sony, commercialisée entre 2004 et 2015. Elle marque un tournant dans l'histoire des consoles portables car elle propose une qualité d'image et des capacités générales approchant celles de la PlayStation 2, une console de salon.</text>
+</text>
 
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Die PlayStation Portable (プレイステーション・ポータブル), allgemein als PSP abgekürzt, ist die erste tragbare Videospielkonsole von Sony, die zwischen 2004 und 2015 auf den Markt gebracht wurde. Sie stellt einen Wendepunkt in der Geschichte der tragbaren Konsolen dar, da sie eine Bildqualität und allgemeine Fähigkeiten bietet, die sich denen der PlayStation 2, einer Heimkonsole, annähern.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La PlayStation Portable (プレイステーション・ポータブル), más comúnmente abreviada como PSP, es la primera videoconsola portátil de Sony, lanzada entre 2004 y 2015. Marca un punto de inflexión en la historia de las consolas portátiles, ya que ofrece una calidad de imagen y unas capacidades generales que se acercan a las de la PlayStation 2, una consola doméstica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>La PlayStation Portable (プレイステーション・ポータブル), più comunemente abbreviata in PSP, è la prima console portatile per videogiochi di Sony, rilasciata tra il 2004 e il 2015. Ha segnato un punto di svolta nella storia delle console portatili, in quanto offre una qualità dell'immagine e capacità generali che si avvicinano a quelle della PlayStation 2, una console domestica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>プレイステーション・ポータブル（PlayStation Portable）、通称PSPは、2004年から2015年にかけて発売されたソニー初の携帯ゲーム機である。家庭用ゲーム機である「プレイステーション2」に迫る画質と総合力を備え、携帯ゲーム機の歴史に大きな転換点をもたらした。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De PlayStation Portable (プレイテーション・ポータブル), meestal afgekort als PSP, is de eerste draagbare videogameconsole van Sony die tussen 2004 en 2015 werd uitgebracht. Het vormt een keerpunt in de geschiedenis van draagbare consoles omdat het een beeldkwaliteit en algemene mogelijkheden biedt die die van de PlayStation 2, een thuisconsole, benaderen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>PlayStation Portable (プレイステーション・ポータブル), częściej oznaczane skrótem PSP, to pierwsza przenośna konsola do gier wideo firmy Sony, wydawana w latach 2004-2015. Stanowi punkt zwrotny w historii przenośnych konsol, ponieważ oferuje jakość obrazu i ogólne możliwości zbliżone do tych z PlayStation 2, konsoli domowej.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A PlayStation Portable (プレイステーション・ポータブル), mais comummente abreviada como PSP, é a primeira consola de videojogos portátil da Sony, lançada entre 2004 e 2015. Marca um ponto de viragem na história das consolas portáteis, pois oferece qualidade de imagem e capacidades gerais que se aproximam das da PlayStation 2, uma consola doméstica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>PlayStation Portable (プレイステーション・ポータブル), чаще сокращенно PSP, - первая портативная игровая консоль компании Sony, выпущенная в период с 2004 по 2015 год. Она стала поворотным моментом в истории портативных консолей, поскольку по качеству изображения и общим возможностям приближалась к домашней консоли PlayStation 2.</text>
+</text>
+
+</view>
 </theme>
-

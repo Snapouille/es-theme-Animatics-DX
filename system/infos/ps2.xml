@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
+<text name="system_description" extra="true">
+<text>The PlayStation 2 (officially abbreviated to PS2) competed with Sega's Dreamcast, Nintendo's GameCube and Microsoft's Xbox. It was an immediate success, selling a million units in a few days in Japan. It is the best-selling home console in the history of video games.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The PlayStation 2 (PS2) is a home video game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on March 4, 2000, in North America on October 26, 2000, in Europe on November 24, 2000, and Australia on November 24, 2000. It is the successor to the original PlayStation, as well as the second installment in the PlayStation console line-up.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La PlayStation 2 (abrégé officiellement PS2) était en concurrence avec la Dreamcast de Sega, la GameCube de Nintendo et la Xbox de Microsoft. Elle a connu un succès immédiat avec un million d'exemplaires vendus en quelques jours au Japon. Elle est la console de salon la plus vendue de l'histoire des jeux vidéo.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>La PlayStation 2 (oficialmente abreviada como PS2) es la segunda videoconsola de sobremesa producida por Sony Computer Entertainment, y la sucesora de la PlayStation 1 (PSX).
+<text name="system_description" extra="true" lang="de">
+<text>Die PlayStation 2 (offiziell abgekürzt PS2) konkurrierte mit der Dreamcast von Sega, dem GameCube von Nintendo und der Xbox von Microsoft. Sie war ein sofortiger Erfolg und verkaufte in Japan innerhalb weniger Tage eine Million Exemplare. Sie ist die meistverkaufte Heimkonsole in der Geschichte der Videospiele.</text>
+</text>
 
-Fue lanzada por primera vez el 4 de marzo del año 2000 en Japón, y unos meses después en el resto del mundo. Es la videoconsola más vendida de la historia, con más de 160 millones de unidades vendidas. Esta consola es también la que más títulos posee, aproximadamente 3870 títulos, seguida por su predecesora la PlayStation con unos 2500 títulos. </text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La PlayStation 2 (abreviada oficialmente como PS2) compitió con la Dreamcast de Sega, la GameCube de Nintendo y la Xbox de Microsoft. Fue un éxito inmediato, vendiendo un millón de unidades en pocos días en Japón. Es la consola doméstica más vendida de la historia de los videojuegos.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>La PlayStation 2 (abrégé officiellement PS2) est une console de jeux vidéo de sixième génération commercialisée par Sony Computer Entertainment, filiale de Sony. Elle est sortie le 4 mars 2000 au Japon, le 26 octobre 2000 en Amérique du Nord, le 24 novembre 2000 en Europe et le 30 novembre 2000 en Australie.</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>La PlayStation 2 (ufficialmente abbreviata in PS2) è entrata in competizione con il Dreamcast di Sega, il GameCube di Nintendo e la Xbox di Microsoft. Il successo è stato immediato, con un milione di unità vendute in pochi giorni in Giappone. È la console domestica più venduta nella storia dei videogiochi.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text>O PlayStation 2 (oficialmente abreviado como PS2) é um console de jogos eletrônicos produzido pela Sony Computer Entertainment. Foi lançado no dia 4 de março de 2000 no Japão, no dia 26 de outubro na América do Norte, e posteriormente, no dia 24 de novembro na Europa e 3 de dezembro no Brasil.</text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text>プレイステーション2（正式にはPS2と略される）は、セガのドリームキャスト、任天堂のゲームキューブ、マイクロソフトのXboxと競合していた。すぐに成功を収め、日本では数日で100万台を売り上げた。ビデオゲーム史上、最も売れた家庭用ゲーム機である。</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="nl">
+<text>De PlayStation 2 (officieel afgekort tot PS2) concurreerde met Sega's Dreamcast, Nintendo's GameCube en Microsoft's Xbox. Het was onmiddellijk een succes en verkocht in een paar dagen tijd een miljoen exemplaren in Japan. Het is de best verkopende thuisconsole in de geschiedenis van de videospelletjes.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>PlayStation 2 (oficjalnie skracane do PS2) konkurowało z Dreamcastem firmy Sega, GameCube'em firmy Nintendo i Xboxem firmy Microsoft. Odniósł on natychmiastowy sukces, sprzedając milion sztuk w ciągu kilku dni w Japonii. Jest to najlepiej sprzedająca się konsola domowa w historii gier wideo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A PlayStation 2 (oficialmente abreviada para PS2) competiu com a Sega's Dreamcast, a GameCube da Nintendo e a Xbox da Microsoft. Foi um sucesso imediato, vendendo um milhão de unidades em poucos dias no Japão. É a consola doméstica mais vendida na história dos videojogos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>PlayStation 2 (официальное сокращение PS2) конкурировала с Dreamcast от Sega, GameCube от Nintendo и Xbox от Microsoft. Она имела немедленный успех, продав миллион копий за несколько дней в Японии. Это самая продаваемая домашняя консоль в истории видеоигр.</text>
+</text>
+
+</view>
 </theme>

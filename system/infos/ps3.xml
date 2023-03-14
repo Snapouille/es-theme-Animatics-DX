@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
+<text name="system_description" extra="true">
+<text>The PlayStation 3 (abbreviated to PS3) is the successor to the PS2 and competes with Microsoft's Xbox 360 and Nintendo's Wii. It is particularly well known for its computing power due to its CELL processor and its Blu-ray player, which at the time was a nascent technology. In 2009 there were more than 500 titles released on the console.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La PlayStation 3 (abrégé PS3) succède à la PS2 et concurrence la Xbox 360 de Microsoft ainsi que la Wii de Nintendo. Elle est particulièrement connue pour sa puissance de calcul due à son processeur CELL et de son lecteur Blu-ray qui a l’époque était une technologie naissante. En 2009 on dénombre plus de 500 titres de commercialisés sur la console.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>PlayStation 3 (abreviada como PS3) es la tercera videoconsola del modelo PlayStation de Sony Computer Entertainment. Fue lanzada al mercado el 11 de noviembre de 2006 en Japón.
-			
-Dos variantes estaban disponibles en el momento del lanzamiento: un modelo básico con 20 GB de disco duro y un modelo con disco duro de 60 GB y varias características adicionales como doble número de puertos USB y retrocompatibilidad con juegos de su antecesora PlayStation 2 y Playstation .</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die PlayStation 3 (abgekürzt PS3) ist der Nachfolger der PS2 und konkurriert mit der Xbox 360 von Microsoft und der Wii von Nintendo. Die Konsole ist besonders für ihre Rechenleistung dank des CELL-Prozessors und des Blu-ray-Laufwerks bekannt, das damals noch eine neue Technologie war. Im Jahr 2009 wurden über 500 Titel für die Konsole veröffentlicht.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>La PlayStation 3 (abrégé officiellement PS3) est une console de jeux vidéo de septième génération commercialisée par Sony. Elle est sortie le 11 novembre 2006 au Japon, le 17 novembre 2006 en Amérique du Nord et le 23 mars 2007 en Europe.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La PlayStation 3 (abreviada PS3) es la sucesora de la PS2 y compite con la Xbox 360 de Microsoft y la Wii de Nintendo. Es especialmente conocida por su potencia de cálculo gracias a su procesador CELL y su reproductor Blu-ray, que en aquel momento era una tecnología incipiente. En 2009 se lanzaron más de 500 títulos para la consola.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text>O PlayStation 3 (PS3) é um console de videogames desenvolvido pela Sony Computer Entertainment. É o sucessor do PlayStation 2 e faz parte da marca PlayStation de consoles. Foi lançado em 11 de novembro de 2006, no Japão,[6] 17 de novembro de 2006 na América do Norte e em 23 de março de 2007 na Europa e Oceania.</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>La PlayStation 3 (abbreviata in PS3) è il successore della PS2 e compete con la Xbox 360 di Microsoft e la Wii di Nintendo. È particolarmente nota per la sua potenza di calcolo grazie al processore CELL e al lettore Blu-ray, che all'epoca era una tecnologia nascente. Nel 2009 sono stati pubblicati più di 500 titoli sulla console.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="ja">
+<text>プレイステーション3（略称：PS3）は、PS2の後継機で、マイクロソフトのXbox360や任天堂のWiiと競合する。特にCELLプロセッサーによる演算能力と、当時はまだ黎明期であったブルーレイプレーヤーを搭載していることで知られている。2009年には、このゲーム機で発売されたタイトルが500本以上ありました。</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>De PlayStation 3 (afgekort PS3) is de opvolger van de PS2 en concurreert met de Xbox 360 van Microsoft en de Wii van Nintendo. Hij staat vooral bekend om zijn rekenkracht dankzij zijn CELL-processor en zijn Blu-ray-speler, die toen nog een opkomende technologie was. In 2009 werden er meer dan 500 titels uitgebracht op de console.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>PlayStation 3 (w skrócie PS3) jest następcą PS2 i konkuruje z Xbox 360 firmy Microsoft oraz Wii firmy Nintendo. Jest szczególnie znana ze swojej mocy obliczeniowej dzięki procesorowi CELL oraz odtwarzaczowi Blu-ray, który w tamtych czasach był dopiero rodzącą się technologią. W 2009 roku na konsolę wydano ponad 500 tytułów.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A PlayStation 3 (abreviada para PS3) é a sucessora da PS2 e compete com a Xbox 360 da Microsoft e a Wii da Nintendo. É particularmente conhecida pelo seu poder computacional devido ao seu processador CELL e ao seu leitor Blu-ray, que na altura era uma tecnologia emergente. Em 2009, foram lançados mais de 500 títulos na consola.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>PlayStation 3 (сокращенно PS3) является преемником PS2 и конкурирует с Xbox 360 от Microsoft и Wii от Nintendo. Она особенно известна своей вычислительной мощностью благодаря процессору CELL и проигрывателю Blu-ray, который в то время был еще только зарождающейся технологией. В 2009 году на консоли было выпущено более 500 игр.</text>
+</text>
+
+</view>
 </theme>

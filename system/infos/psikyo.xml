@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Psikyo is a Japanese company founded in 1992, whose name is pronounced "Saikyou". Psikyo is known, like Cave or Toaplan, for its quality shoot them up games such as Samurai Aces, Gunbird, the Strikers 1945 saga, Zero Gunner 2 or Dragon Blaze, as well as for its crazy mahjong games.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Psikyo est une entreprise japonaise fondée en 1992.Son nom se prononce « Saikyou ». Psikyo est réputé, au même titre que Cave ou Toaplan, pour ses shoot them up de qualité comme Samurai Aces, Gunbird, la saga Strikers 1945, Zero Gunner 2 ou encore Dragon Blaze, ainsi que pour ses jeux de mah-jong olé olé.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Psikyo ist ein japanisches Unternehmen, das 1992 gegründet wurde und dessen Name "Saikyou" ausgesprochen wird. Psikyo ist ebenso wie Cave oder Toaplan für seine hochwertigen Shoot them up-Spiele wie Samurai Aces, Gunbird, die Strikers 1945-Saga, Zero Gunner 2 oder Dragon Blaze sowie für seine Mahjong-Spiele bekannt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Psikyo es una empresa japonesa fundada en 1992, cuyo nombre se pronuncia "Saikyou". Psikyo es conocida, al igual que Cave o Toaplan, por sus juegos de disparos de calidad, como Samurai Aces, Gunbird, la saga Strikers 1945, Zero Gunner 2 o Dragon Blaze, así como por sus alocados juegos de mahjong.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Psikyo è una società giapponese fondata nel 1992, il cui nome si pronuncia "Saikyou". Psikyo è nota, come Cave o Toaplan, per i suoi giochi sparatutto di qualità come Samurai Aces, Gunbird, la saga Strikers 1945, Zero Gunner 2 o Dragon Blaze, oltre che per i suoi folli giochi di mahjong.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>サイキョーは1992年に設立された日本の会社で、社名は「サイキョー」と発音されます。サイキョーは、ケイブやトアプランと同様に、サムライエース、ガンバード、ストライカーズ1945サーガ、ゼロガンナー2、ドラゴンブレイズといった高品質のシューティングゲームや、クレイジーな麻雀ゲームで知られています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Psikyo is een in 1992 opgericht Japans bedrijf, waarvan de naam wordt uitgesproken als "Saikyou". Psikyo staat, net als Cave of Toaplan, bekend om zijn schietspellen van hoge kwaliteit, zoals Samurai Aces, Gunbird, de Strikers 1945 saga, Zero Gunner 2 of Dragon Blaze, maar ook om zijn maffe mahjongspellen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Psikyo to japońska firma założona w 1992 roku, której nazwę wymawia się jako "Saikyou". Psikyo jest znane, podobnie jak Cave czy Toaplan, z wysokiej jakości gier typu shoot them up, takich jak Samurai Aces, Gunbird, saga Strikers 1945, Zero Gunner 2 czy Dragon Blaze, a także z szalonych gier typu mahjong.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Psikyo é uma empresa japonesa fundada em 1992, cujo nome é pronunciado "Saikyou". Psikyo é conhecida, como Cave ou Toaplan, pela sua qualidade de jogos de tiro como Samurai Aces, Gunbird, a saga dos Strikers 1945, Zero Gunner 2 ou Dragon Blaze, bem como pelos seus loucos jogos de mahjong.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Psikyo - японская компания, основанная в 1992 году, название которой произносится как "Saikyou". Psikyo известна, как и Cave или Toaplan, своими качественными играми в жанре shoot them up, такими как Samurai Aces, Gunbird, сага Strikers 1945, Zero Gunner 2 или Dragon Blaze, а также порнографическими играми в жанре маджонг.</text>
+</text>
+
+</view>
 </theme>

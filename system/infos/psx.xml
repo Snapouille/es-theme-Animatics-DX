@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The original PlayStation (プレイステーション) was the first machine in the PlayStation range. Declined in September 2000 into PSone a redesigned version that is smaller and lighter than the original. It is about a third smaller than the first model and will arrive just before the launch of the PlayStation 2.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Is a home video game console developed by Sony Computer Entertainment. The console was the first of the PlayStation lineup of home video game consoles as part of the fifth generation of video game consoles.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>PlayStation oficialmente abreviada como PS1 o PSX es la primera videoconsola de Sony. Lanzada el 3 de diciembre de 1994 en Japón, el 9 de septiembre de 1995 en Estados Unidos y el 29 de septiembre de 1995 en Europa. Se considera la videoconsola más exitosa de la quinta generación tanto en ventas como en popularidad.
+<text name="system_description" extra="true" lang="fr">
+<text>La PlayStation (プレイステーション) originale fut la première machine de la gamme PlayStation. Déclinée en septembre 2000 en PSone une version redessinée plus petite et plus légère que l'originale. Elle est environ un tiers plus petite que le premier modèle et arrivera tout juste avant le lancement de la PlayStation 2.</text>
+</text>
 
-Tuvo gran éxito al implantar el CD-ROM a pesar de que otras compañías ya lo habían hecho. A finales de los 80, Nintendo acordó con Sony desarrollar para Super Nintendo un perférico que cargara juegos en disco. Finalmente, Nintendo y Sony no llegaron a un acuerdo y esta última decidió lanzar la consola que todos conocemos. Se estima que Sony pudo vender 105 millones de unidades en diez años.  </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La PlayStation (プレイステーション) est une console de jeux vidéo de cinquième génération, produite par Sony Computer Entertainment à partir de 1994. Première machine de la gamme PlayStation.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die ursprüngliche PlayStation (プレイステーション) war das erste Gerät der PlayStation-Reihe. Abgeleitet im September 2000 in PSone eine neu gestaltete Version, die kleiner und leichter als das Original ist. Sie ist etwa ein Drittel kleiner als das erste Modell und wird kurz vor der Markteinführung der PlayStation 2 auf den Markt kommen.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Foi o primeiro console de vídeo game fabricado pela Sony, desde o seu lançamento vendeu mais de 100 milhões de unidades. Ocupa a posição de segundo console de mesa mais vendido de todos os tempos.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La PlayStation original (プレイステーション) fue la primera máquina de la gama PlayStation. Declinada en septiembre de 2000 en PSone una versión rediseñada que es más pequeña y ligera que la original. Es aproximadamente un tercio más pequeña que el primer modelo y llegará justo antes del lanzamiento de la PlayStation 2.</text>
+</text>
 
-		
-						
+<text name="system_description" extra="true" lang="it">
+<text>La PlayStation originale (プレイステーション) è stata la prima macchina della gamma PlayStation. Nel settembre 2000 è stata trasformata in PSone, una versione ridisegnata più piccola e leggera dell'originale. È più piccola di circa un terzo rispetto al primo modello e arriverà appena prima del lancio della PlayStation 2.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>初代「プレイステーション」は、「プレイステーション」シリーズの初代機である。2000年9月、初代よりも小型・軽量化されたPSoneへとリニューアルされた。初代モデルより3分の1ほど小さくなり、プレイステーション2発売の直前に登場する。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De oorspronkelijke PlayStation (プレイテーション) was de eerste machine in de PlayStation-reeks. In september 2000 werd de PSone een vernieuwde versie die kleiner en lichter is dan het origineel. Hij is ongeveer een derde kleiner dan het eerste model en komt vlak voor de lancering van de PlayStation 2.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Oryginalne PlayStation (プレイステーション) było pierwszym urządzeniem z serii PlayStation. Złożona we wrześniu 2000 roku do PSone przeprojektowana wersja, która jest mniejsza i lżejsza od oryginału. Jest o jedną trzecią mniejsza od pierwszego modelu i pojawi się tuż przed premierą PlayStation 2.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A PlayStation original (プレイステーション) foi a primeira máquina da gama PlayStation. Declinou em Setembro de 2000 para a PSone uma versão redesenhada mais pequena e mais leve do que a original. É cerca de um terço menor do que o primeiro modelo e chegará imediatamente antes do lançamento da PlayStation 2.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Оригинальная PlayStation (プレイステーション) была первой приставкой в линейке PlayStation. В сентябре 2000 года она была преобразована в PSone - переработанную версию, которая меньше и легче оригинала. Она примерно на треть меньше первой модели и появится незадолго до запуска PlayStation 2.</text>
+</text>
+
+</view>
 </theme>

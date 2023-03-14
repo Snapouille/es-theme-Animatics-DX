@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>ResidualVM is a reimplementation of the game engine that allows you to play 3D point'n click adventure games such as Grim Fandango, Escape from Monkey Island, Myst III, ...</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>ResidualVM est une réimplémentation du moteur de jeu qui vous permet de jouer à des jeux d'aventure point'n click en 3D tels que Grim Fandango, Escape from Monkey Island, Myst III, ...</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>ResidualVM ist eine Neuimplementierung der Spiel-Engine, mit der Sie 3D-Point-and-Click-Abenteuerspiele wie Grim Fandango, Escape from Monkey Island, Myst III, ...</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>ResidualVM es una reimplementación del motor de juegos que te permite jugar a aventuras 3D point'n click como Grim Fandango, Escape from Monkey Island, Myst III, ...</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>ResidualVM è una reimplementazione del motore di gioco che permette di giocare a giochi di avventura 3D punta e clicca come Grim Fandango, Escape from Monkey Island, Myst III, ...</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ResidualVMは、Grim Fandango、Escape from Monkey Island、Myst IIIなどの3Dポイントクリックアドベンチャーゲームをプレイするためのゲームエンジンの再実装です。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>ResidualVM is een herimplementatie van de game engine waarmee je 3D point'n click adventure games kunt spelen, zoals Grim Fandango, Escape from Monkey Island, Myst III, ...</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>ResidualVM to reimplementacja silnika gry, który pozwala grać w trójwymiarowe gry przygodowe point'n click, takie jak Grim Fandango, Escape from Monkey Island, Myst III, ...</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O ResidualVM é uma reimplementação do motor do jogo que lhe permite jogar jogos de aventura point'n click 3D como Grim Fandango, Escape from Monkey Island, Myst III, ...</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>ResidualVM - это реализация игрового движка, который позволяет играть в 3D point'n click приключенческие игры, такие как Grim Fandango, Escape from Monkey Island, Myst III, ...</text>
+</text>
+
+</view>
 </theme>

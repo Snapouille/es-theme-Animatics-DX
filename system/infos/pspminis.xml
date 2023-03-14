@@ -1,26 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>PS minis for the PSP, are games available to download from the PlayStation Store. Many of them are also compatible with the PlayStation 3 (PS3), PlayStation Vita (PSVita) and PlayStation TV (PSTV) as indicated. </text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>PS minis para PSP, son juegos disponibles para descargar desde PlayStation Store. Muchos de ellos también son compatibles con PlayStation 3 (PS3), PlayStation Vita (PSVita) y PlayStation TV (PSTV) como se indica.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text>PS minis pour PSP sont des jeux téléchargeables sur le PlayStation Store. Beaucoup d'entre eux sont également compatibles avec la PlayStation 3 (PS3), la PlayStation Vita (PSVita) et la PlayStation TV (PSTV) comme indiqué.</text>
-		</text>
+<text name="system_description" extra="true">
+<text>Minis are games that can be downloaded from the PlayStation Network, officially referred to as PSN. This online service was launched on 11 November 2006 for PlayStation 3, PlayStation Portable, PlayStation Vita, and now PlayStation 4 and PlayStation 5.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text>PS minis para o PSP, são jogos disponíveis para download na PlayStation Store. Muitos deles também são compatíveis com o PlayStation 3 (PS3), PlayStation Vita (PSVita) e PlayStation TV (PSTV), conforme indicado.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Les minis sont des jeux téléchargeables sur le PlayStation Network, officiellement désigné par son sigle PSN. Ce service en ligne a été lancé le 11 novembre 2006 sur consoles PlayStation 3, PlayStation Portable, PlayStation Vita, et de nos jours sur PlayStation 4 et PlayStation 5.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Minis sind Spiele, die über das PlayStation Network, offiziell PSN genannt, heruntergeladen werden können. Dieser Online-Dienst wurde am 11. November 2006 für die Konsolen PlayStation 3, PlayStation Portable, PlayStation Vita und jetzt auch für PlayStation 4 und PlayStation 5 eingeführt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Los minijuegos son juegos que se pueden descargar desde PlayStation Network, conocida oficialmente como PSN. Este servicio en línea se lanzó el 11 de noviembre de 2006 para PlayStation 3, PlayStation Portable, PlayStation Vita, y ahora PlayStation 4 y PlayStation 5.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>I Minis sono giochi che possono essere scaricati dal PlayStation Network, ufficialmente noto come PSN. Questo servizio online è stato lanciato l'11 novembre 2006 per PlayStation 3, PlayStation Portable, PlayStation Vita e, ora, per PlayStation 4 e PlayStation 5.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ミニは、PlayStation Network（正式名称：PSN）からダウンロードできるゲームです。このオンラインサービスは、2006年11月11日にPlayStation 3、PlayStation Portable、PlayStation Vita、そして現在はPlayStation 4とPlayStation 5で開始されました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Mini's zijn games die via het PlayStation Network, officieel PSN genoemd, kunnen worden gedownload. Deze onlinedienst werd op 11 november 2006 gelanceerd voor PlayStation 3, PlayStation Portable, PlayStation Vita en nu PlayStation 4 en PlayStation 5.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Minis to gry, które można pobrać z sieci PlayStation Network, oficjalnie zwanej PSN. Ta internetowa usługa została uruchomiona 11 listopada 2006 roku dla konsol PlayStation 3, PlayStation Portable, PlayStation Vita, a obecnie PlayStation 4 i PlayStation 5.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Minis são jogos que podem ser descarregados a partir da PlayStation Network, oficialmente referida como PSN. Este serviço online foi lançado a 11 de Novembro de 2006 para PlayStation 3, PlayStation Portable, PlayStation Vita, e agora PlayStation 4 e PlayStation 5.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Мини-игры - это игры, которые можно загрузить из сети PlayStation Network, официально именуемой PSN. Этот онлайн-сервис был запущен 11 ноября 2006 года для PlayStation 3, PlayStation Portable, PlayStation Vita, а теперь PlayStation 4 и PlayStation 5.</text>
+</text>
+
+</view>
 </theme>

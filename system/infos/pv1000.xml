@@ -1,24 +1,53 @@
-﻿<!--
+<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Casio PV-1000 is a video game console marketed only in Japan. It was discontinued less than a year after its release. It is powered by a Z80A microprocessor, and has 2 KB of RAM, of which 1 KB is dedicated to its character generator. It has a resolution of 256 × 192 pixels in eight colours.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Casio PV-1000 is a third-generation home video game console manufactured by Casio and released in Japan in 1983. It was discontinued less than a year after release. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Casio PV-1000 est une console de jeu vidéo commercialisée uniquement au Japon. Elle a été abandonnée moins d'un an après sa sortie. Elle est alimentée par un microprocesseur Z80A, et dispose de 2 KB de mémoire vive, dont 1 KB consacré à son générateur de caractères. Elle offre une définition de 256 × 192 pixels en huit couleurs.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>El Casio PV-1000 es una consola de videojuegos para el hogar de 8 bits de la tercera generación de videoconsolas, desarrollada por Casio y lanzada en octubre de 1983 exclusivamente en Japón a un precio de 14.800 yenes.
+<text name="system_description" extra="true" lang="de">
+<text>Die Casio PV-1000 ist eine Videospielkonsole, die nur in Japan vertrieben wurde. Sie wurde weniger als ein Jahr nach ihrer Veröffentlichung eingestellt. Sie wird von einem Z80A-Mikroprozessor angetrieben und verfügt über 2 KB RAM, wovon 1 KB für den Zeichengenerator reserviert ist. Sie bietet eine Auflösung von 256 × 192 Pixeln in acht Farben.</text>
+</text>
 
-Tras su salida al mercado, pronto se hizo evidente que el hardware era más débil que el de las consolas de la competencia y que la consola no ofrecía ventajas significativas sobre otros sistemas. El destino de la consola se selló con la aparición de las dos consolas Nintendo Family Computer y Sega Master System, que ofrecían hardware más potentes y más juegos. Hoy en día es un artículo de colección muy solicitado. 
-			</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La Casio PV-1000 es una videoconsola comercializada únicamente en Japón. Se dejó de fabricar menos de un año después de su lanzamiento. Funciona con un microprocesador Z80A y tiene 2 KB de RAM, de los cuales 1 KB está dedicado a su generador de caracteres. Tiene una resolución de 256 × 192 píxeles en ocho colores.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il Casio PV-1000 è una console per videogiochi commercializzata solo in Giappone. È stata dismessa meno di un anno dopo la sua uscita. È alimentata da un microprocessore Z80A e dispone di 2 KB di RAM, di cui 1 KB è dedicato al generatore di caratteri. Ha una risoluzione di 256 × 192 pixel a otto colori.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>カシオのPV-1000は、日本でのみ販売されたゲーム機です。発売から1年足らずで販売終了となった。Z80Aマイクロプロセッサーを搭載し、2KBのRAMを持ち、そのうち1KBはキャラクタジェネレータ専用である。解像度は256×192ピクセル、8色である。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Casio PV-1000 is een videospelconsole die alleen in Japan op de markt werd gebracht. De console werd minder dan een jaar na de release stopgezet. Hij wordt aangedreven door een Z80A-microprocessor en heeft 2 KB RAM, waarvan 1 KB bestemd is voor de karaktergenerator. Hij heeft een resolutie van 256 × 192 pixels in acht kleuren.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Casio PV-1000 to konsola do gier wideo sprzedawana tylko w Japonii. Została wycofana z produkcji w mniej niż rok po premierze. Jest zasilana przez mikroprocesor Z80A i ma 2 KB pamięci RAM, z czego 1 KB jest przeznaczony na generator znaków. Posiada rozdzielczość 256 × 192 pikseli w ośmiu kolorach.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Casio PV-1000 é uma consola de videojogos comercializada apenas no Japão. Foi descontinuada menos de um ano após o seu lançamento. É alimentada por um microprocessador Z80A, e tem 2 KB de RAM, dos quais 1 KB é dedicado ao seu gerador de caracteres. Tem uma resolução de 256 × 192 pixels em oito cores.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Casio PV-1000 - игровая приставка, продававшаяся только в Японии. Она была снята с производства менее чем через год после выпуска. Она работает на микропроцессоре Z80A, имеет 2 КБ оперативной памяти, из которых 1 КБ отводится под генератор символов. Разрешение экрана составляет 256 × 192 пикселей в восьми цветах.</text>
+</text>
+
+</view>
 </theme>
