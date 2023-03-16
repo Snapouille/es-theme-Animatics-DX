@@ -49,7 +49,7 @@ Gamelist view : Video
 Gamelist view : Boxes (Big - Medium and Small)
 ![2023-03-16 18_27_48-EmulationStation](https://user-images.githubusercontent.com/105559045/225704909-307e8621-5188-4f93-8d6e-d0d9622929b5.png)
 
--
+---
 
 HOW DO I CHANGE MY AVATAR AND USERNAME?
 You can display your Netplay or Retroachievements username by selecting it in the theme options.
@@ -68,7 +68,7 @@ Vous pouvez également utiliser un nom d'utilisateur et un logo entièrement per
 Pour terminer, n'oubliez pas de paramétrer dans les options du thème :
 (-> Paramètres d'affichage -> Configuration du thème -> Votre Surnom : personnalisé: Here Your Nickname)
 
--
+---
 
 Big Thanks and credits to :
 
