@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The PC-FX (ピーシー エフエックス) is a 32-bit video game console released a few weeks after Sony's PlayStation and a month after the Sega Saturn. Designed as a successor to the PC-Engine and SuperGrafX, its games are in CD-ROM format. Unlike its predecessors, the PC-FX was only released in Japan.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>It is a 32-bit home console made by NEC. It is the successor to PC Engine, known as TurboGrafx-16 in North America.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Es una consola doméstica de 32 bits hecha por NEC. Es el sucesor del PC Engine, conocido como TurboGrafx-16 en América del Norte.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>C'est une console domestique 32 bits créée par NEC. C'est le successeur de PC Engine, connu sous le nom de TurboGrafx-16 en Amérique du Nord.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La PC-FX (ピーシー エフエックス) est une console de jeux vidéo 32 bits commercialisée quelques semaines après la PlayStation de Sony et un mois après la Sega Saturn. Pensée pour succéder à la PC-Engine et à la SuperGrafX, ses jeux sont au format CD-ROM. Contrairement à ses prédécesseurs, la PC-FX n'est sortie qu'au Japon.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console doméstico de 32 bits feito pela NEC. É o sucessor do PC Engine, conhecido como TurboGrafx-16 na América do Norte.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Die PC-FX (ピーシー エフエックス) ist eine 32-Bit-Videospielkonsole, die einige Wochen nach der Sony PlayStation und einen Monat nach dem Sega Saturn auf den Markt kam. Sie war als Nachfolgerin der PC-Engine und der SuperGrafX gedacht, ihre Spiele liegen im CD-ROM-Format vor. Im Gegensatz zu seinen Vorgängern wurde der PC-FX nur in Japan veröffentlicht.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La PC-FX (ピーシー エフエックス) es una videoconsola de 32 bits lanzada unas semanas después de la PlayStation de Sony y un mes después de la Sega Saturn. Diseñada como sucesora de la PC-Engine y la SuperGrafX, sus juegos están en formato CD-ROM. A diferencia de sus predecesoras, la PC-FX sólo salió a la venta en Japón.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il PC-FX (ピーシー エフエックス) è una console per videogiochi a 32 bit uscita poche settimane dopo la PlayStation di Sony e un mese dopo il Sega Saturn. Progettata come successore del PC-Engine e del SuperGrafX, i suoi giochi sono in formato CD-ROM. A differenza dei suoi predecessori, il PC-FX è stato rilasciato solo in Giappone.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>PC-FX（ピーシーエフエックス）は、ソニーのプレイステーションから数週間後、セガサターンから1ヶ月後に発売された32ビットビデオゲーム機である。PC-EngineとSuperGrafXの後継機として設計され、そのゲームはCD-ROM形式である。PC-FXは前任者たちとは異なり、日本でのみ発売されました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De PC-FX (ピーシー エフエックス) is een 32-bit videogameconsole die enkele weken na Sony's PlayStation en een maand na de Sega Saturn werd uitgebracht. Ontworpen als opvolger van de PC-Engine en SuperGrafX, zijn spellen in CD-ROM formaat. In tegenstelling tot zijn voorgangers werd de PC-FX alleen in Japan uitgebracht.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>PC-FX (ピーシー エフエックス) to 32-bitowa konsola gier wideo wydana kilka tygodni po Sony's PlayStation i miesiąc po Sega Saturn. Zaprojektowana jako następca PC-Engine i SuperGrafX, jej gry są w formacie CD-ROM. W przeciwieństwie do swoich poprzedników, PC-FX został wydany tylko w Japonii.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O PC-FX (ピーシー エフエックス) é uma consola de videojogos de 32 bits lançada algumas semanas após a PlayStation da Sony e um mês após o Sega Saturn. Concebida como sucessora do PC-Engine e do SuperGrafX, os seus jogos estão em formato CD-ROM. Ao contrário dos seus predecessores, o PC-FX só foi lançado no Japão.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>PC-FX (ピーシー エフエックス) - 32-битная игровая приставка, выпущенная через несколько недель после PlayStation от Sony и через месяц после Sega Saturn. Созданная как преемница PC-Engine и SuperGrafX, она выпускала игры в формате CD-ROM. В отличие от своих предшественников, PC-FX была выпущена только в Японии.</text>
+</text>
+
+</view>
 </theme>

@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Porting is the term used when a video game designed to run on one platform, be it an arcade, video game console or personal computer, is converted to run on a different platform.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Porting is also the term used when a video game designed to run on one platform, be it an arcade, video game console, or personal computer, is converted to run on a different platform.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>"Port" es un videojuego que ha sido convertido o "portado" de la plataforma para la que ha sido desarrollada originalmente a una nueva plataforma, sin sufrir ningún cambio significativo en su estructura.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Plusieurs développeurs ont publié le code source sur bon nombre de leurs anciens titres, leur permettant d’exécuter des applications natives sur de nombreuses plates-formes alternatives, y compris Linux.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le portage est le terme utilisé lorsqu'un jeu vidéo conçu pour fonctionner sur une plate-forme, qu'il s'agisse d'une borne d'arcade, d'une console de jeux vidéo ou d'un ordinateur personnel, est converti pour fonctionner sur une plate-forme différente.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Vários desenvolvedores lançaram o código-fonte para muitos de seus títulos clássicos, permitindo que eles sejam nativos para muitas plataformas alternativas, incluindo o Linux.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Portierung ist der Begriff, der verwendet wird, wenn ein Videospiel, das für den Betrieb auf einer Plattform - sei es ein Arcade-Automat, eine Videospielkonsole oder ein Personalcomputer - konzipiert wurde, so umgewandelt wird, dass es auf einer anderen Plattform läuft.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Portar es el término que se utiliza cuando un videojuego diseñado para funcionar en una plataforma, ya sea una recreativa, una videoconsola o un ordenador personal, se convierte para que funcione en una plataforma diferente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Porting è il termine utilizzato quando un videogioco progettato per funzionare su una piattaforma, sia essa arcade, console per videogiochi o personal computer, viene convertito per funzionare su una piattaforma diversa.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>アーケード、ゲーム機、パソコンなど、あるプラットフォームで動作するように設計されたビデオゲームを、別のプラットフォームで動作するように変換することを「ポーティング」といいます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Porting is de term die wordt gebruikt wanneer een videospel dat is ontworpen om op één platform te draaien, of het nu een arcade, een videospelconsole of een personal computer is, wordt omgezet om op een ander platform te draaien.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Porting to termin używany, gdy gra wideo zaprojektowana do uruchomienia na jednej platformie, czy to arcade, konsoli do gier wideo lub komputera osobistego, jest konwertowany do uruchomienia na innej platformie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Porting é o termo utilizado quando um jogo de vídeo concebido para correr numa plataforma, seja um salão de jogos, uma consola de jogos de vídeo ou um computador pessoal, é convertido para correr numa plataforma diferente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Портирование - это термин, используемый, когда видеоигра, разработанная для запуска на одной платформе, будь то аркада, игровая консоль или персональный компьютер, преобразуется для запуска на другой платформе.</text>
+</text>
+
+</view>
 </theme>

@@ -4,22 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>The Commodore PET is a line of personal computers produced starting in 1977 by Commodore International. A single all-in-one case combines a MOS Technology 6502 microprocessor, Commodore BASIC in read-only memory, keyboard, computer monitor, and, in early models, a cassette deck. </text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>El PET (Personal Electronic Transactor) o CBM en Europa, fue una línea de ordenadores domésticos producida por Commodore a partir de 1977. Con buenas ventas en los mercados educativos de Canadá, Estados Unidos e Inglaterra, fue la primera computadora completamente equipada de Commodore y la que posteriormente formó la base de su línea de productos de 8 bits, incluyendo al Commodore 64. 
-				
-El primer modelo, denominado PET 2001, fue la primera computadora personal disponible para el consumidor final. </text>
-		</text>
-		
-				
+<text name="system_description" extra="true">
+<text>The Commodore PET is a range of personal computers produced from 1977 by Commodore International. A single all-in-one box combines a MOS Technology 6502 microprocessor, Commodore BASIC in read-only memory, a keyboard, a computer monitor and, in the early models, a cassette deck.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Commodore PET est une gamme d'ordinateurs personnels produits à partir de 1977 par Commodore International. Un seul boîtier tout-en-un combine un microprocesseur MOS Technology 6502, Commodore BASIC en mémoire morte, un clavier, un écran d'ordinateur et, dans les premiers modèles, une platine à cassettes.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Commodore PET ist eine Reihe von Personalcomputern, die ab 1977 von Commodore International hergestellt wurden. Ein einziges All-in-One-Gehäuse vereint einen Mikroprozessor MOS Technology 6502, Commodore BASIC im Festspeicher, eine Tastatur, einen Computerbildschirm und in den ersten Modellen auch ein Kassettendeck.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Commodore PET es una gama de ordenadores personales fabricados a partir de 1977 por Commodore International. Una única caja todo en uno combina un microprocesador MOS Technology 6502, Commodore BASIC en memoria de sólo lectura, un teclado, un monitor de ordenador y, en los primeros modelos, una pletina de casete.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Commodore PET è una gamma di personal computer prodotti dal 1977 da Commodore International. Un'unica scatola all-in-one combina un microprocessore MOS Technology 6502, il Commodore BASIC in memoria di sola lettura, una tastiera, un monitor e, nei primi modelli, una piastra a cassette.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>コモドールPETは、コモドールインターナショナルが1977年から製造したパーソナルコンピュータのシリーズである。MOSテクノロジー社製6502マイクロプロセッサ、コモドールBASIC（リードオンリーメモリ）、キーボード、コンピュータモニタ、初期モデルにはカセットデッキが1台のオールインワンボックスに収められている。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Commodore PET is een reeks personal computers die vanaf 1977 door Commodore International werd geproduceerd. Een enkel alles-in-één doosje combineert een MOS Technology 6502 microprocessor, Commodore BASIC in read-only geheugen, een toetsenbord, een computermonitor en, in de eerste modellen, een cassettedeck.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Commodore PET to seria komputerów osobistych produkowanych od 1977 roku przez Commodore International. Pojedyncze pudełko typu "wszystko w jednym" łączy w sobie mikroprocesor MOS Technology 6502, Commodore BASIC w pamięci tylko do odczytu, klawiaturę, monitor komputerowy oraz, we wczesnych modelach, deck kasetowy.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Commodore PET é uma gama de computadores pessoais produzidos a partir de 1977 pela Commodore International. Uma única caixa tudo-em-um combina um microprocessador MOS Technology 6502, Commodore BASIC em memória só de leitura, um teclado, um monitor de computador e, nos primeiros modelos, um leitor de cassetes.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Commodore PET - это серия персональных компьютеров, выпускавшихся с 1977 года компанией Commodore International. В одной универсальной коробке объединены микропроцессор MOS Technology 6502, Commodore BASIC в памяти только для чтения, клавиатура, компьютерный монитор и, в ранних моделях, кассетная дека.</text>
+</text>
+
+</view>
 </theme>

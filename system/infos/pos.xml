@@ -1,28 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Palm, Inc. is a computer hardware and software manufacturing company founded in 1992. It was absorbed by the US company Robotics Corp. in 1995. In June 1997, Palm became a subsidiary of 3Com.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Palm, Inc. is a hardware and software manufacturing company founded in 1992. It was absorbed by U.S. Robotics Corp. 1995. In June 1997 Palm became a subsidiary of 3Com.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Palm, Inc. es una empresa de fabricación de hardware y software fundada en 1992. Fue absorbida por U.S. Robotics Corp. 1995. En junio de 1997 Palm se convirtió en una subsidiaria de 3Com.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Palm, Inc. est une société de fabrication de matériel informatique et de logiciels fondée en 1992. Elle a été absorbée par la société américaine Robotics Corp. 1995. En juin 1997, Palm devient une filiale de 3Com.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Palm, Inc. est une société de fabrication de matériel informatique et de logiciels fondée en 1992. Elle a été absorbée par la société américaine Robotics Corp. 1995. En juin 1997, Palm devient une filiale de 3Com.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Palm, Inc. é uma empresa de fabricação de hardware e software fundada em 1992. Foi absorvida pela U.S. Robotics Corp. em 1995. Em junho de 1997, a Palm tornou-se uma subsidiária de 3Com.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Palm, Inc. ist ein 1992 gegründetes Unternehmen zur Herstellung von Computerhardware und -software. Sie wurde 1995 von dem US-amerikanischen Unternehmen Robotics Corp. übernommen. Im Juni 1997 wurde Palm eine Tochtergesellschaft von 3Com.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>Palm, Inc. es una empresa fabricante de hardware y software informático fundada en 1992. Fue absorbida por la empresa estadounidense Robotics Corp. en 1995. En junio de 1997, Palm se convirtió en filial de 3Com.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Palm, Inc. è un'azienda produttrice di hardware e software per computer fondata nel 1992. Nel 1995 è stata assorbita dalla società statunitense Robotics Corp. Nel giugno 1997, Palm è diventata una filiale di 3Com.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Palm, Inc.は、1992年に設立されたコンピュータのハードウェアとソフトウェアの製造会社である。1995年に米国のRobotics Corp.に吸収された。1997年6月、Palmは3Comの子会社となった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Palm, Inc. is een in 1992 opgerichte producent van computerhardware en -software. Het werd in 1995 opgeslorpt door het Amerikaanse bedrijf Robotics Corp. In juni 1997 werd Palm een dochteronderneming van 3Com.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Palm, Inc. to firma produkująca sprzęt komputerowy i oprogramowanie, założona w 1992 roku. W 1995 roku została wchłonięta przez amerykańską firmę Robotics Corp. W czerwcu 1997 roku Palm stał się spółką zależną firmy 3Com.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Palm, Inc. é uma empresa de fabrico de hardware e software para computadores fundada em 1992. Foi absorvida pela empresa americana Robotics Corp. em 1995. Em Junho de 1997, a Palm tornou-se uma subsidiária da 3Com.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Palm, Inc. - компания по производству компьютерного оборудования и программного обеспечения, основанная в 1992 году. В 1995 году она была поглощена американской компанией Robotics Corp. В июне 1997 года Palm стала дочерней компанией 3Com.</text>
+</text>
+
+</view>
 </theme>

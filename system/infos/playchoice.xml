@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Released on three continents from 1989, the PlayChoice-10 is an unusual arcade machine, as the customer pays a certain amount of money according to the time he wants to play. Based on the architecture of the NES, it has ten cartridge ports, two joysticks and two screens. The bottom screen displays the game, and the top screen displays the list of games.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Sorti sur les trois continents à partir de 1989, le PlayChoice-10 est une borne d'arcade peu commune, puisque le client paye une certaine somme d'argent en fonction du temps qu'il veut jouer. Basé sur l'architecture de la NES, il comporte dix ports cartouches, deux joysticks et deux écrans. L'écran du bas affiche le jeu, et celui du haut la liste des jeux.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Das PlayChoice-10 wurde ab 1989 auf drei Kontinenten veröffentlicht und ist ein ungewöhnliches Arcade-Terminal, da der Kunde einen bestimmten Geldbetrag bezahlt, je nachdem, wie lange er spielen möchte. Er basiert auf der Architektur des NES und verfügt über zehn Cartridge-Anschlüsse, zwei Joysticks und zwei Bildschirme. Der untere Bildschirm zeigt das Spiel an, der obere die Liste der Spiele.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Lanzada en tres continentes a partir de 1989, la PlayChoice-10 es una máquina arcade poco habitual, ya que el cliente paga una cantidad de dinero en función del tiempo que quiera jugar. Basada en la arquitectura de la NES, tiene diez puertos para cartuchos, dos joysticks y dos pantallas. La pantalla inferior muestra el juego, y la superior, la lista de juegos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Distribuito in tre continenti a partire dal 1989, il PlayChoice-10 è una macchina arcade insolita, in quanto il cliente paga una certa somma di denaro in base al tempo che desidera giocare. Basata sull'architettura del NES, ha dieci porte per cartucce, due joystick e due schermi. Lo schermo inferiore mostra il gioco e quello superiore l'elenco dei giochi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>1989年から3大陸で発売された「PlayChoice-10」は、遊びたい時間に応じて一定の金額を支払うという、珍しいアーケードマシンである。ファミコンのアーキテクチャをベースに、10個のカートリッジポート、2本のジョイスティック、2つのスクリーンを備えています。下の画面にはゲームが表示され、上の画面にはゲームのリストが表示されます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De PlayChoice-10, die vanaf 1989 op drie continenten werd uitgebracht, is een ongebruikelijke arcade-machine, omdat de klant een bepaald bedrag betaalt naar gelang van de tijd die hij wil spelen. Hij is gebaseerd op de architectuur van de NES en heeft tien cartridge-poorten, twee joysticks en twee schermen. Het onderste scherm toont het spel, en het bovenste scherm de lijst met spellen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Wypuszczony na trzech kontynentach od 1989 roku, PlayChoice-10 jest nietypową maszyną arcade, ponieważ klient płaci określoną kwotę pieniędzy w zależności od czasu, w którym chce grać. Oparty na architekturze NES, posiada dziesięć portów na kartridże, dwa joysticki i dwa ekrany. Na dolnym ekranie wyświetlana jest gra, a na górnym lista gier.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lançada em três continentes desde 1989, a PlayChoice-10 é uma máquina de arcada invulgar, uma vez que o cliente paga uma certa quantia de dinheiro de acordo com o tempo que quer jogar. Baseada na arquitectura da NES, tem dez portas de cartucho, dois joysticks e dois ecrãs. O ecrã inferior exibe o jogo, e o ecrã superior exibe a lista de jogos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Выпущенный на трех континентах в 1989 году, PlayChoice-10 является необычным аркадным автоматом, поскольку клиент платит определенную сумму денег в зависимости от времени, которое он хочет играть. Основанный на архитектуре NES, он имеет десять портов для картриджей, два джойстика и два экрана. На нижнем экране отображается игра, а на верхнем - список игр.</text>
+</text>
+
+</view>
 </theme>

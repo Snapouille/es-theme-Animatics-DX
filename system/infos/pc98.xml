@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>PC-98 is an acronym for the NEC PC-9801 computer series, a personal computer model of Japanese origin. It was manufactured in 1982, the first in the PC-98 series of 16- and 32-bit personal computers. The graphics resolution was up to 640x400 pixels with an 8-colour palette display.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>PC-98 (PC98) is an acronym for the NEC PC-9801 computer series, a personal computer model of Japanese origin. It was manufactured in 1982, the first in the series of PC-98 personal computers of 16 and 32 bit.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>PC-98 (PC98) es un acrónimo referente a la serie de ordenadores NEC PC-9801, un modelo de ordenador personal de origen japonés. Fue fabricado en 1982, el primero de la serie de ordenadores personales PC-98 de 16 y 32 bits.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>PC-98 (PC98) est un acronyme pour la série d'ordinateurs NEC PC-9801, un modèle d'ordinateur personnel d'origine japonaise. Il a été fabriqué en 1982, le premier de la série des ordinateurs personnels PC-98 de 16 et 32 bits.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>PC-98 est un acronyme pour la série d'ordinateurs NEC PC-9801, un modèle d'ordinateur personnel d'origine japonaise. Il a été fabriqué en 1982, le premier de la série des ordinateurs personnels PC-98 de 16 et 32 bits. La résolution graphique pouvait monter jusqu'à 640x 400 pixels avec un affichage comportant une palette de 8 couleurs.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>PC-98 (PC98) é um acrônimo referente à série de computadores NEC PC-9801. Foi fabricado em 1982, o primeiro da série de computadores pessoais PC-98 de 16 e 32 bit.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>PC-98 ist ein Akronym für die Computerserie NEC PC-9801, ein Personalcomputermodell japanischer Herkunft. Er wurde 1982 als erster der PC-98-Serie von 16- und 32-Bit-Personalcomputern hergestellt. Die Grafikauflösung betrug bis zu 640x400 Pixel bei einer Anzeige mit einer Palette von 8 Farben.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>PC-98 es el acrónimo de la serie de ordenadores NEC PC-9801, un modelo de ordenador personal de origen japonés. Se fabricó en 1982 y fue el primero de la serie PC-98 de ordenadores personales de 16 y 32 bits. La resolución gráfica era de hasta 640x400 píxeles con una pantalla de paleta de 8 colores.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>PC-98 è l'acronimo della serie di computer NEC PC-9801, un modello di personal computer di origine giapponese. Prodotto nel 1982, è stato il primo della serie PC-98 di personal computer a 16 e 32 bit. La risoluzione grafica era di 640x400 pixel con un display a 8 colori.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>PC-98は、日本発のパーソナルコンピュータ「NEC PC-9801」シリーズの頭文字をとったものである。16ビットおよび32ビットのパーソナルコンピュータであるPC-98シリーズの第1弾として、1982年に製造された。グラフィック解像度は最大640×400ピクセル、8色パレット表示であった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>PC-98 is een acroniem voor de NEC PC-9801 computer serie, een personal computer model van Japanse oorsprong. Het werd vervaardigd in 1982, de eerste in de PC-98 serie van 16- en 32-bit personal computers. De grafische resolutie was tot 640x400 pixels met een 8-kleuren palet display.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>PC-98 to skrót od nazwy serii komputerów NEC PC-9801, modelu komputera osobistego pochodzenia japońskiego. Został wyprodukowany w 1982 roku, był pierwszym z serii PC-98 16- i 32-bitowych komputerów osobistych. Rozdzielczość grafiki wynosiła do 640x400 pikseli z wyświetlaniem palety 8 kolorów.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>PC-98 é um acrónimo da série NEC PC-9801 de computadores, um modelo de computador pessoal de origem japonesa. Foi fabricado em 1982, o primeiro da série PC-98 de computadores pessoais de 16 e 32 bits. A resolução gráfica era de até 640x400 pixels com uma paleta de 8 cores.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>PC-98 - это аббревиатура для серии компьютеров NEC PC-9801, модели персонального компьютера японского происхождения. Он был выпущен в 1982 году, первым в серии PC-98 16- и 32-разрядных персональных компьютеров. Графическое разрешение составляло до 640x400 пикселей с отображением 8-цветной палитры.</text>
+</text>
+
+</view>
 </theme>

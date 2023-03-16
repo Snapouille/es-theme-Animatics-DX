@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
+<text name="system_description" extra="true">
+<text>The Pico-8 is a virtual machine, developed by Lexaloffle Games. Through a Lua environment, the user can create the different elements of a game (sounds, sprites, maps...). The graphic display is limited to 16 colours, 128x128 pixels, which gives the games created a minimalist and retro aspect.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>PICO-8 is a fantasy console for making, sharing and playing tiny games and other computer programs. It feels like a regular console, but runs on Windows / Mac / Linux. When you turn it on, the machine greets you with a commandline, a suite of cartridge creation tools, and an online cartridge browser called SPLORE. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Pico-8 est une machine virtuelle, développée par Lexaloffle Games. Par un environnement en Lua, l'utilisateur peut créer les différents éléments d'un jeu (sons, sprites, cartes...). L'affichage graphique est limité à 16 couleurs, 128x128 pixels, ce qui donne aux jeux ainsi créés un aspect minimaliste et rétro.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Pico-8 es una máquina virtual creada por Lexaloffle Games. Está diseñada para imitar una "consola de videojuego de fantasía". La programación es realizada a través de un entorno basado en Lua, en el cual los usuarios pueden crear sonidos, sprites, mapas y juegos.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die Pico-8 ist eine virtuelle Maschine, die von Lexaloffle Games entwickelt wurde. Durch eine Umgebung in Lua kann der Benutzer die verschiedenen Elemente eines Spiels erstellen (Sounds, Sprites, Karten...). Die Grafikanzeige ist auf 16 Farben und 128x128 Pixel beschränkt, was den so erstellten Spielen einen minimalistischen Retro-Look verleiht.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>Pico-8 (aussi écrit PICO-8) est une machine virtuelle, développée par Lexaloffle Games. Son but est d'offrir une fantasy console, sur laquelle il est possible de développer, partager et jouer de petits jeux vidéo.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El Pico-8 es una máquina virtual, desarrollada por Lexaloffle Games. A través de un entorno Lua, el usuario puede crear los diferentes elementos de un juego (sonidos, sprites, mapas...). La pantalla gráfica está limitada a 16 colores, 128x128 píxeles, lo que confiere a los juegos creados un aspecto minimalista y retro.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text>PICO-8 é um console de fantasia para fazer, compartilhar e jogar pequenos jogos e outros programas de computador.</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Pico-8 è una macchina virtuale sviluppata da Lexaloffle Games. Attraverso un ambiente Lua, l'utente può creare i diversi elementi di un gioco (suoni, sprite, mappe...). La visualizzazione grafica è limitata a 16 colori, 128x128 pixel, il che conferisce ai giochi creati un aspetto minimalista e retrò.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="ja">
+<text>Pico-8は、Lexaloffle Gamesによって開発された仮想マシンです。Lua環境を通して、ユーザーはゲームの様々な要素（サウンド、スプライト、マップ...）を作成することができます。グラフィック表示は16色、128x128ピクセルに制限されており、作成されるゲームにミニマムでレトロな雰囲気を与えています。</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>De Pico-8 is een virtuele machine, ontwikkeld door Lexaloffle Games. Via een Lua-omgeving kan de gebruiker de verschillende elementen van een spel creëren (geluiden, sprites, kaarten...). De grafische weergave is beperkt tot 16 kleuren, 128x128 pixels, wat de gecreëerde spellen een minimalistisch en retro aspect geeft.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Pico-8 to maszyna wirtualna, stworzona przez firmę Lexaloffle Games. Poprzez środowisko Lua, użytkownik może tworzyć różne elementy gry (dźwięki, sprite'y, mapy...). Wyświetlacz graficzny jest ograniczony do 16 kolorów, 128x128 pikseli, co nadaje tworzonym grom minimalistyczny i retro aspekt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Pico-8 é uma máquina virtual, desenvolvida pela Lexaloffle Games. Através de um ambiente Lua, o utilizador pode criar os diferentes elementos de um jogo (sons, sprites, mapas...). A visualização gráfica é limitada a 16 cores, 128x128 pixels, o que dá aos jogos criados um aspecto minimalista e retro.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Pico-8 - это виртуальная машина, разработанная компанией Lexaloffle Games. С помощью среды Lua пользователь может создавать различные элементы игры (звуки, спрайты, карты...). Графический дисплей ограничен 16 цветами, 128x128 пикселей, что придает создаваемым играм минималистский и ретро аспект.</text>
+</text>
+
+</view>
 </theme>

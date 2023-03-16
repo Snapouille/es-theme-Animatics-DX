@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Pokémon mini (ポケモンミニ) is a portable video game system based on the Pokémon franchise. It is the smallest cartridge-based game system produced by Nintendo. It has a black and white screen. It has a clock, vibrator and shock sensor. It has an infrared connection for multiplayer play.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Pokémon Mini is a portable console designed and manufactured by Nintendo. It is the smallest interchangeable cartridge gaming system produced by Nintendo.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Pokémon Mini es una consola portátil diseñada y fabricada por Nintendo. Es el menor sistema de juegos con cartucho intercambiable producido por Nintendo.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Pokémon Mini est une console portable conçue et fabriquée par Nintendo. Il s'agit du plus petit système de jeu à cartouches interchangeable produit par Nintendo.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Pokémon mini (ポケモンミニ) est une console de jeux vidéo portable axée sur la franchise Pokémon. Elle est la plus petite console de jeux à cartouches produite par Nintendo. Elle possède un écran noir et blanc. Elle est dotée d'une horloge, d'un vibreur et d'un détecteur de choc. Elle dispose d'une connexion infrarouge permettant le jeu multijoueur.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Pokemon Mini é um console portátil desenhado e fabricado pela Nintendo. É o menor sistema de jogos com cartucho intercambiável produzido pela Nintendo.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das Pokémon mini (ポケモンミニ) ist eine tragbare Videospielkonsole, die sich auf das Pokémon-Franchise konzentriert. Sie ist die kleinste von Nintendo hergestellte Spielkonsole mit Kassetten. Sie besitzt einen Schwarz-Weiß-Bildschirm. Sie verfügt über eine Uhr, einen Vibrationsalarm und einen Schocksensor. Sie verfügt über eine Infrarotverbindung, die Multiplayer-Spiele ermöglicht.</text>
+</text>
 
-		
-						
+<text name="system_description" extra="true" lang="es">
+<text>Pokémon mini (ポケモンミニ) es una consola de videojuegos portátil basada en la franquicia Pokémon. Es la consola de videojuegos basada en cartuchos más pequeña producida por Nintendo. Tiene una pantalla en blanco y negro. Dispone de reloj, vibrador y sensor de golpes. Dispone de conexión por infrarrojos para el juego multijugador.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il Pokémon mini (ポケモンミニ) è una console portatile per videogiochi basata sul franchise dei Pokémon. È la più piccola console di gioco a cartuccia prodotta da Nintendo. Ha uno schermo in bianco e nero. Ha un orologio, un vibratore e un sensore d'urto. Dispone di una connessione a infrarossi per giocare in multiplayer.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Pokémon mini（ポケモンミニ）は、『ポケットモンスター』を題材にした携帯型ゲーム機です。任天堂が製造したカートリッジ式ゲームシステムの中で最も小型のものである。白黒の画面を持つ。時計、バイブレーター、ショックセンサーを搭載しています。多人数プレイのための赤外線接続を備えている。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Pokémon mini (ポケモンミニ) is een draagbaar videospelsysteem gebaseerd op de Pokémon-franchise. Het is het kleinste door Nintendo geproduceerde spelsysteem op basis van cartridges. Het heeft een zwart-wit scherm. Het heeft een klok, een vibrator en een schoksensor. Het heeft een infraroodverbinding voor multiplayerspel.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Pokémon mini (ポケモンミニ) to przenośny system gier wideo oparty na franczyzie Pokémon. Jest to najmniejszy kartridżowy system gier wyprodukowany przez Nintendo. Posiada czarno-biały ekran. Posiada zegar, wibrator i czujnik wstrząsów. Posiada połączenie na podczerwień do gry wieloosobowej.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Pokémon mini (ポケモンミニ) é um sistema de videojogos portátil baseado no franchise Pokémon. É o mais pequeno sistema de jogos baseado em cartuchos produzido pela Nintendo. Tem um ecrã a preto e branco. Tem um relógio, um vibrador e um sensor de choque. Tem uma ligação de infravermelhos para jogo multiplayer.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Pokémon mini (ポケモンミニ) - портативная видеоигровая система, основанная на франшизе Pokémon. Это самая маленькая игровая система на базе картриджей, выпущенная Nintendo. У нее черно-белый экран. Имеет часы, вибратор и датчик удара. Имеет инфракрасное соединение для многопользовательской игры.</text>
+</text>
+
+</view>
 </theme>

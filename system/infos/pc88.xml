@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The PC-88 is a microcomputer based on the Zilog Z80 microprocessor, which was very successful in Japan, but was not released in any other country. For its time, it offered high screen resolution. However, it could only offer 8 colours simultaneously out of a total of 512 colours and its 640×400 mode was monochrome.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The NEC PC-8801 was a personal computer, manufactured by Nippon Electric Company and released in 1981, was based on the Zilog Z80 8-bit processor.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El NEC PC-8801 era una computadora personal, fabricada por Nippon Electric Company y lanzada en 1981, basada en el procesador Zilog Z80 de 8 bits.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Le NEC PC-8801 était un ordinateur personnel, fabriqué par Nippon Electric Company et commercialisé en 1981, basé sur le processeur Zilog Z80 à 8 bits.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le PC-88 est un micro-ordinateur basé à sa sortie sur le microprocesseur Zilog Z80. Il a connu un franc succès au Japon, mais n'a été commercialisé dans aucun autre pays. Pour son époque, il offrait une haute définition d'écran. Cependant, il ne pouvait offrir que 8 couleurs simultanément sur une palette de 512 couleurs au total et son mode 640×400 était monochrome.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O NEC PC-8801 foi um computador pessoal, fabricado pela Nippon Electric Company e lançado em 1981, era baseado em no processador 8 bits Zilog Z80.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der PC-88 war ein Mikrocomputer, der bei seiner Veröffentlichung auf dem Mikroprozessor Zilog Z80 basierte. Er war in Japan ein großer Erfolg, wurde aber in keinem anderen Land vermarktet. Für seine Zeit bot er eine hohe Bildschirmauflösung. Allerdings konnte er nur 8 Farben gleichzeitig aus einer Palette von insgesamt 512 Farben anbieten und sein 640×400-Modus war monochrom.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El PC-88 es un microordenador basado en el microprocesador Zilog Z80, que tuvo mucho éxito en Japón, pero que no se lanzó en ningún otro país. Para su época, ofrecía una alta resolución de pantalla. Sin embargo, sólo podía ofrecer 8 colores simultáneos de un total de 512 colores y su modo 640×400 era monocromo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il PC-88 è un microcomputer basato sul microprocessore Zilog Z80, che ha avuto un grande successo in Giappone, ma non è stato rilasciato in nessun altro paese. Per l'epoca, offriva un'elevata risoluzione dello schermo. Tuttavia, poteva offrire solo 8 colori simultanei su un totale di 512 colori e la modalità 640×400 era monocromatica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>PC-88は、Zilog Z80マイクロプロセッサーを搭載したマイクロコンピュータで、日本では大成功を収めたが、他国では発売されなかった。当時としては、高い画面解像度を実現していた。しかし、512色のうち8色しか同時表示できず、640×400のモードはモノクロであった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De PC-88 is een microcomputer gebaseerd op de Zilog Z80 microprocessor, die zeer succesvol was in Japan, maar in geen enkel ander land werd uitgebracht. Voor zijn tijd bood hij een hoge schermresolutie. Hij kon echter slechts 8 kleuren tegelijk aanbieden op een totaal van 512 kleuren en zijn 640×400 modus was monochroom.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>PC-88 to mikrokomputer oparty na mikroprocesorze Zilog Z80, który odniósł duży sukces w Japonii, ale nie został wydany w żadnym innym kraju. Jak na swoje czasy, oferował wysoką rozdzielczość ekranu. Jednak mógł zaoferować tylko 8 kolorów jednocześnie z całkowitej liczby 512 kolorów, a jego tryb 640×400 był monochromatyczny.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O PC-88 é um microcomputador baseado no microprocessador Zilog Z80, que teve muito sucesso no Japão, mas que não foi lançado em nenhum outro país. Pelo seu tempo, ofereceu uma alta resolução de ecrã. Contudo, só podia oferecer 8 cores em simultâneo de um total de 512 cores e o seu modo 640×400 era monocromático.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>PC-88 - это микрокомпьютер на базе микропроцессора Zilog Z80, который пользовался большим успехом в Японии, но не был выпущен ни в одной другой стране. Для своего времени он обеспечивал высокое разрешение экрана. Однако он мог одновременно отображать только 8 цветов из 512, а режим 640×400 был монохромным.</text>
+</text>
+
+</view>
 </theme>

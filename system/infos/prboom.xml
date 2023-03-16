@@ -4,28 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>PrBoom is a cross-platform version of id Software's classic 3D first-person shooter Doom. Originally written for MS Windows, PrBoom has since been ported to Linux and many other platforms. One can also use the many mods available for this game.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>PrBoom is a cross-platform version of the classic 3D first person shooter Doom from id Software. Originally written for Microsoft Windows, PrBoom has since been ported to Linux and many other platforms.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>PrBoom es una versión multiplataforma del clásico shooter 3D en primera persona Doom de id Software. Originalmente escrito para Microsoft Windows, PrBoom ha sido portado a Linux y muchas otras plataformas.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>PrBoom est une version multiplateforme du jeu de tir à la première personne 3D classique Doom d'id Software. Initialement écrit pour MS Windows, PrBoom a depuis été porté sur Linux et de nombreuses autres plates-formes.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>PrBoom est une version multiplateforme du jeu de tir à la première personne 3D classique Doom d'id Software. Initialement écrit pour MS Windows, PrBoom a depuis été porté sur Linux et de nombreuses autres plates-formes. On peut également utiliser les nombreux mods disponible pour ce jeu.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>PrBoom é uma versão cross-platform do clássico shooter em primeira pessoa da id Software: Doom. Originalmente feita para o Microsoft Windows, PrBoom já foi portado para inúmeras plataformas.</text>
-		</text>
-						
+<text name="system_description" extra="true" lang="de">
+<text>PrBoom ist eine plattformübergreifende Version des klassischen 3D-First-Person-Shooters Doom von id Software. Ursprünglich für MS Windows geschrieben, wurde PrBoom mittlerweile auf Linux und viele andere Plattformen portiert. Man kann auch die zahlreichen Mods verwenden, die für dieses Spiel verfügbar sind.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>PrBoom es una versión multiplataforma del clásico juego de acción en primera persona Doom de id Software. Originalmente escrito para MS Windows, PrBoom ha sido portado a Linux y muchas otras plataformas. También se pueden utilizar los numerosos mods disponibles para este juego.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>PrBoom è una versione multipiattaforma del classico sparatutto in prima persona 3D Doom di id Software. Originariamente scritto per MS Windows, PrBoom è stato successivamente portato su Linux e molte altre piattaforme. È inoltre possibile utilizzare i numerosi mod disponibili per questo gioco.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>PrBoomは、id Softwareの古典的な3DファーストパーソンシューターであるDoomのクロスプラットフォームバージョンです。元々MS Windows用に書かれたPrBoomは、その後Linuxや他の多くのプラットフォームに移植されました。また、このゲームで利用できる多くのMODを使用することもできます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>PrBoom is een cross-platform versie van id Software's klassieke 3D first-person shooter Doom. Oorspronkelijk geschreven voor MS Windows, is PrBoom sindsdien geport naar Linux en vele andere platforms. Men kan ook gebruik maken van de vele mods die voor dit spel beschikbaar zijn.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>PrBoom to międzyplatformowa wersja klasycznej trójwymiarowej strzelanki pierwszoosobowej Doom firmy id Software. Pierwotnie napisana dla MS Windows, PrBoom została przeportowana na Linuksa i wiele innych platform. Można również skorzystać z wielu modów dostępnych dla tej gry.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>PrBoom é uma versão multiplataforma do clássico atirador 3D em primeira pessoa da id Software Doom. Originalmente escrito para MS Windows, o PrBoom foi desde então portado para Linux e muitas outras plataformas. Também se pode utilizar os muitos mods disponíveis para este jogo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>PrBoom - это кроссплатформенная версия классического 3D-шутера от первого лица Doom от id Software. Первоначально написанная для MS Windows, PrBoom была перенесена на Linux и многие другие платформы. Также можно использовать множество модов, доступных для этой игры.</text>
+</text>
+
+</view>
 </theme>

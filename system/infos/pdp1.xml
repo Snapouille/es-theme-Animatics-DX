@@ -1,28 +1,53 @@
-﻿<!--
+<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
-		<text name="system_description" extra="true">
-			<text>The PDP-1 (Programmed Data Processor-1) is the first computer in Digital Equipment Corporation's PDP series and was first produced in 1959. It is famous for being the computer most important in the creation of hacker culture at MIT, BBN and elsewhere.
-				
-The PDP-1 is the original hardware for playing history's first game on a minicomputer, Steve Russell's Spacewar!</text>
-		</text>
+<text name="system_description" extra="true">
+<text>The PDP-1 (Programmed Data Processor-1) is the first computer in the PDP series from Digital Equipment Corporation and was first produced in 1959. The PDP-1 is the original hardware for playing the first game in history on a minicomputer, Steve Russell's Spacewar.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>PDP-1 (Programmed Data Processor-1) fue la primera computadora de la serie PDP de la Digital Equipment, producida por primera vez en 1960. Es famosa por ser la computadora más importante en la creación de la cultura hacker en el MIT, BBN y en otras partes. 
-				
-La PDP-1 fue también el hardware original donde se jugó el primer videojuego computarizado de la historia, el Spacewar de Steve Russell. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le PDP-1 (Programmed Data Processor-1) est le premier ordinateur de la série PDP de Digital Equipment Corporation et a été produit pour la première fois en 1959. Le PDP-1 est le matériel original pour jouer au premier jeu de l'histoire sur un mini-ordinateur, Spacewar de Steve Russell.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Der PDP-1 (Programmed Data Processor-1) ist der erste Computer der PDP-Serie der Digital Equipment Corporation und wurde 1959 zum ersten Mal hergestellt. Die PDP-1 ist die Originalhardware, mit der man das erste Spiel der Geschichte auf einem Minicomputer spielen kann, Spacewar von Steve Russell.</text>
+</text>
 
-				
-		
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El PDP-1 (Programmed Data Processor-1) es el primer ordenador de la serie PDP de Digital Equipment Corporation y se fabricó por primera vez en 1959. El PDP-1 es el hardware original para jugar al primer juego de la historia en un miniordenador, el Spacewar de Steve Russell.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il PDP-1 (Programmed Data Processor-1) è il primo computer della serie PDP di Digital Equipment Corporation, prodotto per la prima volta nel 1959. Il PDP-1 è l'hardware originale per giocare al primo gioco della storia su minicomputer, Spacewar di Steve Russell.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>PDP-1（Programmed Data Processor-1）は、Digital Equipment CorporationのPDPシリーズの最初のコンピュータで、1959年に初めて生産されました。PDP-1は、ミニコンピュータで史上初のゲーム、スティーブ・ラッセルの「スペースウォー」をプレイするためのオリジナルハードウェアである。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De PDP-1 (Programmed Data Processor-1) is de eerste computer in de PDP-serie van Digital Equipment Corporation en werd voor het eerst geproduceerd in 1959. De PDP-1 is de oorspronkelijke hardware voor het spelen van het eerste spel in de geschiedenis op een minicomputer, Spacewar van Steve Russell.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>PDP-1 (Programmed Data Processor-1) to pierwszy komputer z serii PDP firmy Digital Equipment Corporation, który został wyprodukowany w 1959 roku. PDP-1 to oryginalny sprzęt do zagrania w pierwszą w historii grę na minikomputerze, Spacewar Steve'a Russella.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O PDP-1 (Programmed Data Processor-1) é o primeiro computador da série PDP da Digital Equipment Corporation e foi produzido pela primeira vez em 1959. O PDP-1 é o hardware original para jogar o primeiro jogo da história com um minicomputador, o Spacewar de Steve Russell.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>PDP-1 (Programmed Data Processor-1) - первый компьютер серии PDP компании Digital Equipment Corporation, впервые выпущенный в 1959 году. PDP-1 - это оригинальное оборудование для первой в истории игры на мини-компьютере, Spacewar Стива Рассела.</text>
+</text>
+
+</view>
 </theme>
