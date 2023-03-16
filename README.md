@@ -46,6 +46,9 @@ Gamelist view : Game Carousel
 Gamelist view : Video 
 ![7 video](https://user-images.githubusercontent.com/105559045/215271576-336ea719-7a8e-4ac8-8597-39500ef27680.png)
 
+Gamelist view : Boxes (Big - Medium and Small)
+![2023-03-14 22_57_48-EmulationStation](https://user-images.githubusercontent.com/105559045/225702139-51e9a4c5-87af-4838-a75c-45cb36ded21c.png)
+
 
 Big Thanks and credits to :
 
