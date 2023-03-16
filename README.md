@@ -51,6 +51,44 @@ Gamelist view : Boxes (Big - Medium and Small)
 
 
 
+HOW DO I CHANGE MY AVATAR AND USERNAME?
+
+You can display your Netplay or Retroachievements username by selecting it in the theme options.
+
+You can also use a fully customized username and logo, for this you will find two files in the theme root folder:
+
+- To change the avatar image, simply overwrite the PNG file named "your-logo.png".
+
+ - To change the username, open the file "your-nickname.xml" with a text editor and replace "Here Your NickName" with the desired nickname.
+
+Finally, don't forget to set in the theme options :
+-> User Interface Settings
+-> Theme Configuration
+-> Your Nickname : Custom: Here Your Nickname
+
+
+COMMENT CHANGER D'AVATAR ET DE NOM D'UTILISATEUR ?
+
+Vous pouvez afficher votre nom d'utilisateur Netplay ou Retroachievements en le selectionnant dans les options du thème.
+
+Vous pouvez également utiliser un nom d'utilisateur et un logo entièrement personnalisés, pour cela vous trouverez deux fichiers dans le dossier racine du thème :
+
+- Pour changer l'image de l'avatar, écrasez simplement le fichier PNG nommé "your-logo.png".
+
+ - Pour changer le nom d'utilisateur, ouvrez le fichier "your-nickname.xml" avec un éditeur de texte et remplacez "Here Your NickName" par le pseudo désiré.
+
+Pour terminer, n'oubliez pas de paramétrer dans les options du thème :
+-> Paramètres d'affichage
+-> Configuration du thème
+-> Votre Surnom : personnalisé: Here Your Nickname
+
+
+
+
+
+
+
+
 Big Thanks and credits to :
 
 - Darknior RVGM (large artworks dealer)
