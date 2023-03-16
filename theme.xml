@@ -75,6 +75,11 @@ originally based on: "carbon"
 	<system-controllers>Controllers</system-controllers>
 	<show>Show</show>
 	<hide>Hide</hide>
+	
+	<bigboxesview>Boxes - Big Size</bigboxesview>
+	<mediumboxesview>Boxes - Medium Size</mediumboxesview>
+	<smallboxesview>Boxes - Small Size</smallboxesview>
+	
   </variables>
   
   
@@ -367,6 +372,10 @@ originally based on: "carbon"
   <include>./config/gamelist/gamecarousel.xml</include>
   <include>./config/gamelist/basic.xml</include>
   <!-- <include>./config/gamelist/fanart.xml</include> -->
+  <include>./config/gamelist/boxes_big.xml</include>
+  <include>./config/gamelist/boxes_medium.xml</include>
+  <include>./config/gamelist/boxes_small.xml</include>
+
  
   
 

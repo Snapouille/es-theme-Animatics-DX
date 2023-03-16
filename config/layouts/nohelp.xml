@@ -182,12 +182,27 @@
 		 <size>0.950 0.47</size>
 		 <margin>0.005 0.006</margin>
 		 <padding>0.008 0.05</padding>
-		  
-		  <autoLayout>5 1</autoLayout>
+		<autoLayout>5 1</autoLayout>
 		  <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
     </imagegrid>
   
   </view>
+  
+  
+  <customView name="Fanart">
+  
+	<imagegrid name="gamegrid">
+	  <pos>0 0.37</pos>
+	  <size>1 1</size>
+	  <margin>0.0772 0</margin>
+	  <padding>0.02 0 0.02 0</padding>
+      <autoLayout>5 1</autoLayout>
+	  <autoLayoutSelectedZoom>2</autoLayoutSelectedZoom>
+	  
+    </imagegrid>
+  
+  
+  </customView>
   
   
   

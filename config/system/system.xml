@@ -252,7 +252,7 @@ originally based on: "carbon"
 		<text name="manufacturerName">
 			<alignment>right</alignment>
 			<fontSize>0.040</fontSize>
-			<pos>0.711 0.38</pos>
+			<pos>0.911 0.38</pos>
 			<size>0.942 0.28</size>
 			<color>FFFF00</color>
 			<zIndex>14</zIndex>
@@ -260,7 +260,7 @@ originally based on: "carbon"
 			<rotation>0</rotation>
 			
 				<storyboard>
-					<animation property="offsetX" to="-0.2" begin="6500" duration="1500" mode="EaseOutCubic"/>
+					<animation property="offsetX" to="-0.4" begin="6500" duration="1500" mode="EaseOutCubic"/>
 				</storyboard>	
 		</text>
 		

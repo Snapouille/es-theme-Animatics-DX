@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme defaultView="detailed">
+  <formatVersion>7</formatVersion>
+  
+
+    
+<customView name="boxes_big" inherits="grid" displayName="${bigboxesview}">
+	
+    <imagegrid name="gamegrid">
+      <pos>0.333333 0</pos>
+      <size>0.6666667 0.914814814</size>
+	  <margin>0 0</margin>
+      <padding>0.004 0 0.004 0</padding>
+      <zIndex>10</zIndex>
+      <autoLayout>3 2</autoLayout>
+	  <autoLayout if="{system.theme} == '3ds' || {system.theme} == 'gameandwatch' || {system.theme} == 'megaduck' || {system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'virtualboy'">3 3</autoLayout>
+	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'model2' || {system.theme} == 'psp' || {system.theme} == 'pv1000' || {system.theme} == 'switch' || {system.theme} == 'wonderswancolor' || {system.theme} == 'zx81'">5 2</autoLayout>
+	  <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+      <animateSelection>false</animateSelection>
+      <centerSelection>false</centerSelection>
+	  <scrollLoop>true</scrollLoop>
+	  <scrollSound>./../../art/sounds/scroll.wav</scrollSound>
+	  <scrollDirection>vertical</scrollDirection>
+	</imagegrid>
+	
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundCornerSize>0 0</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>12 12</padding>
+      <imageColor>A8A8A8FF</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+      <backgroundEdgeColor>88BBFFFF</backgroundEdgeColor>
+	  <padding>4 4</padding>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+	    	
+	<image name="gridtile.favorite">
+	 <linearSmooth>true</linearSmooth>
+      <path>./icons/star_filled.svg</path>
+      <pos>0.93 0.93</pos>
+      <origin>0.5 0.5</origin>
+      <horizontalAlignment>right</horizontalAlignment>
+      <color>FFFF00</color>
+	  <maxSize>0.08 0.08</maxSize>
+		<storyboard repeatAt="forever">
+			<animation property="scale" to="1.5" begin="1000" duration="500" autoreverse="true" mode="bump"/>
+			<animation property="offsetX" to="-0.03" begin="3000" duration="500" autoreverse="true" mode="EaseOutCubic"/>
+			<animation property="rotation" to="2000" begin="10000" duration="500" mode="easeInOut"/>
+		</storyboard>
+	  
+    </image>
+	
+    <image name="gridtile.favorite:selected">
+	  <linearSmooth>true</linearSmooth>
+      <color>FFFF00D0</color>
+    </image>
+	
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>FFFFFFff</animateColor>
+      <animateColorTime>350</animateColorTime>
+    </ninepatch>
+	
+
+
+	<rating name="md_rating">
+	  <pos>0.27 0.34</pos>
+	  <size>0.03 0.035</size>
+	  <color>FFFF00</color>
+	  <horizontalAlignment>right</horizontalAlignment>
+	  <unfilledColor>606060</unfilledColor>
+	  <unfilledPath>:/star_filled.svg</unfilledPath>
+    </rating>  
+	
+	
+	<video name="md_video">
+		<pos>0.237 0.165</pos>
+	</video>
+	
+	<image name="md_image">
+		<pos>0.237 0.165</pos>
+	</image>
+	
+	
+<!-- Encadrement des stats -->
+	 
+	<image name="cadre_gauche" extra="true">
+	  <pos>0.01 0.01</pos>
+	</image>
+	
+	<image name="cadre_droit" extra="true">
+	  <pos>0.1472 0.01</pos>
+	</image>
+	
+	<image name="cadre_haut" extra="true">
+	  <pos>0.01 0.01</pos>
+	</image>
+	
+	<image name="cadre_bas" extra="true">
+	  <pos>0.01 0.321</pos>
+	  <size>0.31 0.006</size>
+	</image>
+	
+	<image name="cadre_droit_droit" extra="true">
+	  <pos>0.317 0.321</pos>
+	</image>
+	
+	<image name="cadre_bas_bas" extra="true">
+	  <pos>0.01 0.391</pos>
+	  <size>0.31 0.006</size>
+	</image>
+	
+	
+<!-- Quadrillage au niveau des metadata (Nombre de parties, Dernier jeu, ...)  -->
+	<image name="info_background" extra="true">
+         <pos>0.0132 0.01</pos>
+      </image>
+	  
+<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->
+		
+		<text name="md_lbl_playcount">
+			<pos>0.0232 0.025</pos>
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+			<pos>0.0232 0.097</pos>
+		</text>
+		
+		<text name="md_lbl_gametime">
+			<pos>0.0232 0.171</pos>
+		</text>
+		
+		
+<!-- METADATA -->
+	
+		<text name="md_playcount">
+			<pos>0.0182 0.055</pos>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<pos>0.0182 0.127</pos>
+		</datetime>
+		
+		<text name="md_gametime">
+			<pos>0.0182 0.201</pos>	
+		</text>
+		
+		<text name="md_players">
+			<pos>0.0862 0.275</pos>
+		</text>
+
+     
+	
+	
+		<image name="md_manual,md_nomanual">
+				<pos>0.0282 0.357</pos>
+		</image>
+		
+		<image name="ghost_manual" extra="true">
+				<pos>0.0282 0.357</pos>
+		</image>
+		
+	
+	
+		<image name="md_savestate,md_nosavestate">
+			<pos>0.0582 0.357</pos>
+		</image>
+
+		<image name="ghost_savestate" extra="true">
+			<pos>0.0582 0.357</pos>
+		</image>
+  
+	
+		<image name="md_kidgame, md_notkidgame"> 
+			<pos>0.0862 0.357</pos>
+		</image>
+
+		<image name="ghost_kidgame" extra="true"> 
+			<pos>0.0862 0.357</pos>
+		</image>
+
+	  
+	  <image name="md_map, md_nomap"> 
+			<pos>0.1112 0.357</pos>
+		</image>
+
+		<image name="ghost_md_map" extra="true"> 
+			<pos>0.1112 0.357</pos>
+		</image>
+
+	
+	<image name="md_cheevos,md_notcheevos">
+			<pos>0.1372 0.357</pos>
+	</image>
+	
+	
+	<image name="ghost_cheevos" extra="true">
+			<pos>0.1372 0.357</pos>
+	</image>
+
+	
+		<text name="md_name">
+         <size>0.33 0.08</size>
+         <pos>0.011 0.41</pos>
+         <fontSize>0.025</fontSize>
+      </text>
+	  
+	  <text name="md_genre">
+         <pos>0.011 0.45</pos>
+         <size>0.41 0.033</size>
+         <fontSize>0.024</fontSize>
+      </text>
+	  
+	
+	<text name="md_description">
+         <pos>0.011 0.495</pos>
+         <size>0.3 0.33</size>
+         <fontSize>0.023</fontSize>
+         <lineSpacing>1.3</lineSpacing>
+      </text>
+	
+	
+	
+	
+	<text name="md_developer">
+		 <pos>0.011 0.845</pos>
+         <size>0.38 0.039</size>
+		 <alignment>left</alignment>
+         <fontSize>0.024</fontSize>
+      </text>
+	
+	
+	<datetime name="md_releasedate">
+		 <pos>0.01 0.875</pos>
+         <color>FFFF00</color>
+         <fontSize>0.035</fontSize>
+    </datetime>
+
+	<image name="md_flag">
+		<pos>0.073 0.9</pos>
+	</image>
+	
+  
+	
+  
+  
+  
+  
+ </customView>
+  
+  
+  
+  
+</theme>

@@ -140,7 +140,6 @@ originally based on: "carbon"
 		 <alignment>right</alignment>
          <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
          <fontSize>0.025</fontSize>
-		 <!-- <color>606060</color> -->
 		 <color>${baseColor}</color>
          <zIndex>51</zIndex>
          <singleLineScroll>true</singleLineScroll>
@@ -156,7 +155,7 @@ originally based on: "carbon"
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
          <size>0.05 0.05</size>
-         <color>606060</color>
+         <color>ffffff</color>
          <format>%Y</format>
          <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
          <fontSize>0.035</fontSize>
@@ -170,7 +169,6 @@ originally based on: "carbon"
 	<rating name="md_rating">
 	  <pos>0.887 0.38</pos>
 	  <size>0.03 0.035</size>
-	  <!-- <color>${baseColor}</color> -->
 	  <color>FFFF00</color>
 	  <horizontalAlignment>right</horizontalAlignment>
 	  <unfilledColor>606060</unfilledColor>
@@ -179,7 +177,6 @@ originally based on: "carbon"
 	  
 	<image name="md_flag">
 		<origin>0.5 0.5</origin>
-		<!-- <pos>0.891 0.4</pos> -->
 		<pos>0.941 0.4</pos>
 		<maxSize>0.022 0.035</maxSize>
 		<linearSmooth>true</linearSmooth>
@@ -188,7 +185,7 @@ originally based on: "carbon"
 	  
 	  
 	  
-	  <!-- Encadrement des stats sur les jeux -->
+<!-- Encadrement des stats sur les jeux -->
 	 
 	<image name="cadre_gauche, cadre_droit, cadre_haut, cadre_bas, cadre_droit_droit, cadre_bas_bas">
 		<path>./../../art/divers/white.png</path>
