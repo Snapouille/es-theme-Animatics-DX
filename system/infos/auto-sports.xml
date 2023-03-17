@@ -4,25 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>In addition to football and tennis, most sports have been recreated by a game, including team sports, athletics, extreme sports and combat sports. Futuristic sports can also be found here.</text>
+</text>
 
-A sports video game is a video game that simulates the practice of sports. Most sports have been recreated with a game, including team sports, track and field, extreme sports, and combat sports.
-			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>En plus du football et du tennis, la plupart des sports ont été recréés par un jeu, notamment les sports d'équipe, l'athlétisme, les sports extrêmes et les sports de combat. Vous trouverez aussi ici les sports futuristes.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Neben Fußball und Tennis wurden auch die meisten anderen Sportarten durch ein Spiel nachgebildet, darunter Mannschaftssportarten, Leichtathletik, Extremsportarten und Kampfsportarten. Hier finden Sie auch futuristische Sportarten.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
-			
-Videojuegos que simulan las reglas y el terreno de juego tradicionales. Casi todos los deportes conocidos han sido recreados en un videojuego, incluyendo deportes de equipo, atletismo, deportes extremos y deportes de combate.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="es">
+<text>Además del fútbol y el tenis, la mayoría de los deportes han sido recreados por un juego, incluidos los deportes de equipo, el atletismo, los deportes extremos y los deportes de combate. Aquí también se pueden encontrar deportes futuristas.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Oltre al calcio e al tennis, la maggior parte degli sport è stata ricreata da un gioco, compresi gli sport di squadra, l'atletica, gli sport estremi e gli sport di combattimento. Qui si trovano anche gli sport futuristici.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>サッカーやテニスだけでなく、チームスポーツ、陸上競技、エクストリームスポーツ、格闘技など、ほとんどのスポーツがゲームによって再現されています。近未来的なスポーツもここで見ることができます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Naast voetbal en tennis zijn de meeste sporten nagemaakt in een spel, waaronder teamsporten, atletiek, extreme sporten en gevechtssporten. Ook futuristische sporten zijn hier te vinden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Oprócz piłki nożnej i tenisa, większość sportów została odtworzona przez grę, w tym sporty zespołowe, lekkoatletyka, sporty ekstremalne i sporty walki. Można tu znaleźć również sporty futurystyczne.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Além do futebol e do ténis, a maioria dos desportos foram recriados por um jogo, incluindo desportos de equipa, atletismo, desportos radicais e desportos de combate. Os desportos futuristas também podem ser encontrados aqui.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Помимо футбола и тенниса, большинство видов спорта были воссозданы игрой, включая командные виды спорта, легкую атлетику, экстремальные виды спорта и боевые виды спорта. Здесь также можно найти футуристические виды спорта.</text>
+</text>
+
+</view>
 </theme>

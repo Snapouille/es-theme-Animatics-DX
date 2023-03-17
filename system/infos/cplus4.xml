@@ -4,20 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>The Commodore Plus/4 is a home computer released by Commodore International in 1984. The "Plus/4" name refers to the four-application ROM resident office suite (word processor, spreadsheet, database, and graphing); it was billed as "the productivity computer with software built-in." </text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>El Commodore Plus/4 fue un ordenador personal realizado por Commodore International en 1984. El nombre «Plus/4» hace referencia al paquete de oficina residente en la memoria ROM compuesto por cuatro aplicaciones (procesador de textos, hoja de cálculo, bases de datos, y gráficos); fue anunciado como «el equipo de la productividad con software incorporado». </text>
-		</text>
-		
-				
+<text name="system_description" extra="true">
+<text>The Commodore Plus/4 is a home computer. The name "Plus/4" refers to the four-application (word processing, spreadsheet, database and graphics) ROM resident office suite; it was billed as "the productivity computer with built-in software".</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Commodore Plus/4 est un ordinateur domestique. Le nom "Plus/4" fait référence à la suite bureautique résidente en ROM à quatre applications (traitement de texte, tableur, base de données et graphique) ; il a été présenté comme "l'ordinateur de productivité avec logiciel intégré".</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Commodore Plus/4 ist ein Heimcomputer. Der Name "Plus/4" bezieht sich auf die ROM-residente Office-Suite mit vier Anwendungen (Textverarbeitung, Tabellenkalkulation, Datenbank und Grafik); er wurde als "Produktivitätscomputer mit integrierter Software" angepriesen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Commodore Plus/4 es un ordenador doméstico. El nombre "Plus/4" hace referencia al paquete ofimático basado en ROM de cuatro aplicaciones (procesador de textos, hoja de cálculo, base de datos y gráficos); se ha promocionado como "el ordenador de productividad con software integrado".</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Commodore Plus/4 è un home computer. Il nome "Plus/4" si riferisce alla suite da ufficio basata su ROM con quattro applicazioni (elaborazione testi, foglio elettronico, database e grafica); è stato promosso come "il computer per la produttività con software integrato".</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>コモドールプラス/4は、家庭用コンピュータである。Plus/4」という名称は、4つのアプリケーションを搭載したROMベースのオフィススイート（ワープロ、表計算、データベース、グラフィック）のことで、「ソフトウェアを内蔵した生産性コンピュータ」としてアピールされてきた。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Commodore Plus/4 is een thuiscomputer. De naam "Plus/4" verwijst naar het ROM-gebaseerde kantoorpakket met vier applicaties (tekstverwerking, spreadsheet, database en graphics); het werd gepromoot als "de productiviteitscomputer met ingebouwde software".</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Commodore Plus/4 to komputer domowy. Nazwa "Plus/4" odnosi się do opartego na pamięci ROM pakietu biurowego z czterema aplikacjami (edytor tekstu, arkusz kalkulacyjny, baza danych i grafika); był promowany jako "komputer produktywności z wbudowanym oprogramowaniem".</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Commodore Plus/4 é um computador doméstico. O nome "Plus/4" refere-se ao conjunto de escritório baseado em quatro aplicações ROM (processamento de texto, folha de cálculo, base de dados e gráficos); foi promovido como "o computador de produtividade com software incorporado".</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Commodore Plus/4 - это домашний компьютер. Название "Plus/4" относится к офисному пакету из четырех приложений на базе ПЗУ (обработка текстов, электронные таблицы, базы данных и графика); он рекламировался как "производительный компьютер со встроенным программным обеспечением".</text>
+</text>
+
+</view>
 </theme>

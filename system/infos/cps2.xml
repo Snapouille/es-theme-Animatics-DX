@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>The CPS-2, a JAMMA-compatible arcade cartridge system created by the Japanese company Capcom as a successor to the CP System, was released in 1993 and had a long life span of 11 years. The first game published for this medium was Super Street Fighter II: The New Challengers.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le CPS-2, est un système à cartouche pour borne d'arcade compatible JAMMA destiné aux salles d'arcade, créé par la société japonaise Capcom afin de succéder au CP System.Il est sorti en 1993 et a eu une durée de vie assez longue : 11 ans d'exploitation. Le premier jeu édité pour ce support est Super Street Fighter II: The New Challengers.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das CPS-2 ist ein JAMMA-kompatibles Arcade-Kassettensystem für Spielhallen, das von der japanischen Firma Capcom als Nachfolger des CP-Systems entwickelt wurde. 1993 kam es auf den Markt und hatte mit 11 Jahren Laufzeit eine recht lange Lebensdauer. Das erste Spiel, das für dieses System veröffentlicht wurde, war Super Street Fighter II: The New Challengers.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El CPS-2, un sistema de cartuchos arcade compatible con JAMMA creado por la compañía japonesa Capcom como sucesor del CP System, salió a la venta en 1993 y tuvo una larga vida útil de 11 años. El primer juego publicado para este soporte fue Super Street Fighter II: The New Challengers.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Il CPS-2, un sistema di cartucce arcade compatibile con JAMMA creato dalla società giapponese Capcom come successore del CP System, è stato rilasciato nel 1993 e ha avuto una lunga vita di 11 anni. Il primo gioco pubblicato per questo supporto fu Super Street Fighter II: The New Challengers.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>CPS-2は、日本のカプコンがCPシステムの後継機として制作したJAMMA対応のアーケードカートリッジシステムで、1993年に発売され、11年という長い寿命を持つ。この媒体で最初に発売されたゲームは『スーパーストリートファイターII ザ ニューチャレンジャーズ』である。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De CPS-2, een JAMMA-compatibel arcadecartridgesysteem, gemaakt door het Japanse bedrijf Capcom als opvolger van het CP System, werd uitgebracht in 1993 en had een lange levensduur van 11 jaar. Het eerste spel dat voor dit medium werd uitgegeven was Super Street Fighter II: The New Challengers.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>CPS-2 - kompatybilny z JAMMA system kartridży arcade stworzony przez japońską firmę Capcom jako następca CP System, został wydany w 1993 roku i miał długi, bo aż 11-letni żywot. Pierwszą grą wydaną na ten nośnik był Super Street Fighter II: The New Challengers.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O CPS-2, um sistema de cartuchos para arcadas compatível com JAMMA, foi criado pela empresa japonesa Capcom como sucessor do Sistema CP, e foi lançado em 1993 e teve uma vida útil bastante longa: 11 anos de funcionamento. O primeiro jogo publicado para este meio foi Super Street Fighter II: The New Challengers.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>CPS-2, JAMMA-совместимая система аркадных картриджей, созданная японской компанией Capcom в качестве преемника CP System, была выпущена в 1993 году и просуществовала 11 лет. Первой игрой, изданной для этого носителя, была Super Street Fighter II: The New Challengers.</text>
+</text>
+
+</view>
 </theme>

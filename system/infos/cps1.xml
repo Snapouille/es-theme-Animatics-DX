@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>The CPS (CP System) is a JAMMA-standard arcade game system created by the Japanese company Capcom in 1988 with the release of the game Forgotten Worlds. It is based on Sharp's X68000 architecture. Several notable games of the 1990s were released on it, such as Ghouls'n Ghosts, Strider, Final fight, 1941, Willow and Street Fighter 2.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le CPS (CP System) est un système de jeu vidéo pour borne d'arcade à la norme JAMMA et créé par la société japonaise Capcom en 1988 avec la sortie du jeu Forgotten Worlds. Il est basé sur l’architecture du X68000 de Sharp. Plusieurs jeux notables des années 1990 sortent dessus, tels Ghouls'n Ghosts, Strider, Final fight, 1941, Willow et Street Fighter 2.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das CPS (CP System) ist ein Videospielsystem für Arcade-Automaten nach dem JAMMA-Standard, das 1988 von der japanischen Firma Capcom mit der Veröffentlichung des Spiels Forgotten Worlds entwickelt wurde. Es basiert auf der Architektur des X68000 von Sharp. Auf ihm wurden in den 1990er Jahren mehrere bemerkenswerte Spiele veröffentlicht, darunter Ghouls'n Ghosts, Strider, Final fight, 1941, Willow und Street Fighter 2.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El CPS (CP System) es un sistema de juego arcade estándar JAMMA creado por la empresa japonesa Capcom en 1988 con el lanzamiento del juego Forgotten Worlds. Está basado en la arquitectura X68000 de Sharp. En él se lanzaron varios juegos notables de la década de 1990, como Ghouls'n Ghosts, Strider, Final fight, 1941, Willow y Street Fighter 2.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Il CPS (CP System) è un sistema di gioco arcade con standard JAMMA creato dalla società giapponese Capcom nel 1988 con l'uscita del gioco Forgotten Worlds. È basato sull'architettura X68000 di Sharp. Su di esso sono stati pubblicati diversi giochi importanti degli anni '90, come Ghouls'n Ghosts, Strider, Final Fight, 1941, Willow e Street Fighter 2.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>CPS（CP System）は、1988年に日本のカプコンがゲーム『フォーゴットン・ワールド』の発売を機に作ったJAMMA規格のアーケードゲームシステム。シャープのX68000アーキテクチャをベースにしている。Ghouls'n Ghosts、Strider、Final fight、1941、Willow、Street Fighter 2など、1990年代のいくつかの著名なゲームがこのシステムでリリースされた。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De CPS (CP System) is een JAMMA-standaard arcade-spelsysteem dat in 1988 door de Japanse onderneming Capcom werd gecreëerd met de uitgave van het spel Forgotten Worlds. Het is gebaseerd op Sharp's X68000 architectuur. Verschillende opmerkelijke spellen uit de jaren negentig werden erop uitgebracht, zoals Ghouls'n Ghosts, Strider, Final fight, 1941, Willow en Street Fighter 2.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>CPS (CP System) to system gier zręcznościowych w standardzie JAMMA stworzony przez japońską firmę Capcom w 1988 roku wraz z wydaniem gry Forgotten Worlds. Jest on oparty na architekturze X68000 firmy Sharp. Wydano na nim kilka godnych uwagi gier z lat 90-tych, takich jak Ghouls'n Ghosts, Strider, Final fight, 1941, Willow i Street Fighter 2.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O CPS (CP System) é um sistema de jogos arcade padrão JAMMA criado pela empresa japonesa Capcom em 1988 com o lançamento do jogo Forgotten Worlds. É baseado na arquitectura X68000 da Sharp. Vários jogos notáveis dos anos 90 foram lançados nele, tais como Ghouls'n Ghosts, Strider, Final fight, 1941, Willow e Street Fighter 2.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>CPS (CP System) - это аркадная игровая система стандарта JAMMA, созданная японской компанией Capcom в 1988 году с выходом игры Forgotten Worlds. Она основана на архитектуре X68000 компании Sharp. На ней было выпущено несколько известных игр 1990-х годов, таких как Ghouls'n Ghosts, Strider, Final fight, 1941, Willow и Street Fighter 2.</text>
+</text>
+
+</view>
 </theme>

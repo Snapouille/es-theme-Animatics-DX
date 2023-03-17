@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>The CP System III (Capcom Play System 3), more commonly known as CPS-3, is an arcade system that was introduced by Capcom in 1996 with the game Red Earth, as a successor to the CP System II arcade system. It is the latest arcade system designed and manufactured by Capcom.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le CP System III (Capcom Play System 3), plus communément appelé CPS-3, est un système d'arcade qui a été introduit par Capcom en 1996 avec le jeu Red Earth, afin de succéder au système d'arcade CP System II. C'est le dernier système d'arcade en date conçu et fabriqué par Capcom.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das CP System III (Capcom Play System 3), allgemein bekannt als CPS-3, ist ein Arcade-System, das 1996 von Capcom mit dem Spiel Red Earth als Nachfolger des Arcade-Systems CP System II eingeführt wurde. Es ist das neueste Arcade-System, das von Capcom entwickelt und hergestellt wurde.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El CP System III (Capcom Play System 3), más comúnmente conocido como CPS-3, es un sistema arcade que fue introducido por Capcom en 1996 con el juego Red Earth, como sucesor del sistema arcade CP System II. Es el último sistema arcade diseñado y fabricado por Capcom.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Il CP System III (Capcom Play System 3), più comunemente noto come CPS-3, è un sistema arcade introdotto da Capcom nel 1996 con il gioco Red Earth, come successore del sistema arcade CP System II. È l'ultimo sistema arcade progettato e prodotto da Capcom.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>CPシステムIII（カプコンプレイシステム3）、通称CPS-3は、1996年にカプコンがCPシステムIIアーケードシステムの後継機として、ゲーム『レッドアース』で発表したアーケードシステムである。カプコンが設計・製造した最新のアーケードシステムである。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Het CP System III (Capcom Play System 3), beter bekend als CPS-3, is een arcadesysteem dat in 1996 door Capcom werd geïntroduceerd met het spel Red Earth, als opvolger van het CP System II arcadesysteem. Het is het laatste door Capcom ontworpen en geproduceerde arcadesysteem.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>CP System III (Capcom Play System 3), bardziej znany jako CPS-3, to system arcade, który został wprowadzony przez Capcom w 1996 roku wraz z grą Red Earth, jako następca systemu arcade CP System II. Jest to ostatni system arcade zaprojektowany i wyprodukowany przez Capcom.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Sistema CP III (Capcom Play System 3), mais conhecido como CPS-3, é um sistema arcade que foi introduzido pela Capcom em 1996 com o jogo Red Earth, como um sucessor do sistema arcade CP System II. É o mais recente sistema de arcada concebido e fabricado pela Capcom.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>CP System III (Capcom Play System 3), более известная как CPS-3, - это аркадная система, которая была представлена компанией Capcom в 1996 году с игрой Red Earth, как преемник аркадной системы CP System II. Это последняя аркадная система, разработанная и произведенная компанией Capcom.</text>
+</text>
+
+</view>
 </theme>

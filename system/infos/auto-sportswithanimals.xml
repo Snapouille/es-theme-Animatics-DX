@@ -4,25 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>In this list you will basically find equestrian games or horse racing.</text>
+</text>
 
-In this list you will basically find equestrian games or horse racing.
-			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Dans cette liste, vous trouverez essentiellement des jeux équestres ou des courses de chevaux.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>In dieser Liste finden Sie vor allem Pferdespiele oder Pferderennen.</text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
+<text name="system_description" extra="true" lang="es">
+<text>En esta lista encontrará básicamente juegos ecuestres o de carreras de caballos.</text>
+</text>
 
-En esta lista encontrás basicamente juegos de hípica o carreras de caballos.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="it">
+<text>In questo elenco troverete fondamentalmente giochi di equitazione o corse di cavalli.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>このリストでは、基本的に馬術ゲームや競馬を見つけることができます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>In deze lijst vind je in principe ruiterspellen of paardenraces.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Na tej liście znajdziesz w zasadzie gry jeździeckie lub wyścigi konne.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Nesta lista, encontrará basicamente jogos equestres ou corridas de cavalos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>В этом списке вы в основном найдете конные игры или скачки.</text>
+</text>
+
+</view>
 </theme>

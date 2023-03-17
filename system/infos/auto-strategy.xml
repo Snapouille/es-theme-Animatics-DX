@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
+<text name="system_description" extra="true">
+<text>Strategy is a major genre of video games that emphasises thinking and planning rather than immediate action to achieve victory. Although many types of video games may contain strategic elements, as a genre, strategy games are most often defined as those that focus on high-level strategy, logistics and resource management. </text>
+</text>
 
-Strategy is a major video game genre that emphasizes thinking and planning over direct instant action in order to achieve victory. Although many types of video games can contain strategic elements, as a genre, strategy games are most commonly defined as those with a primary focus on high-level strategy, logistics and resource management. 
+<text name="system_description" extra="true" lang="fr">
+<text>La stratégie est un genre majeur de jeux vidéo qui met l'accent sur la réflexion et la planification plutôt que sur l'action immédiate afin de remporter la victoire. Bien que de nombreux types de jeux vidéo puissent contenir des éléments stratégiques, en tant que genre, les jeux de stratégie sont le plus souvent définis comme ceux qui mettent l'accent sur la stratégie de haut niveau, la logistique et la gestion des ressources. </text>
+</text>
 
-They are also usually divided into two main sub-categories: turn-based and real-time, but there are also many strategy cross/sub-genres that feature additional elements such as tactics, diplomacy, economics and exploration. 
-			</text>
-		</text>
-		
+<text name="system_description" extra="true" lang="de">
+<text>Strategie ist ein wichtiges Genre der Videospiele, bei dem der Schwerpunkt eher auf Nachdenken und Planung als auf sofortigem Handeln liegt, um den Sieg zu erringen. Obwohl viele Arten von Videospielen strategische Elemente enthalten können, werden Strategiespiele als Genre am häufigsten als solche definiert, bei denen der Schwerpunkt auf hochrangiger Strategie, Logistik und Ressourcenmanagement liegt. </text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>La estrategia es un género principal de los videojuegos que hace hincapié en el pensamiento y la planificación más que en la acción inmediata para lograr la victoria. Aunque muchos tipos de videojuegos pueden contener elementos estratégicos, como género, los juegos de estrategia se definen más a menudo como aquellos que se centran en la estrategia de alto nivel, la logística y la gestión de recursos. </text>
+</text>
 
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
-			
-Género de videojuegos que enfatiza el pensamiento y la planificación sobre la acción para lograr la victoria. Aunque muchos tipos de videojuegos pueden contener elementos estratégicos, como género, los juegos de estrategia se definen más comúnmente como aquellos que se centran principalmente en la estrategia, la logística y la gestión de recursos.
+<text name="system_description" extra="true" lang="it">
+<text>La strategia è un importante genere di videogiochi che enfatizza il pensiero e la pianificazione piuttosto che l'azione immediata per raggiungere la vittoria. Sebbene molti tipi di videogiochi possano contenere elementi strategici, come genere i giochi di strategia sono più spesso definiti come quelli che si concentrano sulla strategia di alto livello, sulla logistica e sulla gestione delle risorse. </text>
+</text>
 
-Por lo general, también se dividen en dos subcategorías principales: por turnos y en tiempo real, pero también hay muchos subgéneros de estrategia que presentan elementos adicionales como tácticas, diplomacia, economía y exploración.
-		</text>
-	</text>
+<text name="system_description" extra="true" lang="ja">
+<text>ストラテジーとは、ビデオゲームの主要なジャンルの一つで、勝利を得るために即座に行動するよりも、考え、計画することに重きを置く。多くの種類のビデオゲームに戦略的要素が含まれることがありますが、ジャンルとしては、高度な戦略、ロジスティクス、リソース管理に焦点を当てたものを戦略ゲームと定義することが最も一般的です。</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>Strategie is een belangrijk genre videospellen waarin de nadruk ligt op denken en plannen in plaats van op onmiddellijke actie om de overwinning te behalen. Hoewel vele soorten videospellen strategische elementen kunnen bevatten, worden strategische spellen als genre het vaakst gedefinieerd als spellen die gericht zijn op strategie, logistiek en middelenbeheer op hoog niveau. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Strategia to główny gatunek gier wideo, który podkreśla myślenie i planowanie, a nie natychmiastowe działanie w celu osiągnięcia zwycięstwa. Chociaż wiele rodzajów gier wideo może zawierać elementy strategiczne, jako gatunek, gry strategiczne są najczęściej definiowane jako te, które koncentrują się na strategii wysokiego poziomu, logistyce i zarządzaniu zasobami. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A estratégia é um género importante de jogos de vídeo que enfatiza o pensamento e o planeamento em vez da acção imediata para alcançar a vitória. Embora muitos tipos de jogos de vídeo possam conter elementos estratégicos, como género, os jogos de estratégia são mais frequentemente definidos como aqueles que se concentram em estratégia de alto nível, logística e gestão de recursos. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Стратегия - это основной жанр видеоигр, в котором для достижения победы акцент делается на мышлении и планировании, а не на немедленных действиях. Хотя многие типы видеоигр могут содержать стратегические элементы, как жанр, стратегические игры чаще всего определяются как те, которые сосредоточены на стратегии высокого уровня, логистике и управлении ресурсами. </text>
+</text>
+
+</view>
 </theme>
