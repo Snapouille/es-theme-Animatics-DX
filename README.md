@@ -6,7 +6,7 @@ Theme for Emulation Station compatible with
 - Emuelec
 - Retrobat
 
-V1.34 - (2023 03 12)
+V1.35 - (2023 03 16)
 
 Features :
 
@@ -46,6 +46,29 @@ Gamelist view : Game Carousel
 Gamelist view : Video 
 ![7 video](https://user-images.githubusercontent.com/105559045/215271576-336ea719-7a8e-4ac8-8597-39500ef27680.png)
 
+Gamelist view : Boxes (Big - Medium and Small)
+![2023-03-16 18_27_48-EmulationStation](https://user-images.githubusercontent.com/105559045/225704909-307e8621-5188-4f93-8d6e-d0d9622929b5.png)
+
+---
+
+HOW DO I CHANGE MY AVATAR AND USERNAME?
+You can display your Netplay or Retroachievements username by selecting it in the theme options.
+You can also use a fully customized username and logo, for this you will find two files in the theme root folder:
+- To change the avatar image, simply overwrite the PNG file named "your-logo.png".
+- To change the username, open the file "your-nickname.xml" with a text editor and replace "Here Your NickName" with the desired nickname.
+Finally, don't forget to set in the theme options :
+(-> User Interface Settings -> Theme Configuration -> Your Nickname : Custom: Here Your Nickname)
+
+
+COMMENT CHANGER D'AVATAR ET DE NOM D'UTILISATEUR ?
+Vous pouvez afficher votre nom d'utilisateur Netplay ou Retroachievements en le selectionnant dans les options du thème.
+Vous pouvez également utiliser un nom d'utilisateur et un logo entièrement personnalisés, pour cela vous trouverez deux fichiers dans le dossier racine du thème :
+- Pour changer l'image de l'avatar, écrasez simplement le fichier PNG nommé "your-logo.png".
+ - Pour changer le nom d'utilisateur, ouvrez le fichier "your-nickname.xml" avec un éditeur de texte et remplacez "Here Your NickName" par le pseudo désiré.
+Pour terminer, n'oubliez pas de paramétrer dans les options du thème :
+(-> Paramètres d'affichage -> Configuration du thème -> Votre Surnom : personnalisé: Here Your Nickname)
+
+---
 
 Big Thanks and credits to :
 
