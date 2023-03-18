@@ -280,7 +280,7 @@ originally based on: "carbon"
 <view name="screen">
 
 		<controllerActivity name="controllerActivity">
-			  <pos>0.01 0.012</pos>
+			  <pos>0.012 0.01</pos>
 			  <size>0.185 0.023</size>
 			  <itemSpacing>0.003</itemSpacing>
 			  <color>FFFFFF90</color>
@@ -291,8 +291,8 @@ originally based on: "carbon"
 			  <activityColor>A0A0FFC0</activityColor>
 			  <hotkeyColor>FFA0A0C0</hotkeyColor>
 			  
+			  
 		</controllerActivity>
-		
 		
 		
 		<text name="clock">
@@ -318,6 +318,9 @@ originally based on: "carbon"
 			  
 		
 </view>
+
+
+
   
   
 	<!-- Si les Cheevos sont activés on affiche le pseudo et change la clock en bas à droite 

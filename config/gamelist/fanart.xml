@@ -103,15 +103,15 @@ originally based on: "carbon"
 		<saturation>0</saturation>
 			<storyboard event="open">
 				<animation property="saturation" from="0" to="1" mode="linear" duration="2200" begin="0"/>
-				<animation property="scale" from="1.1" to="1" mode="linear" duration="10000" begin="0"/>
+				<animation property="scale" from="1" to="1.1" mode="EaseInOut" duration="20000" autoreverse="true" repeat="forever" begin="0"/>
 			</storyboard>
 			<storyboard event="activateNext">
 				<animation property="saturation" from="0" to="1" mode="linear" duration="2200" begin=""/>
-				<animation property="scale" from="1.1" to="1" mode="linear" duration="10000" begin=""/>
+				<animation property="scale" from="1" to="1.1" mode="EaseInOut" duration="20000" autoreverse="true" repeat="forever" begin="0"/>
 			</storyboard>
 			<storyboard event="activatePrev">
 				<animation property="saturation" from="0" to="1" mode="linear" duration="2200" begin=""/>
-				<animation property="scale" from="1.1" to="1" mode="linear" duration="10000" begin=""/>
+				<animation property="scale" from="1" to="1.1" mode="EaseInOut" duration="20000" autoreverse="true" repeat="forever" begin="0"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="saturation" from="1" to="0" mode="linear" duration="1"/>
@@ -133,7 +133,7 @@ originally based on: "carbon"
 	<image name="info_background2" extra="true">
 		<origin>0.5 0.5</origin>									
 		<size>0.3057292 0.0675926</size>									
-		<pos>0.1648438 0.3597222</pos>									
+		<pos>0.1648438 0.3897222</pos>									
 		<tile>true</tile>
 		<path>./../../art/divers/bg_square.png</path>
 		<zIndex>10</zIndex>
@@ -144,8 +144,8 @@ originally based on: "carbon"
 	<image name="cadre-lecture" extra="true">
 		<path>./../../art/divers/darkwheel1.png</path>
 		<origin>0.5 0.5</origin>									
-		<size>0.3369792 0.575</size>									
-		<pos>0.1627604 0.6662037</pos>									
+		<size>0.3369792 0.54</size>									
+		<pos>0.1627604 0.6862037</pos>									
 		<zIndex>4</zIndex>
     </image>
 	 
@@ -166,18 +166,18 @@ originally based on: "carbon"
 	    <default>./../../art/divers/noboxart.png</default>
 		
         <storyboard event="open">
-			<animation property="offsetX" from="2" to="1"  duration="7000" />
-			<animation property="offsetX" from="1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="2" to="1"  duration="3000" />
+			<animation property="offsetX" from="1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="activateNext">
-			<animation property="offsetX" from="2" to="1"  duration="7000" />
-			<animation property="offsetX" from="1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="2" to="1"  duration="3000" />
+			<animation property="offsetX" from="1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="activatePrev">
-			<animation property="offsetX" from="2" to="1"  duration="7000" />
-			<animation property="offsetX" from="1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="2" to="1"  duration="3000" />
+			<animation property="offsetX" from="1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="deactivate">
@@ -192,18 +192,18 @@ originally based on: "carbon"
 
       <image name="info_background2,cadre-lecture,md_image,md_flag,cadre_gauche, cadre_droit, cadre_haut, cadre_bas, cadre_droit_droit, cadre_bas_bas,info_background,md_manual,md_nomanual,ghost_manual,md_savestate,md_nosavestate,ghost_savestate,md_kidgame, md_notkidgame,ghost_kidgame,md_map, md_nomap,ghost_md_map,md_cheevos,md_notcheevos,ghost_cheevos">
         <storyboard event="open">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="activateNext">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="activatePrev">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="deactivate">
@@ -213,18 +213,18 @@ originally based on: "carbon"
 
       <text name="md_description, md_name, md_genre, md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_players">
          <storyboard event="open">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="activateNext">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="activatePrev">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="deactivate">
@@ -234,18 +234,18 @@ originally based on: "carbon"
 
 	<rating name="md_rating">
 		<storyboard event="open">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="activateNext">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="activatePrev">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="deactivate">
@@ -259,18 +259,18 @@ originally based on: "carbon"
 	<video name="md_video">
 	
 		<storyboard event="open">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="activateNext">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="activatePrev">
-			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
 			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 		</storyboard>
 		<storyboard event="deactivate">
@@ -283,7 +283,7 @@ originally based on: "carbon"
 	<text name="md_developer, md_playcount, md_gametime">
 		<storyboard>
 			<animation property="opacity" to="0" begin="" duration="" mode=""/>
-			<animation property="opacity" to="1" begin="9500" duration="1000" mode="linear"/>
+			<animation property="opacity" to="1" begin="5500" duration="1000" mode="linear"/>
 		</storyboard>
 	</text>
 
@@ -295,7 +295,7 @@ originally based on: "carbon"
 	<datetime name="md_releasedate, md_lastplayed">
 		<storyboard>
 			<animation property="opacity" to="0" begin="" duration="" mode=""/>
-			<animation property="opacity" to="1" begin="9500" duration="1000" mode="linear"/>
+			<animation property="opacity" to="1" begin="5500" duration="1000" mode="linear"/>
 		</storyboard>
 	</datetime>
 	
