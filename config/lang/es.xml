@@ -13,7 +13,7 @@
 <systembackground.snap>Animación de avatares</systembackground.snap>
 <systembackground.carboncontrol>Palancas de cable</systembackground.carboncontrol>
 <systembackground.randomvideo>Vídeo aleatorio</systembackground.randomvideo>
-<systembackground.fanart>Fanart</systembackground.fanart>
+<systembackground.randombox>Cajas de juego aleatorias</systembackground.randombox>
 <tilesViewName>Viñetas</tilesViewName>
 <iconsViewName>Iconos</iconsViewName>
 <detailedLogoViewName>Detallado con lista de logotipos</detailedLogoViewName>
@@ -65,6 +65,9 @@
 <system-controllers>Imagen de los mandos</system-controllers>
 <show>Ver</show>
 <hide>Ocultar</hide>
+<bigboxesview>Cajas - Tamaño grande</bigboxesview>
+<mediumboxesview>Cajas - Tamaño mediano</mediumboxesview>
+<smallboxesview>Cajas - Tamaño pequeño</smallboxesview>
 
 </variables>
 

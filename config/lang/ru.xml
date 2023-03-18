@@ -13,7 +13,7 @@
 <systembackground.snap>Анимация аватара</systembackground.snap>
 <systembackground.carboncontrol>Проволочные рычаги</systembackground.carboncontrol>
 <systembackground.randomvideo>случайное видео</systembackground.randomvideo>
-<systembackground.fanart>фанарт</systembackground.fanart>
+<systembackground.randombox>Случайные игровые коробки</systembackground.randombox>
 <tilesViewName>Виньетки</tilesViewName>
 <iconsViewName>Иконки</iconsViewName>
 <detailedLogoViewName>Подробно со списком логотипов</detailedLogoViewName>
@@ -65,6 +65,9 @@
 <system-controllers>Имидж контролеров</system-controllers>
 <show>Посмотреть</show>
 <hide>Скрыть</hide>
+<bigboxesview>Коробки - большой размер</bigboxesview>
+<mediumboxesview>Коробки - среднего размера</mediumboxesview>
+<smallboxesview>Коробки - малый размер</smallboxesview>
 
 </variables>
 

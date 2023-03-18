@@ -13,7 +13,7 @@
 <systembackground.snap>Avatar-Animation</systembackground.snap>
 <systembackground.carboncontrol>Drahtgriffe</systembackground.carboncontrol>
 <systembackground.randomvideo>Zufallsvideo</systembackground.randomvideo>
-<systembackground.fanart>Fanart</systembackground.fanart>
+<systembackground.randombox>Zufällige Spielboxen</systembackground.randombox>
 <tilesViewName>Vignetten</tilesViewName>
 <iconsViewName>Icons</iconsViewName>
 <detailedLogoViewName>Detailliert mit Logoliste</detailedLogoViewName>
@@ -65,6 +65,9 @@
 <system-controllers>Bild von Controllern</system-controllers>
 <show>Anzeigen</show>
 <hide>Ausblenden</hide>
+<bigboxesview>Boxen - Großformat</bigboxesview>
+<mediumboxesview>Boxen - mittlere Größe</mediumboxesview>
+<smallboxesview>Boxen - Kleine Größe</smallboxesview>
 
 </variables>
 

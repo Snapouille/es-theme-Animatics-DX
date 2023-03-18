@@ -13,7 +13,7 @@
 <systembackground.snap>Animazione avatar</systembackground.snap>
 <systembackground.carboncontrol>Leve a filo</systembackground.carboncontrol>
 <systembackground.randomvideo>Video casuale</systembackground.randomvideo>
-<systembackground.fanart>Fanart</systembackground.fanart>
+<systembackground.randombox>Scatole di gioco casuali</systembackground.randombox>
 <tilesViewName>Vignette</tilesViewName>
 <iconsViewName>Icone</iconsViewName>
 <detailedLogoViewName>Dettagliato con elenco di loghi</detailedLogoViewName>
@@ -65,6 +65,9 @@
 <system-controllers>Immagine dei controllori</system-controllers>
 <show>Vista</show>
 <hide>Nascondere</hide>
+<bigboxesview>Scatole - Grandi dimensioni</bigboxesview>
+<mediumboxesview>Scatole - Dimensione media</mediumboxesview>
+<smallboxesview>Scatole - Dimensioni ridotte</smallboxesview>
 
 </variables>
 

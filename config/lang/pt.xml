@@ -13,7 +13,7 @@
 <systembackground.snap>Animação Avatar</systembackground.snap>
 <systembackground.carboncontrol>Alavancas de arame</systembackground.carboncontrol>
 <systembackground.randomvideo>Vídeo aleatório</systembackground.randomvideo>
-<systembackground.fanart>Fanart</systembackground.fanart>
+<systembackground.randombox>Caixas de jogo aleatórias</systembackground.randombox>
 <tilesViewName>Vinhetas</tilesViewName>
 <iconsViewName>Ícones</iconsViewName>
 <detailedLogoViewName>Detalhado com lista de logótipos</detailedLogoViewName>
@@ -65,6 +65,9 @@
 <system-controllers>Imagem dos controladores</system-controllers>
 <show>Ver</show>
 <hide>Esconder</hide>
+<bigboxesview>Caixas - Tamanho grande</bigboxesview>
+<mediumboxesview>Caixas - Tamanho médio</mediumboxesview>
+<smallboxesview>Caixas - Tamanho pequeno</smallboxesview>
 
 </variables>
 

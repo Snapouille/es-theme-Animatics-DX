@@ -13,7 +13,7 @@
 <systembackground.snap>アバターアニメーション</systembackground.snap>
 <systembackground.carboncontrol>ワイヤーレバー</systembackground.carboncontrol>
 <systembackground.randomvideo>ランダムビデオ</systembackground.randomvideo>
-<systembackground.fanart>ファンアート</systembackground.fanart>
+<systembackground.randombox>ランダムゲームボックス</systembackground.randombox>
 <tilesViewName>ヴィネット</tilesViewName>
 <iconsViewName>アイコンについて</iconsViewName>
 <detailedLogoViewName>ロゴ一覧の詳細</detailedLogoViewName>
@@ -65,6 +65,9 @@
 <system-controllers>コントローラーのイメージ</system-controllers>
 <show>表示</show>
 <hide>隠す</hide>
+<bigboxesview>箱 - ビッグサイズ</bigboxesview>
+<mediumboxesview>箱 - Mサイズ</mediumboxesview>
+<smallboxesview>箱 - 小サイズ</smallboxesview>
 
 </variables>
 

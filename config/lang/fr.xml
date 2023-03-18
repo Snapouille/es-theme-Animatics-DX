@@ -13,7 +13,7 @@
 <systembackground.snap>Avatar animation</systembackground.snap>
 <systembackground.carboncontrol>Manettes fil de fer</systembackground.carboncontrol>
 <systembackground.randomvideo>Vidéo aléatoire</systembackground.randomvideo>
-<systembackground.fanart>Fanart</systembackground.fanart>
+<systembackground.randombox>Boîtes de jeu aléatoire</systembackground.randombox>
 <tilesViewName>Vignettes</tilesViewName>
 <iconsViewName>Icônes</iconsViewName>
 <detailedLogoViewName>Détaillé avec liste de logos</detailedLogoViewName>
@@ -65,6 +65,9 @@
 <system-controllers>Image des contrôleurs</system-controllers>
 <show>Afficher</show>
 <hide>Masquer</hide>
+<bigboxesview>Boîtes - Grand format</bigboxesview>
+<mediumboxesview>Boîtes - Format moyen</mediumboxesview>
+<smallboxesview>Boîtes - Petit format</smallboxesview>
 
 </variables>
 

@@ -18,14 +18,11 @@ originally based on: "carbon"
     <systemInfoColor>DDDDDDD8</systemInfoColor>
     <groupColor>BD4747</groupColor>
     <groupSeparatorColor>BD4747</groupSeparatorColor>
-    <!-- <backgroundImage>./art/fiber.png</backgroundImage> -->
     <tilesViewName>Tiles</tilesViewName>
     <iconsViewName>Icons</iconsViewName>
-	<!-- <detailedLogoViewName>Detailed with logo list</detailedLogoViewName> -->
     <roundBorderSubsetName>Round borders</roundBorderSubsetName>
     <blinkBorderSubsetName>Blinking borders</blinkBorderSubsetName>
     <previewBarSubsetName>Preview bar</previewBarSubsetName>
-    <!-- <videoboxesSubsetName>Show Video in boxes</videoboxesSubsetName> -->
     <zoomboxesSubsetName>Zoom boxes</zoomboxesSubsetName>
     <orientationSubsetName>Orientation</orientationSubsetName>
     <videosSubsetName>Videos</videosSubsetName>
@@ -75,7 +72,6 @@ originally based on: "carbon"
 	<system-controllers>Controllers</system-controllers>
 	<show>Show</show>
 	<hide>Hide</hide>
-	
 	<bigboxesview>Boxes - Big Size</bigboxesview>
 	<mediumboxesview>Boxes - Medium Size</mediumboxesview>
 	<smallboxesview>Boxes - Small Size</smallboxesview>
@@ -371,13 +367,11 @@ originally based on: "carbon"
   <include>./config/gamelist/grid.xml</include>
   <include>./config/gamelist/gamecarousel.xml</include>
   <include>./config/gamelist/basic.xml</include>
-  <!-- <include>./config/gamelist/fanart.xml</include> -->
   <include>./config/gamelist/boxes_big.xml</include>
   <include>./config/gamelist/boxes_medium.xml</include>
   <include>./config/gamelist/boxes_small.xml</include>
+  <include>./config/gamelist/fanart.xml</include>
 
- 
-  
 
 <!-- Subset options for help -->
   <subset name="helpsystem" displayName="${helpSubsetName}">

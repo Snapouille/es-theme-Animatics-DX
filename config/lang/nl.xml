@@ -13,7 +13,7 @@
 <systembackground.snap>Avatar animatie</systembackground.snap>
 <systembackground.carboncontrol>Draadhendels</systembackground.carboncontrol>
 <systembackground.randomvideo>Willekeurige video</systembackground.randomvideo>
-<systembackground.fanart>Fanart</systembackground.fanart>
+<systembackground.randombox>Willekeurige spellendozen</systembackground.randombox>
 <tilesViewName>Vignetten</tilesViewName>
 <iconsViewName>Pictogrammen</iconsViewName>
 <detailedLogoViewName>Gedetailleerd met lijst van logo's</detailedLogoViewName>
@@ -65,6 +65,9 @@
 <system-controllers>Beeld van de controleurs</system-controllers>
 <show>Bekijk</show>
 <hide>Verberg</hide>
+<bigboxesview>Dozen - Groot formaat</bigboxesview>
+<mediumboxesview>Dozen - Middelgroot formaat</mediumboxesview>
+<smallboxesview>Dozen - Klein formaat</smallboxesview>
 
 </variables>
 

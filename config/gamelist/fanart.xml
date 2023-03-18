@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme defaultView="detailed">
+  <formatVersion>7</formatVersion>
+  
+  
+    
+<customView name="fanart" inherits="boxes_big" displayName="${fanartview}">
+	
+	<image name="topLine, logo, cadre, background" extra="true">
+		<visible>false</visible>
+    </image>
+	
+	<imagegrid name="gamegrid">
+	  <origin>0.5 0.5</origin>
+	  <pos>0 0.31</pos>
+	  <size>1 1</size>
+	  <margin>0.0772 0</margin>
+	  <padding>0.02 0 0.02 0</padding>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>5 1</autoLayout>
+	  <imageSource>marquee</imageSource>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+      <centerSelection>true</centerSelection>
+	  <scrollLoop>true</scrollLoop>
+	  
+	  <gameImage>./../../art/divers/nologo.png</gameImage>
+	  
+      <zIndex>50</zIndex>
+	  
+	   <storyboard>		
+        		<animation property="scale" to="0.7" autoreverse="true" duration="200" mode="easeOut"/>
+        </storyboard>
+	</imagegrid>
+	
+    <gridtile name="default">
+      <padding>0 0</padding>
+      <backgroundCenterColor>44444400</backgroundCenterColor>
+	  <backgroundEdgeColor>66666600</backgroundEdgeColor>
+	  <selectionMode>image</selectionMode>
+      <imageSizeMode>maxSize</imageSizeMode>
+	  <imageColor>505050FF</imageColor>
+	   
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>88000000</backgroundCenterColor>
+      <backgroundEdgeColor>DD000000</backgroundEdgeColor>
+	  <backgroundCornerSize>8 8</backgroundCornerSize>
+	  <imageColor>FFFFFFFF</imageColor>
+      <padding>0 0</padding>
+	  
+    </gridtile>
+	
+	<ninepatch name="gridtile.background:selected">
+	  <animateColor>AA660000</animateColor>
+	 
+    </ninepatch>
+
+     <image name="gridtile.marquee">
+         <pos>0.5 0.5</pos>
+         <origin>0.5 0.5</origin>
+         <size>0 0</size>
+      </image>
+      <image name="gridtile.marquee:selected">
+	     <pos>0.5 0.70</pos>
+         <color>FFFFFFFF</color>
+         <size>0 0</size>
+      </image>
+	  
+	   <image name="gridtile.favorite">
+         <pos>0.914 0</pos>
+         <maxSize>0.5 0.5</maxSize>
+		 
+		<storyboard repeatAt="forever">
+			<animation property="rotation" to="1080" begin="3000" duration="2000" autoreverse="true" mode="easeInOut"/>
+			<animation property="scale" to="0" begin="15000" duration="1000" autoreverse="true" mode="easeInOut"/>
+			<animation property="scale" to="0" begin="30000" duration="1000" autoreverse="true" mode="easeInOut"/>
+		</storyboard>
+      </image>
+
+
+
+
+
+
+      <image name="md_fanart">
+		<default>./../../art/divers/bg.jpg</default>
+	  	<linearSmooth>true</linearSmooth>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+        <zIndex>3</zIndex>
+		<color>FFFFFFFF</color>
+		<colorEnd>000000FF</colorEnd>
+        <gradientType>vertical</gradientType>
+		<scale>1.1</scale>
+		<saturation>0</saturation>
+			<storyboard event="open">
+				<animation property="saturation" from="0" to="1" mode="linear" duration="2200" begin="0"/>
+				<animation property="scale" from="1.1" to="1" mode="linear" duration="10000" begin="0"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="saturation" from="0" to="1" mode="linear" duration="2200" begin=""/>
+				<animation property="scale" from="1.1" to="1" mode="linear" duration="10000" begin=""/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="saturation" from="0" to="1" mode="linear" duration="2200" begin=""/>
+				<animation property="scale" from="1.1" to="1" mode="linear" duration="10000" begin=""/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="saturation" from="1" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="saturation" from="1" to="0" mode="linear" duration="1"/>
+			</storyboard>	
+      </image>
+	  
+	  
+		
+     
+
+      
+
+
+     
+	 <!-- Quadrillage au niveau des metadata (Nombre de parties, Dernier jeu, ...)  -->
+	<image name="info_background2" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.3057292 0.0675926</size>									
+		<pos>0.1648438 0.3597222</pos>									
+		<tile>true</tile>
+		<path>./../../art/divers/bg_square.png</path>
+		<zIndex>10</zIndex>
+    </image>
+	 
+	 
+	 <!-- Cadre gris selection des systèmes en navigation -->
+	<image name="cadre-lecture" extra="true">
+		<path>./../../art/divers/darkwheel1.png</path>
+		<origin>0.5 0.5</origin>									
+		<size>0.3369792 0.575</size>									
+		<pos>0.1627604 0.6662037</pos>									
+		<zIndex>4</zIndex>
+    </image>
+	 
+	<text name="md_name">
+		<size>0.31 0.08</size>
+	</text>
+	 
+
+	<image name="md_thumbnail">
+        <pos>0.89 0.5</pos>
+	    <pos if="{system.theme} == 'amiga500' || {system.theme} == 'neogeocd' || {system.theme} == 'ngpc'  ">0.88 0.5</pos>
+		<pos if="{system.theme} == 'amigacdtv' || {system.theme} == 'amigacd32' || {system.theme} == 'gx4000' || {system.theme} == 'dreamcast' || {system.theme} == 'gameandwatch' ||  {system.theme} == 'gb' || {system.theme} == 'gbc'  || {system.theme} == 'gb2players'  || {system.theme} == 'gbc2players' || {system.theme} == 'gba' || {system.theme} == 'gba2players' || {system.theme} == 'neogeocd' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pcengine' || {system.theme} == 'pce-cd' || {system.theme} == 'psx' || {system.theme} == 'pokemini' || {system.theme} == 'solarus' || {system.theme} == 'sgb' || {system.theme} == 'snes-msu1' || {system.theme} == 'virtualboy' {system.theme} == '3ds' || {system.theme} == 'megaduck' || {system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'virtualboy' || {system.theme} == 'nds' || {system.theme} == 'fds' || ">0.87 0.5</pos>
+		<pos if="{system.theme} == '3do' || {system.theme} == 'model2' || {system.theme} == 'psp' || {system.theme} == 'pv1000' || {system.theme} == 'switch'">0.91 0.5</pos>
+
+	   <maxSize>0.23 0.43</maxSize>
+        <zIndex>36</zIndex>
+	    <linearSmooth>true</linearSmooth>
+	    <default>./../../art/divers/noboxart.png</default>
+		
+        <storyboard event="open">
+			<animation property="offsetX" from="2" to="1"  duration="7000" />
+			<animation property="offsetX" from="1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			<animation property="offsetX" from="2" to="1"  duration="7000" />
+			<animation property="offsetX" from="1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="offsetX" from="2" to="1"  duration="7000" />
+			<animation property="offsetX" from="1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" from="0" to="0" duration="" mode="linear"/>
+		</storyboard>
+      </image>
+
+
+
+
+
+
+      <image name="info_background2,cadre-lecture,md_image,md_flag,cadre_gauche, cadre_droit, cadre_haut, cadre_bas, cadre_droit_droit, cadre_bas_bas,info_background,md_manual,md_nomanual,ghost_manual,md_savestate,md_nosavestate,ghost_savestate,md_kidgame, md_notkidgame,ghost_kidgame,md_map, md_nomap,ghost_md_map,md_cheevos,md_notcheevos,ghost_cheevos">
+        <storyboard event="open">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" from="0" to="0" duration="" mode="linear"/>
+		</storyboard>
+      </image>
+
+      <text name="md_description, md_name, md_genre, md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_players">
+         <storyboard event="open">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" from="0" to="0" duration="" mode="linear"/>
+		</storyboard>
+      </text>
+
+	<rating name="md_rating">
+		<storyboard event="open">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" from="0" to="0" duration="" mode="linear"/>
+		</storyboard>
+	  
+	  
+    </rating>  
+	
+	
+	<video name="md_video">
+	
+		<storyboard event="open">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="offsetX" from="-2" to="-1"  duration="7000" />
+			<animation property="offsetX" from="-1" to="0"  begin ="8000" duration="3000" mode="EaseOutQuint"/>
+			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" from="0" to="0" duration="" mode="linear"/>
+		</storyboard>
+	</video>
+	
+	
+	
+	<text name="md_developer, md_playcount, md_gametime">
+		<storyboard>
+			<animation property="opacity" to="0" begin="" duration="" mode=""/>
+			<animation property="opacity" to="1" begin="9500" duration="1000" mode="linear"/>
+		</storyboard>
+	</text>
+
+	
+	
+	
+	
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<storyboard>
+			<animation property="opacity" to="0" begin="" duration="" mode=""/>
+			<animation property="opacity" to="1" begin="9500" duration="1000" mode="linear"/>
+		</storyboard>
+	</datetime>
+	
+	
+	
+	
+		<!-- On masque l'image avant la video -->
+			<image name="md_image">
+				<visible>false</visible>
+			</image>
+
+	
+  
+  
+ </customView>
+  
+  
+  
+  
+</theme>

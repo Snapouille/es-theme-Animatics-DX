@@ -11,7 +11,7 @@ originally based on: "carbon"
 <customView name="boxes_small" inherits="boxes_big" displayName="${smallboxesview}">
 	
     <imagegrid name="gamegrid">
-      <pos>0.333333 0</pos>
+      <pos>0.333333 0.01</pos>
       <size>0.6666667 0.914814814</size>
 	  <margin>0 0</margin>
       <padding>0.004 0 0.004 0</padding>

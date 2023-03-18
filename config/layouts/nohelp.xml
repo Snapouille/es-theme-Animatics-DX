@@ -1,5 +1,5 @@
 ﻿<theme>
-  <view name="system" ifSubset="SystemView:vertical|vertical arts|wheel">
+  <view name="system" ifSubset="SystemView:vertical|wheel">
 		<image name="BottomBar" extra="true">
 		  <visible>false</visible>
 		</image>
@@ -62,7 +62,7 @@
   
   
   <!-- On repositionne la barre en bas pour la mettre tout en bas de l'écran-->
-	<view name="basic, detailed, fanart, grid, video">
+	<view name="basic, detailed, grid, video">
 		<image name="bottom" extra="true">
 			  <visible>true</visible>
 			  <pos>0 1.06</pos>
@@ -175,7 +175,7 @@
   
   
   
-  <view name="grid">
+  <view name="grid" ifSubset="SystemView:grid">
   
 	<imagegrid name="gamegrid">
 		 <pos>0.025 0.495</pos>
@@ -189,23 +189,59 @@
   </view>
   
   
-  <customView name="Fanart">
   
-	<imagegrid name="gamegrid">
-	  <pos>0 0.37</pos>
-	  <size>1 1</size>
-	  <margin>0.0772 0</margin>
-	  <padding>0.02 0 0.02 0</padding>
-      <autoLayout>5 1</autoLayout>
-	  <autoLayoutSelectedZoom>2</autoLayoutSelectedZoom>
+  
+   <customView name="boxes_big, boxes_medium, boxes_small">
+  
+	  <imagegrid name="gamegrid">
+		  <pos>0.333333 0.05</pos>
+		</imagegrid>
 	  
-    </imagegrid>
-  
-  
+		
+		
+		<text name="md_description">
+			 <size>0.3 0.42</size>
+		</text>
+		
+		<text name="md_developer">
+			 <pos>0.011 0.921</pos>
+		  </text>
+		
+		<datetime name="md_releasedate">
+			 <pos>0.01 0.951</pos>
+		</datetime>
+
+		<image name="md_flag">
+			<pos>0.073 0.976</pos>
+		</image>
+	
   </customView>
   
+  <customView name="fanart">
   
-  
+		<imagegrid name="gamegrid">
+		  <pos>0 0.37</pos>
+		  <size>1 1</size>
+		  <margin>0.0772 0</margin>
+		</imagegrid>
+		
+		<text name="md_description">
+			 <size>0.3 0.42</size>
+		</text>
+		
+		<text name="md_developer">
+			 <pos>0.011 0.921</pos>
+		  </text>
+		
+		<datetime name="md_releasedate">
+			 <pos>0.01 0.951</pos>
+		</datetime>
+
+		<image name="md_flag">
+			<pos>0.073 0.976</pos>
+		</image>
+	
+  </customView>
   
   
 </theme>

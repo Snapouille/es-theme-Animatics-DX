@@ -13,7 +13,7 @@
 <systembackground.snap>Animacja awatara</systembackground.snap>
 <systembackground.carboncontrol>Dźwignie druciane</systembackground.carboncontrol>
 <systembackground.randomvideo>Losowy filmik</systembackground.randomvideo>
-<systembackground.fanart>Fanart</systembackground.fanart>
+<systembackground.randombox>Losowe pudełka z grami</systembackground.randombox>
 <tilesViewName>Winiety</tilesViewName>
 <iconsViewName>Ikony</iconsViewName>
 <detailedLogoViewName>Szczegółowy z wykazem logotypów</detailedLogoViewName>
@@ -65,6 +65,9 @@
 <system-controllers>Obraz kontrolerów</system-controllers>
 <show>Zobacz</show>
 <hide>Ukryj</hide>
+<bigboxesview>Pudełka - duży rozmiar</bigboxesview>
+<mediumboxesview>Pudełka - rozmiar średni</mediumboxesview>
+<smallboxesview>Pudełka - mały rozmiar</smallboxesview>
 
 </variables>
 
