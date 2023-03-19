@@ -17,8 +17,9 @@ Features :
     16/9 Only, not compatible with 4/3 or 5/4 for now
     Pi4 or more powerfull recommended
 
-## System View Simple
+# System View
 
+## System View Simple
 | Without system description  | With system description |
 | ------------- | ------------- |
 | ![2023-03-19 09_47_07-EmulationStation](https://user-images.githubusercontent.com/105559045/226164536-f98d8474-58d0-4ff1-95c2-eebaf33a2973.png)  | ![2023-03-19 09_29_08-EmulationStation](https://user-images.githubusercontent.com/105559045/226164544-569e939f-b0b0-415c-9e4d-2c36fcff211d.png)  |
@@ -27,26 +28,22 @@ Features :
 
 
 ## System View Vertical
-
 | Without system description  | With system description |
 | ------------- | ------------- |
 | ![2023-03-19 10_06_29-EmulationStation](https://user-images.githubusercontent.com/105559045/226165142-f763a610-65d2-45cd-b984-1e5070c4dd6a.png)  | !![2023-03-19 10_08_03-EmulationStation](https://user-images.githubusercontent.com/105559045/226165145-ce7ef1ce-9aec-40c2-aa6b-c83c4e73c850.png)  |
 
 
 ## System View Horizontal
-
-| Without system description  | With system description |
-| ------------- | ------------- |
-|  |  |
-
-
-
-System View Horizontal
 ![Vue Horizontale](https://user-images.githubusercontent.com/105559045/220708543-dd20bf76-f4e4-442b-91ec-054b4c4149d1.png)
 
-System View Wheel
-![2023-03-01 17_54_57-EmulationStation](https://user-images.githubusercontent.com/105559045/222210887-665a35b9-ff8e-4212-8a2d-b14081781bb1.png)
-![2023-03-01 17_53_10-EmulationStation](https://user-images.githubusercontent.com/105559045/222210912-49937b37-89de-45d6-8db8-fe495febb7e9.png)
+
+## System View Wheel
+| Without system description  | With system description |
+| ------------- | ------------- |
+| ![2023-03-01 17_54_57-EmulationStation](https://user-images.githubusercontent.com/105559045/222210887-665a35b9-ff8e-4212-8a2d-b14081781bb1.png) | ![2023-03-01 17_53_10-EmulationStation](https://user-images.githubusercontent.com/105559045/222210912-49937b37-89de-45d6-8db8-fe495febb7e9.png) |
+
+
+# Gamelist View
 
 Gamelist view : Detailed
 ![4 detailed](https://user-images.githubusercontent.com/105559045/215271537-8cc97dc3-4adb-47b5-ad2e-79bd1e833a65.png)
@@ -65,7 +62,7 @@ Gamelist view : Boxes (Big - Medium and Small)
 
 ---
 
-HOW DO I CHANGE MY AVATAR AND USERNAME?
+### HOW DO I CHANGE MY AVATAR AND USERNAME?
 You can display your Netplay or Retroachievements username by selecting it in the theme options.
 You can also use a fully customized username and logo, for this you will find two files in the theme root folder:
 - To change the avatar image, simply overwrite the PNG file named "your-logo.png".
@@ -74,7 +71,7 @@ Finally, don't forget to set in the theme options :
 (-> User Interface Settings -> Theme Configuration -> Your Nickname : Custom: Here Your Nickname)
 
 
-COMMENT CHANGER D'AVATAR ET DE NOM D'UTILISATEUR ?
+### COMMENT CHANGER D'AVATAR ET DE NOM D'UTILISATEUR ?
 Vous pouvez afficher votre nom d'utilisateur Netplay ou Retroachievements en le selectionnant dans les options du thème.
 Vous pouvez également utiliser un nom d'utilisateur et un logo entièrement personnalisés, pour cela vous trouverez deux fichiers dans le dossier racine du thème :
 - Pour changer l'image de l'avatar, écrasez simplement le fichier PNG nommé "your-logo.png".
