@@ -30,7 +30,7 @@ Features :
 ## System View Vertical
 | Without system description  | With system description |
 | ------------- | ------------- |
-| ![2023-03-19 10_06_29-EmulationStation](https://user-images.githubusercontent.com/105559045/226165142-f763a610-65d2-45cd-b984-1e5070c4dd6a.png)  | !![2023-03-19 10_08_03-EmulationStation](https://user-images.githubusercontent.com/105559045/226165145-ce7ef1ce-9aec-40c2-aa6b-c83c4e73c850.png)  |
+| ![2023-03-19 10_06_29-EmulationStation](https://user-images.githubusercontent.com/105559045/226165142-f763a610-65d2-45cd-b984-1e5070c4dd6a.png)  | ![2023-03-19 10_08_03-EmulationStation](https://user-images.githubusercontent.com/105559045/226165145-ce7ef1ce-9aec-40c2-aa6b-c83c4e73c850.png)  |
 
 
 ## System View Horizontal
