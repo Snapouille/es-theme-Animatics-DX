@@ -40,24 +40,25 @@ Features :
 ## System View Wheel
 | Without system description  | With system description |
 | ------------- | ------------- |
-| ![2023-03-01 17_54_57-EmulationStation](https://user-images.githubusercontent.com/105559045/222210887-665a35b9-ff8e-4212-8a2d-b14081781bb1.png) | ![2023-03-01 17_53_10-EmulationStation](https://user-images.githubusercontent.com/105559045/222210912-49937b37-89de-45d6-8db8-fe495febb7e9.png) |
+| ![2023-03-01 17_54_57-EmulationStation](https://user-images.githubusercontent.com/105559045/222210887-665a35b9-ff8e-4212-8a2d-b14081781bb1.png) | ![2023-03-19 10_08_03-EmulationStation](https://user-images.githubusercontent.com/105559045/226165431-c0740978-8d0d-41fd-8fc2-52629d7a4c84.png) |
+
 
 
 # Gamelist View
 
-Gamelist view : Detailed
+## Gamelist view : Detailed
 ![4 detailed](https://user-images.githubusercontent.com/105559045/215271537-8cc97dc3-4adb-47b5-ad2e-79bd1e833a65.png)
 
-Gamelist view : Grid
+## Gamelist view : Grid
 ![gamelist Grid](https://user-images.githubusercontent.com/105559045/219969836-e5bc356b-0fcc-436d-a227-31029da367a8.png)
 
-Gamelist view : Game Carousel
+## Gamelist view : Game Carousel
 ![6 gamecarousel](https://user-images.githubusercontent.com/105559045/215271568-f9cc0739-25a5-4d71-b7b2-bb26411475c9.png)
 
-Gamelist view : Video 
+## Gamelist view : Video 
 ![7 video](https://user-images.githubusercontent.com/105559045/215271576-336ea719-7a8e-4ac8-8597-39500ef27680.png)
 
-Gamelist view : Boxes (Big - Medium and Small)
+## Gamelist view : Boxes (Big - Medium and Small)
 ![2023-03-16 18_27_48-EmulationStation](https://user-images.githubusercontent.com/105559045/225704909-307e8621-5188-4f93-8d6e-d0d9622929b5.png)
 
 ---
@@ -81,7 +82,7 @@ Pour terminer, n'oubliez pas de paramétrer dans les options du thème :
 
 ---
 
-Big Thanks and credits to :
+### Big Thanks and credits to :
 
 - Darknior RVGM (large artworks dealer)
 - Pajarorrojo Playstation-X (inspiration and code for avatars-logo and nickname)
