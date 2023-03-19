@@ -53,7 +53,7 @@ Features :
 ![gamelist Grid](https://user-images.githubusercontent.com/105559045/219969836-e5bc356b-0fcc-436d-a227-31029da367a8.png)
 
 ## Gamelist view : Game Carousel
-![6 gamecarousel](https://user-images.githubusercontent.com/105559045/215271568-f9cc0739-25a5-4d71-b7b2-bb26411475c9.png)
+![2023-03-19 10_19_04-EmulationStation](https://user-images.githubusercontent.com/105559045/226165615-63fd15d1-665b-4712-a667-db1e2d78ed17.png)
 
 ## Gamelist view : Video 
 ![7 video](https://user-images.githubusercontent.com/105559045/215271576-336ea719-7a8e-4ac8-8597-39500ef27680.png)
