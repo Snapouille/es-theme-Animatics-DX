@@ -21,9 +21,10 @@ Features :
 
 
 
-| Start of animation  | End of animation |
+| Without system description  | With system description |
 | ------------- | ------------- |
 | ![2023-03-19 09_47_07-EmulationStation](https://user-images.githubusercontent.com/105559045/226164536-f98d8474-58d0-4ff1-95c2-eebaf33a2973.png)  | ![2023-03-19 09_29_08-EmulationStation](https://user-images.githubusercontent.com/105559045/226164544-569e939f-b0b0-415c-9e4d-2c36fcff211d.png)  |
+
 ![2023-03-06 20_32_31-EmulationStation](https://user-images.githubusercontent.com/105559045/223212102-9f8ef27a-ba9f-4c9b-adea-3cdb7375d828.png)
 
 
