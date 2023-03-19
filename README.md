@@ -19,8 +19,6 @@ Features :
 
 ## System View Simple
 
-
-
 | Without system description  | With system description |
 | ------------- | ------------- |
 | ![2023-03-19 09_47_07-EmulationStation](https://user-images.githubusercontent.com/105559045/226164536-f98d8474-58d0-4ff1-95c2-eebaf33a2973.png)  | ![2023-03-19 09_29_08-EmulationStation](https://user-images.githubusercontent.com/105559045/226164544-569e939f-b0b0-415c-9e4d-2c36fcff211d.png)  |
@@ -28,19 +26,20 @@ Features :
 ![2023-03-06 20_32_31-EmulationStation](https://user-images.githubusercontent.com/105559045/223212102-9f8ef27a-ba9f-4c9b-adea-3cdb7375d828.png)
 
 
+## System View Vertical
+
+| Without system description  | With system description |
+| ------------- | ------------- |
+| ![2023-03-19 10_06_29-EmulationStation](https://user-images.githubusercontent.com/105559045/226165142-f763a610-65d2-45cd-b984-1e5070c4dd6a.png)  | !![2023-03-19 10_08_03-EmulationStation](https://user-images.githubusercontent.com/105559045/226165145-ce7ef1ce-9aec-40c2-aa6b-c83c4e73c850.png)  |
 
 
+## System View Horizontal
+
+| Without system description  | With system description |
+| ------------- | ------------- |
+|  |  |
 
 
-
-
-
-
-
-
-System View Vertical
-![1 vertical](https://user-images.githubusercontent.com/105559045/215271909-bde6a89f-ee0d-43ce-8e22-8de47700a031.png)
-![2023-02-25 17_49_00-EmulationStation](https://user-images.githubusercontent.com/105559045/221369266-f8585a55-363c-4070-acdd-98efaec54934.png)
 
 System View Horizontal
 ![Vue Horizontale](https://user-images.githubusercontent.com/105559045/220708543-dd20bf76-f4e4-442b-91ec-054b4c4149d1.png)
