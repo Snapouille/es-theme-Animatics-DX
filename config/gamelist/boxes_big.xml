@@ -51,7 +51,7 @@ originally based on: "carbon"
       <origin>0.5 0.5</origin>
       <horizontalAlignment>right</horizontalAlignment>
       <color>FFFF00</color>
-	  <maxSize>0.08 0.08</maxSize>
+	  <maxSize>0.11 0.11</maxSize>
 		<storyboard repeatAt="forever">
 			<animation property="scale" to="1.5" begin="1000" duration="500" autoreverse="true" mode="bump"/>
 			<animation property="offsetX" to="-0.03" begin="3000" duration="500" autoreverse="true" mode="EaseOutCubic"/>

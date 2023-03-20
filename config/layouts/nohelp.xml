@@ -29,10 +29,10 @@
 		  <visible>false</visible>
 		</image>
 		
-		<!-- On repositionne les stats  -->
+		<!-- On repositionne les stats correctement  -->
 		<text name="systemInfoEx">
-			<pos>0.03 0.713</pos>
-			<!-- <alignment>left</alignment> -->
+			<pos>0.064 0.733</pos>
+			<pos ifSubset="system-description:Show">0.03 0.73</pos>
 		</text>
 		
 		<text name="system_description" ifSubset="system-description:Show">
@@ -196,11 +196,9 @@
 	  <imagegrid name="gamegrid">
 		  <pos>0.333333 0.05</pos>
 		</imagegrid>
-	  
-		
-		
+	  		
 		<text name="md_description">
-			 <size>0.3 0.42</size>
+			 <size>0.3 0.388</size>
 		</text>
 		
 		<text name="md_developer">
