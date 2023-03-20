@@ -6,7 +6,7 @@ Theme for Emulation Station compatible with
 - Emuelec
 - Retrobat
 
-V1.35 - (2023 03 16)
+V1.36 - (2023 03 16)
 
 Features :
 
@@ -56,6 +56,9 @@ Features :
 
 ## Gamelist view : Video 
 ![7 video](https://user-images.githubusercontent.com/105559045/215271576-336ea719-7a8e-4ac8-8597-39500ef27680.png)
+
+## Gamelist view : Fanart
+![Gamelist View Fanart 2](https://user-images.githubusercontent.com/105559045/226408868-8ec567a4-297d-4086-a9b6-4a8cc10a66d6.png)
 
 ## Gamelist view : Boxes (Big - Medium and Small)
 ![2023-03-16 18_27_48-EmulationStation](https://user-images.githubusercontent.com/105559045/225704909-307e8621-5188-4f93-8d6e-d0d9622929b5.png)
