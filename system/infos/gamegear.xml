@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Game Gear (ゲームギア) is a portable colour video game console produced by Sega to compete with Nintendo's Game Boy which appeared a year earlier. It is similar to its big sister, the Master System, with the only notable difference being the lower resolution to fit the screen of the handheld.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Is an 8-bit fourth generation handheld game console released by Sega on October 6, 1990 in Japan, in April 1991 throughout North America and Europe, and during 1992 in Australia.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Es una videoconsola portátil creada por Sega en respuesta a la Game Boy de Nintendo. Es la tercera consola portátil con pantalla en color de la historia, después de la Atari Lynx y la Turbo Express.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Game Gear (ゲームギア, Gēmu gia?) est une console de jeux vidéo portable en couleur, sortie en 1990 et produite par Sega afin de concurrencer la Game Boy de Nintendo apparue une année plus tôt.Elle a la particularité d'avoir un écran rétro-éclairé au détriment d'une grosse consommation de piles.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Game Gear (ゲームギア) est une console de jeux vidéo portable en couleurs produite par Sega afin de concurrencer la Game Boy de Nintendo apparue une année plus tôt. Elle se rapproche de sa grande sœur la Master System avec pour seule différence notable la résolution, plus faible afin d'être adaptée à l'écran de la console portable.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console de videogame portátil, de 8 bits, desenvolvido e produzido pela Sega. Fazia parte da denominada 4ª geração de consolas e surgiu em resposta ao portátil da Nintendo, o Game Boy.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Game Gear (ゲームギア) ist eine tragbare Farbvideospielkonsole, die von Sega hergestellt wurde, um mit dem ein Jahr zuvor erschienenen Game Boy von Nintendo zu konkurrieren. Sie ähnelt ihrer großen Schwester, dem Master System, mit dem einzigen nennenswerten Unterschied in der Auflösung, die niedriger ist, um für den Bildschirm der tragbaren Konsole geeignet zu sein.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>La Game Gear (ゲームギア) es una videoconsola portátil en color producida por Sega para competir con la Game Boy de Nintendo, que apareció un año antes. Es similar a su hermana mayor, la Master System, con la única diferencia notable de la menor resolución para adaptarse a la pantalla de la portátil.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il Game Gear (ゲームギア) è una console portatile per videogiochi a colori prodotta da Sega per competere con il Game Boy di Nintendo, apparso un anno prima. È simile alla sorella maggiore, il Master System, con l'unica differenza notevole di una risoluzione più bassa per adattarsi allo schermo della console portatile.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ゲームギア（Game Gear）は、1年前に登場した任天堂のゲームボーイに対抗してセガが製造した携帯型カラービデオゲーム機です。姉妹機であるマスターシステムに似ているが、唯一の顕著な違いは、携帯機の画面に合わせて解像度が低くなっていることである。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Game Gear (ゲームギア) is een draagbare kleurenspelconsole geproduceerd door Sega om te concurreren met Nintendo's Game Boy die een jaar eerder verscheen. Het is vergelijkbaar met zijn grote zus, de Master System, met als enige opmerkelijke verschil de lagere resolutie om op het scherm van de handheld te passen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Game Gear (ゲームギア) to przenośna kolorowa konsola do gier wideo wyprodukowana przez firmę Sega, aby konkurować z Game Boyem firmy Nintendo, który pojawił się rok wcześniej. Jest podobny do swojej starszej siostry, Master System, z jedyną zauważalną różnicą jest niższa rozdzielczość, aby dopasować się do ekranu handheld.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>The Game Gear (ゲームギア) é uma consola portátil de videojogos a cores produzida pela Sega para competir com o Game Boy da Nintendo, que apareceu um ano antes. É semelhante à sua irmã maior, o Sistema Master, sendo a única diferença notável a resolução mais baixa para caber no ecrã da consola portátil.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Game Gear (ゲームギア) - портативная цветная игровая консоль, выпущенная компанией Sega для конкуренции с Game Boy от Nintendo, которая появилась годом ранее. Она похожа на свою старшую сестру, Master System, с единственным заметным отличием - меньшим разрешением экрана.</text>
+</text>
+
+</view>
 </theme>

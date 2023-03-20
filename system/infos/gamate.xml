@@ -4,24 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>The Gamate (超級小子) is a handheld game console manufactured by Bit Corporation in the early 1990s and marketed in Australia, parts of Europe, Asia (Taiwan and China), Argentina and the United States. Over 70 games, not all of which have been dumped, have been produced for the system.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The Gamate is a handheld game console manufactured by Bit Corporation in the early 1990s, and released in Australia, some parts of Europe, Asia (Taiwan and China), Argentina, and the United States. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Gamate (超級小子) est une console de jeu portable fabriquée par Bit Corporation au début des années 1990 et commercialisée en Australie, dans certaines régions d'Europe, en Asie (Taïwan et Chine), en Argentine et aux États-Unis. Plus de 70 jeux, qui n'ont pas tous fait l'objet d'un dumping, ont été produits pour le système.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es" >
-			<text>La Gamate fue una videoconsola portátil fabricada por Bit Corporation. Se tiene noticias de su venta en Australia, Europa (España, Francia, Reino Unido, Italia, Finlandia, Alemania, Austria...), Asia, Estados Unidos, México, Argentina, Sudáfrica.... Se puso en venta sobre 1990.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Gamate (超級小子) ist eine tragbare Spielkonsole, die Anfang der 1990er Jahre von der Bit Corporation hergestellt und in Australien, Teilen Europas, Asien (Taiwan und China), Argentinien und den USA vermarktet wurde. Für das System wurden über 70 Spiele produziert, von denen nicht alle gedumpt wurden.</text>
+</text>
 
-		
+<text name="system_description" extra="true" lang="es">
+<text>La Gamate (超級小子) es una videoconsola portátil fabricada por Bit Corporation a principios de la década de 1990 y comercializada en Australia, parte de Europa, Asia (Taiwán y China), Argentina y Estados Unidos. Se produjeron para el sistema más de 70 juegos, de los cuales no todos fueron volcados.</text>
+</text>
 
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Il Gamate (超級小子) è un sistema di gioco portatile prodotto da Bit Corporation all'inizio degli anni '90 e commercializzato in Australia, parte dell'Europa, Asia (Taiwan e Cina), Argentina e Stati Uniti. Per il sistema sono stati prodotti oltre 70 giochi, non tutti scaricati.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>ゲーマテ（超級小子）は、1990年代前半に株式会社ビットが製造し、オーストラリア、ヨーロッパの一部、アジア（台湾、中国）、アルゼンチン、アメリカで販売された携帯型ゲーム機である。このシステムのために、すべてが投棄されたわけではないが、70以上のゲームが生産された。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Gamate (超級小子) is een draagbare spelconsole die begin jaren negentig door Bit Corporation werd vervaardigd en in Australië, delen van Europa, Azië (Taiwan en China), Argentinië en de Verenigde Staten op de markt werd gebracht. Voor het systeem werden meer dan 70 spelletjes geproduceerd, die niet allemaal werden gedumpt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Gamate (超級小子) to ręczna konsola do gier wyprodukowana przez Bit Corporation na początku lat 90. i sprzedawana w Australii, części Europy, Azji (Tajwan i Chiny), Argentynie i Stanach Zjednoczonych. Dla systemu wyprodukowano ponad 70 gier, z których nie wszystkie zostały zrzucone.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>The Gamate (超級小子) é uma consola de jogos portátil fabricada pela Bit Corporation no início dos anos 90 e comercializada na Austrália, partes da Europa, Ásia (Taiwan e China), Argentina e Estados Unidos. Foram produzidos mais de 70 jogos, nem todos foram abandonados, para a consola.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Gamate (超級小子) - портативная игровая консоль, выпущенная компанией Bit Corporation в начале 1990-х годов и продававшаяся в Австралии, некоторых странах Европы, Азии (Тайвань и Китай), Аргентине и США. Для системы было выпущено более 70 игр, не все из которых были выброшены на свалку.</text>
+</text>
+
+</view>
 </theme>

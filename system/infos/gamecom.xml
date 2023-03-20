@@ -4,24 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Game.com is a portable game console marketed by Tiger Electronics.  It was the first video game console to include a touch screen and the first handheld console to include Internet connectivity. The Game.com sold less than 300,000 units and was discontinued in 2000 due to poor sales.</text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text>Le Game.com est une console de jeu portable commercialisée par Tiger Electronics.  Il s'agit de la première console de jeu vidéo à inclure un écran tactile et de la première console portable à inclure la connectivité Internet. La Game.com s'est vendue à moins de 300 000 exemplaires et a été abandonnée en 2000 en raison de la faiblesse des ventes.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Game.com is a fifth-generation handheld game console released by Tiger Electronics on September 12, 1997. A smaller version, the Game.com Pocket Pro, was released in mid-1999. The first version of the Game.com can be connected to a 14.4 kbit/s modem for Internet connectivity, hence its name referencing the top level domain .com. 
-				
-It was the first video game console to include a touchscreen and the first handheld console to include Internet connectivity. The Game.com sold fewer than 300,000 units and was discontinued in 2000 because of poor sales. </text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Game.com ist eine tragbare Spielkonsole, die von Tiger Electronics vertrieben wird.  Sie war die erste Videospielkonsole mit einem Touchscreen und die erste tragbare Konsole mit Internetanschluss. Der Game.com verkaufte sich weniger als 300.000 Mal und wurde im Jahr 2000 aufgrund der geringen Verkaufszahlen eingestellt.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>La Game.com fue una videoconsola portátil, también considerada como un PDA, creada por Tiger Electronics saliendo a la venta en septiembre de 1997 hasta el 2000.
+<text name="system_description" extra="true" lang="es">
+<text>La Game.com es una videoconsola portátil comercializada por Tiger Electronics.  Fue la primera videoconsola con pantalla táctil y la primera consola portátil con conexión a Internet. La Game.com vendió menos de 300.000 unidades y se dejó de fabricar en 2000 debido a sus escasas ventas.</text>
+</text>
 
-Como características especiales disponía de una pantalla táctil, cosa que no ha vuelto a tener ninguna portátil hasta la Nintendo DS o la Tapwave Zodiac, y disponía de unos cuantos accesorios curiosos, como un módem a 14400 bps. A pesar de eso, no llegó a ser muy popular.</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Game.com è una console di gioco portatile commercializzata da Tiger Electronics.  È stata la prima console per videogiochi a includere un touch screen e la prima console portatile a includere la connettività Internet. Il Game.com ha venduto meno di 300.000 unità ed è stato dismesso nel 2000 a causa delle scarse vendite.</text>
+</text>
 
+<text name="system_description" extra="true" lang="ja">
+<text>ゲーム・ドット・コムは、タイガー魔法瓶が販売した携帯ゲーム機である。 ゲーム機として初めてタッチパネルを搭載し、携帯ゲーム機として初めてインターネット接続を搭載した。Game.comの販売台数は30万台に満たず、販売不振のため2000年に販売終了となった。</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>De Game.com is een draagbare spelconsole die op de markt werd gebracht door Tiger Electronics.  Het was de eerste videogameconsole met een aanraakscherm en de eerste draagbare console met internetverbinding. De Game.com werd minder dan 300.000 keer verkocht en werd in 2000 stopgezet wegens de lage verkoopcijfers.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Game.com to przenośna konsola do gier wprowadzona na rynek przez firmę Tiger Electronics.  Była to pierwsza konsola do gier wideo zawierająca ekran dotykowy i pierwsza przenośna konsola zawierająca łączność z Internetem. Game.com sprzedał się w ilości mniejszej niż 300 000 sztuk i został wycofany z produkcji w 2000 roku z powodu słabej sprzedaży.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Game.com é uma consola de jogos portátil comercializada pela Tiger Electronics.  Foi a primeira consola de jogos de vídeo a incluir um ecrã táctil e a primeira consola portátil a incluir ligação à Internet. O Game.com vendeu menos de 300.000 unidades e foi descontinuado em 2000 devido a vendas fracas.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Game.com - это портативная игровая консоль, выпущенная на рынок компанией Tiger Electronics.  Это была первая игровая консоль с сенсорным экраном и первая портативная консоль с возможностью подключения к Интернету. Game.com была продана в количестве менее 300 000 экземпляров и снята с производства в 2000 году из-за низких продаж.</text>
+</text>
+
+</view>
 </theme>

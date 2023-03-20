@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
+<text name="system_description" extra="true">
+<text>The GameCube (ニンテンドーゲームキューブ), is a home video game console developed in association with IBM, NEC and ATI. It competed with the PS2, Xbox and Dreamcast. Despite its excellent games, the GameCube did not meet the success of its predecessors, with only 5 years in the game console market.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The Nintendo GameCube is a home video game console released by Nintendo in Japan and North America in 2001 and in PAL territories in 2002. The GameCube is Nintendo's entry in the sixth generation of video game consoles and the successor to their previous console, the Nintendo 64.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La GameCube (ニンテンドーゲームキューブ), est une console de jeux vidéo de salon développée en association avec IBM, NEC et ATI. Elle fut en concurrence avec la PS2, la Xbox et la Dreamcast. Malgré ses excellents jeux, la GameCube ne rencontre pas le succès de ses devancières, avec seulement 5 ans sur le marché des consoles de jeux.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Nintendo GameCube es la quinta consola de sobremesa hecha por Nintendo. Es la sucesora del Nintendo 64 y la predecesora del Wii.
+<text name="system_description" extra="true" lang="de">
+<text>Der GameCube (ニンテンドーゲームキューブ), ist eine Videospielkonsole für den Heimgebrauch, die in Zusammenarbeit mit IBM, NEC und ATI entwickelt wurde. Sie konkurrierte mit der PS2, der Xbox und der Dreamcast. Trotz seiner hervorragenden Spiele war der GameCube nicht so erfolgreich wie seine Vorgänger und hatte nur 5 Jahre auf dem Markt für Spielkonsolen.</text>
+</text>
 
-Sus principales características son su procesador central basado en un IBM PowerPC y su procesador gráfico desarrollado por ATI Technologies. Nintendo, por primera vez, prescinde del cartucho como formato de almacenamiento, y adopta un formato óptico propio, el Nintendo Optical Disc. Es además la primera consola de Nintendo que no cuenta en su fecha de lanzamiento con un juego de Mario, mascota oficial de la compañía. </text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La GameCube (ニンテンドーゲームキューブ), es una videoconsola doméstica desarrollada en asociación con IBM, NEC y ATI. Compitió con la PS2, la Xbox y la Dreamcast. A pesar de sus excelentes juegos, la GameCube no alcanzó el éxito de sus predecesoras, con sólo 5 años en el mercado de las videoconsolas.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>Le GameCube est une console de salon du fabricant japonais Nintendo, sortie en 2001 (2002 en Europe), développée en association avec IBM, NEC et ATI. Elle fut en concurrence avec la PlayStation 2 de Sony, la Xbox de Microsoft et la Dreamcast de Sega, qui forment ensemble la sixième génération de consoles de jeux vidéo. </text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Il GameCube (ニンテンドーゲームキューブ), è una console per videogiochi domestici sviluppata in associazione con IBM, NEC e ATI. Era in concorrenza con PS2, Xbox e Dreamcast. Nonostante i suoi eccellenti giochi, il GameCube non ha riscosso il successo dei suoi predecessori, rimanendo sul mercato delle console per videogiochi per soli 5 anni.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text>O Nintendo GameCube (comumente abreviado como GameCube) é um console de videogame doméstico lançado pela Nintendo no Japão e na América do Norte em 2001 e Europa e Austrália em 2002. Como parte da sexta geração de consoles, é o sucessor do Nintendo 64.</text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text>ゲームキューブ（ニンテンドーゲームキューブ）は、IBM、NEC、ATIの3社が共同で開発した家庭用ゲーム機である。PS2、Xbox、Dreamcastと競合していた。ゲームキューブは、その優れたゲームにもかかわらず、ゲーム機市場でわずか5年で、先代の成功には至りませんでした。</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="nl">
+<text>De GameCube (ニンテンドーゲームキューブ), is een spelcomputer voor thuisgebruik, ontwikkeld in samenwerking met IBM, NEC en ATI. Het concurreerde met de PS2, Xbox en Dreamcast. Ondanks de uitstekende spellen, haalde de GameCube niet het succes van zijn voorgangers, met slechts 5 jaar op de spelconsole markt.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>GameCube (ニンテンドーゲームキューブ), to domowa konsola do gier wideo opracowana we współpracy z IBM, NEC i ATI. Konkurowała z PS2, Xboxem i Dreamcastem. Pomimo doskonałych gier, GameCube nie odniósł sukcesu swoich poprzedników, będąc zaledwie 5 lat na rynku konsol do gier.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A GameCube (ニンテンドーゲームキューブ), é uma consola de videojogos doméstica desenvolvida em associação com a IBM, NEC e ATI. Competiu com a PS2, Xbox e Dreamcast. Apesar dos seus excelentes jogos, a GameCube não alcançou o sucesso dos seus antecessores, com apenas 5 anos no mercado das consolas de jogos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>GameCube (ニンテンドーゲームキューブ) - домашняя игровая приставка, разработанная совместно компаниями IBM, NEC и ATI. Она конкурировала с PS2, Xbox и Dreamcast. Несмотря на отличные игры, GameCube не достигла успеха своих предшественниц и продержалась на рынке игровых консолей всего 5 лет.</text>
+</text>
+
+</view>
 </theme>

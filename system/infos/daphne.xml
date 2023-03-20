@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>DAPHNE is an emulator for arcade games based on the Laserdisc. It is the only emulator entirely dedicated to this platform; the MAME emulator also implemented support for it later. It is released under the GPL. </text>
+</text>
 
-				<text name="system_description" extra="true" >
-			<text>DAPHNE is a Free laserdisc game emulator that allows one to play laserdisc arcade games. Using Daphne, one can play various laserdisc arcade games such Dragon's Lair, Astron Belt and much more.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>DAPHNE es un emulador de juegos de disco láser gratuito que permite jugar a juegos de arcade laserdisc, como Dragon's Lair, Space Ace, Astron Belt y muchos más.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>DAPHNE est un émulateur de jeu laserdisc gratuit qui permet de jouer à des jeux d'arcade laserdisc. En utilisant Daphne, on peut jouer à divers jeux d'arcade laserdisc tels que Dragon's Lair, Astron Belt et plus encore.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="pt">
-			<text>DAPHNE é um emulador de jogos em laserdisc que permite jogar jogos de arcade em laserdisc. Usando Daphne, você poderá jogar vários clássicos dos arcades como Dragon's Lair, Astron Belt e muito mais.</text>
-		</text>
-		
-						
+<text name="system_description" extra="true" lang="fr">
+<text>DAPHNE est un émulateur de jeux d'arcade basés sur le Laserdisc. Il s'agit du seul émulateur entièrement destiné à cette plate-forme ; l'émulateur MAME a également implémenté, ultérieurement, un support de celle-ci. Il est publié sous licence GPL. </text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>DAPHNE ist ein Emulator für Arcade-Spiele, die auf der Laserdisc basieren. Es ist der einzige Emulator, der vollständig auf diese Plattform ausgerichtet ist; der Emulator MAME implementierte später ebenfalls eine Unterstützung für diese Plattform. Er wird unter der GPL-Lizenz veröffentlicht. </text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>DAPHNE es un emulador de juegos arcade basados en Laserdisc. Es el único emulador enteramente dedicado a esta plataforma; el emulador MAME también implementó soporte para ella más tarde. Está publicado bajo licencia GPL. </text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>DAPHNE è un emulatore di giochi arcade basati sul Laserdisc. È l'unico emulatore interamente dedicato a questa piattaforma; anche l'emulatore MAME ne ha implementato il supporto in seguito. È rilasciato sotto licenza GPL. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>DAPHNEは、レーザーディスクをベースにしたアーケードゲーム用のエミュレータです。このプラットフォームに完全に特化した唯一のエミュレータであり、MAMEエミュレータも後にサポートを実装しました。GPLの下でリリースされています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>DAPHNE is een emulator voor arcadespellen gebaseerd op de Laserdisc. Het is de enige emulator die volledig gewijd is aan dit platform; de MAME-emulator heeft er later ook ondersteuning voor geïmplementeerd. Het is vrijgegeven onder de GPL. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>DAPHNE to emulator gier zręcznościowych opartych na płycie Laserdisc. Jest to jedyny emulator w całości poświęcony tej platformie; emulator MAME również zaimplementował wsparcie dla niej w późniejszym czasie. Został wydany na licencji GPL. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O DAPHNE é um emulador para jogos arcade baseado no Laserdisc. É o único emulador inteiramente dedicado a esta plataforma; o emulador MAME também implementou suporte para ela mais tarde. É lançado sob a GPL. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>DAPHNE - это эмулятор для аркадных игр на базе Laserdisc. Это единственный эмулятор, полностью посвященный этой платформе; эмулятор MAME также реализовал поддержку этой платформы позднее. Он выпущен под лицензией GPL. </text>
+</text>
+
+</view>
 </theme>

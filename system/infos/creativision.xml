@@ -4,22 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>The VTech CreatiVision is a hybrid of computer and console. It is similar in concept to computers such as the APF Imagination, the VideoBrain Family, and to a lesser extent the Intellivision and the Coleco Adam, each of which anticipated the trend for video game consoles to become more and more like entry-level computers.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The Video Technology CreatiVision is a hybrid computer and home video game console introduced by VTech in 1981 and released in 1982. The hybrid unit was similar in concept to computers such as the APF Imagination Machine, the older VideoBrain Family Computer, and to a lesser extent the Intellivision game console and Coleco Adam computer, all of which anticipated the trend of video game consoles becoming more like low-end computers. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La VTech CreatiVision est un hybride d'ordinateur et de console. Elle est semblable dans le concept à des ordinateurs tels que l'APF Imagination, la VideoBrain Family, et dans une moindre mesure à l'Intellivision et au Coleco Adam, qui ont chacun, anticipé la tendance des consoles de jeux vidéo à tendre de plus en plus vers des ordinateurs d'entrée de gamme.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text>La Creativision es una consola y un ordenador doméstico, presentada por VTech en 1981 y lanzada en 1982. La unidad híbrida era similar en concepto a ordenadores como APF Imagination Machine, la antigua VideoBrain Family Computer y, en menor medida, la consola de juegos Intellivision y la Coleco Adam, que anticiparon la tendencia de las consolas de videojuegos a parecerse más a los ordenadores de gama baja.
+<text name="system_description" extra="true" lang="de">
+<text>Die VTech CreatiVision ist ein Hybrid aus Computer und Konsole. Sie ähnelt in ihrem Konzept Computern wie dem APF Imagination, der VideoBrain Family und in geringerem Maße dem Intellivision und dem Coleco Adam.</text>
+</text>
 
-			</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El VTech CreatiVision es un híbrido de ordenador y consola. Su concepto es similar al de ordenadores como el APF Imagination, el VideoBrain Family y, en menor medida, el Intellivision y el Coleco Adam, que anticipaban la tendencia de las consolas de videojuegos a parecerse cada vez más a ordenadores básicos.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il VTech CreatiVision è un ibrido tra computer e console. Il suo concetto è simile a quello di computer come l'APF Imagination, la VideoBrain Family e, in misura minore, l'Intellivision e il Coleco Adam, che hanno anticipato la tendenza delle console per videogiochi a diventare sempre più simili a computer entry-level.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>VTech CreatiVisionは、コンピュータとコンソールのハイブリッドである。APFイマジネーション、ビデオブレイン・ファミリー、そして、ビデオゲーム機がエントリーレベルのコンピュータに近づいていく傾向を先取りしたインテリビジョンやコールコ・アダムなどのコンピュータに似たコンセプトを持っています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De VTech CreatiVision is een hybride van computer en console. Het concept is vergelijkbaar met computers zoals de APF Imagination, de VideoBrain Family, en in mindere mate de Intellivision en de Coleco Adam, die elk vooruitliepen op de trend dat videospelconsoles steeds meer op instapcomputers gingen lijken.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>VTech CreatiVision to hybryda komputera i konsoli. Jest podobny w koncepcji do komputerów takich jak APF Imagination, VideoBrain Family i w mniejszym stopniu Intellivision i Coleco Adam, z których każdy przewidywał trend konsoli do gier wideo, aby coraz bardziej przypominać komputery klasy podstawowej.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O VTech CreatiVision é um híbrido de computador e consola. É semelhante em conceito a computadores como a APF Imagination, a Família VideoBrain, e em menor medida a Intellivision e a Coleco Adam, cada uma das quais antecipou a tendência para as consolas de videojogos se tornarem cada vez mais como computadores de nível básico.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>VTech CreatiVision - это гибрид компьютера и консоли. По своей концепции он похож на такие компьютеры, как APF Imagination, VideoBrain Family и, в меньшей степени, Intellivision и Coleco Adam, каждый из которых предвосхитил тенденцию превращения игровых консолей в компьютеры начального уровня.</text>
+</text>
+
+</view>
 </theme>

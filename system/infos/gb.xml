@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Game Boy (ゲームボーイ) is a portable 8-bit video game console. It was designed by Gunpei Yokoi and Nintendo Research & Development, the same team that designed the Game and Watch series as well as many successful NES games. Despite the release of more technically advanced portable consoles, the Game Boy was a huge success.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Is an 8-bit handheld game console which was developed and manufactured by Nintendo. It is the first handheld console in the Game Boy line and was created and published by team led by Gunpei Yokoi at the time.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Game Boy es una serie de videoconsolas portátiles alimentadas con pilas (a excepción del modelo SP y Micro) y comercializadas por Nintendo. Es oficialmente la tercera consola más vendida del mundo.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Elle fut conçue par Gunpei Yokoi et Nintendo Research and Development 1 — la même équipe ayant conçu la série des Game and Watch ainsi que de nombreux jeux à succès sur Nintendo Entertainment System.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Game Boy (ゲームボーイ) est une console portable de jeu vidéo 8-bits. Elle fut conçue par Gunpei Yokoi et Nintendo Research & Development, la même équipe ayant conçu la série des Game and Watch ainsi que de nombreux jeux à succès sur NES. Malgré la sortie de consoles portables techniquement plus avancées, la Game Boy a connu un très franc succès.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Game Boy é o segundo portátil da Nintendo, criado após a linha Game and Watch lançada em 1980. Junto ao Game Boy Color, venderam impressionantes 118,69 milhões de unidades.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der Game Boy (ゲームボーイ) ist eine tragbare Konsole für 8-Bit-Videospiele. Sie wurde von Gunpei Yokoi und Nintendo Research & Development entwickelt, demselben Team, das auch die Game and Watch-Reihe und viele erfolgreiche Spiele für das NES entworfen hat. Obwohl technisch fortschrittlichere Handheld-Konsolen auf den Markt kamen, war der Game Boy ein sehr großer Erfolg.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Game Boy (ゲームボーイ) es una videoconsola portátil de 8 bits. Fue diseñada por Gunpei Yokoi y Nintendo Research & Development, el mismo equipo que diseñó la serie Game and Watch, así como muchos juegos de éxito de NES. A pesar del lanzamiento de consolas portátiles técnicamente más avanzadas, la Game Boy fue un gran éxito.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Game Boy (ゲームボーイ) è una console portatile per videogiochi a 8 bit. È stata progettata da Gunpei Yokoi e da Nintendo Research & Development, lo stesso team che ha progettato la serie Game and Watch e molti giochi NES di successo. Nonostante l'uscita di console portatili tecnicamente più avanzate, il Game Boy ebbe un enorme successo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ゲームボーイ（Game Boy）は、携帯型の8ビットビデオゲーム機です。横井軍平と任天堂の研究開発チームによって設計され、「ゲーム＆ウォッチ」シリーズや多くの成功したファミコンゲームを設計したのと同じチームです。より高度な技術を持つ携帯ゲーム機が発売されたにもかかわらず、ゲームボーイは大成功を収めました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Game Boy (ゲームボーイ) is een draagbare 8-bit video game console. Hij werd ontworpen door Gunpei Yokoi en Nintendo Research & Development, hetzelfde team dat de Game and Watch-serie en vele succesvolle NES-spellen ontwierp. Ondanks de release van meer technisch geavanceerde draagbare consoles, was de Game Boy een groot succes.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Game Boy (ゲームボーイ) to przenośna 8-bitowa konsola do gier wideo. Został zaprojektowany przez Gunpei Yokoi i Nintendo Research & Development, ten sam zespół, który zaprojektował serię Game and Watch, jak również wiele udanych gier NES. Pomimo wydania bardziej zaawansowanych technicznie przenośnych konsol, Game Boy był ogromnym sukcesem.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Game Boy (ゲームボーイ) é uma consola de jogos de vídeo portátil de 8 bits. Foi concebida por Gunpei Yokoi e Nintendo Research & Development, a mesma equipa que concebeu a série Game and Watch, assim como muitos jogos de sucesso da NES. Apesar do lançamento de consolas portáteis mais avançadas tecnicamente, o Game Boy foi um enorme sucesso.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Game Boy (ゲームボーイ) - портативная 8-битная игровая приставка. Она была разработана Гунпеем Йокой и компанией Nintendo Research & Development, той же командой, которая создала серию игр Game and Watch, а также множество успешных игр для NES. Несмотря на выпуск более технически совершенных портативных консолей, Game Boy имела огромный успех.</text>
+</text>
+
+</view>
 </theme>

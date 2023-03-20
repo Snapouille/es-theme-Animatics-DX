@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Final Burn Alpha is an arcade game emulator based on the Final Burn emulator, which emulates various systems such as the MVS, CPS1 and CPS2, System 16, System 18, X and Y Board from Sega, as well as a whole list of Cave Toaplan, Taito, Psikyo, Kaneko, ... It runs on Windows but is also ported to Linux, OSX and Android.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>FinalBurn Neo is an active fork of the FinalBurn Alpha emulator, created by many of the former FBA developers.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>FBNEO es un nuevo proyecto creado por la mayoría de programadores de Final Burn Alpha y es un multi-emulador, es decir, es capaz de emular diferentes placas arcade y algunas consolas (algo así como Mame pero no engloba tantos sistemas)</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>FinalBurn Neo est un fork actif de l'émulateur FinalBurn Alpha, créé par de nombreux anciens développeurs FBA.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Final Burn Alpha est un émulateur de jeu vidéo d'arcade basé sur l'émulateur Final Burn, qui émule différents systèmes tel que le MVS, le CPS1 et CPS2, le System 16, System 18, X et Y Board de Sega, ainsi que toute une liste de jeux Cave Toaplan, Taito, Psikyo, Kaneko, ... Il fonctionne sous Windows mais est également porté sous Linux, OSX et Android.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>FinalBurn Neo é um fork ativo do emulador FinalBurn Alpha, criado por muitos dos ex-desenvolvedores FBA.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Final Burn Alpha ist ein Arcade-Videospiel-Emulator, der auf dem Final Burn-Emulator basiert und verschiedene Systeme wie das MVS, CPS1 und CPS2, System 16, System 18, Sega X und Y Board sowie eine ganze Liste von Spielen von Cave Toaplan, Taito, Psikyo, Kaneko, ... emuliert. Es läuft unter Windows, wird aber auch auf Linux, OSX und Android portiert.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>Final Burn Alpha es un emulador de juegos arcade basado en el emulador Final Burn, que emula varios sistemas como la MVS, CPS1 y CPS2, System 16, System 18, X e Y Board de Sega, así como toda una lista de juegos de Cave Toaplan, Taito, Psikyo, Kaneko, .... Funciona en Windows pero también está portado a Linux, OSX y Android.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Final Burn Alpha è un emulatore di giochi arcade basato sull'emulatore Final Burn, che emula vari sistemi come MVS, CPS1 e CPS2, System 16, System 18, X e Y Board di Sega, così come un'intera lista di Cave Toaplan, Taito, Psikyo, Kaneko, ... Funziona su Windows, ma è anche disponibile per Linux, OSX e Android.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Final Burn Alphaは、Final Burnエミュレータをベースにしたアーケードゲームエミュレータで、セガのMVS、CPS1、CPS2、システム16、システム18、X、Yボードなどの各種システムや、ケイブトープラン、タイトー、プシキョ、金子、・・・のゲーム一式をエミュレートします。Windowsで動作しますが、Linux、OSX、Androidにも移植されています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Final Burn Alpha is een arcade game emulator gebaseerd op de Final Burn emulator, die verschillende systemen emuleert zoals de MVS, CPS1 en CPS2, System 16, System 18, X en Y Board van Sega, alsook een hele lijst van Cave Toaplan, Taito, Psikyo, Kaneko, ... games. Het draait op Windows maar is ook geport naar Linux, OSX en Android.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Final Burn Alpha to emulator gier zręcznościowych oparty na emulatorze Final Burn, który emuluje różne systemy, takie jak MVS, CPS1 i CPS2, System 16, System 18, X i Y Board od Sega, a także całą listę gier Cave Toaplan, Taito, Psikyo, Kaneko, ..... Działa na Windowsie, ale jest też portowany na Linuksa, OSX i Androida.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Final Burn Alpha é um emulador de jogos arcade baseado no emulador Final Burn, que emula vários sistemas tais como MVS, CPS1 e CPS2, System 16, System 18, X e Y Board da Sega, bem como uma lista completa de jogos Cave Toaplan, Taito, Psikyo, Kaneko, ... Corre em Windows mas também é portado para Linux, OSX e Android.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Final Burn Alpha - это эмулятор аркадных игр, основанный на эмуляторе Final Burn, который эмулирует различные системы, такие как MVS, CPS1 и CPS2, System 16, System 18, X и Y Board от Sega, а также целый список игр Cave Toaplan, Taito, Psikyo, Kaneko, .... Она работает под Windows, но также портирована на Linux, OSX и Android.</text>
+</text>
+
+</view>
 </theme>

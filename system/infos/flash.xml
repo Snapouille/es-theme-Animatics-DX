@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Adobe Flash, formerly Macromedia Flash, is a set of software technologies for manipulating vector graphics, raster images and ActionScript scripts to create or use multimedia content (animations, videos, games, applications, etc.). </text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="it">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Adobe Flash anciennement Macromedia Flash, désigne un ensemble de technologies logicielles permettant la manipulation de graphiques vectoriels, d'images matricielles et de scripts ActionScript en vue de créer ou utiliser des contenus multimédia (animations, vidéos, jeux, applications...). </text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Adobe Flash, früher Macromedia Flash, bezeichnet eine Reihe von Softwaretechnologien, die die Manipulation von Vektorgrafiken, Matrixbildern und ActionScript-Skripten ermöglichen, um Multimedia-Inhalte (Animationen, Videos, Spiele, Anwendungen...) zu erstellen oder zu verwenden. </text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Adobe Flash, antes Macromedia Flash, es un conjunto de tecnologías de software que permiten manipular gráficos vectoriales, imágenes de trama y secuencias de comandos ActionScript para crear o utilizar contenidos multimedia (animaciones, vídeos, juegos, aplicaciones, etc.).</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Adobe Flash, ex Macromedia Flash, è un insieme di tecnologie software che consentono la manipolazione di grafica vettoriale, immagini raster e script ActionScript per creare o utilizzare contenuti multimediali (animazioni, video, giochi, applicazioni, ecc.). </text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Adobe Flash（旧Macromedia Flash）は、ベクターグラフィックス、ラスターイメージ、ActionScriptスクリプトを操作して、マルチメディアコンテンツ（アニメーション、ビデオ、ゲーム、アプリケーションなど）を作成または使用できるソフトウェア技術群です。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Adobe Flash, voorheen Macromedia Flash, is een reeks softwaretechnologieën waarmee vectorafbeeldingen, rasterafbeeldingen en ActionScript-scripts kunnen worden gemanipuleerd om multimedia-inhoud (animaties, video's, spelletjes, toepassingen, enz.) te creëren of te gebruiken. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Adobe Flash, dawniej Macromedia Flash, to zestaw technologii programowych, które umożliwiają manipulację grafiką wektorową, obrazami rastrowymi i skryptami ActionScript w celu stworzenia lub wykorzystania treści multimedialnych (animacji, filmów, gier, aplikacji itp.). </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Adobe Flash, anteriormente Macromedia Flash, é um conjunto de tecnologias de software que permitem a manipulação de gráficos vectoriais, imagens raster e scripts ActionScript para criar ou utilizar conteúdos multimédia (animações, vídeos, jogos, aplicações, etc.). </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Adobe Flash, ранее Macromedia Flash, - это набор программных технологий, позволяющих манипулировать векторной графикой, растровыми изображениями и сценариями ActionScript для создания или использования мультимедийного контента (анимации, видео, игр, приложений и т.д.). </text>
+</text>
+
+</view>
 </theme>

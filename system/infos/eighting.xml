@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Eighting Co, Ltd (株式会社エイティング) is a Japanese arcade, home console and mobile game development company founded in 1993. Eighting has also been known under different names since the acquisition of Raizing.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Eighting Co., Ltd. (株式会社エイティング) est une société japonaise de développement de jeux vidéo de type arcade, sur console de salon et sur téléphone mobile, fondée en 1993. La société Eighting s'est également fait connaitre sous différents noms depuis le rachat de la société Raizing.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Eighting Co, Ltd (株式会社エイティング) ist ein 1993 gegründetes japanisches Unternehmen, das Videospiele im Arcade-Stil für Heimkonsolen und Mobiltelefone entwickelt. Auch die Firma Eighting ist seit der Übernahme der Firma Raizing unter verschiedenen Namen bekannt.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Eighting Co, Ltd (株式会社エイティング) es una empresa japonesa de desarrollo de juegos arcade, para consolas domésticas y móviles fundada en 1993. Eighting también ha sido conocida bajo diferentes nombres desde la adquisición de Raizing.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Eighting Co, Ltd (株式会社エイティング) è una società giapponese di sviluppo di videogiochi arcade, per console domestiche e per cellulari fondata nel 1993. Eighting è stata conosciuta anche con nomi diversi dopo l'acquisizione di Raizing.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社エイティングは、1993年に設立された日本のアーケードゲーム、家庭用ゲーム機、モバイルゲームの開発会社です。エイティングは、ライジングを買収して以来、異なる名称でも知られています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Eighting Co, Ltd (株式会社エイティング) is een Japanse ontwikkelaar van arcade-, thuisconsole- en mobiele spellen, opgericht in 1993. Eighting is ook bekend onder verschillende namen sinds de overname van Raizing.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Eighting Co, Ltd (株式会社エイティング) to japońska firma zajmująca się tworzeniem gier zręcznościowych, na konsolę domową i mobilną, założona w 1993 roku. Eighting było również znane pod różnymi nazwami od czasu przejęcia Raizing.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Eighting Co, Ltd (株式会社エイティング) é uma empresa japonesa de jogos arcade, consola doméstica e desenvolvimento de jogos móveis fundada em 1993. Eighting também tem sido conhecida sob diferentes nomes desde a aquisição da Raizing.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Eighting Co, Ltd (株式会社エイティング) - японская компания по разработке игр для аркад, домашних консолей и мобильных устройств, основанная в 1993 году. Eighting также была известна под разными названиями после приобретения Raizing.</text>
+</text>
+
+</view>
 </theme>

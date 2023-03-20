@@ -4,22 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>The Epoch Game Pocket Computer (ゲームポケコン) is a portable game console marketed only in Japan. Preceding the Game Boy by 5 years, the console was a commercial failure, only 5 games were designed for it. A puzzle game and a paint program were built into the system.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The Epoch Game Pocket Computer is a second-generation handheld game console released by Epoch Co. in Japan in 1984 for 12,000 Japanese yen. It is also known as Pokekon and was one of the very few truly handheld systems to be released in the early 1980s, preceding the Game Boy by 5 years.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>L'Epoch Game Pocket Computer (ゲームポケコン) est une console de jeu portable commercialisée uniquement au Japon. Précédant de 5 ans la Game Boy, la console a été un échec commercial, seuls 5 jeux ont été conçus pour elle. Un jeu de puzzle et un programme de peinture étaient intégrés au système.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Epoch Game Pocket Computer es la segunda consola de videojuegos portátil del mundo con cartuchos reemplazables, lanzada por Epoch exclusivamente para el mercado japonés en 1984 por 12.000 yen. 
-				
-También se conocía como Pokekon y fue uno de los pocos sistemas verdaderamente portátiles que se lanzó a principios de la década de 1980, precediendo a la Game Boy en 5 años.</text>
-		</text>
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der Epoch Game Pocket Computer (ゲームポケコン) ist eine tragbare Spielkonsole, die nur in Japan vertrieben wurde. Die Konsole, die 5 Jahre vor dem Game Boy auf den Markt kam, war ein kommerzieller Misserfolg, nur 5 Spiele wurden für sie entwickelt. Ein Puzzlespiel und ein Malprogramm waren in das System integriert.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Epoch Game Pocket Computer (ゲームポケコン) es una videoconsola portátil comercializada únicamente en Japón. Precediendo a la Game Boy en 5 años, la consola fue un fracaso comercial, sólo se diseñaron 5 juegos para ella. Un juego de puzles y un programa de pintura estaban integrados en el sistema.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'Epoch Game Pocket Computer (ゲームポケコン) è una console di gioco portatile commercializzata solo in Giappone. Preceduta di 5 anni dal Game Boy, la console è stata un fallimento commerciale: solo 5 giochi sono stati progettati per essa. Il sistema includeva un puzzle game e un programma di pittura.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>エポックゲームポケットコンピュータ（ゲームポコン）は、日本でのみ販売された携帯ゲーム機である。ゲームボーイに先立つこと5年、このゲーム機は商業的に失敗し、このゲーム用にデザインされたゲームはわずか5本だった。パズルゲームとペイントプログラムがシステムに組み込まれていた。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Epoch Game Pocket Computer (ゲームポケコン) is een draagbare spelconsole die alleen in Japan op de markt werd gebracht. De console, die 5 jaar vóór de Game Boy kwam, was een commerciële mislukking; er werden slechts 5 spellen voor ontworpen. Een puzzelspel en een verfprogramma werden in het systeem ingebouwd.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Epoch Game Pocket Computer (ゲームポケコン) to przenośna konsola do gier sprzedawana tylko w Japonii. Poprzedzając Game Boya o 5 lat, konsola była komercyjną porażką, zaprojektowano na nią tylko 5 gier. W system wbudowana była gra logiczna oraz program do malowania.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>The Epoch Game Pocket Computer (ゲームポケコン) é uma consola de jogos portátil comercializada apenas no Japão. Precedendo o Game Boy por 5 anos, a consola foi um fracasso comercial, apenas 5 jogos foram concebidos para ela. Um jogo de puzzle e um programa de pintura foram incorporados no sistema.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Epoch Game Pocket Computer (ゲームポケコン) - портативная игровая консоль, продававшаяся только в Японии. Предшествовавшая Game Boy на 5 лет, консоль была коммерчески неудачной, для нее было разработано всего 5 игр. В систему были встроены игра-головоломка и программа для рисования.</text>
+</text>
+
+</view>
 </theme>

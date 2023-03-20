@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Gaelco is a video game development and publishing company specialising in the arcade genre. In 2007, the company left arcade games behind and started producing and marketing dart games under the name "Gaelco Darts".</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Gaelco est une entreprise de développement et d'édition de jeux vidéo spécialisée dans le domaine de l'arcade. En 2007, la société laisse les jeux d'arcade de côté et se lance dans la production et la commercialisation de jeux de fléchettes sous le nom de « Gaelco Darts ».</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Gaelco ist ein Unternehmen, das Videospiele entwickelt und veröffentlicht und sich auf den Arcade-Bereich spezialisiert hat. Im Jahr 2007 ließ das Unternehmen die Arcade-Spiele links liegen und begann unter dem Namen "Gaelco Darts" mit der Produktion und Vermarktung von Dartspielen.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Gaelco es una empresa de desarrollo y publicación de videojuegos especializada en el género arcade. En 2007, la empresa dejó atrás los juegos arcade y empezó a producir y comercializar juegos de dardos bajo el nombre de "Gaelco Darts".</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Gaelco è una società di sviluppo e pubblicazione di videogiochi specializzata nel genere arcade. Nel 2007, l'azienda ha abbandonato i giochi arcade e ha iniziato a produrre e commercializzare giochi di freccette con il nome di "Gaelco Darts".</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>ガエルコは、アーケードゲームというジャンルに特化したビデオゲーム開発・出版会社です。2007年にアーケードゲームを離れ、「ガエルコダーツ」の名でダーツゲームの制作・販売を開始しました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Gaelco is een bedrijf dat videospelletjes ontwikkelt en uitgeeft, gespecialiseerd in het arcadegenre. In 2007 liet het bedrijf de arcadespellen achter zich en begon het met de productie en verkoop van dartspellen onder de naam "Gaelco Darts".</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Gaelco to firma zajmująca się tworzeniem i wydawaniem gier wideo, specjalizująca się w gatunku arcade. W 2007 roku firma pozostawiła gry zręcznościowe za sobą i rozpoczęła produkcję i marketing gier dart pod nazwą "Gaelco Darts".</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Gaelco é uma empresa de desenvolvimento e publicação de jogos de vídeo especializada no campo da arcada. Em 2007, a empresa deixou para trás os jogos arcade e começou a produzir e comercializar jogos de dardos sob o nome "Gaelco Darts".</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Gaelco - компания по разработке и изданию видеоигр, специализирующаяся на аркадном жанре. В 2007 году компания оставила аркадные игры и начала производить и продавать игры для дартса под названием "Gaelco Darts".</text>
+</text>
+
+</view>
 </theme>

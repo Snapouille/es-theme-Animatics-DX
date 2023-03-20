@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
-		
-				<text name="system_description" extra="true">
-			<text>The Family Computer Disk System, abbreviated as the FDS or FCD, is a peripheral for Nintendo's Family Computer home video game console, released only in Japan on February 21, 1986.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>The Family Computer Disk System, abreviado como FDS o FCD, es un periférico para la consola de videojuegos para el hogar de Nintendo's Family Computer, lanzado solo en Japón el 21 de febrero de 1986.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Est un périphérique de la console de jeux vidéo Famicom. Vendu par Nintendo, il se place sous la console et utilise un format propriétaire de disquette permettant de stocker des jeux.</text>
-		</text>
+<text name="system_description" extra="true">
+<text>The Famicom Disk System or FDS is a peripheral for the Famicom video game console released on 21 February 1986 in Japan. It fits under the console and uses a proprietary floppy disk format to store games. The US version, planned for late 1986, was never released. </text>
+</text>
 
-			<text name="system_description" extra="true" lang="pt">
-			<text>Este acessório era utilizado no Nintendo Entertainment System. A sua distribuição ocorreu somente no Japão, mas não foi bem sucedida devido aos problemas a que esse tipo de mídia (disquete) está sujeita.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le Famicom Disk System ou FDS est un périphérique de la console de jeux vidéo Famicom sorti le 21 février 1986 au Japon. Il se place sous la console et utilise un format propriétaire de disquette permettant de stocker des jeux. La version américaine, prévue pour fin 1986, n'a jamais été publiée. </text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Das Famicom Disk System oder FDS ist ein Peripheriegerät für die Videospielkonsole Famicom, das am 21. Februar 1986 in Japan veröffentlicht wurde. Es wird unter der Konsole angebracht und verwendet ein proprietäres Diskettenformat, auf dem Spiele gespeichert werden können. Die amerikanische Version, die für Ende 1986 geplant war, wurde nie veröffentlicht. </text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Famicom Disk System o FDS es un periférico para la videoconsola Famicom lanzado el 21 de febrero de 1986 en Japón. Se coloca debajo de la consola y utiliza un formato de disquete propietario para almacenar los juegos. La versión estadounidense, prevista para finales de 1986, nunca salió a la venta. </text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Famicom Disk System o FDS è una periferica per la console per videogiochi Famicom rilasciata il 21 febbraio 1986 in Giappone. Si inserisce sotto la console e utilizza un formato di floppy disk proprietario per memorizzare i giochi. La versione statunitense, prevista per la fine del 1986, non è mai stata rilasciata. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ファミコンディスクシステム（FDS）は、1986年2月21日に日本で発売されたビデオゲーム機「ファミコン」用の周辺機器である。ゲーム機の下に装着し、独自のフロッピーディスク方式でゲームを保存する。1986年末に予定されていた米国版は、発売されなかった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Het Famicom Disk System of FDS is een randapparaat voor de Famicom videospelconsole dat op 21 februari 1986 in Japan werd uitgebracht. Het past onder de console en gebruikt een eigen floppydiskformaat om spellen op te slaan. De Amerikaanse versie, gepland voor eind 1986, werd nooit uitgebracht. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Famicom Disk System lub FDS to urządzenie peryferyjne dla konsoli gier wideo Famicom wydanej 21 lutego 1986 roku w Japonii. Mieści się pod konsolą i wykorzystuje zastrzeżony format dyskietki do przechowywania gier. Wersja amerykańska, planowana na koniec 1986 roku, nigdy nie została wydana. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Famicom Disk System ou FDS é um periférico para a consola de videojogos Famicom lançado a 21 de Fevereiro de 1986 no Japão. Cabe debaixo da consola e utiliza um formato proprietário de disquete para armazenar jogos. A versão americana, planeada para finais de 1986, nunca foi lançada. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Famicom Disk System или FDS - это периферийное устройство для игровой консоли Famicom, выпущенное 21 февраля 1986 года в Японии. Он помещается под консоль и использует собственный формат дискет для хранения игр. Версия для США, запланированная на конец 1986 года, так и не была выпущена. </text>
+</text>
+
+</view>
 </theme>

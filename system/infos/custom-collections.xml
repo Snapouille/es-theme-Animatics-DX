@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Custom Collections</text>
+</text>
 
-		
+<text name="system_description" extra="true" lang="fr">
+<text>Collections personnalisées</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Benutzerdefinierte Sammlungen</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Colecciones personalizadas</text>
+</text>
 
-		<text name="system_name" extra="true">
-			
-			<text>Custom Collections</text>
-			
-		</text>
-								
-		<text name="system_name" extra="true" lang="es">
-			
-			<text>Colecciones Personalizadas</text>
-			
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Collezioni personalizzate</text>
+</text>
 
+<text name="system_description" extra="true" lang="ja">
+<text>カスタムコレクション</text>
+</text>
 
-		
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>Aangepaste collecties</text>
+</text>
 
+<text name="system_description" extra="true" lang="pl">
+<text>Kolekcje niestandardowe</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Colecções personalizadas</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Пользовательские коллекции</text>
+</text>
+
+</view>
 </theme>

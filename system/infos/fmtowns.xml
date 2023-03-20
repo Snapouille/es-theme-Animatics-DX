@@ -4,21 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>The FM Towns Marty is a video game console released exclusively for the Japanese market. It was the first 32-bit game console to use the CD-ROM medium. It was based on the FM Towns microcomputer developed by Fujitsu in 1989. The second version, named FM Towns Marty 2, included an internet connection and a faster 386 processor.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The FM Towns Marty is a fifth-generation home video game console released in 1993 by Fujitsu, exclusively for the Japanese market. It is often claimed to be the first 32-bit CD-based home video game system.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La FM Towns Marty est une console de jeux vidéo sortie exclusivement pour le marché japonais. Elle fut la première console de jeu 32-bits à utiliser le support CD-ROM. Elle s'inspirait du micro-ordinateur FM Towns développé par Fujitsu en 1989. La seconde version, nommée FM Towns Marty 2, incluait une connexion internet et un processeur 386 plus rapide.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text>FM Towns Marty es una videoconsola de quinta generación lanzada en 1993 por Fujitsu exclusivamente para el mercado japonés. Fue la primera consola doméstica de 32 bits y la primera en incluir una unidad de CD-ROM. </text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die FM Towns Marty ist eine Videospielkonsole, die ausschließlich für den japanischen Markt veröffentlicht wurde. Sie war die erste 32-Bit-Spielkonsole, die das Medium CD-ROM nutzte. Sie basierte auf dem 1989 von Fujitsu entwickelten Mikrocomputer FM Towns. Die zweite Version, die FM Towns Marty 2 genannt wurde, enthielt einen Internetanschluss und einen schnelleren 386-Prozessor.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>La FM Towns Marty es una videoconsola lanzada exclusivamente para el mercado japonés. Fue la primera videoconsola de 32 bits que utilizó el soporte CD-ROM. Se basaba en el microordenador FM Towns desarrollado por Fujitsu en 1989. La segunda versión, denominada FM Towns Marty 2, incluía conexión a Internet y un procesador 386 más rápido.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>FM Towns Marty è una console per videogiochi rilasciata esclusivamente per il mercato giapponese. È stata la prima console a 32 bit a utilizzare il supporto CD-ROM. Era basata sul microcomputer FM Towns sviluppato da Fujitsu nel 1989. La seconda versione, denominata FM Towns Marty 2, includeva una connessione a Internet e un processore 386 più veloce.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>FMタウンズマーティは、日本市場専用に発売されたゲーム機である。32ビットゲーム機として初めてCD-ROMというメディアを採用した。1989年に富士通が開発したマイクロコンピュータ「FM Towns」をベースにしている。FM Towns Marty 2と名付けられた第2バージョンは、インターネット接続とより高速な386プロセッサを搭載している。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De FM Towns Marty is een videospelconsole die uitsluitend voor de Japanse markt werd uitgebracht. Het was de eerste 32-bit spelconsole die gebruik maakte van het CD-ROM medium. Hij was gebaseerd op de FM Towns microcomputer die in 1989 door Fujitsu was ontwikkeld. De tweede versie, FM Towns Marty 2 genaamd, bevatte een internetverbinding en een snellere 386-processor.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>FM Towns Marty to konsola do gier wideo wydana wyłącznie na rynek japoński. Była to pierwsza 32-bitowa konsola do gier wykorzystująca nośniki CD-ROM. Została oparta na mikrokomputerze FM Towns opracowanym przez Fujitsu w 1989 roku. Druga wersja, nazwana FM Towns Marty 2, zawierała połączenie internetowe i szybszy procesor 386.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A FM Towns Marty é uma consola de videojogos lançada exclusivamente para o mercado japonês. Foi a primeira consola de jogos de 32 bits a utilizar o suporte CD-ROM. Foi baseada no microcomputador FM Towns, desenvolvido pela Fujitsu em 1989. A segunda versão, denominada FM Towns Marty 2, incluía uma ligação à Internet e um processador 386 mais rápido.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>FM Towns Marty - игровая консоль, выпущенная исключительно для японского рынка. Это была первая 32-битная игровая консоль, использующая носитель CD-ROM. Она была основана на микрокомпьютере FM Towns, разработанном компанией Fujitsu в 1989 году. Вторая версия, названная FM Towns Marty 2, включала подключение к Интернету и более быстрый процессор 386.</text>
+</text>
+
+</view>
 </theme>

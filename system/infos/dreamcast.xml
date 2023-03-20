@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Dreamcast (ドリームキャスト) is the successor to the Saturn. Ahead of its time, it came to market before its competitors the PS2, Xbox and GameCube. Its name is composed of the words dream and cast. It was the first console to come with a modem as standard, allowing it to support online gaming.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" >
-			<text>The Dreamcast is a home video game console released by Sega on November 27, 1998 in Japan, September 9, 1999 in North America. It was the first in the sixth generation of video game consoles.</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="pt">
-			<text>Foi o último console de videogames da Sega e o sucessor do Sega Saturn. Era o console mais avançado de sua época e o mais completo de sua geração quando lançado.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es" >
-			<text>Dreamcast es la sexta y última consola de videojuegos hasta ahora producida por Sega. Es la sucesora de Sega Saturn y fue lanzada al mercado para ganar terreno a PlayStation de Sony y Nintendo 64 de Nintendo, y competir con los sistemas sucesores a estos. 
+<text name="system_description" extra="true" lang="fr">
+<text>La Dreamcast (ドリームキャスト) est le successeur de la Saturn. En avance sur son temps, elle se présente sur le marché avant ses concurrentes la PS2, la Xbox  et la GameCube. Son nom est composé des mots dream (rêve) et cast (de broadcast : diffuser). Elle est la première console livrée en standard avec un modem lui permettant un support de jeu en ligne.</text>
+</text>
 
-Pertenece a la sexta generación de consolas. El sistema fue el primero en tener un módem incorporado para jugar en línea. Se detuvo su producción el 31 de marzo de 2001 tras la decisión de Sega de dedicarse en exclusiva a la programación de videojuegos. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Dreamcast (ドリームキャスト) est une console de jeux vidéo développée par Sega, et est le successeur de la Saturn. Commercialisée dès novembre 1998 au Japon, elle est la première console de sixième génération et possède 128bits</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Die Dreamcast (ドリームキャスト) ist der Nachfolger des Saturn. Da sie ihrer Zeit voraus war, kam sie vor ihren Konkurrenten PS2, Xbox und GameCube auf den Markt. Ihr Name setzt sich aus den Wörtern dream (Traum) und cast (von broadcast: ausstrahlen) zusammen. Sie war die erste Konsole, die standardmäßig mit einem Modem ausgeliefert wurde, das ihr die Unterstützung von Online-Spielen ermöglichte.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Dreamcast (ドリームキャスト) es la sucesora de la Saturn. Adelantada a su tiempo, salió al mercado antes que sus competidoras la PS2, la Xbox y la GameCube. Su nombre se compone de las palabras dream y cast. Fue la primera consola que incorporaba un módem de serie, lo que le permitía soportar juegos en línea.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Dreamcast (ドリームキャスト) è il successore del Saturn. In anticipo sui tempi, è arrivato sul mercato prima dei suoi concorrenti PS2, Xbox e GameCube. Il suo nome è composto dalle parole dream e cast. È stata la prima console a disporre di un modem di serie, che le ha permesso di supportare il gioco online.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ドリームキャスト（Dreamcast）はサターンの後継機である。PS2、Xbox、ゲームキューブといった競合他社に先駆けて発売された。名前の由来は、dream（夢）とcast（キャスト）からなる。ゲーム機として初めてモデムを標準装備し、オンラインゲームに対応した。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Dreamcast (ドリームキャスト) is de opvolger van de Saturn. Hij was zijn tijd ver vooruit en kwam eerder op de markt dan zijn concurrenten de PS2, Xbox en GameCube. De naam is samengesteld uit de woorden droom en cast. Het was de eerste console met standaard een modem, waardoor het online gaming kon ondersteunen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Dreamcast (ドリームキャスト) jest następcą Saturna. Wyprzedzając swoje czasy, pojawił się na rynku przed swoimi konkurentami - PS2, Xboxem i GameCube. Jej nazwa składa się ze słów dream i cast. Była to pierwsza konsola, która standardowo wyposażona była w modem, dzięki czemu mogła obsługiwać gry online.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Dreamcast (ドリームキャスト) é o sucessor do Saturn. À frente do seu tempo, chegou ao mercado antes dos seus concorrentes a PS2, Xbox e GameCube. O seu nome é composto pelas palavras sonho e elenco. Foi a primeira consola a vir com um modem como padrão, permitindo-lhe suportar jogos online.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Dreamcast (ドリームキャスト) является преемником Saturn. Опередив свое время, она появилась на рынке раньше своих конкурентов PS2, Xbox и GameCube. Ее название состоит из слов dream и cast. Это была первая консоль, в стандартную комплектацию которой входил модем, что позволило ей поддерживать онлайновые игры.</text>
+</text>
+
+</view>
 </theme>

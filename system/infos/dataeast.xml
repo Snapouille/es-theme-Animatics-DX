@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Data East Corporation (データイースト株式会社), or simply DECO, is a Japanese video game publishing and development company for arcade and home systems. The company was founded in 1976 and filed for bankruptcy on June 25, 2003. It had over 150 video games to its credit.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Data East Corporation (データイースト株式会社), ou simplement DECO, est une société d'édition et de développement de jeux vidéo japonaise pour salle d'arcade et système familiaux. L'entreprise a été fondée en 1976 et a déposé le bilan le 25 juin 2003. Elle avait plus de 150 jeux vidéo à son actif.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Data East Corporation (データイースト株式会社), oder einfach DECO, ist ein japanischer Verlag und Entwickler von Videospielen für Spielhallen und Familiensysteme. Das Unternehmen wurde 1976 gegründet und meldete am 25. Juni 2003 Konkurs an. Sie hatte mehr als 150 Videospiele auf dem Markt.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Data East Corporation (データイースト株式会社), o simplemente DECO, es una empresa japonesa de publicación y desarrollo de videojuegos para recreativas y sistemas domésticos. La empresa se fundó en 1976 y se declaró en quiebra el 25 de junio de 2003. Contaba con más de 150 videojuegos en su haber.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Data East Corporation (データイースト株式会社), o semplicemente DECO, è una società giapponese di pubblicazione e sviluppo di videogiochi per sale giochi e sistemi domestici. La società è stata fondata nel 1976 e ha dichiarato bancarotta il 25 giugno 2003. Aveva al suo attivo oltre 150 videogiochi.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社データイースト、または単にDECOは、日本のアーケードおよび家庭用ビデオゲームの出版および開発会社である。同社は1976年に設立され、2003年6月25日に破産を申請した。同社は150以上のビデオゲームを提供していました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Data East Corporation (データイート株式会社), of kortweg DECO, is een Japans bedrijf dat videospelletjes uitgeeft en ontwikkelt voor arcade- en thuissystemen. Het bedrijf werd in 1976 opgericht en vroeg op 25 juni 2003 zijn faillissement aan. Het had meer dan 150 videospelletjes op zijn naam staan.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Data East Corporation (データイースト株式会社), lub po prostu DECO, to japońska firma zajmująca się wydawaniem i tworzeniem gier wideo na systemy arcade i domowe. Firma została założona w 1976 roku i złożyła wniosek o upadłość 25 czerwca 2003 roku. Miała ponad 150 gier wideo na swoim koncie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Data East Corporation (データイースト株式会社), ou simplesmente DECO, é uma empresa japonesa de edição e desenvolvimento de jogos de vídeo para arcade e sistemas domésticos. A empresa foi fundada em 1976 e pediu a falência a 25 de Junho de 2003. Tinha mais de 150 jogos de vídeo a seu crédito.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Data East Corporation (データイースト株式会社), или просто DECO, - японская компания по изданию и разработке видеоигр для аркадных и домашних систем. Компания была основана в 1976 году и подала заявление о банкротстве 25 июня 2003 года. На ее счету было более 150 видеоигр.</text>
+</text>
+
+</view>
 </theme>

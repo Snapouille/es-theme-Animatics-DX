@@ -4,19 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Acorn Electron is an entry-level version of the BBC Micro. It has 32 kilobytes of RAM, and its ROM includes the BBC BASIC language and an operating system. It is capable of saving and loading programmes onto audio tape via a converter cable provided and can be connected to a tape recorder.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Acorn Electron was a budget version of the BBC Micro educational/home computer introduced by Acorn Computers Ltd on 25 August 1983. It had 32 kilobytes of RAM, and its ROM includes BBC BASIC v2 along with its operating system. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>L'Acorn Electron est une version entrée de gamme du BBC Micro. Il intègre 32 kilo-octets de RAM, et sa mémoire ROM inclus le langage BBC BASIC ainsi qu'un système d'exploitation. Il est capable de sauvegarder et charger des programmes sur cassette audio via un câble convertisseur fournis et pouvant être branché sur un magnétophone.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>El Acorn Electron fue un ordenador doméstico diseñado y comercializado por Acorn Computers en 1983 como una versión barata de su BBC Micro. Tenía 32 kilobytes de RAM, y su ROM incluía BBC BASIC v2 junto con su sistema operativo.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Acorn Electron ist die Einstiegsversion des BBC Micro. Er verfügt über 32 Kilobyte RAM und sein ROM enthält die BBC BASIC-Sprache und ein Betriebssystem. Er kann über ein mitgeliefertes Konverterkabel Programme auf Audiokassetten speichern und laden.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>El Acorn Electron es una versión básica del BBC Micro. Tiene 32 kilobytes de RAM, y su ROM incluye el lenguaje BBC BASIC y un sistema operativo. Es capaz de guardar y cargar programas en cinta de audio a través de un cable convertidor que se suministra y que puede conectarse a un magnetófono.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>L'Acorn Electron è una versione entry-level del BBC Micro. Ha 32 kilobyte di RAM e la sua ROM include il linguaggio BBC BASIC e un sistema operativo. È in grado di salvare e caricare programmi su nastro audio tramite un cavo convertitore in dotazione e può essere collegato a un registratore.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Acorn Electronは、BBC Microのエントリーレベル版です。32キロバイトのRAMを持ち、ROMにはBBC BASIC言語とオペレーティングシステムが含まれています。付属の変換ケーブルでオーディオテープに番組を保存・ロードすることができ、テープレコーダーに接続することができる。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Acorn Electron is een instapversie van de BBC Micro. Hij heeft 32 kilobyte RAM en zijn ROM bevat de BBC BASIC taal en een besturingssysteem. Hij kan programma's opslaan en laden op geluidsband via een meegeleverde converterkabel en kan worden aangesloten op een bandrecorder.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Acorn Electron jest podstawową wersją BBC Micro. Posiada 32 kilobajty pamięci RAM, a jego pamięć ROM zawiera język BBC BASIC i system operacyjny. Może zapisywać i ładować programy na taśmę audio poprzez dostarczony kabel konwertera i może być podłączony do magnetofonu.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Acorn Electron é uma versão de nível básico da BBC Micro. Tem 32 kilobytes de RAM, e a sua ROM inclui a linguagem BBC BASIC e um sistema operativo. É capaz de guardar e carregar programas em fita de áudio através de um cabo conversor fornecido e pode ser ligado a um gravador de fita.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Acorn Electron - это начальная версия BBC Micro. Он имеет 32 килобайта оперативной памяти, а его ПЗУ включает язык BBC BASIC и операционную систему. Он способен сохранять и загружать программы на аудиокассету через кабель-переходник, который входит в комплект поставки и может быть подключен к магнитофону.</text>
+</text>
+
+</view>
 </theme>

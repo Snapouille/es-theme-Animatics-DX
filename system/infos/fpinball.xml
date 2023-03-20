@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Future Pinball is a real time pinball development system. It allows you to create and play real-time 3D pinball simulations. The software is similar to Visual Pinball and other modern pinball simulation applications.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Future Pinball est un système de développement de flippers temps réel. Il vous permet de créer et de jouer à des simulations de flippers en 3D temps réel. Le logiciel est similaire à Visual Pinball et à d'autres applications modernes de simulation de flipper.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Future Pinball ist ein System zur Entwicklung von Echtzeit-Flipperautomaten. Es ermöglicht Ihnen, Flippersimulationen in 3D-Echtzeit zu erstellen und zu spielen. Die Software ähnelt Visual Pinball und anderen modernen Anwendungen für Flippersimulationen.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Future Pinball es un sistema de desarrollo de pinball en tiempo real. Permite crear y jugar simulaciones de pinball en 3D en tiempo real. El software es similar a Visual Pinball y otras aplicaciones modernas de simulación de pinball.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Future Pinball è un sistema di sviluppo di flipper in tempo reale. Permette di creare e giocare simulazioni di flipper 3D in tempo reale. Il software è simile a Visual Pinball e ad altre moderne applicazioni di simulazione di flipper.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>Future Pinballは、リアルタイムのピンボール開発システムです。リアルタイムの3Dピンボールシミュレーションを作成し、プレイすることができます。このソフトウェアは、Visual Pinballや他の最新のピンボールシミュレーションアプリケーションに似ています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Future Pinball is een real-time flipperkast ontwikkelingssysteem. Je kunt er real-time 3D flipperkastsimulaties mee maken en spelen. De software is vergelijkbaar met Visual Pinball en andere moderne flippersimulatietoepassingen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Future Pinball to system rozwoju pinballa w czasie rzeczywistym. Pozwala na tworzenie i granie w symulacje pinballa 3D w czasie rzeczywistym. Oprogramowanie jest podobne do Visual Pinball i innych nowoczesnych aplikacji do symulacji pinballa.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Pinball do futuro é um sistema de desenvolvimento de pinball em tempo real. Permite-lhe criar e jogar simulações de pinball 3D em tempo real. O software é semelhante ao Visual Pinball e outras aplicações modernas de simulação de pinball.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Future Pinball - это система разработки пинбола в реальном времени. Она позволяет создавать и играть в 3D-симуляторы пинбола в реальном времени. Программа похожа на Visual Pinball и другие современные приложения для моделирования пинбола.</text>
+</text>
+
+</view>
 </theme>

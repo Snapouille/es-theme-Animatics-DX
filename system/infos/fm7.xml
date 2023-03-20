@@ -4,19 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The FM-7 (エフエムセブン), also known as the Fujitsu Micro 7, is an 8-bit personal computer released in Japan . It is the first in a long line of consumer products that includes the FM-NEW 7, FM-77 and FM-77AV, among others. Its purchase price was 126,000 Yen (about 900 Euro).</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The FM-7 ("Fujitsu Micro 7") is a home computer created by Fujitsu. It was first released in 1982 and was sold in Japan and Spain. It is a stripped-down version of Fujitsu's earlier FM-8 computer, and during development it was referred to as the "FM-8 Jr.".</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le FM-7 (エフエムセブン), également connu sous le nom Fujitsu Micro 7, est un ordinateur personnel 8 bits sorti au Japon . Il est le premier d'une longue série grand public qui comprend, entre autres, le FM-NEW 7, le FM-77 ou encore le FM-77AV. Son prix d'achat était de 126 000 Yen (environ 900 Euro).</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>El FM-7 ("Fujitsu Micro 7") es un ordenador doméstico creado por Fujitsu. Se lanzó por primera vez en 1982 y se vendió en Japón y España. Es una versión simplificada del FM-8 anterior de Fujitsu, y durante el desarrollo se le denominó "FM-8 Jr".</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der FM-7 (エフエムセブン), auch bekannt als Fujitsu Micro 7, ist ein 8-Bit-Personalcomputer, der in Japan veröffentlicht wurde . Er war der erste einer langen Reihe von Mainstream-Computern, zu denen unter anderem der FM-NEW 7, der FM-77 oder auch der FM-77AV gehörten. Der Kaufpreis betrug 126.000 Yen (ca. 900 Euro).</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>El FM-7 (エフエムセブン), también conocido como Fujitsu Micro 7, es un ordenador personal de 8 bits lanzado en Japón . Es el primero de una larga línea de productos de consumo que incluye el FM-NEW 7, FM-77 y FM-77AV, entre otros. Su precio de venta fue de 126.000 yenes (unos 900 euros).</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>L'FM-7 (エフエムセブン), noto anche come Fujitsu Micro 7, è un personal computer a 8 bit rilasciato in Giappone. È il primo di una lunga serie di prodotti consumer che comprende, tra gli altri, i modelli FM-NEW 7, FM-77 e FM-77AV. Il suo prezzo di acquisto era di 126.000 Yen (circa 900 euro).</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>FM-7（エフエムセブン）、通称富士通マイクロセブンは、日本で発売された8ビットパーソナルコンピュータである。FM-NEW 7、FM-77、FM-77AVなどを含む長いコンシューマ製品の最初の製品である。購入価格は126,000円（約900ユーロ）であった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De FM-7 (エフエムセブン), ook bekend als de Fujitsu Micro 7, is een in Japan uitgebrachte 8-bit personal computer. Het is de eerste in een lange reeks consumentenproducten, waaronder de FM-NEW 7, FM-77 en FM-77AV. De aankoopprijs bedroeg 126.000 Yen (ongeveer 900 Euro).</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>FM-7 (エフエムセブン), znany również jako Fujitsu Micro 7, to 8-bitowy komputer osobisty wydany w Japonii . Jest pierwszym z długiej linii produktów konsumenckich, które obejmują między innymi FM-NEW 7, FM-77 i FM-77AV. Jego cena zakupu wynosiła 126 000 jenów (około 900 euro).</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O FM-7 (エフエムセブン), também conhecido como Fujitsu Micro 7, é um computador pessoal de 8 bits lançado no Japão. É o primeiro de uma longa linha de produtos de consumo que inclui o FM-NEW 7, o FM-77 e o FM-77AV, entre outros. O seu preço de compra foi de 126.000 ienes (cerca de 900 euros).</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>FM-7 (エフエムセブン), также известный как Fujitsu Micro 7, - это 8-битный персональный компьютер, выпущенный в Японии. Он стал первым в длинной линейке потребительских продуктов, в которую входят, в частности, FM-NEW 7, FM-77 и FM-77AV. Его закупочная цена составляла 126 000 йен (около 900 евро).</text>
+</text>
+
+</view>
 </theme>

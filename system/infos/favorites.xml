@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text></text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text></text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text></text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text></text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text></text>
+</text>
 
-			    <text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text></text>
+</text>
 
-		
+<text name="system_description" extra="true" lang="nl">
+<text></text>
+</text>
 
+<text name="system_description" extra="true" lang="pl">
+<text></text>
+</text>
 
+<text name="system_description" extra="true" lang="pt">
+<text></text>
+</text>
 
-				
+<text name="system_description" extra="true" lang="ru">
+<text></text>
+</text>
 
-	</view>
+</view>
 </theme>

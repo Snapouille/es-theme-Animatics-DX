@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>EasyRPG is a community project to create a free, open source, role playing game creation tool, compatible with RPG Maker 2000/2003 games.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>EasyRPG es un proyecto comunitario de herramienta gratuita para la creación de juegos de rol de código abierto, compatible con los juegos RPG Maker 2000/2003.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text>EasyRPG est un projet communautaire visant à créer un outil de création de jeux de rôle gratuit, open source, compatible avec les jeux RPG Maker 2000/2003.</text>
-		</text>
+<text name="system_description" extra="true">
+<text>EasyRPG is a community project aiming to create a free, open source role-playing game creation tool compatible with RPG Maker 2000/2003 games. The project allows you to enjoy these games on different media.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text>EasyRPG é um projeto comunitário para criar uma ferramenta de criação de jogos RPG de código aberto, compatível com jogos RPG Maker 2000/2003.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>EasyRPG est un projet communautaire visant à créer un outil de création de jeux de rôle gratuit, open source, compatible avec les jeux RPG Maker 2000/2003. Le projet permet de profiter de ces jeux sur différents supports.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>EasyRPG ist ein Gemeinschaftsprojekt zur Entwicklung eines kostenlosen Open-Source-Tools zur Erstellung von Rollenspielen, das mit den RPG Maker 2000/2003-Spielen kompatibel ist. Das Projekt ermöglicht es, diese Spiele auf verschiedenen Medien zu genießen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>EasyRPG es un proyecto comunitario cuyo objetivo es crear una herramienta de creación de juegos de rol gratuita y de código abierto compatible con los juegos RPG Maker 2000/2003. El proyecto permite disfrutar de estos juegos en diferentes soportes.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>EasyRPG è un progetto comunitario che mira a creare uno strumento gratuito e open source per la creazione di giochi di ruolo compatibile con i giochi RPG Maker 2000/2003. Il progetto permette di godere di questi giochi su diversi supporti.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>EasyRPGは、RPG Maker 2000/2003のゲームに対応した、フリーでオープンソースのロールプレイングゲーム作成ツールを作ることを目的としたコミュニティプロジェクトです。このプロジェクトにより、これらのゲームをさまざまなメディアで楽しむことができるようになります。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>EasyRPG is een gemeenschapsproject met als doel een gratis, open source tool voor het maken van rollenspellen, compatibel met de RPG Maker 2000/2003 spellen. Het project maakt het mogelijk om van deze spellen te genieten op verschillende media.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>EasyRPG to projekt społecznościowy mający na celu stworzenie darmowego, otwartego narzędzia do tworzenia gier fabularnych, kompatybilnego z grami RPG Maker 2000/2003. Projekt pozwala cieszyć się tymi grami na różnych nośnikach.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>EasyRPG é um projecto comunitário que visa criar uma ferramenta de criação de jogos de RPG gratuita e de código aberto compatível com os jogos do RPG Maker 2000/2003. O projecto permite desfrutar destes jogos em diferentes suportes.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>EasyRPG - это проект сообщества, целью которого является создание бесплатного инструмента для создания игр RPG Maker 2000/2003 с открытым исходным кодом. Проект позволяет вам наслаждаться этими играми на различных носителях.</text>
+</text>
+
+</view>
 </theme>

@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>MS-DOS (Microsoft Disk Operating System) is the operating system developed by Microsoft first for the IBM PC and then for PC compatibles. From the 1980s to the early 1990s, it was the most widely used system on PCs, before being gradually replaced by more advanced operating systems, notably Windows.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>DOS, acronyme de Disk Operating System ou de système d’exploitation de disques, est un acronyme pour plusieurs systèmes d’exploitation étroitement liés qui ont dominé le marché des PC compatibles IBM entre 1981 et 1995.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El DOS, la sigla para el sistema operativo de disco o el sistema operativo en disco es un acrónimo para varios sistemas operativos íntimamente relacionados que dominaron el mercado para compatibilidad IBM PC entre 1981 y 1995.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>DOS, acronyme de Disk Operating System ou de système d’exploitation de disques, est un acronyme pour plusieurs systèmes d’exploitation étroitement liés qui ont dominé le marché des PC compatibles IBM entre 1981 et 1995.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>MS-DOS (Microsoft Disk Operating System) est le système d'exploitation développé par Microsoft pour l'IBM PC d'abord, puis les compatibles PC. Des années 1980 au début des années 1990, il a été le système le plus utilisé sur PC, avant d'être progressivement remplacé par des systèmes d'exploitation plus évolués, notamment Windows.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O DOS, sigla para Disk Operating System ou sistema operacional em disco é um acrónimo para vários sistemas operativos intimamente relacionados que dominaram o mercado para compatíveis IBM PC entre 1981 e 1995.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>MS-DOS (Microsoft Disk Operating System) ist ein Betriebssystem, das von Microsoft zunächst für den IBM PC und später für PC-Kompatibilitätsgeräte entwickelt wurde. Von den 1980er bis Anfang der 1990er Jahre war es das meistgenutzte System auf PCs, bevor es nach und nach durch fortschrittlichere Betriebssysteme, insbesondere Windows, ersetzt wurde.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>MS-DOS (Microsoft Disk Operating System) es el sistema operativo desarrollado por Microsoft primero para el IBM PC y después para los PC compatibles. Desde los años 80 hasta principios de los 90, fue el sistema más utilizado en los PC, antes de ser sustituido gradualmente por sistemas operativos más avanzados, en particular Windows.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>MS-DOS (Microsoft Disk Operating System) è il sistema operativo sviluppato da Microsoft prima per il PC IBM e poi per i PC compatibili. Dagli anni '80 ai primi anni '90 è stato il sistema più utilizzato sui PC, prima di essere gradualmente sostituito da sistemi operativi più avanzati, in particolare Windows.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>MS-DOS（Microsoft Disk Operating System）は、マイクロソフトがIBM PC用に開発したオペレーティングシステムで、その後PC互換機用にも開発されました。1980年代から1990年代前半にかけて、パソコンで最も広く使われていたシステムで、その後、Windowsを筆頭に、より高度なオペレーティングシステムに徐々に取って代わられました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>MS-DOS (Microsoft Disk Operating System) is het door Microsoft ontwikkelde besturingssysteem, eerst voor de IBM PC en vervolgens voor PC-compatibles. Van de jaren tachtig tot begin jaren negentig was het het meest gebruikte systeem op pc's, voordat het geleidelijk werd vervangen door meer geavanceerde besturingssystemen, met name Windows.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>MS-DOS (Microsoft Disk Operating System) to system operacyjny opracowany przez firmę Microsoft najpierw dla komputera IBM PC, a następnie dla komputerów typu compatibles. Od lat 80. do początku lat 90. był to najczęściej używany system na komputerach PC, zanim został stopniowo zastąpiony przez bardziej zaawansowane systemy operacyjne, zwłaszcza Windows.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>MS-DOS (Microsoft Disk Operating System) é o sistema operativo desenvolvido pela Microsoft primeiro para o PC IBM e depois para os PC compatíveis. Desde os anos 80 até ao início dos anos 90, foi o sistema mais utilizado nos PCs, antes de ser gradualmente substituído por sistemas operativos mais avançados, nomeadamente o Windows.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>MS-DOS (Microsoft Disk Operating System) - это операционная система, разработанная компанией Microsoft сначала для IBM PC, а затем для PC compatibles. С 1980-х до начала 1990-х годов она была наиболее широко используемой системой на ПК, а затем была постепенно вытеснена более совершенными операционными системами, в частности Windows.</text>
+</text>
+
+</view>
 </theme>
