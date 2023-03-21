@@ -1,3 +1,15 @@
+V 1.36 - (2023 03 20)
+- Add New System description
+- Add "Fanart" view
+
+![Gamelist View Fanart 1](https://user-images.githubusercontent.com/105559045/226409236-f7e800f6-8eb1-40ec-9d4f-38e491f09ac7.png)
+![Gamelist View Fanart 2](https://user-images.githubusercontent.com/105559045/226409258-44553de2-cc7b-4ed4-acaa-5aa8494bde97.png)
+
+
+
+
+
+
 V 1.35 - (2023 03 16)
 - Add "Boxes" view : Big, Medium and Small
 
