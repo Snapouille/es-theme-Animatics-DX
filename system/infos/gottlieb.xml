@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Gottlieb (formerly D. Gottlieb & Co.) was an American arcade game company based in Chicago, Illinois. It is best known for developing the arcade game Q*bert and also many pinball machines in great competition with Williams and Stern.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Gottlieb (anciennement D. Gottlieb & Co.) était une société américaine de jeux d'arcade basée à Chicago, dans l'Illinois. Elle est surtout connue pour avoir développé le jeu d'arcade Q*bert et également de nombreux flipper en grande concurrence avec Williams et Stern.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Gottlieb (früher D. Gottlieb & Co.) war eine US-amerikanische Firma für Arcade-Spiele mit Sitz in Chicago, Illinois. Sie ist vor allem für die Entwicklung des Arcade-Spiels Q*bert und auch für zahlreiche Flipperautomaten bekannt, die in großer Konkurrenz zu Williams und Stern standen.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Gottlieb (antes D. Gottlieb & Co.) fue una empresa estadounidense de juegos arcade con sede en Chicago, Illinois. Es conocida sobre todo por desarrollar el juego arcade Q*bert y también muchas máquinas de pinball en gran competencia con Williams y Stern.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Gottlieb (ex D. Gottlieb & Co.) è stata un'azienda americana di giochi arcade con sede a Chicago, Illinois. È nota soprattutto per aver sviluppato il gioco arcade Q*bert e molti flipper in grande concorrenza con Williams e Stern.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>ゴットリーブ（旧D.Gottlieb & Co.）は、イリノイ州シカゴに本拠を置くアメリカのアーケードゲーム会社である。アーケードゲーム「Q*bert」を開発したことで知られ、また、ウィリアムズやスターンと大きな競争を繰り広げたピンボール機も数多く存在した。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Gottlieb (voorheen D. Gottlieb & Co.) was een Amerikaans bedrijf voor speelhallen dat gevestigd was in Chicago, Illinois. Het is vooral bekend van de ontwikkeling van het arcadespel Q*bert en ook van vele flipperkasten in grote concurrentie met Williams en Stern.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Gottlieb (wcześniej D. Gottlieb & Co.) była amerykańską firmą produkującą gry zręcznościowe z siedzibą w Chicago, Illinois. Najbardziej znana jest z opracowania gry zręcznościowej Q*bert, a także wielu automatów do gry w pinball, stanowiąc wielką konkurencję dla Williams i Stern.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Gottlieb (antiga D. Gottlieb & Co.) era uma empresa americana de jogos arcade com sede em Chicago, Illinois. É mais conhecida por desenvolver o jogo arcade Q*bert e também muitas máquinas de pinball em grande competição com Williams e Stern.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Gottlieb (ранее D. Gottlieb & Co.) была американской компанией по производству аркадных игр, базировавшейся в Чикаго, штат Иллинойс. Она наиболее известна как разработчик аркадной игры Q*bert, а также многих пинбольных автоматов, составлявших большую конкуренцию компаниям Williams и Stern.</text>
+</text>
+
+</view>
 </theme>

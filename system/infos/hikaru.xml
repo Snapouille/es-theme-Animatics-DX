@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>The Hikaru is an arcade video game system created by the Sega company in 1999. It was originally designed to host the game Brave Fire Fighters. It was the first arcade system to feature on-screen Phong shading. This system only had six games and was soon abandoned, as it was too expensive to run compared to the Naomi 2.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Hikaru est un système de jeu vidéo d'arcade créé par la société Sega en 1999. Il est pensé à l'origine pour accueillir le jeu Brave Fire Fighters. Il fut le premier système d'arcade à proposer de l'ombrage de Phong à l'écran. Ce système n'a connu que six jeux et fut vite abandonné, car son exploitation était trop coûteuse par rapport notamment à la Naomi 2.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das Hikaru ist ein Arcade-Videospielsystem, das 1999 von der Firma Sega entwickelt wurde. Ursprünglich war es für das Spiel Brave Fire Fighters gedacht. Es war das erste Arcade-System, das Phong-Schattierungen auf dem Bildschirm anbot. Auf diesem System gab es nur sechs Spiele und es wurde bald aufgegeben, da der Betrieb insbesondere im Vergleich zum Naomi 2 zu kostspielig war.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El Hikaru es un sistema de videojuegos arcade creado por la empresa Sega en 1999. Se diseñó originalmente para albergar el juego Brave Fire Fighters. Fue el primer sistema arcade que incorporó el sombreado Phong en pantalla. Este sistema sólo contaba con seis juegos y pronto fue abandonado, ya que su funcionamiento resultaba demasiado caro en comparación con el Naomi 2.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>L'Hikaru è un sistema di videogiochi arcade creato dalla società Sega nel 1999. Originariamente era stato progettato per ospitare il gioco Brave Fire Fighters. È stato il primo sistema arcade a presentare l'ombreggiatura Phong sullo schermo. Questo sistema aveva solo sei giochi e fu presto abbandonato, in quanto troppo costoso da gestire rispetto al Naomi 2.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>ヒカルは、1999年にセガ社によって作られたアーケードビデオゲームシステムである。当初はゲーム「ブレイブファイアファイターズ」をホストするために設計された。これは、画面上のフォンシェーディングを特徴とする最初のアーケードシステムであった。このシステムには6つのゲームしかなく、Naomi 2と比較してランニングコストが高すぎたため、すぐに放棄された。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Hikaru is een arcade videospel systeem gemaakt door de firma Sega in 1999. Het was oorspronkelijk ontworpen voor het spel Brave Fire Fighters. Het was het eerste arcadesysteem met Phong-shading op het scherm. Dit systeem had slechts zes spellen en werd al snel verlaten, omdat het te duur was in vergelijking met de Naomi 2.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Hikaru to system zręcznościowych gier wideo stworzony przez firmę Sega w 1999 roku. Został on pierwotnie zaprojektowany do obsługi gry Brave Fire Fighters. Był to pierwszy system arcade, który posiadał ekranowe cieniowanie Phong. Ten system miał tylko sześć gier i wkrótce został porzucony, ponieważ był zbyt drogi do uruchomienia w porównaniu do Naomi 2.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Hikaru é um sistema de jogos de vídeo arcade criado pela empresa Sega em 1999. Foi originalmente concebido para acolher o jogo Brave Fire Fighters. Foi o primeiro sistema de arcade a apresentar no ecrã o sombreamento Phong. Este sistema tinha apenas seis jogos e foi logo abandonado, uma vez que era demasiado caro para funcionar em comparação com o Naomi 2.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Hikaru - это система аркадных видеоигр, созданная компанией Sega в 1999 году. Изначально она была разработана для игры Brave Fire Fighters. Это была первая аркадная система с экранной тенью Phong. На этой системе было всего шесть игр, и вскоре от нее отказались, так как она была слишком дорогой по сравнению с Naomi 2.</text>
+</text>
+
+</view>
 </theme>

@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Following the restructuring in the spring of 2000 and especially because of the poor commercial reception of the Dreamcast in Japan, Sega refocuses on the arcade sector and markets the Naomi 2. The architecture of the Naomi 2 is similar to that of its predecessor, so the games are compatible. At the time, the Naomi 2 was a powerful reference in the arcade, taking advantage of Sega's know-how in this field.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The NAOMI (New Arcade Operation Machine Idea) is the successor to the Sega Model 3. Sega first demonstrated NAOMI publicly at the 1998 Amusement Machine Show. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El Sega NAOMI (acrónimo de New Arcade Operation Machine Idea) es una placa basada en la tecnología utilizada en Sega Dreamcast. Utilizado como sistema de placa base para máquinas recreativas.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Naomi est un système de jeu vidéo d'arcade développé par Sega, sorti en 1998 comme successeur du système Sega Model 3. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>À la suite de la restructuration subie au printemps 2000 et surtout à cause du faible accueil commercial de la Dreamcast au Japon, Sega se recentre sur le secteur arcade et commercialise le Naomi 2. L'architecture du Naomi 2 est semblable à celle de son ainée, les jeux sont donc compatible. Il s'impose à l'époque comme une référence de puissance en arcade, profitant du savoir-faire de Sega dans ce domaine.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Sega NAOMI (sigla para New Arcade Operation Machine Idea, em português Nova ideia em operação de máquina arcade) é uma placa de arcade baseada na tecnologia utilizada no Sega Dreamcast.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Nach der Umstrukturierung im Frühjahr 2000 und vor allem wegen der schwachen Verkaufszahlen der Dreamcast in Japan konzentrierte sich Sega wieder auf den Arcade-Bereich und brachte das Naomi 2 auf den Markt. Die Architektur des Naomi 2 ähnelt der seines Vorgängers, so dass die Spiele kompatibel sind. Das Naomi 2 war zu dieser Zeit eine Referenz für Arcade-Spiele und profitierte von Segas Know-how in diesem Bereich.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Tras la reestructuración de la primavera de 2000 y, sobre todo, debido a la mala acogida comercial de la Dreamcast en Japón, Sega vuelve a centrarse en el sector de los salones recreativos y comercializa la Naomi 2. La arquitectura de la Naomi 2 es similar a la de su predecesora, por lo que los juegos son compatibles. En su momento, la Naomi 2 fue una potente referencia en el arcade, aprovechando el saber hacer de Sega en este campo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>In seguito alla ristrutturazione avvenuta nella primavera del 2000 e soprattutto a causa della scarsa accoglienza commerciale del Dreamcast in Giappone, Sega si concentra nuovamente sul settore arcade e commercializza il Naomi 2. L'architettura del Naomi 2 è simile a quella del suo predecessore, quindi i giochi sono compatibili. All'epoca, il Naomi 2 era un potente riferimento nel settore arcade, sfruttando il know-how di Sega in questo campo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>2000年春のリストラの後、特に日本でのドリームキャストの商業的な評判が悪かったため、セガはアーケード部門に再注目し、ナオミ2を販売する。Naomi 2のアーキテクチャは前作と同様であるため、ゲームに互換性がある。当時、「ナオミ2」はセガのノウハウを生かし、アーケードで強力なリファレンスとなった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Na de herstructurering in de lente van 2000 en vooral door de slechte commerciële ontvangst van de Dreamcast in Japan, richt Sega zich opnieuw op de arcade-sector en brengt de Naomi 2 op de markt. De architectuur van de Naomi 2 is vergelijkbaar met die van zijn voorganger, zodat de spellen compatibel zijn. In die tijd was de Naomi 2 een krachtige referentie in de arcadehal, waarbij gebruik werd gemaakt van de knowhow van Sega op dit gebied.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Po restrukturyzacji wiosną 2000 roku, a zwłaszcza z powodu słabego komercyjnego przyjęcia Dreamcasta w Japonii, Sega skupia się na sektorze gier zręcznościowych i wprowadza na rynek Naomi 2. Architektura Naomi 2 jest podobna do architektury poprzednika, więc gry są kompatybilne. W tym czasie Naomi 2 było potężnym odniesieniem w arcade, wykorzystując know-how firmy Sega w tej dziedzinie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Após a reestruturação na Primavera de 2000 e especialmente devido à má recepção comercial do Dreamcast no Japão, a Sega reorientou-se para o sector das arcadas e lançou a Naomi 2. A arquitectura da Naomi 2 é semelhante à da sua antecessora, pelo que os jogos são compatíveis. Na altura, a Naomi 2 era uma referência poderosa na arcada, tirando partido do know-how da Sega neste campo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>После реструктуризации весной 2000 года и особенно из-за плохого коммерческого приема Dreamcast в Японии, Sega переориентируется на сектор аркад и выпускает на рынок Naomi 2. Архитектура Naomi 2 аналогична архитектуре ее предшественницы, поэтому игры совместимы. В то время Naomi 2 была мощным эталоном в аркадах, используя ноу-хау Sega в этой области.</text>
+</text>
+
+</view>
 </theme>

@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-		<text name="system_description" extra="true">
-				<text>The 64DD is a magnetic disk drive peripheral for the Nintendo 64 game console developed by Nintendo. It was announced in 1995, prior to the Nintendo 64's 1996 launch, and after numerous delays was released only in Japan on December 1, 1999. The "64" references both the Nintendo 64 console and the 64MB storage capacity of the disks, and "DD" is short for "disk drive" or "dynamic drive".</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="es">
-				<text>Nintendo 64DD es un sistema de expansión de discos para la Nintendo 64. Al principio de su desarrollo tenía el nombre en clave "Dynamic Drive" y se conecta a la Nintendo 64 a través del EXTension Port que se encuentra en la parte inferior de la consola. </text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="fr">
-				<text>Le Nintendo 64DD (Disk Drive) est un périphérique de la console Nintendo 64 sorti au Japon le 1er décembre 1999. Le 64DD se connecte à la Nintendo 64 via le port extension situé sous la console. Il permet à la Nintendo 64 de lire des disques magnétiques.</text>
-		</text>
+<text name="system_description" extra="true">
+<text>The Nintendo 64DD (Disk Drive) is a peripheral for the Nintendo 64 system released only in Japan. It is connected via the extension port located under the console. It can read magnetic disks. A modem was also used to connect to the network and offered various options such as online gaming and Internet browsing.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text>O Nintendo 64DD (ニンテンドウ64DD, Nintendō Roku Jū Yon DD) ("DD" sendo abreviação de "Disk drive", e originalmente "Dynamic Drive") foi um periférico para o console Nintendo 64. Era plugado ao N64 através da EXTension Port que ficava do lado inferior do console e permitia ao N64 usar discos magnéticos proprietários de 64 MB de capacidade para aumentar a capacidade de armazenamento de dados.</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="it">
-				<text>Il Nintendo 64DD è una periferica prodotta da Nintendo per Nintendo 64. Il nome, che indica "64 Dynamic Drive", si riferisce alla capacità dell'accessorio di permettere di utilizzare speciali cartucce da 64 MB sulla console Nintendo, installandolo alla base della stessa.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Nintendo 64DD (Disk Drive) est un périphérique de la console Nintendo 64 sorti uniquement au Japon. Il se connecte via le port extension situé sous la console. Il permet de lire des disques magnétiques. Un modem permettait également de se connecter au réseau et offrait différentes options comme le jeu en ligne, ou la navigation sur Internet.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Das Nintendo 64DD (Disk Drive) ist ein Peripheriegerät für die Nintendo 64-Konsole, das nur in Japan veröffentlicht wurde. Es wird über den Erweiterungsanschluss an der Unterseite der Konsole angeschlossen. Es ermöglicht das Abspielen von magnetischen Discs. Ein Modem ermöglichte außerdem den Anschluss an ein Netzwerk und bot verschiedene Optionen wie Online-Spiele oder das Surfen im Internet.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El Nintendo 64DD (Disk Drive) es un periférico para la consola Nintendo 64 lanzado únicamente en Japón. Se conecta a través del puerto de extensión situado bajo la consola. Puede leer discos magnéticos. También se utilizaba un módem para conectarse a la red y ofrecía diversas opciones, como juegos en línea y navegación por Internet.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Nintendo 64DD (Disk Drive) è una periferica per la console Nintendo 64 rilasciata solo in Giappone. Si collega tramite la porta di estensione situata sotto la console. Può leggere dischi magnetici. Per connettersi alla rete si utilizzava anche un modem che offriva varie opzioni come il gioco online e la navigazione in Internet.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Nintendo 64DD（Disk Drive）は、日本でのみ発売されたNintendo 64システムの周辺機器です。本体下部にある拡張ポートで接続します。磁気ディスクを読み込むことができる。また、ネットワークへの接続にはモデムが使用され、オンラインゲームやインターネットブラウジングなど様々なオプションが提供された。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Nintendo 64DD (Disk Drive) is een randapparaat voor het Nintendo 64-systeem dat alleen in Japan werd uitgebracht. Het wordt aangesloten via de uitbreidingspoort onder de console. Het kan magnetische schijven lezen. Een modem werd ook gebruikt om verbinding te maken met het netwerk en bood verschillende mogelijkheden zoals online gaming en surfen op het internet.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Nintendo 64DD (Disk Drive) to urządzenie peryferyjne dla systemu Nintendo 64 wydane tylko w Japonii. Podłącza się go poprzez port rozszerzeń znajdujący się pod konsolą. Może on odczytywać dyski magnetyczne. Do połączenia z siecią służył również modem, który oferował różne opcje, takie jak gry online i przeglądanie Internetu.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Nintendo 64DD (Disk Drive) é um periférico para o sistema Nintendo 64 lançado apenas no Japão. É ligado através da porta de extensão localizada por baixo da consola. Pode ler discos magnéticos. Foi também utilizado um modem para se ligar à rede e ofereceu várias opções, tais como jogos online e navegação na Internet.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Nintendo 64DD (Disk Drive) - это периферийное устройство для системы Nintendo 64, выпущенное только в Японии. Он подключается через порт расширения, расположенный под консолью. Он может считывать магнитные диски. Модем также использовался для подключения к сети и предлагал различные возможности, такие как онлайн-игры и просмотр интернет-страниц.</text>
+</text>
+
+</view>
 </theme>

@@ -4,19 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Game Master is a portable game console manufactured by Hartung and designed to compete with the Nintendo Game Boy. It has a 64 x 64 monochrome LCD screen and uses a 40-pin cartridge port like the Supervision but is not compatible with it. Depending on the country there were quite a few different manufacturers.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Game Master is a handheld game console manufactured by Hartung, and designed to compete with the Nintendo Game Boy. In Germany, it was marketed by Hartung itself, while in the UK it was released as the Systema 2000 by the already well-established maker of cheap LCD games Systema.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Game Master est une console de jeu portable fabriquée par Hartung et conçue pour concurrencer le Nintendo Game Boy. Elle dispose d'un écran LCD monochrome de 64 x 64 et utilise un port de cartouche à 40 broches comme le Supervision mais n'est pas compatible avec celle-ci. Suivant le pays il y a eu pas mal de fabriquant différents.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Game Master es una consola de juegos portátil fabricada por Hartung y diseñada para competir con Nintendo Game Boy.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Game Master ist eine tragbare Spielkonsole, die von Hartung hergestellt wurde und mit dem Nintendo Game Boy konkurrieren soll. Sie hat einen 64 x 64 monochromen LCD-Bildschirm und verwendet einen 40-poligen Cartridge-Anschluss wie die Supervision, ist aber nicht mit dieser kompatibel. Je nach Land gab es eine ganze Reihe verschiedener Hersteller.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>La Game Master es una videoconsola portátil fabricada por Hartung y diseñada para competir con la Nintendo Game Boy. Tiene una pantalla LCD monocroma de 64 x 64 y utiliza un puerto para cartuchos de 40 patillas, como la Supervision, pero no es compatible con ella. Dependiendo del país, hubo bastantes fabricantes diferentes.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il Game Master è una console portatile prodotta da Hartung e progettata per competere con il Nintendo Game Boy. Ha uno schermo LCD monocromatico 64 x 64 e utilizza una porta per cartucce a 40 pin come il Supervision, ma non è compatibile con esso. A seconda del paese, esistevano diversi produttori.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ゲームマスターは、任天堂のゲームボーイに対抗するために作られた、ハートン社製の携帯ゲーム機である。64×64のモノクロ液晶画面を持ち、スーパービジョンと同様に40ピンのカートリッジポートを使用するが、互換性はない。国によって、かなりの数のメーカーがありました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Game Master is een draagbare spelconsole, vervaardigd door Hartung en ontworpen om te concurreren met de Nintendo Game Boy. Hij heeft een 64 x 64 monochroom LCD-scherm en gebruikt een 40-pins cartridge-poort zoals de Supervision, maar is er niet compatibel mee. Afhankelijk van het land waren er nogal wat verschillende fabrikanten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Game Master to przenośna konsola do gier wyprodukowana przez firmę Hartung i przeznaczona do konkurowania z Nintendo Game Boy. Posiada monochromatyczny ekran LCD o wymiarach 64 x 64 i korzysta z 40-pinowego portu kartridży jak Supervision, ale nie jest z nim kompatybilna. W zależności od kraju było sporo różnych producentów.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Game Master é uma consola de jogos portátil fabricada pela Hartung e concebida para competir com o Nintendo Game Boy. Tem um ecrã LCD monocromático de 64 x 64 e utiliza uma porta de cartucho de 40 pinos como a Supervisão, mas não é compatível com ela. Dependendo do país, existiam vários fabricantes diferentes.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Game Master - это портативная игровая приставка, произведенная компанией Hartung и предназначенная для конкуренции с Nintendo Game Boy. Она имеет монохромный ЖК-экран размером 64 x 64 и использует 40-контактный порт для картриджей, как и Supervision, но не совместима с ней. В зависимости от страны существовало довольно много различных производителей.</text>
+</text>
+
+</view>
 </theme>

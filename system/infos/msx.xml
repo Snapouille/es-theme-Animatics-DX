@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>MSX (Machines with Software eXchangeability) is a microcomputer standard of Japanese origin, dating back to the 1980s. Unlike most computers at the time, MSX was produced by various manufacturers. They were compatible with each other, both for hardware and software. There were several versions of the standard.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>MSX is a standardized home computer architecture, first announced by Microsoft on June 16, 1983 and marketed by Kazuhiko Nishi, then Vice-president at Microsoft Japan and Director at ASCII Corporation.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es" >
-			<text>MSX es un estándar de microordenador doméstico de 8 bits comercializado durante los años 1980 y principio de los años 1990. Fue definido por Kazuhiko Nishi y presentado el 27 de junio de 1983 en Japón.
+<text name="system_description" extra="true" lang="fr">
+<text>Le MSX (Machines with Software eXchangeability) est un standard de micro-ordinateurs d’origine japonaise, qui date des années 1980. Contrairement à la plupart des ordinateurs de l’époque, les MSX ont été produits par divers fabricants. Ils étaient compatibles entre eux, aussi bien pour le matériel que pour les logiciels. Plusieurs versions du standard se sont succédé.</text>
+</text>
 
-Tuvo además éxito en Europa (España, Francia y Países Bajos), Brasil, Chile, Argentina, Cuba y la Unión Soviética, en estos últimos países fueron comprados por las autoridades educativas miles de unidades para equipar escuelas. Es prácticamente desconocido en Estados Unidos. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>MSX était un standard de micro-ordinateurs à vocation domestique (grand public) d’origine japonaise, qui date des années 1980. Contrairement à la plupart des ordinateurs de l’époque, les MSX ont été produits par divers fabricants.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>MSX (Machines with Software eXchangeability) ist ein aus Japan stammender Standard für Mikrocomputer aus den 1980er Jahren. Im Gegensatz zu den meisten Computern dieser Zeit wurden die MSX von verschiedenen Herstellern produziert. Sie waren sowohl in Bezug auf die Hardware als auch auf die Software miteinander kompatibel. Mehrere Versionen des Standards folgten aufeinander.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>MSX foi o nome dado a uma arquitetura de microcomputadores criada no Japão em 1983, que definia um padrão para os desenvolvedores de hardware. Foi desenvolvido por Kazuhiko Nishi, vice-presidente da ASCII.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>MSX (Machines with Software eXchangeability) es un estándar de microordenador de origen japonés que data de la década de 1980. A diferencia de la mayoría de los ordenadores de la época, MSX era producido por varios fabricantes. Eran compatibles entre sí, tanto en hardware como en software. Hubo varias versiones del estándar.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>MSX (Machines with Software eXchangeability) è uno standard per microcomputer di origine giapponese, risalente agli anni Ottanta. A differenza della maggior parte dei computer dell'epoca, MSX era prodotto da diversi produttori. Erano compatibili tra loro, sia per l'hardware che per il software. Esistevano diverse versioni dello standard.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>MSX（Machines with Software eXchangeability）は、1980年代に遡る日本発のマイクロコンピュータ規格である。当時の一般的なコンピュータとは異なり、MSXは様々なメーカーから生産されていた。ハードウェア、ソフトウェアの両面で互換性があった。この規格にはいくつかのバージョンがあった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>MSX (Machines with Software eXchangeability) is een microcomputerstandaard van Japanse oorsprong, die dateert uit de jaren tachtig. In tegenstelling tot de meeste computers uit die tijd werd MSX door verschillende fabrikanten geproduceerd. Ze waren compatibel met elkaar, zowel wat betreft hardware als software. Er waren verschillende versies van de standaard.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>MSX (Machines with Software eXchangeability) to standard mikrokomputerów pochodzenia japońskiego, pochodzący z lat 80. XX wieku. W przeciwieństwie do większości ówczesnych komputerów, MSX był produkowany przez różnych producentów. Były one ze sobą kompatybilne, zarówno jeśli chodzi o sprzęt, jak i oprogramowanie. Istniało kilka wersji standardu.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>MSX (Machines with Software eXchangeability) é um padrão de microcomputador de origem japonesa, datado dos anos 80. Ao contrário da maioria dos computadores da época, os MSX eram produzidos por vários fabricantes. Eram compatíveis uns com os outros, tanto em hardware como em software. Havia várias versões da norma.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>MSX (Machines with Software eXchangeability) - это стандарт микрокомпьютеров японского происхождения, появившийся в 1980-х годах. В отличие от большинства компьютеров того времени, MSX выпускался различными производителями. Они были совместимы друг с другом как по аппаратному, так и по программному обеспечению. Существовало несколько версий стандарта.</text>
+</text>
+
+</view>
 </theme>

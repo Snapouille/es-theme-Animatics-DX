@@ -1,24 +1,53 @@
-﻿<!--
+<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
-		<text name="system_description" extra="true">
-			<text>The GP32 (GamePark 32) is a handheld game console developed by the South Korean company Game Park. It was released on November 23, 2001, in South Korea and distributed in some parts of Europe. Is a free software oriented console, being the first of its kind.</text>
-		</text>
+<text name="system_description" extra="true">
+<text>The GP32 (GamePark 32) is a South Korean portable game console. It has been distributed in some parts of Europe. Unlike other portable game consoles, which tend to be based on proprietary cartridges, the GP32 uses SmartMedia cards to store programs and data.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>La GP32 (Game Park 32) es una consola de videojuegos portátil de 32 bits producida por la compañía surcoreana Game Park, que salió a la venta a finales de 2001. Tiene como principal característica, al igual que la Tapwave Zodiac, que es una consola orientada al software libre, siendo la primera de este tipo. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La GP32 (GamePark 32) est une console de jeu portable sud-coréenne. Elle a été distribuée dans certaines régions d'Europe. Contrairement aux autres consoles de jeu portables, qui ont tendance à être basées sur des cartouches propriétaires, la GP32 utilise des cartes SmartMedia pour stocker les programmes et les données.</text>
+</text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Die GP32 (GamePark 32) ist eine tragbare Spielkonsole aus Südkorea. Sie wurde in Teilen Europas vertrieben. Im Gegensatz zu anderen tragbaren Spielkonsolen, die tendenziell auf proprietären Cartridges basieren, verwendet die GP32 SmartMedia-Karten, um Programme und Daten zu speichern.</text>
+</text>
 
-				
-		
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La GP32 (GamePark 32) es una videoconsola portátil surcoreana. Se ha distribuido en partes de Europa. A diferencia de otras videoconsolas portátiles, que suelen basarse en cartuchos propietarios, la GP32 utiliza tarjetas SmartMedia para almacenar programas y datos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il GP32 (GamePark 32) è una console di gioco portatile sudcoreana. È stata distribuita in alcune parti d'Europa. A differenza di altre console portatili, che tendono a basarsi su cartucce proprietarie, il GP32 utilizza schede SmartMedia per memorizzare programmi e dati.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>GP32（GamePark 32）は、韓国の携帯ゲーム機である。欧州の一部で販売されている。他の携帯ゲーム機では、独自のカートリッジを使用することが多いのですが、GP32では、プログラムとデータの保存にスマートメディアカードを使用しています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De GP32 (GamePark 32) is een Zuid-Koreaanse draagbare spelconsole. Hij is in delen van Europa gedistribueerd. In tegenstelling tot andere draagbare spelconsoles, die meestal gebaseerd zijn op eigen cartridges, gebruikt de GP32 SmartMedia-kaarten om programma's en gegevens op te slaan.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>GP32 (GamePark 32) to południowokoreańska przenośna konsola do gier. Była ona dystrybuowana w niektórych częściach Europy. W przeciwieństwie do innych przenośnych konsol do gier, które zwykle opierają się na zastrzeżonych kartridżach, GP32 wykorzystuje karty SmartMedia do przechowywania programów i danych.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O GP32 (GamePark 32) é uma consola de jogos portátil sul-coreana. Tem sido distribuída em partes da Europa. Ao contrário de outras consolas de jogos portáteis, que tendem a basear-se em cartuchos proprietários, a GP32 utiliza cartões SmartMedia para armazenar programas e dados.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>GP32 (GamePark 32) - это южнокорейская портативная игровая консоль. Она была распространена в некоторых странах Европы. В отличие от других портативных игровых консолей, которые обычно основаны на проприетарных картриджах, GP32 использует карты SmartMedia для хранения программ и данных.</text>
+</text>
+
+</view>
 </theme>

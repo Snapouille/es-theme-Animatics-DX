@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Nintendo 64 (ニンテンドウ64), also known by the codenames Project Reality and Ultra 64 during its development phase, is a home video game system built in collaboration with Silicon Graphics. It innovates by introducing an analog stick on its controller which will prove to be essential for real-time 3D games.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The Nintendo 64 is Nintendo's third home video game console for the international market. Named for its 64-bit central processing unit, it was released in June 1996 in Japan, September 1996 in North America.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Nintendo 64 es la tercera videoconsola de sobremesa producida por Nintendo, desarrollada para suceder a la Super Nintendo y para competir con la Saturn de Sega y la PlayStation de Sony.
+<text name="system_description" extra="true" lang="fr">
+<text>La Nintendo 64 (ニンテンドウ64), également connue sous les noms de code Project Reality et Ultra 64 lors de sa phase de développement, est une console de jeux vidéo de salon construit en collaboration avec Silicon Graphics. Elle innove en instaurant un stick analogique sur sa manette qui se révèlera indispensable pour les jeux en 3D temps réel.</text>
+</text>
 
-Incorpora en su arquitectura un procesador principal de 64 bits. El soporte de almacenamiento de los juegos es en forma de cartuchos, la mayoría de ellos con memoria interna.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Nintendo 64 (ニンテンドウ64), également connue sous les noms de code Ultra 64 lors de sa phase de développement, est une console de jeux vidéo de salon, sortie en 1996, du constructeur japonais Nintendo.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das Nintendo 64 (ニンテンドウ64), in seiner Entwicklungsphase auch unter den Codenamen Project Reality und Ultra 64 bekannt, ist eine in Zusammenarbeit mit Silicon Graphics gebaute Videospielkonsole für das Wohnzimmer. Sie führte einen Analogstick am Controller ein, der für 3D-Echtzeitspiele unerlässlich sein sollte.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É o terceiro console de videogame doméstico da empresa japonesa Nintendo. Lançado em 23 de junho de 1996 no Japão, contava com três títulos de lançamento: Super Mario 64, PilotWings 64 e Saikyou Habu Shogi.</text>
-		</text>
-		
-						
+<text name="system_description" extra="true" lang="es">
+<text>La Nintendo 64 (ニンテンドウ64), también conocida por los nombres en clave Project Reality y Ultra 64 durante su fase de desarrollo, es una consola de videojuegos doméstica construida en colaboración con Silicon Graphics. Innova introduciendo un stick analógico en su mando que resultará esencial para los juegos 3D en tiempo real.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il Nintendo 64 (ニンテンドウ64), conosciuto anche con i nomi in codice Project Reality e Ultra 64 durante la fase di sviluppo, è una console per videogiochi domestica realizzata in collaborazione con Silicon Graphics. L'innovazione consiste nell'introduzione di uno stick analogico sul controller, che si rivelerà essenziale per i giochi 3D in tempo reale.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ニンテンドウ64は、シリコングラフィックス社と共同で開発された家庭用ゲーム機で、開発中はプロジェクト・リアリティやウルトラ64のコードネームでも知られていました。リアルタイム3Dゲームに不可欠なアナログスティックをコントローラーに導入し、革新的なものとなった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Nintendo 64 (ニンテンドウ64), tijdens de ontwikkelingsfase ook bekend onder de codenamen Project Reality en Ultra 64, is een videogamesysteem voor thuisgebruik dat is gebouwd in samenwerking met Silicon Graphics. Het vernieuwt door de introductie van een analoge stick op de controller, die onmisbaar zal blijken voor real-time 3D-spellen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Nintendo 64 (ニンテンドウ64), znane również pod kryptonimami Project Reality i Ultra 64 w fazie rozwoju, to domowy system gier wideo zbudowany we współpracy z Silicon Graphics. Wprowadza on innowacje poprzez wprowadzenie analogowego drążka na swoim kontrolerze, który okaże się niezbędny w grach 3D w czasie rzeczywistym.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Nintendo 64 (ニンテンドウ64), também conhecido pelos nomes de código Project Reality e Ultra 64 durante a sua fase de desenvolvimento, é um sistema de videojogos doméstico construído em colaboração com a Silicon Graphics. Inova ao introduzir um stick analógico no seu controlador, que se revelará indispensável para jogos 3D em tempo real.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Nintendo 64 (ニンテンドウ64), также известная под кодовыми названиями Project Reality и Ultra 64 на этапе разработки, - это домашняя игровая система, созданная в сотрудничестве с Silicon Graphics. Новаторство системы заключается в том, что в ее контроллере появился аналоговый стик, который оказался незаменим для 3D-игр в реальном времени.</text>
+</text>
+
+</view>
 </theme>

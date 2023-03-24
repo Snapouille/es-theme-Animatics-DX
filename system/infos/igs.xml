@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>IGS (International Games System Co., Ltd.) is a Taiwanese company founded in November 1989, specialising in the development of arcade and online PC video games. In 2000, with the music game Rock Fever, IGS started developing music games.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>IGS (International Games System Co., Ltd.) est une société taïwanaise fondée en novembre 1989, spécialisée dans le développement de jeux vidéo en arcade et de jeux vidéo online sur PC. En 2000, avec le jeu de musique Rock fever, IGS se lance dans le développement de jeux musicaux.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>IGS (International Games System Co., Ltd.) ist ein taiwanesisches Unternehmen, das im November 1989 gegründet wurde und sich auf die Entwicklung von Arcade-Videospielen und Online-Videospielen für den PC spezialisiert hat. Mit dem Musikspiel Rock fever stieg IGS im Jahr 2000 in die Entwicklung von Musikspielen ein.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>IGS (International Games System Co., Ltd.) es una empresa taiwanesa fundada en noviembre de 1989, especializada en el desarrollo de videojuegos arcade y para PC en línea. En 2000, con el juego musical Rock Fever, IGS empezó a desarrollar juegos musicales.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>IGS (International Games System Co., Ltd.) è una società taiwanese fondata nel novembre 1989, specializzata nello sviluppo di videogiochi arcade e online per PC. Nel 2000, con il gioco musicale Rock Fever, IGS ha iniziato a sviluppare giochi musicali.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>IGS (International Games System Co., Ltd.) は、1989年11月に設立された台湾の会社で、アーケードゲームとオンラインPCビデオゲームの開発を専門としています。2000年、音楽ゲーム『Rock Fever』で、IGSは音楽ゲームの開発を開始しました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>IGS (International Games System Co., Ltd.) is een Taiwanese onderneming die in november 1989 is opgericht en gespecialiseerd is in de ontwikkeling van arcade- en online PC-videospelletjes. In 2000 begon IGS met het muziekspel Rock Fever met de ontwikkeling van muziekspellen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>IGS (International Games System Co., Ltd.) to tajwańska firma założona w listopadzie 1989 roku, specjalizująca się w tworzeniu gier wideo arcade i online na PC. W 2000 roku, dzięki grze muzycznej Rock Fever, IGS rozpoczęła tworzenie gier muzycznych.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A IGS (International Games System Co., Ltd.) é uma empresa de Taiwan fundada em Novembro de 1989, especializada no desenvolvimento de jogos arcade e jogos de vídeo online para PC. Em 2000, com o jogo de música Rock Fever, a IGS começou a desenvolver jogos de música.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>IGS (International Games System Co., Ltd.) - тайваньская компания, основанная в ноябре 1989 года и специализирующаяся на разработке аркадных и онлайновых видеоигр для ПК. В 2000 году, выпустив музыкальную игру Rock Fever, IGS начала разрабатывать музыкальные игры.</text>
+</text>
+
+</view>
 </theme>

@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Intellivision, a word formed from Intelligent Television, is a video game console produced by Mattel in 1979. It was the first to pose a serious threat to the dominance of Atari and its 2600. An advertising campaign mercilessly compared the possibilities of the Atari 2600 to those of the Intellivision.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Intellivision I was the first console created by Mattel in 1980. At the time of its launch, it cost $ 300. In all, 125 games were released for the console between the years of 1979 and 1989.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Intellivision I fue la primera consola creada por Mattel en 1980. En la época de su lanzamiento costaba unos 300 dólares. En total, se lanzaron 125 juegos para la consola entre los años 1979 y 1989.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Intellivision I était la première console créée par Mattel en 1980. Au moment de son lancement, elle coûtait 300 dollars. Au total, 125 jeux ont été lancés pour la console entre 1979 et 1989.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>L'Intellivision, mot-valise formé à partir de Intelligent Television, est une console de jeux vidéo produite par Mattel en 1979. Elle est la première qui constituait une menace sérieuse face à la domination d'Atari et sa 2600. Une campagne de publicité comparait impitoyablement les possibilités de l'Atari 2600 à celles de l'Intellivision.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Intellivision I foi o primeiro console criado pela Mattel em 1980. Na época do seu lançamento, ele custava US$300. Ao todo, foram lançados 125 jogos para o console entre os anos de 1979 e 1989.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die Intellivision, ein Kofferwort aus Intelligent Television, ist eine Videospielkonsole, die 1979 von Mattel hergestellt wurde. Sie war die erste, die eine ernsthafte Bedrohung für die Dominanz von Atari und seinem 2600 darstellte. In einer Werbekampagne wurden die Möglichkeiten des Atari 2600 gnadenlos mit denen des Intellivision verglichen.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>La Intellivision, palabra formada a partir de Intelligent Television, es una videoconsola producida por Mattel en 1979. Fue la primera en plantear una seria amenaza al dominio de Atari y su 2600. Una campaña publicitaria comparaba sin piedad las posibilidades de la Atari 2600 con las de la Intellivision.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>L'Intellivision, parola formata da Intelligent Television, è una console per videogiochi prodotta da Mattel nel 1979. Fu la prima a rappresentare una seria minaccia al dominio di Atari e del suo 2600. Una campagna pubblicitaria paragonava impietosamente le possibilità dell'Atari 2600 a quelle dell'Intellivision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>インテリジェント・テレビジョンから形成された言葉であるインテリビジョンは、1979年にマテル社が製造したビデオゲーム機である。アタリ社の2600の覇権を脅かした最初の製品である。広告キャンペーンでは、アタリ2600の可能性とインテリビジョンの可能性を容赦なく比較した。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Intellivision, een woord gevormd door Intelligent Television, is een videospelconsole die in 1979 door Mattel werd geproduceerd. Het was de eerste die een serieuze bedreiging vormde voor de dominantie van Atari en haar 2600. In een reclamecampagne werden de mogelijkheden van de Atari 2600 genadeloos vergeleken met die van de Intellivision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Intellivision, słowo utworzone od Intelligent Television, to konsola do gier wideo wyprodukowana przez firmę Mattel w 1979 roku. Jako pierwsza stanowiła poważne zagrożenie dla dominacji firmy Atari i jej 2600. Kampania reklamowa bezlitośnie porównywała możliwości Atari 2600 do możliwości Intellivision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Intellivision, palavra formada a partir da Televisão Inteligente, é uma consola de jogos de vídeo produzida pela Mattel em 1979. Foi a primeira a representar uma séria ameaça ao domínio da Atari e dos seus 2600. Uma campanha publicitária comparou impiedosamente as possibilidades do Atari 2600 com as do Intellivision.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Intellivision, слово образовано от Intelligent Television, - это игровая приставка, выпущенная компанией Mattel в 1979 году. Это была первая консоль, которая представляла серьезную угрозу господству Atari и ее 2600. Рекламная кампания безжалостно сравнивала возможности Atari 2600 с возможностями Intellivision.</text>
+</text>
+
+</view>
 </theme>

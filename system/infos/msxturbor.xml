@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The standard MSX turbo R is equipped with two microprocessors, an R800 at 7.16 MHz and a Z80 at 3.58 MHz ensuring compatibility with older MSX software. RAM is now available in 256 or 512 KB.</text>
+</text>
 
-				<text name="system_description" extra="true">
-			<text>MSX is a standardized home computer architecture, first announced by Microsoft on June 16, 1983 and marketed by Kazuhiko Nishi, then Vice-president at Microsoft Japan and Director at ASCII Corporation.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es" >
-			<text>MSX es un estándar de microordenador doméstico de 8 bits comercializado durante los años 1980 y principio de los años 1990. Fue definido por Kazuhiko Nishi y presentado el 27 de junio de 1983 en Japón.
+<text name="system_description" extra="true" lang="fr">
+<text>La norme MSX turbo R est équipé de deux microprocesseur, un R800 à 7,16 MHz et Z80 à 3,58 MHz assurant la compatibilité avec les anciens logiciels de la gamme des MSX. La RAM dispose désormais de 256 ou 512 Ko.</text>
+</text>
 
-Tuvo además éxito en Europa (España, Francia y Países Bajos), Brasil, Chile, Argentina, Cuba y la Unión Soviética, en estos últimos países fueron comprados por las autoridades educativas miles de unidades para equipar escuelas. Es prácticamente desconocido en Estados Unidos. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>MSX était un standard de micro-ordinateurs à vocation domestique (grand public) d’origine japonaise, qui date des années 1980. Contrairement à la plupart des ordinateurs de l’époque, les MSX ont été produits par divers fabricants.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Standard MSX turbo R ist mit zwei Mikroprozessoren ausgestattet, einem R800 mit 7,16 MHz und einem Z80 mit 3,58 MHz, die die Kompatibilität mit der älteren Software der MSX-Reihe sicherstellen. Der RAM verfügt nun über 256 oder 512 KB.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>MSX foi o nome dado a uma arquitetura de microcomputadores criada no Japão em 1983, que definia um padrão para os desenvolvedores de hardware. Foi desenvolvido por Kazuhiko Nishi, vice-presidente da ASCII.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>El MSX turbo R estándar está equipado con dos microprocesadores, un R800 a 7,16 MHz y un Z80 a 3,58 MHz que garantizan la compatibilidad con el software MSX más antiguo. La memoria RAM ahora está disponible en 256 o 512 KB.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>L'MSX turbo R standard è dotato di due microprocessori, un R800 a 7,16 MHz e uno Z80 a 3,58 MHz, che garantiscono la compatibilità con il software MSX più vecchio. La RAM è ora disponibile in 256 o 512 KB.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>標準のMSX turbo Rは、7.16MHzのR800と3.58MHzのZ80の2つのマイクロプロセッサーを搭載し、古いMSXソフトとの互換性を確保しています。RAMは256KBと512KBが用意されました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De standaard MSX turbo R is uitgerust met twee microprocessoren, een R800 op 7,16 MHz en een Z80 op 3,58 MHz, waardoor compatibiliteit met oudere MSX-software gewaarborgd is. RAM is nu beschikbaar in 256 of 512 KB.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Standardowy MSX turbo R wyposażony jest w dwa mikroprocesory, R800 o częstotliwości 7,16 MHz i Z80 o częstotliwości 3,58 MHz zapewniając kompatybilność ze starszym oprogramowaniem MSX. Pamięć RAM jest teraz dostępna w wersjach 256 lub 512 KB.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O MSX turbo R padrão está equipado com dois microprocessadores, um R800 a 7,16 MHz e um Z80 a 3,58 MHz, assegurando a compatibilidade com a gama de software MSX mais antigo. A RAM está agora disponível em 256 ou 512 KB.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Стандартный MSX turbo R оснащен двумя микропроцессорами, R800 с частотой 7,16 МГц и Z80 с частотой 3,58 МГц, что обеспечивает совместимость со старым программным обеспечением MSX. Оперативная память теперь доступна в 256 или 512 КБ.</text>
+</text>
+
+</view>
 </theme>

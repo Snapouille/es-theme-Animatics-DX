@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Videopac is a video game console designed by Magnavox, manufactured by Philips and marketed in the late 1970s and early 1980s under the brand names Philips (Videopac/Odyssey), Radiola-Radiotechnique (Videopac), Schneider (Videopac), Siera (Videopac), Magnavox (Odyssey²), Brandt (Jopac)</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The Magnavox Odyssey², also known as Philips Odyssey² is a second generation home video game console released in 1978. It was sold in Europe as the Philips Videopac G7000, in Brazil as the Philips Odyssey.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Magnavox Odyssey², conocida también como Philips Odyssey² y Videopac G7000, es una videoconsola lanzada en 1978 y Sucesora de la Magnavox Odyssey, la primera videoconsola de la historia.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Videopac est une console de jeux vidéo conçue par Magnavox, fabriquée par Philips et commercialisée à la fin des années 1970 et au début des années 1980 sous les marques Philips (Videopac/Odyssey).</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Videopac Odyssey2 est une console de jeux vidéo conçue par Magnavox, fabriquée par Philips et commercialisée à la fin des années 1970 et au début des années 1980 sous les marques Philips (Videopac/Odyssey), Radiola-Radiotechnique - Schneider - Siera (Videopac), Magnavox (Odyssey²), Brandt Continental Edison et Saba (Jopac).</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Foi um console de vídeo games bastante popular nos anos 70 e 80. O console foi criado em 1978 pela empresa Magnavox / Philips como evolução do console da Magnavox anterior, o Magnavox Odyssey.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der Videopac ist eine von Magnavox entwickelte und von Philips hergestellte Videospielkonsole, die Ende der 1970er und Anfang der 1980er Jahre unter den Markennamen Philips (Videopac/Odyssey), Radiola-Radiotechnique (Videopac), Schneider (Videopac), Siera (Videopac), Magnavox (Odyssey²), Brandt (Jopac), Continental Edison (Jopac) und Saba (Jopac) vertrieben wurde.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Videopac es una consola de videojuegos diseñada por Magnavox, fabricada por Philips y comercializada a finales de los años 70 y principios de los 80 bajo las marcas Philips (Videopac/Odyssey), Radiola-Radiotechnique (Videopac), Schneider (Videopac), Siera (Videopac), Magnavox (Odyssey²), Brandt (Jopac), Continental Edison (Jopac) y Saba (Jopac).</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Videopac è una console per videogiochi progettata da Magnavox, prodotta da Philips e commercializzata tra la fine degli anni '70 e l'inizio degli anni '80 con i marchi Philips (Videopac/Odyssey), Radiola-Radiotechnique (Videopac), Schneider (Videopac), Siera (Videopac), Magnavox (Odyssey²), Brandt (Jopac), Continental Edison (Jopac) e Saba (Jopac).</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ビデオパックは、マグナボックスが設計し、フィリップスが製造し、フィリップス（ビデオパック／オデッセイ）、ラディオラ・ラディオテクニック（ビデオパック）、シュナイダー（ビデオパック）、シエラ（ビデオパック）、マグナボックス（オデッセイ2）、ブラント（ヨーパック）、コンチネンタルエジソン（ヨーパック）、サバ（ヨーパック）というブランド名で1970年代後半から1980年代前半に販売されたゲーム機である。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Videopac is een door Magnavox ontworpen, door Philips vervaardigde en eind jaren zeventig en begin jaren tachtig onder de merknamen Philips (Videopac/Odyssey), Radiola-Radiotechnique (Videopac), Schneider (Videopac), Siera (Videopac), Magnavox (Odyssey²), Brandt (Jopac), Continental Edison (Jopac) en Saba (Jopac) in de handel gebrachte videospelconsole.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Videopac to konsola do gier wideo zaprojektowana przez Magnavox, produkowana przez Philipsa i sprzedawana pod koniec lat 70. i na początku lat 80. pod markami Philips (Videopac/Odyssey), Radiola-Radiotechnique (Videopac), Schneider (Videopac), Siera (Videopac), Magnavox (Odyssey²), Brandt (Jopac), Continental Edison (Jopac) i Saba (Jopac).</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Videopac é uma consola de jogos de vídeo concebida pela Magnavox, fabricada pela Philips e comercializada no final dos anos 70 e início dos anos 80 sob as marcas Philips (Videopac/Odyssey), Radiola-Radiotechnique (Videopac), Schneider (Videopac), Siera (Videopac), Magnavox (Odyssey²), Brandt (Jopac), Continental Edison (Jopac) e Saba (Jopac).</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Videopac - это игровая приставка, разработанная компанией Magnavox, произведенная компанией Philips и продававшаяся в конце 1970-х и начале 1980-х годов под торговыми марками Philips (Videopac/Odyssey), Radiola-Radiotechnique (Videopac), Schneider (Videopac), Siera (Videopac), Magnavox (Odyssey²), Brandt (Jopac), Continental Edison (Jopac) и Saba (Jopac).</text>
+</text>
+
+</view>
 </theme>

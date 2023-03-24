@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The MSX2+ standard offered graphics up to 512 × 212 pixels in 16 of 512 colours and an audio processor: 3-voice, 8-octave sound. Video memory was a minimum of 128 KB.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>MSX is a standardized home computer architecture, first announced by Microsoft on June 16, 1983 and marketed by Kazuhiko Nishi, then Vice-president at Microsoft Japan and Director at ASCII Corporation.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es" >
-			<text>MSX es un estándar de microordenador doméstico de 8 bits comercializado durante los años 1980 y principio de los años 1990. Fue definido por Kazuhiko Nishi y presentado el 27 de junio de 1983 en Japón.
+<text name="system_description" extra="true" lang="fr">
+<text>La norme MSX2+ propose des graphismes jusqu’en 512 × 212 pixels en 16 couleurs parmi 512 et un processeur audio : son sur 3 voix et 8 octaves. La mémoire vidéo était au minimum de 128 Ko.</text>
+</text>
 
-Tuvo además éxito en Europa (España, Francia y Países Bajos), Brasil, Chile, Argentina, Cuba y la Unión Soviética, en estos últimos países fueron comprados por las autoridades educativas miles de unidades para equipar escuelas. Es prácticamente desconocido en Estados Unidos. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>MSX était un standard de micro-ordinateurs à vocation domestique (grand public) d’origine japonaise, qui date des années 1980. Contrairement à la plupart des ordinateurs de l’époque, les MSX ont été produits par divers fabricants.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der MSX2+-Standard bot Grafiken bis zu 512 × 212 Pixel in 16 von 512 Farben und einen Audioprozessor: dreistimmiger Ton und 8 Oktaven. Der Videospeicher war mindestens 128 KB groß.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>MSX foi o nome dado a uma arquitetura de microcomputadores criada no Japão em 1983, que definia um padrão para os desenvolvedores de hardware. Foi desenvolvido por Kazuhiko Nishi, vice-presidente da ASCII.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>El estándar MSX2+ ofrecía gráficos de hasta 512 × 212 píxeles en 16 de 512 colores y un procesador de audio: sonido de 3 voces y 8 octavas. La memoria de vídeo era de un mínimo de 128 KB.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Lo standard MSX2+ offriva una grafica fino a 512 × 212 pixel in 16 di 512 colori e un processore audio: suono a 3 voci e 8 ottave. La memoria video era di almeno 128 KB.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>MSX2+規格では、グラフィックは最大512×212ピクセル、512色中16色、オーディオプロセッサ：3ボイス、8オクターブのサウンドを提供した。ビデオメモリは最低128KBでした。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De MSX2+ standaard bood graphics tot 512 × 212 pixels in 16 van 512 kleuren en een audioprocessor: 3-stemmig, 8-octaafs geluid. Het videogeheugen was minimaal 128 KB.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Standard MSX2+ oferował grafikę do 512 × 212 pikseli w 16 z 512 kolorów oraz procesor audio: 3-głosowy, 8-oktawowy dźwięk. Pamięć wideo wynosiła minimum 128 KB.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O padrão MSX2+ oferecia gráficos até 512 × 212 pixels em 16 de 512 cores e um processador de áudio: 3-vozes, som de 8-octave. A memória de vídeo era de um mínimo de 128 KB.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Стандарт MSX2+ предлагает графику до 512 × 212 пикселей в 16 из 512 цветов и аудиопроцессор: 3-голосный, 8-октавный звук. Видеопамять составляла минимум 128 КБ.</text>
+</text>
+
+</view>
 </theme>

@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Game Boy Advance is a portable video game console with a colour screen and a 32-bit processor, which made it the most powerful portable console when it was released. The GBA is not zoned, so it is possible to play American and Japanese games on a European console and vice versa. It is backwards compatible with GB and GBC games.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo as the successor to the Game Boy Color. It was released in Japan on March 21, 2001, in North America on June 11, 2001.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La Game Boy Advance (conocida en Japón como ゲームボーイアドバンス; Gēmu Bōi Adobansu), abreviada como GBA, es una popular consola de videojuegos de la compañía Nintendo, fabricada desde marzo de 2001 hasta 2008.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Game Boy Advance (GBA) est une console de jeux vidéo portable créée par Nintendo en 2001. Elle dispose d'un écran couleur et d'un processeur 32 bits, ce qui en faisait à sa sortie la 1ere console portable 32bits.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Game Boy Advance est une console de jeux vidéo portable avec un écran couleur et un processeur 32-bits, ce qui en faisait à sa sortie la console portable la plus performante. La GBA n'étant pas zonée, il est possible de jouer à des jeux américains et japonais sur une console européenne et vice versa. Elle est rétrocompatible avec les jeux GB et GBC.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console portátil desenvolvido e fabricado pela Nintendo. É o sucessor do Game Boy Color, e um dos últimos produtos da linha. Seu codinome durante o processo de desenvolvimento foi Advance Game Boy.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Game Boy Advance ist eine tragbare Videospielkonsole mit einem Farbbildschirm und einem 32-Bit-Prozessor, was ihn bei seiner Veröffentlichung zur leistungsfähigsten tragbaren Konsole machte. Da der GBA nicht zonenabhängig ist, kann man auf einer europäischen Konsole amerikanische und japanische Spiele spielen und umgekehrt. Er ist abwärtskompatibel mit GB- und GBC-Spielen.</text>
+</text>
 
-		
-		
-						
+<text name="system_description" extra="true" lang="es">
+<text>La Game Boy Advance es una videoconsola portátil con pantalla en color y procesador de 32 bits, lo que la convirtió en la consola portátil más potente en el momento de su lanzamiento. La GBA no está dividida en zonas, por lo que es posible jugar a juegos americanos y japoneses en una consola europea y viceversa. Es retrocompatible con los juegos de GB y GBC.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il Game Boy Advance è una console portatile per videogiochi con schermo a colori e processore a 32 bit, che al momento dell'uscita era la console portatile più potente. Il GBA non è suddiviso in zone, quindi è possibile giocare a giochi americani e giapponesi su una console europea e viceversa. È retrocompatibile con i giochi GB e GBC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ゲームボーイアドバンスは、カラー画面と32ビットプロセッサを搭載した携帯ゲーム機で、発売当時は最も高性能な携帯ゲーム機でした。GBAはゾーニングされていないため、ヨーロッパのゲーム機でアメリカや日本のゲームをプレイすることも、その逆も可能である。GBやGBCのゲームと後方互換性があります。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Game Boy Advance is een draagbare videogameconsole met een kleurenscherm en een 32-bits processor, waardoor het de krachtigste draagbare console was toen hij werd uitgebracht. De GBA is niet gezoneerd, zodat het mogelijk is Amerikaanse en Japanse spellen op een Europese console te spelen en omgekeerd. Het is achterwaarts compatibel met GB en GBC spellen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Game Boy Advance to przenośna konsola do gier wideo z kolorowym ekranem i 32-bitowym procesorem, co czyniło ją najpotężniejszą przenośną konsolą w momencie premiery. GBA nie jest podzielona na strefy, więc możliwe jest granie w amerykańskie i japońskie gry na europejskiej konsoli i odwrotnie. Jest ona wstecznie kompatybilna z grami na GB i GBC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Game Boy Advance é uma consola portátil de videojogos com um ecrã a cores e um processador de 32 bits, o que a tornou na consola portátil mais poderosa quando foi lançada. A GBA não está zonada, pelo que é possível jogar jogos americanos e japoneses numa consola europeia e vice-versa. É retrocompatível com jogos GB e GBC.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Game Boy Advance - это портативная игровая консоль с цветным экраном и 32-битным процессором, что сделало ее самой мощной портативной консолью на момент выпуска. Поскольку GBA не зонирована, на европейской консоли можно играть в американские и японские игры и наоборот. Она обратно совместима с играми для GB и GBC.</text>
+</text>
+
+</view>
 </theme>

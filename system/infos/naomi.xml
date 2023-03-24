@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The New Arcade Operation Machine Idea (Naomi), which also translates as "beauty" in Japanese, is an arcade video game system developed by Sega in 1998 as the successor to the Sega Model 3 system. It has an architecture very similar to that of the Dreamcast home console. It has a triple zoning: USA, Japan and Export.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The NAOMI (New Arcade Operation Machine Idea) is the successor to the Sega Model 3. Sega first demonstrated NAOMI publicly at the 1998 Amusement Machine Show. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El Sega NAOMI (acrónimo de New Arcade Operation Machine Idea) es una placa basada en la tecnología utilizada en Sega Dreamcast. Utilizado como sistema de placa base para máquinas recreativas.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Naomi est un système de jeu vidéo d'arcade développé par Sega, sorti en 1998 comme successeur du système Sega Model 3. </text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le New Arcade Operation Machine Idea (Naomi) qui se traduit aussi par « beauté » en japonais est un système de jeu vidéo d'arcade développé par Sega en 1998 comme successeur du système Sega Model 3. Il dispose d'une architecture très proche de celle de la console de salon Dreamcast. Il dispose d'un triple zonage : USA, Japon et Export.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Sega NAOMI (sigla para New Arcade Operation Machine Idea, em português Nova ideia em operação de máquina arcade) é uma placa de arcade baseada na tecnologia utilizada no Sega Dreamcast.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Die New Arcade Operation Machine Idea (Naomi), die auf Japanisch auch mit "Schönheit" übersetzt wird, ist ein Arcade-Videospielsystem, das 1998 von Sega als Nachfolger des Sega Model 3-Systems entwickelt wurde und eine Architektur hat, die der der Heimkonsole Dreamcast sehr ähnlich ist. Es verfügt über eine dreifache Zoneneinteilung: USA, Japan und Export.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>El New Arcade Operation Machine Idea (Naomi), que también se traduce como "belleza" en japonés, es un sistema de videojuegos arcade desarrollado por Sega en 1998 como sucesor del sistema Sega Model 3. Tiene una arquitectura muy similar a la de la consola doméstica Dreamcast. Tiene una triple zonificación: EE.UU., Japón y exportación.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il New Arcade Operation Machine Idea (Naomi), che in giapponese si traduce anche come "bellezza", è un sistema di videogiochi arcade sviluppato da Sega nel 1998 come successore del sistema Sega Model 3. Ha un'architettura molto simile a quella della console domestica Dreamcast. Ha una triplice zonizzazione: USA, Giappone ed esportazione.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>New Arcade Operation Machine Idea（ナオミ）は、日本語で「美」とも訳され、1998年にセガがセガモデル3の後継機として開発したアーケードビデオゲームシステム。 家庭用ゲーム機ドリームキャストと非常に似たアーキテクチャを持っている。アメリカ、日本、輸出のトリプルゾーニングを採用している。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De New Arcade Operation Machine Idea (Naomi), wat in het Japans ook wel vertaald wordt als "schoonheid", is een arcade videospel systeem ontwikkeld door Sega in 1998 als opvolger van het Sega Model 3 systeem. Het heeft een architectuur die erg lijkt op die van de Dreamcast home console. Het heeft een drievoudige zonering: USA, Japan en Export.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>New Arcade Operation Machine Idea (Naomi), co tłumaczy się również jako "piękno" w języku japońskim, to system zręcznościowych gier wideo opracowany przez firmę Sega w 1998 roku jako następca systemu Sega Model 3. Ma architekturę bardzo podobną do architektury konsoli domowej Dreamcast. Posiada potrójny zon: USA, Japonia i eksport.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O New Arcade Operation Machine Idea (Naomi), que também se traduz como "beleza" em japonês, é um sistema de videojogos arcade desenvolvido pela Sega em 1998 como sucessor do sistema Sega Model 3. Tem uma arquitectura muito semelhante à da consola doméstica Dreamcast. Tem um zoneamento triplo: EUA, Japão e Exportação.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>New Arcade Operation Machine Idea (Naomi), что в переводе с японского означает "красота", - это система аркадных видеоигр, разработанная компанией Sega в 1998 году в качестве преемника системы Sega Model 3. По своей архитектуре она очень похожа на домашнюю консоль Dreamcast. Она имеет тройное зонирование: США, Япония и экспорт.</text>
+</text>
+
+</view>
 </theme>

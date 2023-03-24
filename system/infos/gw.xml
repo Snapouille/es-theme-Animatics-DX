@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Game & Watch brand (ゲーム&ウオッチ) is a series of portable electronic games developed, manufactured and marketed by Nintendo from 1980 to 1991. Created by game designer Gunpei Yokoi, the product takes its name from the fact that it features a single game as well as a clock on an LCD screen. Models from 1981 onwards featured an additional alarm.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Is a line of handheld electronic games produced by Nintendo from 1980 to 1991. Created by game designer Gunpei Yokoi, each Game and Watch features a single game to be played on an LCD screen in addition to a clock.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-								<text>La serie Game and Watch es una línea de 59 consolas portátiles de videojuegos fabricadas por Nintendo y creadas por Gunpei Yokoi de 1980 a 1991. Cada una de ellas poseía un único juego con pantalla LCD, y tenía además reloj y alarma. Algunos de los títulos del formato Game and Watch fueron Donkey Kong, The Legend of Zelda, Mario Bros., Mickey Mouse, Ball, Egg, Octopus... 
+<text name="system_description" extra="true" lang="fr">
+<text>La marque Game & Watch (ゲーム&ウオッチ) est une série de jeux électroniques portables développée, fabriquée et commercialisée par Nintendo de 1980 à 1991. Créé par le concepteur de jeux Gunpei Yokoi, le produit tire son nom du fait qu'il propose un seul jeu ainsi qu'une horloge sur un écran LCD. Les modèles à partir de 1981 proposaient une alarme en plus.</text>
+</text>
 
-Estas consolas portátiles -que en España se conocían popularmente como «maquinitas»- actualmente son muy difíciles de conseguir, y se consideran piezas históricas y artículos de coleccionista.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Game and Watch sont des jeux électroniques de poche produits par la société Nintendo de 1980 à 1991, ils font également office de montres et de réveils. Vendus à 43,4 millions d'exemplaires à travers le monde.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die Marke Game & Watch (ゲーム&ウオッチ) ist eine Serie tragbarer elektronischer Spiele, die von Nintendo entwickelt, hergestellt und von 1980 bis 1991 vermarktet wurde. Das von dem Spieledesigner Gunpei Yokoi entworfene Produkt erhielt seinen Namen aufgrund der Tatsache, dass es ein einzelnes Spiel sowie eine Uhr auf einem LCD-Bildschirm anbietet. Die Modelle ab 1981 boten zusätzlich einen Wecker an.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É uma linha de consoles portáteis produzida pela Nintendo entre 1980 e 1991, criado pelo designer Gunpei Yokoi. Foi a segunda linha de aparelhos de jogos eletrônicos da Nintendo (a primeira foi o Color TV Game).</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>La marca Game & Watch (ゲーム&ウオッチ) es una serie de juegos electrónicos portátiles desarrollados, fabricados y comercializados por Nintendo entre 1980 y 1991. Creado por el diseñador de juegos Gunpei Yokoi, el producto toma su nombre del hecho de que cuenta con un solo juego, así como un reloj en una pantalla LCD. Los modelos a partir de 1981 incorporaban una alarma adicional.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Il marchio Game & Watch (ゲーム&ウオッチ) è una serie di giochi elettronici portatili sviluppati, prodotti e commercializzati da Nintendo dal 1980 al 1991. Creato dal game designer Gunpei Yokoi, il prodotto prende il nome dal fatto che presenta un unico gioco e un orologio su uno schermo LCD. I modelli dal 1981 in poi erano dotati di una sveglia aggiuntiva.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>ゲーム＆ウオッチブランド（ゲーム＆ウオッチ）は、1980年から1991年まで任天堂が開発・製造・販売していた携帯電子ゲームのシリーズである。ゲームデザイナー横井軍平の手によるもので、製品名の由来は、1つのゲームと液晶画面に表示される時計がセットになっていること。1981年以降のモデルでは、アラームが追加された。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Het merk Game & Watch (ゲーム&ウオッチ) is een reeks draagbare elektronische spelletjes die van 1980 tot 1991 door Nintendo werd ontwikkeld, geproduceerd en op de markt gebracht. Het product, ontworpen door spelontwerper Gunpei Yokoi, ontleent zijn naam aan het feit dat het zowel een enkel spel als een klok op een LCD-scherm bevat. Modellen vanaf 1981 hadden een extra wekker.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Marka Game & Watch (ゲーム&ウオッチ) to seria przenośnych gier elektronicznych opracowanych, produkowanych i sprzedawanych przez Nintendo w latach 1980-1991. Stworzony przez projektanta gier Gunpei Yokoi, produkt bierze swoją nazwę od tego, że posiada jedną grę, jak również zegar na ekranie LCD. Modele od 1981 roku posiadały dodatkowo alarm.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A marca Game & Watch (ゲーム&ウオッチ) é uma série de jogos electrónicos portáteis desenvolvidos, fabricados e comercializados pela Nintendo de 1980 a 1991. Criado pelo designer de jogos Gunpei Yokoi, o produto tira o seu nome do facto de apresentar um único jogo, bem como um relógio num ecrã LCD. Os modelos de 1981 em diante apresentavam um alarme adicional.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Бренд Game & Watch (ゲーム&ウオッチ) - это серия портативных электронных игр, разработанных, произведенных и продаваемых компанией Nintendo с 1980 по 1991 год. Созданная дизайнером игр Гунпеем Йокои, она получила свое название благодаря тому, что в ней есть одна игра, а также часы на ЖК-экране. Модели, начиная с 1981 года, оснащались дополнительным будильником.</text>
+</text>
+
+</view>
 </theme>

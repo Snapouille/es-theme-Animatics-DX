@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Already present on the Game Boy, the link cable makes its return to allow the appearance of many features including multiplayer games and Pokémon exchange. This accessory is also compatible with the Game Boy Pocket.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Is a handheld game console manufactured by Nintendo, which was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Abreviada GBC, es una videoconsola portátil de la quinta generación de la familia de sistemas de videojuegos de Nintendo Game Boy. Fue lanzada al mercado en Japón el 23 de octubre de 1998.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Game Boy Color (ゲームボーイカラー), abrégé GBC, est la console de jeux vidéo portable succédant à la Game Boy. Créée par Nintendo, elle incorpore un écran couleur à peine plus grand que celui de la Game Boy.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Déjà présent sur la Game Boy, le câble link fait son retour pour permettre l'apparition de nombreuses fonctionnalités dont notamment les parties multijoueur et l'échange de Pokémon. Cet accessoire est également compatible avec la Game Boy Pocket.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É o sucessor do Game Boy da Nintendo. O portátil foi lançado no dia 21 de outubro de 1998 no Japão. Ele apresenta uma tela colorida, e é ligeiramente mais grosso e alto do que o Game Boy Pocket.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Das Link-Kabel, das es schon auf dem Game Boy gab, ist nun wieder da und ermöglicht viele neue Funktionen, wie z. B. Mehrspielerpartien und den Austausch von Pokémon. Dieses Zubehör ist auch mit dem Game Boy Pocket kompatibel.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Ya presente en la Game Boy, el cable de enlace hace su regreso para permitir la aparición de numerosas funciones, como las partidas multijugador y el intercambio de Pokémon. Este accesorio también es compatible con la Game Boy Pocket.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Già presente sul Game Boy, il cavo di collegamento fa il suo ritorno per consentire la comparsa di molte funzioni, tra cui i giochi multiplayer e lo scambio di Pokémon. Questo accessorio è compatibile anche con il Game Boy Pocket.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ゲームボーイに搭載されていたリンクケーブルが復活し、多人数プレイやポケモン交換など、様々な機能を搭載しています。ゲームボーイポケットにも対応しています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De linkkabel, die al aanwezig was op de Game Boy, maakt zijn terugkeer mogelijk, zodat vele functies, zoals multiplayer-spelletjes en Pokémon-uitwisseling, kunnen worden toegepast. Dit accessoire is ook compatibel met de Game Boy Pocket.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Obecny już w Game Boyu, kabel łączący powraca, aby umożliwić pojawienie się wielu funkcji, w tym gier wieloosobowych i wymiany Pokémonów. To akcesorium jest również kompatybilne z Game Boy Pocket.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Já presente no Game Boy, o cabo de ligação faz o seu regresso para permitir o aparecimento de muitas características, incluindo jogos multijogadores e troca de Pokémon. Este acessório é também compatível com o Game Boy Pocket.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Уже присутствовавший в Game Boy, соединительный кабель возвращается, чтобы обеспечить появление многих функций, включая многопользовательские игры и обмен покемонами. Этот аксессуар также совместим с Game Boy Pocket.</text>
+</text>
+
+</view>
 </theme>

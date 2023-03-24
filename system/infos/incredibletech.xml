@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Incredible Technologies (IT) is an American company, based in Chicago, and is well known in the United States for its work in the world of arcades and pinball machines. It specialises in the design of sports games and simulations (mostly, except for a few titles). </text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Incredible Technologies (IT) est une entreprise américaine, basée à Chicago, est très réputée aux États-Unis grâce à son activité dans le monde de l'arcade et des flippers. Elle s'est spécialisée dans la conception de jeux et simulations de sport (majoritairement, à part pour quelques titres). </text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Incredible Technologies (IT) ist ein US-amerikanisches Unternehmen mit Sitz in Chicago, das in den USA durch seine Tätigkeit in der Welt der Arcade- und Flipperautomaten sehr bekannt ist. Sie hat sich auf die Entwicklung von Sportspielen und -simulationen spezialisiert (überwiegend, abgesehen von einigen Titeln). </text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Incredible Technologies (IT) es una empresa estadounidense, con sede en Chicago, muy conocida en Estados Unidos por su trabajo en el mundo de los salones recreativos y las máquinas de pinball. Está especializada en el diseño de juegos deportivos y de simulación (en su mayoría, salvo algunos títulos). </text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Incredible Technologies (IT) è un'azienda americana con sede a Chicago, nota negli Stati Uniti per il suo lavoro nel mondo delle sale giochi e dei flipper. È specializzata nella progettazione di giochi sportivi e simulazioni (soprattutto, tranne alcuni titoli). </text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>インクレディブル・テクノロジーズ（IT）は、シカゴに本社を置くアメリカの企業で、アーケードやピンボールマシンの世界ではよく知られている。スポーツゲームやシミュレーションのデザインを得意としている（一部のタイトルを除き、ほとんど）。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Incredible Technologies (IT) is een Amerikaanse onderneming, gevestigd in Chicago, die in de Verenigde Staten bekend staat om haar werk in de wereld van arcades en flipperkasten. Het is gespecialiseerd in het ontwerpen van sportspellen en simulaties (meestal, op enkele titels na). </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Incredible Technologies (IT) to amerykańska firma, z siedzibą w Chicago, znana w Stanach Zjednoczonych ze swojej działalności w świecie arkad i pinballi. Specjalizuje się w projektowaniu gier i symulacji sportowych (głównie, poza kilkoma tytułami). </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Incredible Technologies (IT) é uma empresa americana, sediada em Chicago, e é bem conhecida nos Estados Unidos pelo seu trabalho no mundo dos arcades e máquinas de pinball. Especializou-se na concepção de jogos desportivos e simulações (na sua maioria, excepto alguns títulos). </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Incredible Technologies (IT) - американская компания, базирующаяся в Чикаго и хорошо известная в США своей работой в мире аркад и пинбольных автоматов. Она специализируется на разработке спортивных игр и симуляторов (в основном, за исключением нескольких наименований). </text>
+</text>
+
+</view>
 </theme>

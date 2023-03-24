@@ -4,27 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Nintendo DS (ニンテンドーDS), DS for Dual or Double Screen, is the best-selling handheld console of all time. It is equipped with new features such as two screens, one of which is touch-sensitive, a microphone, two cartridge ports (one for DS games, another for GBA games and accessories), two surround sound speakers, and built-in Wi-Fi.</text>
+</text>
 
-				<text name="system_description" extra="true">
-			<text>The Nintendo DS (ニ ン テ ン ド ー DS, Nintendō Dī Esu ?, DS for Dual Screen, Double Screen in Japan), is a portable console created by Nintendo, released at the end of 2004 in Japan and North America and in 2005 in Europe. Has the particularity of the double screen and the touchscreen. It has also democratized casual gaming which has contributed to its popularity.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La Nintendo DS (ニ ン テ ン ド ー DS, Nintendō Dī Esu?, DS para Dual Screen, Double Screen en Japón), es una consola portátil creada por Nintendo, lanzada a finales de 2004 en Japón y Norteamérica y en 2005 en Europa. Tiene la particularidad de la doble pantalla y la pantalla táctil. También ha democratizado el juego casual, lo que ha contribuido a su popularidad.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Nintendo DS (ニンテンドーDS, Nintendō Dī Esu?, DS pour Dual Screen, Double Screen au Japon), est une console portable créée par Nintendo, sortie fin 2004 au Japon et en Amérique du Nord et en 2005 en Europe. A la particularité du double écran et du touchscreen. Elle a également démocratisé le gaming casual ce qui a contribué à sa popularité.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Nintendo DS (ニンテンドーDS), DS pour Dual ou Double Screen, est la console portable la plus vendue de tous les temps. Elle est équipée de fonctions inédites telles que deux écrans dont un tactile, un microphone, deux ports cartouche (un pour les jeux DS, un autre pour les jeux GBA et les accessoires), deux haut-parleurs surround, ou encore le Wi-Fi intégré.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Nintendo DS (ニ ン テ ン ド ー DS, Nintendō Dī Esu?, DS para Dual Screen, Double Screen no Japão), é um console portátil criado pela Nintendo, lançado no final de 2004 no Japão e na América do Norte e em 2005 na Europa. Tem a particularidade do ecrã duplo e do ecrã táctil. Também democratizou o jogo casual, o que contribuiu a ser popular.</text>
-		</text>
-		
-	</view>
-	
+<text name="system_description" extra="true" lang="de">
+<text>Der Nintendo DS (ニンテンドーDS), DS für Dual oder Double Screen, ist die meistverkaufte tragbare Konsole aller Zeiten. Sie verfügt über neuartige Funktionen wie zwei Bildschirme, von denen einer ein Touchscreen ist, ein Mikrofon, zwei Cartridge-Anschlüsse (einen für DS-Spiele, einen anderen für GBA-Spiele und Zubehör), zwei Surround-Lautsprecher oder integriertes Wi-Fi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La Nintendo DS (ニンテンドーDS), DS por Dual o Doble Pantalla, es la consola portátil más vendida de todos los tiempos. Está equipada con nuevas funciones, como dos pantallas, una de ellas táctil, un micrófono, dos puertos para cartuchos (uno para juegos de DS y otro para juegos y accesorios de GBA), dos altavoces de sonido envolvente y Wi-Fi integrado.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Nintendo DS (ニンテンドーDS), DS per Dual o Double Screen, è la console portatile più venduta di tutti i tempi. È dotata di nuove funzionalità come due schermi, uno dei quali sensibile al tocco, un microfono, due porte per cartucce (una per i giochi DS, l'altra per i giochi e gli accessori GBA), due altoparlanti surround e Wi-Fi integrato.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ニンテンドーDS（DSはDualまたはDouble Screenの略）は、史上最も売れた携帯型ゲーム機です。2画面（うち1画面はタッチセンサー）、マイク、2つのカートリッジポート（DSゲーム用、GBAゲームおよびアクセサリー用）、2つのサラウンドスピーカー、内蔵Wi-Fiなどの新機能を備えている。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Nintendo DS (ニンテンドーDS), DS voor Dual of Double Screen, is de best verkochte draagbare console aller tijden. Hij is uitgerust met nieuwe functies zoals twee schermen, waarvan één aanraakgevoelig, een microfoon, twee cartridge-poorten (één voor DS-spellen, één voor GBA-spellen en accessoires), twee surround sound speakers en ingebouwde Wi-Fi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Nintendo DS (ニンテンドーDS), DS dla Dual lub Double Screen, jest najlepiej sprzedającą się konsolą ręczną wszech czasów. Jest wyposażona w nowe funkcje, takie jak dwa ekrany, z których jeden jest wrażliwy na dotyk, mikrofon, dwa porty kartridży (jeden dla gier DS, drugi dla gier i akcesoriów GBA), dwa głośniki dźwięku przestrzennego i wbudowane Wi-Fi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Nintendo DS (ニンテンドーDS), DS para ecrã duplo ou duplo, é a consola portátil mais vendida de todos os tempos. Está equipada com novas características tais como dois ecrãs, um dos quais sensível ao toque, um microfone, duas portas de cartucho (uma para jogos DS, outra para jogos GBA e acessórios), dois altifalantes de som surround, e Wi-Fi incorporado.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Nintendo DS (ニンテンドーDS), DS означает "двойной или двухэкранный", является самой продаваемой портативной консолью всех времен. Она оснащена такими новыми функциями, как два экрана, один из которых сенсорный, микрофон, два порта для картриджей (один для игр DS, другой для игр и аксессуаров GBA), два динамика объемного звучания и встроенный Wi-Fi.</text>
+</text>
+
+</view>
 </theme>

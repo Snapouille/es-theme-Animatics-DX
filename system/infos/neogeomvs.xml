@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>The Neo-Geo MVS (Multi Video System) is a JAMMA-compatible arcade video game system designed for arcades and created by the Japanese company SNK. At the same time, SNK is marketing a home video game console (only by rental system for the first year), the Neo-Geo AES, sharing the same hardware base.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le Neo-Geo MVS (Multi Video System) est un système de jeux vidéo pour borne d'arcade compatible JAMMA destiné aux salles d'arcade et créé par la société japonaise SNK. Parallèlement, SNK commercialise une console de jeux vidéo de salon (uniquement par système de location la première année), la Neo-Geo AES, partageant la même base matérielle.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das Neo-Geo MVS (Multi Video System) ist ein JAMMA-kompatibles Videospielsystem für Arcade-Hallen, das von der japanischen Firma SNK entwickelt wurde. Gleichzeitig brachte SNK mit dem Neo-Geo AES eine Videospielkonsole für den Heimgebrauch auf den Markt (im ersten Jahr nur über ein Mietsystem), die die gleiche Hardwarebasis teilte.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>El Neo-Geo MVS (Multi Video System) es un sistema de videojuegos arcade compatible con JAMMA, diseñado para salones recreativos y creado por la compañía japonesa SNK. Al mismo tiempo, SNK comercializa una videoconsola doméstica (sólo por sistema de alquiler durante el primer año), la Neo-Geo AES, que comparte la misma base de hardware.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Il Neo-Geo MVS (Multi Video System) è un sistema di videogiochi arcade compatibile con JAMMA, progettato per le sale giochi e creato dalla società giapponese SNK. Contemporaneamente, SNK commercializza una console per videogiochi domestici (solo a noleggio per il primo anno), il Neo-Geo AES, che condivide la stessa base hardware.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>ネオジオMVS（Multi Video System）は、日本のSNKが制作したJAMMA互換のアーケード用ビデオゲーム機である。同時にSNKは、同じハードウェアベースを共有する家庭用ビデオゲーム機（初年度はレンタル方式のみ）、ネオジオAESを販売している。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Neo-Geo MVS (Multi Video System) is een JAMMA-compatibel arcade-videospel-systeem, ontworpen voor speelhallen en gemaakt door de Japanse onderneming SNK. Tegelijkertijd brengt SNK een videogameconsole voor thuisgebruik op de markt (het eerste jaar alleen per huursysteem), de Neo-Geo AES, met dezelfde hardwarebasis.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Neo-Geo MVS (Multi Video System) to kompatybilny z JAMMA system gier wideo przeznaczony do salonów gier i stworzony przez japońską firmę SNK. W tym samym czasie SNK wprowadza na rynek domową konsolę do gier wideo (przez pierwszy rok tylko w systemie rentalowym), Neo-Geo AES, dzielącą tę samą bazę sprzętową.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Neo-Geo MVS (Multi Video System) é um sistema de videojogos de arcada compatível com JAMMA concebido para arcadas e criado pela empresa japonesa SNK. Ao mesmo tempo, a SNK comercializa uma consola de videojogos doméstica (apenas por sistema de aluguer para o primeiro ano), o Neo-Geo AES, partilhando a mesma base de hardware.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Neo-Geo MVS (Multi Video System) - это JAMMA-совместимая система аркадных видеоигр, разработанная для игровых залов и созданная японской компанией SNK. В то же время SNK выпускает на рынок домашнюю игровую консоль (в первый год только в виде прокатной системы) Neo-Geo AES, имеющую ту же аппаратную базу.</text>
+</text>
+
+</view>
 </theme>

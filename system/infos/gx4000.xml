@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The GX4000 was Amstrad's first and only attempt to enter the console market. Although it offered improved graphics capabilities, it failed to gain popularity and was quickly discontinued, with 15,000 units sold in total. It shared the hardware architecture with the CPC Plus range of computers released at the same time.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>The GX4000 is a video game console that was manufactured by Amstrad. It was the company's short-lived attempt to enter the games console market. The console was released in Europe in 1990.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La GX4000 es una consola de videojuegos fabricada por Amstrad. Fue un intento efímero de la compañía para ingresar al mercado de consolas de juegos. La consola fue lanzada en Europa en 1990.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La GX4000 est une console de jeu vidéo fabriquée par Amstrad. C'était la tentative de courte durée de la société d'entrer sur le marché des consoles de jeux. La console est sortie en Europe en 1990.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La GX4000 a été la première et unique tentative d'Amstrad d'entrer sur le marché des consoles. Bien qu'offrant des capacités graphiques améliorées, elle n'a pas réussie à gagner en popularité et a été rapidement abandonné, avec 15 000 unités vendues au total. Elle partageait l'architecture matérielle avec la gamme d'ordinateurs CPC Plus sortie en même temps.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O GX4000 é um console de videogame fabricado pela Amstrad. Foi a tentativa de curta duração da empresa para entrar no mercado de consoles de jogos. O console foi lançado na Europa em 1990.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der GX4000 war Amstrads erster und einziger Versuch, in den Konsolenmarkt einzusteigen. Obwohl sie verbesserte Grafikfähigkeiten bot, konnte sie nicht an Popularität gewinnen und wurde mit insgesamt 15.000 verkauften Einheiten schnell wieder eingestellt. Sie teilte sich die Hardware-Architektur mit der CPC-Plus-Computerserie, die zur gleichen Zeit veröffentlicht wurde.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La GX4000 fue el primer y único intento de Amstrad de entrar en el mercado de las consolas. Aunque ofrecía capacidades gráficas mejoradas, no consiguió ganar popularidad y fue rápidamente descatalogada, con 15.000 unidades vendidas en total. Compartía la arquitectura de hardware con la gama de ordenadores CPC Plus lanzada al mismo tiempo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il GX4000 è stato il primo e unico tentativo di Amstrad di entrare nel mercato delle console. Sebbene offrisse capacità grafiche migliorate, non riuscì a guadagnare popolarità e fu rapidamente dismesso, con 15.000 unità vendute in totale. Condivideva l'architettura hardware con la gamma di computer CPC Plus rilasciati nello stesso periodo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>GX4000は、アムストラッドがゲーム機市場に参入する最初で最後の試みでした。グラフィック性能は向上したが、人気を得ることができず、すぐに生産中止となり、累計販売台数は15,000台であった。同時期に発売されたCPC Plusシリーズのコンピュータとハードウェア・アーキテクチャを共有していた。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De GX4000 was Amstrads eerste en enige poging om de consolemarkt te betreden. Hoewel hij verbeterde grafische mogelijkheden bood, won hij niet aan populariteit en werd hij snel stopgezet, met in totaal 15.000 verkochte exemplaren. Hij deelde de hardware architectuur met de CPC Plus reeks van computers die op hetzelfde moment werden uitgebracht.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>GX4000 był pierwszą i jedyną próbą wejścia Amstrada na rynek konsolowy. Mimo że oferował ulepszone możliwości graficzne, nie zdobył popularności i został szybko wycofany z produkcji, sprzedając łącznie 15 000 sztuk. Dzielił on architekturę sprzętową z serią komputerów CPC Plus wydanych w tym samym czasie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O GX4000 foi a primeira e única tentativa da Amstrad para entrar no mercado de consolas. Embora oferecesse melhores capacidades gráficas, não conseguiu ganhar popularidade e foi rapidamente descontinuado, com 15.000 unidades vendidas no total. Partilhou a arquitectura de hardware com a gama de computadores CPC Plus lançados ao mesmo tempo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>GX4000 была первой и единственной попыткой компании Amstrad выйти на рынок консолей. Несмотря на улучшенные графические возможности, она не смогла завоевать популярность и была быстро снята с производства, всего было продано 15 000 единиц. Она имела общую аппаратную архитектуру с компьютерами серии CPC Plus, выпущенными в то же время.</text>
+</text>
+
+</view>
 </theme>

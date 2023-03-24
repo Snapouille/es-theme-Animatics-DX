@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Game Boy Color (ゲームボーイカラー), abbreviated GBC, is the successor portable video game console to the Game Boy. It incorporates a colour screen only slightly larger than that of the GB. However, its processor is twice as fast, and its memory twice as large. It is backwards compatible with all first generation GB games.</text>
+</text>
 
-				<text name="system_description" extra="true" >
-			<text>Is a handheld game console manufactured by Nintendo, which was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Abreviada GBC, es una videoconsola portátil de la quinta generación de la familia de sistemas de videojuegos de Nintendo Game Boy. Fue lanzada al mercado en Japón el 23 de octubre de 1998.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Game Boy Color (ゲームボーイカラー), abrégé GBC, est la console de jeux vidéo portable succédant à la Game Boy. Créée par Nintendo, elle incorpore un écran couleur à peine plus grand que celui de la Game Boy.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Game Boy Color (ゲームボーイカラー), abrégé GBC, est la console de jeux vidéo portable succédant à la Game Boy. Elle incorpore un écran couleur à peine plus grand que celui de la GB. En revanche, son processeur est deux fois plus rapide, et sa mémoire deux fois plus grande. Elle est rétrocompatible avec tous les jeux GB de première génération.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É o sucessor do Game Boy da Nintendo. O portátil foi lançado no dia 21 de outubro de 1998 no Japão. Ele apresenta uma tela colorida, e é ligeiramente mais grosso e alto do que o Game Boy Pocket.</text>
-		</text>
-		
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der Game Boy Color (ゲームボーイカラー), kurz GBC, ist die tragbare Videospielkonsole als Nachfolger des Game Boy. Sie enthält einen Farbbildschirm, der nur wenig größer ist als der des GB. Dafür ist der Prozessor doppelt so schnell und der Speicher doppelt so groß. Er ist abwärtskompatibel mit allen GB-Spielen der ersten Generation.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Game Boy Color (ゲームボーイカラー), abreviada GBC, es la videoconsola portátil sucesora de la Game Boy. Incorpora una pantalla en color sólo ligeramente mayor que la de la GB. Sin embargo, su procesador es el doble de rápido y su memoria el doble de grande. Es retrocompatible con todos los juegos de la primera generación de GB.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Game Boy Color (ゲームボーイカラー), abbreviato GBC, è la console portatile per videogiochi successore del Game Boy. Incorpora uno schermo a colori solo leggermente più grande di quello del GB. Tuttavia, il processore è due volte più veloce e la memoria due volte più capiente. È retrocompatibile con tutti i giochi GB di prima generazione.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ゲームボーイカラー（ゲームボーイカラー）、略称GBCは、ゲームボーイの後継の携帯ゲーム機である。GBよりわずかに大きいカラースクリーンを搭載しています。しかし、プロセッサーは2倍速く、メモリは2倍大きくなっています。GBの全ゲームソフトと後方互換性がある。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Game Boy Color (ゲームボーイカラー), afgekort GBC, is de opvolger van de Game Boy. Het heeft een kleurenscherm dat slechts iets groter is dan dat van de GB. De processor is echter twee keer zo snel en het geheugen twee keer zo groot. Hij is compatibel met alle GB-spellen van de eerste generatie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Game Boy Color (ゲームボーイカラー), w skrócie GBC, to następca przenośnej konsoli do gier wideo Game Boy. Posiada kolorowy ekran tylko nieznacznie większy od tego z GB. Jednak jego procesor jest dwa razy szybszy, a pamięć dwa razy większa. Jest wstecznie kompatybilny z wszystkimi grami GB pierwszej generacji.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Game Boy Color (ゲームボーイカラー), abreviado GBC, é a consola de videojogos portátil sucessora do Game Boy. Incorpora um ecrã a cores apenas ligeiramente maior do que o da GB. No entanto, o seu processador é duas vezes mais rápido, e a sua memória duas vezes maior. É retrocompatível com todos os jogos GB da primeira geração.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Game Boy Color (ゲームボーイカラー), сокращенно GBC, является преемником портативной игровой консоли Game Boy. Она оснащена цветным экраном, который лишь немного больше, чем у GB. Однако его процессор в два раза быстрее, а память в два раза больше. Она обратно совместима со всеми играми первого поколения GB.</text>
+</text>
+
+</view>
 </theme>

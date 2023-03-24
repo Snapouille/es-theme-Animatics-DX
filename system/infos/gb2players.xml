@@ -4,32 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The link cable is a proprietary type of cable to link two or more portable video game consoles to exchange content or play together on separate consoles. The term was popularised by Nintendo's Game Boy and the success of games such as Tetris, which were played on separate consoles.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Is an 8-bit handheld game console which was developed and manufactured by Nintendo. It is the first handheld console in the Game Boy line and was created and published by team led by Gunpei Yokoi at the time.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Game Boy es una serie de videoconsolas portátiles alimentadas con pilas (a excepción del modelo SP y Micro) y comercializadas por Nintendo. Es oficialmente la tercera consola más vendida del mundo.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Elle fut conçue par Gunpei Yokoi et Nintendo Research and Development 1 — la même équipe ayant conçu la série des Game and Watch ainsi que de nombreux jeux à succès sur Nintendo Entertainment System.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le câble link est un câble de type propriétaire permettant de lier deux ou plusieurs consoles de jeux vidéo portables pour échanger du contenu ou jouer ensemble, sur consoles séparées. Le terme a été popularisé par la Game Boy de Nintendo et le succès de jeux tels que Tetris, joués par consoles interposées.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Game Boy é o segundo portátil da Nintendo, criado após a linha Game and Watch lançada em 1980. Junto ao Game Boy Color, venderam impressionantes 118,69 milhões de unidades.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das Link-Kabel ist ein proprietäres Kabel, mit dem zwei oder mehr tragbare Videospielkonsolen miteinander verbunden werden können, um Inhalte auszutauschen oder gemeinsam auf getrennten Konsolen zu spielen. Der Begriff wurde durch Nintendos Game Boy und den Erfolg von Spielen wie Tetris populär, die über zwischengeschaltete Konsolen gespielt wurden.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>El cable de enlace es un cable propietario que permite enlazar dos o más videoconsolas portátiles para intercambiar contenidos o jugar a juegos en consolas separadas. El término se popularizó con la Game Boy de Nintendo y el éxito de juegos como el Tetris, que se jugaban en consolas separadas.</text>
+</text>
 
-				
+<text name="system_description" extra="true" lang="it">
+<text>Il cavo di collegamento è un cavo proprietario che consente di collegare tra loro due o più console per videogiochi portatili per scambiare contenuti o giocare su console separate. Il termine è stato reso popolare dal Game Boy di Nintendo e dal successo di giochi come Tetris, che venivano giocati su console separate.</text>
+</text>
 
+<text name="system_description" extra="true" lang="ja">
+<text>リンクケーブルとは、2台以上の携帯型ゲーム機を連結して、別々のゲーム機でコンテンツを交換したり、ゲームをプレイしたりするための専用ケーブルのことです。この言葉は、任天堂のゲームボーイと、別々のゲーム機でプレイしていたテトリスなどのゲームの成功によって広まりました。</text>
+</text>
 
+<text name="system_description" extra="true" lang="nl">
+<text>De linkkabel is een eigen kabel waarmee twee of meer draagbare videospelconsoles aan elkaar kunnen worden gekoppeld om inhoud uit te wisselen of spellen op afzonderlijke consoles te spelen. De term werd populair door de Game Boy van Nintendo en het succes van spellen zoals Tetris, die op afzonderlijke consoles werden gespeeld.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="pl">
+<text>Kabel łączący to zastrzeżony kabel, który umożliwia połączenie dwóch lub więcej przenośnych konsol do gier wideo w celu wymiany treści lub grania w gry na oddzielnych konsolach. Termin ten został spopularyzowany przez Game Boy firmy Nintendo i sukces gier takich jak Tetris, które były odtwarzane na oddzielnych konsolach.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O cabo de ligação é um cabo proprietário que permite que duas ou mais consolas de jogos de vídeo portáteis sejam ligadas entre si para trocar conteúdos ou jogar jogos em consolas separadas. O termo foi popularizado pelo Game Boy da Nintendo e o sucesso de jogos como o Tetris, que eram jogados em consolas separadas.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Кабель связи - это проприетарный кабель, позволяющий соединить две или более портативных игровых консолей для обмена контентом или игр на отдельных консолях. Этот термин стал популярен благодаря Game Boy от Nintendo и успеху таких игр, как Tetris, в которые играли на отдельных консолях.</text>
+</text>
+
+</view>
 </theme>

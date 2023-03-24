@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Nintendo Entertainment System (NES), went by different names around the world, Family Computer or Famicom (ファミコン) in Japan, Hyundai Comboy in Korea and Tata Famicom in India. It was a worldwide success, helping to revitalise the video game industry after the 1983 video game crash. Super Mario Bros. was the best-selling game.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Nintendo Entertainment System it was initially released in Japan as the Family Computer. The best-selling gaming console of its time, the NES helped revitalize the US video game industry following the video game crash of 1983.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Nintendo Entertainment System (también conocida como Nintendo NES o simplemente NES) es la primera consola de sobremesa de Nintendo, y es una videoconsola de ocho bits perteneciente a la tercera generación en la industria de los videojuegos. 
+<text name="system_description" extra="true" lang="fr">
+<text>La Nintendo Entertainment System (NES), a porté différent nom à travers le monde, Family Computer ou Famicom (ファミコン) au japon, Hyundai Comboy en Corée et Tata Famicom en Inde. Elle connut un succès mondial, ce qui aida à redynamiser l'industrie du jeu vidéo après le krach du jeu vidéo de 1983. Super Mario Bros. sera le jeu le plus vendu.</text>
+</text>
 
-Fue lanzada por Nintendo en Norteamérica, Europa y Australia entre 1985 y 1987. En la mayor parte del continente asiático, incluyendo a Japón (donde se comercializó por primera vez en 1983), China, Vietnam, Singapur, Laos, Camboya y Filipinas se la conoció con el nombre de Family Computer, abreviado comúnmente como Famicom</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La NES, console mondiale à succès, ce qui aida à redynamiser l'industrie du jeu vidéo après le crash du jeu vidéo de 1983, et ce qui fixa les normes pour les consoles suivantes, du game design aux procédures de gestion.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das Nintendo Entertainment System (NES), trug auf der ganzen Welt verschiedene Namen, Family Computer oder Famicom (ファミコン) in Japan, Hyundai Comboy in Korea und Tata Famicom in Indien. Es war ein weltweiter Erfolg, der dazu beitrug, die Videospielindustrie nach dem Videospiel-Crash von 1983 wiederzubeleben. Super Mario Bros. wird das meistverkaufte Spiel.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O NES/Famicom foi o videogame de maior sucesso comercial na sua época, ajudou a indústria de videogames a se recuperar da crise de 1983 e estabeleceu novos padrões que seriam seguidos pela indústria.</text>
-		</text>
-		
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>La Nintendo Entertainment System (NES) recibió diferentes nombres en todo el mundo: Family Computer o Famicom (ファミコン) en Japón, Hyundai Comboy en Corea y Tata Famicom en la India. Fue un éxito mundial, que ayudó a revitalizar la industria del videojuego tras el crack de los videojuegos de 1983. Super Mario Bros. fue el juego más vendido.</text>
+</text>
 
-		</view>
-	
+<text name="system_description" extra="true" lang="it">
+<text>Il Nintendo Entertainment System (NES) ha assunto nomi diversi in tutto il mondo: Family Computer o Famicom (ファミコン) in Giappone, Hyundai Comboy in Corea e Tata Famicom in India. Fu un successo mondiale e contribuì a rivitalizzare l'industria dei videogiochi dopo il crollo del 1983. Super Mario Bros. è stato il gioco più venduto.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>任天堂エンターテインメントシステム（NES）は、日本ではファミリーコンピュータ、ファミコン、韓国ではヒュンダイコンボーイ、インドではタタファミコンなど、世界各地でさまざまな名前で呼ばれていた。1983年のビデオゲーム大暴落の後、ビデオゲーム業界の活性化に貢献し、世界的な成功を収めました。スーパーマリオブラザーズ」は最も売れたゲームである。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Het Nintendo Entertainment System (NES) kreeg wereldwijd verschillende namen: Family Computer of Famicom (ファミコン) in Japan, Hyundai Comboy in Korea en Tata Famicom in India. Het was een wereldwijd succes en hielp de videogame-industrie nieuw leven in te blazen na de crash van 1983. Super Mario Bros. was het best verkochte spel.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Nintendo Entertainment System (NES), poszedł przez różne nazwy na całym świecie, Family Computer lub Famicom (ファミコン) w Japonii, Hyundai Comboy w Korei i Tata Famicom w Indiach. Był to światowy sukces, który pomógł ożywić przemysł gier wideo po krachu gier wideo w 1983 roku. Super Mario Bros. był najlepiej sprzedającą się grą.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Nintendo Entertainment System (NES), passou por diferentes nomes em todo o mundo, Family Computer ou Famicom (ファミコン) no Japão, Hyundai Comboy na Coreia e Tata Famicom na Índia. Foi um sucesso mundial, ajudando a revitalizar a indústria dos videojogos após a queda dos videojogos em 1983. Super Mario Bros. foi o jogo mais vendido.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Nintendo Entertainment System (NES) называлась в мире по-разному: Family Computer или Famicom (ファミコン) в Японии, Hyundai Comboy в Корее и Tata Famicom в Индии. Игра имела мировой успех и помогла возродить индустрию видеоигр после краха 1983 года. Super Mario Bros. стала самой продаваемой игрой.</text>
+</text>
+
+</view>
 </theme>

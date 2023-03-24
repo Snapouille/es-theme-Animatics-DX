@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Neo-Geo CD (ネオジオCD) is based on the architecture of the Neo-Geo AES and Neo-Geo MVS, but uses CD-ROMs instead of cartridges, in order to reduce the price of the games. The vast majority of games have been converted to CD versions. However, there are a few games exclusive to the Neo-Geo CD such as Ironclad or ZinTrick.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The Neo Geo CD, though not a blockbuster, had an enviable game library for the time, with near-perfect conversions of the arcade versions.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El Neo Geo CD, a pesar de no haber sido un éxito de ventas, tenía una biblioteca de juegos envidiable para la época, con conversiones casi perfectas de las versiones de arcade.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Neo Geo CD, bien que n'étant pas un blockbuster, possédait une bibliothèque de jeux enviable avec des conversions quasi-parfaites des versions arcade.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Neo-Geo CD (ネオジオCD) est basée sur l'architecture de la Neo-Geo AES et Neo-Geo MVS, mais utilise des CD-ROM à la place des cartouches, ceci dans le but de réduire le prix de vente des jeux. La grande majorité des jeux a été convertie en version CD. Il existe cependant quelques jeux exclusifs à la Neo-Geo CD comme Ironclad ou ZinTrick.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>O Neo Geo CD, apesar de não ter sido um sucesso de vendas, tinha uma biblioteca de jogos invejável para a época, com conversões quase perfeitas das versões de arcade.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Die Neo-Geo CD (ネオジオCD) basiert auf der Architektur der Neo-Geo AES und Neo-Geo MVS, verwendet aber CD-ROMs anstelle von Cartridges, dies mit dem Ziel, den Verkaufspreis der Spiele zu senken. Die überwiegende Mehrheit der Spiele wurde in eine CD-Version umgewandelt. Es gibt jedoch einige Spiele, die exklusiv für die Neo-Geo CD erschienen sind, wie z. B. Ironclad oder ZinTrick.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Neo-Geo CD (ネオジオCD) se basa en la arquitectura de la Neo-Geo AES y la Neo-Geo MVS, pero utiliza CD-ROM en lugar de cartuchos, con el fin de reducir el precio de los juegos. La gran mayoría de los juegos se han convertido a versiones en CD. Sin embargo, hay algunos juegos exclusivos de Neo-Geo CD, como Ironclad o ZinTrick.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Neo-Geo CD (ネオジオCD) è basato sull'architettura del Neo-Geo AES e del Neo-Geo MVS, ma utilizza CD-ROM invece di cartucce, per ridurre il prezzo dei giochi. La maggior parte dei giochi è stata convertita in versioni CD. Tuttavia, ci sono alcuni giochi esclusivi per il Neo-Geo CD, come Ironclad o ZinTrick.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ネオジオCD（ネオジオCD）は、ネオジオAESとネオジオMVSのアーキテクチャをベースにしているが、ゲームの価格を下げるために、カートリッジの代わりにCD-ROMを使用するものである。大半のゲームはCD化されている。ただし、「アイアンクラッド」や「ジントリック」など、ネオジオCD専用のゲームもいくつかある。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Neo-Geo CD (ネオジオCD) is gebaseerd op de architectuur van de Neo-Geo AES en Neo-Geo MVS, maar gebruikt CD-ROM's in plaats van cartridges, om de prijs van de spellen te drukken. De overgrote meerderheid van de spellen is omgezet naar CD-versies. Er zijn echter een paar spellen exclusief voor de Neo-Geo CD, zoals Ironclad of ZinTrick.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Neo-Geo CD (ネオジオCD) jest oparty na architekturze Neo-Geo AES i Neo-Geo MVS, ale wykorzystuje CD-ROM-y zamiast kartridży, w celu obniżenia ceny gier. Zdecydowana większość gier została przekonwertowana na wersje CD. Istnieje jednak kilka gier ekskluzywnych dla Neo-Geo CD, takich jak Ironclad czy ZinTrick.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O CD Neo-Geo (ネオジオCD) baseia-se na arquitectura do Neo-Geo AES e do Neo-Geo MVS, mas utiliza CD-ROMs em vez de cartuchos, a fim de reduzir o preço dos jogos. A grande maioria dos jogos foi convertida para versões em CD. Contudo, existem alguns jogos exclusivos do CD Neo-Geo, como o Ironclad ou ZinTrick.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Neo-Geo CD (ネオジオCD) основана на архитектуре Neo-Geo AES и Neo-Geo MVS, но использует CD-ROM вместо картриджей, чтобы снизить цену игр. Подавляющее большинство игр было переведено на CD. Однако есть несколько игр, эксклюзивных для Neo-Geo CD, таких как Ironclad или ZinTrick.</text>
+</text>
+
+</view>
 </theme>
