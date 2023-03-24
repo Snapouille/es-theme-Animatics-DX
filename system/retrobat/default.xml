@@ -1,0 +1,50 @@
+<!-- RetroBat -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="fond" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.1583333 0.2638889</size>									
+			<pos>0.2833333 0.275463</pos>									
+			<opacity>0</opacity>
+			<path>./fond.png</path>
+			<zIndex>10</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+					<animation property="opacity" from="0" to="1" begin="" duration="2000" mode="linear"/>
+					<animation property="pos" to="0.2833333 0.2560185" begin="2000" duration="2000" mode="EaseInOut"/>
+			</storyboard>
+		</image>
+	
+	
+		<image name="logoR" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.1151042 0.2268519</size>									
+			<pos>0.2861979 0.2310185</pos>
+			<scale>0</scale>			
+			<!-- <opacity>0</opacity> -->
+			<path>./logoR.png</path>
+			<zIndex>11</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+					<animation property="offsetX" to="-0.05" begin="" duration="" mode="linear"/>
+					<animation property="offsetY" to="0.06" begin="" duration="" mode="linear"/>
+					
+					<animation property="scale" from="0" to="0.2" begin="4000" duration="1000" mode="linear"/>
+					<animation property="opacity" from="0" to="1" begin="4000" duration="1000" mode="linear"/>
+					<animation property="offsetX" to="0" begin="6000" duration="500" mode="bump"/>
+					<animation property="offsetY" to="0" begin="6500" duration="500" mode="bump"/>
+					<animation property="scale" from="0.2" to="0.55" begin="6000" duration="2000" mode="linear"/>
+					
+					<animation property="scale" to="1" begin="10000" duration="1000" mode="EaseInOut"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>
