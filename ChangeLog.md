@@ -1,3 +1,15 @@
+V 1.37 - (2023 03 24)
+
+    - Add New System description
+    - Add auto-action background
+    - Add auto-adult background
+    - Add auto-playingcards background
+    
+![2023-03-23 21_28_06-EmulationStation](https://user-images.githubusercontent.com/105559045/227585561-170508d8-8e2b-4c93-b591-f9b00a988b42.png)
+
+
+
+
 V 1.36 - (2023 03 20)
 - Add New System description
 - Add "Fanart" view
