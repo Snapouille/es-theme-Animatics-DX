@@ -1,3 +1,43 @@
+V 1.38 - (2023 03 26)
+
+![2023-03-26 17_33_48-EmulationStation](https://user-images.githubusercontent.com/105559045/227786458-1fb456d9-905f-49d4-b55b-15e5cfbfaf26.png)
+
+Add Custom Collections :
+    - Bomberman
+    - Castlevania
+    - Donkey Kong
+    - Double Dragon
+    - Final Fantasy
+    - Final Fight
+    - Ghouls'n Ghost
+    - Golden Axe
+    - Grand Theft Auto
+    - Hacks & Fanmade
+    - Mario
+    - Mario Kart
+    - Megaman
+    - Metal Gear Solid
+    - Metal Slug
+    - Metroid
+    - Mortal Kombat
+    - Resident Evil
+    - Shinobi
+    - Shump
+    - The Simpsons
+    - Sonic
+    - Star Wars
+    - Street Fighter
+    - Tetris
+    - TMNT
+    - Wonderboy
+    - Zelda
+    
+    
+    
+    
+
+
+
 V 1.37 - (2023 03 24)
 
     - Add New System description
