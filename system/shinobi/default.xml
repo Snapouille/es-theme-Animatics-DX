@@ -1,0 +1,23 @@
+<!-- Shinobi collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>	
+			<size>0.3505208 0.8194444</size>									
+			<pos>0.43 0.59</pos>	
+			<scale>1</scale>
+			<linearSmooth>true</linearSmooth>					
+			<storyboard>
+				
+        		<animation property="x" to="0.52" begin="800" duration="1000" mode="EaseInOut"/>
+        		
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>

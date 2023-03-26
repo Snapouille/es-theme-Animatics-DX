@@ -1,0 +1,24 @@
+<!-- Shumps collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.29375 0.4481481</size>									
+			<pos>0.41 0.48</pos>	
+			<scale>1.1</scale>
+			<linearSmooth>true</linearSmooth>				
+			<storyboard>
+				
+        		<animation property="x" to="0.51" begin="" duration="4000" mode="EaseInOut"/>
+				<animation property="scale" to="0.9" begin="" duration="4000" mode="EaseInOut"/>
+        		
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>
