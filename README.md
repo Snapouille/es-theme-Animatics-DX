@@ -7,6 +7,7 @@ Theme for Emulation Station compatible with
 - Retrobat
 
 V1.37 - (2023 03 24)
+**See the Changelog for details [ChangeLog.md](/ChangeLog.md)**
 
 Features :
 
