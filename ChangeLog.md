@@ -32,7 +32,9 @@ Add Custom Collections :
 - Wonderboy
 - Zelda
     
-    
+Add Auto Collections :
+- Arcade
+- Beat'em up 
     
     
 
