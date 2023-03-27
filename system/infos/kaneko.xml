@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Kaneko Seisakusho Co, Ltd (株式会社金子製作所?) was a Japanese company developing and selling video games and computer software established in 1980. It worked as a subcontractor for the Taito company from 1982.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Kaneko Seisakusho Co., Ltd. (株式会社金子製作所?) était une société japonaise de développement et de vente de jeux vidéo et de logiciels informatiques créée en 1980. Elle a travaillé en tant que sous-traitant pour la société Taito dès 1982.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Kaneko Seisakusho Co., Ltd. (株式会社金子製作所?) war ein 1980 gegründetes japanisches Unternehmen, das Videospiele und Computersoftware entwickelte und verkaufte. Sie arbeitete ab 1982 als Zulieferer für die Firma Taito.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Kaneko Seisakusho Co, Ltd (株式会社金子製作所?) fue una empresa japonesa de desarrollo y venta de videojuegos y software informático fundada en 1980. Trabajó como subcontratista de la empresa Taito a partir de 1982.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Kaneko Seisakusho Co, Ltd (株式会社金子製作所?) era una società giapponese che sviluppava e vendeva videogiochi e software per computer fondata nel 1980. Dal 1982 ha lavorato come subappaltatore per la società Taito.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社金子製作所（株式会社かねこせいさくしょ）は、1980年に設立された日本のゲームソフト・コンピュータソフトの開発・販売会社である。1982年からは、タイトーの下請け会社として活動していた。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Kaneko Seisakusho Co, Ltd (株式会社金子製作所?) was een Japans bedrijf dat videospelletjes en computersoftware ontwikkelde en verkocht, opgericht in 1980. Vanaf 1982 werkte het als onderaannemer voor het bedrijf Taito.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Kaneko Seisakusho Co, Ltd (株式会社金子製作所?) była japońską firmą zajmującą się tworzeniem i sprzedażą gier wideo i oprogramowania komputerowego, założoną w 1980 roku. Od 1982 roku pracowała jako podwykonawca dla firmy Taito.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Kaneko Seisakusho Co, Ltd (株式会社金子製作所?) era uma empresa japonesa que desenvolvia e vendia jogos de vídeo e software de computador, criada em 1980. Trabalhou como subcontratante para a empresa Taito a partir de 1982.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Kaneko Seisakusho Co, Ltd (株式会社金子製作所?) была японской компанией по разработке и продаже видеоигр и компьютерного программного обеспечения, основанной в 1980 году. С 1982 года она работала в качестве субподрядчика компании Taito.</text>
+</text>
+
+</view>
 </theme>

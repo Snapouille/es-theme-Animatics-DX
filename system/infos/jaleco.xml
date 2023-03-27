@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Jaleco is a Japanese game development company, founded in Japan as Japan Leisure Corporation. In 1982, Jaleco began developing and manufacturing arcade video games. In the same year, the company decided to shorten its name by joining the first syllables of each word into Jaleco.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Jaleco est une entreprise japonaise de développement de jeux vidéo, fondée au Japon sous le nom de Japan Leisure Corporation. En 1982, Jaleco se lance dans le développement et la fabrication de jeux vidéo d'arcade. La même année, la société décide de raccourcir son nom en joignant les premières syllabes de chaque mot donnant Jaleco.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Jaleco ist ein japanisches Unternehmen für die Entwicklung von Videospielen, das in Japan unter dem Namen Japan Leisure Corporation gegründet wurde. Im Jahr 1982 begann Jaleco mit der Entwicklung und Herstellung von Arcade-Videospielen. Im selben Jahr beschloss das Unternehmen, seinen Namen zu verkürzen, indem es die ersten Silben jedes Wortes zusammenfügte, was Jaleco ergab.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Jaleco es una empresa japonesa de desarrollo de videojuegos, fundada en Japón con el nombre de Japan Leisure Corporation. En 1982, Jaleco empezó a desarrollar y fabricar videojuegos arcade. Ese mismo año, la empresa decidió acortar su nombre uniendo las primeras sílabas de cada palabra en Jaleco.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Jaleco è una società giapponese di sviluppo di videogiochi, fondata in Giappone come Japan Leisure Corporation. Nel 1982, Jaleco ha iniziato a sviluppare e produrre videogiochi arcade. Nello stesso anno, l'azienda decise di abbreviare il proprio nome unendo le prime sillabe di ogni parola in Jaleco.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>ジャレコは日本のゲーム開発会社で、日本レジャー株式会社として日本で設立されました。1982年、ジャレコはアーケードビデオゲームの開発・製造を開始しました。同年、社名の短縮を決定し、各単語の最初の音節をつなぎ合わせてジャレコとした。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Jaleco is een Japans bedrijf dat spelletjes ontwikkelt en in Japan werd opgericht als Japan Leisure Corporation. In 1982 begon Jaleco met de ontwikkeling en productie van arcade-videospelletjes. In datzelfde jaar besloot het bedrijf zijn naam af te korten door de eerste lettergrepen van elk woord samen te voegen tot Jaleco.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Jaleco to japońska firma zajmująca się tworzeniem gier, założona w Japonii jako Japan Leisure Corporation. W 1982 roku Jaleco rozpoczęło rozwój i produkcję gier wideo typu arcade. W tym samym roku firma postanowiła skrócić swoją nazwę, łącząc pierwsze sylaby każdego słowa w Jaleco.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Jaleco é uma empresa japonesa de desenvolvimento de jogos, fundada no Japão como Japan Leisure Corporation. Em 1982, a Jaleco começou a desenvolver e fabricar jogos de vídeo arcade. No mesmo ano, a empresa decidiu encurtar o seu nome juntando as primeiras sílabas de cada palavra na Jaleco.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Jaleco - японская компания по разработке игр, основанная в Японии как Japan Leisure Corporation. В 1982 году Jaleco начала разрабатывать и производить аркадные видеоигры. В том же году компания решила сократить свое название, соединив первые слоги каждого слова в Jaleco.</text>
+</text>
+
+</view>
 </theme>

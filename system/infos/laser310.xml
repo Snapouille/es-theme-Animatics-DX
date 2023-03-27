@@ -4,21 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>An improved version of the Laser 200/210. Both computers are compatible with each other, for both software and hardware. Basically, it has an enhanced keyboard and more memory. This model was also sold worldwide, the most popular version being the VZ-300 from Dick Smith Electronics.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>Ordenador fabricado por Video Technology Ltd (Hong Kong) en 1984. Fue el último de una serie de cinco ordenadores de VTech (Laser 100, 110, 200, 210 y 310) que entraron en competencia directa con los ordenadores de Sinclair (ZX81 y ZX Spectrum).</text>
-		</text>
-		
-		
-				
+<text name="system_description" extra="true">
+<text>Improved version of the Laser 200/210. Both computers are compatible with each other, both in software and hardware. In principle, it has an improved keyboard and more memory. This model has also been sold worldwide, the most popular version being the VZ-300 from Dick Smith Electronics.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="fr">
+<text>Version améliorée du Laser 200/210. Les deux ordinateurs sont compatibles l'un avec l'autre, tant pour les logiciels que pour le matériel. En principe, il dispose d'un clavier amélioré et de plus de mémoire. Ce modèle a également été vendu dans le monde entier, la version la plus populaire étant le VZ-300 de Dick Smith Electronics.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Verbesserte Version des Laser 200/210. Die beiden Computer sind sowohl in Bezug auf die Software als auch auf die Hardware miteinander kompatibel. Grundsätzlich verfügt er über eine verbesserte Tastatur und mehr Arbeitsspeicher. Auch dieses Modell wurde weltweit verkauft, die beliebteste Version ist der VZ-300 von Dick Smith Electronics.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Versión mejorada del Laser 200/210. Ambos ordenadores son compatibles entre sí, tanto en software como en hardware. En principio, tiene un teclado mejorado y más memoria. Este modelo también se ha vendido en todo el mundo, siendo la versión más popular la VZ-300 de Dick Smith Electronics.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Versione migliorata del Laser 200/210. Entrambi i computer sono compatibili tra loro, sia a livello di software che di hardware. In linea di massima, dispone di una tastiera migliorata e di una maggiore memoria. Anche questo modello è stato venduto in tutto il mondo, la versione più popolare è il VZ-300 di Dick Smith Electronics.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>レーザー200/210の改良版。両パソコンは、ソフトウェア、ハードウェアともに互換性がある。原則的にキーボードが改良され、メモリも増設されている。このモデルは世界でも販売されており、最も人気のあるバージョンはDick Smith Electronics社のVZ-300である。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Verbeterde versie van de Laser 200/210. Beide computers zijn compatibel met elkaar, zowel qua software als qua hardware. In principe heeft hij een verbeterd toetsenbord en meer geheugen. Ook dit model is wereldwijd verkocht, met als populairste versie de VZ-300 van Dick Smith Electronics.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Ulepszona wersja komputera Laser 200/210. Oba komputery są ze sobą kompatybilne, zarówno pod względem oprogramowania jak i sprzętu. W zasadzie ma ulepszoną klawiaturę i więcej pamięci. Model ten był sprzedawany również na świecie, najpopularniejszą wersją jest VZ-300 firmy Dick Smith Electronics.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Versão melhorada do Laser 200/210. Ambos os computadores são compatíveis um com o outro, tanto em software como em hardware. Em princípio, tem um teclado melhorado e mais memória. Este modelo foi também vendido em todo o mundo, sendo a versão mais popular o VZ-300 da Dick Smith Electronics.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Улучшенная версия Laser 200/210. Оба компьютера совместимы друг с другом, как в программном, так и в аппаратном обеспечении. В принципе, у него улучшенная клавиатура и больше памяти. Эта модель также продавалась по всему миру, самая популярная версия - VZ-300 от Dick Smith Electronics.</text>
+</text>
+
+</view>
 </theme>

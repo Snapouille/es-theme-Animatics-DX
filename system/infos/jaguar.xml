@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Jaguar is a cartridge-based home video game console with a limited game library, which has not been very successful despite its innovative technology.  The so-called 64-bit system was advertised as superior to existing 16-bit systems but sales were poor from the start.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Atari Jaguar was a video game console released by Atari in 1993. It was developed to outperform Mega Drive and Super Nintendo in processing power.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La Atari Jaguar es una videoconsola lanzada en 1993 y es la última consola lanzada al mercado por Atari.
-			
-Las características de la máquina eran impresionantes para la época, funcionaba a 64 bits cuando la competencia seguía en los 16 bits. Utilizaba cartuchos de videojuegos, aunque posteriormente salió a la venta su unidad de CD, la Atari Jaguar CD. La Jaguar fue un fracaso en ventas, se estima que no vendieron más de doscientas cincuenta mil unidades. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Atari Jaguar était une console de jeux vidéo lancée par Atari en 1993. Elle a été développée pour surpasser Mega Drive et Super Nintendo en termes de puissance de traitement.Console de 64bits</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Jaguar est une console de jeux vidéo de salon à cartouches disposant d'une ludothèque limitée, et qui n'a pas connu un grand succès malgré sa technologie innovante.  Ce prétendu système 64 bits voit sa campagne publicitaire axée sur sa supériorité sur les systèmes 16 bits existants mais les ventes seront mauvaises dès le départ.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Atari Jaguar foi um console de videogame lançado pela Atari em 1993. Ele foi desenvolvido para superar o Mega Drive e o Super Nintendo em poder de processamento.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Der Jaguar ist eine kassettenbasierte Videospielkonsole für den Heimgebrauch mit einer begrenzten Spielbibliothek, die trotz ihrer innovativen Technologie nicht sehr erfolgreich war.  Das angebliche 64-Bit-System sieht seine Werbekampagne auf seine Überlegenheit gegenüber den vorhandenen 16-Bit-Systemen ausgerichtet, doch die Verkaufszahlen sind von Anfang an schlecht.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>La Jaguar es una videoconsola doméstica basada en cartuchos con una biblioteca de juegos limitada, que no ha tenido mucho éxito a pesar de su innovadora tecnología.  El llamado sistema de 64 bits se anunció como superior a los sistemas de 16 bits existentes, pero las ventas fueron escasas desde el principio.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il Jaguar è una console per videogiochi domestici basata su cartucce e con una libreria di giochi limitata, che non ha avuto molto successo nonostante la sua tecnologia innovativa.  Il cosiddetto sistema a 64 bit è stato pubblicizzato come superiore ai sistemi a 16 bit esistenti, ma le vendite sono state scarse fin dall'inizio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Jaguarは、カートリッジ式の家庭用ゲーム機で、ゲームライブラリーは限られており、革新的な技術を搭載しているにもかかわらず、あまり成功していない。 いわゆる64ビットシステムは、既存の16ビットシステムより優れていると宣伝されたが、当初から売れ行きは芳しくなかった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Jaguar is een videogameconsole voor thuisgebruik met een beperkte spelbibliotheek, die ondanks zijn innovatieve technologie niet erg succesvol was.  Het zogenaamde 64-bit systeem werd aangeprezen als superieur aan de bestaande 16-bit systemen, maar de verkoop was vanaf het begin slecht.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Jaguar to oparta na kartridżach domowa konsola do gier wideo z ograniczoną biblioteką gier, która mimo innowacyjnej technologii nie odniosła wielkiego sukcesu.  Tak zwany system 64-bitowy był reklamowany jako lepszy od istniejących systemów 16-bitowych, ale sprzedaż od początku była słaba.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Jaguar é uma consola de videojogos doméstica baseada em cartuchos com uma biblioteca de jogos limitada, que não teve muito sucesso apesar da sua tecnologia inovadora.  O chamado sistema de 64 bits foi anunciado como superior aos sistemas de 16 bits existentes, mas as vendas foram fracas desde o início.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Jaguar - это домашняя игровая консоль на базе картриджа с ограниченной библиотекой игр, которая не имела большого успеха, несмотря на инновационную технологию.  Так называемая 64-битная система рекламировалась как превосходящая существующие 16-битные системы, но продажи с самого начала были низкими.</text>
+</text>
+
+</view>
 </theme>

@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Irem Software Engineering (アイレムソフトウエアエンジニアリング) is a Japanese game development and publishing company, specialising in the design and manufacture of arcade games. The company is world famous for their flagship shoot 'em up, R-Type.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Irem Software Engineering (アイレムソフトウエアエンジニアリング) est une société japonaise de développement et d'édition de jeux vidéo, spécialisée dans la conception et la fabrication de jeux d'arcade. La société est mondialement connue pour leur fameux shoot 'em up phare, R-Type.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Irem Software Engineering (アイレムソフトウエアエンジニアリング) ist ein japanisches Unternehmen für die Entwicklung und Veröffentlichung von Videospielen, das sich auf die Entwicklung und Herstellung von Arcade-Spielen spezialisiert hat. Das Unternehmen ist weltweit für sein berühmtes Flaggschiff-Shoot 'em up, R-Type, bekannt.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Irem Software Engineering (アイレムソフトウエアエンジニアリング) es una empresa japonesa de desarrollo y publicación de videojuegos especializada en el diseño y la fabricación de juegos arcade. La empresa es mundialmente conocida por su buque insignia, R-Type.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Irem Software Engineering (アイレムソフトウエアエンジニアリング) è una società giapponese di sviluppo e pubblicazione di videogiochi, specializzata nella progettazione e produzione di giochi arcade. L'azienda è famosa in tutto il mondo per il suo sparatutto di punta, R-Type.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>アイレムソフトウェアエンジニアリングは、日本のゲーム開発・出版会社で、アーケードゲームの設計・製造に特化しています。同社は、代表的なシューティングゲームである「R-Type」で世界的に有名である。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Irem Software Engineering (アイレムソフトウエアエンジニアリング) is een Japans bedrijf dat spellen ontwikkelt en uitgeeft, gespecialiseerd in het ontwerpen en produceren van arcadegames. Het bedrijf is wereldberoemd om hun vlaggenschip, R-Type.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Irem Software Engineering (アイレムソフトウエアエンジニアリング) to japońska firma zajmująca się tworzeniem i wydawaniem gier, specjalizująca się w projektowaniu i produkcji gier zręcznościowych. Firma jest znana na całym świecie ze swojego flagowego shoot 'em up'a, R-Type.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Irem Software Engineering (アイレムソフトウエアエンジニアリング) é uma empresa japonesa de desenvolvimento e publicação de jogos, especializada na concepção e fabrico de jogos arcade. A empresa é mundialmente conhecida pelo seu carro-chefe shoot 'em up, R-Type.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Irem Software Engineering (アイレムソフトウエアエンジニアリング) - японская компания по разработке и изданию игр, специализирующаяся на разработке и производстве аркадных игр. Компания всемирно известна благодаря своему флагманскому шутеру R-Type.</text>
+</text>
+
+</view>
 </theme>

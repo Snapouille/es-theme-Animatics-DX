@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>Mini electronic games with an LCD screen and different difficulty levels. There was also usually a clock and an alarm for the Game and Watch models from Nintendo.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" >
-			<text>These portable consoles housed a single game with an LCD screen and various levels of difficulty, and also used to include a clock and an alarm.
-		</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="fr">
-		<text>Ces consoles portables contenaient un seul jeu avec un écran LCD et différents niveaux de difficulté. On avait aussi en général une horloge et une alarme pour les modèles de Game and Watch de la marque Nintendo.
-		</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Mini jeux électronique avec un écran LCD et différents niveaux de difficulté. On avait aussi en général une horloge et une alarme pour les modèles Game and Watch de la marque Nintendo.</text>
+</text>
 
-		
-		
-		<text name="system_description" extra="true" lang="es">
-		<text>Estas consolas portátiles -que en España se conocían popularmente como «maquinitas»- albergaban un único juego con pantalla LCD y varios niveles de dificultad, además solian incluir reloj y alarma. 
-									
-		</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Elektronische Minispiele mit einem LCD-Bildschirm und verschiedenen Schwierigkeitsgraden. Bei den Game and Watch-Modellen der Marke Nintendo hatte man in der Regel auch eine Uhr und einen Alarm.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>Minijuegos electrónicos con pantalla LCD y distintos niveles de dificultad. También solía haber un reloj y una alarma para los modelos Game and Watch de Nintendo.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Mini giochi elettronici con schermo LCD e diversi livelli di difficoltà. Di solito c'erano anche un orologio e una sveglia per i modelli Game and Watch di Nintendo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>液晶画面と異なる難易度を持つミニ電子ゲーム。また、任天堂のゲーム＆ウォッチモデルには、通常、時計とアラームがありました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Mini elektronische spelletjes met een LCD scherm en verschillende moeilijkheidsgraden. Meestal was er ook een klok en een wekker voor de Game and Watch-modellen van Nintendo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Mini gry elektroniczne z ekranem LCD i różnymi poziomami trudności. Zazwyczaj był też zegar i alarm dla modeli Game and Watch od Nintendo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Mini jogos electrónicos com um ecrã LCD e diferentes níveis de dificuldade. Havia também normalmente um relógio e um alarme para os modelos Game and Watch da Nintendo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Электронные мини-игры с ЖК-экраном и различными уровнями сложности. Также в моделях Game and Watch бренда Nintendo обычно присутствуют часы и будильник.</text>
+</text>
+
+</view>
 </theme>

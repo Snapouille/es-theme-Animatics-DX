@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Konami Holdings Corporation (コナミホールディングス株式会社) is a Japanese video game developer and publisher, one of the largest and most successful in the industry. Its headquarters are based in Tokyo. The company's activities extend to toys, animation, fitness, health and slot machines.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Konami Holdings Corporation (コナミホールディングス株式会社) est une société japonaise de développement et d'édition de jeux vidéo, l'une des plus importantes et célèbres du secteur. Son siège social est basé à Tokyo. Les activités de la compagnie s'étendent au domaine du jouet, de l'animation ainsi qu'à ceux du fitness, de la santé et des machines à sous.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Konami Holdings Corporation (コナミホールディングス株式会社) ist ein japanisches Unternehmen, das Videospiele entwickelt und veröffentlicht und zu den größten und bekanntesten Unternehmen der Branche gehört. Der Hauptsitz des Unternehmens befindet sich in Tokio. Die Aktivitäten des Unternehmens erstrecken sich auf die Bereiche Spielzeug, Animation sowie Fitness-, Gesundheits- und Spielautomaten.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Konami Holdings Corporation (コナミホールディングス株式会社) es un desarrollador y editor japonés de videojuegos, uno de los mayores y más exitosos del sector. Su sede central se encuentra en Tokio. Las actividades de la empresa se extienden a los juguetes, la animación, el fitness, la salud y las máquinas tragaperras.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Konami Holdings Corporation (コナミホールディンス株式会社) è uno sviluppatore ed editore di videogiochi giapponese, uno dei più grandi e di maggior successo del settore. La sua sede centrale è a Tokyo. Le attività dell'azienda si estendono a giocattoli, animazione, fitness, salute e slot machine.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>コナミホールディングス株式会社（Konami Holdings Corporation）は、日本のビデオゲーム開発・発売会社であり、業界最大手の一つであり、最も成功している。本社は東京にある。玩具、アニメ、フィットネス、健康、スロットマシンの分野にも進出している。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Konami Holdings Corporation (コナミホールディングス株式会社) is een Japanse ontwikkelaar en uitgever van videospelletjes, een van de grootste en meest succesvolle in de sector. Het hoofdkantoor is gevestigd in Tokio. De activiteiten van de onderneming strekken zich uit tot speelgoed, animatie, fitness, gezondheid en speelautomaten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Konami Holdings Corporation (コナミホールディングス株式会社) to japoński producent i wydawca gier wideo, jeden z największych i najbardziej utytułowanych w branży. Jego siedziba mieści się w Tokio. Działalność firmy rozciąga się na zabawki, animacje, fitness, zdrowie i automaty do gier.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Konami Holdings Corporation (コナミホールディングス株式会社) é uma empresa japonesa de desenvolvimento e publicação de jogos de vídeo, uma das maiores e mais bem sucedidas do sector. A sua sede está situada em Tóquio. As actividades da empresa estendem-se aos brinquedos, animação, fitness, saúde e slot machines.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Konami Holdings Corporation (コナミホールディングス株式会社) - японский разработчик и издатель видеоигр, один из крупнейших и наиболее успешных в отрасли. Штаб-квартира компании расположена в Токио. Деятельность компании распространяется на индустрию игрушек, анимации, фитнеса, здоровья и игровых автоматов.</text>
+</text>
+
+</view>
 </theme>
