@@ -1,8 +1,8 @@
-V 1.38 - (2023 03 26)
+**V 1.38 - (2023 03 26)
 
 ![2023-03-26 17_33_48-EmulationStation](https://user-images.githubusercontent.com/105559045/227786458-1fb456d9-905f-49d4-b55b-15e5cfbfaf26.png)
 
-Add Custom Collections :
+*Add Custom Collections :
 - Bomberman
 - Castlevania
 - Donkey Kong
@@ -32,7 +32,7 @@ Add Custom Collections :
 - Wonderboy
 - Zelda
     
-Add Auto Collections :
+*Add Auto Collections :
 - Arcade
 - Beat'em up 
     
@@ -40,7 +40,7 @@ Add Auto Collections :
 
 
 
-V 1.37 - (2023 03 24)
+**V 1.37 - (2023 03 24)
 
     - Add New System description
     - Add auto-action background
@@ -52,7 +52,7 @@ V 1.37 - (2023 03 24)
 
 
 
-V 1.36 - (2023 03 20)
+**V 1.36 - (2023 03 20)
 - Add New System description
 - Add "Fanart" view
 
@@ -64,7 +64,7 @@ V 1.36 - (2023 03 20)
 
 
 
-V 1.35 - (2023 03 16)
+**V 1.35 - (2023 03 16)
 - Add "Boxes" view : Big, Medium and Small
 
 BIG
@@ -78,7 +78,7 @@ SMALL
 
 
 
-V 1.34 - (2023 03 14)
+**V 1.34 - (2023 03 14)
 - Add the name of the game on the "GameCarousel" view.
 
 
@@ -86,7 +86,7 @@ V 1.34 - (2023 03 14)
 
 
 
-V 1.33 - (2023 03 12)
+**V 1.33 - (2023 03 12)
 - Add New System Animation (Sega SG1000 - Atari 7800)
 - Add Simple System View
 
