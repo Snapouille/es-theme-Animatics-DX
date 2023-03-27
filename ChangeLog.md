@@ -64,7 +64,7 @@
 
 
 
-**V 1.35 - (2023 03 16)
+## V 1.35 - (2023 03 16)
 - Add "Boxes" view : Big, Medium and Small
 
 BIG
@@ -78,7 +78,7 @@ SMALL
 
 
 
-**V 1.34 - (2023 03 14)
+## V 1.34 - (2023 03 14)
 - Add the name of the game on the "GameCarousel" view.
 
 
@@ -86,7 +86,7 @@ SMALL
 
 
 
-**V 1.33 - (2023 03 12)
+## V 1.33 - (2023 03 12)
 - Add New System Animation (Sega SG1000 - Atari 7800)
 - Add Simple System View
 
