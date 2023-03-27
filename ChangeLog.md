@@ -1,8 +1,8 @@
-**V 1.38 - (2023 03 26)
+**V 1.38 - (2023 03 26)**
 
 ![2023-03-26 17_33_48-EmulationStation](https://user-images.githubusercontent.com/105559045/227786458-1fb456d9-905f-49d4-b55b-15e5cfbfaf26.png)
 
-*Add Custom Collections :
+*Add Custom Collections :*
 - Bomberman
 - Castlevania
 - Donkey Kong
@@ -32,7 +32,7 @@
 - Wonderboy
 - Zelda
     
-*Add Auto Collections :
+*Add Auto Collections :*
 - Arcade
 - Beat'em up 
     
@@ -40,7 +40,7 @@
 
 
 
-**V 1.37 - (2023 03 24)
+**V 1.37 - (2023 03 24)**
 
     - Add New System description
     - Add auto-action background
