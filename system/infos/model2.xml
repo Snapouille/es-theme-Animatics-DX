@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>The Model 2 is an arcade video game system released by Sega in 1993. The Model 2 is an evolution of the Model 1 system architecture and, like its predecessor, was developed in collaboration with Martin Marietta.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le Model 2 est un système de jeu vidéo destiné aux salles d'arcade, commercialisé par Sega en 1993. Le Model 2 est une évolution de l'architecture du système Model 1. Comme son prédécesseur, il a été développé en collaboration avec Martin Marietta.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Das Model 2 ist ein Videospielsystem für Arcade-Hallen, das 1993 von Sega auf den Markt gebracht wurde. Das Model 2 ist eine Weiterentwicklung der Systemarchitektur des Model 1. Wie sein Vorgänger wurde es in Zusammenarbeit mit Martin Marietta entwickelt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Model 2 es un sistema de videojuegos arcade lanzado por Sega en 1993. El Model 2 es una evolución de la arquitectura del sistema Model 1 y, al igual que su predecesor, fue desarrollado en colaboración con Martin Marietta.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Model 2 è un sistema di videogiochi arcade rilasciato da Sega nel 1993. Il Model 2 è un'evoluzione dell'architettura del sistema Model 1 e, come il suo predecessore, è stato sviluppato in collaborazione con Martin Marietta.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Model 2は、1993年にセガから発売されたアーケードビデオゲームシステムである。Model 2は、Model 1のシステムアーキテクチャを進化させたもので、前作同様、Martin Mariettaとの共同開発によるものである。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Het Model 2 is een arcade videospel systeem uitgebracht door Sega in 1993. Het Model 2 is een evolutie van de architectuur van het Model 1-systeem en werd, net als zijn voorganger, ontwikkeld in samenwerking met Martin Marietta.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Model 2 to system gier wideo arcade wydany przez firmę Sega w 1993 roku. Model 2 jest ewolucją architektury systemu Model 1 i, podobnie jak jego poprzednik, został opracowany we współpracy z firmą Martin Marietta.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Modelo 2 é um sistema de jogos de vídeo arcade lançado pela Sega em 1993. O Modelo 2 é uma evolução da arquitectura do sistema Modelo 1 e, tal como o seu predecessor, foi desenvolvido em colaboração com Martin Marietta.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Модель 2 - это аркадная система видеоигр, выпущенная компанией Sega в 1993 году. Модель 2 является развитием архитектуры системы Модель 1 и, как и ее предшественница, была разработана в сотрудничестве с компанией Martin Marietta.</text>
+</text>
+
+</view>
 </theme>

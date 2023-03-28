@@ -4,28 +4,70 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	
+<text name="system_description" extra="true">
+"<text>It doesn't matter if a Cowboy lives in the mountains or in the flats, as long as it's warm and there's somewhere to put his hat.
 
-		<text name="system_description" extra="true" >
-			<text>An automatic list of all Light Gun compatible games available on the system.</text>
-		</text>
-		
-		<text name="system_description" extra="true" lang="es" >
-			<text>Una lista de todos los juegos compatibles con pistolas disponibles en el sistema.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Une liste de tous les jeux compatibles avec Ligh Guns disponibles sur le système.</text>
-		</text>
+Anonymous</text>"
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Uma lista automática de todos os jogos compatíveis com Light Guns disponíveis no sistema. </text>
-		</text>
-		
-		
-	</view>
+<text name="system_description" extra="true" lang="fr">
+"<text>Peu importe qu'un Cowboy vive dans les montagnes ou dans les appartements, tant qu'il fait chaud et qu'il y a un endroit où poser son chapeau.
+
+Anonyme</text>"
+</text>
+
+<text name="system_description" extra="true" lang="de">
+"<text>Es ist egal, ob ein Cowboy in den Bergen oder in Wohnungen lebt, solange es warm ist und es einen Ort gibt, an dem er seinen Hut ablegen kann.
+
+Anonym</text>"
+</text>
+
+<text name="system_description" extra="true" lang="es">
+"<text>No importa si un vaquero vive en las montañas o en las llanuras, siempre que haga calor y haya un lugar donde poner su sombrero.
+
+Anónimo</text>"
+</text>
+
+<text name="system_description" extra="true" lang="it">
+"<text>Non importa se un Cowboy vive in montagna o in pianura, basta che sia caldo e che ci sia un posto dove mettere il cappello.
+
+Anonimo</text>"
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+"<text>カウボーイが山に住んでいようが平地に住んでいようが、暖かくて帽子を置く場所があれば問題ない。
+
+匿名希望</text>"
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+"<text>Het maakt niet uit of een Cowboy in de bergen of op de vlakte woont, als het maar warm is en er een plek is om zijn hoed op te zetten.
+
+Anonieme</text>"
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+"<text>Nie ma znaczenia czy Kowboj mieszka w górach czy w mieszkaniach, byle było ciepło i było gdzie położyć czapkę.
+
+Anonimowy</text>"
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+"<text>Não importa se um Cowboy vive nas montanhas ou nos apartamentos, desde que esteja quente e haja um lugar para pôr o seu chapéu.
+
+Anónimo</text>"
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+"<text>Неважно, живет ли ковбой в горах или в квартире, лишь бы было тепло и было куда положить шляпу.
+
+Аноним</text>"
+</text>
+
+</view>
 </theme>

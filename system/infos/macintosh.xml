@@ -4,28 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Macintosh or Mac is a series of different families of personal computers designed, developed and sold by Apple. The first was launched on 24 January 1984 and was a commercial success for a computer using a mouse and a graphical interface (instead of a command line interface). It replaces the Apple II as Apple's main product.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The Macintosh (mainly Mac since 1998) is a family of personal computers designed, manufactured, and sold by Apple Inc. (originally as Apple Computer, Inc.) since January 1984.
+<text name="system_description" extra="true" lang="fr">
+<text>Macintosh ou Mac est une série de différentes familles d'ordinateurs personnels conçus, développés et vendus par Apple. Le premier est lancé le 24 janvier 1984 et constitue un succès commercial pour un ordinateur utilisant une souris et une interface graphique (au lieu d'une interface en ligne de commande). Il remplace l'Apple II comme principal produit d'Apple.</text>
+</text>
 
-The original Macintosh is the first successful mass-market all-in-one desktop personal computer to have featured a graphical user interface, built-in screen, and mouse. Apple sold the Macintosh alongside its popular Apple II, Apple IIGS, Apple III, and Apple Lisa families of computers until the other models were discontinued in the 1990s. </text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Macintosh oder Mac ist eine Reihe verschiedener Familien von Personalcomputern, die von Apple entworfen, entwickelt und vertrieben werden. Der erste wurde am 24. Januar 1984 auf den Markt gebracht und war ein kommerzieller Erfolg für einen Computer, der eine Maus und eine grafische Benutzeroberfläche (anstelle einer Befehlszeilenschnittstelle) verwendet. Er löst den Apple II als wichtigstes Produkt von Apple ab.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text>Macintosh, abreviado como Mac, es la línea de ordenadores personales diseñada, desarrollada y comercializada por Apple Inc. En sus inicios fue una alternativa económica y doméstica al Lisa, un avanzado microordenador empresarial, cuya línea de desarrollo fue absorbida por la línea Macintosh. 
-				
-El Mac terminó por convertirse en la línea estándar de desarrollo de los ordenadores de Apple, al desaparecer la línea evolutiva del Apple II. </text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Macintosh o Mac es una serie de diferentes familias de ordenadores personales diseñados, desarrollados y vendidos por Apple. El primero se lanzó el 24 de enero de 1984 y fue un éxito comercial para un ordenador que utilizaba un ratón y una interfaz gráfica (en lugar de una interfaz de línea de comandos). Sustituyó al Apple II como principal producto de Apple.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>Macintosh o Mac è una serie di diverse famiglie di personal computer progettati, sviluppati e venduti da Apple. Il primo fu lanciato il 24 gennaio 1984 e fu un successo commerciale per un computer che utilizzava un mouse e un'interfaccia grafica (invece di un'interfaccia a riga di comando). Sostituì l'Apple II come prodotto principale di Apple.</text>
+</text>
 
-		
-				
+<text name="system_description" extra="true" lang="ja">
+<text>MacintoshまたはMacは、Appleが設計、開発、販売するパーソナルコンピュータの異なるファミリーのシリーズである。初代は1984年1月24日に発売され、マウスと（コマンドラインインターフェイスではなく）グラフィカルインターフェイスを使用するコンピュータとして商業的成功を収めた。Apple IIに代わってAppleの主力製品として登場した。</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>Macintosh of Mac is een reeks van verschillende families van personal computers ontworpen, ontwikkeld en verkocht door Apple. De eerste werd gelanceerd op 24 januari 1984 en was een commercieel succes voor een computer met een muis en een grafische interface (in plaats van een commandoregelinterface). Hij verving de Apple II als het belangrijkste product van Apple.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Macintosh lub Mac to seria różnych rodzin komputerów osobistych zaprojektowanych, opracowanych i sprzedawanych przez firmę Apple. Pierwszy został wprowadzony na rynek 24 stycznia 1984 roku i był komercyjnym sukcesem komputera wykorzystującego mysz i interfejs graficzny (zamiast interfejsu wiersza poleceń). Zastąpił on Apple II jako główny produkt firmy Apple.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Macintosh ou Mac é uma série de diferentes famílias de computadores pessoais concebidos, desenvolvidos e vendidos pela Apple. A primeira foi lançada a 24 de Janeiro de 1984 e foi um sucesso comercial para um computador utilizando um rato e uma interface gráfica (em vez de uma interface de linha de comando). Substituiu o Apple II como produto principal da Apple.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Macintosh или Mac - это серия персональных компьютеров различных семейств, спроектированных, разработанных и продаваемых компанией Apple. Первый компьютер был выпущен 24 января 1984 года и имел коммерческий успех для компьютера, использующего мышь и графический интерфейс (вместо интерфейса командной строки). Он заменил Apple II в качестве основного продукта компании Apple.</text>
+</text>
+
+</view>
 </theme>

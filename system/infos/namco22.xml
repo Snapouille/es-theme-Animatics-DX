@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>System 22 is a JAMMA-compatible arcade system created by Namco in 1993.  This new hardware is 3D. Compared to the System 21, the graphics have progressed a lot, are finer and more worked. The "angular" side has disappeared to give way to a more "realistic" look.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Le System 22 est un système d'arcade compatible JAMMA destiné aux salles d'arcade, créé par la Namco en 1993.  La 3D est de mise pour ce nouvel hardware. Par rapport au System 21, les graphismes ont beaucoup progressé, sont plus fins et plus travaillés. Le côté « anguleux » a disparu pour laisser place à un look plus « réaliste ».</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das System 22 ist ein JAMMA-kompatibles Arcade-System für Spielhallen, das 1993 von Namco entwickelt wurde.  Bei dieser neuen Hardware ist 3D angesagt. Im Vergleich zu System 21 hat sich die Grafik stark verbessert, sie ist feiner und besser ausgearbeitet. Die "eckige" Seite ist verschwunden und hat einem "realistischeren" Look Platz gemacht.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>System 22 es un sistema arcade compatible con JAMMA creado por Namco en 1993.  Este nuevo hardware es 3D. En comparación con el System 21, los gráficos han progresado mucho, son más finos y están más trabajados. El lado "anguloso" ha desaparecido para dar paso a un aspecto más "realista".</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>System 22 è un sistema arcade compatibile con JAMMA creato da Namco nel 1993.  Questo nuovo hardware è in 3D. Rispetto al System 21, la grafica è molto migliorata, è più fine e lavorata. Il lato "spigoloso" è scomparso per lasciare il posto a un aspetto più "realistico".</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>システム22は、1993年にナムコが作ったJAMMA互換のアーケードシステムです。 この新しいハードは3Dです。システム21と比較すると、グラフィックは大きく進歩し、より細かく、より作業的になっています。角ばった」面は消え、より「リアル」な表現になりました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>System 22 is een JAMMA-compatibel arcadesysteem gemaakt door Namco in 1993.  Deze nieuwe hardware is 3D. In vergelijking met de System 21 zijn de graphics sterk verbeterd, fijner en meer bewerkt. De "hoekige" kant is verdwenen om plaats te maken voor een meer "realistische" look.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>System 22 to kompatybilny z JAMMA system arcade stworzony przez Namco w 1993 roku.  Ten nowy sprzęt jest trójwymiarowy. W porównaniu z Systemem 21 grafika poszła bardzo do przodu, jest drobniejsza i bardziej dopracowana. Zniknęła "kanciasta" strona, by ustąpić miejsca bardziej "realistycznemu" wyglądowi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Sistema 22 é um sistema de arcada compatível com JAMMA criado pela Namco em 1993.  Este novo hardware é 3D. Em comparação com o Sistema 21, os gráficos têm progredido muito, são mais finos e mais trabalhados. O lado "angular" desapareceu para dar lugar a um aspecto mais "realista".</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>System 22 - это JAMMA-совместимая аркадная система, созданная компанией Namco в 1993 году.  3D - это порядок дня для этого нового оборудования. По сравнению с System 21, графика значительно улучшилась, стала более тонкой и проработанной. Угловатая" сторона исчезла, чтобы освободить место для более "реалистичного" вида.</text>
+</text>
+
+</view>
 </theme>

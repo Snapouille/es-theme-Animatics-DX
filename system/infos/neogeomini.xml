@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>A miniature-sized, semi-portable arcade terminal (vaguely resembling a Japanese Neo Geo MVS) that includes 40 built-in SNK titles and was launched on 24 July 2018 in Japan to celebrate SNK's 40th anniversary.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Neo Geo is a family of video game hardware developed by SNK. On the market from 1990 to 2004, the brand originated with the release of an arcade system, the MVS and its home console counterpart, the Neo Geo AES.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Neo-Geo es el nombre de un sistema de 16 bits basado en cartuchos para arcades así como videoconsolas para el hogar lanzado en 1990 por la compañía de videojuegos japonesa SNK. La tecnología del sistema ofrecía unos gráficos 2D, y una calidad de sonido muy superiores a la que ofrecían otros sistemas caseros de su época. 
+<text name="system_description" extra="true" lang="fr">
+<text>Une borne d'arcade semi-portable de taille miniature (ressemblant vaguement à une Neo Geo MVS japonaise) qui comprend 40 titres SNK intégrés et qui a été lancée le 24 juillet 2018 au Japon pour célébrer le 40ème anniversaire de SNK.</text>
+</text>
 
-En un principio el sistema Neo-Geo se creó como plataforma para máquinas recreativas, más tarde también estaba disponible como videoconsola doméstica a un precio demasiado elevado para muchos, 700 dólares, y entre 200 y 1000 dólares por cartucho. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Neo-Geo est un système de jeux vidéo pour borne d'arcade compatible JAMMA destiné aux salles d'arcade et créé par la société japonaise SNK en 1990.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Ein halbwegs tragbarer Arcade-Automat in Miniaturgröße (der entfernt an ein japanisches Neo Geo MVS erinnert) mit 40 integrierten SNK-Titeln, der am 24. Juli 2018 in Japan zur Feier des 40-jährigen Jubiläums von SNK auf den Markt gebracht wurde.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Neo Geo é uma família da hardware de videogames desenvolvido pela SNK. A marca originou-se com a liberação de um sistema arcade, o Neo Geo MVS e sua contraparte de console doméstico, o Neo Geo AES.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Un terminal arcade semiportátil de tamaño miniatura (vagamente parecido a una Neo Geo MVS japonesa) que incluye 40 títulos de SNK incorporados y que se lanzó el 24 de julio de 2018 en Japón para celebrar el 40 aniversario de SNK.</text>
+</text>
 
-		
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Un terminale arcade semi-portatile di dimensioni miniaturizzate (vagamente somigliante a un Neo Geo MVS giapponese) che include 40 titoli SNK integrati ed è stato lanciato il 24 luglio 2018 in Giappone per celebrare il 40° anniversario di SNK.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>SNKの40タイトルを内蔵したミニチュアサイズの半携帯型アーケード端末（どことなく日本のネオジオMVSに似ている）で、SNKの40周年を記念して2018年7月24日に日本国内で発売された。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Een miniatuurformaat, semi-draagbare arcade-terminal (die vaag lijkt op een Japanse Neo Geo MVS) die 40 ingebouwde SNK-titels bevat en op 24 juli 2018 in Japan werd gelanceerd om de 40e verjaardag van SNK te vieren.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Miniaturowy rozmiar, półprzenośny terminal arcade (mgliście przypominający japoński Neo Geo MVS), który zawiera 40 wbudowanych tytułów SNK i został wprowadzony na rynek 24 lipca 2018 roku w Japonii, aby uczcić 40. rocznicę SNK.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Um terminal de arcada em miniatura, semi-portátil (vagamente parecido com um Neo Geo MVS japonês) que inclui 40 títulos SNK incorporados e foi lançado a 24 de Julho de 2018 no Japão para celebrar o 40º aniversário da SNK.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Миниатюрный, полупортативный аркадный терминал (смутно напоминающий японскую Neo Geo MVS), включающий 40 встроенных игр SNK и запущенный 24 июля 2018 года в Японии в честь 40-летия SNK.</text>
+</text>
+
+</view>
 </theme>

@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Neo Geo Pocket Color is a 16-bit colour handheld game console. It is a fully backwards compatible successor to the monochrome Neo Geo Pocket console. Despite being a financial failure, the Neo Geo Pocket Color is considered an influential system and many games released on this system are very popular with the public.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The Neo Geo Pocket Color (also stylized as NEOGEOPOCKET COLOR, often abbreviated NGPC), is a 16-bit color handheld video game console manufactured by SNK. It is a successor to SNK's monochrome Neo Geo Pocket.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Neo Geo Pocket Color (también conocida por su abreviatura NGPC) es la sucesora de la Neo Geo Pocket. Esta videoconsola portátil fue lanzada por SNK en el año 1999 en Japón, Estados Unidos y Europa.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Neo-Geo Pocket Color (ou NGPC) est une console portable 16 bits conçue par SNK. La console sort le 16 mars 1999 au Japon, le 6 août 1999 en Amérique du Nord, et le 1er octobre 1999 dans certains pays d’Europe.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Neo Geo Pocket Color est une console de jeu portable couleur 16 bits. Entièrement rétrocompatible elle succède à la console de poche monochrome Neo Geo Pocket. Malgré un échec financier, la Neo Geo Pocket Color est considérée comme un système influent et de nombreux jeux sortis sur ce système sont très appréciés du public.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Tecnicamente, o Neo Geo Pocket Color é igual ao Neo Geo Pocket tradicional, sendo as únicas diferenças o ecrã, as cores e a possibilidade de ser ligado ao Dreamcast, da Sega. O console foi descontinuado em 2001.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Die Neo Geo Pocket Color ist eine tragbare 16-Bit-Farb-Spielkonsole. Sie ist vollständig rückwärtskompatibel und der Nachfolger der einfarbigen Handheld-Konsole Neo Geo Pocket. Trotz eines finanziellen Misserfolgs gilt die Neo Geo Pocket Color als einflussreiches System und viele der für dieses System veröffentlichten Spiele sind bei der Öffentlichkeit sehr beliebt.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Neo Geo Pocket Color es una videoconsola portátil en color de 16 bits. Es una sucesora totalmente retrocompatible de la consola monocroma Neo Geo Pocket. A pesar de ser un fracaso financiero, la Neo Geo Pocket Color se considera un sistema influyente y muchos juegos lanzados en este sistema son muy populares entre el público.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Neo Geo Pocket Color è una console di gioco portatile a colori a 16 bit. È il successore completamente retrocompatibile della console monocromatica Neo Geo Pocket. Nonostante il fallimento finanziario, il Neo Geo Pocket Color è considerato un sistema influente e molti giochi rilasciati su questo sistema sono molto popolari tra il pubblico.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Neo Geo Pocket Colorは、16ビットカラーの携帯ゲーム機です。モノクロのNeo Geo Pocketコンソールの完全な後方互換性を持つ後継機である。経済的には失敗したものの、ネオジオポケットカラーは影響力のあるシステムだと考えられており、このシステムで発売された多くのゲームは一般に非常に人気がある。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Neo Geo Pocket Color is een 16-bit kleuren draagbare spelconsole. Het is een volledig achterwaarts compatibele opvolger van de monochrome Neo Geo Pocket console. Ondanks het feit dat de Neo Geo Pocket Color een financiële mislukking was, wordt het beschouwd als een invloedrijk systeem en veel spellen die op dit systeem zijn uitgebracht zijn zeer populair bij het publiek.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Neo Geo Pocket Color to 16-bitowa kolorowa przenośna konsola do gier. Jest to w pełni kompatybilny wstecz następca monochromatycznej konsoli Neo Geo Pocket. Pomimo porażki finansowej, Neo Geo Pocket Color jest uważany za wpływowy system, a wiele gier wydanych na ten system jest bardzo popularnych wśród publiczności.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Neo Geo Pocket Color é uma consola de jogos portátil de 16 bits a cores. É um sucessor totalmente compatível com a consola monocromática Neo Geo Pocket. Apesar de ser um fracasso financeiro, o Neo Geo Pocket Color é considerado um sistema influente e muitos jogos lançados neste sistema são muito populares entre o público.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Neo Geo Pocket Color - это 16-битная цветная портативная игровая консоль. Она является полностью обратно совместимым преемником монохромной консоли Neo Geo Pocket. Несмотря на финансовую неудачу, Neo Geo Pocket Color считается влиятельной системой, а многие игры, выпущенные на этой системе, пользуются большой популярностью у публики.</text>
+</text>
+
+</view>
 </theme>

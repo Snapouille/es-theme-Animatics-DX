@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Mega-Tech is an arcade game system developed by Sega, released in 1989 in Europe. Based on the architecture of the Mega Drive console, it is a multi-game system with interchangeable cartridges. The motherboard can hold up to eight cartridges, and the player can make his choice on a small dedicated 10-inch monitor, placed above the main screen.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Mega-Tech est un système de jeu d'arcade développé par Sega, sorti en 1989 en Europe. Basé sur l'architecture de la console Mega Drive, c'est un système multi-jeux à cartouches interchangeables. La carte mère peut recevoir jusqu'à huit cartouches, le joueur peut faire son choix sur un petit moniteur 10 pouces dédié, placé au-dessus de l'écran principal.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Mega-Tech ist ein von Sega entwickeltes Arcade-Spielsystem, das 1989 in Europa veröffentlicht wurde. Es basiert auf der Architektur der Mega Drive-Konsole und ist ein Multispielsystem mit austauschbaren Cartridges. Die Hauptplatine kann bis zu acht Cartridges aufnehmen, der Spieler kann seine Wahl auf einem kleinen, dedizierten 10-Zoll-Monitor treffen, der über dem Hauptbildschirm angebracht ist.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Mega-Tech es un sistema de juegos arcade desarrollado por Sega, lanzado en 1989 en Europa. Basado en la arquitectura de la consola Mega Drive, es un sistema multijuego con cartuchos intercambiables. La placa base puede albergar hasta ocho cartuchos, y el jugador puede hacer su elección en un pequeño monitor dedicado de 10 pulgadas, situado encima de la pantalla principal.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Mega-Tech è un sistema di gioco arcade sviluppato da Sega, rilasciato nel 1989 in Europa. Basato sull'architettura della console Mega Drive, è un sistema multigioco con cartucce intercambiabili. La scheda madre può contenere fino a otto cartucce e il giocatore può scegliere su un piccolo monitor dedicato da 10 pollici, posto sopra lo schermo principale.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>メガテックは、セガが開発し、1989年にヨーロッパで発売されたアーケードゲームシステムである。メガドライブのコンソールのアーキテクチャをベースに、カートリッジを交換できるマルチゲームシステムである。マザーボードには最大8つのカートリッジを搭載することができ、プレイヤーはメイン画面の上に設置された10インチの小型専用モニターで選択を行うことができる。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Mega-Tech is een door Sega ontwikkeld arcadespel-systeem dat in 1989 in Europa werd uitgebracht. Het is gebaseerd op de architectuur van de Mega Drive-console en is een multispelsysteem met verwisselbare cartridges. Het moederbord kan tot acht cartridges bevatten, en de speler kan zijn keuze maken op een kleine speciale 10-inch monitor, geplaatst boven het hoofdscherm.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Mega-Tech to system gier zręcznościowych opracowany przez firmę Sega, wydany w 1989 roku w Europie. Oparty na architekturze konsoli Mega Drive, jest to system do gier wieloosobowych z wymiennymi kartridżami. Płyta główna może pomieścić do ośmiu kartridży, a gracz może dokonać wyboru na małym dedykowanym 10-calowym monitorze, umieszczonym nad głównym ekranem.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Mega-Tech é um sistema de jogos arcade desenvolvido pela Sega, lançado em 1989 na Europa. Baseado na arquitectura da consola Mega Drive, é um sistema multijogo com cartuchos intercambiáveis. A placa-mãe pode conter até oito cartuchos, e o jogador pode fazer a sua escolha num pequeno monitor dedicado de 10 polegadas, colocado acima do ecrã principal.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Mega-Tech - это аркадная игровая система, разработанная компанией Sega и выпущенная в 1989 году в Европе. Основанная на архитектуре консоли Mega Drive, она представляет собой многоигровую систему со сменными картриджами. Материнская плата может вмещать до восьми картриджей, а игрок может сделать свой выбор на небольшом специальном 10-дюймовом мониторе, расположенном над основным экраном.</text>
+</text>
+
+</view>
 </theme>

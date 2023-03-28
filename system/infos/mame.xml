@@ -4,33 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>MAME, which stands for Multiple Arcade Machine Emulator, is a PC emulation software that aims to faithfully reproduce the operation of arcade games and systems in order to preserve the history of video games and prevent certain titles from being forgotten.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>Multiple Arcade Machine Emulator is a free and open source emulator designed to recreate the hardware of arcade game systems in software on modern personal computers and other platforms.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es" >
-				<text>MAME (Originalmente un acrónimo de «Multiple Arcade Machine Emulator») es un emulador multipropósito de máquinas recreativas, libre y de código abierto, que replica el hardware de estos equipos para su funcionamiento en ordenadores y otros tipos de dispositivos.
+<text name="system_description" extra="true" lang="fr">
+<text>MAME, acronyme signifiant « Multiple Arcade Machine Emulator », est un logiciel d'émulation pour PC dont le but est de reproduire fidèlement le fonctionnement des jeux et des systèmes d'arcade afin de préserver l'histoire du jeu vidéo et ainsi éviter que certains titres ne sombrent dans l'oubli.</text>
+</text>
 
-El objetivo del proyecto es preservar décadas de historia del software, que de otra manera se perdería o sería olvidado.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Multiple Arcade Machine Emulator, est un logiciel d'émulation pour PC dont le but est de reproduire fidèlement le fonctionnement des jeux et des systèmes d'arcade afin de préserver l'histoire du jeu vidéo.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>MAME steht für "Multiple Arcade Machine Emulator" und ist eine Emulationssoftware für den PC, deren Ziel es ist, die Funktionsweise von Arcade-Spielen und -Systemen originalgetreu nachzubilden, um die Geschichte der Videospiele zu bewahren und so zu verhindern, dass einige Titel in Vergessenheit geraten.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>MAME significa Multiple Arcade Machine Emulator - Emulador de Múltiplas Máquinas de Arcade, em português. O MAME irá reproduzir, mais ou menos fielmente, o jogo em sua máquina.</text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>MAME, acrónimo de Multiple Arcade Machine Emulator, es un software de emulación para PC que pretende reproducir fielmente el funcionamiento de los juegos y sistemas arcade con el fin de preservar la historia de los videojuegos y evitar que ciertos títulos caigan en el olvido.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>Il MAME, acronimo di Multiple Arcade Machine Emulator, è un software di emulazione per PC che si propone di riprodurre fedelmente il funzionamento dei giochi e dei sistemi arcade per preservare la storia dei videogiochi ed evitare che alcuni titoli vengano dimenticati.</text>
+</text>
 
-		
-				
+<text name="system_description" extra="true" lang="ja">
+<text>MAMEとは、Multiple Arcade Machine Emulatorの頭文字をとったもので、ビデオゲームの歴史を守り、特定のタイトルが忘れ去られるのを防ぐために、アーケードゲームやシステムの動作を忠実に再現することを目的としたPCエミュレーションソフトです。</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="nl">
+<text>MAME, een acroniem voor Multiple Arcade Machine Emulator, is emulatiesoftware voor de pc die de werking van arcadespellen en -systemen getrouw wil nabootsen om de geschiedenis van videospellen te bewaren en te voorkomen dat bepaalde titels in de vergetelheid raken.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>MAME, skrót od Multiple Arcade Machine Emulator, to oprogramowanie do emulacji komputerów PC, którego celem jest wierne odwzorowanie działania gier i systemów arcade, aby zachować historię gier wideo i zapobiec zapomnieniu niektórych tytułów.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>MAME, um acrónimo de Multiple Arcade Machine Emulator, é um software de emulação para PC que visa reproduzir fielmente o funcionamento de jogos e sistemas arcade, a fim de preservar a história dos jogos de vídeo e evitar que certos títulos sejam esquecidos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>MAME, аббревиатура от Multiple Arcade Machine Emulator, - это программное обеспечение для эмуляции ПК, целью которого является точное воспроизведение работы аркадных игр и систем, чтобы сохранить историю видеоигр и предотвратить забвение некоторых игр.</text>
+</text>
+
+</view>
 </theme>

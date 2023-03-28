@@ -4,28 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Mitchell Corporation (株式会社ミッチェル) was a Japanese video game developer.  Some of the employees were former employees of Capcom and TAD Corporation. The company's business was suspended on 20 November 2012.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
-	</view>
+<text name="system_description" extra="true" lang="fr">
+<text>Mitchell Corporation (株式会社ミッチェル) était un développeur de jeux vidéo japonais.  Certains employés étaient d'anciens employés de Capcom et de TAD Corporation. L'activité de la société a été suspendue le 20 novembre 2012.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Mitchell Corporation (株式会社ミッチェル) war ein japanischer Entwickler von Videospielen.  Einige Mitarbeiter waren ehemalige Mitarbeiter von Capcom und der TAD Corporation. Die Geschäftstätigkeit des Unternehmens wurde am 20. November 2012 eingestellt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Mitchell Corporation (株式会社ミッチェル) fue un desarrollador japonés de videojuegos.  Algunos empleados eran antiguos empleados de Capcom y TAD Corporation. La actividad de la empresa se suspendió el 20 de noviembre de 2012.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Mitchell Corporation (株式会社ミッチェル) era uno sviluppatore di videogiochi giapponese.  Alcuni dipendenti erano ex dipendenti di Capcom e TAD Corporation. L'attività della società è stata sospesa il 20 novembre 2012.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社ミッチェル（株式会社ミッチェル）は、日本のビデオゲーム開発会社である。 社員の中には、カプコンや株式会社TADの元社員もいた。2012年11月20日に営業停止となった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Mitchell Corporation (株式会社ミッチェル) was een Japanse ontwikkelaar van videospelletjes.  Sommige werknemers waren voormalige werknemers van Capcom en TAD Corporation. Het bedrijf werd op 20 november 2012 stilgelegd.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Mitchell Corporation (株式会社ミッチェル) był japońskim producentem gier wideo.  Część pracowników to byli pracownicy Capcomu i TAD Corporation. Działalność firmy została zawieszona 20 listopada 2012 roku.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Mitchell Corporation (株式会社ミッチェル) era uma empresa japonesa de desenvolvimento de jogos de vídeo.  Alguns empregados eram antigos empregados da Capcom e da TAD Corporation. Os negócios da empresa foram suspensos a 20 de Novembro de 2012.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Mitchell Corporation (株式会社ミッチェル) была японским разработчиком видеоигр.  Некоторые сотрудники компании были бывшими работниками Capcom и TAD Corporation. Деятельность компании была приостановлена 20 ноября 2012 года.</text>
+</text>
+
+</view>
 </theme>

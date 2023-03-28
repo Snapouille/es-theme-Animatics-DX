@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Namco Limited (株式会社ナムコ), for NAkamura Manufacturing COmpany, is a Japanese video game development company. It is merging with toy maker Bandai to form Namco Bandai Holdings Inc. This combination will form one of the largest companies in the video game industry in Japan.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Namco Limited (株式会社ナムコ), pour NAkamura Manufacturing COmpany, est une société japonaise de développement de jeux vidéo. Elle fusionne avec le fabricant de jouets Bandai pour former Namco Bandai Holdings Inc. Ce regroupement va constituer une des plus grosses entreprises dans le secteur du jeu vidéo au Japon.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Namco Limited (株式会社ナムコ), für NAkamura Manufacturing COmpany, ist ein japanisches Unternehmen für die Entwicklung von Videospielen. Sie fusioniert mit dem Spielzeughersteller Bandai zu Namco Bandai Holdings Inc. Dieser Zusammenschluss wird eines der größten Unternehmen in der japanischen Videospielbranche bilden.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Namco Limited (株式会社ナムコ), por NAkamura Manufacturing COmpany, es una empresa japonesa de desarrollo de videojuegos. Se va a fusionar con el fabricante de juguetes Bandai para formar Namco Bandai Holdings Inc. Esta combinación formará una de las mayores empresas de la industria del videojuego en Japón.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Namco Limited (株式会社ナムコ), per NAkamura Manufacturing COmpany, è una società giapponese di sviluppo di videogiochi. Si sta fondendo con il produttore di giocattoli Bandai per formare Namco Bandai Holdings Inc. Questa combinazione darà vita a una delle più grandi aziende del settore dei videogiochi in Giappone.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>株式会社ナムコ（株式会社ナムコ）は、日本のビデオゲーム開発会社であるNAkamura Manufacturing COmpanyの略。玩具メーカーのバンダイと合併し、バンダイナムコホールディングスを設立する。 この合併により、日本のビデオゲーム業界では最大級の企業が誕生する。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Namco Limited (株式会社ナムコ), voor NAkamura Manufacturing COmpany, is een Japans bedrijf dat videospelletjes ontwikkelt. Het fuseert met speelgoedfabrikant Bandai tot Namco Bandai Holdings Inc. Deze combinatie zal een van de grootste bedrijven in de videospelindustrie in Japan vormen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Namco Limited (株式会社ナムコ), dla NAkamura Manufacturing COmpany, jest japońską firmą zajmującą się tworzeniem gier wideo. Łączy się ona z producentem zabawek Bandai, tworząc Namco Bandai Holdings Inc. To połączenie stworzy jedną z największych firm w branży gier wideo w Japonii.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Namco Limited (株式会社ナムコ), para a NAkamura Manufacturing COmpany, é uma empresa japonesa de desenvolvimento de jogos de vídeo. Está a fundir-se com o fabricante de brinquedos Bandai para formar a Namco Bandai Holdings Inc. Esta combinação irá formar uma das maiores empresas na indústria dos videojogos no Japão.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Namco Limited (株式会社ナムコ), для NAkamura Manufacturing COmpany, - японская компания по разработке видеоигр. Она объединяется с производителем игрушек Bandai и образует Namco Bandai Holdings Inc. Эта комбинация сформирует одну из крупнейших компаний в индустрии видеоигр в Японии.</text>
+</text>
+
+</view>
 </theme>

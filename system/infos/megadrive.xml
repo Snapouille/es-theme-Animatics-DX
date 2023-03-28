@@ -4,35 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Mega Drive (メガドライブ, Mega Doraibu), or Genesis in North America, is marketed by Japanese manufacturer Sega Enterprises, Ltd. It is Sega's third console, the successor to the Master System, and will compete fiercely against Nintendo's SNES. Whatever happens, never forget that Sega is stronger than you.</text>
+</text>
 
+<text name="system_description" extra="true" lang="fr">
+<text>La Mega Drive (メガドライブ, Mega Doraibu), ou Genesis en Amérique du Nord, est commercialisée par le constructeur japonais Sega Enterprises, Ltd. C'est la troisième console de Sega, elle succède à la Master System et rivalisera avec ferveur contre la SNES de Nintendo. Quoi qu'il arrive n'oublies jamais que Sega c'est plus fort que toi.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text>The Sega Mega Drive, known as the Sega Geneis in North America, is a 16-bit fourth-generation home video game console developed and sold by Sega. Is Sega's third console and the successor to the Master System. Sega released it as the Mega Drive in Japan in 1988, and later as the Genesis in North America in 1989.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das Mega Drive (メガドライブ, Mega Doraibu), in Nordamerika auch Genesis genannt, wird von dem japanischen Hersteller Sega Enterprises, Ltd. vertrieben. Es ist Segas dritte Konsole, die das Master System ablöst und mit dem SNES von Nintendo konkurrieren wird. Was auch immer geschieht, vergiss nie, dass Sega stärker ist als du.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>Mega Drive, conocida en diversos territorios de América como Genesis, es una clásica videoconsola de sobremesa de 16 bits desarrollada por Sega Enterprises, Ltd. Mega Drive fue la tercera consola de Sega y la sucesora de Master System. 
+<text name="system_description" extra="true" lang="es">
+<text>La Mega Drive (メガドライブ, Mega Doraibu), o Genesis en Norteamérica, es comercializada por el fabricante japonés Sega Enterprises, Ltd. (Sega). Es la tercera consola de Sega, sucesora de la Master System y competirá ferozmente con la SNES de Nintendo. Pase lo que pase, nunca olvides que Sega es más fuerte que tú.</text>
+</text>
 
-Compitió contra la SNES de Nintendo, como parte de las videoconsolas de cuarta generación. La primera versión fue lanzada en Japón en 1988, sucedida por el lanzamiento en Norteamérica bajo el renombramiento de Genesis en 1989.</text>
-		</text>
+<text name="system_description" extra="true" lang="it">
+<text>Il Mega Drive (メガドライブ, Mega Doraibu), o Genesis in Nord America, è commercializzato dal produttore giapponese Sega Enterprises, Ltd. È la terza console di Sega, il successore del Master System e competerà ferocemente contro lo SNES di Nintendo. Qualunque cosa accada, non dimenticate mai che Sega è più forte di voi.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text>La Mega Drive (メガドライブ, Mega Doraibu), ou Genesis en Amérique du Nord, est commercialisée par le constructeur japonais Sega Enterprises, Ltd. C'est la troisième console de Sega, elle succède à la Master System et rivalisera avec ferveur contre la SNES de Nintendo. Quoi qu'il arrive n'oublies jamais que Sega c'est plus fort que toi.</text>
-		</text>
+<text name="system_description" extra="true" lang="ja">
+<text>メガドライブ（メガドライブ、Mega Doraibu）、北米ではジェネシス（Genesis）は、日本のメーカーである株式会社セガ・エンタープライゼスが販売する。セガの3番目のゲーム機で、マスターシステムの後継機であり、任天堂のスーファミと激しく競争することになる。どんなことがあっても、セガの方が強いということを決して忘れてはいけない。</text>
+</text>
 
-			    <text name="system_description" extra="true" lang="pt" >
-			<text>Mega Drive (メガドライブ Mega Doraibu?), conhecido como Sega Genesis na América do Norte, é um console de video game de 16 bits da Sega que concorria diretamente com o Super Nintendo Entertainment System. O console fez grande sucesso na década de 1990, perdendo espaço após o surgimento e popularização da nova geração de consoles de 32 bits, como o PlayStation da Sony.</text>
-		</text>
+<text name="system_description" extra="true" lang="nl">
+<text>De Mega Drive (メガドライブ, Mega Doraibu), of Genesis in Noord-Amerika, wordt op de markt gebracht door de Japanse fabrikant Sega Enterprises, Ltd.. Het is Sega's derde console, de opvolger van het Master System, en zal een felle concurrentie aangaan met Nintendo's SNES. Wat er ook gebeurt, vergeet nooit dat Sega sterker is dan jij.</text>
+</text>
 
-		
+<text name="system_description" extra="true" lang="pl">
+<text>Mega Drive (メガドライブ, Mega Doraibu), lub Genesis w Ameryce Północnej, jest sprzedawany przez japońskiego producenta Sega Enterprises, Ltd. Jest to trzecia konsola firmy Sega, następca Master System i będzie gorliwie konkurować z SNES-em firmy Nintendo. Cokolwiek się stanie, nigdy nie zapominaj, że Sega jest silniejsza od ciebie.</text>
+</text>
 
-		
-				
+<text name="system_description" extra="true" lang="pt">
+<text>A Mega Drive (メガドライブ, Mega Doraibu), ou Génesis na América do Norte, é comercializada pelo fabricante japonês Sega Enterprises, Ltd. É a terceira consola da Sega, a sucessora do Master System e irá competir ferozmente contra a SNES da Nintendo. Aconteça o que acontecer, nunca se esqueça que a Sega é mais forte do que você.</text>
+</text>
 
-		
-	</view>
+<text name="system_description" extra="true" lang="ru">
+<text>Приставка Mega Drive (メガドライブ, Mega Doraibu), или Genesis в Северной Америке, выпускается японским производителем Sega Enterprises, Ltd. Это третья консоль Sega, Master System, которая будет конкурировать с Nintendo SNES. Это третья консоль Sega, преемница Master System, которая будет яростно конкурировать с SNES от Nintendo. Что бы ни случилось, никогда не забывайте, что Sega сильнее вас.</text>
+</text>
+
+</view>
 </theme>

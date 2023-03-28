@@ -1,28 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>Linux® is an open source operating system (OS). An operating system is the software that directly manages a system’s hardware and resources, like CPU, memory, and storage. The OS sits between applications and hardware and makes the connections between all of your software and the physical resources that do the work.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>Linux es un sistema operativo, como Windows y Mac OS, que permite ejecutar programas en una computadora y otros dispositivos. Linux se puede modificar y distribuir libremente.
-
+<text name="system_description" extra="true">
+<text>Linux is an operating system, like Windows and Mac OS, that allows programs to be run on a computer and other devices. Linux can be freely modified and distributed.</text>
 </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text>Linux est un système d'exploitation, comme Windows et Mac OS, qui permet d'exécuter des programmes sur un ordinateur et d'autres appareils. Linux peut être librement modifié et distribué.</text>
-		</text>
 
-	
-				<text name="system_description" extra="true" lang="pt">
-				<text>Linux é um Sistema Operacional, assim como o Windows e o Mac OS, que possibilita a execução de programas em um computador e outros dispositivos. Linux pode ser livremente modificado e distribuído.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Linux est un système d'exploitation, comme Windows et Mac OS, qui permet d'exécuter des programmes sur un ordinateur et d'autres appareils. Linux peut être librement modifié et distribué.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Linux ist wie Windows und Mac OS ein Betriebssystem, mit dem Programme auf einem Computer und anderen Geräten ausgeführt werden können. Linux kann frei verändert und verteilt werden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Linux es un sistema operativo, como Windows y Mac OS, que permite ejecutar programas en un ordenador y otros dispositivos. Linux puede modificarse y distribuirse libremente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Linux è un sistema operativo, come Windows e Mac OS, che consente di eseguire programmi su un computer e su altri dispositivi. Linux può essere modificato e distribuito liberamente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Linuxは、WindowsやMac OSと同様に、コンピュータなどでプログラムを実行することができるOSです。Linuxは、自由に改変して配布することができます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Linux is een besturingssysteem, zoals Windows en Mac OS, waarmee programma's kunnen worden uitgevoerd op een computer en andere apparaten. Linux kan vrij worden aangepast en gedistribueerd.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Linux to system operacyjny, podobnie jak Windows i Mac OS, który umożliwia uruchamianie programów na komputerze i innych urządzeniach. Linux może być dowolnie modyfikowany i rozpowszechniany.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Linux é um sistema operativo, como Windows e Mac OS, que permite que os programas sejam executados num computador e outros dispositivos. O Linux pode ser livremente modificado e distribuído.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Linux - это операционная система, подобно Windows и Mac OS, которая позволяет запускать программы на компьютере и других устройствах. Linux можно свободно модифицировать и распространять.</text>
+</text>
+
+</view>
 </theme>

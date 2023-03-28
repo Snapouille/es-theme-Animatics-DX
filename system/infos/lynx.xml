@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Atari Lynx was developed by Epyx under the name "Handy". It was Atari's only handheld console and the very first handheld with a colour LCD screen. Although this console was technologically superior to the Game Boy, Atari's marketing mistakes and the small number of games available meant that the console was a commercial failure.</text>
+</text>
 
-		
-				<text name="system_description" extra="true" >
-			<text>Is a 16-bit handheld game console that was released by Atari Corporation in September 1989 in North America, and in Europe and Japan in 1990. It was the world's first handheld electronic game with a color LCD.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Fue una videoconsola portátil de 8 bits producida por Atari. Fue lanzada en 1989, siendo la primera con LCD en color. Si bien era superior a la Game Boy y a la Game Gear, no tuvo demasiado éxito debido a su exagerado precio.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Atari Lynx fut la seule console portable d'Atari et la première portable avec un écran LCD couleur. Elle est sortie en 1989, la même année que le Game Boy (monochrome) de Nintendo.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>L'Atari Lynx fut développée par Epyx sous le nom « Handy ». Ce fut la seule console portable d'Atari et la toute première portable avec un écran LCD couleur. Bien que cette console fût supérieure à la Game Boy d'un point de vue technologique, les erreurs marketing d'Atari et la faible quantité de jeux disponibles firent que la console fut un échec commercial.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>Foi um console de videogame portátil produzido pela Atari, lançado em 1989, sendo o primeiro a apresentar tela colorida. Fazendo parte dos videogames de quarta geração, concorreu com o Game Boy da Nintendo.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Der Atari Lynx wurde von Epyx unter dem Namen "Handy" entwickelt. Es war Ataris einzige tragbare Konsole und die allererste tragbare Konsole mit einem Farb-LCD-Bildschirm. Obwohl die Konsole dem Game Boy technologisch überlegen war, führten Ataris Marketingfehler und die geringe Anzahl an verfügbaren Spielen dazu, dass die Konsole ein kommerzieller Misserfolg wurde.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>La Atari Lynx fue desarrollada por Epyx bajo el nombre de "Handy". Fue la única consola portátil de Atari y la primera con pantalla LCD en color. Aunque esta consola era tecnológicamente superior a la Game Boy, los errores de marketing de Atari y el reducido número de juegos disponibles hicieron que la consola fuera un fracaso comercial.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'Atari Lynx è stato sviluppato da Epyx con il nome di "Handy". Fu l'unica console portatile di Atari e la prima console portatile con schermo LCD a colori. Sebbene questa console fosse tecnologicamente superiore al Game Boy, gli errori di marketing di Atari e l'esiguo numero di giochi disponibili ne decretarono il fallimento commerciale.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Atari LynxはEpyx社によって "Handy "という名前で開発されました。アタリ社の唯一の携帯ゲーム機であり、カラー液晶画面を搭載した最初の携帯ゲーム機でした。このゲーム機は技術的にはゲームボーイより優れていましたが、アタリのマーケティングの失敗と利用できるゲームの数が少なかったため、このゲーム機は商業的に失敗してしまいました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Atari Lynx werd ontwikkeld door Epyx onder de naam "Handy". Het was Atari's enige handheld console en de allereerste handheld met een kleuren LCD scherm. Hoewel deze console technologisch superieur was aan de Game Boy, zorgden Atari's marketingfouten en het kleine aantal beschikbare spellen ervoor dat de console een commerciële mislukking werd.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Atari Lynx został opracowany przez firmę Epyx pod nazwą "Handy". Była to jedyna ręczna konsola Atari i pierwszy handheld z kolorowym ekranem LCD. Mimo że konsola ta była technologicznie lepsza od Game Boya, błędy marketingowe Atari i mała liczba dostępnych gier sprawiły, że konsola okazała się komercyjną porażką.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Atari Lince foi desenvolvido pela Epyx sob o nome "Handy". Era a única consola portátil da Atari e a primeira consola portátil com um ecrã LCD a cores. Embora esta consola fosse tecnologicamente superior ao Game Boy, os erros de marketing da Atari e o pequeno número de jogos disponíveis significaram que a consola foi um fracasso comercial.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Atari Lynx была разработана компанией Epyx под названием "Handy". Это была единственная портативная консоль Atari и самая первая портативная консоль с цветным ЖК-экраном. Хотя эта консоль технологически превосходила Game Boy, маркетинговые ошибки Atari и небольшое количество доступных игр привели к тому, что консоль потерпела коммерческий провал</text>
+</text>
+
+</view>
 </theme>

@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Neo Geo Pocket is the first monochrome handheld game system published by SNK and will be compatible with the majority of the Neo Geo Pocket Color titles. Similarly, the Neo Geo Pocket Color is backwards compatible and the entire Neo Geo Pocket library can be played on the colour system.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The Neo Geo Pocket is a monochrome handheld game console released by SNK. It was the company's first handheld system and is part of the Neo Geo family. It debuted in Japan in late 1998.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>Neo Geo Pocket es una consola portátil de SNK. Fue lanzada en Japón hacia 1998, y descontinuada en 1999, para dar paso a la Neo Geo Pocket Color, debido a las bajas ventas del sistema monocromo.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>Neo-Geo Pocket est la première console portable de SNK. Elle est sortie au Japon fin 1998, et a été arrêtée en 1999, à cause de ventes plus faibles que prévu pour la Neo-Geo Pocket monochrome.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Neo Geo Pocket est la première console de jeu portable monochrome éditée par SNK elle sera compatible avec la majorité des titres de la Neo Geo Pocket Color. De même, la Neo Geo Pocket Color est rétrocompatible et toute la bibliothèque de la Neo Geo Pocket peut être jouée sur le système couleur.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console de videogame portátil que foi lançado pela SNK no Japão, em 28 de novembro de 1998, para combater o Game Boy da Nintendo, no entanto foi fabricado por pouco tempo (pouco mais de 1 ano).</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="de">
+<text>Die Neo Geo Pocket ist die erste von SNK herausgegebene tragbare Monochrom-Spielkonsole, die mit den meisten Titeln der Neo Geo Pocket Color kompatibel ist. Ebenso ist die Neo Geo Pocket Color abwärtskompatibel und die gesamte Bibliothek der Neo Geo Pocket kann auf dem Farbsystem gespielt werden.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="es">
+<text>Neo Geo Pocket es el primer sistema de juegos portátil monocromo publicado por SNK y será compatible con la mayoría de los títulos de Neo Geo Pocket Color. Del mismo modo, el Neo Geo Pocket Color es retrocompatible y toda la biblioteca de Neo Geo Pocket se puede jugar en el sistema de color.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Neo Geo Pocket è il primo sistema di gioco portatile monocromatico pubblicato da SNK e sarà compatibile con la maggior parte dei titoli del Neo Geo Pocket Color. Allo stesso modo, il Neo Geo Pocket Color è retrocompatibile e l'intera libreria Neo Geo Pocket può essere giocata sul sistema a colori.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Neo Geo Pocketは、SNKが初めて発売したモノクロの携帯ゲーム機で、Neo Geo Pocket Colorの大半のタイトルと互換性があります。同様に、Neo Geo Pocket Colorは後方互換性があり、Neo Geo Pocketの全ライブラリーをカラーシステムでプレイすることが可能です。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Neo Geo Pocket is het eerste monochrome handheld spelsysteem uitgegeven door SNK en zal compatibel zijn met de meeste Neo Geo Pocket Color titels. Ook is de Neo Geo Pocket Color achterwaarts compatibel en kan de gehele Neo Geo Pocket bibliotheek op het kleurensysteem worden gespeeld.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Neo Geo Pocket to pierwsza monochromatyczna ręczna konsola do gier wydana przez SNK i będzie kompatybilna z większością tytułów Neo Geo Pocket Color. Podobnie, Neo Geo Pocket Color jest kompatybilny wstecz i cała biblioteka Neo Geo Pocket może być odtwarzana na kolorowym systemie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Neo Geo Pocket é a primeira consola de jogos de mão monocromática publicada pela SNK e será compatível com a maioria dos títulos do Neo Geo Pocket Color. Do mesmo modo, o Neo Geo Pocket Color é retrocompatível e toda a biblioteca do Neo Geo Pocket pode ser jogada no sistema de cores.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Neo Geo Pocket - первая монохромная портативная игровая консоль, выпущенная компанией SNK, и она будет совместима с большинством игр для Neo Geo Pocket Color. Кроме того, Neo Geo Pocket Color имеет обратную совместимость, и вся библиотека Neo Geo Pocket может быть воспроизведена на цветной системе.</text>
+</text>
+
+</view>
 </theme>

@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Mega Play is an arcade game system developed by Sega, released in 1993 in Europe. It is the JAMMA version of the Mega-Tech system (1989). Based on the architecture of the Mega Drive console, it is a multi-game system with interchangeable cartridges (like the Neo-Geo MVS). It has the same characteristics as the Mega-Tech.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le Mega Play est un système de jeu d'arcade développé par Sega, sorti en 1993 en Europe. Il constitue la version JAMMA du système Mega-Tech (1989). Basé sur l'architecture de la console Mega Drive, c'est un système multi-jeux à cartouches interchangeables (comme la Neo-Geo MVS). Il présente les mêmes caractéristiques que le Mega-Tech.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Das Mega Play ist ein von Sega entwickeltes Arcade-Spielsystem, das 1993 in Europa veröffentlicht wurde. Es ist die JAMMA-Version des Mega-Tech-Systems (1989). Es basiert auf der Architektur der Mega Drive-Konsole und ist ein Multispielsystem mit austauschbaren Kassetten (wie das Neo-Geo MVS). Es weist die gleichen Merkmale wie das Mega-Tech auf.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Mega Play es un sistema de juegos arcade desarrollado por Sega, lanzado en 1993 en Europa. Es la versión JAMMA del sistema Mega-Tech (1989). Basado en la arquitectura de la consola Mega Drive, es un sistema multijuego con cartuchos intercambiables (como la Neo-Geo MVS). Tiene las mismas características que la Mega-Tech.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Mega Play è un sistema di gioco arcade sviluppato da Sega, rilasciato nel 1993 in Europa. È la versione JAMMA del sistema Mega-Tech (1989). Basato sull'architettura della console Mega Drive, è un sistema multigioco con cartucce intercambiabili (come il Neo-Geo MVS). Ha le stesse caratteristiche del Mega-Tech.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>メガプレイは、セガが開発したアーケードゲーム機で、1993年にヨーロッパで発売された。メガテックシステム（1989年）のJAMMA版である。メガドライブのコンソールのアーキテクチャに基づき、（ネオジオMVSのように）交換可能なカートリッジを持つマルチゲームシステムである。メガ・テックと同じ特徴を持つ。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Mega Play is een door Sega ontwikkeld arcadespel-systeem dat in 1993 in Europa werd uitgebracht. Het is de JAMMA-versie van het Mega-Tech systeem (1989). Gebaseerd op de architectuur van de Mega Drive-console, is het een multi-game systeem met verwisselbare cartridges (zoals de Neo-Geo MVS). Het heeft dezelfde kenmerken als de Mega-Tech.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Mega Play to system gier zręcznościowych opracowany przez firmę Sega, wydany w 1993 roku w Europie. Jest to wersja JAMMA systemu Mega-Tech (1989). Oparty na architekturze konsoli Mega Drive, jest to system do gier wieloosobowych z wymiennymi kartridżami (jak Neo-Geo MVS). Posiada te same cechy, co Mega-Tech.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Mega Play é um sistema de jogos arcade desenvolvido pela Sega, lançado em 1993 na Europa. É a versão JAMMA do sistema Mega-Tech (1989). Baseado na arquitectura da consola Mega Drive, é um sistema multijogo com cartuchos intercambiáveis (como o Neo-Geo MVS). Tem as mesmas características que a Mega-Tech.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Mega Play - это аркадная игровая система, разработанная компанией Sega, выпущенная в 1993 году в Европе. Она является JAMMA-версией системы Mega-Tech (1989). Основанная на архитектуре консоли Mega Drive, она является многоигровой системой со сменными картриджами (как Neo-Geo MVS). Она имеет те же характеристики, что и Mega-Tech.</text>
+</text>
+
+</view>
 </theme>

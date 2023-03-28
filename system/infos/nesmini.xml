@@ -1,26 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>NES Classic Edition is a dedicated home video game console by Nintendo, which emulates the Nintendo Entertainment System (NES). It launched on November 10, 2016 in Australia and Japan, and November 11, 2016 in North America and Europe. Aesthetically, the console is a miniature replica of the NES, and it includes a static library of 30 built-in games from the licensed NES library, supporting save states for all of them.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>NES Classic Edition es una consola de videojuegos doméstica dedicada de Nintendo, que emula el Nintendo Entertainment System (NES). Se lanzó el 10 de noviembre de 2016 en Australia y Japón, y el 11 de noviembre de 2016 en América del Norte y Europa. Estéticamente, la consola es una réplica en miniatura de la NES e incluye una biblioteca estática de 30 juegos integrados de la biblioteca NES con licencia, que admiten estados de guardado para todos ellos.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text>NES Classic Edition est une console de jeu vidéo domestique dédiée de Nintendo, qui émule la Nintendo Entertainment System (NES). Il a été lancé le 10 novembre 2016 en Australie et au Japon, et le 11 novembre 2016 en Amérique du Nord et en Europe. Esthétiquement, la console est une réplique miniature de la NES, et elle comprend une bibliothèque statique de 30 jeux intégrés de la bibliothèque NES sous licence, prenant en charge les états de sauvegarde pour chacun d'eux.</text>
-		</text>
+<text name="system_description" extra="true">
+<text>The NES Classic Edition is a video game console that emulates the Nintendo Entertainment System (NES). Aesthetically, the console is a miniature replica of the NES, and it includes a static library of 30 games integrated from the licensed NES library, supporting save states for each.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text>NES Classic Edition é um console de videogame doméstico dedicado da Nintendo, que emula o Nintendo Entertainment System (NES). Foi lançado em 10 de novembro de 2016 na Austrália e no Japão e em 11 de novembro de 2016 na América do Norte e Europa. Esteticamente, o console é uma réplica em miniatura do NES e inclui uma biblioteca estática de 30 jogos integrados da biblioteca NES licenciada, suportando estados de salvamento para todos eles</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>La NES Classic Edition est une console de jeu vidéo qui émule la Nintendo Entertainment System (NES). Esthétiquement, la console est une réplique miniature de la NES, et elle comprend une bibliothèque statique de 30 jeux intégrés de la bibliothèque NES sous licence, prenant en charge les états de sauvegarde pour chacun d'eux.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Die NES Classic Edition ist eine Videospielkonsole, die dem Nintendo Entertainment System (NES) nachempfunden ist. Ästhetisch ist die Konsole eine Miniaturnachbildung des NES, und sie enthält eine statische Bibliothek von 30 integrierten Spielen aus der lizenzierten NES-Bibliothek, die Speicherstände für jedes Spiel unterstützt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La NES Classic Edition es una videoconsola que emula la Nintendo Entertainment System (NES). Estéticamente, la consola es una réplica en miniatura de la NES, e incluye una biblioteca estática de 30 juegos integrados de la biblioteca de NES con licencia, con soporte para guardar estados para cada uno.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il NES Classic Edition è una console per videogiochi che emula il Nintendo Entertainment System (NES). Esteticamente, la console è una replica in miniatura del NES e include una libreria statica di 30 giochi integrati dalla libreria NES su licenza, con il supporto di stati di salvataggio per ciascuno di essi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>NES Classic Editionは、Nintendo Entertainment System（NES）をエミュレートしたビデオゲーム機である。外観はファミコンのミニチュアレプリカで、ファミコンのライセンスライブラリから統合された30本のゲームを静的ライブラリとして収録しており、それぞれのセーブステートにも対応しています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De NES Classic Edition is een spelconsole die het Nintendo Entertainment System (NES) emuleert. Esthetisch gezien is de console een miniatuurreplica van de NES, en hij bevat een statische bibliotheek van 30 geïntegreerde spellen uit de gelicentieerde NES-bibliotheek, met ondersteuning van save states voor elk daarvan.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>NES Classic Edition to konsola do gier wideo, która emuluje Nintendo Entertainment System (NES). Estetycznie, konsola jest miniaturową repliką NES, i zawiera statyczną bibliotekę 30 gier zintegrowanych z licencjonowaną biblioteką NES, obsługującą stany zapisu dla każdego.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A NES Classic Edition é uma consola de videojogos que emula o Sistema de Entretenimento Nintendo (NES). Esteticamente, a consola é uma réplica em miniatura da NES, e inclui uma biblioteca estática de 30 jogos integrados a partir da biblioteca licenciada da NES, suportando estados de salvaguarda para cada um.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>NES Classic Edition - это игровая консоль, эмулирующая Nintendo Entertainment System (NES). Эстетически консоль представляет собой миниатюрную копию NES и включает статическую библиотеку из 30 игр, интегрированных из лицензионной библиотеки NES, с поддержкой сохранений для каждой из них.</text>
+</text>
+
+</view>
 </theme>

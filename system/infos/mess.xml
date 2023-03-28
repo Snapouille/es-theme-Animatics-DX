@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Multi Emulator Super System (MESS) is an emulator for various consoles and computer systems, based on the MAME kernel. It is now integrated with MAME and emulates portable game and console systems, computer platforms and calculators. </text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Multi Emulator Super System (MESS) est un émulateur pour diverses consoles et systèmes informatiques, basé sur le noyau MAME. Il est désormais intégré à MAME et émule des systèmes de jeux portables et de consoles, des plates-formes informatiques et des calculatrices. </text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Multi Emulator Super System (MESS) ist ein Emulator für verschiedene Konsolen und Computersysteme, der auf dem MAME-Kernel basiert. Es ist mittlerweile in MAME integriert und emuliert tragbare Spiel- und Konsolensysteme, Computerplattformen und Taschenrechner. </text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Multi Emulator Super System (MESS) es un emulador para varias consolas y sistemas informáticos, basado en el núcleo de MAME. Actualmente está integrado en MAME y emula sistemas portátiles de juegos y consolas, plataformas informáticas y calculadoras. </text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Multi Emulator Super System (MESS) è un emulatore per varie console e sistemi informatici, basato sul kernel MAME. Ora è integrato con MAME ed emula sistemi di gioco e console portatili, piattaforme informatiche e calcolatori. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Multi Emulator Super System (MESS)は、MAMEカーネルをベースにした、様々なコンソールやコンピュータシステム用のエミュレータである。現在はMAMEと統合され、携帯ゲーム機やコンソールシステム、コンピュータプラットフォーム、電卓をエミュレートしています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Multi Emulator Super System (MESS) is een emulator voor verschillende consoles en computersystemen, gebaseerd op de MAME-kernel. Het is nu geïntegreerd met MAME en emuleert draagbare spel- en consolesystemen, computerplatforms en rekenmachines. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Multi Emulator Super System (MESS) to emulator różnych konsol i systemów komputerowych, oparty na jądrze MAME. Obecnie jest on zintegrowany z MAME i emuluje przenośne systemy gier i konsol, platformy komputerowe oraz kalkulatory. </text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Multi Emulator Super System (MESS) é um emulador para várias consolas e sistemas informáticos, baseado no kernel MAME. Está agora integrado com MAME e emula sistemas portáteis de jogos e consolas, plataformas informáticas e calculadoras. </text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Multi Emulator Super System (MESS) - это эмулятор для различных консолей и компьютерных систем, основанный на ядре MAME. В настоящее время он интегрирован в MAME и эмулирует портативные игровые и консольные системы, компьютерные платформы и калькуляторы. </text>
+</text>
+
+</view>
 </theme>

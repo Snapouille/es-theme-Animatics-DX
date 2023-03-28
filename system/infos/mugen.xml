@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text>MUGEN is a game engine for 2D fighting games, created by Elecbyte in 1999 using the Allegro software library for display and inputs (keyboard, gamepad). The engine allows you to create characters, scenario and other game components through a compilation of text, graphics and sound files, it also supports MP3 files in order to put music in the background during the game. This engine is advanced and flexible enough to match some commercial 2D fighting fighting games. It is ahead of the equivalent game engines existing in free software.</text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text>MUGEN es un motor de juego para juegos de lucha en 2D, creado por Elecbyte en 1999 utilizando la biblioteca de software Allegro. El motor permite crear personajes, escenarios y otros componentes del juego a través de una compilación de archivos de texto, gráficos y sonido.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text>MUGEN est un moteur de jeu pour les jeux de combat 2D, créé par Elecbyte en 1999 en utilisant la bibliothèque logicielle Allegro pour l'affichage et les entrées (clavier, manette de jeu). Le moteur permet de créer des personnages, décors et autres composantes de jeu par le biais d'une compilation de fichiers texte, graphiques et sons, il supporte également les fichiers MP3 afin de mettre des musiques en fond sonore durant le jeu. Ce moteur est assez avancé et flexible pour égaler certains jeux de combat 2D commerciaux de combat. Il est en avance sur les moteurs de jeu équivalents existant dans le logiciel libre.</text>
-		</text>
+<text name="system_description" extra="true">
+<text>MUGEN is a game engine for 2D fighting games, created by Elecbyte in 1999 using the Allegro software library for display and input. The Mugen Games section offers you the opportunity to discover and download complete and entirely free games made by budding developers.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text>MUGEN é um motor de jogo para jogos de luta 2D, criado pela Elecbyte em 1999 usando a biblioteca de software Allegro para exibição e entradas (teclado, gamepad). O motor permite-lhe criar personagens, cenários e outros componentes do jogo através da compilação de arquivos textos, gráficos e som, também suporta arquivos MP3 para colocar música de fundo durante o jogo. Este motor é suficientemente avançado e flexível para corresponder alguns jogos de luta de luta 2D comerciais. Está mais évoluido que bastante dos motores de jogo equivalentes existentes no software livre.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>MUGEN est un moteur de jeu pour les jeux de combat 2D, créé par Elecbyte en 1999 en utilisant la bibliothèque logicielle Allegro pour l'affichage et les entrées. La section des Jeux Mugen vous propose de découvrir et de télécharger des jeux complets et entièrement gratuits réalisés par des développeurs en herbe.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>MUGEN ist eine Spiel-Engine für 2D-Kampfspiele, die 1999 von Elecbyte unter Verwendung der Allegro-Softwarebibliothek für die Anzeige und Eingaben entwickelt wurde. Im Bereich Mugen-Spiele können Sie komplette, völlig kostenlose Spiele von aufstrebenden Entwicklern entdecken und herunterladen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>MUGEN es un motor de juego para juegos de lucha en 2D, creado por Elecbyte en 1999 utilizando la biblioteca de software Allegro para la visualización y la entrada. La sección Juegos Mugen te ofrece la oportunidad de descubrir y descargar juegos completos y totalmente gratuitos realizados por desarrolladores en ciernes.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>MUGEN è un motore di gioco per giochi di combattimento 2D, creato da Elecbyte nel 1999 utilizzando la libreria software Allegro per la visualizzazione e l'input. La sezione Mugen Games offre la possibilità di scoprire e scaricare giochi completi e completamente gratuiti realizzati da sviluppatori in erba.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>MUGENは、1999年にElecbyte社が作成した2D格闘ゲーム用のゲームエンジンで、表示と入力にAllegroソフトウェアライブラリを使用しています。無限ゲーム」では、新進気鋭の開発者が作った完全無料のゲームを発見し、ダウンロードする機会を提供します。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>MUGEN is een game engine voor 2D vechtspellen, gemaakt door Elecbyte in 1999 met behulp van de Allegro software library voor weergave en invoer. De Mugen Games sectie biedt je de mogelijkheid om complete en geheel gratis spellen gemaakt door beginnende ontwikkelaars te ontdekken en te downloaden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>MUGEN to silnik gry dla gier walki 2D, stworzony przez firmę Elecbyte w 1999 roku przy użyciu biblioteki programowej Allegro do wyświetlania i wprowadzania danych. Dział Mugen Games oferuje możliwość odkrycia i pobrania kompletnych i całkowicie darmowych gier stworzonych przez początkujących programistów.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>MUGEN é um motor de jogo para jogos de luta 2D, criado pela Elecbyte em 1999 utilizando a biblioteca de software Allegro para exibição e entrada. A secção Mugen Games oferece-lhe a oportunidade de descobrir e descarregar jogos completos e inteiramente gratuitos feitos por programadores em início de actividade.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>MUGEN - это игровой движок для 2D файтингов, созданный компанией Elecbyte в 1999 году с использованием программной библиотеки Allegro для отображения и ввода. В разделе "Игры Mugen" вы можете найти и скачать полные и совершенно бесплатные игры, созданные начинающими разработчиками.</text>
+</text>
+
+</view>
 </theme>

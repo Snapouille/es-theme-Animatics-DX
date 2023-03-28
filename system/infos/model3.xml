@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>The Model 3 is an arcade system introduced by Sega in 1996. The idea was to start from scratch and completely redesign a new system. It was the culmination of collaboration with Lockheed Martin (after the Model 1 and 2), especially the Real3D division, which designed the graphics microprocessor and the graphics system.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Le Model 3 est un système d'arcade introduit par Sega en 1996. L'idée fut de repartir de zéro pour repenser complètement un nouveau système. Il fut le point culminant de la collaboration avec Lockheed Martin (après le Model 1 et 2), notamment la division Real3D qui conçut le microprocesseur graphique ainsi que le système graphique.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>Das Model 3 ist ein Arcade-System, das 1996 von Sega eingeführt wurde. Die Idee war, von Grund auf neu anzufangen und ein neues System komplett neu zu konzipieren. Es war der Höhepunkt der Zusammenarbeit mit Lockheed Martin (nach Model 1 und 2), insbesondere der Abteilung Real3D, die den Grafikmikroprozessor sowie das Grafiksystem entwarf.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Model 3 es un sistema arcade presentado por Sega en 1996. La idea era empezar de cero y rediseñar por completo un nuevo sistema. Fue la culminación de la colaboración con Lockheed Martin (tras los Model 1 y 2), especialmente la división Real3D, que diseñó el microprocesador gráfico y el sistema de gráficos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Model 3 è un sistema arcade introdotto da Sega nel 1996. L'idea era quella di partire da zero e riprogettare completamente un nuovo sistema. Fu il culmine della collaborazione con Lockheed Martin (dopo i Model 1 e 2), in particolare con la divisione Real3D, che progettò il microprocessore grafico e il sistema grafico.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>モデル3は、1996年にセガが発表したアーケードシステムである。ゼロからスタートし、新しいシステムを完全に設計し直すというものであった。ロッキード・マーチン社（Model 1、Model 2の後）、特にグラフィック・マイクロプロセッサとグラフィック・システムを設計したReal3D部門との共同作業の集大成であった。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Model 3 is een arcadesysteem dat in 1996 door Sega werd geïntroduceerd. Het idee was om helemaal opnieuw te beginnen en een nieuw systeem te ontwerpen. Het was het hoogtepunt van de samenwerking met Lockheed Martin (na de Model 1 en 2), met name de Real3D-divisie, die de grafische microprocessor en het grafische systeem ontwierp.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Model 3 to system arcade wprowadzony przez firmę Sega w 1996 roku. Pomysł polegał na rozpoczęciu od zera i całkowitym przeprojektowaniu nowego systemu. Było to zwieńczenie współpracy z firmą Lockheed Martin (po Modelu 1 i 2), zwłaszcza z oddziałem Real3D, który zaprojektował mikroprocesor graficzny i system graficzny.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Modelo 3 é um sistema de arcada introduzido pela Sega em 1996. A ideia era começar do zero e redesenhar completamente um novo sistema. Foi o culminar da colaboração com a Lockheed Martin (após o Modelo 1 e 2), especialmente a divisão Real3D, que concebeu o microprocessador gráfico e o sistema gráfico.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Модель 3 - это аркадная система, представленная компанией Sega в 1996 году. Идея заключалась в том, чтобы начать с нуля и полностью перепроектировать новую систему. Она стала кульминацией сотрудничества с Lockheed Martin (после Model 1 и 2), особенно с подразделением Real3D, которое разработало графический микропроцессор и графическую систему.</text>
+</text>
+
+</view>
 </theme>

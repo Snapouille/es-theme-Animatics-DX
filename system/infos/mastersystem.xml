@@ -4,31 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Sega Master System is the competitor of the Nintendo NES. It was released in 1985, under the name Sega Mark III in Japan. The console was redesigned and renamed the Master System before its launch in 1986 in North America. It was released under this name in most other territories, including Europe in 1986 and Brazil in 1987.</text>
+</text>
 
-		
-				<text name="system_description" extra="true">
-			<text>The Master System is a third-generation home video game console that was manufactured by Sega. It was originally released in 1985 as the Sega Mark III in Japan. After being redesigned prior to its North American launch.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>La Master System, comercializada en Japón bajo el nombre SEGA Mark III, es una consola de videojuegos de 8 bits basada en cartuchos y tarjetas, que fue desarrollada por Sega. 
+<text name="system_description" extra="true" lang="fr">
+<text>La Sega Master System est la concurrente de la NES de Nintendo. Elle sort en 1985, sous le nom Sega Mark III au Japon. La console est redessinée et rebaptisée Master System avant son lancement en 1986 en Amérique du Nord. Elle sort sous ce nom sur la plupart des autres territoires, dont l'Europe en 1986 et le Brésil en 1987.</text>
+</text>
 
-Aunque estuvo muy por detrás en ventas fuera de Europa, Brasil y con un éxito moderado en Argentina, la experiencia sentó los cimientos para que Sega continuara con su liderazgo en esos mercados durante la siguiente generación con la Sega Mega Drive. Su cese de producción, con excepción de Brasil, fue en 1996. </text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-			<text>La Sega Master System est la concurrente de la NES de Nintendo. Elle sort en 1985, sous le nom Sega Mark III au Japon. La console est redessinée et rebaptisée Master System avant son lancement en 1986 en Amérique du Nord. Elle sort sous ce nom sur la plupart des autres territoires, dont l'Europe en 1986 et le Brésil en 1987.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Das Sega Master System ist ein Konkurrent des NES von Nintendo. Sie wurde 1985 unter dem Namen Sega Mark III in Japan veröffentlicht. Vor der Markteinführung 1986 in Nordamerika wurde die Konsole umgestaltet und in Master System umbenannt. In den meisten anderen Ländern, darunter Europa (1986) und Brasilien (1987), wurde das System unter diesem Namen veröffentlicht.</text>
+</text>
 
-				<text name="system_description" extra="true" lang="pt">
-			<text>É um console de videogame de 8-bits produzido pela Sega. Lançado inicialmente no Japão em 1986, com o nome Sega Mark III, ele enfrentou grandes dificuldades devido à forte concorrência do NES da Nintendo.</text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="es">
+<text>La Sega Master System es la competidora de la Nintendo NES. Salió a la venta en 1985, con el nombre de Sega Mark III en Japón. La consola fue rediseñada y rebautizada como Master System antes de su lanzamiento en 1986 en Norteamérica. Salió a la venta con este nombre en la mayoría de los demás territorios, incluida Europa en 1986 y Brasil en 1987.</text>
+</text>
 
-			</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il Sega Master System è il concorrente del Nintendo NES. È stato rilasciato nel 1985, con il nome di Sega Mark III in Giappone. La console fu ridisegnata e rinominata Master System prima del suo lancio nel 1986 in Nord America. Con questo nome è stata rilasciata nella maggior parte degli altri territori, tra cui l'Europa nel 1986 e il Brasile nel 1987.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>セガマスターシステムは、任天堂のファミコンの対抗馬です。1985年、日本ではセガ・マークIIIの名で発売されました。1986年に北米で発売される前に、コンソールのデザインが変更され、マスターシステムと改名されました。1986年にヨーロッパ、1987年にブラジルを含む他のほとんどの地域でこの名前で発売されました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Het Sega Master System is de concurrent van de Nintendo NES. Het werd in 1985 uitgebracht onder de naam Sega Mark III in Japan. De console werd opnieuw ontworpen en kreeg de naam Master System voor de lancering in 1986 in Noord-Amerika. Het werd onder deze naam uitgebracht in de meeste andere gebieden, waaronder Europa in 1986 en Brazilië in 1987.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Sega Master System jest konkurentem Nintendo NES. Została wydana w 1985 roku, pod nazwą Sega Mark III w Japonii. Konsola została przeprojektowana i przemianowana na Master System przed premierą w 1986 roku w Ameryce Północnej. Została wydana pod tą nazwą w większości innych terytoriów, w tym w Europie w 1986 roku i Brazylii w 1987 roku.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Sega Master System é o concorrente do Nintendo NES. Foi lançado em 1985, com o nome de Sega Mark III no Japão. A consola foi redesenhada e passou a chamar-se Master System antes do seu lançamento em 1986 na América do Norte. Foi lançada sob este nome na maioria dos outros territórios, incluindo a Europa, em 1986, e o Brasil, em 1987.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Sega Master System является конкурентом Nintendo NES. Она была выпущена в 1985 году под названием Sega Mark III в Японии. Перед выпуском в 1986 году в Северной Америке консоль была переработана и переименована в Master System. Под этим названием она была выпущена на большинстве других территорий, включая Европу в 1986 году и Бразилию в 1987 году.</text>
+</text>
+
+</view>
 </theme>

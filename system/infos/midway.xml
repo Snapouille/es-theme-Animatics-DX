@@ -4,30 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Midway was an American video game developer and publisher. Franchises included Mortal Kombat, Rampage, Spy Hunter, NBA Jam, Cruis'n and NFL Blitz. Midway also acquired the rights to video games originally developed by Williams Electronics and Atari Games, such as Defender, Joust, Robotron 2084, Gauntlet and the Rush series.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Midway était un développeur et éditeur américain de jeux vidéo. Les franchises comprenaient Mortal Kombat, Rampage, Spy Hunter, NBA Jam, Cruis'n et NFL Blitz. Midway a également acquis les droits de jeux vidéo développés à l'origine par Williams Electronics et Atari Games, tels que Defender, Joust, Robotron 2084, Gauntlet et la série Rush.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Midway war ein US-amerikanischer Entwickler und Herausgeber von Videospielen. Zu den Franchises gehörten Mortal Kombat, Rampage, Spy Hunter, NBA Jam, Cruis'n und NFL Blitz. Midway erwarb auch die Rechte an Videospielen, die ursprünglich von Williams Electronics und Atari Games entwickelt wurden, wie Defender, Joust, Robotron 2084, Gauntlet und die Rush-Serie.</text>
+</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="es">
+<text>Midway fue un desarrollador y editor de videojuegos estadounidense. Entre sus franquicias se encontraban Mortal Kombat, Rampage, Spy Hunter, NBA Jam, Cruis'n y NFL Blitz. Midway también adquirió los derechos de videojuegos desarrollados originalmente por Williams Electronics y Atari Games, como Defender, Joust, Robotron 2084, Gauntlet y la serie Rush.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="it">
+<text>Midway è stato uno sviluppatore ed editore americano di videogiochi. Tra i suoi franchise figurano Mortal Kombat, Rampage, Spy Hunter, NBA Jam, Cruis'n e NFL Blitz. Midway ha anche acquisito i diritti di videogiochi originariamente sviluppati da Williams Electronics e Atari Games, come Defender, Joust, Robotron 2084, Gauntlet e la serie Rush.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="ja">
+<text>ミッドウェイはアメリカのビデオゲーム開発会社であり、パブリッシャーであった。モータルコンバット、ランペイジ、スパイハンター、NBAジャム、クルイズン、NFLブリッツなどのフランチャイズがある。ミッドウェイは、ウィリアムズ・エレクトロニクスとアタリ・ゲームズが開発したビデオゲーム（ディフェンダー、ジュスト、ロボトロン2084、ガントレット、ラッシュ・シリーズなど）の権利も獲得している。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Midway was een Amerikaanse ontwikkelaar en uitgever van videospelletjes. Franchises waren onder meer Mortal Kombat, Rampage, Spy Hunter, NBA Jam, Cruis'n en NFL Blitz. Midway verwierf ook de rechten op videospelletjes die oorspronkelijk door Williams Electronics en Atari Games waren ontwikkeld, zoals Defender, Joust, Robotron 2084, Gauntlet en de Rush-serie.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Midway był amerykańskim producentem i wydawcą gier wideo. Franczyzy obejmowały Mortal Kombat, Rampage, Spy Hunter, NBA Jam, Cruis'n i NFL Blitz. Midway nabyło również prawa do gier wideo opracowanych pierwotnie przez Williams Electronics i Atari Games, takich jak Defender, Joust, Robotron 2084, Gauntlet i seria Rush.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Midway era um criador e editor americano de jogos de vídeo. Os franchisados incluíam Mortal Kombat, Rampage, Spy Hunter, NBA Jam, Cruis'n e NFL Blitz. A Midway também adquiriu os direitos dos jogos de vídeo originalmente desenvolvidos pela Williams Electronics e Atari Games, tais como Defender, Joust, Robotron 2084, Gauntlet e a série Rush.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Компания Midway была американским разработчиком и издателем видеоигр. Среди франшиз были Mortal Kombat, Rampage, Spy Hunter, NBA Jam, Cruis'n и NFL Blitz. Midway также приобрела права на видеоигры, первоначально разработанные компаниями Williams Electronics и Atari Games, такие как Defender, Joust, Robotron 2084, Gauntlet и серия Rush.</text>
+</text>
+
+</view>
 </theme>

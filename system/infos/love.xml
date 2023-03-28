@@ -4,29 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>LÖVE is a framework for creating 2D games in the Lua programming language. It is completely free, and can be used in any project, from friendly open-source hobbyists to malicious closed-source commercial projects.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>LÖVE est un cadre de travail pour créer des jeux en 2D dans le langage de programmation Lua. Il est totalement libre, et peut être utilisé dans n'importe quel projet, du hobby open-source sympathique aux projets commerciaux malveillants à code source fermé.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="de">
+<text>LÖVE ist ein Framework zum Erstellen von 2D-Spielen in der Programmiersprache Lua. Es ist völlig frei und kann in jedem Projekt eingesetzt werden, vom netten Open-Source-Hobby bis hin zu bösartigen kommerziellen Projekten mit geschlossenem Quellcode.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>LÖVE es un framework para crear juegos 2D en el lenguaje de programación Lua. Es completamente gratuito y puede utilizarse en cualquier proyecto, desde amables aficionados al código abierto hasta maliciosos proyectos comerciales de código cerrado.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>LÖVE è un framework per la creazione di giochi 2D nel linguaggio di programmazione Lua. È completamente gratuito e può essere utilizzato in qualsiasi progetto, dai simpatici hobbisti open-source ai maligni progetti commerciali closed-source.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>LÖVEは、プログラミング言語Luaで2Dゲームを作成するためのフレームワークです。完全に無料で、フレンドリーなオープンソースのホビイストから悪意のあるクローズドソースの商業プロジェクトまで、あらゆるプロジェクトで使用することができます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>LÖVE is een raamwerk voor het maken van 2D spellen in de programmeertaal Lua. Het is volledig vrij, en kan gebruikt worden in elk project, van vriendelijke open-source hobbyisten tot kwaadaardige closed-source commerciële projecten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>LÖVE to framework do tworzenia gier 2D w języku programowania Lua. Jest całkowicie darmowy i może być wykorzystany w każdym projekcie, od przyjaznych hobbystom open-source po złośliwe, zamknięte projekty komercyjne.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>LÖVE é uma estrutura para a criação de jogos 2D na linguagem de programação Lua. É completamente gratuito, e pode ser utilizado em qualquer projecto, desde os amistosos hobbyistas de código aberto a projectos comerciais maliciosos de código fechado.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>LÖVE - это основа для создания 2D-игр на языке программирования Lua. Она полностью бесплатна и может быть использована в любом проекте, от дружественных хоббистов с открытым исходным кодом до злобных коммерческих проектов с закрытым исходным кодом.</text>
+</text>
+
+</view>
 </theme>

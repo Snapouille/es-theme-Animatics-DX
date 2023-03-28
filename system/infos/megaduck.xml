@@ -4,19 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>The Mega Duck (also known as Cougar Boy) is a portable console created by several companies (Creatonic, Videojet and Timlex). The cartridges are quite similar to those of the Watara Supervision, although they are slightly smaller than the latter. The electronics of both consoles are also quite similar.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Mega Duck WG-108 (also known as Cougar Boy) is a handheld game console that was developed and manufactured by Hong Kong-based Welback Holdings through its Timlex International division, and released in 1993.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>La Mega Duck (aussi connu sous le nom Cougar Boy) est une console portable créée par plusieurs compagnies (Creatonic, Videojet et Timlex). Les cartouches sont assez semblables à celles de la Watara Supervision, bien qu'elles soient légèrement moins large que ces dernières. L'électronique des deux consoles est elle aussi tout à fait similaire.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>La Mega Duck WG-108 (también conocida como Cougar Boy) es una consola de juegos portátil que fue desarrollada y fabricada por Welback Holdings con sede en Hong Kong a través de su división Timlex International y lanzada en 1993.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die Mega Duck (auch bekannt als Cougar Boy) ist eine tragbare Konsole, die von mehreren Firmen (Creatonic, Videojet und Timlex) entwickelt wurde. Die Cartridges sind denen der Watara Supervision recht ähnlich, obwohl sie etwas kleiner sind als diese. Auch die Elektronik der beiden Konsolen ist sehr ähnlich.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>La Mega Duck (también conocida como Cougar Boy) es una consola portátil creada por varias empresas (Creatonic, Videojet y Timlex). Los cartuchos son bastante similares a los de la Watara Supervision, aunque son ligeramente más pequeños que estos últimos. La electrónica de ambas consolas también es bastante similar.</text>
+</text>
 
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Il Mega Duck (noto anche come Cougar Boy) è una console portatile creata da diverse aziende (Creatonic, Videojet e Timlex). Le cartucce sono abbastanza simili a quelle del Watara Supervision, anche se sono leggermente più piccole di quest'ultimo. Anche l'elettronica delle due console è abbastanza simile.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>メガダック（別名クーガーボーイ）は、複数の会社（Creatonic、Videojet、Timlex）によって作られた携帯ゲーム機である。カートリッジはワタラ・スーパーヴィジョンのものとよく似ているが、後者より若干小さい。また、両コンソールの電子機器もよく似ている。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Mega Duck (ook bekend als Cougar Boy) is een draagbare console die door verschillende bedrijven (Creatonic, Videojet en Timlex) is gemaakt. De cartridges lijken sterk op die van de Watara Supervision, hoewel ze iets kleiner zijn dan laatstgenoemde. Ook de elektronica van de twee consoles is vergelijkbaar.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Mega Duck (znany również jako Cougar Boy) to przenośna konsola stworzona przez kilka firm (Creatonic, Videojet i Timlex). Kartridże są dość podobne do tych z Watara Supervision, choć są nieco mniejsze od tej ostatniej. Również elektronika obu konsol jest dość podobna.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Mega Duck (também conhecido como Cougar Boy) é uma consola portátil criada por várias empresas (Creatonic, Videojet e Timlex). Os cartuchos são bastante semelhantes aos da Watara Supervision, embora sejam ligeiramente mais pequenos do que estes últimos. A electrónica das duas consolas é também bastante semelhante.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Mega Duck (также известная как Cougar Boy) - это портативная консоль, созданная несколькими компаниями (Creatonic, Videojet и Timlex). Картриджи весьма похожи на картриджи приставки Watara Supervision, хотя они немного меньше, чем у последней. Электроника этих двух консолей также весьма схожа.</text>
+</text>
+
+</view>
 </theme>
