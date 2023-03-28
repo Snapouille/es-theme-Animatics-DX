@@ -31,7 +31,7 @@ originally based on: "carbon"
 	
     <gridtile name="default">
       <backgroundColor>FFFFFF00</backgroundColor>
-      <backgroundCornerSize>0.02 0.02</backgroundCornerSize>
+      <backgroundCornerSize>0.01 0.01</backgroundCornerSize>
       <selectionMode>image</selectionMode>
       <padding>12 12</padding>
       <!-- <imageColor>A8A8A8FF</imageColor> -->
@@ -66,8 +66,8 @@ originally based on: "carbon"
     </image>
 	
     <ninepatch name="gridtile.background:selected">
-	  <color>${bottomBarColor}</color>
-      <animateColor>FFFF00</animateColor>
+	  <color>${gradientEndColor}</color>
+	  <animateColor>${baseColor}</animateColor>
       <animateColorTime>600</animateColorTime>
     </ninepatch>
 	
