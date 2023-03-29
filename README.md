@@ -61,7 +61,8 @@ Features :
 ![Gamelist View Fanart 2](https://user-images.githubusercontent.com/105559045/226408868-8ec567a4-297d-4086-a9b6-4a8cc10a66d6.png)
 
 ## Gamelist view : Boxes (Big - Medium and Small)
-![2023-03-16 18_27_48-EmulationStation](https://user-images.githubusercontent.com/105559045/225704909-307e8621-5188-4f93-8d6e-d0d9622929b5.png)
+![2023-03-29 18_08_52-EmulationStation](https://user-images.githubusercontent.com/105559045/228601033-1b6a1890-c2f4-438e-8082-2b8b284d2398.png)
+
 
 ---
 
