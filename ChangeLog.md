@@ -1,3 +1,27 @@
+## V 1.39 - (2023 03 31)
+
+**Add Background for Batocera System :**
+- adam   
+- archimedes  
+- arduboy  
+- atom   
+- cannonball  
+- pet 
+- cplus4 
+- gp32  
+- laser310  
+- lowresnx  
+- mrboom
+- sdlpop 
+- socrates   
+- sonicretro
+- superbroswar 
+- uzebox
+- xash3d_fwgs
+- xrick
+
+
+
 ## V 1.38 - (2023 03 26)
 
 ![2023-03-26 17_33_48-EmulationStation](https://user-images.githubusercontent.com/105559045/227786458-1fb456d9-905f-49d4-b55b-15e5cfbfaf26.png)
