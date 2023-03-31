@@ -1,0 +1,40 @@
+<!-- Coleco ADAM -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="plane" extra="static">
+			<origin>0.5 0.5</origin>
+			<size>0.2890625 0.4398148</size>									
+			<pos>1.2544271 0.975463</pos>									
+
+			<scale>0.61</scale>
+			<rotation>25</rotation>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./plane.png</path>
+			<linearSmooth>true</linearSmooth>
+		
+		
+			 <storyboard>
+
+				
+                <animation property="rotation" from="25" to="0" begin="" duration="1500" mode="EaseInOut"/>
+				<animation property="pos" to="0.5283854 0.299537" begin="" duration="1500" mode="EaseInOut"/>
+				<animation property="scale" to="1" begin="" duration="1500" mode="EaseInOut"/>
+				
+				
+
+            </storyboard>		
+			
+		</image>
+		
+		
+		
+		
+		
+	</view>
+
+</theme>
