@@ -35,7 +35,10 @@ originally based on: "carbon"
 	  
 	   <storyboard>		
         		<animation property="scale" to="0.7" autoreverse="true" duration="200" mode="easeOut"/>
-        </storyboard>
+       </storyboard>
+	
+		
+		
 	</imagegrid>
 	
     <gridtile name="default">
@@ -84,7 +87,10 @@ originally based on: "carbon"
 		</storyboard>
       </image>
 
-
+	<!-- on passe juste la couleur de selection de fond en transparent -->
+	<ninepatch name="gridtile.background:selected">
+		<color>FFFFFF00</color>
+    </ninepatch>
 
 
 
