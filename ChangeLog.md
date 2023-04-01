@@ -19,6 +19,9 @@
 - uzebox
 - xash3d_fwgs
 - xrick
+- MSX2+
+- MSX Turbo
+- Custom-collections
 
 
 
