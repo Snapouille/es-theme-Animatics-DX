@@ -1,7 +1,7 @@
 ﻿<theme>
  
   
-   <view name="basic, detailed">
+   <view name="detailed">
   <!-- Affichage de la jaquette <maxSize>x y</maxSize> x=largeur y=hauteur -->
   <image name="md_thumbnail">
 		<origin>0.40 0.50</origin>

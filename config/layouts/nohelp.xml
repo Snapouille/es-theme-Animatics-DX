@@ -62,7 +62,7 @@
   
   
   <!-- On repositionne la barre en bas pour la mettre tout en bas de l'écran-->
-	<view name="basic, detailed, grid, video">
+	<view name="detailed, grid, video">
 		<image name="bottom" extra="true">
 			  <visible>true</visible>
 			  <pos>0 1.06</pos>

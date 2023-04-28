@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-	<view name="basic, detailed, video">
+	<view name="detailed, video">
 		<textlist name="gamelist">
 			<!-- Choix de la Police, Taille et Nombres de lignes dans la gamelist 
 			     J'ai une erreur dans le script, quand on mettait "auto" ça met la denière lignes
