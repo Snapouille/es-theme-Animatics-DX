@@ -1,3 +1,18 @@
+## V 1.40 - (2023 04 28)
+
+- add monitor screen for windows games
+- add multiple console icons for the collections
+- delete the "basic" view (useless)
+
+
+**Add Background or change for collections System :**
+- Aventure (Simon the Sorcerer)
+- Beat'em up (Captain Commando)
+
+![2023-04-28 17_24_24-EmulationStation](https://user-images.githubusercontent.com/105559045/235188808-99cf7730-f086-4a7c-8dac-14e153ee738d.png)
+
+
+
 ## V 1.39 - (2023 03 31)
 
 **Add Background for Batocera System :**
