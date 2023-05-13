@@ -4,7 +4,8 @@
 ![2023-05-13 17_06_34-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/1cd2f9b9-238d-42c7-ab14-f99f89d61c5f)
 ![2023-05-13 17_06_39-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/598efb8d-7194-48f9-ba6b-6a295c056865)
 
-- add multiple new bartop for arcade game
+
+- add multiple new bartop for arcade game (with the marquee on bartop)
 ![2023-05-13 17_10_14-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/4a0b4fca-3151-4ef8-9aae-57340d23a3e5)
 ![2023-05-13 17_08_42-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/90617498-14ee-42e2-8ab0-97fcfebe9d3e)
 ![2023-05-13 17_09_06-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/80cb2d56-1228-4d10-97ad-ec1d7291e121)
