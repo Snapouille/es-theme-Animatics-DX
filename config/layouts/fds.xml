@@ -1,27 +1,25 @@
 ﻿<theme>
- 
+  
   
   <view name="detailed">
-  <!-- Affichage de la jaquette <maxSize>x y</maxSize> x=largeur y=hauteur -->
 					
 	
-	
-	
 	<image name="ecran_console" extra="static">
-			<pos>0.515 0.17</pos>
+			<pos>0.50 0.21</pos>
 			<size>0.4427083 0.525</size>
 			<scale>0.9</scale>
-			<path>./../art/background/fds/ecran_console.png</path>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.566" begin="1000" duration="200" mode="linear"/>
+					<animation property="x" to="0.545" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.18" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.566" begin="1000" duration="200" mode="linear"/>
+						<animation property="x" to="0.545" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.18" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -32,17 +30,18 @@
   
   
 		<video name="md_video">
-		  <pos>0.68 0.3688</pos>
-		  <size>0.22 0.303</size>
-		  <roundCorners>0</roundCorners>
+		  <pos>0.665 0.4088</pos>
+		  <size>0.22 0.30</size>
 		  
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.731" begin="1000" duration="200" mode="linear"/>
+					<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.3788" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.731" begin="1000" duration="200" mode="linear"/>
+						<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.3788" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -51,40 +50,54 @@
 		  
 		</video>
   
+		<!-- fond noir de l'écran -->
+		<image name="black_bg">
+		  <pos>0.665 0.4088</pos>
+		  <size>0.22 0.30</size>
+		  
+				<storyboard event="open">
+					<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.3788" begin="1200" duration="200" mode="linear"/>
+				</storyboard>
+					
+				<storyboard event="activate">
+						<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.3788" begin="1200" duration="200" mode="linear"/>
+				</storyboard>
+					
+				<storyboard event="deactivate">
+						<animation property="opacity" to="0" duration="1" mode="linear"/>
+				</storyboard>
+		</image>
+  
   
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.398 0.38</pos> 
+		<pos>0.368 0.38</pos> 
 		<maxSize>0.23 0.54</maxSize>
 		<scale>0.55</scale>
 		<zIndex>100</zIndex>
-		<!-- <visible>false</visible> -->
 		<roundCorners>0.01</roundCorners>
 		
 		
 		<storyboard event="open">
-                <animation property="x" to="0.443" begin="1000" duration="200" mode="linear"/>
-				<animation property="y" to="0.32" begin="1000" duration="200" mode="linear"/>
-				<animation property="scale" to="1" begin="1000" duration="200" mode="linear"/>
+                <animation property="x" to="0.413" begin="1200" duration="200" mode="linear"/>
+				<animation property="y" to="0.32" begin="1200" duration="200" mode="linear"/>
+				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.443" begin="1000" duration="200" mode="linear"/>
-				<animation property="y" to="0.32" begin="1000" duration="200" mode="linear"/>
-				<animation property="scale" to="1" begin="1000" duration="200" mode="linear"/>
+                <animation property="x" to="0.413" begin="1200" duration="200" mode="linear"/>
+				<animation property="y" to="0.32" begin="1200" duration="200" mode="linear"/>
+				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
-			    <animation property="opacity" to="0" duration="1" mode="linear"/>
+			   <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
 		
-		
-		
-		
-		
 	</image>
-	
 	
 	
 	

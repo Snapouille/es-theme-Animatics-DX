@@ -225,14 +225,14 @@ originally based on: "carbon"
 		
 		
 		
-		<image name="md_cheevos,md_notcheevos">
-			<origin>0.5 0.5</origin>
-			<path>./../../art/icons/Contest.png</path>
-			<pos>0.976 0.64</pos>
-			<maxSize>0.02 0.03</maxSize>     
-			<color>FFFF00</color>
-			<zIndex>150</zIndex>
-		</image>
+<image name="md_cheevos,md_notcheevos">
+<origin>0.5 0.5</origin>
+<path>./../../art/icons/Contest.png</path>
+<pos>0.976 0.64</pos>
+<maxSize>0.02 0.03</maxSize>     
+<color>FFFF00</color>
+<zIndex>150</zIndex>
+</image>
 		
 		<image name="ghost_cheevos" extra="true">
 			<origin>0.5 0.5</origin>
@@ -301,15 +301,7 @@ originally based on: "carbon"
             </storyboard>
 		</image>
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				
 		<datetime name="md_releasedate">
 			<origin>0.5 1</origin>
 			<pos>0.976 0.78</pos>

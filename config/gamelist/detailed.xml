@@ -19,10 +19,29 @@ originally based on: "carbon"
 		<color>${baseColor}</color>
 		<zIndex>31</zIndex>
 			<storyboard event="open">
-				<animation property="x" to="0.57" begin="1000" duration="200" mode="linear"/>
+				<animation property="x" to="0.575" begin="1200" duration="200" mode="linear"/>
 			</storyboard>
 			<storyboard event="activate">
-					<animation property="x" to="0.57" begin="1000" duration="200" mode="linear"/>
+					<animation property="x" to="0.575" begin="1200" duration="200" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>
+		<size>0.3223958 0.325</size>									
+		<pos>0.7177604 0.3884259</pos>			
+		<zIndex>14</zIndex>
+			<storyboard event="open">
+				<animation property="x" to="0.7627604" begin="1200" duration="200" mode="linear"/>
+			</storyboard>
+			<storyboard event="activate">
+					<animation property="x" to="0.7627604" begin="1200" duration="200" mode="linear"/>
 			</storyboard>
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -32,6 +51,7 @@ originally based on: "carbon"
 	
 	
     <video name="md_video">
+	  <origin>0.5 0.5</origin>									
 	  <pos>0.718 0.3897</pos>
 	  <maxSize>0.32 0.32</maxSize>
       <delay>1.4</delay>
@@ -39,42 +59,46 @@ originally based on: "carbon"
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <loops>1</loops>
+	  <roundCorners>0</roundCorners>
       <zIndex>30</zIndex>
       <defaultSnapshot>./../../art/divers/mediamissing.png</defaultSnapshot>
 	  
 		<storyboard event="open">
-			<animation property="x" to="0.758" begin="1000" duration="200" mode="linear"/>
+			<animation property="x" to="0.763" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-				<animation property="x" to="0.758" begin="1000" duration="200" mode="linear"/>
+				<animation property="x" to="0.763" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
 				<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
     </video>
+  
+		
 	 
 	 
 	<!-- Position de la jaquette <maxSize>x y</maxSize> x=largeur y=hauteur  -->
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.398 0.34</pos> 
-		<maxSize>0.233 0.597</maxSize>
+		<pos>0.368 0.34</pos> 
+		<maxSize>0.233 0.397</maxSize>
 		<scale>0.55</scale>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
+		<!-- <default>./../../art/divers/noboxart.png</default> -->
 		
 		<storyboard event="open">
-                <animation property="x" to="0.437" begin="1000" duration="200" mode="linear"/>
-				<animation property="y" to="0.33" begin="1000" duration="200" mode="linear"/>
-				<animation property="scale" to="0.93" begin="1000" duration="200" mode="linear"/>
+                <animation property="x" to="0.419" begin="1200" duration="200" mode="linear"/>
+				<animation property="y" to="0.33" begin="1200" duration="200" mode="linear"/>
+				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.437" begin="1000" duration="200" mode="linear"/>
-				<animation property="y" to="0.33" begin="1000" duration="200" mode="linear"/>
-				<animation property="scale" to="0.93" begin="1000" duration="200" mode="linear"/>
+                <animation property="x" to="0.419" begin="1200" duration="200" mode="linear"/>
+				<animation property="y" to="0.33" begin="1200" duration="200" mode="linear"/>
+				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
@@ -84,7 +108,7 @@ originally based on: "carbon"
 	
 	
 	<!-- Animation LOGO des systèmes  -->	
-	 <image name="logo">
+	<image name="logo">
 		  
 		  <storyboard>
 			<animation property="scale" from="0" to="4" begin="" duration="300" mode="Linear"/>
@@ -133,13 +157,6 @@ originally based on: "carbon"
 		<animation property="x" to="-1" duration="500" mode="Linear"/>
 	</storyboard>
 	
-	
-	
-	
-	
-	
-	
-	  
 	  
 	</image>
 	
@@ -158,28 +175,6 @@ originally based on: "carbon"
 				
 	
 	
-	<!-- les 2 lignes verticale de séparation entre gamelist et infos -->
-	
-	<image name="detailsBkLine" extra="true">
-	  <path>./../../art/divers/white.png</path>
-	  <!-- <color>${centerFadeColor}</color> -->
-	  <color>${baseColor}</color>
-	  <origin>0 0</origin>
-	  <pos>0.34 0.157</pos>
-	  <size>0.003 0.778</size>
-	  <size ifHelpPrompts="false">0.003 0.84</size>
-	  <zIndex>14</zIndex>
-	</image>
-	
-	<image name="detailsBkLine2" extra="true">
-	  <path>./../../art/divers/white.png</path>
-	  <color>${centerFadeColor}</color>
-	  <origin>0 0</origin>
-	  <pos>0.478 0.157</pos>
-	  <size>0.003 0.778</size>
-	  <size ifHelpPrompts="false">0.003 0.84</size>
-	  <zIndex>14</zIndex>
-	</image>
 	
 	
     <textlist name="gamelist">
@@ -190,7 +185,7 @@ originally based on: "carbon"
 		  <extraTextColor>c0a767</extraTextColor>
 		  <forceUppercase>0</forceUppercase>
 		  <pos>0.01 0.17</pos>
-		  <size>0.321 0.755</size>
+		  <size>0.291 0.755</size>
 		  <alignment>left</alignment>
 		  <horizontalMargin>0.00</horizontalMargin>
 		  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
@@ -205,56 +200,362 @@ originally based on: "carbon"
     </textlist>
 	
 	
-    
-    
-    <text name="md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_releasedate">
-      <color>969696</color>
-      <forceUppercase>0</forceUppercase>
-      <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
-      <fontSize>0.023</fontSize>
-    </text>
-    <text name="md_genre, md_developer, md_publisher, md_lastplayed, md_releasedate">
-      <color>969696</color>
-      <forceUppercase>0</forceUppercase>
-      <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-      <fontSize>0.023</fontSize>
-    </text>
-    <text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
-      <pos>1 1</pos>
-    </text>
-  
+	<!-- les 2 lignes verticale de séparation entre gamelist et infos -->
 	
-  	
-    <text name="md_developer">
-      <color>EFEFFF</color>
-	  <pos>0.504 0.889</pos>
-      <size>0.30 0.05</size>
-      <alignment>left</alignment>
-      <fontSize>0.025</fontSize>
-    </text>
+	<image name="detailsBkLine" extra="true">
+	  <path>./../../art/divers/white.png</path>
+	  <color>${baseColor}</color>
+	  <origin>0 0</origin>
+	  <pos>0.31 0.157</pos>
+	  <size>0.003 0.778</size>
+	  <size ifHelpPrompts="false">0.003 0.84</size>
+	  <zIndex>14</zIndex>
+	</image>
 	
-	<text name="md_genre">
-		<pos>0.55 0.897</pos>
-		<size>0.38 0.035</size>
-		<alignment>right</alignment>
-	</text>
+	<image name="detailsBkLine2" extra="true">
+	  <path>./../../art/divers/white.png</path>
+	  <color>${centerFadeColor}</color>
+	  <origin>0 0</origin>
+	  <pos>0.448 0.155</pos>
+	  <size>0.003 0.781</size>
+	  <size ifHelpPrompts="false">0.003 0.84</size>
+	  <zIndex>14</zIndex>
+	</image>
 	
+	
+
+	
+	
+	<!-- Common pour tout les éléments -->
+	<image name="topLine, topLineRight, topSquare, yellowSquare" extra="true">
+		<origin>0 0</origin>
+		<path>./../../art/divers/white.png</path>
+        <color>${baseColor}</color>
+		<zIndex>55</zIndex>
+	</image>
+	
+	<!-- Ligne du haut à réduire vers la gauche -->
+	<image name="topLine" extra="true">
+      <pos>0 0.155</pos>
+      <size>0.313 0.005</size>
+    </image>
+	
+	
+	<!-- Ligne du haut à pousser vers la droite -->
+	<image name="topLineRight" extra="true">
+      <pos>0.313 0.155</pos>
+      <size>1 0.005</size>
+	  
+		<storyboard event="open">
+			<animation property="pos" to="0.58 0.155" begin="1000" duration="500" mode="EaseOut"/>
+		</storyboard>
 		
+		<storyboard event="activate">
+			<animation property="pos" to="0.58 0.155" begin="1000" duration="500" mode="EaseOut"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="pos" to="0.343 0.155" duration="100" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+	
+	<!-- Square jaune qui se balade -->
+	<image name="yellowSquare" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.0026042 0.0046296</size>									
+		<pos>0.3445313 0.1569444</pos>									
+		<color>fdde0b</color>
+		<opacity>0</opacity>
+	  
+		<storyboard event="open">
+			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+			<animation property="pos" to="0.63 0.1569444" begin="1000" duration="480" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1569444" begin="1500" duration="480" mode="EaseOut"/>
+			
+			<animation property="pos" to="0.5791667 0.1625" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.5744792 0.1625" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.5744792 0.1523148" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1523148" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+			<animation property="pos" to="0.63 0.1569444" begin="1000" duration="480" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1569444" begin="1500" duration="480" mode="EaseOut"/>
+			
+			<animation property="pos" to="0.5791667 0.1625" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.5744792 0.1625" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.5744792 0.1523148" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1523148" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+	
+	<!-- Square qui se forme -->
+	<image name="topSquare" extra="true">
+      <pos>0.573 0.15</pos>
+      <size>0.008 0.015</size>
+	  <opacity>0</opacity>
+	  
+		<storyboard event="open">
+			<animation property="opacity" to="1" begin="2100" duration="100" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="opacity" to="1" begin="2100" duration="100" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+	
+	
 	
 	
 	
 	<text name="md_description">
-      <origin>0.11 0.03</origin>
-	  <pos>0.55 0.67</pos>
-	  <size>0.43 0.213</size>
+		<origin>0.5 0.5</origin>									
+		<size>0.01 0.01</size>									
+		<pos>0.70 0.775</pos>
+		
 	  <lineSpacing>1.3</lineSpacing>
 	  <alignment>left</alignment>
       <color>C0C0C0</color>
       <forceUppercase>0</forceUppercase>
       <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
       <fontSize>0.022</fontSize>
+			
+		
+		<storyboard event="open">
+			<animation property="size" to="0.45 0.213" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="size" to="0.45 0.213" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</text>
+	
+	
+	
+	
+	
+	
+	<text name="md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre">
+		<color>C0C0C0</color>
+		<forceUppercase>0</forceUppercase>
+		<alignment>left</alignment>
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+		<fontSize>0.023</fontSize>
+	</text>
+	
+	
+	<text name="md_genre, md_developer, md_publisher, md_releasedate">
+		<forceUppercase>0</forceUppercase>
+		<color>${baseColor}</color>
+		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
+		<fontSize>0.023</fontSize>
     </text>
 	
+	<text name="md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_releasedate, md_lbl_genre">
+		<opacity>1</opacity>
+		
+		<storyboard event="open">
+			<animation property="opacity" to="0" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activate">
+			<animation property="opacity" to="0" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</text>
+	
+	<text name="md_lbl_developer">
+		<pos>0.504 0.705</pos>
+	</text>
+	
+	<text name="md_developer">
+		<pos>0.504 0.725</pos>
+	    <size>0.30 0.05</size>
+	    
+		
+		<storyboard event="open">
+			<animation property="pos" to="0.474 0.889" begin="1200" duration="200" mode="linear"/>
+			<animation property="color" to="ff3f2f" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activate">
+			<animation property="pos" to="0.474 0.889" begin="1200" duration="200" mode="linear"/>
+			<animation property="color" to="ff3f2f" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+
+	</text>
+	
+	<text name="md_lbl_publisher">
+		<pos>0.504 0.775</pos>
+	</text>
+	
+	<text name="md_publisher">
+		<pos>0.504 0.795</pos>
+		<forceUppercase>1</forceUppercase>
+	</text>
+	
+	<text name="md_lbl_releasedate">
+		<pos>0.504 0.847</pos>
+	</text>
+	
+	<datetime name="md_releasedate">
+		<origin>0 0</origin>
+		<pos>0.504 0.877</pos>
+		<size>0.1 0.035</size>
+		<format>%Y</format>
+		<rotation>0</rotation>
+		<color>fdde0b</color>
+		<forceUppercase>0</forceUppercase>
+		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
+		<fontSize>0.031</fontSize>
+			
+		<storyboard event="open">
+			<animation property="pos" to="0.925 0.75" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
+			<animation property="rotation" to="-90" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activate">
+			<animation property="pos" to="0.925 0.75" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
+			<animation property="rotation" to="-90" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+			
+	</datetime>
+	
+	<image name="md_flag">
+		<origin>0.5 0</origin>
+		<pos>0.888 0.715</pos>
+		<maxSize>0.04 0.10</maxSize>
+		<linearSmooth>true</linearSmooth>
+			
+		<storyboard event="open">
+			<animation property="pos" to="0.976 0.88" begin="1200"  duration="200" mode="linear"/>
+			<animation property="maxSize" to="0.022 0.05" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activate">
+			<animation property="pos" to="0.976 0.88" begin="1200"  duration="200" mode="linear"/>
+			<animation property="maxSize" to="0.022 0.05" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+			
+	</image>
+	
+	
+	
+	
+	<text name="md_players">
+		<color>ff3f2f</color>
+		<pos>0.81 0.807</pos>
+		<origin>0.5 0.5</origin>
+		<fontPath>./../../art/fonts/players.ttf</fontPath>
+		<size>0.203 0.103</size>
+		<alignment>right</alignment>
+		<fontSize>0.048</fontSize>
+        <singleLineScroll>true</singleLineScroll>
+		
+		<storyboard event="open">
+			<animation property="pos" to="0.343 0.895" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activate">
+			<animation property="pos" to="0.343 0.895" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</text>
+	
+	<text name="md_lbl_genre">
+		<pos>0.872 0.847</pos>
+		<alignment>right</alignment>
+	</text>
+	
+	<text name="md_genre">
+		<pos>0.53 0.877</pos>
+		<alignment>right</alignment>
+		
+		
+		<size>0.38 0.035</size>
+		
+		
+		
+		<storyboard event="open">
+			<animation property="pos" to="0.55 0.897" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="fdde0b" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activate">
+			<animation property="pos" to="0.55 0.897" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="fdde0b" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</text>
 	
 	
 	
@@ -263,37 +564,34 @@ originally based on: "carbon"
 	<!-- Quadrillage au niveau des infos (Nombre de parties, Dernier jeu, ...)  -->
 	<image name="info_background" extra="true">
          <origin>0 0</origin>
-         <pos>0.343 0.1545</pos>
+         <pos>0.313 0.1545</pos>
          <size>0.135 0.85</size>
          <tile>true</tile>
          <path>./../../art/divers/bg_square.png</path>
          <zIndex>10</zIndex>
       </image>
 	  
-	  
-	  
-	  
 	
 	<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->
-		
 		<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime">
 			<size>0.115 0.03</size>
 			<color>C0C0C0</color>
 			<alignment>right</alignment>
 			<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 			<fontSize>0.022</fontSize>
+			<x>0.33</x>
 		</text>
 		
 		<text name="md_lbl_playcount">
-			<pos>0.36 0.64</pos>
+			<y>0.64</y>
 		</text>
 		
 		<text name="md_lbl_lastplayed">
-			<pos>0.36 0.71</pos>
+			<y>0.71</y>
 		</text>
 		
 		<text name="md_lbl_gametime">
-			<pos>0.36 0.79</pos>
+			<y>0.79</y>
 		</text>
 		
 		<text name="md_lbl_players">
@@ -302,41 +600,27 @@ originally based on: "carbon"
 		
 		
 	<!-- METADATA -->
-	
-	<text name="md_playcount, md_lastplayed, md_gametime">
-	   <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
-	   <fontSize>0.023</fontSize>
-	   <color>${baseColor}</color>
-	   <alignment>right</alignment>
-	   <size>0.115 0.03</size>
-	</text>
-	
-	<text name="md_playcount">
-		<pos>0.355 0.67</pos>
-	</text>
-	
-	<datetime name="md_lastplayed">
-		<pos>0.355 0.74</pos>
-	</datetime>
-	
-	<text name="md_gametime">
-		<pos>0.355 0.82</pos>	
-	</text>
+		<text name="md_playcount, md_lastplayed, md_gametime">
+		   <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
+		   <fontSize>0.023</fontSize>
+		   <color>${baseColor}</color>
+		   <alignment>right</alignment>
+		   <size>0.115 0.03</size>
+		   <x>0.325</x>
+		</text>
+		
+		<text name="md_playcount">
+			<y>0.67</y>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<y>0.74</y>
+		</datetime>
+		
+		<text name="md_gametime">
+			<y>0.82</y>	
+		</text>
     
-	
-	<text name="md_players">
-		<origin>0.5 0.5</origin>
-		<fontPath>./../../art/fonts/players.ttf</fontPath>
-		<size>0.203 0.103</size>
-		<pos>0.373 0.895</pos>
-		<alignment>right</alignment>
-		<fontSize>0.048</fontSize>
-		<color>dddddd</color>
-        <singleLineScroll>true</singleLineScroll>
-    </text>
-	
-	
-	
 	
 	
 	

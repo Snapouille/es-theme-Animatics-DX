@@ -1,0 +1,18 @@
+﻿<theme>
+ 
+  
+  <view name="detailed">
+  	
+	<image name="md_thumbnail">
+		<visible>false</visible>
+		
+	</image>
+	
+	<video name="md_video">
+	  <maxSize>0.3 0.25</maxSize>
+	 </video>
+	
+   </view>
+  
+  
+</theme>

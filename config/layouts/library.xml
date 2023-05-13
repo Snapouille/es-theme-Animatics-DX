@@ -8,4 +8,171 @@
     </text>
   </view>
   
+  
+  
+  
+<view name="detailed">
+
+	<image name="ecran_console, detailsBkLine2, md_marquee, md_thumbnail, md_flag, info_background" extra="static">
+		<visible>false</visible>
+	</image>
+	
+	<text name="md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players, md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_playcount, md_lastplayed, md_gametime">
+		<visible>false</visible>
+	</text>
+
+	<video name="md_video">
+		<origin>0.5 0.5</origin>									
+		<pos>0.65 0.5467593</pos>									
+		<maxSize>0.3546875 0.7231481</maxSize>									
+		
+		<storyboard event="open">
+			<animation property="pos" to="0.7549479 0.5467593" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+			
+		<storyboard event="activate">
+			<animation property="pos" to="0.7549479 0.5467593" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+			
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</video>
+	
+	
+	<image name="detailsBkLine" extra="true">
+	  <pos>0.34 0.157</pos>
+	  <size>0.003 0.778</size>
+	  <size ifHelpPrompts="false">0.003 0.84</size>
+	</image>
+	
+	
+	<textlist name="gamelist">
+		  <size>0.321 0.755</size>
+    </textlist>
+	
+	
+	
+	<image name="topLine, topLineRight, topSquare, yellowSquare" extra="true">
+		<origin>0 0</origin>
+		<path>./../../art/divers/white.png</path>
+        <color>${baseColor}</color>
+		<zIndex>55</zIndex>
+	</image>
+	
+	<!-- Ligne du haut à réduire vers la gauche -->
+	<image name="topLine" extra="true">
+      <pos>0 0.155</pos>
+      <size>0.343 0.005</size>
+    </image>
+	
+	
+	<!-- Ligne du haut à pousser vers la droite -->
+	<image name="topLineRight" extra="true">
+      <pos>0.343 0.155</pos>
+      <size>1 0.005</size>
+	  
+		<storyboard event="open">
+			<animation property="pos" to="0.95 0.155" begin="1000" duration="500" mode="Linear"/>
+			<animation property="pos" to="0.7 0.155" begin="1500" duration="500" mode="EaseOut"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="pos" to="0.95 0.155" begin="1000" duration="500" mode="Linear"/>
+			<animation property="pos" to="0.7 0.155" begin="1500" duration="500" mode="EaseOut"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="pos" to="0.343 0.155" duration="100" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+	
+	<!-- Square jaune qui se balade -->
+	<image name="yellowSquare" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.0026042 0.0046296</size>									
+		<pos>0.3445313 0.1569444</pos>									
+		<color>fdde0b</color>
+		<opacity>0</opacity>
+	  
+		<storyboard event="open">
+			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="500" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="1500" duration="500" mode="EaseOut"/>
+			
+			<animation property="pos" to="0.6997396 0.1523148" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1523148" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1625" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1625" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="970" mode="EaseIn"/>
+			
+			<animation property="size" to="0.0026042 0.0046296" begin="3000" duration="1900" autoreverse="true" repeat="3" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3416667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3416667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="480" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="1500" duration="480" mode="EaseOut"/>
+			
+			<animation property="pos" to="0.6997396 0.1523148" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1523148" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1625" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1625" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="970" mode="EaseIn"/>
+			
+			<animation property="size" to="0.0026042 0.0046296" begin="3000" duration="1900" autoreverse="true" repeat="3" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3416667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3416667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+	
+	<!-- Square qui se forme -->
+	<image name="topSquare" extra="true">
+      <pos>0.693 0.15</pos>
+      <size>0.008 0.015</size>
+	  <opacity>0</opacity>
+	  
+		<storyboard event="open">
+			<animation property="opacity" to="1" begin="2100" duration="100" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="opacity" to="1" begin="2100" duration="100" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+	
+	
+	
+		
+		
+</view>
+  
 </theme>

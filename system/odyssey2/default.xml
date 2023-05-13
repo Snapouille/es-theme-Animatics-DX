@@ -1,4 +1,4 @@
-<!-- Sega 32X -->
+<!-- Magnavox Odyssey2 -->
 
 <theme>
 	<formatVersion>7</formatVersion>
@@ -9,7 +9,6 @@
 		<image name="vaisseau" extra="static">
 			<origin>0 0</origin>									
 			<size>0.2604167 0.7194444</size>									
-
 			<pos>0.2 0.14</pos>
 			<scale>0.7</scale>
 			<path>./vaisseau.png</path>
@@ -108,7 +107,7 @@
 						
 				
 				<animation property="y" to="-1" begin="24000" duration="3000" mode="easeIn"/>
-				<animation property="y" to="-1" begin="27000" duration="4000" mode="easeIn"/>
+				<animation property="y" to="-2" begin="27000" duration="4000" mode="easeIn"/>
 				
 			</storyboard>				
 		</image>
@@ -117,7 +116,7 @@
 		<image name="propulsion" extra="true">
 			<storyboard repeat="forever">
 			
-				<animation property="opacity" begin="1000" from="0" to="1" duration="150" autoreverse="true" repeat="90" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="1000" duration="150" autoreverse="true" repeat="80" mode="linear"/>
 							
 				<animation property="y" from="-1" to="0.14" begin="1000" duration="7000" mode="easeOut"/>
 				<animation property="x" from="-0.45" to="0.2" begin="1000" duration="7000" mode="easeOut"/>
@@ -127,7 +126,7 @@
 				<animation property="rotation" to="0.2" begin="8000" autoreverse="true" duration="800" repeat="10" mode="linear"/>
 						
 				<animation property="y" to="-1" begin="24000" duration="3000" mode="easeIn"/>
-				<animation property="y" to="-1" begin="27000" duration="4000" mode="easeIn"/>
+				<animation property="y" to="-2" begin="27000" duration="4000" mode="easeIn"/>
 				
 			</storyboard>				
 		</image>

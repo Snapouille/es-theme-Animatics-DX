@@ -101,76 +101,76 @@
       <!-- <pos>0 0.96</pos> -->
     <!-- </image> -->
 
-    <textlist name="gamelist">
-      <size>0.321 0.817</size>
-	  <lines>19</lines>
-    </textlist>
+    <!-- <textlist name="gamelist"> -->
+      <!-- <size>0.321 0.817</size> -->
+	  <!-- <lines>19</lines> -->
+    <!-- </textlist> -->
 	
-		<text name="md_lbl_playcount">
-			<pos>0.36 0.70</pos>
-		</text>
-		<text name="md_playcount">
-			<pos>0.355 0.73</pos>
-		</text>
+		<!-- <text name="md_lbl_playcount"> -->
+			<!-- <pos>0.36 0.70</pos> -->
+		<!-- </text> -->
+		<!-- <text name="md_playcount"> -->
+			<!-- <pos>0.355 0.73</pos> -->
+		<!-- </text> -->
 		
-		<text name="md_lbl_lastplayed">
-			<pos>0.36 0.77</pos>
-		</text>
-		<datetime name="md_lastplayed">
-			<pos>0.355 0.80</pos>
-		</datetime>
+		<!-- <text name="md_lbl_lastplayed"> -->
+			<!-- <pos>0.36 0.77</pos> -->
+		<!-- </text> -->
+		<!-- <datetime name="md_lastplayed"> -->
+			<!-- <pos>0.355 0.80</pos> -->
+		<!-- </datetime> -->
 	
-		<text name="md_lbl_gametime">
-			<pos>0.36 0.85</pos>
-		</text>
-		<text name="md_gametime">
-		<pos>0.355 0.88</pos>	
-		</text>
+		<!-- <text name="md_lbl_gametime"> -->
+			<!-- <pos>0.36 0.85</pos> -->
+		<!-- </text> -->
+		<!-- <text name="md_gametime"> -->
+		<!-- <pos>0.355 0.88</pos>	 -->
+		<!-- </text> -->
 		
-		<text name="md_players">
-		<pos>0.373 0.955</pos>
-		</text>
+		<!-- <text name="md_players"> -->
+		<!-- <pos>0.373 0.955</pos> -->
+		<!-- </text> -->
 		
 	
-	<text name="md_lbl_genre">
-		<size>0.115 0.03</size>
-		<pos>0.48 0.926</pos>
-		<color>C0C0C0</color>
-		<alignment>right</alignment>
-		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-		<fontSize>0.022</fontSize>
-    </text>
+	<!-- <text name="md_lbl_genre"> -->
+		<!-- <size>0.115 0.03</size> -->
+		<!-- <pos>0.48 0.926</pos> -->
+		<!-- <color>C0C0C0</color> -->
+		<!-- <alignment>right</alignment> -->
+		<!-- <fontPath>./../../art/fonts/ubuntu.ttf</fontPath> -->
+		<!-- <fontSize>0.022</fontSize> -->
+    <!-- </text> -->
 	
-	<text name="md_genre">
-		<pos>0.598 0.9238</pos>
-		<alignment>left</alignment>
-		<color>${baseColor}</color>
-		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
-	</text>
+	<!-- <text name="md_genre"> -->
+		<!-- <pos>0.598 0.9238</pos> -->
+		<!-- <alignment>left</alignment> -->
+		<!-- <color>${baseColor}</color> -->
+		<!-- <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath> -->
+	<!-- </text> -->
 	
-	<text name="md_lbl_developer">
-		<size>0.115 0.03</size>
-		<pos>0.48 0.962</pos>
-		<color>C0C0C0</color>
-		<alignment>right</alignment>
-		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-		<fontSize>0.022</fontSize>
-    </text>
+	<!-- <text name="md_lbl_developer"> -->
+		<!-- <size>0.115 0.03</size> -->
+		<!-- <pos>0.48 0.962</pos> -->
+		<!-- <color>C0C0C0</color> -->
+		<!-- <alignment>right</alignment> -->
+		<!-- <fontPath>./../../art/fonts/ubuntu.ttf</fontPath> -->
+		<!-- <fontSize>0.022</fontSize> -->
+    <!-- </text> -->
 	
-	<text name="md_developer">
-	  <pos>0.598 0.952</pos>
-	  <alignment>left</alignment>
-	  <color>${baseColor}</color>
-    </text>
+	<!-- <text name="md_developer"> -->
+	  <!-- <pos>0.598 0.952</pos> -->
+	  <!-- <alignment>left</alignment> -->
+	  <!-- <color>${baseColor}</color> -->
+    <!-- </text> -->
 	
-		<image name="iconsLine2" extra="true">
-			<path>./../../art/divers/white.png</path>
-			<color>${baseColor}</color>
-			<origin>0 0</origin>
-			<pos>0.481 0.915</pos>
-			<size>0.52 0.005</size>
-			<zIndex>14</zIndex>
-		</image>  
+		<!-- <image name="iconsLine2" extra="true"> -->
+			<!-- <path>./../../art/divers/white.png</path> -->
+			<!-- <color>${baseColor}</color> -->
+			<!-- <origin>0 0</origin> -->
+			<!-- <pos>0.481 0.915</pos> -->
+			<!-- <size>0.52 0.005</size> -->
+			<!-- <zIndex>14</zIndex> -->
+		<!-- </image>   -->
   </view>
   
   

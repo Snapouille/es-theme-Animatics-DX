@@ -1,27 +1,21 @@
 ﻿<theme>
  
-  
-  
-  
-  
-  
  <view name="detailed">
 	
 	<image name="ecran_console" extra="static">
-			<pos>0.515 0.17</pos>
-			<size>0.4427083 0.525</size>
+			<pos>0.5 0.12</pos>
+			<size>0.4520833 0.6722222</size>									
 			<scale>0.9</scale>
-			<path>./../art/background/dreamcast/ecran_console.png</path>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.561" begin="1000" duration="200" mode="linear"/>
+					<animation property="x" to="0.535" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.561" begin="1000" duration="200" mode="linear"/>
+						<animation property="x" to="0.535" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -32,17 +26,19 @@
   
   
 		<video name="md_video">
-		  <pos>0.7115 0.37</pos>
-		  <size>0.239 0.32</size>
-		  <roundCorners>0</roundCorners>
+		  
+		  								
+		<pos>0.704 0.3092593</pos>									
+		<maxSize>0.2270833 0.2981481</maxSize>									
+
 		  
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.7576" begin="1000" duration="200" mode="linear"/>
+					<animation property="x" to="0.739" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7576" begin="1000" duration="200" mode="linear"/>
+						<animation property="x" to="0.739" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -51,28 +47,44 @@
 		  
 		</video>
   
+		<!-- fond noir de l'écran -->
+		<image name="black_bg">
+		 <pos>0.6988542 0.3092593</pos>
+		  <size>0.2270833 0.2981481</size>	
+				<storyboard event="open">
+					<animation property="x" to="0.739" begin="1200" duration="200" mode="linear"/>
+				</storyboard>
+					
+				<storyboard event="activate">
+						<animation property="x" to="0.739" begin="1200" duration="200" mode="linear"/>
+				</storyboard>
+					
+				<storyboard event="deactivate">
+						<animation property="opacity" to="0" duration="1" mode="linear"/>
+				</storyboard>
+		</image>
+  
   
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.398 0.38</pos> 
+		<pos>0.368 0.33</pos> 
 		<maxSize>0.23 0.54</maxSize>
 		<scale>0.55</scale>
 		<zIndex>100</zIndex>
-		<!-- <visible>false</visible> -->
 		<roundCorners>0.01</roundCorners>
 		
 		
 		<storyboard event="open">
-                <animation property="x" to="0.443" begin="1000" duration="200" mode="linear"/>
-				<animation property="y" to="0.32" begin="1000" duration="200" mode="linear"/>
-				<animation property="scale" to="1" begin="1000" duration="200" mode="linear"/>
+                <animation property="x" to="0.413" begin="1200" duration="200" mode="linear"/>
+				<animation property="y" to="0.28" begin="1200" duration="200" mode="linear"/>
+				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.443" begin="1000" duration="200" mode="linear"/>
-				<animation property="y" to="0.32" begin="1000" duration="200" mode="linear"/>
-				<animation property="scale" to="1" begin="1000" duration="200" mode="linear"/>
+                <animation property="x" to="0.413" begin="1200" duration="200" mode="linear"/>
+				<animation property="y" to="0.28" begin="1200" duration="200" mode="linear"/>
+				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
@@ -81,6 +93,135 @@
 		
 		
 	</image>
+	
+	
+	
+	<!-- Square qui se déplace vers la gauche au début -->
+	<image name="topSquare" extra="true">
+      <pos>0.47 0.15</pos>
+      <size>0.008 0.015</size>
+	  <opacity>1</opacity>
+	  
+	  
+		<storyboard event="open">
+			<animation property="x" to="-0.05" begin="1000" duration="1300" mode="EaseOut"/>
+			<animation property="color" to="fdde0b" begin="1000" duration="500" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="x" to="-0.05" begin="1000" duration="1300" mode="EaseOut"/>
+			<animation property="color" to="fdde0b" begin="1000" duration="500" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="x" to="0.47" duration="1" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+	
+	
+	
+	
+	<!-- Ligne du haut à réduire vers la gauche -->
+	<image name="topLine" extra="true">
+      <pos>0 0.155</pos>
+      <size>0.47 0.005</size>
+	  
+		<storyboard event="open">
+			<animation property="size" to="0.313 0.005" begin="1000" duration="400" mode="EaseOut"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="size" to="0.313 0.005" begin="1000" duration="400" mode="EaseOut"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="size" to="0.451 0.005" duration="100" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+	
+
+	<!-- Ligne du haut qu'on place direct vers la droite -->
+	<image name="topLineRight" extra="true">
+      <pos>0.95 0.155</pos>
+      <size>1 0.005</size>
+	  
+		<storyboard event="open">
+			<animation property="pos" to="0.95 0.155" begin="1000" duration="500" mode="EaseOut"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="pos" to="0.95 0.155" begin="1000" duration="500" mode="EaseOut"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="pos" to="0.95 0.155" duration="100" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+	
+	<!-- Square jaune qui se balade -->
+	<image name="yellowSquare" extra="true">
+		<pos>1.1 0.1569444</pos>									
+	  
+		<storyboard event="open">
+			<animation property="opacity" to="1" begin="2400" duration="10" mode="Linear"/>
+			
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="opacity" to="1" begin="2400" duration="10" mode="Linear"/>
+			
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+	
+	
+	<text name="md_description">
+		<size>0.01 0.01</size>									
+		<pos>0.703125 0.8074074</pos>									
+		
+
+		
+		<storyboard event="open">
+			<animation property="size" to="0.48125 0.16" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="size" to="0.48125 0.16" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</text>
 	
 		
    </view>

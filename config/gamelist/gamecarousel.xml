@@ -155,7 +155,7 @@ originally based on: "carbon"
 	<text name="gamecarouselLogoText">
       <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 	  <color>AABBBBFF</color>
-	  <fontSize>0.042</fontSize>
+	  <fontSize>0.027</fontSize>
       <glowColor>000000FF</glowColor>
       <glowSize>4</glowSize>
       <lineSpacing>1.0</lineSpacing>
@@ -209,6 +209,7 @@ originally based on: "carbon"
 	  <alignment>left</alignment>
 	  <pos>0.18 0.201</pos>
    </text>
+	
 	
 	
 	
