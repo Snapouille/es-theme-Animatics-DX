@@ -1,8 +1,10 @@
 ## V 1.41 - (2023 05 13)
 
 - add the "detailed view" V2 with new animation and layouts
-![2023-05-13 17_06_34-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/1cd2f9b9-238d-42c7-ab14-f99f89d61c5f)
-![2023-05-13 17_06_39-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/598efb8d-7194-48f9-ba6b-6a295c056865)
+![2023-05-13 17_14_42-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/b791bcfd-9e77-45a9-8391-83f0b586e793)
+![2023-05-13 17_14_48-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/487c644f-b6ea-4735-b468-616fd2f0093d)
+
+(video youTube coming soon for all the new features)
 
 
 - add multiple new bartop for arcade game (with the marquee on bartop)
