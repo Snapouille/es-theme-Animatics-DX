@@ -72,19 +72,19 @@
 		<origin>0.40 0.50</origin>
 		<pos>0.367 0.38</pos> 
 		<maxSize>0.23 0.54</maxSize>
-		<scale>0.59</scale>
+		<scale>0.57</scale>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
 		
 		
 		<storyboard event="open">
-                <animation property="x" to="0.41" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.417" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.32" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.41" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.417" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.32" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>

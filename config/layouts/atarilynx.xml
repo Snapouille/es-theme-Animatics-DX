@@ -75,13 +75,13 @@
 		
 		
 		<storyboard event="open">
-                <animation property="x" to="0.41" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.414" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.27" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="0.98" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.41" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.414" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.27" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="0.98" begin="1200" duration="200" mode="linear"/>
 		</storyboard>

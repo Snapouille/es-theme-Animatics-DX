@@ -11,12 +11,10 @@
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<!-- <animation property="offsetY" to="0.28" begin="1200"  duration="200" mode="linear"/> -->
 					<animation property="offsetX" to="0.03" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<!-- <animation property="offsetY" to="0.28" begin="1200"  duration="200" mode="linear"/> -->
 						<animation property="offsetX" to="0.03" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
