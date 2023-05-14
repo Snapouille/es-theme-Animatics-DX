@@ -1,3 +1,32 @@
+## V 1.42 - (2023 05 14)
+
+**New system layout in detailed view :**
+- Nintendo 64 
+- ZX Spectrum
+- Playstation 3
+- All Arcade Collections with a bartop and marquee
+
+![2023-05-14 18_03_02-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/b89d0e8f-0b41-482b-b8b2-94f7c08bd233)
+![2023-05-14 18_03_02-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/a045c1d3-28d3-4261-a54a-c5aabc54a97a)
+
+
+**Miscellaneous detailed view:**
+- modified some box positions
+- fix minor bugs
+
+**New Arcade Collections background :**
+- Seibukaihatsu
+- Sega Classics
+- Nintendo Playchoice
+- Semicom
+- Technos
+- Tecmo
+- Universal
+- Visco
+- VSC
+
+
+
 ## V 1.41 - (2023 05 13)
 
 - add the "detailed view" V2 with new animation and layouts
