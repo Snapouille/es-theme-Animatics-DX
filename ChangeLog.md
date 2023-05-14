@@ -7,7 +7,7 @@
 - All Arcade Collections with a bartop and marquee
 
 ![2023-05-14 18_03_02-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/b89d0e8f-0b41-482b-b8b2-94f7c08bd233)
-![2023-05-14 18_03_02-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/a045c1d3-28d3-4261-a54a-c5aabc54a97a)
+![2023-05-14 15_56_54-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/64a6047c-9016-41e2-a0d0-cb626d4c3b09)
 
 
 **Miscellaneous detailed view:**
