@@ -1,3 +1,6 @@
+## V 1.43 - (2023 05 15)
+- New animation for the Bomberman collection theme
+
 ## V 1.42 - (2023 05 14)
 
 **New system layout in detailed view :**
