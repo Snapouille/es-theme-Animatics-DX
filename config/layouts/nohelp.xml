@@ -71,10 +71,7 @@
 	
   
   <view name="video">
-    <!-- <image name="bottom-shadow" extra="true"> -->
-      <!-- <pos>0 0.96</pos> -->
-    <!-- </image> -->
-
+    
     <textlist name="gamelist">
       <size>0.35 0.83</size>
 	  <lines>19</lines>
@@ -93,86 +90,6 @@
 	</datetime>
 		
   </view>
-  
-  
-  
-  <view name="detailed">
-    <!-- <image name="bottom-shadow" extra="true"> -->
-      <!-- <pos>0 0.96</pos> -->
-    <!-- </image> -->
-
-    <!-- <textlist name="gamelist"> -->
-      <!-- <size>0.321 0.817</size> -->
-	  <!-- <lines>19</lines> -->
-    <!-- </textlist> -->
-	
-		<!-- <text name="md_lbl_playcount"> -->
-			<!-- <pos>0.36 0.70</pos> -->
-		<!-- </text> -->
-		<!-- <text name="md_playcount"> -->
-			<!-- <pos>0.355 0.73</pos> -->
-		<!-- </text> -->
-		
-		<!-- <text name="md_lbl_lastplayed"> -->
-			<!-- <pos>0.36 0.77</pos> -->
-		<!-- </text> -->
-		<!-- <datetime name="md_lastplayed"> -->
-			<!-- <pos>0.355 0.80</pos> -->
-		<!-- </datetime> -->
-	
-		<!-- <text name="md_lbl_gametime"> -->
-			<!-- <pos>0.36 0.85</pos> -->
-		<!-- </text> -->
-		<!-- <text name="md_gametime"> -->
-		<!-- <pos>0.355 0.88</pos>	 -->
-		<!-- </text> -->
-		
-		<!-- <text name="md_players"> -->
-		<!-- <pos>0.373 0.955</pos> -->
-		<!-- </text> -->
-		
-	
-	<!-- <text name="md_lbl_genre"> -->
-		<!-- <size>0.115 0.03</size> -->
-		<!-- <pos>0.48 0.926</pos> -->
-		<!-- <color>C0C0C0</color> -->
-		<!-- <alignment>right</alignment> -->
-		<!-- <fontPath>./../../art/fonts/ubuntu.ttf</fontPath> -->
-		<!-- <fontSize>0.022</fontSize> -->
-    <!-- </text> -->
-	
-	<!-- <text name="md_genre"> -->
-		<!-- <pos>0.598 0.9238</pos> -->
-		<!-- <alignment>left</alignment> -->
-		<!-- <color>${baseColor}</color> -->
-		<!-- <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath> -->
-	<!-- </text> -->
-	
-	<!-- <text name="md_lbl_developer"> -->
-		<!-- <size>0.115 0.03</size> -->
-		<!-- <pos>0.48 0.962</pos> -->
-		<!-- <color>C0C0C0</color> -->
-		<!-- <alignment>right</alignment> -->
-		<!-- <fontPath>./../../art/fonts/ubuntu.ttf</fontPath> -->
-		<!-- <fontSize>0.022</fontSize> -->
-    <!-- </text> -->
-	
-	<!-- <text name="md_developer"> -->
-	  <!-- <pos>0.598 0.952</pos> -->
-	  <!-- <alignment>left</alignment> -->
-	  <!-- <color>${baseColor}</color> -->
-    <!-- </text> -->
-	
-		<!-- <image name="iconsLine2" extra="true"> -->
-			<!-- <path>./../../art/divers/white.png</path> -->
-			<!-- <color>${baseColor}</color> -->
-			<!-- <origin>0 0</origin> -->
-			<!-- <pos>0.481 0.915</pos> -->
-			<!-- <size>0.52 0.005</size> -->
-			<!-- <zIndex>14</zIndex> -->
-		<!-- </image>   -->
-  </view>
-  
   
   
   <view name="grid" ifSubset="SystemView:grid">
@@ -240,6 +157,155 @@
 		</image>
 	
   </customView>
+  
+  
+  
+  <view name="detailed">
+  
+	<textlist name="gamelist">
+       <size>0.291 0.817</size>
+	  <lines>19</lines>
+    </textlist>
+  
+	<image name="iconsLine" extra="true">
+		<size>0.003 0.90</size>
+	</image>
+	
+	<text name="md_developer">
+		<storyboard event="open">
+			<animation property="pos" to="0.474 0.945" begin="1200" duration="200" mode="linear"/>
+			<animation property="color" to="ff3f2f" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activate">
+			<animation property="pos" to="0.474 0.945" begin="1200" duration="200" mode="linear"/>
+			<animation property="color" to="ff3f2f" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</text>
+	
+	<text name="md_genre">
+		<storyboard event="open">
+			<animation property="pos" to="0.55 0.945" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="fdde0b" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activate">
+			<animation property="pos" to="0.55 0.945" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="fdde0b" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</text>
+	
+	<text name="md_description">
+		<pos>0.70 0.805</pos>		
+	</text>
+	
+	<image name="md_flag">
+		
+		<storyboard event="open">
+			<animation property="pos" to="0.976 0.948" begin="1200"  duration="200" mode="linear"/>
+			<animation property="maxSize" to="0.022 0.05" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activate">
+			<animation property="pos" to="0.976 0.948" begin="1200"  duration="200" mode="linear"/>
+			<animation property="maxSize" to="0.022 0.05" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+			
+	</image>
+	
+	<datetime name="md_releasedate">
+			
+		<storyboard event="open">
+			<animation property="pos" to="0.925 0.81" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
+			<animation property="rotation" to="-90" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activate">
+			<animation property="pos" to="0.925 0.81" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
+			<animation property="rotation" to="-90" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+			
+	</datetime>
+	
+  
+	<!-- Square jaune qui se balade -->
+	<image name="yellowSquare" extra="true">
+	  
+		<storyboard event="open">
+			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+			<animation property="pos" to="0.63 0.1569444" begin="1000" duration="480" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1569444" begin="1500" duration="480" mode="EaseOut"/>
+			
+			<animation property="pos" to="0.5791667 0.1625" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.5744792 0.1625" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.5744792 0.1523148" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1523148" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9965741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.9965741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+			<animation property="pos" to="0.63 0.1569444" begin="1000" duration="480" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1569444" begin="1500" duration="480" mode="EaseOut"/>
+			
+			<animation property="pos" to="0.5791667 0.1625" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.5744792 0.1625" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.5744792 0.1523148" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1523148" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.5791667 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9965741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.9965741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+  
+  
+  
+  
+  </view>
   
   
 </theme>
