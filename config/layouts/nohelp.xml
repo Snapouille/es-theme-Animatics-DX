@@ -203,9 +203,10 @@
 		</storyboard>
 	</text>
 	
-	<text name="md_description">
-		<pos>0.70 0.805</pos>		
-	</text>
+	<!-- A voir pour bouger la desc mais attention aux systèmes comme gb, gbc ... -->
+	<!-- <text name="md_description"> -->
+		<!-- <pos>0.70 0.805</pos>		 -->
+	<!-- </text> -->
 	
 	<image name="md_flag">
 		
@@ -303,6 +304,169 @@
     </image>
   
   
+  <!-- Square jaune qui se balade si c'est un SYSTEME ARCADE avec Bartop ou Bornes et dreamcast -->
+	<image name="yellowSquare" if="{system.theme} == 'fbneo' || {system.theme} == 'dreamcast' || {system.theme} == 'auto-verticalarcade' || {system.theme} == 'mame' || {system.theme} == 'teknoparrot' || {system.theme} == 'advision' || {system.theme} == 'alphadenshi' || {system.theme} == 'arcade' || {system.theme} == 'atari' || {system.theme} == 'banpresto' || {system.theme} == 'atlus' || {system.theme} == 'atomiswave' || {system.theme} == 'capcom' || {system.theme} == 'cave' || {system.theme} == 'centurye' || {system.theme} == 'comad' || {system.theme} == 'cps1' || {system.theme} == 'cps2' || {system.theme} == 'cps3' || {system.theme} == 'daphne' || {system.theme} == 'dataeast' || {system.theme} == 'eighting' || {system.theme} == 'gaelco' || {system.theme} == 'gottlieb' || {system.theme} == 'hikaru' || {system.theme} == 'igs' || {system.theme} == 'incredibletech' || {system.theme} == 'irem' || {system.theme} == 'jaleco' || {system.theme} == 'kaneko' || {system.theme} == 'konami' || {system.theme} == 'midway' || {system.theme} == 'mitchell' || {system.theme} == 'model2' || {system.theme} == 'model3'  || {system.theme} == 'namco' || {system.theme} == 'naomi' || {system.theme} == 'naomi2' || {system.theme} == 'nichibutsu' || {system.theme} == 'nintendo' || {system.theme} == 'nmk' || {system.theme} == 'openbor' || {system.theme} == 'psikyo' || {system.theme} == 'sammy' || {system.theme} == 'sega' || {system.theme} == 'seibukaihatsu' || {system.theme} == 'semicom' || {system.theme} == 'snk' || {system.theme} == 'taito' || {system.theme} == 'technos' || {system.theme} == 'tecmo' || {system.theme} == 'toaplan' || {system.theme} == 'universal' || {system.theme} == 'visco' || {system.theme} == 'vsc'">
+		<pos>1.1 0.1569444</pos>									
+	  
+		<storyboard event="open">
+			<animation property="opacity" to="1" begin="2400" duration="10" mode="Linear"/>
+			
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9965741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.9965741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="opacity" to="1" begin="2400" duration="10" mode="Linear"/>
+			
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9965741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.9965741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+  
+  
+  
+  <!-- Square jaune qui se balade SI cover verticale (SNES ou SUFAMI ou N64 gameandwatch)-->
+	<image name="yellowSquare" if="{system.theme} == 'snes' || {system.theme} == 'gameandwatch' ||  {system.theme} == 'sufami' || {system.theme} == 'n64' ">
+		<origin>0.5 0.5</origin>									
+		<size>0.0026042 0.0046296</size>									
+		<pos>0.3445313 0.1569444</pos>									
+		<color>fdde0b</color>
+		<opacity>0</opacity>
+	  
+		<storyboard event="open">
+			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="500" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="1500" duration="500" mode="EaseOut"/>
+			
+			<animation property="pos" to="0.6997396 0.1523148" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1523148" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1625" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1625" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9965741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.9965741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="480" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="1500" duration="480" mode="EaseOut"/>
+			
+			<animation property="pos" to="0.6997396 0.1523148" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1523148" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1625" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1625" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9965741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.9965741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	  
+    </image>
+	
+	
+	<!-- Square jaune qui se balade SI système LIBRARY (bibliotheque) -->
+	<image name="yellowSquare" if="{system.theme} == 'library' || {system.theme} == 'imageviewer' ">
+		<origin>0.5 0.5</origin>									
+		<size>0.0026042 0.0046296</size>									
+		<pos>0.3445313 0.1569444</pos>									
+		<color>fdde0b</color>
+		<opacity>0</opacity>
+	  
+		<storyboard event="open">
+			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="500" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="1500" duration="500" mode="EaseOut"/>
+			
+			<animation property="pos" to="0.6997396 0.1523148" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1523148" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1625" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1625" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="970" mode="EaseIn"/>
+			
+			<animation property="size" to="0.0026042 0.0046296" begin="3000" duration="1900" autoreverse="true" repeat="3" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9965741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3416667 0.9965741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3416667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="480" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="1500" duration="480" mode="EaseOut"/>
+			
+			<animation property="pos" to="0.6997396 0.1523148" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1523148" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.6945313 0.1625" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1625" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6997396 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="970" mode="EaseIn"/>
+			
+			<animation property="size" to="0.0026042 0.0046296" begin="3000" duration="1900" autoreverse="true" repeat="3" mode="Linear"/>
+			
+			<animation property="pos" to="0.9515625 0.9965741" begin="3300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3416667 0.9965741" begin="6300" duration="4000" mode="EaseInOut"/>
+			<animation property="pos" to="0.3416667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
+			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	  
+    </image>
   
   
   </view>

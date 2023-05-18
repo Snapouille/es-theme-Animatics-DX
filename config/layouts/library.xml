@@ -13,7 +13,7 @@
   
 <view name="detailed">
 
-	<image name="ecran_console, detailsBkLine2, md_marquee, md_thumbnail, md_flag, info_background" extra="static">
+	<image name="ecran_console, detailsBkLine2, md_marquee, md_thumbnail, md_flag, info_background, black_bg" extra="static">
 		<visible>false</visible>
 	</image>
 	
