@@ -3,7 +3,7 @@
 - Add "Zaccaria Pinball" background, console and logo
 - Add "ActionMax" background, console and logo
 - New Theme Collection : "NBA"
-- 
+ 
 ![2023-05-19 16_01_07-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/03307fcd-b0be-41fe-a4f4-7ae174a8f6fc)
 
 
