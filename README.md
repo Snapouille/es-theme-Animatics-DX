@@ -6,12 +6,12 @@ Theme for Emulation Station compatible with
 - Emuelec
 - Retrobat
 
-**V 1.43 - (2023 05 15) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
+**V 1.44 - (2023 05 19) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
 
 Features :
 
     4 Animated System Views (Simple, Vertical, Wheel and Horizontal)
-    5 Gamelist Views
+    8 Gamelist Views
     9 languages (German, Spanish, French, Italian, Japanese, Dutch, Polish, Portuguese and Russian)
     Regional Logos and Artwork (EU, US and JAP)
     16/9 Only, not compatible with 4/3 or 5/4 for now
