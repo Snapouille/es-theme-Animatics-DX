@@ -1,3 +1,10 @@
+## V 1.44 - (2023 05 19)
+- New layout for detailed view without help bar
+- New Theme Collection : "NBA"
+![2023-05-19 16_01_07-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/03307fcd-b0be-41fe-a4f4-7ae174a8f6fc)
+
+
+
 ## V 1.43 - (2023 05 15)
 - New animation for the Bomberman collection theme
 
