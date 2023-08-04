@@ -1,3 +1,25 @@
+## V 1.45 - (2023 08 04)
+- New animation for the Collection "Lightgun Games"
+- New animation for the system "Casio PV 1000"
+- New animation for the system "Wii U"
+- New animation for the system "GBA 2 Players"
+- New animation for the system "Philips CDI"
+- Add Description and system view for "Worlds of Wonder Action Max"
+- Add Description for "GBA 2 Players" and "PS VITA"
+
+**Miscellaneous for Detailed View:**
+- Add Commodore PET 2001 Series new view
+- Add Worlds of Wonder Action Max new view
+- Add PS Vita handheld console view
+- Add GBA 2 Players handheld console view
+- fix minor bugs
+
+![v1 45](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/401ad07e-917f-450c-831f-621c198aa1dd)
+
+
+
+
+
 ## V 1.44 - (2023 05 19)
 - New layout for detailed view without help bar
 - Add "Zaccaria Pinball" background, console and logo
