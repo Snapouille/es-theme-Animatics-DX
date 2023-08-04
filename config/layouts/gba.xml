@@ -12,23 +12,27 @@
 			<color>FFFFFF</color>
 			<zIndex>31</zIndex>
 				<storyboard event="open">
-					<animation property="y" to="0.47" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.46" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="activate">
-					<animation property="y" to="0.47" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.46" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
 				</storyboard>
 		</image>
+		
+		
+
+		
 		<video name="md_video">
 		  <pos>0.7 0.417</pos>
-		  <size>0.16 0.191</size>
+		  <size>0.1625 0.1990741</size>	
 				<storyboard event="open">
-					<animation property="y" to="0.677" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.6680556" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="activate">
-					<animation property="y" to="0.677" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.6680556" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -38,12 +42,12 @@
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 		  <pos>0.7 0.417</pos>
-		  <size>0.16 0.191</size>
+		  <size>0.1625 0.1990741</size>	
 				<storyboard event="open">
-					<animation property="y" to="0.677" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.6680556" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="activate">
-					<animation property="y" to="0.677" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.6680556" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -60,13 +64,13 @@
 		<storyboard event="open">
                 <animation property="x" to="0.409" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.26" begin="1200" duration="200" mode="linear"/>
-				<animation property="scale" to="0.98" begin="1200" duration="200" mode="linear"/>
+				<animation property="scale" to="0.93" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
                 <animation property="x" to="0.409" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.26" begin="1200" duration="200" mode="linear"/>
-				<animation property="scale" to="0.98" begin="1200" duration="200" mode="linear"/>
+				<animation property="scale" to="0.93" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">

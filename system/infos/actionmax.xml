@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Action Max is a video game console released in 1987. Designed by American toy manufacturer Worlds of Wonder, it used VHS-format magnetic tapes as the medium for games, and had an optical gun as its only controller.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>L'Action Max est une console de jeux vidéo sortie en 1987. Conçue par le fabricant de jouet américain Worlds of Wonder, elle utilisait des bandes magnétiques au format VHS comme support pour les jeux et avait pour seul contrôleur un pistolet optique. </text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Action Max ist eine Videospielkonsole, die 1987 veröffentlicht wurde. Sie wurde vom US-amerikanischen Spielzeughersteller Worlds of Wonder entworfen und verwendete Magnetbänder im VHS-Format als Spielmedium.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La Action Max es una videoconsola lanzada en 1987. Diseñada por el fabricante de juguetes estadounidense Worlds of Wonder, utilizaba cintas magnéticas en formato VHS como soporte para los juegos y tenía una pistola óptica como único mando.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'Action Max è una console per videogiochi uscita nel 1987. Progettata dal produttore americano di giocattoli Worlds of Wonder, utilizzava nastri magnetici in formato VHS come supporto per i giochi e aveva come unico controller una pistola ottica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>アクションマックスは1987年に発売されたビデオゲーム機である。アメリカの玩具メーカーWorlds of Wonderが設計し、ゲームの媒体としてVHSフォーマットの磁気テープを使用し、唯一のコントローラーとして光学式銃を備えていた。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Action Max is een videospelconsole die in 1987 werd uitgebracht. Ontworpen door de Amerikaanse speelgoedfabrikant Worlds of Wonder, gebruikte het magnetische banden in VHS-formaat als medium voor de spellen en had het een optisch pistool als enige controller.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Action Max to konsola do gier wideo wydana w 1987 roku. Zaprojektowana przez amerykańskiego producenta zabawek Worlds of Wonder, wykorzystywała taśmy magnetyczne w formacie VHS jako nośnik gier i posiadała pistolet optyczny jako jedyny kontroler.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Action Max é uma consola de jogos de vídeo lançada em 1987. Concebida pelo fabricante americano de brinquedos Worlds of Wonder, utilizava fitas magnéticas em formato VHS como suporte para os jogos e tinha como único controlador uma pistola ótica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Action Max - игровая приставка, выпущенная в 1987 году. Разработанная американским производителем игрушек Worlds of Wonder, она использовала в качестве носителя игр магнитные ленты формата VHS и имела в качестве единственного контроллера оптический пистолет.</text>
+</text>
+
+</view>
+</theme>

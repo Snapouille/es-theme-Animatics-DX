@@ -50,7 +50,7 @@
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 		 <pos>0.658 0.41</pos>
-		  <size>0.22 0.30</size>
+		  <size>0.22 0.33</size>
 				<storyboard event="open">
 					<animation property="x" to="0.708" begin="1200" duration="200" mode="linear"/>
 					<animation property="y" to="0.38" begin="1200" duration="200" mode="linear"/>

@@ -1,0 +1,25 @@
+<!-- Commodore Pet 2001 Series -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>
+			<pos>0.15 0.2</pos>									
+			<size>0.2932292 0.5138889</size>									
+			<rotation>30</rotation>
+			<scale>0.1</scale>
+			<linearSmooth>true</linearSmooth>					
+			<storyboard>
+				<animation property="scale" to="1.1" begin="" duration="3000" mode="EaseOutQuint"/>
+        		<animation property="x" to="0.45" begin="" duration="3000" mode="EaseOutQuint"/>
+        		<animation property="y" to="0.49" begin="" duration="3000" mode="EaseOutQuint"/>
+				<animation property="rotation" to="-30" begin="" duration="3000" mode="EaseOutQuint"/>
+			</storyboard>
+
+		
+		</image>
+	</view>
+
+</theme>

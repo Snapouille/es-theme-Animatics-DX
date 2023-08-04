@@ -1,0 +1,54 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Link cable used to connect two consoles is now 1 metre long, with a constant diameter.The cable, initially designed for two players, has an interesting feature: a purple cube fixed in the middle has a female socket for connecting additional cables. This makes it possible to play with three or four players, depending on the game.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le câble Link permettant de relier deux consoles mesure désormais 1 mètre pour un diamètre constant. Le câble initialement prévu pour deux joueurs possède une particularité intéressante : un cube violet fixé en son milieu dispose d'une prise femelle pour brancher des câbles supplémentaires. Il est alors possible de jouer à trois ou quatre joueurs suivant les jeux.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Das Link-Kabel, mit dem zwei Konsolen miteinander verbunden werden können, ist jetzt 1 Meter lang und hat einen gleichbleibenden Durchmesser.Das ursprünglich für zwei Spieler gedachte Kabel hat eine interessante Besonderheit: Ein in der Mitte befestigter violetter Würfel hat eine Buchse, an die weitere Kabel angeschlossen werden können. So können je nach Spiel drei oder vier Spieler spielen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El cable Link utilizado para conectar dos consolas mide ahora 1 metro de largo, con un diámetro constante.El cable, inicialmente diseñado para dos jugadores, tiene una característica interesante: un cubo morado fijado en el centro tiene una toma hembra para conectar cables adicionales. Esto permite jugar con tres o cuatro jugadores, según el juego.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il cavo Link utilizzato per collegare due console è ora lungo 1 metro, con un diametro costante. Il cavo, inizialmente progettato per due giocatori, presenta una caratteristica interessante: un cubo viola fissato al centro è dotato di una presa femmina per collegare altri cavi. In questo modo è possibile giocare con tre o quattro giocatori, a seconda del gioco.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>当初は2人用として設計されたこのケーブルには面白い特徴がある。真ん中に固定された紫色の立方体には、追加ケーブルを接続するためのメス型ソケットが付いているのだ。これにより、ゲームによっては3人または4人でプレイすることが可能になる。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Link-kabel die wordt gebruikt om twee consoles met elkaar te verbinden, is nu 1 meter lang en heeft een constante diameter. De kabel, die oorspronkelijk was ontworpen voor twee spelers, heeft een interessante functie: een paarse kubus die in het midden is bevestigd, heeft een vrouwelijke aansluiting voor het aansluiten van extra kabels. Dit maakt het mogelijk om met drie of vier spelers te spelen, afhankelijk van het spel.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Kabel Link używany do połączenia dwóch konsol ma teraz 1 metr długości i stałą średnicę. Kabel, początkowo zaprojektowany dla dwóch graczy, ma ciekawą funkcję: fioletowa kostka przymocowana pośrodku ma żeńskie gniazdo do podłączenia dodatkowych kabli. Umożliwia to grę z trzema lub czterema graczami, w zależności od gry.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O cabo Link utilizado para ligar duas consolas tem agora 1 metro de comprimento e um diâmetro constante. O cabo, inicialmente concebido para dois jogadores, tem uma caraterística interessante: um cubo roxo fixado no meio tem uma tomada fêmea para ligar cabos adicionais. Isto permite jogar com três ou quatro jogadores, consoante o jogo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Кабель Link, используемый для соединения двух консолей, теперь имеет длину 1 метр и постоянный диаметр. Кабель, изначально рассчитанный на двух игроков, имеет интересную особенность: в фиолетовом кубе, закрепленном посередине, есть гнездо для подключения дополнительных кабелей. Это позволяет играть с тремя или четырьмя игроками, в зависимости от игры.</text>
+</text>
+
+</view>
+</theme>
+

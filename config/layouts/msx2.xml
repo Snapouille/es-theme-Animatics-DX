@@ -49,8 +49,8 @@
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		  <pos>0.712 0.395</pos>
-		  <size>0.227 0.313</size>
+		  <pos>0.712 0.39</pos>
+		  <size>0.227 0.33</size>
 		  
 		  
 				<storyboard event="open">

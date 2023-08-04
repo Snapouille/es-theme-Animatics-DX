@@ -1,40 +1,103 @@
-<!-- Camputers LYNX -->
+<!-- Casio PV1000 -->
 
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
 	
-		<image name="cochon" extra="static">
+		<image name="cochon1" extra="static">
 			<origin>0 0</origin>									
-<size>0.278125 0.7712963</size>									
-			<pos>0.46 0</pos>
+			<size>0.278125 0.7712963</size>									
+			<pos>0.48 -0.7</pos>
 			<scale>0.91</scale>
 			<rotation>-10</rotation>
 			<zIndex>18</zIndex>
 			<opacity>1</opacity>
-			<path>./cochon.png</path>
+			<path>./cochon1.png</path>
 			<linearSmooth>true</linearSmooth>
 		
-		
 			 <storyboard repeat="forever">
+			 
+				<animation property="y" to="0" begin="8000" duration="2000" mode="EaseInOut"/>
 
+                <animation property="rotation" from="-10" to="-7.5" begin="" duration="1500" autoreverse="true" repeat="9" mode="EaseInOut"/>
+				<animation property="x" from="0.49" to="0.48" begin="" duration="1500" autoreverse="true" repeat="9" mode="EaseInOut"/>
+				<animation property="scale" from="0.91" to="0.915" begin="" duration="1500" autoreverse="true" repeat="9" mode="EaseInOut"/>
 				
-                <animation property="rotation" from="-10" to="-7.5" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
-				<animation property="x" from="0.47" to="0.46" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
-				<animation property="scale" from="0.91" to="0.915" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
+				<animation property="opacity" to="0" begin="16500" duration="100" mode="linear"/>
 				
-				
-
+				<animation property="opacity" to="1" begin="28000" duration="10" mode="linear"/>
             </storyboard>		
 			
 		</image>
 		
+		<image name="cochon2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.278125 0.7712963</size>									
+			<pos>0.48 0</pos>
+			<scale>0.91</scale>
+			<rotation>-10</rotation>
+			<zIndex>18</zIndex>
+			<opacity>0</opacity>
+			<path>./cochon2.png</path>
+			<linearSmooth>true</linearSmooth>
+		
+			 <storyboard repeat="forever">
+
+                <animation property="rotation" from="-10" to="-7.5" begin="" duration="1500" autoreverse="true" repeat="9" mode="EaseInOut"/>
+				<animation property="x" from="0.49" to="0.48" begin="" duration="1500" autoreverse="true" repeat="9" mode="EaseInOut"/>
+				<animation property="scale" from="0.91" to="0.915" begin="" duration="1500" autoreverse="true" repeat="9" mode="EaseInOut"/>
+				
+				<animation property="opacity" to="1" begin="16500" duration="100" mode="linear"/>
+				
+				<animation property="y" to="-0.7" begin="22000" duration="2000" mode="EaseInOut"/>
+				
+				<animation property="opacity" to="0" begin="28000" duration="10" mode="linear"/>
+            </storyboard>		
+			
+		</image>
+		
+		
+		
+		
+		
+		
+		<image name="arrow" extra="static">
+			
+			<origin>0.5 0.5</origin>									
+			<size>0.0786458 0.0787037</size>									
+			<pos>0.5325521 0.500463</pos>									
+								
+			<rotation>-10</rotation>
+			
+			<scale>0.91</scale>
+			
+			<zIndex>1111</zIndex>
+			<opacity>0</opacity>
+			<path>./arrow.png</path>
+			<linearSmooth>true</linearSmooth>
+		
+			<storyboard repeat="forever">
+			
+				<animation property="opacity" to="1" begin="16490" duration="10" mode="linear"/>
+				<animation property="pos" to="0.1455729 0.8393519" begin="16500" duration="500" mode="linear"/>
+				<animation property="opacity" to="0" begin="17000" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="28000" duration="10" mode="linear"/>
+				
+            </storyboard>	
+			 
+			
+		</image>
+		
+		
+		
+		
 		<image name="loup01" extra="static">
 			<origin>0 0</origin>									
-<size>0.1526042 0.6490741</size>									
+			<size>0.1526042 0.6490741</size>									
 
-			<pos>0.05 -0.5</pos>
+			<pos>0.3 -0.5</pos>
 			<scale>0.9</scale>
 			<rotation>1.5</rotation>
 			<zIndex>1111</zIndex>
@@ -43,18 +106,92 @@
 			<linearSmooth>true</linearSmooth>
 		
 		
-			 <storyboard repeat="forever">
-
+			<storyboard repeat="forever">
 				
-               
+				<animation property="x" to="0.05" begin="" duration="17500" mode="linear"/>
 				<animation property="y" to="1" begin="" duration="20000" mode="linear"/>
 				
-				
+				<animation property="opacity" to="0" begin="10540" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="10710" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="10880" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11050" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11220" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11390" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11560" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11730" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11900" duration="10" mode="linear"/>
 
+				
+				<animation property="opacity" to="0" begin="28000" duration="10" mode="linear"/>
+				
             </storyboard>		
 			
 		</image>
 		
+		
+		
+		<image name="loup02" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1526042 0.6490741</size>									
+
+			<pos>0.3 -0.5</pos>
+			<scale>0.9</scale>
+			<rotation>1.5</rotation>
+			<zIndex>1111</zIndex>
+			<opacity>0</opacity>
+			<path>./loup02.png</path>
+			<linearSmooth>true</linearSmooth>
+		
+		
+			<storyboard repeat="forever">
+
+				<animation property="x" to="0.05" begin="" duration="17500" mode="linear"/>
+				<animation property="y" to="1" begin="" duration="20000" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="10540" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="10710" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="10880" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11050" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11220" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11390" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11560" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11730" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11900" duration="10" mode="linear"/>
+
+				<animation property="opacity" to="0" begin="17500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="28000" duration="10" mode="linear"/>
+				
+            </storyboard>		
+			
+		</image>
+		
+		
+		<image name="splash" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.2911458 0.5222222</size>									
+			<pos>0.1164063 0.9259259</pos>									
+								
+
+			<scale>0.7</scale>
+			<rotation>1.5</rotation>
+			<zIndex>1111</zIndex>
+			<opacity>0</opacity>
+			<path>./splash.png</path>
+			<linearSmooth>true</linearSmooth>
+		
+		
+			<storyboard repeat="forever">
+
+				<animation property="opacity" to="1" begin="17000" duration="500" mode="linear"/>
+				<animation property="scale" to="1.5" begin="17000" duration="600" autoreverse="true" mode="EaseInOut"/>
+				<animation property="opacity" to="0" begin="17700" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="28000" duration="10" mode="linear"/>
+				
+            </storyboard>		
+			
+		</image>
 		
 		
 	</view>
