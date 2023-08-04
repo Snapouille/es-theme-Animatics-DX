@@ -46,7 +46,7 @@ Features :
 # Gamelist View
 
 ## Gamelist view : Detailed
-![4 detailed](https://user-images.githubusercontent.com/105559045/215271537-8cc97dc3-4adb-47b5-ad2e-79bd1e833a65.png)
+![detailed view](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/afeb41fd-2f92-4a62-b231-9699dd968a63)
 
 ## Gamelist view : Grid
 ![gamelist Grid](https://user-images.githubusercontent.com/105559045/219969836-e5bc356b-0fcc-436d-a227-31029da367a8.png)
