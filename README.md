@@ -45,14 +45,14 @@ Features :
 
 # Gamelist View
 
+## Gamelist view : Game Carousel
+![2023-08-16 22_02_33-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/1352f778-287a-44ad-a56f-efe8df229308)
+
 ## Gamelist view : Detailed
 ![detailed view](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/afeb41fd-2f92-4a62-b231-9699dd968a63)
 
 ## Gamelist view : Grid
 ![gamelist Grid](https://user-images.githubusercontent.com/105559045/219969836-e5bc356b-0fcc-436d-a227-31029da367a8.png)
-
-## Gamelist view : Game Carousel
-![2023-03-19 10_19_04-EmulationStation](https://user-images.githubusercontent.com/105559045/226165615-63fd15d1-665b-4712-a667-db1e2d78ed17.png)
 
 ## Gamelist view : Video 
 ![7 video](https://user-images.githubusercontent.com/105559045/215271576-336ea719-7a8e-4ac8-8597-39500ef27680.png)
