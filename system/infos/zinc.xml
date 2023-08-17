@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Zinc is an emulator of 3D arcade video systems based on arcade hardwares close to the Playstation 1. This emulator renders arcade systems using Sony ZN-1, Sony Zn-2 or Namco System 11 motherboards, as well as arcade systems from Capcom, Taito, Konami and Tecmo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>﻿Zinc est un émulateur de Systèmes vidéos d'arcade 3D basés sur des hardwares de bornes d'arcades proches de la Playstation première du nom, cet émulateur restitue donc des bornes d'arcades exploitant des cartes mères de type ZN-1, Zn-2 de Sony ou System 11 de Namco, mais aussi des systèmes d'arcade des marques Capcom, Taito, Konami et Tecmo. </text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Zinc ist ein Emulator für 3D-Arcade-Videosysteme, der auf der Hardware von Arcade-Terminals basiert, die der Playstation 1 ähneln. Der Emulator gibt also Arcade-Terminals wieder, die mit Motherboards vom Typ ZN-1, Zn-2 von Sony oder System 11 von Namco betrieben werden, aber auch Arcade-Systeme der Marken Capcom, Taito, Konami und Tecmo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Zinc es un emulador 3D de sistemas de vídeo arcade basado en hardwares arcade similares a los de la primera Playstation. Este emulador renderiza terminales arcade con placas base Sony ZN-1 o Zn-2 o Namco System 11, así como sistemas arcade de Capcom, Taito, Konami y Tecmo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Zinc è un emulatore di sistemi video arcade 3D basato su hardware arcade simili a quelli della prima Playstation. Questo emulatore riproduce terminali arcade che utilizzano schede madri Sony ZN-1 o Zn-2 o Namco System 11, oltre a sistemi arcade di Capcom, Taito, Konami e Tecmo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Zincは、初代プレイステーションと同様のアーケードハードをベースにした3Dアーケードビデオシステムエミュレータです。 このエミュレータは、ソニーZN-1、Zn-2マザーボードやナムコシステム11、カプコン、タイトー、コナミ、テクモのアーケードシステムを使用したアーケード端末をレンダリングします。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Zinc is een 3D arcade videosysteem emulator gebaseerd op arcade hardwares vergelijkbaar met de eerste Playstation. Deze emulator rendert arcade terminals die gebruik maken van Sony ZN-1 of Zn-2 moederborden of Namco System 11, evenals arcade systemen van Capcom, Taito, Konami en Tecmo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Zinc to trójwymiarowy emulator zręcznościowego systemu wideo oparty na oprogramowaniu arcade podobnym do pierwszego Playstation. Ten emulator renderuje terminale zręcznościowe wykorzystujące płyty główne Sony ZN-1 lub Zn-2 lub Namco System 11, a także systemy zręcznościowe Capcom, Taito, Konami i Tecmo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Zinc é um emulador de sistemas de vídeo arcade em 3D baseado em hardwares de arcade semelhantes aos da primeira Playstation. Este emulador processa terminais de arcade que utilizam placas-mãe Sony ZN-1 ou Zn-2 ou Namco System 11, bem como sistemas de arcade da Capcom, Taito, Konami e Tecmo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Zinc - это 3D-эмулятор аркадных видеосистем, основанный на аркадных винчестерах, аналогичных первой Playstation. Эмулятор отображает аркадные терминалы, использующие материнские платы Sony ZN-1 или Zn-2 или Namco System 11, а также аркадные системы от Capcom, Taito, Konami и Tecmo.</text>
+</text>
+
+</view>
+</theme>

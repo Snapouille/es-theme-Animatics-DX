@@ -1,26 +1,120 @@
 ﻿<theme>
-  <formatVersion>7</formatVersion>
+
+
+<view name="gamecarousel">
+  
+	<image name="ecran_console" extra="static">
+		<origin>0.5 0.5</origin>
+		<path>./../../system/amiga/ecran_console2.png</path>
+
+<size>0.4197917 0.5694444</size>									
+<pos>0.555625 0.5893519</pos>									
+									
+		<color>FFFFFF</color>
+		<flipY>false</flipY>
+		<zIndex>31</zIndex>
+		
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+  
+  
+	<video name="md_video">
+		<origin>0.5 0.5</origin>									
+
+<size>0.1770833 0.237037</size>									
+<pos>0.5811458 0.4666667</pos>									
+
+		<zIndex>30</zIndex>
+
+	  
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</video>
+	
+  
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>
+<size>0.1770833 0.237037</size>									
+<pos>0.5811458 0.4666667</pos>									
+		<zIndex>14</zIndex>
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+	
+	
+	
+	<text name="md_description">
+		<origin>0.5 0.5</origin>									
+		<size>0.25 0.238</size>									
+		<pos>0.315 0.298</pos>									
+	</text>
+
+	<image name="md_thumbnail">
+	  <pos>0.137 0.691</pos>
+	  <pos ifHelpPrompts="false">0.137 0.73</pos>
+	  <maxSize>0.22 0.467</maxSize>
+	</image>	
+
+
+	
+</view>
+
+
+
+  
   
   
   
   <view name="detailed">
-  	
+  
 	
 	<image name="ecran_console" extra="static">
 			<path>./../../system/amiga/ecran_console.png</path>
-			<pos>0.515 0.17</pos>
-			<size>0.4427083 0.525</size>
-			<scale>0.9</scale>
+			<origin>0.5 0.5</origin>
+			<size>0.2979167 0.4916667</size>									
+			<pos>0.7005208 0.4171296</pos>									
+			<scale>1</scale>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.56" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.56" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -31,14 +125,14 @@
   
   
 		<video name="md_video">
-		  <pos>0.717 0.392</pos>
-		  <size>0.237 0.317</size>
+<size>0.2286458 0.3055556</size>									
+<pos>0.7007813 0.3824074</pos>									
 				<storyboard event="open">
-					<animation property="x" to="0.762" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.762" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -49,14 +143,14 @@
 		
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		  <pos>0.717 0.392</pos>
-		  <size>0.237 0.317</size>
+<size>0.2286458 0.3055556</size>									
+<pos>0.7007813 0.3824074</pos>									
 				<storyboard event="open">
-					<animation property="x" to="0.762" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.762" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">

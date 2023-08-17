@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>EDuke32 is a source port of Duke Nukem 3D. Under the bonnet are tons of new features, a free, multi-platform engine, a modern interface, graphics acceleration, Polymer rendering, compatibility with the high-resolution pack, high-performance scripting for mods, an advanced console, bug fixes and more.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>EDuke32 est un port source de Duke Nukem 3D. Sous le capot, des tonnes de nouvelles fonctionnalités, un moteur libre et multi-plateforme, une interface moderne, l'accélération graphique, le rendu "Polymer", la compatibilité avec le pack haute résolution, un scripting performant pour les mods, une console évoluée, la correction de bugs, ...</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>EDuke32 ist ein Quellport von Duke Nukem 3D. Unter der Haube befinden sich tonnenweise neue Funktionen, eine freie und plattformübergreifende Engine, eine moderne Benutzeroberfläche, Grafikbeschleunigung, "Polymer"-Rendering, Kompatibilität mit dem High-Resolution-Pack, leistungsstarkes Scripting für Mods, eine weiterentwickelte Konsole, Fehlerkorrekturen, ...</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>EDuke32 es un port fuente de Duke Nukem 3D. Bajo el capó hay toneladas de nuevas características, un motor libre y multiplataforma, una interfaz moderna, aceleración de gráficos, renderizado Polymer, compatibilidad con el pack de alta resolución, scripting de alto rendimiento para mods, una consola avanzada, corrección de errores y mucho más.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>EDuke32 è un porting sorgente di Duke Nukem 3D. Sotto il cofano ci sono tonnellate di nuove funzionalità, un motore gratuito e multipiattaforma, un'interfaccia moderna, l'accelerazione grafica, il rendering Polymer, la compatibilità con il pacchetto ad alta risoluzione, lo scripting ad alte prestazioni per le mod, una console avanzata, la correzione di bug e molto altro.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>EDuke32はDuke Nukem 3Dのソース移植版です。大量の新機能、フリーのマルチプラットフォームエンジン、モダンなインターフェイス、グラフィックアクセラレーション、ポリマーレンダリング、高解像度パックとの互換性、MOD用の高性能スクリプト、高度なコンソール、バグ修正などが含まれています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>EDuke32 is een broncode-port van Duke Nukem 3D. Onder de motorkap zitten tonnen nieuwe functies, een vrije, multiplatform engine, een moderne interface, grafische versnelling, Polymer rendering, compatibiliteit met het hoge-resolutie pakket, high-performance scripting voor mods, een geavanceerde console, bugfixes en nog veel meer.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>EDuke32 to źródłowy port gry Duke Nukem 3D. Pod maską znajduje się mnóstwo nowych funkcji, darmowy, wieloplatformowy silnik, nowoczesny interfejs, akceleracja grafiki, renderowanie Polymer, kompatybilność z pakietem wysokiej rozdzielczości, wydajne skrypty dla modów, zaawansowana konsola, poprawki błędów i wiele więcej.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O EDuke32 é uma versão de origem do Duke Nukem 3D. Sob o capô estão toneladas de novas funcionalidades, um motor gratuito e multiplataforma, uma interface moderna, aceleração gráfica, renderização Polymer, compatibilidade com o pacote de alta resolução, scripting de alto desempenho para mods, uma consola avançada, correcções de erros e muito mais.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>EDuke32 - это порт Duke Nukem 3D с исходным кодом. Под капотом - масса новых возможностей, бесплатный мультиплатформенный движок, современный интерфейс, ускорение графики, рендеринг Polymer, совместимость с пакетом высокого разрешения, высокопроизводительный скриптинг для модов, продвинутая консоль, исправление ошибок и многое другое.</text>
+</text>
+
+</view>
+</theme>

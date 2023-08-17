@@ -1,8 +1,103 @@
 ﻿<theme>
- 
+
+
+<view name="gamecarousel">
+  
+	<image name="ecran_console" extra="static">
+		<origin>0.5 0.5</origin>
+		<path>./../../system/msx/ecran_console2.png</path>
+
+<size>0.5317708 0.7407407</size>									
+<pos>0.5071563 0.5111111</pos>									
+									
+		<color>FFFFFF</color>
+		<flipY>false</flipY>
+		<zIndex>31</zIndex>
+		
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+  
+  
+	<video name="md_video">
+		<origin>0.5 0.5</origin>									
+
+<size>0.2020833 0.2888889</size>									
+<pos>0.5746042 0.3398148</pos>									
+
+		<zIndex>30</zIndex>
+
+	  
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</video>
+	
+  
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>
+<size>0.2020833 0.2888889</size>									
+<pos>0.5746042 0.3398148</pos>									
+		<zIndex>14</zIndex>
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+	
+	
+	
+	<text name="md_description">
+		<origin>0.5 0.5</origin>									
+		<size>0.23 0.238</size>									
+		<pos>0.3 0.293</pos>									
+	</text>
+
+
+
+
+	
+</view>
+
+
+
+
+
+  
   
   
   <view name="detailed">
+  
+  
+  
+
   	
 	
 		<image name="ecran_console" extra="static">

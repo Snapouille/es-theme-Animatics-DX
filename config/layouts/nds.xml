@@ -1,5 +1,88 @@
 ﻿<theme>
- 
+
+
+<view name="gamecarousel">
+  
+	<image name="ecran_console" extra="static">
+		<origin>0.5 0.5</origin>									
+
+<size>0.3713542 0.5768519</size>									
+<pos>0.4983854 0.6634259</pos>									
+									
+		<color>FFFFFF</color>
+		<flipY>false</flipY>
+		<zIndex>31</zIndex>
+		
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+  
+  
+	<video name="md_video">
+		<origin>0.5 0.5</origin>									
+
+<pos>0.4991667 0.6472222</pos>									
+<maxSize>0.1625 0.4277778</maxSize>									
+
+		<zIndex>30</zIndex>
+
+	  
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</video>
+	
+  
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>
+<size>0.1625 0.4277778</size>									
+<pos>0.4991667 0.6472222</pos>									
+		<zIndex>14</zIndex>
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+	
+
+
+	<text name="md_description">
+	  <pos>0.18 0.181</pos>
+	</text>
+
+
+
+	
+</view>  
+  
+   
   
   <view name="detailed">
   
@@ -7,62 +90,62 @@
 	
 	
 	<image name="ecran_console" extra="static">
-			<pos>0.515 0.17</pos>
-			<size>0.4427083 0.525</size>
-
-			<scale>0.9</scale>
+<size>0.3317708 0.5148148</size>									
+<pos>0.7029688 0.4222222</pos>									
+			<origin>0.5 0.5</origin>
+			<scale>1</scale>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.563" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.563" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
 				</storyboard>
 			
 		</image>
   
   
 		<video name="md_video">
-		  <pos>0.715 0.4035</pos>
-		  <maxSize>0.142 0.3725</maxSize>
+<pos>0.7032292 0.4087963</pos>									
+<maxSize>0.1427083 0.3787037</maxSize>									
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.763" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.763" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
 				</storyboard>
 		  
 		</video>
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		  <pos>0.715 0.4035</pos>
-		  <size>0.142 0.3725</size>
+<size>0.1427083 0.3787037</size>																
+<pos>0.7032292 0.4087963</pos>																
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.763" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.763" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
 				</storyboard>
 		</image>
   

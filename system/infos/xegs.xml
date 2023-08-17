@@ -4,22 +4,50 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
+<text name="system_description" extra="true">
+<text>This Atari console lets you connect an Atari XEGS keyboard to transform it into a personal computer. It can use the majority of peripherals marketed for Atari's 8-bit computer range. It was marketed in a standard version comprising the console and a joystick, and in a deluxe version with a keyboard and optical pistol.</text>
+</text>
 
-		<text name="system_description" extra="true">
-			<text>The Atari XE Video Game System (Atari XEGS) is an industrial redesign of the Atari 65XE home computer and the final model in the Atari 8-bit family. It was released by Atari Corporation in 1987.</text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Cette console d'Atari permet le branchement d'un clavier de la gamme Atari XEGS pour se transformer en mode ordinateur personnel. Elle peut utiliser la majorité des périphériques commercialisés pour la gamme des ordinateurs 8-bit d'Atari. Elle a été commercialisée en version standard comprenant la console et un joystick et en version deluxe avec en plus un clavier et un pistolet optique.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="es">
-			<text>La Atari XE Video Game System (o Atari XEGS) es una consola de videojuegos lanzada por Atari Corporation en 1987. Basada en el microordenador Atari 65XE, la XEGS es compatible con la biblioteca de software de las máquinas de la familia Atari de 8 bits.</text>
-		</text>
+<text name="system_description" extra="true" lang="de">
+<text>Diese Atari-Konsole ermöglicht den Anschluss einer Tastatur aus der Atari XEGS-Reihe und verwandelt sich so in einen Personalcomputer. Sie kann die meisten Peripheriegeräte verwenden, die für die Atari 8-Bit-Computerserie vertrieben werden. Sie wurde als Standardversion mit der Konsole und einem Joystick sowie als Deluxe-Version mit einer zusätzlichen Tastatur und einer optischen Pistole vermarktet.</text>
+</text>
 
+<text name="system_description" extra="true" lang="es">
+<text>Esta consola Atari permite conectar un teclado Atari XEGS para transformarla en un ordenador personal. Puede utilizar la mayoría de los periféricos comercializados para la gama de ordenadores de 8 bits de Atari. Se comercializó en una versión estándar que incluía la consola y un joystick, y en una versión de lujo con un teclado y una pistola óptica.</text>
+</text>
 
-		<text name="system_name" extra="true">
-			<text>Atari XE Game System</text>
-		</text>
-	</view>
+<text name="system_description" extra="true" lang="it">
+<text>Questa console Atari consente di collegare una tastiera Atari XEGS per trasformarla in un personal computer. Può utilizzare la maggior parte delle periferiche commercializzate per la gamma di computer a 8 bit di Atari. È stata commercializzata in una versione standard che comprendeva la console e un joystick, e in una versione deluxe con una tastiera e una pistola ottica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>アタリXEGSキーボードを接続してパソコンに変身させるアタリコンソール。アタリの8ビットコンピュータ用に販売されていたほとんどの周辺機器を使用することができる。コンソールとジョイスティックを含むスタンダード版と、キーボードと光学式ピストルを含むデラックス版が販売された。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Op deze Atari-console kun je een Atari XEGS-toetsenbord aansluiten om hem in een personal computer te veranderen. Hij kan de meeste randapparatuur gebruiken die op de markt werd gebracht voor Atari's reeks 8-bit computers. Hij werd op de markt gebracht in een standaardversie met de console en een joystick, en in een luxeversie met een toetsenbord en een optisch pistool.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Ta konsola Atari umożliwia podłączenie klawiatury Atari XEGS w celu przekształcenia jej w komputer osobisty. Może korzystać z większości urządzeń peryferyjnych sprzedawanych dla 8-bitowych komputerów Atari. Była sprzedawana w wersji standardowej zawierającej konsolę i joystick oraz w wersji deluxe z klawiaturą i pistoletem optycznym.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Esta consola Atari permite ligar um teclado Atari XEGS para a transformar num computador pessoal. Pode utilizar a maior parte dos periféricos comercializados para a gama de computadores de 8 bits da Atari. Foi comercializada numa versão standard, que incluía a consola e um joystick, e numa versão de luxo, que incluía um teclado e uma pistola ótica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Эта консоль Atari позволяет подключить клавиатуру Atari XEGS и превратить ее в персональный компьютер. Она может использовать большинство периферийных устройств, выпускаемых для 8-битных компьютеров Atari. Консоль выпускалась в стандартном варианте, включающем консоль и джойстик, и в люксовом варианте с клавиатурой и оптическим пистолетом.</text>
+</text>
+
+</view>
 </theme>

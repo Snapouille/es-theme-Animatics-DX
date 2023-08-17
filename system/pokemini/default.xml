@@ -16,7 +16,7 @@
 			<rotation>0</rotation>
 			<opacity>0</opacity>
 			<path>./Pikachu01.png</path>
-			<zIndex>12</zIndex>
+			<zIndex>15</zIndex>
 
 			<storyboard repeat="forever">
 				
@@ -65,7 +65,7 @@
 			<rotation>10</rotation>
 			<opacity>0</opacity>
 			<path>./Pikachu02.png</path>
-			<zIndex>12</zIndex>
+			<zIndex>15</zIndex>
 
 			<storyboard repeat="forever">
 				
@@ -105,7 +105,7 @@
 			<opacity>0</opacity>
 			<path>./Pikachu03.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>12</zIndex>
+			<zIndex>15</zIndex>
 
 			<storyboard repeat="forever">
 					<animation property="opacity" to="1" begin="2900" duration="300" mode="linear"/>
@@ -129,7 +129,7 @@
 			<scale>0.8</scale>
 			<opacity>0</opacity>
 			<path>./Pikachu04.png</path>
-			<zIndex>12</zIndex>
+			<zIndex>15</zIndex>
 
 			<storyboard repeat="forever">
 					<animation property="opacity" to="1" begin="3400" duration="50" mode="linear"/>
@@ -148,7 +148,7 @@
 			<scale>0.75</scale>
 			<opacity>0</opacity>
 			<path>./Pikachu05.png</path>
-			<zIndex>12</zIndex>
+			<zIndex>15</zIndex>
 
 			<storyboard repeat="forever">
 					<animation property="opacity" to="1" begin="4600" duration="50" mode="linear"/>
@@ -169,7 +169,7 @@
 			<scale>0.75</scale>
 			<opacity>0</opacity>
 			<path>./Pikachu06.png</path>
-			<zIndex>12</zIndex>
+			<zIndex>15</zIndex>
 
 			<storyboard repeat="forever">
 					<animation property="opacity" to="1" begin="5000" duration="50" mode="linear"/>

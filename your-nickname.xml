@@ -2,13 +2,19 @@
 <formatVersion>7</formatVersion> 
 <variables>
 
-<!-- BEGIN -->
-<!-- put here your desired nickname to show in screen, just overwrite "Here Your Nickname" and save file. Don't forget to set in theme options "Choose a nick -> Custom"-->
-<!-- mettez ici le pseudo que vous souhaitez afficher à l'écran, écrasez simplement "Here Your Nickname" et enregistrez le fichier. N'oubliez pas de définir dans les options du thème "Choisir un surnom -> Personnalisé"-->
-<!-- pon aquí tu usuario para mostrar en pantalla, simplemente cambia "Here Your Nickname" por tu usuario y guarda. Para aplicar, no olvides seleccionar en las opciones del tema. "Escoge un nick -> personalizado"-->
+
+<!-- put here your desired nickname to show in screen, just overwrite "Here Your Nickname" and save file. 
+Don't forget to set in theme options "Choose a nick -> Custom"-->
+
+<!-- mettez ci-dessous le pseudo que vous souhaitez afficher à l'écran, écrasez simplement "Here Your Nickname" et enregistrez le fichier. 
+N'oubliez pas de définir dans les options du thème "Choisir un surnom -> Personnalisé"-->
+
+<!-- pon aquí tu usuario para mostrar en pantalla, simplemente cambia "Here Your Nickname" por tu usuario y guarda. 
+Para aplicar, no olvides seleccionar en las opciones del tema. "Escoge un nick -> personalizado"-->
+
 <custom.nick>Here Your NickName</custom.nick>
 
-<!-- STOP -->
+
 
 
 

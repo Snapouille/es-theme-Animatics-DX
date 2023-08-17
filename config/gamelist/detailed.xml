@@ -50,6 +50,50 @@ originally based on: "carbon"
 	
 	
 	
+	
+	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
+	<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.2989583 0.0324074</size>									
+		<pos>0.1494792 0.14</pos>									
+		<text>- {game:systemName} -</text> 
+        <alignment>right</alignment>
+        <verticalAlignment>top</verticalAlignment>
+		<forceUppercase>1</forceUppercase>
+		<color>${baseColor}</color>
+		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
+		<fontSize>0.021</fontSize>
+		<zIndex>131</zIndex>
+		<storyboard event="open">
+			<animation property="offsetY" from="-1" to="0" begin="" duration="1000" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="-0.005" begin="12000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="18000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="-0.005" begin="24000" duration="100" autoreverse="true" mode="linear"/>
+		</storyboard>
+		<storyboard event="activate">
+			<animation property="offsetX" from="-1" to="0" begin="" duration="300" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="-0.005" begin="12000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="18000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="-0.005" begin="24000" duration="100" autoreverse="true" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</text>
+	
+	
+	
     <video name="md_video">
 	  <origin>0.5 0.5</origin>									
 	  <pos>0.718 0.3897</pos>
@@ -127,8 +171,8 @@ originally based on: "carbon"
 	
 	<!-- Position et animation du logo du jeu  -->
 	<image name="md_marquee">
-		<pos>0.9 0.09</pos>
-		<maxSize>0.234 0.10</maxSize>
+		<pos>-0.9 0.08</pos>
+		<maxSize>0.25 0.085</maxSize>
 		<scale>0</scale>
 		<default>./../../art/divers/nologo.png</default>
 		
@@ -140,6 +184,7 @@ originally based on: "carbon"
 		<animation property="scale" to="0.9" begin="4000" duration="250" autoreverse="true" mode="bump"/>
 		<animation property="offsetX" from="-0.01" to="0.08" begin="10000" duration="200" autoreverse="true" mode="easeInOut"/>
 		<animation property="offsetX" to="0" begin="10000" duration="1000" mode="easeInCubic"/>
+		<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
 		<animation property="scale" to="1.1" begin="15000" duration="250" autoreverse="true" mode="bump"/>
 	</storyboard>
 			
@@ -149,6 +194,7 @@ originally based on: "carbon"
 		<animation property="scale" to="0.9" begin="4000" duration="250" autoreverse="true" mode="bump"/>
 		<animation property="offsetX" from="-0.01" to="0.08" begin="10000" duration="200" autoreverse="true" mode="easeInOut"/>
 		<animation property="offsetX" to="0" begin="10000" duration="1000" mode="easeInCubic"/>
+		<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
 		<animation property="scale" to="1.1" begin="15000" duration="250" autoreverse="true" mode="bump"/>
 	</storyboard>
 	
@@ -159,6 +205,15 @@ originally based on: "carbon"
 	
 	  
 	</image>
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

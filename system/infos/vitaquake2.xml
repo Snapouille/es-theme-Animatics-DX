@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>VitaQuake is a port of the Quake II source engine, originally developed for the PS Vita. With this core, you'll be able to play Quake II on RetroArch (or any other libretro-compatible program).</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>VitaQuake est un portage du moteur source de Quake II qui a été réalisé à l'origine pour la PS Vita. Avec ce core, vous pourrez jouer à Quake II sur RetroArch (ou tout autre programme compatible libretro).</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>VitaQuake ist eine Portierung der Quell-Engine von Quake II, die ursprünglich für die PS Vita entwickelt wurde. Mit diesem Kern können Sie Quake II auf RetroArch (oder jedem anderen libretro-kompatiblen Programm) spielen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>VitaQuake es un port del motor fuente de Quake II, desarrollado originalmente para la PS Vita. Con este núcleo, podrás jugar a Quake II en RetroArch (o cualquier otro programa compatible con Libretro).</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>VitaQuake è un port del motore sorgente di Quake II, originariamente sviluppato per PS Vita. Con questo nucleo, sarete in grado di giocare a Quake II su RetroArch (o su qualsiasi altro programma libretro-compatibile).</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>VitaQuakeは、もともとPS Vitaのために開発されたQuake IIソースエンジンの移植版です。このコアがあれば、RetroArch（または他のlibretro互換プログラム）でQuake IIをプレイすることができます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>VitaQuake is een port van de Quake II source engine, oorspronkelijk ontwikkeld voor de PS Vita. Met deze core kun je Quake II spelen op RetroArch (of een ander libretro-compatibel programma).</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>VitaQuake jest portem silnika źródłowego Quake II, pierwotnie opracowanego dla PS Vita. Dzięki temu rdzeniowi będziesz mógł grać w Quake II na RetroArch (lub dowolnym innym programie kompatybilnym z libretro).</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O VitaQuake é um port do motor de origem do Quake II, originalmente desenvolvido para a PS Vita. Com este núcleo, será possível jogar Quake II no RetroArch (ou em qualquer outro programa compatível com a libretro).</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>VitaQuake - это порт исходного движка Quake II, изначально разработанного для PS Vita. С помощью этого ядра вы сможете играть в Quake II на RetroArch (или любой другой libretro-совместимой программе).</text>
+</text>
+
+</view>
+</theme>

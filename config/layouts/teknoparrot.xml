@@ -1,4 +1,90 @@
 ﻿<theme>
+
+
+<view name="gamecarousel">
+  
+	<image name="ecran_console" extra="static">
+		<origin>0.5 0.5</origin>									
+
+		<size>0.3125 0.6481481</size>									
+		<pos>0.4901042 0.6111111</pos>									
+									
+		<color>FFFFFF</color>
+		<flipY>false</flipY>
+		<zIndex>31</zIndex>
+		
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+  
+  
+	<video name="md_video">
+		<origin>0.5 0.5</origin>									
+
+		<pos>0.4895833 0.6513889</pos>																
+		<maxSize>0.2552083 0.2472222</maxSize>
+
+		<zIndex>30</zIndex>
+
+	  
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</video>
+	
+  
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>
+		<size>0.2552083 0.2472222</size>									
+		<pos>0.4895833 0.6513889</pos>									
+		<zIndex>14</zIndex>
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+	
+	
+	
+	<text name="md_description">
+	  <size>0.53 0.088</size> <!-- 3 lignes -->
+	</text>
+
+
+	
+</view>
+
+
+
+
+
   
   
   <view name="detailed">
@@ -41,6 +127,27 @@
 			<animation property="scale" to="0" duration="250" mode="Linear"/>
 		</storyboard>
 		
+	</image>
+	
+	<!-- fond noir pour le marquee -->
+	<image name="black_marquee" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>									
+		<size>0.1666667 0.0796296</size>									
+		<pos>0.771875 0.1833333</pos>									
+		<zIndex>32</zIndex>
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="10" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="10" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
 	</image>
   
   

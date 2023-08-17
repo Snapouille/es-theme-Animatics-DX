@@ -5,7 +5,7 @@
 	
 		<image name="avatar" extra="static">
 			<pos>0.3 0.2</pos>
-			<scale>0.9</scale>
+			<scale>0.85</scale>
 		</image>
 
 
@@ -14,8 +14,9 @@
 			<pos>0.55 0.045</pos>
 			<maxSize>0.25 0.25</maxSize>
 			<path>./avatar2.png</path>
+			<scale>0.85</scale>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>12</zIndex>
+			<zIndex>120</zIndex>
 		</image>
 		
 	</view>

@@ -12,6 +12,9 @@ originally based on: "carbon"
     
 <customView name="boxes_medium" inherits="boxes_big" displayName="${mediumboxesview}">
 	
+	
+	
+	
     <imagegrid name="gamegrid">
       <pos>0.333333 0.01</pos>
       <size>0.6666667 0.914814814</size>

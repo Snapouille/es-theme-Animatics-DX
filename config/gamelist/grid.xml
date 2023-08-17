@@ -21,6 +21,49 @@ originally based on: "carbon"
     </image>
 	
 	
+	
+	
+	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
+	<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.4 0.03</size>									
+		<pos>0.24 0.03</pos>									
+		<text>{game:systemName}</text> 
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+		<forceUppercase>1</forceUppercase>
+		<color>${baseColor}</color>
+		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
+		<fontSize>0.023</fontSize>
+		<zIndex>131</zIndex>
+		<storyboard event="open">
+			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="0.02" begin="12000" duration="250" autoreverse="true" mode="EaseIn"/>
+			<animation property="color" to="FFFF00" begin="18000" duration="1500" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="0.02" begin="24000" duration="250" autoreverse="true" mode="EaseIn"/>
+		</storyboard>
+		<storyboard event="activate">
+			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="0.02" begin="12000" duration="250" autoreverse="true" mode="EaseIn"/>
+			<animation property="color" to="FFFF00" begin="18000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="0.02" begin="24000" duration="250" autoreverse="true" mode="EaseIn"/>
+		</storyboard>
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</text>
+	
+	
+	
    
    <imagegrid name="gamegrid">
 		 <pos>0.025 0.457</pos>

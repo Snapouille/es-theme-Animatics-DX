@@ -5,7 +5,7 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
-<theme defaultView="detailed">
+<theme defaultView="gamecarousel">
   <formatVersion>7</formatVersion>
   <view name="system">
     <!-- Used by random box need to be declared there -->
@@ -43,7 +43,6 @@ originally based on: "carbon"
       <forceUppercase>false</forceUppercase>    
     </text>
     
-  
     
     <!-- Règle d'affichage et animation des logos des systèmes -->
 	<image name="logo">
@@ -77,7 +76,6 @@ originally based on: "carbon"
     </image> 
 	
 	
-	
 	<!-- Règle d'affichage des consoles -->
 	<image name="Consoles" extra="static">
       <path>./../../art/consoles/${system.theme}.png</path>
@@ -93,10 +91,6 @@ originally based on: "carbon"
 	  
   	</image>
 	
-	
-	
-	
-		    
     <image name="BottomBar" extra="static">
       <tile>false</tile>
       <size>1 0.065</size>
@@ -119,8 +113,7 @@ originally based on: "carbon"
 	
 	
 	<!-- La barre en bas Helpsystem -->
-		<!-- <view name="system, detailed"> -->
-		<!-- <view> -->
+		<!-- POUR LA METTRE EN PLUS PETITE -->
 		
 			<!-- <helpsystem name="help"> -->
 				<!-- <size>0.01 0.01</size> -->
@@ -132,11 +125,7 @@ originally based on: "carbon"
 				<!-- <glowOffset>1</glowOffset> -->
 			<!-- </helpsystem> -->
 
-		<!-- </view> -->
-	
-	
-	
-	
+		
   </view>
     
   <feature supported="manufacturer">
@@ -230,6 +219,144 @@ originally based on: "carbon"
       
     </view>
 	
+	
+	
+	
+	
+	
+		
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''      SYSTEM SIMPLE    '''''''''''''''' -->
+<!-- '''''' en complément du simple.xml ''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+
+	
+	
+	<view name="system" ifSubset="SystemView:simple">
+	
+		<text name="manufacturerName">
+			<alignment>right</alignment>
+			<fontSize>0.040</fontSize>
+			<pos>0.711 0.18</pos>
+			<size>0.942 0.28</size>
+			<color>FFFF00</color>
+			<zIndex>14</zIndex>
+			<rotation>0</rotation>
+				<storyboard>
+					<animation property="offsetX" to="-0.2" begin="" duration="1300" mode="EaseOutCubic"/>
+				</storyboard>	
+		</text>
+		
+	
+		<image name="controllers2" extra="true">
+			<pos>1.1592917 0.11</pos>	
+			<maxSize>0.3 0.25</maxSize>									
+			<horizontalAlignment>right</horizontalAlignment>
+			<verticalAlignment>bottom</verticalAlignment>
+			<storyboard>
+				<animation property="offsetX" to="-0.475" begin="" duration="1300" mode="EaseOutCubic"/>
+			</storyboard>	
+		</image>
+
+		
+		<text name="releaseYyear">
+			<fontSize>0.05</fontSize>
+			<pos>0.93 0.71</pos>
+			<zIndex>14</zIndex>
+			<scale>1</scale>
+			<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
+					
+			<storyboard>
+				<animation property="color" to="FFFF00" begin="3000" duration="1000" autoreverse="true" mode="linear"/>
+				<animation property="offsetY" to="-0.005" begin="3000" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="color" to="FFFF00" begin="9000" duration="1000" autoreverse="true" mode="linear"/>
+				<animation property="offsetY" to="-0.005" begin="9000" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="color" to="FFFF00" begin="15000" duration="1000" autoreverse="true" mode="linear"/>
+				<animation property="offsetY" to="-0.005" begin="15000" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="color" to="FFFF00" begin="21000" duration="1000" autoreverse="true" mode="linear"/>
+				<animation property="offsetY" to="-0.005" begin="21000" duration="100" autoreverse="true" mode="linear"/>
+			</storyboard>		
+		</text> 
+		
+		<text name="system_description">
+			<visible>false</visible>
+		</text>
+	
+		<text name="system_description" ifSubset="system-description:Show">
+			<visible>true</visible>
+			<pos>0.071 0.73</pos>
+			<alignment>left</alignment>
+			<size>0.5 0.2</size>
+			<color>FFFF00</color>
+			<autoScroll>vertical</autoScroll>
+		</text>
+	
+	
+		<!-- Animation de la bar jaune + stats détaillés avec la HelpPrompts masquer -->
+		<image name="YellowBarDesc" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false"  extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0510417 0.312963</size>
+			<pos>0.0885417 0.575</pos>
+			<path>./../../art/divers/YellowBarDesc.png</path>
+			<zIndex>10</zIndex>
+			<opacity>0</opacity>
+			
+			<storyboard>
+				<animation property="opacity" from="0" to="1" begin="300" duration="100" mode="Linear"/>
+				<animation property="offsetY" to="0.25" begin="300" duration="700" mode="easeInOut"/>
+			</storyboard>
+			
+		</image>
+	
+		<text name="systemInfoEx" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false" extra="true">
+			<storyboard>
+				<animation property="offsetX" to="0.01"/>
+				<animation property="offsetY" to="-0.03"/>
+				<animation property="opacity" to="0"/>
+				<animation property="opacity" from="0" to="1" begin="700" duration="300" mode="Linear"/>
+				
+			</storyboard>
+		</text>
+		
+		
+		
+		<!-- Placement des stats détaillés avec la HelpPrompts -->
+		<text name="systemInfoEx" ifSubset="InfoCustomView:detailed" ifHelpPrompts="true" extra="true">
+			<storyboard>
+				<animation property="offsetX" to="0.01"/>
+				<animation property="offsetY" to="0.04"/>
+				<animation property="opacity" to="0"/>
+				<animation property="opacity" from="0" to="1" begin="300" duration="1300" mode="linear"/>
+			</storyboard>
+		</text>
+		
+		
+		
+	
+	
+	</view>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''      SYSTEM VERTICAL    '''''''''''''''' -->
+<!-- '''''' en complément du vertical.xml ''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+
 	
 		<view name="system" ifSubset="SystemView:vertical">
 
@@ -339,137 +466,111 @@ originally based on: "carbon"
 	</view>
 	
 	
-	<view name="system" ifSubset="SystemView:wheel">
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- ''''''''''      SYSTEM WHEEL       ''''''''''''' -->
+<!-- ''''''''' en complément du wheel.xml ''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
 	
-		<image name="controllers2" extra="true">
-			<pos>1.1592917 0.1</pos>	
-			<!-- <pos>0.6772917 0.09</pos>									 -->
-			<maxSize>0.3 0.3</maxSize>									
-			<horizontalAlignment>right</horizontalAlignment>
-			<verticalAlignment>center</verticalAlignment>
-			<storyboard>
-				<animation property="offsetX" to="-0.465" begin="6500" duration="1500" mode="EaseOutCubic"/>
-			</storyboard>	
-		</image>
-
-		<text name="system_description" ifSubset="system-description:Show">
-			<pos>1.082 0.62</pos>
-			<size>0.317 0.293</size>
-			<color>FFFF00</color>
-			<autoScroll>vertical</autoScroll>
-			<storyboard>
-				<animation property="offsetX" to="-0.415" begin="6500" duration="1500" mode="EaseOutCubic"/>
-			</storyboard>	
-		</text>
+<view name="system" ifSubset="SystemView:wheel">
+	
+	
+	<image name="controllers2" extra="true">
+	
+		<origin>0.5 0.5</origin>									
+		<pos>1.1817708 0.2101852</pos>									
+		<maxSize>0.3 0.3</maxSize>									
+	
+		<horizontalAlignment>center</horizontalAlignment>
+		<verticalAlignment>center</verticalAlignment>
 		
-	</view>
-	
-	
-	<view name="system" ifSubset="SystemView:simple">
-	
-		<text name="manufacturerName">
-			<alignment>right</alignment>
-			<fontSize>0.040</fontSize>
-			<pos>0.711 0.18</pos>
-			<size>0.942 0.28</size>
-			<color>FFFF00</color>
-			<zIndex>14</zIndex>
-			<rotation>0</rotation>
-				<storyboard>
-					<animation property="offsetX" to="-0.2" begin="" duration="1300" mode="EaseOutCubic"/>
-				</storyboard>	
-		</text>
 		
-	
-		<image name="controllers2" extra="true">
-			<pos>1.1592917 0.11</pos>	
-			<maxSize>0.3 0.25</maxSize>									
-			<horizontalAlignment>right</horizontalAlignment>
-			<verticalAlignment>bottom</verticalAlignment>
-			<storyboard>
-				<animation property="offsetX" to="-0.475" begin="" duration="1300" mode="EaseOutCubic"/>
-			</storyboard>	
-		</image>
-
-		
-		<text name="releaseYyear">
-			<fontSize>0.05</fontSize>
-			<pos>0.93 0.71</pos>
-			<zIndex>14</zIndex>
-			<scale>1</scale>
-			<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
-					
-			<storyboard>
-				<animation property="color" to="FFFF00" begin="3000" duration="1000" autoreverse="true" mode="linear"/>
-				<animation property="offsetY" to="-0.005" begin="3000" duration="100" autoreverse="true" mode="linear"/>
-				<animation property="color" to="FFFF00" begin="9000" duration="1000" autoreverse="true" mode="linear"/>
-				<animation property="offsetY" to="-0.005" begin="9000" duration="100" autoreverse="true" mode="linear"/>
-				<animation property="color" to="FFFF00" begin="15000" duration="1000" autoreverse="true" mode="linear"/>
-				<animation property="offsetY" to="-0.005" begin="15000" duration="100" autoreverse="true" mode="linear"/>
-				<animation property="color" to="FFFF00" begin="21000" duration="1000" autoreverse="true" mode="linear"/>
-				<animation property="offsetY" to="-0.005" begin="21000" duration="100" autoreverse="true" mode="linear"/>
-			</storyboard>		
-		</text> 
-		
-		<text name="system_description">
-			<visible>false</visible>
-		</text>
-	
-		<text name="system_description" ifSubset="system-description:Show">
-			<visible>true</visible>
-			<pos>0.071 0.73</pos>
-			<alignment>left</alignment>
-			<size>0.5 0.2</size>
-			<color>FFFF00</color>
-			<autoScroll>vertical</autoScroll>
-		</text>
-	
-	
-		<!-- Animation de la bar jaune + stats détaillés avec la HelpPrompts masquer -->
-		<image name="YellowBarDesc" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false"  extra="static">
-			<origin>0.5 0.5</origin>									
-			<size>0.0510417 0.312963</size>
-			<pos>0.0885417 0.575</pos>
-			<path>./../../art/divers/YellowBarDesc.png</path>
-			<zIndex>10</zIndex>
-			<opacity>0</opacity>
+		<!-- Rotation normale à 20000 -->
+		<storyboard>
+			<animation property="offsetX" to="-0.34375" begin="6500" duration="1500" mode="EaseOutCubic"/>
 			
-			<storyboard>
-				<animation property="opacity" from="0" to="1" begin="300" duration="100" mode="Linear"/>
-				<animation property="offsetY" to="0.25" begin="300" duration="700" mode="easeInOut"/>
-			</storyboard>
+			<animation property="scale" to="0.9" begin="14000" duration="250" autoreverse="true" mode="bump"/>
 			
-		</image>
+			<animation property="rotation" to="360" begin="20000" duration="500" mode="linear"/>
+			<animation property="scale" to="0.5" begin="20000" duration="150" mode="linear"/>
+			<animation property="scale" to="1" begin="20250" duration="350" mode="linear"/>
+			
+		</storyboard>
+		
+		<!-- Rotation à -90° avec Zoom - -->
+		<storyboard if="{system.theme} == 'astrocade' || {system.theme} == 'channelf' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor'">
+		
+			<animation property="offsetX" to="-0.34375" begin="6500" duration="1500" mode="EaseOutCubic"/>
+			
+			<animation property="rotation" to="-90" begin="14000" duration="500" mode="linear"/>
+			<animation property="scale" to="0.5" begin="14000" duration="250" mode="linear"/>
+			<animation property="scale" to="0.6" begin="14250" duration="250" mode="linear"/>
+			
+			<animation property="rotation" to="360" begin="20000" duration="500" mode="linear"/>
+			<animation property="scale" to="0.5" begin="20000" duration="150" mode="linear"/>
+			<animation property="scale" to="1" begin="20250" duration="350" mode="linear"/>
+		</storyboard>
+		
+		<!-- Rotation à 90° avec Zoom - -->
+		<storyboard if="{system.theme} == 'wiiu' || {system.theme} == 'wii' || {system.theme} == 'vc4000' || {system.theme} == 'colecovision' || {system.theme} == 'intellivision' || {system.theme} == 'retrobat' || {system.theme} == 'setup' || {system.theme} == 'sg-1000'">
+		
+			<animation property="offsetX" to="-0.34375" begin="6500" duration="1500" mode="EaseOutCubic"/>
+			
+			<animation property="rotation" to="90" begin="14000" duration="500" mode="linear"/>
+			<animation property="scale" to="0.5" begin="14000" duration="250" mode="linear"/>
+			<animation property="scale" to="0.6" begin="14250" duration="250" mode="linear"/>
+			
+			<animation property="rotation" to="360" begin="20000" duration="500" mode="linear"/>
+			<animation property="scale" to="0.5" begin="20000" duration="150" mode="linear"/>
+			<animation property="scale" to="1" begin="20250" duration="350" mode="linear"/>
+		</storyboard>
+		
+		
+		<!-- Rotation à -90° avec Zoom + -->
+		<storyboard if="{system.theme} == 'videopac' ||  {system.theme} == 'videopacplus' ||  {system.theme} == 'supervision' ||  {system.theme} == 'scv' ||  {system.theme} == 'scummvm' ||  {system.theme} == 'pv1000' ||  {system.theme} == 'pokemini' ||  {system.theme} == 'odyssey2' ||  {system.theme} == 'megaduck' ||  {system.theme} == 'gbc' || {system.theme} == 'atari5200' || {system.theme} == 'apfm1000' || {system.theme} == 'arcadia' || {system.theme} == 'arduboy' || {system.theme} == 'gb'">
+		
+			<animation property="offsetX" to="-0.34375" begin="6500" duration="1500" mode="EaseOutCubic"/>
+			
+			<animation property="rotation" to="-90" begin="14000" duration="500" mode="linear"/>
+			<animation property="scale" to="0.5" begin="14000" duration="250" mode="linear"/>
+			<animation property="scale" to="1.5" begin="14250" duration="250" mode="linear"/>
+			
+			<animation property="rotation" to="360" begin="20000" duration="500" mode="linear"/>
+			<animation property="scale" to="0.5" begin="20000" duration="150" mode="linear"/>
+			<animation property="scale" to="1" begin="20250" duration="350" mode="linear"/>
+		</storyboard>
+		
+	</image>
+
+
+	<text name="system_description" ifSubset="system-description:Hide">
+		<opacity>0</opacity>	
+		<pos>1.082 0.62</pos>
+	</text>
+
+	<text name="system_description" ifSubset="system-description:Show">
+		<pos>1.082 0.62</pos>
+		<size>0.319 0.293</size>
+		<color>FFFF00</color>
+		<autoScroll>vertical</autoScroll>
+		<storyboard>
+			<animation property="offsetX" to="-0.415" begin="6500" duration="1500" mode="EaseOutCubic"/>
+		</storyboard>	
+	</text>
 	
-		<text name="systemInfoEx" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false" extra="true">
-			<storyboard>
-				<animation property="offsetX" to="0.01"/>
-				<animation property="offsetY" to="-0.03"/>
-				<animation property="opacity" to="0"/>
-				<animation property="opacity" from="0" to="1" begin="700" duration="300" mode="Linear"/>
-				
-			</storyboard>
-		</text>
-		
-		
-		
-		<!-- Placement des stats détaillés avec la HelpPrompts -->
-		<text name="systemInfoEx" ifSubset="InfoCustomView:detailed" ifHelpPrompts="true" extra="true">
-			<storyboard>
-				<animation property="offsetX" to="0.01"/>
-				<animation property="offsetY" to="0.04"/>
-				<animation property="opacity" to="0"/>
-				<animation property="opacity" from="0" to="1" begin="300" duration="1300" mode="linear"/>
-			</storyboard>
-		</text>
-		
-		
-		
 	
 	
-	</view>
 	
 	
-  </feature>
+	
+	
+		
+</view>
+	
+
+	
+	
+</feature>
   
 </theme>

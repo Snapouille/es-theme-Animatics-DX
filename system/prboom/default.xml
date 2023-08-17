@@ -38,13 +38,12 @@
 			<path>./avatar-doomguy.png</path>
 			<zIndex>17</zIndex>
 			
-			<!-- <visible>false</visible>		 -->
 
 			<storyboard repeat="forever">
 					
 					<animation property="x" to="0.21" begin="500" duration="1500" mode="EaseOut"/>
 					
-					<animation property="scale" to="1" begin="2000" duration="350" mode="Linear"/>
+					<animation property="scale" to="0.95" begin="2000" duration="350" mode="Linear"/>
 					<animation property="x" to="0.41" begin="2000" duration="375" mode="EaseOut"/>
 					<animation property="y" to="0.03" begin="2000" duration="375" mode="EaseOut"/>
 

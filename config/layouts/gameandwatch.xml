@@ -2,6 +2,17 @@
  
   
   
+  <view name="gamecarousel">
+  
+	<image name="ecran_console" extra="static">
+		<visible>false</visible>
+	</image>
+  </view>
+  
+  
+  
+  
+  
   <view name="detailed">
   
 	
@@ -33,21 +44,9 @@
 		  
 		</video>
   
-		<!-- fond noir de l'écran -->
+	<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		  <pos>0.72 0.387</pos>
-		  <size>0.215 0.3</size>
-				<storyboard event="open">
-					<animation property="x" to="0.765" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="x" to="0.765" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
+		  <visible>false</visible>
 		</image>
 	
 	

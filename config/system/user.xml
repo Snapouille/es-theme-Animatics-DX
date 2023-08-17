@@ -4,6 +4,9 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
+
+
 <theme>
   <formatVersion>7</formatVersion>
 	
@@ -44,6 +47,9 @@ originally based on: "carbon"
 	  <image name="logo-user" extra="static">
 		 <path>./../../art/logo-user/${image.logo}</path>
 		 <path ifSubset="user-logo:custom">./../../your-logo.png</path>
+		 <path ifSubset="user-logo:custom">./../../../../../../your-logo.png</path> <!-- On check si l'user a mis un logo Perso à la Racine de Retrobat -->
+		 <path ifSubset="user-logo:custom">./../../../your-logo.png</path> <!-- On check si l'user a mis un logo Perso à la Racine de Theme de Batocera -->
+		 
 		 
 		<size>0.0458333 0.0796296</size>									
 		<pos>0.103125 0.0416667</pos>									
@@ -60,6 +66,10 @@ originally based on: "carbon"
 		  </storyboard>
 		 
 	  </image>
+
+
+
+	
 
 	  <text name="nickname" extra="true">
 		 <text>${text.nick}</text>

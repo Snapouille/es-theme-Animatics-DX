@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>OpenLara is a remastering project of the old Tomb Raider games by a fan, XProger. The aim is to include the new modern technologies found in today's game engines. It's a graphical update that retains the original visual identity and basic gameplay.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>OpenLara est un projet de remasterisation des anciens Tomb Raider réalisé par un fan, XProger. Le but est d’inclure les nouvelles technologies modernes présentes dans les moteurs de jeux actuels. C’est une actualisation graphique tout en gardant l’identité visuelle originale et le gameplay de base.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>OpenLara ist ein Projekt des Fans XProger zur Neuauflage der alten Tomb-Raider-Filme. Das Ziel ist es, neue, moderne Technologien einzubeziehen, die in den aktuellen Spiel-Engines vorhanden sind. Es ist eine grafische Aktualisierung unter Beibehaltung der ursprünglichen visuellen Identität und des grundlegenden Gameplays.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>OpenLara es un proyecto de remasterización de los antiguos juegos de Tomb Raider realizado por un aficionado, XProger. El objetivo es incluir las nuevas tecnologías modernas que se encuentran en los motores de juego actuales. Es una actualización gráfica que conserva la identidad visual original y la jugabilidad básica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>OpenLara è un progetto di rimasterizzazione dei vecchi giochi di Tomb Raider realizzato da un fan, XProger. L'obiettivo è quello di includere le nuove tecnologie moderne presenti negli attuali motori di gioco. Si tratta di un aggiornamento grafico che mantiene l'identità visiva originale e il gameplay di base.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>OpenLaraは、ファンのXProgerによる古いトゥームレイダーゲームのリマスタープロジェクトです。その目的は、今日のゲームエンジンに見られる新しい現代技術を取り入れることです。オリジナルのビジュアルアイデンティティと基本的なゲームプレイはそのままに、グラフィックをアップデートしている。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>OpenLara is een remasteringproject van de oude Tomb Raider-spellen door een fan, XProger. Het doel is om de nieuwe moderne technologieën in de hedendaagse game-engines op te nemen. Het is een grafische update die de originele visuele identiteit en basisgameplay behoudt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>OpenLara to projekt remasteringu starych gier Tomb Raider autorstwa fana, XProgera. Celem jest włączenie nowych, nowoczesnych technologii, które można znaleźć w dzisiejszych silnikach gier. Jest to aktualizacja graficzna, która zachowuje oryginalną tożsamość wizualną i podstawową rozgrywkę.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>OpenLara é um projeto de remasterização dos antigos jogos Tomb Raider por um fã, XProger. O objetivo é incluir as novas tecnologias modernas presentes nos motores de jogo actuais. Trata-se de uma atualização gráfica que mantém a identidade visual original e a jogabilidade básica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>OpenLara - это проект ремастеринга старых игр Tomb Raider, выполненный фанатом XProger. Цель проекта - включить в игру новые современные технологии, используемые в современных игровых движках. Это графическое обновление, сохраняющее оригинальный визуальный стиль и основной геймплей.</text>
+</text>
+
+</view>
+</theme>

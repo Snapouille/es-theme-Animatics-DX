@@ -14,11 +14,89 @@ originally based on: "carbon"
 	  <path>./../../art/divers/bg.jpg</path>
 	  <color>${backgroundColor}</color>
 	  <zIndex>5</zIndex>
+	  <scale>1.5</scale>
+	  
+	  <storyboard>
+			<animation property="offsetY" to="-0.2" begin="" duration="1000" mode="linear"/>
+			<animation property="offsetX" to="-0.038" begin="" duration="1000" mode="linear"/>
+	  </storyboard>
 	</image>
 	
 	<image name="topLine" extra="true">
       <visible>false</visible>
     </image>
+	
+	
+	<!-- Affiche le nom du system -->
+	<text name="WhatSystemGAME" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.4 0.03</size>									
+		<pos>0.28 0.035</pos>
+		<opacity>0</opacity>
+		<text>- {game:systemName} -</text> 
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+		<forceUppercase>1</forceUppercase>
+		<color>${baseColor}</color>
+		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
+		<fontSize>0.023</fontSize>
+		<zIndex>13</zIndex>
+		<storyboard event="open">
+			<animation property="opacity" to="0" mode="linear"/>
+			<animation property="opacity" to="1" begin="800" duration="300" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="800" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="0.02" begin="12000" duration="250" autoreverse="true" mode="EaseIn"/>
+			<animation property="color" to="FFFF00" begin="18000" duration="1500" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="0.02" begin="24000" duration="250" autoreverse="true" mode="EaseIn"/>
+		</storyboard>
+		<storyboard event="activate">
+			<animation property="color" to="FFFF00" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="0.02" begin="12000" duration="250" autoreverse="true" mode="EaseIn"/>
+			<animation property="color" to="FFFF00" begin="18000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
+			<animation property="offsetX" to="0.02" begin="24000" duration="250" autoreverse="true" mode="EaseIn"/>
+		</storyboard>
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</text>
+	
+	
+<!-- NON RETENU POUR LES TESTS, ça fait TOO MUCH je trouve -->
+<!-- Choix de l'affichage d'une mini console  -->
+	<!-- <image name="minizConsole" extra="static"> -->
+		<!-- <path>./../../art/consoles/{game:systemName}.png</path> -->
+		
+		<!-- <origin>0.5 0.5</origin>									 -->
+		<!-- <pos>0.67 0.88</pos>	 -->
+		<!-- <horizontalAlignment>left</horizontalAlignment> -->
+		<!-- <maxSize>0.1 0.1</maxSize> -->
+		<!-- <zIndex>131</zIndex> -->
+		
+		<!-- <storyboard event="open"> -->
+			<!-- <animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="activate"> -->
+			<!-- <animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="deactivate"> -->
+		   <!-- <animation property="opacity" to="0" duration="1" mode="linear"/> -->
+		<!-- </storyboard> -->
+	<!-- </image> -->
+	
+	
+	
+	
 	
 	<!-- <image name="cadre" extra="true"> -->
       <!-- <visible>false</visible> -->
@@ -30,9 +108,10 @@ originally based on: "carbon"
 	</image> 
 
 	<image name="ecran_console" extra="static">
-		<pos>0.26 0.53</pos>
+		<pos>0.31 0.53</pos>
 		<maxSize>0.45 0.446</maxSize>
 		<path>./../../system/ecran_console-default.png</path>
+		<path>./../../system/${system.theme}/ecran_console.png</path>
 		<opacity>1</opacity>
 		<flipY>true</flipY>
 		<color>${baseColor}</color>
@@ -57,7 +136,7 @@ originally based on: "carbon"
 	
   
     <video name="md_video">
-	  <pos>0.448 0.737</pos>
+	  <pos>0.498 0.737</pos>
 	  <maxSize>0.322 0.322</maxSize>
       <delay>1.4</delay>
 	  <effect>none</effect>
@@ -89,9 +168,10 @@ originally based on: "carbon"
 		  <storyboard>
 			<animation property="scale" from="0" to="4" begin="" duration="300" mode="Linear"/>
 			<animation property="scale" from="4" to="0.5" begin="620" duration="175" mode="Linear"/>
-			<animation property="y" from="0.5" to="0.15" begin="620" duration="175" mode="Linear"/>
+			<animation property="y" from="0.5" to="0.80" begin="620" duration="175" mode="Linear"/>
 			<animation property="x" from="0.5" to="0.977" begin="620" duration="175" mode="Linear"/>
 			<animation property="rotation" to="90" begin="620" duration="175" mode="Linear"/>
+			<animation property="offsetY"  to="0.03" begin="5000" duration="500" autoreverse="true" mode="Linear"/>
 		  </storyboard>
     </image>
 	
@@ -100,10 +180,10 @@ originally based on: "carbon"
 	<image name="md_thumbnail">
 	  <visible>true</visible>
 	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.22 0.45</maxSize>
+	  <maxSize>0.22 0.457</maxSize>
 	  <maxSize ifHelpPrompts="false">0.22 0.5</maxSize>
-	  <pos>0.117 0.705</pos>
-	  <pos ifHelpPrompts="false">0.117 0.73</pos>
+	  <pos>0.12 0.691</pos>
+	  <pos ifHelpPrompts="false">0.12 0.73</pos>
 	  <origin>0.5 0.5</origin>
 	  <reflexion>0 0</reflexion>
 	  <default>./../../art/divers/noboxart.png</default>
@@ -135,23 +215,27 @@ originally based on: "carbon"
 	  <visible>false</visible>
 	</image>	  
 	
+	
+	
 	<gamecarousel name="gamecarousel">
-      <type>vertical_wheel</type>
-	  <logoAlignment>center</logoAlignment>
-	  <logoRotationOrigin>3.6 0.5</logoRotationOrigin>
-	  <logoRotation>-12</logoRotation>
-	  <origin>0.5 0.5</origin>
-      <pos>0.75 0.47</pos>
-      <size>0.4 0.93</size>
-      <logoScale>2.3</logoScale>
-      <logoSize>0.20 0.22</logoSize>
-      <maxLogoCount>11</maxLogoCount>
-      <imageSource>marquee</imageSource>
-      <zIndex>10</zIndex>
-	  <scrollSound>./../../art/sounds/scroll.wav</scrollSound>
-				   
-    </gamecarousel>    
-    
+			<pos>0.335 0</pos>
+			<size>1 1</size>
+			<type>vertical_wheel</type> <!-- horizontal_wheel / vertical_wheel" -->
+			<logoSize>0.11 0.11</logoSize> <!-- 0.25 0.155 -->
+			<logoScale>1.8</logoScale> <!-- 1.2 -->
+			<maxLogoCount>13</maxLogoCount> <!-- Image cache only -->
+			<logoRotation>-7.5</logoRotation> <!-- 7.5 : Inclinaison des logos, moins incliné = plus de logos -->
+			<logoRotationOrigin>6 0</logoRotationOrigin> <!-- -5 0.5 : L'éloigner écarte les logos -->
+			<logoAlignment>center</logoAlignment> <!-- left, right / top, bottom / center : of screen -->
+			<color>00000000</color>
+			<defaultTransition>instant</defaultTransition>
+			<systemInfoDelay>0</systemInfoDelay>
+			<imageSource>marquee</imageSource>   <!-- text, image, thumbnail, marquee -->
+			<scrollSound>./../../art/sounds/scroll.wav</scrollSound>
+			<zIndex>10</zIndex>
+	</gamecarousel>
+	
+	
 	<text name="gamecarouselLogoText">
       <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 	  <color>AABBBBFF</color>
@@ -162,12 +246,79 @@ originally based on: "carbon"
     </text>
 	
 	
+	
+	
+	<!-- Chevrons haut et bas -->
+			
+	<image name="Chevron haut" extra="static">
+      <origin>0.5 0.5</origin>
+      <size>0.023 0</size>
+	  <path>./../../art/divers/triangle-snap.svg</path>
+      <linearSmooth>true</linearSmooth>
+	  <zIndex>41</zIndex>
+	  <color>${baseColor}</color>
+	  <pos>0.935 0.36</pos>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="color" to="FFFF00" begin="3000" duration="230" autoreverse="true" mode="linear" repeat="1"/>
+			
+			<animation property="offsetY" from="0" to="0" begin="5000" duration="1" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron bas" extra="static">
+      <origin>0.5 0.5</origin>
+      <size>0.023 0</size>
+	  <path>./../../art/divers/triangle-snap.svg</path>
+      <linearSmooth>true</linearSmooth>
+	  <zIndex>41</zIndex>
+	  <color>${baseColor}</color>
+	  <pos>0.935 0.646</pos>
+		<rotation>-180</rotation>
+		<storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="0.01" begin="3500" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="color" to="FFFF00" begin="3500" duration="230" autoreverse="true" mode="linear" repeat="1"/>
+
+			<animation property="offsetY" from="0" to="0" begin="5000" duration="1" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	
+	<!-- Petite barre des chevrons -->
+	
+	<image name="cadre_haut1, cadre_haut2">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<origin>0.5 0.5</origin>
+		<zIndex>150</zIndex>
+	</image>
+	
+	<image name="cadre_haut1" extra="true">
+	  <pos>0.935 0.378</pos>
+	  <size>0.03 0.006</size>
+	</image>
+	
+	<image name="cadre_haut2" extra="true">
+	  <pos>0.935 0.628</pos>
+	  <size>0.03 0.006</size>
+	</image>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<text name="md_name">
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
-         <size>0.8 0.08</size>
+         <size>0.6 0.08</size>
          <color>ffffff</color>
-         <pos>0.18 0.09</pos>
+         <pos>0.18 0.061</pos>
          <fontPath>./../../art/fonts/flatwheat.ttf</fontPath>
          <fontSize>0.03</fontSize>
          <origin>0 0</origin>
@@ -181,12 +332,37 @@ originally based on: "carbon"
 	
 	
 	<text name="md_developer">
-	  <origin>0 0</origin>
-	  <color>928e94D0</color>
-	  <size>0.25 0.03</size>
-	  <pos>0.143 0.69</pos>
-	  <rotation>-90</rotation>
+		<color>00d8ff</color>
+		<alignment>left</alignment>
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+		<fontSize>0.021</fontSize>
+		<forceUppercase>1</forceUppercase>
+		<size>0.25 0.03</size>
+		<pos>0.235 0.109</pos>
 	</text>
+	
+	<image name="md_flag">
+		<origin>0.5 0.5</origin>
+		<pos>0.22 0.1226481</pos>									
+		<maxSize>0.0166667 0.0194444</maxSize>									
+		<linearSmooth>true</linearSmooth>
+		<zIndex>50</zIndex>
+	</image>
+	
+	<datetime name="md_releasedate">
+		 <pos>0.193 0.124</pos>
+         <origin>0.5 0.5</origin>
+         <alignment>left</alignment>
+         <size>0.0245 0.05</size>
+         <color>fffc00</color>
+         <format>%Y</format>
+		 <rotation>0</rotation>
+         <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+         <fontSize>0.021</fontSize>
+         <zIndex>51</zIndex>
+         <!-- <singleLineScroll>true</singleLineScroll> -->
+         <backgroundColor>ff000000</backgroundColor>
+    </datetime>
 	
 	
 	<text name="md_genre">
@@ -197,7 +373,7 @@ originally based on: "carbon"
 	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 	  <size>0.31 0.025</size>
 	  <alignment>left</alignment>
-	  <pos>0.18 0.151</pos>
+	  <pos>0.18 0.145</pos>
 	</text>
 
 	<text name="md_description">
@@ -205,76 +381,93 @@ originally based on: "carbon"
 	  <color>928e94D0</color>
 	  <fontSize>0.021</fontSize>
 	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-	  <size>0.31 0.21</size>
+	  <size>0.53 0.18</size>
 	  <alignment>left</alignment>
-	  <pos>0.18 0.201</pos>
+	  <pos>0.18 0.181</pos>
    </text>
 	
 	
 	
 	
 	
-		<rating name="md_rating">
-				<pos>0.976 0.29</pos>
-		</rating>
+		
 	
 		<image name="md_manual,md_nomanual">
-			<pos>0.976 0.47</pos>
+			<pos>0.976 0.07</pos>
 		</image>
 		
 		<image name="ghost_manual" extra="true">
-			<pos>0.976 0.47</pos>
+			<pos>0.976 0.07</pos>
 		</image>
 	
 		<image name="md_map, md_nomap">
-			<pos>0.976 0.52</pos>
+			<pos>0.976 0.12</pos>
 		</image>
 		
 		<image name="ghost_md_map" extra="true"> 
-			<pos>0.976 0.52</pos>
+			<pos>0.976 0.12</pos>
 		</image>
 		
 		 <image name="md_savestate,md_nosavestate">
-			  <pos>0.976 0.57</pos>
+			  <pos>0.976 0.17</pos>
 		</image>
 		
 		<image name="ghost_savestate" extra="true">
-			  <pos>0.976 0.57</pos>
+			  <pos>0.976 0.17</pos>
 		</image>
 		
 		<image name="md_kidgame, md_notkidgame"> 
-			<pos>0.976 0.62</pos>
+			<pos>0.976 0.22</pos>
 		</image>
 		
 		<image name="ghost_kidgame" extra="true"> 
-			<pos>0.976 0.62</pos>
+			<pos>0.976 0.22</pos>
 		</image>
 		
 		<image name="md_cheevos,md_notcheevos">
-			<pos>0.976 0.67</pos>
+			<pos>0.976 0.27</pos>
 		</image>
 		
 		<image name="ghost_cheevos" extra="true">
-			<pos>0.976 0.67</pos>
+			<pos>0.976 0.27</pos>
 		</image>
     
 		<image name="md_hidden">
-			<pos>0.976 0.72</pos>
+			<pos>0.976 0.32</pos>
 		</image>
 		
 		<image name="ghost_hidden" extra="true">
-			<pos>0.976 0.72</pos>
+			<pos>0.976 0.32</pos>
 		</image>
 		
 		
+		<rating name="md_rating">
+				<pos>0.976 0.415</pos>
+				<size>0.041 0.041</size>
+		</rating>
 		
-		 <!-- Encadrement des stats sur les jeux -->
+		
+		
+	<!-- Encadrement des stats sur les jeux -->
 	 
-	<image name="cadre_gauche, cadre_droit, cadre_haut, cadre_bas">
+	<image name="cadre_gauche, cadre_droit, cadre_haut, cadre_bas, AngleCadre">
 		<path>./../../art/divers/white.png</path>
 		<color>${baseColor}</color>
 		<origin>0 0</origin>
 		<zIndex>57</zIndex>
+		
+		<storyboard event="open">
+				<animation property="color" to="FFFF00" begin="2000" duration="100" autoreverse="true" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="color" to="FFFF00" begin="1150" duration="100" autoreverse="true" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+		</storyboard>			
+		
 	</image>
 	 
 	<image name="cadre_gauche" extra="true">
@@ -297,6 +490,49 @@ originally based on: "carbon"
 	  <size>0.1395 0.006</size>
 	</image>
 	
+	<!-- Angle du Cadre -->
+	<image name="AngleCadre" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.0302083 0.0546296</size>									
+		<pos>0.0416667 0.3791667</pos>									
+		<path>./../../art/divers/AngleCadre.png</path>
+	</image>
+		
+		
+	<image name="ca-tourne" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>FFFF00</color>
+		<zIndex>1001</zIndex>
+		<origin>0.5 0.5</origin>									
+		<size>0.003125 0.0055556</size>									
+		<pos>0.0520833 0.4037037</pos>									
+		<opacity>0</opacity>	
+
+		<storyboard event="open">
+			<animation property="opacity" to="1"   begin="1000" duration="10"  mode="linear"/>
+			<animation property="x" to="0.1645833" begin="1000" duration="200" mode="linear"/>
+			<animation property="y" to="0.0925926" begin="1200" duration="300" mode="linear"/>
+			<animation property="x" to="0.028125"  begin="1500" duration="200" mode="linear"/>
+			<animation property="y" to="0.4037037" begin="1700" duration="300" mode="linear"/>
+			<animation property="opacity" to="0"   begin="2000" duration="10"  mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="opacity" to="1"   begin="50"   duration="10"  mode="linear"/>
+			<animation property="x" to="0.1645833" begin="50"   duration="200" mode="linear"/>
+			<animation property="y" to="0.0925926" begin="250"  duration="300" mode="linear"/>
+			<animation property="x" to="0.028125"  begin="550" duration="200" mode="linear"/>
+			<animation property="y" to="0.4037037" begin="850" duration="300" mode="linear"/>
+			<animation property="opacity" to="0"   begin="1150" duration="10"  mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" duration="10" mode="linear"/>
+		</storyboard>			
+	</image>
+		
+	
+	
 <!-- Quadrillage au niveau des metadata (Nombre de parties, Dernier jeu, ...)  -->
 	<image name="info_background" extra="true">
          <origin>0 0</origin>
@@ -318,7 +554,6 @@ originally based on: "carbon"
 		</text>
 		
 		<text name="md_lbl_playcount">
-			<!-- <pos>0.14 0.20</pos> -->
 			<pos>0.04 0.105</pos>
 		</text>
 		
@@ -347,14 +582,56 @@ originally based on: "carbon"
 	
 	<text name="md_playcount">
 		<pos>0.035 0.135</pos>
+		
+			<storyboard event="open">
+				<animation property="color" to="FFFF00" begin="3000" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="1.5" begin="3000" duration="250" autoreverse="true" mode="linear"/>
+				<animation property="offsetX" to="-0.03" begin="3000" duration="250" autoreverse="true" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="color" to="FFFF00" begin="2000" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="1.5" begin="2000" duration="250" autoreverse="true" mode="linear"/>
+				<animation property="offsetX" to="-0.03" begin="2000" duration="250" autoreverse="true" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+		</storyboard>
+		
 	</text>
 	
 	<datetime name="md_lastplayed">
 		<pos>0.035 0.213</pos>
+		
+			<storyboard event="open">
+				<animation property="color" to="FFFF00" begin="4000" duration="300" autoreverse="true" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="color" to="FFFF00" begin="3000" duration="300" autoreverse="true" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+		</storyboard>
 	</datetime>
 	
 	<text name="md_gametime">
 		<pos>0.035 0.29</pos>	
+		
+			<storyboard event="open">
+				<animation property="color" to="FFFF00" begin="5000" duration="300" autoreverse="true" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="color" to="FFFF00" begin="4000" duration="300" autoreverse="true" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+			</storyboard>
+
 	</text>
     
 	
@@ -367,10 +644,268 @@ originally based on: "carbon"
 		<fontSize>0.048</fontSize>
 		<color>dddddd</color>
         <singleLineScroll>true</singleLineScroll>
+		
+			<storyboard event="open">
+				<animation property="color" to="FFFF00" begin="6000" duration="100" autoreverse="true" repeat="10" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="color" to="FFFF00" begin="5000" duration="100" autoreverse="true" repeat="10" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+			</storyboard>
+		
     </text>
 		
 		
+	
+	
+	
+	
+	<!-- Animation barres -->
+
+		<!-- Barre and Round du Bas -->
+		<image name="BarAndRound" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0510417 0.312963</size>									
+			<path>./../../art/divers/BarAndRound.png</path>
+			<color>${baseColor}</color>
+			<zIndex>7</zIndex>
+			<opacity>0</opacity>
+			<pos>0.0765625 0.289</pos>	
+
+			<storyboard event="open">
+				<animation property="y" to="0.2481481" duration="1" mode="linear"/>
+				<animation property="x" to="0.0554167" duration="1" mode="linear"/>
+				<animation property="opacity" to="1" begin="500" duration="10" mode="linear"/>
+				<animation property="y" to="0.289" begin="500" duration="200" mode="linear"/>
+				<animation property="x" to="0.0765625" begin="700" duration="300" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="offsetX" to="-0.005" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="1" duration="10" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+			</storyboard>
+			
+			
+		</image>
+	
+		<!-- Barre and Round du Haut -->
+		<image name="BarAndRound2" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0390625 0.1083333</size>									
+			<pos>0.0549479 0.0828704</pos>									
+			<path>./../../art/divers/BarAndRound2.png</path>
+			<color>${baseColor}</color>
+			<zIndex>7</zIndex>
+			
+			<opacity>0</opacity>
+
+			<storyboard event="open">
+				<animation property="offsetY" to="0.1" duration="1" mode="linear"/>
+				<animation property="opacity" to="1" begin="500" duration="10" mode="linear"/>
+				<animation property="offsetY" to="0" begin="500" duration="300" mode="linear"/>
+				<animation property="offsetX" to="0.12" begin="800" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="color" to="FFFF00" begin="800" duration="300" autoreverse="true" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="opacity" to="1" duration="10" mode="linear"/>
+				<animation property="offsetX" to="0.12" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="color" to="FFFF00" duration="300" autoreverse="true" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+			</storyboard>
+			
+			
+		</image>
 		
+		
+		
+		
+	<!-- Animation barre diagonales -->
+	
+	<!-- Diago de base qui s'affiche que à l'ouverture -->
+		<image name="diagobase1, diagobase2, diagobase3, diagobase4, diagobase5, diagoyellow1, diagoyellow2, diagoyellow3, diagoyellow4, diagoyellow5">
+			<path>./../../art/divers/diago.png</path>
+			<flipX>true</flipX>
+			<rotation>10</rotation>
+			<origin>0.5 0.5</origin>					
+			<size>0.015625 0.0259259</size>									
+			<color>${baseColor}</color>
+			<zIndex>13</zIndex>
+			<opacity>0</opacity>
+		</image>
+
+		<image name="diagobase1" extra="static">
+			<pos>0.1192708 0.4324074</pos>									
+			
+			<storyboard>
+				<animation property="opacity" to="1" begin="800" duration="100" mode="linear"/>
+			</storyboard>
+			
+		</image>
+	
+		<image name="diagobase2" extra="static">
+			<pos>0.1348958 0.4324074</pos>									
+			
+			<storyboard>
+				<animation property="opacity" to="1" begin="900" duration="100" mode="linear"/>
+			</storyboard>
+			
+		</image>
+	
+		<image name="diagobase3" extra="static">
+			<pos>0.1505208 0.4324074</pos>									
+			
+			<storyboard>
+				<animation property="opacity" to="1" begin="1000" duration="100" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="diagobase4" extra="static">
+			<pos>0.1661458 0.4324074</pos>									
+			
+			<storyboard>
+				<animation property="opacity" to="1" begin="1100" duration="100" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="diagobase5" extra="static">
+			<pos>0.1817708 0.4324074</pos>									
+			
+			<storyboard>
+				<animation property="opacity" to="1" begin="1200" duration="100" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		
+		
+		<!-- Diago qui clignote à chaque changement -->
+
+		<image name="diagoyellow1" extra="static">
+			<pos>0.1192708 0.4324074</pos>
+			<color>FFFF00</color>
+			<zIndex>14</zIndex>
+
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="1400" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="1900" duration="100" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="100" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="700" duration="100" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+			</storyboard>			
+		</image>
+	
+		<image name="diagoyellow2" extra="static">
+			<pos>0.1348958 0.4324074</pos>									
+			<color>FFFF00</color>
+			<zIndex>14</zIndex>
+
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="1500" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="2000" duration="100" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="200" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="800" duration="100" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+			</storyboard>			
+			
+		</image>
+	
+		<image name="diagoyellow3" extra="static">
+			<pos>0.1505208 0.4324074</pos>									
+			<color>FFFF00</color>
+			<zIndex>14</zIndex>
+
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="1600" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="2100" duration="100" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="300" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="900" duration="100" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+			</storyboard>			
+			
+		</image>
+		
+		<image name="diagoyellow4" extra="static">
+			<pos>0.1661458 0.4324074</pos>									
+			<color>FFFF00</color>
+			<zIndex>14</zIndex>
+
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="1700" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="2200" duration="100" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="400" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="1000" duration="100" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+			</storyboard>			
+			
+		</image>
+		
+		<image name="diagoyellow5" extra="static">
+			<pos>0.1817708 0.4324074</pos>									
+			<color>FFFF00</color>
+			<zIndex>14</zIndex>
+
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="1800" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="2300" duration="100" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="500" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="1100" duration="100" mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+			</storyboard>			
+			
+		</image>
+		
+
+	
+	<!-- Règle d'affichage des consoles -->
+	<image name="Consoles" extra="static">
+		  
+  	</image>
+
+	
 	
 	
   </view>

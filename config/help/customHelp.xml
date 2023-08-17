@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<ArchOrNot ifArch="windows">ROOT OF RETROBAT FOLDER</ArchOrNot>
+		<ArchOrNot ifArch="windows" lang="fr">à la racine du répertoire RETROBAT</ArchOrNot>
+		<ArchOrNot ifArch="windows" lang="es">RAÍZ DE LA CARPETA RETROBAT</ArchOrNot>
+		<ArchOrNot ifNotArch="windows">SAME LEVEL THEN "themes" FOLDER</ArchOrNot>
+		<ArchOrNot ifNotArch="windows" lang="fr">au même niveau que le dossier "themes"</ArchOrNot>
+		<ArchOrNot ifNotArch="windows" lang="es">MISMO NIVEL QUE LA CARPETA "temas</ArchOrNot>
+		
+		<Racine ifArch="windows">Retrobat\emulationstation\.emulationstation\themes\es-theme-Animatics-DX</Racine>
+		<Racine ifNotArch="windows">\userdata\themes</Racine>
+		
+	</variables>
+	<view name="system">
+		<image name="helpFrame" extra="true">
+			<zIndex>1000</zIndex>
+			<tile>true</tile>
+			<path>./../../art/divers/white.png</path>
+			<color>eaffaa</color>
+			<size>0.36 1</size>
+			<pos>0.18 0.5</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+		<text name="helpInformations" extra="true">
+			<zIndex>1001</zIndex>
+			<size>0.35 0.79</size>
+			<pos>0.18 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+			<fontSize>0.017</fontSize>
+			<alignment>center</alignment>
+			<verticalAlignment>center</verticalAlignment>
+			<color>000000</color>
+
+<!--english-->
+<text>--- HELP WITH LOGO AND CUSTOM NICKNAME ---
+________________________________________________________________________
+
+You will find two files at the root of the theme:
+${Racine}
+
+For the logo you need to replace the PNG file: "your-logo.png" 
+with your PNG file previously renamed "your-logo.png".
+
+For the nickname, you need to open the file "your-nickname.xml" 
+with a text editor and replace the text "Here Your NickName" 
+with the text of your choice.
+________________________________________________________________________
+
+NOW HERE'S HOW TO AVOID LOSING 
+YOUR LOGO AND NICKNAME
+WHEN YOU UPDATE YOUR THEME
+
+Copy the two files, "your-logo.png" and "your-nickname.xml".
+and paste them ${ArchOrNot}
+_________________________________________________________________________
+
+HOW TO HIDE THIS HELP?
+
+MAIN MENU
+USER INTERFACE SETTINGS
+THEME CONFIGURATION
+HELP FOR CUSTOM LOGO AND NICKNAME
+HIDE
+_________________________________________________________________________</text>
+
+
+
+<!--français-->
+<text lang="fr">--- AIDE POUR LE LOGO ET SURNOM CUSTOM ---
+________________________________________________________________________
+
+Vous trouverez deux fichiers à la racine du thème :
+${Racine}
+
+Pour le logo vous devez remplacer le fichier PNG : "your-logo.png" 
+par votre fichier PNG préalablement renommer "your-logo.png".
+
+Pour le surnom, il faut ouvrir le fichier "your-nickname.xml" 
+avec un éditeur de texte et remplacez le texte "Here Your NickName" 
+par le texte de votre choix.
+________________________________________________________________________
+
+MAINTENANT VOICI COMMENT EVITER DE PERDRE 
+VOTRE LOGO ET SURNOM
+LORS D'UNE MISE A JOUR DU THÈME
+
+Copiez les deux fichiers "your-logo.png" et "your-nickname.xml"
+et coller les ${ArchOrNot}
+_________________________________________________________________________
+
+COMMENT MASQUER CETTE AIDE ?
+
+MENU PRINCIPAL
+PARAMETRES D'AFFICHAGE
+CONFIGURATION DU THEME
+AIDE POUR LE LOGO ET LE SURNOM PERSO
+MASQUER
+_________________________________________________________________________
+
+
+
+</text>
+
+
+<!--espagnol-->
+<text lang="es">--- AYUDA CON LOGO Y NICK PERSONALIZADO ---
+________________________________________________________________________
+
+Usted encontrará dos archivos en la raíz del tema:
+${Racine}
+
+Para el logo necesitas reemplazar el archivo PNG: "your-logo.png"  
+con tu archivo PNG previamente renombrado "your-logo.png" .
+
+Para el apodo, tienes que abrir el archivo "your-nickname.xml" 
+con un editor de texto y sustituir el texto "Here Your NickName" 
+por el texto de tu elección.
+________________________________________________________________________
+
+AHORA TE EXPLICAMOS CÓMO EVITAR PERDER 
+TU LOGO Y APODO
+CUANDO ACTUALICES TU TEMA
+
+Copia los dos archivos, "your-logo.png" y "your-nickname.xml"
+y pégalos ${ArchOrNot}
+_________________________________________________________________________
+
+¿CÓMO OCULTAR ESTA AYUDA?
+
+MENÚ PRINCIPAL
+CONFIGURACIÓN DE LA INTERFAZ DE USUARIO
+CONFIGURACIÓN DEL TEMA
+AYUDA PARA LOGOTIPO Y APODO PERSONALIZADOS
+OCULTAR
+_________________________________________________________________________
+
+
+</text>
+
+
+
+		</text>
+	</view>
+</theme>

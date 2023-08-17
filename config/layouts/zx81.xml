@@ -1,6 +1,104 @@
 ﻿<theme>
  
+
+
+ <view name="gamecarousel">
   
+	<image name="ecran_console" extra="static">
+		<origin>0.5 0.5</origin>									
+		<path>./../../art/screen/estv.png</path>
+		<size>0.3489583 0.4435185</size>									
+		<pos>0.4484375 0.6171296</pos>									
+		<color>FFFFFF</color>
+		<flipY>false</flipY>
+		<opacity>0</opacity>
+		<zIndex>12</zIndex>
+		
+			<storyboard event="open">
+				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
+			</storyboard>
+				
+	</image>
+  
+  
+	<image name="Consoles" extra="static">
+		<path>./../../art/consoles/${system.theme}.png</path>
+		<path>./../../art/consoles/${system.theme}.svg</path>
+		<path ifSubset="artworkregion:US">./../../art/consoles/US/${system.theme}.png</path>
+		<path ifSubset="artworkregion:JP">./../../art/consoles/JP/${system.theme}.png</path>
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>									
+		<maxSize>0.2608333 0.2259259</maxSize>									
+		<pos>0.6460417 0.8005556</pos>	
+		<opacity>0</opacity>		
+		<zIndex>16</zIndex>
+		  <storyboard event="open">
+				<animation property="offsetX" to="0.02" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="" mode="linear"/>
+			</storyboard>
+
+    </image>
+
+
+	
+	<video name="md_video">
+		<origin>0.5 0.5</origin>									
+		<pos>0.4145833 0.6157407</pos>									
+		<maxSize>0.2458333 0.3574074</maxSize>									
+
+		<zIndex>11</zIndex>
+
+			<storyboard event="open">
+
+				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
+			</storyboard>
+				
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>
+		<size>0.2458333 0.3574074</size>									
+		<pos>0.4145833 0.6157407</pos>									
+		<zIndex>10</zIndex>
+			<storyboard event="open">
+				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
+			</storyboard>
+				
+	</image>
+</view>
+
+
+
+
   <view name="detailed">
 					
 	

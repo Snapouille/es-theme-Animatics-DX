@@ -1,0 +1,802 @@
+<!-- Atari 5200 working snapouille -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+
+	<view name="system">
+	
+		<image name="Body" extra="static">
+			<origin>0 0</origin>
+			<pos>0.11 0.3329</pos>
+			<size>0.29375 0.6833333</size>									
+
+			<scale>0.55</scale>
+			
+			<!-- <pos>0.235 0.1618</pos> -->
+			<!-- <scale>0.8</scale> -->
+			
+			
+			<path>./Body.png</path>
+			<opacity>0</opacity>
+			<zIndex>16</zIndex>
+					
+			<storyboard repeat="forever">
+					
+							
+						
+						
+						<animation property="opacity" from="0" to="1" begin="800" duration="300" mode="linear"/>
+						<animation property="x" to="0.235" begin="900" duration="2000" mode="linear"/>
+						<animation property="scale" from="0.55" to="0.8" begin="900" duration="2000" mode="linear"/>
+						<animation property="y" from="0.3329" to="0.1618" begin="900" duration="2000" mode="linear"/>
+						
+						
+						
+						
+						
+						
+						
+						
+						<animation property="scale" to="5" begin="25000" duration="1500" mode="Linear"/>
+						<animation property="opacity" to="0" begin="25000" duration="1500" mode="linear"/>
+						<animation property="x" from="0.235" to="-0.1" begin="25000" duration="1500" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="-0.4" begin="25000" duration="1500" mode="EaseOut"/>
+						
+						<animation property="opacity" to="0" begin="26500" duration="1500" mode="linear"/>
+
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		<image name="Left" extra="static">
+			<origin>0 0</origin>
+			<pos>0.11 0.3329</pos>
+			<size>0.29375 0.6833333</size>									
+
+			<scale>0.55</scale>
+			
+			<!-- <pos>0.382 0.234</pos> -->
+			<!-- <scale>0.8</scale> -->
+			
+			
+			<path>./Left.png</path>
+			<opacity>0</opacity>
+			<zIndex>15</zIndex>
+					
+						
+			<storyboard repeat="forever">
+					
+						<animation property="opacity" from="0" to="1" begin="800" duration="300" mode="linear"/>
+						<animation property="x" to="0.235" begin="900" duration="2000" mode="linear"/>
+						<animation property="scale" from="0.55" to="0.8" begin="900" duration="2000" mode="linear"/>
+						<animation property="y" from="0.3329" to="0.1618" begin="900" duration="2000" mode="linear"/>
+						
+						
+						<animation property="scale" from="0.8" to="0.85" begin="5000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="5000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="5000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="5000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="5200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="5200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="5200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="5200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="5300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="5300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="5300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="5300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="6000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="6000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="6000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="6000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="6200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="6200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="6200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="6200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="6300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="6300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="6300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="6300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="7000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="7000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="7000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="7000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="7200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="7200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="7200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="7200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="7300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="7300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="7300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="7300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="8000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="8000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="8000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="8000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="8200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="8200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="8200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="8200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="8300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="8300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="8300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="8300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="9000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="9000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="9000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="9000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="9200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="9200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="9200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="9200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="9300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="9300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="9300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="9300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="10000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="10000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="10000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="10000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="10200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="10200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="10200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="10200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="10300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="10300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="10300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="10300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="11000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="11000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="11000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="11000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="11200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="11200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="11200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="11200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="11300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="11300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="11300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="11300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="11000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="11000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="11000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="11000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="11200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="11200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="11200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="11200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="11300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="11300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="11300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="11300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="12000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="12000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="12000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="12000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="12200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="12200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="12200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="12200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="12300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="12300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="12300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="12300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="13000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="13000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="13000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="13000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="13200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="13200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="13200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="13200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="13300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="13300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="13300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="13300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="14000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="14000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="14000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="14000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="14200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="14200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="14200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="14200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="14300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="14300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="14300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="14300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="15000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="15000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="15000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="15000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="15200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="15200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="15200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="15200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="15300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="15300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="15300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="15300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="16000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="16000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="16000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="16000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="16200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="16200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="16200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="16200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="16300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="16300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="16300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="16300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="17000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="17000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="17000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="17000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="17200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="17200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="17200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="17200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="17300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="17300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="17300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="17300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="18000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="18000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="18000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="18000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="18200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="18200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="18200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="18200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="18300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="18300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="18300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="18300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="19000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="19000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="19000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="19000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="19200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="19200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="19200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="19200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="19300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="19300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="19300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="19300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="20000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="20000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="20000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="20000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="20200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="20200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="20200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="20200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="20300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="20300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="20300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="20300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="21000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="21000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="21000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="21000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="21200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="21200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="21200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="21200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="21300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="21300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="21300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="21300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="22000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="22000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="22000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="22000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="22200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="22200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="22200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="22200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="22300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="22300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="22300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="22300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="23000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="23000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="23000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="23000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="23200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="23200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="23200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="23200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="23300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.233" begin="23300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1528" begin="23300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="1" begin="23300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						
+						
+						<animation property="scale" to="5" begin="25000" duration="1500" mode="Linear"/>
+						<animation property="opacity" to="0" begin="25000" duration="1500" mode="linear"/>
+						<animation property="x" from="0.235" to="-0.1" begin="25000" duration="1500" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="-0.4" begin="25000" duration="1500" mode="EaseOut"/>
+						
+						<animation property="opacity" to="0" begin="26500" duration="1500" mode="linear"/>
+
+			</storyboard>
+		</image>
+		
+		
+		<image name="Right" extra="static">
+			<origin>0 0</origin>
+			<pos>0.11 0.3329</pos>
+			<size>0.29375 0.6833333</size>									
+
+			<scale>0.55</scale>
+			
+			<!-- <pos>0.382 0.234</pos> -->
+			<!-- <scale>0.8</scale> -->
+			
+			<!-- <pos>0.371 0.222</pos> -->
+			<!-- <scale>0.85</scale> -->
+			
+			
+			<path>./Right.png</path>
+			<opacity>0</opacity>
+			<zIndex>15</zIndex>
+					
+						
+			<storyboard repeat="forever">
+					
+						<animation property="opacity" from="0" to="1" begin="800" duration="300" mode="linear"/>
+						<animation property="x" to="0.235" begin="900" duration="2000" mode="linear"/>
+						<animation property="scale" from="0.55" to="0.8" begin="900" duration="2000" mode="linear"/>
+						<animation property="y" from="0.3329" to="0.1618" begin="900" duration="2000" mode="linear"/>
+						
+						
+						<animation property="scale" from="0.8" to="0.85" begin="5000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="5000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="5000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="5000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="5200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="5200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="5200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="5200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="5300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="5300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="5300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="5300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="6000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="6000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="6000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="6000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="6200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="6200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="6200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="6200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="6300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="6300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="6300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="6300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="7000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="7000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="7000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="7000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="7200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="7200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="7200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="7200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="7300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="7300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="7300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="7300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="8000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="8000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="8000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="8000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="8200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="8200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="8200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="8200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="8300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="8300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="8300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="8300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="9000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="9000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="9000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="9000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="9200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="9200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="9200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="9200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="9300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="9300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="9300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="9300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="10000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="10000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="10000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="10000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="10200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="10200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="10200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="10200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="10300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="10300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="10300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="10300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="11000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="11000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="11000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="11000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="11200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="11200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="11200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="11200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="11300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="11300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="11300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="11300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="12000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="12000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="12000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="12000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="12200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="12200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="12200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="12200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="12300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="12300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="12300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="12300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="13000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="13000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="13000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="13000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="13200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="13200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="13200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="13200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="13300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="13300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="13300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="13300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="14000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="14000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="14000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="14000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="14200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="14200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="14200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="14200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="14300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="14300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="14300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="14300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="15000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="15000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="15000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="15000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="15200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="15200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="15200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="15200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="15300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="15300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="15300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="15300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="16000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="16000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="16000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="16000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="16200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="16200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="16200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="16200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="16300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="16300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="16300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="16300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="17000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="17000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="17000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="17000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="17200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="17200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="17200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="17200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="17300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="17300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="17300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="17300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="18000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="18000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="18000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="18000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="18200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="18200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="18200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="18200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="18300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="18300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="18300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="18300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="19000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="19000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="19000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="19000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="19200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="19200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="19200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="19200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="19300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="19300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="19300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="19300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="20000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="20000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="20000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="20000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="20200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="20200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="20200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="20200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="20300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="20300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="20300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="20300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="21000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="21000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="21000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="21000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="21200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="21200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="21200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="21200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="21300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="21300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="21300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="21300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="22000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="22000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="22000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="22000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="22200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="22200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="22200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="22200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="22300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="22300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="22300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="22300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						<animation property="scale" from="0.8" to="0.85" begin="23000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="23000" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="23000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="23000" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="23200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="23200" autoreverse="true" duration="50" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="23200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="23200" autoreverse="true" duration="50" mode="EaseIn"/>
+						<animation property="scale" from="0.8" to="0.85" begin="23300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="x" from="0.235" to="0.224" begin="23300" autoreverse="true" duration="100" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="0.1498" begin="23300" autoreverse="true" duration="100" mode="EaseIn"/>
+						<animation property="rotation" to="2" begin="23300" autoreverse="true" duration="100" mode="EaseIn"/>
+						
+						
+						<animation property="scale" to="5" begin="25000" duration="1500" mode="Linear"/>
+						<animation property="opacity" to="0" begin="25000" duration="1500" mode="linear"/>
+						<animation property="x" from="0.235" to="-0.1" begin="25000" duration="1500" mode="EaseOut"/>
+						<animation property="y" from="0.1618" to="-0.4" begin="25000" duration="1500" mode="EaseOut"/>
+						
+						<animation property="opacity" to="0" begin="26500" duration="1500" mode="linear"/>
+
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="Eyes" extra="static">
+			<origin>0 0</origin>
+			<pos>0.11 0.3329</pos>
+			<size>0.29375 0.6833333</size>									
+
+			<scale>0.55</scale>
+			
+			<!-- <pos>0.382 0.234</pos> -->
+			<!-- <scale>0.8</scale> -->
+			
+			
+			<path>./Eyes.png</path>
+			<opacity>0</opacity>
+			<zIndex>16</zIndex>
+					
+						
+			<storyboard repeat="forever">
+					
+					<animation property="opacity" from="0" to="1" begin="800" duration="300" mode="linear"/>
+					<animation property="x" to="0.235" begin="900" duration="2000" mode="linear"/>
+					<animation property="scale" from="0.55" to="0.8" begin="900" duration="2000" mode="linear"/>
+					<animation property="y" from="0.3329" to="0.1618" begin="900" duration="2000" mode="linear"/>
+					
+					<animation property="x" from="0.235" to="0.231" begin="2675" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
+					<animation property="x" from="0.235" to="0.238" begin="5000" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
+					<animation property="x" from="0.235" to="0.231" begin="8000" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
+					<animation property="x" from="0.235" to="0.238" begin="12000" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
+					<animation property="x" from="0.235" to="0.231" begin="15000" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
+					<animation property="x" from="0.235" to="0.238" begin="18000" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
+					<animation property="x" from="0.235" to="0.231" begin="21000" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
+					
+					<animation property="scale" to="5" begin="25000" duration="1500" mode="Linear"/>
+					<animation property="opacity" to="0" begin="25000" duration="1500" mode="linear"/>
+					<animation property="x" from="0.235" to="-0.1" begin="25000" duration="1500" mode="EaseOut"/>
+					<animation property="y" from="0.1618" to="-0.4" begin="25000" duration="1500" mode="EaseOut"/>
+					
+					<animation property="opacity" to="0" begin="26500" duration="1500" mode="linear"/>
+
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		<image name="Eclat1" extra="static">	
+			<origin>0 0</origin>
+			<size>0.0817708 0.125</size>									
+
+			<pos>0.25 0.1388</pos>
+			<scale>1</scale>
+			<path>./Eclat1.png</path>
+			<opacity>0</opacity>
+			<zIndex>17</zIndex>
+						
+				<storyboard repeat="forever">
+						
+						<animation property="opacity" to="1" begin="10000" duration="10" mode="linear"/>
+						
+						<animation property="opacity" to="0" begin="14000" duration="10" mode="linear"/>
+						<animation property="x" from="0.25" to="0.414" begin="14010" duration="10" mode="linear"/>
+						<animation property="y" from="0.1388" to="0.2028" begin="14010" duration="10" mode="linear"/>
+						<animation property="opacity" to="1" begin="14020" duration="10" mode="linear"/>
+						
+						<animation property="opacity" to="0" begin="18200" duration="10" mode="linear"/>
+						<animation property="x" from="0.414" to="0.333" begin="18210" duration="10" mode="linear"/>
+						<animation property="y" from="0.2028" to="0.0678" begin="18210" duration="10" mode="linear"/>
+						<animation property="opacity" to="1" begin="18220" duration="10" mode="linear"/>
+						
+						
+						<animation property="opacity" to="0" begin="23490" duration="10" mode="linear"/>
+						
+						<animation property="opacity" to="0" begin="26500" duration="1500" mode="linear"/>
+						
+				</storyboard>
+		</image>
+		
+		
+		<image name="Eclat2" extra="static">
+			<origin>0 0</origin>
+			<size>0.065625 0.1203704</size>									
+
+			<pos>0.25 0.1388</pos>
+			<scale>1</scale>
+			<path>./Eclat2.png</path>
+			<opacity>0</opacity>
+			<zIndex>18</zIndex>
+					
+				<storyboard repeat="forever">
+					
+					<animation property="opacity" to="1" begin="14000" duration="10" mode="linear"/>
+					
+					<animation property="opacity" to="0" begin="18200" duration="10" mode="linear"/>
+					<animation property="x" from="0.25" to="0.414" begin="18210" duration="10" mode="linear"/>
+					<animation property="y" from="0.1388" to="0.2028" begin="18210" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="18220" duration="10" mode="linear"/>
+					
+					
+					<animation property="opacity" to="0" begin="23490" duration="10" mode="linear"/>
+					
+					<animation property="opacity" to="0" begin="26500" duration="1500" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+		<image name="Eclat3" extra="static">
+			<origin>0 0</origin>
+			<size>0.0776042 0.1416667</size>									
+
+			<pos>0.244 0.1258</pos>
+			<scale>1</scale>
+			<path>./Eclat3.png</path>
+			<opacity>0</opacity>
+			<zIndex>19</zIndex>
+					
+				<storyboard repeat="forever">
+					
+					<animation property="opacity" to="1" begin="18200" duration="10" mode="linear"/>
+					
+					
+					<animation property="opacity" to="0" begin="23490" duration="10" mode="linear"/>
+					
+					<animation property="opacity" to="0" begin="26500" duration="1500" mode="linear"/>
+					
+				</storyboard>
+		</image>
+		
+		
+		<image name="Eclat4" extra="static">
+			<origin>0 0</origin>
+			<size>0.3145833 0.5925926</size>									
+
+			<pos>0.203 0.1078</pos>
+			<scale>1</scale>
+			<rotation>90</rotation>
+			
+			<path>./Eclat4.png</path>
+			<opacity>0</opacity>
+			<zIndex>19</zIndex>
+					
+				<storyboard repeat="forever">
+					
+					<animation property="opacity" to="1" begin="23490" duration="10" mode="linear"/>
+					<animation property="scale" to="7" begin="23500" duration="2000" mode="linear"/>
+					<animation property="x" to="-0.597" begin="23500" duration="2000" mode="linear"/>
+					<animation property="y" to="-1" begin="23500" duration="2000" mode="EaseOut"/>
+					
+					<animation property="opacity" to="0" begin="25400" duration="100" mode="linear"/>
+					
+					<animation property="opacity" to="0" begin="26500" duration="1500" mode="linear"/>
+					
+				</storyboard>
+		</image>
+		
+		
+		
+	</view>
+	
+	
+	
+	
+	
+
+
+</theme>

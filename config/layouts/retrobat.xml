@@ -1,7 +1,39 @@
 ﻿<theme>
  
+ 
+ <view name="gamecarousel">
+  
+	<image name="ecran_console" extra="static">
+		<visible>false</visible>
+	</image>
+	
+	
+	<video name="md_video">
+		<visible>false</visible>
+	 </video>
+	
+	<image name="md_thumbnail">
+		<x>0.3</x>
+		
+	</image>
+	
+	
+	
+  </view>
+  
+  
+ 
+ 
+ 
+ 
+  
   
   <view name="detailed">
+  
+	<image name="ecran_console" extra="static">
+		<visible>false</visible>
+	</image>
+  
   	
 	<image name="md_thumbnail">
 		<visible>false</visible>

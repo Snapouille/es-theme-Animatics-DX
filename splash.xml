@@ -16,7 +16,7 @@ originally based on: "carbon"
 	<view name="splash">
 	
 		<text name="version" extra="true">
-			<text>V 1.45</text>
+			<text>V 1.46</text>
 			<pos>0.02 0.951</pos>
 			<color>f4ff1a</color>
 			<fontPath>./art/fonts/ubuntu.ttf</fontPath>
@@ -77,6 +77,8 @@ originally based on: "carbon"
 		
 			 <path>./art/logo-user/${image.logo}</path>
 			 <path ifSubset="user-logo:custom">./your-logo.png</path>
+			 <path ifSubset="user-logo:custom">./../../../../your-logo.png</path> <!-- check si il existe un logo sauvegardé -->
+			 
 			 <visible ifSubset="user-logo:none">false</visible>
 			 
 			 <storyboard>

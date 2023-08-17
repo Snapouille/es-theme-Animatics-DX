@@ -6,7 +6,7 @@ version : V1.3
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
-<theme defaultView="detailed">
+<theme defaultView="gamecarousel">
   <formatVersion>7</formatVersion>
   <variables>
     <baseColor>8b0000</baseColor>
@@ -22,6 +22,8 @@ originally based on: "carbon"
     <iconsViewName>Icons</iconsViewName>
     <roundBorderSubsetName>Round borders</roundBorderSubsetName>
     <blinkBorderSubsetName>Blinking borders</blinkBorderSubsetName>
+	<yes>Yes</yes>
+	<no>No</no>
     <previewBarSubsetName>Preview bar</previewBarSubsetName>
     <zoomboxesSubsetName>Zoom boxes</zoomboxesSubsetName>
     <orientationSubsetName>Orientation</orientationSubsetName>
@@ -75,6 +77,7 @@ originally based on: "carbon"
 	<bigboxesview>Boxes - Big Size</bigboxesview>
 	<mediumboxesview>Boxes - Medium Size</mediumboxesview>
 	<smallboxesview>Boxes - Small Size</smallboxesview>
+	<user.help>Help for custom logo and nickname</user.help>
 	
   </variables>
   
@@ -82,6 +85,8 @@ originally based on: "carbon"
   
 <!-- Personalisation Utilisateurs-->
 	<include>./your-nickname.xml</include>
+	<include ifArch="windows">./../../../../your-nickname.xml</include> <!-- On check à la racine de Retrobat si l'user a coller le xml custom -->
+	<include ifNotArch="windows">./../your-nickname.xml</include> <!-- On check à la racine Theme de Batocera si l'user a coller le xml custom -->
 	<include>./config/system/user-variables.xml</include>
 
 <!-- Language  -->
@@ -134,9 +139,9 @@ originally based on: "carbon"
     
 <!-- Subset options for screen -->
 <subset name="SystemView" displayName="${systemViewName}">
+	<include name="wheel" displayName="${systemview.wheel}">./config/system/systemview/wheel.xml</include>
     <include name="vertical"  displayName="${systemview.vertical}">./config/system/systemview/vertical.xml</include>
 	<include name="horizontal"  displayName="${systemview.horizontal}">./config/system/systemview/horizontal.xml</include>
-    <include name="wheel" displayName="${systemview.wheel}">./config/system/systemview/wheel.xml</include>
 	<include name="simple" displayName="${systemview.simple}">./config/system/systemview/simple.xml</include>
 </subset>
   
@@ -167,7 +172,8 @@ originally based on: "carbon"
 
 
 
-<!--Avatar du client-->
+
+<!-- Avatar utilisateur -->
 <subset name="user-logo" displayName="${user.logo}">
 	<include name="none" displayName="${none}" />
 	<include name="custom" displayName="${custom}" />
@@ -181,7 +187,7 @@ originally based on: "carbon"
 </subset>
 
 
-<!--NickName du client-->
+<!-- NickName utilisateur -->
 <subset name="user-username" displayName="${user.username}">
 	<include name="none" displayName="${none}" />
 	<include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements ID: ${cheevos.username}" />
@@ -194,7 +200,10 @@ originally based on: "carbon"
 </subset>
 
 
-	
+<subset name="customHelp" tinyScreen="false" displayName="${user.help}">
+        <include name="Hide" displayName="${hide}"/>
+        <include name="Show" displayName="${show}">./config/help/customHelp.xml</include>
+</subset>
 	
   
   
@@ -203,7 +212,7 @@ originally based on: "carbon"
 <view name="menu">
     <menuText name="menutitle">
       <fontPath>./art/fonts/flatwheat.ttf</fontPath>
-      <fontSize>0.038</fontSize>
+      <fontSize>0.033</fontSize>
       <color>FAFAFA</color>
     </menuText>
     <menuText name="menufooter">
@@ -304,56 +313,20 @@ originally based on: "carbon"
 		</text>
 
 		<batteryIndicator name="batteryIndicator">
-			  <pos>0.955 0.012</pos>
+			  <pos>0.9525 0.012</pos>
 			  <size>0.033 0.0275</size>
 			  <horizontalAlignment>right</horizontalAlignment>
-			  <incharge>./art/battery/incharge.svg</incharge>
-			  <full>./art/battery/full.svg</full>
-			  <at75>./art/battery/75.svg</at75>
-			  <at50>./art/battery/50.svg</at50>
-			  <at25>./art/battery/25.svg</at25>
-			  <empty>./art/battery/empty.svg</empty>
+			  <!-- <incharge>./art/battery/incharge.svg</incharge> -->
+			  <!-- <full>./art/battery/full.svg</full> -->
+			  <!-- <at75>./art/battery/75.svg</at75> -->
+			  <!-- <at50>./art/battery/50.svg</at50> -->
+			  <!-- <at25>./art/battery/25.svg</at25> -->
+			  <!-- <empty>./art/battery/empty.svg</empty> -->
 			  <color>FFFFFFA0</color>
 		</batteryIndicator>
 			  
 		
 </view>
-
-
-
-  
-  
-	<!-- Si les Cheevos sont activés on affiche le pseudo et change la clock en bas à droite 
-			A REVOIR !!!-->
-	
-	<!-- <view name="screen" ifCheevos="true" > -->
-			
-		<!-- <text name="clock" extra="static"> -->
-			<!-- <origin>1 1</origin> -->
-			<!-- <color>777777FF</color> -->
-			<!-- <alignment>right</alignment> -->
-			<!-- <fontSize>0.031</fontSize> -->
-			<!-- <pos>0.997 0.983</pos> -->
-		<!-- </text> -->
-				
-		<!-- <text name="username" extra="true"> -->
-			<!-- <text>${cheevos.username}</text> -->
-			<!-- <fontPath>./art/fonts/ubuntu.ttf</fontPath> -->
-			<!-- <fontSize>0.019</fontSize> -->
-			<!-- <forceUppercase>true</forceUppercase> -->
-			<!-- <color>${baseColor}</color> -->
-			<!-- <alignment>right</alignment> -->
-			<!-- <verticalAlignment>bottom</verticalAlignment> -->
-			<!-- <origin>1 1</origin> -->
-			<!-- <pos>0.997 0.968</pos> -->
-		<!-- </text> -->
-	<!-- </view> -->
-  
-  
-  <!-- Fix for controller image size -->
-	  <!-- <include subset="systemview" name="simple" displayName="${systemview.simple}">./config/systemview/controllersizefix.xml</include> -->
-	  <!-- <include subset="systemview" name="vertical" displayName="${systemview.vertical}">./config/systemview/controllersizefix.xml</include> -->
-	  <!-- <include subset="systemview" name="wheel" displayName="${systemview.wheel}">./config/systemview/controllersizefix.xml</include> -->
 
 
 <include>./config/system/system.xml</include>
@@ -365,10 +338,10 @@ originally based on: "carbon"
  
 <!-- Views  -->
   <include>./config/gamelist/common.xml</include>
+  <include>./config/gamelist/gamecarousel.xml</include>
   <include>./config/gamelist/detailed.xml</include>
   <include>./config/gamelist/video.xml</include>
   <include>./config/gamelist/grid.xml</include>
-  <include>./config/gamelist/gamecarousel.xml</include>
   <include>./config/gamelist/boxes_big.xml</include>
   <include>./config/gamelist/boxes_medium.xml</include>
   <include>./config/gamelist/boxes_small.xml</include>

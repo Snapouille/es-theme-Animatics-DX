@@ -1,0 +1,59 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+
+		<image name="kaka, rooney, ball" extra="static">
+			<origin>0.5 0.5</origin>
+			<linearSmooth>true</linearSmooth>
+			<opacity>0</opacity>
+			<zIndex>18</zIndex>		
+		</image>
+
+		
+		
+		<image name="kaka" extra="static">
+			<path>./kaka.png</path>
+			<size>0.2776042 0.6564815</size>									
+			<pos>0.1981771 0.4152778</pos>	
+			<scale>0.7</scale>
+
+			<storyboard>
+				<animation property="opacity" from="0" to="1" begin="" duration="350" mode="linear"/>
+				<animation property="scale" to="1" begin="" duration="1500" mode="EaseOut"/>
+				<animation property="offsetX" from="-0.5" to="0" duration="1500" mode="EaseOut"/>
+
+			</storyboard>
+		</image>
+
+		<image name="rooney" extra="static">
+			<path>./rooney.png</path>
+			<size>0.2208333 0.6611111</size>									
+			<pos>0.5552083 0.3462963</pos>									
+
+			<storyboard>
+				<animation property="opacity" from="0" to="1" begin="" duration="350" mode="linear"/>
+				<animation property="offsetX" from="0.5" to="0" duration="1500" mode="EaseOut"/>
+
+			</storyboard>
+		</image>
+		
+				<image name="ball" extra="static">
+			<path>./ball.png</path>
+			<size>0.0588542 0.1046296</size>									
+			<pos>0.3075521 0.6912037</pos>									
+
+			<storyboard>
+				<animation property="opacity" from="0" to="1" begin="" duration="350" mode="linear"/>
+				<animation property="offsetX" from="-0.5" to="0" duration="2600" mode="EaseOut"/>
+				<animation property="rotation" from="0" to="720" duration="2600" mode="EaseOut"/>
+			</storyboard>
+		</image>
+
+		
+		
+
+	</view>
+
+</theme>

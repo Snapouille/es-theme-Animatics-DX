@@ -52,74 +52,7 @@
 			
 		</image>
 		
-	
-	
-	<!-- Encadrement Cartouche à droite après mouvement de la wheel -->
-	 
-	<image name="haut, bas, vertical1, vertical2">
-		<path>./../../../art/divers/white.png</path>
-		<color>${baseColor}</color>
-		<origin>0.5 0.5</origin>
-		<zIndex>13</zIndex>
-		<!-- <opacity>0</opacity> -->
-	</image>
-	
-	<image name="haut" extra="true">
-<size>0.3239583 0.0055556</size>									
-<pos>0.8385417 0.4037037</pos>									
-	  
-		<storyboard>
-		</storyboard>
-	  
-	</image>
-	
-	<image name="bas" extra="true">
-<size>0.3239583 0.0055556</size>									
-<pos>0.8385417 0.5925926</pos>									
-	  
-		<storyboard>
-		</storyboard>
-	  
-	</image>
-	
-	
-	<image name="vertical1" extra="true">
-<size>0.0076458 0.3398148</size>									
-<pos>0.7403646 0.7652778</pos>									
-	  
-		<storyboard>
-			<animation property="opacity" to="1" begin="1650" duration="1" mode="linear"/>
-			<animation property="offsetX" from="0" to="0.03" begin="1100" duration="650" mode="linear"/>
-			
-			<!-- <animation property="offsetX" from="0" to="1" begin="5000" duration="2500" mode="linear"/> -->
-			<!-- <animation property="offsetX" from="1" to="0" begin="6000" duration="2000" mode="linear"/> -->
-			<!-- <animation property="size" to="0.0036458 0.1675926" begin="1650" duration="350" mode="linear"/> -->
-			<animation property="color" to="FFFF00" begin="5800" duration="400" autoreverse="true" mode="linear"/>
-		</storyboard>
-	  
-	</image>
-	
-	<image name="vertical2" extra="true">
-<size>0.0076458 0.4037037</size>									
-<pos>0.7393229 0.2018519</pos>									
-	  
-		<storyboard>
-			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
-			<animation property="offsetX" from="0" to="0.03" begin="1100" duration="650" mode="linear"/>
-
-			<!-- <animation property="size" to="0.0036458 0.1675926" begin="2000" duration="350" mode="linear"/> -->
-			<!-- <animation property="color" to="FFFF00" begin="5800" duration="400" autoreverse="true" mode="linear"/> -->
-		</storyboard>
-	  
-	</image>
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	
 	<!-- Encadrement de la console -->
 	 

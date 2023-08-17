@@ -3,9 +3,6 @@
 	
 	<view name="system">
 		
-		<text name="bg-image-game-name" extra="true">
-			<text>Sutte Hakkun</text>
-		</text>
 
 		<image name="avatar" extra="static">
 			<origin>0 0</origin>
@@ -50,7 +47,7 @@
 			<maxSize>1 1</maxSize>
 			<path>./avatar4.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>16</zIndex>
+			<zIndex>10</zIndex>
 		</image>
 
 	</view>
