@@ -40,7 +40,7 @@ Features :
 ## System View Wheel
 | Without system description  | With system description |
 | ------------- | ------------- |
-| ![2023-03-01 17_54_57-EmulationStation](https://user-images.githubusercontent.com/105559045/222210887-665a35b9-ff8e-4212-8a2d-b14081781bb1.png) | ![2023-03-19 10_22_48-EmulationStation](https://user-images.githubusercontent.com/105559045/226165800-d7d01e0a-6946-497a-b144-2a306b881184.png) |
+| ![2023-08-17 10_09_17-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/76e001c4-2192-407f-8a1a-d6c78196c392) | ![2023-08-17 10_07_20-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/bc7452bc-d6b0-4150-b09b-9f2d8e55f99e) |
 
 
 # Gamelist View
