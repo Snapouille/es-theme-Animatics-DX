@@ -1,3 +1,22 @@
+## V 1.46 - (2023 08 17)
+- New System Wheel design retro-futuristic style
+- New background for the system "Sharp X1"
+- Add New Collection "Soccer"
+- option to display on-screen help for custom logos and usernames
+- New design for the GameCarousel View
+
+  ![2023-08-13 16_52_58-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/e34702d6-583d-42b6-a761-3f60a0ebd212)
+
+
+
+**Miscellaneous for Detailed View:**
+- Add "Atari XEGS" new view
+- Add "Sharp X68000" new view
+- New gamepad design for the Wii U
+
+
+
+
 ## V 1.45 - (2023 08 04)
 - New animation for the Collection "Lightgun Games"
 - New animation for the system "Casio PV 1000"
