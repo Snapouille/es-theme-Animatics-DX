@@ -78,6 +78,7 @@ originally based on: "carbon"
 			 <path>./art/logo-user/${image.logo}</path>
 			 <path ifSubset="user-logo:custom">./your-logo.png</path>
 			 <path ifSubset="user-logo:custom">./../../../../your-logo.png</path> <!-- check si il existe un logo sauvegardé -->
+			 <path ifSubset="user-logo:custom">./../your-logo.png</path>
 			 
 			 <visible ifSubset="user-logo:none">false</visible>
 			 
