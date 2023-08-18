@@ -1,3 +1,8 @@
+## V 1.47 - (2023 08 18)
+- Improved graphic texture
+- New console logo for Megadrive MSU
+- Minor bug fixes
+
 ## V 1.46 - (2023 08 17)
 - New System Wheel design retro-futuristic style
 - New background for the system "Sharp X1"
