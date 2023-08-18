@@ -11,7 +11,7 @@ originally based on: "carbon"
 <view name="grid">
  
 	<image name="background">
-	  <path>./../../art/divers/bg.jpg</path>
+	  <path>./../../art/divers/bg.png</path>
 	  <color>${backgroundColor}</color>
 	  <zIndex>5</zIndex>
 	</image>

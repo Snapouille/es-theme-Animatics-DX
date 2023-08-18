@@ -16,9 +16,19 @@ originally based on: "carbon"
 	<view name="splash">
 	
 		<text name="version" extra="true">
-			<text>V 1.46</text>
+			<text>V 1.47 (2023 08 18)</text>
 			<pos>0.02 0.951</pos>
 			<color>f4ff1a</color>
+			<fontPath>./art/fonts/ubuntu.ttf</fontPath>
+			<fontSize>0.0220</fontSize>
+			<alignment>left</alignment>
+			<zIndex>100</zIndex>
+		</text>
+		
+		<text name="contact" extra="true">
+			<text>/ contact : fabtahiti11@gmail.com) /</text>
+			<pos>0.13 0.951</pos>
+			<color>22e2f3</color>
 			<fontPath>./art/fonts/ubuntu.ttf</fontPath>
 			<fontSize>0.0220</fontSize>
 			<alignment>left</alignment>

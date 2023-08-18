@@ -11,10 +11,11 @@ originally based on: "carbon"
 <view name="gamecarousel">
     
 	<image name="background">
-	  <path>./../../art/divers/bg.jpg</path>
+	  <path>./../../art/divers/bg.png</path>
 	  <color>${backgroundColor}</color>
+	  
 	  <zIndex>5</zIndex>
-	  <scale>1.5</scale>
+	  <scale>1.3</scale>
 	  
 	  <storyboard>
 			<animation property="offsetY" to="-0.2" begin="" duration="1000" mode="linear"/>
@@ -737,7 +738,7 @@ originally based on: "carbon"
 		<image name="diagobase1, diagobase2, diagobase3, diagobase4, diagobase5, diagoyellow1, diagoyellow2, diagoyellow3, diagoyellow4, diagoyellow5">
 			<path>./../../art/divers/diago.png</path>
 			<flipX>true</flipX>
-			<rotation>10</rotation>
+			<!-- <rotation>10</rotation> -->  <!-- Rotation mal prise en compte sur écran 4k -->
 			<origin>0.5 0.5</origin>					
 			<size>0.015625 0.0259259</size>									
 			<color>${baseColor}</color>
