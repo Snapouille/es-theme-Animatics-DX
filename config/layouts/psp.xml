@@ -122,7 +122,7 @@
   
 		<video name="md_video">
 			<pos>0.7013021 0.3791667</pos>									
-			<maxSize>0.2286458 0.2324074</maxSize>									
+			<maxSize>0.231 0.235</maxSize>									
 		  
 		  <storyboard event="open">
 					<animation property="x" to="0.7273438" begin="1200" duration="200" mode="linear"/>
