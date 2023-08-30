@@ -1,3 +1,6 @@
+## V 1.48 - (2023 08 30)
+- Minor bug fixes with "Satellaview" box in detailed view
+
 ## V 1.47 - (2023 08 18)
 - Improved graphic texture
 - New console logo for Megadrive MSU
