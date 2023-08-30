@@ -13,6 +13,27 @@
 	
 	
 	
+	<!-- On modifie l'arrivée des statistiques sur l'écran si affichage différent que Snap Legacy -->
+	  <text name="systemInfoEx" ifSubset="SystemView:wheel" extra="true">
+        <alignment>left</alignment>
+		<pos>0.07 0.68</pos>
+		<pos ifHelpPrompts="false">0.07 0.72</pos>
+		<zIndex>30</zIndex>
+		<storyboard>
+			
+				<animation property="offsetX" to="0.1" begin="1000" duration="500" mode="easeOutCubic"/>
+			
+		</storyboard>
+		
+      </text>
+	  
+	<!-- On masque la barre des stats -->
+	<image name="BarAndRound" ifSubset="SystemView:wheel" extra="static">
+			<visible>false</visible>	
+	</image>
+	
+	
+	
     <image name="backgroundFade" extra="static">
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
