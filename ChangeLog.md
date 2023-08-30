@@ -1,5 +1,6 @@
 ## V 1.48 - (2023 08 30)
 - Minor bug fixes with "Satellaview" box in detailed view
+- Change the statistics layouts for carbon controllers, video and fanart systemview
 
 ## V 1.47 - (2023 08 18)
 - Improved graphic texture
