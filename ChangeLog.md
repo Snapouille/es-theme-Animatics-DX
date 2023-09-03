@@ -1,3 +1,7 @@
+## V 1.49 - (2023 09 03)
+- Add "namco2x6" view
+- Add auto collection "fighting" (combat) view
+
 ## V 1.48 - (2023 08 30)
 - Bug fix with "Satellaview" box in detailed view
 - Bug fix with GBA description in detailed view
