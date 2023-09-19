@@ -199,7 +199,7 @@ originally based on: "carbon"
 	<include name="animatics-dx" displayName="Animatics-DX" />
 </subset>
 
-
+<!-- Aide qu'on peut afficher sur l'utilisation et la save des nickname et logo -->
 <subset name="customHelp" tinyScreen="false" displayName="${user.help}">
         <include name="Hide" displayName="${hide}"/>
         <include name="Show" displayName="${show}">./config/help/customHelp.xml</include>

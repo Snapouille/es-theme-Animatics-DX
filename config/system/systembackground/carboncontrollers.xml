@@ -34,20 +34,10 @@
 	
 	
 	
-    <image name="backgroundFade" extra="static">
-      <tile>false</tile>
-      <linearSmooth>true</linearSmooth>
-      <path>./../../../art/backfade.png</path>
-      <color>FFFFFFFF</color>
-      <pos>0.5 0.5</pos>
-      <origin>0.5 0.5</origin>
-      <minSize>1 1</minSize>
-      <zIndex>12</zIndex>
-    </image>
    
     <image name="ControllerOverlay" extra="true">
       <tile>false</tile>
-      <pos>0.325 0.385</pos>
+      <pos>0.325 0.425</pos>
       <origin>0.5 0.5</origin>
 	  <maxSize>0.50 0.55</maxSize> 
 	  <path>./../../../art/controllers/${system.theme}.svg</path>
@@ -59,8 +49,6 @@
 	  <storyboard>
 				<animation property="scale" from="0" to="1" begin="620" duration="375" mode="EaseOut"/>
 	  
-				
-				
 				<animation property="opacity" from="0" to="1" duration="450" mode="linear"/>
 				
 				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
