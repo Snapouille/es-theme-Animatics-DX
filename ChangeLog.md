@@ -1,3 +1,10 @@
+## V 1.50 - (2023 09 19)
+- Add new animation system "supergrafx"
+- Add new animation system "arduboy"
+- Add new collection "tradFR" (french translate collection)
+- New bird animation system "mastersystem"
+- Redesign the carboncontrollers view (WIP)
+
 ## V 1.49 - (2023 09 03)
 - Add "namco2x6" view
 - Add auto collection "fighting" (combat) view
