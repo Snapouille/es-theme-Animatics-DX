@@ -6,8 +6,8 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 
-<size>0.2270833 0.6388889</size>									
-<pos>0.5921875 0.6055556</pos>									
+		<size>0.2270833 0.6388889</size>									
+		<pos>0.5921875 0.6055556</pos>									
 									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
@@ -30,8 +30,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<pos>0.5927083 0.6388889</pos>									
-<maxSize>0.1572917 0.2092593</maxSize>									
+		<pos>0.5927083 0.6388889</pos>									
+		<maxSize>0.1572917 0.2092593</maxSize>									
 
 		<zIndex>30</zIndex>
 
@@ -55,8 +55,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.1572917 0.2092593</size>																
-<pos>0.5927083 0.6388889</pos>									
+		<size>0.1572917 0.2092593</size>																
+		<pos>0.5927083 0.6388889</pos>									
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -96,11 +96,6 @@
   <view name="detailed">
   
   
-	
-
-  
-  
-  
   
 	<!-- On masque le logo et le cadre du logo car on la deja dans le MARQUEE du bartop 
 		     On repositionne aussi un peu les logos des jeux à l'aparition avant le slide vers la gauche -->
@@ -123,8 +118,8 @@
 	</image>
 	
 	<image name="md_marquee">
-<pos>0.7567708 0.1013889</pos>									
-<maxSize>0.18 0.075</maxSize>									
+		<pos>0.7567708 0.1013889</pos>									
+		<maxSize>0.18 0.075</maxSize>									
 		<zIndex>100</zIndex>
 
 		<storyboard event="open">
@@ -147,8 +142,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>									
-<size>0.1875 0.0824074</size>									
-<pos>0.7567708 0.1013889</pos>									
+		<size>0.1875 0.0824074</size>									
+		<pos>0.7567708 0.1013889</pos>									
 		<zIndex>32</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="10" mode="linear"/>
@@ -168,8 +163,8 @@
 	
 	<image name="ecran_console" extra="static">
 			<origin>0.5 0.5</origin>									
-<size>0.2140625 0.6018519</size>									
-<pos>0.7565104 0.3398148</pos>									
+			<size>0.2140625 0.6018519</size>									
+			<pos>0.7565104 0.3398148</pos>									
 			<scale>1</scale>
 									
 			<opacity>1</opacity>
@@ -235,7 +230,7 @@
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
 		<pos>0.368 0.38</pos> 
-		<maxSize>0.3 0.57</maxSize>
+		<maxSize>0.24 0.57</maxSize>
 		<scale>0.53</scale>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>

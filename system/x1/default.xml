@@ -5,8 +5,6 @@
 
 	<view name="system">
 		
-		
-		
 		<image name="avatar-girl" extra="static">
 			<origin>0 0</origin>									
 			<size>0.3505208 0.7277778</size>									
@@ -18,13 +16,8 @@
 			
 			<storyboard repeat="forever" >
 				<animation property="x" to="0.35" begin="500" duration="2000" mode="EaseOut"/>
-				
-				<animation property="opacity" begin="2800" from="1" to="0.8" duration="10" autoreverse="true" repeat="5" mode="linear"/>
-        		<animation property="opacity" begin="3500" from="1" to="0.6" duration="5" autoreverse="true" repeat="3" mode="linear"/>
-				<animation property="opacity" begin="4500" from="1" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
-				<animation property="opacity" begin="5000" to="0" duration="50" mode="linear"/>
-				<animation property="opacity" begin="11000" to="1" duration="50" mode="linear"/>
-        		<animation property="opacity" begin="12000" from="1" to="0.4" duration="10" autoreverse="true" repeat="10" mode="linear"/>
+				<animation property="opacity" begin="5170" to="0" duration="170" mode="linear"/>
+				<animation property="opacity" begin="11000" to="1" duration="170" mode="linear"/>
 				<animation property="x" to="0.17" begin="12200" duration="1100" mode="EaseOutQuint"/>
 			</storyboard>
 		</image>
@@ -41,12 +34,9 @@
 			
 			<storyboard repeat="forever" >
 				<animation property="x" to="0.35" begin="500" duration="2000" mode="EaseOut"/>
-				
-				<animation property="opacity" begin="5000" to="1" duration="50" mode="linear"/>
-				<animation property="opacity" begin="11000" to="0" duration="50" mode="linear"/>
-				
+				<animation property="opacity" begin="5000" to="1" duration="170" mode="linear"/>
+				<animation property="opacity" begin="11170" to="0" duration="170" mode="linear"/>
 				<animation property="opacity" to="0" begin="13000" duration="300" mode="Linear"/>
-				
 			</storyboard>
 		</image>
 		
@@ -54,7 +44,7 @@
 		
 		<image name="avatar-enemy" extra="static">
 			<origin>0 0</origin>									
-<size>0.3255208 0.4453704</size>									
+			<size>0.3255208 0.4453704</size>									
 			<pos>0.1 -0.1</pos>
 			<scale>0.1</scale>
 			<opacity>1</opacity>
@@ -77,7 +67,7 @@
 		
 		<image name="avatar-ship" extra="static">
 			<origin>0 0</origin>									
-<size>0.2661458 0.5009259</size>									
+			<size>0.2661458 0.5009259</size>									
 			<pos>-0.1 0.63</pos>
 			<scale>0.12</scale>
 			<opacity>1</opacity>
