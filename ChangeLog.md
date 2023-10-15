@@ -1,3 +1,7 @@
+## V 1.51 - (2023 10 15)
+- Add New System "The Force Engine" logo and background
+- small fix X1 animation and horizontal thumbnail Mame size
+
 ## V 1.50 - (2023 09 19)
 - Add new animation system "supergrafx"
 - Add new animation system "arduboy"
