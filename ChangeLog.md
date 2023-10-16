@@ -1,6 +1,7 @@
-## V 1.51 - (2023 10 15)
+## V 1.51 - (2023 10 16)
 - Add New System "The Force Engine" logo and background
 - small fix X1 animation and horizontal thumbnail Mame size
+- a new graphic charter for system views ahead of a bigger overhaul in the near future
 
 ## V 1.50 - (2023 09 19)
 - Add new animation system "supergrafx"
