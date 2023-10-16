@@ -91,15 +91,14 @@ originally based on: "carbon"
 	  
   	</image>
 	
-    <image name="BottomBar" extra="static">
-      <tile>false</tile>
-      <size>1 0.065</size>
-      <pos>0 1</pos>
-      <origin>0 1</origin>
-      <path>./../../art/divers/bottom.png</path>
-      <color>${bottomBarColor}</color>
-      <zIndex>50</zIndex>
-    </image>
+	
+	
+	
+	
+	
+	
+	
+	
 	
     <image name="ControllerOverlay" extra="true">
       <tile>false</tile>
@@ -211,10 +210,149 @@ originally based on: "carbon"
 	
 	
 	
+	<!-- Cadre de l'aide en bas -->
+	
+	<!-- ANCIEN A VOIR SI TOUJOURS UTILE SINON VIRER LE PNG -->
+			<!-- <image name="BottomBar" extra="static"> -->
+			  <!-- <tile>false</tile> -->
+			  <!-- <size>1 0.065</size> -->
+			  <!-- <pos>0 1</pos> -->
+			  <!-- <origin>0 1</origin> -->
+			  <!-- <path>./../../art/divers/bottom.png</path> -->
+			  <!-- <color>${baseColor}</color> -->
+			  <!-- <zIndex>50</zIndex> -->
+			<!-- </image> -->
+	
+	
+	<!-- barre cadre haut -->
+	<image name="up_BottomFrame" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>13</zIndex>
+		<origin>0.5 0.5</origin>
+		<size>1 0.0046296</size>									
+		<pos>0.5 0.9375</pos>									
+	</image>
+	
+			
+	
+	<!-- barre cadre bas -->
+	<image name="down_BottomFrame" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>13</zIndex>
+		<origin>0.5 0.5</origin>
+		<size>1 0.0046296</size>									
+		<pos>0.5 0.9976852</pos>										  
+	</image>
+	
+	<!-- barre cadre gauche -->
+	<image name="left_BottomFrame" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>13</zIndex>
+		<origin>0.5 0.5</origin>
+		<size>0.0026042 0.0555556</size>									
+		<pos>0.0013021 0.9675926</pos>									
+									  
+	</image>
+	
+	<!-- barre cadre droit -->
+	<image name="right_BottomFrame" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>13</zIndex>
+		<origin>0.5 0.5</origin>
+		<size>0.0026042 0.0601852</size>									
+		<pos>0.9986979 0.9652778</pos>									
+									  
+	</image>
+	
+	<!-- fond noir de l'encadrement de l'aide -->
+	<image name="black_BottomFrame" extra="true">
+		<path>./../../art/divers/black.png</path>
+		<color>${baseColor}</color>
+		<zIndex>12</zIndex>
+		<origin>0.5 0.5</origin>
+		<size>1 0.0657407</size>									
+		<pos>0.5 0.9680556</pos>									
+	</image>
 	
 	
 	
 	
+	
+	<!-- triangle coin supérieur gauche -->
+	<image name="left_right_angle_triangle" extra="true">
+				<path>./../../art/divers/right_angle_triangle.png</path>
+				<color>${baseColor}</color>
+				
+				<zIndex>13</zIndex>
+				<origin>0.5 0.5</origin>
+				<flipX>true</flipX>
+				<size>0.0364583 0.0648148</size>									
+				<pos>0.0208333 0.037037</pos>									
+	
+		<storyboard>
+			<animation property="size" to="0.0171875 0.0305556" begin="1100" duration="650"  mode="EaseOut"/>
+			<animation property="pos" to="0.0111979 0.0199074" begin="1100" duration="650"  mode="EaseOut"/>
+			
+			<animation property="size" to="0.0364583 0.0648148" begin="6500" duration="2000"  mode="EaseOutCubic"/>
+			<animation property="pos" to="0.0208333 0.037037" begin="6500" duration="2000"  mode="EaseOutCubic"/>
+			
+			<animation property="color" to="FFFF00" begin="5800" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
+		</storyboard>
+	  
+	</image>
+	
+	<!-- barre haut coin supérieur gauche -->
+	<image name="up_left_bar" extra="true">
+				<path>./../../art/divers/white.png</path>
+				<color>${baseColor}</color>
+				<zIndex>13</zIndex>
+				<origin>0.5 0.5</origin>
+				<size>0.2869792 0.0046296</size>									
+				<pos>0.1434896 0.0023148</pos>									
+									
+	
+		<storyboard>
+			<animation property="offsetX" from="0" to="-0.11" begin="1100" duration="650" mode="linear"/>
+			<animation property="offsetX" from="-0.11" to="-0.21" begin="5100" duration="900" mode="EaseIn"/>
+			<animation property="offsetX" to="0" begin="6500" duration="2000" mode="EaseOutCubic"/>
+			<animation property="color" to="FFFF00" begin="5800" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
+		</storyboard>
+	  
+	</image>
+	
+	<!-- barre droite coin supérieur gauche -->
+	<image name="left_up_bar" extra="true">
+				<path>./../../art/divers/white.png</path>
+				<color>${baseColor}</color>
+				<zIndex>13</zIndex>
+				<origin>0.5 0.5</origin>
+				<size>0.0026042 0.3703704</size>									
+				<pos>0.0013021 0.1898148</pos>									
+
+		<storyboard>
+			<animation property="size" to="0.0026042 0.5555556" begin="1100" duration="650" mode="linear"/>
+			<animation property="pos" to="0.0013021 0.2824074" begin="1100" duration="650" mode="linear"/>
+			
+			<animation property="size" to="0.0026042 0.7092593" begin="5100" duration="900" mode="EaseIn"/>
+			<animation property="pos" to="0.0013021 0.3592593" begin="5100" duration="900" mode="EaseIn"/>
+			
+			<animation property="size" to="0.0026042 0.3703704" begin="6500" duration="900" mode="EaseOutCubic"/>
+			<animation property="pos" to="0.0013021 0.1898148" begin="6500" duration="900" mode="EaseOutCubic"/>
+			
+			<animation property="color" to="FFFF00" begin="5800" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
+		</storyboard>
+	  
+	</image>
 	
 	
 	
@@ -229,15 +367,15 @@ originally based on: "carbon"
 	<!-- La barre en bas Helpsystem -->
 		<!-- POUR LA METTRE EN PLUS PETITE -->
 		
-			<!-- <helpsystem name="help"> -->
+			<helpsystem name="help">
 				<!-- <size>0.01 0.01</size> -->
 				<!-- <maxSize>0.1 0.025</maxSize> -->
-				
-				<!-- <fontSize>0.023</fontSize> -->
+				<pos>0.01 0.955</pos>
+				<fontSize>0.0313</fontSize>
 				<!-- <glowColor>00000080</glowColor> -->
 				<!-- <glowSize>1</glowSize> -->
 				<!-- <glowOffset>1</glowOffset> -->
-			<!-- </helpsystem> -->
+			</helpsystem>
 
 		
   </view>

@@ -289,7 +289,7 @@ originally based on: "carbon"
 <view name="screen">
 
 		<controllerActivity name="controllerActivity">
-			  <pos>0.012 0.01</pos>
+			  <pos>0.042 0.01</pos>
 			  <size>0.185 0.023</size>
 			  <itemSpacing>0.003</itemSpacing>
 			  <color>FFFFFF90</color>
@@ -313,7 +313,7 @@ originally based on: "carbon"
 		</text>
 
 		<batteryIndicator name="batteryIndicator">
-			  <pos>0.9525 0.012</pos>
+			  <pos>0.965 0.012</pos>
 			  <size>0.033 0.0275</size>
 			  <horizontalAlignment>right</horizontalAlignment>
 			  <!-- <incharge>./art/battery/incharge.svg</incharge> -->

@@ -11,7 +11,8 @@
 		</view>
 	</feature>
 	
-	
+
+
 	
 <view name="system">
 	
@@ -71,38 +72,160 @@
 		
 		
 		
-		
-	<!-- Dessin et Animation de la WHEEL graphique futuriste -->	
-		
-	<image name="vertical_down" extra="true">
-				<path>./../../../art/divers/vertical_down.png</path>
-				<color>${bottomBarColor}</color>
-				<zIndex>13</zIndex>
-				<origin>0.5 0.5</origin>
-				<size>0.025 0.3361111</size>
-				<pos>0.7395833 0.7671296</pos>	
+<!-- /////////////////////////////////////////////////// -->		
+<!-- Dessin et Animation de la WHEEL graphique futuriste -->
+<!-- /////////////////////////////////////////////////// -->
 
-				<path ifHelpPrompts="false">./../../../art/divers/vertical_down2.png</path>
-				<size ifHelpPrompts="false">0.025 0.4009259</size> 
-				<pos ifHelpPrompts="false">0.7395833 0.799537</pos>	
-				
-
-		
-		<storyboard ifSubset="system-description:Hide">
-			<animation property="offsetX" from="0" to="0.035" begin="1100" duration="650" mode="linear"/>
-			<animation property="offsetX" from="0.035" to="0.29" begin="5100" duration="900" mode="EaseIn"/>
+	<!-- Commun -->
+	<image name="right_angle_triangle, up_right_bar, little_up_right_bar, little_up_right_bar_2, right_up_bar, right_down_bar, up_BottomFrameNEW, vertical_down, vertical_up, vertical_up2, haut, bas, jaune1, jaune2" extra="true">
+		<path>./../../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>13</zIndex>
+		<origin>0.5 0.5</origin>	
+	</image>
+	
+	<!-- triangle coin supérieur droit -->
+	<image name="right_angle_triangle" extra="true">
+		<path>./../../../art/divers/right_angle_triangle.png</path>
+		<size>0.0364583 0.0648148</size>									
+		<pos>0.9791667 0.037037</pos>									
+		<storyboard>
+			<animation property="offsetX" from="0" to="0.26" begin="5100" duration="900" mode="EaseIn"/>
+			<animation property="offsetX" to="0" begin="6500" duration="1500" mode="EaseOutCubic"/>
+			<animation property="color" to="FFFF00" begin="5800" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
 		</storyboard>
-		
-		<storyboard ifSubset="system-description:Show">
-			<animation property="offsetX" from="0" to="0.035" begin="1100" duration="650" mode="linear"/>
-			<animation property="offsetX" from="0.035" to="0.26" begin="5100" duration="900" mode="EaseIn"/>
-			<animation property="offsetX" to="-0.095" begin="6500" duration="1500" mode="EaseOutCubic"/>
+	</image>
+	
+	<!-- barre haut coin supérieur droit -->
+	<image name="up_right_bar" extra="true">	
+		<size>0.15625 0.0046296</size>									
+		<pos>1.0109375 0.0023148</pos>									
+		<storyboard>
+			<animation property="offsetX" from="0" to="0.021" begin="1100" duration="650" mode="linear"/>
+			<animation property="offsetX" from="0.021" to="0.26" begin="5100" duration="900" mode="EaseIn"/>
+			<animation property="offsetX" to="-0.021" begin="6500" duration="2000" mode="EaseOutCubic"/>
 			<animation property="color" to="FFFF00" begin="5800" duration="300" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
 		</storyboard>
 	  
 	</image>
+	
+	<!-- petite barre haut coin supérieur droit -->
+	<image name="little_up_right_bar" extra="true">
+		<size>0.015625 0.0046296</size>									
+		<pos>1.1 0.0023148</pos>									
+		<storyboard>
+			<animation property="pos" to="0.8895833 0.0023148" begin="7700" duration="600" mode="EaseOutCubic"/>
+			<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	<!-- petite barre haut 2 coin supérieur droit -->
+	<image name="little_up_right_bar_2" extra="true">
+		<size>0.0416667 0.0046296</size>									
+		<pos>1.1 0.0023148</pos>									
+		<storyboard>
+			<animation property="pos" to="0.8473958 0.0023148" begin="8000" duration="600" mode="EaseOutCubic"/>
+			<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	
+	<!-- barre droite coin supérieur droit -->
+	<image name="right_up_bar" extra="true">
+		<size>0.0026042 0.3962963</size>									
+		<pos>0.9986979 0.2027778</pos>									
+		<storyboard>
+			<animation property="offsetX" from="0" to="0.26" begin="5100" duration="900" mode="EaseIn"/>
+			<animation property="offsetX" to="0" begin="6500" duration="1500" mode="EaseOutCubic"/>
+			<animation property="color" to="FFFF00" begin="5800" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	<!-- barre droite coin inférieur droit -->
+	<image name="right_down_bar" extra="true">
+		<size>0.0026042 0.3361111</size>									
+		<pos>0.9986979 0.7671296</pos>									
+		<storyboard>
+			<animation property="offsetX" from="0" to="0.26" begin="5100" duration="900" mode="EaseIn"/>
+			<animation property="offsetX" to="0" begin="6500" duration="1500" mode="EaseOutCubic"/>
+			<animation property="color" to="FFFF00" begin="5800" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	<!-- barre haut de l'encadrement de l'aide en BAS -->
+	
+	<!-- ON MASQUE CELLE DE BASE -->
+		<image name="up_BottomFrame" extra="true">
+			<visible>false</visible>
+		</image>
+	<!-- on met en place la nouvelle qui bouge -->
+		<image name="up_BottomFrameNEW" extra="true">
+			<size>1 0.0046296</size>									
+			<pos>0.2411458 0.9375</pos>		
+
+			<storyboard>
+				<animation property="offsetX" from="0" to="0.035" begin="1100" duration="650" mode="linear"/>
+				<animation property="offsetX" from="0.035" to="0.26" begin="5100" duration="900" mode="EaseIn"/>
+				<animation property="offsetX" to="-0.095" begin="6500" duration="1500" mode="EaseOutCubic"/>
+				<animation property="color" to="FFFF00" begin="5800" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
+			</storyboard>
+			
+		</image>
+	
+		<!-- On fait AUSSI bouger la barre cadre droit -->
+		<image name="right_BottomFrame" extra="true">
+			<storyboard>
+				<animation property="offsetX" from="0" to="0.26" begin="5100" duration="900" mode="EaseIn"/>
+				<animation property="offsetX" to="0" begin="6500" duration="1500" mode="EaseOutCubic"/>
+				<animation property="color" to="FFFF00" begin="5800" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
+			</storyboard>
+				
+									  
+		</image>
+	
+	
+	
+
+	
+	
+		
+		<image name="vertical_down" extra="true">
+			<path>./../../../art/divers/vertical_down.png</path>
+			<size>0.025 0.3361111</size>
+			<pos>0.7395833 0.7671296</pos>	
+
+			<path ifHelpPrompts="false">./../../../art/divers/vertical_down2.png</path>
+			<size ifHelpPrompts="false">0.025 0.4009259</size> 
+			<pos ifHelpPrompts="false">0.7395833 0.799537</pos>	
+		
+			<storyboard ifSubset="system-description:Hide">
+				<animation property="offsetX" from="0" to="0.035" begin="1100" duration="650" mode="linear"/>
+				<animation property="offsetX" from="0.035" to="0.29" begin="5100" duration="900" mode="EaseIn"/>
+			</storyboard>
+		
+			<storyboard ifSubset="system-description:Show">
+				<animation property="offsetX" from="0" to="0.035" begin="1100" duration="650" mode="linear"/>
+				<animation property="offsetX" from="0.035" to="0.26" begin="5100" duration="900" mode="EaseIn"/>
+				<animation property="offsetX" to="-0.095" begin="6500" duration="1500" mode="EaseOutCubic"/>
+				<animation property="color" to="FFFF00" begin="5800" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
+			</storyboard>
+		</image>
 	
 	
 	<image name="vertical_down_bg_black" extra="true">
@@ -129,16 +252,9 @@
 		</storyboard>
 	  
 	</image>
-	
-	
-	
-	
-		
+			
 	<image name="vertical_up" extra="true">
 			<path>./../../../art/divers/vertical_up.png</path>
-			<color>${bottomBarColor}</color>
-			<zIndex>13</zIndex>
-			<origin>0.5 0.5</origin>
 			<size>0.0296875 0.4009259</size>									
 			<pos>0.7294271 0.200463</pos>
 
@@ -156,12 +272,8 @@
 		</storyboard>
 	</image>
 	
-	
 	<image name="vertical_up2" extra="true">
 			<path>./../../../art/divers/vertical_up2.png</path>
-			<color>${bottomBarColor}</color>
-			<zIndex>13</zIndex>
-			<origin>0.5 0.5</origin>
 			<size>0.0598958 0.4009259</size>									
 			<pos>0.7445313 0.200463</pos>
 			<opacity>0</opacity>
@@ -199,12 +311,6 @@
 	
 	<!-- Ligne horizontal haut et bas + mouvement point jaune -->
 	 
-	<image name="haut, bas, jaune1, jaune2">
-		<path>./../../../art/divers/white.png</path>
-		<color>${bottomBarColor}</color>
-		<origin>0.5 0.5</origin>
-		<zIndex>13</zIndex>
-	</image>
 	
 	<image name="haut" extra="true">
 		<size>0.3625 0.0055556</size>									
