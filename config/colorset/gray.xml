@@ -3,6 +3,11 @@
   <formatVersion>7</formatVersion>
   <variables>
     <baseColor>A4A4A4</baseColor>
+	<dataColor>FFFFF0</dataColor> <!-- Ivory -->
+	<frameColor>696969</frameColor> <!-- Dimgrey -->
+	<infoColor>FFFFF0</infoColor> <!-- Ivory -->
+	
+	
     <gradientEndColor>505050</gradientEndColor>
     <centerFadeColor>90909033</centerFadeColor>
     <bottomBarColor>a2a2a2</bottomBarColor>

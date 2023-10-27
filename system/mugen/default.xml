@@ -8,7 +8,7 @@
 			<pos>0.508 0.21</pos>
 			<maxSize>0.18 0.77</maxSize>
 			<scale>0.8</scale>
-			<zIndex>13</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 		
 		<!-- AURA d'énergie -->
@@ -19,7 +19,7 @@
 			<linearSmooth>true</linearSmooth>
 			<scale>0.8</scale>
 			<opacity>0</opacity>
-			<zIndex>14</zIndex>
+			<zIndex>20</zIndex>
 		</image>
 		 <image name="avatar2" extra="static">
 			<path>./avatar-light1.png</path>

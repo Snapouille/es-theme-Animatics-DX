@@ -12,7 +12,7 @@
 			<pos>0.2833333 0.275463</pos>									
 			<opacity>0</opacity>
 			<path>./fond.png</path>
-			<zIndex>10</zIndex>
+			<zIndex>2</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<storyboard>
 					<animation property="opacity" from="0" to="1" begin="" duration="2000" mode="linear"/>
@@ -23,27 +23,150 @@
 	
 		<image name="logoR" extra="true">
 			<origin>0.5 0.5</origin>									
-			<size>0.1151042 0.2268519</size>									
+			<size>0.1619792 0.2296296</size>									
 			<pos>0.2861979 0.2310185</pos>
 			<scale>0</scale>			
-			<!-- <opacity>0</opacity> -->
 			<path>./logoR.png</path>
-			<zIndex>11</zIndex>
+			<zIndex>1100</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<storyboard>
 					<animation property="offsetX" to="-0.05" begin="" duration="" mode="linear"/>
 					<animation property="offsetY" to="0.06" begin="" duration="" mode="linear"/>
-					
+					<animation property="rotation" to="720" begin="4000" autoreverse="true" duration="1500" mode="linear"/>
 					<animation property="scale" from="0" to="0.2" begin="4000" duration="1000" mode="linear"/>
-					<animation property="opacity" from="0" to="1" begin="4000" duration="1000" mode="linear"/>
+					<animation property="opacity" from="0" to="0.7" begin="4000" duration="1000" mode="linear"/>
 					<animation property="offsetX" to="0" begin="6000" duration="500" mode="bump"/>
-					<animation property="offsetY" to="0" begin="6500" duration="500" mode="bump"/>
+					<animation property="offsetY" to="0.02" begin="6500" duration="500" mode="bump"/>
 					<animation property="scale" from="0.2" to="0.55" begin="6000" duration="2000" mode="linear"/>
+					<animation property="rotation" from="-3" to="3" begin="8000" duration="200" autoreverse="true" repeat="16" mode="linear"/>
+
 					
-					<animation property="scale" to="1" begin="10000" duration="1000" mode="EaseInOut"/>
+					<animation property="opacity" to="0" begin="8000" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="8170" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="8340" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="8510" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="8680" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="8850" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="9020" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="9190" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="9360" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="9530" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="9700" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="9870" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="10040" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="10210" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="10380" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="10550" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="10720" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="10890" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="11060" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="11230" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="11400" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="11570" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="11740" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="11910" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="12080" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="12250" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="12420" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="12590" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="12760" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="12930" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="13100" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="13270" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="13440" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="13610" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="13780" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="13950" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="14120" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="14290" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="14460" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="14630" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="14800" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="14970" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="15140" duration="10" mode="linear"/>
+					
+					
+					<animation property="scale" to="1" begin="9000" duration="1000" mode="bump"/>
+					<animation property="offsetX" to="1" begin="11000" duration="4000" mode="linear"/>
+					<animation property="offsetY" to="0.3" begin="11000" duration="2000" mode="bump"/>
+					<animation property="offsetY" to="0.1" begin="13000" duration="1000" mode="bump"/>
+
 			</storyboard>
 		</image>
 		
+		<image name="logoR2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.1619792 0.2296296</size>									
+			<pos>0.2861979 0.2310185</pos>
+			<scale>0</scale>			
+			<opacity>0</opacity>
+			<path>./logoR2.png</path>
+			<zIndex>1100</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+					<animation property="offsetX" to="-0.05" begin="" duration="" mode="linear"/>
+					<animation property="offsetY" to="0.06" begin="" duration="" mode="linear"/>
+					<animation property="rotation" to="720" begin="4000" autoreverse="true" duration="1500" mode="linear"/>
+					<animation property="scale" from="0" to="0.2" begin="4000" duration="1000" mode="linear"/>
+					<animation property="offsetX" to="0" begin="6000" duration="500" mode="bump"/>
+					<animation property="offsetY" to="0.02" begin="6500" duration="500" mode="bump"/>
+					<animation property="scale" from="0.2" to="0.55" begin="6000" duration="2000" mode="linear"/>
+					<animation property="rotation" from="-3" to="3" begin="8000" duration="200" autoreverse="true" repeat="16" mode="linear"/>
+
+					
+					<animation property="opacity" to="1" begin="8000" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="8170" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="8340" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="8510" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="8680" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="8850" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="9020" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="9190" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="9360" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="9530" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="9700" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="9870" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="10040" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="10210" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="10380" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="10550" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="10720" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="10890" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="11060" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="11230" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="11400" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="11570" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="11740" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="11910" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="12080" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="12250" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="12420" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="12590" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="12760" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="12930" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="13100" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="13270" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="13440" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="13610" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="13780" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="13950" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="14120" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="14290" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="14460" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="14630" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="14800" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="14970" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="15140" duration="10" mode="linear"/>
+
+					
+					
+					<animation property="scale" to="1" begin="9000" duration="1000" mode="bump"/>
+					<animation property="offsetX" to="1" begin="11000" duration="4000" mode="linear"/>
+					<animation property="offsetY" to="0.3" begin="11000" duration="2000" mode="bump"/>
+					<animation property="offsetY" to="0.1" begin="13000" duration="1000" mode="bump"/>
+					
+			</storyboard>
+		</image>
 		
 	</view>
 

@@ -7,7 +7,7 @@ originally based on: "carbon"
 -->
 <theme defaultView="detailed">
   <formatVersion>7</formatVersion>
-  <view name="detailed">  
+<view name="detailed">  
   
 	<image name="ecran_console" extra="static">
 		<pos>0.53 0.149</pos>
@@ -658,7 +658,7 @@ originally based on: "carbon"
 		<text name="md_playcount, md_lastplayed, md_gametime">
 		   <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
 		   <fontSize>0.023</fontSize>
-		   <color>${baseColor}</color>
+		   <color>${dataColor}</color>
 		   <alignment>right</alignment>
 		   <size>0.115 0.03</size>
 		   <x>0.325</x>

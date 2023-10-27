@@ -3,6 +3,12 @@
   <formatVersion>7</formatVersion>
   <variables>
     <baseColor>bf9f1c</baseColor>
+	<dataColor>FFFF00</dataColor> <!-- Jaune vif (pas selectionnable dans la liste) -->
+	<frameColor>fdde0b</frameColor> <!-- Sunny -->
+	<infoColor>9ACD32</infoColor> <!-- Yellowgreen -->
+
+	
+	
     <gradientEndColor>746111</gradientEndColor>
     <centerFadeColor>d7b31f33</centerFadeColor>
     <bottomBarColor>e2c036B0</bottomBarColor>

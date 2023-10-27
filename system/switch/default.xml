@@ -14,7 +14,7 @@
 			<scale>0.6</scale>
 			<opacity>0</opacity>
 			<path>./avatar-mario1.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 			
 			<storyboard repeat="forever">		
 				<animation property="opacity" to="1" begin="" duration="100" mode="linear"/>
@@ -34,7 +34,7 @@
 			<scale>0.6</scale>
 			<opacity>0</opacity>
 			<path>./avatar-mario2.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 			
 			<storyboard repeat="forever">		
 				<animation property="x" to="0.18" begin="" duration="1000" mode="linear"/>
@@ -61,7 +61,7 @@
 			<scale>0.6</scale>
 			<opacity>0</opacity>
 			<path>./avatar-chapeau.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>135</zIndex>
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="" duration="100" mode="linear"/>
 				<animation property="x" to="0.243" begin="" duration="1000" mode="linear"/>
@@ -101,7 +101,7 @@
 			<rotation>0</rotation>
 			<opacity>0</opacity>
 			<path>./avatar-chapeau2.png</path>
-			<zIndex>18</zIndex>
+			<zIndex>136</zIndex>
 			<linearSmooth>true</linearSmooth>
 			
 			<storyboard repeat="forever">		

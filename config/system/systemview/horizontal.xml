@@ -25,6 +25,7 @@
 	
 	
   <view name="system">
+  
      
   	
     <carousel name="systemcarousel">
@@ -38,8 +39,8 @@
       <logoSize>0.16 0.2963</logoSize>
 	  <maxLogoCount>5</maxLogoCount>
    	  <systemInfoDelay>1000</systemInfoDelay>
-	  <defaultTransition>slide</defaultTransition> <!-- slide / fade / instant -->
-	  <zIndex>37</zIndex>
+	  <defaultTransition>fade &amp; slide</defaultTransition> <!-- slide / fade / instant -->
+	  <zIndex>2001</zIndex>
 	  <linearSmooth>true</linearSmooth>
     </carousel>
 		
@@ -49,7 +50,7 @@
       <origin>0 0</origin>
       <path>./../../../art/divers/bghmetal.png</path>
 	  <!-- <color>${baseColor}</color> -->
-      <zIndex>20</zIndex>	  
+      <zIndex>2000</zIndex>	  
     </image>
 	
 	 <!--  ligne en plus du bottom pour la vue horizontale -->
@@ -130,7 +131,7 @@
 		<pos>0.985 0.862</pos>
 		<path>./../../../art/divers/chevron-snap.svg</path>
 		<rotation>90</rotation>
-		<zIndex>110</zIndex>
+		<zIndex>2110</zIndex>
 		<storyboard repeat="forever">
             <animation property="offsetX" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
 			<animation property="offsetX" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
@@ -143,7 +144,7 @@
       <pos>0.015 0.862</pos>
 	  <path>./../../../art/divers/chevron-snap.svg</path>
 	  <rotation>-90</rotation>
-	  <zIndex>41</zIndex>
+	  <zIndex>2110</zIndex>
       <storyboard repeatAt="1">
             <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
 	  </storyboard>
@@ -158,7 +159,7 @@
 	  <color>${baseColor}</color>
       <linearSmooth>false</linearSmooth>                                                       
 	  <opacity>0.77</opacity>
-	  <zIndex>40</zIndex>
+	  <zIndex>2140</zIndex>
 	  <storyboard>
 			<animation property="offsetY" from="0.008" to="0" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
 		</storyboard>
@@ -168,17 +169,59 @@
 		
 		
 		
-	<!-- Position du total des jeux si ils sont affichés -->	
-	<text name="systemInfo">
-	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-	  <fontSize>0.03</fontSize>
-	  <forceUppercase>0</forceUppercase>
-	  <origin>0.5 0.5</origin>
-      <pos>0.817 0.75</pos>
-      <color>ffffff</color>
-      <glowColor>000000</glowColor>
-      <glowSize>1</glowSize>
-    </text>
+		<!-- On affiche le total des jeux si l'option TOTAL a été select -->
+		<text name="systemInfo" ifSubset="InfoCustomView:total">
+			<origin>0.5 0.5</origin>									
+			<size>0.019 0.0194444</size>									
+			<pos>0.5143229 0.0263889</pos>									
+			<fontSize>0.02</fontSize>
+			<fontPath>./../../../art/fonts/dotmat.ttf</fontPath>
+			<alignment>center</alignment>
+			<color>${systemInfoColor}</color>
+			<glowColor>${baseColor}</glowColor>
+			<glowSize>1</glowSize>
+			<backgroundColor>${backgroundColor}</backgroundColor>
+			<zIndex>1900</zIndex>
+			<opacity>0</opacity>
+			<visible>true</visible>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="800" duration="115" mode="linear" />
+				<animation property="w" to="0.1" begin="800" duration="1200" mode="linear"/>
+				<animation property="offsetX" to="-0.003" begin="800" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="offsetX" to="0.003"  begin="1400" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="w" to="0.019" begin="5000" duration="2000" mode="Linear" autoReverse="true"/>
+				<animation property="opacity" from="1" to="0" begin="15000" duration="1000" mode="linear" />
+				<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear" />
+			</storyboard>
+		</text>
+		<!-- Masque derrière l'affiches du nombre de jeux -->
+		<image name="masque_behind" extra="true">
+			<path>./../../../art/divers/white.png</path>
+			<color>${backgroundColor}</color>
+			<zIndex>1899</zIndex>
+			<origin>0.5 0.5</origin>									
+			<size>0.001 0.0194444</size>						
+			<pos>0.5143229 0.0263889</pos>									
+			<opacity>0</opacity>			
+			
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear" />
+				<animation property="w" to="0.1" begin="100" duration="900" mode="Linear"/>
+				<animation property="w" to="0.001" begin="16000" duration="700" mode="Linear"/>
+				<animation property="opacity" to="0" begin="16700" duration="300" mode="linear" />
+			</storyboard>
+		</image>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	<!-- Position des consoles si "Total" des jeux ou "rien" select -->

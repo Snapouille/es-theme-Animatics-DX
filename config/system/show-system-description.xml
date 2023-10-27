@@ -4,7 +4,6 @@
           <text name="system_description" ifSubset="SystemView:vertical || SystemView:wheel">
                <alignment>right</alignment>
                <verticalAlignment>top</verticalAlignment>
-               <color>FFFFFF</color>
                <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 			   <fontSize>0.026</fontSize>
                <lineSpacing>1.3</lineSpacing>
@@ -15,7 +14,7 @@
           </text>
 		  
 		  
-		  
+		  <!-- OBSOLETE A REVOIR -->
 		  <image name="YellowBarDesc" ifSubset="SystemView:simple" ifHelpPrompts="false" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.0510417 0.312963</size>
@@ -33,3 +32,4 @@
 		  
      </view>
 </theme>
+

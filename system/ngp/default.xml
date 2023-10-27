@@ -13,7 +13,7 @@
 			<scale>0.8</scale>
 			<opacity>1</opacity>
 			<path>./avatar-kyo_1.png</path>
-			<zIndex>18</zIndex>
+			<zIndex>21</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -32,7 +32,7 @@
 			<scale>0.8</scale>
 			<opacity>0</opacity>
 			<path>./avatar-kyo_2.png</path>
-			<zIndex>18</zIndex>
+			<zIndex>21</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -52,7 +52,7 @@
 			<scale>0.8</scale>
 			<opacity>1</opacity>
 			<path>./avatar-terry_1.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -70,7 +70,7 @@
 			<scale>0.8</scale>
 			<opacity>0</opacity>
 			<path>./avatar-terry_2.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -91,7 +91,7 @@
 			<scale>0.8</scale>
 			<opacity>0</opacity>
 			<path>./avatar-terry_3.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -113,7 +113,7 @@
 			<pos>-1 0</pos>
 			<scale>0.8</scale>
 			<path>./feuille_1.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -131,7 +131,7 @@
 			<pos>-1 0</pos>
 			<scale>0.8</scale>
 			<path>./feuille_2.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -150,7 +150,7 @@
 			<pos>-1 0</pos>
 			<scale>0.4</scale>
 			<path>./feuille_3.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -169,7 +169,7 @@
 			<pos>-1 0</pos>
 			<scale>0.5</scale>
 			<path>./feuille_4.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -188,7 +188,7 @@
 			<pos>-1 0</pos>
 			<scale>0.6</scale>
 			<path>./feuille_5.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -208,7 +208,7 @@
 			<pos>-1 0</pos>
 			<scale>0.8</scale>
 			<path>./feuille_6.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -230,7 +230,7 @@
 			<pos>-1 0</pos>
 			<scale>0.6</scale>
 			<path>./feuille_3.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -248,7 +248,7 @@
 			<pos>-1 0</pos>
 			<scale>0.5</scale>
 			<path>./feuille_4.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -266,7 +266,7 @@
 			<pos>-1 0</pos>
 			<scale>0.4</scale>
 			<path>./feuille_1.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -284,7 +284,7 @@
 			<pos>-1 0</pos>
 			<scale>0.4</scale>
 			<path>./feuille_5.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -302,7 +302,7 @@
 			<pos>-1 0</pos>
 			<scale>0.5</scale>
 			<path>./feuille_6.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -321,7 +321,7 @@
 			<pos>-1 0</pos>
 			<scale>0.7</scale>
 			<path>./feuille_2.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 		
 			<storyboard repeat="forever">

@@ -3,15 +3,19 @@
   <formatVersion>7</formatVersion>
   <variables>
     <baseColor>3675CA</baseColor>
-    <bottomBarColor>4075D8C5</bottomBarColor>
+	<dataColor>87CEEB</dataColor> <!-- Skyblue -->
+	<frameColor>00BFFF</frameColor> <!-- Deepskyblue -->
+	<infoColor>87CEEB</infoColor> <!-- Skyblue -->
+    <backgroundColor>051222</backgroundColor> <!-- baseColor foncé : utilisation pour total des jeux vue simple -->
 
+
+	
+    <bottomBarColor>4075D8C5</bottomBarColor>
     <gradientEndColor>00205b</gradientEndColor>
     <centerFadeColor>4060a050</centerFadeColor>    
-    <backgroundColor>051222</backgroundColor>
     <glowColor>3060Ab24</glowColor>
     <systemInfoColor>FAFAFFB0</systemInfoColor>
     <backgroundImage>./art/fiber.png</backgroundImage>
-
     <groupColor>5178C3</groupColor>
     <groupSeparatorColor>3B5B96</groupSeparatorColor>
 

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+<view name="system">
+	<image name="frame_big, encadrement">
+		<color ifSubset="frame_color:Dimgrey">696969</color>
+		<color ifSubset="frame_color:Silver">C0C0C0</color>
+		<color ifSubset="frame_color:Ivory">FFFFF0</color>
+		<color ifSubset="frame_color:Lavenderblush">FFF0F5</color>
+		<color ifSubset="frame_color:Mistyrose">FFE4E1</color>
+		<color ifSubset="frame_color:Lightpink">FFB6C1</color>
+		<color ifSubset="frame_color:Deeppink">FF1493</color>
+		<color ifSubset="frame_color:Palevioletred">DB7093</color>
+		<color ifSubset="frame_color:Plum">DDA0DD</color>
+		<color ifSubset="frame_color:Orchid">DA70D6</color>
+		<color ifSubset="frame_color:Darkorchid">9932CC</color>
+		<color ifSubset="frame_color:Slateblue">6A5ACD</color>
+		<color ifSubset="frame_color:Mediumpurple">9370DB</color>
+		<color ifSubset="frame_color:Rosybrown">BC8F8F</color>
+		<color ifSubset="frame_color:Lightcoral">F08080</color>
+		<color ifSubset="frame_color:Tomato">FF6347</color>
+		<color ifSubset="frame_color:Orangered">FF4500</color>
+		<color ifSubset="frame_color:Crimson">DC143C</color>
+		<color ifSubset="frame_color:Lightsalmon">FFA07A</color>
+		<color ifSubset="frame_color:Darksalmon">E9967A</color>
+		<color ifSubset="frame_color:Indianred">CD5C5C</color>
+		<color ifSubset="frame_color:Firebrick">B22222</color>
+		<color ifSubset="frame_color:Maroon">800000</color>
+		<color ifSubset="frame_color:Papayawhip">FFEFD5</color>
+		<color ifSubset="frame_color:Peachpuff">FFDAB9</color>
+		<color ifSubset="frame_color:Tan">D2B48C</color>
+		<color ifSubset="frame_color:Sandybrown">F4A460</color>
+		<color ifSubset="frame_color:Darkorange">FF8C00</color>
+		<color ifSubset="frame_color:Chocolate">D2691E</color>
+		<color ifSubset="frame_color:Peru">CD853F</color>
+		<color ifSubset="frame_color:Sunny">fdde0b</color>
+		<color ifSubset="frame_color:Yellowgreen">9ACD32</color>
+		<color ifSubset="frame_color:Chartreuse">7FFF00</color>
+		<color ifSubset="frame_color:Lime">00FF00</color>
+		<color ifSubset="frame_color:Springgreen">00FF7F</color>
+		<color ifSubset="frame_color:Darkseagreen">8FBC8F</color>
+		<color ifSubset="frame_color:Lightcyan">E0FFFF</color>
+		<color ifSubset="frame_color:Paleturquoise">AFEEEE</color>
+		<color ifSubset="frame_color:Aquamarine">7FFFD4</color>
+		<color ifSubset="frame_color:Aqua">00FFFF</color>
+		<color ifSubset="frame_color:Turquoise">40E0D0</color>
+		<color ifSubset="frame_color:Teal">008080</color>
+		<color ifSubset="frame_color:Cadetblue">5F9EA0</color>
+		<color ifSubset="frame_color:Lightskyblue">87CEFA</color>
+		<color ifSubset="frame_color:Skyblue">87CEEB</color>
+		<color ifSubset="frame_color:Deepskyblue">00BFFF</color>
+		<color ifSubset="frame_color:Cornflowerblue">6495ED</color>
+		<color ifSubset="frame_color:Steelblue">4682B4</color>
+		<color ifSubset="frame_color:Royalblue">4169E1</color>
+		<color ifSubset="frame_color:Midnightblue">191970</color>
+	</image>
+	
+	<text name="system_description, releaseYyear, manufacturerName">
+		<color ifSubset="info_color:Dimgrey">696969</color>
+		<color ifSubset="info_color:Silver">C0C0C0</color>
+		<color ifSubset="info_color:Ivory">FFFFF0</color>
+		<color ifSubset="info_color:Lavenderblush">FFF0F5</color>
+		<color ifSubset="info_color:Mistyrose">FFE4E1</color>
+		<color ifSubset="info_color:Lightpink">FFB6C1</color>
+		<color ifSubset="info_color:Deeppink">FF1493</color>
+		<color ifSubset="info_color:Palevioletred">DB7093</color>
+		<color ifSubset="info_color:Plum">DDA0DD</color>
+		<color ifSubset="info_color:Orchid">DA70D6</color>
+		<color ifSubset="info_color:Darkorchid">9932CC</color>
+		<color ifSubset="info_color:Slateblue">6A5ACD</color>
+		<color ifSubset="info_color:Mediumpurple">9370DB</color>
+		<color ifSubset="info_color:Rosybrown">BC8F8F</color>
+		<color ifSubset="info_color:Lightcoral">F08080</color>
+		<color ifSubset="info_color:Tomato">FF6347</color>
+		<color ifSubset="info_color:Orangered">FF4500</color>
+		<color ifSubset="info_color:Crimson">DC143C</color>
+		<color ifSubset="info_color:Lightsalmon">FFA07A</color>
+		<color ifSubset="info_color:Darksalmon">E9967A</color>
+		<color ifSubset="info_color:Indianred">CD5C5C</color>
+		<color ifSubset="info_color:Firebrick">B22222</color>
+		<color ifSubset="info_color:Maroon">800000</color>
+		<color ifSubset="info_color:Papayawhip">FFEFD5</color>
+		<color ifSubset="info_color:Peachpuff">FFDAB9</color>
+		<color ifSubset="info_color:Tan">D2B48C</color>
+		<color ifSubset="info_color:Sandybrown">F4A460</color>
+		<color ifSubset="info_color:Darkorange">FF8C00</color>
+		<color ifSubset="info_color:Chocolate">D2691E</color>
+		<color ifSubset="info_color:Peru">CD853F</color>
+		<color ifSubset="info_color:Sunny">fdde0b</color>
+		<color ifSubset="info_color:Yellowgreen">9ACD32</color>
+		<color ifSubset="info_color:Chartreuse">7FFF00</color>
+		<color ifSubset="info_color:Lime">00FF00</color>
+		<color ifSubset="info_color:Springgreen">00FF7F</color>
+		<color ifSubset="info_color:Darkseagreen">8FBC8F</color>
+		<color ifSubset="info_color:Lightcyan">E0FFFF</color>
+		<color ifSubset="info_color:Paleturquoise">AFEEEE</color>
+		<color ifSubset="info_color:Aquamarine">7FFFD4</color>
+		<color ifSubset="info_color:Aqua">00FFFF</color>
+		<color ifSubset="info_color:Turquoise">40E0D0</color>
+		<color ifSubset="info_color:Teal">008080</color>
+		<color ifSubset="info_color:Cadetblue">5F9EA0</color>
+		<color ifSubset="info_color:Lightskyblue">87CEFA</color>
+		<color ifSubset="info_color:Skyblue">87CEEB</color>
+		<color ifSubset="info_color:Deepskyblue">00BFFF</color>
+		<color ifSubset="info_color:Cornflowerblue">6495ED</color>
+		<color ifSubset="info_color:Steelblue">4682B4</color>
+		<color ifSubset="info_color:Royalblue">4169E1</color>
+		<color ifSubset="info_color:Midnightblue">191970</color>
+	</text>
+		
+</view>
+	
+	
+<!-- <view name="detailed">   -->
+	
+	<!-- <text name="md_playcount, md_lastplayed, md_gametime"> -->
+		<!-- <color>${baseColor}</color> -->
+
+		<!-- <color ifSubset="colorset:gray">CD853F</color> -->
+		<!-- <color ifSubset="colorset:gray">CD853F</color> -->
+		
+	<!-- </text> -->
+	
+<!-- </view> -->
+	
+</theme>

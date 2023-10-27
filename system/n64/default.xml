@@ -16,7 +16,7 @@
 			<zIndex>17</zIndex>
 		
 			<storyboard>
-        		<animation property="x" to="0.05" begin="" autoreverse="true" duration="15000" repeat="forever" mode="linear"/>
+        		<animation property="x" to="0.11" begin="" autoreverse="true" duration="15000" repeat="forever" mode="linear"/>
 			</storyboard>
 		</image>
 		
@@ -28,10 +28,10 @@
 			<rotation>-15</rotation>
 			<opacity>0</opacity>
 			<path>./fee.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>170</zIndex>
 		
 			<storyboard repeat="forever">
-        		<animation property="x" to="0.05" begin="" autoreverse="true" duration="15000" mode="linear"/>
+        		<animation property="x" to="0.16" begin="" autoreverse="true" duration="15000" mode="linear"/>
 				
 				<animation property="opacity" to="1" begin="" duration="500" mode="linear"/>
 				<animation property="scale" to="0.7" begin="" duration="2000" mode="Linear"/>

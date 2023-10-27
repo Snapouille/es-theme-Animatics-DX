@@ -12,7 +12,7 @@
 			<size>0.3333333 0.9101852</size>									
 
 			<scale>0.55</scale>
-			<zIndex>15</zIndex>
+			<zIndex>19</zIndex>
 					
 
 		<storyboard repeat="forever">
@@ -42,7 +42,7 @@
 			<size>0.3333333 0.9101852</size>									
 
 			<scale>1</scale>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 			<flipX>true</flipX>
 			<opacity>0</opacity>
 			<path>./avatar.png</path>

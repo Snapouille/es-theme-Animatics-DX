@@ -3,6 +3,11 @@
   <formatVersion>7</formatVersion>
   <variables>
     <baseColor>dd8800</baseColor>
+	<dataColor>F4A460</dataColor> <!-- Sandybrown -->
+	<frameColor>D2691E</frameColor> <!-- Chocolate -->
+	<infoColor>F4A460</infoColor> <!-- Sandybrown -->
+	
+	
     <gradientEndColor>803F00</gradientEndColor>
     <centerFadeColor>ff990033</centerFadeColor>
     <bottomBarColor>ff9900B0</bottomBarColor>

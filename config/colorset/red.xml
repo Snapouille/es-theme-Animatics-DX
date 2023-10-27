@@ -3,6 +3,10 @@
   <formatVersion>7</formatVersion>
   <variables>
     <baseColor>8b0000</baseColor>
+	<dataColor>F08080</dataColor> <!-- Lightcoral -->
+	<frameColor>FF6347</frameColor> <!-- Tomato -->
+	<infoColor>F08080</infoColor> <!-- Lightcoral -->
+	
     <bottomBarColor>8b0000c0</bottomBarColor>
     <gradientEndColor>6b2020</gradientEndColor>
     <centerFadeColor>8b000050</centerFadeColor>

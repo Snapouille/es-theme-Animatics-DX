@@ -3,6 +3,10 @@
   <formatVersion>7</formatVersion>
   <variables>
     <baseColor>1c9090</baseColor>
+	<dataColor>66CDAA</dataColor> <!-- Mediumaquamarine -->
+	<frameColor>E0FFFF</frameColor> <!-- Lightcyan -->
+	<infoColor>AFEEEE</infoColor> <!-- Paleturquoise -->
+
     <gradientEndColor>105151</gradientEndColor>
     <centerFadeColor>1fb3b333</centerFadeColor>
     <bottomBarColor>36d2d2B0</bottomBarColor>

@@ -3,37 +3,63 @@
   <formatVersion>7</formatVersion>
   
   <view name="system">
-    <carousel name="systemcarousel">
-      <defaultTransition>fade &amp; slide</defaultTransition> <!-- slide / fade / instant -->
-    </carousel>
+	<!-- slide / fade / instant -->
+	<!-- j'ai viré le slide pour éviter le mouvement et que tout reste dans le cadre -->
+    <!-- <carousel name="systemcarousel"> -->
+      <!-- <defaultTransition>fade &amp; slide</defaultTransition>  -->
+    <!-- </carousel> -->
 	
-    <image name="background" extra="true">
-      <!-- <visible>false</visible> -->
+	<image name="background" extra="static">
+		  <visible>false</visible>
+	</image>
+	
+	<image name="bgsky" extra="static">
+		  <visible>false</visible>
     </image>
 	
-	<!-- System BACK-ILLUSTRAION -->
-    <image name="snapLegacy" extra="true">
+	<image name="background_cut" extra="static">
+		  <tile>false</tile>
+		  <size>1 1</size>
+		  <pos>0 0</pos>
+		  <origin>0 0</origin>
+		  <path>./../../../art/divers/bg-cut.png</path>
+		  <color>${backgroundColor}</color>
+		  <zIndex>15</zIndex>
+	</image>
+	
+	
+	<image name="frame_big" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.6010417 0.7361111</size>									
+			<pos>0.3239583 0.4226852</pos>									
+			<path>./../../../art/divers/frame_big.png</path>
+			<color>${frameColor}</color>
+			<zIndex>18</zIndex>
+	</image>
+	
+	
+	
+	<!-- background Snap Legacy -->
+    <image name="BG_snapLegacy" extra="true">
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
       <path>{random:fanart}</path>
 	  <path>./../../../system/background-default.png</path>
       <path>./../../../system/${system.theme}/background.png</path>
-	  <scale>0.99</scale>
-	  <color>202020</color>
+	  <scale>1.03</scale>
+	  <!-- <color>202020</color> -->
 	  
-      <pos>0.5 0.5</pos>
-      <origin>0.5 0.5</origin>
-      <minSize>1 1</minSize>
-      <zIndex>11</zIndex>
+		<origin>0.5 0.5</origin>									
+		<size>0.58125 0.6509259</size>									
+		<pos>0.3177083 0.3856481</pos>									
+		<zIndex>3</zIndex>
 	  
 	  
 	  <storyboard>
 				<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
-				
         		<animation property="scale" to="1" begin="" duration="500" mode="linear"/>
-				
-				
-			</storyboard>
+				<!-- <animation property="offsetX" to="-0.001" begin="" duration="500" mode="linear"/> -->
+	  </storyboard>
 	  
 	  
     </image>
@@ -45,20 +71,10 @@
 			<maxSize>0.2969 0.9067</maxSize>
 			<path>./../../../system/${system.theme}/avatar.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>16</zIndex>
+			<zIndex>180</zIndex>
 		</image>
 	
 	
-    <image name="backgroundFade" extra="static">
-      <tile>false</tile>
-      <linearSmooth>true</linearSmooth>
-      <path>./../../../art/backfade.png</path>
-      <color>FFFFFFFF</color>
-      <pos>0.5 0.5</pos>
-      <origin>0.5 0.5</origin>
-      <minSize>1 1</minSize>
-      <zIndex>12</zIndex>
-    </image>
    
     <image name="ControllerOverlay" extra="true">
       <visible>false</visible>

@@ -33,11 +33,11 @@
 		<!-- Sprites -->
 		<image name="avatar3" extra="static">
 			<origin>0 0</origin>
-			<pos>0 0</pos>
+			<pos>0 -0.115</pos>
 			<maxSize>1 1</maxSize>
 			<path>./avatar3.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 		</image>
 
 		<!-- Nuages -->

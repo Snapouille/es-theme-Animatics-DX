@@ -35,7 +35,7 @@
 			<rotation>0</rotation>
 			<opacity>0.95</opacity>
 			<path>./nuage0.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>14</zIndex>
 		</image>
 		
 		<image name="nuage1" extra="static">
@@ -46,7 +46,7 @@
 			<rotation>3</rotation>
 			<opacity>0</opacity>
 			<path>./nuage1.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>14</zIndex>
 		</image>
 		
 		<image name="nuage2" extra="static">
@@ -57,7 +57,7 @@
 			<rotation>-2</rotation>
 			<opacity>0</opacity>
 			<path>./nuage2.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>14</zIndex>
 		</image>
 		
 		<image name="nuage3" extra="static">
@@ -67,7 +67,7 @@
 			<scale>0.58</scale>
 			<opacity>0</opacity>
 			<path>./nuage3.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>14</zIndex>
 		</image>
 		
 		<image name="nuage4" extra="static">
@@ -78,7 +78,7 @@
 			<rotation>0</rotation>
 			<opacity>0</opacity>
 			<path>./nuage1.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>14</zIndex>
 		</image>
 		
 		
@@ -225,7 +225,7 @@
 			
 				<animation property="opacity" from="0" to="0.95" begin="" duration="1000" mode="linear"/>
 				<animation property="x" from="0.01" to="0.55" begin="" duration="33000" mode="easyOut"/>
-				<animation property="opacity" from="0.95" to="0" begin="32000" duration="1000" mode="linear"/>
+				<!-- <animation property="opacity" from="0.95" to="0" begin="32000" duration="1000" mode="linear"/> -->
 				<animation property="opacity" from="0" to="0" begin="33000" duration="3500" mode="linear"/>
 				
 			</storyboard>			
@@ -237,7 +237,7 @@
 			
 				<animation property="opacity" from="0" to="0.9" begin="8000" duration="4000" mode="linear"/>
 				<animation property="x" from="-0.1" to="0.55" begin="8000" duration="32000" mode="easyOut"/>
-				<animation property="opacity" from="0.9" to="0" begin="39000" duration="1000" mode="linear"/>
+				<!-- <animation property="opacity" from="0.9" to="0" begin="39000" duration="1000" mode="linear"/> -->
 				<animation property="opacity" from="0" to="0" begin="40000" duration="3500" mode="linear"/>
 				
 			</storyboard>			
@@ -249,7 +249,7 @@
 			
 				<animation property="opacity" from="0" to="0.92" begin="15000" duration="4000" mode="linear"/>
 				<animation property="x" from="-0.1" to="0.55" begin="15000" duration="33000" mode="easyOut"/>
-				<animation property="opacity" from="0.92" to="0" begin="47000" duration="1000" mode="linear"/>
+				<!-- <animation property="opacity" from="0.92" to="0" begin="47000" duration="1000" mode="linear"/> -->
 				<animation property="opacity" from="0" to="0" begin="48000" duration="3500" mode="linear"/>
 				
 			</storyboard>			
@@ -262,7 +262,7 @@
 			
 				<animation property="opacity" from="0" to="0.88" begin="22000" duration="4000" mode="linear"/>
 				<animation property="x" from="-0.1" to="0.55" begin="22000" duration="34000" mode="easyOut"/>
-				<animation property="opacity" from="0.88" to="0" begin="55000" duration="1000" mode="linear"/>
+				<!-- <animation property="opacity" from="0.88" to="0" begin="55000" duration="1000" mode="linear"/> -->
 				<animation property="opacity" from="0" to="0" begin="56000" duration="3500" mode="linear"/>
 				
 			</storyboard>			
@@ -277,8 +277,6 @@
 			    <animation property="opacity" from="0" to="1" begin="3900" duration="200" mode="easeIn"/>
 				<animation property="x" from="1" to="0.35" begin="3900" duration="400" mode="linear"/>
 						
-				<!-------------------------------------------------------------------------------------------------->
-				
 			    <animation property="rotation" to="2" begin="4300" duration="2000" mode="bump"/>
                 <animation property="x" to="0.28" begin="4300" duration="2000" mode="bump"/>
 				
@@ -289,9 +287,6 @@
 				
 				<animation property="rotation" to="0.5" begin="7300" autoreverse="true" duration="650" repeat="7" mode="linear"/>
 				<animation property="y" from="0.18" to="0.185" begin="7300" autoreverse="true" duration="400" repeat="1" mode="easeOut"/>
-				
-				<!-------------------------------------------------------------------------------------------------->
-				
 				
 				<animation property="scale" to="7" begin="16400" duration="1500" mode="Linear"/>
 				<animation property="x" to="-0.6" begin="16400" duration="1500" mode="linear"/>

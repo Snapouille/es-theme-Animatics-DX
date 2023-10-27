@@ -13,7 +13,7 @@
 			<opacity>1</opacity>
 			<path>./avatar2p.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 
 		<storyboard repeat="forever">
 				
@@ -33,7 +33,7 @@
 			<opacity>0</opacity>
 			<linearSmooth>true</linearSmooth>
 			<path>./avatarbis.png</path>
-			<zIndex>16</zIndex>	
+			<zIndex>19</zIndex>	
 				
 		<storyboard repeat="forever">
 				

@@ -3,6 +3,11 @@
   <formatVersion>7</formatVersion>
   <variables>
     <baseColor>c01c8f</baseColor>
+	<dataColor>DDA0DD</dataColor> <!-- Plum -->
+	<frameColor>FFF0F5</frameColor> <!-- Lavenderblush -->
+	<infoColor>DDA0DD</infoColor> <!-- Plum -->
+	
+	
     <gradientEndColor>641151</gradientEndColor>
     <centerFadeColor>d71fb333</centerFadeColor>  
     <bottomBarColor>d236b0B0</bottomBarColor>

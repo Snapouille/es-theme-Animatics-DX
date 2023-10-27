@@ -13,7 +13,7 @@
 			<scale>0.9</scale>
 			<opacity>1</opacity>
 			<path>./avatar-hero.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>25</zIndex>
 			
 			<storyboard >
 					<animation property="y" from="-1" to="0.37" begin="1100" duration="300" mode="EaseOut"/>
@@ -83,7 +83,7 @@
 			<opacity>0</opacity>
 			<rotation>-0.3</rotation>
 			<path>./avatar-sorcerer.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			
 		<storyboard repeat="forever">
 				
@@ -114,7 +114,7 @@
 			<scale>0.8</scale>
 			<opacity>0</opacity>
 			<path>./avatar-lightning.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			
 		<storyboard repeat="forever">
 		
@@ -168,7 +168,7 @@
 			<opacity>1</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-stone1.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			
 		<storyboard repeat="forever">
 			<animation property="y" to="1" begin="4000" duration="2000" mode="linear"/>
@@ -194,7 +194,7 @@
 			<opacity>1</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-stone2.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			
 		<storyboard repeat="forever">
 			<animation property="y" to="1" begin="4200" duration="2600" mode="linear"/>
@@ -220,7 +220,7 @@
 			<opacity>1</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-stone3.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			
 		<storyboard repeat="forever">
 			<animation property="y" to="1" begin="4400" duration="2600" mode="linear"/>
@@ -249,7 +249,7 @@
 			<opacity>0</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-fruit1.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="8000" duration="100" mode="linear"/>
@@ -278,7 +278,7 @@
 			<opacity>0</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-fruit2.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="9200" duration="100" mode="linear"/>
@@ -307,7 +307,7 @@
 			<opacity>0</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-fruit3.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="10400" duration="100" mode="linear"/>
@@ -340,7 +340,7 @@
 			<opacity>0</opacity>
 			<rotation>-3</rotation>
 			<path>./avatar-dragon1.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			
 		<storyboard repeat="forever">
 			
@@ -398,7 +398,7 @@
 			<opacity>0</opacity>
 			<rotation>-3</rotation>
 			<path>./avatar-dragon2.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			
 		<storyboard repeat="forever">
 			

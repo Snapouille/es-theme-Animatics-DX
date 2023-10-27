@@ -117,7 +117,7 @@
 			<scale>0.6</scale>
 			<path>./avatar-pion.png</path>
 			<opacity>0</opacity>
-			<zIndex>14</zIndex>
+			<zIndex>159</zIndex>
 			<storyboard repeat="forever">
 				<animation property="x" from="-2" begin="0" duration="550" mode="linear"/>
 				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>

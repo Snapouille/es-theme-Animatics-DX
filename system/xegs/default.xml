@@ -1,4 +1,4 @@
-<!-- Atari 5200 working snapouille -->
+<!-- Atari XEGS  -->
 
 
 <theme>
@@ -11,13 +11,7 @@
 			<origin>0 0</origin>
 			<pos>0.11 0.3329</pos>
 			<size>0.29375 0.6833333</size>									
-
 			<scale>0.55</scale>
-			
-			<!-- <pos>0.235 0.1618</pos> -->
-			<!-- <scale>0.8</scale> -->
-			
-			
 			<path>./Body.png</path>
 			<opacity>0</opacity>
 			<zIndex>16</zIndex>
@@ -688,7 +682,7 @@
 			<scale>1</scale>
 			<path>./Eclat1.png</path>
 			<opacity>0</opacity>
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 						
 				<storyboard repeat="forever">
 						
@@ -721,7 +715,7 @@
 			<scale>1</scale>
 			<path>./Eclat2.png</path>
 			<opacity>0</opacity>
-			<zIndex>18</zIndex>
+			<zIndex>19</zIndex>
 					
 				<storyboard repeat="forever">
 					

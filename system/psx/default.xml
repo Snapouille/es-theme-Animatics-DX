@@ -8,12 +8,12 @@
 	
 		<image name="crabEyes" extra="static">
 			<origin>0 0</origin>									
-<size>0.0375 0.0074074</size>									
+			<size>0.0375 0.0074074</size>									
 			<pos>0.177 0.515</pos>
 			<scale>1</scale>
 			<path>./crabEyes.png</path>
 			<opacity>1</opacity>
-			<zIndex>18</zIndex>
+			<zIndex>19</zIndex>
 						
 			<storyboard repeat="forever">
 					<animation property="x" from="0.177" to="0.175" begin="500" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
@@ -31,7 +31,7 @@
 			<opacity>1</opacity>
 			<rotation>-30</rotation>
 			<path>./apple.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			
 			<storyboard repeat="forever">
 				<animation property="y" from="-1" to="1" begin="7000" duration="4000" mode="easyIn"/>
@@ -53,7 +53,7 @@
 			<opacity>1</opacity>
 			<rotation>30</rotation>
 			<path>./apple.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			
 			
 			<storyboard repeat="forever">
@@ -73,7 +73,7 @@
 			<opacity>1</opacity>
 			<rotation>-10</rotation>
 			<path>./apple.png</path>
-			<zIndex>19</zIndex>
+			<zIndex>20</zIndex>
 			
 			<storyboard repeat="forever">
 				<animation property="y" from="-1" to="1" begin="3700" duration="4000" mode="easyIn"/>
@@ -95,7 +95,7 @@
 			<rotation>0</rotation>
 			<opacity>1</opacity>
 			<path>./chute.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>21</zIndex>
 		
 			<storyboard repeat="forever">
 				
@@ -111,12 +111,12 @@
 		
 		<image name="crash" extra="static">
 			<origin>0 0</origin>									
-<size>0.2484375 0.7777778</size>									
+			<size>0.2484375 0.7777778</size>									
 			<pos>0.3 1</pos>
 			<scale>0.5</scale>
 			<opacity>1</opacity>
 			<path>./crash.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>21</zIndex>
 		
 			<storyboard repeat="forever">
 					
@@ -141,7 +141,7 @@
 			<scale>0.5</scale>
 			<opacity>0</opacity>
 			<path>./crash2.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>21</zIndex>
 		
 			<storyboard repeat="forever">
 					

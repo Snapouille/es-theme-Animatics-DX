@@ -16,7 +16,7 @@
 			<opacity>0</opacity>
 			<path>./wagon.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>103</zIndex>
+			<zIndex>191</zIndex>
 			
 		
 			<storyboard repeat="forever">
@@ -55,7 +55,7 @@
 			<opacity>1</opacity>
 			<path>./oiseau.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>17</zIndex>
+			<zIndex>190</zIndex>
 			
 			<storyboard repeat="forever">
 	
@@ -169,7 +169,7 @@
 			<opacity>0</opacity>
 			<path>./oiseauBis.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>17</zIndex>
+			<zIndex>190</zIndex>
 			
 			<storyboard repeat="forever">
 	

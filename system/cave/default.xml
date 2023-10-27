@@ -1,0 +1,36 @@
+<!-- Cave -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		
+		
+		<image name="BG_snapLegacy" extra="true">
+			<scale>1</scale>
+			<color>202020</color>
+			  <storyboard>
+					<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+		
+		<image name="bec" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0817708 0.0787037</size>									
+			<pos>0.6210938 0.4689815</pos>									
+			<path>./bec.png</path>
+			<color>202020</color>
+			<zIndex>20</zIndex>
+			<opacity>1</opacity>
+
+			<storyboard>
+        		<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

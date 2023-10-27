@@ -6,15 +6,33 @@
 
 	<view name="system">
 	
+	
+	<image name="BG_snapLegacy" extra="true">
+	  
+			<origin>0.5 0.5</origin>									
+			<size>1.6 1.1425926</size>									
+			<pos>0.8260417 0.325</pos>									
+	  
+			  <storyboard>
+					<animation property="x" to="-0.1796875" begin="" duration="6000" mode="EaseInOut"/>
+					<animation property="size" to="0.91875 0.6564815" begin="6900" duration="600" mode="EaseOut"/>
+					<animation property="pos" to="0.3041667 0.3875" begin="6900" duration="600" mode="EaseOut"/>
+			  </storyboard>
+	  
+
+
+    </image>	
+	
+	
 		<image name="avatar2p" extra="true">
 			<origin>0 0</origin>									
 			<size>0.4036458 0.4453704</size>									
-			<pos>0.213 0.33</pos>
+			<pos>0.25 0.33</pos>
 			<opacity>1</opacity>
 			<flipX>true</flipX>
 			<path>./avatar2p.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>16</zIndex>
+			<zIndex>20</zIndex>
 
 		<storyboard repeat="forever">
 				
@@ -30,12 +48,12 @@
 		<image name="avatarbis" extra="true">
 			<origin>0 0</origin>									
 			<size>0.4036458 0.4453704</size>									
-			<pos>0.213 0.33</pos>
+			<pos>0.25 0.33</pos>
 			<opacity>0</opacity>
 			<flipX>true</flipX>
 			<linearSmooth>true</linearSmooth>
 			<path>./avatarbis.png</path>
-			<zIndex>16</zIndex>	
+			<zIndex>20</zIndex>	
 				
 		<storyboard repeat="forever">
 				

@@ -13,8 +13,8 @@
 			<linearSmooth>true</linearSmooth>					
 			<storyboard>
 				
-        		<animation property="x" to="0.55" begin="" duration="2000" mode="EaseInOut"/>
-				<animation property="scale" to="1" begin="" duration="2000" mode="Bump"/>
+        		<animation property="x" to="0.55" begin="" duration="800" mode="EaseInOut"/>
+				<animation property="scale" to="1" begin="" duration="800" mode="Bump"/>
         		
 			</storyboard>					
 

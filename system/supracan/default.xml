@@ -8,11 +8,11 @@
 		
 		<image name="arcenciel" extra="static">
 			<origin>0 0</origin>									
-<size>0.9364583 0.5398148</size>									
+			<size>0.9364583 0.5398148</size>									
 			<pos>-0.2 0</pos>
 			<opacity>1</opacity>
 			<path>./arcenciel.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		
 			<storyboard repeat="forever">
 				<animation property="opacity" from="0.8" to="1" begin="" duration="1000" autoreverse="true" repeat="2" mode="linear"/>
@@ -36,7 +36,7 @@
 			<scale>0.9</scale>
 			<opacity>1</opacity>
 			<path>./avatar1.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -62,7 +62,7 @@
 			<scale>0.9</scale>
 			<opacity>0</opacity>
 			<path>./avatar2.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -92,7 +92,7 @@
 			<scale>0.9</scale>
 			<opacity>0</opacity>
 			<path>./avatar3.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -122,7 +122,7 @@
 			<scale>0.9</scale>
 			<opacity>1</opacity>
 			<path>./nuage1.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -145,7 +145,7 @@
 			<scale>0.9</scale>
 			<opacity>0</opacity>
 			<path>./nuage2.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -169,7 +169,7 @@
 			<scale>0.9</scale>
 			<opacity>0</opacity>
 			<path>./nuage3.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 
 
 			<storyboard repeat="forever">

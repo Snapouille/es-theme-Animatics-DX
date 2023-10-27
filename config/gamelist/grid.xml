@@ -32,7 +32,7 @@ originally based on: "carbon"
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
 		<forceUppercase>1</forceUppercase>
-		<color>${baseColor}</color>
+		<color>${systemInfoColor}</color>
 		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
 		<fontSize>0.023</fontSize>
 		<zIndex>131</zIndex>
@@ -168,7 +168,7 @@ originally based on: "carbon"
          <size>0.41 0.033</size>
          <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
          <fontSize>0.025</fontSize>
-         <color>${baseColor}</color>
+         <color>${dataColor}</color>
          <zIndex>51</zIndex>
          <origin>0 0</origin>
          <singleLineScroll>true</singleLineScroll>
@@ -183,7 +183,7 @@ originally based on: "carbon"
 		 <alignment>right</alignment>
          <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
          <fontSize>0.025</fontSize>
-		 <color>${baseColor}</color>
+		 <color>00d8ff</color>
          <zIndex>51</zIndex>
          <singleLineScroll>true</singleLineScroll>
          <backgroundColor>00000000</backgroundColor>
@@ -310,7 +310,7 @@ originally based on: "carbon"
 	<text name="md_playcount, md_lastplayed, md_gametime">
 	   <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
 	   <fontSize>0.023</fontSize>
-	   <color>${baseColor}</color>
+	   <color>${dataColor}</color>
 	   <alignment>right</alignment>
 	   <size>0.115 0.03</size>
 	</text>

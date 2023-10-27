@@ -9,7 +9,7 @@
 			<path ifSubset="artworkregion:US">./../../art/controllers2/US/${system.theme}.png</path>
 			<path ifSubset="artworkregion:JP">./../../art/controllers2/JP/${system.theme}.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>14</zIndex>
+			<zIndex>18</zIndex>
 	  
 		</image>
 		  

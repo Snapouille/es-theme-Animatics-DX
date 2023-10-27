@@ -32,11 +32,11 @@
 
 			<storyboard>
 						
-				<animation property="scale" from="0.3" to="0.98" begin="800" duration="1700" mode="Linear"/>
-        		<animation property="x" from="0.2" to="0.15" begin="1000" duration="1500" mode="EaseOut"/>
-				<animation property="y" from="0.3" to="0.01" begin="1000" duration="1500" mode="EaseOut"/>
+				<animation property="scale" from="0.3" to="0.98" begin="" duration="1700" mode="Linear"/>
+        		<animation property="x" from="0.2" to="0.15" begin="200" duration="1500" mode="EaseOut"/>
+				<animation property="y" from="0.3" to="0.01" begin="200" duration="1500" mode="EaseOut"/>
 				
-				<animation property="scale" from="0.98" to="1" begin="2500" duration="4000" autoreverse="true" repeat="forever" mode="Linear"/>
+				<animation property="scale" from="0.98" to="1" begin="1700" duration="4000" autoreverse="true" repeat="forever" mode="Linear"/>
 				
         						
 			</storyboard>

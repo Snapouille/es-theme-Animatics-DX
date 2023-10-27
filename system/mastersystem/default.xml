@@ -5,6 +5,17 @@
 
 	<view name="system">
 	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.51875 0.2509259</pos>									
+			  <storyboard>
+					<animation property="x" to="0.1125" begin="" duration="5000" mode="EaseInOut"/>
+					<animation property="size" to="0.6567708 0.6564815" begin="5300" duration="500" mode="EaseOut"/>
+					<animation property="pos" to="0.2861979 0.3875" begin="5300" duration="500" mode="EaseOut"/>
+			  </storyboard>
+		</image>
+		
 		<image name="avatar" extra="static">
 			<origin>0 0</origin>
 			<pos>1 0.4</pos>
@@ -12,7 +23,7 @@
 
 			<scale>0.7</scale>
 			<rotation>0</rotation>
-			<zIndex>18</zIndex>
+			<zIndex>280</zIndex>
 			<opacity>0</opacity>
 			<path>./avatar.png</path>
 		</image>
@@ -25,7 +36,7 @@
 			<scale>0.7</scale>
 			<opacity>0</opacity>
 			<path>./avatar2.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>14</zIndex>
 		</image>
 		
 		
@@ -50,7 +61,7 @@
 			<rotation>0</rotation>
 			<opacity>0.95</opacity>
 			<path>./nuage0.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>14</zIndex>
 		</image>
 		
 		<image name="nuage1" extra="static">
@@ -62,7 +73,7 @@
 			<rotation>5</rotation>
 			<opacity>0</opacity>
 			<path>./nuage1.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>14</zIndex>
 		</image>
 		
 		<image name="nuage2" extra="static">
@@ -74,7 +85,7 @@
 			<rotation>0</rotation>
 			<opacity>0</opacity>
 			<path>./nuage2.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>14</zIndex>
 		</image>
 		
 		<image name="nuage3" extra="static">
@@ -85,7 +96,7 @@
 			<scale>0.58</scale>
 			<opacity>0</opacity>
 			<path>./nuage3.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>14</zIndex>
 		</image>
 		
 		<image name="nuage4" extra="static">
@@ -96,7 +107,7 @@
 			<rotation>0</rotation>
 			<opacity>0</opacity>
 			<path>./nuage1.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>14</zIndex>
 		</image>
 		
 		
@@ -245,7 +256,7 @@
 			<opacity>1</opacity>
 			<path>./oiseau.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>17</zIndex>
+			<zIndex>170</zIndex>
 			
 			<storyboard repeat="forever">
 	
@@ -384,7 +395,7 @@
 			<opacity>0</opacity>
 			<path>./oiseauBis.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>17</zIndex>
+			<zIndex>170</zIndex>
 			
 			<storyboard repeat="forever">
 	

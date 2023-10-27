@@ -14,7 +14,7 @@
 			<scale>0.1</scale>
 			<path>./kart.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 
 			
 			<storyboard repeat="forever">
@@ -70,7 +70,7 @@
 			<scale>0.1</scale>
 			<path>./sparkles.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 
 			<storyboard repeat="forever">
 				
@@ -114,7 +114,7 @@
 			<scale>1</scale>
 			<path>./spark.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>eb183b</color>
 
 			<storyboard repeat="forever">
@@ -136,7 +136,7 @@
 			<scale>0</scale>
 			<path>./firework.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>eb183b</color>
 
 			<storyboard repeat="forever">
@@ -161,7 +161,7 @@
 			<scale>1</scale>
 			<path>./spark.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>eb18e9</color>
 
 			<storyboard repeat="forever">
@@ -180,7 +180,7 @@
 			<scale>0</scale>
 			<path>./firework.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>eb18e9</color>
 
 			<storyboard repeat="forever">
@@ -205,7 +205,7 @@
 			<opacity>0</opacity>
 			<path>./spark.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>0ae734</color>
 
 			<storyboard repeat="forever">
@@ -225,7 +225,7 @@
 			<scale>0</scale>
 			<path>./firework.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>0ae734</color>
 
 			<storyboard repeat="forever">
@@ -286,7 +286,7 @@
 			<opacity>0</opacity>
 			<path>./spark.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>003cff</color>
 
 			<storyboard repeat="forever">
@@ -306,7 +306,7 @@
 			<scale>0</scale>
 			<path>./firework.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>003cff</color>
 
 			<storyboard repeat="forever">
@@ -331,7 +331,7 @@
 			<opacity>0</opacity>
 			<path>./spark.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>ffa800</color>
 
 			<storyboard repeat="forever">
@@ -351,7 +351,7 @@
 			<scale>0</scale>
 			<path>./firework.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>ffa800</color>
 
 			<storyboard repeat="forever">
@@ -375,7 +375,7 @@
 			<opacity>0</opacity>
 			<path>./spark.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>fcff00</color>
 
 			<storyboard repeat="forever">
@@ -395,7 +395,7 @@
 			<scale>0</scale>
 			<path>./firework.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>fcff00</color>
 
 			<storyboard repeat="forever">
@@ -419,7 +419,7 @@
 			<scale>1</scale>
 			<path>./spark.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>00fff0</color>
 
 			<storyboard repeat="forever">
@@ -438,7 +438,7 @@
 			<scale>0</scale>
 			<path>./firework.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>00fff0</color>
 
 			<storyboard repeat="forever">
@@ -460,7 +460,7 @@
 			<opacity>0</opacity>
 			<path>./spark.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>ff00de</color>
 
 			<storyboard repeat="forever">
@@ -480,7 +480,7 @@
 			<scale>0</scale>
 			<path>./firework.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 			<color>ff00de</color>
 
 			<storyboard repeat="forever">

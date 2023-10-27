@@ -15,7 +15,7 @@
 			
 			<path>./Body.png</path>
 			<opacity>0</opacity>
-			<zIndex>16</zIndex>
+			<zIndex>20</zIndex>
 					
 
 						
@@ -48,7 +48,7 @@
 			
 			<path>./Left.png</path>
 			<opacity>0</opacity>
-			<zIndex>15</zIndex>
+			<zIndex>19</zIndex>
 					
 						
 			<storyboard repeat="forever">
@@ -342,7 +342,7 @@
 			
 			<path>./Right.png</path>
 			<opacity>0</opacity>
-			<zIndex>15</zIndex>
+			<zIndex>19</zIndex>
 					
 						
 			<storyboard repeat="forever">
@@ -622,7 +622,7 @@
 			
 			<path>./Eyes.png</path>
 			<opacity>0</opacity>
-			<zIndex>16</zIndex>
+			<zIndex>21</zIndex>
 					
 						
 			<storyboard repeat="forever">
@@ -664,7 +664,7 @@
 			<scale>1</scale>
 			<path>./Eclat1.png</path>
 			<opacity>0</opacity>
-			<zIndex>17</zIndex>
+			<zIndex>22</zIndex>
 						
 				<storyboard repeat="forever">
 						
@@ -696,7 +696,7 @@
 			<scale>1</scale>
 			<path>./Eclat2.png</path>
 			<opacity>0</opacity>
-			<zIndex>18</zIndex>
+			<zIndex>23</zIndex>
 					
 				<storyboard repeat="forever">
 					
@@ -722,7 +722,7 @@
 			<scale>1</scale>
 			<path>./Eclat3.png</path>
 			<opacity>0</opacity>
-			<zIndex>19</zIndex>
+			<zIndex>24</zIndex>
 					
 				<storyboard repeat="forever">
 					
@@ -746,7 +746,7 @@
 			
 			<path>./Eclat4.png</path>
 			<opacity>0</opacity>
-			<zIndex>19</zIndex>
+			<zIndex>25</zIndex>
 					
 				<storyboard repeat="forever">
 					

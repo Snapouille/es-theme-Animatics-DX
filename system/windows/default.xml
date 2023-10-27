@@ -20,7 +20,7 @@
 			<maxSize>0.265 0.557</maxSize>
 			<linearSmooth>true</linearSmooth>
 			<path>./avatar-saw.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			<storyboard>
 				<animation property="y" from="-1" begin="0" duration="1000" mode="easyOut"/>
         		<animation property="rotation" to="360" begin="0" autoreverse="false" duration="800" repeat="forever" mode="linear"/>

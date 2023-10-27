@@ -10,6 +10,8 @@
 			<size>0.2932292 0.5138889</size>									
 			<rotation>30</rotation>
 			<scale>0.1</scale>
+			<zIndex>180</zIndex>
+
 			<linearSmooth>true</linearSmooth>					
 			<storyboard>
 				<animation property="scale" to="1.1" begin="" duration="3000" mode="EaseOutQuint"/>

@@ -60,7 +60,7 @@
 			<size>0.0416667 0.0740741</size>									
 			<pos>0.7135417 0.5</pos>									
 			<path>./../../../art/divers/triangle.png</path>
-			<color>${baseColor}</color>
+			<color>${dataColor}</color>
 			<linearSmooth>false</linearSmooth>                                                       
 			<opacity>0.77</opacity>
 			<zIndex>40</zIndex>
@@ -80,7 +80,7 @@
 	<image name="right_angle_triangle, up_right_bar, little_up_right_bar, little_up_right_bar_2, right_up_bar, right_down_bar, up_BottomFrameNEW, vertical_down, vertical_up, vertical_up2, haut, bas, jaune1, jaune2" extra="true">
 		<path>./../../../art/divers/white.png</path>
 		<color>${baseColor}</color>
-		<zIndex>13</zIndex>
+		<zIndex>17</zIndex>
 		<origin>0.5 0.5</origin>	
 	</image>
 	
@@ -172,7 +172,9 @@
 		<image name="up_BottomFrameNEW" extra="true">
 			<size>1 0.0046296</size>									
 			<pos>0.2411458 0.9375</pos>		
-
+			
+			<pos ifHelpPrompts="false">2 2</pos>
+			
 			<storyboard>
 				<animation property="offsetX" from="0" to="0.035" begin="1100" duration="650" mode="linear"/>
 				<animation property="offsetX" from="0.035" to="0.26" begin="5100" duration="900" mode="EaseIn"/>
@@ -230,7 +232,7 @@
 	
 	<image name="vertical_down_bg_black" extra="true">
 				<path>./../../../art/divers/vertical_down_bg_black.png</path>
-				<zIndex>12</zIndex>
+				<zIndex>16</zIndex>
 				<origin>0.5 0.5</origin>
 				<size>0.3677083 0.3416667</size>									
 				<pos>0.9114583 0.7643519</pos>
@@ -290,7 +292,7 @@
 	
 	<image name="vertical_up_bg_black" extra="true">
 			<path>./../../../art/divers/vertical_up_bg_black.png</path>
-			<zIndex>12</zIndex>
+			<zIndex>16</zIndex>
 			<origin>0.5 0.5</origin>
 			<size>0.38125 0.4064815</size>									
 			<pos>0.9052083 0.2032407</pos>
@@ -478,7 +480,7 @@
 	  <pos ifHelpPrompts="false">0.087 0.88</pos>
 	  <maxSize>0.09 0.1</maxSize>
       <origin>0.5 0.5</origin>
-      <zIndex>13</zIndex>
+      <zIndex>17</zIndex>
 	  <scale>0</scale>
 	  <linearSmooth>true</linearSmooth>
 	  <zIndex>150</zIndex>
@@ -526,35 +528,59 @@
 		
 		<!-- On affiche le total des jeux si l'option TOTAL a été select -->
 		<text name="systemInfo" ifSubset="InfoCustomView:total">
-			<origin>0.5 0.5</origin>
-			<size>0.09 0.04</size>
-			<pos>0.19 0.885</pos>
-			<fontSize>0.03</fontSize>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./../../../art/fonts/ubuntu.ttf</fontPath>
-			<alignment>left</alignment>
-			<color>ffffff</color>
-			<glowColor>000000</glowColor>
+			<origin>0.5 0.5</origin>									
+			<size>0.019 0.0194444</size>									
+			<pos>0.5143229 0.0263889</pos>									
+			<fontSize>0.02</fontSize>
+			<fontPath>./../../../art/fonts/dotmat.ttf</fontPath>
+			<alignment>center</alignment>
+			<color>${systemInfoColor}</color>
+			<glowColor>${baseColor}</glowColor>
 			<glowSize>1</glowSize>
-			
+			<backgroundColor>${backgroundColor}</backgroundColor>
+			<zIndex>1900</zIndex>
+			<opacity>0</opacity>
 			<visible>true</visible>
-			
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="800" duration="115" mode="linear" />
+				<animation property="w" to="0.1" begin="800" duration="1200" mode="linear"/>
+				<animation property="offsetX" to="-0.003" begin="800" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="offsetX" to="0.003"  begin="1400" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="w" to="0.019" begin="5000" duration="2000" mode="Linear" autoReverse="true"/>
+				<animation property="opacity" from="1" to="0" begin="15000" duration="1000" mode="linear" />
+				<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear" />
+			</storyboard>
 		</text>
+		<!-- Masque derrière l'affiches du nombre de jeux -->
+		<image name="masque_behind" extra="true">
+			<path>./../../../art/divers/white.png</path>
+			<color>${backgroundColor}</color>
+			<zIndex>1899</zIndex>
+			<origin>0.5 0.5</origin>									
+			<size>0.001 0.0194444</size>						
+			<pos>0.5143229 0.0263889</pos>									
+			<opacity>0</opacity>			
+			
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear" />
+				<animation property="w" to="0.1" begin="100" duration="900" mode="Linear"/>
+				<animation property="w" to="0.001" begin="16000" duration="700" mode="Linear"/>
+				<animation property="opacity" to="0" begin="16700" duration="300" mode="linear" />
+			</storyboard>
+		</image>
 		
 		
 
 	<!-- Position des infos sur les statistiques du système si ils sont affichés -->
 	  <text name="systemInfoEx" extra="true">
         <alignment>left</alignment>
-		<pos>0.07 0.43</pos>
-		<pos ifHelpPrompts="false">0.07 0.47</pos>
+		<pos>0.07 0.68</pos>
 		<zIndex>10</zIndex>
 		<storyboard>
-			
 				<animation property="zIndex" from="10" to="30" begin="900" mode="linear"/>
-				<animation property="offsetY" to="0.25" begin="300" duration="700" mode="easeInOut"/>
+				<!-- <animation property="offsetY" to="0.25" begin="300" duration="700" mode="easeInOut"/> -->
 				<animation property="offsetX" to="0.1" begin="1000" duration="500" mode="easeOutCubic"/>
-			
 		</storyboard>
 		
       </text>
@@ -567,92 +593,130 @@
 		<image name="BarAndRound" ifSubset="InfoCustomView:detailed" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.0510417 0.312963</size>									
-			<pos>0.0838542 0.5222222</pos>									
+			<pos>0.0838542 0.7722222</pos>									
 			<path>./../../../art/divers/BarAndRound.png</path>
-			<color>FFFF00</color>
-			<zIndex>11</zIndex>
+			<color>${frameColor}</color>
+			<zIndex>17</zIndex>
 			<opacity>0</opacity>
-			<pos ifHelpPrompts="false">0.0838542 0.58</pos>
+			
 			
 			<storyboard>
 				<animation property="opacity" to="1" begin="500" duration="200" mode="linear"/>
-				<animation property="offsetY" to="0.25" begin="300" duration="700" mode="easeInOut"/>
+				<!-- <animation property="h" to="" begin="300" duration="700" mode="easeInOut"/> -->
 				<animation property="offsetX" to="0.1" begin="1000" duration="500" mode="easeOutCubic"/>
 			</storyboard>
 			
 		</image>
 		
 		
-
+		<!-- //////////////////////////////////////////////////////////////// -->
 		<!-- Animation barre diagonales  cartouche du bas avec la description -->
+		<!-- //////////////////////////////////////////////////////////////// -->
 
-		<image name="diago1, diago2, diago3, diago4, diago5">
+		<!-- Avant l'affichage de la description -->
+
+		<image name="diago1, diago2, diago3, diago4, diago5, diago6, diago7, diago8, diago9, diago10">
 			<path>./../../../art/divers/diago.png</path>
 			<origin>0.5 0.5</origin>					
 			<size>0.015625 0.0259259</size>									
 			<color>FFFF00</color>
-			<zIndex>14</zIndex>
+			<zIndex>18</zIndex>
 			<opacity>0</opacity>
 		</image>
 
-	
 		<image name="diago1" ifSubset="system-description:Show" extra="true">
+			<pos>0.7786458 0.6305556</pos>									
+			<storyboard>
+				<animation property="opacity" to="1" begin="1800" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="2400" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="diago2" ifSubset="system-description:Show" extra="true">
+			<pos>0.778125 0.6537037</pos>									
+			<storyboard>
+				<animation property="opacity" to="1" begin="1900" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="2500" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="diago3" ifSubset="system-description:Show" extra="true">
+			<pos>0.778125 0.6722222</pos>									
+			<storyboard>
+				<animation property="opacity" to="1" begin="2000" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="2600" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="diago4" ifSubset="system-description:Show" extra="true">
+			<pos>0.778125 0.6925926</pos>									
+			<storyboard>
+				<animation property="opacity" to="1" begin="2100" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="2700" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="diago5" ifSubset="system-description:Show" extra="true">
+			<pos>0.778125 0.712963</pos>									
+			<storyboard>
+				<animation property="opacity" to="1" begin="2200" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="2800" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+	
+	<!-- Après l'affichage de la description -->
+	
+		<image name="diago6" ifSubset="system-description:Show" extra="true">
 			<pos>0.6489583 0.6305556</pos>									
 			
-			<storyboard>
+			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="8000" duration="100" mode="linear"/>
 				<animation property="opacity" to="0" begin="8300" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="11500" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="11800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="12700" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
 
 				<animation property="opacity" to="1" begin="14000" duration="100" mode="linear"/>
 				<animation property="opacity" to="0" begin="14500" duration="10" mode="linear"/>
-				
-				<animation property="opacity" to="1" begin="21600" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="22100" duration="10" mode="linear"/>
+
+				<animation property="opacity" to="1" begin="21100" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21600" duration="10" mode="linear"/>
 				
 				<animation property="opacity" to="1" begin="25000" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="25300" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="28200" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="28500" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="33000" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="33300" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="36200" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="36500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="26800" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="30000" duration="10" mode="linear"/>			
 			</storyboard>
 			
 		</image>
-		<image name="diago2" ifSubset="system-description:Show" extra="true">
+		
+		<image name="diago7" ifSubset="system-description:Show" extra="true">
 			<pos>0.6484375 0.6527778</pos>									
 			
-			<storyboard>
+			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="8300" duration="100" mode="linear"/>
 				<animation property="opacity" to="0" begin="8600" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="11800" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="12100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="12400" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="12700" duration="10" mode="linear"/>
 
 				<animation property="opacity" to="1" begin="14100" duration="100" mode="linear"/>
 				<animation property="opacity" to="0" begin="14600" duration="10" mode="linear"/>
 				
-				<animation property="opacity" to="1" begin="21500" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="22000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="21000" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21500" duration="10" mode="linear"/>
 				
 				<animation property="opacity" to="1" begin="25300" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="25600" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="27900" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="28200" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="33300" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="33600" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="35900" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="36200" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="27100" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="30000" duration="10" mode="linear"/>			
 			</storyboard>
 			
 		</image>
-		<image name="diago3" ifSubset="system-description:Show" extra="true">
+		
+		<image name="diago8" ifSubset="system-description:Show" extra="true">
 			<pos>0.6484375 0.6722222</pos>									
 									
 			
-			<storyboard>
+			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="8600" duration="100" mode="linear"/>
 				<animation property="opacity" to="0" begin="8900" duration="10" mode="linear"/>
 				<animation property="opacity" to="1" begin="12100" duration="100" mode="linear"/>
@@ -661,71 +725,61 @@
 				<animation property="opacity" to="1" begin="14200" duration="100" mode="linear"/>
 				<animation property="opacity" to="0" begin="14700" duration="100" mode="linear"/>
 				
-				<animation property="opacity" to="1" begin="21400" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="21900" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="20900" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21400" duration="10" mode="linear"/>
 				
 				<animation property="opacity" to="1" begin="25600" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="25900" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="27600" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="27900" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="33600" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="33900" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="35600" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="35900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="27400" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="30000" duration="10" mode="linear"/>			
 			</storyboard>
 			
 		</image>
-		<image name="diago4" ifSubset="system-description:Show" extra="true">
+		
+		<image name="diago9" ifSubset="system-description:Show" extra="true">
 			<pos>0.6484375 0.6916667</pos>									
 									
 			
-			<storyboard>
+			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="8900" duration="100" mode="linear"/>
 				<animation property="opacity" to="0" begin="9200" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="12400" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="12700" duration="10" mode="linear"/>
-
+				<animation property="opacity" to="1" begin="11800" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="12100" duration="10" mode="linear"/>
+				
 				<animation property="opacity" to="1" begin="14300" duration="100" mode="linear"/>
 				<animation property="opacity" to="0" begin="14800" duration="10" mode="linear"/>
 				
-				<animation property="opacity" to="1" begin="21300" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="21800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="20800" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21300" duration="10" mode="linear"/>
 				
 				<animation property="opacity" to="1" begin="25900" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="26200" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="27300" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="27600" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="33900" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="34200" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="35300" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="35600" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="27700" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="30000" duration="10" mode="linear"/>			
 			</storyboard>
 			
 		</image>
-		<image name="diago5" ifSubset="system-description:Show" extra="true">
+		
+		<image name="diago10" ifSubset="system-description:Show" extra="true">
 			<pos>0.6484375 0.712963</pos>									
 									
 			
-			<storyboard>
+			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="9200" duration="100" mode="linear"/>
 				<animation property="opacity" to="0" begin="9500" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="12700" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
-
+				<animation property="opacity" to="1" begin="11500" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="11800" duration="10" mode="linear"/>
+				
 				<animation property="opacity" to="1" begin="14400" duration="100" mode="linear"/>
 				<animation property="opacity" to="0" begin="14900" duration="10" mode="linear"/>
 				
-				<animation property="opacity" to="1" begin="21200" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="21700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="20700" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21200" duration="10" mode="linear"/>
 				
 				<animation property="opacity" to="1" begin="26200" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="26500" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="27000" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="27300" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="34200" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="34500" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="35000" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="35300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="28000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="30000" duration="10" mode="linear"/>			
 			</storyboard>
 			
 		</image>

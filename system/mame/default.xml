@@ -1,4 +1,4 @@
-<!-- MAME FBA NEO ? -->
+<!-- MAME -->
 
 <theme>
 	<formatVersion>7</formatVersion>
@@ -112,7 +112,7 @@
 
 			<scale>0.1</scale>
 			<rotation>0</rotation>
-			<zIndex>18</zIndex>
+			<zIndex>21</zIndex>
 			<opacity>0</opacity>
 			<path>./avatar.png</path>
 		</image>
@@ -126,7 +126,7 @@
 			<scale>1</scale>
 			<path>./grossebulle.png</path>
 			<opacity>1</opacity>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 		</image>
 		
 		<image name="monster" extra="static">
@@ -136,7 +136,7 @@
 
 			<scale>0.65</scale>
 			<path>./monster.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 		
 		<image name="monster2" extra="static">

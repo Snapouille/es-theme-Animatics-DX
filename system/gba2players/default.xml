@@ -5,11 +5,51 @@
 
 	<view name="system">
 	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<scale>1</scale>
+			<color>202020</color>
+			  <storyboard>
+					<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+		
+		<image name="bg-form1" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.1203125 0.0935185</size>									
+			<pos>0.3742188 0.0939815</pos>									
+			<path>./bg-form1.png</path>
+			<color>202020</color>
+			<zIndex>20</zIndex>
+			<opacity>1</opacity>
+
+			<storyboard>
+        		<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
+			</storyboard>
+		</image>
+	
+		<image name="bg-form2" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0489583 0.1564815</size>									
+			<pos>0.609375 0.3726852</pos>									
+			<path>./bg-form2.png</path>
+			<color>202020</color>
+			<zIndex>20</zIndex>
+			<opacity>1</opacity>
+
+			<storyboard>
+        		<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
+			</storyboard>
+		</image>
+		
+	
+	
 		<image name="amitie1, amitie2, amitie3, amitie4, amitie5, amitie6, amitie7, amitie8, amitie9, chute, shhh, puyo1, puyo2, puyo3, puyo4, rewind, rapture" extra="static">
 			<origin>0 0</origin>
 			<pos>0.43 0.21</pos>
 			<size>0.2307292 0.5555556</size>									
-			<zIndex>19</zIndex>
+			<zIndex>21</zIndex>
 			<opacity>0</opacity>
 			<linearSmooth>true</linearSmooth>
 		</image>

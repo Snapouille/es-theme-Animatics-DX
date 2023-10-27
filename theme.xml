@@ -79,6 +79,11 @@ originally based on: "carbon"
 	<smallboxesview>Boxes - Small Size</smallboxesview>
 	<user.help>Help for custom logo and nickname</user.help>
 	
+	<subset.frameColor>Frame Color</subset.frameColor>	
+	<subset.infoColor>Text and Data Color</subset.infoColor>	
+	
+	<mistyrose>Misty Rose</mistyrose>
+	
   </variables>
   
   
@@ -112,15 +117,124 @@ originally based on: "carbon"
  <subset name="colorset" displayName="${subset.colorset}">
     <include name="cyan"  displayName="${cyan}">./config/colorset/cyan.xml</include>
     <include name="blue" displayName="${blue}">./config/colorset/blue.xml</include>
-    <include name="orange"  displayName="${orange}">./config/colorset/orange.xml</include>
-    <include name="yellow" displayName="${yellow}">./config/colorset/yellow.xml</include>
-    <include name="red" displayName="${red}">./config/colorset/red.xml</include>
-    <include name="green" displayName="${green}">./config/colorset/green.xml</include>
-    <include name="purple"  displayName="${purple}">./config/colorset/purple.xml</include>
     <include name="gray" displayName="${gray}">./config/colorset/gray.xml</include>
+    <include name="green" displayName="${green}">./config/colorset/green.xml</include>
+	<include name="orange"  displayName="${orange}">./config/colorset/orange.xml</include>
+    <include name="purple"  displayName="${purple}">./config/colorset/purple.xml</include>
+    <include name="red" displayName="${red}">./config/colorset/red.xml</include>
+    <include name="yellow" displayName="${yellow}">./config/colorset/yellow.xml</include>
  </subset>
-  
-  
+
+
+<subset name="frame_color" displayName="${subset.frameColor}">
+	<include name="auto"  displayName="${auto_frame_color}"/>
+	<include name="Dimgrey"  displayName="${dimgrey}"/>
+	<include name="Silver"  displayName="${silver}"/>
+	<include name="Ivory"  displayName="${ivory}"/>
+	<include name="Lavenderblush" displayName="${lavenderblush}"/>
+	<include name="Mistyrose" displayName="${mistyrose}"/>
+	<include name="Lightpink" displayName="${lightpink}"/>
+	<include name="Deeppink" displayName="${deeppink}"/>
+	<include name="Palevioletred" displayName="${palevioletred}"/>
+	<include name="Plum" displayName="${plum}"/>
+	<include name="Orchid" displayName="${orchid}"/>
+	<include name="Darkorchid" displayName="${darkorchid}"/>
+	<include name="Slateblue" displayName="${slateblue}"/>
+	<include name="Mediumpurple" displayName="${mediumpurple}"/>
+	<include name="Rosybrown" displayName="${rosybrown}"/>
+	<include name="Lightcoral" displayName="${lightcoral}"/>
+	<include name="Tomato" displayName="${tomato}"/>
+	<include name="Orangered" displayName="${orangered}"/>
+	<include name="Crimson" displayName="${crimson}"/>
+	<include name="Lightsalmon" displayName="${lightsalmon}"/>
+	<include name="Darksalmon" displayName="${darksalmon}"/>
+	<include name="Indianred" displayName="${indianred}"/>
+	<include name="Firebrick" displayName="${firebrick}"/>
+	<include name="Maroon" displayName="${maroon}"/>
+	<include name="Papayawhip" displayName="${papayawhip}"/>
+	<include name="Peachpuff" displayName="${peachpuff}"/>
+	<include name="Tan" displayName="${tan}"/>
+	<include name="Sandybrown" displayName="${sandybrown}"/>
+	<include name="Darkorange" displayName="${darkorange}"/>
+	<include name="Chocolate" displayName="${chocolate}"/>
+	<include name="Peru" displayName="${peru}"/>
+	<include name="Sunny" displayName="${sunny}"/>
+	<include name="Yellowgreen" displayName="${yellowgreen}"/>
+	<include name="Chartreuse" displayName="${chartreuse}"/>
+	<include name="Lime" displayName="${lime}"/>
+	<include name="Springgreen" displayName="${springgreen}"/>
+	<include name="Darkseagreen" displayName="${darkseagreen}"/>
+	<include name="Lightcyan" displayName="${lightcyan}"/>
+	<include name="Paleturquoise" displayName="${paleturquoise}"/>
+	<include name="Aquamarine" displayName="${aquamarine}"/>
+	<include name="Aqua" displayName="${aqua}"/>
+	<include name="Turquoise" displayName="${turquoise}"/>
+	<include name="Teal" displayName="${teal}"/>
+	<include name="Cadetblue" displayName="${cadetblue}"/>
+	<include name="Lightskyblue" displayName="${lightskyblue}"/>
+	<include name="Skyblue" displayName="${skyblue}"/>
+	<include name="Deepskyblue" displayName="${deepskyblue}"/>
+	<include name="Cornflowerblue" displayName="${cornflowerblue}"/>
+	<include name="Steelblue" displayName="${steelblue}"/>
+	<include name="Royalblue" displayName="${royalblue}"/>
+	<include name="Midnightblue" displayName="${midnightblue}"/>
+</subset>
+
+
+<subset name="info_color" displayName="${subset.infoColor}">
+	<include name="auto"  displayName="${auto_info_color}"/>
+	<include name="Dimgrey"  displayName="${dimgrey}"/>
+	<include name="Silver"  displayName="${silver}"/>
+	<include name="Ivory"  displayName="${ivory}"/>
+	<include name="Lavenderblush" displayName="${lavenderblush}"/>
+	<include name="Mistyrose" displayName="${mistyrose}"/>
+	<include name="Lightpink" displayName="${lightpink}"/>
+	<include name="Deeppink" displayName="${deeppink}"/>
+	<include name="Palevioletred" displayName="${palevioletred}"/>
+	<include name="Plum" displayName="${plum}"/>
+	<include name="Orchid" displayName="${orchid}"/>
+	<include name="Darkorchid" displayName="${darkorchid}"/>
+	<include name="Slateblue" displayName="${slateblue}"/>
+	<include name="Mediumpurple" displayName="${mediumpurple}"/>
+	<include name="Rosybrown" displayName="${rosybrown}"/>
+	<include name="Lightcoral" displayName="${lightcoral}"/>
+	<include name="Tomato" displayName="${tomato}"/>
+	<include name="Orangered" displayName="${orangered}"/>
+	<include name="Crimson" displayName="${crimson}"/>
+	<include name="Lightsalmon" displayName="${lightsalmon}"/>
+	<include name="Darksalmon" displayName="${darksalmon}"/>
+	<include name="Indianred" displayName="${indianred}"/>
+	<include name="Firebrick" displayName="${firebrick}"/>
+	<include name="Maroon" displayName="${maroon}"/>
+	<include name="Papayawhip" displayName="${papayawhip}"/>
+	<include name="Peachpuff" displayName="${peachpuff}"/>
+	<include name="Tan" displayName="${tan}"/>
+	<include name="Sandybrown" displayName="${sandybrown}"/>
+	<include name="Darkorange" displayName="${darkorange}"/>
+	<include name="Chocolate" displayName="${chocolate}"/>
+	<include name="Peru" displayName="${peru}"/>
+	<include name="Sunny" displayName="${sunny}"/>
+	<include name="Yellowgreen" displayName="${yellowgreen}"/>
+	<include name="Chartreuse" displayName="${chartreuse}"/>
+	<include name="Lime" displayName="${lime}"/>
+	<include name="Springgreen" displayName="${springgreen}"/>
+	<include name="Darkseagreen" displayName="${darkseagreen}"/>
+	<include name="Lightcyan" displayName="${lightcyan}"/>
+	<include name="Paleturquoise" displayName="${paleturquoise}"/>
+	<include name="Aquamarine" displayName="${aquamarine}"/>
+	<include name="Aqua" displayName="${aqua}"/>
+	<include name="Turquoise" displayName="${turquoise}"/>
+	<include name="Teal" displayName="${teal}"/>
+	<include name="Cadetblue" displayName="${cadetblue}"/>
+	<include name="Lightskyblue" displayName="${lightskyblue}"/>
+	<include name="Skyblue" displayName="${skyblue}"/>
+	<include name="Deepskyblue" displayName="${deepskyblue}"/>
+	<include name="Cornflowerblue" displayName="${cornflowerblue}"/>
+	<include name="Steelblue" displayName="${steelblue}"/>
+	<include name="Royalblue" displayName="${royalblue}"/>
+	<include name="Midnightblue" displayName="${midnightblue}"/>
+</subset>
+
   
 <!-- Affichage des logos couleur/n&b -->
 <subset name="logostyle" displayName="${subset.logostyle}">
@@ -198,6 +312,27 @@ originally based on: "carbon"
 	<include name="retropie" displayName="Retropie" />
 	<include name="animatics-dx" displayName="Animatics-DX" />
 </subset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Aide qu'on peut afficher sur l'utilisation et la save des nickname et logo -->
 <subset name="customHelp" tinyScreen="false" displayName="${user.help}">
@@ -332,6 +467,7 @@ originally based on: "carbon"
 <include>./config/system/system.xml</include>
 <include>./config/system/user.xml</include>
 <include>./config/gamelist/gameinfobar.xml</include>
+<include>./config/colorset/color-options.xml</include>
 
 <include>./system/infos/${system.theme}.xml</include>
   

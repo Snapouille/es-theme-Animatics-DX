@@ -14,7 +14,7 @@
 			<rotation>15</rotation>
 			<opacity>0</opacity>
 			<path>./avatar-ship.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>25</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -54,7 +54,7 @@
 			<rotation>15</rotation>
 			<opacity>0</opacity>
 			<path>./avatar-propulsion.png</path>
-			<zIndex>18</zIndex>
+			<zIndex>26</zIndex>
 		
 		
 			<storyboard repeat="forever">
@@ -94,7 +94,7 @@
 			<rotation>15</rotation>
 			<opacity>1</opacity>
 			<path>./asteroides_0.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>20</zIndex>
 			
 			<storyboard repeat="forever">
 					<animation property="x" to="0" begin="" autoreverse="true" duration="15000" mode="linear"/>
@@ -110,7 +110,7 @@
 			<rotation>5</rotation>
 			<opacity>1</opacity>
 			<path>./asteroides_1.png</path>
-			<zIndex>15</zIndex>
+			<zIndex>19</zIndex>
 			
 			<storyboard repeat="forever">
 					<animation property="x" to="-0.2" begin="" autoreverse="true" duration="30000" mode="linear"/>
@@ -126,7 +126,7 @@
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<path>./asteroides_2.png</path>
-			<zIndex>15</zIndex>
+			<zIndex>19</zIndex>
 			
 			<storyboard repeat="forever">
 					<animation property="x" to="0.1" begin="" autoreverse="true" duration="25000" mode="linear"/>

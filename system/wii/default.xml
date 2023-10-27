@@ -14,7 +14,7 @@
 			<path>./JackCayman0.png</path>
 			<opacity>1</opacity>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 	
 		<image name="JackCayman1" extra="static">
@@ -25,7 +25,7 @@
 			<path>./JackCayman1.png</path>
 			<opacity>0</opacity>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>19</zIndex>
+			<zIndex>21</zIndex>
 		</image>
 		
 		<image name="JackCayman2" extra="static">	
@@ -36,7 +36,7 @@
 			<path>./JackCayman2.png</path>
 			<opacity>0</opacity>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>18</zIndex>
+			<zIndex>20</zIndex>
 		</image>
 	
 		<image name="Blood1" extra="static">	
@@ -67,7 +67,7 @@
 			<path>./blood3.png</path>
 			<opacity>0</opacity>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>18</zIndex>
+			<zIndex>20</zIndex>
 		</image>
 	
 		<image name="BloodFinal2" extra="static">	
@@ -78,7 +78,7 @@
 			<path>./blood3.png</path>
 			<opacity>0</opacity>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>18</zIndex>
+			<zIndex>20</zIndex>
 		</image>
 	
 		<image name="BloodFinal3" extra="static">	
@@ -89,7 +89,7 @@
 			<path>./blood3.png</path>
 			<opacity>0</opacity>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 	
 	

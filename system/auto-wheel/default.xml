@@ -1,0 +1,17 @@
+<!-- auto-wheel -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.4651042 0.4611111</size>									
+			<pos>0.4153646 0.5</pos>									
+								
+
+		</image>
+		
+	</view>
+</theme>

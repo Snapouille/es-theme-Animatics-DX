@@ -14,7 +14,7 @@
 			<rotation>-30</rotation>
 			<path>./avatar-pod.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>12</zIndex>
+			<zIndex>19</zIndex>
 		
 				<storyboard repeat="forever">
 						<animation property="x" to="0.15" begin="800" duration="2200" mode="bump"/>
@@ -47,7 +47,7 @@
 			<opacity>0</opacity>
 			<path>./avatar-podlight.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>12</zIndex>
+			<zIndex>19</zIndex>
 		
 				<storyboard repeat="forever">
 						
@@ -84,7 +84,7 @@
 			<opacity>1</opacity>
 			<path>./avatar-podlight2.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>12</zIndex>
+			<zIndex>19</zIndex>
 		
 				<storyboard repeat="forever">
 						

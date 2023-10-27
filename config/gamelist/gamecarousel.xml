@@ -38,7 +38,7 @@ originally based on: "carbon"
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
 		<forceUppercase>1</forceUppercase>
-		<color>${baseColor}</color>
+		<color>${systemInfoColor}</color>
 		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
 		<fontSize>0.023</fontSize>
 		<zIndex>13</zIndex>
@@ -257,7 +257,7 @@ originally based on: "carbon"
 	  <path>./../../art/divers/triangle-snap.svg</path>
       <linearSmooth>true</linearSmooth>
 	  <zIndex>41</zIndex>
-	  <color>${baseColor}</color>
+	  <color>${dataColor}</color>
 	  <pos>0.935 0.36</pos>
 	  <rotation>0</rotation>
       <storyboard repeatAt="1">
@@ -274,7 +274,7 @@ originally based on: "carbon"
 	  <path>./../../art/divers/triangle-snap.svg</path>
       <linearSmooth>true</linearSmooth>
 	  <zIndex>41</zIndex>
-	  <color>${baseColor}</color>
+	  <color>${dataColor}</color>
 	  <pos>0.935 0.646</pos>
 		<rotation>-180</rotation>
 		<storyboard repeatAt="1">
@@ -304,9 +304,6 @@ originally based on: "carbon"
 	  <pos>0.935 0.628</pos>
 	  <size>0.03 0.006</size>
 	</image>
-	
-	
-	
 	
 	
 	
@@ -576,7 +573,7 @@ originally based on: "carbon"
 	<text name="md_playcount, md_lastplayed, md_gametime">
 	   <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
 	   <fontSize>0.023</fontSize>
-	   <color>${baseColor}</color>
+	   <color>${dataColor}</color>
 	   <alignment>right</alignment>
 	   <size>0.115 0.03</size>
 	</text>

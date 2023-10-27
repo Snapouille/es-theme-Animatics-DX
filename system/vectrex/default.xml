@@ -13,7 +13,7 @@
 			<scale>0.7</scale>
 			<path>./avatar1.png</path>
 			<opacity>0</opacity>
-			<zIndex>17</zIndex>
+			<zIndex>120</zIndex>
 		</image>	
 
 	
@@ -24,7 +24,7 @@
 			<scale>0.7</scale>
 			<path>./avatar2.png</path>
 			<opacity>0</opacity>
-			<zIndex>16</zIndex>
+			<zIndex>119</zIndex>
 		</image>	
 	
 	
@@ -35,7 +35,7 @@
 			<scale>0.3</scale>
 			<path>./avatar3.png</path>
 			<opacity>1</opacity>
-			<zIndex>17</zIndex>
+			<zIndex>120</zIndex>
 	</image>
 	
 	<image name="avatar4" extra="static">
@@ -45,7 +45,7 @@
 			<scale>0.35</scale>
 			<path>./avatar.png</path>
 			<opacity>1</opacity>
-			<zIndex>17</zIndex>
+			<zIndex>120</zIndex>
 	</image>
 	
 	

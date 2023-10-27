@@ -178,7 +178,7 @@
 			<pos>0.18 -1</pos>
 			<scale>0.4</scale>
 			<rotation>-23</rotation>
-			<zIndex>17</zIndex>
+			<zIndex>25</zIndex>
 			<linearSmooth>true</linearSmooth>
 	</image>
 	
@@ -478,7 +478,7 @@
 		<origin>0 0</origin>									
 		<size>0.0916667 0.1768519</size>									
 		<pos>0.048 0.495</pos>
-		<zIndex>18</zIndex>
+		<zIndex>35</zIndex>
 	</image>
 	
 	<image name="WBboy0" extra="static">

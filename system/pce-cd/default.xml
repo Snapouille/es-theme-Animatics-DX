@@ -9,10 +9,10 @@
 		
 		<image name="avatar-sleepZsmall" extra="static">
 			<origin>0 0</origin>									
-<size>0.0541667 0.0972222</size>									
+			<size>0.0541667 0.0972222</size>									
 			<pos>0.34 0.5</pos>
 			<scale>0.85</scale>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			<opacity>0</opacity>
 			<path>./avatar-sleepZsmall.png</path>
 			<linearSmooth>true</linearSmooth>
@@ -44,7 +44,7 @@
 			<size>0.0859375 0.1574074</size>									
 			<pos>0.28 0.39</pos>
 			<scale>0.85</scale>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			<opacity>0</opacity>
 			<path>./avatar-sleepZbig.png</path>
 
@@ -75,7 +75,7 @@
 			<size>0.4583333 0.6185185</size>									
 			<pos>0.29 0.35</pos>
 			<scale>0.85</scale>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			<opacity>1</opacity>
 			<path>./avatar-sleep.png</path>
 
@@ -97,7 +97,7 @@
 			<size>0.4583333 0.6185185</size>	
 			<pos>0.21 0.27</pos>
 			<scale>1</scale>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			<opacity>0</opacity>
 			<path>./avatar-debout1.png</path>
 
@@ -179,7 +179,7 @@
 			<size>0.4583333 0.6185185</size>	
 			<pos>0.21 0.27</pos>
 			<scale>1</scale>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			<opacity>0</opacity>
 			<path>./avatar-debout3.png</path>
 
@@ -201,7 +201,7 @@
 			<size>0.4583333 0.6185185</size>	
 			<pos>0.21 0.27</pos>
 			<scale>1</scale>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			<opacity>0</opacity>
 			<path>./avatar-debout4.png</path>
 
@@ -227,7 +227,7 @@
 			<size>0.4583333 0.6185185</size>	
 			<pos>0.21 0.27</pos>
 			<scale>1</scale>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			<opacity>0</opacity>
 			<path>./avatar-debout5.png</path>
 

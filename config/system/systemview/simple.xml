@@ -23,8 +23,8 @@
     <carousel name="systemcarousel">
 		<maxLogoCount>1</maxLogoCount>
 		<type>horizontal</type>
-		<!-- <defaultTransition>slide</defaultTransition> -->
-		<pos>0.69 -0.237</pos>
+		<defaultTransition>fade &amp; slide</defaultTransition> <!-- slide / fade / instant -->
+		<pos>0.68 -0.237</pos>
 		<size>0.34 1.435</size>
 		<color>00000000</color>
 		<colorEnd>00000000</colorEnd>
@@ -39,7 +39,7 @@
 		  <linearSmooth>true</linearSmooth>
 		  <pos>0.86 0.48</pos>
 		  <origin>0.5 0.5</origin>
-		  <maxSize>0.20 0.84</maxSize>
+		  <maxSize>0.20 0.24</maxSize>
 		  <path>./../../../art/logos/default.png</path>
 		  <path>./../../../art/logos/${system.theme}.png</path>
 		  <path>./../../../art/logos/${system.theme}.svg</path>
@@ -52,7 +52,7 @@
 		  <path ifSubset="artworkregion:JP">./../../../art/logos/JP/${system.theme}.png</path>
 		  <path ifSubset="artworkregion:JP">./../../../art/logos/JP/${system.theme}.svg</path>
 		  <opacity>0</opacity>
-		  <zIndex>20</zIndex>
+		  <zIndex>21</zIndex>
 		  <storyboard>
 			  <animation property="opacity" from="0.55" to="0" begin="295" duration="1000" mode="EaseOut"/>
 			  <animation property="scale" from="1.05" to="1.2" begin="295" duration="1000" mode="EaseOut"/>
@@ -61,35 +61,17 @@
 		</image>
 	
 		
-		<image name="CenterFade" extra="true">
-		  <tile>false</tile>
-		  <pos>0.5 0</pos>
-		  <size>1 0.2</size>
-		  <origin>0.5 0.5</origin>
-		  <path>./../../../art/divers/centerfade.png</path>
-		  <color>${centerFadeColor}</color>
-		  <visible>true</visible>
-		</image>
-		<image name="CenterFade2" extra="true">
-		  <tile>false</tile>
-		  <pos>0.5 1</pos>
-		  <size>1 0.25</size>
-		  <origin>0.5 0.5</origin>
-		  <path>./../../../art/divers/centerfade.png</path>
-		  <color>${centerFadeColor}</color>
-		  <visible>true</visible>
-		</image>
 	
 		
 	<!-- Position du cadre du système selectionner  -->
    <image name="darkwheel" extra="static" tinyScreen="false">
       <tile>false</tile>
-      <pos>0.86 0.525</pos>
-      <size>0.26 0.28</size>
+      <pos>0.85 0.525</pos>
+      <size>0.30 0.28</size>
       <origin>0.5 0.5</origin>
       <path>./../../../art/divers/darkwheel2.png</path>
 	  <color>${baseColor}</color>
-      <zIndex>12</zIndex>
+      <zIndex>20</zIndex>
       <visible verticalScreen="true">false</visible>
     </image>
 	
@@ -97,7 +79,7 @@
 	
 	<image name="Consoles" extra="static" tinyScreen="false">
       <tile>false</tile>
-      <pos>0.791 0.602</pos>
+      <pos>0.77 0.602</pos>
 	  <maxSize>0.099 0.075</maxSize>
       <origin>0.5 0.5</origin>
 	  <path>./../../../art/consoles/${system.theme}.png</path>
@@ -106,12 +88,12 @@
 	  
 	  <storyboard repeatAt="1">
 			<animation property="opacity" from="1" to="1" begin="350" duration="" mode="Linear"/>
-            <animation property="offsetY" from="0" to="-0.06" begin="620" duration="350" mode="EaseOutCubic" autoReverse="true"/>
-            <animation property="offsetY" from="0" to="-0.038" begin="1320" duration="250" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="-0.024" begin="1820" duration="140" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="-0.009" begin="2100" duration="60" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="-0.0025" begin="2220" duration="20" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="0" begin="2260" duration="2500" mode="Linear" autoReverse="true"/>
+            <animation property="offsetX" from="0" to="0.06" begin="620" duration="350" mode="EaseOutCubic" autoReverse="true"/>
+            <animation property="offsetX" from="0" to="0.038" begin="1320" duration="250" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetX" from="0" to="0.024" begin="1820" duration="140" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetX" from="0" to="0.009" begin="2100" duration="60" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetX" from="0" to="0.0025" begin="2220" duration="20" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetX" from="0" to="0" begin="2260" duration="2500" mode="Linear" autoReverse="true"/>
 	  </storyboard>	
 	  
     </image>
@@ -123,7 +105,7 @@
 	  <path>./../../../art/divers/chevron-snap.svg</path>
       <linearSmooth>true</linearSmooth>
 	  <zIndex>41</zIndex>
-	  <pos>0.972 0.481</pos>
+	  <pos>0.974 0.481</pos>
 		<rotation>90</rotation>
 		<storyboard repeat="forever">
             <animation property="offsetX" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
@@ -137,7 +119,7 @@
 	  <path>./../../../art/divers/chevron-snap.svg</path>
       <linearSmooth>true</linearSmooth>
 	  <zIndex>41</zIndex>
-	  <pos>0.749 0.481</pos>
+	  <pos>0.727 0.481</pos>
 	  <rotation>-90</rotation>
       <storyboard repeatAt="1">
             <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
@@ -151,8 +133,8 @@
 	<image name="cadre_haut, cadre_bas, vertical1, vertical2">
 		<path>./../../../art/divers/white.png</path>
 		<color>${baseColor}</color>
-		<origin>0 0</origin>
-		<zIndex>13</zIndex>
+		<origin>0.5 0.5</origin>									
+		<zIndex>20</zIndex>
 		<opacity>0</opacity>
 		
 	</image>
@@ -160,10 +142,10 @@
 	
 	<image name="cadre_haut" extra="true">
 		<size>0 0.0055556</size>									
-		<pos>0.7364583 0.4</pos>									
+		<pos>0.85 0.4027778</pos>									
 	  
 		<storyboard>
-			<animation property="size" to="0.2479167 0.0055556" begin="1650" duration="1000" mode="linear"/>
+			<animation property="w" to="0.2822917" begin="1650" duration="1000" mode="linear"/>
 			<animation property="opacity" to="1" begin="1650" duration="1" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="6200" duration="400" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="17400" duration="400" autoreverse="true" mode="linear"/>
@@ -174,10 +156,10 @@
 	
 	<image name="cadre_bas" extra="true">
 		<size>0 0.0055556</size>									
-		<pos>0.7364583 0.6444444</pos>									
+		<pos>0.85 0.6472222</pos>									
 	  
 		<storyboard>
-			<animation property="size" to="0.2479167 0.0055556" begin="1650" duration="350" mode="linear"/>
+			<animation property="w" to="0.2822917" begin="1650" duration="350" mode="linear"/>
 			<animation property="opacity" to="1" begin="1650" duration="1" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="6200" duration="400" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="17400" duration="400" autoreverse="true" mode="linear"/>
@@ -188,12 +170,12 @@
 	
 	
 	<image name="vertical1" extra="true">
-		<size>0.0036458 0</size>									
-		<pos>0.9807292 0.4</pos>									
+		<size>0.003125 0</size>									
+		<pos>0.7104167 0.525</pos>									
 	  
 		<storyboard>
 			<animation property="opacity" to="1" begin="1650" duration="1" mode="linear"/>
-			<animation property="size" to="0.0036458 0.25" begin="1650" duration="350" mode="linear"/>
+			<animation property="h" to="0.2388889" begin="1650" duration="350" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="6200" duration="400" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="17400" duration="400" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="28600" duration="400" autoreverse="true" mode="linear"/>
@@ -202,12 +184,12 @@
 	</image>
 	
 	<image name="vertical2" extra="true">
-		<size>0.0036458 0</size>									
-		<pos>0.7364583 0.4</pos>									
+		<size>0.003125 0</size>									
+		<pos>0.9895833 0.525</pos>									
 	  
 		<storyboard>
 			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
-			<animation property="size" to="0.0036458 0.25" begin="2000" duration="350" mode="linear"/>
+			<animation property="h" to="0.2388889" begin="2000" duration="350" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="6200" duration="400" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="17400" duration="400" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="28600" duration="400" autoreverse="true" mode="linear"/>
@@ -219,57 +201,77 @@
 	<image name="ca-tourne" extra="true">
 			<path>./../../../art/divers/white.png</path>
 			<color>FFFF00</color>
-			<zIndex>14</zIndex>
-			<origin>0 0</origin>									
-			<size>0.0036458 0.0055556</size>									
-			<pos>0.9807292 0.4</pos>									
+			<zIndex>21</zIndex>
+			<origin>0.5 0.5</origin>									
+			<size>0.003125 0.0055556</size>									
+			<pos>0.9895833 0.4027778</pos>									
 			<opacity>0</opacity>			
-			
-			
-
 			
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="3000" duration="1" mode="linear"/>
-				<animation property="pos" to="0.7364583 0.4" begin="3000" duration="1200" mode="linear"/>
-				<animation property="pos" to="0.7364583 0.6444444" begin="4200" duration="400" mode="linear"/>
-				<animation property="pos" to="0.9807292 0.6444444" begin="4600" duration="1200" mode="linear"/>
-				<animation property="pos" to="0.9807292 0.4" begin="5800" duration="400" mode="linear"/>
-				<animation property="opacity" to="0" begin="6200" duration="1" mode="linear"/>
+				<animation property="x" to="0.7104167" begin="3000" duration="1000" mode="easeIn"/>
+				<animation property="y" to="0.6472222" begin="4000" duration="400" mode="linear"/>
+				<animation property="x" to="0.9895833" begin="4400" duration="1000" mode="easeOut"/>
+				<animation property="y" to="0.4027778" begin="5400" duration="400" mode="linear"/>
+				<animation property="opacity" to="0" begin="5800" duration="1" mode="linear"/>
 				
 				<animation property="opacity" from="0" to="0" begin="6201" duration="5000" mode="linear"/>
 			</storyboard>
 			
 	</image>
 	
-	
+
 	
 	
 	
 	<!-- TEXT totaux des jeux -->
-		 
+	
 		<!-- On affiche le total des jeux si l'option TOTAL a été select -->
 		<text name="systemInfo" ifSubset="InfoCustomView:total">
-			<visible>false</visible>
-			<origin>0 0</origin>
-			<size>0.09 0.04</size>
-			<pos>0.87 0.76</pos>
-			<fontSize>0.023</fontSize>
-			<fontPath>./../../../art/fonts/ubuntu.ttf</fontPath>
+			<origin>0.5 0.5</origin>									
+			<size>0.019 0.0194444</size>									
+			<pos>0.5143229 0.0263889</pos>									
+			<fontSize>0.02</fontSize>
+			<fontPath>./../../../art/fonts/dotmat.ttf</fontPath>
 			<alignment>center</alignment>
 			<color>${systemInfoColor}</color>
-			<backgroundColor>737373</backgroundColor>
-			<backgroundColor>${baseColor}</backgroundColor>
-			<visible>true</visible>			
-			<zIndex>13</zIndex>
-			<opacity>1</opacity>
-			
-			<storyboard>
-				<animation property="opacity" from="0" to="1" begin="200" duration="115" mode="linear" />
-				<animation property="offsetX" from="0" to="-0.01" begin="2000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-				<animation property="offsetX" from="0" to="-0.01" begin="18000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<glowColor>${baseColor}</glowColor>
+			<glowSize>1</glowSize>
+			<backgroundColor>${backgroundColor}</backgroundColor>
+			<zIndex>1900</zIndex>
+			<opacity>0</opacity>
+			<visible>true</visible>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="800" duration="115" mode="linear" />
+				<animation property="w" to="0.1" begin="800" duration="1200" mode="linear"/>
+				<animation property="offsetX" to="-0.003" begin="800" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="offsetX" to="0.003"  begin="1400" duration="300" autoreverse="true" mode="linear"/>
+				<animation property="w" to="0.019" begin="5000" duration="2000" mode="Linear" autoReverse="true"/>
+				<animation property="opacity" from="1" to="0" begin="15000" duration="1000" mode="linear" />
+				<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear" />
 			</storyboard>
-			
 		</text>
+		<!-- Masque derrière l'affiches du nombre de jeux -->
+		<image name="masque_behind" extra="true">
+			<path>./../../../art/divers/white.png</path>
+			<color>${backgroundColor}</color>
+			<zIndex>1899</zIndex>
+			<origin>0.5 0.5</origin>									
+			<size>0.001 0.0194444</size>						
+			<pos>0.5143229 0.0263889</pos>									
+			<opacity>0</opacity>			
+			
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear" />
+				<animation property="w" to="0.1" begin="100" duration="900" mode="Linear"/>
+				<animation property="w" to="0.001" begin="16000" duration="700" mode="Linear"/>
+				<animation property="opacity" to="0" begin="16700" duration="300" mode="linear" />
+			</storyboard>
+		</image>
+		
+		
+		
 	  
 	  <!-- On affiche RIEN si l'option NONE a été select -->
 		<text name="systemInfo" ifSubset="InfoCustomView:nothing">

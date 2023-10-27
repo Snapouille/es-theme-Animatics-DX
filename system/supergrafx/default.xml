@@ -11,7 +11,7 @@
 			<pos>0.27 0.54</pos>	
 			<scale>0.6</scale>
 			
-			<zIndex>16</zIndex>	
+			<zIndex>19</zIndex>	
 								
 			<storyboard>
 				
@@ -34,7 +34,7 @@
 			<pos>0.5 0.4</pos>
 			<opacity>1</opacity>
 			<path>./rain.png</path>
-			<zIndex>11</zIndex>
+			<zIndex>120</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -53,7 +53,7 @@
 			<pos>0.4 0.5</pos>
 			<opacity>0</opacity>
 			<path>./rain.png</path>
-			<zIndex>11</zIndex>
+			<zIndex>120</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -72,7 +72,7 @@
 			<pos>0.3 0.6</pos>
 			<opacity>0</opacity>
 			<path>./rain.png</path>
-			<zIndex>11</zIndex>
+			<zIndex>120</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -93,7 +93,7 @@
 			<scale>1</scale>
 			<opacity>0</opacity>
 			<path>./lumiere.png</path>
-			<zIndex>11</zIndex>
+			<zIndex>120</zIndex>
 			
 		
 			<storyboard repeat="forever">

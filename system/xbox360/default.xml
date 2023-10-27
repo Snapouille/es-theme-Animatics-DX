@@ -12,10 +12,11 @@
 			<scale>0.9</scale>						
 								
 			<pos>0.38 0.43</pos>									
-								
+			<zIndex>120</zIndex>
+			
 			<storyboard>
 				
-        		<animation property="x" to="0.43" begin="" duration="4000" mode="EaseInOut"/>
+        		<animation property="x" to="0.51" begin="" duration="4000" mode="EaseInOut"/>
         		
 			</storyboard>					
 

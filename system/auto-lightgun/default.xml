@@ -11,7 +11,7 @@
 			<pos>0.41 1.3</pos>	
 			<path>./t800.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>16</zIndex>
+			<zIndex>19</zIndex>
 			<storyboard>
 				
         		<animation property="x" to="0.55" begin="" duration="500" mode="EaseInOut"/>
@@ -49,7 +49,7 @@
 					<origin>0.5 0.5</origin>									
 					<size>0.0822917 0.0740741</size>									
 					<pos>0.6901042 0.4814815</pos>									
-					<zIndex>18</zIndex>
+					<zIndex>20</zIndex>
 					<opacity>0</opacity>
 					<path>./fire.png</path>
 					<storyboard repeat="forever">
@@ -124,7 +124,7 @@
 			<pos>-0.3 0.1305556</pos>									
 			<path>./ship.png</path>
 			<linearSmooth>true</linearSmooth>	
-			<zIndex>16</zIndex>
+			<zIndex>160</zIndex>
 			<storyboard repeat="forever">
 				
         		<animation property="pos" to="0.1242188 0.3305556" begin="3000" duration="2000" mode="EaseInOut"/>

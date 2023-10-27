@@ -1,11 +1,35 @@
+<!-- BBC Micro-->
+
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
 	
 		<image name="avatar" extra="static">
-			<pos>0.354 0.26</pos>
+			<origin>0.5 0.5</origin>									
+			<size>0.1369792 0.3351852</size>									
+			<pos>0.1315104 0.5481481</pos>									
+			<path>./avatar.png</path>
+			<zIndex>13</zIndex>
+			<opacity>1</opacity>
+
+			<storyboard>
+        		<animation property="x" to="0.35" begin="" duration="5900" mode="EaseInOut"/>
+				<animation property="size" to="0.2526042 0.6185185" begin="5900" duration="500" mode="Bump"/>
+				<animation property="pos" to="0.4674479 0.4268519" begin="5900" duration="500" mode="EaseOut"/>
+			</storyboard>
 		</image>
+
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.51875 0.2509259</pos>									
+			  <storyboard>
+					<animation property="x" to="0.1125" begin="" duration="5000" mode="EaseInOut"/>
+					<animation property="size" to="0.67 0.67" begin="5900" duration="500" mode="EaseIn"/>
+					<animation property="pos" to="0.2861979 0.38" begin="5900" duration="500" mode="EaseIn"/>
+			  </storyboard>
+		</image>
+
 
 	</view>
 	

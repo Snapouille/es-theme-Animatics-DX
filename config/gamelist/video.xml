@@ -21,7 +21,7 @@ originally based on: "carbon"
         <alignment>right</alignment>
         <verticalAlignment>top</verticalAlignment>
 		<forceUppercase>1</forceUppercase>
-		<color>${baseColor}</color>
+		<color>${systemInfoColor}</color>
 		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
 		<fontSize>0.018</fontSize>
 		<zIndex>131</zIndex>
@@ -307,7 +307,7 @@ originally based on: "carbon"
 	<text name="md_playcount, md_lastplayed, md_gametime">
 	   <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
 	   <fontSize>0.023</fontSize>
-	   <color>${baseColor}</color>
+	   <color>${dataColor}</color>
 	   <alignment>right</alignment>
 	   <size>0.115 0.03</size>
 	</text>

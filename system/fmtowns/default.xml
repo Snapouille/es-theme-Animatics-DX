@@ -13,7 +13,7 @@
 			<scale>0</scale>
 			<opacity>1</opacity>
 			<path>./avatar-ship.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>20</zIndex>
 			<storyboard repeat="forever">
 			
 				<animation property="scale" to="0.8" begin="800" duration="1200" mode="linear"/>

@@ -67,11 +67,9 @@
 		
 		
 		<image name="fire" extra="static">
-			<origin>0 0</origin>									
-			<size>1 1</size>									
-		
-			<pos>0 0</pos>
-			<scale>1</scale>
+			<origin>0.5 0.5</origin>									
+			<size>0.58125 0.6509259</size>									
+			<pos>0.3177083 0.3856481</pos>				
 			<opacity>1</opacity>
 			<path>./fire.png</path>
 			<zIndex>16</zIndex>

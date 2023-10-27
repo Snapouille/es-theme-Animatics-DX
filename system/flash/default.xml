@@ -5,32 +5,36 @@
 
 	<view name="system">
 	
-		
+	
 		<image name="avatar-yeti2" extra="static">
 			<origin>0 0</origin>									
 			<size>0.28125 0.6259259</size>									
-			<pos>0.3 0.26</pos>
+			<pos>0.37 0.26</pos>
 			<opacity>1</opacity>
 			<path>./avatar-yeti2.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>19</zIndex>
 			<storyboard repeat="forever">
-				<animation property="opacity" from="1" to="0" begin="5000" duration="100" mode="linear"/>
-				<animation property="opacity" to="1" begin="15000" duration="500" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="5000" duration="170" mode="linear"/>
+				<animation property="offsetX" to="0.005" begin="5000" duration="170" mode="linear"/>
+				<animation property="opacity" to="1" begin="15000" duration="170" mode="linear"/>
 			</storyboard>
 		</image>
-		
+	
+	
 		<image name="avatar-yeti1" extra="static">
 			<origin>0 0</origin>									
 			<size>0.28125 0.6259259</size>	
-			<pos>0.3 0.26</pos>
+			<pos>0.37 0.26</pos>
 			<opacity>0</opacity>
 			<path>./avatar-yeti1.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>19</zIndex>
 			<storyboard repeat="forever">
-				<animation property="opacity" from="0" to="1" begin="5000" duration="100" mode="linear"/>
-				<animation property="opacity" to="0" begin="15000" duration="500" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="5000" duration="170" mode="linear"/>
+				<animation property="offsetX" to="0.005" begin="5000" duration="170" mode="linear"/>
+				<animation property="opacity" to="0" begin="15000" duration="170" mode="linear"/>
 			</storyboard>
 		</image>
+	
 		
 		
 		

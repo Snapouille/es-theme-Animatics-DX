@@ -14,7 +14,7 @@ originally based on: "carbon"
    
 		<image name="encadrement" extra="true">
 			<path>./../../art/divers/white.png</path>
-			<color>fdde0b</color>
+			<color>${frameColor}</color>
 			<zIndex>97</zIndex>
 			<origin>0 0</origin>									
 			<size>0.0489583 0.0851852</size>									

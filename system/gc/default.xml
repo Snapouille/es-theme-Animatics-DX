@@ -13,7 +13,7 @@
 			<scale>0.6</scale>
 			<opacity>1</opacity>
 			<path>./blob.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 		
 		<image name="blob2" extra="static">
@@ -25,7 +25,7 @@
 			<rotation>35</rotation>
 			<opacity>1</opacity>
 			<path>./blob.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 		
 		<image name="rebecca1" extra="static">
@@ -36,7 +36,7 @@
 			<scale>0.5</scale>
 			<opacity>0</opacity>
 			<path>./rebecca1.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 		
 		<image name="rebecca2" extra="static">
@@ -47,7 +47,7 @@
 			<scale>0.5</scale>
 			<opacity>0</opacity>
 			<path>./rebecca2.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 		
 		<image name="fire" extra="static">
@@ -58,7 +58,7 @@
 			<scale>0.3</scale>
 			<opacity>0</opacity>
 			<path>./fire.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 		
 		<image name="blood" extra="static">
@@ -69,7 +69,7 @@
 			<scale>0.3</scale>
 			<opacity>0</opacity>
 			<path>./blood.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 		
 		<image name="lumiere" extra="static">

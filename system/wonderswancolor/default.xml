@@ -5,6 +5,23 @@
 	
 	<view name="system">
 	
+	
+	<!-- <image name="BG_snapLegacy" extra="true"> -->
+		<!-- <scale>2.03</scale> -->
+		<!-- <color>202020</color> -->
+		<!-- <size>0.58125 0.6509259</size>									 -->
+		<!-- <pos>0.3177083 0.3856481</pos>									 -->
+		<!-- <zIndex>3</zIndex> -->
+		  <!-- <storyboard> -->
+					<!-- <animation property="color" to="FFFFFFFF" begin="" duration="1000" mode="linear"/> -->
+					
+					<!-- <animation property="scale" to="1" begin="" duration="1300" mode="EaseInOut"/> -->
+					<!-- <animation property="offsetX" to="-0.001" begin="" duration="500" mode="linear"/> -->
+		  <!-- </storyboard> -->
+    <!-- </image> -->
+	
+	
+	
 		<image name="pegase, star01, star02, star03, line01, line02, line03, line04, line05, line06, line07, line08, line09, line10, line11, line12, line13, star04, star05, star06, star07, star08, star09, star10, star11, star12, star13, star14">
 			<zIndex>17</zIndex>
 			<origin>0.5 0.5</origin>

@@ -37,13 +37,13 @@
 		  <zIndex>11</zIndex>
 	</image>
 	
-	<image name="background-frame" extra="static">
-		  <tile>false</tile>
+	<image name="frame_big" extra="static">
+			<origin>0.5 0.5</origin>									
 			<size>0.6010417 0.7361111</size>									
-			<pos>0.0229167 0.0527778</pos>									
-		  <origin>0 0</origin>
-		  <path>./../../../art/divers/bg-frame.png</path>
-		  <zIndex>12</zIndex>
+			<pos>0.3239583 0.4226852</pos>									
+			<path>./../../../art/divers/frame_big.png</path>
+			<color>${frameColor}</color>
+			<zIndex>18</zIndex>
 	</image>
 	
 	<image name="randomImage, randomImage2" extra="true">
