@@ -1,3 +1,24 @@
+## V 1.52 - THE COLOR UPDATE (2023 10 27)
+- New basic colorset
+- Add the ability to change the frame color
+- Add the ability to change the info and description colour font
+- Add the automatic collection "auto-wheel"
+- Add the system "IKEMEN"
+- Add the system " Othello multivision"
+- Add the system "Tandis Vis"
+- Add the system "Videopac +"
+- Add the system "Pyxel"
+- New animation for the system "3do"
+- New animation for the system "Amstrad CPC"
+- New animation for the system "Amstrad GX4000"
+- New animation for the system "Apple 2"
+- New animation for the system "Apple 2 GS"
+- New animation for the system "Archimedes"
+- New animation for the system "BBC Micro"
+- New animation for the system "Sam Coupe"
+
+(next update : THE BACKGROUND UPDATE ...)
+
 ## V 1.51 - (2023 10 16)
 - Add New System "The Force Engine" logo and background
 - small fix X1 animation and horizontal thumbnail Mame size
