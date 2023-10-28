@@ -1,4 +1,4 @@
-## V 1.53 - THE COLOR UPDATE (2023 10 28)
+## V 1.53 - (2023 10 28)
 - Fixed minor display bugs
 - Add the system "Abuse"
 - Add the system "Doom3"
