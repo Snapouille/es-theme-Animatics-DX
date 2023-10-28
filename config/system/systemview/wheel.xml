@@ -527,7 +527,7 @@
 		</text>
 		
 		<!-- On affiche le total des jeux si l'option TOTAL a été select -->
-		<text name="systemInfo" ifSubset="InfoCustomView:total">
+		<text name="systemInfo" ifSubset="InfoCustomView:total|detailed">
 			<origin>0.5 0.5</origin>									
 			<size>0.019 0.0194444</size>									
 			<pos>0.5143229 0.0263889</pos>									
@@ -553,7 +553,7 @@
 			</storyboard>
 		</text>
 		<!-- Masque derrière l'affiches du nombre de jeux -->
-		<image name="masque_behind" extra="true">
+		<image name="masque_behind" ifSubset="InfoCustomView:total|detailed" extra="true">
 			<path>./../../../art/divers/white.png</path>
 			<color>${backgroundColor}</color>
 			<zIndex>1899</zIndex>
