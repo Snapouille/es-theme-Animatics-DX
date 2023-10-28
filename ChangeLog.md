@@ -1,3 +1,20 @@
+## V 1.53 - THE COLOR UPDATE (2023 10 28)
+- Fixed minor display bugs
+- Add the system "Abuse"
+- Add the system "Doom3"
+- Add the system "Corsixth"
+- Add the system "Devilutionx"
+- Add the system "Hurrican "
+- Add the system "Hydra Castle"
+- Add the system "Ion Fury"
+- Add the system "Quake 3"
+- Add the system "Redneck Rampage"
+- Add the system "Tyrian"
+- Add the system "Flashback"
+- Add the system "GZDoom"
+- Add the system "Return to Castle Wolfenstein"
+
+
 ## V 1.52 - THE COLOR UPDATE (2023 10 27)
 - New basic colorset
 - Add the ability to change the frame color
