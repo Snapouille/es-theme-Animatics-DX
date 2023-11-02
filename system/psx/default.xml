@@ -152,7 +152,7 @@
 					<animation property="opacity" to="1" begin="6300" duration="100" mode="linear"/>
 					
 					<animation property="x" to="0.4" begin="6700" duration="1000" mode="bump"/>
-					<animation property="y" to="-0.01" begin="6700" duration="1000" mode="linear"/>
+					<animation property="y" to="0.03" begin="6700" duration="1000" mode="linear"/>
 					<animation property="scale" to="1" begin="6700" duration="1000" mode="linear"/>
 					
 					

@@ -552,21 +552,20 @@ originally based on: "carbon"
     
 	
 <!-- Fond qui défile-->
-  <view name="system">
-	<image name="bgsky" extra="static">
-      <pos>1 0.324</pos>
-      <size>0 0</size>
-      <origin>0.5 0.5</origin>
-      <path>./art/divers/bgsky.png</path>
-	  <color>AAAAAA</color>
-      <zIndex>10</zIndex>
-      <storyboard repeat="forever">
-            <animation property="x" from="1" to="0" begin="" duration="80000" mode="Linear" autoReverse="true"/>
-			<animation property="y" from="0.324" to="-0.07" begin="" duration="80000" mode="Linear" autoReverse="true"/>
-			<!-- <animation property="rotation" to="90" begin="" duration="80000" mode="Linear" autoReverse="true"/> -->
-	  </storyboard>	  	  
-    </image>
-  </view>
+  <!-- <view name="system"> -->
+	<!-- <image name="bgsky" extra="static"> -->
+      <!-- <pos>1 0.324</pos> -->
+      <!-- <size>0 0</size> -->
+      <!-- <origin>0.5 0.5</origin> -->
+      <!-- <path>./art/divers/bgsky.png</path> -->
+	  <!-- <color>AAAAAA</color> -->
+      <!-- <zIndex>10</zIndex> -->
+      <!-- <storyboard repeat="forever"> -->
+            <!-- <animation property="x" from="1" to="0" begin="" duration="80000" mode="Linear" autoReverse="true"/> -->
+			<!-- <animation property="y" from="0.324" to="-0.07" begin="" duration="80000" mode="Linear" autoReverse="true"/> -->
+	  <!-- </storyboard>	  	   -->
+    <!-- </image> -->
+  <!-- </view> -->
   
   
 </theme>

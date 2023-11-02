@@ -33,6 +33,7 @@ originally based on: "carbon"
 		  <color>${backgroundColor}</color>
 		  <zIndex>10</zIndex>
 		</image>
+		
 
     <text name="logoText">
       <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
@@ -319,6 +320,10 @@ originally based on: "carbon"
 		</image>
 
 	
+		<!-- On les masque tout les diagos BAS si on affiche la vue des controllers carbon -->
+		<image name="diago-bas1, diago-bas2, diago-bas3, diago-bas4, diago-bas5" ifSubset="systembackground:carbon control" >
+			<visible>false</visible>
+		</image>
 	
 	
 	

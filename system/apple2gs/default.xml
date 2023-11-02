@@ -16,12 +16,14 @@
 			  </storyboard>
 		</image>
 	
-		<image name="avatar" extra="static">
+		<image name="avatar" extra="true">
 			<origin>0.5 0.5</origin>									
-			<size>0.2078125 0.4833333</size>									
+			<size>0.2078125 0.43</size>									
 			<pos>0.21 0.41</pos>									
 			<color>202020</color>
 			<scale>0.6</scale>
+			<path>./avatar-gif.gif</path>
+
 
 			<storyboard>
         		<animation property="x" to="0.47" begin="900" duration="5000" mode="EaseIn"/>
@@ -34,12 +36,13 @@
 			</storyboard>
 		</image>
 		
-		<image name="avatar-flip" extra="static">
+		
+		<image name="avatar-flip" extra="true">
 			<origin>0.5 0.5</origin>									
-			<size>0.2078125 0.4833333</size>									
+			<size>0.2078125 0.43</size>									
 			<pos>0.21 0.41</pos>
 			<flipX>true</flipX>
-			<path>./avatar.png</path>
+			<path>./avatar-gif.gif</path>
 			<opacity>0</opacity>
 			<zIndex>19</zIndex>
 			<scale>0.6</scale>
@@ -54,7 +57,7 @@
 		
 		
 		
-		<image name="avatar-ghost" extra="static">
+		<image name="avatar-ghost" extra="true">
 			<origin>0.5 0.5</origin>									
 			<size>0.0484375 0.1194444</size>									
 			<pos>0.2622396 0.33</pos>									
@@ -79,7 +82,7 @@
 			</storyboard>
 		</image>
 		
-		<image name="avatar-ghost-2" extra="static">
+		<image name="avatar-ghost-2" extra="true">
 			<origin>0.5 0.5</origin>									
 			<size>0.0484375 0.1194444</size>									
 			<pos>0.2622396 0.33</pos>									
@@ -101,6 +104,26 @@
 				
 			</storyboard>
 		</image>
+		
+		
+		<image name="ghost2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0442708 0.0740741</size>									
+			<pos>0.3377604 0.25</pos>									
+			<path>./ghost2.gif</path>
+			<opacity>0</opacity>
+			<zIndex>19</zIndex>
+			<scale>0.6</scale>
+
+			<storyboard repeatAt="8680">
+				<animation property="opacity" from="0" to="0.4" begin="5400" duration="2600" mode="linear"/>
+				<animation property="y" to="0.16" begin="5400" duration="2600" mode="linear"/>
+				<animation property="rotation" to="3" begin="5400" duration="325" autoreverse="true" repeat="4" mode="linear"/>
+				<animation property="offsetY" to="0.005" begin="8680" autoreverse="true" repeat="1" duration="340" mode="linear"/>
+				<animation property="rotation" to="3" begin="8680"    autoreverse="true" repeat="2" duration="170" mode="linear"/>
+			</storyboard>
+		</image>
+		
 		
 		
 		<image name="fog" extra="true">
