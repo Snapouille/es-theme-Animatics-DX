@@ -1,3 +1,10 @@
+## V 1.54 - (2023 11 02)
+- New animation for the system view "Carbon Controllers"
+- Add missing Carbon Controllers
+- Fix "No Scrape" media
+- Fix small animations layouts
+
+
 ## V 1.53 - (2023 10 28)
 - Fixed minor display bugs
 - Add the system "Abuse"
