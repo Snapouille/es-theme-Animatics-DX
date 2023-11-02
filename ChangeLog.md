@@ -4,6 +4,8 @@
 - Fix "No Scrape" media
 - Fix small animations layouts
 
+![2023-11-02 12_18_59-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/36dd9cad-e438-4c98-b911-953150016d6b)
+
 
 ## V 1.53 - (2023 10 28)
 - Fixed minor display bugs
