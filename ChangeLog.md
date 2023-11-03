@@ -1,8 +1,9 @@
 ## V 1.54 - (2023 11 02)
-- New animation for the system view "Carbon Controllers"
+- Possibility to show the cheevos icon in the gamelist (big thanks to f.caruso)
 - Add missing Carbon Controllers
 - Fix "No Scrape" media
 - Fix small animations layouts
+- New animation for the system view "Carbon Controllers"
 
 ![2023-11-02 12_18_59-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/36dd9cad-e438-4c98-b911-953150016d6b)
 
