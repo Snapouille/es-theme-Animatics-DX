@@ -526,9 +526,13 @@ originally based on: "carbon"
         <include name="19"/>
         <include name="21"/>
         <include name="23"/>
+        <include name="25"/>
+		<include name="27"/>
     </subset>
     <subset name="gamelistFontSize" displayName="${gamelistFontSize}" appliesTo="detailed, video">
         <include name="auto"/>
+		<include name="0.020"/>
+        <include name="0.021"/>
         <include name="0.022"/>
         <include name="0.023"/>
         <include name="0.024"/>
