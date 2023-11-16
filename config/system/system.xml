@@ -24,7 +24,7 @@ originally based on: "carbon"
       <zIndex>12</zIndex>
     </video>
 	
-		<image name="background" extra="static">
+		<image name="background" extra="true">
 		  <tile>false</tile>
 		  <size>1 1</size>
 		  <pos>0 0</pos>
@@ -56,9 +56,9 @@ originally based on: "carbon"
 	  <storyboard event="activate" repeatAt="300">
 				<animation property="origin" from="0.5 0.5" to="0.5 0.53" begin="50" duration="250" mode="easeInOut"/>
 				<animation property="origin" from="0.5 0.53" to="0.5 0.47" begin="300" duration="1000" autoreverse="true" repeat="10" mode="easeInOut"/>
-				<animation property="rotation" to="360" begin="4300" duration="250" mode="easeInOut"/>
+				<animation property="rotation" to="-5" begin="4300" duration="250" autoreverse="true" mode="bump"/>
 				<animation property="scale" to="0.9" begin="5800" duration="250" autoreverse="true" mode="bump"/>
-				<animation property="rotation" to="-360" begin="7300" duration="250" mode="easeInOut"/>
+				<animation property="saturation" to="0" begin="7300" duration="2500" autoreverse="true" mode="easeInOut"/>
 	  </storyboard>
 	  
     </image>
@@ -78,7 +78,7 @@ originally based on: "carbon"
 	
 	
 	<!-- Règle d'affichage des consoles -->
-	<image name="Consoles" extra="static">
+	<image name="Consoles" extra="true">
       <path>./../../art/consoles/${system.theme}.png</path>
 	  <path>./../../art/consoles/${system.theme}.svg</path>
 	  <path ifSubset="artworkregion:US">./../../art/consoles/US/${system.theme}.png</path>
@@ -107,9 +107,9 @@ originally based on: "carbon"
 	
 	
 	
-	<!-- Animation barre autour de la frame centrale -->
+	<!-- Animation barre autour de la frame (cadre) centrale -->
 	
-		<image name="frame_barreAnim_haut">
+		<image name="frame_barreAnim_haut, frame_barreAnim_bas, frame_barreAnim_gauche, frame_barreAnim_droite">
 				<path>./../../art/divers/white.png</path>
 				<color>${baseColor}</color>
 				<origin>0.5 0.5</origin>
@@ -117,7 +117,7 @@ originally based on: "carbon"
 				<opacity>1</opacity>
 		</image>	
 		
-		<image name="frame_barreAnim_haut"  extra="static">
+		<image name="frame_barreAnim_haut"  extra="true">
 				<size>0.0151042 0.012963</size>									
 				<pos>0.5153646 0.055</pos>		
 
@@ -128,8 +128,42 @@ originally based on: "carbon"
 				<animation property="w" to="0.02" begin="20000" duration="1000" mode="Bump"/>
 			</storyboard>
 				
-		</image>	
+		</image>
 
+		<image name="frame_barreAnim_bas"  extra="true">
+				<size>0.0151042 0.012963</size>									
+				<pos>0.293 0.718</pos>		
+
+			<storyboard repeat="forever">
+				<animation property="w" to="0.2088542" begin="" duration="800" mode="EaseInOut"/>
+				<animation property="w" to="0.0151042" begin="6000" duration="600" autoreverse="true" mode="EaseIn"/>
+				<animation property="w" to="0.0151042" begin="12000" duration="900" autoreverse="true" mode="EaseIn"/>
+				<animation property="w" to="0.03" begin="20000" duration="1000" mode="EaseInOut"/>
+			</storyboard>
+				
+		</image>	
+		
+	<!-- gauche et droite mis en standbye pour l'instant  -->
+	
+		<!-- <image name="frame_barreAnim_gauche"  extra="true"> -->
+			<!-- <size>0.0036458 0.0324074</size>									 -->
+			<!-- <pos>0.0247396 0.2115741</pos>									 -->
+			<!-- <storyboard> -->
+				<!-- <animation property="y" to="0.3412037" begin="" duration="600" autoreverse="true" mode="EaseIn"/> -->
+				<!-- <animation property="offsetX" to="0.0039" begin="1200" duration="500" mode="linear"/> -->
+				<!-- <animation property="opacity" to="0" begin="1700" duration="300" mode="linear"/> -->
+			<!-- </storyboard> -->
+		<!-- </image>		 -->
+		<!-- <image name="frame_barreAnim_droite"  extra="true"> -->
+			<!-- <size>0.0036458 0.0212963</size>									 -->
+			<!-- <pos>0.6127604 0.4958333</pos>									 -->
+			<!-- <storyboard> -->
+				<!-- <animation property="y" to="0.3939815" begin="" duration="600" autoreverse="true" mode="EaseIn"/> -->
+				<!-- <animation property="offsetX" to="-0.0039" begin="1200" duration="500" mode="linear"/> -->
+				<!-- <animation property="opacity" to="0" begin="1700" duration="300" mode="linear"/> -->
+			<!-- </storyboard> -->
+		<!-- </image>	 -->
+	
 	
 	<!-- Animation barre diagonales -->
 	<!-- Animation Diago du haut vers l'avatar -->
@@ -143,7 +177,7 @@ originally based on: "carbon"
 			<opacity>0</opacity>
 		</image>
 
-		<image name="diago-haut1" extra="static">
+		<image name="diago-haut1" extra="true">
 			<pos>0.4411458 0.0675926</pos>									
 			
 			<storyboard repeat="forever">
@@ -160,7 +194,7 @@ originally based on: "carbon"
 			
 		</image>
 	
-		<image name="diago-haut2" extra="static">
+		<image name="diago-haut2" extra="true">
 			<pos>0.4307292 0.0675926</pos>									
 			
 			<storyboard repeat="forever">
@@ -178,7 +212,7 @@ originally based on: "carbon"
 			
 		</image>
 	
-		<image name="diago-haut3" extra="static">
+		<image name="diago-haut3" extra="true">
 			<pos>0.4203125 0.0675926</pos>									
 			
 			<storyboard repeat="forever">
@@ -196,7 +230,7 @@ originally based on: "carbon"
 			
 		</image>
 		
-		<image name="diago-haut4" extra="static">
+		<image name="diago-haut4" extra="true">
 			<pos>0.4098958 0.0675926</pos>									
 			
 			<storyboard repeat="forever">
@@ -214,7 +248,7 @@ originally based on: "carbon"
 			
 		</image>
 		
-		<image name="diago-haut5" extra="static">
+		<image name="diago-haut5" extra="true">
 			<pos>0.3994792 0.0675926</pos>									
 			
 			<storyboard repeat="forever">
@@ -244,7 +278,7 @@ originally based on: "carbon"
 			<opacity>0</opacity>
 		</image>
 
-		<image name="diago-bas1" extra="static">
+		<image name="diago-bas1" extra="true">
 			<pos>0.4427083 0.7046296</pos>									
 			
 			<storyboard repeat="forever">
@@ -259,7 +293,7 @@ originally based on: "carbon"
 			
 		</image>
 	
-		<image name="diago-bas2" extra="static">
+		<image name="diago-bas2" extra="true">
 			<pos>0.4546875 0.7046296</pos>									
 			
 			<storyboard repeat="forever">
@@ -274,7 +308,7 @@ originally based on: "carbon"
 			
 		</image>
 	
-		<image name="diago-bas3" extra="static">
+		<image name="diago-bas3" extra="true">
 			<pos>0.465625 0.7046296</pos>									
 			
 			<storyboard repeat="forever">
@@ -289,7 +323,7 @@ originally based on: "carbon"
 			
 		</image>
 		
-		<image name="diago-bas4" extra="static">
+		<image name="diago-bas4" extra="true">
 			<pos>0.4765625 0.7046296</pos>									
 			
 			<storyboard repeat="forever">
@@ -304,7 +338,7 @@ originally based on: "carbon"
 			
 		</image>
 		
-		<image name="diago-bas5" extra="static">
+		<image name="diago-bas5" extra="true">
 			<pos>0.4890625 0.7046296</pos>									
 			
 			<storyboard repeat="forever">
@@ -485,7 +519,7 @@ originally based on: "carbon"
     
   <feature supported="manufacturer">
     <view name="system">
-      <text name="manufacturerName" extra="static">
+      <text name="manufacturerName" extra="true">
 		<origin>0.5 0.5</origin>
         <text>${system.sortedBy}</text>
         <alignment>left</alignment>
@@ -646,6 +680,7 @@ originally based on: "carbon"
 			<size>0.5 0.2</size>
 			<color>${infoColor}</color>
 			<autoScroll>vertical</autoScroll>
+			<zIndex>2000</zIndex>
 		</text>
 	
 	
@@ -767,7 +802,7 @@ originally based on: "carbon"
 		</text>
 		
 		<!-- Animation de la bar jaune + stats détaillés -->
-					<!-- <image name="YellowBarDesc" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false"  extra="static"> -->
+					<!-- <image name="YellowBarDesc" ifSubset="InfoCustomView:detailed" ifHelpPrompts="false"  extra="true"> -->
 						<!-- <origin>0.5 0.5</origin>									 -->
 						<!-- <size>0.0510417 0.312963</size> -->
 						<!-- <pos>0.0885417 0.575</pos> -->

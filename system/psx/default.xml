@@ -31,10 +31,10 @@
 			<opacity>1</opacity>
 			<rotation>-30</rotation>
 			<path>./apple.png</path>
-			<zIndex>19</zIndex>
+			<zIndex>159</zIndex>
 			
 			<storyboard repeat="forever">
-				<animation property="y" from="-1" to="1" begin="7000" duration="4000" mode="easyIn"/>
+				<animation property="y" from="-1" to="1" begin="7000" duration="4000" mode="EaseIn"/>
 				<animation property="opacity" to="0" begin="11500" duration="500" mode="linear"/>
 				<animation property="opacity" to="0" begin="13000" duration="250" mode="linear"/>
 			</storyboard>
@@ -53,12 +53,12 @@
 			<opacity>1</opacity>
 			<rotation>30</rotation>
 			<path>./apple.png</path>
-			<zIndex>19</zIndex>
+			<zIndex>159</zIndex>
 			
 			
 			<storyboard repeat="forever">
-				<animation property="y" from="-1" to="1" begin="" duration="2800" mode="easyIn"/>
-				<animation property="opacity" to="0" begin="2300" duration="500" mode="linear"/>
+				<animation property="y" from="-1" to="1" begin="" duration="2800" mode="EaseIn"/>
+				<animation property="opacity" to="0" begin="2900" duration="500" mode="linear"/>
 				<animation property="opacity" to="0" begin="9000" duration="250" mode="linear"/>
 			</storyboard>
 			
@@ -73,10 +73,10 @@
 			<opacity>1</opacity>
 			<rotation>-10</rotation>
 			<path>./apple.png</path>
-			<zIndex>20</zIndex>
+			<zIndex>159</zIndex>
 			
 			<storyboard repeat="forever">
-				<animation property="y" from="-1" to="1" begin="3700" duration="4000" mode="easyIn"/>
+				<animation property="y" from="-1" to="1" begin="3700" duration="4000" mode="EaseIn"/>
 				<animation property="opacity" to="0" begin="6300" duration="100" mode="linear"/>
 				
 				<animation property="opacity" to="0" begin="19000" duration="500" mode="linear"/>

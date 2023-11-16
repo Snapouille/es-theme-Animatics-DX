@@ -14,10 +14,8 @@
 			<scale>1.2</scale>
 			<opacity>1</opacity>
 			<path>./avatar.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>20</zIndex>
 			
-			<storyboard repeat="forever">
-			</storyboard>
 			
 		</image>
 		

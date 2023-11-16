@@ -11,6 +11,12 @@
       <!-- <visible>false</visible> -->
     <!-- </image> -->
 	
+	<!-- ON MASQUE les Animations barre autour de la frame (cadre) centrale -->
+		<image name="frame_barreAnim_haut, frame_barreAnim_bas, frame_barreAnim_gauche">
+				<visible>false</visible>
+		</image>	
+
+	
 	
 	
 	<!-- On modifie l'arrivée des statistiques sur l'écran si affichage différent que Snap Legacy -->

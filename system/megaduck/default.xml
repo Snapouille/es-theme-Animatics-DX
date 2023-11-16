@@ -6,21 +6,44 @@
 	<view name="system">
 		
 		
-		<image name="avatar" extra="static">
+		<image name="avatar" extra="true">
 			<origin>0 0</origin>									
 			<size>0.3994792 0.762963</size>									
 
-			<pos>0.1 0.167</pos>
+			<pos>0.38 1.1</pos>
 			<scale>0.4</scale>
 			<opacity>1</opacity>
+			<linearSmooth>true</linearSmooth>
+			
 			<storyboard>
-				<animation property="x" to="0.2" begin="" duration="2200" mode="EaseOut"/>
-				
-				<animation property="scale" to="0.7" begin="2700" duration="350" mode="Linear"/>
-				<animation property="x" to="0.38" begin="2700" duration="375" mode="EaseOut"/>
-				<animation property="y" to="0.31" begin="2700" duration="375" mode="bump"/>
-				
-				
+				<animation property="scale" to="0.7" begin="" duration="700" mode="Linear"/>
+				<animation property="y" to="0.31" begin="" duration="700" mode="bump"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="bat1" extra="true">
+			<path>./bat1.gif</path>
+			<origin>0.5 0.5</origin>									
+			<size>0.190625 0.1685185</size>									
+			<pos>0.71 -0.1</pos>									
+			<zIndex>19</zIndex>
+			<scale>0.01</scale>
+			<linearSmooth>true</linearSmooth>
+
+			
+			<storyboard>
+			
+			<animation property="offsetY" to="0.3" begin="700" duration="7000" mode="EaseOut"/>
+			<animation property="offsetX" to="-0.3" begin="700" duration="7000" mode="EaseIn"/>
+			<animation property="rotation" from="1" to="-1" begin="700" duration="100" autoreverse="true" repeat="forever" mode="EaseIn"/>
+
+			
+			<animation property="scale" to="1" begin="700" duration="7000" mode="linear"/>
+			
+
+			
+			
 			</storyboard>
 		</image>
 		

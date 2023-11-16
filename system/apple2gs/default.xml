@@ -16,13 +16,14 @@
 			  </storyboard>
 		</image>
 	
-		<image name="avatar" extra="true">
+		<image name="wizard" extra="true">
 			<origin>0.5 0.5</origin>									
 			<size>0.2078125 0.43</size>									
 			<pos>0.21 0.41</pos>									
 			<color>202020</color>
 			<scale>0.6</scale>
-			<path>./avatar-gif.gif</path>
+			<zIndex>19</zIndex>
+			<path>./wizard.gif</path>
 
 
 			<storyboard>
@@ -30,31 +31,145 @@
 				
 				<animation property="color" from="202020" to="FFFFFFFF" begin="" duration="8000" mode="linear"/>
 				
+				<animation property="opacity" to="0" begin="3000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4000" duration="10" mode="linear"/>			
+
+				
 				<animation property="scale" to="1" begin="5900" duration="500" mode="Bump"/>
 				<animation property="pos" to="0.53 0.51" begin="5900" duration="500" mode="Bump"/>
 				<animation property="opacity" to="0" begin="6100" duration="100" mode="linear"/>
 			</storyboard>
 		</image>
 		
+		<image name="wizard-eyes" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.2078125 0.43</size>									
+			<pos>0.21 0.41</pos>									
+			<color>202020</color>
+			<scale>0.6</scale>
+			<path>./wizard-eyes.gif</path>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+
+			<storyboard>
+			
+				<animation property="color" from="202020" to="FFFFFFFF" begin="" duration="8000" mode="linear"/>
+        		<animation property="x" to="0.47" begin="900" duration="5000" mode="EaseIn"/>
+				
+				<animation property="opacity" to="1" begin="1000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1500" duration="10" mode="linear"/>			
+			</storyboard>
+		</image>
 		
-		<image name="avatar-flip" extra="true">
+
+		<image name="wizard-hand" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.2078125 0.43</size>									
+			<pos>0.21 0.41</pos>									
+			<color>202020</color>
+			<scale>0.6</scale>
+			<path>./wizard-hand.gif</path>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+
+			<storyboard>
+			
+				<animation property="color" from="202020" to="FFFFFFFF" begin="" duration="8000" mode="linear"/>
+        		<animation property="x" to="0.47" begin="900" duration="5000" mode="EaseIn"/>
+				
+				<animation property="opacity" to="1" begin="3000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4000" duration="10" mode="linear"/>			
+				
+			</storyboard>
+		</image>
+		
+		
+		<image name="wizard-flip" extra="true">
 			<origin>0.5 0.5</origin>									
 			<size>0.2078125 0.43</size>									
 			<pos>0.21 0.41</pos>
 			<flipX>true</flipX>
-			<path>./avatar-gif.gif</path>
+			<path>./wizard.gif</path>
 			<opacity>0</opacity>
 			<zIndex>19</zIndex>
 			<scale>0.6</scale>
 
-			<storyboard>
+			<storyboard repeatAt="7000">
+			
 				<animation property="x" to="0.47" begin="900" duration="5000" mode="EaseIn"/>
 				<animation property="scale" to="1" begin="5900" duration="500" mode="Bump"/>
 				<animation property="pos" to="0.53 0.51" begin="5900" duration="500" mode="Bump"/>
 				<animation property="opacity" to="1" begin="6100" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="7500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="10500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11500" duration="10" mode="linear"/>
+
+				<animation property="opacity" to="1" begin="17000" duration="10" mode="linear"/>
+
 			</storyboard>
 		</image>
 		
+		<image name="wizard-eyes-flip" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.2078125 0.43</size>									
+			<pos>0.21 0.41</pos>
+			<flipX>true</flipX>
+			<path>./wizard-eyes.gif</path>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+			<scale>0.6</scale>
+
+			<storyboard repeatAt="7000">
+
+				<animation property="x" to="0.47" begin="900" duration="5000" mode="EaseIn"/>
+				<animation property="scale" to="1" begin="5900" duration="500" mode="Bump"/>
+				<animation property="pos" to="0.53 0.51" begin="5900" duration="500" mode="Bump"/>
+				
+				<animation property="opacity" to="1" begin="6500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="7000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="9500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="10000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="13500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="14000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="16500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="17000" duration="10" mode="linear"/>
+
+			</storyboard>
+		</image>
+		
+		<image name="wizard-hand-flip" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.2078125 0.43</size>									
+			<pos>0.21 0.41</pos>
+			<flipX>true</flipX>
+			<path>./wizard-hand.gif</path>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+			<scale>0.6</scale>
+
+			<storyboard repeatAt="7000">
+
+				<animation property="x" to="0.47" begin="900" duration="5000" mode="EaseIn"/>
+				<animation property="scale" to="1" begin="5900" duration="500" mode="Bump"/>
+				<animation property="pos" to="0.53 0.51" begin="5900" duration="500" mode="Bump"/>
+				
+				<animation property="opacity" to="1" begin="7500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="10500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="10" mode="linear"/>
+
+			</storyboard>
+		</image>
+
 		
 		
 		<image name="avatar-ghost" extra="true">

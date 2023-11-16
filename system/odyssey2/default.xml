@@ -5,6 +5,16 @@
 	
 	<view name="system">
 
+
+		<image name="BG_snapLegacy" extra="true">
+			<scale>5.5</scale>
+			  <storyboard>
+			  
+					<animation property="scale" to="1" begin="" duration="1200" mode="EaseOut"/>
+					
+					
+			  </storyboard>
+		</image>
 		
 		<image name="vaisseau" extra="static">
 			<origin>0 0</origin>									
@@ -45,15 +55,7 @@
 			<opacity>0</opacity>
 		</image>
 		
-		<image name="planetes" extra="static"> 
-			<origin>0 0</origin>									
-			<size>0.39375 0.2444444</size>									
-			<pos>0.1 0.111</pos>
-			<scale>1</scale>
-			<path>./planetes.png</path>
-			<zIndex>17</zIndex>
-			<opacity>1</opacity>
-		</image>
+		
 		
 		
 		<image name="etoiles" extra="static">
@@ -153,10 +155,19 @@
 		</image>
 		
 		
-		
-		<image name="planetes" extra="true">
+		<image name="planetes" extra="true"> 
+			<origin>0 0</origin>									
+			<size>0.39375 0.2444444</size>									
+			<pos>0.19 0.191</pos>
+			<scale>0.7</scale>
+			<path>./planetes.png</path>
+			<zIndex>17</zIndex>
+			<linearSmooth>true</linearSmooth>
 			<storyboard>
-				<animation property="x" from="0.1" to="1" begin="" duration="5000000" mode="linear"/>
+				<animation property="offsetX" to="-0.09" begin="" duration="1200" mode="EaseOut"/>
+				<animation property="offsetY" to="-0.08" begin="" duration="1200" mode="EaseOut"/>
+				<animation property="scale" to="1" begin="" duration="1200" mode="EaseOut"/>
+				<animation property="x" to="1" begin="1200" duration="5000000" mode="linear"/>
 			</storyboard>			
 		</image>
 		

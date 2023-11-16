@@ -13,7 +13,8 @@
 			<path>./avatar-dragon.png</path>
 			<opacity>0</opacity>
 			<rotation>0</rotation>
-			<zIndex>19</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>190</zIndex>
 			
 			<storyboard repeat="forever">
 			
