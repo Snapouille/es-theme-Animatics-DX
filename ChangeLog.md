@@ -1,3 +1,9 @@
+## V 1.55 - (2023 11 16)
+- Change the playstation 1 image contoller
+- Fix some animations bugs
+- Improving the central frame
+
+
 ## V 1.54 - (2023 11 02)
 - Possibility to show the cheevos icon in the gamelist (big thanks to f.caruso)
 - Add missing Carbon Controllers
