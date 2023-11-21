@@ -12,7 +12,7 @@
 			<pos>0.15 0.122</pos>
 			<scale>0.65</scale>
 			<opacity>0</opacity>
-			<zIndex>190</zIndex>
+			<zIndex>19</zIndex>
 			<path>./avatar1.png</path>
 			<linearSmooth>true</linearSmooth>
 		
@@ -40,7 +40,7 @@
 			<opacity>0</opacity>
 			<path>./avatar2.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>190</zIndex>
+			<zIndex>19</zIndex>
 			
 			<storyboard repeat="forever">
 					<animation property="opacity" from="0" to="1" begin="11000" duration="500" mode="linear"/>
@@ -66,7 +66,7 @@
 			<opacity>0</opacity>
 			<path>./avatar3.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>190</zIndex>
+			<zIndex>19</zIndex>
 			
 			<storyboard repeat="forever">
 					<animation property="opacity" from="0" to="1" begin="21000" duration="500" mode="linear"/>

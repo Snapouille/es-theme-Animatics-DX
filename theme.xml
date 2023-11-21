@@ -253,8 +253,8 @@ originally based on: "carbon"
     
 <!-- Subset options for screen -->
 <subset name="SystemView" displayName="${systemViewName}">
-	<include name="wheel" displayName="${systemview.wheel}">./config/system/systemview/wheel.xml</include>
 	<include name="wheel-animatics"  displayName="${systemview.wheel-animatics}">./config/system/systemview/wheel-animatics.xml</include>
+	<include name="wheel" displayName="${systemview.wheel}">./config/system/systemview/wheel.xml</include>
     <include name="vertical"  displayName="${systemview.vertical}">./config/system/systemview/vertical.xml</include>
 	<!-- <include name="vertical-arts"  displayName="${systemview.vertical-arts}">./config/system/systemview/vertical-arts.xml</include> -->
 	<include name="horizontal"  displayName="${systemview.horizontal}">./config/system/systemview/horizontal.xml</include>
@@ -349,8 +349,8 @@ originally based on: "carbon"
 <view name="menu">
     <menuText name="menutitle">
       <fontPath>./art/fonts/flatwheat.ttf</fontPath>
-      <fontSize>0.033</fontSize>
-      <color>FAFAFA</color>
+      <fontSize>0.023</fontSize>
+      <color>${frameColor}</color>
     </menuText>
     <menuText name="menufooter">
       <fontPath>./art/fonts/aucune_snap.ttf</fontPath>
@@ -426,7 +426,7 @@ originally based on: "carbon"
 <view name="screen">
 
 		<controllerActivity name="controllerActivity">
-			  <pos>0.006 0.007</pos>
+			  <pos>0.007 0.008</pos>
 			  <size>0.185 0.023</size>
 			  <itemSpacing>0.003</itemSpacing>
 			  <color>FFFFFF90</color>
@@ -450,7 +450,7 @@ originally based on: "carbon"
 		</text>
 
 		<batteryIndicator name="batteryIndicator">
-			  <pos>0.965 0.006</pos>
+			  <pos>0.963 0.007</pos>
 			  <size>0.033 0.0275</size>
 			  <horizontalAlignment>right</horizontalAlignment>
 			  <!-- <incharge>./art/battery/incharge.svg</incharge> -->

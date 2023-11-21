@@ -98,12 +98,8 @@
 			<animation property="size" from="0.06 0.006" to="0.03 0.006" begin="" duration="400" mode="easeInOut"/>
 	  </storyboard>
 	  <!-- Si pas de date on ne fait pas l'animation -->
-	  <storyboard if="{system.manufacturer} == 'Collections' || {system.manufacturer} == 'RetroBat' || {system.manufacturer} == 'Adobe' || {system.manufacturer} == 'Arcade' || {system.manufacturer} == 'Gaelco' || {system.manufacturer} == 'Misc. System' || {system.manufacturer} == 'Ports'">
+	  <storyboard if="{system.manufacturer} == 'Collections' || {system.manufacturer} == 'RetroBat' || {system.manufacturer} == 'Adobe' || {system.manufacturer} == 'Gaelco' || {system.manufacturer} == 'Misc. System'">
 			<animation property="size" from="0.06 0.006" to="0.06 0.006" begin="" duration="400" mode="easeInOut"/>
-	  </storyboard>
-	  <!-- on force l'animation pour les systèmes ayant une date quand même Daphne (Arcade), ScummWM (Ports), Love (Ports)  -->
-	  <storyboard if="{system.theme} == 'daphne' || {system.theme} == 'scummvm' || {system.theme} == 'love'">
-			<animation property="size" from="0.06 0.006" to="0.03 0.006" begin="" duration="400" mode="easeInOut"/>
 	  </storyboard>
 	</image>
 	
@@ -115,13 +111,9 @@
 			<animation property="size" from="-0.06 0.006" to="-0.03 0.006" begin="" duration="400" mode="easeInOut"/>
 	  </storyboard>
 	  <!-- Si pas de date on ne fait pas l'animation -->
-	  <storyboard if="{system.manufacturer} == 'Collections' || {system.manufacturer} == 'RetroBat' || {system.manufacturer} == 'Adobe' || {system.manufacturer} == 'Arcade' || {system.manufacturer} == 'Gaelco' || {system.manufacturer} == 'Misc. System' || {system.manufacturer} == 'Ports'">
+	  <storyboard if="{system.manufacturer} == 'Collections' || {system.manufacturer} == 'RetroBat' || {system.manufacturer} == 'Adobe' || {system.manufacturer} == 'Gaelco' || {system.manufacturer} == 'Misc. System'">
 			<animation property="size" from="-0.06 0.006" to="-0.06 0.006" begin="" duration="400" mode="easeInOut"/>
 	  </storyboard>	  
-	  <!-- on force l'animation pour les systèmes ayant une date quand même Daphne (Arcade), ScummWM (Ports), Love (Ports)  -->
-	  <storyboard if="{system.theme} == 'daphne' || {system.theme} == 'scummvm' || {system.theme} == 'love'">
-			<animation property="size" from="-0.06 0.006" to="-0.03 0.006" begin="" duration="400" mode="easeInOut"/>
-	  </storyboard>
 	</image>
 	
 	
