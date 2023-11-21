@@ -1,3 +1,10 @@
+## V 1.56 - (2023 11 21)
+- return of the standard wheel without animation name Wheel
+- the animated wheel is changing its name to Wheel-Animatics
+- add the Sega STV system
+- add multiple logo
+
+
 ## V 1.55 - (2023 11 16)
 - Change the playstation 1 image contoller
 - Fix some animations bugs
