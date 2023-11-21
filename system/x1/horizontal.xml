@@ -12,7 +12,7 @@
 			<scale>0.9</scale>
 			<opacity>1</opacity>
 			<path>./avatar-girl.png</path>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			
 			<storyboard repeat="forever" >
 				<animation property="x" to="0.31" begin="500" duration="2000" mode="EaseOut"/>
@@ -29,7 +29,7 @@
 			<scale>0.9</scale>
 			<opacity>0</opacity>
 			<path>./avatar-girl2.png</path>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			
 			<storyboard repeat="forever" >
 				<animation property="x" to="0.31" begin="500" duration="2000" mode="EaseOut"/>

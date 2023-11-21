@@ -8,11 +8,12 @@
 		<image name="avatar-girl" extra="static">
 			<origin>0 0</origin>									
 			<size>0.3505208 0.7277778</size>									
-			<pos>0.17 0.28</pos>
+			<pos>0.17 0.2075</pos>
+			<pos ifHelpPrompts="false">0.17 0.28</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<path>./avatar-girl.png</path>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			
 			<storyboard repeat="forever" >
 				<animation property="x" to="0.35" begin="500" duration="2000" mode="EaseOut"/>
@@ -26,11 +27,12 @@
 		<image name="avatar-girl2" extra="static">
 			<origin>0 0</origin>									
 			<size>0.3505208 0.7277778</size>	
-			<pos>0.17 0.28</pos>
+			<pos>0.17 0.2075</pos>
+			<pos ifHelpPrompts="false">0.17 0.28</pos>
 			<scale>1</scale>
 			<opacity>0</opacity>
 			<path>./avatar-girl2.png</path>
-			<zIndex>18</zIndex>
+			<zIndex>180</zIndex>
 			
 			<storyboard repeat="forever" >
 				<animation property="x" to="0.35" begin="500" duration="2000" mode="EaseOut"/>
