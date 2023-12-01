@@ -5,7 +5,7 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
-<theme defaultView="gamecarousel">
+<theme defaultView="detailed">
   <formatVersion>7</formatVersion>
   <view name="system">
     <!-- Used by random box need to be declared there -->
@@ -364,9 +364,19 @@ originally based on: "carbon"
 	
 	
 	
-	<!-- Cadre de l'aide en bas -->
+<!-- Cartouche d'aide en bas "Helpsystem" -->
+		
+			<helpsystem name="help">
+				<!-- <size>0.01 0.01</size> -->
+				<!-- <maxSize>0.1 0.025</maxSize> -->
+				<pos>0.01 0.955</pos>
+				<fontSize>0.0313</fontSize>
+				<!-- <glowColor>dataColor</glowColor> -->
+				<!-- <glowSize>1</glowSize> -->
+				<!-- <glowOffset>1</glowOffset> -->
+			</helpsystem>
 	
-	
+<!-- Cadre du cartouche de l'aide en bas -->
 	
 	<image name="up_BottomFrame, down_BottomFrame, left_BottomFrame, right_BottomFrame, black_BottomFrame" extra="true">
 		<path>./../../art/divers/white.png</path>
@@ -374,7 +384,6 @@ originally based on: "carbon"
 		<zIndex>18</zIndex>
 		<origin>0.5 0.5</origin>
 	</image>
-	
 	
 	<!-- barre cadre haut -->
 	<image name="up_BottomFrame" extra="true">
@@ -501,18 +510,6 @@ originally based on: "carbon"
 	
 	
 	
-	<!-- La barre en bas Helpsystem -->
-		<!-- POUR LA METTRE EN PLUS PETITE -->
-		
-			<helpsystem name="help">
-				<!-- <size>0.01 0.01</size> -->
-				<!-- <maxSize>0.1 0.025</maxSize> -->
-				<pos>0.01 0.955</pos>
-				<fontSize>0.0313</fontSize>
-				<!-- <glowColor>00000080</glowColor> -->
-				<!-- <glowSize>1</glowSize> -->
-				<!-- <glowOffset>1</glowOffset> -->
-			</helpsystem>
 
 		
   </view>
@@ -983,7 +980,7 @@ originally based on: "carbon"
 
 	<text name="system_description" ifSubset="system-description:Show">
 		<pos>1.082 0.62</pos>
-		<size>0.319 0.293</size>
+		<size>0.3207 0.293</size>
 		<color>${infoColor}</color>
 		<autoScroll>vertical</autoScroll>
 		<storyboard>
@@ -1003,35 +1000,27 @@ originally based on: "carbon"
 <!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
 <!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
 	
-<view name="system" ifSubset="SystemView:vertical-arts">
+<!-- <view name="system" ifSubset="SystemView:vertical-arts"> -->
 	
 	<!-- emplacement des images du carrousel -->	
-    <image name="logo">
+    <!-- <image name="logo"> -->
       <!-- if system2 exists, take this version -->	  
 	  <!-- <linearSmooth>false</linearSmooth> -->
-	  <path>./../../art/vertical2/${system.theme}.png</path>
+	  <!-- <path>./../../art/vertical2/${system.theme}.png</path> -->
 	  
-	  <storyboard event="activate" repeatAt="1000">
-				<animation property="scale" to="1.13" begin="" duration="250" mode="easeInOut"/>
-				<animation property="offsetX" to="-0.013" begin="250" duration="50" mode="easeInOut"/>
-				<animation property="offsetX" to="0.013" begin="5000" duration="250" autoreverse="true" mode="easeInOut"/>
-				<animation property="saturation" to="0" begin="10300" duration="100" autoreverse="true" repeat="3" mode="linear"/>
-				<animation property="saturation" to="1" begin="15000" duration="100" mode="linear"/>
-	  </storyboard>
+	  <!-- <storyboard event="activate" repeatAt="1000"> -->
+				<!-- <animation property="scale" to="1.13" begin="" duration="250" mode="easeInOut"/> -->
+				<!-- <animation property="offsetX" to="-0.013" begin="250" duration="50" mode="easeInOut"/> -->
+				<!-- <animation property="offsetX" to="0.013" begin="5000" duration="250" autoreverse="true" mode="easeInOut"/> -->
+				<!-- <animation property="saturation" to="0" begin="10300" duration="100" autoreverse="true" repeat="3" mode="linear"/> -->
+				<!-- <animation property="saturation" to="1" begin="15000" duration="100" mode="linear"/> -->
+	  <!-- </storyboard> -->
 	  
-    </image>
+    <!-- </image> -->
 	
 	
 	
-	<!-- MODIF du Cadre de l'aide en bas en VUE Vertical Arts -->
-	
-	
-	
-	
-	
-	
-	
-</view>
+<!-- </view> -->
 
 	
 

@@ -134,6 +134,19 @@
 	
 </view>
 
+
+
+
+
+<customView name="fanart">
+
+	<image name="Consoles,sensorbar">
+		<visible>false</visible>
+	</image>
+
+</customView>
+
+
  
   
   <view name="detailed">

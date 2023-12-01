@@ -50,16 +50,13 @@
 <dateFormat>%d/%m/%Y</dateFormat>
 <helpbuttons>Posición de los botones</helpbuttons>
 <gamecarouseltype>Fuente de la imagen</gamecarouseltype>
-<gamelistFont>¿Qué fuente?</gamelistFont>
-<gamelistFontSize>¿Cuál es el tamaño de letra?</gamelistFontSize>
-<gamelistLines>¿Cuántas líneas hay en la lista de juego?</gamelistLines>
 <gameBar>Barra de información del juego</gameBar>
 <animatedInfobar>Animación de la sección general</animatedInfobar>
 <subset.logostyle>Logotipo</subset.logostyle>
 <color>En color</color>
 <blackandwhite>Blanco y negro</blackandwhite>
 <custom>Personalizado</custom>
-<user.logo>Su logotipo</user.logo>
+<user.logo>Tu logotipo</user.logo>
 <user.username>Tu apodo</user.username>
 <system-description>Descripción del sistema</system-description>
 <system-controllers>Imagen de los mandos</system-controllers>
@@ -69,6 +66,14 @@
 <mediumboxesview>Cajas - Tamaño mediano</mediumboxesview>
 <smallboxesview>Cajas - Tamaño pequeño</smallboxesview>
 <user.help>Ayuda para logotipo y apodo personalizados</user.help>
+<subset.frameColor>color del cuadro</subset.frameColor>
+<subset.infoColor>Texto y color informativo</subset.infoColor>
+<gamelistFont>Lista de juegos: Tipo</gamelistFont>
+<gamelistFontSize>Lista de juegos: tamaño de letra</gamelistFontSize>
+<gamelistLines>Lista de juegos: Número de líneas</gamelistLines>
+<fanart.Display>Fondo Vista Fanart</fanart.Display>
+<descriptionFontSize>Descripción Tamaño de letra</descriptionFontSize>
+
 
 </variables>
 

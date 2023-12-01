@@ -50,9 +50,6 @@
 <dateFormat>%d/%m/%Y</dateFormat>
 <helpbuttons>Position des boutons</helpbuttons>
 <gamecarouseltype>Image source</gamecarouseltype>
-<gamelistFont>Quelle Police de caractères ?</gamelistFont>
-<gamelistFontSize>Quelle est la taille des caractères ?</gamelistFontSize>
-<gamelistLines>Combien de lignes dans la gamelist ?</gamelistLines>
 <gameBar>Barre d'information des jeux</gameBar>
 <animatedInfobar>Animation du volet aperçu</animatedInfobar>
 <subset.logostyle>Style des logos</subset.logostyle>
@@ -71,7 +68,7 @@
 <user.help>Help for custom logo and nickname</user.help>
 <subset.frameColor>Couleur du cadre</subset.frameColor>
 <subset.infoColor>Couleur texte et info</subset.infoColor>
-<dimgrey>Gris sombre</dimgrey>
+<dimgray>Gris sombre</dimgray>
 <silver>Argent</silver>
 <ivory>Ivoire</ivory>
 <lavenderblush>Lavande</lavenderblush>
@@ -116,13 +113,21 @@
 <cadetblue>Cadetblue</cadetblue>
 <lightskyblue>Bleu ciel clair</lightskyblue>
 <skyblue>Bleu ciel</skyblue>
-<deepskyblue>Bleu ciel profond</deepskyblue>
+<deepskyblue>Bleu profond</deepskyblue>
 <cornflowerblue>Bleu azur</cornflowerblue>
 <steelblue>Bleu acier</steelblue>
 <royalblue>Bleu royal</royalblue>
 <midnightblue>Bleu nuit</midnightblue>
+<gamelistFont>gamelist : Type de police </gamelistFont>
+<gamelistFontSize>gamelist : Taille de la police</gamelistFontSize>
+<gamelistLines>gamelist : Nombre de lignes</gamelistLines>
+<fanart.Display>Affichage des fanarts en arrière plan</fanart.Display>
+<descriptionFontSize>Taille de la police des descriptions</descriptionFontSize>
 
 
 </variables>
 
 </theme>
+
+
+

@@ -5,10 +5,8 @@
   
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
-
-<size>0.4416667 0.3425926</size>									
-<pos>0.4714583 0.6944444</pos>									
-									
+		<size>0.4416667 0.3425926</size>									
+		<pos>0.4714583 0.6944444</pos>									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -29,13 +27,9 @@
   
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-
-<pos>0.4822396 0.6925926</pos>																
-<maxSize>0.2609375 0.2685185</maxSize>																
-
+		<pos>0.4822396 0.6925926</pos>																
+		<maxSize>0.2609375 0.2685185</maxSize>																
 		<zIndex>30</zIndex>
-
-	  
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
 			</storyboard>
@@ -55,8 +49,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.2609375 0.2685185</size>									
-<pos>0.4822396 0.6925926</pos>									
+		<size>0.2609375 0.2685185</size>									
+		<pos>0.4822396 0.6925926</pos>									
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -71,19 +65,22 @@
 			</storyboard>
 	</image>
 	
-
-
 	<text name="md_description">
 	  <pos>0.18 0.211</pos>
 	</text>
 
-
-
-	
 </view>  
   
   
+<customView name="fanart">
 
+	<text name="md_description">
+		<origin>0 0</origin>
+		<pos>0.05 0.64</pos>
+		<size>0.35 0.258</size>
+	</text>
+
+</customView>
 
 
  
@@ -92,7 +89,6 @@
 	<image name="ecran_console" extra="static">
 		<pos>0.48 0.242</pos>   
 		<size>0.4416667 0.3425926</size>									
-
 		<scale>1</scale>
 		<opacity>1</opacity>
 		<color>FFFFFF</color>
@@ -155,15 +151,15 @@
 		<roundCorners>0.01</roundCorners>
 		
 		<storyboard event="open">
-                <animation property="x" to="0.395" begin="1200"  duration="250" mode="linear"/>
-				<animation property="y" to="0.27" begin="1200"  duration="250" mode="linear"/>
-				<animation property="scale" to="0.93" begin="1200"  duration="250" mode="linear"/>
+                <animation property="x" to="0.40" begin="1200"  duration="250" mode="linear"/>
+				<animation property="y" to="0.278" begin="1200"  duration="250" mode="linear"/>
+				<animation property="scale" to="0.925" begin="1200"  duration="250" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.395" begin="1200"  duration="250" mode="linear"/>
-				<animation property="y" to="0.27" begin="1200"  duration="250" mode="linear"/>
-				<animation property="scale" to="0.93" begin="1200"  duration="250" mode="linear"/>
+                <animation property="x" to="0.40" begin="1200"  duration="250" mode="linear"/>
+				<animation property="y" to="0.278" begin="1200"  duration="250" mode="linear"/>
+				<animation property="scale" to="0.925" begin="1200"  duration="250" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
@@ -172,9 +168,6 @@
 		
 	</image>
 	
-	
-	
-
 
 	<text name="md_description">
 		<pos>0.7257813 0.3532407</pos>									

@@ -1,348 +1,446 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--
-Theme: Animatix-DX for Retrobat / Batocera / Emuelec
-author: Snapouille
-license: creative commons CC-BY-NC-SA
-originally based on: "carbon"
--->
-<theme defaultView="detailed">
-  <formatVersion>7</formatVersion>
-  
-  
-    <view name="video">
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="video">> 
 
 
-	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
-	<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static">
+	<image name="cadre, iconsLine" extra="true">
+			<visible>false</visible>
+	</image>
+
+	
+	<image name="bg_overlay" extra="true">
+		<origin>0 0</origin>
+		<pos>0 0</pos>
+		<size>1 1</size>
+		<path>./../../art/divers/overlay_fanart_view.png</path>
+		<color>FFFFFF</color>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>10</zIndex>
+	</image>
+	
+	
+
+
+
+	<textlist name="gamelist">
 		<origin>0.5 0.5</origin>									
-		<size>0.2989583 0.0324074</size>									
-		<pos>0.845 0.143</pos>									
-		<text>- {game:systemName} -</text> 
-        <alignment>right</alignment>
-        <verticalAlignment>top</verticalAlignment>
-		<forceUppercase>1</forceUppercase>
-		<color>${systemInfoColor}</color>
-		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
-		<fontSize>0.018</fontSize>
-		<zIndex>131</zIndex>
+		<size>0.2166667 0.6351852</size>									
+		<pos>0.8557292 0.5240741</pos>									
+		<!-- <fontPath>./../../art/fonts/ubuntu.ttf</fontPath> -->
+		<!-- <fontSize>0.021</fontSize>  -->
+		<!-- <lineSpacing>1.5</lineSpacing>  -->
+		<alignment>left</alignment>
+		<horizontalMargin>0.0</horizontalMargin>
+		<zIndex>30</zIndex> 
+		<!-- RVGM Style -->
+		<selectedColor>${baseColor}</selectedColor> 
+		<primaryColor>bebebe</primaryColor> 
+		<secondaryColor>c1e8f9</secondaryColor> 
+		<selectorColor>252831</selectorColor> 
+		<selectorHeight>0.05</selectorHeight>
+		<!-- Sound effect on Scroll -->
+		<scrollSound>./../../art/sounds/linemove.wav</scrollSound>
+	</textlist>
+	
+	
+	
+	<image name="triangle-rvgm-haut, triangle-rvgm-bas" extra="true">
+		<origin>0.5 0.5</origin>
+		<size>0.0223958 0.0194444</size>									
+		<path>./../../art/divers/triangle-rvgm-haut.png</path>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>11</zIndex>
+	</image>
+	
+	<image name="triangle-rvgm-haut" extra="true">
+		<pos>0.8523438 0.1865741</pos>									
+		<path>./../../art/divers/triangle-rvgm-haut.png</path>
+		  <storyboard repeatAt="1">
+				<animation property="offsetY" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+				<animation property="offsetY" from="0" to="0" begin="5000" duration="1" mode="Linear"/>
+		  </storyboard>
+	</image>
+
+	<image name="triangle-rvgm-bas" extra="true">
+		<pos>0.8518229 0.862963</pos>									
+		<path>./../../art/divers/triangle-rvgm-bas.png</path>
+		  <storyboard repeatAt="1">
+				<animation property="offsetY" from="0" to="0.01" begin="3500" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+				<animation property="offsetY" from="0" to="0" begin="5000" duration="1" mode="Linear"/>
+		  </storyboard>
+	</image>
+		
+
+	
+	
+
+	<!-- On masque le cadre de l'aide -->
+	<image name="up_BottomFrame, down_BottomFrame, left_BottomFrame, right_BottomFrame, black_BottomFrame" extra="true">
+		<visible>false</visible>
+	</image>
+
+
+	<helpsystem name="help">
+		<iconColor>FFFFFF</iconColor>
+		<fontSize>0.02</fontSize>
+		<pos>0.005 0.975</pos>
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+	</helpsystem>
+
+
+	<image name="md_thumbnail, md_boxback"> 
+		<origin>0 0</origin>
+		<pos>0.0255 0.0639</pos>
+		<maxSize>0.34 0.6689</maxSize>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>30</zIndex> 
+	</image>
+	
+	
+	
+	<image name="md_boxback">
+		<opacity>0</opacity>
+		<zIndex>31</zIndex>
+		<storyboard event="activateNext">        
+			<animation property="opacity" from="0" to="1" begin="5000" duration="400" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">        
+			<animation property="opacity" from="0" to="1" begin="5000" duration="400" mode="linear"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="400" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="400" mode="linear"/>
+		</storyboard>
+	</image>
+	
+
+	<text name="md_description">
+		<origin>0.5 0.5</origin>									
+		<size>0.3973958 0.1657407</size>									
+		<pos>0.5210938 0.8671296</pos>									
+		<color>000000</color>
+		<!-- <fontSize>0.017</fontSize> on choisit auto la taille dans les menus -->
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+		<alignment>left</alignment>
+		<zIndex>30</zIndex>
+	</text>
+
+	<!-- Logo des systèmes -->
+	<image name="logo" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>									
+		<pos>0.8552083 0.0916667</pos>									
+		<maxSize>0.2072917 0.0907407</maxSize>									
+		<scale>0</scale>
+		<opacity>0</opacity>
+		<zIndex>200</zIndex>         
+		  <storyboard>
+			<animation property="scale" to="1" begin="" duration="500" mode="linear"/>
+			<animation property="opacity" to="1" begin="" duration="500" mode="linear"/>
+		  </storyboard>
+	</image>
+
+
+
+	<rating name="md_rating">
+		<pos>0.413 0.12</pos>
+		<size>0.16 0.032</size>
+		<color>FFFF00</color>
+		<!-- <color>${dataColor}</color> -->
+		<horizontalAlignment>right</horizontalAlignment>
+		<rotation>0</rotation>
+		<opacity>0</opacity>
+		<zIndex>99</zIndex>
+	</rating>
+
+
+
+
+	<video name="md_video">
+		<pos>0.55 0.45</pos>
+		<size>0.334 0.445</size>
+		<snapshotSource>image</snapshotSource>
+		<origin>0.5 0.5</origin>
+		<snapshotSource>image</snapshotSource>
+		<showSnapshotNoVideo>true</showSnapshotNoVideo> 
+		<showSnapshotDelay>true</showSnapshotDelay>
+		<loops>3</loops>
+		<delay>0.5</delay> 
+		<effect>none</effect>
+		<zIndex>50</zIndex> 
+	</video>
+
+
+	
+		<!-- Affichage du controller2 -->
+	<image name="controller2" extra="true">
+		<tile>false</tile>
+		<origin>0.5 0.5</origin>									
+		<pos>0.4434896 0.1337963</pos>									
+		<maxSize>0.1130208 0.1435185</maxSize>									
+		<zIndex>99</zIndex>
+		<linearSmooth>true</linearSmooth>
+		<horizontalAlignment>center</horizontalAlignment>
+			<path>./../../art/controllers2/default.png</path>
+			<path>./../../art/controllers2/${system.theme}.png</path>
+			<path ifSubset="artworkregion:US">./../../art/controllers2/US/${system.theme}.png</path>
+			<path ifSubset="artworkregion:JP">./../../art/controllers2/JP/${system.theme}.png</path>
+			<!-- si COLLECTION on affiche le systeme au lieu de la manette -->
+			<!-- CASSER avec le nouveau ES en attente d'instructions f.caruso -->
+			<path if="${system.manufacturer} == 'Collections'">./../../art/consoles/{game:system}.png</path>
+		<opacity>0</opacity>
+		<scale>0</scale>
+
 		<storyboard event="open">
-			<animation property="offsetX" from="1" to="0" begin="" duration="1000" mode="linear"/>
-			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
-			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetX" to="-0.005" begin="12000" duration="100" autoreverse="true" mode="linear"/>
-			<animation property="color" to="FFFF00" begin="18000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
-			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetX" to="-0.005" begin="24000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="opacity" to="1" begin="" duration="300" mode="Linear"/>
+			<animation property="scale" to="1" begin="" duration="300" mode="Linear"/>
 		</storyboard>
+		
 		<storyboard event="activate">
-			<animation property="offsetX" from="-0.01" to="0" begin="" duration="300" mode="linear"/>
-			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
-			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetX" to="-0.005" begin="12000" duration="100" autoreverse="true" mode="linear"/>
-			<animation property="color" to="FFFF00" begin="18000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
-			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetX" to="-0.005" begin="24000" duration="100" autoreverse="true" mode="linear"/>
+			<animation property="opacity" to="1" begin="" duration="1" mode="Linear"/>
+			<animation property="scale" to="1" begin="" duration="1" mode="Linear"/>
+			<animation property="offsetY" to="0.002" begin="200" duration="150" autoreverse="true" mode="Linear"/>
 		</storyboard>
+		
 		<storyboard event="deactivate">
 		   <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
 		
-	</text>
-
-
-
-	<image name="background">
-	  <path>./../../art/divers/bgvideo.png</path>
-	  <color>${backgroundColor}</color>
-	  <zIndex>5</zIndex>
-	</image>
-	
-	<image name="topLine" extra="true">
-	  <pos>0.6 0.155</pos>
     </image>
-	
-	<image name="detailsBkLine" extra="true">
-	  <path>./../../art/divers/white.png</path>
-	  <color>${baseColor}</color>
-	  <origin>0 0</origin>
-	  <pos>0.6 0.157</pos>
-	  <size>0.003 0.778</size>
-	  <size ifHelpPrompts="false">0.003 0.84</size>
-	  <zIndex>57</zIndex>
-	</image>
-	
-	
-<!-- Encadrement des stats sur les jeux -->
-	 
-	<image name="cadre_gauche, cadre_droit, cadre_haut, cadre_bas">
-		<path>./../../art/divers/white.png</path>
-		<color>${baseColor}</color>
-		<origin>0 0</origin>
-		<zIndex>57</zIndex>
-	</image>
-	 
-	<image name="cadre_gauche" extra="true">
-	  <pos>0.4068 0.086</pos>
-	  <size>0.003 0.46</size>
-	</image>
-	
-	<image name="cadre_droit" extra="true">
-	  <pos>0.543 0.086</pos>
-	  <size>0.003 0.46</size>
-	</image>
-	
-	<image name="cadre_haut" extra="true">
-	  <pos>0.4068 0.086</pos>
-	  <size>0.1395 0.006</size>
-	</image>
-	
-	<image name="cadre_bas" extra="true">
-	  <pos>0.4068 0.543</pos>
-	  <size>0.1395 0.006</size>
-	</image>
-	
-<!-- Quadrillage au niveau des infos (Nombre de parties, Dernier jeu, ...)  -->
-	<image name="info_background" extra="true">
-         <origin>0 0</origin>
-         <pos>0.41 0.086</pos>
-         <size>0.135 0.456</size>
-         <tile>true</tile>
-         <path>./../../art/divers/bg_square.png</path>
-         <zIndex>10</zIndex>
-      </image>
-	
-	
-	
-<!-- Animation LOGO des systèmes  -->	
-	 <image name="logo">
-		  <alignment>center</alignment>
-		  <storyboard>
-			<animation property="scale" from="0" to="4" begin="" duration="300" mode="Linear"/>
-			<animation property="scale" from="4" to="1" begin="620" duration="175" mode="Linear"/>
-			<animation property="x" from="0.5" to="0.79" begin="620" duration="175" mode="Linear"/>
-			<animation property="y" from="0.5" to="0.08" begin="620" duration="175" mode="Linear"/>
-			
-			<animation property="offsetX" from="0.05" to="-0.05" begin="6000" duration="200" autoreverse="true" mode="easeInOut"/>
-			<animation property="offsetX" to="0" begin="6400" duration="1000" mode="easeInCubic"/>
-			<animation property="scale" to="1.1" begin="7400" duration="250" autoreverse="true" mode="bump"/>
-		  </storyboard>
-    </image>
-	
-	
-	
-	
-	
-	<textlist name="gamelist">
-		  <primaryColor>C0C0C0</primaryColor>
-		  <secondaryColor>F0F0F0</secondaryColor>
-		  <selectorColor>${centerFadeColor}</selectorColor>
-		  <selectedColor>fdde0b</selectedColor>
-		  <extraTextColor>c0a767</extraTextColor>
-		  <forceUppercase>0</forceUppercase>
-		  <pos>0.6 0.163</pos>
-		  <size>0.35 0.77</size>
-		  <alignment>left</alignment>
-		  <horizontalMargin>0.01</horizontalMargin>
-		  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-		  <fontSize>0.028</fontSize>
-		  <lines>17</lines>
-		  <scrollSound>./../../art/sounds/scroll.wav</scrollSound>
-		  
-		  <glowColor>000000aa</glowColor>
-		  <glowSize>1.5</glowSize>
-			<glowOffset>1.5 1.5</glowOffset>
-		  
-    </textlist>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<video name="md_video">
-	  <origin>0.5 0.5</origin>
-	  <maxSize>0.5 0.7</maxSize>
-	  <pos>0.186 0.25</pos>
-	  
-	  <delay>1.4</delay>
-	  <effect>none</effect>
-      <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <showSnapshotDelay>true</showSnapshotDelay>
-      <loops>1</loops>
-      <defaultSnapshot>./../../art/divers/mediamissing.png</defaultSnapshot>
-	  
-	  
-	  <opacity>0.77</opacity>
-	  <zIndex>4</zIndex>
-	</video>
-		
-	
-			
-	<image name="md_thumbnail">
-	  <visible>true</visible>
-	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.22 0.45</maxSize>
-	  <maxSize ifHelpPrompts="false">0.22 0.5</maxSize>
-	  <pos>0.117 0.705</pos>
-	  <pos ifHelpPrompts="false">0.117 0.73</pos>
-	  <origin>0.5 0.5</origin>
-	  <reflexion>0 0</reflexion>
-	  <default>./../../art/divers/noboxart.png</default>
 
-	  <zIndex>42</zIndex>
-			
-			<storyboard event="open">
-                <animation property="offsetX" from="-0.5" to="0" begin="" duration="500" mode="EaseInOut"/>
-				<animation property="scale" from="0" to="1" begin="" duration="500" mode="EaseInOut"/>
-			</storyboard>
-			
-			<storyboard event="activate">
-                <animation property="offsetX" from="-0.5" to="0" begin="" duration="500" mode="EaseInOut"/>
-				<animation property="scale" from="0" to="1" begin="" duration="500" mode="EaseInOut"/>
-			</storyboard>
-			
-			<storyboard event="deactivate">
-				<animation property="offsetY" to="0.5" begin="" duration="600" mode="Linear"/>
-				<animation property="scale" to="0" begin="" duration="600" mode="Linear"/>
-			</storyboard>
-	</image>	  
+	
+
 	
 	<image name="md_marquee">
-	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.125 0.148</maxSize>
-	  <pos>0.4765 0.17</pos>
-	  <origin>0.5 0.5</origin>
-	  <zIndex>42</zIndex>
-	  <opacity>0</opacity>
-	  <default>./../../art/divers/nologo.png</default>
-	  	  	
-			<storyboard event="open">
-                <animation property="opacity" from="0" to="1" begin="" duration="1000" mode="Linear"/>
-				<animation property="scale" to="0.9" begin="4000" duration="250" autoreverse="true" mode="bump"/>
-				<animation property="rotation" to="360" begin="10000" duration="250" autoreverse="true" mode="easeInOut"/>
-			</storyboard>
-			
-			<storyboard event="activate">
-                <animation property="offsetY" from="-0.01" to="0" duration="500" mode="Linear"/>
-				<animation property="opacity" from="0" to="1" duration="" mode="Linear"/>
-				<animation property="scale" to="0.9" begin="4000" duration="250" autoreverse="true" mode="bump"/>
-				<animation property="rotation" to="360" begin="10000" duration="250" autoreverse="true" mode="easeInOut"/>
-			</storyboard>
-			
-			<storyboard event="deactivate">
-			    <animation property="opacity" from="1" to="0" duration="100" mode="Linear"/>
-			</storyboard>
-	</image>	  
-	
-	
-	
-	<text name="md_developer">
-	  <origin>0 0</origin>
-	  <color>928e94D0</color>
-	  <size>0.25 0.03</size>
-	  <pos>0.251 0.621</pos>
-	</text>
-	
-	<text name="md_genre">
-	  <visible>true</visible>
-	  <origin>0 0</origin>
-	  <color>${baseColor}</color>
-	  <fontSize>0.028</fontSize>
-	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-	  <size>0.3072916 0.025</size>
-	  <alignment>left</alignment>
-	  <pos>0.251 0.661</pos>
+		<origin>0.5 0.5</origin>									
+		<pos>0.6140625 0.1337963</pos>									
+		<maxSize>0.2 0.1435185</maxSize>									
+		<linearSmooth>true</linearSmooth>
+		<zIndex>900</zIndex> 
+	</image>
+
+
+	<text name="md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, 
+				md_lbl_description, md_lbl_players, md_lbl_rating, md_lbl_gametime
+				md_lbl_releasedate, md_lbl_lastplayed, md_lbl_gametime,
+				md_developer, md_publisher, md_genre, md_playcount,	md_gametime">
+		<origin>0 0</origin>
+		<pos>2 2</pos>
+		<size>0.15 0.015</size>
+		<verticalAlignment>top</verticalAlignment> 
+		<color>000000</color>
+		<fontSize>0.020</fontSize>
+		<lineSpacing>1.3</lineSpacing>
+		<forceUppercase>0</forceUppercase>
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+		<alignment>right</alignment>			
+		<zIndex>40</zIndex>  
 	</text>
 
-	<text name="md_description">
-      <origin>0 0</origin>
-	  <color>928e94D0</color>
-	  <fontSize>0.021</fontSize>
-	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-	  <pos>0.251 0.711</pos>
-	  <size>0.31 0.21</size>
-	  <alignment>left</alignment>
-   </text>
-
-
-
-
-	<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->
-		
-		<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime">
-			<size>0.115 0.03</size>
-			<color>C0C0C0</color>
-			<alignment>right</alignment>
-			<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-			<fontSize>0.022</fontSize>
-		</text>
-		
-		<text name="md_lbl_playcount">
-			<pos>0.42 0.25</pos>
-		</text>
-		
-		<text name="md_lbl_lastplayed">
-			<pos>0.42 0.32</pos>
-		</text>
-		
-		<text name="md_lbl_gametime">
-			<pos>0.42 0.40</pos>
-		</text>
-		
-		<text name="md_lbl_players">
-			<visible>false</visible>
-		</text>
-		
-		
-	<!-- METADATA -->
-	
-	<text name="md_playcount, md_lastplayed, md_gametime">
-	   <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
-	   <fontSize>0.023</fontSize>
-	   <color>${dataColor}</color>
-	   <alignment>right</alignment>
-	   <size>0.115 0.03</size>
+	<text name="md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, 
+			md_lbl_description, md_lbl_players, md_lbl_rating, md_lbl_gametime
+			md_lbl_releasedate, md_lbl_lastplayed, md_lbl_gametime">
+			<color>0e3d63</color>
+			<fontSize>0.019</fontSize>
 	</text>
-	
-	<text name="md_playcount">
-		<pos>0.415 0.28</pos>
+
+	<text name="md_developer, md_publisher, md_genre, md_playcount, md_gametime">
+		<alignment>left</alignment>
 	</text>
-	
-	<datetime name="md_lastplayed">
-		<pos>0.415 0.35</pos>
+
+	<datetime name="md_releasedate, md_lastplayed">
+		<origin>0 0</origin>
+		<pos>2 2</pos>
+		<size>0.15 0.015</size>
+		<color>000000</color>
+		<fontSize>0.020</fontSize>
+		<forceUppercase>0</forceUppercase>
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+		<alignment>left</alignment>
+		<zIndex>40</zIndex>
 	</datetime>
 	
-	<text name="md_gametime">
-		<pos>0.415 0.43</pos>	
-	</text>
-    
 	
+
 	<text name="md_players">
-		<origin>0.5 0.5</origin>
 		<fontPath>./../../art/fonts/players.ttf</fontPath>
-		<size>0.203 0.103</size>
-		<pos>0.433 0.505</pos>
-		<alignment>right</alignment>
-		<fontSize>0.048</fontSize>
+		<alignment>left</alignment>
+		<fontSize>0.062</fontSize>
+		<color>4c5058</color>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>55</zIndex>
+	</text>
+
+
+	<text name="md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_releasedate">
+		<size>0.09 0.03</size>
+	</text>
+	<text name="md_lbl_developer">
+		<pos>0.015 0.745</pos>
+	</text>
+	<text name="md_lbl_publisher">
+		<pos>0.015 0.780</pos>
+	</text>
+	<text name="md_lbl_genre">
+		<pos>0.015 0.815</pos>
+	</text>
+	<text name="md_lbl_releasedate">
+		<pos>0.015 0.850</pos>
+	</text>
+	<text name="md_developer, md_publisher, md_genre">
+		<size>0.197 0.03</size>
+	</text>
+	<text name="md_developer">
+		<pos>0.106 0.745</pos>
+	</text>
+	<text name="md_publisher">
+		<pos>0.106 0.780</pos>
+	</text>
+	<text name="md_genre">
+		<pos>0.106 0.815</pos>
+		<color>${baseColor}</color>
+	</text>
+	<datetime name="md_releasedate">
+		<pos>0.106 0.8468</pos>
+		<size>0.210 0.03</size>
+		<rotation>0</rotation>
+	</datetime>
+	<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime">
+		<size>0.115 0.03</size>
+	</text>
+	<text name="md_lbl_playcount">
+		<pos>0.396 0.695</pos>
+	</text>
+	<text name="md_lbl_lastplayed">
+		<pos>0.520 0.698</pos>
+	</text>
+	<text name="md_lbl_gametime">
+		<pos>0.520 0.73</pos>
+	</text>
+	<text name="md_playcount">
+		<pos>0.512 0.695</pos>
+		<size>0.024 0.03</size>
+	</text>
+	<datetime name="md_lastplayed">
+		<pos>0.636 0.695</pos>
+		<size>0.09 0.03</size>
+	</datetime>
+	<text name="md_gametime">
+		<pos>0.636 0.73</pos>
+		<size>0.09 0.03</size>
+	</text>
+	<text name="md_players">
+		<pos>0.0255 0.877</pos>
+		<size>0.18 0.079</size>
+	</text>
+	<rating name="md_rating">
+		<pos>0.44 0.725</pos>
+		<size>0.16 0.032</size>
+	</rating>
+	
+	
+	
+
+
+
+	<image name="md_flag">
+		<origin>0.5 0.5</origin>									
+		<pos>0.765625 0.9296296</pos>									
+		<maxSize>0.025 0.0296296</maxSize>																
+	</image>
+
+
+
+	<image name="md_manual,md_nomanual, ghost_manual, 
+	             md_savestate,md_nosavestate,ghost_savestate
+				 md_kidgame, md_notkidgame, ghost_kidgame
+				 md_map, md_nomap, ghost_md_map
+				 md_cheevos,md_notcheevos, ghost_cheevos
+				 md_hidden, ghost_hidden">
+		<origin>0.5 0.5</origin>
+		<maxSize>0.02 0.03</maxSize>
 		<color>dddddd</color>
-        <singleLineScroll>true</singleLineScroll>
-    </text>
-  </view>
-  
-  
-  
-  
-  
-  
-   <include>./gamelistParameters.xml</include>
-  
-  
+		<zIndex>150</zIndex>
+	</image>
+	
+
+	<image name="md_manual,md_nomanual, ghost_manual">
+		<pos>0.8223958 0.9296296</pos>									
+		<path>./../../art/icons/book.png</path>
+	</image>
+	
+	<image name="md_savestate,md_nosavestate,ghost_savestate">
+		<pos>0.8494792 0.9296296</pos>									
+		<path>./../../art/icons/SaveState.png</path>
+	</image>
+
+	<image name="md_kidgame, md_notkidgame, ghost_kidgame"> 
+		<pos>0.8739583 0.9296296</pos>									
+		<path>./../../art/icons/kid.svg</path>
+	</image>
+
+	<image name="md_map, md_nomap, ghost_md_map"> 
+		<pos>0.8963542 0.9296296</pos>									
+		<path>./../../art/icons/map.png</path>
+	</image>
+
+	<image name="md_cheevos,md_notcheevos, ghost_cheevos">
+		<pos>0.9192708 0.9296296</pos>									
+		<path>./../../art/icons/Contest.png</path>
+		<color>FFFF00</color>
+	</image>
+	
+	<image name="md_hidden, ghost_hidden">
+		<pos>0.9453125 0.9296296</pos>									
+		<path>./../../art/icons/hidden.svg</path>
+		<color>ff0000</color>
+	</image>
+
+
+	<image name="md_nomanual, md_nosavestate, md_notkidgame, md_nomap, md_notcheevos">
+		<color>80808040</color>
+	</image>
+
+
+<!-- pour contrer le bug que l'icone parfois disparaît sans raison .... -->
+	<image name="ghost_manual, ghost_savestate, ghost_kidgame, ghost_md_map, ghost_cheevos, ghost_hidden" extra="true">
+		<color>80808080</color>
+		<zIndex>149</zIndex> 
+		<storyboard event="open">
+			<animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+	   </storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+		</storyboard>
+	</image>
+
+	
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+</view>
+
 </theme>

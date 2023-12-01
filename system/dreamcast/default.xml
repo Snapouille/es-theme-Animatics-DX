@@ -24,7 +24,7 @@
 				
 				<animation property="scale" to="1.1" begin="2700" duration="350" mode="Linear"/>
 				<animation property="x" from="0.20" to="0.413" begin="2700" duration="375" mode="EaseOut"/>
-				<animation property="y" from="0.263" to="0.11" begin="2700" duration="375" mode="EaseOut"/>
+				<animation property="y" from="0.263" to="0.01" begin="2700" duration="375" mode="EaseOut"/>
 
         		
 		</storyboard>

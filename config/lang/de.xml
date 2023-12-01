@@ -50,9 +50,6 @@
 <dateFormat>%d/%m/%Y</dateFormat>
 <helpbuttons>Position der Tasten</helpbuttons>
 <gamecarouseltype>Quellbild</gamecarouseltype>
-<gamelistFont>Welche Schriftart?</gamelistFont>
-<gamelistFontSize>Wie groß ist die Schriftgröße?</gamelistFontSize>
-<gamelistLines>Wie viele Zeilen in der Gameliste?</gamelistLines>
 <gameBar>Informationsleiste der Spiele</gameBar>
 <animatedInfobar>Animation des Überblicks</animatedInfobar>
 <subset.logostyle>Stil der Logos</subset.logostyle>
@@ -69,6 +66,14 @@
 <mediumboxesview>Boxen - mittlere Größe</mediumboxesview>
 <smallboxesview>Boxen - Kleine Größe</smallboxesview>
 <user.help>Hilfe für eigenes Logo und Spitznamen</user.help>
+<subset.frameColor>Rahmenfarbe</subset.frameColor>
+<subset.infoColor>Text- und Info-Farbe</subset.infoColor>
+<gamelistFont>Gameliste: Tippfehler</gamelistFont>
+<gamelistFontSize>Gameliste: Schriftgröße</gamelistFontSize>
+<gamelistLines>Gameliste: Anzahl der Zeilen</gamelistLines>
+<fanart.Display>Hintergrund Fanart Ansicht</fanart.Display>
+<descriptionFontSize>Beschreibung Schriftgröße</descriptionFontSize>
+
 
 </variables>
 

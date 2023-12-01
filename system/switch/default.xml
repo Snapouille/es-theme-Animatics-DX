@@ -10,7 +10,7 @@
 		<image name="avatar-mario1" extra="static">
 			<origin>0 0</origin>									
 			<size>0.4208333 0.6731481</size>									
-			<pos>0.072 0.306</pos>
+			<pos>0.072 0.304</pos>
 			<scale>0.6</scale>
 			<opacity>0</opacity>
 			<path>./avatar-mario1.png</path>
@@ -30,7 +30,7 @@
 		<image name="avatar-mario2" extra="static">
 			<origin>0 0</origin>									
 			<size>0.4208333 0.6731481</size>
-			<pos>0.072 0.306</pos>
+			<pos>0.072 0.304</pos>
 			<scale>0.6</scale>
 			<opacity>0</opacity>
 			<path>./avatar-mario2.png</path>
@@ -61,7 +61,7 @@
 			<scale>0.6</scale>
 			<opacity>0</opacity>
 			<path>./avatar-chapeau.png</path>
-			<zIndex>135</zIndex>
+			<zIndex>13500</zIndex>
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="" duration="100" mode="linear"/>
 				<animation property="x" to="0.243" begin="" duration="1000" mode="linear"/>
@@ -101,7 +101,7 @@
 			<rotation>0</rotation>
 			<opacity>0</opacity>
 			<path>./avatar-chapeau2.png</path>
-			<zIndex>136</zIndex>
+			<zIndex>13600</zIndex>
 			<linearSmooth>true</linearSmooth>
 			
 			<storyboard repeat="forever">		

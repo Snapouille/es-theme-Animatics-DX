@@ -97,8 +97,11 @@
 		</image>
 		
 		<image name="md_marquee">
-			<pos>0.7 0.09</pos>
+			<pos>0.13 0.09</pos>
+			<maxSize>0.2 0.085</maxSize>
 		</image>
+  
+  
   
   
 					

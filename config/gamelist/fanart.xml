@@ -10,320 +10,415 @@ originally based on: "carbon"
   
   
     
-<customView name="fanart" inherits="boxes_big" displayName="${fanartview}">
-	
-	<image name="topLine, logo, cadre, background" extra="true">
-		<visible>false</visible>
-    </image>
-	
-	<imagegrid name="gamegrid">
-	  <origin>0.5 0.5</origin>
-	  <pos>0 0.31</pos>
-	  <size>1 1</size>
-	  <margin>0.0772 0</margin>
-	  <padding>0.02 0 0.02 0</padding>
-      <scrollDirection>horizontal</scrollDirection>
-      <autoLayout>5 1</autoLayout>
-	  <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
-	  <imageSource>marquee</imageSource>
-      <centerSelection>true</centerSelection>
-	  <animateSelection>true</animateSelection>
-	  <scrollLoop>true</scrollLoop>
-	  
-	  <gameImage>./../../art/divers/nologo.png</gameImage>
-	  
-      <zIndex>50</zIndex>
+<customView name="fanart" inherits="gamecarousel" displayName="${fanartview}">
+
+
+	<image name="cadre, logo, ecran_console, console-collection, md_thumbnail, Chevron_haut, Chevron_bas, cadre_haut1, cadre_haut2, black_bg" extra="true">
+			<visible>false</visible>
+	</image>
+
+	<image name="diagobase1, diagobase2, diagobase3, diagobase4, diagobase5, diagoyellow1, diagoyellow2, diagoyellow3, diagoyellow4, diagoyellow5">
+			<visible>false</visible>
+	</image>
+
+	<text name="WhatSystemGAME" extra="true">
+		<pos>0.70 0.027</pos>
+		<alignment>right</alignment>
+		<zIndex>34</zIndex>
+	</text>
+
+	<video name="md_video">
+			<visible>false</visible>
+	</video>
+
+
+	<image name="background">		  
+	  <zIndex>5</zIndex>
+	  <scale>1.3</scale>
 	  
 	  <storyboard>
-				<animation property="scale" to="1.1" begin="" duration="500" autoreverse="true" mode="EaseOut"/>
-      </storyboard>
-	  
-	</imagegrid>
+			<animation property="offsetX" to="-0.35"/>
+			<animation property="offsetY" to="-0.1"/>
+			<animation property="offsetY" to="-0.2" begin="10" duration="1000" mode="EaseInOut"/>
+	  </storyboard>
+	</image>
+		
 	
-    <gridtile name="default">
-      <padding>0 0</padding>
-      <backgroundCenterColor>44444400</backgroundCenterColor>
-	  <backgroundEdgeColor>66666600</backgroundEdgeColor>
-	  <selectionMode>image</selectionMode>
-      <imageSizeMode>maxSize</imageSizeMode>
-	  <imageColor>505050FF</imageColor>
-    </gridtile>
+		<gamecarousel name="gamecarousel">
+            <type>horizontal</type>
+            <origin>0 0</origin>
+            <pos>0.45 0.05</pos>
+            <size>0.55 1</size>
+            <backgroundColor>333333</backgroundColor>
+            <logoScale>2</logoScale>
+            <logoSize>0.15 0.5</logoSize>
+            <maxLogoCount>6</maxLogoCount>
+            <logoRotation>0</logoRotation>
+            <logoRotationOrigin>1 1</logoRotationOrigin>
+            <logoAlignment>center</logoAlignment>
+            <logoPos>0.075 0.35</logoPos>
+            <minLogoOpacity>0.3</minLogoOpacity>
+            <imageSource>boxart</imageSource>
+            <zIndex>21</zIndex>
+			<!-- <default>./../../art/divers/noboxart.png</default> -->
+		    <!-- <gameImage>./../../art/divers/noboxart.png</gameImage> -->
+        </gamecarousel>
+
+        <text name="gamecarouselLogoText">
+            <color>FFFFFFFF</color>
+            <glowColor>00000050</glowColor>
+            <glowSize>3</glowSize>
+            <glowOffset>3</glowOffset>
+            <lineSpacing>1.0</lineSpacing>
+            <fontSize>0.040</fontSize>
+        </text>
+
+        <!-- Overlay background -->
+        <image name="overlay" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./../../art/divers/overlay_fanart_view.png</path>
+            <zIndex>16</zIndex>
+        </image>
+
+
+        <image name="md_fanart">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+			
+			<maxSize>0.7 0.7101852</maxSize>									
+
+            <zIndex>14</zIndex>
+			<scale>1</scale>
+            <storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="800" mode="easeInOut"/>
+            </storyboard>
+        </image>
+
+
+
+        <text name="md_name">
+            <origin>0 0</origin>
+            <pos>0.05 0.52</pos>
+            <size>0.39 0.1</size>
+		    <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+            <fontSize>0.032</fontSize>
+            <color>FFFFFF</color>
+            <glowColor>00000016</glowColor>
+            <glowSize>1</glowSize>
+            <alignment>left</alignment>
+            <zIndex>99</zIndex>
+
+            <storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
+            </storyboard>
+        </text>
+
+
+        <datetime name="md_releasedate">
+            <pos>0.062 0.577</pos>
+            <storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
+            </storyboard>
+        </datetime>
+		
+		<image name="md_flag">
+			<pos>0.089 0.5756481</pos>		
+            <storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
+            </storyboard>
+		</image>
+		
+		<text name="md_developer">
+			<pos>0.103 0.562</pos>	
+            <storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
+            </storyboard>
+		</text>
 	
-    <gridtile name="selected">
-      <backgroundCenterColor>88000000</backgroundCenterColor>
-      <backgroundEdgeColor>DD000000</backgroundEdgeColor>
-	  <backgroundCornerSize>8 8</backgroundCornerSize>
-	  <imageColor>FFFFFFFF</imageColor>
-      <padding>0 0</padding>
-    </gridtile>
-	
-	<ninepatch name="gridtile.background:selected">
-	  <animateColor>AA660000</animateColor>
-    </ninepatch>
+		<text name="md_genre">
+			<fontSize>0.019</fontSize>
+			<pos>0.05 0.59</pos>
+            <storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
+            </storyboard>
+		</text>
+		
 
-     <image name="gridtile.marquee">
-         <pos>0.5 0.5</pos>
-         <origin>0.5 0.5</origin>
-         <size>0 0</size>
-		 
-		 
-      </image>
-	  
-      <image name="gridtile.marquee:selected">
-	     <pos>0.5 0.70</pos>
-         <color>FFFFFFFF</color>
-         <size>0 0</size>
-		 
-      </image>
-	  
-	   <image name="gridtile.favorite">
-         <pos>0.914 0</pos>
-         <maxSize>0.5 0.5</maxSize>
-		 
-		<storyboard repeatAt="forever">
-			<animation property="rotation" to="1080" begin="3000" duration="2000" autoreverse="true" mode="easeInOut"/>
-			<animation property="scale" to="0" begin="15000" duration="1000" autoreverse="true" mode="easeInOut"/>
-			<animation property="scale" to="0" begin="30000" duration="1000" autoreverse="true" mode="easeInOut"/>
-		</storyboard>
-      </image>
-	  
- 
-	  
-	  
+        <text name="md_description">
+            <origin>0 0</origin>
+			<pos>0.05 0.64</pos>
+			<size>0.35 0.258</size>
+			<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+            <fontSize>0.016</fontSize>
+            <color>CCCCCC</color>
+            <glowColor>00000016</glowColor>
+            <glowSize>1</glowSize>
+            <alignment>left</alignment>
+            <lineSpacing>1.16</lineSpacing>
 
-	<!-- on passe juste la couleur de selection de fond en transparent -->
-	<ninepatch name="gridtile.background:selected">
-		<color>FFFFFF00</color>
-    </ninepatch>
-
-
-
-
-      <image name="md_fanart">
-		<default>./../../art/divers/bg.png</default>
-	  	<linearSmooth>true</linearSmooth>
-        <pos>0 0</pos>
-        <origin>0 0</origin>
-        <size>1 1</size>
-        <zIndex>3</zIndex>
-		<color>FFFFFFFF</color>
-		<colorEnd>000000FF</colorEnd>
-        <gradientType>vertical</gradientType>
-		<scale>1.1</scale>
-		<saturation>0</saturation>
 			<storyboard event="open">
-				<animation property="saturation" from="0" to="1" mode="linear" duration="2200" begin="0"/>
-				<animation property="scale" from="1" to="1.1" mode="EaseInOut" duration="20000" autoreverse="true" repeat="forever" begin="0"/>
+				<animation property="size" from="0.35 0" to="0.35 0.258" duration="600" mode="linear" />
 			</storyboard>
-			<storyboard event="activateNext">
-				<animation property="saturation" from="0" to="1" mode="linear" duration="2200" begin=""/>
-				<animation property="scale" from="1" to="1.1" mode="EaseInOut" duration="20000" autoreverse="true" repeat="forever" begin="0"/>
-			</storyboard>
-			<storyboard event="activatePrev">
-				<animation property="saturation" from="0" to="1" mode="linear" duration="2200" begin=""/>
-				<animation property="scale" from="1" to="1.1" mode="EaseInOut" duration="20000" autoreverse="true" repeat="forever" begin="0"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="saturation" from="1" to="0" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="deactivateNext">
-				<animation property="saturation" from="1" to="0" mode="linear" duration="1"/>
-			</storyboard>	
-      </image>
-	  
-	  
+
+            <storyboard event="activate">
+                <animation property="size" from="0.35 0" to="0.35 0.258" duration="600" mode="linear" />
+            </storyboard>
+			
+        </text>
 		
-     
-
-      
-
-
-     
-	 <!-- Quadrillage au niveau des metadata (Nombre de parties, Dernier jeu, ...)  -->
-	<image name="info_background2" extra="true">
-		<origin>0.5 0.5</origin>									
-		<size>0.3057292 0.0675926</size>									
-		<pos>0.1648438 0.3897222</pos>									
-		<tile>true</tile>
-		<path>./../../art/divers/bg_square.png</path>
-		<zIndex>10</zIndex>
-    </image>
-	 
-	 
-	 <!-- Cadre gris selection des systèmes en navigation -->
-	<image name="cadre-lecture" extra="true">
-		<path>./../../art/divers/darkwheel1.png</path>
-		<origin>0.5 0.5</origin>									
-		<size>0.3369792 0.54</size>									
-		<pos>0.1627604 0.68</pos>									
-		<zIndex>4</zIndex>
-    </image>
-	 
-	<text name="md_name">
-	  <size>0.31 0.08</size>
-	  <glowColor>c54f4d</glowColor>
-      <glowSize>1</glowSize>
-	  <forceUppercase>1</forceUppercase>
-	</text>
-	 
-
-	<image name="md_thumbnail">
-        <pos>0.89 0.5</pos>
-	    <pos if="{system.theme} == 'amiga500' || {system.theme} == 'neogeocd' || {system.theme} == 'ngpc'  ">0.88 0.5</pos>
-		<pos if="{system.theme} == 'amigacdtv' || {system.theme} == 'amigacd32' || {system.theme} == 'gx4000' || {system.theme} == 'dreamcast' || {system.theme} == 'gameandwatch' ||  {system.theme} == 'gb' || {system.theme} == 'gbc'  || {system.theme} == 'gb2players'  || {system.theme} == 'gbc2players' || {system.theme} == 'gba' || {system.theme} == 'gba2players' || {system.theme} == 'neogeocd' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pcengine' || {system.theme} == 'pce-cd' || {system.theme} == 'psx' || {system.theme} == 'pokemini' || {system.theme} == 'solarus' || {system.theme} == 'sgb' || {system.theme} == 'snes-msu1' || {system.theme} == 'virtualboy' {system.theme} == '3ds' || {system.theme} == 'megaduck' || {system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'virtualboy' || {system.theme} == 'nds' || {system.theme} == 'fds' || ">0.87 0.5</pos>
-		<pos if="{system.theme} == '3do' || {system.theme} == 'model2' || {system.theme} == 'psp' || {system.theme} == 'pv1000' || {system.theme} == 'switch'">0.91 0.5</pos>
-
-	   <maxSize>0.23 0.43</maxSize>
-        <zIndex>36</zIndex>
-	    <linearSmooth>true</linearSmooth>
-	    <default>./../../art/divers/noboxart.png</default>
+		<image name="cadre_gauche" extra="true">
+		  <pos>0.8168 0.07</pos>
+		</image>
 		
-        <storyboard event="open">
-			<animation property="offsetX" from="2" to="1"  duration="3000" />
-			<animation property="offsetX" from="1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="activateNext">
-			<animation property="offsetX" from="2" to="1"  duration="3000" />
-			<animation property="offsetX" from="1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="activatePrev">
-			<animation property="offsetX" from="2" to="1"  duration="3000" />
-			<animation property="offsetX" from="1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="deactivate">
-			<animation property="opacity" from="0" to="0" duration="" mode="linear"/>
-		</storyboard>
+		<image name="cadre_droit" extra="true">
+		  <!-- <pos>0.163 0.09</pos> -->
+		  <pos>0.953 0.07</pos>
+		</image>
+		
+		<image name="cadre_haut" extra="true">
+		  <pos>0.8168 0.07</pos>
+		</image>
+		
+		<image name="cadre_bas" extra="true">
+		  <pos>0.8168 0.381</pos>
+		</image>
+		
+		<image name="AngleCadre" extra="static">
+			<pos>0.8316667 0.3591667</pos>									
+		</image>
+
+		
+		<image name="ca-tourne" extra="true">
+			<pos>0.8420833 0.3837037</pos>									
+
+			<storyboard event="open">
+				<animation property="opacity" to="1"   begin="1000" duration="10"  mode="linear"/>
+				<animation property="x" to="0.9545833" begin="1000" duration="200" mode="linear"/>
+				<animation property="y" to="0.0725926" begin="1200" duration="300" mode="linear"/>
+				<animation property="x" to="0.818125"  begin="1500" duration="200" mode="linear"/>
+				<animation property="y" to="0.3837037" begin="1700" duration="300" mode="linear"/>
+				<animation property="opacity" to="0"   begin="2000" duration="10"  mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+				<animation property="opacity" to="1"   begin="50"   duration="10"  mode="linear"/>
+				<animation property="x" to="0.9545833" begin="50"   duration="200" mode="linear"/>
+				<animation property="y" to="0.0725926" begin="250"  duration="300" mode="linear"/>
+				<animation property="x" to="0.818125"  begin="550" duration="200" mode="linear"/>
+				<animation property="y" to="0.3837037" begin="850" duration="300" mode="linear"/>
+				<animation property="opacity" to="0"   begin="1150" duration="10"  mode="linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		<!-- Bordure gauche du cadre -->
+		
+		<image name="border_gauche"  extra="true">
+			<path>./../../art/divers/white.png</path>
+			<color>${dataColor}</color>
+			<origin>0.5 0.5</origin>									
+			<size>0.003125 0.1037037</size>									
+			<pos>0.8157 0.2231481</pos>									
+			<zIndex>35</zIndex>
+				<storyboard event="open">
+					<animation property="h" to="0.25" begin="" duration="300" autoreverse="true" mode="EaseInOut"/>
+				</storyboard>
+				
+				<storyboard event="activate">
+					<animation property="h" to="0.25" begin="" duration="300" autoreverse="true" mode="EaseInOut"/>
+				</storyboard>
+				
+				<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="10" mode="linear"/>
+				</storyboard>
+		</image>		
+		
+		
+		
+
+		
+<!-- Quadrillage au niveau des metadata (Nombre de parties, Dernier jeu, ...)  -->
+	<image name="info_background" extra="true">
+         <pos>0.82 0.07</pos>
+		 <zIndex>36</zIndex>
       </image>
-
-
-
-
-
-
-      <image name="info_background2,cadre-lecture,md_image,md_flag,cadre_gauche, cadre_droit, cadre_haut, cadre_bas, cadre_droit_droit, cadre_bas_bas,info_background,md_manual,md_nomanual,ghost_manual,md_savestate,md_nosavestate,ghost_savestate,md_kidgame, md_notkidgame,ghost_kidgame,md_map, md_nomap,ghost_md_map,md_cheevos,md_notcheevos,ghost_cheevos">
-        <storyboard event="open">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="activateNext">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="activatePrev">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="deactivate">
-			<animation property="opacity" from="0" to="0" duration="" mode="linear"/>
-		</storyboard>
-      </image>
-
-      <text name="md_description, md_name, md_genre, md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_players">
-         <storyboard event="open">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="activateNext">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="activatePrev">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="deactivate">
-			<animation property="opacity" from="0" to="0" duration="" mode="linear"/>
-		</storyboard>
-      </text>
-
-	<rating name="md_rating">
-		<storyboard event="open">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="activateNext">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="activatePrev">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="deactivate">
-			<animation property="opacity" from="0" to="0" duration="" mode="linear"/>
-		</storyboard>
 	  
-	  
-    </rating>  
+<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->
+			
+		<text name="md_lbl_playcount">
+			<pos>0.83 0.085</pos>
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+			<pos>0.83 0.163</pos>
+		</text>
+		
+		<text name="md_lbl_gametime">
+			<pos>0.83 0.24</pos>
+		</text>
+					
+<!-- METADATA -->
 	
 	
-	<video name="md_video">
-	
-		<storyboard event="open">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="activateNext">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="activatePrev">
-			<animation property="offsetX" from="-2" to="-1"  duration="3000" />
-			<animation property="offsetX" from="-1" to="0"  begin ="4000" duration="3000" mode="EaseOutQuint"/>
-			<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-		</storyboard>
-		<storyboard event="deactivate">
-			<animation property="opacity" from="0" to="0" duration="" mode="linear"/>
-		</storyboard>
-	</video>
-	
-	
-	
-	<text name="md_developer, md_playcount, md_gametime">
-		<storyboard>
-			<animation property="opacity" to="0" begin="" duration="" mode=""/>
-			<animation property="opacity" to="1" begin="5500" duration="1000" mode="linear"/>
-		</storyboard>
+	<text name="md_playcount">
+		<pos>0.825 0.115</pos>		
 	</text>
-
 	
-	
-	
-	
-	
-	<datetime name="md_releasedate, md_lastplayed">
-		<storyboard>
-			<animation property="opacity" to="0" begin="" duration="" mode=""/>
-			<animation property="opacity" to="1" begin="5500" duration="1000" mode="linear"/>
-		</storyboard>
+	<datetime name="md_lastplayed">
+		<pos>0.825 0.193</pos>
 	</datetime>
 	
+	<text name="md_gametime">
+		<pos>0.825 0.270</pos>	
+	</text>
+    
+	
+	<text name="md_players">
+		<pos>0.883 0.343</pos>
+		<size>0.13 0.08</size>
+    </text>
+
+  
+	<!-- Barre and Round du Haut -->
+	<image name="BarAndRound2" extra="static">
+		<pos>0.935 0.073</pos>									
+		<zIndex>35</zIndex>
+		<flipX>true</flipX>
+
+		<storyboard event="open">
+			<animation property="offsetY" to="0.1" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="500" duration="10" mode="linear"/>
+			<animation property="offsetY" to="0" begin="500" duration="300" mode="linear"/>
+			<animation property="offsetX" to="-0.12" begin="800" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" begin="800" duration="300" autoreverse="true" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="opacity" to="1" duration="10" mode="linear"/>
+			<animation property="offsetX" to="-0.12" duration="300" autoreverse="true" mode="linear"/>
+			<animation property="color" to="FFFF00" duration="300" autoreverse="true" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" duration="10" mode="linear"/>
+		</storyboard>
+		
+	</image>
+		
 	
 	
-	
-		<!-- On masque l'image avant la video -->
-			<image name="md_image">
-				<visible>false</visible>
-			</image>
+	<!-- Barre and Round du BAS -->
+	<image name="BarAndRound" extra="true">
+		<pos>0.8665625 0.289</pos>
+		<zIndex>35</zIndex>
+
+		<storyboard event="open">
+			<animation property="y" to="0.2481481" duration="1" mode="linear"/>
+			<animation property="x" to="0.8454167" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="500" duration="10" mode="linear"/>
+			<animation property="y" to="0.289" begin="500" duration="200" mode="linear"/>
+			<animation property="x" to="0.8665625" begin="700" duration="300" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="offsetX" to="-0.005" duration="50" autoreverse="true" mode="linear"/>
+			<animation property="opacity" to="1" duration="10" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" duration="10" mode="linear"/>
+		</storyboard>
+	</image>
 
 	
+		
+	<rating name="md_rating">
+		<pos>0.977 0.416</pos>
+		<size>0.028 0.033</size>
+		<color>FFFF00</color>
+		<horizontalAlignment>right</horizontalAlignment>
+		<unfilledColor>606060</unfilledColor>
+		<unfilledPath>:/star_filled.svg</unfilledPath>
+		<rotation>0</rotation>
+		<opacity>0</opacity>
+		<zIndex>99</zIndex>
+	</rating>
+
+		
+		<image name="md_manual,md_nomanual">
+			<pos>0.976 0.105</pos>
+		</image>
+		
+		<image name="ghost_manual" extra="true">
+			<pos>0.976 0.105</pos>
+		</image>
+	
+		<image name="md_map, md_nomap">
+			<pos>0.976 0.155</pos>
+		</image>
+		
+		<image name="ghost_md_map" extra="true"> 
+			<pos>0.976 0.155</pos>
+		</image>
+		
+		 <image name="md_savestate,md_nosavestate">
+			  <pos>0.976 0.205</pos>
+		</image>
+		
+		<image name="ghost_savestate" extra="true">
+			  <pos>0.976 0.205</pos>
+		</image>
+		
+		<image name="md_kidgame, md_notkidgame"> 
+			<pos>0.976 0.255</pos>
+		</image>
+		
+		<image name="ghost_kidgame" extra="true"> 
+			<pos>0.976 0.255</pos>
+		</image>
+		
+		<image name="md_cheevos,md_notcheevos">
+			<pos>0.976 0.305</pos>
+		</image>
+		
+		<image name="ghost_cheevos" extra="true">
+			<pos>0.976 0.305</pos>
+		</image>
+    
+		<image name="md_hidden">
+			<pos>0.976 0.355</pos>
+		</image>
+		
+		<image name="ghost_hidden" extra="true">
+			<pos>0.976 0.355</pos>
+		</image>
+		
+		
+		
+	<!-- La barre en bas Helpsystem -->
+	
+		<helpsystem name="help">
+			<pos>0.05 0.955</pos>
+			<fontSize>0.025</fontSize>
+		</helpsystem>
+		
+		
+	<!-- On masque le cadre de l'aide -->
+	
+	<image name="up_BottomFrame, down_BottomFrame, left_BottomFrame, right_BottomFrame, black_BottomFrame" extra="true">
+		<visible>false</visible>
+	</image>
+		
+		
   
   
- </customView>
+  
+</customView>
   
   
   

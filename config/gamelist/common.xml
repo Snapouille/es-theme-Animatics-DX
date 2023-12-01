@@ -9,28 +9,89 @@ originally based on: "carbon"
 
   <view name="detailed, video, gamecarousel, grid, fanart">
   
+		<!-- La barre en bas Helpsystem -->
+		<!-- POUR LA METTRE EN PLUS PETITE -->
+		
+			<helpsystem name="help">
+				<!-- <size>0.01 0.01</size> -->
+				<!-- <maxSize>0.1 0.025</maxSize> -->
+				<pos>0.01 0.955</pos>
+				<fontSize>0.0313</fontSize>
+				<!-- <glowColor>00000080</glowColor> -->
+				<!-- <glowSize>1</glowSize> -->
+				<!-- <glowOffset>1</glowOffset> -->
+			</helpsystem>
+
+  
+<!-- Cadre du cartouche de l'aide en bas -->
+	
+	<image name="up_BottomFrame, down_BottomFrame, left_BottomFrame, right_BottomFrame, black_BottomFrame" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>19</zIndex>
+		<origin>0.5 0.5</origin>
+	</image>
+	
+	<!-- barre cadre haut -->
+	<image name="up_BottomFrame" extra="true">
+		<size>1 0.0046296</size>									
+		<pos>0.5 0.9375</pos>
+		
+		<pos ifHelpPrompts="false">2 2</pos>
+	</image>
+		
+	<!-- barre cadre bas -->
+	<image name="down_BottomFrame" extra="true">
+		<size>1 0.0046296</size>									
+		<pos>0.5 0.9976852</pos>										  
+	</image>
+	
+	<!-- barre cadre gauche -->
+	<image name="left_BottomFrame" extra="true">
+		<size>0.0026042 0.0555556</size>									
+		<pos>0.0013021 0.9675926</pos>	
+		
+		<pos ifHelpPrompts="false">2 2</pos>
+	</image>
+	
+	<!-- barre cadre droit -->
+	<image name="right_BottomFrame" extra="true">
+		<size>0.0026042 0.0601852</size>									
+		<pos>0.9986979 0.9652778</pos>		
+		<pos ifHelpPrompts="false">2 2</pos>
+	</image>
+	
+	<!-- fond noir de l'encadrement de l'aide -->
+	<image name="black_BottomFrame" extra="true">
+		<path>./../../art/divers/black.png</path>
+		<zIndex>16</zIndex>
+		<size>1 0.0657407</size>									
+		<pos>0.5 0.9680556</pos>	
+
+		<pos ifHelpPrompts="false">2 2</pos>
+	</image>
+  
+  
+  
 	<!-- Ligne de séparation en bas avec l'aide -->
-    <image name="bottom" extra="true">
-      <pos>0 1</pos>
-      <origin>0 1</origin>
-      <size>1 0.065</size>
-      <path>./../../art/divers/bottom.png</path>
-	  <color>${baseColor}</color>
-      <zIndex>50</zIndex>
-    </image>
-    
-   
+    <!-- <image name="bottom" extra="true"> -->
+      <!-- <pos>0 1</pos> -->
+      <!-- <origin>0 1</origin> -->
+      <!-- <size>1 0.065</size> -->
+      <!-- <path>./../../art/divers/bottom.png</path> -->
+	  <!-- <color>${baseColor}</color> -->
+      <!-- <zIndex>50</zIndex> -->
+    <!-- </image> -->
     
       
-    <image name="topLine" extra="true">
-      <pos>0 0.155</pos>
-      <origin>0 0</origin>
-      <size>1 0.005</size>
-      <path>./../../art/divers/white.png</path>
-      <color>${baseColor}</color>
-	  <!-- <color>fdde0b</color> -->
-      <zIndex>55</zIndex>
-    </image>
+    <!-- <image name="topLine" extra="true"> -->
+      <!-- <pos>0 0.155</pos> -->
+      <!-- <origin>0 0</origin> -->
+      <!-- <size>1 0.005</size> -->
+      <!-- <path>./../../art/divers/white.png</path> -->
+      <!-- <color>${baseColor}</color> -->
+      <!-- <zIndex>55</zIndex> -->
+    <!-- </image> -->
 	
 
 	
@@ -80,6 +141,9 @@ originally based on: "carbon"
 	  </storyboard>
 	  
 	  
+	  
+	  
+	  
     </image>
 
 		   
@@ -94,9 +158,21 @@ originally based on: "carbon"
       <zIndex>200</zIndex>
     </text>  
 	
-	
-	
-	
+
+
+
+	  
+	  
+	  
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
   </view>
   
  

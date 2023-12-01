@@ -54,8 +54,8 @@
 	
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-<maxSize>0.2380208 0.3796296</maxSize>									
-<pos>0.4450521 0.6601852</pos>									
+		<maxSize>0.2380208 0.3796296</maxSize>									
+		<pos>0.4450521 0.6601852</pos>									
 
 		<zIndex>11</zIndex>
 
@@ -77,8 +77,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.2380208 0.3796296</size>									
-<pos>0.4450521 0.6601852</pos>									
+		<size>0.2380208 0.3796296</size>									
+		<pos>0.4450521 0.6601852</pos>									
 		<zIndex>10</zIndex>
 			<storyboard event="open">
 				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
@@ -92,6 +92,17 @@
 				
 	</image>
 </view> 
+   
+   
+   
+<customView name="fanart">
+
+	<image name="Controllers2enplus">
+		<visible>false</visible>
+	</image>
+
+</customView>
+   
    
   
   <view name="detailed">

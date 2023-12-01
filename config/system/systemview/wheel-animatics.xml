@@ -140,9 +140,9 @@
 	<!-- petite barre haut coin supérieur droit -->
 	<image name="little_up_right_bar" extra="true">
 		<size>0.015625 0.0046296</size>									
-		<pos>1.1 0.0023148</pos>									
+		<pos>1.1 0.0023148</pos>
 		<storyboard>
-			<animation property="pos" to="0.8895833 0.0023148" begin="7700" duration="600" mode="EaseOutCubic"/>
+			<animation property="pos" to="0.8885417 0.0023148" begin="7700" duration="600" mode="EaseOutCubic"/>
 			<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
 		</storyboard>
@@ -153,12 +153,15 @@
 		<size>0.0416667 0.0046296</size>									
 		<pos>1.1 0.0023148</pos>									
 		<storyboard>
-			<animation property="pos" to="0.8473958 0.0023148" begin="8000" duration="600" mode="EaseOutCubic"/>
+			<animation property="pos" to="0.8442708 0.0023148" begin="8000" duration="600" mode="EaseOutCubic"/>
 			<animation property="color" to="FFFF00" begin="13500" duration="300" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="19500" duration="300" autoreverse="true" mode="linear"/>
 		</storyboard>
 	</image>
 	
+	
+	
+
 	
 	<!-- barre droite coin supérieur droit -->
 	<image name="right_up_bar" extra="true">

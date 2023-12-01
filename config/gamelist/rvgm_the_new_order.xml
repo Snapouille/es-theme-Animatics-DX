@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<customView name="rvgm_the_new_order" inherits="rvgm_legacy" displayName="RVGM The New Order">
+
+
+	<image name="cadre, iconsLine, bg_RVGM" extra="true">
+			<visible>false</visible>
+	</image>
+	
+	<image name="bg_overlay" extra="true">
+		<path>./../../art/divers/bg-rvgm-new.png</path>
+	</image>
+	
+	<image name="bg" extra="true">
+		<origin>0 0</origin>
+		<pos>-0.285 0.05</pos>
+		<size>1 1</size>
+		<path>./../../art/divers/bg.png</path>
+		<color>FFFFFF</color>
+		<linearSmooth>true</linearSmooth>
+		<opacity>0.7</opacity>
+		<saturation>0.7</saturation>
+		<zIndex>2</zIndex>
+		<visible ifSubset="fanartDisplay:Show">false</visible>
+	</image>
+	
+	<image name="md_fanart">
+		<saturation ifSubset="fanartDisplay:Show">0.8</saturation>
+		
+	</image>
+
+	<text name="md_description">
+		<color>C0C0C0</color>
+	</text>
+
+	<text name="md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, 
+				md_lbl_description, md_lbl_players, md_lbl_rating, md_lbl_gametime
+				md_lbl_releasedate, md_lbl_lastplayed, md_lbl_gametime,
+				md_developer, md_publisher, md_playcount, md_gametime">
+		<color>C0C0C0</color>
+	</text>
+
+	<text name="md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, 
+			md_lbl_description, md_lbl_players, md_lbl_rating, md_lbl_gametime
+			md_lbl_releasedate, md_lbl_lastplayed, md_lbl_gametime">
+			<color>babaff</color>
+	</text>
+
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>C0C0C0</color>
+	</datetime>
+
+	<text name="md_players">
+		<color>C0C0C0</color>
+	</text>
+	
+</customView>
+
+</theme>

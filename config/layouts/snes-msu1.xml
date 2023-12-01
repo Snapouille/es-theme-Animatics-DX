@@ -99,6 +99,17 @@
   
   
   
+  <customView name="fanart">
+
+	<image name="Consoles">
+		<visible>false</visible>
+	</image>
+
+</customView>
+
+  
+  
+  
   <view name="detailed">
   
 	

@@ -5,10 +5,8 @@
   
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
-
-<size>0.303125 0.6009259</size>									
-<pos>0.5020833 0.6356481</pos>									
-									
+		<size>0.303125 0.6009259</size>									
+		<pos>0.5020833 0.6356481</pos>									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -29,10 +27,8 @@
   
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-
-<pos>0.5033854 0.6476852</pos>									
-<maxSize>0.2056458 0.2492222</maxSize>									
-
+		<pos>0.5033854 0.6476852</pos>									
+		<maxSize>0.2056458 0.2492222</maxSize>									
 		<zIndex>30</zIndex>
 
 	  
@@ -55,8 +51,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.2036458 0.2472222</size>																
-<pos>0.5033854 0.6476852</pos>																
+		<size>0.2036458 0.2472222</size>																
+		<pos>0.5033854 0.6476852</pos>																
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -97,7 +93,8 @@
 		</image>
 		
 		<image name="md_marquee">
-			<pos>0.7 0.09</pos>
+			<pos>0.13 0.09</pos>
+			<maxSize>0.2 0.085</maxSize>
 		</image>
   
   

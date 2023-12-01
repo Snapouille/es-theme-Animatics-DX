@@ -1,11 +1,11 @@
 <theme>
      <formatVersion>7</formatVersion>
      <view name="system">
-          <text name="system_description" ifSubset="SystemView:vertical || SystemView:wheel">
+          <text name="system_description" ifSubset="SystemView:vertical || SystemView:wheel || SystemView:wheel-animatics">
                <alignment>right</alignment>
                <verticalAlignment>top</verticalAlignment>
                <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-			   <fontSize>0.026</fontSize>
+			   <fontSize>0.0258</fontSize>
                <lineSpacing>1.3</lineSpacing>
                <zIndex>80</zIndex>
                <glowColor>00000069</glowColor>
@@ -15,20 +15,20 @@
 		  
 		  
 		  <!-- OBSOLETE A REVOIR -->
-		  <image name="YellowBarDesc" ifSubset="SystemView:simple" ifHelpPrompts="false" extra="static">
-			<origin>0.5 0.5</origin>									
-			<size>0.0510417 0.312963</size>
-			<pos>0.0885417 0.575</pos>
-			<path>./../../art/divers/YellowBarDesc.png</path>
-			<zIndex>10</zIndex>
-			<opacity>0</opacity>
-			
-			<storyboard>
-				<animation property="opacity" from="0" to="1" begin="300" duration="100" mode="Linear"/>
-				<animation property="offsetY" to="0.25" begin="300" duration="700" mode="easeInOut"/>
-			</storyboard>
-			
-		</image>
+			  <image name="YellowBarDesc" ifSubset="SystemView:simple" ifHelpPrompts="false" extra="static">
+				<origin>0.5 0.5</origin>									
+				<size>0.0510417 0.312963</size>
+				<pos>0.0885417 0.575</pos>
+				<path>./../../art/divers/YellowBarDesc.png</path>
+				<zIndex>10</zIndex>
+				<opacity>0</opacity>
+				
+				<storyboard>
+					<animation property="opacity" from="0" to="1" begin="300" duration="100" mode="Linear"/>
+					<animation property="offsetY" to="0.25" begin="300" duration="700" mode="easeInOut"/>
+				</storyboard>
+				
+			</image>
 		  
      </view>
 </theme>

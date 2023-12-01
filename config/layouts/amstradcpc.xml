@@ -6,8 +6,8 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 
-<size>0.5161458 0.6453704</size>									
-<pos>0.5403646 0.5939815</pos>									
+		<size>0.5161458 0.6453704</size>									
+		<pos>0.5403646 0.5939815</pos>									
 									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
@@ -30,8 +30,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<size>0.2276042 0.3009259</size>									
-<pos>0.5726563 0.4782407</pos>									
+		<size>0.2276042 0.3009259</size>									
+		<pos>0.5726563 0.4782407</pos>									
 
 		<roundCorners>0.03</roundCorners>
 	  
@@ -54,8 +54,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.2276042 0.3009259</size>									
-<pos>0.5726563 0.4782407</pos>									
+		<size>0.2276042 0.3009259</size>									
+		<pos>0.5726563 0.4782407</pos>									
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -73,15 +73,23 @@
 	
 	<text name="md_description">
 		<origin>0.5 0.5</origin>									
-		<size>0.235 0.238</size>									
+		<size>0.235 0.238</size>
 		<pos>0.30 0.298</pos>									
 	</text>
 	
 	
-	
-	
 </view>
 
+
+<customView name="fanart">
+
+	<text name="md_description">
+		<origin>0 0</origin>
+		<pos>0.05 0.64</pos>
+		<size>0.35 0.258</size>
+	</text>
+
+</customView>
 
 
 
@@ -91,8 +99,8 @@
   
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
-<size>0.3703125 0.462963</size>									
-<pos>0.6960938 0.4083333</pos>									
+		<size>0.3703125 0.462963</size>									
+		<pos>0.6960938 0.4083333</pos>									
 		<scale>1</scale>
 		<color>FFFFFF</color>
 		<opacity>1</opacity>

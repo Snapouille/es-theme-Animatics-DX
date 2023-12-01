@@ -161,8 +161,7 @@ originally based on: "carbon"
     </video>
 	
 	
-	<!-- Affichage et Animation LOGO des systèmes  -->	
-	
+<!-- Affichage et Animation LOGO des systèmes  -->	
 	<image name="logo">
 		<alignment>left</alignment>	
 		
@@ -175,6 +174,9 @@ originally based on: "carbon"
 			<animation property="offsetY"  to="0.03" begin="5000" duration="500" autoreverse="true" mode="Linear"/>
 		  </storyboard>
     </image>
+	
+	
+
 	
 	
 	
@@ -251,7 +253,7 @@ originally based on: "carbon"
 	
 	<!-- Chevrons haut et bas -->
 			
-	<image name="Chevron haut" extra="static">
+	<image name="Chevron_haut" extra="static">
       <origin>0.5 0.5</origin>
       <size>0.023 0</size>
 	  <path>./../../art/divers/triangle-snap.svg</path>
@@ -268,14 +270,14 @@ originally based on: "carbon"
 	  </storyboard>
 	</image>
 	
-	<image name="Chevron bas" extra="static">
+	<image name="Chevron_bas" extra="static">
       <origin>0.5 0.5</origin>
       <size>0.023 0</size>
 	  <path>./../../art/divers/triangle-snap.svg</path>
       <linearSmooth>true</linearSmooth>
 	  <zIndex>41</zIndex>
 	  <color>${dataColor}</color>
-	  <pos>0.935 0.646</pos>
+	  <pos>0.935 0.646</pos>x
 		<rotation>-180</rotation>
 		<storyboard repeatAt="1">
             <animation property="offsetY" from="0" to="0.01" begin="3500" duration="115" mode="Linear" autoReverse="true" repeat="2"/>

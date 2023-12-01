@@ -30,7 +30,7 @@
 			<fontSize ifSubset="gamelistFontSize:0.038">0.038</fontSize>
 			<fontSize ifSubset="gamelistFontSize:0.039">0.039</fontSize>
 			<fontSize ifSubset="gamelistFontSize:0.040">0.040</fontSize>
-			<fontSize ifSubset="gamelistFontSize:auto">0.028</fontSize>
+			<fontSize ifSubset="gamelistFontSize:auto">0.021</fontSize>
 			<lines ifSubset="gamelistLines:9">9</lines>
 			<lines ifSubset="gamelistLines:11">11</lines>
 			<lines ifSubset="gamelistLines:13">13</lines>
@@ -43,5 +43,14 @@
 			<lines ifSubset="gamelistLines:27">27</lines>
 			<lines ifSubset="gamelistLines:auto">17</lines>
 		</textlist>
+	</view>
+	<view name="video">
+		<text name="md_description">
+			<fontSize ifSubset="descriptionFontSize:0.017">0.017</fontSize>
+			<fontSize ifSubset="descriptionFontSize:0.019">0.019</fontSize>
+			<fontSize ifSubset="descriptionFontSize:0.020">0.020</fontSize>
+			<fontSize ifSubset="descriptionFontSize:0.023">0.023</fontSize>
+			<fontSize ifSubset="descriptionFontSize:auto">0.019</fontSize>		
+		</text>
 	</view>
 </theme>

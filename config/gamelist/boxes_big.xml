@@ -9,6 +9,9 @@ originally based on: "carbon"
   <formatVersion>7</formatVersion>
   
 <customView name="boxes_big" inherits="grid" displayName="${bigboxesview}">
+
+
+
 	
 	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
 	<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static">
