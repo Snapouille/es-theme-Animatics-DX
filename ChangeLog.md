@@ -1,3 +1,20 @@
+## V 1.57 - (2023 12 01)
+- New art & animation on the "Detailed" view
+- New Philips CDI animation
+- Display the small system pics in Collections
+- New Fanart view
+  
+![2023-12-01 18_21_04-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/e815b054-80fe-47db-9821-4f985cbbaa64)
+
+
+**New RVGM Style view:**
+- RVGM Legacy (the white Style)
+- RVGM The New Order (the Dark Style)
+  
+![2023-12-01 09_42_12-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/ac6bbe2d-fce6-4f88-94a0-193b6b05b83b)
+
+
+
 ## V 1.56 - (2023 11 21)
 - return of the standard wheel without animation name Wheel
 - the animated wheel is changing its name to Wheel-Animatics
