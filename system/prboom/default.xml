@@ -43,9 +43,9 @@
 					
 					<animation property="x" to="0.21" begin="500" duration="1500" mode="EaseOut"/>
 					
-					<animation property="scale" to="0.95" begin="2000" duration="350" mode="Linear"/>
+					<animation property="scale" to="0.93" begin="2000" duration="350" mode="Linear"/>
 					<animation property="x" to="0.41" begin="2000" duration="375" mode="EaseOut"/>
-					<animation property="y" to="0.03" begin="2000" duration="375" mode="EaseOut"/>
+					<animation property="y" to="0.05" begin="2000" duration="375" mode="EaseOut"/>
 
 					<animation property="opacity" repeatAt="400" begin="3800" from="1" to="0.8" duration="10" autoreverse="true" repeat="5" mode="linear"/>
 					<animation property="opacity" repeatAt="400" begin="4500" from="1" to="0.8" duration="5" autoreverse="true" repeat="3" mode="linear"/>
