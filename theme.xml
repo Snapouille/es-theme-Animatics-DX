@@ -83,6 +83,7 @@ originally based on: "carbon"
 	<gamelistLines>Gamelist: Number of lines</gamelistLines>
 	<fanart.Display>Background Fanart View</fanart.Display>
 	<descriptionFontSize>Description font size</descriptionFontSize>
+	<boxback.Display>Boxback</boxback.Display>
 	
   </variables>
   
@@ -496,19 +497,18 @@ originally based on: "carbon"
 
 
 
-
-
-
-	
-	
-
 	<!-- Choix d'afficher les fanarts ou non -->
 	<subset name="fanartDisplay" displayName="${fanart.Display}" appliesTo="video, rvgm">
 			<include name="Show" displayName="${show}"/>
 			<include name="Hide" displayName="${hide}"/>
 	</subset>
 
-	
+	<!-- Choix d'afficher les boxback ou non -->
+	<subset name="boxbackDisplay" displayName="${boxback.Display}" appliesTo="video, rvgm">
+			<include name="Show" displayName="${show}"/>
+			<include name="Hide" displayName="${hide}"/>
+	</subset>
+
 	
 	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="detailed, video, rvgm">
         <include name="auto"/>
@@ -569,8 +569,8 @@ originally based on: "carbon"
   <include>./config/gamelist/detailed.xml</include>
   <include>./config/gamelist/video.xml</include>
   <include>./config/gamelist/grid.xml</include>
-  <include>./config/gamelist/rvgm_legacy.xml</include>
   <include>./config/gamelist/rvgm_the_new_order.xml</include>
+  <include>./config/gamelist/rvgm_legacy.xml</include>
   <include>./config/gamelist/boxes_big.xml</include>
   <include>./config/gamelist/boxes_medium.xml</include>
   <include>./config/gamelist/boxes_small.xml</include>

@@ -9,14 +9,12 @@ originally based on: "carbon"
 	<include>./theme.xml</include>
     <include>./config/system/user.xml</include>
 
-
 	<formatVersion>7</formatVersion>
-
 
 	<view name="splash">
 	
 		<text name="version" extra="true">
-			<text>V 1.57 (2023 12 01)</text>
+			<text>V 1.58 (2023 12 03)</text>
 			<pos>0.02 0.951</pos>
 			<color>f4ff1a</color>
 			<fontPath>./art/fonts/ubuntu.ttf</fontPath>

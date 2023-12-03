@@ -6,105 +6,37 @@
 	<view name="system">
 	
 	
-		<image name="avatar-kyo_1" extra="static">
+		<image name="avatar-kyo" extra="static">
 			<origin>0 0</origin>									
 			<size>0.190625 0.7287037</size>									
-			<pos>0.39 0.31</pos>
+			<pos>-0.39 0.31</pos>
 			<scale>0.8</scale>
 			<opacity>1</opacity>
-			<path>./avatar-kyo_1.png</path>
+			<path>./avatar-kyo.gif</path>
 			<zIndex>21</zIndex>
 
 
-			<storyboard repeat="forever">
-			
-					<animation property="opacity" to="0" begin="170" duration="10" mode="linear"/>
-					<animation property="opacity" to="1" begin="340" duration="10" mode="linear"/>
-					
-			</storyboard>
-		</image>
-		
-		
-		<image name="avatar-kyo_2" extra="static">
-			<origin>0 0</origin>									
-			<size>0.190625 0.7287037</size>		
-			<pos>0.39 0.31</pos>
-			<scale>0.8</scale>
-			<opacity>0</opacity>
-			<path>./avatar-kyo_2.png</path>
-			<zIndex>21</zIndex>
-
-
-			<storyboard repeat="forever">
-					<animation property="opacity" to="1" begin="170" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="340" duration="10" mode="linear"/>	
-					
-					
-			</storyboard>
-		</image>
-		
-		
-	
-		<image name="avatar-terry_1" extra="static">
-			<origin>0 0</origin>									
-			<size>0.21875 0.5490741</size>									
-			<pos>0.49 0.34</pos>
-			<scale>0.8</scale>
-			<opacity>1</opacity>
-			<path>./avatar-terry_1.png</path>
-			<zIndex>20</zIndex>
-
-
-			<storyboard repeat="forever">
-					<animation property="opacity" to="0" begin="170" duration="10" mode="linear"/>
-					<animation property="opacity" to="1" begin="680" duration="10" mode="linear"/>
-					
+			<storyboard>
+					<animation property="offsetX" to="0.8" begin="100" duration="350" mode="easeInOut"/>
 			</storyboard>
 		</image>
 		
 	
-		<image name="avatar-terry_2" extra="static">
+		<image name="avatar-terry" extra="static">
 			<origin>0 0</origin>									
-			<size>0.21875 0.5490741</size>	
-			<pos>0.49 0.34</pos>
+			<size>0.1885417 0.5472222</size>									
+			<pos>1.29 0.34</pos>
 			<scale>0.8</scale>
-			<opacity>0</opacity>
-			<path>./avatar-terry_2.png</path>
+			<opacity>1</opacity>
+			<path>./avatar-terry.gif</path>
 			<zIndex>20</zIndex>
-
-
-			<storyboard repeat="forever">
-					<animation property="opacity" to="1" begin="170" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="340" duration="10" mode="linear"/>	
-        			<animation property="opacity" to="1" begin="510" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="680" duration="10" mode="linear"/>
-
-					
+			<storyboard>
+					<animation property="offsetX" to="-0.8" begin="300" duration="350" mode="easeInOut"/>
 			</storyboard>
 		</image>
 		
+	
 		
-		<image name="avatar-terry_3" extra="static">
-			<origin>0 0</origin>									
-			<size>0.21875 0.5490741</size>	
-			<pos>0.49 0.34</pos>
-			<scale>0.8</scale>
-			<opacity>0</opacity>
-			<path>./avatar-terry_3.png</path>
-			<zIndex>20</zIndex>
-
-
-			<storyboard repeat="forever">
-					<animation property="opacity" to="1" begin="340" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="510" duration="10" mode="linear"/>	
-        			<animation property="opacity" to="0" begin="680" duration="10" mode="linear"/>				
-			</storyboard>
-		</image>
-		
-
-
-
-
 		
 		
 		<image name="feuille_1" extra="true">
