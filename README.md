@@ -10,14 +10,18 @@ Theme for Emulation Station compatible with
 
 Features :
 
-    4 Animated System Views (Simple, Vertical, Wheel and Horizontal)
-    8 Gamelist Views
+    5 Animated System Views (Wheel-Animatics, Wheel, Simple, Vertical and Horizontal)
+    10 Gamelist Views
     9 languages (German, Spanish, French, Italian, Japanese, Dutch, Polish, Portuguese and Russian)
     Regional Logos and Artwork (EU, US and JAP)
     16/9 Only, not compatible with 4/3 or 5/4 for now
     Pi4 or more powerfull recommended
 
 # System View
+
+## System View Wheel-Animatics
+![2023-12-03 17_44_29-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/13e1309b-2e31-4d98-a49d-2857dfd3ad68)
+
 
 ## System View Simple
 | Without system description  | With system description |
@@ -38,9 +42,7 @@ Features :
 
 
 ## System View Wheel
-| Without system description  | With system description |
-| ------------- | ------------- |
-| ![2023-08-17 10_09_17-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/76e001c4-2192-407f-8a1a-d6c78196c392) | ![2023-08-17 10_07_20-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/bc7452bc-d6b0-4150-b09b-9f2d8e55f99e) |
+![2023-12-03 17_45_16-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/3d357628-a1e0-4186-9c82-22a71ee6cac4)
 
 
 # Gamelist View
@@ -55,10 +57,10 @@ Features :
 ![gamelist Grid](https://user-images.githubusercontent.com/105559045/219969836-e5bc356b-0fcc-436d-a227-31029da367a8.png)
 
 ## Gamelist view : Video 
-![7 video](https://user-images.githubusercontent.com/105559045/215271576-336ea719-7a8e-4ac8-8597-39500ef27680.png)
+![2023-12-03 17_38_40-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/5aaece31-0888-43e6-b667-57f928c3bf21)
 
 ## Gamelist view : Fanart
-![Gamelist View Fanart 2](https://user-images.githubusercontent.com/105559045/226408868-8ec567a4-297d-4086-a9b6-4a8cc10a66d6.png)
+![2023-12-03 17_42_22-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/21e18eb9-40cc-483a-bb03-c7f9f8df93b6)
 
 ## Gamelist view : Boxes (Big - Medium and Small)
 ![2023-03-29 18_08_52-EmulationStation](https://user-images.githubusercontent.com/105559045/228601033-1b6a1890-c2f4-438e-8082-2b8b284d2398.png)
