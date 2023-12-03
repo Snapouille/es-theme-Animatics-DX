@@ -1,3 +1,9 @@
+## V 1.58 - (2023 12 03)
+- New VIDEO view RVGM Style with fanart and big video
+- Added an option to show or hide boxbacks
+- Fix Neo Geo Pocket Animation with a screen refresh rate greater than 60hz
+- Small other fix
+
 ## V 1.57 - (2023 12 01)
 - New art & animation on the "Detailed" view
 - New Philips CDI animation
