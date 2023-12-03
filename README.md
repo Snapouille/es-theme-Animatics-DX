@@ -20,8 +20,7 @@ Features :
 # System View
 
 ## System View Wheel-Animatics
-![2023-12-03 17_44_29-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/13e1309b-2e31-4d98-a49d-2857dfd3ad68)
-
+![2023-12-03 17_51_48-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/ec5db896-4962-4f1d-9f09-57f1f46869d8)
 
 ## System View Simple
 | Without system description  | With system description |
