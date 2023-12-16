@@ -70,7 +70,7 @@
 			<pos>0.21 0.41</pos>									
 			<color>202020</color>
 			<scale>0.6</scale>
-			<path>./wizard-fist.gif</path>
+			<path>./wizard-fist-true.gif</path>
 			<opacity>0</opacity>
 			<zIndex>20</zIndex>
 
@@ -198,7 +198,7 @@
 			<size>0.2078125 0.43</size>									
 			<pos>0.21 0.41</pos>
 			<flipX>true</flipX>
-			<path>./wizard-fist.gif</path>
+			<path>./wizard-fist-true.gif</path>
 			<opacity>0</opacity>
 			<zIndex>20</zIndex>
 			<scale>0.6</scale>
