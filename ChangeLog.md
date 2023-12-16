@@ -1,3 +1,23 @@
+## V 1.59 - (2023 12 16)
+- New animation for the system "Atari Lynx"
+- New animation for the system "Nintendo DS"
+- New animation for the system "Sega Saturn"
+- New animation for the system "Adventure Vision"
+- New animation for the system "APF 1000"
+- New animation for the system "Arcadia"
+- New animation for the system "Super Acan"
+- New animation for the system "Game Master"
+- New animation for the system "Game Pocket Computer"
+- New animation for the system "Moonlight"
+- New animation for the collection "auto-fight"
+- Add wizard's fist on the system "Apple 2 GS" animation
+- Add a secondary color in the RVGM Gamelist
+- Fix small bug on apple desktop
+- New design for the simple system "wheel"
+
+![2023-12-16 09_33_44-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/ce31a6c2-f5af-403d-b71d-02b8d9e6364a)
+
+
 ## V 1.58 - (2023 12 03)
 - New VIDEO view RVGM Style with fanart and big video
 - Added an option to show or hide boxbacks
