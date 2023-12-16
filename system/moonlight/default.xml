@@ -1,0 +1,41 @@
+<!-- Moonlight -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar1" extra="static">
+			<origin>0.5 0.5</origin>
+			<pos>0.495 -0.56</pos>
+			<size>0.228125 0.5027778</size>	
+			<path>./avatar1.png</path>
+			<linearSmooth>true</linearSmooth>
+			<scale>1</scale>
+			<zIndex>200</zIndex>
+			
+			<storyboard>
+				<animation property="y" to="0.56" begin="" duration="400"  mode="EaseInOut"/>
+				<animation property="offsetY" to="-0.01" begin="400" duration="100" mode="EaseInOut"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="avatar2" extra="static">
+			<origin>0.5 0.5</origin>
+			<pos>0.17 0.53</pos>
+			<size>0.1213542 0.1212963</size>									
+			<path>./avatar2.png</path>
+			<linearSmooth>true</linearSmooth>
+			<scale>1</scale>
+			<zIndex>20</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="scale" to="1.01" begin="" duration="150" autoreverse="true" mode="Bump"/>
+			</storyboard>
+		</image>
+		
+
+	</view>
+	
+</theme>

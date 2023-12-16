@@ -116,7 +116,7 @@ originally based on: "carbon"
 
 
         <datetime name="md_releasedate">
-            <pos>0.062 0.577</pos>
+            <pos>0.065 0.577</pos>
             <storyboard event="activate">
                 <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
             </storyboard>

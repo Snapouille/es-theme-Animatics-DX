@@ -84,7 +84,7 @@
 			<pos>0.739375 -0.0324074</pos>									
 			<path>./rock1.png</path>
 			<opacity>1</opacity>
-			<zIndex>20</zIndex>
+			<zIndex>2000</zIndex>
 			<storyboard>
 				<animation property="y" to="0.996" begin="500" duration="700" mode="linear"/>
 			</storyboard>
@@ -96,7 +96,7 @@
 			<pos>0.758125 -0.049537</pos>									
 			<path>./rock2.png</path>
 			<opacity>1</opacity>
-			<zIndex>20</zIndex>
+			<zIndex>2000</zIndex>
 			<storyboard>
 				<animation property="y" to="0.9782407" begin="1100" duration="700" mode="linear"/>
 			</storyboard>
@@ -108,7 +108,7 @@
 			<pos>0.7521354 -0.0467593</pos>									
 			<path>./rock3.png</path>
 			<opacity>1</opacity>
-			<zIndex>20</zIndex>
+			<zIndex>2000</zIndex>
 			<storyboard>
 				<animation property="y" to="0.925463" begin="1500" duration="700" mode="linear"/>
 				<animation property="pos" to="0.82 1.0273148" begin="2200" duration="1000" mode="linear"/>

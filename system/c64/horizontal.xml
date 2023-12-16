@@ -1,35 +1,36 @@
-<!-- C64  -->
+<!-- c64 horizontal -->
 
 
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<image name="avatar" extra="static">
-			<origin>0 0</origin>
-			<pos>0.13 0.118</pos>
-			<scale>0.65</scale>
-			<size>0.29375 0.9092593</size>									
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.3098958 0.212037</pos>									
+			  <storyboard>
+					<animation property="x" to="0.5234375" begin="" duration="2700" mode="EaseInOut"/>
+					<animation property="size" to="0.6541667 0.6537037" begin="2700" duration="300" mode="EaseIn"/>
+					<animation property="pos" to="0.3526042 0.3851852" begin="2700" duration="300" mode="EaseIn"/>
+			  </storyboard>
+		</image>
+		
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.1411458 0.5111111</size>									
+			<pos>0.1945313 0.4509259</pos>									
+			<path>./avatar.png</path>
 
-					
-
-		<storyboard>
-								
-				<animation property="x" to="0.20" begin="400" duration="2200" mode="EaseOut"/>
-				
-				<animation property="scale" from="0.65" to="1" begin="2700" duration="350" mode="Linear"/>
-				<animation property="x" from="0.20" to="0.30" begin="2700" duration="375" mode="EaseOut"/>
-				<animation property="y" from="0.119" to="-0.1" begin="2700" duration="375" mode="EaseOut"/>
-				
-		</storyboard>
-		
-		
-		
-		
-		
-		
+			<storyboard>
+				<animation property="x" to="0.28" begin="700" duration="2000" mode="EaseOut"/>
+				<animation property="size" to="0.1994792 0.7185185" begin="2700" duration="375" mode="bump"/>
+				<animation property="pos"  to="0.4736979 0.4212963"  begin="2700" duration="375" mode="EaseOut"/>
+			</storyboard>
 		
 		</image>
 	</view>
 
 </theme>
+
+

@@ -21,7 +21,9 @@
 	</image>
 	
 	
-
+	
+	
+	
 
 
 	<textlist name="gamelist">
@@ -35,7 +37,9 @@
 		<horizontalMargin>0.0</horizontalMargin>
 		<zIndex>30</zIndex> 
 		<!-- RVGM Style -->
-		<selectedColor>${baseColor}</selectedColor> 
+		<selectedColor>${baseColor}</selectedColor>
+		<selectedColor ifSubset="colorset:gray">e0d527</selectedColor>
+		<extraTextColor>c0a767</extraTextColor>
 		<primaryColor>bebebe</primaryColor> 
 		<secondaryColor>c1e8f9</secondaryColor> 
 		<selectorColor>252831</selectorColor> 
@@ -161,7 +165,7 @@
 		<pos>0.5 0.38</pos>									
 		<delay>0.3</delay> 
 		<effect>none</effect>
-		<loops>0</loops>
+		<loops>1</loops>
 		<zIndex>8</zIndex> 
 	</video>
 
@@ -184,10 +188,12 @@
 		<opacity>0</opacity>
 		<zIndex>31</zIndex>
 		<storyboard event="activateNext">        
-			<animation property="opacity" from="0" to="1" begin="5000" duration="400" mode="linear"/>
+			<animation property="opacity" to="1" begin="5000" duration="400" mode="linear"/>
+			<animation property="opacity" to="0" begin="11000" duration="400" mode="linear"/>
 		</storyboard>
 		<storyboard event="activatePrev">        
-			<animation property="opacity" from="0" to="1" begin="5000" duration="400" mode="linear"/>
+			<animation property="opacity" to="1" begin="5000" duration="400" mode="linear"/>
+			<animation property="opacity" to="0" begin="11000" duration="400" mode="linear"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="400" mode="linear"/>
@@ -276,6 +282,7 @@
 	<text name="md_genre">
 		<pos>0.106 0.815</pos>
 		<color>${dataColor}</color>
+		<color ifSubset="colorset:gray">00d8ff</color>
 	</text>
 	<datetime name="md_releasedate">
 		<pos>0.106 0.8468</pos>

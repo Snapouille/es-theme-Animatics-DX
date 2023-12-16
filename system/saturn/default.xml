@@ -4,41 +4,73 @@
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		
-		<image name="avatar-dragon" extra="static">
-			<origin>0 0</origin>									
-			<size>0.29375 0.9092593</size>									
-			<pos>1.1 -0.3</pos>
-			<scale>0.5</scale>
-			<path>./avatar-dragon.png</path>
-			<opacity>0</opacity>
-			<rotation>0</rotation>
-			<linearSmooth>true</linearSmooth>
-			<zIndex>190</zIndex>
-			
-			<storyboard repeat="forever">
-			
-				<animation property="opacity" to="1" begin="400" duration="200" mode="linear"/>
-				<animation property="x" to="0.35" begin="500" duration="1000" mode="linear"/>
-				<animation property="y" to="0.01" begin="500" duration="1000" mode="bump"/>
-				<animation property="scale" to="0.9" begin="500" duration="1000" mode="linear"/>
-				<animation property="rotation" to="-40" begin="500" duration="1000" mode="linear"/>
-				
-				<animation property="rotation" from="-40" to="-40.5" begin="1500" autoreverse="true" duration="650" repeat="14" mode="linear"/>
-				<animation property="y" to="0.02" begin="1500" autoreverse="true" duration="400" repeat="14" mode="EaseOut"/>
-				<animation property="x" to="0.345" begin="1500" autoreverse="true" duration="400" repeat="14" mode="EaseOut"/>
 	
-				<animation property="scale" to="3" begin="15000" duration="2500" mode="bump"/>
-				<animation property="x" to="-1" begin="15000" duration="2500" mode="bump"/>
-				<animation property="y" to="-1" begin="15000" duration="2500" mode="linear"/>
-				
-				<animation property="opacity" to="0" begin="17500" duration="500" mode="linear"/>
-				
-				
-				
-				<animation property="opacity" to="0" begin="20000" duration="1000" mode="linear"/>
-			</storyboard>
-		</image>
-	</view>
+	<!-- background Mask derrière le Snap Legacy -->
+	<image name="background-mask" extra="true">
+		<tile>false</tile>
+		<linearSmooth>true</linearSmooth>
+		<path>./background-mask.png</path>
+		<scale>1.03</scale>		  
+		<origin>0.5 0.5</origin>									
+		<size>0.58125 0.6509259</size>									
+		<pos>0.3177083 0.3856481</pos>									
+		<zIndex>1</zIndex>
+		<storyboard>
+			<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
+			<animation property="scale" to="1" begin="" duration="500" mode="linear"/>
+		</storyboard>
+	</image>
+
+	<image name="avatar-dragon" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.0552083 0.075</size>									
+		<pos>0.0927083 0.1763889</pos>									
+		<path>./avatar-dragon.png</path>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>2</zIndex>
+		
+		<storyboard repeat="forever">
+			<animation property="pos" to="0.4260417 0.2782407" begin="" duration="2500" mode="linear"/>
+			<animation property="opacity" to="0" begin="23000" duration="1" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	
+	<image name="avatar-dragon-static" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.5145833 1.0388889</size>									
+		<pos>1.5 -0.5</pos>									
+		<path>./avatar-dragon-static.gif</path>
+		<linearSmooth>true</linearSmooth>
+		<scale>0.1</scale>
+		<zIndex>2000</zIndex>
+		
+		<storyboard repeat="forever">
+			<animation property="pos" to="0.43 0.43" begin="3500" duration="3500" mode="EaseInOut"/>
+			<animation property="scale" to="0.9" begin="3500" duration="3500" mode="Bump"/>
+			<animation property="offsetY" to="-0.007" begin="7000" duration="150" autoreverse="true" repeat="20" mode="linear"/>
+			
+			<animation property="offsetX" to="-0.7" begin="13333" duration="2000" mode="EaseInOut"/>
+			<animation property="offsetY" to="-0.55" begin="13333" duration="2000" mode="EaseInOut"/>
+			<animation property="scale" to="0.7" begin="13333" duration="2000" mode="EaseInOut"/>
+			
+			<animation property="opacity" to="0" begin="23000" duration="1" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	<image name="avatar-dragon2" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.0552083 0.075</size>									
+		<pos>0.4260417 0.2782407</pos>									
+		<path>./avatar-dragon2.png</path>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>2</zIndex>
+		
+		<storyboard repeat="forever">
+			<animation property="pos" to="0.0927083 0.1763889" begin="9000" duration="2000" mode="linear"/>
+		</storyboard>
+	</image>
+	
+</view>
 
 </theme>

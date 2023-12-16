@@ -5,37 +5,20 @@
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<image name="avatar" extra="static">
-			<origin>0 0</origin>
-			<pos>0.11 0.1198</pos>
-			<size>0.29375 0.9092593</size>
-			<scale>0.65</scale>
-					
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.1776042 0.4555556</size>									
+			<pos>0.23 0.4777778</pos>	
+			<path>./avatar.png</path>
 
-		<storyboard>
-				
-				
-				
-				<animation property="x" to="0.25" begin="700" duration="2000" mode="EaseOut"/>
-				
-				<animation property="scale" from="0.65" to="0.85" begin="2700" duration="350" mode="Linear"/>
-				<animation property="x" from="0.25" to="0.37" begin="2700" duration="375" mode="EaseOut"/>
-				<animation property="y" from="0.122" to="0.01" begin="2700" duration="375" mode="EaseOut"/>
-
-        		<animation property="opacity" repeatAt="400" begin="3800" from="1" to="0.8" duration="10" autoreverse="true" repeat="5" mode="linear"/>
-        		<animation property="opacity" repeatAt="400" begin="4500" from="1" to="0.8" duration="5" autoreverse="true" repeat="3" mode="linear"/>
-        		<animation property="opacity" repeatAt="400" begin="6500" from="1" to="0.8" duration="7" autoreverse="true" repeat="2" mode="linear"/>
-        		<animation property="opacity" repeatAt="400" begin="7000" from="1" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
-        		<animation property="opacity" repeatAt="400" begin="12000" from="1" to="0.8" duration="10" autoreverse="true" repeat="10" mode="linear"/>
-		</storyboard>
-		
-		
-		
-		
-		
-		
+			<storyboard>
+				<animation property="x" to="0.28" begin="700" duration="2000" mode="EaseOut"/>
+				<animation property="size" to="0.2796875 0.7481481" begin="2700" duration="375" mode="bump"/>
+				<animation property="pos"  to="0.4908854 0.4064815"  begin="2700" duration="375" mode="EaseOut"/>
+			</storyboard>
 		
 		</image>
 	</view>
 
 </theme>
+<pos></pos>									

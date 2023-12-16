@@ -9,6 +9,9 @@
 			<fontPath ifSubset="gamelistFont:ubuntu-bold">./../../art/fonts/ubuntu-bold.ttf</fontPath>
 			<fontPath ifSubset="gamelistFont:flatwheat">./../../art/fonts/flatwheat.ttf</fontPath>
 			<fontPath ifSubset="gamelistFont:auto">./../../art/fonts/ubuntu.ttf</fontPath>
+			<fontSize ifSubset="gamelistFontSize:0.017">0.017</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.018">0.018</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.019">0.019</fontSize>
 			<fontSize ifSubset="gamelistFontSize:0.020">0.020</fontSize>
 			<fontSize ifSubset="gamelistFontSize:0.021">0.021</fontSize>
 			<fontSize ifSubset="gamelistFontSize:0.022">0.022</fontSize>

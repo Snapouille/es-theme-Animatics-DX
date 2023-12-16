@@ -9,7 +9,6 @@
 			<visible>false</visible>
 		  </text>
 		  
-		  
 		</view>
 	</feature>
 	
@@ -18,31 +17,62 @@
 	<view name="system">
 	
 		<!-- on masque les éléments qui ne doivent pas apparaitre sur la wheel simple -->
-		<text name="system_description">
-			<visible>false</visible>
-		</text>
-		<image name="controllers2" extra="true">
-			<visible>false</visible>
-		</image>
+			<text name="system_description">
+				<visible>false</visible>
+			</text>
+			<image name="controllers2" extra="true">
+				<visible>false</visible>
+			</image>
 	
 	
 		
 		<!-- Menu WHEEL -->
 		<carousel name="systemcarousel">
-			<pos>0.38 -0.065</pos>
-			<pos ifHelpPrompts="false">0.35 0</pos>
-			<size>1 1</size>
-			<type>vertical_wheel</type> <!-- horizontal_wheel / vertical_wheel" -->
-			<logoSize>0.18 0.13</logoSize> <!-- 0.25 0.155 -->
-			<logoScale>1.15</logoScale> <!-- 1.2 -->
+			<pos>0.335 0</pos>
+			<size>1 0.9353</size>
+			<type>vertical_wheel</type>
+			<logoSize>0.15 0.115</logoSize> <!-- 0.25 0.155 -->
+			<logoScale>1.295</logoScale> <!-- 1.2 -->
 			<maxLogoCount>13</maxLogoCount> <!-- Image cache only -->
-			<logoRotation>-8</logoRotation> <!-- 7.5 : Inclinaison des logos, moins incliné = plus de logos -->
-			<logoRotationOrigin>5 0.6</logoRotationOrigin> <!-- -5 0.5 : L'éloigner écarte les logos -->
+			<logoRotation>8</logoRotation> <!-- 7.5 : Inclinaison des logos, moins incliné = plus de logos -->
+			<logoRotationOrigin>-5.3 0.5</logoRotationOrigin> <!-- -5 0.5 : L'éloigner écarte les logos -->
 			<logoAlignment>center</logoAlignment> <!-- left, right / top, bottom / center : of screen -->
 			<color>00000000</color>
 			<defaultTransition>instant</defaultTransition>
-			<zIndex>30</zIndex>
+			<systemInfoDelay>0</systemInfoDelay>
+			<zIndex>19</zIndex>
 		</carousel>
+		
+		
+	<image name="wheel-bg" extra="static">
+		<path>./../../../art/divers/wheel.svg</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>									
+		<size>0.45 0.937963</size>									
+		<pos>0.88 0.4680556</pos>									
+		<zIndex>18</zIndex>
+    </image>
+		
+	<image name="circle" extra="static">
+		<path>./../../../art/divers/circle.svg</path>
+		<color>${baseColor}</color>
+		<origin>0.5 0.5</origin>									
+		<size>1 2.23</size>									
+		<pos>0.750 0.4680556</pos>									
+		<zIndex>17</zIndex>
+    </image>
+	
+	<image name="circle2" extra="static">
+		<path>./../../../art/divers/circle.svg</path>
+		<color>${baseColor}</color>
+		<origin>0.5 0.5</origin>									
+		<size>1 2.8</size>									
+		<pos>0.971 0.4680556</pos>	
+		<zIndex>17</zIndex>
+    </image>
+
+	
+		
 		
 		<image name="logo">
 			<linearSmooth>true</linearSmooth>
@@ -115,10 +145,6 @@
 			<animation property="size" from="-0.06 0.006" to="-0.06 0.006" begin="" duration="400" mode="easeInOut"/>
 	  </storyboard>	  
 	</image>
-	
-	
-	
-	
 	
 	
 	

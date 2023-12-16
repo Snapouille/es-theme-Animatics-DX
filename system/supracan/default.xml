@@ -6,6 +6,17 @@
 	<view name="system">
 	
 		
+		<image name="mountain2" extra="true">
+			<linearSmooth>true</linearSmooth>
+			<origin>0.5 0.5</origin>									
+			<size>0.75 0.3157407</size>									
+			<pos>0.4125 0.5532407</pos>	
+			<path>./mountain.gif</path>
+			<zIndex>10</zIndex>			
+		</image>
+		
+		
+
 		<image name="arcenciel" extra="static">
 			<origin>0 0</origin>									
 			<size>0.9364583 0.5398148</size>									
@@ -13,179 +24,57 @@
 			<opacity>1</opacity>
 			<path>./arcenciel.png</path>
 			<zIndex>19</zIndex>
+			<opacity>0</opacity>
 		
-			<storyboard repeat="forever">
-				<animation property="opacity" from="0.8" to="1" begin="" duration="1000" autoreverse="true" repeat="2" mode="linear"/>
-				<animation property="opacity" from="0.8" to="1" begin="5000" duration="100" autoreverse="true" repeat="1" mode="linear"/>
-				<animation property="opacity" from="0.8" to="1" begin="5200" duration="200" autoreverse="true" repeat="1" mode="linear"/>
-				<animation property="opacity" from="0.8" to="1" begin="5600" duration="500" autoreverse="true" repeat="2" mode="linear"/>
-				<animation property="opacity" from="0.8" to="1" begin="7600" duration="200" autoreverse="true" repeat="2" mode="linear"/>
+			<storyboard repeatAt="7000">
+				<animation property="opacity" from="0" to="1" begin="5000" duration="2000" mode="linear"/>
+				<animation property="opacity" from="0.8" to="1" begin="7000" duration="1000" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0.8" to="1" begin="12000" duration="100" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0.8" to="1" begin="12200" duration="200" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0.8" to="1" begin="12600" duration="500" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0.8" to="1" begin="14600" duration="200" autoreverse="true" repeat="2" mode="linear"/>
 			</storyboard>
 		
 		</image>
 		
-		
-		
-		
-		
-		
-		<image name="avatar1" extra="static">
+		<image name="avatar-mini" extra="static">
 			<origin>0 0</origin>									
-			<size>0.4166667 0.6666667</size>									
-			<pos>0.31 0.27</pos>
-			<scale>0.9</scale>
+			<size>0.3854167 0.6518519</size>									
+			<pos>1.3 0.17</pos>
+			<scale>0.1</scale>
 			<opacity>1</opacity>
-			<path>./avatar1.png</path>
-			<zIndex>20</zIndex>
+			<path>./avatar.gif</path>
+			
+			<zIndex>14</zIndex>
 
-
-			<storyboard repeat="forever">
-					
-					<animation property="x" to="0.308" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="y" to="0.268" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="scale" to="0.898" begin="" duration="455" autoreverse="true" mode="Bump"/>
-					
-					<animation property="opacity" to="0" begin="150" duration="10" mode="linear"/>
-					<animation property="opacity" to="1" begin="450" duration="10" mode="linear"/>
-					
-					<animation property="opacity" to="0" begin="600" duration="10" mode="linear"/>
-					<animation property="opacity" to="1" begin="900" duration="10" mode="linear"/>
-					
+			<storyboard>
+					<animation property="x" to="-1" begin="" duration="3300" mode="EaseInOut"/>
 			</storyboard>
 		</image>
 		
 	
-		<image name="avatar2" extra="static">
+		<image name="avatar" extra="static">
 			<origin>0 0</origin>									
-			<size>0.4166667 0.6666667</size>
-			<pos>0.31 0.27</pos>
-			<scale>0.9</scale>
-			<opacity>0</opacity>
-			<path>./avatar2.png</path>
-			<zIndex>20</zIndex>
-
-
-			<storyboard repeat="forever">
-			
-					<animation property="x" to="0.308" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="y" to="0.268" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="scale" to="0.898" begin="" duration="455" autoreverse="true" mode="Bump"/>
-			
-					<animation property="opacity" to="1" begin="150" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="300" duration="10" mode="linear"/>	
-        			<animation property="opacity" to="0" begin="450" duration="10" mode="linear"/>
-					
-					<animation property="opacity" to="1" begin="600" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="750" duration="10" mode="linear"/>	
-        			<animation property="opacity" to="0" begin="900" duration="10" mode="linear"/>
-					
-					
-					
-			</storyboard>
-		</image>
-		
-		
-		<image name="avatar3" extra="static">
-			<origin>0 0</origin>									
-			<size>0.4166667 0.6666667</size>
-			<pos>0.31 0.27</pos>
-			<scale>0.9</scale>
-			<opacity>0</opacity>
-			<path>./avatar3.png</path>
-			<zIndex>20</zIndex>
-
-
-			<storyboard repeat="forever">
-			
-					<animation property="x" to="0.308" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="y" to="0.268" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="scale" to="0.898" begin="" duration="455" autoreverse="true" mode="Bump"/>
-			
-					<animation property="opacity" to="1" begin="300" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="450" duration="10" mode="linear"/>	
-					
-					<animation property="opacity" to="1" begin="750" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="900" duration="10" mode="linear"/>	
-        						
-			</storyboard>
-		</image>
-		
-		
-		
-		
-		
-		
-		<image name="nuage1" extra="static">
-			<origin>0 0</origin>									
-			<size>0.4166667 0.6666667</size>
-			<pos>0.31 0.27</pos>
-			<scale>0.9</scale>
+			<size>0.3854167 0.6518519</size>									
+			<pos>-1 -0.2</pos>
+			<scale>0.2</scale>
 			<opacity>1</opacity>
-			<path>./nuage1.png</path>
-			<zIndex>19</zIndex>
+			<flipX>true</flipX>
+			<path>./avatar.gif</path>
+			<zIndex>2000</zIndex>
 
-
-			<storyboard repeat="forever">
-			
-					<animation property="x" to="0.308" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="y" to="0.268" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="scale" to="0.898" begin="" duration="455" autoreverse="true" mode="Bump"/>
-					
-					<animation property="opacity" to="0" begin="300" duration="10" mode="linear"/>
-					<animation property="opacity" to="1" begin="900" duration="10" mode="linear"/>
-					
+			<storyboard repeatAt="5000">
+					<animation property="pos" to="0.32 0.21" begin="4000" duration="1000" mode="EaseInOut"/>
+					<animation property="scale" to="0.9" begin="4000" duration="1000" mode="Bump"/>
+					<animation property="x" to="0.318" begin="5000" duration="455" autoreverse="true" mode="EaseInOut"/>
+					<animation property="y" to="0.208" begin="5000" duration="455" autoreverse="true" mode="EaseInOut"/>
+					<animation property="scale" to="0.898" begin="5000" duration="455" autoreverse="true" mode="Bump"/>
 			</storyboard>
 		</image>
-		
-		
-		<image name="nuage2" extra="static">
-			<origin>0 0</origin>									
-			<size>0.4166667 0.6666667</size>
-			<pos>0.31 0.27</pos>
-			<scale>0.9</scale>
-			<opacity>0</opacity>
-			<path>./nuage2.png</path>
-			<zIndex>19</zIndex>
 
 
-			<storyboard repeat="forever">
-			
-					<animation property="x" to="0.308" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="y" to="0.268" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="scale" to="0.898" begin="" duration="455" autoreverse="true" mode="Bump"/>
-					
-					<animation property="opacity" to="1" begin="300" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="600" duration="10" mode="linear"/>	
-        			<animation property="opacity" to="0" begin="900" duration="10" mode="linear"/>
-					
-			</storyboard>
-		</image>
 		
-		
-		<image name="nuage3" extra="static">
-			<origin>0 0</origin>									
-			<size>0.4166667 0.6666667</size>
-			<pos>0.31 0.27</pos>
-			<scale>0.9</scale>
-			<opacity>0</opacity>
-			<path>./nuage3.png</path>
-			<zIndex>19</zIndex>
 
-
-			<storyboard repeat="forever">
-			
-					<animation property="x" to="0.308" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="y" to="0.268" begin="" duration="455" autoreverse="true" mode="EaseInOut"/>
-					<animation property="scale" to="0.898" begin="" duration="455" autoreverse="true" mode="Bump"/>
-					
-					<animation property="opacity" to="1" begin="600" duration="10" mode="linear"/>
-					<animation property="opacity" to="0" begin="900" duration="10" mode="linear"/>	
-					
-			</storyboard>
-		</image>
-		
-		
-		
 		
 	</view>
 

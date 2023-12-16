@@ -238,7 +238,7 @@
 				<animation property="x" from="0.35" to="0.415" begin="1000" duration="5000" mode="bump"/>
 				<animation property="y" from="0.48" to="0.26" begin="1500" duration="4500" mode="bump"/>
                 <animation property="scale" from="0.1" to="0.8" begin="1000" duration="5000" mode="easeIn"/>
-				<animation property="rotation" to="1" begin="6000" autoreverse="true" duration="800" repeat="10" mode="linear"/>
+				<animation property="rotation" from="0" to="1" begin="6000" autoreverse="true" duration="800" repeat="10" mode="linear"/>
 				<animation property="y" from="0.26" to="0.23" begin="6000" autoreverse="true" duration="400" repeat="1" mode="easeOut"/>
 				<animation property="y" from="0.25" to="0.23" begin="6800" autoreverse="true" duration="400" repeat="1" mode="easeOut"/>
 				<animation property="y" from="0.24" to="0.23" begin="7600" autoreverse="true" duration="200" repeat="1" mode="easeOut"/>

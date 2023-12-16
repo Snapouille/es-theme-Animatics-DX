@@ -1,10 +1,9 @@
 <!-- Neo Geo Pocket -->
 
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
 
-	<view name="system">
-	
+<view name="system">
 	
 		<image name="avatar-kyo" extra="static">
 			<origin>0 0</origin>									
@@ -14,7 +13,6 @@
 			<opacity>1</opacity>
 			<path>./avatar-kyo.gif</path>
 			<zIndex>21</zIndex>
-
 
 			<storyboard>
 					<animation property="offsetX" to="0.8" begin="100" duration="350" mode="easeInOut"/>
@@ -34,10 +32,6 @@
 					<animation property="offsetX" to="-0.8" begin="300" duration="350" mode="easeInOut"/>
 			</storyboard>
 		</image>
-		
-	
-		
-		
 		
 		<image name="feuille_1" extra="true">
 			<origin>0 0</origin>									
@@ -103,7 +97,6 @@
 			<path>./feuille_4.png</path>
 			<zIndex>19</zIndex>
 		
-		
 			<storyboard repeat="forever">
 				<animation property="rotation" 	  begin="1250" to="360" duration="2700" mode="linear"/>
 				<animation property="x" from="-1" begin="1250" to="1" duration="2700" mode="easyIn"/>
@@ -121,7 +114,6 @@
 			<scale>0.6</scale>
 			<path>./feuille_5.png</path>
 			<zIndex>19</zIndex>
-		
 		
 			<storyboard repeat="forever">
 				<animation property="rotation" 	  begin="1300" to="360" duration="2700" mode="linear"/>
@@ -141,7 +133,6 @@
 			<scale>0.8</scale>
 			<path>./feuille_6.png</path>
 			<zIndex>19</zIndex>
-		
 		
 			<storyboard repeat="forever">
 				<animation property="rotation" 	  begin="1400" to="240" duration="2700" mode="linear"/>
@@ -164,7 +155,6 @@
 			<path>./feuille_3.png</path>
 			<zIndex>19</zIndex>
 		
-		
 			<storyboard repeat="forever">
 				<animation property="rotation" begin="2000" to="90" duration="2700" mode="linear"/>
 				<animation property="x" from="-1" begin="2000" to="1" duration="2700" mode="easyIn"/>
@@ -181,7 +171,6 @@
 			<scale>0.5</scale>
 			<path>./feuille_4.png</path>
 			<zIndex>19</zIndex>
-		
 		
 			<storyboard repeat="forever">
 				<animation property="rotation" 	  begin="2100" to="-90" duration="2700" mode="linear"/>
@@ -200,7 +189,6 @@
 			<path>./feuille_1.png</path>
 			<zIndex>19</zIndex>
 		
-		
 			<storyboard repeat="forever">
 				<animation property="rotation" 	  begin="2200" to="180" duration="2700" mode="linear"/>
 				<animation property="x" from="-1" begin="2200" to="1" duration="2700" mode="easyIn"/>
@@ -218,7 +206,6 @@
 			<path>./feuille_5.png</path>
 			<zIndex>19</zIndex>
 		
-		
 			<storyboard repeat="forever">
 				<animation property="rotation" 	  begin="2250" to="360" duration="2700" mode="linear"/>
 				<animation property="x" from="-1" begin="2250" to="1" duration="2700" mode="easyIn"/>
@@ -235,7 +222,6 @@
 			<scale>0.5</scale>
 			<path>./feuille_6.png</path>
 			<zIndex>19</zIndex>
-		
 		
 			<storyboard repeat="forever">
 				<animation property="rotation" 	  begin="2300" to="360" duration="2700" mode="linear"/>
@@ -255,7 +241,6 @@
 			<path>./feuille_2.png</path>
 			<zIndex>19</zIndex>
 		
-		
 			<storyboard repeat="forever">
 				<animation property="rotation" 	  begin="2400" to="240" duration="2700" mode="linear"/>
 				<animation property="x" from="-1" begin="2400" to="1" duration="2700" mode="easyIn"/>
@@ -265,6 +250,6 @@
 			</storyboard>			
 		</image>
 		
-	</view>
+</view>
 
 </theme>

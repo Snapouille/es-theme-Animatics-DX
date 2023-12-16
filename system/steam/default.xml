@@ -1,0 +1,41 @@
+<!-- STEAM -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>	
+			<size>0.2338542 1.0074074</size>									
+			<pos>0.50 0.47</pos>	
+			<scale>0.7</scale>
+			<linearSmooth>true</linearSmooth>					
+			<storyboard>
+				
+        		<animation property="x" to="0.53" begin="" duration="1000" mode="EaseInOut"/>
+				<animation property="scale" to="0.8" begin="" duration="1000" mode="EaseInOut"/>
+        		
+			</storyboard>					
+
+		</image>
+		
+		
+		<image name="lens-flare" extra="static">
+			<pos>0.149 0.488</pos>
+			<size>0.2969 0.9067</size>
+			<rotationOrigin>0 0</rotationOrigin>
+			<rotation>-60</rotation>
+			<path>./avatar-lensflare.png</path>
+			<zIndex>20</zIndex>
+			<storyboard>
+        		<animation property="scale" to="1.05" begin=""  duration="1000" mode="EaseIn"/>
+        		<animation property="x" to="0.141" begin=""  duration="1000"  mode="EaseIn"/>
+        		<animation property="y" to="0.498" begin=""  duration="1000"  mode="EaseIn"/>
+			</storyboard>
+		</image>
+		
+		
+		
+	</view>
+</theme>

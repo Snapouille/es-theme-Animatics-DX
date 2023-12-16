@@ -350,10 +350,10 @@ originally based on: "carbon"
 	</image>
 	
 	<datetime name="md_releasedate">
-		 <pos>0.193 0.124</pos>
+		 <pos>0.196 0.124</pos>
          <origin>0.5 0.5</origin>
          <alignment>left</alignment>
-         <size>0.0245 0.05</size>
+         <size>0.031 0.05</size>
          <color>fffc00</color>
          <format>%Y</format>
 		 <rotation>0</rotation>

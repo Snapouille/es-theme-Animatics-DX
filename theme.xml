@@ -531,6 +531,9 @@ originally based on: "carbon"
     </subset>
     <subset name="gamelistFontSize" displayName="${gamelistFontSize}" appliesTo="detailed, video, rvgm">
         <include name="auto"/>
+		<include name="0.017"/>
+        <include name="0.018"/>
+        <include name="0.019"/>
 		<include name="0.020"/>
         <include name="0.021"/>
         <include name="0.022"/>

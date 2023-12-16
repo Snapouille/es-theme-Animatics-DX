@@ -1,3 +1,6 @@
+<!-- PS3 -->
+
+
 <theme>
 	<formatVersion>7</formatVersion>
 
@@ -8,18 +11,16 @@
 			<pos>0.28 -0.4</pos>
 			<scale>0.1</scale>
 			<size>0.425 0.6537037</size>
-			<rotation>-895</rotation>		
+			<rotation>0</rotation>		
 			<path>./avatar.png</path>
 			<linearSmooth>true</linearSmooth>
 			
-			
 			<storyboard>
 				<animation property="scale" to="1.1" begin="" duration="500" mode="bump"/>
-				<animation property="rotation" to="15" begin="" duration="500" mode="linear"/>
+				<animation property="rotation" from="0" to="15" begin="" duration="500" mode="linear"/>
 				<animation property="y" to="0.05" begin="" duration="500" mode="linear"/>
 				<animation property="x" to="0.21" begin="" duration="500" mode="linear"/>
 			</storyboard>	
-			
 			
 		</image>
 		
