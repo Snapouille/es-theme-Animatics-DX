@@ -41,7 +41,8 @@ Features :
 
 
 ## System View Wheel
-![2023-12-03 17_45_52-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/0745f7cd-ba30-44ca-91ae-edbc44a9b0ed)
+![2023-12-14 18_16_29-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/2b84628c-6512-431c-96c3-cc5a3e64eae5)
+
 
 
 # Gamelist View
