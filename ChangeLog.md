@@ -13,7 +13,7 @@
 - Add wizard's fist on the system "Apple 2 GS" animation
 - Add a secondary color in the RVGM Gamelist
 - Fix small bug on apple desktop
-- New design for the simple system "wheel"
+- New design for the system view "wheel"
 
 ![2023-12-16 09_33_44-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/ce31a6c2-f5af-403d-b71d-02b8d9e6364a)
 
