@@ -6,7 +6,7 @@ Theme for Emulation Station compatible with
 - Emuelec
 - Retrobat
 
-**V 1.58 - (2023 12 03) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
+**V 1.59 - (2023 12 16) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
 
 Features :
 
