@@ -62,6 +62,12 @@ Features :
 ## Gamelist view : Fanart
 ![2023-12-03 17_42_22-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/21e18eb9-40cc-483a-bb03-c7f9f8df93b6)
 
+## Gamelist view : RVGM Legacy
+![2023-12-16 09_20_19-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/51c9e841-c77d-4748-bb23-de7e4db91d80)
+
+## Gamelist view : RVGM The New Order
+![2023-12-16 09_28_06-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/91edbd52-9360-48ac-ae93-3c2527599e8e)
+
 ## Gamelist view : Boxes (Big - Medium and Small)
 ![2023-03-29 18_08_52-EmulationStation](https://user-images.githubusercontent.com/105559045/228601033-1b6a1890-c2f4-438e-8082-2b8b284d2398.png)
 
