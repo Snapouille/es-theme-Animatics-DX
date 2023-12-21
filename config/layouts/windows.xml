@@ -5,10 +5,8 @@
   
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
-
 		<size>0.3614583 0.4294444</size>									
 		<pos>0.4803125 0.6652778</pos>									
-									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -32,7 +30,6 @@
 		<zIndex>30</zIndex>
 		<pos>0.4804688 0.6398148</pos>									
 		<maxSize>0.3442708 0.3555556</maxSize>									
-
 	  
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -69,13 +66,9 @@
 			</storyboard>
 	</image>
 	
-
-
 	<text name="md_description">
 	  <pos>0.18 0.211</pos>
 	</text>
-
-
 
 	
 </view>  
