@@ -142,7 +142,8 @@
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 			<size>0.3072917 0.3</size>																
-			<pos>0.703125 0.387963</pos>																
+			<pos>0.703125 0.387963</pos>	
+			
 		  
 				<storyboard event="open">
 					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
