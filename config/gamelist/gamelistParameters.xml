@@ -57,28 +57,30 @@
 			<fontSize ifSubset="descriptionFontSize:auto">0.019</fontSize>		
 		</text>
 		<image name="overlay_fanart">
-			<opacity ifSubset="fanartOpacity:90 %">0.90</opacity>
-			<opacity ifSubset="fanartOpacity:80 %">0.80</opacity>
-			<opacity ifSubset="fanartOpacity:70 %">0.70</opacity>
-			<opacity ifSubset="fanartOpacity:60 %">0.60</opacity>
-			<opacity ifSubset="fanartOpacity:50 %">0.50</opacity>
-			<opacity ifSubset="fanartOpacity:40 %">0.40</opacity>
-			<opacity ifSubset="fanartOpacity:30 %">0.30</opacity>
-			<opacity ifSubset="fanartOpacity:20 %">0.20</opacity>
-			<opacity ifSubset="fanartOpacity:10 %">0.10</opacity>
-			<opacity ifSubset="fanartOpacity:auto">1</opacity>
+			<opacity ifSubset="fanartOpacity:100 %">1</opacity>
+			<opacity ifSubset="fanartOpacity:90 %">0.9</opacity>
+			<opacity ifSubset="fanartOpacity:80 %">0.8</opacity>
+			<opacity ifSubset="fanartOpacity:70 %">0.7</opacity>
+			<opacity ifSubset="fanartOpacity:60 %">0.6</opacity>
+			<opacity ifSubset="fanartOpacity:50 %">0.5</opacity>
+			<opacity ifSubset="fanartOpacity:40 %">0.4</opacity>
+			<opacity ifSubset="fanartOpacity:30 %">0.3</opacity>
+			<opacity ifSubset="fanartOpacity:20 %">0.2</opacity>
+			<opacity ifSubset="fanartOpacity:10 %">0.1</opacity>
+			<opacity ifSubset="fanartOpacity:auto">0.7</opacity>
 		</image>
 		<image name="overlay_gamelist">
-			<opacity ifSubset="gamelistOpacity:90 %">0.90</opacity>
-			<opacity ifSubset="gamelistOpacity:80 %">0.80</opacity>
-			<opacity ifSubset="gamelistOpacity:70 %">0.70</opacity>
-			<opacity ifSubset="gamelistOpacity:60 %">0.60</opacity>
-			<opacity ifSubset="gamelistOpacity:50 %">0.50</opacity>
-			<opacity ifSubset="gamelistOpacity:40 %">0.40</opacity>
-			<opacity ifSubset="gamelistOpacity:30 %">0.30</opacity>
-			<opacity ifSubset="gamelistOpacity:20 %">0.20</opacity>
-			<opacity ifSubset="gamelistOpacity:10 %">0.10</opacity>
-			<opacity ifSubset="gamelistOpacity:auto">1</opacity>
+			<opacity ifSubset="gamelistOpacity:100 %">1</opacity>
+			<opacity ifSubset="gamelistOpacity:90 %">0.9</opacity>
+			<opacity ifSubset="gamelistOpacity:80 %">0.8</opacity>
+			<opacity ifSubset="gamelistOpacity:70 %">0.7</opacity>
+			<opacity ifSubset="gamelistOpacity:60 %">0.6</opacity>
+			<opacity ifSubset="gamelistOpacity:50 %">0.5</opacity>
+			<opacity ifSubset="gamelistOpacity:40 %">0.4</opacity>
+			<opacity ifSubset="gamelistOpacity:30 %">0.3</opacity>
+			<opacity ifSubset="gamelistOpacity:20 %">0.2</opacity>
+			<opacity ifSubset="gamelistOpacity:10 %">0.1</opacity>
+			<opacity ifSubset="gamelistOpacity:auto">0.8</opacity>
 		</image>
 
 	</view>

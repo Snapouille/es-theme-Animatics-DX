@@ -567,6 +567,7 @@ originally based on: "carbon"
     </subset>
     <subset name="fanartOpacity" displayName="${fanartOpacity}" appliesTo="video, rvgm">
         <include name="auto"/>
+        <include name="100 %"/>
         <include name="90 %"/>
         <include name="80 %"/>
         <include name="70 %"/>
@@ -579,6 +580,7 @@ originally based on: "carbon"
     </subset>
     <subset name="gamelistOpacity" displayName="${gamelistOpacity}" appliesTo="video, rvgm">
         <include name="auto"/>
+        <include name="100 %"/>
         <include name="90 %"/>
         <include name="80 %"/>
         <include name="70 %"/>
