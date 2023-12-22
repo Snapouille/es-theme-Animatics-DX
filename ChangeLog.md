@@ -1,3 +1,12 @@
+## V 1.60 - (2023 12 22)
+- Small fixes
+- Fanart dimmable (Video and RVGM view)
+- Gamelist dimmable (Video and RVGM view)
+
+![2023-12-22 08_51_42-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/7b31fca4-a976-4723-85bf-7fd450ca4774)
+
+
+
 ## V 1.59 - (2023 12 16)
 - New animation for the system "Atari Lynx"
 - New animation for the system "Nintendo DS"
