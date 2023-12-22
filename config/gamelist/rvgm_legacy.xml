@@ -2,11 +2,15 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<customView name="rvgm_legacy" inherits="rvgm_the_new_order" displayName="RVGM Legacy">
+<customView name="rvgm_legacy" inherits="rvgm_the_new_order" displayName="RVGM - Legacy">
 
 	
-	<image name="bg_overlay" extra="true">
-		<path>./../../art/divers/bg-rvgm-legacy.png</path>
+	<image name="overlay_fixe" extra="true">
+			<path>./../../art/divers/overlay_fixe_rvgm_legacy.png</path>
+	</image>
+	
+	<image name="overlay_fanart" extra="true">
+		<visible>false</visible>
 	</image>
 	
 	<image name="md_fanart">>

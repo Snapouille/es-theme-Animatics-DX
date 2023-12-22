@@ -14,7 +14,7 @@ originally based on: "carbon"
 	<view name="splash">
 	
 		<text name="version" extra="true">
-			<text>V 1.59 (2023 12 16)</text>
+			<text>V 1.60 (2023 12 22)</text>
 			<pos>0.02 0.951</pos>
 			<color>f4ff1a</color>
 			<fontPath>./art/fonts/ubuntu.ttf</fontPath>

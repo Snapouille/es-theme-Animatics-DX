@@ -8,23 +8,34 @@
 	<image name="cadre, iconsLine" extra="true">
 			<visible>false</visible>
 	</image>
-
 	
-	<image name="bg_overlay" extra="true">
-		<origin>0 0</origin>
-		<pos>0 0</pos>
+	
+	<image name="overlay_fixe, overlay_fanart, overlay_gamelist" extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.5</pos>
 		<size>1 1</size>
-		<path>./../../art/divers/overlay_video_view.png</path>
 		<color>FFFFFF</color>
-		<linearSmooth>true</linearSmooth>
+		<!-- <linearSmooth>true</linearSmooth> -->
+	</image>
+	
+	<image name="overlay_fixe" extra="true">
+		<path>./../../art/divers/overlay_fixe.png</path>
+		<zIndex>9</zIndex>
+	</image>
+	
+	<!-- overlay dimmable -->
+	<image name="overlay_fanart" extra="true">
+		<path>./../../art/divers/overlay_fanart.png</path>
 		<zIndex>10</zIndex>
 	</image>
 	
-	
-	
-	
-	
-
+	<!-- overlay dimmable -->
+	<image name="overlay_gamelist" extra="true">
+		<size>0.2416667 0.9388889</size>									
+		<pos>0.8541667 0.4962963</pos>									
+		<path>./../../art/divers/overlay_gamelist.png</path>
+		<zIndex>10</zIndex>
+	</image>
 
 	<textlist name="gamelist">
 		<origin>0.5 0.5</origin>									
@@ -42,7 +53,8 @@
 		<extraTextColor>c0a767</extraTextColor>
 		<primaryColor>bebebe</primaryColor> 
 		<secondaryColor>c1e8f9</secondaryColor> 
-		<selectorColor>252831</selectorColor> 
+		<!-- <selectorColor>252831</selectorColor>  -->  <!-- ancienne couleur RVGM -->
+		<selectorColor>FFFFFF00</selectorColor> <!-- couleur transparente -->
 		<selectorHeight>0.05</selectorHeight>
 		<!-- Sound effect on Scroll -->
 		<scrollSound>./../../art/sounds/linemove.wav</scrollSound>
@@ -147,15 +159,17 @@
 
 	<image name="md_fanart">
 		<origin>0.5 0.5</origin>
-		<size>0.971875 0.9185185</size>																
-		<pos>0.5 0.46</pos>																
-		<zIndex>9</zIndex>
-		<scale>1</scale>
+		<size>0.971875 0.9185185</size>		
+		<!-- <size>1 1</size>																 -->
+		<pos>0.5 0.491</pos>																
+		<zIndex>8</zIndex>
+		<!-- <scale>1</scale> -->
+		<visible ifSubset="fanartDisplay:Hide">false</visible>		
 		<opacity>1</opacity>
 		<storyboard event="activate">
 			<animation property="opacity" from="1" to="0" begin="2000" duration="1000" mode="easeInOut"/>
 			<animation property="opacity" from="0" to="1" begin="33000" duration="1000" mode="easeInOut"/>
-		</storyboard>
+		</storyboard>		
 	</image>
 
 
@@ -166,7 +180,7 @@
 		<delay>0.3</delay> 
 		<effect>none</effect>
 		<loops>1</loops>
-		<zIndex>8</zIndex> 
+		<zIndex>7</zIndex> 
 	</video>
 
 
@@ -407,18 +421,6 @@
 		</storyboard>
 	</image>
 
-	
-	
-	
-	
-	
-
-
-	
-	
-	
-	
-	
 	
 	
 </view>

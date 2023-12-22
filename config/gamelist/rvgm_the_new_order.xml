@@ -2,15 +2,16 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<customView name="rvgm_the_new_order" inherits="video" displayName="RVGM The New Order">
+<customView name="rvgm_the_new_order" inherits="video" displayName="RVGM - The New Order">
 
 
 	<image name="cadre, iconsLine, bg_RVGM" extra="true">
 			<visible>false</visible>
 	</image>
 	
-	<image name="bg_overlay" extra="true">
-		<path>./../../art/divers/bg-rvgm-new.png</path>
+	
+	<image name="overlay_fixe" extra="true">
+		<path>./../../art/divers/overlay_fixe_rvgm_new.png</path>
 	</image>
 	
 	<image name="md_fanart">>

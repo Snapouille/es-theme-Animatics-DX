@@ -84,7 +84,9 @@ originally based on: "carbon"
 	<fanart.Display>Background Fanart View</fanart.Display>
 	<descriptionFontSize>Description font size</descriptionFontSize>
 	<boxback.Display>Boxback</boxback.Display>
-	
+	<!-- !!! !!! TRADUCTION A FAIRE !!! !!! -->
+	<fanartOpacity>Fanart overlay Opacity</fanartOpacity>
+	<gamelistOpacity>Gamelist Opacity</gamelistOpacity>
   </variables>
   
   
@@ -563,7 +565,30 @@ originally based on: "carbon"
         <include name="0.020"/>
         <include name="0.023"/>
     </subset>
-	
+    <subset name="fanartOpacity" displayName="${fanartOpacity}" appliesTo="video, rvgm">
+        <include name="auto"/>
+        <include name="90 %"/>
+        <include name="80 %"/>
+        <include name="70 %"/>
+        <include name="60 %"/>
+        <include name="50 %"/>
+        <include name="40 %"/>
+        <include name="30 %"/>
+        <include name="20 %"/>
+        <include name="10 %"/>
+    </subset>
+    <subset name="gamelistOpacity" displayName="${gamelistOpacity}" appliesTo="video, rvgm">
+        <include name="auto"/>
+        <include name="90 %"/>
+        <include name="80 %"/>
+        <include name="70 %"/>
+        <include name="60 %"/>
+        <include name="50 %"/>
+        <include name="40 %"/>
+        <include name="30 %"/>
+        <include name="20 %"/>
+        <include name="10 %"/>
+    </subset>
 
 	
 	<!-- Views  -->

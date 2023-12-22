@@ -123,7 +123,8 @@
 <gamelistLines>gamelist : Nombre de lignes</gamelistLines>
 <fanart.Display>Affichage des fanarts en arrière plan</fanart.Display>
 <descriptionFontSize>Taille de la police des descriptions</descriptionFontSize>
-
+<fanartOpacity>Opacité de l'overlay du Fanart</fanartOpacity>
+<gamelistOpacity>Opacité de la Gamelist</gamelistOpacity>
 
 </variables>
 
