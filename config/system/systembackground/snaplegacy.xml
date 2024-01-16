@@ -43,7 +43,6 @@
     <image name="BG_snapLegacy" extra="true">
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>{random:fanart}</path>
 	  <path>./../../../system/background-default.png</path>
       <path>./../../../system/${system.theme}/background.png</path>
 	  <scale>1.03</scale>

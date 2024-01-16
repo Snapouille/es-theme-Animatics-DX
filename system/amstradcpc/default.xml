@@ -5,6 +5,12 @@
 
 	<view name="system">
 	
+		<sound name="snap-sound">
+			<path>./../../_music/${system.theme}.mp3</path>
+			<path>./../../_music/${system.theme}.ogg</path>
+		</sound>		
+
+	
 		<image name="avatar-trash" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.0963542 0.2</size>									

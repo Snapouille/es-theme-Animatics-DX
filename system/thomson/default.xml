@@ -1,24 +1,421 @@
+<!-- THOMSON -->
+
 <theme>
 	<formatVersion>7</formatVersion>
 	
 	<view name="system">
 
-		<image name="avatar" extra="static">
+		<image name="BG_snapLegacy, light-center, light-left, light-right, troll, troll-move, avatar-hero, avatar-hero-dodge, fog-static, fog-big, bat-front, avatar-hero-fight, bat-back, bat-back2, blood, blood2">
 			<origin>0.5 0.5</origin>									
-			<size>0.2932292 0.8842593</size>									
-									
-									
-									
-			<pos>0.4796875 0.45</pos>									
-								
-			<storyboard>
-				
-        		<animation property="x" to="0.43" begin="" duration="6000" mode="EaseInOut"/>
-        		
-        						
-			</storyboard>					
-
+			<linearSmooth>true</linearSmooth>
 		</image>
+		
+
+		<image name="BG_snapLegacy" extra="true">
+			<size>0.58125 0.6509259</size>									
+			<pos>0.3277083 0.3896481</pos>	
+			<scale>1</scale>
+			  <storyboard>
+					<animation property="offsetX" to="-0.01" begin="" duration="1000" mode="EaseInOut"/>
+			  </storyboard>
+		</image>
+
+		
+		<image name="light-center" extra="true">
+			<size>0.0520833 0.1101852</size>									
+			<pos>0.3230208 0.375463</pos>									
+			<path>./light-center.gif</path>
+			<zIndex>4</zIndex>
+			  <storyboard>
+					<animation property="offsetX" to="-0.01" begin="" duration="1000" mode="EaseInOut"/>
+			  </storyboard>
+		</image>
+		
+		<image name="light-left" extra="true">
+			<size>0.0453125 0.1074074</size>									
+			<pos>0.1863021 0.4212963</pos>									
+			<path>./light-left.gif</path>
+			<zIndex>4</zIndex>
+			  <storyboard>
+					<animation property="offsetX" to="-0.01" begin="" duration="1000" mode="EaseInOut"/>
+			  </storyboard>
+		</image>
+		
+		
+		<image name="light-right" extra="true">
+			<size>0.0838542 0.1759259</size>									
+			<pos>0.4092188 0.1666667</pos>									
+			<path>./light-right.gif</path>
+			<zIndex>4</zIndex>
+			  <storyboard>
+					<animation property="offsetX" to="-0.01" begin="" duration="1000" mode="EaseInOut"/>
+			  </storyboard>
+		</image>
+		
+		<image name="troll" extra="true">
+			<size>0.0708333 0.1361111</size>									
+			<pos>0.1646875 0.6560185</pos>									
+			<path>./troll.png</path>
+			<zIndex>19</zIndex>
+				<storyboard repeatAt="2500">
+					<animation property="offsetX" to="-0.01" begin="" duration="1000" mode="EaseInOut"/>
+					
+					<animation property="opacity" to="0" begin="1100" duration="100" mode="linear"/>
+					<animation property="opacity" to="1" begin="2200" duration="100" mode="linear"/>
+					
+					<animation property="opacity" to="0" begin="8100" duration="100" mode="linear"/>
+					<animation property="opacity" to="1" begin="9200" duration="100" mode="linear"/>
+					<animation property="opacity" to="1" begin="9990" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		<image name="troll-move" extra="true">
+			<size>0.0708333 0.1361111</size>									
+			<pos>0.1546875 0.6560185</pos>									
+			<path>./troll-move.gif</path>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+				<storyboard repeatAt="2500">
+					<animation property="opacity" to="1" begin="1000" duration="100" mode="linear"/>
+					<animation property="opacity" to="0" begin="2300" duration="100" mode="linear"/>
+					
+					<animation property="opacity" to="1" begin="8000" duration="100" mode="linear"/>
+					<animation property="opacity" to="0" begin="9300" duration="100" mode="linear"/>
+					<animation property="opacity" to="0" begin="9990" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		<image name="fog-static" extra="true">
+			<size>0.6578125 0.1907407</size>									
+			<pos>0.2747396 0.70</pos>									
+			<scale>1</scale>
+			<zIndex>22</zIndex>
+			<opacity>0.9</opacity>								
+			<path>./fog-static.png</path>
+			<storyboard repeat="forever">
+				<animation property="y" from="0.70" to="0.701" begin="" autoreverse="true" duration="500" repeat="10" mode="linear"/>
+				<animation property="offsetX" to="0.005" begin="" autoreverse="true" duration="1000" repeat="5" mode="linear"/>
+				<animation property="opacity" from="0.9" to="0.85" begin="" autoreverse="true" duration="1000" repeat="5" mode="linear"/>
+			</storyboard>
+		</image>
+
+
+
+		<image name="fog-big" extra="true">
+			<pos>0 0.75</pos>
+			<size>0.6380208 0.3990741</size>									
+			<scale>2</scale>
+			<zIndex>24</zIndex>
+			<opacity>0.8</opacity>								
+			<path>./fog-big.png</path>
+			<storyboard repeat="forever">
+				<animation property="x" from="0.5" to="0.15" begin="" autoreverse="true" duration="20000" mode="linear"/>
+				<animation property="y" from="0.75" to="0.753" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="scale" from="2" to="2.01" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.75" begin="" autoreverse="true" duration="1000" repeat="20" mode="linear"/>
+			</storyboard>
+		</image>		
+		
+		
+		<image name="troll" extra="true">
+			<size>0.0708333 0.1361111</size>									
+			<pos>0.1646875 0.6560185</pos>									
+			<path>./troll.png</path>
+			<zIndex>19</zIndex>
+				<storyboard repeatAt="2500">
+					<animation property="offsetX" to="-0.01" begin="" duration="1000" mode="EaseInOut"/>
+					
+					<animation property="opacity" to="0" begin="1100" duration="100" mode="linear"/>
+					<animation property="opacity" to="1" begin="2200" duration="100" mode="linear"/>
+					
+					<animation property="opacity" to="0" begin="8100" duration="100" mode="linear"/>
+					<animation property="opacity" to="1" begin="9200" duration="100" mode="linear"/>
+					<animation property="opacity" to="1" begin="9990" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+		<image name="avatar-hero" extra="true">
+			<size>0.2171875 0.7324074</size>									
+			<pos>0.4789063 0.499537</pos>									
+			<path>./avatar-hero.png</path>
+			<zIndex>23</zIndex>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="0" begin="5000" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="5400" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="7000" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="7500" duration="10" mode="linear"/>
+					
+					<animation property="opacity" to="1" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		<image name="avatar-hero-dodge" extra="true">
+			<size>0.2171875 0.7324074</size>									
+			<pos>0.4789063 0.499537</pos>									
+			<path>./avatar-hero-dodge.gif</path>
+			<opacity>0</opacity>
+			<zIndex>23</zIndex>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" begin="5000" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="5400" duration="10" mode="linear"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		<image name="avatar-hero-fight" extra="true">
+			<size>0.2171875 0.7324074</size>									
+			<pos>0.4789063 0.499537</pos>									
+			<path>./avatar-hero-fight.gif</path>
+			<opacity>0</opacity>
+			<zIndex>23</zIndex>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" begin="7000" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="7500" duration="10" mode="linear"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+
+
+		<image name="bat-front" extra="true">
+			<size>0.0578125 0.0740741</size>									
+			<pos>0.225 0.39</pos>									
+			<path>./bat-front.gif</path>
+			<opacity>0</opacity>
+			<zIndex>22</zIndex>
+			<scale>0.1</scale>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="3000" duration="100" mode="linear"/>
+					<animation property="scale" to="1" 					begin="3000" duration="2000" mode="linear"/>
+					<animation property="pos" to="0.4533854 0.4240741" 	begin="4000" duration="1000" mode="bump"/>
+					<animation property="pos" to="0.55 -0.3" 			begin="5000" duration="800" mode="EaseIn"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+
+
+		<image name="bat-front2" extra="true">
+			<size>0.1453125 0.1851852</size>									
+			<pos>0.22 0.41</pos>									
+			<path>./bat-front.gif</path>
+			<opacity>0</opacity>
+			<zIndex>22</zIndex>
+			<scale>0.1</scale>
+			<rotation>-10</rotation>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="2000" duration="100" mode="linear"/>
+					<animation property="scale" to="1" 					begin="2000" duration="2000" mode="EaseIn"/>
+					<animation property="pos" to="0.1908854 0.2944444" 	begin="2000" duration="1000" mode="EaseOut"/>
+					<animation property="pos" to="0.05 -0.3" 			begin="3000" duration="800" mode="EaseIn"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+		<image name="bat-front3" extra="true">
+			<size>0.1453125 0.1851852</size>									
+			<pos>0.21 0.32</pos>									
+			<path>./bat-front.gif</path>
+			<opacity>0</opacity>
+			<zIndex>30</zIndex>
+			<scale>0.1</scale>
+			<rotation>20</rotation>
+
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="1000" duration="100" mode="linear"/>
+					<animation property="scale" to="1" 					begin="1000" duration="2000" mode="linear"/>
+					<animation property="pos" to="0.05 -0.3" 			begin="2000" duration="1800" mode="bump"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+		<image name="bat-front4" extra="true">
+			<size>0.1453125 0.1851852</size>									
+			<pos>0.2 0.36</pos>									
+			<path>./bat-front.gif</path>
+			<opacity>0</opacity>
+			<zIndex>22</zIndex>
+			<scale>0.1</scale>
+			<rotation>0</rotation>
+
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="1300" duration="100" mode="linear"/>
+					<animation property="scale" to="0.8" 				begin="1300" duration="2000" mode="linear"/>
+					<animation property="pos" to="0.05 -0.3" 			begin="2300" duration="1800" mode="bump"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+		<image name="bat-front5" extra="true">
+			<size>0.1453125 0.1851852</size>									
+			<pos>0.22 0.34</pos>									
+			<path>./bat-front.gif</path>
+			<opacity>0</opacity>
+			<zIndex>22</zIndex>
+			<scale>0.1</scale>
+			<rotation>40</rotation>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="1600" duration="100" mode="linear"/>
+					<animation property="scale" to="0.6" 				begin="1600" duration="2000" mode="EaseIn"/>
+					<animation property="pos" to="0.05 -0.3" 			begin="2600" duration="1800" mode="bump"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+		<image name="bat-front6" extra="true">
+			<size>0.1453125 0.1851852</size>									
+			<pos>0.22 0.34</pos>									
+			<path>./bat-front.gif</path>
+			<opacity>0</opacity>
+			<zIndex>22</zIndex>
+			<scale>0.1</scale>
+			<rotation>20</rotation>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="2600" duration="100" mode="linear"/>
+					<animation property="scale" to="0.7" 				begin="2600" duration="2000" mode="EaseIn"/>
+					<animation property="pos" to="0.05 -0.3" 			begin="3600" duration="1800" mode="bump"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+		<image name="bat-front7" extra="true">
+			<size>0.1453125 0.1851852</size>									
+			<pos>0.22 0.33</pos>									
+			<path>./bat-front.gif</path>
+			<opacity>0</opacity>
+			<zIndex>22</zIndex>
+			<scale>0.1</scale>
+			<rotation>-10</rotation>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="3300" duration="100" mode="linear"/>
+					<animation property="scale" to="1" 					begin="3300" duration="2000" mode="EaseIn"/>
+					<animation property="pos" to="0.05 -0.3" 			begin="4300" duration="1800" mode="bump"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+		<image name="bat-front8" extra="true">
+			<size>0.1453125 0.1851852</size>									
+			<pos>0.2 0.34</pos>									
+			<path>./bat-front.gif</path>
+			<opacity>0</opacity>
+			<zIndex>22</zIndex>
+			<scale>0.1</scale>
+			<rotation>40</rotation>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="3900" duration="100" mode="linear"/>
+					<animation property="scale" to="0.9" 				begin="3900" duration="2000" mode="EaseInOut"/>
+					<animation property="pos" to="0.05 -0.3" 			begin="4900" duration="1800" mode="bump"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+		
+		<image name="bat-back" extra="true">
+			<size>0.1786458 0.2787037</size>									
+			<pos>1 0.5</pos>									
+			<path>./bat-back.gif</path>
+			<opacity>0</opacity>
+			<zIndex>2800</zIndex>
+			<scale>1</scale>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="3600" duration="100" mode="linear"/>
+					<animation property="scale" to="0.25" 				begin="3600" duration="1000" mode="linear"/>
+					<animation property="pos" to="0.4481771 0.4601852" 	begin="3600" duration="1000" mode="EaseInOut"/>
+					<animation property="rotation" to="20" 				begin="4600" duration="200" autoreverse="true" repeat="2" mode="EaseInOut"/>
+					<animation property="scale" to="0.31" 				begin="4600" duration="200" autoreverse="true" mode="EaseInOut"/>
+					<animation property="pos" to="0.2 -0.2" 			begin="5200" duration="1000" mode="Bump"/>
+					<animation property="scale" to="1" 					begin="5200" duration="1000" mode="Bump"/>
+									
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+
+		
+		<image name="bat-back2" extra="true">
+			<size>0.1786458 0.2787037</size>									
+			<pos>1 0.5</pos>									
+			<path>./bat-back.gif</path>
+			<opacity>0</opacity>
+			<zIndex>2800</zIndex>
+			<scale>1</scale>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="6000" duration="100" mode="linear"/>
+					<animation property="scale" to="0.3" 				begin="6000" duration="1000" mode="linear"/>
+					<animation property="pos" to="0.485 0.19" 			begin="6000" duration="1000" mode="EaseInOut"/>
+					<animation property="pos" to="0.3 1.3" 				begin="7200" duration="400" mode="EaseIn"/>
+					<animation property="scale" to="1" 					begin="7200" duration="400" mode="Bump"/>
+					<animation property="rotation" to="-90" 			begin="7200" duration="400" mode="linear"/>
+									
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+		<image name="blood" extra="true">
+			<size>0.0223958 0.0657407</size>									
+			<pos>0.44 0.474537</pos>									
+			<path>./blood.png</path>
+			<opacity>0</opacity>
+			<zIndex>2799</zIndex>
+			<scale>0.97</scale>
+			<rotation>20</rotation>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="4800" duration="100" mode="linear"/>
+					<animation property="scale" to="1" 					begin="4800" duration="400" mode="Bump"/>
+					<animation property="offsetY" to="0.01" 			begin="4800" duration="400" mode="EaseIn"/>
+					<animation property="offsetX" to="-0.005" 			begin="4800" duration="400" mode="EaseIn"/>
+					<animation property="opacity" to="0" 				begin="5100" duration="100" mode="linear"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		
+		
+		<image name="blood2" extra="true">
+			<size>0.1041667 0.2972222</size>									
+			<pos>0.455 0.277</pos>									
+			<path>./blood.png</path>
+			<opacity>0</opacity>
+			<zIndex>2801</zIndex>
+			<scale>0.85</scale>
+			<rotation>30</rotation>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" 				begin="7200" duration="100" mode="linear"/>
+					<animation property="scale" to="0.9" 				begin="7200" duration="400" mode="Bump"/>
+					<animation property="offsetY" to="0.01" 			begin="7200" duration="400" mode="EaseIn"/>
+					<animation property="offsetX" to="-0.005" 			begin="7200" duration="400" mode="EaseIn"/>
+					<animation property="opacity" to="0" 				begin="7500" duration="100" mode="linear"/>
+					
+					<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				</storyboard>
+		</image>
+
+
+		
+
+
+
 		
 	</view>
 </theme>

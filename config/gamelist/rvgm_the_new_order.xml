@@ -79,8 +79,10 @@
 		<origin>0.5 0.5</origin>
 		<pos>0.55 0.45</pos>
 		<size>0.334 0.445</size>
+		<!-- <size>0.334 0.345</size> --> <!-- pour la 16/9 -->
+		<!-- <size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' ">0.334 0.445</scale> -->
 		<snapshotSource>image</snapshotSource>
-		<snapshotSource>image</snapshotSource>
+		<!-- <snapshotSource>image</snapshotSource> -->
 		<showSnapshotNoVideo>true</showSnapshotNoVideo> 
 		<showSnapshotDelay>true</showSnapshotDelay>
 		<loops>2</loops>

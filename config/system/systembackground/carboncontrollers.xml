@@ -15,23 +15,36 @@
 		<image name="frame_barreAnim_haut, frame_barreAnim_bas, frame_barreAnim_gauche">
 				<visible>false</visible>
 		</image>	
+		
+		<!-- On les masque les diagos BAS -->
+		<image name="diago-bas1, diago-bas2, diago-bas3, diago-bas4, diago-bas5">
+			<visible>false</visible>
+		</image>
 
-	
-	
-	
-	<!-- On modifie l'arrivée des statistiques sur l'écran si affichage différent que Snap Legacy -->
+
+		<!-- Affichage des statistiques détaillées -->
 	  <text name="systemInfoEx" ifSubset="SystemView:wheel" extra="true">
         <alignment>left</alignment>
-		<pos>0.07 0.68</pos>
-		<pos ifHelpPrompts="false">0.07 0.72</pos>
+		<pos>0.165 0.69</pos>
+		<pos ifHelpPrompts="false">0.165 0.725</pos>
 		<zIndex>30</zIndex>
 		<storyboard>
-			
-				<animation property="offsetX" to="0.1" begin="1000" duration="500" mode="easeOutCubic"/>
-			
+				<animation property="opacity" from="0" to="1" begin="" duration="1000" mode="linear"/>				
+				<animation property="offsetX" to="-0.01" begin="" duration="1000" mode="EaseInOut"/>
 		</storyboard>
-		
       </text>
+	  
+		<!-- Texte nombre de jeux si affiché -->
+		<text name="systemInfo" ifSubset="InfoCustomView:total|detailed">
+			<pos>0.5143229 0.0663889</pos>									
+		</text>
+		<!-- Masque derrière l'affiches du nombre de jeux -->
+		<image name="masque_behind" ifSubset="InfoCustomView:total|detailed" extra="true">
+			<pos>0.5143229 0.0663889</pos>									
+		</image>
+	  
+	  
+	  
 	  
 	<!-- On masque la barre des stats -->
 	<image name="BarAndRound" ifSubset="SystemView:wheel" extra="static">

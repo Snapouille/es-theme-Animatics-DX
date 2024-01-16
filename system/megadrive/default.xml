@@ -9,31 +9,32 @@
 		<image name="avatar" extra="static">
 			<origin>0 0</origin>									
 			<size>0.265625 0.8361111</size>									
-			<pos>0.17 0.21</pos>
+			<pos>0.13 0.21</pos>
 			<scale>0.55</scale>
 			<opacity>0</opacity>
+			<zIndex>1901</zIndex>
 		</image>	
 	
 	
 		<image name="avatar2" extra="static">
 				<origin>0 0</origin>									
 				<size>0.3671875 0.8481481</size>									
-				<pos>0.43 0.15</pos>
+				<pos>0.39 0.15</pos>
 				<scale>1</scale>
 				<path>./avatar2.png</path>
 				<opacity>0</opacity>
-				<zIndex>18</zIndex>
+				<zIndex>1902</zIndex>
 		</image>
 		
 		<image name="avatar3" extra="static">
 			<origin>0 0</origin>									
 			<size>0.3671875 0.8481481</size>									
-			<pos>0.35 0.01</pos>
+			<pos>0.31 0.01</pos>
 			<scale>1</scale>
 			<path>./avatar3.png</path>
 			<opacity>0</opacity>
-			<zIndex>18</zIndex>
-	</image>
+			<zIndex>1903</zIndex>
+		</image>
 	
 	
 		<image name="avatar" extra="true">	
@@ -41,12 +42,12 @@
 			<storyboard repeat="forever">
 					
 					<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear"/>
-					<animation property="x" to="0.27" begin="100" duration="3700" mode="EaseOut"/>
+					<animation property="x" to="0.23" begin="100" duration="3700" mode="EaseOut"/>
 					<animation property="scale" from="0.55" to="0.8" begin="4000" duration="350" mode="bump"/>
-					<animation property="x" from="0.17" to="0.40" begin="4000" duration="375" mode="EaseOut"/>
+					<animation property="x" from="0.13" to="0.36" begin="4000" duration="375" mode="EaseOut"/>
 					<animation property="y" from="0.17" to="0.03" begin="4000" duration="375" mode="EaseOut"/>
 
-					<animation property="x" from="0.38" to="0.35" begin="5100" duration="300" mode="bump"/>
+					<animation property="x" from="0.34" to="0.31" begin="5100" duration="300" mode="bump"/>
 					<animation property="y" from="0.03" to="-0.03" begin="5100" duration="300" mode="bump"/>
 					<animation property="rotation" from="0" to="-3" begin="5100" autoreverse="true" duration="300" mode="easyin"/>
 
@@ -54,7 +55,7 @@
 					<animation property="y" from="0.03" to="-1" begin="6300" duration="300" mode="bump"/>
 					
 					<animation property="rotation" from="0" to="-50" begin="10000" duration="300" mode="easyin"/>
-					<animation property="x" from="0.35" to="0.1" begin="10000" duration="300" mode="bump"/>
+					<animation property="x" from="0.31" to="0.04" begin="10000" duration="300" mode="bump"/>
 					<animation property="y" from="-1" to="1" begin="10500" duration="1000" mode="bump"/>
 
 					
@@ -72,7 +73,7 @@
 					<animation property="y" from="0.15" to="0.149" begin="5000" autoreverse="true" duration="300" repeat="2" mode="easyin"/>
 					
 					<animation property="rotation" from="1" to="-1" begin="6100" autoreverse="true" duration="100" mode="easyin"/>
-					<animation property="x" from="0.40" to="0.35" begin="6100" duration="200" mode="bump"/>
+					<animation property="x" from="0.36" to="0.31" begin="6100" duration="200" mode="bump"/>
 					<animation property="y" from="0.12" to="0.01" begin="6100" duration="200" mode="bump"/>
 					
 					
@@ -93,7 +94,7 @@
 				<animation property="opacity" from="0" to="1" begin="6100" duration="400" mode="linear"/>
 				
 				<animation property="scale" from="1" to="5" begin="16000" duration="1000" mode="linear"/>
-				<animation property="x" to="-0.5" begin="16000" duration="1000" mode="linear"/>
+				<animation property="x" to="-0.79" begin="16000" duration="1000" mode="linear"/>
 				<animation property="y" to="-1" begin="16000" duration="1000" mode="linear"/>
 				<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear"/>
 				
