@@ -1,3 +1,16 @@
+## V 1.61 - (16 01 2024)
+- New animation for the system "Tomy Tutor"
+- New animation for the system "Gamate"
+- New animation for the system "Mega Duck" (Cougar Boy)
+- New animation for the system "Thomson"
+- New animation for the system "Fujitsu FM7"
+- New gamecarousel artwork for the system "Thomson"
+- New design for the Fanart System View
+
+![2024-01-12 16_14_23-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/cee271bf-c1f4-4b48-9190-ad4ff222135b)
+
+
+
 ## V 1.60 - (2023 12 22)
 - Small fixes
 - Fanart dimmable (Video and RVGM view)
