@@ -4,20 +4,17 @@
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-	
-	
 		<image name="BG_snapLegacy" extra="true">
 			<scale>2</scale>	
-
 			<storyboard>
 					<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
 					<animation property="scale" to="1.01" begin="" duration="700" mode="linear"/>
-					
 			</storyboard>
 		</image>
 		
 		<image name="pacman1, pacman2, pacman-arm-down, pacman-arm-up, pacman-eyes">
-			<origin>0.5 0.5</origin>		
+			<origin>0.5 0.5</origin>
+			<linearSmooth>true</linearSmooth>
 			<opacity>1</opacity>
 			<zIndex>21</zIndex>
 		</image>
@@ -25,8 +22,6 @@
 		<image name="pacman-arm-down, pacman-arm-up, pacman-eyes">
 			<zIndex>22</zIndex>
 		</image>
-	
-	
 	
 		<image name="pacman1" extra="true">
 			<size>0.2151042 0.5037037</size>									
@@ -51,18 +46,12 @@
 				<animation property="opacity" to="0" begin="13700" duration="10" mode="linear"/>
 				<animation property="opacity" to="1" begin="13870" duration="10" mode="linear"/>
 
-
 				<animation property="offsetY" to="0.02" begin="14000" duration="100" mode="linear"/>
 				<animation property="offsetY" to="-0.5" begin="14100" duration="1000" mode="bump"/>	
 				<animation property="offsetX" to="-0.7" begin="14100" duration="1000" mode="linear"/>	
 
-				
-				
-				
-				
 				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
 			</storyboard>
-			
 		</image>
 		
 		
@@ -72,29 +61,21 @@
 			<path>./pacman2.png</path>
 			<opacity>0</opacity>
 			
-			
 			<storyboard repeat="forever">
-			
-			<animation property="opacity" to="1" begin="3000" duration="10" mode="linear"/>
-			<animation property="opacity" to="0" begin="3170" duration="10" mode="linear"/>
-			<animation property="opacity" to="1" begin="3340" duration="10" mode="linear"/>
-			<animation property="opacity" to="0" begin="3510" duration="10" mode="linear"/>
-			<animation property="opacity" to="1" begin="3680" duration="10" mode="linear"/>
-			<animation property="opacity" to="0" begin="3850" duration="10" mode="linear"/>
-			<animation property="opacity" to="1" begin="4020" duration="10" mode="linear"/>
-			
-			<animation property="opacity" to="0" begin="13530" duration="10" mode="linear"/>
-			<animation property="opacity" to="1" begin="13700" duration="10" mode="linear"/>
-			<animation property="opacity" to="0" begin="13870" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3170" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3340" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3510" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3680" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3850" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4020" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="13530" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="13700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13870" duration="10" mode="linear"/>
 
-
-			
-			
-			<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
 			</storyboard>
-
-			
-			
 		</image>
 								
 		
@@ -125,9 +106,6 @@
 				<animation property="offsetY" to="-0.5" begin="14100" duration="1000" mode="bump"/>	
 				<animation property="offsetX" to="-0.7" begin="14100" duration="1000" mode="linear"/>	
 
-				
-
-				
 				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
 			</storyboard>
 			
@@ -139,24 +117,21 @@
 			<path>./pacman-arm-up.png</path>
 			<opacity>0</opacity>
 			
-			<storyboard repeat="forever">
-			
-			<animation property="opacity" to="1" begin="3000" duration="10" mode="linear"/>
-			<animation property="opacity" to="0" begin="3170" duration="10" mode="linear"/>
-			<animation property="opacity" to="1" begin="3340" duration="10" mode="linear"/>
-			<animation property="opacity" to="0" begin="3510" duration="10" mode="linear"/>
-			<animation property="opacity" to="1" begin="3680" duration="10" mode="linear"/>
-			<animation property="opacity" to="0" begin="3850" duration="10" mode="linear"/>
-			<animation property="opacity" to="1" begin="4020" duration="10" mode="linear"/>
+			<storyboard repeat="forever">	
+				<animation property="opacity" to="1" begin="3000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3170" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3340" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3510" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3680" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3850" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4020" duration="10" mode="linear"/>
 
-			<animation property="opacity" to="0" begin="13530" duration="10" mode="linear"/>
-			<animation property="opacity" to="1" begin="13700" duration="10" mode="linear"/>
-			<animation property="opacity" to="0" begin="13870" duration="10" mode="linear"/>
-			
-			
-			<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13530" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="13700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13870" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
 			</storyboard>
-			
 		</image>
 		
 		
@@ -167,61 +142,47 @@
 			<opacity>0</opacity>
 			
 			<storyboard repeat="forever">
-			
-			<animation property="opacity" to="1" begin="1400" duration="10" mode="linear"/>	
-			<animation property="offsetY" from="1" to="0" begin="1400" duration="1000" mode="bump"/>	
-			<animation property="offsetX" from="1" to="0" begin="1400" duration="1000" mode="linear"/>	
-			<animation property="offsetY" to="0.01" begin="2400" duration="1000" autoreverse="true" mode="EaseInOut"/>
-			<animation property="offsetY" to="-0.02" begin="4700" duration="2000" autoreverse="true" mode="EaseInOut"/>
-			<animation property="offsetY" to="0.005" begin="8700" duration="1000" autoreverse="true" mode="EaseInOut"/>
-			
-			<animation property="offsetY" to="0.01" begin="12000" duration="1000" autoreverse="true" mode="EaseInOut"/>
-			
-			
-			<animation property="offsetY" to="0.02" begin="14000" duration="100" mode="linear"/>
-			<animation property="offsetY" to="-0.5" begin="14100" duration="1000" mode="bump"/>	
-			<animation property="offsetX" to="-0.7" begin="14100" duration="1000" mode="linear"/>	
-			
-			
-			<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1400" duration="10" mode="linear"/>	
+				<animation property="offsetY" from="1" to="0" begin="1400" duration="1000" mode="bump"/>	
+				<animation property="offsetX" from="1" to="0" begin="1400" duration="1000" mode="linear"/>	
+				<animation property="offsetY" to="0.01" begin="2400" duration="1000" autoreverse="true" mode="EaseInOut"/>
+				<animation property="offsetY" to="-0.02" begin="4700" duration="2000" autoreverse="true" mode="EaseInOut"/>
+				<animation property="offsetY" to="0.005" begin="8700" duration="1000" autoreverse="true" mode="EaseInOut"/>
+				
+				<animation property="offsetY" to="0.01" begin="12000" duration="1000" autoreverse="true" mode="EaseInOut"/>
+				
+				<animation property="offsetY" to="0.02" begin="14000" duration="100" mode="linear"/>
+				<animation property="offsetY" to="-0.5" begin="14100" duration="1000" mode="bump"/>	
+				<animation property="offsetX" to="-0.7" begin="14100" duration="1000" mode="linear"/>	
+	
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
 			</storyboard>
-			
 		</image>
 		
 		
-		
-		
-		
-
-		
+		<image name="avatar2, avatar3, avatar4, avatar5" extra="true">
+			<origin>0 0</origin>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>14</zIndex>
+		</image>
 		
 		<image name="avatar2" extra="true">
-			<origin>0 0</origin>
 			<pos>0.05 0.2</pos>
 			<size>0.0395833 0.0962963</size>									
-
 			<scale>0.5</scale>
 			<path>./avatar2.png</path>
-			<opacity>1</opacity>
-			<zIndex>17</zIndex>
 		</image>
 		
 		<image name="avatar3" extra="true">
-			<origin>0 0</origin>
 			<pos>0.57 0.585</pos>
 			<size>0.040625 0.0962963</size>									
-
 			<scale>0.5</scale>
 			<path>./avatar3.png</path>
-			<opacity>1</opacity>
-			<zIndex>17</zIndex>
 		</image>
 		
 		<image name="avatar4" extra="true">
-			<origin>0 0</origin>
 			<pos>-1 0.5</pos>
 			<size>0.0401042 0.0962963</size>									
-
 			<scale>1</scale>
 			<path>./avatar4.png</path>
 			<zIndex>19</zIndex>
@@ -231,7 +192,6 @@
 			<origin>0 0</origin>
 			<pos>-1 0.45</pos>
 			<size>0.0395833 0.0962963</size>									
-
 			<scale>1</scale>
 			<path>./avatar5.png</path>
 			<zIndex>19</zIndex>

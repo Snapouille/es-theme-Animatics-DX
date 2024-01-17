@@ -19,7 +19,7 @@
 	<image name="rain" extra="true">
 		<size>1 1</size>									
 		<origin>0.5 0.5</origin>									
-		<pos>0.5 0.5</pos>									
+		<pos>0.3 0.4</pos>									
 		<path>./rain.gif</path>
 		<zIndex>11</zIndex>
 		  <storyboard>

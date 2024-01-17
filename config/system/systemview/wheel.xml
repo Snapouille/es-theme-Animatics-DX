@@ -46,6 +46,7 @@
 		
 	<image name="wheel-bg" extra="static">
 		<path>./../../../art/divers/wheel.svg</path>
+		<linearSmooth>true</linearSmooth>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>									
 		<size>0.45 0.937963</size>
@@ -57,6 +58,7 @@
 		
 	<image name="circle" extra="static">
 		<path>./../../../art/divers/circle.svg</path>
+		<linearSmooth>true</linearSmooth>
 		<color>${baseColor}</color>
 		<origin>0.5 0.5</origin>									
 		<size>1 2.23</size>	
@@ -67,6 +69,7 @@
 	
 	<image name="circle2" extra="static">
 		<path>./../../../art/divers/circle.svg</path>
+		<linearSmooth>true</linearSmooth>
 		<color>${baseColor}</color>
 		<origin>0.5 0.5</origin>									
 		<size>1 2.8</size>
