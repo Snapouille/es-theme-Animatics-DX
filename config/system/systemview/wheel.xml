@@ -31,7 +31,8 @@
 			<size ifHelpPrompts="false">1 1</size>
 			<type>vertical_wheel</type>
 			<logoSize>0.15 0.115</logoSize> 
-			<logoScale>1.295</logoScale> 
+			<!-- <logoScale>1.295</logoScale>  -->
+			<logoScale>1</logoScale> 
 			<maxLogoCount>13</maxLogoCount> <!-- Image cache only -->
 			<logoRotation>8</logoRotation> <!-- 7.5 : Inclinaison des logos, moins incliné = plus de logos -->
 			<logoRotationOrigin>-5.3 0.5</logoRotationOrigin> <!-- -5 0.5 : L'éloigner écarte les logos -->
@@ -42,6 +43,23 @@
 			<systemInfoDelay>0</systemInfoDelay>
 			<zIndex>19</zIndex>
 		</carousel>
+		
+		
+		
+		<!-- A REVOIR l'affichage des logos avec ZOOM, casser avec le nouvel ES -->
+		
+		<!-- <image name="logo"> -->
+			<!-- <linearSmooth>true</linearSmooth> -->
+			<!-- <storyboard event="activate"> -->
+                <!-- <animation property="scale" from="0.7" to="1" begin="100" duration="100" mode="linear"/> -->
+            <!-- </storyboard>	 -->
+			<!-- <storyboard event="scroll"> -->
+                <!-- <animation property="scale" from="1" to="0.7" begin="" duration="1" mode="linear"/>                 -->
+            <!-- </storyboard> -->
+			<!-- <storyboard event="deactivate"> -->
+                <!-- <animation property="scale" to="0.7" duration="100"/> -->
+            <!-- </storyboard>		 -->
+		<!-- </image> -->
 		
 		
 	<image name="wheel-bg" extra="static">
@@ -81,17 +99,6 @@
 	
 		
 		
-		<image name="logo">
-			<linearSmooth>true</linearSmooth>
-			<storyboard event="activate" repeatAt="1">
-				<animation property="scale" from="1" to="0.7" begin="" duration="1" mode="linear"/>
-			</storyboard>
-			
-			<storyboard event="scroll">
-				<animation property="scale" from="1" to="0.7" begin="" duration="1" mode="linear"/>				
-			</storyboard>
-			
-		</image>
 		
 		
 		
