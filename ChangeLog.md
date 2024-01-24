@@ -8,6 +8,7 @@
 - Fix dragon animation for Sega Saturn 
 - Many fix and minor adjustments (inaccurate code with the new ES)
 
+![2024-01-23 15_17_43-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/01c20e3d-ace6-49c1-8151-d9b121fb6154)
 
 ## V 1.61 - (16 01 2024)
 - New animation for the system "Tomy Tutor"
