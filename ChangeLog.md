@@ -1,3 +1,14 @@
+## V 1.62 - (24 01 2024)
+- Add New mouse for the system ScummVM
+- Add New collection: Virtua Fighter
+- Add New collection: Soulcalibur
+- Add New collection: Tekken
+- Add New collection: Samurai Shodown
+- Fix NeoGeo 3D box height
+- Fix dragon animation for Sega Saturn 
+- Many fix and minor adjustments (inaccurate code with the new ES)
+
+
 ## V 1.61 - (16 01 2024)
 - New animation for the system "Tomy Tutor"
 - New animation for the system "Gamate"
