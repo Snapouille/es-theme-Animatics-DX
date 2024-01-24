@@ -9,6 +9,10 @@
 			<path>./../../art/divers/overlay_fixe_rvgm_legacy.png</path>
 	</image>
 	
+	<!-- <image name="overlay_cadreTV" extra="true"> -->
+			<!-- <path>./../../art/divers/overlay_cadreTV_rvgm_legacy.png</path> -->
+	<!-- </image> -->
+	
 	<image name="overlay_fanart" extra="true">
 		<visible>false</visible>
 	</image>

@@ -55,10 +55,19 @@
 		<zIndex>11</zIndex>
 	</image>
 
-
+	<!-- View : WHEEL -->
 	<image name="wheel-bg" extra="static">
 		<opacity>0.5</opacity>
     </image>
+	
+	<!-- View : WHEEL-ANIMATICS -->
+	<image name="vertical_down_bg_black, vertical_up_bg_black, black_BottomFrame" extra="static">
+		<opacity>0.75</opacity>
+    </image>
+	<image name="BarAndRound" ifSubset="InfoCustomView:detailed" extra="static">
+		<visible>false</visible>
+	</image>
+
 
 
     <image name="randomImage" extra="true">

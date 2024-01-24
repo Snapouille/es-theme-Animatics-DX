@@ -276,7 +276,7 @@ originally based on: "carbon"
 
 <!-- Affichage des Controlleurs-->
 <subset name="system-controllers" displayName="${system-controllers}">
-	<include name="Show" displayName="${show}">./config/system/show-system-controllers.xml</include>
+	<include name="Show" displayName="${show}"/>
 	<include name="Hide" displayName="${hide}"/>
 </subset>
 

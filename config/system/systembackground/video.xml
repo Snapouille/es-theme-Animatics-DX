@@ -58,15 +58,18 @@
 		<default>./../../../art/divers/mediamissing2.png</default>
 		<pos>0.32 0.38</pos>									
 		<minSize>0.85 0.93</minSize>									
-		<maxSize>0.85 0.93</maxSize>		
+		<maxSize>0.85 0.93</maxSize>	
+		<pos if="{system.theme} == 'nds'">0.317 0.71</pos>									
+		<minSize if="{system.theme} == 'nds'">1.1 1.6</minSize>									
+		<maxSize if="{system.theme} == 'nds'">1.1 1.6</maxSize>			
 		<origin>0.5 0.5</origin>
 		<delay>0</delay>
 		<color>FFFFFFA0</color>
 		<effect>none</effect>
 		<zIndex>9</zIndex>
-		
-		
     </video>
+	
+	
     
     <image name="ControllerOverlay" extra="true">
       <visible>false</visible>

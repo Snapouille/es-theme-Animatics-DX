@@ -46,22 +46,6 @@
 		
 		
 		
-		<!-- A REVOIR l'affichage des logos avec ZOOM, casser avec le nouvel ES -->
-		
-		<!-- <image name="logo"> -->
-			<!-- <linearSmooth>true</linearSmooth> -->
-			<!-- <storyboard event="activate"> -->
-                <!-- <animation property="scale" from="0.7" to="1" begin="100" duration="100" mode="linear"/> -->
-            <!-- </storyboard>	 -->
-			<!-- <storyboard event="scroll"> -->
-                <!-- <animation property="scale" from="1" to="0.7" begin="" duration="1" mode="linear"/>                 -->
-            <!-- </storyboard> -->
-			<!-- <storyboard event="deactivate"> -->
-                <!-- <animation property="scale" to="0.7" duration="100"/> -->
-            <!-- </storyboard>		 -->
-		<!-- </image> -->
-		
-		
 	<image name="wheel-bg" extra="static">
 		<path>./../../../art/divers/wheel.svg</path>
 		<linearSmooth>true</linearSmooth>
@@ -71,28 +55,31 @@
 		<pos>0.88 0.4680556</pos>
 		<size ifHelpPrompts="false">0.457 1.3</size>
 		<pos ifHelpPrompts="false">0.881 0.5</pos>
-		<zIndex>18</zIndex>
+		<zIndex>16</zIndex>
     </image>
 		
-	<image name="circle" extra="static">
-		<path>./../../../art/divers/circle.svg</path>
+	<image name="circle-left" extra="static">
+		<path>./../../../art/divers/circle-left.png</path>
 		<linearSmooth>true</linearSmooth>
 		<color>${baseColor}</color>
 		<origin>0.5 0.5</origin>									
-		<size>1 2.23</size>	
-		<size ifHelpPrompts="false">1 3.3</size>
-		<pos>0.750 0.4680556</pos>									
+		<size>0.0630208 0.9351852</size>									
+		<pos>0.7023438 0.4675926</pos>	
+		<size ifHelpPrompts="false">0.0671875 1</size>									
+		<pos ifHelpPrompts="false">0.6950521 0.5</pos>									
+		
 		<zIndex>17</zIndex>
     </image>
 	
-	<image name="circle2" extra="static">
-		<path>./../../../art/divers/circle.svg</path>
+	<image name="circle-right" extra="static">
+		<path>./../../../art/divers/circle-right.png</path>
 		<linearSmooth>true</linearSmooth>
 		<color>${baseColor}</color>
 		<origin>0.5 0.5</origin>									
-		<size>1 2.8</size>
-		<size ifHelpPrompts="false">1 4.3</size>
-		<pos>0.971 0.4680556</pos>	
+		<size>0.0442708 0.9351852</size>									
+		<pos>0.9320313 0.4675926</pos>		
+		<size ifHelpPrompts="false">0.0473958 1</size>									
+		<pos ifHelpPrompts="false">0.9403646 0.5</pos>									
 		<zIndex>17</zIndex>
     </image>
 

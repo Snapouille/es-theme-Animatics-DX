@@ -14,6 +14,50 @@
 		<path>./../../art/divers/overlay_fixe_rvgm_new.png</path>
 	</image>
 	
+	<image name="overlay_cadreTV" extra="true">
+		<path>./../../art/divers/overlay_cadreTV_rvgm_legacy.png</path>
+		<origin>0.5 0.5</origin>									
+		<size>0.3411458 0.425</size>									
+		<pos>0.5497396 0.449537</pos>	
+		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.3421875 0.3435185</size>									
+		<pos  if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.5502604 0.449537</pos>									
+		<opacity>0.9</opacity>
+	</image>
+	
+	
+	<!-- MD image et video qui match avec l'overlay du cadreTV -->
+	<image name="md_image"> 
+		<origin>0.5 0.5</origin>
+		<size>0.334375 0.4148148</size>									
+		<pos>0.55 0.45</pos>
+
+		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.334375 0.3333333</size>									
+		<pos  if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.55 0.45</pos>									
+		
+		<zIndex>52</zIndex>
+		<storyboard>        
+			<animation property="opacity" from="1" to="0" begin="2000" duration="400" mode="linear"/>
+		</storyboard>
+	</image>
+
+	<video name="md_video">
+		<origin>0.5 0.5</origin>
+		<size>0.334375 0.4148148</size>									
+		<pos>0.55 0.45</pos>									
+		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.334375 0.3333333</size>									
+		<pos  if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.55 0.45</pos>									
+		<snapshotSource>image</snapshotSource>
+		<showSnapshotNoVideo>true</showSnapshotNoVideo> 
+		<showSnapshotDelay>true</showSnapshotDelay>
+		<!-- <loops>2</loops> -->
+		<delay>0.5</delay> 
+		<effect>none</effect>
+		<zIndex>51</zIndex>
+	</video>
+	
+	
+	
+	
 	<image name="md_fanart">>
 		<pos>0 0</pos>
 		<origin>0 0</origin>
@@ -75,28 +119,13 @@
 	
 	
 
-	<video name="md_video">
-		<origin>0.5 0.5</origin>
-		<pos>0.55 0.45</pos>
-		<size>0.334 0.445</size>
-		<!-- <size>0.334 0.345</size> --> <!-- pour la 16/9 -->
-		<!-- <size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' ">0.334 0.445</scale> -->
-		<snapshotSource>image</snapshotSource>
-		<!-- <snapshotSource>image</snapshotSource> -->
-		<showSnapshotNoVideo>true</showSnapshotNoVideo> 
-		<showSnapshotDelay>true</showSnapshotDelay>
-		<loops>2</loops>
-		<delay>0.5</delay> 
-		<effect>none</effect>
-		<zIndex>51</zIndex>
-	</video>
-
 	
 		<!-- Affichage du controller2 -->
 	<image name="controller2" extra="true">
 		<tile>false</tile>
 		<origin>0.5 0.5</origin>									
-		<pos>0.4408854 0.1305556</pos>									
+		<pos>0.4408854 0.1305556</pos>	
+		<y if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.1605556</y>									
 		<maxSize>0.1182292 0.15</maxSize>									
 		<zIndex>99</zIndex>
 		<linearSmooth>true</linearSmooth>
@@ -131,7 +160,8 @@
 	
 	<image name="md_marquee">
 		<origin>0.5 0.5</origin>									
-		<pos>0.615625 0.1305556</pos>									
+		<pos>0.615625 0.1305556</pos>
+		<y if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.1605556</y>									
 		<maxSize>0.2072917 0.15</maxSize>									
 		<linearSmooth>true</linearSmooth>
 		<zIndex>900</zIndex> 

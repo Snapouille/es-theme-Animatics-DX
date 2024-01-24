@@ -48,21 +48,25 @@ originally based on: "carbon"
             <type>horizontal</type>
             <origin>0 0</origin>
             <pos>0.45 0.05</pos>
-            <size>0.55 1</size>
+            <size>0.51 1</size>
             <backgroundColor>333333</backgroundColor>
-            <logoScale>2</logoScale>
-            <logoSize>0.15 0.5</logoSize>
+            <logoScale>2.9</logoScale>
+            <logoSize>0.08 0.3</logoSize>
             <maxLogoCount>6</maxLogoCount>
             <logoRotation>0</logoRotation>
             <logoRotationOrigin>1 1</logoRotationOrigin>
-            <logoAlignment>center</logoAlignment>
-            <logoPos>0.075 0.35</logoPos>
+            <logoAlignment>right</logoAlignment>
+            <logoPos>0.075 0.38</logoPos>
             <minLogoOpacity>0.3</minLogoOpacity>
-            <imageSource>boxart</imageSource>
+            <imageSource>box</imageSource>
             <zIndex>21</zIndex>
-			<!-- <default>./../../art/divers/noboxart.png</default> -->
-		    <!-- <gameImage>./../../art/divers/noboxart.png</gameImage> -->
+			<default>./../../art/divers/noboxart.png</default>
+		    <gameImage>./../../art/divers/noboxart.png</gameImage>
         </gamecarousel>
+		
+		
+		
+		
 
         <text name="gamecarouselLogoText">
             <color>FFFFFFFF</color>

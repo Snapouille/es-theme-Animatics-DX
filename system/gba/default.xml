@@ -5,151 +5,100 @@
 
 	<view name="system">
 	
-		<image name="avatar1" extra="static">
+		<image name="avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, avatar7, avatar8, avatar9" extra="static">
 			<origin>0 0</origin>
-			<pos>0.20 0.23</pos>
-			<size>0.3645833 1.0935185</size>									
-
 			<scale>0.4</scale>
-			<rotation>0</rotation>
 			<zIndex>18</zIndex>
 			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+		</image>
+	
+		<image name="avatar1" extra="static">
+			<pos>0.20 0.23</pos>
+			<size>0.3645833 1.0935185</size>									
 			<path>./avatar1.png</path>
 		</image>
 		
 		<image name="avatar2" extra="static">
-			<origin>0 0</origin>
 			<pos>0.20 0.23</pos>
 			<size>0.3817708 1.0935185</size>									
-
-			<scale>0.4</scale>
-			<rotation>0</rotation>
-			<zIndex>18</zIndex>
-			<opacity>0</opacity>
 			<path>./avatar2.png</path>
 		</image>
 		
 		<image name="avatar3" extra="static">
-			<origin>0 0</origin>
 			<pos>0.20 0.23</pos>
 			<size>0.4421875 1.0935185</size>									
-
-			<scale>0.4</scale>
-			<rotation>0</rotation>
-			<zIndex>18</zIndex>
-			<opacity>0</opacity>
 			<path>./avatar3.png</path>
 		</image>
 		
 		<image name="avatar4" extra="static">
-			<origin>0 0</origin>
 			<pos>0.20 0.18</pos>
 			<size>0.3645833 1.0694444</size>									
-
 			<scale>0.46</scale>
-			<rotation>0</rotation>
-			<zIndex>18</zIndex>
-			<opacity>0</opacity>
 			<path>./avatar4.png</path>
 		</image>
 		
 		<image name="avatar5" extra="static">
-			<origin>0 0</origin>
 			<pos>0.20 0.18</pos>
 			<size>0.3645833 1.0694444</size>									
-
 			<scale>0.46</scale>
-			<rotation>0</rotation>
-			<zIndex>18</zIndex>
-			<opacity>0</opacity>
 			<path>./avatar5.png</path>
 		</image>
 				
 		<image name="avatar6" extra="static">
-			<origin>0 0</origin>
 			<pos>0.20 0.23</pos>
-			<scale>0.4</scale>
-			<rotation>0</rotation>
-			<zIndex>18</zIndex>
-			<opacity>0</opacity>
+			<size>0.3645833 1.0935185</size>
 			<path>./avatar1.png</path>
 		</image>
 		
 		<image name="avatar7" extra="static">
-			<origin>0 0</origin>
 			<pos>0.20 0.23</pos>
 			<size>0.3817708 1.0935185</size>
-			<scale>0.4</scale>
-			<rotation>0</rotation>
-			<zIndex>18</zIndex>
-			<opacity>0</opacity>
 			<path>./avatar2.png</path>
 		</image>
 		
 		<image name="avatar8" extra="static">
-			<origin>0 0</origin>
 			<pos>0.20 0.23</pos>
 			<size>0.4421875 1.0935185</size>
-			<scale>0.4</scale>
-			<rotation>0</rotation>
-			<zIndex>18</zIndex>
-			<opacity>0</opacity>
 			<path>./avatar3.png</path>
 		</image>
 		
 		<image name="avatar9" extra="static">
-			<origin>0 0</origin>
 			<pos>0.20 0.18</pos>
 			<size>0.3645833 1.0694444</size>
 			<scale>0.46</scale>
-			<rotation>0</rotation>
-			<zIndex>18</zIndex>
-			<opacity>0</opacity>
 			<path>./avatar4.png</path>
 		</image>
 		
-		<image name="lumiere1" extra="static">
+		<image name="lumiere1, lumiere2, lumiere3" extra="static">
 			<origin>0 0</origin>
-			<pos>0.183 0.20</pos>
-			<size>0.2692708 0.4888889</size>									
-
 			<scale>1.1</scale>
-			<rotation>0</rotation>
 			<zIndex>17</zIndex>
 			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		
+		<image name="lumiere1" extra="static">
+			<pos>0.183 0.20</pos>
+			<size>0.2692708 0.4888889</size>									
 			<path>./lumiereV.png</path>
 		</image>
 		
 		<image name="lumiere2" extra="static">
-			<origin>0 0</origin>
 			<pos>0.183 0.20</pos>
 			<size>0.2692708 0.4888889</size>									
-
-			<scale>1.1</scale>
-			<rotation>0</rotation>
-			<zIndex>17</zIndex>
-			<opacity>0</opacity>
 			<path>./lumiereV.png</path>
 		</image>
 		
 		<image name="lumiere3" extra="static">
-			<origin>0 0</origin>
 			<pos>0.183 0.18</pos>
 			<size>0.2692708 0.4888889</size>									
-
 			<scale>1</scale>
-			<rotation>0</rotation>
-			<zIndex>17</zIndex>
-			<opacity>0</opacity>
 			<path>./lumiereR.png</path>
 		</image>
 		
-		
-		
-		
 		<image name="lumiere1" extra="true">
 			<storyboard repeat="forever">
-			
 				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
 				<animation property="scale" to="1.2" begin="350" duration="6000" mode="easyIn"/>
 				<animation property="x" from="0.183" to="0.143" begin="350" duration="6000" mode="linear"/>
@@ -192,14 +141,11 @@
 				<animation property="origin" to="0.525 0.5" 	begin="5500" duration="" mode="linear"/>
 				<animation property="color" to="ffffff" begin="5550" duration="50" mode="linear"/>
 				<animation property="origin" to="0.5 0.5" 	begin="5550" duration="50" mode="linear"/>	
-				
 			</storyboard>			
 		</image>
 		
-		
 		<image name="lumiere2" extra="true">
 			<storyboard repeat="forever">
-			
 				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
 				<animation property="scale" to="1.2" begin="350" duration="6000" mode="easyIn"/>
 				<animation property="x" from="0.183" to="0.143" begin="350" duration="6000" mode="linear"/>
@@ -242,7 +188,6 @@
 				<animation property="origin" to="-0.525 0.5" 	begin="5500" duration="" mode="linear"/>
 				<animation property="color" to="ffffff" begin="5550" duration="50" mode="linear"/>
 				<animation property="origin" to="-0.5 0.5" 	begin="5550" duration="50" mode="linear"/>	
-				
 			</storyboard>			
 		</image>
 		
@@ -250,7 +195,6 @@
 		
 		<image name="lumiere3" extra="true">
 			<storyboard repeat="forever">
-			
 				<animation property="opacity" from="0" to="1" begin="" duration="3000" mode="linear"/>
 								
         		<animation property="opacity" begin="5800" from="1" to="0" duration="10" autoreverse="true" repeat="5" mode="bump"/>
@@ -260,16 +204,11 @@
         		<animation property="opacity" begin="14000" from="1" to="0" duration="10" autoreverse="true" repeat="10" mode="bump"/>
 				
 				<animation property="opacity" from="1" to="0" begin="15000" duration="50" autoreverse="true" repeat="10" mode="linear"/>
-				
 			</storyboard>			
 		</image>
 		
-		
-		
-		
 		<image name="avatar2" extra="true">
 			<storyboard repeat="forever">
-			
 					<animation property="x" from="0.23" to="0.27" begin="" duration="800" mode="linear"/>
 					<animation property="opacity" from="0" to="1" begin="" duration="10" mode="linear"/>
 					<animation property="opacity" from="1" to="0" begin="800" duration="10" mode="linear"/>
@@ -279,15 +218,12 @@
 					<animation property="opacity" from="1" to="0" begin="2400" duration="10" mode="linear"/>
 									
 					<animation property="opacity" from="0" to="0" begin="4990" duration="10" mode="linear"/>
-					
 			</storyboard>			
 		</image>
-		
 		
 		<image name="avatar3" extra="true">
 		
 			<storyboard repeat="forever">
-			
 					<animation property="x" from="0.23" to="0.27" begin="800" duration="800" mode="linear"/>
 					<animation property="opacity" from="0" to="1" begin="800" duration="10" mode="linear"/>
 					<animation property="opacity" from="1" to="0" begin="1600" duration="10" mode="linear"/>
@@ -297,63 +233,45 @@
 					<animation property="opacity" from="1" to="0" begin="3200" duration="10" mode="linear"/>
 									
 					<animation property="opacity" from="0" to="0" begin="4990" duration="10" mode="linear"/>
-			
-					
 			</storyboard>			
 		</image>
 		
-		
-		
 		<image name="avatar4" extra="true">
 			<storyboard repeat="forever">
-			
 					<animation property="x" from="0.23" to="0.24" begin="3200" duration="300" mode="linear"/>
 					<animation property="opacity" from="0" to="1" begin="3200" duration="10" mode="linear"/>
 					<animation property="rotation" from="-0.1" to="0.1" begin="3200" duration="300" mode="EaseOut"/>
 					<animation property="opacity" from="1" to="0" begin="3500" duration="10" mode="linear"/>
 					
 					<animation property="opacity" from="0" to="0" begin="4990" duration="10" mode="linear"/>
-					
 			</storyboard>			
 		</image>
-		
 		
 		<image name="avatar5" extra="true">
 		
 			<storyboard repeat="forever">
-			
 					<animation property="x" from="0.24" to="0.23" begin="3500" duration="300" mode="linear"/>
 					<animation property="opacity" from="0" to="1" begin="3500" duration="10" mode="linear"/>
 					<animation property="rotation" from="0.1" to="-0.1" begin="3500" duration="300" mode="EaseOut"/>
 					<animation property="opacity" from="1" to="0" begin="3800" duration="10" mode="linear"/>
 					
 					<animation property="opacity" from="0" to="0" begin="4990" duration="10" mode="linear"/>
-					
 			</storyboard>			
 		</image>
-		
-		
-		
-		
-		
 		
 		<image name="avatar6" extra="true">
 		
 			 <storyboard repeat="forever">
-					
 					<animation property="opacity" from="0" to="1" begin="3800" duration="10" mode="linear"/>
 					<animation property="opacity" from="1" to="0" begin="4100" duration="10" mode="linear"/>
 					
 					<animation property="opacity" from="0" to="0" begin="4990" duration="10" mode="linear"/>
-					
              </storyboard>		
 			
 		</image>
 		
-		
 		<image name="avatar7" extra="true">
 			<storyboard repeat="forever">
-					
 					<animation property="opacity" from="0" to="1" begin="4100" duration="10" mode="linear"/>
 					<animation property="opacity" from="1" to="0" begin="4400" duration="10" mode="linear"/>
 					
@@ -361,37 +279,25 @@
 			</storyboard>			
 		</image>
 		
-		
 		<image name="avatar8" extra="true">
 		
 			<storyboard repeat="forever">
-					
 					<animation property="opacity" from="0" to="1" begin="4400" duration="10" mode="linear"/>
 					<animation property="opacity" from="1" to="0" begin="4700" duration="10" mode="linear"/>
 					
 					<animation property="opacity" from="0" to="0" begin="4990" duration="10" mode="linear"/>
-				
 			</storyboard>			
 		</image>
-		
 		
 		<image name="avatar9" extra="true">
 		
 			<storyboard repeat="forever" >
-			
 					<animation property="opacity" from="0" to="1" begin="4700" duration="10" mode="linear"/>
 					<animation property="opacity" from="1" to="0" begin="5000" duration="10" mode="linear"/>
 					
 					<animation property="opacity" from="0" to="0" begin="4990" duration="10" mode="linear"/>
-					
 			</storyboard>
 		</image>
-		
-		
-		
-		
-		
-		
 		
 	</view>
 

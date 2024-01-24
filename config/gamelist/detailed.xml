@@ -568,10 +568,13 @@ originally based on: "carbon"
 		<forceUppercase>0</forceUppercase>
 		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 		<fontSize>0.022</fontSize>
+		<opacity>0</opacity>
 		<storyboard event="open">
+			<animation property="opacity" to="1" begin="1200" duration="100" mode="linear"/>
 			<animation property="size" to="0.45 0.213" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		<storyboard event="activate">
+			<animation property="opacity" to="1" begin="1200" duration="100" mode="linear"/>
 			<animation property="size" to="0.45 0.213" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivate">

@@ -135,16 +135,6 @@
 		  </storyboard>
 	</image>
 
-	<rating name="md_rating">
-		<pos>0.413 0.12</pos>
-		<size>0.16 0.032</size>
-		<color>FFFF00</color>
-		<!-- <color>${dataColor}</color> -->
-		<horizontalAlignment>right</horizontalAlignment>
-		<rotation>0</rotation>
-		<opacity>0</opacity>
-		<zIndex>99</zIndex>
-	</rating>
 
 
 	<image name="md_fanart">
@@ -352,15 +342,20 @@
 		<pos>0.0255 0.877</pos>
 		<size>0.18 0.079</size>
 	</text>
+	
+	
 	<rating name="md_rating">
 		<pos>0.44 0.725</pos>
 		<size>0.16 0.032</size>
+		<color>FFFF00</color>
+		<horizontalAlignment>right</horizontalAlignment>
+		<rotation>0</rotation>
+		<unfilledColor>606060</unfilledColor>
+		<unfilledPath>:/star_filled.svg</unfilledPath>
+		<zIndex>99</zIndex>
 	</rating>
 	
 	
-	
-
-
 
 	<image name="md_flag">
 		<origin>0.5 0.5</origin>									
