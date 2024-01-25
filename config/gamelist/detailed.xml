@@ -594,7 +594,7 @@ originally based on: "carbon"
 		<forceUppercase>0</forceUppercase>
 		<color>${baseColor}</color>
 		<fontPath>./../../art/fonts/charge-vector.otf</fontPath>
-		<fontSize>0.023</fontSize>
+		<fontSize>0.022</fontSize>
     </text>
 	
 	<text name="md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_releasedate, md_lbl_genre">
@@ -618,11 +618,11 @@ originally based on: "carbon"
 		<pos>0.504 0.725</pos>
 	    <size>0.30 0.05</size>
 		<storyboard event="open">
-			<animation property="pos" to="0.474 0.889" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.474 0.89" begin="1200" duration="200" mode="linear"/>
 			<animation property="color" to="ff3f2f" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		<storyboard event="activate">
-			<animation property="pos" to="0.474 0.889" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.474 0.89" begin="1200" duration="200" mode="linear"/>
 			<animation property="color" to="ff3f2f" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivate">
