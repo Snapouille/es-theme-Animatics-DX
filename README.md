@@ -51,7 +51,7 @@ Features :
 ![2024-01-25 09_50_06-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/d3f1759b-b3fe-4317-adaf-914a6d505fe2)
 
 ## Gamelist view : Detailed
-![detailed view](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/afeb41fd-2f92-4a62-b231-9699dd968a63)
+![2024-01-25 10_06_06-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/d1a7eefa-f728-4630-add8-76cd5bd03f87)
 
 ## Gamelist view : Grid
 ![2024-01-25 09_53_36-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/867b8cb8-5c47-47f0-a5f4-e08c471fcf63)
