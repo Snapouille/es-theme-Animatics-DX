@@ -48,19 +48,19 @@ Features :
 # Gamelist View
 
 ## Gamelist view : Game Carousel
-![2023-08-16 22_02_33-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/1352f778-287a-44ad-a56f-efe8df229308)
+![2024-01-25 09_50_06-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/d3f1759b-b3fe-4317-adaf-914a6d505fe2)
 
 ## Gamelist view : Detailed
 ![detailed view](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/afeb41fd-2f92-4a62-b231-9699dd968a63)
 
 ## Gamelist view : Grid
-![gamelist Grid](https://user-images.githubusercontent.com/105559045/219969836-e5bc356b-0fcc-436d-a227-31029da367a8.png)
+![2024-01-25 09_53_36-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/867b8cb8-5c47-47f0-a5f4-e08c471fcf63)
 
 ## Gamelist view : Video 
 ![2023-12-03 17_38_40-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/5aaece31-0888-43e6-b667-57f928c3bf21)
 
 ## Gamelist view : Fanart
-![2023-12-03 17_42_22-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/21e18eb9-40cc-483a-bb03-c7f9f8df93b6)
+![2024-01-25 09_57_28-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/8f95b61e-342a-4e9e-811d-2b6d899deb6a)
 
 ## Gamelist view : RVGM Legacy
 ![2023-12-16 09_20_19-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/51c9e841-c77d-4748-bb23-de7e4db91d80)
