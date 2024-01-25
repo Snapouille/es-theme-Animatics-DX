@@ -19,13 +19,13 @@ originally based on: "carbon"
 		<size>0.2182292 0.0185185</size>									
 		<pos>0.2023438 0.9037037</pos>
 		<pos ifHelpPrompts="false">0.2023438 0.98</pos>	
-		<text>- {game:systemName} -</text> 
+		<text> - {game:systemName} - </text> 
         <alignment>right</alignment>
         <verticalAlignment>top</verticalAlignment>
 		<forceUppercase>1</forceUppercase>
 		<color>${baseColor}</color>
-		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
-		<fontSize>0.017</fontSize>
+		<fontPath>./../../art/fonts/gobold-blocky-regular.otf</fontPath>
+		<fontSize>0.019</fontSize>
 		<zIndex>131</zIndex>
 		<storyboard event="open">
 			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
@@ -282,7 +282,7 @@ originally based on: "carbon"
 	  <text name="md_genre">
          <pos>0.011 0.48</pos>
          <size>0.41 0.033</size>
-         <fontSize>0.024</fontSize>
+         <fontSize>0.019</fontSize>
       </text>
 	  
 	

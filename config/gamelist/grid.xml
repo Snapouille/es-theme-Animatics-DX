@@ -29,14 +29,14 @@ originally based on: "carbon"
 	<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static">
 		<origin>0.5 0.5</origin>									
 		<size>0.4 0.03</size>									
-		<pos>0.24 0.03</pos>									
-		<text>{game:systemName}</text> 
+		<pos>0.24 0.034</pos>									
+		<text> {game:systemName} </text> 
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
 		<forceUppercase>1</forceUppercase>
-		<color>${systemInfoColor}</color>
-		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
-		<fontSize>0.023</fontSize>
+		<color>${baseColor}</color>
+		<fontPath>./../../art/fonts/gobold-blocky-regular.otf</fontPath>
+		<fontSize>0.024</fontSize>
 		<zIndex>131</zIndex>
 		<storyboard event="open">
 			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
@@ -168,8 +168,8 @@ originally based on: "carbon"
 	  <text name="md_genre">
          <pos>0.20 0.384</pos>
          <size>0.41 0.033</size>
-         <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-         <fontSize>0.025</fontSize>
+         <fontPath>./../../art/fonts/charge-vector.otf</fontPath>
+         <fontSize>0.023</fontSize>
          <color>${dataColor}</color>
          <zIndex>51</zIndex>
          <origin>0 0</origin>

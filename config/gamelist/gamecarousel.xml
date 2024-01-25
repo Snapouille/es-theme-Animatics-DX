@@ -33,17 +33,17 @@ originally based on: "carbon"
 		<origin>0.5 0.5</origin>									
 		<size>0.4 0.03</size>									
 		<pos>0.28 0.035</pos>
-		<opacity>0</opacity>
-		<text>- {game:systemName} -</text> 
+		<opacity>1</opacity>
+		<text> - {game:systemName} - </text> 
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
 		<forceUppercase>1</forceUppercase>
 		<color>${systemInfoColor}</color>
-		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
+		<fontPath>./../../art/fonts/gobold-blocky-regular.otf</fontPath>
 		<fontSize>0.023</fontSize>
 		<zIndex>13</zIndex>
 		<storyboard event="open">
-			<animation property="opacity" to="0" mode="linear"/>
+			<!-- <animation property="opacity" to="0" mode="linear"/> -->
 			<animation property="opacity" to="1" begin="800" duration="300" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="800" duration="300" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
@@ -369,8 +369,8 @@ originally based on: "carbon"
 	  <visible>true</visible>
 	  <origin>0 0</origin>
 	  <color>${baseColor}</color>
-	  <fontSize>0.028</fontSize>
-	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+	  <fontSize>0.023</fontSize>
+	  <fontPath>./../../art/fonts/charge-vector.otf</fontPath>
 	  <size>0.31 0.025</size>
 	  <alignment>left</alignment>
 	  <pos>0.18 0.145</pos>
