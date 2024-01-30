@@ -293,10 +293,7 @@
 	
 	
 	<text name="md_description">
-		<size>0.01 0.01</size>									
 		<pos>0.703125 0.8074074</pos>									
-		
-
 		
 		<storyboard event="open">
 			<animation property="size" to="0.48125 0.16" begin="1200" duration="200" mode="linear"/>
