@@ -5,6 +5,15 @@
 	
 	<view name="system">
 
+
+		<image name="BG_snapLegacy" extra="true">
+			<scale>1.5</scale>
+			  <storyboard>
+					<animation property="offsetX" from="-0.1" to="0" begin="" duration="1400" mode="EaseInOut"/>
+					<animation property="scale" to="1" begin="" duration="1350" mode="EaseInOut"/>
+			  </storyboard>
+		</image>
+
 		<image name="avatar" extra="static">
 			<origin>0.5 0.5</origin>	
 			<size>0.3505208 0.8194444</size>									
@@ -13,7 +22,7 @@
 			<linearSmooth>true</linearSmooth>					
 			<storyboard>
 				
-        		<animation property="x" to="0.52" begin="800" duration="1000" mode="EaseInOut"/>
+        		<animation property="x" to="0.52" begin="" duration="1200" mode="EaseInOut"/>
         		
 			</storyboard>					
 

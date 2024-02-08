@@ -255,11 +255,10 @@
 			<visible>true</visible>
 			<linearSmooth>true</linearSmooth>
 			<storyboard repeat="forever">
-				<animation property="opacity" from="0" to="1" begin="800" duration="115" mode="linear" />
-				<animation property="w" to="0.1" begin="800" duration="1200" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="600" duration="600" mode="linear" />
+				<animation property="w" to="0.1" begin="400" duration="1200" mode="linear"/>
 				<animation property="offsetX" to="-0.003" begin="800" duration="300" autoreverse="true" mode="linear"/>
 				<animation property="offsetX" to="0.003"  begin="1400" duration="300" autoreverse="true" mode="linear"/>
-				<animation property="w" to="0.019" begin="5000" duration="2000" mode="Linear" autoReverse="true"/>
 				<animation property="opacity" from="1" to="0" begin="15000" duration="1000" mode="linear" />
 				<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear" />
 			</storyboard>
