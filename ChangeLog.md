@@ -1,4 +1,4 @@
-## V 1.63 - (xx 01 2024)
+## V 1.63 - (08 02 2024)
 - Gamelist : add New gun icon for shooting games
 - Gamelist : add New wheel icon for steering wheel games
 - reorganisation of collections
