@@ -1,3 +1,11 @@
+## V 1.63 - (xx 01 2024)
+- Gamelist : add New gun icon for shooting games
+- Gamelist : add New wheel icon for steering wheel games
+- reorganisation of collections
+- reworked cpc animation
+- reworked atari jaguar animation
+- Small fixes  
+
 ## V 1.62 - (24 01 2024)
 - Add New mouse for the system ScummVM
 - Add New collection: Virtua Fighter
