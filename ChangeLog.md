@@ -1,3 +1,7 @@
+## V 1.64 - (12 02 2024)
+- going backwards for "collections" before guaranteeing backward compatibility with older models prior to batocera v39 and retrobat v6
+- resize CPS II avatar
+
 ## V 1.63 - (08 02 2024)
 - Gamelist : add New gun icon for shooting games
 - Gamelist : add New wheel icon for steering wheel games
