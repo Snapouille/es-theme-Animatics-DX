@@ -13,7 +13,7 @@ originally based on: "carbon"
 <customView name="fanart" inherits="gamecarousel" displayName="${fanartview}">
 
 
-	<image name="cadre, logo, ecran_console, console-collection, md_thumbnail, Chevron_haut, Chevron_bas, cadre_haut1, cadre_haut2, black_bg" extra="true">
+	<image name="thumbnail-gamecarousel, cadre, logo, ecran_console, console-collection, md_thumbnail, Chevron_haut, Chevron_bas, cadre_haut1, cadre_haut2, black_bg" extra="true">
 			<visible>false</visible>
 	</image>
 
@@ -44,18 +44,18 @@ originally based on: "carbon"
 	</image>
 		
 	
-		<gamecarousel name="gamecarousel">
+	<gamecarousel name="gamecarousel">
             <type>horizontal</type>
             <origin>0 0</origin>
-            <pos>0.45 0.05</pos>
-            <size>0.51 1</size>
+            <pos>0.45 0.25</pos>
+            <size>0.61 2</size>
             <backgroundColor>333333</backgroundColor>
             <logoScale>2.9</logoScale>
             <logoSize>0.08 0.3</logoSize>
             <maxLogoCount>6</maxLogoCount>
             <logoRotation>0</logoRotation>
             <logoRotationOrigin>1 1</logoRotationOrigin>
-            <logoAlignment>right</logoAlignment>
+            <logoAlignment>bottom</logoAlignment>
             <logoPos>0.075 0.38</logoPos>
             <minLogoOpacity>0.3</minLogoOpacity>
             <imageSource>box</imageSource>
@@ -69,13 +69,14 @@ originally based on: "carbon"
 		
 
         <text name="gamecarouselLogoText">
-            <color>FFFFFFFF</color>
-            <glowColor>00000050</glowColor>
-            <glowSize>3</glowSize>
-            <glowOffset>3</glowOffset>
-            <lineSpacing>1.0</lineSpacing>
-            <fontSize>0.040</fontSize>
+			<color>000000</color>
+			<!-- <glowColor>00000050</glowColor> -->
+			<!-- <glowSize>3</glowSize> -->
+			<!-- <glowOffset>3</glowOffset> -->
+			<lineSpacing>1.0</lineSpacing>
+			<fontSize>0.001</fontSize>
         </text>
+		
 
         <!-- Overlay background -->
         <image name="overlay" extra="true">

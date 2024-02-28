@@ -30,7 +30,8 @@
 		<image name="rooney" extra="static">
 			<path>./rooney.png</path>
 			<size>0.2208333 0.6611111</size>									
-			<pos>0.5552083 0.3462963</pos>									
+			<pos>0.5552083 0.3462963</pos>	
+			<scale>0.9</scale>
 
 			<storyboard>
 				<animation property="opacity" from="0" to="1" begin="" duration="350" mode="linear"/>
@@ -39,7 +40,7 @@
 			</storyboard>
 		</image>
 		
-				<image name="ball" extra="static">
+		<image name="ball" extra="static">
 			<path>./ball.png</path>
 			<size>0.0588542 0.1046296</size>									
 			<pos>0.3075521 0.6912037</pos>									

@@ -490,6 +490,7 @@ originally based on: "carbon"
 		<pos>0.3445313 0.1569444</pos>									
 		<color>fdde0b</color>
 		<opacity>0</opacity>
+		<zIndex>3001</zIndex>
 	  
 		<storyboard event="open">
 			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>

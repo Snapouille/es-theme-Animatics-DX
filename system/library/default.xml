@@ -7,7 +7,7 @@
 			<origin>0 0</origin>
 			<size>0.1458333 0.7407407</size>									
 
-			<pos>0.37 0.17</pos>
+			<pos>0.45 0.11</pos>
 			<maxSize>0.2969 0.7067</maxSize>
 			<path>./avatar.png</path>
 			<linearSmooth>true</linearSmooth>
@@ -15,7 +15,7 @@
 			
 				<storyboard>
 				
-        		<animation property="x" to="0.47" begin="" duration="4000" mode="EaseInOut"/>
+        		<animation property="x" to="0.47" begin="" duration="1000" mode="EaseInOut"/>
         		
 			</storyboard>		
 		</image>

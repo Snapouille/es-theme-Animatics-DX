@@ -7,7 +7,7 @@
 			<origin>0.5 0.5</origin>
 			<linearSmooth>true</linearSmooth>
 			<opacity>0</opacity>
-			<zIndex>2200</zIndex>
+			<zIndex>5000</zIndex>
 		</image>
 
 		<image name="avatar-orko1" extra="true">
@@ -98,7 +98,7 @@
 			<path>./avatar-thunder.gif</path>
 			<size>0.8010417 0.8342593</size>									
 			<pos>0.4 0.4171296</pos>									
-			<zIndex>1199</zIndex>
+			<zIndex>4499</zIndex>
 			<storyboard>	
 				<animation property="opacity" to="0.9" begin="11900" duration="100" mode="Linear"/>
 				<animation property="opacity" to="0.8" begin="12000" duration="100" autoreverse="true" repeat="18" mode="Linear"/>

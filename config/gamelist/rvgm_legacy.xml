@@ -26,15 +26,15 @@
 		
 	</image>
 	
+	
+	<image name="rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon">
+		<color>000000</color>
+	</image>
+	
 	<text name="md_developer, md_publisher,md_playcount, md_gametime, md_players">
 		<color>000000</color>
 	</text>
 
-	<text name="md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, 
-			md_lbl_description, md_lbl_players, md_lbl_rating, md_lbl_gametime
-			md_lbl_releasedate, md_lbl_lastplayed, md_lbl_gametime">
-			<color>144ca7</color>
-	</text>
 
 	<datetime name="md_releasedate, md_lastplayed">
 		<color>000000</color>
@@ -46,7 +46,7 @@
 	</text>
 	
 	<rating name="md_rating">
-		<color>dbe217</color>
+		<color>fffc00</color>
 	</rating>
 
 	<text name="md_description">

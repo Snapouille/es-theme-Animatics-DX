@@ -4,21 +4,43 @@
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<image name="avatar" extra="static">
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>0.6583333 0.6583333</size>									
+			<pos>0.3536458 0.405</pos>	
+			<linearSmooth>true</linearSmooth>
+			  <storyboard>
+					<animation property="x" to="0.2807292" begin="" duration="10000" autoreverse="true" repeat="forever" mode="EaseInOut"/>
+			  </storyboard>
+		</image>
+		
+		<image name="background-city" extra="true">
+			<origin>0.5 0.5</origin>									
+			<linearSmooth>true</linearSmooth>
+			<size>1 0.1203704</size>									
+			<pos>0.5 0.2222222</pos>
+			<path>./background-city.gif</path>
+			<zIndex>5</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="scale" to="0.8" begin="13000" duration="5000" mode="linear"/>
+				<animation property="offsetX" to="-0.15" begin="13000" duration="5000" mode="linear"/>
+				<animation property="scale" to="1" begin="20000" duration="1500" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="avatar" extra="true">
 			<origin>0.5 0.5</origin>
-			<size>0.4984375 0.9046296</size>									
-
+			<size>0.4828125 0.9175926</size>									
 			<pos>0.1 0.46</pos>
 			<scale>0.51</scale>
 			<opacity>0</opacity>
-	
-	
-			<!-- <pos>0.5 0.42</pos> -->
-			<!-- <scale>1.5</scale> -->
-
-
+			<path>./avatar.gif</path>
+			<zIndex>3000</zIndex>
+			
 			<storyboard repeat="forever">
-				
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
 				<animation property="x" to="0.27" begin="" duration="200" mode="linear"/>
 				
@@ -58,10 +80,6 @@
 				<animation property="color" to="ffffff" begin="9550" duration="50" mode="linear"/>
 				<animation property="origin" to="0.5 0.5" 	begin="9550" duration="50" mode="linear"/>				
 				
-				
-				
-				
-				
 				<animation property="rotation" to="1" begin="10000" autoreverse="true" duration="200" mode="linear"/>
 				
 				<animation property="scale" to="1.6" begin="13000" duration="100" mode="Linear"/>
@@ -70,22 +88,71 @@
 				<animation property="rotation" to="6" begin="13000" autoreverse="true" duration="100" mode="linear"/>
         		<animation property="scale" to="1.1" begin="13150" duration="100" mode="Linear"/>			
 				
-				
 				<animation property="rotation" to="1" begin="13500" autoreverse="true" duration="3000" repeat="1" mode="linear"/>
 				<animation property="scale" from="1" to="1.15" begin="13500" autoreverse="true" duration="3000" repeat="1" mode="linear"/>
 				
-				
-        		
-				
-				
 				<animation property="scale" to="7" begin="20000" duration="1500" mode="Linear"/>
 				<animation property="opacity" to="0" begin="20000" duration="1500" mode="linear"/>
-				
-				
 			</storyboard>
-
-		
 		</image>
+		
+		
+		
+		
+		<image name="cow" extra="true">
+			<origin>0.5 0.5</origin>									
+			<linearSmooth>true</linearSmooth>
+			<size>0.2583333 0.2583333</size>									
+			<pos>1.15 0.7189815</pos>									
+			<path>./cow.gif</path>
+			<zIndex>3000</zIndex>
+			
+			<storyboard>
+				<animation property="offsetX" to="-0.5" begin="24500" duration="10000" mode="linear"/>
+				<animation property="scale" to="10" begin="34500" duration="500" mode="linear"/>
+				<animation property="rotation" to="30" begin="34500" duration="500" mode="linear"/>
+				<animation property="offsetY" to="-0.35" begin="34500" duration="500" mode="linear"/>
+				<animation property="opacity" to="0" begin="34800" duration="200" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="Blood1, Blood2" extra="static">	
+			<origin>0 0</origin>	
+			<scale>0.7</scale>
+			<opacity>0</opacity>
+			<zIndex>5000</zIndex>
+			<rotation>10</rotation>
+		</image>		
+		
+		<image name="Blood1" extra="static">	
+			<size>0.1567708 0.2592593</size>									
+			<pos>0.5364583 0.4481481</pos>									
+			<path>./blood1.png</path>
+			
+			<storyboard>
+				<animation property="opacity" from="0" to="1" 	begin="34500" duration="100" mode="linear"/>
+				<animation property="offsetY" from="0" to="0.05" begin="34500" duration="100" mode="Linear"/>				
+				<animation property="scale" to="1" 				begin="34500" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" 			begin="41300" duration="800" mode="linear"/>
+			</storyboard>			
+		</image>
+	
+		<image name="Blood2" extra="static">	
+			<size>0.3265625 0.3805556</size>									
+			<pos>0.5203125 0.3231481</pos>																							
+			<path>./blood2.png</path>
+			
+			<storyboard>
+					<animation property="opacity" from="0" to="1" 	begin="34800" duration="100" mode="linear"/>
+					<animation property="offsetY" from="0" to="0.05" begin="34800" duration="100" mode="Linear"/>				
+					<animation property="scale" to="1" 				begin="34800" duration="100" mode="linear"/>
+					<animation property="opacity" to="0" 			begin="41300" duration="800" mode="linear"/>
+			</storyboard>
+		</image>		
+		
+		
 	</view>
+	
 
 </theme>

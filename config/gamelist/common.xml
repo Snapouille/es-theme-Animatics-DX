@@ -28,7 +28,7 @@ originally based on: "carbon"
 	<image name="up_BottomFrame, down_BottomFrame, left_BottomFrame, right_BottomFrame, black_BottomFrame" extra="true">
 		<path>./../../art/divers/white.png</path>
 		<color>${baseColor}</color>
-		<zIndex>19</zIndex>
+		<zIndex>3000</zIndex>
 		<origin>0.5 0.5</origin>
 	</image>
 	
@@ -64,7 +64,7 @@ originally based on: "carbon"
 	<!-- fond noir de l'encadrement de l'aide -->
 	<image name="black_BottomFrame" extra="true">
 		<path>./../../art/divers/black.png</path>
-		<zIndex>16</zIndex>
+		<zIndex>2999</zIndex>
 		<size>1 0.0657407</size>									
 		<pos>0.5 0.9680556</pos>	
 

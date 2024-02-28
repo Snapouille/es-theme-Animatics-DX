@@ -32,13 +32,13 @@ originally based on: "carbon"
 	<text name="WhatSystemGAME" extra="static">
 		<origin>0.5 0.5</origin>									
 		<size>0.4 0.03</size>									
-		<pos>0.28 0.035</pos>
+		<pos>0.28 0.04</pos>
 		<opacity>1</opacity>
 		<text> - {game:systemName} - </text> 
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
 		<forceUppercase>1</forceUppercase>
-		<color>${systemInfoColor}</color>
+		<color>${dataColor}</color>
 		<fontPath>./../../art/fonts/gobold-blocky-regular.otf</fontPath>
 		<fontSize>0.023</fontSize>
 		<zIndex>13</zIndex>
@@ -106,6 +106,7 @@ originally based on: "carbon"
 	<image name="iconsLine" extra="true">
 			<pos>0.95 0</pos>
 			<size>0.003 0.935</size>
+			<size ifHelpPrompts="false">0.003 1</size>
 	</image> 
 
 	<image name="ecran_console" extra="static">
@@ -129,8 +130,6 @@ originally based on: "carbon"
 		<storyboard event="deactivate">
 				<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-			
-			
 	</image>
 	
 	
@@ -176,42 +175,42 @@ originally based on: "carbon"
     </image>
 	
 	
-
 	
 	
-	
-	<image name="md_thumbnail">
-	  <visible>true</visible>
-	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.22 0.457</maxSize>
-	  <maxSize ifHelpPrompts="false">0.22 0.5</maxSize>
-	  <pos>0.12 0.691</pos>
-	  <pos ifHelpPrompts="false">0.12 0.73</pos>
-	  <origin>0.5 0.5</origin>
-	  <reflexion>0 0</reflexion>
-	  <default>./../../art/divers/noboxart.png</default>
-
-	  <zIndex>150</zIndex>
-			
+	<!-- en remplacement de l'ancien <image name="md_thumbnail"> devenu obscolète pour éviter le bug quand il n'y a pas de thumbnail -->
+	<image name="thumbnail-gamecarousel" extra="true">
+		<path>{game:thumbnail}</path>
+		<visible>true</visible>
+		<linearSmooth>true</linearSmooth>
+		<maxSize>0.22 0.457</maxSize>
+		<maxSize ifHelpPrompts="false">0.22 0.5</maxSize>
+		<pos>0.12 0.691</pos>
+		<pos ifHelpPrompts="false">0.12 0.73</pos>
+		<origin>0.5 0.5</origin>
+		<reflexion>0 0</reflexion>
+		<default>./../../art/divers/noboxart.png</default>
+		<zIndex>150</zIndex>
 			<storyboard event="open">
-                <animation property="scale" from="0.2" to="1" duration="400" mode="EaseOutQuint"/>
-				<animation property="rotation" from="-45" to="0" duration="400" mode="EaseOutCubic"/>
+                <animation property="offsetX" from="-0.5" to="0" duration="400" mode="EaseOutQuint"/>
+				<animation property="rotation" from="-45" to="0" duration="400" mode="EaseInOut"/>
 			</storyboard>
-			
-			<storyboard event="activate">
-                <animation property="scale" from="0.2" to="1" duration="400" mode="EaseOutQuint"/>
-				<animation property="rotation" from="-45" to="0" duration="400" mode="EaseOutCubic"/>
+			<storyboard event="activateNext">
+                <animation property="offsetX" from="-0.5" to="0" duration="400" mode="EaseOutQuint"/>
+				<animation property="rotation" from="-45" to="0" duration="400" mode="EaseInOut"/>
 			</storyboard>
-			
+			<storyboard event="activatePrev">
+                <animation property="offsetX" from="-0.5" to="0" duration="400" mode="EaseOutQuint"/>
+				<animation property="rotation" from="-45" to="0" duration="400" mode="EaseInOut"/>
+			</storyboard>
 			<storyboard event="deactivate">
 			    <animation property="offsetX" from="0" to="-0.2" duration="200" mode="EaseOut"/>
 				<animation property="scale" to="0.5" duration="200" mode="EaseOut"/>
 				<animation property="rotation" to="90" duration="200" mode="EaseOut"/>
 			</storyboard>
-			
-			
-			
-	</image>	  
+	</image>
+	
+	
+	
 	
 	
 	<image name="md_marquee">
@@ -700,7 +699,7 @@ originally based on: "carbon"
 		<image name="BarAndRound2" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.0390625 0.1083333</size>									
-			<pos>0.0549479 0.0828704</pos>									
+			<pos>0.0549479 0.0878704</pos>									
 			<path>./../../art/divers/BarAndRound2.png</path>
 			<color>${baseColor}</color>
 			<zIndex>7</zIndex>
@@ -901,10 +900,11 @@ originally based on: "carbon"
 
 	
 	<!-- Règle d'affichage des consoles -->
-	<image name="Consoles" extra="static">
+	<!-- <image name="Consoles" extra="static"> -->
 		  
-  	</image>
+  	<!-- </image> -->
 
+	
 	
 	
 	

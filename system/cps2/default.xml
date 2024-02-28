@@ -4,6 +4,16 @@
 	<formatVersion>7</formatVersion>
 	
 	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>0.6567708 0.6564815</size>									
+			<pos>0.37 0.3875</pos>									
+			  <storyboard>
+					<animation property="x" to="0.27" begin="" duration="2000" mode="EaseInOut"/>
+			  </storyboard>
+		</image>	
+	
 
 		<image name="avatar" extra="static">
 			<origin>0.5 0.5</origin>									
@@ -14,7 +24,7 @@
 								
 			<storyboard>
 				
-        		<animation property="x" to="0.51" begin="" duration="2000" mode="EaseInOut"/>
+        		<animation property="x" to="0.51" begin="" duration="4000" mode="EaseInOut"/>
         		
 			</storyboard>					
 

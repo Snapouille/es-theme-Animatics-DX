@@ -1,0 +1,93 @@
+<!-- c20 Vic  -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+<view name="system">
+		
+	<image name="BG_snapLegacy" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>2.9630208 0.7407407</size>									
+		<pos>1.5002604 0.3703704</pos>									
+		<scale>1.05</scale>
+		  <storyboard>
+				<animation property="scale" to="1" begin="" duration="1000" mode="EaseInOut"/>
+				<animation property="x" to="1.42" begin="" duration="1000" mode="EaseInOut"/>
+				<animation property="x" to="-0.8643229" begin="1000" duration="250000" mode="linear"/>
+		  </storyboard>
+	</image>
+	
+	<image name="BG_moon" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.5765625 0.112963</size>									
+		<pos>0.3231771 0.7759259</pos>																
+		<path>./bg-moon.png</path>
+		<zIndex>8</zIndex>
+		  <storyboard>
+				<animation property="y" to="0.6555556" begin="" duration="1000" mode="EaseInOut"/>
+		  </storyboard>
+	</image>
+	
+	<image name="BG_earth" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.3390625 0.6046296</size>									
+		<pos>-0.1236979 0.5569444</pos>									
+		<path>./bg-earth.png</path>
+		<linearSmooth>true</linearSmooth>	
+		<zIndex>7</zIndex>
+		  <storyboard>
+				<animation property="x" to="0.25" begin="" duration="1000" mode="EaseInOut"/>
+				<animation property="x" to="0.7929688" begin="1000" duration="250000" mode="linear"/>
+		  </storyboard>
+	</image>
+
+	<image name="avatar1, avatar2, avatar3, avatar4, avatar5">
+		<origin>0 0</origin>	
+		<linearSmooth>true</linearSmooth>		
+		<opacity>0</opacity>
+		<zIndex>10000</zIndex>
+	</image>
+	
+	<image name="avatar1" extra="true">
+		<size>0.009375 0.012963</size>									
+		<pos>0.0786458 0.6351852</pos>									
+		<path>./avatar1.png</path>
+
+		<storyboard>
+			<animation property="opacity" to="1" begin="700" duration="10" mode="linear"/>
+			<animation property="size" to="0.184375 0.2777778" begin="700" duration="350" mode="linear"/>
+			<animation property="pos" to="0.0890625 0.3787037" begin="700" duration="350" mode="linear"/>
+			<animation property="rotation" from="30" to="0" begin="700" duration="350" mode="linear"/>
+		</storyboard>
+	</image>
+
+	<image name="avatar2" extra="true">
+		<size>0.0083333 0.0092593</size>									
+		<pos>0.209375 0.0981481</pos>									
+		<path>./avatar2.png</path>
+		
+		<storyboard>
+			<animation property="opacity" to="1" begin="1100" duration="10" mode="linear"/>
+			<animation property="size" to="0.1458333 0.1564815" begin="1100" duration="300" mode="linear"/>
+			<animation property="pos" to="0.2104167 0.0861111" begin="1100" duration="300" mode="linear"/>
+			<animation property="rotation" from="30" to="0" begin="1100" duration="300" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	<image name="avatar3" extra="true">
+		<size>0.053125 0.0824074</size>									
+		<pos>1.0369792 0.5333333</pos>									
+		<path>./avatar3.png</path>
+		
+		<storyboard>
+			<animation property="opacity" to="1" begin="1300" duration="10" mode="linear"/>
+			<animation property="size" to="0.2927083 0.4509259" begin="1300" duration="250" mode="linear"/>
+			<animation property="pos" to="0.36 0.18" begin="1300" duration="250" mode="linear"/>
+			<animation property="rotation" from="30" to="0" begin="1300" duration="250" mode="linear"/>
+		</storyboard>
+	</image>
+
+	</view>
+</theme>
+
+

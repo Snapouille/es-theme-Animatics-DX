@@ -45,7 +45,6 @@
 		</carousel>
 		
 		
-		
 	<image name="wheel-bg" extra="static">
 		<path>./../../../art/divers/wheel.svg</path>
 		<linearSmooth>true</linearSmooth>
@@ -53,7 +52,7 @@
 		<origin>0.5 0.5</origin>									
 		<size>0.45 0.937963</size>
 		<pos>0.88 0.4680556</pos>
-		<size ifHelpPrompts="false">0.457 1.3</size>
+		<size ifHelpPrompts="false">0.51 1.3</size>
 		<pos ifHelpPrompts="false">0.881 0.5</pos>
 		<zIndex>16</zIndex>
     </image>

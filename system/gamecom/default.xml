@@ -10,11 +10,11 @@
 								
 			<scale>0.9</scale>						
 								
-			<pos>0.4296875 0.49</pos>									
+			<pos>0.49 0.49</pos>									
 								
 			<storyboard>
 				
-        		<animation property="x" to="0.51" begin="" duration="4000" mode="EaseInOut"/>
+        		<animation property="x" to="0.51" begin="" duration="2000" mode="EaseInOut"/>
         		
 			</storyboard>					
 			

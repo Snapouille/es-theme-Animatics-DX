@@ -10,7 +10,7 @@
 			<size>0.5020833 2.0935185</size>									
 			<pos>0.16 0.183</pos>
 			<scale>0.25</scale>
-			
+			<linearSmooth>true</linearSmooth>
 			<path>./kratos1.png</path>
 			<opacity>1</opacity>
 			<zIndex>18</zIndex>
@@ -27,7 +27,7 @@
 					<animation property="y" to="0.21" begin="4200" duration="7800" mode="EaseIn"/>
 					
 					
-					<animation property="x" to="0.182" begin="12000" duration="300" mode="linear"/>
+					<animation property="x" to="0.082" begin="12000" duration="300" mode="linear"/>
 					<animation property="y" to="0.32" begin="12000" duration="300" mode="linear"/>
 					<animation property="scale" to="1" begin="12000" duration="300" mode="linear"/>
 					
@@ -43,7 +43,7 @@
 			<origin>0 0</origin>									
 			<size>0.3583333 0.6944444</size>									
 			
-			<pos>0.38 0.325</pos>
+			<pos>0.28 0.325</pos>
 			<scale>1</scale>
 			<path>./kratos2.png</path>
 			<opacity>0</opacity>
@@ -52,7 +52,7 @@
 			<storyboard repeat="forever">
 					
 					<animation property="opacity" to="1" begin="12300" duration="100" mode="linear"/>
-					<animation property="x" to="0.35" begin="12400" duration="7000" mode="linear"/>
+					<animation property="x" to="0.25" begin="12400" duration="7000" mode="linear"/>
 					
 					
 					<animation property="x" to="-0.1" begin="19400" duration="600" mode="linear"/>

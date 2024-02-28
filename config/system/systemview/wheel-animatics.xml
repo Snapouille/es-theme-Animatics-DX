@@ -25,7 +25,7 @@
 			<logoSize>0.18 0.115</logoSize> <!-- 0.25 0.155 -->
 			<logoScale>1.25</logoScale> <!-- 1.2 -->
 			<maxLogoCount>13</maxLogoCount> <!-- Image cache only -->
-			<logoRotation>8</logoRotation> <!-- 7.5 : Inclinaison des logos, moins incliné = plus de logos -->
+			<logoRotation>8.1</logoRotation> <!-- 7.5 : Inclinaison des logos, moins incliné = plus de logos -->
 			<logoRotationOrigin>-5 0.5</logoRotationOrigin> <!-- -5 0.5 : L'éloigner écarte les logos -->
 			<logoAlignment>center</logoAlignment> <!-- left, right / top, bottom / center : of screen -->
 			<color>00000000</color>
@@ -252,15 +252,21 @@
 	
 	
 	<image name="vertical_down_bg_black" extra="true">
-				<path>./../../../art/divers/vertical_down_bg_black.png</path>
+				<!-- <path>./../../../art/divers/vertical_down_bg_black.png</path> -->
+				<!-- <zIndex>16</zIndex> -->
+				<!-- <origin>0.5 0.5</origin> -->
+				<!-- <size>0.3677083 0.3416667</size>									 -->
+				<!-- <pos>0.9114583 0.7643519</pos> -->
+				
+				<path>./../../../art/divers/vertical_down_bg_black2.png</path>
 				<zIndex>16</zIndex>
 				<origin>0.5 0.5</origin>
-				<size>0.3677083 0.3416667</size>									
-				<pos>0.9114583 0.7643519</pos>
+				<size>0.3677083 0.4064815</size>									
+				<pos>0.9114583 0.7967593</pos>
 
-				<path ifHelpPrompts="false">./../../../art/divers/vertical_down_bg_black2.png</path>
-				<size ifHelpPrompts="false">0.3677083 0.4064815</size>									
-				<pos ifHelpPrompts="false">0.9114583 0.7967593</pos>
+				<!-- <path ifHelpPrompts="false">./../../../art/divers/vertical_down_bg_black2.png</path> -->
+				<!-- <size ifHelpPrompts="false">0.3677083 0.4064815</size>									 -->
+				<!-- <pos ifHelpPrompts="false">0.9114583 0.7967593</pos> -->
 
 		
 		<storyboard ifSubset="system-description:Hide">
@@ -275,6 +281,17 @@
 		</storyboard>
 	  
 	</image>
+	
+	<!-- on rajoute un petit bout de black qui manque en dessous du carrousel pour combler le trou -->
+	<image name="black_BottomFrame_extension" extra="true">
+		<path>./../../../art/divers/black.png</path>
+		<zIndex>16</zIndex>
+		<origin>0.5 0.5</origin>									
+		<size>0.3911458 0.0555556</size>									
+		<pos>0.8018229 0.9675926</pos>									
+	</image>
+		
+	
 			
 	<image name="vertical_up" extra="true">
 			<path>./../../../art/divers/vertical_up.png</path>

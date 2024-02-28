@@ -1,236 +1,172 @@
-<!-- NEO GEO CD -->
+<!-- Pc Engine CD -->
 
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
 	
-		
+		<image name="avatar-sleepZsmall, avatar-sleepZbig, avatar-sleep, avatar-debout1, avatar-debout2, avatar-debout3, avatar-debout4, avatar-debout5" extra="static">
+			<origin>0 0</origin>									
+			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>2000</zIndex>
+ 		</image>
 		
 		<image name="avatar-sleepZsmall" extra="static">
-			<origin>0 0</origin>									
 			<size>0.0541667 0.0972222</size>									
-			<pos>0.34 0.5</pos>
+			<pos>0.34 0.45</pos>
 			<scale>0.85</scale>
-			<zIndex>180</zIndex>
-			<opacity>0</opacity>
 			<path>./avatar-sleepZsmall.png</path>
-			<linearSmooth>true</linearSmooth>
 		
 			<storyboard repeat="forever">
-			
 				<animation property="opacity" to="1" begin="100" duration="300" mode="linear"/>
 				<animation property="scale" to="0.91" begin="100" duration="800" autoreverse="true" mode="linear"/>
 				<animation property="x" to="0.335" begin="100" duration="800" autoreverse="true" mode="linear"/>
-				<animation property="y" to="0.498" begin="100" duration="800" autoreverse="true" mode="linear"/>
+				<animation property="y" to="0.448" begin="100" duration="800" autoreverse="true" mode="linear"/>
 				<animation property="opacity" to="0" begin="1400" duration="300" mode="linear"/>
 				
 				<animation property="opacity" to="1" begin="2500" duration="300" mode="linear"/>
 				<animation property="scale" to="0.91" begin="2500" duration="800" autoreverse="true" mode="linear"/>
 				<animation property="x" to="0.335" begin="2500" duration="800" autoreverse="true" mode="linear"/>
-				<animation property="y" to="0.498" begin="2500" duration="800" autoreverse="true" mode="linear"/>
+				<animation property="y" to="0.448" begin="2500" duration="800" autoreverse="true" mode="linear"/>
 				<animation property="opacity" to="0" begin="3800" duration="300" mode="linear"/>
-				
-				
 				
 				<animation property="opacity" to="0" begin="21000" duration="25" mode="linear"/>
 			</storyboard>
-
 		</image>
 		
 		
 		<image name="avatar-sleepZbig" extra="static">
-			<origin>0 0</origin>									
 			<size>0.0859375 0.1574074</size>									
-			<pos>0.28 0.39</pos>
+			<pos>0.28 0.355</pos>
 			<scale>0.85</scale>
-			<zIndex>180</zIndex>
-			<opacity>0</opacity>
 			<path>./avatar-sleepZbig.png</path>
-
-		
+			
 			<storyboard repeat="forever">
-				
 				<animation property="opacity" to="1" begin="1200" duration="300" mode="linear"/>
 				<animation property="scale" to="0.91" begin="1200" duration="800" autoreverse="true" mode="linear"/>
 				<animation property="x" to="0.273" begin="1200" duration="800" autoreverse="true" mode="linear"/>
-				<animation property="y" to="0.383" begin="1200" duration="800" autoreverse="true" mode="linear"/>
+				<animation property="y" to="0.333" begin="1200" duration="800" autoreverse="true" mode="linear"/>
 				<animation property="opacity" to="0" begin="2500" duration="300" mode="linear"/>
 				
 				<animation property="opacity" to="1" begin="3600" duration="300" mode="linear"/>
 				<animation property="scale" to="0.91" begin="3600" duration="800" autoreverse="true" mode="linear"/>
 				<animation property="x" to="0.273" begin="3600" duration="800" autoreverse="true" mode="linear"/>
-				<animation property="y" to="0.383" begin="3600" duration="800" autoreverse="true" mode="linear"/>
+				<animation property="y" to="0.333" begin="3600" duration="800" autoreverse="true" mode="linear"/>
 				<animation property="opacity" to="0" begin="4900" duration="300" mode="linear"/>
-				
 				
 				<animation property="opacity" to="0" begin="21000" duration="25" mode="linear"/>
 			</storyboard>
-
 		</image>
 		
-		
 		<image name="avatar-sleep" extra="static">
-			<origin>0 0</origin>									
-			<size>0.4583333 0.6185185</size>									
-			<pos>0.29 0.35</pos>
+			<size>0.4583333 0.6185185</size>								
+			
+			<pos>0.29 0.30</pos>
 			<scale>0.85</scale>
-			<zIndex>180</zIndex>
 			<opacity>1</opacity>
 			<path>./avatar-sleep.png</path>
-
-		
 			<storyboard repeat="forever">
-				
 				<animation property="opacity" to="0" begin="5250" duration="25" mode="linear"/>
-				
 				<animation property="opacity" to="1" begin="18800" duration="25" mode="linear"/>
-				
 				<animation property="opacity" to="1" begin="21000" duration="25" mode="linear"/>
-				
 			</storyboard>
-
 		</image>
 		
 		<image name="avatar-debout1" extra="static">
-			<origin>0 0</origin>									
 			<size>0.4583333 0.6185185</size>	
-			<pos>0.21 0.27</pos>
-			<scale>1</scale>
-			<zIndex>180</zIndex>
-			<opacity>0</opacity>
+			<pos>0.21 0.22</pos>
 			<path>./avatar-debout1.png</path>
-
-		
+			
 			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="5200" duration="25" mode="linear"/>
+				<animation property="y" to="0.25" begin="5200" duration="100" autoreverse="true" mode="linear"/>
 				
-					
-					<animation property="opacity" to="1" begin="5200" duration="25" mode="linear"/>
-					<animation property="y" to="0.25" begin="5200" duration="100" autoreverse="true" mode="linear"/>
-					
-					
-					
-					
-					<animation property="opacity" to="0" begin="6000" duration="25" mode="linear"/>
-					<animation property="opacity" to="1" begin="6100" duration="25" mode="linear"/>
-					<animation property="opacity" to="0" begin="6400" duration="25" mode="linear"/>
-					<animation property="opacity" to="1" begin="6700" duration="25" mode="linear"/>
-					<animation property="opacity" to="0" begin="7000" duration="25" mode="linear"/>
-					<animation property="opacity" to="1" begin="7300" duration="25" mode="linear"/>
-					
-					<animation property="opacity" to="0" begin="7625" duration="25" mode="linear"/>
-					<animation property="opacity" to="1" begin="8200" duration="25" mode="linear"/>
-					<animation property="opacity" to="0" begin="8525" duration="25" mode="linear"/>
-					
-					<animation property="opacity" to="1" begin="18200" duration="25" mode="linear"/>
-					<animation property="opacity" to="0" begin="18825" duration="25" mode="linear"/>
+				<animation property="opacity" to="0" begin="6000" duration="25" mode="linear"/>
+				<animation property="opacity" to="1" begin="6100" duration="25" mode="linear"/>
+				<animation property="opacity" to="0" begin="6400" duration="25" mode="linear"/>
+				<animation property="opacity" to="1" begin="6700" duration="25" mode="linear"/>
+				<animation property="opacity" to="0" begin="7000" duration="25" mode="linear"/>
+				<animation property="opacity" to="1" begin="7300" duration="25" mode="linear"/>
 				
+				<animation property="opacity" to="0" begin="7625" duration="25" mode="linear"/>
+				<animation property="opacity" to="1" begin="8200" duration="25" mode="linear"/>
+				<animation property="opacity" to="0" begin="8525" duration="25" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="18200" duration="25" mode="linear"/>
+				<animation property="opacity" to="0" begin="18825" duration="25" mode="linear"/>
+			
 				<animation property="opacity" to="0" begin="21000" duration="25" mode="linear"/>
 			</storyboard>
-
 		</image>
 		
 		<image name="avatar-debout2" extra="static">
 			<origin>0 0</origin>									
 			<size>0.4583333 0.6185185</size>	
-			<pos>0.21 0.27</pos>
-			<scale>1</scale>
-			<zIndex>111</zIndex>
-			<opacity>0</opacity>
+			<pos>0.21 0.22</pos>
 			<path>./avatar-debout2.png</path>
 
-		
 			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="5950" duration="25" mode="linear"/>
+				<animation property="opacity" to="0" begin="6150" duration="25" mode="linear"/>
+				<animation property="opacity" to="1" begin="6350" duration="25" mode="linear"/>
+				<animation property="opacity" to="0" begin="6750" duration="25" mode="linear"/>
+				<animation property="opacity" to="1" begin="6950" duration="25" mode="linear"/>
+				<animation property="opacity" to="0" begin="7350" duration="25" mode="linear"/>
 				
-					<animation property="opacity" to="1" begin="5950" duration="25" mode="linear"/>
-					<animation property="opacity" to="0" begin="6150" duration="25" mode="linear"/>
-					<animation property="opacity" to="1" begin="6350" duration="25" mode="linear"/>
-					<animation property="opacity" to="0" begin="6750" duration="25" mode="linear"/>
-					<animation property="opacity" to="1" begin="6950" duration="25" mode="linear"/>
-					<animation property="opacity" to="0" begin="7350" duration="25" mode="linear"/>
-					
-					<animation property="opacity" to="1" begin="8500" duration="25" mode="linear"/>
-					<animation property="y" to="-1" begin="8500" duration="1000" mode="linear"/>
-					
-					<animation property="x" to="-1" begin="10000" duration="10" mode="linear"/>
-					<animation property="y" to="0.1" begin="11000" duration="10" mode="linear"/>
-					<animation property="scale" to="0.3" begin="11000" duration="10" mode="linear"/>
-					<animation property="rotation" to="90" begin="11000" duration="10" mode="linear"/>
-					<animation property="x" to="1" begin="11000" duration="2000" mode="linear"/>
-					
-					<animation property="y" to="0.63" begin="13000" duration="10" mode="linear"/>
-					<animation property="scale" to="0.5" begin="13000" duration="10" mode="linear"/>
-					<animation property="rotation" to="-90" begin="13000" duration="10" mode="linear"/>
-					<animation property="x" to="-1" begin="13500" duration="2000" mode="linear"/>
-					
-					
-					
+				<animation property="opacity" to="1" begin="8500" duration="25" mode="linear"/>
+				<animation property="y" to="-1" begin="8500" duration="1000" mode="linear"/>
+				
+				<animation property="x" to="-1" begin="10000" duration="10" mode="linear"/>
+				<animation property="y" to="0.1" begin="11000" duration="10" mode="linear"/>
+				<animation property="scale" to="0.3" begin="11000" duration="10" mode="linear"/>
+				<animation property="rotation" to="90" begin="11000" duration="10" mode="linear"/>
+				<animation property="x" to="1" begin="11000" duration="2000" mode="linear"/>
+				
+				<animation property="y" to="0.53" begin="13000" duration="10" mode="linear"/>
+				<animation property="scale" to="0.5" begin="13000" duration="10" mode="linear"/>
+				<animation property="rotation" to="-90" begin="13000" duration="10" mode="linear"/>
+				<animation property="x" to="-1" begin="13500" duration="2000" mode="linear"/>
 				
 				<animation property="opacity" to="0" begin="21000" duration="25" mode="linear"/>
 			</storyboard>
-
 		</image>
 		
-		
-		
-		
 		<image name="avatar-debout3" extra="static">
-			<origin>0 0</origin>									
 			<size>0.4583333 0.6185185</size>	
-			<pos>0.21 0.27</pos>
-			<scale>1</scale>
-			<zIndex>180</zIndex>
-			<opacity>0</opacity>
+			<pos>0.21 0.22</pos>
 			<path>./avatar-debout3.png</path>
-
 		
 			<storyboard repeat="forever">
-				
 				<animation property="opacity" to="1" begin="7600" duration="25" mode="linear"/>
 				<animation property="opacity" to="0" begin="7825" duration="25" mode="linear"/>	
 				
-				
 				<animation property="opacity" to="0" begin="21000" duration="25" mode="linear"/>
 			</storyboard>
-
 		</image>
 		
-		
 		<image name="avatar-debout4" extra="static">
-			<origin>0 0</origin>									
 			<size>0.4583333 0.6185185</size>	
-			<pos>0.21 0.27</pos>
-			<scale>1</scale>
-			<zIndex>180</zIndex>
-			<opacity>0</opacity>
+			<pos>0.21 0.22</pos>
 			<path>./avatar-debout4.png</path>
-
 		
 			<storyboard repeat="forever">
-				
 				<animation property="opacity" to="1" begin="7800" duration="25" mode="linear"/>
 				<animation property="opacity" to="0" begin="8025" duration="25" mode="linear"/>	
 				
 				<animation property="y" to="-1" begin="15000" duration="10" mode="linear"/>
 				<animation property="opacity" to="1" begin="15500" duration="25" mode="linear"/>
-				<animation property="y" to="0.27" begin="15500" duration="2000" mode="linear"/>
+				<animation property="y" to="0.22" begin="15500" duration="2000" mode="linear"/>
 				<animation property="opacity" to="0" begin="18025" duration="25" mode="linear"/>
 				
 				<animation property="opacity" to="0" begin="21000" duration="25" mode="linear"/>
 			</storyboard>
-
 		</image>
 		
-		
 		<image name="avatar-debout5" extra="static">
-			<origin>0 0</origin>									
 			<size>0.4583333 0.6185185</size>	
-			<pos>0.21 0.27</pos>
-			<scale>1</scale>
-			<zIndex>180</zIndex>
-			<opacity>0</opacity>
+			<pos>0.21 0.22</pos>
 			<path>./avatar-debout5.png</path>
-
 		
 			<storyboard repeat="forever">
 				
@@ -242,13 +178,7 @@
 				
 				<animation property="opacity" to="0" begin="21000" duration="25" mode="linear"/>
 			</storyboard>
-
 		</image>
-		
-		
-		
-		
-		
 		
 	</view>
 

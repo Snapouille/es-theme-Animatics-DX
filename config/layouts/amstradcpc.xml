@@ -100,14 +100,11 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 		<size>0.3703125 0.462963</size>									
-		<pos>0.6960938 0.4083333</pos>									
+		<pos>0.6960938 0.4283333</pos>									
 		<scale>1</scale>
 		<color>FFFFFF</color>
 		<opacity>1</opacity>
 		<zIndex>31</zIndex>
-		
-		
-
 		
 			<storyboard event="open">
 				<animation property="pos" to="0.7502604 0.6462963" begin="1200" duration="200" mode="linear"/>
@@ -124,11 +121,9 @@
   
   
 	<video name="md_video">
-	<origin>0.5 0.5</origin>
-<size>0.165625 0.2240741</size>									
-<pos>0.7192708 0.3222222</pos>						
-			
-
+		<origin>0.5 0.5</origin>
+		<size>0.165625 0.2240741</size>									
+		<pos>0.7192708 0.3422222</pos>						
 	  
 			<storyboard event="open">
 				<animation property="pos" to="0.7734375 0.5601852" begin="1200" duration="200" mode="linear"/>
@@ -145,9 +140,9 @@
 	
 	<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		<origin>0.5 0.5</origin>
-<size>0.165625 0.2240741</size>									
-<pos>0.7192708 0.3222222</pos>									
+			<origin>0.5 0.5</origin>
+			<size>0.165625 0.2240741</size>									
+			<pos>0.7192708 0.3422222</pos>									
 	  
 			<storyboard event="open">
 				<animation property="pos" to="0.7734375 0.5601852" begin="1200" duration="200" mode="linear"/>

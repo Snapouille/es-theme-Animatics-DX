@@ -11,10 +11,27 @@
 			<pos>0.1776042 -0.0833333</pos>									
 			<path>./pooka.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>150</zIndex>
+			<zIndex>14</zIndex>
 			<storyboard repeat="forever">
 				<animation property="rotation" from="0" to="10" begin="300" duration="700" mode="linear"/>
 				<animation property="pos" to="0.1776042 0.3148148" begin="280" duration="700" mode="linear"/>
+				<animation property="opacity" to="0" begin="900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="15000" duration="10" mode="linear"/>
+			</storyboard>	
+		</image>
+		
+		<image name="pooka-zIndex" extra="true"> 
+			<origin>0.5 0.5</origin>									
+			<size>0.0916667 0.1666667</size>									
+			<pos>0.1776042 -0.0833333</pos>									
+			<path>./pooka.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>150</zIndex>
+			<opacity>0</opacity>
+			<storyboard repeat="forever">
+				<animation property="rotation" from="0" to="10" begin="300" duration="700" mode="linear"/>
+				<animation property="pos" to="0.1776042 0.3148148" begin="280" duration="700" mode="linear"/>
+				<animation property="opacity" to="1" begin="900" duration="10" mode="linear"/>
 				<animation property="rotation" from="10" to="280" begin="1000" duration="1000" mode="linear"/>
 				<animation property="pos" to="0.2917708 0.23" begin="1000" duration="800" mode="linear"/>
 				<animation property="rotation" from="280" to="350" begin="2000" duration="400" mode="linear"/>
@@ -29,6 +46,7 @@
 			</storyboard>	
 		</image>
 		
+		
 		<image name="boom" extra="true"> 
 			<origin>0.5 0.5</origin>									
 			<size>0.6776042 1.0666667</size>									
@@ -36,7 +54,7 @@
 			<path>./boom.png</path>
 			<linearSmooth>true</linearSmooth>
 			<opacity>0</opacity>
-			<zIndex>151</zIndex>
+			<zIndex>2000</zIndex>
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="10000" duration="500" mode="linear"/>
 				<animation property="scale" to="1.05" begin="10000" autoreverse="true" duration="500" mode="EaseOut"/>
@@ -162,6 +180,7 @@
 				<animation property="opacity" to="0" begin="15000" duration="10" mode="linear"/>
 			</storyboard>			
 		</image>
+		
 		
 	</view>
 </theme>

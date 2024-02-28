@@ -363,7 +363,7 @@ originally based on: "carbon"
 	<image name="up_BottomFrame, down_BottomFrame, left_BottomFrame, right_BottomFrame, black_BottomFrame" extra="true">
 		<path>./../../art/divers/white.png</path>
 		<color>${baseColor}</color>
-		<zIndex>22</zIndex>
+		<zIndex>3000</zIndex>
 		<origin>0.5 0.5</origin>
 	</image>
 	
@@ -381,7 +381,7 @@ originally based on: "carbon"
 	<image name="up_BottomFrameNEW" ifSubset="SystemView:wheel-animatics" extra="true">
 		<path>./../../art/divers/white.png</path>
 		<color>${baseColor}</color>
-		<zIndex>22</zIndex>
+		<zIndex>3000</zIndex>
 		<origin>0.5 0.5</origin>
 	</image>
 	
@@ -410,9 +410,12 @@ originally based on: "carbon"
 	<!-- fond noir de l'encadrement de l'aide -->
 	<image name="black_BottomFrame" extra="true">
 		<path>./../../art/divers/black.png</path>
-		<zIndex>21</zIndex>
-		<size>1 0.0657407</size>									
+		<zIndex>2999</zIndex>
+		<size>1 0.0657407</size>
 		<pos>0.5 0.9680556</pos>	
+
+		<size ifSubset="SystemView:wheel-animatics">0.85 0.0657407</size>									
+		<pos ifSubset="SystemView:wheel-animatics">0.3 0.9680556</pos>	
 
 		<pos ifHelpPrompts="false">2 2</pos>
 	</image>

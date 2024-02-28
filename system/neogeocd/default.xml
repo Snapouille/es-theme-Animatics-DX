@@ -12,7 +12,7 @@
 			<scale>0.65</scale>
 			<opacity>1</opacity>
 			<path>./warrior.png</path>
-			<zIndex>18</zIndex>
+			<zIndex>3000</zIndex>
 
 
 			<storyboard repeat="forever">
@@ -21,7 +21,7 @@
 				
 				<animation property="scale" to="0.95" begin="6000" duration="350" mode="Linear"/>
 				<animation property="x" to="0.38" begin="6000" duration="375" mode="EaseOut"/>
-				<animation property="y" to="0.01" begin="6000" duration="375" mode="EaseOut"/>
+				<animation property="y" to="0.17" begin="6000" duration="375" mode="EaseOut"/>
 				
 				<animation property="scale" to="0.65" begin="15000" duration="350" mode="bump"/>
 				<animation property="x" to="0.24" begin="15000" duration="375" mode="EaseIn"/>

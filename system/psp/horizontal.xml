@@ -12,7 +12,7 @@
 			<size>0.5020833 2.0935185</size>		
 			<pos>0.15 0.183</pos>
 			<scale>0.25</scale>
-			
+			<linearSmooth>true</linearSmooth>
 			<path>./kratos1.png</path>
 			<opacity>1</opacity>
 			<zIndex>18</zIndex>

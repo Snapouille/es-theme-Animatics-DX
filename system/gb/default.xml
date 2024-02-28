@@ -68,7 +68,7 @@
 			<scale>0.8</scale>
 			<path>./boulet.png</path>
 			<opacity>1</opacity>
-			<zIndex>18</zIndex>
+			<zIndex>3000</zIndex>
 		</image>
 	
 		<image name="boulet" extra="true">	

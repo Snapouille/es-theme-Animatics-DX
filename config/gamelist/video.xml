@@ -101,19 +101,19 @@
 	
 
 	<text name="md_description">
-		<origin>0 0</origin>									
-		<size>0.3973958 0.1657407</size>									
-		<pos>0.3223958 0.7842593</pos>									
+		<origin>0.5 0.5</origin>									
+		<size>0.3734375 0</size>									
+		<pos>0.526 0.84</pos>									
 		<color>C0C0C0</color>
 		<!-- <fontSize>0.017</fontSize> on choisit auto la taille dans les menus -->
 		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 		<alignment>left</alignment>
 		<zIndex>30</zIndex>
 			<storyboard event="open">
-				<animation property="size" from="0.3973958 0" to="0.3973958 0.1657407" duration="600" mode="linear" />
+				<animation property="size" from="0.3734375 0" to="0.3734375 0.2" duration="600" mode="linear" />
 			</storyboard>
             <storyboard event="activate">
-                <animation property="size" from="0.3973958 0" to="0.3973958 0.1657407" duration="600" mode="linear" />
+                <animation property="size" from="0.3734375 0" to="0.3734375 0.2" duration="600" mode="linear" />
             </storyboard>
 			<storyboard event="deactivate">
 				<animation property="opacity" to="0" duration="10" mode="linear"/>
@@ -204,7 +204,7 @@
 		<verticalAlignment>bottom</verticalAlignment>
 	</image>
 	
-	
+	<!-- A ENLEVER DE LA VUE VIDEO, LAISSER JUSTE SUR RVGM -->
 	<image name="md_boxback" ifSubset="boxbackDisplay:Show" >
 		<origin>0.5 0.5</origin>									
 		<pos>0.1046875 0.462963</pos>									
@@ -228,12 +228,58 @@
 		</storyboard>
 	</image>
 
+	<!-- Début des nouveaux icones RVGM -->
+	<image name="rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon">
+		<origin>0.5 0.5</origin>
+		<zIndex>40</zIndex>
+		<color>ffffff</color>
+	</image>
+	
+	<image name="rvgm-developer-icon" extra="true">
+		<path>./../../art/icons/rvgm-developer-icon.png</path>
+		<size>0.0135417 0.0259259</size>									
+		<pos>0.0338542 0.7583333</pos>									
+	</image>
+	
+	<image name="rvgm-publisher-icon" extra="true">
+		<path>./../../art/icons/rvgm-publisher-icon.png</path>
+		<size>0.0135417 0.0240741</size>									
+		<pos>0.0338542 0.7953704</pos>									
+	</image>
 
-	<text name="md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, 
-				md_lbl_description, md_lbl_players, md_lbl_rating, md_lbl_gametime
-				md_lbl_releasedate, md_lbl_lastplayed, md_lbl_gametime,
-				md_developer, md_publisher, md_genre, md_playcount,	md_gametime">
-		<origin>0 0</origin>
+	<image name="rvgm-genre-icon" extra="true">
+		<path>./../../art/icons/rvgm-genre-icon.png</path>
+		<size>0.0135417 0.0240741</size>									
+		<pos>0.0338542 0.8333333</pos>									
+	</image>
+
+	<image name="rvgm-date-icon" extra="true">
+		<path>./../../art/icons/rvgm-date-icon.png</path>
+		<size>0.0135417 0.0222222</size>									
+		<pos>0.0338542 0.8694444</pos>									
+	</image>
+	
+	<image name="rvgm-playcount-icon" extra="true">
+		<path>./../../art/icons/rvgm-playcount-icon.png</path>
+		<size>0.0135417 0.0240741</size>									
+		<pos>0.2125 0.7962963</pos>									
+	</image>
+	
+	<image name="rvgm-lastplayed-icon" extra="true">
+		<path>./../../art/icons/rvgm-lastplayed-icon.png</path>
+		<size>0.0135417 0.0222222</size>									
+		<pos>0.2114583 0.8351852</pos>									
+	</image>
+
+	<image name="rvgm-gametime-icon" extra="true">
+		<path>./../../art/icons/rvgm-gametime-icon.png</path>
+		<size>0.0135417 0.0231481</size>									
+		<pos>0.2109375 0.8708333</pos>									
+	</image>
+
+
+	<text name="md_developer, md_publisher, md_genre, md_playcount,	md_gametime">
+		<origin>0.5 0.5</origin>
 		<pos>2 2</pos>
 		<size>0.15 0.015</size>
 		<verticalAlignment>top</verticalAlignment> 
@@ -242,23 +288,19 @@
 		<lineSpacing>1.3</lineSpacing>
 		<forceUppercase>0</forceUppercase>
 		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-		<alignment>right</alignment>			
+		<alignment>left</alignment>
 		<zIndex>40</zIndex>  
 	</text>
 
 	<text name="md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, 
 			md_lbl_description, md_lbl_players, md_lbl_rating, md_lbl_gametime
 			md_lbl_releasedate, md_lbl_lastplayed, md_lbl_gametime">
-			<color>babaff</color>
-			<fontSize>0.019</fontSize>
+		<visible>false</visible>
 	</text>
 
-	<text name="md_developer, md_publisher, md_genre, md_playcount, md_gametime">
-		<alignment>left</alignment>
-	</text>
 
 	<datetime name="md_releasedate, md_lastplayed">
-		<origin>0 0</origin>
+		<origin>0.5 0.5</origin>
 		<size>0.15 0.015</size>
 		<color>C0C0C0</color>
 		<fontSize>0.020</fontSize>
@@ -271,6 +313,9 @@
 	
 
 	<text name="md_players">
+		<origin>0.5 0.5</origin>									
+		<size>0.2822917 0.0601852</size>									
+		<pos>0.16 0.92</pos>									
 		<fontPath>./../../art/fonts/players.ttf</fontPath>
 		<alignment>left</alignment>
 		<fontSize>0.062</fontSize>
@@ -280,72 +325,46 @@
 	</text>
 
 
-	<text name="md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_releasedate">
-		<size>0.09 0.03</size>
-	</text>
-	<text name="md_lbl_developer">
-		<pos>0.015 0.745</pos>
-	</text>
-	<text name="md_lbl_publisher">
-		<pos>0.015 0.780</pos>
-	</text>
-	<text name="md_lbl_genre">
-		<pos>0.015 0.815</pos>
-	</text>
-	<text name="md_lbl_releasedate">
-		<pos>0.015 0.850</pos>
-	</text>
+	
 	<text name="md_developer, md_publisher, md_genre">
-		<size>0.197 0.03</size>
+		<size>0.1421875 0.0240741</size>									
 	</text>
 	<text name="md_developer">
-		<pos>0.106 0.745</pos>
+		<pos>0.1164063 0.7592593</pos>									
 	</text>
 	<text name="md_publisher">
-		<pos>0.106 0.780</pos>
+		<pos>0.1164063 0.7962963</pos>									
 	</text>
 	<text name="md_genre">
-		<pos>0.106 0.815</pos>
+		<pos>0.1164063 0.8333333</pos>									
 		<color>${frameColor}</color>
 		<color ifSubset="colorset:gray">00d8ff</color>
+		<forceUppercase>1</forceUppercase>
 	</text>
+	
 	<datetime name="md_releasedate">
-		<pos>0.106 0.8468</pos>
-		<size>0.210 0.03</size>
+		<size>0.1421875 0.0240741</size>									
+		<pos>0.1164063 0.8703704</pos>									
 		<rotation>0</rotation>
 	</datetime>
-	<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime">
-		<size>0.115 0.03</size>
-	</text>
-	<text name="md_lbl_playcount">
-		<pos>0.396 0.695</pos>
-	</text>
-	<text name="md_lbl_lastplayed">
-		<pos>0.520 0.695</pos>
-	</text>
-	<text name="md_lbl_gametime">
-		<pos>0.520 0.73</pos>
-	</text>
+	
 	<text name="md_playcount">
-		<pos>0.512 0.695</pos>
-		<size>0.024 0.03</size>
+		<size>0.0838542 0.0240741</size>									
+		<pos>0.2674479 0.7962963</pos>									
 	</text>
 	<datetime name="md_lastplayed">
-		<pos>0.636 0.692</pos>
-		<size>0.09 0.03</size>
+		<size>0.0838542 0.0240741</size>	
+		<pos>0.2674479 0.8333333</pos>									
 	</datetime>
 	<text name="md_gametime">
-		<pos>0.636 0.73</pos>
-		<size>0.09 0.03</size>
-	</text>
-	<text name="md_players">
-		<pos>0.0255 0.877</pos>
-		<size>0.18 0.079</size>
+		<size>0.0838542 0.0240741</size>	
+		<pos>0.2674479 0.8703704</pos>									
 	</text>
 	
 	
 	<rating name="md_rating">
-		<pos>0.44 0.725</pos>
+		<origin>0.5 0.5</origin>
+		<pos>0.216 0.758</pos>									
 		<size>0.16 0.032</size>
 		<color>FFFF00</color>
 		<horizontalAlignment>right</horizontalAlignment>
@@ -354,6 +373,11 @@
 		<unfilledPath>:/star_filled.svg</unfilledPath>
 		<zIndex>99</zIndex>
 	</rating>
+	
+
+	
+	
+	
 	
 	
 

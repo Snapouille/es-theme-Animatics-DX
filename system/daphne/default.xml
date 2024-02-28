@@ -119,7 +119,7 @@
 			<scale>0.8</scale>
 			<path>./dirk1.png</path>
 			<opacity>1</opacity>
-			<zIndex>18</zIndex>
+			<zIndex>14</zIndex>
 	
 			<storyboard repeat="forever">
 				<animation property="x" to="0.05" begin="3500" duration="500" mode="linear"/>
@@ -140,7 +140,7 @@
 			<scale>0.8</scale>
 			<path>./dirk2.png</path>
 			<opacity>0</opacity>
-			<zIndex>18</zIndex>
+			<zIndex>14</zIndex>
 	
 			<storyboard repeat="forever">
 				<animation property="x" to="0.05" begin="3500" duration="500" mode="linear"/>
@@ -167,7 +167,7 @@
 			<path>./ripper.png</path>
 			<rotation>-0.5</rotation>
 			<opacity>1</opacity>
-			<zIndex>17</zIndex>
+			<zIndex>13</zIndex>
 	
 			<storyboard repeat="forever">
 			
@@ -201,7 +201,7 @@
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<path>./light.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 		
 		

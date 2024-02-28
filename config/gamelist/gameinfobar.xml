@@ -10,7 +10,7 @@ originally based on: "carbon"
   <formatVersion>7</formatVersion>
 
 	
-	 <view name="detailed, video, gamecarousel">  
+	 <view name="detailed, gamecarousel">  
 		
 	
 		
@@ -26,6 +26,17 @@ originally based on: "carbon"
 						<!-- <size>0.047 0.774</size> -->
 						<!-- <zIndex>12</zIndex> -->
 					<!-- </image> -->
+					
+					<!-- a la place on met un fond noir -->
+					<image name="iconsBk" extra="true">
+						<path>./../../art/divers/black.png</path>
+						<origin>0 0</origin>
+						<pos>0.953 0.16</pos>
+						<size>0.047 1</size>
+						<zIndex>12</zIndex>
+					</image>
+					
+					
 
 		<image name="iconsLine" extra="true">
 			<path>./../../art/divers/white.png</path>

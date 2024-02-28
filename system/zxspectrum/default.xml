@@ -6,22 +6,38 @@
 
 	<view name="system">
 	
-		<image name="avatar-hero" extra="static">
+		<image name="avatar-hero-gif, avatar-hero-png" extra="true">
 			<origin>0 0</origin>									
-			<size>0.3645833 0.6481481</size>									
+			<size>0.3635417 0.6018519</size>									
 			<pos>0.43 -1</pos>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
-			<path>./avatar-hero.png</path>
-			<zIndex>25</zIndex>
-			
-			<storyboard >
-					<animation property="y" from="-1" to="0.37" begin="1100" duration="300" mode="EaseOut"/>
-					<animation property="rotation" to="0.5" begin="1000" autoreverse="true" duration="1000" repeat="forever" mode="linear"/>
-			</storyboard>
-
+			<zIndex>3001</zIndex>
 		</image>
-
+	
+		<image name="avatar-hero-png" extra="true">
+			<path>./avatar-hero.png</path>
+			
+			<storyboard repeatAt="1500">
+					<animation property="y" from="-1" to="0.37" begin="1100" duration="300" mode="EaseOut"/>
+					<animation property="opacity" to="0" begin="1500" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="1900" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="4500" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+	
+		<image name="avatar-hero-gif" extra="true">
+			<opacity>0</opacity>
+			<path>./avatar-hero.gif</path>
+			
+			<storyboard repeatAt="1500">
+					<animation property="y" from="-1" to="0.37" begin="1100" duration="300" mode="EaseOut"/>
+					<animation property="opacity" to="1" begin="1500" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="1900" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="4500" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
 		
 		<image name="background-mask" extra="true">
 			<origin>0 0</origin>									
@@ -77,12 +93,12 @@
 		
 		<image name="avatar-sorcerer" extra="static">
 			<origin>0 0</origin>									
-			<size>0.0932292 0.3064815</size>									
+			<size>0.1119792 0.3064815</size>									
 			<pos>0.315 0.52</pos>
 			<scale>0.05</scale>
 			<opacity>0</opacity>
 			<rotation>-0.3</rotation>
-			<path>./avatar-sorcerer.png</path>
+			<path>./avatar-sorcerer.gif</path>
 			<zIndex>20</zIndex>
 			
 		<storyboard repeat="forever">
@@ -168,7 +184,7 @@
 			<opacity>1</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-stone1.png</path>
-			<zIndex>20</zIndex>
+			<zIndex>3000</zIndex>
 			
 		<storyboard repeat="forever">
 			<animation property="y" to="1" begin="4000" duration="2000" mode="linear"/>
@@ -194,7 +210,7 @@
 			<opacity>1</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-stone2.png</path>
-			<zIndex>20</zIndex>
+			<zIndex>3000</zIndex>
 			
 		<storyboard repeat="forever">
 			<animation property="y" to="1" begin="4200" duration="2600" mode="linear"/>
@@ -220,7 +236,7 @@
 			<opacity>1</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-stone3.png</path>
-			<zIndex>20</zIndex>
+			<zIndex>3000</zIndex>
 			
 		<storyboard repeat="forever">
 			<animation property="y" to="1" begin="4400" duration="2600" mode="linear"/>
@@ -249,7 +265,7 @@
 			<opacity>0</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-fruit1.png</path>
-			<zIndex>20</zIndex>
+			<zIndex>3000</zIndex>
 			
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="8000" duration="100" mode="linear"/>
@@ -278,7 +294,7 @@
 			<opacity>0</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-fruit2.png</path>
-			<zIndex>20</zIndex>
+			<zIndex>3000</zIndex>
 			
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="9200" duration="100" mode="linear"/>
@@ -307,7 +323,7 @@
 			<opacity>0</opacity>
 			<rotation>0</rotation>
 			<path>./avatar-fruit3.png</path>
-			<zIndex>20</zIndex>
+			<zIndex>3000</zIndex>
 			
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="10400" duration="100" mode="linear"/>
