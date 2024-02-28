@@ -4,54 +4,244 @@
 
 <customView name="rvgm_legacy" inherits="rvgm_the_new_order" displayName="RVGM - Legacy">
 
-	
-	<image name="overlay_fixe" extra="true">
-			<path>./../../art/divers/overlay_fixe_rvgm_legacy.png</path>
-	</image>
-	
-	<!-- <image name="overlay_cadreTV" extra="true"> -->
-			<!-- <path>./../../art/divers/overlay_cadreTV_rvgm_legacy.png</path> -->
-	<!-- </image> -->
-	
-	<image name="overlay_fanart" extra="true">
+	<image name="overlay_cadreTV, md_boxback, md_image">
 		<visible>false</visible>
 	</image>
 	
-	<image name="md_fanart">>
-		<!-- <saturation ifSubset="fanartDisplay:Show">1</saturation> -->
-		
-		<storyboard event="activate">
-			<animation property="saturation" from="0.3" to="1" begin="" duration="1000" mode="linear"/>
+	<image name="overlay_fixe" extra="true">
+		<path>./../../art/divers/overlay_fixe_rvgm_new.png</path>
+	</image>
+	
+	<image name="bg" extra="true">
+		<opacity>0.6</opacity>
+		<saturation>0.7</saturation>
+	</image>	
+	
+
+	<video name="md_video">
+		<origin>0.5 0.5</origin>									
+		<!-- <size>0.1 0.3972222</size>									 -->
+		<pos>0.2546875 0.29</pos>									
+		<maxSize>0.4552083 0.4953704</maxSize>									
+		<snapshotSource>image</snapshotSource>
+		<showSnapshotNoVideo>true</showSnapshotNoVideo> 
+		<showSnapshotDelay>true</showSnapshotDelay>
+		<loops>2</loops>
+		<delay>0.3</delay> 
+		<effect>none</effect>
+		<zIndex>51</zIndex>
+	</video>
+	
+	<text name="md_description">
+		<origin>0.5 0.5</origin>									
+		<size>0.4552083 0.2537037</size>									
+		<pos>0.2546875 0.735</pos>									
+		<color>C0C0C0</color>
+		<!-- <fontSize>0.017</fontSize> on choisit auto la taille dans les menus -->
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+		<alignment>left</alignment>
+		<zIndex>30</zIndex>
+	</text>
+	
+	<image name="md_thumbnail"> 
+		<origin>0.5 0.5</origin>									
+		<pos>0.6106771 0.7421296</pos>									
+		<maxSize>0.2015625 0.4009259</maxSize>									
+		<zIndex>30</zIndex> 
+		<verticalAlignment>center</verticalAlignment>
+	</image>
+	
+	
+	<!-- Affichage du controller2 -->
+	<image name="controller2" extra="true">
+		<tile>false</tile>
+		<origin>0.5 0.5</origin>									
+		<pos>0.09 0.51</pos>	
+		<y if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.49</y>									
+		<maxSize>0.1182292 0.15</maxSize>									
+		<zIndex>99</zIndex>
+		<linearSmooth>true</linearSmooth>
+		<horizontalAlignment>center</horizontalAlignment>
+			<path>./../../art/controllers2/default.png</path>
+			<path>./../../art/controllers2/${system.theme}.png</path>
+			<path ifSubset="artworkregion:US">./../../art/controllers2/US/${system.theme}.png</path>
+			<path ifSubset="artworkregion:JP">./../../art/controllers2/JP/${system.theme}.png</path>
+			<!-- si COLLECTION on affiche le systeme au lieu de la manette -->
+			<path if="${system.manufacturer} == 'Collections'">./../../art/consoles/{game:system}.png</path>
+		<opacity>0</opacity>
+		<scale>0</scale>
+
+		<storyboard event="open">
+			<animation property="opacity" to="1" begin="" duration="300" mode="Linear"/>
+			<animation property="scale" to="1" begin="" duration="300" mode="Linear"/>
 		</storyboard>
 		
+		<storyboard event="activate">
+			<animation property="opacity" to="1" begin="" duration="1" mode="Linear"/>
+			<animation property="scale" to="1" begin="" duration="1" mode="Linear"/>
+			<animation property="offsetY" to="0.002" begin="200" duration="150" autoreverse="true" mode="Linear"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+    </image>
+
+	<image name="md_marquee">
+		<origin>0.5 0.5</origin>									
+		<pos>0.615625 0.1305556</pos>
+		<y if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.1305556</y>									
+		<maxSize>0.2072917 0.15</maxSize>									
+		<linearSmooth>true</linearSmooth>
+		<zIndex>900</zIndex> 
 	</image>
 	
 	
-	<image name="rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon">
-		<color>000000</color>
+	
+	
+	<image name="encadrement-infos" extra="true">
+		<path>./../../art/divers/darkwheel1.png</path>
+		<origin>0.5 0.5</origin>									
+		<size>0.21 0.33</size>									
+		<pos>0.6106771 0.3694444</pos>		
+		<opacity>0.7</opacity>
+		<zIndex>10</zIndex>
 	</image>
 	
-	<text name="md_developer, md_publisher,md_playcount, md_gametime, md_players">
-		<color>000000</color>
+	
+	<image name="frame_barreAnim_haut, frame_barreAnim_bas, frame_barreAnim_gauche, frame_barreAnim_droite">
+				<path>./../../art/divers/white.png</path>
+				<color>C0C0C0</color>
+				<origin>0.5 0.5</origin>
+				<zIndex>17</zIndex>
+				<opacity>1</opacity>
+		</image>	
+		
+		<image name="frame_barreAnim_haut"  extra="true">
+				<size>0.0151042 0.002</size>									
+				<pos>0.61 0.388</pos>		
+
+			<storyboard repeat="forever">
+				<animation property="w" to="0.16" begin="" duration="800" mode="EaseInOut"/>
+				<animation property="w" to="0.0151042" begin="6000" duration="600" autoreverse="true" mode="EaseIn"/>
+				<animation property="w" to="0.0151042" begin="12000" duration="900" autoreverse="true" mode="EaseIn"/>
+				<animation property="w" to="0.02" begin="20000" duration="1000" mode="Bump"/>
+			</storyboard>
+				
+		</image>	
+	
+	
+	
+	<image name="rvgm-developer-icon" extra="true">
+		<pos>0.5319792 0.2498148</pos>									
+	</image>
+	
+	<image name="rvgm-publisher-icon" extra="true">
+		<pos>0.5319792 0.285</pos>									
+	</image>
+
+	<image name="rvgm-genre-icon" extra="true">
+		<pos>0.5319792 0.3211111</pos>									
+	</image>
+
+	<image name="rvgm-date-icon" extra="true">
+		<pos>0.5319792 0.3581481</pos>									
+	</image>
+	
+	<image name="rvgm-playcount-icon" extra="true">
+		<pos>0.5319792 0.4133333</pos>									
+	</image>
+	
+	<image name="rvgm-lastplayed-icon" extra="true">
+		<pos>0.5319792 0.4503704</pos>									
+	</image>
+
+	<image name="rvgm-gametime-icon" extra="true">
+		<pos>0.5319792 0.4869444</pos>									
+	</image>
+
+
+
+	<text name="md_developer, md_publisher, md_genre, md_releasedate, md_playcount, md_lastplayed, md_gametime">
+		<size>0.1721875 0.0240741</size>									
 	</text>
-
-
-	<datetime name="md_releasedate, md_lastplayed">
-		<color>000000</color>
+	
+	<text name="md_developer">
+		<pos>0.6299479 0.2488889</pos>									
+	</text>
+	<text name="md_publisher">
+		<pos>0.6299479 0.285</pos>									
+	</text>
+	<text name="md_genre">
+		<pos>0.6299479 0.3211111</pos>									
+	</text>
+	
+	<datetime name="md_releasedate">
+		<pos>0.6299479 0.3582222</pos>									
 	</datetime>
 	
-	<text name="md_genre">
-		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
-		<color>${baseColor}</color>
+	<text name="md_playcount">
+		<pos>0.6299479 0.4133333</pos>									
+	</text>
+	<datetime name="md_lastplayed">
+		<pos>0.6299479 0.4494444</pos>									
+	</datetime>
+	<text name="md_gametime">
+		<pos>0.6299479 0.4875556</pos>									
 	</text>
 	
+	
 	<rating name="md_rating">
+		<size>0.1942708 0.0601852</size>									
+		<pos>0.3960938 0.9078704</pos>									
+	</rating>	
+	
+	
+	<text name="md_players">
+		<pos>0.16 0.915</pos>									
+	</text>
+	
+	
+	
+	<image name="overlay_fixe" ifSubset="rvgmAmbiance:Light" extra="true">
+			<path>./../../art/divers/overlay_fixe_rvgm_legacy.png</path>
+	</image>
+	
+	<image name="overlay_fanart" ifSubset="rvgmAmbiance:Light" extra="true">
+		<visible>false</visible>
+	</image>
+	
+	<image name="rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon" ifSubset="rvgmAmbiance:Light">
+		<color>C0C0C0</color>
+	</image>
+	
+	<text name="md_developer, md_publisher,md_playcount, md_gametime" ifSubset="rvgmAmbiance:Light">
+		<color>C0C0C0</color>
+	</text>
+	
+	<text name="md_players" ifSubset="rvgmAmbiance:Light">
+		<color>000000</color>
+	</text>
+
+	<datetime name="md_releasedate, md_lastplayed" ifSubset="rvgmAmbiance:Light">
+		<color>C0C0C0</color>
+	</datetime>
+	
+	<text name="md_genre" ifSubset="rvgmAmbiance:Light">
+		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
+		<color>C0C0C0</color>
+	</text>
+	
+	<rating name="md_rating" ifSubset="rvgmAmbiance:Light">
 		<color>fffc00</color>
 	</rating>
 
-	<text name="md_description">
+	<text name="md_description" ifSubset="rvgmAmbiance:Light">
 		<color>${backgroundColor}</color>
-	</text>
+	</text>	
+	
+	
 	
 </customView>
 

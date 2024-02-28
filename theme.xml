@@ -84,9 +84,11 @@ originally based on: "carbon"
 	<fanart.Display>Background Fanart View</fanart.Display>
 	<descriptionFontSize>Description font size</descriptionFontSize>
 	<boxback.Display>Boxback</boxback.Display>
+	
 	<!-- !!! !!! TRADUCTION A FAIRE !!! !!! -->
 	<fanartOpacity>Fanart overlay Opacity</fanartOpacity>
 	<gamelistOpacity>Gamelist Opacity</gamelistOpacity>
+	<rvgm.Ambiance>Ambiance RVGM views</rvgm.Ambiance>
   </variables>
   
   
@@ -501,11 +503,21 @@ originally based on: "carbon"
 
 
 
+	
+	
 	<!-- Choix d'afficher les fanarts ou non -->
 	<subset name="fanartDisplay" displayName="${fanart.Display}" appliesTo="video, rvgm">
 			<include name="Show" displayName="${show}"/>
 			<include name="Hide" displayName="${hide}"/>
 	</subset>
+	
+	
+	<!-- Choix de l'ambiance des vues RVGM entre sombre ou clair -->
+	<subset name="rvgmAmbiance" displayName="${rvgm.Ambiance}" appliesTo="rvgm-the-new-order, rvgm-legacy">
+			<include name="Dark" displayName="${dark}"/>
+			<include name="Light" displayName="${light}"/>
+	</subset>
+	
 
 	<!-- Choix d'afficher les boxback ou non -->
 	<subset name="boxbackDisplay" displayName="${boxback.Display}" appliesTo="video, rvgm">

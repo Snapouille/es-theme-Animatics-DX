@@ -41,6 +41,12 @@
 		<!-- <fontPath>./../../art/fonts/ubuntu.ttf</fontPath> -->
 		<!-- <fontSize>0.021</fontSize>  -->
 		<!-- <lineSpacing>1.5</lineSpacing>  -->
+		
+		
+	  <glowColor>00000010</glowColor>
+	  <glowSize>2</glowSize>
+		
+		
 		<alignment>left</alignment>
 		<horizontalMargin>0.0</horizontalMargin>
 		<zIndex>30</zIndex> 
@@ -50,7 +56,6 @@
 		<extraTextColor>c0a767</extraTextColor>
 		<primaryColor>bebebe</primaryColor> 
 		<secondaryColor>c1e8f9</secondaryColor> 
-		<!-- <selectorColor>252831</selectorColor>  -->  <!-- ancienne couleur RVGM -->
 		<selectorColor>FFFFFF00</selectorColor> <!-- couleur transparente -->
 		<selectorHeight>0.05</selectorHeight>
 		<!-- Sound effect on Scroll -->
@@ -97,9 +102,6 @@
 		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 	</helpsystem>
 
-
-	
-
 	<text name="md_description">
 		<origin>0.5 0.5</origin>									
 		<size>0.3734375 0.2</size>									
@@ -109,15 +111,6 @@
 		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 		<alignment>left</alignment>
 		<zIndex>30</zIndex>
-			<!-- <storyboard event="open"> -->
-				<!-- <animation property="size" from="0.3734375 0" to="0.3734375 0.2" duration="100" mode="linear" /> -->
-			<!-- </storyboard> -->
-            <!-- <storyboard event="activate"> -->
-                <!-- <animation property="size" from="0.3734375 0" to="0.3734375 0.2" duration="100" mode="linear" /> -->
-            <!-- </storyboard> -->
-			<!-- <storyboard event="deactivate"> -->
-				<!-- <animation property="opacity" to="0" duration="10" mode="linear"/> -->
-			<!-- </storyboard>			 -->
 	</text>
 
 	<!-- Logo des systèmes -->
@@ -296,6 +289,8 @@
 		<size>0.15 0.015</size>
 		<verticalAlignment>top</verticalAlignment> 
 		<color>C0C0C0</color>
+	    <glowColor>00000010</glowColor>
+	    <glowSize>2</glowSize>
 		<fontSize>0.020</fontSize>
 		<lineSpacing>1.3</lineSpacing>
 		<forceUppercase>0</forceUppercase>
