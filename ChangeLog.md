@@ -21,9 +21,12 @@
 - fixes on PCengine CD-ROM animation
 - fixes on WonderSwan Color animation
 - fixes on PSP animation
+- New RVGM Legacy view (foclabroc request)
 - New Icons for the RVGM and Video views  
 
  ![2024-02-25_17_25_32-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/360b6652-2469-4371-8068-16a149e7ba9e)
+![2024-02-28 17_35_43-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/25332000-33d0-44d7-b23a-3700ffeeff4a)
+
  
 
 ## V 1.64 - (12 02 2024)
