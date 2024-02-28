@@ -1,3 +1,31 @@
+## V 1.65 - (28 02 2024)
+- New Nintendo 3DS animation
+- New Commodore PET 2001 animation
+- New Auto-collection Arcade Vertical animation
+- updrade Nintendo FDS animation
+- upgrade MS-Dos animation
+- upgrade Nintendo Switch animation
+- upgrade gb2players animation
+- upgrade N64 animation
+- upgrade MSX animation
+- upgrade Super Acan animation
+- upgrade Colecovision animation
+- upgrade Fujittsu fmTowns animation
+- upgrade ZX Spectrum animation
+- fixes on Camputer Lynx animation
+- fixes on Archimedes animation
+- fixes on Mame animation
+- fixes on Daphne animation
+- fixes on Atari5200 animation
+- fixes on AtariST animation
+- fixes on PCengine CD-ROM animation
+- fixes on WonderSwan Color animation
+- fixes on PSP animation
+- New Icons for the RVGM and Video views  
+
+ ![2024-02-25_17_25_32-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/360b6652-2469-4371-8068-16a149e7ba9e)
+ 
+
 ## V 1.64 - (12 02 2024)
 - going backwards for "collections" before guaranteeing backward compatibility with older models prior to batocera v39 and retrobat v6
 - resize CPS II avatar
