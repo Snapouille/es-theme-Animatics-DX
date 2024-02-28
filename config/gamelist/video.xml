@@ -134,7 +134,19 @@
 			<animation property="opacity" to="1" begin="" duration="500" mode="linear"/>
 		  </storyboard>
 	</image>
-
+	
+	<image name="bg" extra="true">
+		<origin>0 0</origin>
+		<pos>0 0</pos>
+		<size>1 1</size>
+		<path>./../../art/divers/bg.png</path>
+		<color>FFFFFF</color>
+		<linearSmooth>true</linearSmooth>
+		<opacity>0.7</opacity>
+		<saturation>0.7</saturation>
+		<zIndex>2</zIndex>
+		<visible ifSubset="fanartDisplay:Show">false</visible>
+	</image>
 
 
 	<image name="md_fanart">

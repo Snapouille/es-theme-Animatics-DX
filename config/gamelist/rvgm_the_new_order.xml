@@ -71,18 +71,18 @@
 		</storyboard>
 	</image>
 	
-	<image name="bg" extra="true">
-		<origin>0 0</origin>
-		<pos>-0.285 0.05</pos>
-		<size>1 1</size>
-		<path>./../../art/divers/bg.png</path>
-		<color>FFFFFF</color>
-		<linearSmooth>true</linearSmooth>
-		<opacity>0.7</opacity>
-		<saturation>0.7</saturation>
-		<zIndex>2</zIndex>
-		<visible ifSubset="fanartDisplay:Show">false</visible>
-	</image>
+	<!-- <image name="bg" extra="true"> -->
+		<!-- <origin>0 0</origin> -->
+		<!-- <pos>0 0</pos> -->
+		<!-- <size>1 1</size> -->
+		<!-- <path>./../../art/divers/bg.png</path> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <linearSmooth>true</linearSmooth> -->
+		<!-- <opacity>0.7</opacity> -->
+		<!-- <saturation>0.7</saturation> -->
+		<!-- <zIndex>2</zIndex> -->
+		<!-- <visible ifSubset="fanartDisplay:Show">false</visible> -->
+	<!-- </image> -->
 	
 	<image name="md_thumbnail"> 
 		<origin>0 0</origin>
