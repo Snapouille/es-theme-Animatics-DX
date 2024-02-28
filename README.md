@@ -62,10 +62,11 @@ Features :
 ## Gamelist view : Fanart
 ![2024-01-25 09_57_28-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/8f95b61e-342a-4e9e-811d-2b6d899deb6a)
 
-## Gamelist view : RVGM Legacy
-![2023-12-16 09_20_19-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/51c9e841-c77d-4748-bb23-de7e4db91d80)
+## Gamelist view : RVGM Legacy (Dark or Light)
+![2024-02-28 17_27_50-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/ffeef703-dcfa-4ca2-9ab4-fe4784ab1ddc)
+![2024-02-28 17_35_43-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/96b6206d-bf1c-49b8-8c66-3698c1f3099f)
 
-## Gamelist view : RVGM The New Order
+## Gamelist view : RVGM The New Order (Dark or Light)
 ![2023-12-16 09_28_06-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/91edbd52-9360-48ac-ae93-3c2527599e8e)
 
 ## Gamelist view : Boxes (Big - Medium and Small)
