@@ -102,22 +102,22 @@
 
 	<text name="md_description">
 		<origin>0.5 0.5</origin>									
-		<size>0.3734375 0</size>									
+		<size>0.3734375 0.2</size>									
 		<pos>0.526 0.84</pos>									
 		<color>C0C0C0</color>
 		<!-- <fontSize>0.017</fontSize> on choisit auto la taille dans les menus -->
 		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 		<alignment>left</alignment>
 		<zIndex>30</zIndex>
-			<storyboard event="open">
-				<animation property="size" from="0.3734375 0" to="0.3734375 0.2" duration="600" mode="linear" />
-			</storyboard>
-            <storyboard event="activate">
-                <animation property="size" from="0.3734375 0" to="0.3734375 0.2" duration="600" mode="linear" />
-            </storyboard>
-			<storyboard event="deactivate">
-				<animation property="opacity" to="0" duration="10" mode="linear"/>
-			</storyboard>			
+			<!-- <storyboard event="open"> -->
+				<!-- <animation property="size" from="0.3734375 0" to="0.3734375 0.2" duration="100" mode="linear" /> -->
+			<!-- </storyboard> -->
+            <!-- <storyboard event="activate"> -->
+                <!-- <animation property="size" from="0.3734375 0" to="0.3734375 0.2" duration="100" mode="linear" /> -->
+            <!-- </storyboard> -->
+			<!-- <storyboard event="deactivate"> -->
+				<!-- <animation property="opacity" to="0" duration="10" mode="linear"/> -->
+			<!-- </storyboard>			 -->
 	</text>
 
 	<!-- Logo des systèmes -->
