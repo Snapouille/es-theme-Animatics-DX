@@ -1,3 +1,14 @@
+## V 1.66 - (04 03 2024)
+- add New collection: Dragon Ball (with a great animation)
+- new animation to highlight statistics in the detailed view
+- fix GBA position in the detailed view
+- fixes sensitive case region for batocera (US & JP artwork)
+- adjust RVGM's views when the help bar is hidden
+
+![2024-03-04 12_08_35-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/720a7fca-59bb-485a-9e8c-33a6e1fc8fc2)
+
+
+
 ## V 1.65 - (28 02 2024)
 - New Nintendo 3DS animation
 - New Commodore PET 2001 animation
