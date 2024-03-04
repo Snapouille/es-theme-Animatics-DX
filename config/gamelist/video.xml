@@ -2,7 +2,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="video">> 
+<view name="video"> 
 
 	<image name="cadre, iconsLine" extra="true">
 			<visible>false</visible>
@@ -41,12 +41,8 @@
 		<!-- <fontPath>./../../art/fonts/ubuntu.ttf</fontPath> -->
 		<!-- <fontSize>0.021</fontSize>  -->
 		<!-- <lineSpacing>1.5</lineSpacing>  -->
-		
-		
 	  <glowColor>00000010</glowColor>
 	  <glowSize>2</glowSize>
-		
-		
 		<alignment>left</alignment>
 		<horizontalMargin>0.0</horizontalMargin>
 		<zIndex>30</zIndex> 
@@ -149,7 +145,9 @@
 		<zIndex>7</zIndex>
 		<visible ifSubset="fanartDisplay:Hide">false</visible>		
 		<opacity>1</opacity>	
-			
+		
+		<default>./../../art/divers/bg.png</default>
+		
 		<!-- <storyboard event="activate"> -->
 			<!-- <animation  property="opacity" from="1" to="0" begin="2000" duration="1000" mode="easeInOut"/> -->
 			<!-- <animation  property="opacity" from="0" to="1" begin="33000" duration="1000" mode="easeInOut"/> -->

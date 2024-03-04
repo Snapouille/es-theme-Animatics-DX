@@ -16,9 +16,9 @@
 		<path>./../../art/divers/overlay_cadreTV_rvgm_legacy.png</path>
 		<origin>0.5 0.5</origin>									
 		<size>0.3411458 0.425</size>									
-		<pos>0.5497396 0.449537</pos>	
-		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.3421875 0.3435185</size>									
-		<pos  if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.5502604 0.449537</pos>									
+		<pos>0.5297396 0.449537</pos>	
+		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3421875 0.3435185</size>									
+		<pos  if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.5302604 0.449537</pos>									
 		<opacity>0.9</opacity>
 	</image>
 	
@@ -26,10 +26,10 @@
 	<image name="md_image"> 
 		<origin>0.5 0.5</origin>
 		<size>0.334375 0.4148148</size>									
-		<pos>0.55 0.45</pos>
+		<pos>0.53 0.45</pos>
 
-		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.334375 0.3333333</size>									
-		<pos  if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.55 0.45</pos>									
+		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.334375 0.3333333</size>									
+		<pos  if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.53 0.45</pos>									
 		
 		<zIndex>52</zIndex>
 		<storyboard>        
@@ -40,13 +40,13 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>
 		<size>0.334375 0.4148148</size>									
-		<pos>0.55 0.45</pos>									
-		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.334375 0.3333333</size>									
-		<pos  if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.55 0.45</pos>									
+		<pos>0.53 0.45</pos>									
+		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.334375 0.3333333</size>									
+		<pos  if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.53 0.45</pos>									
 		<snapshotSource>image</snapshotSource>
 		<showSnapshotNoVideo>true</showSnapshotNoVideo> 
 		<showSnapshotDelay>true</showSnapshotDelay>
-		<!-- <loops>2</loops> -->
+		<loops>5</loops>
 		<delay>0.5</delay> 
 		<effect>none</effect>
 		<zIndex>51</zIndex>
@@ -62,10 +62,10 @@
 		<saturation ifSubset="fanartDisplay:Show">0.8</saturation>
 		
 			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="1000" mode="linear"/>			
+				<animation property="opacity" to="1" begin="" duration="10" mode="linear"/>			
 			</storyboard>
             <storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="1000" mode="linear"/>            
+				<animation property="opacity" to="1" begin="" duration="10" mode="linear"/>            
 			</storyboard>
 			<storyboard event="deactivate">
 				<animation property="opacity" to="0" duration="10" mode="linear"/>
@@ -75,7 +75,7 @@
 	<image name="md_thumbnail"> 
 		<origin>0 0</origin>
 		<pos>0.0255 0.0639</pos>
-		<maxSize>0.34 0.6689</maxSize>
+		<maxSize>0.321 0.657</maxSize>
 		<linearSmooth>true</linearSmooth>
 		<zIndex>30</zIndex> 
 		<verticalAlignment>center</verticalAlignment>
@@ -84,7 +84,7 @@
 	<image name="md_boxback" ifSubset="boxbackDisplay:Show">
 		<origin>0 0</origin>
 		<pos>0.0255 0.0639</pos>
-		<maxSize>0.34 0.6689</maxSize>
+		<maxSize>0.321 0.657</maxSize>
 		<linearSmooth>true</linearSmooth>
 		<verticalAlignment>center</verticalAlignment>
 		<opacity>0</opacity>
@@ -163,8 +163,9 @@
 		<color>000000</color>
 	</image>
 	
-	<text name="md_developer, md_publisher,md_playcount, md_gametime, md_players" ifSubset="rvgmAmbiance:Light">
+	<text name="md_developer, md_publisher, md_playcount, md_gametime, md_players" ifSubset="rvgmAmbiance:Light">
 		<color>000000</color>
+	    <glowSize>0</glowSize>
 	</text>
 
 	<datetime name="md_releasedate, md_lastplayed" ifSubset="rvgmAmbiance:Light">
@@ -174,6 +175,8 @@
 	<text name="md_genre" ifSubset="rvgmAmbiance:Light">
 		<fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
 		<color>${baseColor}</color>
+	    <glowColor>000000</glowColor>
+	    <glowSize>0.5</glowSize>
 	</text>
 	
 	<rating name="md_rating" ifSubset="rvgmAmbiance:Light">

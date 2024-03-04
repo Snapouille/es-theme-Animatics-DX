@@ -4,7 +4,7 @@
 
 <customView name="rvgm_legacy" inherits="rvgm_the_new_order" displayName="RVGM - Legacy">
 
-	<image name="overlay_cadreTV, md_boxback, md_image">
+	<image name="overlay_cadreTV, md_boxback">
 		<visible>false</visible>
 	</image>
 	
@@ -17,25 +17,46 @@
 		<saturation>0.7</saturation>
 	</image>	
 	
+	
+	
+	<!-- MD image et video qui match avec l'overlay du cadreTV -->
+	<image name="md_image"> 
+		<origin>0.5 0.5</origin>
+		<size>0.3513542 0.4685185</size>									
+		<pos>0.23 0.3</pos>									
+		
+		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.4072917 0.4101852</size>									
+		<pos  if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.255 0.2949074</pos>									
+		
+		<zIndex>52</zIndex>
+		<storyboard>        
+			<animation property="opacity" from="1" to="0" begin="2000" duration="400" mode="linear"/>
+		</storyboard>
+	</image>
+	
 
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-		<!-- <size>0.1 0.3972222</size>									 -->
-		<pos>0.2546875 0.29</pos>									
+		<size>0.3513542 0.4685185</size>									
+		<pos>0.23 0.3</pos>									
+		
+		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.4072917 0.4101852</size>									
+		<pos  if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.255 0.2949074</pos>									
+		
 		<maxSize>0.4552083 0.4953704</maxSize>									
 		<snapshotSource>image</snapshotSource>
 		<showSnapshotNoVideo>true</showSnapshotNoVideo> 
 		<showSnapshotDelay>true</showSnapshotDelay>
-		<loops>2</loops>
-		<delay>0.3</delay> 
+		<loops>5</loops>
+		<delay>1.5</delay> 
 		<effect>none</effect>
 		<zIndex>51</zIndex>
 	</video>
 	
 	<text name="md_description">
 		<origin>0.5 0.5</origin>									
-		<size>0.4552083 0.2537037</size>									
-		<pos>0.2546875 0.735</pos>									
+		<size>0.4552083 0.226</size>									
+		<pos>0.2546875 0.745</pos>									
 		<color>C0C0C0</color>
 		<!-- <fontSize>0.017</fontSize> on choisit auto la taille dans les menus -->
 		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
@@ -56,8 +77,8 @@
 	<image name="controller2" extra="true">
 		<tile>false</tile>
 		<origin>0.5 0.5</origin>									
-		<pos>0.09 0.51</pos>	
-		<y if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.49</y>									
+		<pos>0.09 0.53</pos>	
+		<y if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.50</y>									
 		<maxSize>0.1182292 0.15</maxSize>									
 		<zIndex>99</zIndex>
 		<linearSmooth>true</linearSmooth>
@@ -164,7 +185,7 @@
 
 
 	<text name="md_developer, md_publisher, md_genre, md_releasedate, md_playcount, md_lastplayed, md_gametime">
-		<size>0.1721875 0.0240741</size>									
+		<size>0.16 0.0240741</size>									
 	</text>
 	
 	<text name="md_developer">
@@ -216,7 +237,7 @@
 		<color>C0C0C0</color>
 	</image>
 	
-	<text name="md_developer, md_publisher,md_playcount, md_gametime" ifSubset="rvgmAmbiance:Light">
+	<text name="md_developer, md_publisher, md_playcount, md_gametime" ifSubset="rvgmAmbiance:Light">
 		<color>C0C0C0</color>
 	</text>
 	
@@ -239,6 +260,8 @@
 
 	<text name="md_description" ifSubset="rvgmAmbiance:Light">
 		<color>${backgroundColor}</color>
+	    <glowColor>000000</glowColor>
+	    <glowSize>0.5</glowSize>
 	</text>	
 	
 	

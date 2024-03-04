@@ -10,7 +10,7 @@
 			<size>0.29375 0.6675926</size>									
 			<pos>1 0.35</pos>
 			<scale>0.45</scale>
-			<zIndex>18</zIndex>
+			<zIndex>3000</zIndex>
 			<opacity>0</opacity>
 			<linearSmooth>true</linearSmooth>
 			<path>./avatar-yoshi.png</path>
@@ -23,7 +23,7 @@
 			<size>0.29375 0.6675926</size>									
 			<pos>1 0.35</pos>
 			<scale>0.45</scale>
-			<zIndex>18</zIndex>
+			<zIndex>3000</zIndex>
 			<opacity>0</opacity>
 			<linearSmooth>true</linearSmooth>
 			<path>./avatar-flou.png</path>

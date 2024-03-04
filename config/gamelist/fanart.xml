@@ -44,7 +44,7 @@ originally based on: "carbon"
 	</image>
 		
 	
-	<gamecarousel name="gamecarousel">
+		<gamecarousel name="gamecarousel">
             <type>horizontal</type>
             <origin>0 0</origin>
             <pos>0.45 0.25</pos>

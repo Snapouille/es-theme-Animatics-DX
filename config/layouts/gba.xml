@@ -29,12 +29,9 @@
   
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-
-<size>0.1916667 0.2342593</size>									
-<pos>0.4914583 0.6421296</pos>									
-
+		<size>0.1916667 0.2342593</size>									
+		<pos>0.4914583 0.6421296</pos>									
 		<zIndex>30</zIndex>
-
 	  
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -55,8 +52,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.1916667 0.2342593</size>									
-<pos>0.4914583 0.6421296</pos>									
+		<size>0.1916667 0.2342593</size>									
+		<pos>0.4914583 0.6421296</pos>									
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -101,25 +98,20 @@
   
 		<image name="ecran_console" extra="static">
 			<origin>0.5 0.5</origin>									
-<size>0.428125 0.4287037</size>									
-<pos>0.6989583 0.4287963</pos>									
-
+			<size>0.428125 0.4287037</size>									
+			<pos>0.6989583 0.4287963</pos>									
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
 			<zIndex>31</zIndex>
 			
-			
-
-			
-			
 				<storyboard event="open">
 					<animation property="size" to="0.4036458 0.4046296" begin="1200" duration="200" mode="linear"/>
-					<animation property="pos" to="0.6950521 0.6958333" begin="1200" duration="200" mode="linear"/>
+					<animation property="pos" to="0.6950521 0.6708333" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="activate">
 					<animation property="size" to="0.4036458 0.4046296" begin="1200" duration="200" mode="linear"/>
-					<animation property="pos" to="0.6950521 0.6958333" begin="1200" duration="200" mode="linear"/>
+					<animation property="pos" to="0.6950521 0.6708333" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -127,21 +119,17 @@
 		</image>
 		
 		
-
-
-
-		
 		<video name="md_video">
 				<pos>0.6992188 0.407963</pos>									
 				<size>0.1911458 0.2333333</size>	
 				
 				<storyboard event="open">
 					<animation property="size" to="0.1802083 0.2203704" begin="1200" duration="200" mode="linear"/>
-					<animation property="pos" to="0.6953125 0.6759259" begin="1200" duration="200" mode="linear"/>
+					<animation property="pos" to="0.6953125 0.6509259" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="activate">
 					<animation property="size" to="0.1802083 0.2203704" begin="1200" duration="200" mode="linear"/>
-					<animation property="pos" to="0.6953125 0.6759259" begin="1200" duration="200" mode="linear"/>
+					<animation property="pos" to="0.6953125 0.6509259" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -196,11 +184,11 @@
 		<pos>0.748 0.317</pos>									
 		
 		<storyboard event="open">
-			<animation property="size" to="0.3826042 0.247" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.3826042 0.241" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="activate">
-			<animation property="size" to="0.3826042 0.247" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.3826042 0.241" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="deactivate">

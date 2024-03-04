@@ -1,0 +1,352 @@
+<!-- Collection Dragon Ball -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>0.8010417 0.5490741</size>									
+			<pos>0.428125 0.2837963</pos>									
+				<storyboard repeatAt="50000">
+					<animation property="offsetX" from="0.1" to="0" begin="" duration="2000" mode="EaseInOut"/>
+					<animation property="x" to="0.1229167" begin="" duration="30000" mode="linear"/>
+					<animation property="x" to="0.428125" begin="50000" duration="150000" autoreverse="true" mode="linear"/>
+				</storyboard>
+		</image>
+		
+		<image name="background-house, tv-screen-on, tv-screen-action, tv-screen-bye, avatar3, avatar-tortue, avatar-goku, background-palm-tree, background-palm-tree-gif, tv-screen-off, tv-screen-mask, tv-green-light, tv-red-light, tv-girl1, tv-girl2, heart1, heart2, heart3">
+			<origin>0.5 0.5</origin>									
+			<linearSmooth>true</linearSmooth>
+			<opacity>0</opacity>
+		</image>
+		
+		<image name="background-house" extra="true">
+			<size>0.6755208 0.6759259</size>									
+			<pos>0.2710938 0.387963</pos>									
+			<path>./background-house.png</path>
+			<opacity>1</opacity>
+			<zIndex>11</zIndex>
+				  <storyboard>
+						<animation property="offsetX" from="0.1" to="0" begin="" duration="2000" mode="EaseInOut"/>
+				  </storyboard>			
+		</image>
+		
+		<!-- <image name="background-palm-tree" extra="true"> -->
+			<!-- <size>0.2083333 0.3277778</size>									 -->
+			<!-- <pos>0.4177083 0.2138889</pos>									 -->
+			<!-- <path>./background-palm-tree.png</path> -->
+			<!-- <opacity>1</opacity> -->
+			<!-- <zIndex>9</zIndex> -->
+				  <!-- <storyboard repeatAt="2000"> -->
+						<!-- <animation property="offsetX" from="0.1" to="0" begin="" duration="2000" mode="EaseInOut"/> -->
+						<!-- <animation property="opacity" to="0" begin="6000" duration="100" mode="linear"/> -->
+						<!-- <animation property="opacity" to="1" begin="9500" duration="1000" mode="linear"/> -->
+				  <!-- </storyboard>			 -->
+		<!-- </image> -->
+		
+		<image name="background-palm-tree-gif" extra="true">
+			<size>0.2083333 0.3277778</size>									
+			<pos>0.4177083 0.2138889</pos>									
+			<path>./background-palm-tree.gif</path>
+			<opacity>1</opacity>
+			<zIndex>9</zIndex>
+				  <storyboard repeatAt="2000">
+						<animation property="offsetX" from="0.1" to="0" begin="" duration="2000" mode="EaseInOut"/>
+						<!-- <animation property="opacity" to="1" begin="6000" duration="100" mode="linear"/> -->
+						<!-- <animation property="opacity" to="0" begin="9500" duration="1000" mode="linear"/> -->
+				  </storyboard>			
+		</image>		
+
+		<image name="tv-screen-off" extra="true">
+			<size>0.0598958 0.0787037</size>									
+			<pos>0.3075521 0.2597222</pos>									
+			<path>./tv-screen-off.png</path>
+			<opacity>1</opacity>
+			<zIndex>9</zIndex>
+				  <storyboard>
+						<animation property="offsetX" from="0.1" to="0" begin="" duration="2000" mode="EaseInOut"/>
+						<animation property="opacity" to="0" begin="4000" duration="150" mode="linear"/>
+						<animation property="opacity" to="1" begin="27000" duration="150" mode="linear"/>
+				  </storyboard>
+		</image>
+		
+		<image name="tv-screen-mask" extra="true">
+			<size>0.0854167 0.0851852</size>									
+			<pos>0.3109375 0.262963</pos>									
+			<path>./tv-screen-mask.png</path>
+			<zIndex>9</zIndex>
+				  <storyboard>
+						<animation property="opacity" to="1" begin="4000" duration="150" mode="linear"/>
+				  </storyboard>
+		</image>
+
+
+		<image name="tv-green-light" extra="true">
+			<size>0.0036458 0.0027778</size>									
+			<pos>0.3263021 0.3060185</pos>									
+			<path>./tv-green-light.png</path>
+			<zIndex>12</zIndex>
+				  <storyboard>
+						<animation property="opacity" to="1" begin="4000" duration="50" mode="linear"/>
+						<animation property="opacity" to="0" begin="27050" duration="50" mode="linear"/>
+				  </storyboard>
+		</image>
+
+		<image name="tv-red-light" extra="true">
+			<size>0.0036458 0.0037037</size>									
+			<pos>0.3200521 0.3055556</pos>									
+			<path>./tv-red-light.png</path>
+			<zIndex>12</zIndex>
+				  <storyboard>
+						<animation property="opacity" to="1" begin="4000" duration="50" mode="linear"/>
+						<animation property="opacity" to="0" begin="4050" duration="50" mode="linear"/>
+						<animation property="opacity" to="1" begin="27000" duration="50" mode="linear"/>
+						<animation property="opacity" to="0" begin="27050" duration="50" mode="linear"/>						
+				  </storyboard>
+		</image>
+		
+		<image name="tv-screen-on" extra="true">
+			<size>0.0854167 0.0851852</size>									
+			<pos>0.3109375 0.262963</pos>									
+			<path>./tv-screen-on.gif</path>
+			<zIndex>8</zIndex>
+				  <storyboard>
+						<animation property="opacity" to="1" begin="4000" duration="150" mode="linear"/>
+						<animation property="opacity" to="0" begin="5000" duration="150" mode="linear"/>
+						<animation property="opacity" to="1" begin="26000" duration="150" mode="linear"/>
+						<animation property="opacity" to="0" begin="27000" duration="150" mode="linear"/>
+				  </storyboard>
+		</image>
+		
+		<image name="tv-screen-action" extra="true">
+			<size>0.0854167 0.0851852</size>									
+			<pos>0.3109375 0.262963</pos>									
+			<path>./tv-screen-action.gif</path>
+			<zIndex>8</zIndex>
+				  <storyboard>
+						<animation property="opacity" to="1" begin="5000" duration="150" mode="linear"/>
+						<animation property="opacity" to="0" begin="23000" duration="150" mode="linear"/>
+				  </storyboard>
+		</image>
+		
+		<image name="tv-screen-bye" extra="true">
+			<size>0.0854167 0.0851852</size>									
+			<pos>0.3109375 0.262963</pos>									
+			<path>./tv-screen-bye.gif</path>
+			<zIndex>8</zIndex>
+				  <storyboard>
+						<animation property="opacity" to="1" begin="23000" duration="150" mode="linear"/>
+						<animation property="opacity" to="0" begin="26000" duration="150" mode="linear"/>
+				  </storyboard>
+		</image>
+		
+		
+		<!-- <image name="tv-girl1" extra="true"> -->
+			<!-- <size>0.0677083 0.087963</size>									 -->
+			<!-- <pos>0.3125 0.2615741</pos>									 -->
+			<!-- <path>./tv-girl1.png</path> -->
+			<!-- <zIndex>8</zIndex> -->
+				  <!-- <storyboard repeatAt="4050"> -->
+						<!-- <animation property="opacity" to="1" begin="4050" duration="150" mode="linear"/> -->
+						<!-- <animation property="x" to="0.3020833" begin="4050" duration="2000" mode="EaseInOut"/> -->
+						<!-- <animation property="scale" to="1.05" begin="6050" duration="2000" autoreverse="true" mode="linear"/> -->
+						<!-- <animation property="opacity" to="0" begin="6100" duration="300" mode="linear"/> -->
+						<!-- <animation property="opacity" to="0" begin="17000" duration="300" mode="linear"/> -->
+				  <!-- </storyboard> -->
+		<!-- </image> -->
+
+		<!-- <image name="tv-girl2" extra="true"> -->
+			<!-- <size>0.0661458 0.1777778</size>									 -->
+			<!-- <pos>0.3085938 0.3037037</pos>									 -->
+			<!-- <path>./tv-girl2.png</path> -->
+			<!-- <zIndex>8</zIndex> -->
+				  <!-- <storyboard repeatAt="4050"> -->
+						<!-- <animation property="opacity" to="0" begin="4050" duration="150" mode="linear"/> -->
+						<!-- <animation property="opacity" to="1" begin="6100" duration="300" mode="linear"/> -->
+						<!-- <animation property="y" to="0.2111111" begin="6100" duration="5000" autoreverse="true" mode="EaseInOut"/> -->
+						<!-- <animation property="opacity" to="1" begin="17000" duration="300" mode="linear"/> -->
+				  <!-- </storyboard> -->
+		<!-- </image> -->
+
+
+
+		<image name="avatar3" extra="static">
+			<size>0.0489583 0.087963</size>									
+			<pos>0.4885417 0.63</pos>									
+			<path>./avatar3.png</path>
+			<opacity>0</opacity>
+			<zIndex>10</zIndex>
+				<storyboard repeat="forever">
+					<animation property="opacity" to="1" begin="13000" duration="10" mode="linear"/>
+					<animation property="rotation" to="40" begin="13000" duration="2000" mode="Bump"/>
+					<animation property="y" to="0.33" begin="13000" duration="2000" mode="Bump"/>
+					
+					<animation property="scale" to="0.7" begin="16000" duration="10" mode="linear"/>
+					<animation property="y" to="0.63" begin="16000" duration="10" mode="linear"/>
+					<animation property="offsetX" to="-0.11" begin="16000" duration="100" mode="linear"/>
+					<animation property="rotation" to="70" begin="19000" duration="2000" mode="Bump"/>
+					<animation property="y" to="0.31" begin="19000" duration="2000" mode="Bump"/>
+					
+				 </storyboard>			
+		</image>
+		
+		
+		
+		<image name="avatar-goku" extra="static">
+			<size>0.3526042 0.5805556</size>									
+			<pos>0.5440104 0.6449074</pos>									
+			<path>./avatar-goku.gif</path>
+			<opacity>1</opacity>
+			<zIndex>2000</zIndex>
+				  <storyboard>
+						<animation property="offsetX" from="-0.05" to="0" begin="" duration="2000" mode="EaseInOut"/>
+				  </storyboard>			
+		</image>
+		
+		<image name="avatar-tortue" extra="static">
+			<size>0.2369792 0.4537037</size>									
+			<pos>-0.0664063 0.7731481</pos>									
+			<path>./avatar-tortue.png</path>
+			<zIndex>13</zIndex>
+			<storyboard>
+        		<animation property="opacity" to="1" begin="6000" duration="10" mode="linear"/>
+        		<animation property="pos" to="0.1528646 0.5111111" begin="6000" duration="500" mode="EaseInOut"/>
+        		<animation property="pos" to="-0.0664063 0.7731481" begin="27000" duration="1500" mode="EaseInOut"/>
+        		<animation property="opacity" to="0" begin="28500" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="heart1" extra="static">
+			<size>0.01875 0.0305556</size>									
+			<pos>0.1125 0.3180556</pos>									
+			<path>./heart1.png</path>
+			<zIndex>14</zIndex>
+			<storyboard>
+        		<animation property="opacity" to="1" begin="7000" duration="100" mode="linear"/>
+        		<animation property="rotation" to="10" begin="7000" duration="400" autoreverse="true" repeat="4" mode="EaseInOut"/>
+        		<animation property="offsetY" to="-0.0051" begin="7000" duration="800" autoreverse="true" repeat="2" mode="EaseInOut"/>
+        		<animation property="opacity" to="0" begin="10300" duration="300" mode="linear"/>
+        		<animation property="opacity" to="1" begin="18000" duration="100" mode="linear"/>
+        		<animation property="rotation" to="10" begin="18000" duration="400" autoreverse="true" repeat="4" mode="EaseInOut"/>
+        		<animation property="offsetY" to="-0.0051" begin="18000" duration="800" autoreverse="true" repeat="2" mode="EaseInOut"/>
+        		<animation property="opacity" to="0" begin="21000" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="heart2" extra="static">
+			<size>0.0104167 0.0175926</size>									
+			<pos>0.1302083 0.3050926</pos>									
+			<path>./heart2.png</path>
+			<zIndex>14</zIndex>
+			<storyboard>
+        		<animation property="opacity" to="1" begin="7200" duration="100" mode="linear"/>
+        		<animation property="rotation" to="10" begin="7200" duration="400" autoreverse="true" repeat="4" mode="EaseInOut"/>
+        		<animation property="offsetY" to="-0.0051" begin="7200" duration="800" autoreverse="true" repeat="2" mode="EaseInOut"/>
+        		<animation property="opacity" to="0" begin="10500" duration="300" mode="linear"/>
+        		<animation property="opacity" to="1" begin="18200" duration="100" mode="linear"/>
+        		<animation property="rotation" to="10" begin="18200" duration="400" autoreverse="true" repeat="4" mode="EaseInOut"/>
+        		<animation property="offsetY" to="-0.0051" begin="18200" duration="800" autoreverse="true" repeat="2" mode="EaseInOut"/>
+        		<animation property="opacity" to="0" begin="21000" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+
+		<image name="heart3" extra="static">
+			<size>0.0083333 0.0138889</size>									
+			<pos>0.1197917 0.2884259</pos>									
+			<path>./heart3.png</path>
+			<zIndex>14</zIndex>
+			<storyboard>
+        		<animation property="opacity" to="1" begin="7400" duration="100" mode="linear"/>
+        		<animation property="rotation" to="10" begin="7400" duration="400" autoreverse="true" repeat="4" mode="EaseInOut"/>
+        		<animation property="offsetY" to="-0.0051" begin="7400" duration="800" autoreverse="true" repeat="2" mode="EaseInOut"/>
+        		<animation property="opacity" to="0" begin="10700" duration="300" mode="linear"/>
+        		<animation property="opacity" to="1" begin="18400" duration="100" mode="linear"/>
+        		<animation property="rotation" to="10" begin="18400" duration="400" autoreverse="true" repeat="4" mode="EaseInOut"/>
+        		<animation property="offsetY" to="-0.0051" begin="18400" duration="800" autoreverse="true" repeat="2" mode="EaseInOut"/>
+        		<animation property="opacity" to="0" begin="21000" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="bird1, bird2, bird3, bird4, bird5" extra="true">
+			<origin>0.5 0.5</origin>									
+			<linearSmooth>true</linearSmooth>
+			<opacity>0</opacity>	
+			<path>./bird.gif</path>
+			<zIndex>8</zIndex>
+		</image>
+		
+		<image name="bird1" extra="true">
+			<size>0.0395833 0.0509259</size>									
+			<pos>0.1614583 0.25</pos>									
+			<scale>0.3</scale>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" 	begin="13000" duration="10" mode="linear"/>
+        		<animation property="offsetX" to="-0.2" begin="13000" duration="13000" mode="bump"/>
+        		<animation property="offsetY" to="-0.2" begin="13000" duration="13000" mode="linear"/>
+        		<animation property="scale"   to="0.1" begin="13000" duration="13000" mode="linear"/>
+        		<animation property="opacity" to="0" 	begin="40000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="bird2" extra="true">
+			<size>0.0395833 0.0509259</size>									
+			<pos>0.6609375 0.225463</pos>									
+			<scale>0.6</scale>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" 	begin="2200" duration="10" mode="linear"/>
+        		<animation property="offsetX" to="-0.5" begin="2200" duration="13000" mode="bump"/>
+        		<animation property="offsetY" to="-0.4" begin="2200" duration="13000" mode="linear"/>
+        		<animation property="scale"   to="0.25" begin="2200" duration="13000" mode="linear"/>
+        		<animation property="opacity" to="0" 	begin="25100" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="bird3" extra="true">
+			<size>0.0395833 0.0509259</size>									
+			<pos>0.7609375 0.225463</pos>									
+			<scale>0.4</scale>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" 	begin="2300" duration="10" mode="linear"/>
+        		<animation property="offsetX" to="-0.55" begin="2300" duration="13000" mode="bump"/>
+        		<animation property="offsetY" to="-0.4" begin="2300" duration="13000" mode="linear"/>
+        		<animation property="scale"   to="0.15" begin="2300" duration="13000" mode="linear"/>
+        		<animation property="opacity" to="0" 	begin="25200" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="bird4" extra="true">
+			<size>0.0395833 0.0509259</size>									
+			<pos>0 0.275463</pos>	
+			<scale>0.5</scale>
+			<flipX>true</flipX>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" 	begin="8000" duration="10" mode="linear"/>
+        		<animation property="offsetX" to="0.16" begin="8000" duration="13000" mode="bump"/>
+        		<animation property="offsetY" to="-0.5" begin="8000" duration="13000" mode="linear"/>
+        		<animation property="scale"   to="0.25" begin="8000" duration="13000" mode="linear"/>
+        		<animation property="opacity" to="0" 	begin="30000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="bird5" extra="true">
+			<size>0.0395833 0.0509259</size>									
+			<pos>0 0.275463</pos>									
+			<scale>0.3</scale>
+			<flipX>true</flipX>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" 	begin="8400" duration="10" mode="linear"/>
+        		<animation property="offsetX" to="0.16" begin="8400" duration="13000" mode="bump"/>
+        		<animation property="offsetY" to="-0.5" begin="8400" duration="13000" mode="linear"/>
+        		<animation property="scale"   to="0.15" begin="8400" duration="13000" mode="linear"/>
+        		<animation property="opacity" to="0" 	begin="30000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+	</view>
+</theme>

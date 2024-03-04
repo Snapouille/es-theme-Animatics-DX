@@ -58,7 +58,7 @@
   
   
   <!-- On repositionne la barre en bas pour la mettre tout en bas de l'écran-->
-	<view name="detailed, grid, video">
+	<view name="detailed, grid">
 		<image name="bottom" extra="true">
 			  <visible>true</visible>
 			  <pos>0 1.06</pos>
@@ -66,26 +66,26 @@
     </view>
 	
   
-  <view name="video">
+  <!-- <view name="video"> -->
     
-    <textlist name="gamelist">
-      <size>0.35 0.83</size>
-	  <lines>19</lines>
-    </textlist>
+    <!-- <textlist name="gamelist"> -->
+      <!-- <size>0.35 0.83</size> -->
+	  <!-- <lines>19</lines> -->
+    <!-- </textlist> -->
 	
-	<image name="iconsLine" extra="true">
-		<size>0.003 0.90</size>
-	</image>
+	<!-- <image name="iconsLine" extra="true"> -->
+		<!-- <size>0.003 0.90</size> -->
+	<!-- </image> -->
 	
-	<image name="md_flag">
-		<pos>0.976 0.95</pos>
-	</image>
+	<!-- <image name="md_flag"> -->
+		<!-- <pos>0.976 0.95</pos> -->
+	<!-- </image> -->
 	
-	<datetime name="md_releasedate">
-		<pos>0.976 0.85</pos>
-	</datetime>
+	<!-- <datetime name="md_releasedate"> -->
+		<!-- <pos>0.976 0.85</pos> -->
+	<!-- </datetime> -->
 		
-  </view>
+  <!-- </view> -->
   
   
   <view name="grid" ifSubset="SystemView:grid">
@@ -128,29 +128,38 @@
 	
   </customView>
   
+  
+  
+  
   <customView name="fanart">
   
-		<imagegrid name="gamegrid">
-		  <pos>0 0.37</pos>
-		  <size>1 1</size>
-		  <margin>0.0772 0</margin>
-		</imagegrid>
+		<gamecarousel name="gamecarousel">
+            <pos>0.45 0.275</pos>
+        </gamecarousel>
 		
-		<text name="md_description">
-			 <size>0.3 0.39</size>
-		</text>
+        <text name="md_name">
+            <pos>0.05 0.62</pos>
+        </text>
+
+        <datetime name="md_releasedate">
+            <pos>0.065 0.677</pos>
+        </datetime>
+		
+		<image name="md_flag">
+			<pos>0.089 0.6756481</pos>		
+		</image>
 		
 		<text name="md_developer">
-			 <pos>0.011 0.921</pos>
-		  </text>
+			<pos>0.103 0.662</pos>	
+		</text>
+	
+		<text name="md_genre">
+			<pos>0.05 0.69</pos>
+		</text>
 		
-		<datetime name="md_releasedate">
-			 <pos>0.01 0.951</pos>
-		</datetime>
-
-		<image name="md_flag">
-			<pos>0.073 0.976</pos>
-		</image>
+        <text name="md_description">
+			<pos>0.05 0.74</pos>
+        </text>
 	
   </customView>
   
@@ -199,10 +208,6 @@
 		</storyboard>
 	</text>
 	
-	<!-- A voir pour bouger la desc mais attention aux systèmes comme gb, gbc ... -->
-	<!-- <text name="md_description"> -->
-		<!-- <pos>0.70 0.805</pos>		 -->
-	<!-- </text> -->
 	
 	<image name="md_flag">
 		
@@ -242,6 +247,38 @@
 			
 	</datetime>
 	
+	
+	
+	<text name="md_players">
+		<color>ff3f2f</color>
+		<pos>0.81 0.807</pos>
+		<origin>0.5 0.5</origin>
+		<fontPath>./../../art/fonts/players.ttf</fontPath>
+		<size>0.203 0.103</size>
+		<alignment>right</alignment>
+		<fontSize>0.048</fontSize>
+        <singleLineScroll>true</singleLineScroll>
+		<storyboard event="open">
+			<animation property="pos" to="0.343 0.955" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+		<storyboard event="activate">
+			<animation property="pos" to="0.343 0.955" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</text>	
+	
+	
+	<image name="stats-bar1" extra="true">
+		<pos>0.4317708 0.993</pos>		
+	</image>		
+	<image name="stats-bar2" extra="true">
+		<pos>0.3145833 0.993</pos>			
+	</image>		
+  
   
 	<!-- Square jaune qui se balade -->
 	<image name="yellowSquare" extra="true">
@@ -466,6 +503,231 @@
   
   
   </view>
+  
+  
+  
+  
+  
+  
+  
+<view name="video"> 
+	<!-- overlay dimmable -->
+	<image name="overlay_gamelist" extra="true">
+		<size>0.2416667 0.9588889</size>									
+		<pos>0.8541667 0.5112963</pos>									
+	</image>
+
+	<textlist name="gamelist">
+		<size>0.2166667 0.6951852</size>									
+		<pos>0.8557292 0.5400741</pos>									
+	</textlist>
+	
+	<image name="triangle-rvgm-haut" extra="true">
+		<pos>0.8523438 0.1765741</pos>									
+	</image>
+
+	<image name="triangle-rvgm-bas" extra="true">
+		<pos>0.8518229 0.902963</pos>									
+	</image>
+		
+	<text name="md_description">
+		<pos>0.526 0.86</pos>									
+	</text>
+	
+	<image name="rvgm-developer-icon" extra="true">
+		<pos>0.0338542 0.7783333</pos>									
+	</image>
+	
+	<image name="rvgm-publisher-icon" extra="true">
+		<pos>0.0338542 0.8153704</pos>									
+	</image>
+
+	<image name="rvgm-genre-icon" extra="true">
+		<pos>0.0338542 0.8533333</pos>									
+	</image>
+
+	<image name="rvgm-date-icon" extra="true">
+		<pos>0.0338542 0.8894444</pos>									
+	</image>
+	
+	<image name="rvgm-playcount-icon" extra="true">
+		<pos>0.2125 0.8162963</pos>									
+	</image>
+	
+	<image name="rvgm-lastplayed-icon" extra="true">
+		<pos>0.2114583 0.8551852</pos>									
+	</image>
+
+	<image name="rvgm-gametime-icon" extra="true">
+		<pos>0.2109375 0.8908333</pos>									
+	</image>
+
+	<text name="md_players">
+		<pos>0.16 0.95</pos>									
+	</text>
+	
+	<text name="md_developer">
+		<pos>0.1164063 0.7792593</pos>									
+	</text>
+	<text name="md_publisher">
+		<pos>0.1164063 0.8162963</pos>									
+	</text>
+	<text name="md_genre">
+		<pos>0.1164063 0.8533333</pos>									
+	</text>
+	
+	<datetime name="md_releasedate">
+		<pos>0.1164063 0.8903704</pos>									
+	</datetime>
+	
+	<text name="md_playcount">
+		<pos>0.2674479 0.8162963</pos>									
+	</text>
+	<datetime name="md_lastplayed">
+		<pos>0.2674479 0.8533333</pos>									
+	</datetime>
+	<text name="md_gametime">
+		<pos>0.2674479 0.8903704</pos>									
+	</text>
+	
+	<rating name="md_rating">
+		<pos>0.216 0.778</pos>									
+	</rating>
+
+	<image name="md_flag">
+		<pos>0.765625 0.9596296</pos>									
+	</image>
+
+	<image name="md_manual,md_nomanual, ghost_manual">
+		<pos>0.8223958 0.9596296</pos>									
+	</image>
+	
+	<image name="md_savestate,md_nosavestate,ghost_savestate">
+		<pos>0.8494792 0.9596296</pos>									
+	</image>
+
+	<image name="md_kidgame, md_notkidgame, ghost_kidgame"> 
+		<pos>0.8739583 0.9596296</pos>									
+	</image>
+
+	<image name="md_map, md_nomap, ghost_md_map"> 
+		<pos>0.8963542 0.9596296</pos>									
+	</image>
+
+	<image name="md_cheevos,md_notcheevos, ghost_cheevos">
+		<pos>0.9192708 0.9596296</pos>									
+	</image>
+	
+	<image name="md_hidden, ghost_hidden">
+		<pos>0.9453125 0.9596296</pos>									
+	</image>
+</view>
+
+
+
+<customView name="rvgm_legacy">
+  
+	<!-- MD image et video qui match avec l'overlay du cadreTV -->
+	<image name="md_image"> 
+		<pos>0.23 0.32</pos>									
+	</image>
+	
+	<video name="md_video">
+		<pos>0.23 0.32</pos>									
+	</video>
+	
+	<text name="md_description">
+		<pos>0.2546875 0.765</pos>									
+	</text>
+	
+	<image name="md_thumbnail"> 
+		<pos>0.6174479 0.7615741</pos>									
+		<maxSize>0.2057292 0.43</maxSize>									
+	</image>
+	
+	
+	<!-- Affichage du controller2 -->
+	<image name="controller2" extra="true">
+		<pos>0.09 0.57</pos>	
+		<y if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.54</y>									
+    </image>
+
+
+	<rating name="md_rating">
+		<pos>0.3960938 0.9578704</pos>									
+	</rating>	
+	
+	
+	<text name="md_players">
+		<pos>0.16 0.95</pos>									
+	</text>
+
+	
+	
+	<!-- A PARTIR DE LA ça ne bouge pas, mais obliger de les mettres car sinon ça reprend les positions de la vue mère -->
+	<image name="rvgm-developer-icon" extra="true">
+		<pos>0.5319792 0.2498148</pos>									
+	</image>
+	
+	<image name="rvgm-publisher-icon" extra="true">
+		<pos>0.5319792 0.285</pos>									
+	</image>
+
+	<image name="rvgm-genre-icon" extra="true">
+		<pos>0.5319792 0.3211111</pos>									
+	</image>
+
+	<image name="rvgm-date-icon" extra="true">
+		<pos>0.5319792 0.3581481</pos>									
+	</image>
+	
+	<image name="rvgm-playcount-icon" extra="true">
+		<pos>0.5319792 0.4133333</pos>									
+	</image>
+	
+	<image name="rvgm-lastplayed-icon" extra="true">
+		<pos>0.5319792 0.4503704</pos>									
+	</image>
+
+	<image name="rvgm-gametime-icon" extra="true">
+		<pos>0.5319792 0.4869444</pos>									
+	</image>
+
+	<text name="md_developer, md_publisher, md_genre, md_releasedate, md_playcount, md_lastplayed, md_gametime">
+		<size>0.16 0.0240741</size>									
+	</text>
+	
+	<text name="md_developer">
+		<pos>0.6299479 0.2488889</pos>									
+	</text>
+	<text name="md_publisher">
+		<pos>0.6299479 0.285</pos>									
+	</text>
+	<text name="md_genre">
+		<pos>0.6299479 0.3211111</pos>									
+	</text>
+	
+	<datetime name="md_releasedate">
+		<pos>0.6299479 0.3582222</pos>									
+	</datetime>
+	
+	<text name="md_playcount">
+		<pos>0.6299479 0.4133333</pos>									
+	</text>
+	<datetime name="md_lastplayed">
+		<pos>0.6299479 0.4494444</pos>									
+	</datetime>
+	<text name="md_gametime">
+		<pos>0.6299479 0.4875556</pos>									
+	</text>
+	
+	
+	
+	
+	
+		
+</customView>
+  
   
   
 </theme>
