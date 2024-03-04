@@ -71,8 +71,8 @@
       <maxSize>0.28 0.164</maxSize>
 	  <path>./../../../art/logos/${system.theme}.png</path>
 	  <path>./../../../art/logos/${system.theme}-${lang}.png</path>
-	  <path ifSubset="artworkregion:US">./../../../art/logos/US/${system.theme}.png</path>
-	  <path ifSubset="artworkregion:JP">./../../../art/logos/JP/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:us">./../../../art/logos/us/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:jp">./../../../art/logos/jp/${system.theme}.png</path>
 	  <linearSmooth>true</linearSmooth>
       <zIndex>21</zIndex>
 	  <scale>1</scale>
@@ -92,8 +92,8 @@
       <maxSize>0.28 0.164</maxSize>
 	  <path>./../../../art/logos/${system.theme}.png</path>
 	  <path>./../../../art/logos/${system.theme}-${lang}.png</path>
-	  <path ifSubset="artworkregion:US">./../../../art/logos/US/${system.theme}.png</path>
-	  <path ifSubset="artworkregion:JP">./../../../art/logos/JP/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:us">./../../../art/logos/us/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:jp">./../../../art/logos/jp/${system.theme}.png</path>
 	  <opacity>0</opacity>
 	  <zIndex>20</zIndex>
 	  <storyboard>

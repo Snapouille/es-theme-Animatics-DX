@@ -115,8 +115,8 @@
 		<horizontalAlignment>center</horizontalAlignment>
 			<path>./../../art/controllers2/default.png</path>
 			<path>./../../art/controllers2/${system.theme}.png</path>
-			<path ifSubset="artworkregion:US">./../../art/controllers2/US/${system.theme}.png</path>
-			<path ifSubset="artworkregion:JP">./../../art/controllers2/JP/${system.theme}.png</path>
+			<path ifSubset="artworkregion:us">./../../art/controllers2/us/${system.theme}.png</path>
+			<path ifSubset="artworkregion:jp">./../../art/controllers2/jp/${system.theme}.png</path>
 			<!-- si COLLECTION on affiche le systeme au lieu de la manette -->
 			<path if="${system.manufacturer} == 'Collections'">./../../art/consoles/{game:system}.png</path>
 		<opacity>0</opacity>

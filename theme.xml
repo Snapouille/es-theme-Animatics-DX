@@ -112,9 +112,9 @@ originally based on: "carbon"
   
 <!-- Subset options for Regional Artwork and Logos -->
 <subset name="artworkregion" displayName="${subset.region}">
-	<include name="EU" displayName="${europe}"/>
-	<include name="US" displayName="${usa}"/>
-	<include name="JP" displayName="${japan}"/>
+	<include name="eu" displayName="${europe}"/>
+	<include name="us" displayName="${usa}"/>
+	<include name="jp" displayName="${japan}"/>
 </subset>
   
   

@@ -43,8 +43,8 @@ originally based on: "carbon"
       <path>./../../art/logos/${system.theme}.png</path>
 	  <path>./../../art/logos/${system.theme}.svg</path>
 	  <path>./../../art/logos/${system.theme}-${lang}.png</path>
-	  <path ifSubset="artworkregion:US">./../../art/logos/US/${system.theme}.png</path>
-	  <path ifSubset="artworkregion:JP">./../../art/logos/JP/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:us">./../../art/logos/us/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:jp">./../../art/logos/jp/${system.theme}.png</path>
 	  <linearSmooth>true</linearSmooth>
 	  <storyboard event="activate" repeatAt="300">
 				<animation property="origin" from="0.5 0.5" to="0.5 0.53" begin="50" duration="250" mode="easeInOut"/>
@@ -72,8 +72,8 @@ originally based on: "carbon"
 	<image name="Consoles" extra="true">
       <path>./../../art/consoles/${system.theme}.png</path>
 	  <path>./../../art/consoles/${system.theme}.svg</path>
-	  <path ifSubset="artworkregion:US">./../../art/consoles/US/${system.theme}.png</path>
-	  <path ifSubset="artworkregion:JP">./../../art/consoles/JP/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:us">./../../art/consoles/us/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:jp">./../../art/consoles/jp/${system.theme}.png</path>
 	  <linearSmooth>false</linearSmooth>
   	</image>
 	
@@ -602,8 +602,8 @@ originally based on: "carbon"
 		
 			<path>./../../art/controllers2/default.png</path>
 			<path>./../../art/controllers2/${system.theme}.png</path>
-			<path ifSubset="artworkregion:US">./../../art/controllers2/US/${system.theme}.png</path>
-			<path ifSubset="artworkregion:JP">./../../art/controllers2/JP/${system.theme}.png</path>
+			<path ifSubset="artworkregion:us">./../../art/controllers2/us/${system.theme}.png</path>
+			<path ifSubset="artworkregion:jp">./../../art/controllers2/jp/${system.theme}.png</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>18</zIndex>
 		
@@ -715,8 +715,8 @@ originally based on: "carbon"
 		
 			<path>./../../art/controllers2/default.png</path>
 			<path>./../../art/controllers2/${system.theme}.png</path>
-			<path ifSubset="artworkregion:US">./../../art/controllers2/US/${system.theme}.png</path>
-			<path ifSubset="artworkregion:JP">./../../art/controllers2/JP/${system.theme}.png</path>
+			<path ifSubset="artworkregion:us">./../../art/controllers2/us/${system.theme}.png</path>
+			<path ifSubset="artworkregion:jp">./../../art/controllers2/jp/${system.theme}.png</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>18</zIndex>
 			
@@ -936,8 +936,8 @@ originally based on: "carbon"
 	
 		<path>./../../art/controllers2/default.png</path>
 		<path>./../../art/controllers2/${system.theme}.png</path>
-		<path ifSubset="artworkregion:US">./../../art/controllers2/US/${system.theme}.png</path>
-		<path ifSubset="artworkregion:JP">./../../art/controllers2/JP/${system.theme}.png</path>
+		<path ifSubset="artworkregion:us">./../../art/controllers2/us/${system.theme}.png</path>
+		<path ifSubset="artworkregion:jp">./../../art/controllers2/jp/${system.theme}.png</path>
 		<linearSmooth>true</linearSmooth>
 		<zIndex>18</zIndex>
 	
