@@ -186,7 +186,7 @@
 	
 	
 	<text name="md_description">
-		<pos>0.7513021 0.273</pos>									
+		<pos>0.7513021 0.293</pos>									
 
 		<storyboard event="open">
 			<animation property="size" to="0.3671875 0.19" begin="1400" duration="200" mode="linear"/>

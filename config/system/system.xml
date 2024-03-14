@@ -494,7 +494,7 @@ originally based on: "carbon"
 		<rotation>-90</rotation>
 		
 		<storyboard>
-			<animation property="offsetX" to="0.05" begin="1100" duration="500" mode="easeOutCubic"/>
+			<animation property="offsetX" to="0.05" begin="1350" duration="400" mode="easeOutCubic"/>
 			
 			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
 			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>

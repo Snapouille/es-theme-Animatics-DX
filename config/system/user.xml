@@ -33,7 +33,8 @@ originally based on: "carbon"
 		 <size>0.0458333 0.0796296</size>									
 		 <pos>0.1032292 0.0416667</pos>									
          <tile>true</tile>
-         <path>./../../art/divers/bg_square.png</path>
+         <path>./../../art/divers/white.png</path>
+		<color>${backgroundColor}</color>
 		 <visible ifSubset="user-logo:none">false</visible>
          <zIndex>98</zIndex>
 		 
@@ -47,9 +48,11 @@ originally based on: "carbon"
 	  <image name="logo-user" extra="static">
 		 <path>./../../art/logo-user/${image.logo}</path>
 		 <path ifSubset="user-logo:custom">./../../your-logo.png</path>
+		 <path ifSubset="user-logo:custom">./../../your-logo.gif</path>
 		 <path ifSubset="user-logo:custom">./../../../../../../your-logo.png</path> <!-- On check si l'user a mis un logo Perso à la Racine de Retrobat -->
 		 <path ifSubset="user-logo:custom">./../../../your-logo.png</path> <!-- On check si l'user a mis un logo Perso à la Racine de Theme de Batocera -->
-		 
+		 <path ifSubset="user-logo:custom">./../../../../../../your-logo.gif</path> <!-- On check si l'user a mis un logo Perso à la Racine de Retrobat -->
+		 <path ifSubset="user-logo:custom">./../../../your-logo.gif</path> <!-- On check si l'user a mis un logo Perso à la Racine de Theme de Batocera -->
 		 
 		<size>0.0458333 0.0796296</size>									
 		<pos>0.103125 0.0416667</pos>									

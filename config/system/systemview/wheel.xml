@@ -146,12 +146,6 @@
 	  </storyboard>	  
 	</image>
 	
-	
-	
-	
-	
-	
-		
 		 
 	<image name="Consoles" extra="static">
       <tile>false</tile>
@@ -165,12 +159,46 @@
 	  <zIndex>150</zIndex>
     </image>
 	
-
-
-
 	<image name="down_BottomFrame, right_BottomFrame" ifHelpPrompts="false" extra="true">
 			<visible>false</visible>
 	</image>
+	
+	
+
+	<!-- ombre de l'encadrement des consoles -->
+	<image name="shadow_cadre_droit, shadow_cadre_bas">
+		<path>./../../../art/divers/white.png</path>
+		<color>${frameColor}</color>
+		<origin>0 0</origin>
+		<zIndex>149</zIndex>
+		<opacity>0</opacity>
+	</image>
+
+
+	<!-- quand on masque l'aide ifHelpPrompts="false" alors pos offsetY = + 0.04 -->
+	<image name="shadow_cadre_droit" extra="true">
+		<pos>0.1380208 0.7638889</pos>									
+		<offsetY ifHelpPrompts="false">0.04</offsetY> 
+		<size>0.0010417 0.001</size>									
+		<storyboard>
+			<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear" />
+			<animation property="h" to="0.1435185" begin="100" duration="300" mode="Linear"/>
+		</storyboard>
+	</image>
+
+	<image name="shadow_cadre_bas" extra="true">
+		<pos>0.0380208 0.9055556</pos>									
+		<offsetY ifHelpPrompts="false">0.04</offsetY> 
+		<size>0.001 0.0018519</size>									
+		<storyboard>
+			<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear" />
+			<animation property="w" to="0.1010417" begin="100" duration="300" mode="Linear"/>
+		</storyboard>
+	</image>
+
+
+
+
 
 
 

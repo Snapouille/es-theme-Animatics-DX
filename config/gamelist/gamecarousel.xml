@@ -163,13 +163,13 @@ originally based on: "carbon"
 <!-- Affichage et Animation LOGO des systèmes  -->	
 	<image name="logo">
 		<alignment>left</alignment>	
+		<pos>0.977 0.8</pos>
+		<scale>0</scale>
+		<maxSize>0.20 0.11</maxSize>
+		<rotation>90</rotation>
 		
 		  <storyboard>
-			<animation property="scale" from="0" to="4" begin="" duration="300" mode="Linear"/>
-			<animation property="scale" from="4" to="0.5" begin="620" duration="175" mode="Linear"/>
-			<animation property="y" from="0.5" to="0.80" begin="620" duration="175" mode="Linear"/>
-			<animation property="x" from="0.5" to="0.977" begin="620" duration="175" mode="Linear"/>
-			<animation property="rotation" to="90" begin="620" duration="175" mode="Linear"/>
+			<animation property="scale" from="0" to="0.55" begin="" duration="300" mode="Linear"/>
 			<animation property="offsetY"  to="0.03" begin="5000" duration="500" autoreverse="true" mode="Linear"/>
 		  </storyboard>
     </image>
@@ -192,20 +192,15 @@ originally based on: "carbon"
 		<zIndex>150</zIndex>
 			<storyboard event="open">
                 <animation property="offsetX" from="-0.5" to="0" duration="400" mode="EaseOutQuint"/>
-				<animation property="rotation" from="-45" to="0" duration="400" mode="EaseInOut"/>
 			</storyboard>
 			<storyboard event="activateNext">
                 <animation property="offsetX" from="-0.5" to="0" duration="400" mode="EaseOutQuint"/>
-				<animation property="rotation" from="-45" to="0" duration="400" mode="EaseInOut"/>
 			</storyboard>
 			<storyboard event="activatePrev">
                 <animation property="offsetX" from="-0.5" to="0" duration="400" mode="EaseOutQuint"/>
-				<animation property="rotation" from="-45" to="0" duration="400" mode="EaseInOut"/>
 			</storyboard>
 			<storyboard event="deactivate">
-			    <animation property="offsetX" from="0" to="-0.2" duration="200" mode="EaseOut"/>
-				<animation property="scale" to="0.5" duration="200" mode="EaseOut"/>
-				<animation property="rotation" to="90" duration="200" mode="EaseOut"/>
+			    <animation property="opacity" to="0" duration="100" mode="linear"/>
 			</storyboard>
 	</image>
 	

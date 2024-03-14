@@ -97,80 +97,59 @@ originally based on: "carbon"
 	
 	
 	<!-- Cadre gris selection des systèmes en navigation -->
-	<image name="cadre" extra="true">
-      <path>./../../art/divers/darkwheel1.png</path>
+	<!-- <image name="cadre" extra="true"> -->
+      <!-- <path>./../../art/divers/darkwheel1.png</path> -->
       <!-- <color>FFFFFF90</color> -->
-      <pos>0.5 0.5</pos>
-      <origin>0.5 0.5</origin>
-      <size>1.2 0.6</size>
-      <zIndex>101</zIndex>
+      <!-- <pos>0.5 0.5</pos> -->
+      <!-- <origin>0.5 0.5</origin> -->
+      <!-- <size>1.2 0.6</size> -->
+      <!-- <zIndex>101</zIndex> -->
 	  
-	  <storyboard>
-		<animation property="scale" from="0" to="1" begin="" duration="300" mode="Linear"/>
-		<animation property="scale" from="1" to="0" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.88" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.08" begin="620" duration="175" mode="Linear"/>
-	  </storyboard>
+	  <!-- <storyboard> -->
+		<!-- <animation property="scale" from="0" to="1" begin="" duration="300" mode="Linear"/> -->
+		<!-- <animation property="scale" from="1" to="0" begin="620" duration="175" mode="Linear"/> -->
+		<!-- <animation property="x" from="0.5" to="0.88" begin="620" duration="175" mode="Linear"/> -->
+		<!-- <animation property="y" from="0.5" to="0.08" begin="620" duration="175" mode="Linear"/> -->
+	  <!-- </storyboard> -->
 	  
-    </image>
+    <!-- </image> -->
 	
 	
 		
-	<!-- Position et affichage des logos des systèmes en haut à droite dans les pages de visions des jeux-->
-    <image name="logo">
-	
-	  <path>./../../art/logos/${system.theme}.png</path>
-	  <path>./../../art/logos/${system.theme}-${lang}.png</path>
-	  <path ifSubset="artworkregion:us">./../../art/logos/us/${system.theme}.png</path>
-	  <path ifSubset="artworkregion:jp">./../../art/logos/jp/${system.theme}.png</path>
-	  
-	  	  
-      <pos>0.5 0.5</pos>
-	  <scale>5</scale>
-      <maxSize>0.20 0.11</maxSize>
-      <origin>0.5 0.5</origin>
-      <linearSmooth>true</linearSmooth>
-	  <alignment>right</alignment>
-      <zIndex>102</zIndex>
-	  
-	  <storyboard>
-		<animation property="scale" from="0" to="4" begin="" duration="300" mode="Linear"/>
-		<animation property="scale" from="4" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.88" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.08" begin="620" duration="175" mode="Linear"/>
-	  </storyboard>
-	  
-	  
-	  
-	  
-	  
-    </image>
+	<!-- Position et affichage des logos des systèmes en haut à droite dans les gamelist views -->
+		<image name="logo">
+			  <path>./../../art/logos/${system.theme}.png</path>
+			  <path>./../../art/logos/${system.theme}-${lang}.png</path>
+			  <path ifSubset="artworkregion:us">./../../art/logos/us/${system.theme}.png</path>
+			  <path ifSubset="artworkregion:jp">./../../art/logos/jp/${system.theme}.png</path>
+			  
+			  <pos>0.88 0.08</pos>
+			  <scale>0</scale>
+			  <maxSize>0.20 0.11</maxSize>
+			  <origin>0.5 0.5</origin>
+			  <linearSmooth>true</linearSmooth>
+			  <alignment>right</alignment>
+			  <zIndex>102</zIndex>
+			  
+			  <storyboard>
+				<animation property="offsetX" from="0.5" to="0" begin="" duration="800" mode="EaseInOut"/>
+			  </storyboard>
+		</image>
 
 		   
     <text name="folderpath">
-      <pos>0.05 0.132</pos>
-      <size>0.90 0.02</size>  
-      <color>B0B0B0</color>  
-      <alignment>center</alignment>
-      <fontSize>0.016</fontSize>
-      <fontPath>./../../art/divers/fonts/ubuntu-Bold.ttf</fontPath>
-      <forceUppercase>true</forceUppercase>
-      <zIndex>200</zIndex>
+		  <pos>0.05 0.132</pos>
+		  <size>0.90 0.02</size>  
+		  <color>B0B0B0</color>  
+		  <alignment>center</alignment>
+		  <fontSize>0.016</fontSize>
+		  <fontPath>./../../art/divers/fonts/ubuntu-Bold.ttf</fontPath>
+		  <forceUppercase>true</forceUppercase>
+		  <zIndex>200</zIndex>
     </text>  
 	
 
 
-
-	  
-	  
-	  
-
-	  
-	  
-	  
-	  
-	  
-	  
 	  
 	  
   </view>

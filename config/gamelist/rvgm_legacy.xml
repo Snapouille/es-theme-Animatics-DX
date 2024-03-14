@@ -22,7 +22,8 @@
 	<!-- MD image et video qui match avec l'overlay du cadreTV -->
 	<image name="md_image"> 
 		<origin>0.5 0.5</origin>
-		<size>0.3513542 0.4685185</size>									
+		<!-- <size>0.3513542 0.4685185</size>	 -->
+		<maxSize>0.3513542 0.4685185</maxSize>									
 		<pos>0.23 0.3</pos>									
 		
 		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.4072917 0.4101852</size>									
@@ -37,7 +38,8 @@
 
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-		<size>0.3513542 0.4685185</size>									
+		<!-- <size>0.3513542 0.4685185</size>	 -->
+		<maxSize>0.3513542 0.4685185</maxSize>									
 		<pos>0.23 0.3</pos>									
 		
 		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.4072917 0.4101852</size>									
@@ -77,9 +79,9 @@
 	<image name="controller2" extra="true">
 		<tile>false</tile>
 		<origin>0.5 0.5</origin>									
-		<pos>0.09 0.53</pos>	
-		<y if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.50</y>									
-		<maxSize>0.1182292 0.15</maxSize>									
+		<pos>0.08 0.53</pos>	
+		<y if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.52</y>									
+		<maxSize>0.1182292 0.12</maxSize>									
 		<zIndex>99</zIndex>
 		<linearSmooth>true</linearSmooth>
 		<horizontalAlignment>center</horizontalAlignment>

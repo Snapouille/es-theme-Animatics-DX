@@ -29,8 +29,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<pos>0.5132813 0.6725</pos>									
-<maxSize>0.1828125 0.2509259</maxSize>									
+		<pos>0.5132813 0.6725</pos>									
+		<maxSize>0.1828125 0.2509259</maxSize>									
 
 		<zIndex>30</zIndex>
 
@@ -54,8 +54,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.1828125 0.2509259</size>																
-<pos>0.5132813 0.6725</pos>																
+		<size>0.1828125 0.2509259</size>																
+		<pos>0.5132813 0.6725</pos>																
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -124,21 +124,6 @@
   
   <view name="detailed">
   
-	<!-- On masque le logo et le cadre du logo car on la deja dans le MARQUEE du bartop 
-		     On repositionne aussi un peu les logos des jeux à l'aparition avant le slide vers la gauche -->
-	<image name="logo">
-		<storyboard>
-			<animation property="scale" from="0" to="4" begin="" duration="300" mode="Linear"/>
-			<animation property="scale" from="4" to="1" begin="620" duration="175" mode="Linear"/>
-			<animation property="x" from="0.5" to="0.15" begin="620" duration="175" mode="Linear"/>
-			<animation property="y" from="0.5" to="0.08" begin="620" duration="175" mode="Linear"/>
-			
-			<animation property="offsetX" to="-0.10" begin="6000" duration="200" mode="easeInOut"/>
-			<animation property="offsetX" to="0" begin="6200" duration="1000" mode="easeInCubic"/>
-			<animation property="scale" to="1.1" begin="7400" duration="250" autoreverse="true" mode="bump"/>
-		  </storyboard>
-		
-	</image>
 		 
 	<image name="cadre" extra="true">
 		<visible>false</visible>

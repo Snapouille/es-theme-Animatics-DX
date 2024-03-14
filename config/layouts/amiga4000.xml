@@ -32,8 +32,8 @@
   
   
 		<video name="md_video">
-<size>0.2286458 0.3055556</size>									
-<pos>0.7007813 0.3824074</pos>									
+			<size>0.2286458 0.3055556</size>									
+			<pos>0.7007813 0.3824074</pos>									
 				<storyboard event="open">
 					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>

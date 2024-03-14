@@ -6,8 +6,8 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 
-<size>0.3713542 0.5768519</size>									
-<pos>0.4983854 0.6634259</pos>									
+		<size>0.3713542 0.5768519</size>									
+		<pos>0.5183854 0.6634259</pos>									
 									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
@@ -30,8 +30,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<pos>0.4991667 0.6472222</pos>									
-<maxSize>0.1625 0.4277778</maxSize>									
+		<pos>0.5191667 0.6472222</pos>									
+		<maxSize>0.1625 0.4277778</maxSize>									
 
 		<zIndex>30</zIndex>
 
@@ -55,8 +55,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.1625 0.4277778</size>									
-<pos>0.4991667 0.6472222</pos>									
+		<size>0.1625 0.4277778</size>									
+		<pos>0.5191667 0.6472222</pos>									
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -78,7 +78,12 @@
 	</text>
 
 
-
+	<image name="thumbnail-gamecarousel" extra="true">
+		<maxSize>0.27 0.44</maxSize>
+		<maxSize ifHelpPrompts="false">0.27 0.5</maxSize>
+		<pos>0.155 0.691</pos>
+		<pos ifHelpPrompts="false">0.155 0.73</pos>
+	</image>
 	
 </view>  
   

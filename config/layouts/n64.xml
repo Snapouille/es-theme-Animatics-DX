@@ -94,11 +94,12 @@
 				
 	</image>
 	
-	<image name="md_thumbnail">
-	  <pos>0.1465 0.691</pos>
-	  <pos ifHelpPrompts="false">0.1465 0.73</pos>
-	  <maxSize>0.275 0.467</maxSize>
-	</image>	
+	<image name="thumbnail-gamecarousel" extra="true">
+		<maxSize>0.27 0.457</maxSize>
+		<maxSize ifHelpPrompts="false">0.27 0.5</maxSize>
+		<pos>0.155 0.691</pos>
+		<pos ifHelpPrompts="false">0.155 0.73</pos>
+	</image>
 	
 	
 	

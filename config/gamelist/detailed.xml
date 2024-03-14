@@ -66,7 +66,7 @@ originally based on: "carbon"
 		<fontSize>0.023</fontSize>
 		<zIndex>131</zIndex>
 		<storyboard event="open">
-			<animation property="offsetY" from="-1" to="0" begin="" duration="1000" mode="linear"/>
+			<animation property="offsetX" from="-1" to="0" begin="" duration="300" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
 			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
@@ -148,21 +148,95 @@ originally based on: "carbon"
 	
 	
 	<!-- Animation LOGO des systèmes  -->	
-	<image name="logo">
-			<storyboard>
-				<animation property="scale" from="0" to="4" begin="" duration="300" mode="Linear"/>
-				<animation property="scale" from="4" to="0.95" begin="620" duration="175" mode="Linear"/>
-				<animation property="x" from="0.5" to="0.89" begin="620" duration="175" mode="Linear"/>
-				<animation property="y" from="0.5" to="0.093" begin="620" duration="175" mode="Linear"/>
-			</storyboard>
-			<storyboard if="{system.theme} == 'dreamcast'">
-				<animation property="scale" from="0" to="4" begin="" duration="300" mode="Linear"/>
-				<animation property="scale" from="4" to="0.95" begin="620" duration="175" mode="Linear"/>
-				<animation property="x" from="0.5" to="0.89" begin="620" duration="175" mode="Linear"/>
-				<animation property="y" from="0.5" to="0.07" begin="620" duration="175" mode="Linear"/>
-			</storyboard>
-			
-    </image>
+		<image name="logo">
+				<storyboard>
+					<animation property="scale" from="0" to="0.95" begin="" duration="300" mode="Linear"/>
+					<animation property="offsetX" from="0.5" to="0" begin="" duration="500" mode="EaseOut"/>
+					<animation property="x" to="0.89" begin="" duration="10" mode="Linear"/>
+					<animation property="y" to="0.093" begin="" duration="10" mode="Linear"/>
+				</storyboard>
+				
+				<storyboard if="{system.theme} == 'dreamcast'">
+					<animation property="scale" from="0" to="0.95" begin="" duration="300" mode="Linear"/>
+					<animation property="offsetX" from="0.5" to="0" begin="" duration="500" mode="EaseOut"/>
+
+					<animation property="x" from="0.5" to="0.89" begin="" duration="10" mode="Linear"/>
+					<animation property="y" from="0.5" to="0.07" begin="" duration="10" mode="Linear"/>
+				</storyboard>
+		</image>
+		
+		<!-- Pour les logos des systèmes ARCADE qui on le marquee dans la borne, on les déplaces à gauche -->
+		<image name="logo" 
+			if="{system.theme} == 'arcade' 
+			|| {system.theme} == 'auto-verticalarcade' 
+			|| {system.theme} == 'alphadenshi' 
+			|| {system.theme} == 'atari' 
+			|| {system.theme} == 'atlus' 
+			|| {system.theme} == 'openbor'	
+			|| {system.theme} == 'banpresto' 
+			|| {system.theme} == 'capcom' 
+			|| {system.theme} == 'cave' 
+			|| {system.theme} == 'centurye' 
+			|| {system.theme} == 'comad' 
+			|| {system.theme} == 'cps1' 
+			|| {system.theme} == 'cps2' 
+			|| {system.theme} == 'cps3' 
+			|| {system.theme} == 'dataeast' 
+			|| {system.theme} == 'eighting' 
+			|| {system.theme} == 'gaelco' 
+			|| {system.theme} == 'gottlieb' 
+			|| {system.theme} == 'igs' 
+			|| {system.theme} == 'incredibletech' 
+			|| {system.theme} == 'irem' 
+			|| {system.theme} == 'jaleco' 
+			|| {system.theme} == 'kaneko' 
+			|| {system.theme} == 'konami' 
+			|| {system.theme} == 'midway' 
+			|| {system.theme} == 'mitchell' 
+			|| {system.theme} == 'model2' 
+			|| {system.theme} == 'model3' 
+			|| {system.theme} == 'namco' 
+			|| {system.theme} == 'nichibutsu' 
+			|| {system.theme} == 'nintendo' 
+			|| {system.theme} == 'nmk' 
+			|| {system.theme} == 'psikyo' 
+			|| {system.theme} == 'sammy' 
+			|| {system.theme} == 'sega' 
+			|| {system.theme} == 'seibukaihatsu' 
+			|| {system.theme} == 'semicom'
+			|| {system.theme} == 'snk' 
+			|| {system.theme} == 'taito' 
+			|| {system.theme} == 'taitox' 
+			|| {system.theme} == 'technos' 
+			|| {system.theme} == 'tecmo' 
+			|| {system.theme} == 'toaplan' 
+			|| {system.theme} == 'universal' 
+			|| {system.theme} == 'visco' 
+			|| {system.theme} == 'vsc' 
+			|| {system.theme} == 'atomiswave' 
+			|| {system.theme} == 'fbneo' 
+			|| {system.theme} == 'hbmame' 
+			|| {system.theme} == 'mame' 
+			|| {system.theme} == 'teknoparrot' 
+			|| {system.theme} == 'daphne' 
+			|| {system.theme} == 'advision' 
+			|| {system.theme} == 'naomi' 
+			|| {system.theme} == 'naomi2'">		
+		
+				<storyboard repeatAt="500">
+					<animation property="scale" from="0" to="1" begin="" duration="500" mode="easeIn"/>
+					<animation property="x" to="0.15" begin="" duration="10" mode="linear"/>
+					<animation property="y" to="0.08" begin="" duration="10" mode="linear"/>
+					
+					<animation property="offsetX" to="-0.02" begin="6000" duration="200" mode="easeInOut"/>
+					<animation property="offsetX" to="0" begin="6200" duration="1000" mode="easeInCubic"/>
+					<animation property="scale" to="1.1" begin="7400" duration="250" autoreverse="true" mode="bump"/>
+					
+					<animation property="scale" to="0.9" begin="30000" duration="250" autoreverse="true" mode="bump"/>
+				</storyboard>
+				
+		</image>
+		
 	
 	
 	
@@ -235,18 +309,65 @@ originally based on: "carbon"
     </image>
 	
 	
-<!-- 'on ne met pas de "mini-console" pour les collections et système ARCADE qui ont une borne d'arcade -->
+<!-- 'on masque la "mini-console" pour les systèmes ARCADE qui ont déjà une borne d'arcade -->
 <image name="console-collection, console-collection-top, console-collection-left, console-collection-right" 
-	   if="{system.theme} == 'arcade' || {system.theme} == 'auto-verticalarcade' || {system.theme} == 'alphadenshi' || {system.theme} == 'atari' || {system.theme} == 'atlus' || {system.theme} == 'openbor'
-		|| {system.theme} == 'banpresto' || {system.theme} == 'capcom' || {system.theme} == 'cave' || {system.theme} == 'centurye' || {system.theme} == 'comad' || {system.theme} == 'cps1' || {system.theme} == 'cps2' 
-		|| {system.theme} == 'cps3' || {system.theme} == 'dataeast' || {system.theme} == 'eighting' || {system.theme} == 'gaelco' || {system.theme} == 'gottlieb' || {system.theme} == 'igs' || {system.theme} == 'incredibletech' 
-		|| {system.theme} == 'irem' || {system.theme} == 'jaleco' || {system.theme} == 'kaneko' || {system.theme} == 'konami' || {system.theme} == 'midway' || {system.theme} == 'mitchell' || {system.theme} == 'model2' 
-		|| {system.theme} == 'model3' || {system.theme} == 'namco' || {system.theme} == 'nichibutsu' || {system.theme} == 'nintendo' || {system.theme} == 'nmk' || {system.theme} == 'psikyo' 
-		|| {system.theme} == 'sammy' || {system.theme} == 'sega' || {system.theme} == 'seibukaihatsu' || {system.theme} == 'semicom'|| {system.theme} == 'snk' || {system.theme} == 'taito' || {system.theme} == 'taitox' 
-		|| {system.theme} == 'technos' || {system.theme} == 'tecmo' || {system.theme} == 'toaplan' || {system.theme} == 'universal' || {system.theme} == 'visco' || {system.theme} == 'vsc'
-		|| {system.theme} == 'atomiswave' || {system.theme} == 'fbneo' || {system.theme} == 'hbmame' || {system.theme} == 'mame' || {system.theme} == 'teknoparrot'
-		|| {system.theme} == 'daphne' || {system.theme} == 'advision' || {system.theme} == 'dreamcast' || {system.theme} == 'naomi'
-		|| {system.theme} == 'hikaru' || {system.theme} == 'naomi2'" extra="true">
+	   if="{system.theme} == 'arcade' 
+	    || {system.theme} == 'auto-verticalarcade' 
+		|| {system.theme} == 'alphadenshi' 
+		|| {system.theme} == 'atari' 
+	    || {system.theme} == 'atlus' 
+		|| {system.theme} == 'openbor'	
+		|| {system.theme} == 'banpresto' 
+		|| {system.theme} == 'capcom' 
+		|| {system.theme} == 'cave' 
+		|| {system.theme} == 'centurye' 
+		|| {system.theme} == 'comad' 
+		|| {system.theme} == 'cps1' 
+		|| {system.theme} == 'cps2' 
+		|| {system.theme} == 'cps3' 
+		|| {system.theme} == 'dataeast' 
+		|| {system.theme} == 'eighting' 
+		|| {system.theme} == 'gaelco' 
+		|| {system.theme} == 'gottlieb' 
+		|| {system.theme} == 'igs' 
+		|| {system.theme} == 'incredibletech' 
+		|| {system.theme} == 'irem' 
+		|| {system.theme} == 'jaleco' 
+		|| {system.theme} == 'kaneko' 
+		|| {system.theme} == 'konami' 
+		|| {system.theme} == 'midway' 
+		|| {system.theme} == 'mitchell' 
+		|| {system.theme} == 'model2' 
+		|| {system.theme} == 'model3' 
+		|| {system.theme} == 'namco' 
+		|| {system.theme} == 'nichibutsu' 
+		|| {system.theme} == 'nintendo' 
+		|| {system.theme} == 'nmk' 
+		|| {system.theme} == 'psikyo' 
+		|| {system.theme} == 'sammy' 
+		|| {system.theme} == 'sega' 
+		|| {system.theme} == 'seibukaihatsu' 
+		|| {system.theme} == 'semicom'
+		|| {system.theme} == 'snk' 
+		|| {system.theme} == 'taito' 
+		|| {system.theme} == 'taitox' 
+		|| {system.theme} == 'technos' 
+		|| {system.theme} == 'tecmo' 
+		|| {system.theme} == 'toaplan' 
+		|| {system.theme} == 'universal' 
+		|| {system.theme} == 'visco' 
+		|| {system.theme} == 'vsc' 
+		|| {system.theme} == 'atomiswave' 
+		|| {system.theme} == 'fbneo' 
+		|| {system.theme} == 'hbmame' 
+		|| {system.theme} == 'mame' 
+		|| {system.theme} == 'teknoparrot' 
+		|| {system.theme} == 'daphne' 
+		|| {system.theme} == 'advision' 
+		|| {system.theme} == 'dreamcast' 
+		|| {system.theme} == 'naomi' 
+		|| {system.theme} == 'hikaru' 
+		|| {system.theme} == 'naomi2'" extra="true">
 	<visible>false</visible>
 </image>
 	
@@ -370,7 +491,7 @@ originally based on: "carbon"
 		<default>./../../art/divers/nologo.png</default>
 		
 	<storyboard event="open">
-		<animation property="scale" from="0" to="1" begin="800" duration="300" mode="Linear"/>
+		<animation property="scale" from="0" to="1" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" to="0.9" begin="4000" duration="250" autoreverse="true" mode="bump"/>
 		<animation property="offsetX" from="-0.01" to="0.08" begin="10000" duration="200" autoreverse="true" mode="easeInOut"/>
 		<animation property="offsetX" to="0" begin="10000" duration="1000" mode="easeInCubic"/>

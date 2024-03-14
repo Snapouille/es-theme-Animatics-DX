@@ -157,8 +157,11 @@
 
 	<video name="md_video">
 		<origin>0.5 0.5</origin>
-		<size>0.971875 0.9185185</size>									
-		<pos>0.5 0.438</pos>									
+		<minSize>0.971875 0.9185185</minSize>	
+		<pos>0.5 0.5</pos>			
+		<!-- <size>0.971875 0.9185185</size>									 -->
+		<!-- <pos>0.5 0.438</pos>			 -->
+		
 		<delay>1.3</delay> 
 		<effect>none</effect>
 		<loops>1</loops>

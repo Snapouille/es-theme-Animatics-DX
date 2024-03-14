@@ -193,14 +193,14 @@
 	
 	
 	<text name="md_description">
-		<pos>0.764 0.273</pos>									
+		<pos>0.764 0.303</pos>									
 
 		<storyboard event="open">
-			<animation property="size" to="0.3671875 0.181" begin="1400" duration="200" mode="linear"/>
+			<animation property="size" to="0.3671875 0.185" begin="1400" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="activate">
-			<animation property="size" to="0.3671875 0.181" begin="1400" duration="200" mode="linear"/>
+			<animation property="size" to="0.3671875 0.185" begin="1400" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="deactivate">

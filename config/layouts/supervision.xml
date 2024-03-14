@@ -7,8 +7,8 @@
 		<origin>0.5 0.5</origin>
 		<path>./../../system/supervision/ecran_console.png</path>
 
-<size>0.1989583 0.6018519</size>									
-<pos>0.5795833 0.5822222</pos>									
+		<size>0.1989583 0.6018519</size>									
+		<pos>0.5795833 0.5822222</pos>									
 									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
@@ -31,8 +31,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<size>0.1020833 0.1805556</size>									
-<pos>0.5795833 0.4363889</pos>									
+		<size>0.1020833 0.1805556</size>									
+		<pos>0.5795833 0.4363889</pos>									
 
 		<zIndex>30</zIndex>
 
@@ -56,8 +56,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.1020833 0.1805556</size>									
-<pos>0.5795833 0.4363889</pos>									
+		<size>0.1020833 0.1805556</size>									
+		<pos>0.5795833 0.4363889</pos>									
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -80,11 +80,6 @@
 		<pos>0.32 0.3090741</pos>									
 	</text>
 
-	<image name="md_thumbnail">
-	  <pos>0.137 0.691</pos>
-	  <pos ifHelpPrompts="false">0.137 0.73</pos>
-	  <maxSize>0.22 0.467</maxSize>
-	</image>	
 
 
 
