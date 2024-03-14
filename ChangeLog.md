@@ -1,3 +1,16 @@
+## V 1.67 - (14 03 2024)
+- add the ability to put your animated avatar as a gif
+- upgrade GameBoy animation
+- RVGM legacy view : change of controller size
+- Detailed and Carousel view : add the Arduboy handheld
+- Detailed view : size correction for the Atari Lynx
+- System view wheel : add a little animated shadow around the console
+- temporary background addition for the 3dsen system 
+- other small fixes
+
+![2024-03-14 21_46_26-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/e8fa21ce-c9ef-4097-bd01-8b67c277fb3a)
+
+
 ## V 1.66 - (04 03 2024)
 - add New collection: Dragon Ball (with a great animation)
 - new animation to highlight statistics in the detailed view
