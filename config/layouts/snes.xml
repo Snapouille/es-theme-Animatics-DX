@@ -192,17 +192,17 @@
 		<minSize>0.1239583 0.437963</minSize>
 		
 		<storyboard event="open">
-				<animation property="maxSize" to="0.30 0.43" begin="1200"  duration="150" mode="easeOut"/>
-                <animation property="x" to="0.46" begin="1200"  duration="150" mode="easeOut"/>
-				<animation property="y" to="0.225" begin="1200"  duration="150" mode="easeOut"/>
-				<animation property="scale" to="0.93" begin="1200"  duration="150" mode="easeOut"/>
+				<animation property="maxSize" to="0.30 0.43" begin="1200"  duration="200" mode="easeOut"/>
+                <animation property="x" to="0.46" begin="1200"  duration="200" mode="easeOut"/>
+				<animation property="y" to="0.225" begin="1200"  duration="200" mode="easeOut"/>
+				<animation property="scale" to="0.93" begin="1200"  duration="200" mode="EaseInOut"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-				<animation property="maxSize" to="0.30 0.43" begin="1200"  duration="150" mode="easeOut"/>
-                <animation property="x" to="0.46" begin="1200"  duration="150" mode="easeOut"/>
-				<animation property="y" to="0.225" begin="1200"  duration="150" mode="easeOut"/>
-				<animation property="scale" to="0.93" begin="1200"  duration="150" mode="easeOut"/>
+				<animation property="maxSize" to="0.30 0.43" begin="1200"  duration="200" mode="EaseInOut"/>
+                <animation property="x" to="0.46" begin="1200"  duration="200" mode="EaseInOut"/>
+				<animation property="y" to="0.225" begin="1200"  duration="200" mode="EaseInOut"/>
+				<animation property="scale" to="0.93" begin="1200"  duration="200" mode="EaseInOut"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
@@ -264,7 +264,7 @@
 			
 			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
 			
-			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="2000" autoreverse="true" repeat="4" mode="Linear"/>
 			
 			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
 			<animation property="pos" to="0.3116667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
@@ -287,7 +287,7 @@
 			
 			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
 			
-			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="2000" autoreverse="true" repeat="4" mode="Linear"/>
 			
 			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
 			<animation property="pos" to="0.3116667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
