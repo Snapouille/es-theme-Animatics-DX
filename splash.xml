@@ -87,6 +87,10 @@ originally based on: "carbon"
 			 <path ifSubset="user-logo:custom">./your-logo.png</path>
 			 <path ifSubset="user-logo:custom">./../../../../your-logo.png</path> <!-- check si il existe un logo sauvegardé -->
 			 <path ifSubset="user-logo:custom">./../your-logo.png</path>
+			 <path ifSubset="user-logo:custom">./your-logo.gif</path>
+			 <path ifSubset="user-logo:custom">./../../../../your-logo.gif</path> <!-- check si il existe un logo sauvegardé -->
+			 <path ifSubset="user-logo:custom">./../your-logo.gif</path>
+			 
 			 
 			 <visible ifSubset="user-logo:none">false</visible>
 			 
