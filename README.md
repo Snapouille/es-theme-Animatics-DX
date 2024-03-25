@@ -6,7 +6,7 @@ Theme for Emulation Station compatible with
 - Emuelec
 - Retrobat
 
-**V 1.67 - (2024 03 14) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
+**V 1.68 - (2024 03 25) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
 
 Features :
 
@@ -54,7 +54,7 @@ Features :
 ![2024-01-25 10_06_06-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/d1a7eefa-f728-4630-add8-76cd5bd03f87)
 
 ## Gamelist view : Grid
-![2024-01-25 09_53_36-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/867b8cb8-5c47-47f0-a5f4-e08c471fcf63)
+![2024-03-25 11_22_09-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/f883173a-b3ea-44bb-8dfc-32eef04e5715)
 
 ## Gamelist view : Video 
 ![2023-12-03 17_38_40-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/5aaece31-0888-43e6-b667-57f928c3bf21)
@@ -103,3 +103,23 @@ Pour terminer, n'oubliez pas de paramétrer dans les options du thème :
 - Elardramora known as my savior (tips and tricks + tricks and tips, and more)
 
 and never forget f.caruso and Lbrpdx, without whom none of this would be possible :)
+
+### License :
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)  
+https://creativecommons.org/licenses/by-nc-sa/4.0/  
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+
+You are free to:
+    - Share: copy and redistribute the material in any medium or format
+    - Adapt: remix, transform, and build upon the material
+
+Under the following terms:
+
+Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+NonCommercial: You may not use the material for commercial purposes.
+
+ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
