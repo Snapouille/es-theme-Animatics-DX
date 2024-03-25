@@ -128,8 +128,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>									
-<size>0.1875 0.0824074</size>									
-<pos>0.7567708 0.1013889</pos>									
+		<size>0.1875 0.0824074</size>									
+		<pos>0.7567708 0.1013889</pos>									
 		<zIndex>32</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="10" mode="linear"/>
@@ -149,8 +149,8 @@
 	
 	<image name="ecran_console" extra="static">
 			<origin>0.5 0.5</origin>									
-<size>0.2140625 0.6018519</size>									
-<pos>0.7565104 0.3398148</pos>									
+			<size>0.2140625 0.6018519</size>									
+			<pos>0.7565104 0.3398148</pos>									
 			<scale>1</scale>
 									
 			<opacity>1</opacity>
@@ -215,8 +215,8 @@
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.368 0.38</pos> 
-		<maxSize>0.3 0.57</maxSize>
+		<pos>0.368 0.32</pos> 
+		<maxSize>0.24 0.57</maxSize>
 		<scale>0.53</scale>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>

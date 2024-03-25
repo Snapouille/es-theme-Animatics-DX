@@ -27,9 +27,9 @@ originally based on: "carbon"
 	
 	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
 	<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static">
-		<origin>0.5 0.5</origin>									
+		<origin>0 0</origin>									
 		<size>0.4 0.03</size>									
-		<pos>0.24 0.034</pos>									
+		<pos>0.17 0.319</pos>									
 		<text> {game:systemName} </text> 
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
@@ -40,21 +40,17 @@ originally based on: "carbon"
 		<zIndex>131</zIndex>
 		<storyboard event="open">
 			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
 			<animation property="offsetX" to="0.02" begin="12000" duration="250" autoreverse="true" mode="EaseIn"/>
 			<animation property="color" to="FFFF00" begin="18000" duration="1500" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
 			<animation property="offsetX" to="0.02" begin="24000" duration="250" autoreverse="true" mode="EaseIn"/>
 		</storyboard>
 		<storyboard event="activate">
 			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
 			<animation property="offsetX" to="0.02" begin="12000" duration="250" autoreverse="true" mode="EaseIn"/>
 			<animation property="color" to="FFFF00" begin="18000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
 			<animation property="offsetX" to="0.02" begin="24000" duration="250" autoreverse="true" mode="EaseIn"/>
 		</storyboard>
@@ -68,19 +64,19 @@ originally based on: "carbon"
 	
    
    <imagegrid name="gamegrid">
-		 <pos>0.025 0.457</pos>
-		 <size>0.950 0.47</size>
-		 <margin>0.005 0.006</margin>
-		 <padding>0.008 0.05</padding>
-		  
-		  <scrollDirection>horizontal</scrollDirection>
-		  <autoLayout>5 1</autoLayout>
-		  <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
-		  <centerSelection>true</centerSelection>
-		  <scrollLoop>true</scrollLoop>
-		  <imageSource>thumbnail</imageSource>
-		  <gameImage>./../../art/divers/noboxart.png</gameImage>
-		  <zIndex>60</zIndex>
+		<pos>0.025 0.457</pos>
+		<size>0.950 0.47</size>
+		<margin>0.005 0.006</margin>
+		<padding>0.008 0.05</padding> 
+		<scrollDirection>horizontal</scrollDirection>
+		<autoLayout>5 1</autoLayout>
+
+		<autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
+		<centerSelection>true</centerSelection>
+		<scrollLoop>true</scrollLoop>
+		<imageSource>thumbnail</imageSource>
+		<gameImage>./../../art/divers/noboxart.png</gameImage>
+		<zIndex>60</zIndex>
     </imagegrid>
 	
     <gridtile name="default">
@@ -140,7 +136,7 @@ originally based on: "carbon"
          <verticalAlignment>top</verticalAlignment>
          <size>0.8 0.08</size>
          <color>ffffff</color>
-         <pos>0.20 0.05</pos>
+         <pos>0.17 0.035</pos>
          <fontPath>./../../art/fonts/flatwheat.ttf</fontPath>
          <fontSize>0.04</fontSize>
          <origin>0 0</origin>
@@ -155,7 +151,7 @@ originally based on: "carbon"
 
       <text name="md_description">
          <color>928e94D0</color>
-         <pos>0.20 0.14</pos>
+         <pos>0.17 0.11</pos>
          <size>0.57 0.189</size>
          <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
          <fontSize>0.023</fontSize>
@@ -166,7 +162,7 @@ originally based on: "carbon"
       </text>
 	  
 	  <text name="md_genre">
-         <pos>0.20 0.384</pos>
+         <pos>0.17 0.373</pos>
          <size>0.41 0.033</size>
          <fontPath>./../../art/fonts/charge-vector.otf</fontPath>
          <fontSize>0.023</fontSize>
@@ -178,7 +174,7 @@ originally based on: "carbon"
       </text>
 
       <text name="md_developer">
-		 <pos>0.375 0.384</pos>
+		 <pos>0.37 0.373</pos>
          <size>0.38 0.039</size>
          <origin>0 0</origin>
          <verticalAlignment>top</verticalAlignment>
@@ -195,7 +191,7 @@ originally based on: "carbon"
 	
 	
 	<datetime name="md_releasedate">
-		 <pos>0.76 0.375</pos>
+		 <pos>0.76 0.365</pos>
          <origin>0 0</origin>
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
@@ -212,7 +208,7 @@ originally based on: "carbon"
 		
 	
 	<rating name="md_rating">
-	  <pos>0.887 0.38</pos>
+	  <pos>0.887 0.37</pos>
 	  <size>0.03 0.035</size>
 	  <color>FFFF00</color>
 	  <horizontalAlignment>right</horizontalAlignment>
@@ -222,7 +218,7 @@ originally based on: "carbon"
 	  
 	<image name="md_flag">
 		<origin>0.5 0.5</origin>
-		<pos>0.941 0.4</pos>
+		<pos>0.941 0.39</pos>
 		<maxSize>0.022 0.035</maxSize>
 		<linearSmooth>true</linearSmooth>
 		<zIndex>150</zIndex>
@@ -232,7 +228,7 @@ originally based on: "carbon"
 	  
 <!-- Encadrement des stats sur les jeux -->
 	 
-	<image name="cadre_gauche, cadre_droit, cadre_haut, cadre_bas, cadre_droit_droit, cadre_bas_bas">
+	<image name="cadre_gauche, cadre_droit, cadre_haut, cadre_bas, cadre_droit_droit, cadre_bas_bas, extension_hor, extension_ver">
 		<path>./../../art/divers/white.png</path>
 		<color>${baseColor}</color>
 		<origin>0 0</origin>
@@ -240,40 +236,78 @@ originally based on: "carbon"
 	</image>
 	 
 	<image name="cadre_gauche" extra="true">
-	  <pos>0.0368 0.05</pos>
-	  <size>0.003 0.385</size>
+		<size>0.003125 0.3842593</size>									
+		<pos>0.0098958 0.0398148</pos>									
 	</image>
 	
 	<image name="cadre_droit" extra="true">
-	  <pos>0.174 0.05</pos>
+	  <pos>0.1472 0.04</pos>
 	  <size>0.003 0.315</size>
 	</image>
 	
 	<image name="cadre_haut" extra="true">
-	  <pos>0.0368 0.05</pos>
+	  <pos>0.01 0.04</pos>
 	  <size>0.1399 0.006</size>
 	</image>
 	
 	<image name="cadre_bas" extra="true">
-	  <pos>0.0368 0.361</pos>
-	  <size>0.93 0.006</size>
+		<pos>0.01 0.351</pos>
+		<size>0.95625 0.0055556</size>									
 	</image>
 	
 	<image name="cadre_droit_droit" extra="true">
-	  <pos>0.9668 0.361</pos>
-	  <size>0.003 0.075</size>
+		<size>0.0026042 0.0648148</size>									
+		<pos>0.9635417 0.3537037</pos>									
 	</image>
 	
 	<image name="cadre_bas_bas" extra="true">
-	  <pos>0.0368 0.431</pos>
-	  <size>0.93 0.006</size>
+		<size>0.95625 0.0055556</size>									
+		<pos>0.0098958 0.4185185</pos>									
 	</image>
+	
+	<image name="extension_hor" extra="true">
+		<size>0.0223958 0.0055556</size>									
+		<pos>0.9661458 0.3814815</pos>									
+	</image>
+	
+	<image name="extension_ver" extra="true">
+		<size>0.0026042 0.5481481</size>									
+		<pos>0.9859375 0.387037</pos>									
+	</image>
+	
+	
+<!-- ombre des bordures bas et droite -->
+	 
+	<image name="shadow_cadre_droit, shadow_cadre_bas">
+		<path>./../../art/divers/white.png</path>
+		<color>${frameColor}</color>
+		<origin>0 0</origin>
+		<zIndex>56</zIndex>
+	</image>
+	
+	<image name="shadow_cadre_droit" extra="true">
+		<size>0.0015625 0.001</size>									
+		<pos>0.9661458 0.3574074</pos>									
+		<storyboard event="activate">
+			<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear" />
+			<animation property="h" to="0.0666667" begin="100" duration="300" mode="Linear"/>
+		</storyboard>
+	</image>
+
+	<image name="shadow_cadre_bas" extra="true">
+		<size>0.001 0.0027778</size>									
+		<pos>0.0130208 0.4240741</pos>									
+		<storyboard event="activate">
+			<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear" />
+			<animation property="w" to="0.9546875" begin="100" duration="300" mode="Linear"/>
+		</storyboard>
+	</image>		
 	
 	
 <!-- Quadrillage au niveau des metadata (Nombre de parties, Dernier jeu, ...)  -->
 	<image name="info_background" extra="true">
          <origin>0 0</origin>
-         <pos>0.04 0.05</pos>
+         <pos>0.0132 0.04</pos>
          <size>0.135 0.311</size>
          <tile>true</tile>
          <path>./../../art/divers/bg_square.png</path>
@@ -291,15 +325,15 @@ originally based on: "carbon"
 		</text>
 		
 		<text name="md_lbl_playcount">
-			<pos>0.05 0.065</pos>
+			<pos>0.0232 0.055</pos>
 		</text>
 		
 		<text name="md_lbl_lastplayed">
-			<pos>0.05 0.143</pos>
+			<pos>0.0232 0.127</pos>
 		</text>
 		
 		<text name="md_lbl_gametime">
-			<pos>0.05 0.22</pos>
+			<pos>0.0232 0.201</pos>
 		</text>
 		
 		<text name="md_lbl_players">
@@ -317,31 +351,120 @@ originally based on: "carbon"
 	   <size>0.115 0.03</size>
 	</text>
 	
-	<text name="md_playcount">
-		<pos>0.045 0.095</pos>
-	</text>
-	
-	<datetime name="md_lastplayed">
-		<pos>0.045 0.173</pos>
-	</datetime>
-	
-	<text name="md_gametime">
-		<pos>0.045 0.250</pos>	
-	</text>
-    
+		<text name="md_playcount">
+			<pos>0.0182 0.085</pos>
+			<storyboard event="activate" repeat="forever">
+				<animation property="color" to="000000"  begin="5000"   duration="800" autoreverse="true" mode="EaseOutQuint"/>
+				<animation property="y" to="0.085" 		 begin="18000"  duration="10" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>		
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<pos>0.0182 0.157</pos>
+			<storyboard event="activate" repeat="forever">
+				<animation property="color" to="000000"  begin="6900"   duration="800" autoreverse="true" mode="EaseOutQuint"/>
+				<animation property="y" to="0.157" 		 begin="18000"  duration="10" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>		
+		</datetime>
+		
+		<text name="md_gametime">
+			<pos>0.0182 0.231</pos>
+			<storyboard event="activate" repeat="forever">
+				<animation property="color" to="000000"  begin="8800"   duration="800" autoreverse="true" mode="EaseOutQuint"/>
+				<animation property="y" to="0.231" 		 begin="18000"  duration="10" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>		
+		</text>
 	
 	<text name="md_players">
-		<pos>0.113 0.315</pos>
+		<pos>0.076 0.31</pos>
+		<size>0.121 0.103</size>
+		<fontSize>0.045</fontSize>
 		<origin>0.5 0.5</origin>
 		<fontPath>./../../art/fonts/players.ttf</fontPath>
-		<size>0.103 0.103</size>
 		<alignment>right</alignment>
-		<fontSize>0.048</fontSize>
 		<color>dddddd</color>
         <singleLineScroll>true</singleLineScroll>
+		<storyboard event="activate" repeat="forever">
+			<animation property="color" to="FFFF00"  begin="10700"  duration="50" autoreverse="true" repeat="7" mode="linear"/>
+			<animation property="y" to="0.31" 		 begin="18000"  duration="10" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>		
     </text>
 
      
+	 
+	 
+<!-- barre des stats qui bougent -->
+	<image name="stats-bar" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>${frameColor}</color>
+		<zIndex>18</zIndex>
+		<origin>0.5 0.5</origin>
+		<opacity>0</opacity>
+		<!-- <linearSmooth>true</linearSmooth> -->
+		
+		<size>0.003125 0.0009259</size>									
+		<pos>0.0145833 0.0467593</pos>									
+
+		<storyboard event="activate" repeat="forever">
+			<animation property="opacity" to="1" 	begin="1000"  duration="10" mode="linear"/>
+			
+			<animation property="h" to="0.0277778" 	begin="1010"  duration="190" mode="linear"/>
+			<animation property="y" to="0.0601852" 	begin="1010"  duration="190" mode="linear"/>
+			
+			<animation property="y" to="0.337037" 	begin="1200"  duration="1700" mode="linear"/>
+			<animation property="y" to="0.0601852" 	begin="2900"  duration="1500" mode="easeInOut"/>
+			
+			<animation property="y" to="0.1" 		begin="4400"  duration="600" mode="bump"/>
+			<animation property="w" to="0.134375" 	begin="5000"  duration="500" mode="linear"/>
+			<animation property="x" to="0.0802083" 	begin="5000"  duration="500" mode="linear"/>
+			<animation property="w" to="0.003125" 	begin="6100"  duration="500" mode="linear"/>
+			<animation property="x" to="0.0145833" 	begin="6100"  duration="500" mode="linear"/>
+			
+			
+			<animation property="y" to="0.1731481" 	begin="6600"  duration="300" mode="bump"/>
+			<animation property="w" to="0.134375" 	begin="6900"  duration="500" mode="linear"/>
+			<animation property="x" to="0.0802083" 	begin="6900"  duration="500" mode="linear"/>
+			<animation property="w" to="0.003125" 	begin="8000"  duration="500" mode="linear"/>
+			<animation property="x" to="0.0145833" 	begin="8000"  duration="500" mode="linear"/>
+
+
+			<animation property="y" to="0.2462963" 	begin="8500"  duration="300" mode="bump"/>
+			<animation property="w" to="0.134375" 	begin="8800"  duration="500" mode="linear"/>
+			<animation property="x" to="0.0802083" 	begin="8800"  duration="500" mode="linear"/>
+			<animation property="w" to="0.003125" 	begin="9900"  duration="500" mode="linear"/>
+			<animation property="x" to="0.0145833" 	begin="9900"  duration="500" mode="linear"/>
+			
+			<animation property="y" to="0.337037" 	begin="10400" duration="600"  mode="linear"/>
+			<animation property="y" to="0.0601852" 	begin="11000" duration="1500" mode="easeInOut"/>
+			<animation property="h" to="0.13" 		begin="11300" duration="500"  autoreverse="true" mode="easeIn"/>
+			
+			<animation property="h" to="0.0009259" 	begin="12500"  duration="190" mode="linear"/>
+			<animation property="y" to="0.0467593" 	begin="12500"  duration="190" mode="linear"/>
+			
+			<animation property="opacity" to="0" 	begin="12690"  duration="10" mode="linear"/>
+			
+			<animation property="opacity" to="0" 	begin="18000"  duration="10" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>	
+		
+	</image>				 
+	 
+	 
 	 
 	
 	
@@ -349,7 +472,7 @@ originally based on: "carbon"
 	
 	<image name="md_manual,md_nomanual">
 			<origin>0.5 0.5</origin>
-			<pos>0.055 0.397</pos>
+				<pos>0.0282 0.387</pos>
 			
 			<path>./../../art/icons/book.png</path>
 			<maxSize>0.02 0.03</maxSize>
@@ -359,7 +482,7 @@ originally based on: "carbon"
 	
 	<image name="ghost_manual" extra="true">
 			<origin>0.5 0.5</origin>
-			<pos>0.055 0.397</pos>
+				<pos>0.0282 0.387</pos>
 			<path>./../../art/icons/book.png</path>
 			<maxSize>0.02 0.03</maxSize>
 			<color>80808080</color>
@@ -395,7 +518,7 @@ originally based on: "carbon"
 	
 		<image name="md_savestate,md_nosavestate">
 			<origin>0.5 0.5</origin>
-			<pos>0.085 0.397</pos>
+			<pos>0.0582 0.387</pos>
 			<path>./../../art/icons/SaveState.png</path>
 			<maxSize>0.02 0.03</maxSize>
 			<color>dddddd</color>
@@ -404,7 +527,7 @@ originally based on: "carbon"
 
 		<image name="ghost_savestate" extra="true">
 			<origin>0.5 0.5</origin>
-			<pos>0.085 0.397</pos>
+			<pos>0.0582 0.387</pos>
 			<path>./../../art/icons/SaveState.png</path>
 			<maxSize>0.02 0.03</maxSize>
 			<color>80808040</color>
@@ -435,7 +558,7 @@ originally based on: "carbon"
 	
 		<image name="md_kidgame, md_notkidgame"> 
 			<origin>0.5 0.5</origin>
-			<pos>0.113 0.397</pos>
+			<pos>0.0862 0.387</pos>
 			<path>./../../art/icons/kid.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<color>dddddd</color>
@@ -444,7 +567,7 @@ originally based on: "carbon"
 
 		<image name="ghost_kidgame" extra="true"> 
 			<origin>0.5 0.5</origin>
-			<pos>0.113 0.397</pos>
+			<pos>0.0862 0.387</pos>
 			<path>./../../art/icons/kid.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<color>80808040</color>
@@ -478,7 +601,7 @@ originally based on: "carbon"
 	  
 	  <image name="md_map, md_nomap"> 
 			<origin>0.5 0.5</origin>
-			<pos>0.138 0.397</pos>
+			<pos>0.1112 0.387</pos>
 			<path>./../../art/icons/map.png</path>
 			<maxSize>0.02 0.03</maxSize>
 			<color>dddddd</color>
@@ -487,7 +610,7 @@ originally based on: "carbon"
 
 		<image name="ghost_md_map" extra="true"> 
 			<origin>0.5 0.5</origin>
-			<pos>0.138 0.397</pos>
+			<pos>0.1112 0.387</pos>
 			<path>./../../art/icons/map.png</path>
 			<maxSize>0.02 0.03</maxSize>
 			<color>80808040</color>
@@ -521,7 +644,7 @@ originally based on: "carbon"
 	
 	<image name="md_cheevos,md_notcheevos">
 			<origin>0.5 0.5</origin>
-			<pos>0.164 0.397</pos>
+			<pos>0.1372 0.387</pos>
 			<path>./../../art/icons/Contest.png</path>
 			<maxSize>0.02 0.03</maxSize>
 			<color>FFFF00</color>
@@ -531,7 +654,7 @@ originally based on: "carbon"
 	
 	<image name="ghost_cheevos" extra="true">
 			<origin>0.5 0.5</origin>
-			<pos>0.164 0.397</pos>
+			<pos>0.1372 0.387</pos>
 			<path>./../../art/icons/Contest.png</path>
 			<maxSize>0.02 0.03</maxSize>
 			<color>dddddd</color>
@@ -569,8 +692,9 @@ originally based on: "carbon"
 	<video name="md_video">
 			<defaultSnapshot>./../../art/divers/mediamissing.png</defaultSnapshot>
 			<origin>0.5 0.5</origin>
-			<pos>0.87 0.22</pos>
-			<maxSize>0.16 0.24</maxSize>
+			
+			<pos>0.8567708 0.1986111</pos>									
+			<maxSize>0.2145833 0.2712963</maxSize>									
 			
 			<delay>0.3</delay>
 			<effect>none</effect>
@@ -605,8 +729,8 @@ originally based on: "carbon"
 	<image name="md_image">
 			<default>./../../art/divers/mediamissing.png</default>
 			<origin>0.5 0.5</origin>
-			<pos>0.87 0.22</pos>
-			<maxSize>0.16 0.24</maxSize>
+			<pos>0.8567708 0.1986111</pos>									
+			<maxSize>0.2145833 0.2712963</maxSize>									
 			<zIndex>1000</zIndex>
 			<roundCorners>0.015</roundCorners>
 			<scale>0.8</scale>

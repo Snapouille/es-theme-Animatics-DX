@@ -13,7 +13,7 @@ originally based on: "carbon"
 <customView name="fanart" inherits="gamecarousel" displayName="${fanartview}">
 
 
-	<image name="thumbnail-gamecarousel, cadre, logo, ecran_console, console-collection, md_thumbnail, Chevron_haut, Chevron_bas, cadre_haut1, cadre_haut2, black_bg" extra="true">
+	<image name="BarAndRound, thumbnail-gamecarousel, cadre, logo, ecran_console, console-collection, md_thumbnail, Chevron_haut, Chevron_bas, cadre_haut1, cadre_haut2, black_bg" extra="true">
 			<visible>false</visible>
 	</image>
 

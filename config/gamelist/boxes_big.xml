@@ -11,13 +11,16 @@ originally based on: "carbon"
 <customView name="boxes_big" inherits="grid" displayName="${bigboxesview}">
 
 
+	<image name="extension_hor, extension_ver">
+		<visible>false</visible>
+	</image>
 
 	
 	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
 	<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static">
 		<origin>0.5 0.5</origin>									
-		<size>0.2182292 0.0185185</size>									
-		<pos>0.2023438 0.9037037</pos>
+		<size>0.2182292 0.02</size>									
+		<pos>0.2023438 0.919</pos>
 		<pos ifHelpPrompts="false">0.2023438 0.98</pos>	
 		<text> - {game:systemName} - </text> 
         <alignment>right</alignment>
@@ -25,25 +28,21 @@ originally based on: "carbon"
 		<forceUppercase>1</forceUppercase>
 		<color>${baseColor}</color>
 		<fontPath>./../../art/fonts/gobold-blocky-regular.otf</fontPath>
-		<fontSize>0.019</fontSize>
+		<fontSize>0.020</fontSize>
 		<zIndex>131</zIndex>
 		<storyboard event="open">
 			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
 			<animation property="offsetX" to="-0.005" begin="12000" duration="100" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="18000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
 			<animation property="offsetX" to="-0.005" begin="24000" duration="100" autoreverse="true" mode="linear"/>
 		</storyboard>
 		<storyboard event="activate">
 			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="6000" duration="100" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
 			<animation property="offsetX" to="-0.005" begin="12000" duration="100" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="18000" duration="1000" autoreverse="true" mode="linear"/>
-			<animation property="offsetY" to="-0.005" begin="18000" duration="100" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="24000" duration="1000" autoreverse="true" mode="linear"/>
 			<animation property="offsetX" to="-0.005" begin="24000" duration="100" autoreverse="true" mode="linear"/>
 		</storyboard>
@@ -77,14 +76,16 @@ originally based on: "carbon"
 	
 	
     <imagegrid name="gamegrid">
-      <pos>0.333333 0.01</pos>
-      <size>0.6666667 0.914814814</size>
+      <pos>0.333333 0.03</pos>
+      <size>0.6666667 0.895</size>
 	  <margin>0 0</margin>
       <padding>0.004 0 0.004 0</padding>
       <zIndex>10</zIndex>
       <autoLayout>3 2</autoLayout>
 	  <autoLayout if="{system.theme} == '3ds' || {system.theme} == 'gameandwatch' || {system.theme} == 'megaduck' || {system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'virtualboy'">3 3</autoLayout>
-	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'model2' || {system.theme} == 'psp' || {system.theme} == 'pv1000' || {system.theme} == 'switch' || {system.theme} == 'wonderswancolor' || {system.theme} == 'zx81'">5 2</autoLayout>
+	  <autoLayout if="{system.theme} == 'model2' || {system.theme} == 'pv1000' || {system.theme} == 'wonderswancolor' || {system.theme} == 'zx81'">5 2</autoLayout>
+	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'switch' || {system.theme} == 'mastersystem' || {system.theme} == 'psp'  ">4 2</autoLayout>
+	  <autoLayout if="{system.theme} == 'psx' ">2 2</autoLayout>
 	  <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
@@ -111,15 +112,14 @@ originally based on: "carbon"
 	<image name="gridtile.favorite">
 	 <linearSmooth>true</linearSmooth>
       <path>./icons/star_filled.svg</path>
-      <pos>0.93 0.93</pos>
+      <pos>0.91 0.93</pos>
       <origin>0.5 0.5</origin>
       <horizontalAlignment>right</horizontalAlignment>
       <color>FFFF00</color>
 	  <maxSize>0.11 0.11</maxSize>
 		<storyboard repeatAt="forever">
-			<animation property="scale" to="1.5" begin="1000" duration="500" autoreverse="true" mode="bump"/>
-			<animation property="offsetX" to="-0.03" begin="3000" duration="500" autoreverse="true" mode="EaseOutCubic"/>
-			<animation property="rotation" to="2000" begin="10000" duration="500" mode="easeInOut"/>
+			<animation property="scale" to="1.5" begin="3000" duration="500" autoreverse="true" mode="bump"/>
+			<animation property="rotation" to="1080" begin="15000" duration="500" mode="easeInOut"/>
 		</storyboard>
 	  
     </image>
@@ -138,8 +138,8 @@ originally based on: "carbon"
 
 
 	<rating name="md_rating">
-	  <pos>0.27 0.37</pos>
-	  <size>0.03 0.035</size>
+	  <pos>0.285 0.364</pos>
+	  <size>0.03 0.045</size>
 	  <color>FFFF00</color>
 	  <horizontalAlignment>right</horizontalAlignment>
 	  <unfilledColor>606060</unfilledColor>
@@ -149,131 +149,61 @@ originally based on: "carbon"
 	
 	<video name="md_video">
 		<pos>0.237 0.215</pos>
+		<maxSize>0.16 0.24</maxSize>
 	</video>
 	
 	<image name="md_image">
 		<pos>0.237 0.215</pos>
+		<maxSize>0.16 0.24</maxSize>
 	</image>
 	
 	
 <!-- Encadrement des stats -->
 	 
-	<image name="cadre_gauche" extra="true">
-	  <pos>0.01 0.04</pos>
-	</image>
-	
-	<image name="cadre_droit" extra="true">
-	  <pos>0.1472 0.04</pos>
-	</image>
-	
-	<image name="cadre_haut" extra="true">
-	  <pos>0.01 0.04</pos>
-	</image>
-	
 	<image name="cadre_bas" extra="true">
 	  <pos>0.01 0.351</pos>
 	  <size>0.31 0.006</size>
 	</image>
 	
 	<image name="cadre_droit_droit" extra="true">
-	  <pos>0.317 0.351</pos>
+		<size>0.0026042 0.0611111</size>									
+		<pos>0.3171875 0.3574074</pos>									
 	</image>
 	
 	<image name="cadre_bas_bas" extra="true">
-	  <pos>0.01 0.421</pos>
-	  <size>0.31 0.006</size>
+		<size>0.3098958 0.0055556</size>									
+		<pos>0.0098958 0.4185185</pos>									
 	</image>
 	
 	
-<!-- Quadrillage au niveau des metadata (Nombre de parties, Dernier jeu, ...)  -->
-	<image name="info_background" extra="true">
-         <pos>0.0132 0.04</pos>
-      </image>
-	  
-<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->
-		
-		<text name="md_lbl_playcount">
-			<pos>0.0232 0.055</pos>
-		</text>
-		
-		<text name="md_lbl_lastplayed">
-			<pos>0.0232 0.127</pos>
-		</text>
-		
-		<text name="md_lbl_gametime">
-			<pos>0.0232 0.201</pos>
-		</text>
-		
-		
-<!-- METADATA -->
-	
-		<text name="md_playcount">
-			<pos>0.0182 0.085</pos>
-		</text>
-		
-		<datetime name="md_lastplayed">
-			<pos>0.0182 0.157</pos>
-		</datetime>
-		
-		<text name="md_gametime">
-			<pos>0.0182 0.231</pos>	
-		</text>
-		
-		<text name="md_players">
-			<pos>0.0862 0.305</pos>
-		</text>
-
-     
-	
-	
-		<image name="md_manual,md_nomanual">
-				<pos>0.0282 0.387</pos>
-		</image>
-		
-		<image name="ghost_manual" extra="true">
-				<pos>0.0282 0.387</pos>
-		</image>
-		
-	
-	
-		<image name="md_savestate,md_nosavestate">
-			<pos>0.0582 0.387</pos>
-		</image>
-
-		<image name="ghost_savestate" extra="true">
-			<pos>0.0582 0.387</pos>
-		</image>
-  
-	
-		<image name="md_kidgame, md_notkidgame"> 
-			<pos>0.0862 0.387</pos>
-		</image>
-
-		<image name="ghost_kidgame" extra="true"> 
-			<pos>0.0862 0.387</pos>
-		</image>
-
-	  
-	  <image name="md_map, md_nomap"> 
-			<pos>0.1112 0.387</pos>
-		</image>
-
-		<image name="ghost_md_map" extra="true"> 
-			<pos>0.1112 0.387</pos>
-		</image>
-
-	
-	<image name="md_cheevos,md_notcheevos">
-			<pos>0.1372 0.387</pos>
+<!-- ombre des bordures bas et droite -->
+	 
+	<image name="shadow_cadre_droit, shadow_cadre_bas">
+		<path>./../../art/divers/white.png</path>
+		<color>${frameColor}</color>
+		<origin>0 0</origin>
+		<zIndex>57</zIndex>
 	</image>
 	
-	
-	<image name="ghost_cheevos" extra="true">
-			<pos>0.1372 0.387</pos>
+	<image name="shadow_cadre_droit" extra="true">
+		<size>0.0015625 0.001</size>									
+		<pos>0.3197917 0.3574074</pos>									
+		<storyboard event="activate">
+			<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear" />
+			<animation property="h" to="0.0666667" begin="100" duration="300" mode="Linear"/>
+		</storyboard>
 	</image>
 
+	<image name="shadow_cadre_bas" extra="true">
+		<size>0.001 0.0027778</size>									
+		<pos>0.0130208 0.4240741</pos>									
+		<storyboard event="activate">
+			<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear" />
+			<animation property="w" to="0.3083333" begin="100" duration="300" mode="Linear"/>
+		</storyboard>
+	</image>	
 	
-		<text name="md_name">
+	<text name="md_name">
          <size>0.327 0.08</size>
          <pos>0.011 0.44</pos>
          <fontSize>0.025</fontSize>
@@ -294,15 +224,12 @@ originally based on: "carbon"
       </text>
 	
 	
-	
-	
-	<text name="md_developer">
+	  <text name="md_developer">
 		 <pos>0.011 0.845</pos>
          <size>0.38 0.039</size>
 		 <alignment>left</alignment>
          <fontSize>0.024</fontSize>
       </text>
-	
 	
 	<datetime name="md_releasedate">
 		 <pos>0.01 0.875</pos>
@@ -314,10 +241,6 @@ originally based on: "carbon"
 		<pos>0.073 0.9</pos>
 	</image>
 	
-  
-	
-  
-  
   
  </customView>
   

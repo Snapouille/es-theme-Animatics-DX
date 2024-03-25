@@ -454,6 +454,8 @@ originally based on: "carbon"
 			  <!-- <color>777777FF</color> -->
 			  <pos>0.99 0.993</pos>
 			  <fontSize>0.031</fontSize>
+			  <glowColor>00000010</glowColor>
+			  <glowSize>3</glowSize>
 			  <visible ifHelpPrompts="false">false</visible>
 		</text>
 
