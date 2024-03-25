@@ -107,19 +107,4 @@ and never forget f.caruso and Lbrpdx, without whom none of this would be possibl
 ### License :
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
-
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
-
-You are free to:
-    - Share: copy and redistribute the material in any medium or format
-    - Adapt: remix, transform, and build upon the material
-
-Under the following terms:
-
-Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-
-NonCommercial: You may not use the material for commercial purposes.
-
-ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+![2024-03-25 11_28_46-CC BY-NC-SA 4 0 Deed _ Attribution-NonCommercial-ShareAlike 4 0 International _ ](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/5c31f5f7-9877-46ff-a206-7de7875e11ee)
