@@ -104,6 +104,8 @@ Pour terminer, n'oubliez pas de paramétrer dans les options du thème :
 
 and never forget f.caruso and Lbrpdx, without whom none of this would be possible :)
 
+---  
+
 ### License :
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
