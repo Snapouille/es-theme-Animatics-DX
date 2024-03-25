@@ -1,3 +1,14 @@
+## V 1.68 - (25 03 2024)
+- Boxes views : new shape and animation
+- Grid view   : new shape and animation
+- Detailed and Gamecarousel views : Add gamecom handheld
+- Detailed and Gamecarousel views : Add gamemaster handheld
+- Detailed and Gamecarousel views : Add gamate handheld
+- correction fbneo box size
+
+![2024-03-25 10_14_11-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/6408c0e1-f594-407d-906d-f9d6715ecadf)
+
+
 ## V 1.67 - (14 03 2024)
 - add the ability to put your animated avatar as a gif
 - upgrade GameBoy animation
