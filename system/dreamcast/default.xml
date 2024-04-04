@@ -6,37 +6,115 @@
 
 	<view name="system">
 		
-		<image name="avatar-ryo" extra="static">
-			<origin>0 0</origin>
-			<pos>0.18 0.2</pos>
-			<size>0.2541667 0.7407407</size>									
+		
+		
+		<image name="BG_snapLegacy" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.6557292 0.6555556</size>									
+			<pos>0.286 0.3851852</pos>	
+			  <storyboard>
+					<animation property="x" to="0.3539063" begin="" duration="3000" mode="EaseOut"/>
+			  </storyboard>
+		</image>	
+		
+		<image name="BG_snack1" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.059375 0.0935185</size>									
+			<pos>0.3708333 0.3625</pos>									
+			<path>./bg-snack1.png</path>
+			<opacity>0</opacity>
+				<storyboard repeat="forever">
+					<animation property="opacity" begin="7500" to="0.6" duration="7" autoreverse="true" repeat="2" mode="linear"/>
+					<animation property="opacity" begin="8000" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
+					<animation property="opacity" begin="13000" to="0.5" duration="3" autoreverse="true" repeat="10" mode="linear"/>	
+					<animation property="opacity" begin="13080" to="1" duration="300" mode="linear"/>	
 
-			<scale>0.55</scale>
-			<opacity>1</opacity>
-			<path>./avatar-ryo.png</path>
-			<zIndex>25</zIndex>
-			
+					<animation property="opacity" begin="19100" to="0" duration="30" mode="linear"/>
+					<animation property="opacity" begin="19131" to="0.7" duration="7" autoreverse="true" repeat="4" mode="linear"/>
 					
-
-		<storyboard>
-				
-				<animation property="x" to="0.20" begin="400" duration="2200" mode="EaseOut"/>
-				
-				<animation property="scale" to="1.1" begin="2700" duration="350" mode="Linear"/>
-				<animation property="x" from="0.20" to="0.413" begin="2700" duration="375" mode="EaseOut"/>
-				<animation property="y" from="0.263" to="0.01" begin="2700" duration="375" mode="EaseOut"/>
-
-        		
-		</storyboard>
+					<animation property="opacity" begin="23000" to="0" duration="30" mode="linear"/>
+				</storyboard>
+		</image>	
 		
+		<image name="BG_snack2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0473958 0.0472222</size>									
+			<pos>0.3716146 0.2912037</pos>									
+			<path>./bg-snack2.png</path>
+			<opacity>0</opacity>
+				<storyboard repeat="forever">
+					<animation property="opacity" begin="4200" to="0.5" duration="3" autoreverse="true" repeat="4" mode="linear"/>
+					<animation property="opacity" begin="4900" to="0.8" duration="2" autoreverse="true" repeat="5" mode="linear"/>
+					<animation property="opacity" begin="5600" to="0.4" duration="5" autoreverse="true" repeat="3" mode="linear"/>
+					<animation property="opacity" begin="7600" to="0.6" duration="7" autoreverse="true" repeat="2" mode="linear"/>
+					<animation property="opacity" begin="8100" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
+					<animation property="opacity" begin="13100" to="0.5" duration="3" autoreverse="true" repeat="10" mode="linear"/>	
+					<animation property="opacity" begin="13280" to="1" duration="300" mode="linear"/>	
+					<animation property="opacity" begin="13600" to="0" duration="20" autoreverse="true" repeat="6" mode="linear"/>	
+					<animation property="opacity" begin="13900" to="1" duration="150" mode="linear"/>	
+
+					<animation property="opacity" begin="18500" to="0" duration="20" autoreverse="true" repeat="10" mode="linear"/>	
+					<animation property="opacity" begin="19100" to="0" duration="30" mode="linear"/>	
+					
+					
+					<animation property="opacity" begin="19031" to="0.6" duration="7" autoreverse="true" repeat="7" mode="linear"/>
+					
+					<animation property="opacity" begin="23000" to="0" duration="30" mode="linear"/>
+				</storyboard>
+		</image>	
+		
+		
+		<image name="avatar-ryo" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.090625 0.4231481</size>									
+			<pos>0.45 0.4356481</pos>									
+			<path>./avatar-ryo.png</path>
+			<zIndex>3000</zIndex>
 			
-		
+			<storyboard>
+				<animation property="size" to="0.1416667 0.6583333" begin="100" duration="400" mode="EaseOut"/>
+				<animation property="pos" to="0.5796875 0.4865741" begin="100" duration="400" mode="Linear"/>
+				
+			</storyboard>
 				
 		</image>
 		
 		
 		
+		<image name="snow01" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.36875 0.6555556</size>									
+			<pos>0.2046875 0.3842593</pos>									
+			<path>./snow01.gif</path>
+			<zIndex>8</zIndex>
+			<rotation>50</rotation>
+			<opacity>0</opacity>
+				<storyboard repeat="forever">
+					<animation property="offsetY" begin="5900" from="-0.5" to="0" duration="3000" mode="linear"/>
+					<animation property="opacity" begin="6000" to="1" duration="1000" mode="linear"/>
+					<animation property="offsetY" begin="31000" to="0.3" duration="6000" mode="linear"/>
+					<animation property="opacity" begin="31000" to="0" duration="3000" mode="linear"/>
+					<animation property="opacity" begin="40000" to="0" duration="3000" mode="linear"/>
+				</storyboard>
+		</image>
+	
 		
+		<image name="snow02" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.3203125 0.7</size>									
+			<pos>0.4 0.33</pos>									
+			<path>./snow01.gif</path>
+			<zIndex>8</zIndex>
+			<rotation>10</rotation>
+			<opacity>0</opacity>
+				<storyboard repeat="forever">
+					<animation property="offsetY" begin="5900" from="-0.5" to="0" duration="3000" mode="linear"/>
+					<animation property="opacity" begin="6000" to="1" duration="1000" mode="linear"/>
+					<animation property="offsetY" begin="31000" to="0.3" duration="6000" mode="linear"/>
+					<animation property="opacity" begin="31000" to="0" duration="3000" mode="linear"/>
+					<animation property="opacity" begin="40000" to="0" duration="3000" mode="linear"/>
+				</storyboard>
+		</image>
 		
 		
 		

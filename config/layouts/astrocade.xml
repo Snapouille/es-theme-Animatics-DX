@@ -5,9 +5,9 @@
   
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
-		<path>./../../art/screen/trinitron.png</path>
-		<size>0.3223958 0.4472222</size>									
-		<pos>0.4468229 0.6384259</pos>									
+		<path>./../../art/screen/vintage.png</path>
+		<size>0.3807292 0.4527778</size>									
+		<pos>0.4576563 0.6291667</pos>									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<opacity>0</opacity>
@@ -33,8 +33,8 @@
 		<path ifSubset="artworkregion:JP">./../../art/consoles/JP/${system.theme}.png</path>
 		<linearSmooth>true</linearSmooth>
 		<origin>0.5 0.5</origin>									
-		<maxSize>0.2808333 0.2359259</maxSize>									
-		<pos>0.64 0.8055556</pos>	
+		<maxSize>0.2508333 0.2059259</maxSize>									
+		<pos>0.6660417 0.8205556</pos>	
 		<opacity>0</opacity>		
 		<zIndex>16</zIndex>
 		  <storyboard event="open">
@@ -56,8 +56,8 @@
 	
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-		<pos>0.4473438 0.6342593</pos>									
-		<maxSize>0.2682292 0.3537037</maxSize>									
+		<pos>0.4232813 0.6101852</pos>									
+		<maxSize>0.2401042 0.312963</maxSize>									
 
 		<zIndex>11</zIndex>
 
@@ -79,8 +79,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-		<size>0.2682292 0.3537037</size>									
-		<pos>0.4473438 0.6342593</pos>									
+		<size>0.2401042 0.312963</size>									
+		<pos>0.4232813 0.6101852</pos>									
 		<zIndex>10</zIndex>
 			<storyboard event="open">
 				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
@@ -93,7 +93,8 @@
 			</storyboard>
 				
 	</image>
-</view>  
+</view>
+  
   
   
 <customView name="fanart">
@@ -105,13 +106,10 @@
 </customView>
   
   
-  
-  
-<view name="detailed">
-  			 
-	
+  <view name="detailed">
+					
 	<image name="ecran_console" extra="static">
-			<pos>0.495 0.175</pos>
+			<pos>0.495 0.19</pos>
 			<size>0.4427083 0.525</size>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -119,11 +117,13 @@
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.54" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.545" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.179" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.54" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.545" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.179" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -134,14 +134,17 @@
   
   
 		<video name="md_video">
-		  <pos>0.6915 0.375</pos>
-		  <size>0.239 0.32</size>
+		  <pos>0.66 0.3788</pos>
+		  <size>0.22 0.277</size>
+		  
 				<storyboard event="open">
-					<animation property="x" to="0.7366" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.3678" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7366" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.3678" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -152,14 +155,17 @@
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		 <pos>0.6915 0.375</pos>
-		  <size>0.239 0.32</size>
+		  <pos>0.66 0.3788</pos>
+		  <size>0.22 0.277</size>
+		  
 				<storyboard event="open">
-					<animation property="x" to="0.7366" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.3678" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7366" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.3678" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -171,7 +177,7 @@
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.367 0.35</pos> 
+		<pos>0.368 0.38</pos> 
 		<maxSize>0.23 0.54</maxSize>
 		<scale>0.55</scale>
 		<zIndex>100</zIndex>
@@ -179,26 +185,27 @@
 		
 		
 		<storyboard event="open">
-                <animation property="x" to="0.417" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.418" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.32" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.417" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.418" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.32" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
-			    <animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-		
+			   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>	
 		
 	</image>
 	
-</view>
-  
- 
+	
+	
+	
+		
+   </view>
   
 </theme>

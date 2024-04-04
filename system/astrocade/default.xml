@@ -1,0 +1,22 @@
+<!-- Astrocade -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+
+		<image name="avatar" extra="true">
+			<scale>0.85</scale>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				
+				<animation property="offsetX" to="0.1" begin="" duration="1000" mode="EaseInOut"/>
+				
+			</storyboard>					
+
+		</image>
+		
+		
+	</view>
+</theme>
