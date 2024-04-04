@@ -1,3 +1,11 @@
+## V 1.69 - (04 04 2024)
+- New Dreamcast animation
+- Add New Collection : Retro Achivements Multiplayer
+- Detailed view : Add creativision console
+- Detailed and Gamecarousel views : Add Game Pocket Computer handheld
+- Detailed and Gamecarousel views : Add Bally Astrocade console
+- Small other fixes
+
 ## V 1.68 - (25 03 2024)
 - Boxes views : new shape and animation
 - Grid view   : new shape and animation
