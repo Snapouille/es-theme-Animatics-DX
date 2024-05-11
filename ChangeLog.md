@@ -1,3 +1,9 @@
+## V 1.70 - (11 05 2024)
+- Hide the extraTextColor in RA multiplayer collection
+- Add system : Nokia Ngage
+- Detailed view : System SNES and N64 change the box zoom
+- Detailed view : change the layout for auto-verticalarcade
+
 ## V 1.69 - (04 04 2024)
 - New Dreamcast animation
 - Add New Collection : Retro Achivements Multiplayer
