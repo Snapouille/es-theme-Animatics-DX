@@ -128,11 +128,11 @@
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="offsetX" to="0.03" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.02" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="offsetX" to="0.03" begin="1200"  duration="200" mode="linear"/>
+						<animation property="offsetX" to="0.02" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -147,11 +147,11 @@
 	  <size>0.225 0.31</size>
 	  
 			<storyboard event="open">
-				<animation property="offsetX" to="0.03" begin="1200"  duration="200" mode="linear"/>
+				<animation property="offsetX" to="0.02" begin="1200"  duration="200" mode="linear"/>
 			</storyboard>
 				
 			<storyboard event="activate">
-					<animation property="offsetX" to="0.03" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.02" begin="1200"  duration="200" mode="linear"/>
 			</storyboard>
 				
 			<storyboard event="deactivate">
@@ -160,22 +160,6 @@
 	  
 	</video>
   
-		<!-- fond noir de l'écran -->
-		<image name="black_bg">
-		  <pos>0.72 0.387</pos>
-		  <size>0.215 0.3</size>
-				<storyboard event="open">
-					<animation property="x" to="0.765" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="x" to="0.765" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
-		</image>
 	
 	<!-- fond noir de l'écran -->
 		<image name="black_bg">
@@ -183,11 +167,11 @@
 			<size>0.225 0.31</size>
 	  
 			<storyboard event="open">
-				<animation property="offsetX" to="0.03" begin="1200"  duration="200" mode="linear"/>
+				<animation property="offsetX" to="0.02" begin="1200"  duration="200" mode="linear"/>
 			</storyboard>
 				
 			<storyboard event="activate">
-					<animation property="offsetX" to="0.03" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.02" begin="1200"  duration="200" mode="linear"/>
 			</storyboard>
 				
 			<storyboard event="deactivate">
@@ -201,21 +185,21 @@
 		<origin>0.50 0.50</origin>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
-		<pos>0.3808 0.33</pos>									
-		<minSize>0.1239583 0.437963</minSize>
+		<pos>0.3808 0.28</pos>									
+		<maxSize>0.29 0.43</maxSize>
+		<scale>0.44</scale>
+
 		
 		<storyboard event="open">
-				<animation property="maxSize" to="0.29 0.43" begin="1200"  duration="200" mode="linear"/>
-                <animation property="x" to="0.461" begin="1200"  duration="200" mode="linear"/>
+                <animation property="x" to="0.457" begin="1200"  duration="200" mode="linear"/>
 				<animation property="y" to="0.225" begin="1200"  duration="200" mode="linear"/>
-				<animation property="scale" to="0.95" begin="1200"  duration="200" mode="linear"/>
+				<animation property="scale" to="0.9" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-				<animation property="maxSize" to="0.29 0.43" begin="1200"  duration="200" mode="linear"/>
-                <animation property="x" to="0.461" begin="1200"  duration="200" mode="linear"/>
+                <animation property="x" to="0.457" begin="1200"  duration="200" mode="linear"/>
 				<animation property="y" to="0.225" begin="1200"  duration="200" mode="linear"/>
-				<animation property="scale" to="0.95" begin="1200"  duration="200" mode="linear"/>
+				<animation property="scale" to="0.9" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
@@ -239,12 +223,12 @@
       <size>1 0.005</size>
 	  
 		<storyboard event="open">
-			<animation property="pos" to="0.95 0.155" begin="1000" duration="500" mode="Linear"/>
+			<animation property="pos" to="0.63 0.155" begin="1000" duration="500" mode="Linear"/>
 			<animation property="pos" to="0.617 0.155" begin="1500" duration="500" mode="EaseOut"/>
 		</storyboard>
 		
 		<storyboard event="activate">
-			<animation property="pos" to="0.95 0.155" begin="1000" duration="500" mode="Linear"/>
+			<animation property="pos" to="0.63 0.155" begin="1000" duration="500" mode="Linear"/>
 			<animation property="pos" to="0.617 0.155" begin="1500" duration="500" mode="EaseOut"/>
 		</storyboard>
 		
@@ -264,7 +248,7 @@
 	  
 		<storyboard event="open">
 			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
-			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="500" mode="Linear"/>
+			<animation property="pos" to="0.7386979 0.1569444" begin="1000" duration="500" mode="Linear"/>
 			<animation property="pos" to="0.6167396 0.1569444" begin="1500" duration="500" mode="EaseOut"/>
 			
 			<animation property="pos" to="0.6167396 0.1523148" begin="2000" duration="25" mode="Linear"/>
@@ -277,7 +261,7 @@
 			
 			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
 			
-			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="2000" autoreverse="true" repeat="4" mode="Linear"/>
 			
 			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
 			<animation property="pos" to="0.3116667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
@@ -287,7 +271,7 @@
 		
 		<storyboard event="activate">
 			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
-			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="500" mode="Linear"/>
+			<animation property="pos" to="0.7386979 0.1569444" begin="1000" duration="500" mode="Linear"/>
 			<animation property="pos" to="0.6197396 0.1569444" begin="1500" duration="500" mode="EaseOut"/>
 			
 			<animation property="pos" to="0.6197396 0.1523148" begin="2000" duration="25" mode="Linear"/>
@@ -300,7 +284,7 @@
 			
 			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
 			
-			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
+			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="2000" autoreverse="true" repeat="4" mode="Linear"/>
 			
 			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
 			<animation property="pos" to="0.3116667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
@@ -332,6 +316,41 @@
 		   <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
 	  
+    </image>
+	
+	
+	
+	
+	
+	<!-- Special agencement pour box SNES et N64 -->
+	<!-- Animation LOGO des systèmes  -->	
+	<image name="logo">
+			<storyboard>
+				<animation property="scale" from="0" to="0.9" begin="" duration="300" mode="Linear"/>
+				<animation property="offsetX" from="0.5" to="0" begin="" duration="500" mode="EaseOut"/>
+				<animation property="x" to="0.9" begin="" duration="10" mode="Linear"/>
+				<animation property="y" to="0.093" begin="" duration="10" mode="Linear"/>
+			</storyboard>
+			
+	</image>	
+	
+	
+	<!-- encadrement du controller ou de la console-collection en haut à droite	 -->
+	
+	<image name="console-collection-top" extra="true">
+		<pos>0.7108854 0.0060185</pos>
+    </image>
+	<image name="console-collection-left" extra="true">
+		<pos>0.6314583 0.0791667</pos>	
+    </image>
+	<image name="console-collection-right" extra="true">
+		<pos>0.7923958 0.0791667</pos>		
+    </image>
+
+	
+	<!-- Affichage du controller2 -->
+	<image name="console-collection" extra="true">
+		<pos>0.7119271 0.0819444</pos>
     </image>
 	
 	

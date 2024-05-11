@@ -1,0 +1,25 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The N-Gage is a portable video games console as well as a mobile phone. It incorporates an MP3 player, a radio and can be used as a web browser. This machine was not as successful as expected. It was one of the first multifunction mobiles, but didn't have enough games to interest consumers enough.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La N-Gage est une console de jeux vidéo portable en plus d'un téléphone portable. Elle intègre un lecteur MP3, une radio et elle peut être utilisée comme navigateur web voir GPS avec certaines applications. Cette machine n'a pas eu le succès escompté. Elle fut l'un des premiers mobiles multifonctions, mais n'a pas eu assez de jeux pour intéresser suffisamment les consommateurs.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La N-Gage es una videoconsola portátil además de un teléfono móvil. Incorpora un reproductor MP3, una radio y puede utilizarse como navegador web. Este aparato no tuvo el éxito esperado. Fue uno de los primeros móviles multifunción, pero no tenía suficientes juegos para interesar lo suficiente a los consumidores. </text>
+</text>
+
+</view>
+</theme>

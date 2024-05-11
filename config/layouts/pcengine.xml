@@ -180,7 +180,7 @@
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.368 0.38</pos> 
+		<pos>0.368 0.33</pos> 
 		<maxSize>0.23 0.54</maxSize>
 		<scale>0.55</scale>
 		<zIndex>100</zIndex>
@@ -189,13 +189,13 @@
 		
 		<storyboard event="open">
                 <animation property="x" to="0.415" begin="1200" duration="200" mode="linear"/>
-				<animation property="y" to="0.31" begin="1200" duration="200" mode="linear"/>
+				<animation property="y" to="0.28" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="0.98" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
                 <animation property="x" to="0.415" begin="1200" duration="200" mode="linear"/>
-				<animation property="y" to="0.31" begin="1200" duration="200" mode="linear"/>
+				<animation property="y" to="0.28" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="0.98" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			

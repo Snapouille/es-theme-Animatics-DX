@@ -486,7 +486,7 @@ originally based on: "carbon"
 	<!-- Position et animation du logo du jeu  -->
 	<image name="md_marquee">
 		<pos>0.145 0.08</pos>
-		<maxSize>0.25 0.085</maxSize>
+		<maxSize>0.25 0.11</maxSize>
 		<scale>0</scale>
 		<default>./../../art/divers/nologo.png</default>
 		
@@ -533,6 +533,7 @@ originally based on: "carbon"
 		  <selectorColor>${centerFadeColor}</selectorColor>
 		  <selectedColor>fdde0b</selectedColor>
 		  <extraTextColor>c0a767</extraTextColor>
+		  <extraTextColor if="{system.theme} == 'RA multiplayer'" >FFFFFF00</extraTextColor>
 		  <forceUppercase>0</forceUppercase>
 		  <pos>0.01 0.17</pos>
 		  <size>0.291 0.755</size>

@@ -107,11 +107,11 @@
 		<zIndex>31</zIndex>
 		
 			<storyboard event="open">
-				<animation property="pos" to="0.7502604 0.6462963" begin="1200" duration="200" mode="linear"/>
+				<animation property="pos" to="0.7402604 0.6462963" begin="1200" duration="200" mode="linear"/>
 			</storyboard>
 				
 			<storyboard event="activate">
-				<animation property="pos" to="0.7502604 0.6462963" begin="1200" duration="200" mode="linear"/>
+				<animation property="pos" to="0.7402604 0.6462963" begin="1200" duration="200" mode="linear"/>
 			</storyboard>
 				
 			<storyboard event="deactivate">
@@ -126,11 +126,11 @@
 		<pos>0.7192708 0.3422222</pos>						
 	  
 			<storyboard event="open">
-				<animation property="pos" to="0.7734375 0.5601852" begin="1200" duration="200" mode="linear"/>
+				<animation property="pos" to="0.7634375 0.5601852" begin="1200" duration="200" mode="linear"/>
 			</storyboard>
 				
 			<storyboard event="activate">
-				<animation property="pos" to="0.7734375 0.5601852" begin="1200" duration="200" mode="linear"/>
+				<animation property="pos" to="0.7634375 0.5601852" begin="1200" duration="200" mode="linear"/>
 			</storyboard>
 				
 			<storyboard event="deactivate">
@@ -145,11 +145,11 @@
 			<pos>0.7192708 0.3422222</pos>									
 	  
 			<storyboard event="open">
-				<animation property="pos" to="0.7734375 0.5601852" begin="1200" duration="200" mode="linear"/>
+				<animation property="pos" to="0.7634375 0.5601852" begin="1200" duration="200" mode="linear"/>
 			</storyboard>
 				
 			<storyboard event="activate">
-				<animation property="pos" to="0.7734375 0.5601852" begin="1200" duration="200" mode="linear"/>
+				<animation property="pos" to="0.7634375 0.5601852" begin="1200" duration="200" mode="linear"/>
 			</storyboard>
 				
 			<storyboard event="deactivate">
