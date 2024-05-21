@@ -188,7 +188,6 @@
 		<pos>0.3808 0.28</pos>									
 		<maxSize>0.29 0.43</maxSize>
 		<scale>0.44</scale>
-
 		
 		<storyboard event="open">
                 <animation property="x" to="0.457" begin="1300"  duration="300" mode="EaseInOut"/>
@@ -205,7 +204,6 @@
 		<storyboard event="deactivate">
 			    <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
 	</image>
 	
 	
