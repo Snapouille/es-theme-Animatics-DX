@@ -1,3 +1,6 @@
+## V 1.71 - (21 05 2024)
+- Detailed view : change some layouts 
+
 ## V 1.70 - (11 05 2024)
 - Hide the extraTextColor in RA multiplayer collection
 - Add system : Nokia Ngage
