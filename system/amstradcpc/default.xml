@@ -5,10 +5,10 @@
 
 	<view name="system">
 	
-		<sound name="snap-sound">
-			<path>./../../_music/${system.theme}.mp3</path>
-			<path>./../../_music/${system.theme}.ogg</path>
-		</sound>		
+		<!-- <sound name="snap-sound"> -->
+			<!-- <path>./../../_music/${system.theme}.mp3</path> -->
+			<!-- <path>./../../_music/${system.theme}.ogg</path> -->
+		<!-- </sound>		 -->
 
 	
 		<image name="avatar-trash" extra="static">
@@ -32,8 +32,8 @@
 			<scale>1.8</scale>
 			<linearSmooth>true</linearSmooth>
 			<storyboard>
-				<animation property="scale" to="1" begin="" duration="1600" mode="EaseInOut"/>
-				<animation property="y" to="0.4462963" begin="" duration="1600" mode="EaseInOut"/>
+				<animation property="scale" to="1" begin="" duration="1200" mode="EaseInOut"/>
+				<animation property="y" to="0.4462963" begin="" duration="1200" mode="EaseInOut"/>
 			</storyboard>
 		</image>
 		
@@ -206,6 +206,7 @@
 			<path>./avatar-billybis.png</path>
 			<zIndex>20</zIndex>
 			<storyboard repeat="forever">
+				<animation property="x" to="0.38" begin="6500" duration="500" mode="linear"/>
 				<animation property="x" to="0.21" begin="7000" duration="2500" mode="linear"/>
 				
 				<animation property="opacity" to="1" begin="7300" duration="10" mode="linear"/>
@@ -232,6 +233,7 @@
 			<flipX>true</flipX>
 			<zIndex>20</zIndex>
 			<storyboard repeat="forever">
+				<animation property="x" to="0.38" begin="6500" duration="500" mode="linear"/>
 				<animation property="x" to="0.21" begin="7000" duration="2500" mode="linear"/>
 				<animation property="opacity" from="0" to="1" begin="9400" duration="100" mode="linear"/>
 				
@@ -259,6 +261,7 @@
 			<flipX>true</flipX>
 			<zIndex>20</zIndex>
 			<storyboard repeat="forever">
+				<animation property="x" to="0.38" begin="6500" duration="500" mode="linear"/>
 				<animation property="x" to="0.21" begin="7000" duration="2500" mode="linear"/>
 				
 				<animation property="opacity" to="1" begin="9800" duration="10" mode="linear"/>

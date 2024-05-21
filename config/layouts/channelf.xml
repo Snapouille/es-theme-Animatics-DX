@@ -123,12 +123,12 @@
 			
 				<storyboard event="open">
 					<animation property="x" to="0.545" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.179" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.184" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
 						<animation property="x" to="0.545" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.179" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.184" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -144,12 +144,12 @@
 		  
 				<storyboard event="open">
 					<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.3678" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.3728" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
 						<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.3678" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.3728" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -165,12 +165,12 @@
 		  
 				<storyboard event="open">
 					<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.3678" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.3728" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
 						<animation property="x" to="0.71" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.3678" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.3728" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">

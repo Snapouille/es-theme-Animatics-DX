@@ -116,13 +116,13 @@
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.575" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.17" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.577" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.179" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.575" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.17" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.577" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.179" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -137,13 +137,13 @@
 		  
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.775" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.397" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.777" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.406" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.775" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.397" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.777" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.406" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -156,13 +156,13 @@
 			<size>0.237 0.313</size>
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.775" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.397" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.777" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.406" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.775" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.397" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.777" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.406" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -200,7 +200,7 @@
 	</image>
 	
 	<text name="md_description">
-		<pos>0.70 0.775</pos>
+		<pos>0.70 0.787</pos>
 	</text>
 	
 	

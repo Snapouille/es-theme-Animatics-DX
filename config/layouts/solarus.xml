@@ -3,26 +3,33 @@
 <view name="detailed">
 
 	<image name="md_thumbnail">
+	
+		<origin>0.5 0.5</origin>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
-		<scale>1</scale>
-		<origin>0.5 0.5</origin>									
-		<pos>0.3807292 0.3365741</pos>									
-		<maxSize>0.125 0.3398148</maxSize>									
+		<pos>0.3808 0.28</pos>									
+		<maxSize>0.29 0.51</maxSize>
+		<scale>0.44</scale>
+	
+	
+		<!-- <pos>0.3807292 0.3365741</pos>									 -->
+		<!-- <maxSize>0.125 0.3398148</maxSize>									 -->
 
 		
 		<storyboard event="open">
-			<animation property="pos" to="0.44 0.27" begin="1200"  duration="200" mode="linear"/>
-			<animation property="maxSize" to="0.23 0.5" begin="1200"  duration="200" mode="linear"/>
+                <animation property="x" to="0.44" begin="1200"  duration="300" mode="linear"/>
+				<animation property="y" to="0.235" begin="1200"  duration="300" mode="linear"/>
+				<animation property="scale" to="0.8" begin="1200"  duration="300" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-			<animation property="pos" to="0.44 0.27" begin="1200"  duration="200" mode="linear"/>
-			<animation property="maxSize" to="0.23 0.5" begin="1200"  duration="200" mode="linear"/>
+                <animation property="x" to="0.44" begin="1200"  duration="300" mode="linear"/>
+				<animation property="y" to="0.235" begin="1200"  duration="300" mode="linear"/>
+				<animation property="scale" to="0.8" begin="1200"  duration="300" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			    <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
 		
 	</image>

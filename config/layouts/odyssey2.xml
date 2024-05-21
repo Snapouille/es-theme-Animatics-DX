@@ -121,12 +121,12 @@
 			
 				<storyboard event="open">
 					<animation property="x" to="0.539" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.18" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.185" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
 						<animation property="x" to="0.539" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.18" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.185" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -140,12 +140,12 @@
 		  <size>0.22 0.30</size>
 				<storyboard event="open">
 					<animation property="x" to="0.708" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.38" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.385" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
 						<animation property="x" to="0.708" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.38" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.385" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -160,12 +160,12 @@
 		  <size>0.22 0.30</size>
 				<storyboard event="open">
 					<animation property="x" to="0.708" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.38" begin="1200" duration="200" mode="linear"/>
+					<animation property="y" to="0.385" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
 						<animation property="x" to="0.708" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.38" begin="1200" duration="200" mode="linear"/>
+						<animation property="y" to="0.385" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">

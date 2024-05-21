@@ -63,14 +63,14 @@
 				<animation property="maxSize" to="0.30 0.43" begin="1200"  duration="200" mode="linear"/>
                 <animation property="x" to="0.455" begin="1200"  duration="200" mode="linear"/>
 				<animation property="y" to="0.22" begin="1200"  duration="200" mode="linear"/>
-				<animation property="scale" to="0.9" begin="1200"  duration="200" mode="linear"/>
+				<animation property="scale" to="0.85" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
 				<animation property="maxSize" to="0.30 0.43" begin="1200"  duration="200" mode="linear"/>
                 <animation property="x" to="0.455" begin="1200"  duration="200" mode="linear"/>
 				<animation property="y" to="0.22" begin="1200"  duration="200" mode="linear"/>
-				<animation property="scale" to="0.9" begin="1200"  duration="200" mode="linear"/>
+				<animation property="scale" to="0.85" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">

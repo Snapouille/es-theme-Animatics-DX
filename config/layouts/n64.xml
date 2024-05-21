@@ -191,15 +191,15 @@
 
 		
 		<storyboard event="open">
-                <animation property="x" to="0.457" begin="1200"  duration="200" mode="linear"/>
-				<animation property="y" to="0.225" begin="1200"  duration="200" mode="linear"/>
-				<animation property="scale" to="0.9" begin="1200"  duration="200" mode="linear"/>
+                <animation property="x" to="0.457" begin="1300"  duration="300" mode="EaseInOut"/>
+				<animation property="y" to="0.235" begin="1300"  duration="300" mode="EaseInOut"/>
+				<animation property="scale" to="0.9" begin="1300"  duration="300" mode="EaseInOut"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.457" begin="1200"  duration="200" mode="linear"/>
-				<animation property="y" to="0.225" begin="1200"  duration="200" mode="linear"/>
-				<animation property="scale" to="0.9" begin="1200"  duration="200" mode="linear"/>
+                <animation property="x" to="0.457" begin="1300"  duration="300" mode="EaseInOut"/>
+				<animation property="y" to="0.235" begin="1300"  duration="300" mode="EaseInOut"/>
+				<animation property="scale" to="0.9" begin="1300"  duration="300" mode="EaseInOut"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">

@@ -109,12 +109,12 @@
 
 		<storyboard event="open">
 			<animation property="size" to="0.4119792 0.4212963" begin="1200" duration="200" mode="linear"/>
-			<animation property="pos" to="0.7294271 0.6787222" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.7294271 0.6687222" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="activate">
 			<animation property="size" to="0.4119792 0.4212963" begin="1200" duration="200" mode="linear"/>
-			<animation property="pos" to="0.7294271 0.6787222" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.7294271 0.6687222" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="deactivate">
@@ -129,13 +129,13 @@
 		
 		<storyboard event="open">
 			<animation property="size" to="0.1447917 0.2" begin="1200" duration="200" mode="linear"/>
-			<animation property="pos" to="0.7291667 0.6180741" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.7291667 0.6080741" begin="1200" duration="200" mode="linear"/>
 			<animation property="scale" to="0.95" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="activate">
 			<animation property="size" to="0.1447917 0.2" begin="1200" duration="200" mode="linear"/>
-			<animation property="pos" to="0.7291667 0.6180741" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.7291667 0.6080741" begin="1200" duration="200" mode="linear"/>
 			<animation property="scale" to="0.95" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 
@@ -152,12 +152,12 @@
 
 		<storyboard event="open">
 			<animation property="size" to="0.1447917 0.2" begin="1200" duration="200" mode="linear"/>
-			<animation property="pos" to="0.7291667 0.6240741" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.7291667 0.6140741" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="activate">
 			<animation property="size" to="0.1447917 0.2" begin="1200" duration="200" mode="linear"/>
-			<animation property="pos" to="0.7291667 0.6240741" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.7291667 0.6140741" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="deactivate">
@@ -179,13 +179,13 @@
 		<storyboard event="open">
 		<animation property="x" to="0.4" begin="1200" duration="200" mode="linear"/>
 		<animation property="y" to="0.271" begin="1200" duration="200" mode="linear"/>
-		<animation property="scale" to="0.93" begin="1200" duration="200" mode="linear"/>
+		<animation property="scale" to="0.9" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="activate">
 		<animation property="x" to="0.4" begin="1200" duration="200" mode="linear"/>
 		<animation property="y" to="0.271" begin="1200" duration="200" mode="linear"/>
-		<animation property="scale" to="0.93" begin="1200" duration="200" mode="linear"/>
+		<animation property="scale" to="0.9" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="deactivate">

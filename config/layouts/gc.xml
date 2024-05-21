@@ -112,7 +112,7 @@
   			 
 	
 	<image name="ecran_console" extra="static">
-			<pos>0.495 0.175</pos>
+			<pos>0.495 0.185</pos>
 			<size>0.4427083 0.525</size>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -120,11 +120,11 @@
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.54" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.53" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.54" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.53" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -135,14 +135,14 @@
   
   
 		<video name="md_video">
-		  <pos>0.6915 0.375</pos>
+		  <pos>0.6915 0.385</pos>
 		  <size>0.239 0.32</size>
 				<storyboard event="open">
-					<animation property="x" to="0.7366" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.7266" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7366" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.7266" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -153,14 +153,14 @@
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		 <pos>0.6915 0.375</pos>
+		 <pos>0.6915 0.385</pos>
 		  <size>0.239 0.32</size>
 				<storyboard event="open">
-					<animation property="x" to="0.7366" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.7266" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7366" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.7266" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -172,8 +172,8 @@
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.367 0.38</pos> 
-		<maxSize>0.23 0.54</maxSize>
+		<pos>0.368 0.35</pos> 
+		<maxSize>0.238 0.52</maxSize>
 		<scale>0.59</scale>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>

@@ -78,6 +78,10 @@
 		<visible>false</visible>
 	</text>
 	
+	<image name="stats-bar1, stats-bar2, controller-bar" extra="true">
+		<visible>false</visible>
+	</image>		
+	
 	<image name="ghost_hidden, md_hidden, ghost_cheevos, md_cheevos,md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate,md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual, md_flag">
 		<visible>false</visible>
 	</image>
