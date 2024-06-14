@@ -1,3 +1,7 @@
+## V 1.72 - (14 06 2024)
+- NEW view : Grid (work in progress 70% done) 
+- New collection management 
+
 ## V 1.71 - (21 05 2024)
 - Detailed view : change some layouts 
 
