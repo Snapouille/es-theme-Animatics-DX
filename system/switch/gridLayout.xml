@@ -1,0 +1,210 @@
+<!-- Switch -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>	
+			<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+		
+		<image name="avatar-mario1, avatar-mario2, avatar-mario2bis" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4208333 0.6731481</size>									
+			<pos>0.628 0.41</pos>
+			<scale>0.9</scale>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+		</image>	
+		
+		<image name="avatar-mario1" extra="static">
+			<path>./avatar-mario1.png</path>
+			
+			<storyboard repeat="forever">		
+				<animation property="opacity" to="1" begin="100" duration="100" mode="linear"/>
+				<animation property="x" from="1" to="0.628" begin="100" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="2250" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21000" duration="100" mode="linear"/>
+			</storyboard>
+		</image>	
+		
+		
+		<image name="avatar-mario2" extra="static">
+			<path>./avatar-mario2.png</path>
+			
+			<storyboard repeat="forever">		
+				
+				<animation property="opacity" to="1" begin="2200" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3300" duration="10" mode="linear"/>
+				
+				<animation property="scale" to="0.9" begin="5000" duration="350" mode="bump"/>
+				<animation property="x" to="0.628" begin="5000" duration="375" mode="EaseOut"/>
+				<animation property="y" to="0.41" begin="5000" duration="375" mode="EaseOut"/>
+				
+				<animation property="opacity" to="1" begin="5000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6600" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="11300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="12000" duration="10" mode="linear"/>
+				
+				<animation property="y" to="0.63" begin="12200" duration="200" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="12800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13200" duration="10" mode="linear"/>
+				
+				<animation property="y" to="1.03" begin="13700" duration="200" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21000" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="avatar-mario2bis" extra="static">
+			<path>./avatar-mario2bis.png</path>
+			
+			<storyboard repeat="forever">		
+				
+				<animation property="opacity" to="1" begin="2700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3300" duration="10" mode="linear"/>
+				
+				<animation property="scale" to="0.9" begin="5000" duration="350" mode="bump"/>
+				<animation property="x" to="0.628" begin="5000" duration="375" mode="EaseOut"/>
+				<animation property="y" to="0.41" begin="5000" duration="375" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" begin="5000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="6600" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="11300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="12000" duration="10" mode="linear"/>
+				
+				<animation property="y" to="0.63" begin="12200" duration="200" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="12800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="13200" duration="10" mode="linear"/>
+				
+				<animation property="y" to="1.03" begin="13700" duration="200" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21000" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+		
+	
+		
+		<image name="avatar-chapeau" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2494792 0.3981481</size>									
+			<pos>0.722 0.31</pos>
+			<scale>0.9</scale>
+			<opacity>0</opacity>
+			<path>./avatar-chapeau.png</path>
+			<zIndex>13500</zIndex>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="100" duration="100" mode="linear"/>
+				<animation property="x" from="1.1" to="0.722" begin="100" duration="500" mode="linear"/>
+				<animation property="rotation" to="1" begin="1000" autoreverse="true" duration="500" mode="linear"/>
+				<animation property="y" to="0.03" begin="2000" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="2070" duration="10" mode="linear"/>
+				
+				<animation property="x" to="0.722" begin="10000" duration="10" mode="linear"/>
+				<animation property="y" to="0.3" begin="10000" duration="10" mode="linear"/>
+				<animation property="scale" to="0.9" begin="10000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="12190" duration="10" mode="linear"/>
+				
+				<animation property="y" to="0.52" begin="12200" duration="200" mode="linear"/>
+				
+				<animation property="y" to="-1" begin="13000" duration="500" mode="linear"/>
+				<animation property="opacity" to="0" begin="13100" duration="50" mode="linear"/>
+				<animation property="y" to="0.52" begin="13500" duration="200" mode="linear"/>
+				<animation property="opacity" to="1" begin="13650" duration="50" mode="linear"/>
+				
+				<animation property="y" to="0.92" begin="13700" duration="200" mode="linear"/>
+				<animation property="opacity" to="0" begin="13900" duration="50" mode="linear"/>
+				
+				
+				<animation property="opacity" to="0" begin="21000" duration="100" mode="linear"/>
+			</storyboard>
+		</image>	
+		
+		<image name="avatar-chapeau2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2494792 0.3981481</size>									
+			<pos>0.722 0.237</pos>
+			<scale>0.9</scale>
+			<rotation>0</rotation>
+			<opacity>0</opacity>
+			<path>./avatar-chapeau2.png</path>
+			<zIndex>13600</zIndex>
+			<linearSmooth>true</linearSmooth>
+			
+			<storyboard repeat="forever">		
+				<animation property="y" to="0.03" begin="2000" duration="100" mode="linear"/>
+				<animation property="opacity" to="1" begin="2050" duration="10" mode="linear"/>
+				
+				<animation property="rotation" to="2" begin="2100" autoreverse="true" duration="650" repeat="3" mode="linear"/>
+				<animation property="y" from="0.03" to="0.02" begin="2100" autoreverse="true" duration="400" mode="EaseInOut"/>
+				
+				<animation property="y" to="-1" begin="5000" duration="1000" mode="EaseIn"/>
+				<animation property="scale" to="0.9" begin="6000" duration="100" mode="linear"/>
+				<animation property="x" to="0.722" begin="6000" duration="100" mode="linear"/>
+				<animation property="y" to="0.06" begin="6000" duration="1000" mode="Easeout"/>
+				<animation property="y" to="0.02" begin="7000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.05" begin="8000" autoreverse="true" duration="1000" mode="linear"/>
+				<animation property="rotation" to="2" begin="7000" autoreverse="true" duration="650" repeat="10" mode="linear"/>
+				<animation property="x" to="0.6" begin="6500" autoreverse="true" duration="500" mode="EaseInOut"/>
+				<animation property="x" to="0.8" begin="7500" autoreverse="true" duration="400" mode="EaseInOut"/>
+				
+				<animation property="y" to="-1" begin="11000" duration="500" mode="linear"/>
+				<animation property="y" to="0.3" begin="12000" duration="200" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="12190" duration="10" mode="linear"/>
+				
+				<animation property="y" to="-1" begin="13000" duration="500" mode="linear"/>
+				<animation property="opacity" to="1" begin="13100" duration="50" mode="linear"/>
+				<animation property="y" to="0.52" begin="13500" duration="200" mode="linear"/>
+				<animation property="opacity" to="0" begin="13650" duration="50" mode="linear"/>
+				
+				<animation property="y" to="0.92" begin="13700" duration="200" mode="linear"/>
+				<animation property="opacity" to="1" begin="13900" duration="50" mode="linear"/>
+				
+				<animation property="x" to="0.722" begin="14000" duration="100" mode="linear"/>
+				<animation property="y" to="0.06" begin="14000" duration="1000" mode="Easeout"/>
+				<animation property="y" to="0.02" begin="15000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.05" begin="16000" autoreverse="true" duration="1000" mode="linear"/>
+				<animation property="rotation" to="2" begin="15000" autoreverse="true" duration="650" repeat="4" mode="linear"/>
+				<animation property="x" to="0.6" begin="14500" autoreverse="true" duration="500" mode="EaseInOut"/>
+				<animation property="x" to="0.8" begin="15500" autoreverse="true" duration="400" mode="EaseInOut"/>
+				
+				<animation property="x" to="-1" begin="18000" duration="400" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21000" duration="100" mode="linear"/>
+			</storyboard>
+		</image>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

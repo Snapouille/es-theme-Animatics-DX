@@ -1,0 +1,63 @@
+<!-- Scumm VM -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			<path>./background.jpg</path>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+	
+		<image name="avatar-barrel" extra="static">
+		<visible>false</visible>
+		</image>
+	
+	
+		<image name="avatar-monkey" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		<image name="avatar-guybrush1" extra="static">
+			<size>0.2515625 0.737037</size>									
+			<scale>1</scale>
+			<opacity>1</opacity>
+			<path>./avatar-guybrush1.png</path>
+			<zIndex>14</zIndex>
+			<flipX>true</flipX>
+			<origin>0.5 0.5</origin>
+			<pos>1.05 0.565</pos>									
+
+			<storyboard>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.065"/>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-guybrush2" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		
+	</view>
+	
+	
+	
+
+</theme>

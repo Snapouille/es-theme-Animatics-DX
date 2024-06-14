@@ -1,0 +1,119 @@
+<!-- GameBoy -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>	
+			<scale>1</scale>	
+			<saturation>0.7</saturation>
+			<path>./background.jpg</path>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+	
+	
+	
+		<image name="tuyau" extra="static">
+		<visible>false</visible>
+		</image>
+	
+		<image name="mario0" extra="static">
+		<visible>false</visible>
+		</image>
+	
+		<image name="mario1" extra="true">	
+			<origin>0.5 0.5</origin>									
+			<size>0.2833333 0.6722222</size>									
+			<path>./mario1.png</path>
+			<scale>1</scale>
+			<opacity>1</opacity>
+			<zIndex>1001</zIndex>
+			
+			
+			<pos>1.05 0.5</pos>									
+
+			<storyboard>
+				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" begin="1000" duration="2000" mode="linear"/>
+				
+				
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="mario2" extra="true">	
+			<origin>0.5 0.5</origin>									
+			<size>0.2833333 0.6722222</size>									
+			<path>./mario2.png</path>
+			<scale>1</scale>
+			<opacity>0</opacity>
+			<zIndex>1000</zIndex>
+			
+			
+			<pos>1.05 0.5</pos>									
+
+			<storyboard>
+				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="1" begin="1000" duration="10" mode="linear"/>
+				
+				<animation property="rotation" to="-720" begin="14800" duration="2000" mode="EaseOut"/>
+				<animation property="y" to="-1" begin="15000" duration="800" />
+				<animation property="x" to="1.5" begin="15000" duration="1500" />
+				
+			</storyboard>
+		</image>
+		
+		
+	
+		<image name="boulet" extra="static">	
+			<origin>0 0</origin>
+			<pos>-1 0.45</pos>
+			<size>0.2666667 0.3287037</size>
+			<scale>0.8</scale>
+			<path>./boulet.png</path>
+			<flipX>true</flipX>
+			<linearSmooth>true</linearSmooth>
+			<opacity>1</opacity>
+			<zIndex>3000</zIndex>
+	
+			<storyboard>
+					<animation property="x" to="1.1" begin="13200" duration="2000" mode="linear"/>
+			</storyboard>
+		</image>
+	
+	
+	
+		<image name="gombaG, gombaD" extra="static">
+			<origin>0 0</origin>
+			<pos>0.728 0.848</pos>
+			<size>0.0260417 0.037037</size>
+			<path>./gomba.gif</path>
+			<opacity>1</opacity>
+			<zIndex>14</zIndex>
+		</image>	
+	
+		<image name="gombaD" extra="static">
+			<visible>false</visible>
+		</image>	
+	
+		<image name="gombaG" extra="true">	
+			<storyboard repeat="forever">
+				<animation property="x" to="0.871" begin="" duration="6000" autoreverse="true" mode="linear"/>
+			</storyboard>
+		</image>
+			
+		
+		
+	</view>
+
+</theme>

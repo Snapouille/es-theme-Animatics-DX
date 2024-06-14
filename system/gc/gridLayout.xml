@@ -1,0 +1,101 @@
+<!-- GameCube -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>
+			<path>./background.jpg</path>
+			<flipX>true</flipX>
+			<scale>1.01</scale>
+			<saturation>0.7</saturation>
+			
+			<storyboard repeatAt="1">
+				<animation property="saturation" to="1" begin="" duration="1" mode="linear"/>
+				<!-- <animation property="offsetX" to="0.001" begin="3000" duration="100" autoreverse="true" repeat="3" mode="EaseOut"/> -->
+				<!-- <animation property="offsetX" to="-0.001" begin="8000" duration="100" autoreverse="true" repeat="2" mode="EaseOut"/> -->
+			 </storyboard>
+		</image>	
+	
+	
+		<image name="lumiere-grid" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>
+			<path>./lumiere-grid.png</path>
+			<flipX>true</flipX>
+			<scale>1.01</scale>
+			<opacity>0</opacity>
+			
+			
+			<storyboard repeatAt="forever">
+				<animation property="opacity" to="0.8" begin="2000" duration="30" autoreverse="true" repeat="5" mode="linear"/>
+				<animation property="opacity" to="0.6" begin="4000" duration="20" autoreverse="true" repeat="7" mode="linear"/>
+				<animation property="opacity" to="0.9" begin="6500" duration="40" autoreverse="true" repeat="2" mode="linear"/>
+			 </storyboard>
+		</image>	
+	
+	
+	
+		<image name="blob1" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		<image name="blob2" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		<image name="rebecca1" extra="static">
+			<size>0.1734375 0.7416667</size>									
+
+			<scale>0.85</scale>
+			<opacity>1</opacity>
+			<path>./rebecca1.png</path>
+			<zIndex>19</zIndex>
+			
+			<origin>0.5 0.5</origin>
+			<pos>0.78 0.55</pos>									
+
+			<storyboard>
+				<animation property="scale" to="1" begin="100" duration="500" mode="EaseOut"/>
+				
+			</storyboard>
+			
+		</image>
+		
+		
+		
+		
+		<image name="rebecca2" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		<image name="fire" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		<image name="blood" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		<image name="lumiere" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

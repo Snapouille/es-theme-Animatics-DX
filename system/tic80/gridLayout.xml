@@ -1,0 +1,48 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>	<scale>1</scale>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+	
+	
+	
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>
+			<size>0.2911458 0.3759259</size>									
+			<pos>1.05 0.65</pos>									
+			<path>./avatar.png</path>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="avatar2" extra="static">
+			<origin>0 0</origin>
+			<pos>0.7 -0.245</pos>
+			<maxSize>0.265 0.557</maxSize>
+			<linearSmooth>true</linearSmooth>
+			<path>./avatar-saw.png</path>
+			<zIndex>20</zIndex>
+			<storyboard>
+				<animation property="y" from="-1" begin="0" duration="1000" mode="easyOut"/>
+        		<animation property="rotation" to="360" begin="0" autoreverse="false" duration="800" repeat="forever" mode="linear"/>
+			</storyboard>
+		</image>
+		
+	</view>
+
+</theme>

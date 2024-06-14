@@ -5,7 +5,7 @@
 
 	<image name="BG_snapLegacy" extra="true">
 		<origin>0 0</origin>	
-		<size>0.5911458 1.8685185</size>									
+		<size>1 1.8685185</size>									
 		<pos>0.021875 -1.1398148</pos>		
 		<scale>1</scale>
 		  <storyboard repeat="forever">
@@ -19,11 +19,11 @@
 
 	<image name="BG_snapLegacy2" extra="true">
 		<origin>0 0</origin>	
-		<size>0.5911458 1.8685185</size>									
+		<size>1 1.8685185</size>									
 		<pos>0.021875 -1.1398148</pos>		
 		<scale>1</scale>
 		<flipY>true</flipY>
-		<path>./background.png</path>
+		<path>./background.jpg</path>
 		<zIndex>4</zIndex>
 		<opacity>0</opacity>
 		  <storyboard repeat="forever">

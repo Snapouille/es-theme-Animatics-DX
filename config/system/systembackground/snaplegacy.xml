@@ -41,27 +41,25 @@
 	
 	<!-- background Snap Legacy -->
     <image name="BG_snapLegacy" extra="true">
-      <tile>false</tile>
-      <linearSmooth>true</linearSmooth>
-	  <path>./../../../system/background-default.png</path>
-      <path>./../../../system/${system.theme}/background.png</path>
-	  <scale>1.03</scale>
-	  <!-- <color>202020</color> -->
-	  
+		<tile>false</tile>
+		<linearSmooth>true</linearSmooth>
+		<path>./../../../system/background-default.jpg</path>
+		<path>./../../../system/${system.theme}/background.jpg</path>
+		<path>./../../../system/${system.theme}/background.png</path>
+		<scale>1.03</scale>
 		<origin>0.5 0.5</origin>									
 		<size>0.58125 0.6509259</size>									
 		<pos>0.3177083 0.3856481</pos>									
 		<zIndex>3</zIndex>
-	  
-	  
-	  <storyboard>
+		<storyboard>
 				<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
-        		<animation property="scale" to="1" begin="" duration="500" mode="linear"/>
-				<!-- <animation property="offsetX" to="-0.001" begin="" duration="500" mode="linear"/> -->
-	  </storyboard>
-	  
-	  
+				<animation property="scale" to="1" begin="" duration="500" mode="linear"/>
+		</storyboard>
     </image>
+	
+	
+	
+	
 	
 	<!-- Sytem AVATAR -->
 		<image name="avatar" extra="static">
@@ -72,12 +70,34 @@
 			<linearSmooth>true</linearSmooth>
 			<zIndex>180</zIndex>
 		</image>
-	
-	
    
     <image name="ControllerOverlay" extra="true">
       <visible>false</visible>
     </image>
+	
+	
+	
+	
+	
+	
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- ''''''''''    SYSTEM GRID '''''''''''''''''''''' -->
+<!-- ''''''''''AFFICHAGE PAR DEFAULT '''''''''''''''' -->
+<!-- ''''''si absence du fichier gridLayout.xml ''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+	
+    <image name="BG_snapLegacy" ifSubset="SystemView:grid">
+		<size>1 1</size>									
+		<pos>0.5 0.5</pos>	
+		<scale>1</scale>	
+		<saturation>0.7</saturation>
+		<storyboard>
+			<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+		</storyboard>
+    </image>
+	
+	
     
     
   </view>
@@ -86,6 +106,7 @@
   <!-- Auto Views Design -->
 	<include>./../../../system/${system.theme}/default.xml</include>
 	<include ifSubset="SystemView:horizontal">./../../../system/${system.theme}/horizontal.xml</include>
+	<include ifSubset="SystemView:grid">./../../../system/${system.theme}/gridLayout.xml</include>
 	
   
 </theme>

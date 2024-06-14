@@ -1,0 +1,67 @@
+<!-- Auto 2 Players -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	
+			<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+	
+	
+		<image name="avatar2p" extra="true">
+			<origin>0 0</origin>									
+			<size>0.4036458 0.4453704</size>									
+			<pos>0.673 0.5</pos>
+			<opacity>1</opacity>
+			<path>./avatar2p.gif</path>
+			<linearSmooth>true</linearSmooth>
+			<scale>0.79</scale>
+			<zIndex>25</zIndex>
+
+			<storyboard>
+				<animation property="scale" to="0.8" begin="100" duration="500" mode="EaseIn"/>
+			</storyboard>
+		
+		</image>
+		
+		
+		
+				
+		
+		<image name="plane" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0192708 0.0111111</size>									
+			<pos>0.11 0.3777778</pos>									
+			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+			<path>./plane.png</path>
+			<zIndex>1600</zIndex>	
+				
+			<storyboard>
+				
+				<animation property="opacity" to="1" begin="10000" duration="100" mode="linear"/>
+				<animation property="rotation" to="-20" begin="10500" duration="2000" autoreverse="true" mode="linear"/>
+				<animation property="size" to="0.5270833 0.287963" begin="10000" duration="10000" mode="bump"/>
+				<animation property="pos" to="0.2182292 -0.3" begin="10000" duration="3500" mode="linear"/>
+				
+			</storyboard>
+		</image>
+
+		
+		
+	</view>
+
+</theme>

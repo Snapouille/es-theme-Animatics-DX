@@ -1,0 +1,115 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>	<scale>1</scale>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+	
+	
+
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<size>0.2817708 0.6277778</size>									
+			<pos>0.37 0.24</pos>
+			<scale>0.58</scale>
+			<flipX>true</flipX>
+			<zIndex>13</zIndex>
+			
+			<storyboard repeatAt="350">
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+				<animation property="origin" to="0.01 0.01" begin="350" duration="500" mode="linear"/>
+				<animation property="origin" to="0.02 0" begin="850" duration="500"  mode="linear"/>
+				<animation property="origin" to="0.01 0.01" begin="1350" duration="500" mode="linear"/>
+				<animation property="origin" to="0 0" begin="1850" duration="500"  mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="avatar-wolf" extra="static">
+			<size>0.2015625 0.7111111</size>									
+			<scale>0.95</scale>
+			<path>./avatar-wolf.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>25</zIndex>
+			<origin>0.5 0.5</origin>
+			<size>0.2182292 0.787037</size>									
+			<pos>1.05 0.55</pos>									
+
+			<storyboard repeatAt="1000">
+				<animation property="offsetX" to="-0.21" begin="100" duration="500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" begin="2000" duration="10" mode="EaseOut"/>
+				<animation property="opacity" to="1" begin="4000" duration="10" mode="EaseOut"/>
+				<animation property="opacity" to="1" begin="10000" duration="10" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-wolf2" extra="static">
+			<size>0.2015625 0.7111111</size>									
+			<scale>0.95</scale>
+			<path>./avatar-wolf2.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>25</zIndex>
+			<origin>0.5 0.5</origin>
+			<size>0.2182292 0.787037</size>									
+			<pos>1.05 0.55</pos>	
+			<opacity>0</opacity>
+
+			<storyboard repeatAt="1000">
+				<animation property="offsetX" to="-0.21" begin="100" duration="500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="1" begin="2000" duration="10" mode="EaseOut"/>
+				<animation property="opacity" to="0" begin="4000" duration="10" mode="EaseOut"/>
+				<animation property="opacity" to="0" begin="10000" duration="10" mode="EaseOut"/>
+			</storyboard>		
+		</image>
+
+
+		
+		<image name="fog-static" extra="true">
+			<origin>0.5 0.5</origin>									
+			<linearSmooth>true</linearSmooth>
+			<size>0.6578125 0.1907407</size>									
+			<pos>0.2747396 0.70</pos>									
+			<scale>1</scale>
+			<zIndex>12</zIndex>
+			<opacity>0.9</opacity>								
+			<path>./fog-static.png</path>
+			<storyboard repeat="forever">
+				<animation property="y" from="0.70" to="0.701" begin="" autoreverse="true" duration="500" repeat="10" mode="linear"/>
+				<animation property="offsetX" to="0.005" begin="" autoreverse="true" duration="1000" repeat="5" mode="linear"/>
+				<animation property="opacity" from="0.9" to="0.85" begin="" autoreverse="true" duration="1000" repeat="5" mode="linear"/>
+			</storyboard>
+		</image>
+
+
+
+		<image name="fog-big" extra="true">
+			<origin>0.5 0.5</origin>									
+			<linearSmooth>true</linearSmooth>			
+			<pos>0 0.75</pos>
+			<size>0.6380208 0.3990741</size>									
+			<scale>2</scale>
+			<zIndex>14</zIndex>
+			<opacity>0.8</opacity>								
+			<path>./fog-big.png</path>
+			<storyboard repeat="forever">
+				<animation property="x" from="0.7" to="0.5" begin="" autoreverse="true" duration="20000" mode="linear"/>
+				<animation property="y" from="0.75" to="0.753" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="scale" from="2" to="2.01" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.75" begin="" autoreverse="true" duration="1000" repeat="20" mode="linear"/>
+			</storyboard>
+		</image>			
+		
+	</view>
+</theme>

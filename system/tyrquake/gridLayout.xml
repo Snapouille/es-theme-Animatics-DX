@@ -1,0 +1,23 @@
+<!-- tyrQuake -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>	
+			<maxSize>0.35 0.75</maxSize>									
+			<linearSmooth>true</linearSmooth>		
+			
+			<pos>1.05 0.61</pos>									
+			<path>./avatar.png</path>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+
+		</image>
+		
+	</view>
+</theme>

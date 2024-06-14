@@ -1,0 +1,176 @@
+<!-- PR Boom -->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+
+
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	
+			<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>
+			<path>./background.jpg</path>
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+
+
+
+		<image name="avatar-doomguy" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.30625 0.9259259</size>									
+			<pos>1.05 0.55</pos>									
+			<path>./avatar.png</path>
+			<path>./avatar-doomguy.png</path>
+			<scale>0.8</scale>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.21" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.06"/>
+				<animation property="offsetX" to="-0.21" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+
+
+	
+		<image name="background-pillier" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0645833 0.2046296</size>									
+			<pos>0.3989583 0.3886111</pos>	
+			<pos ifHelpPrompts="false">0.3989583 0.4486111</pos>
+			<path>./background-pillier.png</path>
+			<opacity>1</opacity>
+			<zIndex>8</zIndex>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="0" begin="3500" duration="50" mode="linear"/>
+				<animation property="opacity" to="1" begin="6500" duration="50" mode="linear"/>		
+				<animation property="opacity" to="0" begin="10000" duration="50" mode="linear"/>
+				<animation property="opacity" to="1" begin="15000" duration="50" mode="linear"/>	
+				<animation property="opacity" to="0" begin="16500" duration="50" mode="linear"/>
+				<animation property="opacity" to="1" begin="21500" duration="50" mode="linear"/>	
+				<animation property="opacity" to="0" begin="23000" duration="50" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="25500" duration="500" mode="linear"/>
+			</storyboard>
+		</image>
+	
+		
+		
+		<image name="avatar-beast" extra="true">
+			<pos>0.25 0.44</pos>
+			<size>0.2729167 0.6481481</size>									
+			<scale>0.1</scale>
+			<opacity>0</opacity>
+			<path>./avatar-beast.png</path>
+			<zIndex>7</zIndex>
+			
+			<storyboard repeat="forever">
+			
+				<animation property="opacity" to="1" begin="2900" duration="100" mode="linear"/>
+				<animation property="x" to="0.18" begin="3000" duration="500" mode="linear"/>
+				<animation property="y" to="0.44" begin="3000" duration="500" mode="linear"/>
+				<animation property="scale" to="0.15" begin="3000" duration="500" mode="linear"/>
+				
+				<animation property="x" to="0.11" begin="3500" duration="2000" mode="linear"/>
+				<animation property="y" to="0.28" begin="3500" duration="2000" mode="linear"/>
+				<animation property="scale" to="0.6" begin="3500" duration="2000" mode="linear"/>
+				<animation property="rotation" to="0.8" begin="3500" duration="200" autoreverse="true" repeat="5" mode="linear"/>
+				
+				<animation property="x" to="0.41" begin="5500" duration="1000" mode="linear"/>
+				<animation property="y" to="0.28" begin="5500" duration="1000" mode="linear"/>
+				<animation property="scale" to="0.6" begin="5500" duration="1000" mode="linear"/>
+				<animation property="rotation" to="3" begin="5500" duration="250" autoreverse="true" repeat="2" mode="linear"/>
+				
+				<animation property="x" to="0.41" begin="6500" duration="2000" mode="linear"/>
+				<animation property="y" to="0.43" begin="6500" duration="2000" mode="linear"/>
+				<animation property="scale" to="0.15" begin="6500" duration="2000" mode="linear"/>
+				<animation property="rotation" to="3" begin="6500" duration="200" autoreverse="true" repeat="5" mode="linear"/>
+				
+				<animation property="x" to="0.25" begin="8500" duration="1000" mode="linear"/>
+				<animation property="y" to="0.44" begin="8500" duration="1000" mode="linear"/>
+				<animation property="scale" to="0.1" begin="8500" duration="1000" mode="linear"/>
+				<animation property="rotation" to="3" begin="8500" duration="250" autoreverse="true" repeat="2" mode="linear"/>
+				
+				
+				<animation property="x" to="0.18" begin="9500" duration="500" mode="linear"/>
+				<animation property="y" to="0.44" begin="9500" duration="500" mode="linear"/>
+				<animation property="scale" to="0.15" begin="9500" duration="500" mode="linear"/>
+				
+				<animation property="x" to="0.11" begin="10000" duration="2000" mode="linear"/>
+				<animation property="y" to="0.28" begin="10000" duration="2000" mode="linear"/>
+				<animation property="scale" to="0.6" begin="10000" duration="2000" mode="linear"/>
+				<animation property="rotation" to="0.8" begin="10000" duration="200" autoreverse="true" repeat="5" mode="linear"/>
+				
+				<animation property="x" to="0.41" begin="12000" duration="1000" mode="linear"/>
+				<animation property="y" to="0.28" begin="12000" duration="1000" mode="linear"/>
+				<animation property="scale" to="0.6" begin="12000" duration="1000" mode="linear"/>
+				<animation property="rotation" to="3" begin="12000" duration="250" autoreverse="true" repeat="2" mode="linear"/>
+				
+				<animation property="x" to="0.41" begin="13000" duration="2000" mode="linear"/>
+				<animation property="y" to="0.43" begin="13000" duration="2000" mode="linear"/>
+				<animation property="scale" to="0.15" begin="13000" duration="2000" mode="linear"/>
+				<animation property="rotation" to="3" begin="13000" duration="200" autoreverse="true" repeat="5" mode="linear"/>
+				
+				<animation property="x" to="0.25" begin="15000" duration="1000" mode="linear"/>
+				<animation property="y" to="0.44" begin="15000" duration="1000" mode="linear"/>
+				<animation property="scale" to="0.1" begin="15000" duration="1000" mode="linear"/>
+				<animation property="rotation" to="3" begin="15000" duration="250" autoreverse="true" repeat="2" mode="linear"/>
+				
+				<animation property="x" to="0.18" begin="16000" duration="500" mode="linear"/>
+				<animation property="y" to="0.44" begin="16000" duration="500" mode="linear"/>
+				<animation property="scale" to="0.15" begin="16000" duration="500" mode="linear"/>
+				
+				<animation property="x" to="0.11" begin="16500" duration="2000" mode="linear"/>
+				<animation property="y" to="0.28" begin="16500" duration="2000" mode="linear"/>
+				<animation property="scale" to="0.6" begin="16500" duration="2000" mode="linear"/>
+				<animation property="rotation" to="0.8" begin="16500" duration="200" autoreverse="true" repeat="5" mode="linear"/>
+				
+				<animation property="x" to="0.41" begin="18500" duration="1000" mode="linear"/>
+				<animation property="y" to="0.28" begin="18500" duration="1000" mode="linear"/>
+				<animation property="scale" to="0.6" begin="18500" duration="1000" mode="linear"/>
+				<animation property="rotation" to="3" begin="18500" duration="250" autoreverse="true" repeat="2" mode="linear"/>
+				
+				<animation property="x" to="0.41" begin="19500" duration="2000" mode="linear"/>
+				<animation property="y" to="0.43" begin="19500" duration="2000" mode="linear"/>
+				<animation property="scale" to="0.15" begin="19500" duration="2000" mode="linear"/>
+				<animation property="rotation" to="3" begin="19500" duration="200" autoreverse="true" repeat="5" mode="linear"/>
+				
+				<animation property="x" to="0.25" begin="21500" duration="1000" mode="linear"/>
+				<animation property="y" to="0.44" begin="21500" duration="1000" mode="linear"/>
+				<animation property="scale" to="0.1" begin="21500" duration="1000" mode="linear"/>
+				<animation property="rotation" to="3" begin="21500" duration="250" autoreverse="true" repeat="2" mode="linear"/>
+				
+				<animation property="x" to="0.18" begin="22500" duration="500" mode="linear"/>
+				<animation property="y" to="0.44" begin="22500" duration="500" mode="linear"/>
+				<animation property="scale" to="0.15" begin="22500" duration="500" mode="linear"/>
+				
+				<animation property="x" to="0.11" begin="23000" duration="2000" mode="linear"/>
+				<animation property="y" to="0.28" begin="23000" duration="2000" mode="linear"/>
+				<animation property="scale" to="0.6" begin="23000" duration="2000" mode="linear"/>
+				<animation property="rotation" to="0.8" begin="23000" duration="200" autoreverse="true" repeat="5" mode="linear"/>
+
+				<animation property="x" to="-0.28" begin="25000" duration="500" mode="linear"/>
+				<animation property="y" to="-0.7" begin="25000" duration="500" mode="linear"/>
+				<animation property="scale" to="5" begin="25000" duration="500" mode="linear"/>
+				<animation property="rotation" to="0.8" begin="25000" duration="50" autoreverse="true" repeat="5" mode="linear"/>
+				
+				<animation property="zIndex" to="10000" begin="25000" duration="50" mode="linear"/>
+				
+				<animation property="scale" to="8" begin="25500" duration="500" mode="linear"/>
+				<animation property="y" to="-1" begin="25500" duration="500" mode="linear"/>
+				<animation property="x" to="-0.7" begin="25500" duration="500" mode="linear"/>
+				<animation property="opacity" to="0" begin="25800" duration="200" mode="linear"/>
+				
+			</storyboard>
+		</image>
+		
+</view>
+</theme>

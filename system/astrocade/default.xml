@@ -9,6 +9,7 @@
 		<image name="avatar" extra="true">
 			<scale>0.85</scale>
 			<linearSmooth>true</linearSmooth>
+			<size>0.2604167 0.7935185</size>									
 			<storyboard>
 				
 				<animation property="offsetX" to="0.1" begin="" duration="1000" mode="EaseInOut"/>

@@ -1,0 +1,28 @@
+<!-- atari 800 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="BG_snapLegacy" extra="true">
+			<path>./background.jpg</path>
+		</image>
+	
+		<image name="avatar" extra="true">
+			<origin>0 0</origin>
+			<pos>0.7 -0.2</pos>
+			<scale>1</scale>
+			<size>0.3067708 0.7407407</size>									
+			<linearSmooth>true</linearSmooth>
+			<zIndex>6</zIndex>
+			<storyboard>
+				<animation property="offsetY" to="0.45" 	 begin="" 		duration="800" mode="EaseOutCubic"/>
+				<animation property="offsetY" to="0.4" 		 begin="800" 	duration="800" mode="EaseInOut"/>
+				<animation property="offsetY" to="0.395"	 begin="1600" 	duration="800"  autoreverse="true" repeat="forever" mode="EaseInOut"/>
+			</storyboard>
+		</image>
+		
+	</view>
+
+</theme>

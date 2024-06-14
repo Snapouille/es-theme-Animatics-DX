@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Loopy is a cartridge console released only in Japan. Marketing primarily targeted female gamers, with a thermal color printer supplied that can be used to create stickers from game screenshots. An optional accessory, called Magical Shop, enables the console to use a DVD player to obtain images of them, add text and create personalized stickers.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La Loopy est une console à cartouches sortie uniquement au Japon. Le marketing ciblait principalement les joueuses avec une imprimante couleur thermique fournie avec et pouvant être utilisée pour créer des autocollants à partir de captures d'écran de jeu. Un accessoire optionnel, appelé Magical Shop, permet à la console de pouvoir utiliser un lecteur de DVD afin d'obtenir des images d'eux, d'ajouter du texte et de créer des autocollants personnalisés.</text>
+</text>
+
+</view>
+</theme>

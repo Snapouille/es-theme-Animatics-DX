@@ -5,14 +5,15 @@
 	
 			<image name="avatar" extra="static">
 			<origin>0 0</origin>
-			<pos>0.3 0</pos>
-			<maxSize>1 1</maxSize>
+			<pos>0.365 0.21</pos>
+			<pos ifHelpPrompts="false">0.365 0.25</pos>	
+			<size>0.2723958 0.7685185</size>									
 			<path>./avatar.png</path>
 			<linearSmooth>true</linearSmooth>
 			
 			<storyboard>
 				
-        		<animation property="x" to="0.33" begin="" duration="4000" mode="EaseInOut"/>
+        		<animation property="x" to="0.385" begin="" duration="1000" mode="EaseInOut"/>
         		
 			</storyboard>	
 		</image>

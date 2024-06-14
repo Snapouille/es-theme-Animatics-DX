@@ -1,0 +1,178 @@
+<!-- GBC 2 players -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+	
+	
+		<image name="ball" extra="static">
+			<origin>0 0</origin>
+			<pos>-0.3 0.15</pos>
+			<size>0.0255208 0.0453704</size>									
+
+			<scale>1</scale>
+			<zIndex>14</zIndex>
+			<opacity>1</opacity>
+			<path>./ball.png</path>
+
+		
+			<storyboard repeat="forever">
+				
+				<animation property="x" to="0.7" begin="1400" duration="700" mode="linear"/>
+				<animation property="y" to="0.55" begin="1400" duration="700" mode="linear"/>
+				<animation property="x" to="-0.3" begin="2100" duration="400" mode="linear"/>
+				<animation property="y" to="0.3" begin="2100" duration="400" mode="linear"/>
+				
+				<animation property="y" to="0.1" begin="2600" duration="10" mode="linear"/>
+				
+				<animation property="x" to="0.7" begin="2900" duration="700" mode="linear"/>
+				<animation property="y" to="0.55" begin="2900" duration="700" mode="linear"/>
+				<animation property="x" to="-0.3" begin="3600" duration="400" mode="linear"/>
+				<animation property="y" to="0.25" begin="3600" duration="400" mode="linear"/>
+				
+				
+				<animation property="x" to="0.7" begin="4400" duration="700" mode="linear"/>
+				<animation property="y" to="0.52" begin="4400" duration="700" mode="linear"/>
+				<animation property="x" to="-0.3" begin="5100" duration="400" mode="linear"/>
+				<animation property="y" to="0.25" begin="5100" duration="400" mode="linear"/>
+				
+				<animation property="y" to="0.58" begin="6900" duration="1" mode="linear"/>
+				<animation property="y" to="0.63" begin="7000" duration="4000" mode="linear"/>
+				<animation property="x" to="0.36" begin="7000" duration="4000" mode="EaseOutCubic"/>
+				<animation property="rotation" to="1080" begin="7000" duration="4000" mode="EaseOut"/>
+				
+				
+				<animation property="opacity" to="0" begin="13000" duration="1" mode="linear"/>
+				
+			</storyboard>
+
+		</image>
+		
+	
+	
+		<image name="snoopy1" extra="static">
+			<origin>0 0</origin>
+			<pos>0.75 0.4</pos>
+			<size>0.2447917 0.3444444</size>									
+
+			<scale>1</scale>
+			<zIndex>21</zIndex>
+			<opacity>1</opacity>
+			<path>./snoopy1.png</path>
+
+		
+			<storyboard repeat="forever">
+				
+				<animation property="opacity" to="0" begin="2000" duration="300" mode="linear"/>
+				<animation property="opacity" to="1" begin="2400" duration="300" mode="linear"/>
+				<animation property="x" to="0.748" begin="3000" duration="150" autoreverse="true" mode="easeOutCubic"/>
+				
+				<animation property="opacity" to="0" begin="3500" duration="300" mode="linear"/>
+				<animation property="opacity" to="1" begin="3900" duration="300" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="5000" duration="300" mode="linear"/>
+				<animation property="opacity" to="1" begin="5400" duration="300" mode="linear"/>
+				
+				
+				<animation property="opacity" to="0" begin="5800" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="13000" duration="1" mode="linear"/>
+				
+				
+			</storyboard>
+
+		</image>
+		
+		<image name="snoopy2" extra="static">
+			<origin>0 0</origin>
+			<pos>0.65 0.4</pos>
+			<size>0.2765625 0.3546296</size>									
+
+			<scale>1</scale>
+			<zIndex>21</zIndex>
+			<opacity>0</opacity>
+			<path>./snoopy2.png</path>
+
+		
+			<storyboard repeat="forever">
+				
+				<animation property="opacity" to="1" begin="2000" duration="300" mode="linear"/>
+				<animation property="opacity" to="0" begin="2400" duration="300" mode="linear"/>
+				<animation property="x" to="0.648" begin="3000" duration="150" autoreverse="true" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="3500" duration="300" mode="linear"/>
+				<animation property="opacity" to="0" begin="3900" duration="300" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="5000" duration="300" mode="linear"/>
+				<animation property="opacity" to="0" begin="5400" duration="300" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="13000" duration="1" mode="linear"/>
+				
+			</storyboard>
+
+		</image>
+		
+		
+		
+		
+		
+		
+		<image name="snoopy3" extra="static">
+			<origin>0 0</origin>
+			<pos>0.707 0.39</pos>
+			<size>0.3083333 0.575</size>									
+
+			<scale>0.63</scale>
+			<zIndex>21</zIndex>
+			<opacity>0</opacity>
+			<path>./snoopy3.png</path>
+
+		
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="5800" duration="10" mode="linear"/>
+					
+				<animation property="opacity" to="0" begin="13000" duration="1" mode="linear"/>
+			</storyboard>
+
+		</image>
+		
+		<image name="eye" extra="static">
+			<origin>0 0</origin>
+			<pos>0.695 0.38</pos>
+			<size>0.3645833 0.6074074</size>									
+
+			<scale>0.65</scale>
+			<zIndex>21</zIndex>
+			<opacity>0</opacity>
+			<path>./eye.png</path>
+
+		
+			<storyboard repeat="forever">
+					<animation property="opacity" to="1" begin="7000" duration="150" autoreverse="true" mode="linear"/>
+					
+				<animation property="opacity" to="0" begin="13000" duration="1" mode="linear"/>
+			</storyboard>
+
+		</image>
+		
+		
+		
+		
+	</view>
+
+</theme>

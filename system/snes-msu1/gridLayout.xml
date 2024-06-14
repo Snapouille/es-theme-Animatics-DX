@@ -1,0 +1,138 @@
+<!-- SNES -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>	
+			<scale>1</scale>
+			<path>./background.jpg</path>
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+	
+	
+	
+	
+		<image name="firebrand" extra="static">
+			<size>0.5208333 0.8018519</size>	
+			<scale>2.5</scale>
+			<opacity>1</opacity>
+			<path>./firebrand.png</path>
+			<zIndex>9</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<origin>0.5 0.5</origin>
+			<pos>1.65 0.15</pos>	
+			<saturation>0.9</saturation>
+
+			<storyboard>
+				<animation property="scale" to="0.7" begin="100" duration="500" mode="Bump"/>
+				<animation property="offsetX" to="-0.76" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="0.5" begin="100" duration="500" mode="EaseIn"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		
+		<image name="fog-static" extra="true">
+			<size>0.6578125 0.1907407</size>									
+			<pos>0.2747396 0.80</pos>									
+			<scale>1</scale>
+			<zIndex>10</zIndex>
+			<opacity>0.9</opacity>								
+			<path>./fog-static.png</path>
+			<storyboard repeat="forever">
+				<animation property="y" from="0.80" to="0.801" begin="" autoreverse="true" duration="500" repeat="10" mode="linear"/>
+				<animation property="offsetX" to="0.005" begin="" autoreverse="true" duration="1000" repeat="5" mode="linear"/>
+				<animation property="opacity" from="0.9" to="0.85" begin="" autoreverse="true" duration="1000" repeat="5" mode="linear"/>
+			</storyboard>
+		</image>
+
+
+
+		<image name="fog-big" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0 0.75</pos>
+			<size>0.6380208 0.3990741</size>									
+			<scale>2</scale>
+			<zIndex>8</zIndex>
+			<opacity>1</opacity>								
+			<path>./fog-big.png</path>
+			<storyboard repeat="forever">
+				<animation property="x" from="0.8" to="0.5" begin="" autoreverse="true" duration="20000" mode="linear"/>
+				<animation property="y" from="0.75" to="0.753" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="scale" from="2" to="2.01" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.75" begin="" autoreverse="true" duration="1000" repeat="20" mode="linear"/>
+			</storyboard>
+		</image>		
+		
+		
+		<image name="eye1" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0098958 0.0194444</size>									
+			<pos>0.7940104 0.5060185</pos>									
+			<scale>0.7</scale>
+			<rotation>180</rotation>
+			<color>202020</color>
+			<zIndex>16</zIndex>
+			<opacity>0</opacity>
+			<path>./eye1.png</path>	
+			
+
+			 <storyboard repeat="forever">
+			    <animation property="opacity" from="0" to="0.6" begin="1000" duration="500" mode="linear"/>
+				<animation property="opacity" from="0.6" to="0" begin="4000" duration="500" mode="linear"/>
+				
+				<animation property="opacity" from="0" to="0" begin="6000" duration="10" mode="linear"/>
+			</storyboard>				
+			
+		</image>
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		<image name="firebrandflou" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		<image name="flou" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		<image name="grilles" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		<image name="head" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		
+		<image name="eye2" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		
+	</view>
+
+</theme>

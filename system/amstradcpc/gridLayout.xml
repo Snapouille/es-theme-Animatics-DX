@@ -1,0 +1,146 @@
+<!-- Amstrad CPC -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar-trash, background-city, background-moonmask, background-sunset, background-night, background-sun, background-beacon, background-windows1, 
+				background-windows2, background-windows3, background-moon, avatar-billy2, avatar-billy2bis, avatar-girl1, avatar-girl2, 
+				avatar-heart" extra="static">
+			<visible>false</visible>
+		</image>
+
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>	<scale>1</scale>	
+			<path>./background-grid.jpg</path>
+			<saturation>0.7</saturation>
+			<flipX>true</flipX>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+
+	
+		
+		<image name="avatar-billy1" extra="static">
+			<origin>0 0</origin>
+			<pos>1 0.23</pos>
+			<size>0.2791667 0.9638889</size>									
+			<scale>0.8</scale>
+			<opacity>1</opacity>
+			<path>./avatar-billy.png</path>
+			<zIndex>20</zIndex>
+			<storyboard>
+				<animation property="x" to="0.73" begin="" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3200" duration="10" mode="linear"/>
+				
+			</storyboard>
+		</image>
+		
+		<image name="avatar-billy1bis" extra="static">
+			<origin>0 0</origin>
+			<pos>1 0.23</pos>
+			<size>0.2791667 0.9638889</size>									
+			<scale>0.8</scale>
+			<opacity>0</opacity>
+			<path>./avatar-billybis.png</path>
+			<zIndex>20</zIndex>
+			<storyboard>
+				<animation property="x" to="0.73" begin="" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3200" duration="10" mode="linear"/>
+
+			</storyboard>
+		</image>
+		
+		
+		<image name="nuage0" extra="static">
+			<pos>0 0.05</pos>
+			<size>0.0875 0.0537037</size>									
+			<scale>1.8</scale>
+			<path>./nuage0.png</path>
+			<zIndex>14</zIndex>
+		</image>
+		
+		<image name="nuage1" extra="static">
+			<pos>-0.3 0.08</pos>
+			<size>0.0796875 0.0462963</size>									
+			<scale>1.45</scale>
+			<path>./nuage1.png</path>
+			<zIndex>14</zIndex>
+		</image>
+		
+		<image name="nuage2" extra="static">
+			<pos>-0.3 0.11</pos>
+			<size>0.125 0.0574074</size>									
+			<scale>1.03</scale>
+			<path>./nuage2.png</path>
+			<zIndex>14</zIndex>
+		</image>
+		
+		<image name="nuage3" extra="static">
+			<pos>-0.3 0.03</pos>
+			<size>0.075 0.0546296</size>									
+			<scale>1.4</scale>
+			<path>./nuage3.png</path>
+			<zIndex>14</zIndex>
+		</image>
+		
+		
+		<image name="nuage0" extra="true">
+			<storyboard repeat="forever">
+				<animation property="x" from="0.35" to="1.1" begin="" duration="50000" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		<image name="nuage2" extra="true">
+			<storyboard repeat="forever">
+				<animation property="x" from="-0.1" to="1.1" begin="31000" duration="65000" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		
+		<image name="nuage1" extra="true">
+			<storyboard repeat="forever">
+				<animation property="opacity" to="0.9" begin="19000" duration="8000" mode="linear"/>
+				<animation property="x" from="-0.1" to="1.1" begin="6000" duration="60000" mode="linear"/>
+			</storyboard>			
+		</image>
+				
+		<image name="nuage3" extra="true">
+			<storyboard repeat="forever">
+				<animation property="opacity" to="0.92" begin="50000" duration="8000" mode="linear"/>
+				<animation property="x" from="-0.1" to="1.1" begin="50000" duration="58000" mode="linear"/>
+			</storyboard>	
+		</image>
+		
+		
+		
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

@@ -20,26 +20,24 @@ originally based on: "carbon"
 			<size>0.0489583 0.0851852</size>									
 			<pos>0.1016667 0.0388889</pos>
 			<visible ifSubset="user-logo:none">false</visible>		
-			
-		<storyboard>
-			<animation property="offsetX" to="0.10" begin="6000" duration="200" mode="easeInOut"/>
-			<animation property="offsetX" to="0" begin="6200" duration="1500" mode="easeInCubic"/>
-		  </storyboard>
-			
+			<storyboard>
+				<animation property="offsetX" to="0.05" begin="6000" duration="200" mode="easeInOut"/>
+				<animation property="offsetX" to="0" begin="6200" duration="1500" mode="easeInCubic"/>
+			</storyboard>
 		</image>
    
 		<image name="fond-encadrement" extra="true">
          <origin>0 0</origin>
 		 <size>0.0458333 0.0796296</size>									
-		 <pos>0.1032292 0.0416667</pos>									
+		 <pos>0.1032292 0.0416667</pos>	
          <tile>true</tile>
          <path>./../../art/divers/white.png</path>
-		<color>${backgroundColor}</color>
+		 <color>${backgroundColor}</color>
 		 <visible ifSubset="user-logo:none">false</visible>
          <zIndex>98</zIndex>
 		 
 		 <storyboard>
-			<animation property="offsetX" to="0.10" begin="6000" duration="200" mode="easeInOut"/>
+			<animation property="offsetX" to="0.05" begin="6000" duration="200" mode="easeInOut"/>
 			<animation property="offsetX" to="0" begin="6200" duration="1500" mode="easeInCubic"/>
 		  </storyboard>
 		 
@@ -56,19 +54,21 @@ originally based on: "carbon"
 		 
 		<size>0.0458333 0.0796296</size>									
 		<pos>0.103125 0.0416667</pos>									
-
-		 
 		 
 		 <zIndex>99</zIndex>
 		 <linearSmooth>true</linearSmooth>
 		 <visible ifSubset="user-logo:none">false</visible>
 		 
 		 <storyboard>
-			<animation property="offsetX" to="0.10" begin="6000" duration="200" mode="easeInOut"/>
+			<animation property="offsetX" to="0.05" begin="6000" duration="200" mode="easeInOut"/>
 			<animation property="offsetX" to="0" begin="6200" duration="1500" mode="easeInCubic"/>
 		  </storyboard>
 		 
 	  </image>
+	  
+		<webimage name="logo-user"  extra="static" if="{global.cheevos} == true" ifSubset="user-logo:cheevos">
+         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+		</webimage>		
 
 
 
@@ -91,8 +91,11 @@ originally based on: "carbon"
 		 <backgroundColor>ff000000</backgroundColor>
 		 <visible ifSubset="user-username:none">false</visible>
 		 
+		 
+		 
+		 
 		  <storyboard>
-			<animation property="offsetX" to="0.10" begin="6000" duration="200" mode="easeInOut"/>
+			<animation property="offsetX" to="0.05" begin="6000" duration="200" mode="easeInOut"/>
 			<animation property="offsetX" to="0" begin="6200" duration="1500" mode="easeInCubic"/>
 			
 			<animation property="color" to="FFFF00" begin="6200" duration="1500" autoreverse="true" mode="linear"/>
@@ -105,5 +108,69 @@ originally based on: "carbon"
 	  
    </view>
    
+   
+   
+   
+   
+	<view name="system" ifSubset="SystemView:grid">  
+	
+		<image name="encadrement" extra="true">
+			<zIndex>5000</zIndex>
+			<origin>0.5 0.5</origin>									
+			<size>0.0416667 0.0740741</size>									
+			<pos>0.9742708 0.0833333</pos>	
+			<color>${baseColor}</color>
+			  <storyboard>
+				<animation property="opacity" to="1" begin="" duration="1" autoreverse="true" mode="linear"/>
+			  </storyboard>
+		</image>
+
+		<image name="fond-encadrement, logo-user" extra="true">
+			<zIndex>5000</zIndex>
+			<origin>0.5 0.5</origin>									
+			<size>0.0385417 0.0685185</size>									
+			<pos>0.9742708 0.0833333</pos>									
+			  <storyboard>
+				<animation property="opacity" to="1" begin="" duration="1" autoreverse="true" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+       <webimage name="logo-user"  extra="static" if="{global.cheevos} == true" ifSubset="user-logo:cheevos">
+         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+       </webimage>
+
+		<text name="nickname" extra="true">
+			<zIndex>5000</zIndex>
+			<size>0.1493958 0.0324074</size>									
+			<pos>0.801 0.0595</pos>									
+			<color>${infoColor}</color>
+			<fontPath>./../../art/fonts/flatwheat.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<alignment>right</alignment>		 
+			
+			<storyboard>
+				<animation property="color" to="FFFF00" begin="5000" duration="500" autoreverse="true" mode="linear"/>
+			  </storyboard>
+		</text>
+		
+		
+	<!-- Ligne soulignement Username	 -->
+	<image name="up_Desc_border" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>2001</zIndex>
+		<origin>0.5 0.5</origin>		
+		<size>0.2940625 0.0027778</size>									
+		<pos>0.8064063 0.0939815</pos>	
+		<visible ifSubset="user-username:none">false</visible>		
+	</image>		
+		
+
+	</view> 
+  
+  
+  
+  
+  
   
 </theme>

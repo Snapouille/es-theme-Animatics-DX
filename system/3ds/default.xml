@@ -7,7 +7,7 @@
 	
 		<image name="BG_snapLegacy" extra="true">
 			<size>0.6583333 0.6583333</size>									
-			<pos>0.3536458 0.3856481</pos>	
+			<pos>0.3536458 0.3956481</pos>	
 			<linearSmooth>true</linearSmooth>
 			  <storyboard>
 					<animation property="x" to="0.2807292" begin="" duration="10000" mode="EaseInOut"/>

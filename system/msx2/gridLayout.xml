@@ -1,0 +1,29 @@
+<!-- MSX2 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.2916667 0.7564815</size>																
+			<pos>1.05 0.55</pos>									
+			<path>./avatar.png</path>
+			<scale>0.9</scale>
+			<linearSmooth>true</linearSmooth>					
+			
+			<storyboard>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.06"/>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+
+		
+	</view>
+</theme>

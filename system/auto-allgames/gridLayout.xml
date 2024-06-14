@@ -1,0 +1,114 @@
+<!-- Auto All Games -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	
+			<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+		
+		
+		
+		<image name="sofa" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		<image name="tuyau" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1197917 0.3898148</size>									
+			<pos>0.78 -1</pos>
+			<scale>1</scale>
+			<path>./tuyau.png</path>
+			<zIndex>20</zIndex>
+		</image>
+		
+		<image name="tuyauH" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1197917 0.3898148</size>	
+			<pos>0.78 -1</pos>
+			<scale>1</scale>
+			<path>./tuyauH.png</path>
+			<zIndex>19</zIndex>
+		</image>
+		
+		<image name="mario" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1302083 0.2657407</size>									
+			<pos>0.79 0.55</pos>
+			<scale>0.77</scale>
+			<path>./mario.png</path>
+			<opacity>0</opacity>
+			<zIndex>19</zIndex>
+			
+			<storyboard>
+				<animation property="opacity" from="0" to="1" 		begin="1200" duration="300" mode="linear"/>
+				<animation property="x" to="0.78" 					begin="1200" duration="1300" mode="EaseInQuint"/>
+				<animation property="y" to="0.267" 					begin="1200" duration="1300" mode="Linear"/>
+                <animation property="scale" from="0.77" to="0.93" 	begin="1200" duration="1300" mode="EaseInQuint"/>
+			</storyboard>			
+		</image>
+		
+		<image name="tuyau" extra="true">
+			<storyboard>
+				<animation property="y" to="0.49" 	begin="700" duration="500" mode="Linear"/>
+			</storyboard>			
+		</image>
+		
+		
+		<image name="tuyauH" extra="true">
+			<storyboard>
+				<animation property="y" to="0.49" 	begin="700" duration="500" mode="Linear"/>
+			</storyboard>			
+		</image>
+		
+		
+		
+		
+		
+		<image name="ghost" extra="static">
+			<origin>0 0</origin>									
+			<size>0.5208333 0.6046296</size>
+			<pos>-1 0.28</pos>
+			<scale>0.45</scale>
+			<rotation>-30</rotation>
+			<color>FFFFFF</color>
+			<path>./ghost.png</path>
+			<zIndex>8</zIndex>
+			<storyboard repeat="forever">
+			
+				<animation property="x" to="0.235" begin="" duration="1000" mode="EaseOutQuint"/>
+				<animation property="rotation" to="-40" begin="" autoreverse="true" duration="1500" repeat="1" mode="EaseOut"/>
+				<animation property="y" to="0.2" begin="" autoreverse="true" duration="1500" repeat="1" mode="EaseIn"/>
+				<animation property="x" to="0.26" begin="1000" autoreverse="true" duration="500" repeat="3" mode="linear"/>
+			
+				<animation property="x" to="0.23" begin="4000" duration="800" mode="EaseInQuint"/>
+				<animation property="y" to="0.24" begin="3000" duration="800" mode="Linear"/>
+                <animation property="scale" from="0.45" to="0.85" begin="3000" duration="800" mode="EaseInQuint"/>
+				
+				<animation property="rotation" to="-30" begin="3800" autoreverse="true" duration="5000" repeat="3" mode="Linear"/>
+				<animation property="x" to="0.18" begin="3800" autoreverse="true" duration="3000" repeat="5" mode="Linear"/>
+				<animation property="y" to="0.25" begin="3800" autoreverse="true" duration="3200" repeat="5" mode="Linear"/>
+				
+				<animation property="x" to="1" begin="33800" duration="2800" mode="EaseIn"/>
+				<animation property="scale" to="2" begin="33800" duration="2800" mode="Linear"/>			
+				
+			</storyboard>			
+		</image>
+		
+		
+	</view>
+	
+</theme>
+

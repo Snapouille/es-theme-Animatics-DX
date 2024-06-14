@@ -1,0 +1,29 @@
+<!-- RetroBat -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<path>./background.jpg</path>
+		</image>
+	
+		<image name="fond" extra="true">
+		<visible>false</visible>
+		</image>
+	
+	
+		<image name="logoR" extra="true">
+		<visible>false</visible>
+		</image>
+		
+		<image name="logoR2" extra="true">
+		<visible>false</visible>
+		</image>
+		
+	</view>
+
+</theme>

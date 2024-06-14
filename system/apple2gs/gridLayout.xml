@@ -1,0 +1,228 @@
+<!-- Apple II GS -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>	<scale>1</scale>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+		<image name="wizard" extra="true">
+		<visible>false</visible>
+		</image>
+		
+		
+		<image name="wizard-eyes" extra="true">
+		<visible>false</visible>
+		</image>
+		
+		<image name="wizard-fist" extra="true">
+		<visible>false</visible>
+		</image>
+
+
+		<image name="wizard-hand" extra="true">
+		<visible>false</visible>
+		</image>
+		
+		
+		
+		
+		<image name="wizard-flip" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.2078125 0.43</size>									
+			<pos>0.83 0.47</pos>
+			<flipX>true</flipX>
+			<path>./wizard.gif</path>
+			<opacity>1</opacity>
+			<zIndex>19</zIndex>
+			<scale>1</scale>
+
+			<storyboard repeatAt="7000">
+				
+				<animation property="opacity" to="0" begin="7500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="9000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="10000" duration="10" mode="linear"/>
+						
+				<animation property="opacity" to="0" begin="10500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="12000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="13000" duration="10" mode="linear"/>
+
+				<animation property="opacity" to="1" begin="17000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="wizard-eyes-flip" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.2078125 0.43</size>									
+			<pos>1.1 0.47</pos>
+			<flipX>true</flipX>
+			<path>./wizard-eyes.gif</path>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+			<scale>1</scale>
+
+			<storyboard repeatAt="7000">
+				<animation property="x" to="0.83" begin="" duration="500" mode="EaseInOut"/>
+				
+				<animation property="opacity" to="1" begin="6500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="7000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="13500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="14000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="16500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="17000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="wizard-hand-flip" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.2078125 0.43</size>									
+			<pos>1.1 0.47</pos>
+			<flipX>true</flipX>
+			<path>./wizard-hand.gif</path>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+			<scale>1</scale>
+
+			<storyboard repeatAt="7000">
+				<animation property="x" to="0.83" begin="" duration="500" mode="EaseInOut"/>
+				
+				<animation property="opacity" to="1" begin="7500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="10500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="wizard-fist-flip" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.2078125 0.43</size>									
+			<pos>1.1 0.47</pos>
+			<flipX>true</flipX>
+			<path>./wizard-fist-true.gif</path>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+			<scale>1</scale>
+
+			<storyboard repeatAt="7000">
+				<animation property="x" to="0.83" begin="" duration="500" mode="EaseInOut"/>
+				
+				<animation property="opacity" to="1" begin="9000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="10000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="12000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+
+		
+		
+		<image name="avatar-ghost" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0484375 0.1194444</size>									
+			<pos>0.33 0.33</pos>									
+			<opacity>0</opacity>
+			<path>./avatar-ghost.png</path>
+			<zIndex>13</zIndex>
+			<storyboard repeatAt="4680">
+				<animation property="opacity" from="0" to="0.4" begin="1400" duration="2600" mode="linear"/>
+				<animation property="y" to="0.1" begin="1400" duration="2600" mode="linear"/>
+				<animation property="rotation" to="3" begin="1400" duration="325" autoreverse="true" repeat="4" mode="linear"/>
+				<animation property="opacity" to="0.5" begin="4170" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4340" duration="10" mode="linear"/>
+				<animation property="opacity" to="0.5" begin="4510" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4680" duration="10" mode="linear"/>
+				<animation property="opacity" to="0.5" begin="4850" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5020" duration="10" mode="linear"/>
+				<animation property="opacity" to="0.5" begin="5190" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5360" duration="10" mode="linear"/>
+				<animation property="offsetY" to="0.005" begin="4680" autoreverse="true" repeat="1" duration="340" mode="linear"/>
+				<animation property="rotation" to="3" begin="4680"    autoreverse="true" repeat="2" duration="170" mode="linear"/>
+				
+			</storyboard>
+		</image>
+		
+		<image name="avatar-ghost-2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0484375 0.1194444</size>									
+			<pos>0.33 0.33</pos>									
+			<opacity>0</opacity>
+			<path>./avatar-ghost-2.png</path>
+			<zIndex>13</zIndex>
+			<storyboard repeatAt="4680">
+				<animation property="y" to="0.1" begin="1400" duration="3000" mode="linear"/>
+				<animation property="opacity" to="0" begin="4170" duration="10" mode="linear"/>
+				<animation property="opacity" to="0.5" begin="4340" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4510" duration="10" mode="linear"/>
+				<animation property="opacity" to="0.5" begin="4680" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4850" duration="10" mode="linear"/>
+				<animation property="opacity" to="0.5" begin="5020" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5190" duration="10" mode="linear"/>
+				<animation property="opacity" to="0.5" begin="5360" duration="10" mode="linear"/>
+				<animation property="offsetY" to="0.005" begin="4680" autoreverse="true" repeat="1" duration="340" mode="linear"/>
+				<animation property="rotation" to="3" begin="4680"    autoreverse="true" repeat="2" duration="170" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="ghost2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0442708 0.0740741</size>									
+			<pos>0.55 0.25</pos>									
+			<path>./ghost2.gif</path>
+			<opacity>0</opacity>
+			<zIndex>19</zIndex>
+			<scale>1</scale>
+
+			<storyboard repeatAt="4380">
+				<animation property="opacity" from="0" to="0.4" begin="1400" duration="2600" mode="linear"/>
+				<animation property="y" to="0.13" begin="1400" duration="2600" mode="linear"/>
+				<animation property="rotation" to="3" begin="1400" duration="325" autoreverse="true" repeat="4" mode="linear"/>
+				<animation property="offsetY" to="0.005" begin="4380" autoreverse="true" repeat="1" duration="340" mode="linear"/>
+				<animation property="rotation" to="3" begin="4380"    autoreverse="true" repeat="2" duration="170" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="fog" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0.15</pos>
+			<size>0.3427083 0.2240741</size>	
+			<scale>4</scale>
+			<zIndex>15</zIndex>
+			<opacity>0.8</opacity>								
+			<path>./fog.png</path>
+			<storyboard repeat="forever">
+				<animation property="x" from="0" to="-0.35" begin="" autoreverse="true" duration="20000" mode="linear"/>
+				<animation property="y" from="0.15" to="0.153" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="scale" from="4" to="4.01" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.6" begin="" autoreverse="true" duration="1000" repeat="20" mode="linear"/>
+			</storyboard>
+		</image>
+
+		
+	</view>
+
+</theme>

@@ -1,0 +1,25 @@
+<!-- MSX 2 Turbo-->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+	
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.3046875 0.5555556</size>																
+			<pos>1.05 0.68</pos>									
+			<path>./avatar.png</path>
+			<rotation>10</rotation>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+		</image>
+	
+	
+		
+	</view>
+</theme>

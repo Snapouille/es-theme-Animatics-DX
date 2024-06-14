@@ -1,0 +1,63 @@
+<!-- Archimedes -->
+
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+	<image name="avatar" extra="static">
+		<pos>0 0</pos>
+		<size>1.01 0.97</size>
+		<size ifHelpPrompts="false">1.01 1.01</size>
+		<zIndex>8</zIndex>
+		<storyboard repeat="forever">
+			<animation property="offsetY" to="-0.003" begin="" duration="150" autoreverse="true" mode="EaseInOut"/>
+		</storyboard>		
+	</image>
+	
+
+	<image name="BG_snapLegacy" extra="true">
+		<size>2.5 2.5</size>									
+		<pos>0.2151042 -0.2351852</pos>	
+		<storyboard>
+			<animation property="pos" to="0.3526042 1" begin="" duration="25000" mode="linear"/>
+			<animation property="rotation" from="10" to="-20" begin="" autoreverse="true" duration="8000" mode="EaseInOut"/>
+			<animation property="rotation" to="0" begin="18000" duration="17000" mode="EaseInOut"/>
+	    </storyboard>
+	</image>
+
+	<image name="cloud" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0890625 0.0351852</size>									
+			<pos>1.1 0.55</pos>									
+			<path>./cloud.png</path>
+			<zIndex>7</zIndex>
+
+			<storyboard repeat="5">
+        		<animation property="x" to="-0.4" begin="18000" duration="10000" mode="linear"/>
+				<animation property="scale" to="8" begin="19000" duration="9000" mode="linear"/>
+
+			</storyboard>
+	</image>
+	
+	<image name="cloud2" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.05 0.03</size>									
+			<pos>-1 0.1</pos>									
+			<path>./cloud.png</path>
+			<flipY>true</flipY>
+			<flipX>true</flipX>
+			<zIndex>7</zIndex>
+
+			<storyboard repeat="5">
+        		<animation property="x" to="1.4" begin="25000" duration="10000" mode="linear"/>
+				<animation property="scale" to="8" begin="25000" duration="10000" mode="linear"/>
+				<animation property="y" to="0.4" begin="25000" duration="10000" mode="linear"/>
+			</storyboard>
+		</image>
+
+
+</view>
+
+</theme>

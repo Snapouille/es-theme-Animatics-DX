@@ -1,0 +1,82 @@
+<!-- Nintendo NES -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.51 0.5</pos>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+
+		<image name="dog" extra="true">
+			<origin>0 0</origin>									
+			<pos>0.73 1.1</pos>
+			<size>0.2098958 0.5648148</size>									
+			<zIndex>12</zIndex>
+			<opacity>1</opacity>
+			<path>./dog.png</path>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" to="-0.81" begin="200" duration="700" mode="EaseOut"/>
+				<animation property="offsetY" to="0.81" begin="5000" duration="1000" mode="EaseIn"/>
+				<animation property="offsetY" to="-0.81" begin="11000" duration="700" mode="EaseOut"/>
+				<animation property="offsetY" to="0.81" begin="15000" duration="1000" mode="EaseIn"/>
+				<animation property="offsetY" to="0.81" begin="20000" duration="1000" mode="EaseIn"/>
+			</storyboard>			
+		</image>
+		
+		
+		
+		<image name="bird" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>-1 0.2</pos>
+			<size>0.1395833 0.1944444</size>									
+			<path>./avatar2.gif</path>
+			<zIndex>11</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" from="-0.2" to="1.2" begin="3000" duration="4500" mode="linear"/>
+				<animation property="rotation" to="1" begin="3000" duration="100" autoreverse="true" repeat="20" mode="linear"/>
+				<animation property="y" to="0.14" begin="3000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.22" begin="4000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.18" begin="5000" duration="500" mode="linear"/>	
+				<animation property="y" to="0.3" begin="5500" duration="1000" mode="EaseOut"/>	
+				<animation property="y" to="0.15" begin="3500" duration="1000" mode="linear"/>	
+				
+				<animation property="y" to="0.15" begin="21000" duration="10" mode="linear"/>	
+			</storyboard>				
+		</image>
+		
+		
+		<image name="bird2" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>1.2 0.25</pos>
+			<size>0.1395833 0.1944444</size>									
+			<path>./avatar2.gif</path>
+			<scale>0.7</scale>
+			<flipX>true</flipX>
+			<zIndex>11</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" from="1.2" to="-0.2" begin="15000" duration="5500" mode="linear"/>
+				<animation property="rotation" to="1" begin="15000" duration="100" autoreverse="true" repeat="25" mode="linear"/>
+				<animation property="y" to="0.3" begin="15000" duration="1000" mode="Bump"/>
+				<animation property="y" to="0.15" begin="16000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.2" begin="17000" duration="500" mode="linear"/>	
+				<animation property="y" to="0.11" begin="17500" duration="1000" mode="EaseIn"/>	
+				<animation property="y" to="0.21" begin="18500" duration="1000" mode="linear"/>	
+				
+				<animation property="y" to="0.3" begin="22000" duration="10" mode="linear"/>	
+			</storyboard>				
+		</image>
+		
+
+		
+	</view>
+</theme>

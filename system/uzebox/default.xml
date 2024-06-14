@@ -1,0 +1,53 @@
+<!-- uzeBox  -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.45 0.5</pos>	
+			<scale>1.1</scale>
+			  <storyboard>
+				<animation property="offsetX" to="0.05" begin="" duration="2500" mode="EaseInOut"/>
+				<animation property="scale" to="1" begin="" duration="15000" autoreverse="true" repeat="forever" mode="Linear"/>
+			  </storyboard>
+		</image>
+	
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.1083333 0.6472222</size>									
+			<pos>0 0.5</pos>									
+			<path>./avatar.png</path>
+			<flipX>true</flipX>
+			<zIndex>110</zIndex>
+
+			<storyboard>
+				<animation property="offsetX" to="0.6" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="avatar2" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.1083333 0.6472222</size>									
+			<pos>0.6 0.5</pos>									
+			<path>./avatar2.png</path>
+			<flipX>true</flipX>
+			<opacity>0</opacity>
+			<zIndex>120</zIndex>
+
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="1000" duration="5000" mode="linear"/>
+				<animation property="opacity" to="0" begin="7000" duration="5000" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+	</view>
+
+</theme>
+
+

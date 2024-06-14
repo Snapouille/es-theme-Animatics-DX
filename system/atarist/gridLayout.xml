@@ -1,0 +1,51 @@
+<!-- Atari ST -->
+
+<theme>
+<formatVersion>7</formatVersion>
+	
+<view name="system">
+	
+	<image name="girl, avatar2-light, avatar2-candle, avatar3-eye, background-torch-left, background-light, background-torch-right" extra="static">
+		<visible>false</visible>
+	</image>
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	
+			<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			<path>./background.jpg</path>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+	
+
+	<image name="boy" extra="static">
+		<size>0.26875 0.8324074</size>									
+		<pos>0.7 0.64</pos>									
+		<scale>1</scale>
+		<path>./avatar-boy.png</path>
+		<zIndex>10</zIndex>
+		<flipX>true</flipX>
+		
+			<storyboard>
+				<animation property="offsetX" to="0.05" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.06"/>
+				<animation property="offsetX" to="0.05" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+	</image>
+		
+		
+		
+	
+	
+</view>
+</theme>
+

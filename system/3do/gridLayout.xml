@@ -1,0 +1,274 @@
+<!-- 3dO -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		
+		
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+				
+				
+					<animation property="scale" to="1.1" begin="8200" autoreverse="true" repeat="12" duration="50" mode="linear"/>
+					
+					<animation property="offsetX" to="-0.001" begin="8200" autoreverse="true" repeat="4" duration="50" mode="linear"/>
+					<animation property="offsetX" to="0.001" begin="8600" autoreverse="true" repeat="4" duration="50" mode="linear"/>
+					<animation property="offsetY" to="-0.0005" begin="9000" autoreverse="true" repeat="4" duration="50" mode="linear"/>
+					
+					<animation property="offsetY" to="0.001" begin="8200" autoreverse="true" repeat="4" duration="50" mode="linear"/>
+					<animation property="offsetY" to="-0.001" begin="8600" autoreverse="true" repeat="4" duration="50" mode="linear"/>
+					<animation property="offsetY" to="0.0005" begin="9000" autoreverse="true" repeat="4" duration="50" mode="linear"/>
+					
+					<animation property="rotation" to="0.4" begin="8200" autoreverse="true" duration="200" mode="linear"/>
+					<animation property="rotation" to="-0.3" begin="8600" autoreverse="true" duration="200" mode="linear"/>
+					<animation property="rotation" to="0.2" begin="9000" autoreverse="true" duration="200" mode="linear"/>
+					
+			  </storyboard>
+		</image>
+		
+		
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.2473958 0.8333333</size>									
+			<pos>1.05 0.56</pos>									
+			<path>./avatar.png</path>
+			<scale>0.92</scale>
+			<color>FFFFFFFF</color>
+		    <zIndex>1900</zIndex>
+			<storyboard repeatAt="1000">
+				<animation property="offsetX" to="-0.2" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="0" begin="1000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="13500" duration="10" mode="linear"/>
+				
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false" repeatAt="1000">
+				<animation property="offsetY"  to="0.1"/>
+				<animation property="offsetX" to="-0.2" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="0" begin="1000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="13500" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-shake" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.2473958 0.8333333</size>									
+			<pos>1.05 0.56</pos>									
+			<path>./avatar.gif</path>
+			<scale>0.92</scale>
+		    <opacity>0</opacity>
+		    <zIndex>1900</zIndex>
+			<color>FFFFFFFF</color>
+			<storyboard repeatAt="1000">
+				<animation property="offsetX" to="-0.2" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="1" begin="1000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13500" duration="10" mode="linear"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false" repeatAt="1000">
+				<animation property="offsetY"  to="0.1"/>
+				<animation property="offsetX" to="-0.2" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="1" begin="1000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13500" duration="10" mode="linear"/>				
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="lester" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		<image name="lester_hand" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		
+		<image name="rock1" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0239583 0.0222222</size>									
+			<pos>0.739375 -0.0324074</pos>									
+			<path>./rock1.png</path>
+			<opacity>1</opacity>
+			<zIndex>3001</zIndex>
+			<storyboard>
+				<animation property="y" to="0.996" begin="9500" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="rock2" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.05625 0.075</size>									
+			<pos>0.758125 -0.049537</pos>									
+			<path>./rock2.png</path>
+			<opacity>1</opacity>
+			<zIndex>3001</zIndex>
+			<storyboard>
+				<animation property="y" to="0.9782407" begin="10100" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="rock3" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0276042 0.0527778</size>									
+			<pos>0.7521354 -0.0467593</pos>									
+			<path>./rock3.png</path>
+			<opacity>1</opacity>
+			<zIndex>3001</zIndex>
+			<storyboard>
+				<animation property="y" to="0.925463" begin="10500" duration="700" mode="linear"/>
+				<animation property="pos" to="0.82 1.0273148" begin="11200" duration="1000" mode="linear"/>
+				<animation property="rotation" to="720" begin="11200" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		<image name="rock4" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0239583 0.0222222</size>									
+			<pos>0.19 -0.0416667</pos>									
+			<path>./rock1.png</path>
+			<color>202020</color>
+			<opacity>1</opacity>
+			<zIndex>10</zIndex>
+			<flipX>true</flipX>
+
+			<storyboard>
+				<animation property="y" to="1" begin="10000" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="rock5" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.05625 0.075</size>									
+			<pos>0.195 -0.0416667</pos>									
+			<path>./rock2.png</path>
+			<opacity>1</opacity>
+			<zIndex>10</zIndex>
+			<flipX>true</flipX>
+			<scale>0.55</scale>
+
+			<storyboard>
+				<animation property="y" to="1" begin="10600" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="rock6" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0239583 0.0222222</size>									
+			<pos>0.19 -0.0416667</pos>									
+			<path>./rock3.png</path>
+			<color>202020</color>
+			<opacity>1</opacity>
+			<zIndex>10</zIndex>
+			<flipX>true</flipX>
+
+			<storyboard>
+				<animation property="y" to="1" begin="11000" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="rock7" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0239583 0.0222222</size>									
+			<pos>0.13 -0.0416667</pos>									
+			<path>./rock1.png</path>
+			<opacity>1</opacity>
+			<zIndex>10</zIndex>
+			<rotation>30</rotation>
+
+			<storyboard>
+				<animation property="y" to="1" begin="12000" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="rock8" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.05625 0.075</size>									
+			<pos>0.095 -0.0416667</pos>									
+			<path>./rock2.png</path>
+			<color>202020</color>
+			<opacity>1</opacity>
+			<zIndex>10</zIndex>
+			<scale>0.7</scale>
+			<rotation>-30</rotation>
+
+			<storyboard>
+				<animation property="y" to="1" begin="12600" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="rock9" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0239583 0.0222222</size>									
+			<pos>0.09 -0.0416667</pos>									
+			<path>./rock3.png</path>
+			<color>202020</color>
+			<opacity>1</opacity>
+			<zIndex>10</zIndex>
+			<scale>1.3</scale>
+			<rotation>30</rotation>
+
+			<storyboard>
+				<animation property="y" to="1" begin="10800" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="rock10" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0239583 0.0222222</size>									
+			<pos>0.085 -0.0416667</pos>									
+			<path>./rock1.png</path>
+			<color>202020</color>
+			<opacity>1</opacity>
+			<zIndex>10</zIndex>
+			<rotation>-30</rotation>
+
+			<storyboard>
+				<animation property="y" to="1" begin="11300" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="rock11" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.05625 0.075</size>									
+			<pos>0.11 -0.0416667</pos>									
+			<path>./rock2.png</path>
+			<opacity>1</opacity>
+			<zIndex>10</zIndex>
+			<scale>0.8</scale>
+			<rotation>30</rotation>
+
+			<storyboard>
+				<animation property="y" to="1" begin="11800" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="rock12" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0239583 0.0222222</size>									
+			<pos>0.125 -0.0416667</pos>									
+			<path>./rock3.png</path>
+			<opacity>1</opacity>
+			<zIndex>10</zIndex>
+			<scale>1.3</scale>
+			<rotation>-30</rotation>
+
+			<storyboard>
+				<animation property="y" to="1" begin="13500" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		
+	</view>
+
+</theme>

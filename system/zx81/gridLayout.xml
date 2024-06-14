@@ -1,0 +1,81 @@
+<!-- ZX81 -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+		<flipX>true</flipX>
+		</image>
+	
+	
+	
+		<image name="avatar-ship" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		
+		<image name="avatar-propulsion" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		
+		<image name="asteroides_0" extra="static">
+			<origin>0 0</origin>									
+			<size>1.271875 0.6509259</size>			
+			<pos>-0.3 0.45</pos>
+			<scale>1</scale>
+			<rotation>15</rotation>
+			<opacity>1</opacity>
+			<path>./asteroides_0.png</path>
+			<zIndex>20</zIndex>
+			
+			<storyboard repeat="forever">
+					<animation property="x" to="0" begin="" autoreverse="true" duration="15000" mode="linear"/>
+					<animation property="rotation" to="30" begin="" autoreverse="true" duration="30000" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="asteroides_1" extra="static">
+			<origin>0 0</origin>									
+			<size>1.271875 0.6509259</size>			
+			<pos>0 0.45</pos>
+			<scale>1</scale>
+			<rotation>5</rotation>
+			<opacity>1</opacity>
+			<path>./asteroides_1.png</path>
+			<zIndex>19</zIndex>
+			
+			<storyboard repeat="forever">
+					<animation property="x" to="-0.2" begin="" autoreverse="true" duration="30000" mode="linear"/>
+					<animation property="y" to="0.55" begin="" autoreverse="true" duration="25000" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="asteroides_2" extra="static">
+			<origin>0 0</origin>									
+			<size>1.271875 0.6509259</size>			
+			<pos>0 0.45</pos>
+			<scale>1</scale>
+			<opacity>1</opacity>
+			<path>./asteroides_2.png</path>
+			<zIndex>19</zIndex>
+			
+			<storyboard repeat="forever">
+					<animation property="x" to="0.1" begin="" autoreverse="true" duration="25000" mode="linear"/>
+					<animation property="y" to="0.35" begin="" autoreverse="true" duration="25000" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+	</view>
+
+</theme>

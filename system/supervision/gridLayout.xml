@@ -1,0 +1,149 @@
+<!-- SuperVision -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 1</pos>	
+			<scale>1</scale>	
+			<saturation>0.7</saturation>
+			<zIndex>2</zIndex>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+					<animation property="offsetY" to="-0.5" begin="" duration="800" mode="EaseInOut"/>
+			  </storyboard>
+		</image>
+
+	
+	
+	
+	
+	
+	
+	
+		<image name="avatar" extra="true">	
+			<origin>0 0</origin>									
+			<size>0.29375 0.3537037</size>									
+			<pos>1.3 0.11</pos>
+			<scale>0</scale>
+			<rotation>0</rotation>
+			<opacity>0</opacity>
+			<zIndex>12</zIndex>
+			<saturation>0</saturation>
+			
+			<storyboard repeat="forever">
+			
+					<animation property="opacity" from="0" to="1" begin="100" duration="10" mode="linear"/>
+					<animation property="scale" from="0" to="0.85" begin="100" duration="1400" mode="EaseIn"/>
+					<animation property="x" to="0.68" begin="100" duration="1400" mode="EaseIn"/>
+					<animation property="y" to="0.3" begin="100" duration="1400" mode="EaseIn"/>
+					
+					<animation property="saturation" to="1" begin="2500" duration="2000" mode="linear"/>
+					<animation property="x" to="0.67" begin="1500" duration="2000" mode="EaseOut"/>
+					<animation property="scale" from="0.85" to="0.9" begin="1500" duration="2000" mode="Linear"/>
+					<animation property="rotation" from="0" to="16" begin="1500" duration="12500" mode="Linear"/>
+					
+					<animation property="x" to="0.70" begin="3500" duration="10500" mode="Linear"/>
+					<animation property="y" to="0.35" begin="3500" duration="10500" mode="Linear"/>
+					<animation property="scale" from="0.9" to="1" begin="3500" duration="10500" mode="Linear"/>
+					
+					<animation property="scale" to="10" begin="14000" duration="2000" mode="EaseIn"/>
+					<animation property="x" to="-1" begin="14000" duration="1000" mode="EaseOut"/>
+					<animation property="opacity" to="0" begin="15000" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="20000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+	
+	
+	
+	
+	
+	
+	
+	
+		<image name="avatar2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.584375 0.3814815</size>									
+			<pos>0 0.09</pos>
+			<path>./avatar2.png</path>
+			<opacity>0</opacity>
+			<zIndex>1</zIndex>
+			<storyboard repeat="forever">
+			
+					<animation property="opacity" from="0" to="1" begin="" duration="1500" mode="linear"/>
+					<animation property="x" to="0.6" begin="" duration="50000" mode="EaseIn"/>
+					<animation property="y" to="-0.1" begin="" duration="50000" mode="EaseIn"/>
+					<animation property="opacity" from="1" to="0" begin="47000" duration="3000" mode="linear"/>
+					
+			</storyboard>
+		</image>
+		
+		<image name="avatar2bis" extra="static">
+			<origin>0 0</origin>									
+			<size>0.584375 0.3814815</size>									
+			<pos>0.5 0.2</pos>
+			<path>./avatar2.png</path>
+			<opacity>0</opacity>
+			<zIndex>1</zIndex>
+			<storyboard repeat="forever">
+			
+					<animation property="opacity" from="0" to="1" begin="" duration="1500" mode="linear"/>
+					<animation property="x" to="1.5" begin="" duration="40000" mode="EaseIn"/>
+					<animation property="y" to="0.1" begin="" duration="50000" mode="EaseIn"/>
+					<animation property="opacity" from="1" to="0" begin="47000" duration="3000" mode="linear"/>
+					
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="avatar3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.584375 0.3814815</size>	
+			<pos>-0.5 0.09</pos>
+			<path>./avatar2.png</path>
+			<opacity>0</opacity>
+			<zIndex>1</zIndex>
+		
+			<storyboard repeat="forever">
+			
+					<animation property="opacity" from="0" to="1" begin="" duration="8000" mode="linear"/>
+					<animation property="x" to="1" begin="" duration="90000" mode="EaseIn"/>
+					<animation property="y" to="-0.5" begin="40000" duration="50000" mode="EaseIn"/>
+					<animation property="opacity" from="1" to="0" begin="87000" duration="3000" mode="linear"/>
+					
+			</storyboard>
+		</image>
+
+
+		<image name="avatar4" extra="static">
+			<origin>0 0</origin>									
+			<size>0.584375 0.3814815</size>	
+			<pos>-1 0.39</pos>
+			<path>./avatar2.png</path>
+			<opacity>0</opacity>
+			<zIndex>1</zIndex>
+		
+			<storyboard repeat="forever">
+			
+					<animation property="opacity" from="0" to="1" begin="" duration="8000" mode="linear"/>
+					<animation property="x" to="1" begin="" duration="80000" mode="EaseIn"/>
+					<animation property="y" to="0.3" begin="40000" duration="50000" mode="EaseIn"/>
+					<animation property="opacity" from="1" to="0" begin="87000" duration="3000" mode="linear"/>
+					
+			</storyboard>
+		</image>
+
+		
+		
+	</view>
+
+</theme>

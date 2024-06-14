@@ -1,0 +1,22 @@
+<!-- Sammy -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		
+		
+		<image name="BG_snapLegacy" extra="true">
+			<path>./background.jpg</path>
+		</image>
+		
+		
+		<image name="bec" extra="static">
+			<visible>false</visible>
+		</image>
+		
+		
+	</view>
+
+</theme>

@@ -1,0 +1,40 @@
+<!-- X68000 -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+	
+		<image name="avatar-girl" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.3171875 0.7407407</size>									
+			<pos>1.05 0.55</pos>									
+			<path>./avatar-girl.png</path>
+			<scale>0.9</scale>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.06"/>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

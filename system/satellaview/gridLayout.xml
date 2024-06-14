@@ -1,0 +1,76 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+		
+		
+		
+		
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	
+			<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+		
+		
+		
+		
+		
+
+		<image name="avatar" extra="static">
+			<size>0.2385417 0.6444444</size>									
+			<zIndex>21</zIndex>
+			<origin>0.5 0.5</origin>
+			<pos>1.05 0.55</pos>									
+			<path>./avatar.png</path>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.2" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+		</image>
+
+		<!-- Arc en ciel -->
+		<!-- <image name="avatar2" extra="static"> -->
+			<!-- <origin>0 0</origin> -->
+			<!-- <pos>0 0.05</pos> -->
+			<!-- <maxSize>1 1</maxSize> -->
+			<!-- <path>./avatar2.png</path> -->
+			<!-- <linearSmooth>true</linearSmooth> -->
+			<!-- <color>FFFFFFB3</color> -->
+			<!-- <zIndex>18</zIndex> -->
+		<!-- </image> -->
+
+		<!-- Sprites -->
+		<image name="avatar3" extra="static">
+			<origin>0 0</origin>
+			<pos>0 -0.115</pos>
+			<maxSize>1 1</maxSize>
+			<path>./avatar3.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>8</zIndex>
+		</image>
+
+		<!-- Nuages -->
+		<image name="avatar4" extra="static">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<maxSize>1 1</maxSize>
+			<path>./avatar4.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>10</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="scale" to="1.03" begin="100" duration="10000" autoreverse="true" mode="EaseInOut"/>
+			</storyboard>
+			
+		</image>
+
+	</view>
+</theme>

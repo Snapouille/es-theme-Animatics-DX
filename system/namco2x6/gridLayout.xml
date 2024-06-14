@@ -1,0 +1,36 @@
+<!-- Namco 2x6 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	
+			<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>	
+			<pos>0.41 0.8</pos>	
+			<scale>0.55</scale>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>6</zIndex>
+			<storyboard>
+				
+        		<animation property="x" to="0.83" begin="" duration="600" mode="linear"/>
+				<animation property="scale" to="0.8" begin="" duration="600" mode="linear"/>
+        		<animation property="y" to="0.51" begin="" duration="600" mode="Bump"/>
+				
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>

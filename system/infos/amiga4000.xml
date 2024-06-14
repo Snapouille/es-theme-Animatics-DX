@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The A4000 was the successor to the A2000 and A3000 computers. The machine was available in several models equipped respectively with a Motorola 68EC030 and a Motorola 68040, as well as the A4000T, which was a tower version with a different internal architecture. The last units produced by Escom after their takeover of Commodore included a 68060 processor running at 50Mhz. </text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>L'A4000 était le successeur des ordinateurs A2000 et A3000. La machine était disponible en plusieurs modèles équipés respectivement d'un Motorola 68EC030 et d'un Motorola 68040 ainsi que l'A4000T qui était une version en tour à l'architecture interne différente et dont les dernières unités produites par Escom après leur rachat de Commodore incluaient un processeur 68060 cadencé à 50Mhz. </text>
+</text>
+
+</view>
+</theme>

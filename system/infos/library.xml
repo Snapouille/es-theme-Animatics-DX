@@ -10,17 +10,17 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-"<text>Place your magazines and videos in the ""library"" directory.
+"<text>Place your magazines and videos in the "library" directory.
 Acceptable extensions: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>"
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-"<text>Placez dans le répertoire ""library"" vos magazines et vidéos.
-Extensions acceptables : jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>"
+"<text>Placez dans le répertoire "library" vos magazines et vidéos afin de pouvoir les consulter ici. Voici les différentes extensions qui sont autorisées : 
+jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>"
 </text>
 
 <text name="system_description" extra="true" lang="de">
-"<text>Legen Sie Ihre Zeitschriften und Videos in das Verzeichnis ""library"".
+"<text>Legen Sie Ihre Zeitschriften und Videos in das Verzeichnis "library".
 Akzeptable Erweiterungen: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>"
 </text>
 
@@ -30,7 +30,7 @@ Extensiones aceptables: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, 
 </text>
 
 <text name="system_description" extra="true" lang="it">
-"<text>Inserire le riviste e i video nella directory ""library"".
+"<text>Inserire le riviste e i video nella directory "library".
 Estensioni accettabili: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>"
 </text>
 
@@ -45,7 +45,7 @@ Aanvaardbare extensies: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, 
 </text>
 
 <text name="system_description" extra="true" lang="pl">
-"<text>Czasopisma i filmy umieszczaj w katalogu ""library"".
+"<text>Czasopisma i filmy umieszczaj w katalogu "library".
 Akceptowane rozszerzenia: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>"
 </text>
 
@@ -55,7 +55,7 @@ Extensões aceitáveis: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, 
 </text>
 
 <text name="system_description" extra="true" lang="ru">
-"<text>Поместите ваши журналы и видео в каталог ""library"".
+"<text>Поместите ваши журналы и видео в каталог "library".
 Приемлемые расширения: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>"
 </text>
 

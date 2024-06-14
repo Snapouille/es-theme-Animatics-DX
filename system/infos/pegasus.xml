@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Aamber Pegasus is a home computer first produced in New Zealand. Introduction of the Apple II computer into the New Zealand market, and its subsequent heavy educational discounting was the final nail in the coffin for Technosys and the Aamber Pegasus computer. Total production numbers are unknown, but it is thought "around one hundred" were sold.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>L'Aamber Pegasus est un ordinateur domestique produit pour la première fois en Nouvelle-Zélande. L'introduction de l'ordinateur Apple II sur le marché néo-zélandais, et la forte remise éducative qui s'en est suivie, a été le dernier clou dans le cercueil de Technosys et de l'ordinateur Aamber Pegasus. Le nombre total d'ordinateurs produits n'est pas connu, mais on pense qu'une centaine d'entre eux ont été vendus.</text>
+</text>
+
+
+</view>
+</theme>

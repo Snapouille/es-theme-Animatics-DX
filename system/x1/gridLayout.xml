@@ -1,0 +1,195 @@
+<!-- SHARP x1 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		<image name="avatar-girl" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3505208 0.7277778</size>									
+			<pos>1.08 0.2075</pos>
+			<pos ifHelpPrompts="false">1.08 0.28</pos>
+			<scale>1</scale>
+			<opacity>1</opacity>
+			<path>./avatar-girl.png</path>
+			<zIndex>18</zIndex>
+			
+			<storyboard repeatAt="1000">
+				<animation property="offsetX" to="-0.415" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" begin="5000" to="0" duration="10" mode="linear"/>
+				<animation property="opacity" begin="11000" to="1" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-girl2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3505208 0.7277778</size>	
+			<pos>1.08 0.2075</pos>
+			<pos ifHelpPrompts="false">1.08 0.28</pos>
+			<scale>1</scale>
+			<opacity>0</opacity>
+			<path>./avatar-girl2.png</path>
+			<zIndex>18</zIndex>
+			
+			<storyboard repeatAt="1000">
+				<animation property="offsetX" to="-0.415" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" begin="5000" to="1" duration="10" mode="linear"/>
+				<animation property="opacity" begin="11000" to="0" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="avatar-enemy" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3255208 0.4453704</size>									
+			<pos>0.1 -0.1</pos>
+			<scale>0.1</scale>
+			<opacity>1</opacity>
+			<path>./avatar-enemy.png</path>
+			<zIndex>8</zIndex>
+			<storyboard repeat="forever" >
+				<animation property="y" to="0.13" begin="3500" duration="1500" mode="EaseOut"/>
+				<animation property="x" to="0.27" begin="3500" duration="1500" mode="EaseOut"/>
+				<animation property="x" to="0.1" begin="5000" duration="2000" autoreverse="true" repeat="2" mode="Linear"/>
+				<animation property="y" to="0.33" begin="7000" duration="1500" mode="EaseOut"/>
+				<animation property="y" to="0.23" begin="8500" duration="1500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" begin="10800" duration="10" mode="Linear"/>
+				
+				<animation property="opacity" to="0" begin="13000" duration="300" mode="Linear"/>
+				
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-ship" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2661458 0.5009259</size>									
+			<pos>-0.1 0.63</pos>
+			<scale>0.12</scale>
+			<opacity>1</opacity>
+			<path>./avatar-ship.png</path>
+			<zIndex>8</zIndex>
+			<storyboard repeat="forever" >
+				
+				<animation property="x" to="0.27" begin="5000" duration="800" mode="Linear"/>
+				<animation property="x" to="0.1" begin="5800" duration="1600" autoreverse="true" mode="Linear"/>
+				<animation property="x" to="0.27" begin="7400" duration="1600" autoreverse="true" mode="Linear"/>
+				
+				<animation property="x" to="0.15" begin="10600" duration="1600" mode="Linear"/>
+				
+				<animation property="y" to="-0.5" begin="11200" duration="2000" mode="EaseOut"/>
+				<animation property="scale" to="0.5" begin="11200" duration="1000" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" begin="13000" duration="300" mode="Linear"/>
+				
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-shoot" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0489583 0.1972222</size>									
+
+			<origin>-2.2 -1</origin>
+			<pos>-0.1 0.63</pos>
+			<scale>0.12</scale>
+			<opacity>1</opacity>
+			<path>./avatar-shoot.png</path>
+			<zIndex>7</zIndex>
+			<storyboard repeat="forever" >
+				
+				<animation property="y" to="0.63" begin="6300" duration="10" mode="Linear"/>
+				<animation property="x" to="0.205" begin="6300" duration="10" mode="Linear"/>
+				<animation property="opacity" to="1" begin="6390" duration="10" mode="Linear"/>
+				<animation property="y" to="-0.1" begin="6400" duration="800" mode="Linear"/>
+				<animation property="opacity" to="0" begin="7200" duration="10" mode="Linear"/>
+				
+				<animation property="y" to="0.63" begin="7300" duration="10" mode="Linear"/>
+				<animation property="x" to="0.11" begin="7300" duration="10" mode="Linear"/>
+				<animation property="opacity" to="1" begin="7390" duration="10" mode="Linear"/>
+				<animation property="y" to="-0.1" begin="7400" duration="800" mode="Linear"/>
+				<animation property="opacity" to="0" begin="8200" duration="10" mode="Linear"/>
+				
+				<animation property="y" to="0.63" begin="8300" duration="10" mode="Linear"/>
+				<animation property="x" to="0.21" begin="8300" duration="10" mode="Linear"/>
+				<animation property="opacity" to="1" begin="8390" duration="10" mode="Linear"/>
+				<animation property="y" to="-0.1" begin="8400" duration="800" mode="Linear"/>
+				<animation property="opacity" to="0" begin="9200" duration="10" mode="Linear"/>
+				
+				<animation property="y" to="0.63" begin="10300" duration="10" mode="Linear"/>
+				<animation property="x" to="0.12" begin="10300" duration="10" mode="Linear"/>
+				<animation property="opacity" to="1" begin="10390" duration="10" mode="Linear"/>
+				<animation property="y" to="0.23" begin="10400" duration="400" mode="Linear"/>
+				<animation property="opacity" to="0" begin="10800" duration="10" mode="Linear"/>
+				
+				
+				<animation property="opacity" to="0" begin="13000" duration="300" mode="Linear"/>
+				
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-explo1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0666667 0.1203704</size>									
+			<pos>0.115 0.22</pos>
+			<scale>0.6</scale>
+			<opacity>0</opacity>
+			<path>./avatar-explo1.png</path>
+			<zIndex>8</zIndex>
+			
+			<storyboard repeat="forever" >
+				<animation property="opacity" to="1" begin="10800" duration="10" mode="Linear"/>
+				<animation property="opacity" to="0" begin="10900" duration="100" mode="Linear"/>
+				
+				<animation property="opacity" to="0" begin="13000" duration="300" mode="Linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-explo2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0666667 0.1203704</size>	
+			<pos>0.115 0.22</pos>
+			<scale>0.6</scale>
+			<opacity>0</opacity>
+			<path>./avatar-explo2.png</path>
+			<zIndex>8</zIndex>
+			
+			<storyboard repeat="forever" >
+				<animation property="opacity" to="1" begin="10900" duration="10" mode="Linear"/>
+				<animation property="opacity" to="0" begin="11000" duration="100" mode="Linear"/>
+				
+				<animation property="opacity" to="0" begin="13000" duration="300" mode="Linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-explo3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.0666667 0.1203704</size>	
+			<pos>0.115 0.22</pos>
+			<scale>0.6</scale>
+			<opacity>0</opacity>
+			<path>./avatar-explo3.png</path>
+			<zIndex>8</zIndex>
+			
+			<storyboard repeat="forever" >
+				<animation property="opacity" to="1" begin="11000" duration="10" mode="Linear"/>
+				<animation property="opacity" to="0" begin="11100" duration="100" mode="Linear"/>
+				
+				<animation property="opacity" to="0" begin="13000" duration="300" mode="Linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

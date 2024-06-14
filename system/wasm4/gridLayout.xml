@@ -1,0 +1,110 @@
+<!-- Game Gear -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+	
+		<image name="moon" extra="static">
+			<origin>0 0</origin>									
+			<pos>0.11 0.14</pos>
+			<size>0.18125 0.3222222</size>									
+			<scale>0.35</scale>
+			<path>./moon.png</path>
+			<opacity>1</opacity>
+			<zIndex>14</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>	
+	
+		
+		<image name="sorciere" extra="static">
+			<origin>0 0</origin>
+			<pos>1.1 0.07</pos>
+			<size>0.084375 0.1574074</size>									
+			<scale>0.55</scale>
+			<rotation>-10</rotation>
+			<flipX>true</flipX>
+			<path>./sorciere.png</path>
+			<opacity>1</opacity>
+			<zIndex>10</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>	
+		
+		<image name="sorciere2" extra="static">
+			<origin>0 0</origin>
+			<pos>-1 0.13</pos>
+			<size>0.084375 0.1574074</size>									
+			<scale>2.3</scale>
+			
+			<path>./sorciere.png</path>
+			<opacity>1</opacity>
+			<zIndex>14</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>	
+		
+		
+		
+		
+		
+	<image name="moon" extra="true">	
+		<storyboard repeat="forever">
+		
+				<animation property="x" to="0.58" begin="" autoreverse="true" duration="90000" mode="linear"/>
+				<animation property="color" from="FFFFFF" to="202020" begin="30000" autoreverse="true" duration="60000" mode="EaseIn"/>
+				
+		</storyboard>
+	</image>
+	
+	
+	
+	<image name="sorciere" extra="true">	
+		<storyboard repeat="forever">
+				
+				<animation property="rotation" to="-45" begin="11500" duration="5500" mode="linear"/>
+				<animation property="x" from="1.1" to="-1" begin="11500" duration="5500" mode="linear"/>
+				<animation property="y" to="0.2" begin="13500" duration="3500" mode="bump"/>
+				<animation property="opacity" to="0" begin="23000" duration="100" mode="linear"/>
+				
+		</storyboard>
+	</image>
+	
+	
+	<image name="sorciere2" extra="true">	
+		<storyboard repeat="forever">
+				
+				<animation property="rotation" to="35" begin="" duration="10" mode="linear"/>
+				<animation property="rotation" to="15" begin="1000" duration="2000" mode="bump"/>
+				
+				<animation property="scale" to="1" begin="" duration="3000" mode="linear"/>
+				<animation property="x" from="-1" to="0.79" begin="" duration="3000" mode="easeOut"/>
+				<animation property="y" from="-0.25" to="0.28" begin="" duration="3000" mode="bump"/>
+				
+				<animation property="x" from="0.79" to="0.788" begin="3000" autoreverse="true" duration="500" repeat="4" mode="linear"/>
+				<animation property="rotation" from="15" to="16" begin="3000" autoreverse="true" duration="1000" repeat="2" mode="linear"/>
+				<animation property="y" from="0.28" to="0.29" begin="3000" autoreverse="true" duration="500" repeat="4" mode="linear"/>
+				
+				<animation property="x" to="1.1" begin="7000" duration="900" mode="linear"/>
+				<animation property="y" to="0.13" begin="7000" duration="900" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="23000" duration="100" mode="linear"/>
+				
+		</storyboard>
+	</image>
+	
+	
+	
+	
+	</view>
+</theme>

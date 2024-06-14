@@ -1,0 +1,51 @@
+<!-- Super Cassette Vision -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+		<!-- <flipX>true</flipX> -->
+		</image>
+	
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3510417 0.8157407</size>									
+			<pos>0.3 0.55</pos>
+			<scale>0.5</scale>
+			<zIndex>10</zIndex>
+			
+			<storyboard>
+				
+        		<animation property="offsetX" to="-0.02" begin="" duration="700" mode="EaseInOut"/>
+				
+			</storyboard>	
+			
+			
+			
+		</image>
+
+		<image name="avatar2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1880208 0.512963</size>									
+			<pos>0.67 0.57</pos>
+			<scale>0.5</scale>
+			<path>./avatar2.png</path>
+			<zIndex>10</zIndex>
+			<linearSmooth>true</linearSmooth>
+		
+			<storyboard>
+				
+        		<animation property="offsetY" from="-0.01" to="0" begin="" duration="700" mode="EaseInOut"/>
+				
+			</storyboard>	
+		
+		</image>
+		
+		
+
+	</view>
+	
+</theme>

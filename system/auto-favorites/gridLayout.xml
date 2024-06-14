@@ -1,0 +1,83 @@
+<!-- Auto Favoris -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="tires" extra="static">
+			<origin>0 0</origin>									
+			<size>0.059375 0.0740741</size>									
+			<pos>0.8 0.73</pos>									
+			<zIndex>50</zIndex>
+			<scale>0.8</scale>
+			<path>./tires.png</path>
+		</image>
+	
+		<image name="tires2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.059375 0.0740741</size>									
+			<pos>0.78 0.72</pos>									
+			<zIndex>49</zIndex>
+			<scale>0.8</scale>
+			<path>./tires.png</path>
+		</image>
+	
+	
+	
+	
+	
+	
+	
+		
+		<image name="avatar2" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		<image name="avatar3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2208333 0.262037</size>									
+			<pos>-0.2 0.68</pos>
+			<scale>0.5</scale>
+			<path>./avatar3.png</path>
+			<opacity>1</opacity>
+			<zIndex>18</zIndex>
+			
+			<storyboard>
+				<animation property="x" from="0" to="0.75" 		begin="" 	 duration="2000" mode="easeIn"/>
+				<animation property="rotation" to="720"			begin="2000" duration="1000" mode="linear"/>
+				<animation property="x" from="0.7" to="1" 		begin="2000" duration="3000" mode="easeIn"/>
+				<animation property="y" to="-3" 				begin="2000" duration="1000" mode="easeIn"/>		
+				<animation property="scale" from="0.5" to="10" 	begin="2000" duration="1000" mode="easeIn"/>
+			</storyboard>			
+		</image>
+		
+		
+		
+		
+		
+		<image name="avatar" extra="true">
+			<origin>0 0</origin>									
+			<size>0.5114583 0.5222222</size>									
+			<pos>1.2 0.63</pos>
+			<scale>0.63</scale>
+			<rotation>0</rotation>
+			<zIndex>10000</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar.png</path>
+			<linearSmooth>true</linearSmooth>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.53" begin="3000" duration="500" mode="EaseOut"/>
+			</storyboard>			
+		</image>
+		
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

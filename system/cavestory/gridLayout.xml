@@ -1,0 +1,31 @@
+<!-- Ports et Cave Story  -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		
+	
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.29375 0.7425926</size>									
+			<pos>1.05 0.55</pos>									
+			<path>./avatar.png</path>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.06"/>
+				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+	</view>
+
+</theme>
+
+

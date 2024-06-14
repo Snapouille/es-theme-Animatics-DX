@@ -24,6 +24,13 @@ originally based on: "carbon"
     <blinkBorderSubsetName>Blinking borders</blinkBorderSubsetName>
 	<yes>Yes</yes>
 	<no>No</no>
+	
+	<!-- variables qui ajoute un tiret si l'année est supérieur à 1958
+		le signe &gt correspond à >
+		variable utilisé dans l'affichage système en vue Grid -->	
+	<va.dash.year if="${system.releaseYear} &gt; '1958'">-</va.dash.year>
+	
+	
     <previewBarSubsetName>Preview bar</previewBarSubsetName>
     <zoomboxesSubsetName>Zoom boxes</zoomboxesSubsetName>
     <orientationSubsetName>Orientation</orientationSubsetName>
@@ -47,6 +54,7 @@ originally based on: "carbon"
     <systemview.simple>simple</systemview.simple>
     <systemview.vertical>vertical</systemview.vertical>
     <systemview.wheel>wheel</systemview.wheel>
+    <systemview.grid>grid (new)</systemview.grid>
     <colored>Colored</colored>
 	<subset.region>Region</subset.region>
     <subset.colorset>Colorset</subset.colorset>
@@ -89,6 +97,17 @@ originally based on: "carbon"
 	<fanartOpacity>Fanart overlay Opacity</fanartOpacity>
 	<gamelistOpacity>Gamelist Opacity</gamelistOpacity>
 	<rvgm.Ambiance>Ambiance RVGM views</rvgm.Ambiance>
+	
+	
+	<GameNumber>Game</GameNumber>
+	<GamesNumber>Games</GamesNumber>
+	
+	
+	<GamesFavs>Favorites</GamesFavs>
+	<NumberPlayed>Played</NumberPlayed>	
+	<theme.mostplayed>Most played:</theme.mostplayed>	
+		
+		
   </variables>
   
   
@@ -263,6 +282,7 @@ originally based on: "carbon"
     <include name="vertical"  displayName="${systemview.vertical}">./config/system/systemview/vertical.xml</include>
 	<!-- <include name="vertical-arts"  displayName="${systemview.vertical-arts}">./config/system/systemview/vertical-arts.xml</include> -->
 	<include name="horizontal"  displayName="${systemview.horizontal}">./config/system/systemview/horizontal.xml</include>
+	<include name="grid"  displayName="${systemview.grid}">./config/system/systemview/grid.xml</include>
 	<include name="simple" displayName="${systemview.simple}">./config/system/systemview/simple.xml</include>
 </subset>
   
@@ -297,6 +317,7 @@ originally based on: "carbon"
 <!-- Avatar utilisateur -->
 <subset name="user-logo" displayName="${user.logo}">
 	<include name="none" displayName="${none}" />
+	<include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements Avatar" />
 	<include name="custom" displayName="${custom}" />
 	<include name="batocera" displayName="Batocera" />
 	<include name="emulationstation" displayName="Emulation Station" />
@@ -432,6 +453,7 @@ originally based on: "carbon"
 
 		<controllerActivity name="controllerActivity">
 			<pos>0.007 0.008</pos>
+			<!-- <pos ifSubset="SystemView:grid">0.255 0.031</pos> -->
 			<size>0.185 0.023</size>
 			<itemSpacing>0.003</itemSpacing>
 			<color>FFFFFF90</color>
@@ -452,11 +474,15 @@ originally based on: "carbon"
 			  <origin>1 1</origin>
 			  <color>${frameColor}</color>
 			  <!-- <color>777777FF</color> -->
+			  <fontPath>./art/fonts/flatwheat.ttf</fontPath>
 			  <pos>0.99 0.993</pos>
-			  <fontSize>0.031</fontSize>
+			  <!-- <pos ifSubset="SystemView:grid">0.962 0.998</pos> -->
+			  
+			  
+			  <fontSize>0.02</fontSize>
 			  <glowColor>00000010</glowColor>
 			  <glowSize>3</glowSize>
-			  <visible ifHelpPrompts="false">false</visible>
+			  <!-- <visible ifHelpPrompts="false">false</visible> -->
 		</text>
 
 		<batteryIndicator name="batteryIndicator">

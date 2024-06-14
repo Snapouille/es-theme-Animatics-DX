@@ -35,28 +35,28 @@
 		
 		<image name="avatar2" extra="static">
 			<origin>0 0</origin>									
-			<size>0.3645833 1.0157407</size>	
-			<pos>0.15 0.148</pos>
-			<scale>0.55</scale>
+			<size>0.2817708 0.8833333</size>									
+			<pos>0.15 0.132</pos>
+			<scale>0.65</scale>
 			<opacity>0</opacity>
 			<path>./avatar2.png</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>170</zIndex>
 			
-		<storyboard repeat="forever">
-				
-					<animation property="opacity" from="0" to="1" begin="11000" duration="300" mode="linear"/>
-					<animation property="x" to="0.23" begin="11000" duration="3000" mode="EaseOut"/>
-					<animation property="scale" from="0.65" to="0.85" begin="14000" duration="350" mode="bump"/>
-					<animation property="x" to="0.3" begin="14000" duration="375" mode="EaseOut"/>
-					<animation property="y" to="0.15" begin="14000" duration="375" mode="EaseOut"/>
-					<animation property="scale" to="5" begin="19000" duration="1000" mode="Linear"/>
-					<animation property="x" to="-0.2" begin="19000" duration="1000" mode="linear"/>
-					<animation property="y" to="-0.8" begin="19000" duration="1000" mode="linear"/>
-					<animation property="opacity" to="0" begin="19500" duration="500" mode="linear"/>
+			<storyboard repeat="forever">
 					
-					<animation property="opacity" to="0" begin="32000" duration="100" mode="linear"/>
-		</storyboard>
+						<animation property="opacity" from="0" to="1" begin="11000" duration="300" mode="linear"/>
+						<animation property="x" to="0.23" begin="11000" duration="3000" mode="EaseOut"/>
+						<animation property="scale" from="0.65" to="0.95" begin="14000" duration="350" mode="bump"/>
+						<animation property="x" to="0.39" begin="14000" duration="375" mode="EaseOut"/>
+						<animation property="y" to="0.159" begin="14000" duration="375" mode="EaseOut"/>
+						<animation property="scale" to="5" begin="19000" duration="1000" mode="Linear"/>
+						<animation property="x" to="-0.2" begin="19000" duration="1000" mode="linear"/>
+						<animation property="y" to="-0.8" begin="19000" duration="1000" mode="linear"/>
+						<animation property="opacity" to="0" begin="19500" duration="500" mode="linear"/>
+						
+						<animation property="opacity" to="0" begin="32000" duration="100" mode="linear"/>
+			</storyboard>
 		</image>
 		
 		
@@ -97,8 +97,8 @@
 		<size>0.58125 0.6509259</size>									
 		<pos>0.3177083 0.3856481</pos>
 			<opacity>0</opacity>
-			<path>./background2.png</path>
-			<zIndex>16</zIndex>
+			<path>./background2.jpg</path>
+			<zIndex>4</zIndex>
 			
 			
 			<storyboard repeat="forever">

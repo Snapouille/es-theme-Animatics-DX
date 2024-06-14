@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Dragon Ball</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Dragon Ball est un manga d'Akira Toriyama. Il raconte le parcours de Son Goku, depuis l'enfance jusqu'à l'âge adulte où il est amené à explorer le monde à la recherche des Dragon Balls et à combattre des adversaires de plus en plus forts, dont certains deviendront des alliés. Le manga s'inscrit dans la culture de masse en tant que phénomène culturel. De nombreux jeux vidéo et autres produits dérivés en sont issus.</text>
+</text>
+
+</view>
+</theme>

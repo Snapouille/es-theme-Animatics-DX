@@ -8,23 +8,13 @@
 		<image name="bg2" extra="static">
 			<origin>0 0</origin>
 			<pos>0.0385 0.556</pos>
-			<size>0.5598958 0.1527778</size>									
+			<size>1 0.237963</size>									
 
-			<scale>1</scale>
+			<scale>0.65</scale>
 			<path>./bg2.png</path>
-			<zIndex>15</zIndex>
+			<zIndex>13</zIndex>
 		</image>
 	
-		<image name="bg3" extra="static">
-			<origin>0 0</origin>
-			<pos>0.326 0.556</pos>
-			<size>0.0713542 0.1527778</size>									
-
-			<scale>1</scale>
-			<path>./bg3.png</path>
-			<zIndex>19</zIndex>
-			<opacity>0</opacity>
-		</image>
 	
 		<image name="bulle0" extra="static">
 			<origin>0 0</origin>
@@ -33,7 +23,7 @@
 
 			<scale>1</scale>
 			<path>./bulle.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 	
 		<image name="bulle1" extra="static">
@@ -43,7 +33,7 @@
 
 			<scale>0.9</scale>
 			<path>./bulle.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 	
 		<image name="bulle2" extra="static">
@@ -53,7 +43,7 @@
 
 			<scale>0.7</scale>
 			<path>./bulle.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 		
 		<image name="bulle3" extra="static">
@@ -61,7 +51,7 @@
 			<pos>0.23 0.61</pos>
 			<scale>0.5</scale>
 			<path>./bulle.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 	
 		<image name="bulle4" extra="static">
@@ -71,7 +61,7 @@
 
 			<scale>0.5</scale>
 			<path>./bulle.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 		
 		<image name="bulle5" extra="static">
@@ -81,7 +71,7 @@
 
 			<scale>0.7</scale>
 			<path>./bulle.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 		
 		<image name="bulle6" extra="static">
@@ -91,7 +81,7 @@
 
 			<scale>0.5</scale>
 			<path>./bulle.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 		
 		<image name="bulle7" extra="static">
@@ -101,13 +91,13 @@
 
 			<scale>1</scale>
 			<path>./bulle.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 	
 
 		<image name="avatar" extra="static">
 			<origin>0 0</origin>
-			<pos>0.35 0.58</pos>
+			<pos>0.35 0.65</pos>
 			<size>0.303125 0.6287037</size>									
 
 			<scale>0.1</scale>
@@ -147,18 +137,18 @@
 			<scale>0.6</scale>
 			<rotation>20</rotation>
 			<path>./monster2.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 		
 		<image name="monster3" extra="static">
 			<origin>0 0</origin>
-			<pos>0.195 0.61</pos>
+			<pos>0.195 0.63</pos>
 			<size>0.0833333 0.1481481</size>									
 
 			<scale>0.6</scale>
 			<rotation>0</rotation>
 			<path>./monster3.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 	
 		<image name="bub" extra="static">
@@ -169,7 +159,7 @@
 			<scale>0.6</scale>
 			<rotation>20</rotation>
 			<path>./bub.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>12</zIndex>
 		</image>
 		
 		
@@ -179,11 +169,11 @@
 				<animation property="x" from="-0.3" to="1" begin="4000" duration="10000" mode="linear"/>
 				<animation property="rotation" from="90" to="-90" begin="4000" duration="10000" mode="linear"/>
 				
-				<animation property="y" to="0.3" begin="5000" duration="2000" mode="easyIn"/>
-				<animation property="y" to="0.1" begin="7000" duration="2000" mode="easyIn"/>
-				<animation property="y" to="0.3" begin="9000" duration="2000" mode="easyIn"/>
-				<animation property="y" to="0" begin="11000" duration="2000" mode="easyIn"/>
-				<animation property="y" to="0.3" begin="13000" duration="2000" mode="easyIn"/>
+				<animation property="y" to="0.3" begin="5000" duration="2000" mode="linear"/>
+				<animation property="y" to="0.1" begin="7000" duration="2000" mode="linear"/>
+				<animation property="y" to="0.3" begin="9000" duration="2000" mode="linear"/>
+				<animation property="y" to="0" begin="11000" duration="2000" mode="linear"/>
+				<animation property="y" to="0.3" begin="13000" duration="2000" mode="linear"/>
 				
 				<animation property="x" from="1" to="1" begin="14000" duration="10000" mode=""/>
 				
@@ -191,11 +181,11 @@
 				<animation property="x" from="1" to="-0.3" begin="24000" duration="10000" mode="linear"/>
 				<animation property="rotation" from="90" to="-90" begin="24000" duration="10000" mode="linear"/>
 				
-				<animation property="y" to="0" begin="24000" duration="2000" mode="easyIn"/>
-				<animation property="y" to="0.3" begin="26000" duration="2000" mode="easyIn"/>
-				<animation property="y" to="0.1" begin="28000" duration="2000" mode="easyIn"/>
-				<animation property="y" to="0.3" begin="30000" duration="2000" mode="easyIn"/>
-				<animation property="y" to="0.1" begin="32000" duration="2000" mode="easyIn"/>
+				<animation property="y" to="0" begin="24000" duration="2000" mode="linear"/>
+				<animation property="y" to="0.3" begin="26000" duration="2000" mode="linear"/>
+				<animation property="y" to="0.1" begin="28000" duration="2000" mode="linear"/>
+				<animation property="y" to="0.3" begin="30000" duration="2000" mode="linear"/>
+				<animation property="y" to="0.1" begin="32000" duration="2000" mode="linear"/>
 				
 				<animation property="x" from="1" to="1" begin="34000" duration="10000" mode=""/>
 				
@@ -233,7 +223,7 @@
 		<image name="avatar" extra="true">
 			 <storyboard repeat="forever">
 			    <animation property="opacity" from="0" to="1" begin="1000" duration="200" mode="easeIn"/>
-				<animation property="y" from="0.58" to="0.48" begin="1000" duration="500" mode="linear"/>
+				<animation property="y" from="0.7" to="0.48" begin="1000" duration="500" mode="linear"/>
 			    <animation property="rotation" from="0" to="360" begin="1000" duration="5000" mode="bump"/>
 				<animation property="x" from="0.35" to="0.415" begin="1000" duration="5000" mode="bump"/>
 				<animation property="y" from="0.48" to="0.26" begin="1500" duration="4500" mode="bump"/>
@@ -263,13 +253,6 @@
 		</image>
 		
 		
-		<image name="bg3" extra="true">
-			<storyboard repeat="forever">
-				<animation property="opacity" from="0" to="1" begin="" duration="10" mode="linear"/>
-				<animation property="opacity" from="1" to="0" begin="2000" duration="2000" mode="linear"/>
-				<animation property="opacity" from="0" to="0" begin="23500" duration="7500" mode="linear"/>
-			</storyboard>
-		</image>
 		
 		
 		<image name="bub" extra="true">

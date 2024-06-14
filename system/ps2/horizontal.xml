@@ -90,11 +90,11 @@
 		
 		<image name="background2" extra="static">
 			<origin>0.5 0.5</origin>									
-		<size>0.58125 0.6509259</size>									
-		<pos>0.3177083 0.3856481</pos>
+			<size>0.58125 0.6509259</size>									
+			<pos>0.3177083 0.3856481</pos>
 			<opacity>0</opacity>
-			<path>./background2.png</path>
-			<zIndex>16</zIndex>
+			<path>./background2.jpg</path>
+			<zIndex>4</zIndex>
 			
 			
 			

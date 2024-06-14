@@ -1,0 +1,65 @@
+﻿<!-- FM Towns -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>									
+
+			<storyboard repeat="forever">
+				<animation property="scale" to="1.1" begin="" duration="4000" mode="EaseInOut"/>
+				<animation property="scale" to="1" begin="16000" duration="4000" mode="EaseInOut"/>
+				<animation property="opacity" to="1" begin="20200" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+	 
+
+	
+	<image name="avatar-planet" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.2494792 0.6268519</size>									
+		<pos>-0.0622396 0.1180556</pos>									
+		<path>./avatar-planet.png</path>
+		<zIndex>10</zIndex>
+		<storyboard>
+				<animation property="pos"  to="0.1 0.3" 	begin="" duration="1000" mode="easeInOut"/>
+		</storyboard>
+	</image>
+
+
+	
+	<image name="avatar-ship" extra="static">
+		<origin>0 0</origin>									
+		<size>0.5114583 0.5222222</size>									
+		<pos>0.205 0.3</pos>
+		<scale>0</scale>
+		<opacity>1</opacity>
+		<path>./avatar-ship.png</path>
+		<zIndex>10</zIndex>
+		<storyboard repeat="forever">
+			<animation property="scale" to="0.7" begin="1500" duration="1200" mode="linear"/>
+			<animation property="x" to="0.65" begin="1500" duration="1200" mode="bump"/>
+			<animation property="y" to="0.410" begin="1500" duration="1200" mode="bump"/>
+			
+			<animation property="y" to="0.405" begin="2700" duration="1000" autoreverse="true" repeat="9" mode="linear"/>
+			<animation property="rotation" to="0.5" begin="2700" duration="1000" autoreverse="true" repeat="9" mode="linear"/>
+			
+			<animation property="scale" to="10" begin="15000" duration="1000" mode="linear"/>
+			<animation property="x" to="-0.5" begin="15000" duration="1000" mode="linear"/>
+			<animation property="y" to="0.1" begin="15000" duration="1000" mode="linear"/>
+			<animation property="opacity" to="0" begin="15900" duration="100" mode="linear"/>
+			
+			<animation property="opacity" to="0" begin="19000" duration="10" mode="linear"/>
+		</storyboard>
+	</image>
+		
+		
+		
+	</view>
+
+</theme>

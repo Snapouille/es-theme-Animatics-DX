@@ -1,0 +1,92 @@
+<!-- PSP -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	
+			<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			<path>./background.jpg</path>
+			<flipX>true</flipX>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+	
+
+		<image name="kratos" extra="static">
+			<size>0.2390625 0.7861111</size>									
+			<linearSmooth>true</linearSmooth>
+			<path>./kratos.png</path>
+			<opacity>1</opacity>
+			<zIndex>18</zIndex>
+						
+			<origin>0.5 0.5</origin>
+			<pos>1.05 0.52</pos>									
+
+			<storyboard>
+				<animation property="offsetX" to="-0.225" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.05"/>
+				<animation property="offsetX" to="-0.225" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+		<image name="kratos1, kratos2" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		
+		<image name="fire" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.58125 0.6509259</size>									
+			<pos>0.3177083 0.3856481</pos>				
+			<opacity>1</opacity>
+			<path>./fire.png</path>
+			<zIndex>16</zIndex>
+		</image>
+		
+		
+		<image name="fire" extra="true">
+		
+			<storyboard repeat="forever">
+				
+				<animation property="opacity" from="0" to="1" begin="" duration="1000" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="5000" duration="100" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="5200" duration="200" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="5600" duration="500" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="7600" duration="200" autoreverse="true" repeat="2" mode="linear"/>
+				
+			</storyboard>
+		
+		</image>
+		
+		
+	<image name="rain" extra="true">
+		<size>1 1</size>									
+		<origin>0.5 0.5</origin>									
+		<pos>0.5 0.5</pos>									
+		<path>./rain.gif</path>
+		<zIndex>11</zIndex>
+			<flipX>true</flipX>
+		  <storyboard>
+				<animation property="size" to="1.1 1.1" begin="1000" duration="5000" autoreverse="true" mode="EaseIn"/>
+		  </storyboard>
+		
+	</image>
+		
+		
+		
+	</view>
+</theme>

@@ -1,0 +1,132 @@
+<!-- PS Vita -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		
+		
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	
+			<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+		
+		
+		
+		
+		<image name="kat1" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.265625 0.787037</size>									
+			<pos>0.81 0.53</pos>
+			<pos ifHelpPrompts="false">0.81 0.59</pos>	
+			<opacity>1</opacity>
+			<path>./kat1.png</path>
+			<zIndex>19</zIndex>
+			<storyboard repeat="forever">
+					<animation property="opacity" to="0" begin="300" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="1200" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="kat2" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.265625 0.787037</size>									
+			<pos>0.81 0.53</pos>		
+			<pos ifHelpPrompts="false">0.81 0.59</pos>	
+			<opacity>0</opacity>
+			<path>./kat2.png</path>
+			<zIndex>19</zIndex>
+			<storyboard repeat="forever">
+					<animation property="opacity" to="1" begin="300" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="600" duration="10" mode="linear"/>	
+        			<animation property="opacity" to="1" begin="900" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="1200" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="kat3" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.265625 0.787037</size>									
+			<pos>0.81 0.53</pos>	
+			<pos ifHelpPrompts="false">0.81 0.59</pos>	
+			<opacity>0</opacity>
+			<path>./kat3.png</path>
+			<zIndex>19</zIndex>
+			<storyboard repeat="forever">
+					<animation property="opacity" to="1" begin="600" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="900" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="1200" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		
+		
+		<image name="blacky1" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.1213542 0.4435185</size>									
+			<pos>0.93 0.81</pos>	
+			<pos ifHelpPrompts="false">0.93 0.87</pos>	
+			<scale>0.3</scale>							
+			<opacity>1</opacity>
+			<path>./blacky3.png</path>
+			<zIndex>19</zIndex>
+			<storyboard repeat="forever">
+					<animation property="scale" to="0.301" begin="" duration="400" autoreverse="true" mode="EaseInOut"/>
+					<animation property="opacity" to="0" begin="200" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="800" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="blacky2" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.1213542 0.4435185</size>									
+			<pos>0.93 0.81</pos>	
+			<pos ifHelpPrompts="false">0.93 0.87</pos>	
+			<scale>0.3</scale>								
+			<opacity>0</opacity>
+			<path>./blacky2.png</path>
+			<zIndex>19</zIndex>
+			<storyboard repeat="forever">
+					<animation property="scale" to="0.301" begin="" duration="400" autoreverse="true" mode="EaseInOut"/>
+					<animation property="opacity" to="1" begin="200" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="400" duration="10" mode="linear"/>	
+        			<animation property="opacity" to="1" begin="600" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="800" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="blacky3" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.1213542 0.4435185</size>									
+			<pos>0.93 0.81</pos>	
+			<pos ifHelpPrompts="false">0.93 0.87</pos>	
+			<scale>0.3</scale>						
+			<opacity>0</opacity>
+			<path>./blacky1.png</path>
+			<zIndex>19</zIndex>
+			<storyboard repeat="forever">
+					<animation property="scale" to="0.301" begin="" duration="400" autoreverse="true" mode="EaseInOut"/>
+					<animation property="opacity" to="1" begin="400" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="600" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="800" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		
+	</view>
+</theme>

@@ -8,10 +8,9 @@
 		
 		<image name="avatar-roi" extra="static">
 			<origin>0 0</origin>
-			<pos>0.19 0.157</pos>
-			<size>0.421875 0.9092593</size>									
+			<size>0.1046875 0.5148148</size>									
+			<pos>0.2322917 0.187963</pos>									
 
-			<scale>0.6</scale>
 			<path>./avatar-roi.png</path>
 			<opacity>0</opacity>
 			<zIndex>15</zIndex>
@@ -74,10 +73,9 @@
 		
 		<image name="avatar-reine" extra="static">
 			<origin>0 0</origin>
-			<pos>0.3 0.08</pos>
-			<size>0.421875 0.9092593</size>									
+			<size>0.1098958 0.4509259</size>									
+			<pos>0.4401042 0.1157407</pos>									
 
-			<scale>0.6</scale>
 			<path>./avatar-reine.png</path>
 			<opacity>0</opacity>
 			<zIndex>15</zIndex>
@@ -111,10 +109,9 @@
 		
 		<image name="avatar-pion" extra="static">
 			<origin>0 0</origin>
-			<pos>0.121 0.05</pos>
-			<size>0.421875 0.9092593</size>									
+			<size>0.0875 0.2796296</size>									
+			<pos>0.1244792 0.0768519</pos>									
 
-			<scale>0.6</scale>
 			<path>./avatar-pion.png</path>
 			<opacity>0</opacity>
 			<zIndex>159</zIndex>
@@ -130,10 +127,9 @@
 		
 		<image name="avatar-pion-shadow" extra="static">
 			<origin>0 0</origin>
-			<pos>0.133 0.16</pos>
-			<size>0.1338542 0.2185185</size>									
+			<size>0.0755208 0.1648148</size>									
+			<pos>0.1364583 0.1416667</pos>									
 
-			<scale>0.6</scale>
 			<path>./avatar-pion-shadow.png</path>
 			<zIndex>13</zIndex>
 			<opacity>0</opacity>
