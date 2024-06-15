@@ -1,0 +1,284 @@
+<!-- MSX -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	
+			<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+		
+		<image name="iceberg2.png" extra="true">
+			<origin>0 0</origin>									
+			<size>0.0479167 0.2972222</size>									
+			<pos>1.005 0.65</pos>									
+			<pos ifHelpPrompts="false">1.005 0.71</pos>	
+			<path>./iceberg2.png</path>
+			 <storyboard repeat="forever">
+				<animation property="offsetX" to="-0.05" begin="100" duration="2800" mode="linear"/>
+				<animation property="offsetX" to="-0.045" begin="3000" duration="1500" mode="bump"/>
+				<animation property="offsetX" to="0" begin="13000" duration="5010" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+		
+		<image name="penguin-gif, penguin, sky, sky2, sky-star, sky-fog, wink, iceberg" extra="true">
+			<origin>0 0</origin>									
+			<linearSmooth>true</linearSmooth>
+			<opacity>0</opacity>
+		</image>	
+		
+		<image name="sky" extra="true">
+			<size>0.5255208 0.2777778</size>									
+			<pos>0.19 0.11</pos>
+			<path>./sky.png</path>
+			<zIndex>9</zIndex>
+			<scale>1.3</scale>
+			
+			<storyboard repeat="forever">
+					<animation property="opacity" from="1" to="0.8" begin="" autoreverse="true" duration="1000" repeat="3" mode="linear"/>
+					<animation property="scale" to="1.301" begin="3500" autoreverse="true" duration="1000" mode="linear"/>
+					<animation property="opacity" from="1" to="0.7" begin="9000" autoreverse="true" duration="600" repeat="2" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="iceberg" extra="true">
+			<visible>false</visible>
+		</image>		
+		
+		<image name="sky-fog" extra="true">
+			<size>0.5255208 0.2777778</size>									
+			<pos>0.5 0.04</pos>
+			<path>./sky-star.png</path>
+			<opacity>0</opacity>
+			<zIndex>8</zIndex>
+			
+			<storyboard repeat="forever">
+					<animation property="scale" to="1.05" begin="3000" autoreverse="true" duration="1500" repeat="3" mode="linear"/>
+					<animation property="opacity" from="0.1" to="0.2" begin="3000" autoreverse="true" duration="2000" repeat="3" mode="linear"/>
+					<animation property="x" from="0.5" to="-0.6" begin="3000" duration="6000" mode="linear"/>
+					<animation property="y" from="0.04" to="0.02" begin="10000" duration="10" mode="linear"/>
+					<animation property="x" from="1" to="-0.6" begin="10000" duration="10000" mode="linear"/>
+					<animation property="opacity" from="0.1" to="0.4" begin="15000" autoreverse="true" duration="1500" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="sky-star" extra="true">
+			<size>0.0255208 0.0444444</size>									
+			<pos>0.165625 0.1342593</pos>									
+			<path>./sky-star.png</path>
+			<opacity>1</opacity>
+			<zIndex>8</zIndex>
+			
+			<storyboard repeat="forever">
+					<animation property="opacity" from="1" to="0.6" begin="" autoreverse="true" duration="1000" repeat="3" mode="linear"/>
+					<animation property="scale" to="0.97" begin="3500" autoreverse="true" duration="1000" mode="linear"/>
+					<animation property="opacity" from="1" to="0.8" begin="9000" autoreverse="true" duration="600" repeat="2" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		
+		
+		<image name="penguin-gif" extra="true">
+			<size>0.2822917 0.4731481</size>									
+			<pos>-0.2 0.68</pos>
+			<pos ifHelpPrompts="false">-0.2 0.74</pos>	
+			<scale>0.5</scale>
+			<path>./penguin.gif</path>
+			<zIndex>14</zIndex>
+			<flipX>true</flipX>
+			
+			 <storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="" duration="150" mode="Easein"/>
+				<animation property="x" from="-0.2" to="0.9" begin="" duration="3000" mode="easeIn"/>
+						
+                <animation property="x" to="0.73" begin="3000" duration="1000" mode="bump"/>
+				<animation property="y" to="0.59" begin="3000" duration="1000" mode="bump"/>
+                <animation property="rotation" to="-720" begin="3000" duration="1500" mode="easeInOut"/>
+				
+                <animation property="opacity" to="0" begin="4000" duration="10" mode="linear"/>
+                <animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+            </storyboard>		
+		</image>	
+
+		
+			
+		<image name="penguin" extra="true">
+			<origin>0 0</origin>									
+			<size>0.2822917 0.4731481</size>									
+			<pos>-0.2 0.68</pos>
+			<pos ifHelpPrompts="false">-0.2 0.74</pos>	
+			<scale>0.5</scale>
+			<zIndex>180</zIndex>
+			<path>./penguin.png</path>
+			<flipX>true</flipX>
+		
+			 <storyboard repeat="forever">
+				<animation property="x" from="-0.2" to="0.9" begin="" duration="3000" mode="easeIn"/>
+						
+                <animation property="x" to="0.73" begin="3000" duration="1000" mode="bump"/>
+				<animation property="y" to="0.59" begin="3000" duration="1000" mode="bump"/>
+                <animation property="rotation" to="-720" begin="3000" duration="1500" mode="EaseInOut"/>
+				
+                <animation property="scale" to="0.6"	begin="3500"  duration="1000" mode="easeIn"/>
+				
+                <animation property="opacity" to="1" begin="4000" duration="10" mode="linear"/>
+				
+				<animation property="rotation" to="-890" begin="10000" duration="500" mode="bump"/>
+				<animation property="offsetY" to="0.2" begin="10000" duration="500" mode="linear"/>
+				<animation property="offsetY" to="0.7" begin="10500" duration="500" mode="bump"/>
+				
+                <animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+            </storyboard>		
+		</image>
+
+		<image name="wink" extra="true">
+			<size>0.0104167 0.0185185</size>									
+			<pos>0.8125 0.6194444</pos>									
+			<path>./wink.png</path>
+			<flipX>true</flipX>
+			<zIndex>181</zIndex>
+			
+			<storyboard repeat="forever">
+					<animation property="opacity" to="1" begin="6500" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="6700" duration="10" mode="linear"/>
+					
+					<animation property="opacity" to="1" begin="7200" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="7400" duration="10" mode="linear"/>
+					
+					<animation property="opacity" to="1" begin="7700" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="7900" duration="10" mode="linear"/>
+
+					<animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		
+		<image name="bam, bam-star1, bam-star2, bam-star3, bam-star4" extra="true">
+			<origin>0 0</origin>									
+			<scale>0.9</scale>
+			<linearSmooth>true</linearSmooth>
+			<opacity>0</opacity>
+			<zIndex>3001</zIndex>
+			<path>./bam-star.png</path>
+		</image>	
+		
+		<image name="bam" extra="true">
+			<size>0.2796875 0.38</size>									
+			<pos>0.8 0.49</pos>									
+			<path>./bam.png</path>
+			<scale>0.95</scale>
+			<zIndex>3000</zIndex>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="3000" duration="500" mode="linear"/>
+				<animation property="scale" to="1" begin="3000" duration="2000" mode="bump"/>
+				<animation property="rotation" to="-5" begin="3000" duration="2000" mode="linear"/>
+				<animation property="opacity" to="0" begin="4500" duration="500" mode="linear"/>
+                <animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>	
+		
+		<image name="bam-star1" extra="true">
+			<size>0.0171875 0.0361111</size>									
+			<pos>0.998125 0.7472222</pos>									
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="3200" duration="500" mode="linear"/>
+				<animation property="scale" to="1" begin="3200" duration="2000" mode="bump"/>
+				<animation property="rotation" to="-180" begin="3200" duration="2000" mode="linear"/>
+				<animation property="opacity" to="0" begin="4500" duration="500" mode="linear"/>
+                <animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>	
+		
+		<image name="bam-star2" extra="true">
+			<size>0.0151042 0.0324074</size>									
+			<pos>0.8939583 0.5009259</pos>									
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="3300" duration="500" mode="linear"/>
+				<animation property="scale" to="1" begin="3300" duration="1500" mode="bump"/>
+				<animation property="rotation" to="200" begin="3300" duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" begin="4500" duration="500" mode="linear"/>
+                <animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>	
+		
+		<image name="bam-star3" extra="true">
+			<size>0.0125 0.0268519</size>									
+			<pos>0.8542708 0.7472222</pos>									
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="3400" duration="500" mode="linear"/>
+				<animation property="scale" to="1" begin="3400" duration="1500" mode="bump"/>
+				<animation property="rotation" to="150" begin="3400" duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" begin="4500" duration="500" mode="linear"/>
+                <animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>	
+		
+		<image name="bam-star4" extra="true">
+			<size>0.0098958 0.0203704</size>									
+			<pos>0.8146875 0.637037</pos>									
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="3500" duration="500" mode="linear"/>
+				<animation property="scale" to="1" begin="3500" duration="1500" mode="bump"/>
+				<animation property="rotation" to="-220" begin="3500" duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" begin="4500" duration="500" mode="linear"/>
+                <animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>	
+		
+		
+		<image name="dizzy-star" extra="true">
+			<size>0.128125 0.1027778</size>									
+			<pos>0.73 0.53</pos>		
+			<path>./dizzy-star.gif</path>		
+			<origin>0 0</origin>									
+			<opacity>0</opacity>
+			<zIndex>3001</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="5000" duration="500" mode="linear"/>
+				<animation property="opacity" to="0" begin="9500" duration="500" mode="linear"/>
+                <animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>		
+
+
+
+		<image name="splash.gif" extra="true">
+			<origin>0 0</origin>									
+			<size>0.1166667 0.0935185</size>									
+			<pos>0.739 0.869</pos>									
+			<pos ifHelpPrompts="false">0.739 0.929</pos>	
+			<path>./splash.gif</path>
+			<opacity>0</opacity>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="10500" duration="10" mode="linear"/>
+				<animation property="scale" to="2" begin="10500" duration="300" mode="linear"/>
+				<animation property="offsetY" to="-0.1" begin="10500" duration="300" mode="linear"/>
+				<animation property="offsetX" to="-0.05" begin="10500" duration="300" mode="linear"/>
+				<animation property="opacity" to="0" begin="10800" duration="10" mode="linear"/>
+                <animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+
+
+		
+		
+	</view>
+
+</theme>

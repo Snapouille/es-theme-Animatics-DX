@@ -212,12 +212,12 @@
 	<image name="md_flag">
 		
 		<storyboard event="open">
-			<animation property="pos" to="0.976 0.948" begin="1200"  duration="200" mode="linear"/>
+			<animation property="pos" to="0.976 0.928" begin="1200"  duration="200" mode="linear"/>
 			<animation property="maxSize" to="0.022 0.05" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="activate">
-			<animation property="pos" to="0.976 0.948" begin="1200"  duration="200" mode="linear"/>
+			<animation property="pos" to="0.976 0.928" begin="1200"  duration="200" mode="linear"/>
 			<animation property="maxSize" to="0.022 0.05" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 
@@ -230,13 +230,13 @@
 	<datetime name="md_releasedate">
 			
 		<storyboard event="open">
-			<animation property="pos" to="0.925 0.81" begin="1200"  duration="200" mode="linear"/>
+			<animation property="pos" to="0.925 0.8" begin="1200"  duration="200" mode="linear"/>
 			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
 			<animation property="rotation" to="-90" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="activate">
-			<animation property="pos" to="0.925 0.81" begin="1200"  duration="200" mode="linear"/>
+			<animation property="pos" to="0.925 0.8" begin="1200"  duration="200" mode="linear"/>
 			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
 			<animation property="rotation" to="-90" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>

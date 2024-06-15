@@ -473,10 +473,8 @@ originally based on: "carbon"
 		<text name="clock">
 			  <origin>1 1</origin>
 			  <color>${frameColor}</color>
-			  <!-- <color>777777FF</color> -->
 			  <fontPath>./art/fonts/flatwheat.ttf</fontPath>
-			  <pos>0.99 0.993</pos>
-			  <!-- <pos ifSubset="SystemView:grid">0.962 0.998</pos> -->
+			  <pos>0.995 0.993</pos>
 			  
 			  
 			  <fontSize>0.02</fontSize>

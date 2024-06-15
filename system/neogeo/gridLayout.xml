@@ -1,0 +1,175 @@
+<!-- NEO GEO MVS -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="disc" extra="static">
+			<origin>0 0</origin>									
+			<size>0.6651042 1.1824074</size>									
+			<pos>-0.8 -0.8</pos>
+			<scale>0.08</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./disc.png</path>
+
+			<storyboard>
+				<animation property="x" to="0.77" begin="" duration="2000" mode="EaseOut"/>
+				<animation property="y" to="0.25" begin="" duration="2000" mode="EaseOut"/>
+				<animation property="scale" to="0.9" begin="" duration="800" mode="bump"/>
+				<animation property="rotation" to="1111" begin="0" duration="2000" mode="EaseOut"/>
+				<animation property="scale" to="0.09" begin="800" duration="1200" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+		<image name="energy" extra="static">
+			<origin>0 0</origin>									
+			<size>0.6651042 1.1824074</size>
+			<pos>-0.8 -1</pos>
+			<scale>0.08</scale>
+			<zIndex>17</zIndex>
+			<opacity>1</opacity>
+			<path>./energy.png</path>
+
+			<storyboard>
+				<animation property="x" to="0.77" begin="" duration="2000" mode="EaseOut"/>
+				<animation property="y" to="0.25" begin="" duration="2000" mode="EaseOut"/>
+				<animation property="scale" to="0.9" begin="" duration="800" mode="bump"/>
+				<animation property="rotation" to="-1111" begin="0" duration="2000" mode="EaseOut"/>
+				<animation property="scale" to="0.09" begin="800" duration="1200" mode="EaseOut"/>
+				<animation property="opacity" to="0" begin="2000" duration="300" mode="linear"/>
+			</storyboard>
+		</image>
+		
+	
+		<image name="avatar1" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3552083 0.6944444</size>									
+			<pos>-1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar1.png</path>
+
+			<storyboard>
+				<animation property="x" to="0.67" begin="1500" duration="700" mode="linear"/>
+				<animation property="x" to="0.70" begin="2200" duration="1500" mode="linear"/>
+				<animation property="x" to="-1" begin="3700" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.4489583 0.6944444</size>									
+			<pos>1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar2.png</path>
+
+			<storyboard>
+				<animation property="x" to="0.69" begin="3700" duration="300" mode="linear"/>
+				<animation property="x" to="0.67" begin="4000" duration="1500" mode="linear"/>
+				<animation property="x" to="1" begin="5500" duration="300" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="avatar3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3390625 0.6944444</size>									
+			<pos>-1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar3.png</path>
+
+			<storyboard>
+				<animation property="x" to="0.67" begin="5500" duration="700" mode="linear"/>
+				<animation property="x" to="0.69" begin="6200" duration="1500" mode="linear"/>
+				<animation property="x" to="-1" begin="7700" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar4" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3791667 0.6944444</size>									
+			<pos>1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar4.png</path>
+
+			<storyboard>
+				<animation property="x" to="0.70" begin="7700" duration="300" mode="linear"/>
+				<animation property="x" to="0.67" begin="8000" duration="1500" mode="linear"/>
+				<animation property="x" to="1" begin="9500" duration="300" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="avatar5" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3171875 0.6944444</size>									
+			<pos>-1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar5.png</path>
+
+			<storyboard>
+				<animation property="x" to="0.67" begin="9500" duration="700" mode="linear"/>
+				<animation property="x" to="0.70" begin="10200" duration="1500" mode="linear"/>
+				<animation property="x" to="-1" begin="11700" duration="700" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar6" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3072917 0.6944444</size>									
+			<pos>1 0.45</pos>
+			<scale>0.8</scale>
+			<zIndex>19</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar6.png</path>
+
+			<storyboard>
+				<animation property="x" to="0.72" begin="11700" duration="700" mode="linear"/>
+				<animation property="x" to="0.69" begin="12400" duration="1500" mode="linear"/>
+				
+				<animation property="scale" to="1" begin="13900" duration="300" mode="bump"/>
+				<animation property="x" to="0.68" begin="13900" duration="300" mode="bump"/>
+				<animation property="y" to="0.31" begin="13900" duration="300" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar6arm" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3072917 0.6944444</size>									
+			<pos>0.672 0.268</pos>
+			<scale>1.1</scale>
+			<rotation>-3</rotation>
+			<zIndex>20</zIndex>
+			<opacity>0</opacity>
+			<path>./avatar6arm.png</path>
+
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="15000" duration="100" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" to="0" begin="15400" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		
+	</view>
+
+</theme>
