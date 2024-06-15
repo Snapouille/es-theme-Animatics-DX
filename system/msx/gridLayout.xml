@@ -19,14 +19,22 @@
 		
 		<image name="iceberg2.png" extra="true">
 			<origin>0 0</origin>									
-			<size>0.0479167 0.2972222</size>									
-			<pos>1.005 0.65</pos>									
-			<pos ifHelpPrompts="false">1.005 0.71</pos>	
+			<size>0.3005208 0.3981481</size>									
+			<pos>0.82 0.65</pos>									
+			<pos ifHelpPrompts="false">0.82 0.65</pos>	
 			<path>./iceberg2.png</path>
 			 <storyboard repeat="forever">
-				<animation property="offsetX" to="-0.05" begin="100" duration="2800" mode="linear"/>
-				<animation property="offsetX" to="-0.045" begin="3000" duration="1500" mode="bump"/>
-				<animation property="offsetX" to="0" begin="13000" duration="5010" mode="linear"/>
+				<animation property="offsetX" to="-0.03" 	begin="100"  duration="2900" mode="linear"/>
+				<animation property="offsetX" to="0.05" 	begin="3000"  duration="1000" mode="bump"/>
+				<animation property="offsetY" to="0.005" 	begin="3000"  duration="500" autoreverse="true" mode="linear"/>
+				<animation property="offsetY" to="0.004" 	begin="4000"  duration="500" autoreverse="true" mode="linear"/>
+				<animation property="offsetY" to="0.003" 	begin="5000"  duration="500" autoreverse="true" mode="linear"/>
+				<animation property="offsetY" to="0.002" 	begin="6000"  duration="1000" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="offsetX" to="0.03" 	begin="4000"  duration="1500" mode="easeInOut"/>
+				<animation property="offsetX" to="0.033" 	begin="10500" duration="500" mode="bump"/>
+				
+				
+				<animation property="offsetX" to="0" begin="11000" duration="7010" mode="linear"/>
 			  </storyboard>
 		</image>
 		
@@ -39,7 +47,7 @@
 		
 		<image name="sky" extra="true">
 			<size>0.5255208 0.2777778</size>									
-			<pos>0.19 0.11</pos>
+			<pos>0.21 0.09</pos>
 			<path>./sky.png</path>
 			<zIndex>9</zIndex>
 			<scale>1.3</scale>
@@ -74,7 +82,7 @@
 		
 		<image name="sky-star" extra="true">
 			<size>0.0255208 0.0444444</size>									
-			<pos>0.165625 0.1342593</pos>									
+			<pos>0.45 0.015</pos>									
 			<path>./sky-star.png</path>
 			<opacity>1</opacity>
 			<zIndex>8</zIndex>
@@ -102,7 +110,7 @@
 			
 			 <storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="" duration="150" mode="Easein"/>
-				<animation property="x" from="-0.2" to="0.9" begin="" duration="3000" mode="easeIn"/>
+				<animation property="x" from="-0.2" to="0.8" begin="" duration="3000" mode="easeIn"/>
 						
                 <animation property="x" to="0.73" begin="3000" duration="1000" mode="bump"/>
 				<animation property="y" to="0.59" begin="3000" duration="1000" mode="bump"/>
@@ -126,9 +134,9 @@
 			<flipX>true</flipX>
 		
 			 <storyboard repeat="forever">
-				<animation property="x" from="-0.2" to="0.9" begin="" duration="3000" mode="easeIn"/>
+				<animation property="x" from="-0.2" to="0.8" begin="" duration="3000" mode="easeIn"/>
 						
-                <animation property="x" to="0.73" begin="3000" duration="1000" mode="bump"/>
+                <animation property="x" to="0.71" begin="3000" duration="1000" mode="bump"/>
 				<animation property="y" to="0.59" begin="3000" duration="1000" mode="bump"/>
                 <animation property="rotation" to="-720" begin="3000" duration="1500" mode="EaseInOut"/>
 				
@@ -146,7 +154,7 @@
 
 		<image name="wink" extra="true">
 			<size>0.0104167 0.0185185</size>									
-			<pos>0.8125 0.6194444</pos>									
+			<pos>0.7925 0.6194444</pos>									
 			<path>./wink.png</path>
 			<flipX>true</flipX>
 			<zIndex>181</zIndex>
@@ -180,7 +188,7 @@
 		
 		<image name="bam" extra="true">
 			<size>0.2796875 0.38</size>									
-			<pos>0.8 0.49</pos>									
+			<pos>0.7 0.49</pos>									
 			<path>./bam.png</path>
 			<scale>0.95</scale>
 			<zIndex>3000</zIndex>
@@ -195,7 +203,7 @@
 		
 		<image name="bam-star1" extra="true">
 			<size>0.0171875 0.0361111</size>									
-			<pos>0.998125 0.7472222</pos>									
+			<pos>0.898125 0.7472222</pos>									
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="3200" duration="500" mode="linear"/>
 				<animation property="scale" to="1" begin="3200" duration="2000" mode="bump"/>
@@ -207,7 +215,7 @@
 		
 		<image name="bam-star2" extra="true">
 			<size>0.0151042 0.0324074</size>									
-			<pos>0.8939583 0.5009259</pos>									
+			<pos>0.7939583 0.5009259</pos>									
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="3300" duration="500" mode="linear"/>
 				<animation property="scale" to="1" begin="3300" duration="1500" mode="bump"/>
@@ -219,7 +227,7 @@
 		
 		<image name="bam-star3" extra="true">
 			<size>0.0125 0.0268519</size>									
-			<pos>0.8542708 0.7472222</pos>									
+			<pos>0.7542708 0.7472222</pos>									
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="3400" duration="500" mode="linear"/>
 				<animation property="scale" to="1" begin="3400" duration="1500" mode="bump"/>
@@ -231,7 +239,7 @@
 		
 		<image name="bam-star4" extra="true">
 			<size>0.0098958 0.0203704</size>									
-			<pos>0.8146875 0.637037</pos>									
+			<pos>0.7146875 0.637037</pos>									
 			<storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="3500" duration="500" mode="linear"/>
 				<animation property="scale" to="1" begin="3500" duration="1500" mode="bump"/>
@@ -244,7 +252,7 @@
 		
 		<image name="dizzy-star" extra="true">
 			<size>0.128125 0.1027778</size>									
-			<pos>0.73 0.53</pos>		
+			<pos>0.715 0.53</pos>		
 			<path>./dizzy-star.gif</path>		
 			<origin>0 0</origin>									
 			<opacity>0</opacity>
