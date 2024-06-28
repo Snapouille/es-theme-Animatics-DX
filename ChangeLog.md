@@ -1,3 +1,8 @@
+## V 1.73 - (28 06 2024)
+- NEW view : Grid (work in progress 80% done) 
+
+![2024-06-27_10_30_16-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/ace52cf5-af95-4c98-a0a2-f44561ff7895)
+
 ## V 1.72 - (14 06 2024)
 - NEW view : Grid (work in progress 70% done) 
 - New collection management 
