@@ -18,14 +18,14 @@
 
 		<image name="avatar" extra="static">
 			<origin>0.5 0.5</origin>	
-			<size>0.2317708 0.787037</size>									
-			<pos>1.05 0.5</pos>		
+			<size>0.2317708 0.837037</size>									
+			<pos>1.05 0.55</pos>		
 			<flipX>true</flipX>
-			<scale>0.8</scale>
+			<scale>0.65</scale>
 			<path>./avatar.png</path>
 
 			<storyboard>
-				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="offsetX" to="-0.23" begin="100" duration="500" mode="EaseOut"/>
 			</storyboard>
 			
 		</image>

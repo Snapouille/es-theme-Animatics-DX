@@ -1,0 +1,53 @@
+<!-- Super GraphX -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+
+
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>	
+			<scale>1</scale>	
+			<!-- <pos ifHelpPrompts="false">0.5 0.5</pos>	 -->
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+
+
+
+
+
+
+
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.2322917 0.7546296</size>									
+			<pos>0.43 0.80</pos>	
+			<scale>0.6</scale>
+			<zIndex>11</zIndex>	
+								
+			<storyboard>
+        		<animation property="x" to="0.77" begin="" duration="600" mode="linear"/>
+				<animation property="y" to="0.68" begin="" duration="600" mode="bump"/>
+        		<animation property="scale" to="1.1" begin="" duration="600" mode="linear"/>
+				<animation property="rotation" to="28" begin="" duration="600" mode="easeOut"/>
+			</storyboard>					
+
+		</image>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</view>
+</theme>

@@ -1,0 +1,93 @@
+<!-- Megadrive -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar" extra="true">	
+			<origin>0 0</origin>									
+			<size>0.265625 0.8361111</size>									
+			<pos>1.05 0.24</pos>		
+			<pos ifHelpPrompts="false">1.05 0.3</pos>	
+			<scale>0.8</scale>
+			<opacity>1</opacity>
+			<zIndex>1901</zIndex>
+			
+			<storyboard>
+					<animation property="offsetX" to="-0.30" begin="100" duration="500" mode="EaseOut"/>
+				
+					<animation property="offsetX" from="-0.30" to="-0.35" begin="5100" duration="300" mode="bump"/>
+					<animation property="offsetY" 			   to="-0.03" begin="5100" duration="300" mode="bump"/>
+					<animation property="rotation" from="0" to="-3" begin="5100" autoreverse="true" duration="300" mode="linear"/>
+
+					<animation property="rotation" from="0" to="-20" begin="6200" autoreverse="true" duration="200" mode="linear"/>
+					<animation property="offsetY" 		    to="-1" begin="6300" duration="300" mode="bump"/>
+					
+					<animation property="rotation" from="0" to="-50" begin="10000" duration="300" mode="linear"/>
+					<animation property="offsetX" 		    to="-0.7" begin="10000" duration="300" mode="bump"/>
+					<animation property="zIndex" 		    to="20000" begin="10000" duration="300" mode="linear"/>
+					<animation property="offsetY" to="1" begin="10500" duration="1000" mode="bump"/>
+					
+					<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+	
+	
+	
+	
+	
+		<image name="avatar2" extra="static">
+				<origin>-0.93 -0.15</origin>									
+				<size>0.3671875 0.8481481</size>									
+				<pos>0.39 0.10</pos>
+				<pos ifHelpPrompts="false">0.39 0.15</pos>	
+				<scale>1</scale>
+				<path>./avatar2.png</path>
+				<opacity>0</opacity>
+				<zIndex>19020</zIndex>
+		</image>
+		
+		<image name="avatar3" extra="static">
+			<origin>-0.93 -0.15</origin>									
+			<size>0.3671875 0.8481481</size>									
+			<pos>0.31 -0.05</pos>
+			<pos ifHelpPrompts="false">0.31 0.01</pos>	
+			<scale>1</scale>
+			<path>./avatar3.png</path>
+			<opacity>0</opacity>
+			<zIndex>19030</zIndex>
+		</image>
+	
+	
+		
+		
+		<image name="avatar2" extra="true">	
+			<storyboard>
+					<animation property="opacity" from="0" to="1" begin="5000" duration="10" mode="linear"/>
+					<animation property="rotation" from="1" to="-1" begin="5000" autoreverse="true" duration="300" repeat="2" mode="linear"/>
+					<animation property="offsetY" from="0.12" to="0.129" begin="5000" autoreverse="true" duration="300" repeat="2" mode="linear"/>
+					
+					<animation property="rotation" from="1" to="-1" begin="6100" autoreverse="true" duration="100" mode="linear"/>
+					<animation property="x" from="0.36" to="0.31" begin="6100" duration="200" mode="bump"/>
+					<animation property="offsetY" from="0.11" to="-0.155" begin="6100" duration="200" mode="bump"/>
+					
+					<animation property="opacity" begin="6300" from="1" to="0" duration="10" autoreverse="true" repeat="14" mode="linear"/>
+					<animation property="opacity" begin="6780" from="1" to="0" duration="20" mode="linear"/>
+					
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="avatar3" extra="true">	
+			<storyboard>
+				<animation property="opacity" from="0" to="1" begin="6100" duration="400" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

@@ -9,7 +9,7 @@
 			<size>1 1</size>									
 		    <scale>1</scale>
 			<pos>0.5 0.5</pos>	<scale>1</scale>	
-			<path>./background.jpg</path>
+			<path>./background-grid.jpg</path>
 			<saturation>0.7</saturation>
 			  <storyboard>
 				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
@@ -181,7 +181,7 @@
 		
 			<storyboard repeat="forever">
 				<animation property="x" from="0.49" to="0.47" begin="6000" duration="200" mode="linear"/>
-				<animation property="opacity" from="0" to="1" begin="6200" duration="200" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="6200" duration="20" mode="linear"/>
 				<animation property="x" from="0.47" to="0.49" begin="6200" duration="200" mode="linear"/>
 				
 								
@@ -190,7 +190,7 @@
 				
 				<animation property="x" from="0.49" to="0.47" begin="8100" duration="2400" mode="linear"/>
 				<animation property="y" from="0.46" to="0.47" begin="8100" duration="2400" mode="linear"/>
-				<animation property="opacity" from="1" to="0" begin="10000" duration="200" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="10000" duration="20" mode="linear"/>
 				
 				
 				
@@ -217,11 +217,11 @@
 				<animation property="x" from="0.46" to="0.49" begin="" duration="6000" mode="EaseOut"/>
 			
 				<animation property="x" from="0.49" to="0.47" begin="6000" duration="100" mode="linear"/>
-				<animation property="opacity" from="1" to="0" begin="6200" duration="200" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="6200" duration="20" mode="linear"/>
 				<animation property="x" from="0.47" to="0.49" begin="6200" duration="200" mode="linear"/>
 				
 				<animation property="x" from="0.49" to="0.47" begin="8100" duration="2400" mode="linear"/>
-				<animation property="opacity" from="0" to="1" begin="10000" duration="200" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="10000" duration="20" mode="linear"/>
 				
 				
 				<animation property="x" from="0.47" to="0.46" begin="10500" duration="4000" mode="EaseOut"/>

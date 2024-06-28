@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Basketball video games offer rich and varied experiences, ranging from ultra-realistic simulations like "NBA 2K" or "NBA Live" to more arcade-style games like "NBA Jam". The "NBA Playgrounds" licence is another interesting variant. Constantly pushing the boundaries of realism, immersive game modes and official licensing, these games continue to captivate fans around the world. Boomshakalaka!</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux vidéo de basket-ball offrent des expériences riches et variées, allant des simulations ultra-réalistes comme "NBA 2K" ou "NBA Live"  aux jeux plutôt arcade comme "NBA Jam". La licence "NBA Playgrounds" est une variante aussi intéressante. Repoussant constamment les limites du réalisme, des modes de jeu immersifs et des licences officielles, ces jeux continuent de captiver les fans à travers le monde. Boomshakalaka !</text>
+</text>
+
+</view>
+</theme>

@@ -24,12 +24,12 @@
 			<color>FFFFFFFF</color>
 
 			<storyboard>
-				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="offsetX" to="-0.217" begin="100" duration="500" mode="EaseOut"/>
 			</storyboard>
 			
 			<storyboard ifHelpPrompts="false">
 				<animation property="offsetY"  to="0.1"/>
-				<animation property="offsetX" to="-0.2" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="offsetX" to="-0.217" begin="100" duration="500" mode="EaseOut"/>
 			</storyboard>
 		</image>
 		

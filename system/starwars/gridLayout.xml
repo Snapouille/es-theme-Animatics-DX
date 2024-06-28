@@ -1,0 +1,73 @@
+<!-- Star Wars collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.259375 0.7314815</size>									
+			<pos>1.05 0.55</pos>									
+			<path>./avatar.png</path>
+			<scale>1</scale>
+			<linearSmooth>true</linearSmooth>					
+
+			<storyboard>
+				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.06"/>
+				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="laser" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.1651042 0.3861111</size>									
+			<pos>0.793 0.45</pos>									
+			<opacity>0</opacity>
+			<path>./laser.png</path>
+			<zIndex>1600</zIndex>
+				
+			<storyboard repeat="forever">
+				
+				<animation property="opacity" from="0" to="1" begin="1500" duration="1000" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="6500" duration="100" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="6700" duration="200" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="7100" duration="500" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="8100" duration="200" autoreverse="true" repeat="2" mode="linear"/>
+				
+			</storyboard>
+		
+		</image>
+		
+		
+		<image name="sandstorm" extra="static">
+			<origin>0 0</origin>
+			<pos>0 0.2</pos>
+			<size>0.3427083 0.2240741</size>									
+			<scale>4</scale>
+			<zIndex>15</zIndex>
+			<opacity>1</opacity>
+			<path>./sandstorm.png</path>
+
+
+			<storyboard repeat="forever">
+				<animation property="x" from="0" to="-0.35" begin="" autoreverse="true" duration="20000" mode="linear"/>
+				<animation property="y" from="0.2" to="0.203" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="scale" from="4" to="4.01" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="opacity" from="1" to="0.8" begin="" autoreverse="true" duration="1000" repeat="20" mode="linear"/>
+			
+			</storyboard>
+
+		
+		</image>
+		
+		
+	</view>
+</theme>

@@ -7,101 +7,15 @@
 	
 		<image name="warrior" extra="static">
 			<origin>0 0</origin>									
-			<size>0.259375 0.7574074</size>									
-			<pos>0.11 0.3</pos>
-			<scale>0.5</scale>
+			<size>0.1427083 0.7407407</size>									
+			<pos>0.51 0.13</pos>
+			<scale>1</scale>
 			<opacity>1</opacity>
 			<path>./warrior.png</path>
 			<zIndex>18</zIndex>
-
-
-			<storyboard repeat="forever">
-						
-				<animation property="x" to="0.09" begin="" duration="6000" mode="linear"/>
-				
-				<animation property="scale" to="0.9" begin="6000" duration="350" mode="Linear"/>
-				<animation property="x" to="0.42" begin="6000" duration="375" mode="EaseOut"/>
-				<animation property="y" to="0.2" begin="6000" duration="375" mode="EaseOut"/>
-				
-				<animation property="scale" to="0.65" begin="15000" duration="350" mode="bump"/>
-				<animation property="x" to="0.24" begin="15000" duration="375" mode="EaseIn"/>
-				<animation property="y" to="0.22" begin="15000" duration="375" mode="EaseOut"/>
-				
-        						
-			</storyboard>
-		</image>
-	
-	
-		
-		
-		
-		<image name="caligra" extra="static">
-			<origin>0 0</origin>									
-<size>0.1145833 0.5185185</size>									
-			<pos>0.19 0.2</pos>
-			<scale>0.65</scale>
-			<opacity>0</opacity>
-			<path>./caligra.png</path>
-			<zIndex>17</zIndex>
-
-
-			<storyboard repeat="forever">
-						
-				<animation property="opacity" to="1" begin="5950" duration="400" mode="Linear"/>
-				<animation property="scale" to="2" begin="5950" duration="1000" mode="linear"/>
-				<animation property="x" to="0.1" begin="5950" duration="1000" mode="linear"/>
-				<animation property="y" to="-0.1" begin="5950" duration="1000" mode="linear"/>
-				<animation property="opacity" to="0" begin="6550" duration="400" mode="linear"/>
-				
-				<animation property="opacity" to="0" begin="15000" duration="375" mode="EaseOut"/>
-        						
-			</storyboard>
-		</image>
-	
-	
-	
-	
-		
-	
-	
-		<image name="fog" extra="static">
-			<origin>0 0</origin>									
-			<size>1 1</size>									
-			<pos>0 0</pos>
-			<opacity>0</opacity>
-			<path>./fog.png</path>
-			<zIndex>16</zIndex>
-		</image>
-		
-		
-		<image name="fog" extra="true">
-		
-			<storyboard repeat="forever">
-				
-				<animation property="opacity" from="0" to="0.7" begin="3000" duration="10000" autoreverse="true" mode="EaseOutQuint"/>
-        		
-					
-				<animation property="scale" from="1" to="1.0009" begin="3000" duration="250" autoreverse="true" repeat="20" mode="linear"/>	
-				<animation property="rotation" to="0.2" begin="3000" autoreverse="true" duration="350" repeat="14" mode="linear"/>
-				<animation property="y" from="0" to="-0.001" begin="3000" duration="250" autoreverse="true" repeat="20" mode="linear"/>	
-				
-				
-				<animation property="opacity" to="0" begin="15000" duration="1000" mode="linear"/>
-				
 			
-			</storyboard>
-		
 		</image>
 	
-	
-		
-	
-	
-		
-		
-		
-		
-		
 		
 		
 	</view>

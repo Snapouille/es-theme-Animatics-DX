@@ -67,7 +67,7 @@
 		  <pos>0.023 0.377</pos>
 		  <pos ifHelpPrompts="false">0.023 0.41</pos>	
 		  <size>0.648 0.536</size>
-		  <autoLayout>0 3</autoLayout>
+		  <autoLayout>4 0</autoLayout>
 		  <cellProportion>1.7</cellProportion>
 		  <margin>21</margin>
 		  <padding>0.01 0.01 0.01 0.01</padding>
@@ -86,14 +86,15 @@
 			  <size>1 1</size>
 			  <zIndex>2</zIndex>
 			  <visible>true</visible>
-			  <color>252831</color>
+			  <color>333743</color>
+			  
 			  <path>${themePath}/art/divers/white.png</path>
 			  <roundCorners>15</roundCorners>
 			  <storyboard event="activate" repeat="forever">
-				<animation property="color" from="252831" to="${baseColor}"/>
+				<animation property="color" from="333743" to="${baseColor}"/>
 			  </storyboard>
 			  <storyboard event="deactivate">
-				<animation property="color" from="${baseColor}" to="252831"/>
+				<animation property="color" from="${baseColor}" to="333743"/>
 			  </storyboard>
 			</image>
 			

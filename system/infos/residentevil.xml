@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Resident Evil, known in Japan as Biohazard, is a series of survival horror action-adventure video games. The franchise is owned by the Japanese company Capcom. It made its PlayStation debut in 1996. Thanks to its success, numerous sequels have been produced for most consoles. Resident Evil is a major series comprising more than 30 games, including remakes and remasterings.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Resident Evil, connue au Japon sous le nom Biohazard, est une série de jeux vidéo d'aventure, action et réflexion de type survival horror. La franchise appartient à la société japonaise Capcom. Elle fait ses débuts sur PlayStation en 1996. Grâce à son succès, de nombreuses suites sont réalisées, sur la plupart des consoles. Resident Evil est une série importante comprenant plus de 30 jeux en comptant les remakes et les remastérisations.</text>
+</text>
+
+</view>
+</theme>

@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Shinobi is a video game series from Sega, first released on arcade in 1987. The game was later ported to home consoles and various computers. Its success turned it into a saga with twelve games to date, released on Arcade, Megadrive, Game Gear, Saturn, GBA, PS2 and even Nintendo 3DS.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Shinobi est une série de jeux vidéo de Sega, dont le premier épisode est sorti sur arcade en 1987. Le jeu est ensuite porté sur console de salon et divers ordinateurs. Son succès en feront une saga comptant à ce jour douze jeux qui ont vu le jour sur Arcade, Megadrive, Game Gear, Saturn, Gameboy Advance, Playstation 2 et même Nintendo 3DS. Il y a aussi eu un Spin-off en 1990 sur Master System avec Alex Kidd in Shinobi World.</text>
+</text>
+
+</view>
+</theme>

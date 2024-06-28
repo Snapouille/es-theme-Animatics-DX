@@ -88,17 +88,27 @@ originally based on: "carbon"
         </image>
 
 
-        <image name="md_fanart">
+        <!-- <image name="md_fanart"> -->
+            <!-- <origin>0 0</origin> -->
+            <!-- <pos>0 0</pos> -->
+			<!-- <maxSize>0.7 0.7101852</maxSize>									 -->
+            <!-- <zIndex>14</zIndex> -->
+			<!-- <scale>1</scale> -->
+        <!-- </image> -->
+
+
+
+      <image name="background_fanart" extra="true">
+         <path>{game:fanart}</path>
             <origin>0 0</origin>
             <pos>0 0</pos>
 			<maxSize>0.7 0.7101852</maxSize>									
             <zIndex>14</zIndex>
 			<scale>1</scale>
-			
-            <!-- <storyboard event="activate"> -->
-                <!-- <animation property="opacity" from="0" to="1" duration="800" mode="easeInOut"/> -->
-            <!-- </storyboard> -->
-        </image>
+         <visible>exists({game:fanart})</visible>
+      </image>
+
+
 
 
 

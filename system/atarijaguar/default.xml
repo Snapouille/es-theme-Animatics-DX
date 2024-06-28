@@ -197,7 +197,7 @@
 		
 			<storyboard repeat="forever">
 				<animation property="x" from="0.14" to="0.12" begin="6000" duration="200" mode="linear"/>
-				<animation property="opacity" from="0" to="1" begin="6200" duration="200" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="6200" duration="20" mode="linear"/>
 				<animation property="x" from="0.12" to="0.14" begin="6200" duration="200" mode="linear"/>
 				
 								
@@ -206,7 +206,7 @@
 				
 				<animation property="x" from="0.14" to="0.12" begin="8100" duration="2400" mode="linear"/>
 				<animation property="y" from="0.26" to="0.27" begin="8100" duration="2400" mode="linear"/>
-				<animation property="opacity" from="1" to="0" begin="10000" duration="200" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="10000" duration="20" mode="linear"/>
 				
 				
 				
@@ -233,11 +233,11 @@
 				<animation property="x" from="0.11" to="0.14" begin="" duration="6000" mode="EaseOut"/>
 			
 				<animation property="x" from="0.14" to="0.12" begin="6000" duration="100" mode="linear"/>
-				<animation property="opacity" from="1" to="0" begin="6200" duration="200" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="6200" duration="20" mode="linear"/>
 				<animation property="x" from="0.12" to="0.14" begin="6200" duration="200" mode="linear"/>
 				
 				<animation property="x" from="0.14" to="0.12" begin="8100" duration="2400" mode="linear"/>
-				<animation property="opacity" from="0" to="1" begin="10000" duration="200" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="10000" duration="20" mode="linear"/>
 				
 				
 				<animation property="x" from="0.12" to="0.11" begin="10500" duration="4000" mode="EaseOut"/>

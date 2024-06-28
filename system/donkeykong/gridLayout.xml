@@ -1,0 +1,40 @@
+<!-- DK Collections -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar-dk" extra="static">
+			<origin>0 0</origin>
+			<pos>0.70 -0.05</pos>
+			<size>0.3223958 0.9259259</size>									
+
+			<scale>0.91</scale>
+			<rotation>5</rotation>
+			<zIndex>18</zIndex>
+			<opacity>1</opacity>
+			<path>./avatar-dk.png</path>
+			<linearSmooth>true</linearSmooth>
+		
+		
+			 <storyboard repeat="forever">
+
+				
+                <animation property="rotation" from="5" to="2.5" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
+				<animation property="x" from="0.675" to="0.685" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
+				<animation property="scale" from="0.91" to="0.915" begin="" duration="1500" autoreverse="true" repeat="20" mode="EaseInOut"/>
+				
+				
+
+            </storyboard>		
+			
+		</image>
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

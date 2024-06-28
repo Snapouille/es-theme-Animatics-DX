@@ -6,16 +6,12 @@
 	<view name="system">
 
 		<image name="avatar" extra="static">
-			<origin>0.5 0.5</origin>									
-			<size>0.2916667 0.6490741</size>									
-			<pos>0.48 0.48</pos>	
-			<scale>1</scale>
-			<linearSmooth>true</linearSmooth>				
-			<storyboard>
-				
-        		<animation property="x" to="0.51" begin="" duration="4000" mode="EaseInOut"/>
-        		
-			</storyboard>					
+			<origin>0.5 0.5</origin>
+			<size>0.1338542 0.4444444</size>									
+			<pos>0.53 0.53</pos>									
+			<path>./avatar.gif</path>
+			<scale>1.05</scale>
+			<flipX>true</flipX>
 
 		</image>
 		

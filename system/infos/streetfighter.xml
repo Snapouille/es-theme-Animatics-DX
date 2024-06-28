@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>With a history spanning more than 25 years and 44 games, from the arcade to the biggest consoles, Street Fighter has stood the test of time. It made a huge contribution to the world of fighting games by introducing the world's first female fighting character, Chun-Li. The series' flagship opus, Street Fighter II, alone sold several million copies of the game.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Avec une histoire qui s'étend sur plus de 25 ans et 44 jeux, de l'arcade aux plus grandes consoles, Street Fighter a résisté à l'épreuve du temps. Il a apporté une énorme contribution au monde des jeux de combat en introduisant le premier personnage de combat féminin au monde, Chun-Li. L'opus phare de la série, Street Fighter II, a lui seul fit vendre plusieurs millions d'exemplaires du jeu et plusieurs dizaines de milliers de consoles de jeu de salon.</text>
+</text>
+
+</view>
+</theme>

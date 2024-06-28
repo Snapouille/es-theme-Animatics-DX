@@ -7,8 +7,9 @@ originally based on: "carbon"
 -->
 <theme defaultView="detailed">
   <formatVersion>7</formatVersion>
-<view name="detailed">  
   
+
+<view name="detailed">  
   
 	<image name="ecran_console" extra="static">
 		<pos>0.53 0.149</pos>
@@ -516,7 +517,7 @@ originally based on: "carbon"
 	
 	
 	
-    <image name="background">
+    <image name="background-detailed">
       <tile>false</tile>
       <size>1 1</size>
       <pos>0 0</pos>

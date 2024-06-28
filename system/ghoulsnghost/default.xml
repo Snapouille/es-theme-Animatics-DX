@@ -1,4 +1,4 @@
-<!-- Ghouls N Ghost collection -->
+<!-- Super GraphX -->
 
 <theme>
 	<formatVersion>7</formatVersion>
@@ -6,36 +6,110 @@
 	<view name="system">
 
 		<image name="avatar" extra="static">
-			<origin>0.5 0.5</origin>	
+			<origin>0.5 0.5</origin>									
 			<size>0.2322917 0.7546296</size>									
-			<pos>0.25 0.47</pos>	
-			<scale>0.4</scale>
-			<linearSmooth>true</linearSmooth>					
+			<pos>0.27 0.54</pos>	
+			<scale>0.6</scale>
+			
+			<zIndex>19</zIndex>	
+								
 			<storyboard>
 				
-        		<animation property="x" to="0.51" begin="" duration="1000" mode="EaseInOut"/>
-				<animation property="scale" to="1" begin="" duration="1000" mode="Bump"/>
-        		<animation property="y" to="0.53" begin="" duration="1200" mode="EaseInOut"/>
+        		<animation property="x" to="0.51" begin="" duration="2000" mode="EaseInOut"/>
+				<animation property="y" to="0.38" begin="" duration="1000" mode="bump"/>
+				<animation property="y" to="0.54" begin="1000" duration="1000" mode="EaseOut"/>
+        		<animation property="scale" to="1.1" begin="" duration="2000" mode="EaseInOut"/>
+				<animation property="rotation" to="20" begin="" duration="2000" mode="EaseInOut"/>
 				
-			</storyboard>		
+			</storyboard>					
 
 		</image>
+		
+		
+		
+		
+		<image name="rain_1" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>1 1</size>									
+			<pos>0.5 0.4</pos>
+			<opacity>1</opacity>
+			<path>./rain.png</path>
+			<zIndex>120</zIndex>
 
-		<image name="fog" extra="true">
-			<origin>0 0</origin>
-			<pos>0 0.2</pos>
-			<size>0.3427083 0.2240741</size>	
-			<scale>4</scale>
-			<zIndex>15</zIndex>
-			<opacity>1</opacity>								
-			<path>./fog.png</path>
+
 			<storyboard repeat="forever">
-				<animation property="x" from="0" to="-0.35" begin="" autoreverse="true" duration="20000" mode="linear"/>
-				<animation property="y" from="0.2" to="0.203" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
-				<animation property="scale" from="4" to="4.01" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
-				<animation property="opacity" from="1" to="0.6" begin="" autoreverse="true" duration="1000" repeat="20" mode="linear"/>
+					<animation property="opacity" to="0" begin="150" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="450" duration="10" mode="linear"/>
+					
+					
+        						
 			</storyboard>
 		</image>
+		
+	
+		<image name="rain_2" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>1 1</size>									
+			<pos>0.4 0.5</pos>
+			<opacity>0</opacity>
+			<path>./rain.png</path>
+			<zIndex>120</zIndex>
+
+
+			<storyboard repeat="forever">
+					<animation property="opacity" to="1" begin="150" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="300" duration="10" mode="linear"/>	
+        			<animation property="opacity" to="0" begin="450" duration="10" mode="linear"/>
+
+					
+			</storyboard>
+		</image>
+		
+		
+		<image name="rain_3" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>1 1</size>									
+			<pos>0.3 0.6</pos>
+			<opacity>0</opacity>
+			<path>./rain.png</path>
+			<zIndex>120</zIndex>
+
+
+			<storyboard repeat="forever">
+					<animation property="opacity" to="1" begin="300" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="450" duration="10" mode="linear"/>	
+        						
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		<image name="lumiere" extra="static">
+			<origin>0 0</origin>
+			<size>1 1</size>									
+			<pos>0 0</pos>								
+
+			<scale>1</scale>
+			<opacity>0</opacity>
+			<path>./lumiere.png</path>
+			<zIndex>120</zIndex>
+			
+		
+			<storyboard repeat="forever">
+				
+        		<animation property="opacity" begin="2800" from="0" to="0.8" duration="10" autoreverse="true" repeat="5" mode="linear"/>
+        		<animation property="opacity" begin="3500" from="0" to="0.8" duration="5" autoreverse="true" repeat="3" mode="linear"/>
+        		<animation property="opacity" begin="5500" from="0" to="0.8" duration="7" autoreverse="true" repeat="2" mode="linear"/>
+        		<animation property="opacity" begin="6000" from="0" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
+        		<animation property="opacity" begin="10000" from="0" to="0.8" duration="10" autoreverse="true" repeat="10" mode="linear"/>
+			
+			</storyboard>
+		
+		</image>
+		
+		
+		
 		
 	</view>
 </theme>

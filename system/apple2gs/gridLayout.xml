@@ -8,7 +8,10 @@
 	
 		<image name="BG_snapLegacy" extra="true">
 			<size>1 1</size>									
-			<pos>0.5 0.5</pos>	<scale>1</scale>	
+			<pos>0.5 0.44</pos>	
+			<scale>1</scale>	
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<flipX>true</flipX>
 			<saturation>0.7</saturation>
 			  <storyboard>
 				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
@@ -34,17 +37,21 @@
 		</image>
 		
 		
+		<image name="wizard-flip, wizard-eyes-flip, wizard-hand-flip, wizard-fist-flip" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.2078125 0.43</size>									
+			<pos>0.87 0.67</pos>
+			<pos ifHelpPrompts="false">0.87 0.73</pos>	
+			<flipX>true</flipX>
+			<zIndex>19</zIndex>
+			<scale>1</scale>
+			<opacity>0</opacity>
+		</image>
 		
 		
 		<image name="wizard-flip" extra="true">
-			<origin>0.5 0.5</origin>									
-			<size>0.2078125 0.43</size>									
-			<pos>0.83 0.47</pos>
-			<flipX>true</flipX>
 			<path>./wizard.gif</path>
 			<opacity>1</opacity>
-			<zIndex>19</zIndex>
-			<scale>1</scale>
 
 			<storyboard repeatAt="7000">
 				
@@ -65,17 +72,9 @@
 		</image>
 		
 		<image name="wizard-eyes-flip" extra="true">
-			<origin>0.5 0.5</origin>									
-			<size>0.2078125 0.43</size>									
-			<pos>1.1 0.47</pos>
-			<flipX>true</flipX>
 			<path>./wizard-eyes.gif</path>
-			<opacity>0</opacity>
-			<zIndex>20</zIndex>
-			<scale>1</scale>
 
 			<storyboard repeatAt="7000">
-				<animation property="x" to="0.83" begin="" duration="500" mode="EaseInOut"/>
 				
 				<animation property="opacity" to="1" begin="6500" duration="10" mode="linear"/>
 				<animation property="opacity" to="0" begin="7000" duration="10" mode="linear"/>
@@ -89,17 +88,9 @@
 		</image>
 		
 		<image name="wizard-hand-flip" extra="true">
-			<origin>0.5 0.5</origin>									
-			<size>0.2078125 0.43</size>									
-			<pos>1.1 0.47</pos>
-			<flipX>true</flipX>
 			<path>./wizard-hand.gif</path>
-			<opacity>0</opacity>
-			<zIndex>20</zIndex>
-			<scale>1</scale>
 
 			<storyboard repeatAt="7000">
-				<animation property="x" to="0.83" begin="" duration="500" mode="EaseInOut"/>
 				
 				<animation property="opacity" to="1" begin="7500" duration="10" mode="linear"/>
 				<animation property="opacity" to="0" begin="8500" duration="10" mode="linear"/>
@@ -113,17 +104,9 @@
 		
 		
 		<image name="wizard-fist-flip" extra="true">
-			<origin>0.5 0.5</origin>									
-			<size>0.2078125 0.43</size>									
-			<pos>1.1 0.47</pos>
-			<flipX>true</flipX>
 			<path>./wizard-fist-true.gif</path>
-			<opacity>0</opacity>
-			<zIndex>20</zIndex>
-			<scale>1</scale>
-
+			
 			<storyboard repeatAt="7000">
-				<animation property="x" to="0.83" begin="" duration="500" mode="EaseInOut"/>
 				
 				<animation property="opacity" to="1" begin="9000" duration="10" mode="linear"/>
 				<animation property="opacity" to="0" begin="10000" duration="10" mode="linear"/>
@@ -189,7 +172,7 @@
 		<image name="ghost2" extra="true">
 			<origin>0.5 0.5</origin>									
 			<size>0.0442708 0.0740741</size>									
-			<pos>0.55 0.25</pos>									
+			<pos>0.45 0.65</pos>									
 			<path>./ghost2.gif</path>
 			<opacity>0</opacity>
 			<zIndex>19</zIndex>
@@ -197,7 +180,7 @@
 
 			<storyboard repeatAt="4380">
 				<animation property="opacity" from="0" to="0.4" begin="1400" duration="2600" mode="linear"/>
-				<animation property="y" to="0.13" begin="1400" duration="2600" mode="linear"/>
+				<animation property="y" to="0.29" begin="1400" duration="2600" mode="linear"/>
 				<animation property="rotation" to="3" begin="1400" duration="325" autoreverse="true" repeat="4" mode="linear"/>
 				<animation property="offsetY" to="0.005" begin="4380" autoreverse="true" repeat="1" duration="340" mode="linear"/>
 				<animation property="rotation" to="3" begin="4380"    autoreverse="true" repeat="2" duration="170" mode="linear"/>

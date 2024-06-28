@@ -1,23 +1,198 @@
-<!-- CPS 1 -->
+<!-- SamCoupé -->
 
 <theme>
 	<formatVersion>7</formatVersion>
 	
 	<view name="system">
+	
+	<image name="background-light" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.58125 0.6509259</size>									
+		<pos>0.3177083 0.3856481</pos>	
+		<path>./background-light.png</path>
+		<opacity>0</opacity>
+		<zIndex>4</zIndex>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="0.2" begin="1000" duration="100" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0" to="0.4" begin="1200" duration="200" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0" to="0.7" begin="1600" duration="500" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0" to="0.6" begin="3600" duration="200" autoreverse="true" repeat="2" mode="linear"/>
+			</storyboard>
+	</image>
+	
+	
+
+		<image name="avatar, avatar-light, arrow01, arrow02, arrow03, arrow04, arrow05, arrow06, arrow07" extra="static">
+			<origin>0.5 0.5</origin>
+			<zIndex>20</zIndex>
+			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+		</image>
 
 		<image name="avatar" extra="static">
-			<origin>0.5 0.5</origin>									
-			<size>0.2479167 0.725</size>									
-									
-								
-			<pos>0.4296875 0.49</pos>									
-								
+			<size>0.171875 0.4064815</size>									
+			<pos>0.3 0.4615741</pos>	
+			<zIndex>190</zIndex>
+			<opacity>1</opacity>
 			<storyboard>
+        		<animation property="size" to="0.2640625 0.625" begin="" duration="500" mode="EaseInOut"/>
+				<animation property="pos" to="0.5304688 0.5189815" begin="" duration="500" mode="EaseInOut"/>
 				
-        		<animation property="x" to="0.51" begin="" duration="4000" mode="EaseInOut"/>
-        		
+				<animation property="size" to="0.6140625 1.4537037" begin="11800" duration="500" mode="EaseInOut"/>
+				<animation property="pos" to="1.2585938 0.9814815" begin="11800" duration="500" mode="EaseInOut"/>
 			</storyboard>					
+		</image>
+		
+		<image name="avatar-light" extra="static">
+			<size>0.1119792 0.512963</size>									
+			<pos>0.4695313 0.4833333</pos>									
+			<zIndex>191</zIndex>
+			<path>./avatar-light.png</path>
+			<opacity>0</opacity>
+			<storyboard>
+				<animation property="opacity" to="0.8" begin="500" duration="500" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.6" begin="800" duration="200" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.4" begin="1400" duration="500" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.6" begin="3400" duration="200" autoreverse="true" repeat="2" mode="linear"/>
+				
+				<animation property="opacity" from="0.8" to="0.6" begin="3800" duration="100" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.5" begin="4000" duration="200" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.4" begin="4400" duration="500" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.6" begin="6400" duration="200" autoreverse="true" repeat="2" mode="linear"/>
+				
+				<animation property="opacity" from="0.8" to="0.6" begin="6800" duration="100" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.5" begin="7000" duration="200" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.4" begin="7400" duration="500" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.6" begin="9400" duration="200" autoreverse="true" repeat="2" mode="linear"/>
 
+				<animation property="opacity" from="0.8" to="0.6" begin="9800" duration="100" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.5" begin="10000" duration="200" autoreverse="true" repeat="3" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="11800" duration="100" mode="linear"/>
+			</storyboard>					
+		</image>
+
+		
+		<image name="arrow01" extra="static">
+			<size>0.0973958 0.1222222</size>									
+			<pos>0.1653646 0.2361111</pos>									
+			<path>./arrow01.png</path>
+			<storyboard>
+				<animation property="opacity" to="1" begin="400" duration="100" mode="linear"/>
+        		<animation property="size" to="0.2479167 0.3148148" begin="400" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="0.5390625 0.7240741" begin="400" duration="300" mode="EaseInOut"/>
+				
+				<animation property="offsetX" to="-0.0003" begin="700" duration="50" autoreverse="true" repeat="100" mode="linear"/>
+				<animation property="offsetY" to="-0.0003" begin="700" duration="50" autoreverse="true" repeat="100" mode="linear"/>
+				
+				<animation property="size" to="0.4151042 0.5268519" begin="10700" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="0.9695313 1.2615741" begin="10700" duration="300" mode="EaseInOut"/>
+			</storyboard>					
+		</image>
+		
+		<image name="arrow02" extra="static">
+			<size>0.0505208 0.087037</size>									
+			<pos>0.2007813 0.2314815</pos>									
+			<path>./arrow02.png</path>
+			<storyboard>
+				<animation property="opacity" to="1" begin="600" duration="100" mode="linear"/>
+        		<animation property="size" to="0.1635417 0.2796296" begin="600" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="0.4354167 0.6518519" begin="600" duration="300" mode="EaseInOut"/>
+				
+				<animation property="offsetX" to="-0.0003" begin="900" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				<animation property="offsetY" to="-0.0003" begin="900" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				
+				<animation property="size" to="0.2953125 0.5055556" begin="10900" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="0.8502604 1.3083333" begin="10900" duration="300" mode="EaseInOut"/>
+			</storyboard>					
+		</image>
+		
+		<image name="arrow03" extra="static">
+			<size>0.0729167 0.0768519</size>									
+			<pos>0.2166667 0.4541667</pos>									
+			<path>./arrow03.png</path>
+			<storyboard>
+				<animation property="opacity" to="1" begin="800" duration="100" mode="linear"/>
+        		<animation property="size" to="0.2072917 0.2175926" begin="800" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="0.4572917 0.2337963" begin="800" duration="300" mode="EaseInOut"/>
+				
+				<animation property="offsetX" to="-0.0003" begin="1100" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				<animation property="offsetY" to="-0.0003" begin="1100" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				
+				<animation property="size" to="0.409375 0.4296296" begin="11100" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="0.9385417 -0.2333333" begin="11100" duration="300" mode="EaseInOut"/>
+			</storyboard>					
+		</image>
+		
+		<image name="arrow04" extra="static">
+			<size>0.0317708 0.0185185</size>									
+			<pos>0.1903646 0.3731481</pos>									
+			<path>./arrow04.png</path>
+			<zIndex>193</zIndex>
+			<storyboard>
+				<animation property="opacity" to="1" begin="900" duration="100" mode="linear"/>
+        		<animation property="size" to="0.065625 0.037963" begin="900" duration="200" mode="EaseInOut"/>
+				<animation property="pos" to="0.3864583 0.4569444" begin="900" duration="200" mode="EaseInOut"/>
+				
+				<animation property="offsetX" to="-0.0003" begin="1100" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				<animation property="offsetY" to="-0.0003" begin="1100" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				
+				<animation property="size" to="0.3276042 0.1898148" begin="11100" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="1.1591146 0.8078704" begin="11100" duration="300" mode="EaseInOut"/>
+			</storyboard>					
+		</image>
+		
+		<image name="arrow05" extra="static">
+			<size>0.0338542 0.0324074</size>									
+			<pos>0.1825521 0.3087963</pos>									
+			<path>./arrow05.png</path>
+			<storyboard>
+				<animation property="opacity" to="1" begin="1200" duration="100" mode="linear"/>
+        		<animation property="size" to="0.0828125 0.0796296" begin="1100" duration="200" mode="EaseInOut"/>
+				<animation property="pos" to="0.3950521 0.5111111" begin="1100" duration="200" mode="EaseInOut"/>
+				
+				<animation property="offsetX" to="-0.0003" begin="1300" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				<animation property="offsetY" to="-0.0003" begin="1300" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				
+				<animation property="size" to="0.3755208 0.3611111" begin="11300" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="1.0846354 1.1990741" begin="11300" duration="300" mode="EaseInOut"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="arrow06" extra="static">
+			<size>0.0427083 0.012037</size>									
+			<pos>0.1744792 0.4134259</pos>									
+			<path>./arrow06.png</path>
+			<storyboard>
+				<animation property="opacity" to="1" begin="1200" duration="100" mode="linear"/>
+        		<animation property="size" to="0.0651042 0.0185185" begin="1200" duration="200" mode="EaseInOut"/>
+				<animation property="pos" to="0.3861979 0.3833333" begin="1200" duration="200" mode="EaseInOut"/>
+				
+				<animation property="offsetX" to="-0.0003" begin="1400" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				<animation property="offsetY" to="-0.0003" begin="1400" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				
+				<animation property="size" to="0.3375 0.0962963" begin="11400" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="1.1947917 0.2546296" begin="11400" duration="300" mode="EaseInOut"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="arrow07" extra="static">
+			<size>0.03125 0.0092593</size>									
+			<pos>0.1901042 0.3833333</pos>									
+			<path>./arrow07.png</path>
+			<storyboard>
+				<animation property="opacity" to="1" begin="1300" duration="100" mode="linear"/>
+        		<animation property="size" to="0.0713542 0.0203704" begin="1300" duration="200" mode="EaseInOut"/>
+				<animation property="pos" to="0.3695313 0.4185185" begin="1300" duration="200" mode="EaseInOut"/>
+				
+				<animation property="offsetX" to="-0.0003" begin="1500" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				<animation property="offsetY" to="-0.0003" begin="1500" duration="50" autoreverse="true" repeat="200" mode="linear"/>
+				
+				<animation property="size" to="0.5479167 0.1564815" begin="11500" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="1.2739583 0.5671296" begin="11500" duration="300" mode="EaseInOut"/>
+			</storyboard>					
 		</image>
 		
 	</view>

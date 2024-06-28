@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Hyper Neo-Geo 64 is a cartridge-based system for JAMMA-compatible arcade terminals. It was created to succeed the seven-year-old Neo-Geo MVS system. As its name suggests, it is equipped with a 64-bit microprocessor that enables 3D games to be played, displaying 4096 colours simultaneously from a palette of 16.7 million colours in a resolution of 640 x 480 pixels.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>L'Hyper Neo-Geo 64 est un système à cartouches pour borne d'arcade compatible JAMMA. Il a été créé afin de succéder au système Neo-Geo MVS datant à l'époque de sept ans. Comme son nom l'indique, il est doté d'un microprocesseur 64 bits permettant de faire fonctionner des jeux en 3D, affichant 4096 couleurs simultanément parmi une palette de 16,7 millions de couleurs dans une résolution de 640 x 480 pixels.</text>
+</text>
+
+</view>
+</theme>

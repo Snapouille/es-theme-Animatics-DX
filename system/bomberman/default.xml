@@ -10,14 +10,14 @@
 			<size>0.3765625 0.7407407</size>																
 			<pos>0.53 -0.4</pos>
 			<linearSmooth>true</linearSmooth>	
-					<zIndex>19</zIndex>
+			<zIndex>19</zIndex>
 			<storyboard repeat="forever">
 				
 				<animation property="offsetY" to="0.87" begin="" duration="500" mode="linear"/>
 				
-				<animation property="offsetX" to="0.8" begin="5600" duration="300" mode="linear"/>
-				<animation property="offsetY" to="-0.3" begin="5600" duration="300" mode="linear"/>
-				<animation property="rotation" to="50" begin="5600" duration="300" mode="linear"/>
+				<animation property="offsetX" to="0.8" begin="5550" duration="300" mode="linear"/>
+				<animation property="offsetY" to="-0.3" begin="5550" duration="300" mode="linear"/>
+				<animation property="rotation" to="50" begin="5550" duration="300" mode="linear"/>
 				
 				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
         		
@@ -28,12 +28,13 @@
 		<image name="eyes" extra="true">
 			<origin>0.5 0.5</origin>									
 			<size>0.096875 0.1157407</size>									
-			<pos>0.5421875 -0.4825</pos>									
-			<opacity>1</opacity>
+			<pos>0.5421875 -0.4825</pos>			
+			<opacity>0</opacity>
 			<path>./eyes.png</path>
 			<zIndex>25</zIndex>
 			
 			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="10" duration="10" mode="linear"/>	
 				<animation property="offsetY" to="0.87" begin="" duration="500" mode="linear"/>	
 				
 				<animation property="opacity" to="0" begin="4800" duration="100" mode="linear"/>
@@ -49,7 +50,7 @@
 			<pos>0.3963542 -0.545463</pos>
 			<opacity>1</opacity>
 			<path>./wick.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>20</zIndex>
 			<storyboard repeat="forever">
 					
 				<animation property="offsetY" to="0.87" begin="" duration="500" mode="linear"/>
@@ -69,7 +70,7 @@
 			<pos>0.3757813 -0.5922222</pos>									
 			<opacity>1</opacity>
 			<path>./spark.png</path>
-			<zIndex>19</zIndex>
+			<zIndex>21</zIndex>
 			<storyboard repeat="forever">
 			
 			
@@ -133,7 +134,7 @@
 			<pos>0.3757813 -0.5922222</pos>											
 			<opacity>0</opacity>
 			<path>./spark2.png</path>
-			<zIndex>19</zIndex>
+			<zIndex>21</zIndex>
 			<storyboard repeat="forever">
 			
 				<animation property="offsetY" to="0.87" begin="" duration="500" mode="linear"/>
@@ -190,25 +191,44 @@
 		</image>
 		
 		
-		
-		<image name="explosion" extra="true">
+		<image name="explosion1" extra="true">
 			<origin>0.5 0.5</origin>									
 			<size>0.6322917 0.9944444</size>									
 			<pos>0.5276042 0.412963</pos>									
-
+			<scale>0.8</scale>
 			<opacity>0</opacity>
+			<rotation>90</rotation>
 			<path>./explosion.png</path>
-			<zIndex>17</zIndex>
+			<zIndex>21</zIndex>
+			
 			<storyboard repeat="forever">
-				
-				<animation property="opacity" to="1" begin="5500" duration="100" mode="bump"/>
-				<animation property="pos" to="0.509375 0.4837963" begin="5500" duration="700" mode="bump"/>
-				<animation property="size" to="1.2791667 2.012037" begin="5500" duration="700" mode="bump"/>
-				
-				<animation property="opacity" to="0" begin="6200" duration="200" mode="linear"/>
+				<animation property="opacity" to="1" begin="5400" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="6400" duration="1000" mode="linear"/>
 				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
 			</storyboard>					
 		</image>
+
+		<image name="explosion2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.6322917 0.9944444</size>									
+			<pos>0.45 0.35</pos>									
+			<scale>1.2</scale>
+			<opacity>0</opacity>
+			<path>./explosion.png</path>
+			<zIndex>20</zIndex>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="5600" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="6400" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		<image name="smoke" extra="static"> 
@@ -216,19 +236,38 @@
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<path>./smoke.png</path>
-			<zIndex>19</zIndex>
+			<zIndex>23</zIndex>
 			<opacity>0</opacity>
-			
 			<storyboard repeat="forever">
-				<animation property="opacity" from="0" to="1" begin="5500" duration="100" mode="linear"/>		
+				<animation property="opacity" from="0" to="1" begin="5500" duration="1000" mode="linear"/>		
 				<animation property="scale" from="1" to="1.0007" begin="5500" duration="250" autoreverse="true" repeat="17" mode="EaseIn"/>	
 				<animation property="rotation" to="0.1" begin="5500" autoreverse="true" duration="300" repeat="14" mode="linear"/>
 				<animation property="opacity" from="1" to="0" begin="11000" duration="3000" mode="linear"/>	
 				
 				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
 			</storyboard>	
-			
 		</image>
+		
+		
+		<image name="smoke2" extra="static"> 
+			<origin>0 0</origin>									
+			<pos>0 0</pos>
+			<flipX>true</flipX>
+			<size>1 1</size>
+			<path>./smoke.png</path>
+			<zIndex>23</zIndex>
+			<opacity>0</opacity>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="6000" duration="1000" mode="linear"/>		
+				<animation property="scale" from="1" to="1.0007" begin="6000" duration="250" autoreverse="true" repeat="17" mode="EaseIn"/>	
+				<animation property="rotation" to="0.1" begin="6000" autoreverse="true" duration="300" repeat="14" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="8000" duration="3000" mode="linear"/>	
+				
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+			</storyboard>	
+		</image>
+		
+		
 		
 		
 		

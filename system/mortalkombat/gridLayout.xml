@@ -1,0 +1,78 @@
+<!-- Mortal Kombat collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="BG_snapLegacy" extra="true">
+			<scale>1.2</scale>
+			  <storyboard>
+					<animation property="scale" to="1" begin="" duration="600" mode="linear"/>
+			  </storyboard>
+		</image>
+
+		
+		
+		
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.3390625 0.8046296</size>									
+			<pos>1.05 0.55</pos>									
+			<path>./avatar.png</path>
+			<scale>0.8</scale>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.06"/>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="orb" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0385417 0.0694444</size>									
+			<pos>0.902 0.509</pos>									
+			<path>./orb.png</path>
+			<opacity>0</opacity>
+			<zIndex>21</zIndex>
+			<scale>0.75</scale>
+			<linearSmooth>true</linearSmooth>
+			<saturation>0.9</saturation>
+			
+			<storyboard repeatAt="500">
+				<animation property="opacity" to="0.5" begin="600" duration="300" mode="Linear"/>
+				<animation property="rotation" from="720" to="-3600" begin="600" duration="30000" mode="EaseInOut"/>	
+				<animation property="scale" to="0.71" begin="1300" duration="600" autoreverse="true" repeat="10" mode="EaseInOut"/>
+				<animation property="opacity" from="0.5" to="0.2" begin="900" duration="2000" autoreverse="true" repeat="5" mode="EaseInOut"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="bluefire" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.053125 0.0972222</size>									
+			<pos>0.9 0.505</pos>									
+			<path>./bluefire.png</path>
+			<opacity>0</opacity>
+			<zIndex>22</zIndex>
+			<scale>0.75</scale>
+			<linearSmooth>true</linearSmooth>
+			<saturation>0.9</saturation>
+			
+			<storyboard repeatAt="500">
+				<animation property="opacity" to="0.5" begin="600" duration="300" mode="Linear"/>
+				<animation property="rotation" from="720" to="-3600" begin="600" duration="30000" mode="EaseInOut"/>	
+				<animation property="scale" to="0.71" begin="1300" duration="600" autoreverse="true" repeat="10" mode="EaseInOut"/>
+				<animation property="opacity" from="0.5" to="0.2" begin="900" duration="2000" autoreverse="true" repeat="5" mode="EaseInOut"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+</theme>

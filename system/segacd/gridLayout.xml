@@ -61,7 +61,7 @@
 			
 			<storyboard repeat="forever">
 					<animation property="offsetX" from="0.15" begin="" duration="2000" mode="EaseOut"/>
-					<animation property="scale" from="0" to="1.2" begin="" duration="2000" mode="Linear"/>
+					<animation property="scale" from="0" to="1.2" begin="" duration="2000" mode="EaseOut"/>
 					<animation property="scale" from="1.2" to="7" begin="2000" duration="2000" mode="Linear"/>
 					<animation property="rotation" to="-30" begin="2000" duration="1000" mode="Linear"/>
 					<animation property="y" to="1.2" begin="2000" duration="2000" mode="EaseOut"/>

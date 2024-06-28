@@ -43,13 +43,13 @@
 			<size>0.1333333 0.1138889</size>									
 			<pos>0.615 0.16</pos>
 			<pos ifHelpPrompts="false">0.615 0.22</pos>	
-			<zIndex>18</zIndex>
+			<zIndex>18000</zIndex>
 			<opacity>0</opacity>
 			<path>./fire.png</path>
 			<storyboard repeat="forever">
-				<animation property="opacity" from="0" to="1" begin="2000" duration="40" autoreverse="true" repeat="3" mode="linear"/>
-				<animation property="opacity" from="0" to="1" begin="4000" duration="40" autoreverse="true" repeat="5" mode="linear"/>
-				<animation property="opacity" from="0" to="1" begin="7800" duration="40" autoreverse="true" repeat="10" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="1000" duration="50" autoreverse="true" repeat="3" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="50" autoreverse="true" repeat="5" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="6800" duration="50" autoreverse="true" repeat="8" mode="linear"/>
 				<animation property="opacity" to="0" begin="15000" duration="1000" mode="linear"/>
 			</storyboard>
 		</image>

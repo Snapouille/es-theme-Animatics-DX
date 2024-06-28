@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Mario Kart is a series of racing and combat video games produced by Nintendo. Debuting in 1992 with Super Mario Kart for Super Nintendo, the series continues over twenty-five years later with Mario Kart 8 Deluxe released on 28 April 2017 for Nintendo Switch. This brings the series to a total of eight titles released for Nintendo's main consoles, plus three "non-series" titles developed for arcade terminals.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Mario Kart est une série de jeux vidéo de course et de combat automobile produite par Nintendo. Débutée en 1992 avec Super Mario Kart sur Super Nintendo, la série se poursuit plus de vingt-cinq ans plus tard avec Mario Kart 8 Deluxe sorti le 28 avril 2017 sur Nintendo Switch. Cela porte la série à un total de huit titres sortis sur les principales consoles de Nintendo, auxquels s'ajoutent trois titres "hors série" développés pour les bornes d'arcade.</text>
+</text>
+
+</view>
+</theme>

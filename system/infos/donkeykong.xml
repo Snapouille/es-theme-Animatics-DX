@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Donkey Kong is a series of platform, racing and rhythm video games. The games were developed by various companies, including Nintendo, Rare, Namco and Paon. The series made its arcade debut in 1981 with Donkey Kong, which also saw the first appearance of Mario, then known as Jumpman. The game was a huge commercial success, giving Nintendo a foothold in the US market and introducing two characters who would become icons for the brand.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Jeux vidéo de plates-forme, course et rythme développés par différentes entreprises parmi lesquelles Nintendo, Rare, Namco, et Paon. La série a commencé sur arcade en 1981 avec le jeu Donkey Kong qui fut un énorme succès commercial et qui a permis à Nintendo de se faire une place sur le marché américain et d'introduire par la même occasion deux personnages appelés à devenir des icônes de la marque.</text>
+</text>
+
+
+</view>
+</theme>

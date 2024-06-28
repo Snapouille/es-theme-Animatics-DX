@@ -1,0 +1,28 @@
+<!-- Metroid collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.3182292 0.7398148</size>									
+			<pos>1.05 0.59</pos>									
+			<path>./avatar.png</path>
+			<scale>0.9</scale>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.06"/>
+				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+</theme>

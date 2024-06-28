@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>This arcade system is based on the architecture of a PC. The hardware is modified and adapted to suit requirements. The game medium is DVD, and it works with its own dongle using USB technology, which must be plugged into the original memory card port. The system is not zoned, so all games can be run on any machine. The nationality of the game differs according to the programme on the DVD.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Ce système destiné aux salles d'arcade est construit selon l'architecture d'un PC. Le hardware est modifié et adapté aux besoins. Le support de jeu est le DVD, il fonctionne avec un dongle qui lui est propre et qui utilise la technologie USB, il doit être branché sur le port carte mémoire d'origine. Le système n'est pas zoné, il est possible de faire fonctionner tous les jeux sur n'importe quelle machine. La nationalité du jeu se différencie en fonction du programme sur le DVD.</text>
+</text>
+
+</view>
+</theme>

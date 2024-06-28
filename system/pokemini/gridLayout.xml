@@ -16,17 +16,19 @@
 			  </storyboard>
 		</image>
 		
-		
-		<image name="Pikachu03" extra="static">
+		<image name="Pikachu03, Pikachu04" extra="static">
 			<size>0.75 1.1222222</size>
 			<scale>0.6</scale>
 			<opacity>1</opacity>
-			<path>./Pikachu03.png</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>1000</zIndex>
-			
 			<origin>0.5 0.5</origin>
-			<pos>1.05 0.625</pos>									
+			<pos>1.05 0.625</pos>
+			<pos ifHelpPrompts="false">1.05 0.685</pos>	
+		</image>
+		
+		<image name="Pikachu03" extra="static">
+			<path>./Pikachu03.png</path>
 
 			<storyboard repeatAt="1000">
 				<animation property="offsetX" to="-0.2" begin="100" duration="500" mode="EaseOut"/>
@@ -42,16 +44,9 @@
 		
 		
 		<image name="Pikachu04" extra="static">
-			<size>0.75 1.1222222</size>
-			<scale>0.6</scale>
-			<opacity>0</opacity>
 			<path>./Pikachu04.png</path>
-			<linearSmooth>true</linearSmooth>
-			<zIndex>1000</zIndex>
+			<opacity>0</opacity>
 			
-			<origin>0.5 0.5</origin>
-			<pos>1.05 0.625</pos>									
-
 			<storyboard repeatAt="1000">
 				<animation property="offsetX" to="-0.2" begin="100" duration="500" mode="EaseOut"/>
 

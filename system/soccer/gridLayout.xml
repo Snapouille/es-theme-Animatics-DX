@@ -1,0 +1,35 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+
+		<image name="kaka, rooney, ball" extra="static">
+			<visible>false</visible>
+		</image>
+
+		
+		
+		<image name="ronaldinho" extra="static">
+			<path>./ronaldinho.png</path>
+			<origin>0.5 0.5</origin>
+			<size>0.2463542 0.7407407</size>									
+			<pos>1.05 0.55</pos>									
+			<scale>1</scale>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="rotation" to="-5" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.04"/>
+				<animation property="offsetX" to="-0.215" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+		</image>
+
+		
+	</view>
+
+</theme>

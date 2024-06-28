@@ -1,0 +1,256 @@
+<!-- Tetris Collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="bloc_jaune" extra="static">
+			<origin>0 0</origin>
+			<pos>0.2 -0.1</pos>
+			<size>0.0364583 0.0638889</size>									
+
+			<path>./bloc_jaune.png</path>
+			<zIndex>14</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="y" from="-0.1" to="1" begin="1000" duration="2000" mode="linear"/>
+				<animation property="x" from="0.2" to="0.6" begin="13000" duration="1" mode="linear"/>
+				<animation property="y" from="-0.1" to="1" begin="13000" duration="3000" mode="linear"/>
+				<animation property="opacity" to="1" begin="23000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>		
+		
+		<image name="bloc_rouge" extra="static">
+			<origin>0 0</origin>
+			<pos>0.35 -0.1</pos>
+			<size>0.0578125 0.0685185</size>									
+
+			<path>./bloc_rouge.png</path>
+			<zIndex>14</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="y" from="-0.1" to="1" begin="4000" duration="3000" mode="linear"/>
+				<animation property="rotation" from="0" to="90" begin="5000" duration="10" mode="linear"/>
+				<animation property="rotation" from="90" to="0" begin="6200" duration="10" mode="linear"/>
+				
+				<animation property="rotation" from="0" to="90" begin="14000" duration="1" mode="linear"/>
+				<animation property="x" from="0.35" to="0.5" begin="14000" duration="1" mode="linear"/>
+				<animation property="y" from="-0.1" to="1" begin="14000" duration="3000" mode="linear"/>
+				<animation property="rotation" from="90" to="0" begin="16000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="29000" duration="1000" mode="linear"/>				
+			</storyboard>
+		</image>	
+		
+		
+		<image name="bloc_bleu" extra="static">
+			<origin>0 0</origin>
+			<pos>0.55 -0.1</pos>
+			<size>0.078125 0.0425926</size>									
+
+			<path>./bloc_bleu.png</path>
+			<zIndex>14</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="y" from="-0.1" to="1" begin="8000" duration="3000" mode="linear"/>
+				<animation property="rotation" from="0" to="90" begin="9000" duration="10" mode="linear"/>
+				<animation property="x" from="0.55" to="0.57" begin="9100" duration="10" mode="linear"/>
+				<animation property="x" from="0.57" to="0.59" begin="9200" duration="10" mode="linear"/>
+				<animation property="x" from="0.59" to="0.61" begin="9300" duration="10" mode="linear"/>
+				<animation property="rotation" from="90" to="0" begin="10200" duration="10" mode="linear"/>
+				
+				<animation property="x" from="0.55" to="0.35" begin="20000" duration="1" mode="linear"/>
+				<animation property="y" from="-0.1" to="1" begin="20000" duration="3000" mode="linear"/>
+				<animation property="rotation" from="0" to="90" begin="21000" duration="10" mode="linear"/>
+				<animation property="x" from="0.35" to="0.33" begin="21100" duration="10" mode="linear"/>
+				<animation property="x" from="0.33" to="0.31" begin="21200" duration="10" mode="linear"/>
+				<animation property="x" from="0.31" to="0.29" begin="21300" duration="10" mode="linear"/>
+				<animation property="rotation" from="90" to="0" begin="22200" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="33000" duration="1000" mode="linear"/>				
+			</storyboard>
+		</image>	
+	
+		
+		<image name="bloc_vert" extra="static">
+			<origin>0 0</origin>
+			<pos>0.21 -0.1</pos>
+			<size>0.0578125 0.0685185</size>									
+
+			<path>./bloc_vert.png</path>
+			<zIndex>14</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="y" from="-0.1" to="1" begin="9000" duration="3000" mode="linear"/>
+				<animation property="rotation" from="0" to="90" begin="10000" duration="10" mode="linear"/>
+				<animation property="x" from="0.21" to="0.23" begin="10100" duration="10" mode="linear"/>
+				<animation property="rotation" from="90" to="180" begin="10500" duration="10" mode="linear"/>
+				<animation property="x" from="0.23" to="0.25" begin="10600" duration="10" mode="linear"/>
+				<animation property="rotation" from="180" to="270" begin="10800" duration="10" mode="linear"/>
+				<animation property="x" from="0.25" to="0.27" begin="10900" duration="10" mode="linear"/>
+				<animation property="rotation" from="270" to="360" begin="11000" duration="10" mode="linear"/>
+				<animation property="x" from="0.27" to="0.29" begin="11000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="20000" duration="1000" mode="linear"/>				
+			</storyboard>
+		</image>	
+		
+	
+	
+			
+		
+		
+		
+		<image name="bloc_violet_flou" extra="static">
+			<origin>0 0</origin>
+			<pos>0.44 -1</pos>
+			<size>0.2604167 0.3277778</size>									
+
+			<scale>0.8</scale>
+			<path>./bloc_violet_flou.png</path>
+			<zIndex>10</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="y" from="-1" to="1.5" begin="1000" duration="5000" mode="linear"/>
+				
+				<animation property="rotation" to="90" begin="19000" duration="10" mode="linear"/>
+				<animation property="scale" to="1.3" begin="19000" duration="10" mode="linear"/>
+				<animation property="x" to="0.04" begin="19000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="19000" duration="4000" mode="linear"/>
+				
+				<animation property="rotation" to="-90" begin="37000" duration="10" mode="linear"/>
+				<animation property="scale" to="1.1" begin="37000" duration="10" mode="linear"/>
+				<animation property="x" to="0.68" begin="37000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="37000" duration="2000" mode="linear"/>
+				
+			</storyboard>
+		</image>		
+		
+		
+		<image name="bloc_orange_flou" extra="static">
+			<origin>0 0</origin>
+			<pos>0.64 -1</pos>
+			<size>0.2921875 0.3611111</size>									
+
+			<scale>0.8</scale>
+			<path>./bloc_orange_flou.png</path>
+			<zIndex>10</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="rotation" to="90" begin="4000" duration="10" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="4000" duration="3000" mode="linear"/>
+				
+				<animation property="rotation" to="0" begin="22000" duration="10" mode="linear"/>
+				<animation property="scale" to="1.1" begin="22000" duration="10" mode="linear"/>
+				<animation property="x" to="0.34" begin="22000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="22000" duration="4000" mode="linear"/>
+				
+				<animation property="rotation" to="-90" begin="40000" duration="10" mode="linear"/>
+				<animation property="scale" to="0.9" begin="40000" duration="10" mode="linear"/>
+				<animation property="x" to="0.14" begin="40000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="40000" duration="2000" mode="linear"/>
+				
+			</storyboard>
+		</image>		
+		
+		
+		<image name="bloc_vert_flou" extra="static">
+			<origin>0 0</origin>
+			<pos>0.24 -1</pos>
+			<size>0.3125 0.3787037</size>									
+
+			<scale>0.7</scale>
+			<path>./bloc_vert_flou.png</path>
+			<zIndex>10</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="rotation" to="90" begin="7000" duration="10" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="7000" duration="2000" mode="linear"/>
+				
+				<animation property="rotation" to="0" begin="25000" duration="10" mode="linear"/>
+				<animation property="scale" to="1.1" begin="25000" duration="10" mode="linear"/>
+				<animation property="x" to="0.74" begin="25000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="25000" duration="5000" mode="linear"/>
+				
+				<animation property="rotation" to="-90" begin="43000" duration="10" mode="linear"/>
+				<animation property="scale" to="0.9" begin="43000" duration="10" mode="linear"/>
+				<animation property="x" to="0.08" begin="43000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="43000" duration="3000" mode="linear"/>
+				
+			</storyboard>
+		</image>		
+		
+		
+		<image name="bloc_jaune_flou" extra="static">
+			<origin>0 0</origin>
+			<pos>0.04 -1</pos>
+			<size>0.2041667 0.3518519</size>									
+
+			<scale>0.9</scale>
+			<path>./bloc_jaune_flou.png</path>
+			<zIndex>10</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="y" from="-1" to="1.5" begin="10000" duration="5000" mode="linear"/>
+				
+				<animation property="scale" to="0.9" begin="28000" duration="10" mode="linear"/>
+				<animation property="x" to="0.24" begin="28000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="28000" duration="4000" mode="linear"/>
+				
+				<animation property="scale" to="1.1" begin="46000" duration="10" mode="linear"/>
+				<animation property="x" to="0.54" begin="46000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="0.7" begin="46000" duration="2000" mode="linear"/>
+				
+			</storyboard>
+		</image>		
+		
+		<image name="bloc_rouge_flou" extra="static">
+			<origin>0 0</origin>
+			<pos>0.24 -1</pos>
+			<size>0.2864583 0.3472222</size>									
+
+			<scale>0.9</scale>
+			<path>./bloc_rouge_flou.png</path>
+			<zIndex>10</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="y" from="-1" to="1.5" begin="13000" duration="3000" mode="linear"/>
+				
+				<animation property="rotation" to="-90" begin="31000" duration="10" mode="linear"/>
+				<animation property="scale" to="1.1" begin="31000" duration="10" mode="linear"/>
+				<animation property="x" to="0.64" begin="31000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="31000" duration="4000" mode="linear"/>
+				
+				<animation property="scale" to="1.3" begin="49000" duration="10" mode="linear"/>
+				<animation property="x" to="0.04" begin="49000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="49000" duration="2000" mode="linear"/>
+				
+			</storyboard>
+		</image>		
+		
+		<image name="bloc_bleu_flou" extra="static">
+			<origin>0 0</origin>
+			<pos>0.24 -1</pos>
+			<size>0.2604167 0.1398148</size>									
+
+			<scale>1</scale>
+			<path>./bloc_bleu_flou.png</path>
+			<zIndex>10</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard repeat="forever">
+				<animation property="y" from="-1" to="1.5" begin="10000" duration="5000" mode="linear"/>
+				
+				<animation property="scale" to="1.1" begin="18000" duration="10" mode="linear"/>
+				<animation property="x" to="0.54" begin="18000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="18000" duration="3000" mode="linear"/>
+				
+				<animation property="scale" to="1.3" begin="60000" duration="10" mode="linear"/>
+				<animation property="x" to="0.24" begin="60000" duration="" mode="linear"/>
+				<animation property="y" from="-1" to="1.5" begin="60000" duration="2000" mode="linear"/>
+				
+			</storyboard>
+		</image>		
+		
+	</view>
+
+</theme>

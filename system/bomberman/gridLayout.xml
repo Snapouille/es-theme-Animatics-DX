@@ -1,0 +1,275 @@
+<!-- bomberman collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>	
+			<size>0.3765625 0.7407407</size>																
+			<pos>0.81 -0.4</pos>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19000</zIndex>
+			<storyboard repeat="forever">
+				
+				<animation property="offsetY" to="0.93" begin="" duration="500" mode="linear"/>
+				
+				<animation property="offsetX" to="0.8" begin="5550" duration="300" mode="linear"/>
+				<animation property="offsetY" to="-0.3" begin="5550" duration="300" mode="linear"/>
+				<animation property="rotation" to="50" begin="5550" duration="300" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+        		
+			</storyboard>					
+
+		</image>
+		
+		<image name="eyes" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.096875 0.1157407</size>									
+			<pos>0.8221875 -0.4825</pos>									
+			<opacity>0</opacity>
+			<path>./eyes.png</path>
+			<zIndex>25000</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="10" duration="10" mode="linear"/>	
+				<animation property="offsetY" to="0.93" begin="" duration="500" mode="linear"/>	
+				
+				<animation property="opacity" to="0" begin="4800" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="wick" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0208333 0.025</size>									
+			<pos>0.6763542 -0.545463</pos>
+			<opacity>1</opacity>
+			<path>./wick.png</path>
+			<zIndex>20000</zIndex>
+			<storyboard repeat="forever">
+					
+				<animation property="offsetY" to="0.93" begin="" duration="500" mode="linear"/>
+				<animation property="opacity" to="0" begin="2800" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="5800" duration="100" mode="bump"/>
+				
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+				
+				
+			</storyboard>					
+		</image>
+		
+		<image name="spark" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0671875 0.0888889</size>									
+			<pos>0.6557813 -0.5922222</pos>									
+			<opacity>1</opacity>
+			<path>./spark.png</path>
+			<zIndex>21000</zIndex>
+			<storyboard repeat="forever">
+			
+			
+				
+			
+				<animation property="offsetY" to="0.93" begin="" duration="500" mode="linear"/>
+				<animation property="offsetY" to="0.98" begin="510" duration="5000" mode="linear"/>
+				
+				<animation property="offsetX" to="0.0155" begin="510" duration="2000" mode="linear"/>
+				<animation property="offsetX" to="0.0205" begin="2510" duration="3000" mode="linear"/>
+				
+				
+				
+				<animation property="rotation" to="3" begin="500" autoreverse="true" duration="100" repeat="28" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="0" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="170" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="340" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="510" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="680" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="850" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1020" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1190" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1360" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1530" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1870" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2040" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2210" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2380" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2550" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2720" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2890" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3060" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3230" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3570" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3740" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3910" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4080" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4250" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4420" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4590" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4760" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4930" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5270" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5440" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5610" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="5800" duration="100" mode="bump"/>
+
+				
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="spark2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0671875 0.0888889</size>									
+			<pos>0.6557813 -0.5922222</pos>											
+			<opacity>0</opacity>
+			<path>./spark2.png</path>
+			<zIndex>21000</zIndex>
+			<storyboard repeat="forever">
+			
+				<animation property="offsetY" to="0.93" begin="" duration="500" mode="linear"/>
+				<animation property="offsetY" to="0.98" begin="510" duration="5000" mode="linear"/>
+				
+				<animation property="offsetX" to="0.0155" begin="510" duration="2000" mode="linear"/>
+				<animation property="offsetX" to="0.0205" begin="2510" duration="3000" mode="linear"/>
+				
+				
+				
+				<animation property="rotation" to="3" begin="500" autoreverse="true" duration="100" repeat="28" mode="linear"/>
+
+				
+				<animation property="opacity" to="1" begin="0" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="170" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="340" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="510" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="680" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="850" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1020" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1190" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1360" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1530" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1870" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2040" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2210" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2380" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2550" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2720" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2890" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3060" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3230" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3570" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3740" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3910" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4080" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4250" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4420" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4590" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4760" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4930" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5270" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5440" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5610" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="5800" duration="100" mode="bump"/>
+
+				
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="explosion1" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.6322917 0.9944444</size>									
+			<pos>0.8076042 0.412963</pos>									
+			<scale>0.8</scale>
+			<opacity>0</opacity>
+			<rotation>90</rotation>
+			<path>./explosion.png</path>
+			<zIndex>21000</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="5400" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="6400" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+
+		<image name="explosion2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.6322917 0.9944444</size>									
+			<pos>0.80 0.35</pos>									
+			<scale>1.2</scale>
+			<opacity>0</opacity>
+			<path>./explosion.png</path>
+			<zIndex>20000</zIndex>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="5600" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="6400" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<image name="smoke" extra="static"> 
+			<origin>0 0</origin>									
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./smoke.png</path>
+			<zIndex>23000</zIndex>
+			<opacity>0</opacity>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="5500" duration="1000" mode="linear"/>		
+				<animation property="scale" from="1" to="1.0007" begin="5500" duration="250" autoreverse="true" repeat="17" mode="EaseIn"/>	
+				<animation property="rotation" to="0.1" begin="5500" autoreverse="true" duration="300" repeat="14" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="11000" duration="3000" mode="linear"/>	
+				
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+			</storyboard>	
+		</image>
+		
+		
+		<image name="smoke2" extra="static"> 
+			<origin>0 0</origin>									
+			<pos>0 0</pos>
+			<flipX>true</flipX>
+			<size>1 1</size>
+			<path>./smoke.png</path>
+			<zIndex>23000</zIndex>
+			<opacity>0</opacity>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="6000" duration="1000" mode="linear"/>		
+				<animation property="scale" from="1" to="1.0007" begin="6000" duration="250" autoreverse="true" repeat="17" mode="EaseIn"/>	
+				<animation property="rotation" to="0.1" begin="6000" autoreverse="true" duration="300" repeat="14" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="8000" duration="3000" mode="linear"/>	
+				
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+			</storyboard>	
+		</image>
+		
+		
+		
+		
+		
+	</view>
+</theme>

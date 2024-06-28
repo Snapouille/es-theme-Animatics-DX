@@ -1,0 +1,37 @@
+<!-- Simpsons collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>	
+			<scale>1</scale>	
+			<path>./background-grid.jpg</path>
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+		
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.4234375 0.6296296</size>									
+			<pos>1 0.63</pos>									
+			<linearSmooth>true</linearSmooth>		
+			<zIndex>6</zIndex>
+			
+			<storyboard>
+				
+        		<animation property="x" to="0.84" begin="100" duration="1000" mode="EaseOutQuint"/>
+				
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>
