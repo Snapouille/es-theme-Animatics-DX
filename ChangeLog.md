@@ -1,3 +1,14 @@
+## V 1.74 - (05 07 2024)
+
+- systemview Grid  : WIP (81% done) 
+- systemview Grid  : large choice of grid size
+- systemview Basic : WIP
+- Detailed view    : new background choice (theme legacy or fanart)
+
+![2024-07-04 20_08_20-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/0d98942c-1b48-4d8a-a4de-e799fb925535)
+
+
+
 ## V 1.73 - (28 06 2024)
 - NEW view : Grid (work in progress 80% done) 
 
