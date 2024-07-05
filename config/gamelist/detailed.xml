@@ -10,6 +10,35 @@ originally based on: "carbon"
   
 
 <view name="detailed">  
+
+
+
+     <image name="background-art" extra="true">
+		<path>{game:fanart}</path>
+		<pos>0.5 0.5</pos>
+		<minSize>1 1</minSize>
+		<origin>0.5 0.5</origin>
+		<color>727272</color>
+		<colorEnd>000000</colorEnd>
+		<gradientType>vertical</gradientType>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>2</zIndex>
+		<default>${themePath}/system/${system.theme}/background.png</default>
+		<default>${themePath}/system/${system.theme}/background.jpg</default>
+		<default>${themePath}/system/${system.theme}/background-grid.jpg</default>
+    </image>
+
+     <image name="background-art" ifSubset="fanartDisplay:Hide" extra="true">
+		<path>${themePath}/system/${system.theme}/background.png</path>
+		<path>${themePath}/system/${system.theme}/background.jpg</path>
+		<path>${themePath}/system/${system.theme}/background-grid.jpg</path>
+    </image>
+
+
+
+
+
+
   
 	<image name="ecran_console" extra="static">
 		<pos>0.53 0.149</pos>
@@ -31,7 +60,7 @@ originally based on: "carbon"
 			</storyboard>
 	</image>
 	
-	<!-- fond noir de l'écran -->
+	<!-- fond noir de l'écran de TV -->
 	<image name="black_bg" extra="true">
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
@@ -49,6 +78,20 @@ originally based on: "carbon"
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
@@ -487,7 +530,7 @@ originally based on: "carbon"
 	<!-- Position et animation du logo du jeu  -->
 	<image name="md_marquee">
 		<pos>0.145 0.08</pos>
-		<maxSize>0.25 0.11</maxSize>
+		<maxSize>0.25 0.09</maxSize>
 		<scale>0</scale>
 		<default>./../../art/divers/nologo.png</default>
 		

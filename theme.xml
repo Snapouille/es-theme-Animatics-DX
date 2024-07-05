@@ -24,13 +24,6 @@ originally based on: "carbon"
     <blinkBorderSubsetName>Blinking borders</blinkBorderSubsetName>
 	<yes>Yes</yes>
 	<no>No</no>
-	
-	<!-- variables qui ajoute un tiret si l'année est supérieur à 1958
-		le signe &gt correspond à >
-		variable utilisé dans l'affichage système en vue Grid -->	
-	<va.dash.year if="${system.releaseYear} &gt; '1958'">-</va.dash.year>
-	
-	
     <previewBarSubsetName>Preview bar</previewBarSubsetName>
     <zoomboxesSubsetName>Zoom boxes</zoomboxesSubsetName>
     <orientationSubsetName>Orientation</orientationSubsetName>
@@ -93,20 +86,31 @@ originally based on: "carbon"
 	<descriptionFontSize>Description font size</descriptionFontSize>
 	<boxback.Display>Boxback</boxback.Display>
 	
+	
+	<!-- variables qui ajoute un tiret si l'année est supérieur à 1958
+		le signe &gt correspond à >
+		variable utilisé dans l'affichage système en vue Grid -->	
+	<va.dash.year if="${system.releaseYear} &gt; '1958'">-</va.dash.year>
+	
 	<!-- !!! !!! TRADUCTION A FAIRE !!! !!! -->
 	<fanartOpacity>Fanart overlay Opacity</fanartOpacity>
 	<gamelistOpacity>Gamelist Opacity</gamelistOpacity>
 	<rvgm.Ambiance>Ambiance RVGM views</rvgm.Ambiance>
 	
-	
 	<GameNumber>Game</GameNumber>
 	<GamesNumber>Games</GamesNumber>
-	
 	
 	<GamesFavs>Favorites</GamesFavs>
 	<NumberPlayed>Played</NumberPlayed>	
 	<theme.mostplayed>Most played:</theme.mostplayed>	
-		
+	
+	<theme.lastplayedLabel>Last Played: </theme.lastplayedLabel>
+	<theme.timesPlayedLabel>Times Played: </theme.timesPlayedLabel>
+	<theme.gameTimeLabel>Game Time: </theme.gameTimeLabel>	
+	
+	
+	<subset.Grid_View_Size>Grid view : Size</subset.Grid_View_Size>
+	
 		
   </variables>
   
@@ -258,6 +262,59 @@ originally based on: "carbon"
 	<include name="Royalblue" displayName="${royalblue}"/>
 	<include name="Midnightblue" displayName="${midnightblue}"/>
 </subset>
+
+ <subset name="Grid_View_Size" displayName="${subset.Grid_View_Size}">
+    <include name="auto" displayName="auto"/>
+    <include name="1x1" displayName="1X1"/>
+    <include name="1x2" displayName="1X2"/>
+    <include name="1x3" displayName="1X3"/>
+    <include name="1x4" displayName="1X4"/>
+    <include name="1x5" displayName="1X5"/>
+    <include name="1x6" displayName="1X6"/>
+    <include name="1x7" displayName="1X7"/>
+    <include name="2x1" displayName="2X1"/>
+    <include name="2x2" displayName="2X2"/>
+    <include name="2x3" displayName="2X3"/>
+    <include name="2x4" displayName="2X4"/>
+    <include name="2x5" displayName="2X5"/>
+    <include name="2x6" displayName="2X6"/>
+    <include name="2x7" displayName="2X7"/>
+    <include name="3x1" displayName="3X1"/>
+    <include name="3x2" displayName="3X2"/>
+    <include name="3x3" displayName="3X3"/>
+    <include name="3x4" displayName="3X4"/>
+    <include name="3x5" displayName="3X5"/>
+    <include name="3x6" displayName="3X6"/>
+    <include name="3x7" displayName="3X7"/>
+    <include name="4x1" displayName="4X1"/>
+    <include name="4x2" displayName="4X2"/>
+    <include name="4x3" displayName="4X3"/>
+    <include name="4x4" displayName="4X4"/>
+    <include name="4x5" displayName="4X5"/>
+    <include name="4x6" displayName="4X6"/>
+    <include name="4x7" displayName="4X7"/>
+    <include name="5x1" displayName="5X1"/>
+    <include name="5x2" displayName="5X2"/>
+    <include name="5x3" displayName="5X3"/>
+    <include name="5x4" displayName="5X4"/>
+    <include name="5x5" displayName="5X5"/>
+    <include name="5x6" displayName="5X6"/>
+    <include name="5x7" displayName="5X7"/>
+    <include name="6x1" displayName="6X1"/>
+    <include name="6x2" displayName="6X2"/>
+    <include name="6x3" displayName="6X3"/>
+    <include name="6x4" displayName="6X4"/>
+    <include name="6x5" displayName="6X5"/>
+    <include name="6x6" displayName="6X6"/>
+    <include name="6x7" displayName="6X7"/>
+    <include name="7x1" displayName="7X1"/>
+    <include name="7x2" displayName="7X2"/>
+    <include name="7x3" displayName="7X3"/>
+    <include name="7x4" displayName="7X4"/>
+    <include name="7x5" displayName="7X5"/>
+    <include name="7x6" displayName="7X6"/>
+    <include name="7x7" displayName="7X7"/>
+  </subset>
 
   
 <!-- Affichage des logos couleur/n&b -->
@@ -635,6 +692,7 @@ originally based on: "carbon"
 	
 	<!-- Views  -->
   <include>./config/gamelist/common.xml</include>
+  <include>./config/gamelist/basic.xml</include>
   <include>./config/gamelist/gamecarousel.xml</include>
   <include>./config/gamelist/detailed.xml</include>
   <include>./config/gamelist/video.xml</include>

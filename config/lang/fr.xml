@@ -132,8 +132,15 @@
 <GamesFavs>Favoris</GamesFavs>
 <NumberPlayed>Joués</NumberPlayed>
 <theme.mostplayed>Le plus joué :</theme.mostplayed>
+<theme.lastplayedLabel>Dernier jeu :  </theme.lastplayedLabel>
+<theme.timesPlayedLabel>Nombre de parties : </theme.timesPlayedLabel>
+<theme.gameTimeLabel>Temps de jeu : </theme.gameTimeLabel>
+
+
 
 <systemview.grid>grille (nouveauté)</systemview.grid>
+<subset.Grid_View_Size>Vue Grille : dimensions</subset.Grid_View_Size>
+
 
 
 </variables>

@@ -90,12 +90,12 @@
   
   <view name="grid" ifSubset="SystemView:grid">
   
-	<imagegrid name="gamegrid">
+	<imagegrid name="imagegrid">
 		 <pos>0.025 0.495</pos>
 		 <size>0.950 0.47</size>
 		 <margin>0.005 0.006</margin>
 		 <padding>0.008 0.05</padding>
-		<autoLayout>5 1</autoLayout>
+		<!-- <autoLayout>5 1</autoLayout> -->
 		  <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
     </imagegrid>
   
