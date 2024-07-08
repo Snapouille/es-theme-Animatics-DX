@@ -5,77 +5,87 @@
 	
 	<view name="system">
 
-		<!-- Sytem AVATAR -->
-		<image name="avatar" extra="static">
-			<origin>0 0</origin>									
-			<pos>0.025 1</pos>
-			<size>1 1</size>
-			<zIndex>120</zIndex>
+		<image name="dog" extra="true">
+			<origin>0.5 0.5</origin>									
+			<pos>0.57 1.5</pos>
+			<size>0.2098958 0.5648148</size>									
+			<zIndex>1200</zIndex>
 			<opacity>1</opacity>
-			<path>./avatar.png</path>
-		</image>
+			<path>./dog.png</path>
 
-		<image name="avatar2" extra="static">
-			<origin>0 0</origin>
-			<pos>-1 0</pos>
-			<size>1 1</size>
-			<path>./avatar2.png</path>
-			<zIndex>119</zIndex>
-		</image>
-
-		<image name="avatar3" extra="static">
-			<origin>0 0</origin>
-			<pos>0 1</pos>
-			<size>0.5 0.5</size>
-			<path>./avatar.png</path>
-			<zIndex>119</zIndex>
-		</image>
-
-		<image name="avatar4" extra="static">
-			<origin>0 0</origin>
-			<pos>-1 0</pos>
-			<size>1 1</size>
-			<path>./avatar4.png</path>
-			<zIndex>119</zIndex>
-		</image>
-
-
-		<image name="avatar" extra="true">
-			<storyboard repeatat="0">
-				<animation property="y" from="1" to="-0.1" begin="" duration="1000" mode="easyIn"/>
-				<animation property="y" to="1" begin="2000" duration="1000" mode="easyIn"/>
-				<animation property="opacity" from="1" to="0" begin="3000" duration="3000" mode="linear"/>	
-			</storyboard>			
-		</image>
-
-		<image name="avatar2" extra="true">
 			<storyboard repeat="forever">
-				<animation property="x" from="-1" to="1" duration="5000" mode="easyIn"/>
-				<animation property="y" to="0.1" begin="1000" duration="1000" mode="easyIn"/>
-				<animation property="y" to="0" begin="2000" duration="1000" mode="easyIn"/>
-				<animation property="y" to="0.1" begin="3000" duration="1000" mode="easyIn"/>	
+				<animation property="offsetY" to="-0.97" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="0.97" begin="3000" duration="1000" mode="EaseIn"/>
+
+				<animation property="offsetY" to="0.97" begin="18000" duration="10" mode="EaseIn"/>
 			</storyboard>			
 		</image>
-
 		
+		<image name="dog2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<pos>0.22 1.5</pos>
+			<size>0.2098958 0.5648148</size>									
+			<zIndex>5</zIndex>
+			<opacity>1</opacity>
+			<path>./dog.png</path>
+			<scale>0.6</scale>
 
-		<image name="avatar3" extra="true">
-			<storyboard repeatat="0">
-				<animation property="opacity" from="1" to="0" begin="" duration="" mode="linear"/>
-				<animation property="opacity" from="0" to="1" begin="3500" duration="500" mode="linear"/>
-				<animation property="y" from="1" to="0.1" begin="3000" duration="1000" mode="easyIn"/>
-				<animation property="y" to="1" begin="5000" duration="1000" mode="easyIn"/>
-				<animation property="opacity" from="1" to="0" begin="5000" duration="500" mode="linear"/>
+			<storyboard repeat="forever">
+				
+				<animation property="offsetY" to="-1.05" begin="8000" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="1.05" begin="11000" duration="1000" mode="EaseIn"/>
+
+				<animation property="offsetY" to="0.97" begin="18000" duration="10" mode="EaseIn"/>
 			</storyboard>			
 		</image>
-
-		<image name="avatar4" extra="true">
-			<storyboard>
-				<animation property="x" from="-1" to="1" begin="10000" duration="5000" mode="easyIn"/>
-				<animation property="y" to="0.1" begin="11000" duration="1000" mode="easyIn"/>
-				<animation property="y" to="0" begin="12000" duration="1000" mode="easyIn"/>
-				<animation property="y" to="0.1" begin="13000" duration="1000" mode="easyIn"/>	
-			</storyboard>			
+		
+		
+		
+		
+		
+		
+		<image name="bird" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>-1 0.4</pos>
+			<size>0.1395833 0.1944444</size>									
+			<path>./avatar2.gif</path>
+			<scale>0.85</scale>
+			<zIndex>20000</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" from="-0.2" to="1.2" begin="3000" duration="4500" mode="linear"/>
+				<animation property="rotation" to="1" begin="3000" duration="100" autoreverse="true" repeat="20" mode="linear"/>
+				<animation property="y" to="0.24" begin="3000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.32" begin="4000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.20" begin="5000" duration="500" mode="EaseIn"/>
+				<animation property="y" to="0.3" begin="5500" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.15" begin="6500" duration="1000" mode="EaseIn"/>
+				
+				<animation property="y" to="0.15" begin="18000" duration="10" mode="linear"/>	
+			</storyboard>				
+		</image>
+		
+		
+		<image name="bird2" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>1.2 0.25</pos>
+			<size>0.1395833 0.1944444</size>									
+			<path>./avatar2.gif</path>
+			<scale>0.5</scale>
+			<flipX>true</flipX>
+			<zIndex>11</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" from="1.2" to="-0.2" begin="11000" duration="5500" mode="linear"/>
+				<animation property="rotation" to="1" begin="11000" duration="100" autoreverse="true" repeat="25" mode="linear"/>
+				<animation property="y" to="0.4" begin="11000" duration="1000" mode="Bump"/>
+				<animation property="y" to="0.25" begin="12000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.3" begin="13000" duration="500" mode="linear"/>	
+				<animation property="y" to="0.21" begin="13500" duration="1000" mode="EaseIn"/>	
+				<animation property="y" to="0.31" begin="16500" duration="1000" mode="linear"/>	
+				
+				<animation property="y" to="0.4" begin="18000" duration="10" mode="linear"/>	
+			</storyboard>				
 		</image>
 		
 	</view>
