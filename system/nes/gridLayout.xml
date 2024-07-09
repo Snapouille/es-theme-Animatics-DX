@@ -7,7 +7,7 @@
 
 		<image name="BG_snapLegacy" extra="true">
 			<size>1 1</size>									
-			<pos>0.51 0.5</pos>	
+			<pos>0.5 0.5</pos>	
 			<saturation>0.7</saturation>
 			  <storyboard>
 				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
@@ -31,6 +31,10 @@
 			</storyboard>			
 		</image>
 		
+		<image name="dog2" extra="true">
+		<visible>false</visible>
+		</image>
+		
 		
 		
 		<image name="bird" extra="true">
@@ -41,13 +45,13 @@
 			<zIndex>11</zIndex>
 			
 			<storyboard repeat="forever">
-				<animation property="x" from="-0.2" to="1.2" begin="3000" duration="4500" mode="linear"/>
-				<animation property="rotation" to="1" begin="3000" duration="100" autoreverse="true" repeat="20" mode="linear"/>
-				<animation property="y" to="0.14" begin="3000" duration="1000" mode="EaseIn"/>
-				<animation property="y" to="0.22" begin="4000" duration="1000" mode="EaseIn"/>
-				<animation property="y" to="0.18" begin="5000" duration="500" mode="linear"/>	
-				<animation property="y" to="0.3" begin="5500" duration="1000" mode="EaseOut"/>	
-				<animation property="y" to="0.15" begin="3500" duration="1000" mode="linear"/>	
+				<animation property="x" from="-0.2" to="1.2" begin="4000" duration="4500" mode="linear"/>
+				<animation property="rotation" to="1" begin="4000" duration="100" autoreverse="true" repeat="20" mode="linear"/>
+				<animation property="y" to="0.14" begin="4000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.22" begin="5000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.18" begin="6000" duration="500" mode="linear"/>	
+				<animation property="y" to="0.3" begin="6500" duration="1000" mode="EaseOut"/>	
+				<animation property="y" to="0.15" begin="7500" duration="1000" mode="linear"/>	
 				
 				<animation property="y" to="0.15" begin="21000" duration="10" mode="linear"/>	
 			</storyboard>				
