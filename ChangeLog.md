@@ -1,3 +1,8 @@
+## V 1.75 - (26 07 2024)
+- NEW view : Grid (work in progress 90% done) 
+- bug fixes
+
+
 ## V 1.74 - (05 07 2024)
 
 - systemview Grid  : WIP (81% done) 
