@@ -60,7 +60,7 @@
 			<zIndex>20000</zIndex>
 
 			<storyboard>
-					<animation property="pos" to="0.67 0.21" begin="" duration="1500" mode="EaseInOut"/>
+					<animation property="pos" to="0.675 0.21" begin="" duration="1500" mode="EaseInOut"/>
 					<animation property="scale" to="0.8" begin="" duration="1500" mode="Bump"/>
 					<animation property="y" to="0.208" begin="1500" duration="455" autoreverse="true" mode="EaseInOut"/>
 			</storyboard>

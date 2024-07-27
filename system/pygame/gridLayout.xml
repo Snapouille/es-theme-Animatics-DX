@@ -12,8 +12,8 @@
 		<image name="avatar" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.5010417 0.7518519</size>									
-			<pos>0.3822917 0.5592593</pos>									
-			<zIndex>20</zIndex>
+			<pos>0.8322917 0.6592593</pos>									
+			<zIndex>10</zIndex>
 			<storyboard>
 					<animation property="y" from="1" begin="0" duration="350" mode="easeOut"/>
 					<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
@@ -24,7 +24,7 @@
 			<pos>0 0</pos>
 			<size>0.51 0.9061</size>
 			<path>./avatar-light.png</path>
-			<zIndex>21</zIndex>
+			<zIndex>11</zIndex>
 			<storyboard repeatAt="400">
         		<animation property="scale" to="1.2" begin="350"  duration="6000" mode="easyIn"/>
 				<animation property="scale" to="1"   begin="6350" duration="6000" mode="easyIn"/>
@@ -45,7 +45,7 @@
 			<rotationOrigin>0 0</rotationOrigin>
 			<rotation>-60</rotation>
 			<path>./avatar-lensflare.png</path>
-			<zIndex>20</zIndex>
+			<zIndex>10</zIndex>
 			<storyboard repeatAt="400">
         		<animation property="scale" to="1.05" begin="350"  duration="6000" mode="easyIn"/>
 				<animation property="scale" to="1"    begin="6350" duration="6000" mode="easyIn"/>
@@ -62,9 +62,9 @@
 		<image name="avatar4" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.04375 0.1453704</size>									
-			<pos>0.359375 0.5263889</pos>									
+			<pos>0.809375 0.6263889</pos>									
 			<path>./avatar-water.png</path>
-			<zIndex>21</zIndex>
+			<zIndex>11</zIndex>
 			<storyboard repeatAt="1">
 				<animation property="opacity" from="0" to="0.8" begin="3000" duration="350" mode="linear"/>
 				<animation property="origin" to="0 -0.6"        begin="3350" duration="2000" mode="linear"/>
@@ -76,9 +76,9 @@
 		<image name="avatar5, avatar5_ghost1, avatar5_ghost2" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.1140625 0.1037037</size>									
-			<pos>0.2257813 0.5833333</pos>									
+			<pos>0.6757813 0.6833333</pos>									
 			<path>./avatar-trivia.png</path>
-			<zIndex>21</zIndex>
+			<zIndex>11</zIndex>
 		</image>
 		
 		<image name="avatar5_ghost2" extra="true">

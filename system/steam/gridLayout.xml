@@ -8,11 +8,11 @@
 		<image name="avatar" extra="static">
 			<origin>0.5 0.5</origin>	
 			<size>0.1973958 0.6240741</size>									
-			<pos>0.579 0.71</pos>	
+			<pos>0.83 0.71</pos>	
 			<linearSmooth>true</linearSmooth>					
 			<storyboard>
 				
-        		<animation property="x" to="0.582" begin="" duration="1000" mode="EaseInOut"/>
+        		<animation property="x" to="0.833" begin="" duration="1000" mode="EaseInOut"/>
 				<animation property="scale" to="0.995" begin="" duration="1000" mode="EaseInOut"/>
         		
 			</storyboard>					

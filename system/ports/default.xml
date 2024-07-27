@@ -8,11 +8,11 @@
 			<size>0.2901042 0.512037</size>									
 						
 									
-			<pos>0.30 0.45</pos>									
+			<pos>0.47 0.45</pos>									
 								
 			<storyboard>
 				
-        		<animation property="x" to="0.47" begin="" duration="6000" mode="EaseInOut"/>
+        		<animation property="y" to="0.47" begin="" duration="600" mode="EaseInOut"/>
         		
         						
 			</storyboard>					

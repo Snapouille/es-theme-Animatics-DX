@@ -1,0 +1,25 @@
+<!-- TheXtech -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="tuyau" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		<image name="tuyauH" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		<image name="mario" extra="static">
+		<visible>false</visible>
+		</image>
+		
+		
+		
+	</view>
+	
+</theme>
+

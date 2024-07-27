@@ -288,7 +288,8 @@
 		<zIndex>16</zIndex>
 		<origin>0.5 0.5</origin>									
 		<size>0.3911458 0.0555556</size>									
-		<pos>0.8018229 0.9675926</pos>									
+		<pos>0.8018229 0.9675926</pos>	
+		<visible ifHelpPrompts="false">false</visible>
 	</image>
 		
 	
