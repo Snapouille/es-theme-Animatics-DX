@@ -22,6 +22,41 @@
 			</storyboard>
 		</image>
 		
+		<image name="fog-static" extra="true">
+			<origin>0.5 0.5</origin>									
+			<linearSmooth>true</linearSmooth>
+			<size>0.6578125 0.1907407</size>									
+			<pos>0.2747396 0.70</pos>									
+			<scale>1</scale>
+			<zIndex>12</zIndex>
+			<opacity>0.9</opacity>								
+			<path>./fog-static.png</path>
+			<storyboard repeat="forever">
+				<animation property="y" from="0.70" to="0.701" begin="" autoreverse="true" duration="500" repeat="10" mode="linear"/>
+				<animation property="offsetX" to="0.005" begin="" autoreverse="true" duration="1000" repeat="5" mode="linear"/>
+				<animation property="opacity" from="0.9" to="0.85" begin="" autoreverse="true" duration="1000" repeat="5" mode="linear"/>
+			</storyboard>
+		</image>
+
+
+
+		<image name="fog-big" extra="true">
+			<origin>0.5 0.5</origin>									
+			<linearSmooth>true</linearSmooth>			
+			<pos>0 0.75</pos>
+			<size>0.6380208 0.3990741</size>									
+			<scale>2</scale>
+			<zIndex>14</zIndex>
+			<opacity>0.8</opacity>								
+			<path>./fog-big.png</path>
+			<storyboard repeat="forever">
+				<animation property="x" from="0.7" to="0.5" begin="" autoreverse="true" duration="20000" mode="linear"/>
+				<animation property="y" from="0.75" to="0.753" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="scale" from="2" to="2.01" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.75" begin="" autoreverse="true" duration="1000" repeat="20" mode="linear"/>
+			</storyboard>
+		</image>			
+		
 		
 	</view>
 </theme>

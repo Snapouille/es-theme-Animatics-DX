@@ -532,7 +532,7 @@ originally based on: "carbon"
 		<pos>0.145 0.08</pos>
 		<maxSize>0.25 0.09</maxSize>
 		<scale>0</scale>
-		<default>./../../art/divers/nologo.png</default>
+		<!-- <default>./../../art/divers/nologo.png</default> -->
 		
 	<storyboard event="open">
 		<animation property="scale" from="0" to="1" begin="" duration="300" mode="Linear"/>

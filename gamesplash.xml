@@ -8,7 +8,7 @@ originally based on: "carbon"
 <theme>
   <formatVersion>7</formatVersion>
   <view name="splash">
-	<image name="background" extra="true">
+	<image name="background-default" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./art/divers/splash.png</path>
 		<origin>0.5 0.5</origin>
@@ -16,23 +16,24 @@ originally based on: "carbon"
 		<size>1 1</size>
 		<zIndex>00</zIndex>
 	</image>  
-    <splash name="splash">
-      <backgroundColor>000000FF</backgroundColor>
-    </splash>
-    <image name="background">
-		<pos>0.5 0.5</pos>
+	<!-- Affiche la preview du jeu sur le background-default -->
+	<image name="background">
+		<visible>false</visible>
+		<size>0 0.4</size>
 		<origin>0.5 0.5</origin>
-		<maxSize>0.8 0.8</maxSize>
-		<roundCorners>0</roundCorners>
+		<pos>0.5 0.6</pos>
+		<roundCorners>1</roundCorners>
 		<linearSmooth>false</linearSmooth>
-		<color>ffffff</color>
-    </image>
+	</image>
+    <!-- <splash name="splash"> -->
+      <!-- <backgroundColor>000000FF</backgroundColor> -->
+    <!-- </splash> -->
 	<text name="label">
 		<color>FFFFFF</color>
 		<alignment>center</alignment>
 		<fontPath>./art/fonts/charge-vector.otf</fontPath>
-		<pos>0 0.8</pos>
-		<fontSize>0.04</fontSize>
+		<pos>0 0.85</pos>
+		<fontSize>0.035</fontSize>
 		<glowColor>00000020</glowColor>
 		<glowSize>2</glowSize>
 		<glowOffset>1</glowOffset>
