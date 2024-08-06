@@ -1,3 +1,9 @@
+## V 1.76 - (06 08 2024)
+- detailed view: hide the "no logo you have to scrape"
+- fix size and position for the 12 hours format AM/PM
+- small corrections
+
+
 ## V 1.75 - (26 07 2024)
 - NEW view : Grid (work in progress 90% done) 
 - bug fixes
