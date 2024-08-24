@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>4</formatVersion>
+  
   <view name="system">
   
 	<carousel name="systemcarousel">
@@ -69,14 +70,44 @@
 		<zIndex>9</zIndex>
     </video>
 	
-	
-	
-	
-	
-    
     <image name="ControllerOverlay" extra="true">
       <visible>false</visible>
     </image>
      
   </view>
+  
+  
+  
+  
+<view name="system" ifSubset="SystemView:grid">
+  
+	
+
+	<image name="background-cut, frame_big" extra="static">
+		<visible>false</visible>
+	</image>
+	
+	
+    <video name="backgroundvideo" extra="true">
+		<path>{random}</path>
+		<default>./../../../art/divers/mediamissing2.png</default>
+		<pos>0.5 0.32</pos>
+		<pos ifHelpPrompts="false">0.5 0.38</pos>
+		<minSize>1 1</minSize>
+		<maxSize>1.35 1.35</maxSize>	
+		<pos 	 if="{system.theme} == 'nds'">0.5 0.68</pos>	
+		<maxSize if="{system.theme} == 'nds'">3 3</maxSize>			
+		<origin>0.5 0.5</origin>
+		<delay>0</delay>
+		<color>FFFFFFA0</color>
+		<effect>none</effect>
+		<zIndex>9</zIndex>
+    </video>
+	
+     
+</view>
+
+  
+  
+  
 </theme>

@@ -81,11 +81,18 @@
       <linearSmooth>true</linearSmooth>
     </image>
 
-
-
-
 	
   </view>
+  
+  
+  
+	<view name="system" ifSubset="SystemView:grid">
+		<image name="barre_Haut" extra="true">
+			<visible>false</visible>
+		</image>
+	</view>
+  
+  
   
   
   
