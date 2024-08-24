@@ -5,7 +5,10 @@
 - System : MrBoom (Bomberman linux conversion) new logo, avatar and background
 - System : sdlpop (Prince of Persia linux conversion) new background
 - System : Commander Genius new background
-- NEW view : Grid (work in progress 95% done) 
+- NEW view : Grid (work in progress 95% done)
+- Background Random Video for the Grid view
+- Background Random Fanart for the Grid view
+- Background Carbon Controller for the Grid view
 
 
 ## V 1.76 - (06 08 2024)
