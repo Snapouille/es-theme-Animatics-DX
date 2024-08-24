@@ -1,3 +1,13 @@
+## V 1.77 - (24 08 2024)
+- Add system : Singe (Daphne fork)
+- Add system : Sega System SP
+- Add system : Recordings
+- System : MrBoom (Bomberman linux conversion) new logo, avatar and background
+- System : sdlpop (Prince of Persia linux conversion) new background
+- System : Commander Genius new background
+- NEW view : Grid (work in progress 95% done) 
+
+
 ## V 1.76 - (06 08 2024)
 - detailed view: hide the "no logo you have to scrape"
 - fix size and position for the 12 hours format AM/PM
