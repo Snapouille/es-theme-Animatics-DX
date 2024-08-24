@@ -28,10 +28,9 @@
 			<path>./avatar-lensflare.png</path>
 			<zIndex>10</zIndex>
 			<storyboard>
-        		<animation property="scale" to="1.05" 	begin=""  	duration="1000" 	mode="EaseIn"/>
-        		<animation property="x" to="0.141" 		begin=""  	duration="1000"  	mode="EaseIn"/>
-        		<animation property="y" to="0.498" 		begin=""  	duration="1000"  	mode="EaseIn"/>
-        		<animation property="scale" to="1" 		begin="1000"  	duration="10000" 	mode="linear" autoreverse="true" repeat="forever" />
+        		<animation property="scale" to="2" 		begin=""  	duration="50000" 	autoreverse="true" repeat="forever" mode="linear"/>
+        		<animation property="x" to="0.141" 		begin=""  	duration="50000"  	autoreverse="true" repeat="forever" mode="linear"/>
+        		<animation property="y" to="0.498" 		begin=""  	duration="50000"  	autoreverse="true" repeat="forever" mode="linear"/>
 			</storyboard>
 		</image>
 		

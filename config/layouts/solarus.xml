@@ -7,25 +7,21 @@
 		<origin>0.5 0.5</origin>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
-		<pos>0.3808 0.28</pos>									
+		<pos>0.3808 0.29</pos>									
 		<maxSize>0.29 0.51</maxSize>
 		<scale>0.44</scale>
 	
-	
-		<!-- <pos>0.3807292 0.3365741</pos>									 -->
-		<!-- <maxSize>0.125 0.3398148</maxSize>									 -->
-
 		
 		<storyboard event="open">
-                <animation property="x" to="0.44" begin="1200"  duration="300" mode="linear"/>
-				<animation property="y" to="0.235" begin="1200"  duration="300" mode="linear"/>
-				<animation property="scale" to="0.8" begin="1200"  duration="300" mode="linear"/>
+                <animation property="x" to="0.44" begin="1200"  duration="200" mode="linear"/>
+				<animation property="y" to="0.28" begin="1200"  duration="200" mode="linear"/>
+				<animation property="scale" to="0.8" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.44" begin="1200"  duration="300" mode="linear"/>
-				<animation property="y" to="0.235" begin="1200"  duration="300" mode="linear"/>
-				<animation property="scale" to="0.8" begin="1200"  duration="300" mode="linear"/>
+                <animation property="x" to="0.44" begin="1200"  duration="200" mode="linear"/>
+				<animation property="y" to="0.28" begin="1200"  duration="200" mode="linear"/>
+				<animation property="scale" to="0.8" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">

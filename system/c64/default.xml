@@ -18,20 +18,23 @@
 	
 		<image name="avatar" extra="true">
 			<origin>0.5 0.5</origin>
-			<size>0.1411458 0.5111111</size>									
-			<pos>0.1945313 0.4509259</pos>									
+			<size>0.2182292 0.787037</size>									
+			<pos>0.1945313 0.431</pos>									
 			<path>./avatar.png</path>
+			<scale>0.7</scale>
 
 			<storyboard>
 				<animation property="x" to="0.28" begin="700" duration="2000" mode="EaseOut"/>
-				<animation property="size" to="0.2182292 0.787037" begin="2700" duration="375" mode="bump"/>
-				<animation property="pos"  to="0.5205729 0.5416667"  begin="2700" duration="375" mode="EaseOut"/>
+				<animation property="scale" to="1" begin="2700" duration="300" mode="EaseIn"/>
+				<animation property="x" to="0.53" begin="2700" duration="300" mode="EaseOut"/>
+				<animation property="y" to="0.545" begin="2700" duration="300" mode="EaseOut"/>				
 			</storyboard>
 			
 			<storyboard ifHelpPrompts="false">
 				<animation property="x" to="0.28" begin="700" duration="2000" mode="EaseOut"/>
-				<animation property="size" to="0.2796875 0.7481481" begin="2700" duration="375" mode="bump"/>
-				<animation property="pos"  to="0.5205729 0.6064815"  begin="2700" duration="375" mode="EaseOut"/>
+				<animation property="scale" to="1" begin="2700" duration="300" mode="EaseIn"/>
+				<animation property="x" to="0.53" begin="2700" duration="300" mode="EaseOut"/>
+				<animation property="y" to="0.61" begin="2700" duration="300" mode="EaseOut"/>
 			</storyboard>
 		
 		</image>

@@ -1,0 +1,329 @@
+<!-- DAPHNE -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.44</pos>	<scale>1</scale>	
+		    <flipX>true</flipX>
+			<pos ifHelpPrompts="false">0.5 0.5</pos>	
+			<saturation>0</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+	
+	
+		<image name="light" extra="static">
+			<visible>false</visible>
+		</image>
+	
+	
+		<image name="giddy1, giddy2" extra="static">
+			<origin>0.5 0.5</origin>
+			<scale>1.1</scale>
+			<size>0.1333333 0.237037</size>	
+			<pos>1.1 0.72</pos>
+			<zIndex>18</zIndex>
+		</image>
+		
+		<image name="giddy1" extra="static">
+			<opacity>1</opacity>
+			<path>./giddy1.png</path>
+
+			<storyboard repeatAt="15000">
+				
+				<animation property="x" to="0.85" begin="14500" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="0" begin="15200" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="15400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="15600" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="15800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="16200" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="17000" duration="10" mode="linear"/>
+				
+				<animation property="y" to="0.7" begin="17200" duration="200" mode="linear"/>
+				<animation property="x" to="0.83" begin="17200" duration="200" mode="linear"/>
+				<animation property="opacity" to="0" begin="17200" duration="10" mode="linear"/>
+				<animation property="y" to="0.72" begin="17400" duration="100" mode="linear"/>
+				<animation property="opacity" to="1" begin="17400" duration="10" mode="linear"/>
+				
+				<animation property="y" to="0.7" begin="17500" duration="200" mode="linear"/>				
+				<animation property="x" to="0.81" begin="17500" duration="200" mode="linear"/>
+				<animation property="opacity" to="0" begin="17500" duration="10" mode="linear"/>
+				<animation property="y" to="0.72" begin="17700" duration="100" mode="linear"/>
+				<animation property="opacity" to="1" begin="17700" duration="10" mode="linear"/>
+				
+				<animation property="y" to="0.7" begin="17800" duration="200" mode="linear"/>
+				<animation property="x" to="0.83" begin="17800" duration="200" mode="linear"/>
+				<animation property="y" to="0.72" begin="18000" duration="100" mode="linear"/>
+				
+				<animation property="y" to="0.7" begin="18100" duration="200" mode="linear"/>
+				<animation property="x" to="0.85" begin="18100" duration="200" mode="linear"/>
+				<animation property="y" to="0.72" begin="18300" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="18900" duration="100" mode="linear"/>
+				
+				<animation property="y" to="0.7" begin="19000" duration="200" mode="linear"/>
+				<animation property="x" to="0.83" begin="19000" duration="200" mode="linear"/>
+				<animation property="y" to="0.72" begin="19200" duration="100" mode="linear"/>
+				
+				<animation property="y" to="0.7" begin="19300" duration="200" mode="linear"/>				
+				<animation property="x" to="0.85" begin="19300" duration="200" mode="linear"/>
+				<animation property="y" to="0.72" begin="19500" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="19900" duration="100" mode="linear"/>
+        						
+			</storyboard>
+		</image>
+	
+	
+		<image name="giddy2" extra="static">
+			<opacity>0</opacity>
+			<path>./giddy2.png</path>
+
+			<storyboard repeatAt="15000">
+			
+				<animation property="x" to="0.85" begin="14500" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="1" begin="15200" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="15400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="15600" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="15800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="16000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="16200" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="100" mode="linear"/>
+				
+				<animation property="y" to="0.7" begin="17200" duration="200" mode="linear"/>
+				<animation property="x" to="0.83" begin="17200" duration="200" mode="linear"/>
+				<animation property="opacity" to="1" begin="17200" duration="10" mode="linear"/>
+				<animation property="y" to="0.72" begin="17400" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="17400" duration="10" mode="linear"/>
+				
+				<animation property="y" to="0.7" begin="17500" duration="200" mode="linear"/>
+				<animation property="x" to="0.81" begin="17500" duration="200" mode="linear"/>
+				<animation property="opacity" to="1" begin="17500" duration="10" mode="linear"/>
+				<animation property="y" to="0.72" begin="17700" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="17700" duration="10" mode="linear"/>
+				
+				<animation property="y" to="0.7" begin="17800" duration="200" mode="linear"/>
+				<animation property="x" to="0.83" begin="17800" duration="200" mode="linear"/>
+				<animation property="y" to="0.72" begin="18000" duration="100" mode="linear"/>
+				
+				<animation property="y" to="0.7" begin="18100" duration="200" mode="linear"/>
+				<animation property="x" to="0.85" begin="18100" duration="200" mode="linear"/>
+				<animation property="y" to="0.72" begin="18300" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="19900" duration="100" mode="linear"/>
+				
+        						
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<image name="dirk1" extra="static">
+			<scale>1</scale>
+			<path>./dirk1.png</path>
+			<opacity>1</opacity>
+			<zIndex>14</zIndex>
+			
+			<origin>0.5 0.5</origin>
+			<pos>1.15 0.7</pos>									
+	
+			<storyboard>
+				<animation property="offsetX" to="-0.33" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="0" begin="9990" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="25000" duration="10" mode="linear"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.1"/>
+				<animation property="offsetX" to="-0.33" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="0" begin="9990" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="dirk2" extra="static">
+			<scale>1</scale>
+			<path>./dirk2.png</path>
+			<opacity>0</opacity>
+			<zIndex>14</zIndex>
+			
+			<origin>0.5 0.5</origin>
+			<pos>1.15 0.7</pos>									
+	
+			<storyboard>
+				<animation property="offsetX" to="-0.33" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="1" begin="9990" duration="10" mode="linear"/>
+				
+				<animation property="color" to="202020" begin="11000" duration="2500" mode="linear"/>
+				<animation property="offsetY" to="0.5" begin="12000" duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" begin="12000" duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" begin="25000" duration="10" mode="linear"/>
+			</storyboard>
+			
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="offsetY"  to="0.1"/>
+				<animation property="offsetX" to="-0.33" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="1" begin="9990" duration="10" mode="linear"/>
+				
+				<animation property="color" to="202020" begin="11000" duration="2500" mode="linear"/>
+				<animation property="offsetY" to="0.5" begin="12000" duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" begin="12000" duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" begin="25000" duration="10" mode="linear"/>
+			</storyboard>
+			
+			
+			
+		
+		</image>
+		
+		
+		<image name="ripper" extra="static">
+			<origin>0 0</origin>
+			<pos>0.44 0.26</pos>
+			<size>0.1286458 0.237963</size>									
+		    <linearSmooth>true</linearSmooth>
+			<scale>1</scale>
+			<path>./ripper.png</path>
+			<rotation>-0.5</rotation>
+			<opacity>1</opacity>
+			<zIndex>13</zIndex>
+			
+	
+			<storyboard repeat="forever">
+			
+				<animation property="scale" to="1.01" begin="500" duration="1000" mode="EaseIn"/>		
+				<animation property="y" to="0.258" begin="" duration="1500" mode="EaseOut"/>	
+				
+				<animation property="scale" to="1.0" begin="1500" duration="1000" mode="EaseIn"/>		
+				<animation property="y" to="0.26" begin="1500" duration="1500" mode="EaseOut"/>	
+				
+				<animation property="rotation" from="-0.5" to="0.5" begin="1500" duration="1100" autoreverse="true" repeat="1" mode="linear"/>	
+				
+				<animation property="scale" to="1.015" begin="3500" duration="1500" mode="EaseIn"/>		
+				<animation property="y" to="0.256" begin="3000" duration="2000" mode="EaseOut"/>	
+				
+				<animation property="scale" to="1.0" begin="5000" duration="1500" mode="EaseIn"/>		
+				<animation property="y" to="0.26" begin="5000" duration="2500" mode="EaseOut"/>	
+				
+			</storyboard>
+		
+		</image>
+		
+		
+		
+		<image name="fire1, fire2, fire3, fire4, fire5, fire6" extra="static">
+			<origin>0 0</origin>
+			<scale>1.15</scale>
+			<rotation>-30</rotation>
+			<opacity>0</opacity>
+			<zIndex>18</zIndex>
+			<pos>0.5 0.23</pos>
+			<size>0.5890625 0.7611111</size>									
+			<flipX>true</flipX>
+		</image>
+		
+		
+		<image name="fire1" extra="static">
+			<path>./fire1.png</path>
+	
+			<storyboard>
+				<animation property="opacity" to="1" begin="7500" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="7600" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="10600" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="10700" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="16900" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="25000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="fire2" extra="static">
+			<path>./fire2.png</path>
+	
+			<storyboard>
+				<animation property="opacity" to="1" begin="7600" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="7700" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="10500" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="10600" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="16900" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="25000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="fire3" extra="static">
+			<path>./fire3.png</path>
+	
+			<storyboard>
+				<animation property="opacity" to="1" begin="7700" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="7800" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="10400" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="10500" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="16900" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="25000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="fire4" extra="static">
+			<path>./fire4.png</path>
+	
+			<storyboard>
+				<animation property="opacity" to="1" begin="7800" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="7900" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="10300" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="10400" duration="100" mode="linear"/>
+			
+				<animation property="opacity" to="0" begin="16900" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="25000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="fire5" extra="static">
+			<path>./fire5.png</path>
+	
+			<storyboard>
+				<animation property="opacity" to="1" begin="7900" duration="100" mode="linear"/>
+				<animation property="opacity" to="1" begin="8000" duration="2300" mode="linear"/>
+				<animation property="opacity" to="0" begin="10300" duration="100" mode="linear"/>
+								
+				<animation property="opacity" to="0" begin="16900" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="25000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="fire6" extra="static">
+			<path>./fire6.png</path>
+	
+			<storyboard>
+				<animation property="opacity" to="1" begin="8100" duration="100" autoreverse="true" repeat="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="16900" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="25000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

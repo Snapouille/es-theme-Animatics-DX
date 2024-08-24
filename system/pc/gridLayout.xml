@@ -35,7 +35,7 @@
 		<image name="avatar" extra="true">
 			<origin>0.5 0.5</origin>
 			<size>0.4828125 0.9175926</size>									
-			<pos>1.05 0.55</pos>									
+			<pos>1.05 0.57</pos>									
 			<scale>0.51</scale>
 			<opacity>1</opacity>
 			<path>./avatar.gif</path>
@@ -68,7 +68,7 @@
 			<origin>0.5 0.5</origin>									
 			<linearSmooth>true</linearSmooth>
 			<size>0.2583333 0.2583333</size>									
-			<pos>1.15 0.79</pos>									
+			<pos>1.15 0.81</pos>									
 			<path>./cow.gif</path>
 			<zIndex>3000</zIndex>
 			
@@ -92,7 +92,7 @@
 		
 		<image name="Blood1" extra="static">	
 			<size>0.1567708 0.2592593</size>									
-			<pos>0.6364583 0.5481481</pos>									
+			<pos>0.6364583 0.5681481</pos>									
 			<path>./blood1.png</path>
 			<flipX>true</flipX>
 			
@@ -106,7 +106,7 @@
 	
 		<image name="Blood2" extra="static">	
 			<size>0.3265625 0.3805556</size>									
-			<pos>0.51 0.39</pos>																							
+			<pos>0.51 0.41</pos>																							
 			<path>./blood2.png</path>
 			<flipX>true</flipX>
 			

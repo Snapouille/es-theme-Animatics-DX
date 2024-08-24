@@ -1,0 +1,25 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Sega System SP, is an arcade board. It can be seen as a cost-reduced NAOMI board (itself derived from the Sega Dreamcast), where the core components are presented as a system-on-a-chip, a bespoke version of Linux is used as an operating system, and software was distributed on CompactFlash cards instead of GD-ROMs or cartridges. The System SP board was typically used for smaller, less technically demanding arcade games often aimed at small children.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le Sega System SP est une console d'arcade. Elle peut être considérée comme une carte NAOMI à coût réduit (elle-même dérivée de la Sega Dreamcast), dont les composants principaux sont présentés sous la forme d'un système sur puce, une version personnalisée de Linux est utilisée comme système d'exploitation et les logiciels sont distribués sur des cartes CompactFlash au lieu de GD-ROM ou de cartouches. La carte System SP était généralement utilisée pour des jeux d'arcade plus petits et moins exigeants sur le plan technique, souvent destinés aux jeunes enfants.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Sega System SP es una placa arcade. Se puede considerar una placa NAOMI de coste reducido (derivada a su vez de la Sega Dreamcast), en la que los componentes principales se presentan como un sistema en un chip, se utiliza una versión a medida de Linux como sistema operativo y el software se distribuye en tarjetas CompactFlash en lugar de GD-ROM o cartuchos. La placa System SP se utilizaba normalmente para juegos arcade más pequeños y menos exigentes técnicamente, a menudo dirigidos a niños pequeños.</text>
+</text>
+
+</view>
+</theme>

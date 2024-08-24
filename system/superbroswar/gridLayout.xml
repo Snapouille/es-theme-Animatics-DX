@@ -12,6 +12,7 @@
 			<size>0.3713542 0.462963</size>									
 			<pos>1.05 0.71</pos>									
 			<path>./avatar.png</path>
+			<scale>0.8</scale>
 
 			<storyboard>
 				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>

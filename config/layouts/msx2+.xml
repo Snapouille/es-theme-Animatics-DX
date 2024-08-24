@@ -7,8 +7,8 @@
 		<origin>0.5 0.5</origin>
 		<path>./../../system/msx2/ecran_console2.png</path>
 
-<size>0.5177083 0.7407407</size>									
-<pos>0.5427083 0.5444444</pos>									
+		<size>0.5177083 0.7407407</size>									
+		<pos>0.5427083 0.5444444</pos>									
 									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
@@ -31,8 +31,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<size>0.1895833 0.2703704</size>									
-<pos>0.5677083 0.3611111</pos>									
+		<size>0.1895833 0.2703704</size>									
+		<pos>0.5677083 0.3611111</pos>									
 
 		<zIndex>30</zIndex>
 
@@ -56,8 +56,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.1895833 0.2703704</size>									
-<pos>0.5677083 0.3611111</pos>									
+		<size>0.1895833 0.2703704</size>									
+		<pos>0.5677083 0.3611111</pos>									
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -168,9 +168,9 @@
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.3675 0.33</pos> 
-		<maxSize>0.25 0.54</maxSize>
-		<scale>0.52</scale>
+		<pos>0.369 0.33</pos> 
+		<maxSize>0.225 0.54</maxSize>
+		<scale>0.57</scale>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
 		

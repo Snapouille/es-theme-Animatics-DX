@@ -25,7 +25,7 @@
 			<storyboard>
 				<animation property="scale" to="1" begin="100" duration="600" mode="Linear"/>
 				<animation property="offsetY" to="-0.2" begin="100" duration="600" mode="Bump"/>
-				<animation property="offsetX" to="-0.2" begin="100" duration="550" mode="EaseInOut"/>
+				<animation property="offsetX" to="-0.19" begin="100" duration="550" mode="EaseInOut"/>
 				<animation property="offsetY" to="-0.25" begin="700" duration="1000" mode="linear"/>
 				<animation property="offsetY" to="-0.31" begin="2000" duration="3550" autoreverse="true" repeat="forever" mode="EaseInOut"/>
 			</storyboard>

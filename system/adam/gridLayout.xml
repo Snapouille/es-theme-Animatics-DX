@@ -21,9 +21,9 @@
 			 <storyboard>
 
 				
-                <animation property="rotation" from="25" to="0" begin="" duration="1500" mode="EaseInOut"/>
-				<animation property="pos" to="0.8283854 0.399537" begin="" duration="1500" mode="EaseInOut"/>
-				<animation property="scale" to="1" begin="" duration="1500" mode="EaseInOut"/>
+                <animation property="rotation" from="35" to="0" begin="100" duration="600" mode="EaseInOut"/>
+				<animation property="pos" to="0.8283854 0.399537" begin="100" duration="600" mode="EaseInOut"/>
+				<animation property="scale" to="1" begin="100" duration="600" mode="EaseInOut"/>
 				
 				
 

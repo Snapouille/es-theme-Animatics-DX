@@ -6,8 +6,8 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 
-<size>0.4453125 0.3638889</size>									
-<pos>0.4833854 0.6800926</pos>									
+		<size>0.4453125 0.3638889</size>									
+		<pos>0.4833854 0.6800926</pos>									
 									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
@@ -30,8 +30,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<pos>0.483125 0.6634259</pos>									
-<maxSize>0.2729167 0.2805556</maxSize>									
+		<pos>0.483125 0.6634259</pos>									
+		<maxSize>0.2729167 0.2805556</maxSize>									
 
 		<zIndex>30</zIndex>
 
@@ -55,8 +55,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.2729167 0.2805556</size>									
-<pos>0.483125 0.6634259</pos>									
+		<size>0.2729167 0.2805556</size>									
+		<pos>0.483125 0.6634259</pos>									
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -164,14 +164,11 @@
 		</image>
   
   
-							
-
-  
   
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.368 0.33</pos> 
+		<pos>0.368 0.32</pos> 
 		<maxSize>0.55 0.58</maxSize>
 		<scale>0.48</scale>
 		<zIndex>100</zIndex>
@@ -192,11 +189,6 @@
 		<storyboard event="deactivate">
 			    <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
-		
-		
-		
-		
 	</image>
 	
 	
@@ -215,9 +207,7 @@
 		<storyboard event="deactivate">
 		   <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
 	</text>
-	
 	
 	
 		

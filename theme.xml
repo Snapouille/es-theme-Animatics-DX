@@ -589,7 +589,7 @@ originally based on: "carbon"
 	
 	
 	<!-- Choix d'afficher les fanarts ou non -->
-	<subset name="fanartDisplay" displayName="${fanart.Display}" appliesTo="video, rvgm">
+	<subset name="fanartDisplay" displayName="${fanart.Display}" appliesTo="detailed, video, rvgm">
 			<include name="Show" displayName="${show}"/>
 			<include name="Hide" displayName="${hide}"/>
 	</subset>

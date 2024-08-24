@@ -7,8 +7,8 @@
 		<origin>0.5 0.5</origin>
 		<path>./../../art/screen/sharp.png</path>
 
-<size>0.4015625 0.5148148</size>									
-<pos>0.4655729 0.6416667</pos>									
+		<size>0.4015625 0.5148148</size>									
+		<pos>0.4655729 0.6416667</pos>									
 									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
@@ -59,8 +59,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<pos>0.4650521 0.612963</pos>									
-<maxSize>0.3557292 0.3648148</maxSize>									
+		<pos>0.4650521 0.612963</pos>									
+		<maxSize>0.3557292 0.3648148</maxSize>									
 
 		<zIndex>30</zIndex>
 
@@ -84,8 +84,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.3557292 0.3648148</size>																
-<pos>0.4650521 0.612963</pos>																
+		<size>0.3557292 0.3648148</size>																
+		<pos>0.4650521 0.612963</pos>																
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -190,7 +190,7 @@
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.368 0.33</pos> 
+		<pos>0.368 0.31</pos> 
 		<maxSize>0.55 0.58</maxSize>
 		<scale>0.45</scale>
 		<zIndex>100</zIndex>
@@ -211,16 +211,7 @@
 		<storyboard event="deactivate">
 			    <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
-		
-		
-		
-		
 	</image>
-	
-	
-	
-	
 	
 		
    </view>

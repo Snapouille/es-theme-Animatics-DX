@@ -180,17 +180,17 @@
   
   
 		<video name="md_video">
-		 
-		<pos>0.7575521 0.3712963</pos>									
-		<maxSize>0.1442708 0.1944444</maxSize>									
+			<pos>0.757 0.362</pos>									
+			<maxSize>0.1442708 0.1944444</maxSize>	
+			<defaultSnapshot>./../../art/divers/mediamissing2.png</defaultSnapshot>
 
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.7575521" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.757" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7575521" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.757" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -202,7 +202,7 @@
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 			 <size>0.1442708 0.1944444</size>											
-			 <pos>0.7575521 0.3712963</pos>									
+			 <pos>0.7575521 0.36</pos>									
 		 
 		  
 				<storyboard event="open">
@@ -222,7 +222,7 @@
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.368 0.32</pos> 
+		<pos>0.368 0.33</pos> 
 		<maxSize>0.22 0.57</maxSize>
 		<scale>0.53</scale>
 		<zIndex>100</zIndex>

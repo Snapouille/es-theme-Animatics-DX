@@ -10,11 +10,11 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-<text></text>
+<text>Batocera is shipped with a working build of Mr. Boom! Mr.Boom is an up to 8 player Bomberman clone libretro core. The goal of the game is to bomb away your enemies and other players. </text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-<text></text>
+<text>Batocera est livré avec une version fonctionnelle de Mr. Boom ! Mr.Boom est un clone de Bomberman jusqu'à 8 joueurs avec un noyau libretro. Le but du jeu est de bombarder vos ennemis et les autres joueurs. </text>
 </text>
 
 <text name="system_description" extra="true" lang="de">
@@ -22,7 +22,7 @@ originally based on: "carbon"
 </text>
 
 <text name="system_description" extra="true" lang="es">
-<text></text>
+<text>Batocera se entrega con una versión funcional de Mr. Mr.Boom es un clon de Bomberman para 8 jugadores. El objetivo del juego es bombardear a tus enemigos y a otros jugadores. </text>
 </text>
 
 <text name="system_description" extra="true" lang="it">

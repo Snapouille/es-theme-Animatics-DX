@@ -1,0 +1,25 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Hypseus Singe is a fork of Matt Ownby's Daphne. It's a program to play laserdisc arcade games on a PC, Mac or Raspberry Pi. This version includes Singe support for Fan Made and American Laser Games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Hypseus Singe est un fork de Daphne de Matt Ownby. C'est un programme qui permet de jouer à des jeux d'arcade laserdisc sur un PC, un Mac ou un Raspberry Pi. Cette version inclut le support Singe pour les jeux Fan Made et American Laser Games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Hypseus Singe es un fork de Daphne de Matt Ownby. Es un programa para jugar a juegos arcade de laserdisc en un PC, Mac o Raspberry Pi. Esta versión incluye soporte Singe para Fan Made y American Laser Games.</text>
+</text>
+
+</view>
+</theme>

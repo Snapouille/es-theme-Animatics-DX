@@ -188,20 +188,20 @@
 		<origin>0.50 0.50</origin>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
-		<pos>0.3808 0.28</pos>									
+		<pos>0.3808 0.272</pos>									
 		<maxSize>0.29 0.43</maxSize>
 		<scale>0.44</scale>
 		
 		<storyboard event="open">
-                <animation property="x" to="0.457" begin="1300"  duration="300" mode="EaseInOut"/>
-				<animation property="y" to="0.235" begin="1300"  duration="300" mode="EaseInOut"/>
-				<animation property="scale" to="0.9" begin="1300"  duration="300" mode="EaseInOut"/>
+                <animation property="x" to="0.457" begin="1200"  duration="200" mode="linear"/>
+				<animation property="y" to="0.235" begin="1200"  duration="200" mode="linear"/>
+				<animation property="scale" to="0.9" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.457" begin="1300"  duration="300" mode="EaseInOut"/>
-				<animation property="y" to="0.235" begin="1300"  duration="300" mode="EaseInOut"/>
-				<animation property="scale" to="0.9" begin="1300"  duration="300" mode="EaseInOut"/>
+                <animation property="x" to="0.457" begin="1200"  duration="200" mode="linear"/>
+				<animation property="y" to="0.235" begin="1200"  duration="200" mode="linear"/>
+				<animation property="scale" to="0.9" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">

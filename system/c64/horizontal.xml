@@ -1,4 +1,4 @@
-<!-- c64 horizontal -->
+<!-- C64  -->
 
 
 <theme>
@@ -15,19 +15,21 @@
 					<animation property="pos" to="0.3526042 0.3851852" begin="2700" duration="300" mode="EaseIn"/>
 			  </storyboard>
 		</image>
-		
+	
 		<image name="avatar" extra="true">
 			<origin>0.5 0.5</origin>
-			<size>0.1411458 0.5111111</size>									
-			<pos>0.1945313 0.4509259</pos>									
+			<size>0.2182292 0.787037</size>									
+			<pos>0.1945313 0.431</pos>									
 			<path>./avatar.png</path>
+			<scale>0.7</scale>
 
 			<storyboard>
 				<animation property="x" to="0.28" begin="700" duration="2000" mode="EaseOut"/>
-				<animation property="size" to="0.1994792 0.7185185" begin="2700" duration="375" mode="bump"/>
-				<animation property="pos"  to="0.4736979 0.4212963"  begin="2700" duration="375" mode="EaseOut"/>
+				<animation property="scale" to="0.9" begin="2700" duration="300" mode="EaseIn"/>
+				<animation property="x" to="0.483" begin="2700" duration="300" mode="EaseOut"/>
+				<animation property="y" to="0.4255" begin="2700" duration="300" mode="EaseOut"/>				
 			</storyboard>
-		
+					
 		</image>
 	</view>
 

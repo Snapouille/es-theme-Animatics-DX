@@ -183,7 +183,7 @@
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.3685 0.3</pos> 
+		<pos>0.3685 0.29</pos> 
 		<maxSize>0.25 0.4</maxSize>
 		<scale>0.55</scale>
 		<zIndex>100</zIndex>
@@ -204,8 +204,6 @@
 		<storyboard event="deactivate">
 			    <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
-		
 	</image>
 	
 	

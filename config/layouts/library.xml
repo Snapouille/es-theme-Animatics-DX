@@ -78,7 +78,7 @@
   
 <view name="detailed">
 
-	<image name="ecran_console, detailsBkLine2, md_marquee, md_thumbnail, md_flag, info_background, black_bg" extra="static">
+	<image name="ecran_console, detailsBkLine2, md_marquee, md_thumbnail, md_flag, info_background, black_bg, yellowSquare, topSquare, stats-bar1, stats-bar2, controller-bar" extra="static">
 		<visible>false</visible>
 	</image>
 	
@@ -92,11 +92,11 @@
 		<maxSize>0.3546875 0.7231481</maxSize>									
 		
 		<storyboard event="open">
-			<animation property="pos" to="0.7549479 0.5467593" begin="1200"  duration="200" mode="linear"/>
+			<animation property="pos" to="0.65 0.5467593" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-			<animation property="pos" to="0.7549479 0.5467593" begin="1200"  duration="200" mode="linear"/>
+			<animation property="pos" to="0.65 0.5467593" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
@@ -134,18 +134,17 @@
 	
 	
 	<!-- Ligne du haut à pousser vers la droite -->
+	<!-- on ne bouge rien en mode library -->
 	<image name="topLineRight" extra="true">
       <pos>0.343 0.155</pos>
       <size>1 0.005</size>
 	  
 		<storyboard event="open">
-			<animation property="pos" to="0.95 0.155" begin="1000" duration="500" mode="Linear"/>
-			<animation property="pos" to="0.7 0.155" begin="1500" duration="500" mode="EaseOut"/>
+			<animation property="pos" to="0.343 0.155" begin="1000" duration="500" mode="Linear"/>
 		</storyboard>
 		
 		<storyboard event="activate">
-			<animation property="pos" to="0.95 0.155" begin="1000" duration="500" mode="Linear"/>
-			<animation property="pos" to="0.7 0.155" begin="1500" duration="500" mode="EaseOut"/>
+			<animation property="pos" to="0.343 0.155" begin="1000" duration="500" mode="Linear"/>
 		</storyboard>
 		
 		<storyboard event="deactivate">
