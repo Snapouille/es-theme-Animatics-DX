@@ -73,7 +73,8 @@ Features :
 ![2024-01-25 09_57_28-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/8f95b61e-342a-4e9e-811d-2b6d899deb6a)
 
 ## Gamelist view : RVGM (Dark or Light)
-![2023-12-16 09_28_06-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/91edbd52-9360-48ac-ae93-3c2527599e8e)
+![2024-09-02 19_26_33-EmulationStation](https://github.com/user-attachments/assets/19e38195-f90e-40b3-bb5f-945dd2a5a343)
+
 
 ## Gamelist view : Boxes (Big - Medium and Small)
 ![2023-03-29 18_08_52-EmulationStation](https://user-images.githubusercontent.com/105559045/228601033-1b6a1890-c2f4-438e-8082-2b8b284d2398.png)
