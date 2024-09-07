@@ -8,7 +8,8 @@ Please see a quick summary below:
 - the RVGM new order view becomes the RVGM view
 - Add a new gamelist view : Primacy  
 
-![2024-09-07 08_36_29-Window](https://github.com/user-attachments/assets/a55be1a9-d6b2-4684-ad47-b94c4c83ad7d)
+![2024-09-07 08_46_58-Window](https://github.com/user-attachments/assets/cfc8fa77-8845-4a5e-9d87-e1f60086d04e)
+
 
 
 For the System Background you have 5 choices now :
