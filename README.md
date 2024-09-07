@@ -17,12 +17,10 @@ Features :
     16/9 Only, not compatible with 4/3 or 5/4 for now
     Pi4 or more powerfull recommended
 
-MUSIC add-on :
 
-    You can add a setlist of music to be played with the theme animations !
-    Just copy the ‘es-theme-Animatics-DX-Music’ directory which you can download here : 
-    https://github.com/Snapouille/es-theme-Animatics-DX-Music
-
+# MUSIC add-on
+You can add a setlist of music to be played with the theme animations, just copy the ‘es-theme-Animatics-DX-Music’ directory which you can download here : 
+https://github.com/Snapouille/es-theme-Animatics-DX-Music
 
 # System View
 
