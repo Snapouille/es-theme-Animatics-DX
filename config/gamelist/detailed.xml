@@ -68,26 +68,29 @@
 
 	<textlist name="gamelist">
 		<origin>0.5 0.5</origin>									
-		<size>0.2166667 0.6351852</size>									
-		<pos>0.8557292 0.5240741</pos>									
-		<!-- <fontPath>./../../art/fonts/ubuntu.ttf</fontPath> -->
-		<!-- <fontSize>0.021</fontSize>  -->
-		<!-- <lineSpacing>1.5</lineSpacing>  -->
+		<size>0.21 0.6351852</size>									
+		<pos>0.854 0.5240741</pos>									
 		<glowColor>00000010</glowColor>
 		<glowSize>2</glowSize>
 		<alignment>left</alignment>
-		<horizontalMargin>0.0</horizontalMargin>
 		<zIndex>30</zIndex> 
-		<!-- RVGM Style -->
-		<selectedColor>${dataColor}</selectedColor>
-		<selectedColor ifSubset="colorset:gray">e0d527</selectedColor>
+		
+		<primaryColor>C0C0C0</primaryColor>
+		<secondaryColor>F0F0F0</secondaryColor>
+		<selectorColor>${centerFadeColor}</selectorColor>
+		<selectedColor>fdde0b</selectedColor>
 		<extraTextColor>c0a767</extraTextColor>
-		<primaryColor>bebebe</primaryColor> 
-		<secondaryColor>c1e8f9</secondaryColor> 
-		<selectorColor>FFFFFF00</selectorColor> <!-- couleur transparente -->
-		<!-- <selectorHeight>0.05</selectorHeight> -->
+		<extraTextColor if="{system.theme} == 'RA multiplayer'" >FFFFFF00</extraTextColor>
+		
+		<scrollbarColor>000000</scrollbarColor>
+		<scrollbarCorner>0.49</scrollbarCorner>
+		<scrollbarSize>0.0065</scrollbarSize>
+		<scrollbarAlignment>outerright</scrollbarAlignment>
+		<horizontalMargin>0.005</horizontalMargin> 
+		
 		<!-- Sound effect on Scroll -->
 		<scrollSound>./../../art/sounds/linemove.wav</scrollSound>
+		
 	</textlist>
 	
 	<image name="triangle-rvgm-haut, triangle-rvgm-bas" extra="true">
