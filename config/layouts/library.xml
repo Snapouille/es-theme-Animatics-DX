@@ -1,5 +1,6 @@
 ﻿<theme>
   <formatVersion>7</formatVersion>
+  
   <view name="system" ifSubset="subsetSystemInfoEx:yes">
     <text name="systemInfoEx" extra="true">
       <text>Items : {binding:total}</text>
@@ -9,74 +10,71 @@
   </view>
   
   
+  <view name="detailed">
   
-  
-  
-  
-  <view name="gamecarousel">
-  
-	<image name="ecran_console" extra="static">
+	<!-- Encadrement des stats + blur -->
+	<image name="bg-infos, border-info-top, border-info-bottom, border-info-left, border-info-right">
 		<visible>false</visible>
 	</image>
 	
-	
-	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-		<pos>0.45 0.53</pos>									
-		<maxSize>0.3546875 0.7231481</maxSize>									
-		
-		<storyboard event="open">
-			<animation property="opacity" to="1" duration="1" mode="linear"/>
-		</storyboard>
-			
-		<storyboard event="activate">
-			<animation property="opacity" to="1" duration="1" mode="linear"/>
-		</storyboard>
-			
-		<storyboard event="deactivate">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-		
-	</video>
-	
-	<image name="md_thumbnail">
+    <screenshader name="bg-infos-blur" extra="true">
 		<visible>false</visible>
-		
+    </screenshader>
+  
+	<image name="encadrement-infos, frame_barreAnim, icon-pads, rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, 
+					rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon,	boxback_ID, md_image, controller2, overlay_fanart_fixe"> 
+		<visible>false</visible>
 	</image>
 	
-	
-	
-  </view>
-  
-  
-  
-  
-<customView name="fanart">
+	<image name="md_manual,md_nomanual, ghost_manual, 
+	             md_savestate,md_nosavestate,ghost_savestate
+				 md_kidgame, md_notkidgame, ghost_kidgame
+				 md_map, md_nomap, ghost_md_map
+				 md_cheevos,md_notcheevos, ghost_cheevos
+				 md_hidden, ghost_hidden, md_flag">
+		<visible>false</visible>
+	</image>
 
-	<text name="md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players">
+	<text name="md_developer, md_publisher, md_genre, md_playcount,	md_gametime">
 		<visible>false</visible>
 	</text>
 	
-	<image name="ghost_hidden, md_hidden, ghost_cheevos, md_cheevos,md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate,md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual, md_flag">
+	<datetime name="md_releasedate, md_lastplayed">
 		<visible>false</visible>
-	</image>
+	</datetime>
 	
 	<rating name="md_rating">
 		<visible>false</visible>
 	</rating>
-
-		
-		
-		
+  
+	<video name="md_video">
+		<visible>false</visible>
+	</video>
 	
+     <image name="thumbnail_ID" extra="true">
+		<pos>0.33 0.495</pos>									
+		<maxSize>0.5 0.85</maxSize>	
+    </image>
 
-</customView>
+	<textlist name="gamelist">
+		<size>0.2166667 0.7151852</size>									
+		<pos>0.8557292 0.5500741</pos>									
+	</textlist>
+	
+	<image name="triangle-rvgm-haut" extra="true">
+		<pos>0.8523438 0.1665741</pos>									
+	</image>
+
+	<image name="triangle-rvgm-bas" extra="true">
+		<pos>0.8518229 0.932963</pos>									
+	</image>
+	
+  </view>
+
+
   
   
-  
-  
-  
-<view name="detailed">
+<customView name="legendary">
 
 	<image name="ecran_console, detailsBkLine2, md_marquee, md_thumbnail, md_flag, info_background, black_bg, yellowSquare, topSquare, stats-bar1, stats-bar2, controller-bar" extra="static">
 		<visible>false</visible>
@@ -85,53 +83,32 @@
 	<text name="md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players, md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_playcount, md_lastplayed, md_gametime">
 		<visible>false</visible>
 	</text>
+	
+	<image name="controller2, thumbnail_ID" extra="static">
+		<visible>true</visible>
+	</image>
+	
+     <image name="thumbnail_ID" extra="true">
+		<pos>0.7 0.545</pos>
+		<pos ifHelpPrompts="false">0.7 0.575</pos>
+		<maxSize>0.5 0.75</maxSize>	
+    </image>
 
-	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-		<pos>0.65 0.5467593</pos>									
-		<maxSize>0.3546875 0.7231481</maxSize>									
-		
-		<storyboard event="open">
-			<animation property="pos" to="0.65 0.5467593" begin="1200"  duration="200" mode="linear"/>
-		</storyboard>
-			
-		<storyboard event="activate">
-			<animation property="pos" to="0.65 0.5467593" begin="1200"  duration="200" mode="linear"/>
-		</storyboard>
-			
-		<storyboard event="deactivate">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-		
-	</video>
-	
-	
 	<image name="detailsBkLine" extra="true">
-	  <pos>0.34 0.157</pos>
 	  <size>0.003 0.778</size>
 	  <size ifHelpPrompts="false">0.003 0.84</size>
 	</image>
 	
-	
 	<textlist name="gamelist">
-		  <size>0.321 0.755</size>
+		  <pos>0.01 0.17</pos>
+		  <size>0.291 0.755</size>
     </textlist>
-	
-	
-	
-	<image name="topLine, topLineRight, topSquare, yellowSquare" extra="true">
-		<origin>0 0</origin>
-		<path>./../../art/divers/white.png</path>
-        <color>${baseColor}</color>
-		<zIndex>55</zIndex>
-	</image>
 	
 	<!-- Ligne du haut à réduire vers la gauche -->
 	<image name="topLine" extra="true">
       <pos>0 0.155</pos>
       <size>0.343 0.005</size>
     </image>
-	
 	
 	<!-- Ligne du haut à pousser vers la droite -->
 	<!-- on ne bouge rien en mode library -->
@@ -150,93 +127,188 @@
 		<storyboard event="deactivate">
 		   <animation property="pos" to="0.343 0.155" duration="100" mode="linear"/>
 		</storyboard>
-	  
     </image>
+		
+</customView>     
+
+
+
+
+
+<customView name="primacy">
+
+	<image name="controller2, thumbnail_ID" extra="static">
+		<visible>true</visible>
+	</image>
 	
-	<!-- Square jaune qui se balade -->
-	<image name="yellowSquare" extra="true">
-		<origin>0.5 0.5</origin>									
-		<size>0.0026042 0.0046296</size>									
-		<pos>0.3445313 0.1569444</pos>									
-		<color>fdde0b</color>
-		<opacity>0</opacity>
-	  
-		<storyboard event="open">
-			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
-			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="500" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1569444" begin="1500" duration="500" mode="EaseOut"/>
-			
-			<animation property="pos" to="0.6997396 0.1523148" begin="2000" duration="25" mode="Linear"/>
-			<animation property="pos" to="0.6945313 0.1523148" begin="2025" duration="55" mode="Linear"/>
-			<animation property="pos" to="0.6945313 0.1625" begin="2080" duration="50" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1625" begin="2130" duration="50" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1569444" begin="2180" duration="50" mode="Linear"/>
-			
-			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
-			
-			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="970" mode="EaseIn"/>
-			
-			<animation property="size" to="0.0026042 0.0046296" begin="3000" duration="1900" autoreverse="true" repeat="3" mode="Linear"/>
-			
-			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
-			<animation property="pos" to="0.3416667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
-			<animation property="pos" to="0.3416667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
-			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
-		</storyboard>
+	<image name="date-icon, manufacturer-icon, stats-icon"> 
+		<visible>false</visible>
+	</image>
+	
+	<text name="releaseyearId, developerNameId, system_desc, gameInfoEx, gameInfoEx2, gameInfoExNull, game-lastplayed" extra="true">
+		<visible>false</visible>
+	</text> 
+	
+	
 		
-		<storyboard event="activate">
-			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
-			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="480" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1569444" begin="1500" duration="480" mode="EaseOut"/>
-			
-			<animation property="pos" to="0.6997396 0.1523148" begin="2000" duration="25" mode="Linear"/>
-			<animation property="pos" to="0.6945313 0.1523148" begin="2025" duration="55" mode="Linear"/>
-			<animation property="pos" to="0.6945313 0.1625" begin="2080" duration="50" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1625" begin="2130" duration="50" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1569444" begin="2180" duration="50" mode="Linear"/>
-			
-			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
-			
-			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="970" mode="EaseIn"/>
-			
-			<animation property="size" to="0.0026042 0.0046296" begin="3000" duration="1900" autoreverse="true" repeat="3" mode="Linear"/>
-			
-			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
-			<animation property="pos" to="0.3416667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
-			<animation property="pos" to="0.3416667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
-			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
-		</storyboard>
-		
-		<storyboard event="deactivate">
-		   <animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-	  
+	<textlist name="gamelist">
+	  <origin>0 0</origin>									
+      <pos>0.35 0.6</pos>
+	  <pos ifHelpPrompts="false">0.35 0.63</pos>	
+      <size>0.68 0.35</size>
+    </textlist>
+
+     <image name="thumbnail_ID" extra="true">
+		<pos>0.96 0.62</pos>
+		<pos ifHelpPrompts="false">0.96 0.65</pos>
+		<maxSize>0.5 0.7</maxSize>	
     </image>
+
+</customView>     
+
+
+
+<customView name="boxes_big, boxes_medium, boxes_small, grid">
+
+	<text name="md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players">
+		<visible>false</visible>
+	</text>
 	
-	<!-- Square qui se forme -->
-	<image name="topSquare" extra="true">
-      <pos>0.693 0.15</pos>
-      <size>0.008 0.015</size>
-	  <opacity>0</opacity>
-	  
-		<storyboard event="open">
-			<animation property="opacity" to="1" begin="2100" duration="100" mode="linear"/>
+	<image name="ghost_hidden, md_hidden, ghost_cheevos, md_cheevos,md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate,md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual, md_flag">
+		<visible>false</visible>
+	</image>
+	
+	<rating name="md_rating">
+		<visible>false</visible>
+	</rating>
+	
+	<video name="md_video">
+		<visible>false</visible>
+	</video>
+	
+	<image name="md_image, cadre_bas, cadre_droit_droit, cadre_bas_bas, shadow_cadre_droit, shadow_cadre_bas
+					cadre_gauche, cadre_droit, cadre_haut, cadre_bas, cadre_droit_droit, cadre_bas_bas, extension_hor, extension_ver, info_background, stats-bar">
+		<visible>false</visible>
+	</image>
+
+	<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_playcount, md_lastplayed, md_gametime">
+		<visible>false</visible>
+	</text>
+
+	<image name="logo">
+	  <pos>0.09 0.05</pos>
+		<storyboard>
+			<animation property="scale" from="0" to="0.7" begin="" duration="300" mode="Linear"/>
 		</storyboard>
-		
-		<storyboard event="activate">
-			<animation property="opacity" to="1" begin="2100" duration="100" mode="linear"/>
-		</storyboard>
-		
-		<storyboard event="deactivate">
-		   <animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-	  
     </image>
+
+	<text name="md_name">
+         <size>0.327 0.08</size>
+         <pos>0.02 0.1</pos>
+         <fontSize>0.02</fontSize>
+    </text>
 	
-	
-	
-		
-		
-</view>
+</customView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <view name="gamecarousel">
   
-</theme>
+	<image name="ecran_console" extra="static">
+		<visible>false</visible>
+	</image>
+	
+	
+	<video name="md_video">
+		<origin>0.5 0.5</origin>									
+		<pos>0.45 0.53</pos>	
+		<pos ifHelpPrompts="false">0.45 0.59</pos>
+		<maxSize>0.3546875 0.7231481</maxSize>									
+		
+		<storyboard event="open">
+			<animation property="opacity" to="1" duration="1" mode="linear"/>
+		</storyboard>
+			
+		<storyboard event="activate">
+			<animation property="opacity" to="1" duration="1" mode="linear"/>
+		</storyboard>
+			
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</video>
+	
+	<image name="thumbnail-gamecarousel">
+		<visible>false</visible>
+	</image>
+	
+	<text name="md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players">
+		<visible>false</visible>
+	</text>
+	
+	<image name="ghost_hidden, md_hidden, ghost_cheevos, md_cheevos,md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate,md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual, md_flag">
+		<visible>false</visible>
+	</image>
+	
+	<rating name="md_rating">
+		<visible>false</visible>
+	</rating>
+	
+	
+  </view>
+  
+  
+  
+  
+  
+  
+  
+<customView name="fanart">
+
+	<text name="md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players">
+		<visible>false</visible>
+	</text>
+	
+	<image name="ghost_hidden, md_hidden, ghost_cheevos, md_cheevos,md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate,md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual, md_flag">
+		<visible>false</visible>
+	</image>
+	
+	<rating name="md_rating">
+		<visible>false</visible>
+	</rating>
+	
+</customView>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+ </theme>

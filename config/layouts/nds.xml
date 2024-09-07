@@ -8,7 +8,7 @@
 
 		<size>0.3713542 0.5768519</size>									
 		<pos>0.5183854 0.6634259</pos>									
-									
+		<pos ifHelpPrompts="false">0.5183854 0.7134259</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -30,7 +30,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-		<pos>0.5191667 0.6472222</pos>									
+		<pos>0.5191667 0.6472222</pos>	
+		<pos ifHelpPrompts="false">0.5191667 0.6972222</pos>
 		<maxSize>0.1625 0.4277778</maxSize>									
 
 		<zIndex>30</zIndex>
@@ -56,7 +57,8 @@
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
 		<size>0.1625 0.4277778</size>									
-		<pos>0.5191667 0.6472222</pos>									
+		<pos>0.5191667 0.6472222</pos>	
+		<pos ifHelpPrompts="false">0.5191667 0.6972222</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -102,14 +104,15 @@
    
    
   
-  <view name="detailed">
+  <customView name="legendary">
   
 	
 	
 	
 	<image name="ecran_console" extra="static">
 			<size>0.3317708 0.5148148</size>									
-			<pos>0.7029688 0.4222222</pos>									
+			<pos>0.7029688 0.4222222</pos>	
+			<pos ifHelpPrompts="false">0.7029688 0.4422222</pos>
 			<origin>0.5 0.5</origin>
 			<scale>1</scale>
 			<opacity>1</opacity>
@@ -132,8 +135,9 @@
   
   
 		<video name="md_video">
-			<pos>0.7032292 0.4087963</pos>									
-			<maxSize>0.1427083 0.3787037</maxSize>									
+			<pos>0.7032292 0.4087963</pos>	
+			<pos ifHelpPrompts="false">0.7032292 0.4287963</pos>
+			<size>0.1427083 0.3787037</size>									
 		  
 				<storyboard event="open">
 					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
@@ -152,7 +156,8 @@
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 			<size>0.1427083 0.3787037</size>																
-			<pos>0.7032292 0.4087963</pos>																
+			<pos>0.7032292 0.4087963</pos>	
+			<pos ifHelpPrompts="false">0.7032292 0.4287963</pos>
 		  
 				<storyboard event="open">
 					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
@@ -199,6 +204,6 @@
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>           
+   
+   </theme>

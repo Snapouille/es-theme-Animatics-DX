@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<customView name="rvgm" inherits="detailed" displayName="${rvgmview}">
+
+	<image name="bg-infos, border-info-top, border-info-bottom, border-info-left, border-info-right, frame_barreAnim, icon-pads"> 
+		<visible>false</visible>
+	</image>
+	
+    <screenshader name="bg-infos-blur" extra="true">
+		<visible>false</visible>
+    </screenshader>
+
+	<image name="controller2" extra="true">
+		<pos>0.43 0.155</pos>	
+		<y if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == '3ds'|| {system.theme} == 'xbox360' ">0.16</y>									
+		<maxSize>0.1182292 0.15</maxSize>									
+		<horizontalAlignment>center</horizontalAlignment>		
+    </image>
+
+	<image name="md_marquee">
+		<pos>0.599 0.15</pos>
+		<y if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == '3ds'|| {system.theme} == 'xbox360' ">0.155</y>									
+		<maxSize>0.18 0.15</maxSize>									
+	</image>
+
+	<image name="md_image"> 
+		<size>0.334375 0.4148148</size>									
+		<pos>0.53 0.45</pos>
+
+		<size if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.39 0.388</size>									
+		<pos  if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.525 0.45</pos>									
+		
+		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.235 0.375</size>									
+		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.535 0.45</pos>									
+		
+		<size if="{system.theme} == '3ds'">0.35 0.375</size>									
+		<pos  if="{system.theme} == '3ds'">0.535 0.45</pos>	
+		
+		<size if="{system.theme} == 'pokemini'">0.32 0.38</size>									
+		<pos  if="{system.theme} == 'pokemini'">0.53 0.45</pos>	
+		
+		<size if="{system.theme} == 'supervision'">0.211 0.375</size>									
+		<pos  if="{system.theme} == 'supervision'">0.535 0.45</pos>	
+		
+		<size if="{system.theme} == 'nds' ">0.2 0.495</size>									
+		<pos  if="{system.theme} == 'nds' ">0.6 0.455</pos>		
+
+		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.222 0.375</size>									
+		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.535 0.45</pos>
+
+		<size if="{system.theme} == 'auto-verticalarcade' ">0.2 0.415</size>									
+		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.6 0.461</pos>	
+
+		<size if="{system.theme} == 'arduboy' ">0.334375 0.298</size>	
+		<pos  if="{system.theme} == 'arduboy' ">0.53 0.45</pos>		
+	</image>
+
+	<video name="md_video">
+		<size>0.334375 0.4148148</size>									
+		<pos>0.53 0.45</pos>	
+		
+		<size if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.39 0.388</size>									
+		<pos  if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.525 0.45</pos>									
+		
+		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.235 0.375</size>									
+		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.535 0.45</pos>									
+		
+		<size if="{system.theme} == '3ds'">0.35 0.375</size>									
+		<pos  if="{system.theme} == '3ds'">0.535 0.45</pos>	
+
+		<size if="{system.theme} == 'pokemini'">0.32 0.38</size>									
+		<pos  if="{system.theme} == 'pokemini'">0.53 0.45</pos>	
+		
+		<size if="{system.theme} == 'supervision'">0.211 0.375</size>									
+		<pos  if="{system.theme} == 'supervision'">0.535 0.45</pos>	
+		
+		<size if="{system.theme} == 'nds' ">0.2 0.495</size>									
+		<pos  if="{system.theme} == 'nds' ">0.6 0.455</pos>		
+
+		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.222 0.375</size>									
+		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.535 0.45</pos>	
+
+		<size if="{system.theme} == 'auto-verticalarcade' ">0.2 0.415</size>									
+		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.6 0.461</pos>		
+		
+		<size if="{system.theme} == 'arduboy' ">0.334375 0.298</size>	
+		<pos  if="{system.theme} == 'arduboy' ">0.53 0.45</pos>		
+	</video>	
+	
+	<text name="md_description">
+		<origin>0.5 0.5</origin>									
+		<size>0.37 0.226</size>									
+		<pos>0.526 0.83</pos>									
+		<color>C0C0C0</color>
+		<color ifSubset="backgroundAmbience:Light">000000</color>
+		<!-- <fontSize>0.017</fontSize> on choisit auto la taille dans les menus -->
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+		<alignment>left</alignment>
+		<zIndex>30</zIndex>
+	</text>
+
+     <image name="thumbnail_ID" extra="true">
+		<pos>0.185 0.38</pos>
+		<maxSize>0.321 0.657</maxSize>
+		<verticalAlignment>center</verticalAlignment>
+		<horizontalAlignment>left</horizontalAlignment>
+	</image>
+	
+     <image name="boxback_ID" ifSubset="boxbackDisplay:Show" extra="true">
+		<pos>0.185 0.38</pos>
+		<maxSize>0.321 0.657</maxSize>
+		<verticalAlignment>center</verticalAlignment>
+		<horizontalAlignment>left</horizontalAlignment>
+		<opacity>0</opacity>
+		<zIndex>31</zIndex>
+	</image>
+	
+	<!-- Début des nouveaux icones RVGM -->
+	<image name="rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon">
+		<origin>0.5 0.5</origin>
+		<zIndex>40</zIndex>
+		<color ifSubset="backgroundAmbience:Light">${backgroundColor}</color>
+	</image>
+	
+	<image name="rvgm-developer-icon" extra="true">
+		<path>./../../art/icons/rvgm-developer-icon.png</path>
+		<size>0.0135417 0.0259259</size>									
+		<pos>0.0338542 0.7483333</pos>									
+	</image>
+	
+	<image name="rvgm-publisher-icon" extra="true">
+		<path>./../../art/icons/rvgm-publisher-icon.png</path>
+		<size>0.0135417 0.025</size>									
+		<pos>0.0338542 0.7853704</pos>									
+	</image>
+
+	<image name="rvgm-genre-icon" extra="true">
+		<path>./../../art/icons/rvgm-genre-icon.png</path>
+		<size>0.0135417 0.025</size>									
+		<pos>0.0338542 0.8233333</pos>									
+	</image>
+
+	<image name="rvgm-date-icon" extra="true">
+		<path>./../../art/icons/rvgm-date-icon.png</path>
+		<size>0.0135417 0.0222222</size>									
+		<pos>0.0338542 0.8594444</pos>									
+	</image>
+	
+	<image name="rvgm-playcount-icon" extra="true">
+		<path>./../../art/icons/rvgm-playcount-icon.png</path>
+		<size>0.0135417 0.025</size>									
+		<pos>0.2125 0.7862963</pos>									
+	</image>
+	
+	<image name="rvgm-lastplayed-icon" extra="true">
+		<path>./../../art/icons/rvgm-lastplayed-icon.png</path>
+		<size>0.0135417 0.0222222</size>									
+		<pos>0.2114583 0.8251852</pos>									
+	</image>
+
+	<image name="rvgm-gametime-icon" extra="true">
+		<path>./../../art/icons/rvgm-gametime-icon.png</path>
+		<size>0.0135417 0.0231481</size>									
+		<pos>0.2109375 0.8608333</pos>									
+	</image>
+
+	<text name="md_developer, md_publisher, md_playcount, md_gametime">
+		<origin>0.5 0.5</origin>
+		<pos>2 2</pos>
+		<size>0.15 0.015</size>
+		<verticalAlignment>top</verticalAlignment> 
+		<color>C0C0C0</color>
+		<color ifSubset="backgroundAmbience:Light">000000</color>
+	    <glowColor>00000010</glowColor>
+	    <glowSize>2</glowSize>
+	    <glowSize ifSubset="backgroundAmbience:Light">0</glowSize>
+		<fontSize>0.020</fontSize>
+		<lineSpacing>1.3</lineSpacing>
+		<forceUppercase>0</forceUppercase>
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+		<alignment>left</alignment>
+		<zIndex>40</zIndex>  
+	</text>
+
+	<text name="md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, 
+			md_lbl_description, md_lbl_players, md_lbl_rating, md_lbl_gametime
+			md_lbl_releasedate, md_lbl_lastplayed, md_lbl_gametime">
+		<visible>false</visible>
+	</text>
+
+	<datetime name="md_releasedate, md_lastplayed">
+		<origin>0.5 0.5</origin>
+		<size>0.15 0.015</size>
+		<color>C0C0C0</color>
+		<color ifSubset="backgroundAmbience:Light">000000</color>
+		<fontSize>0.020</fontSize>
+		<forceUppercase>0</forceUppercase>
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+		<alignment>left</alignment>
+		<zIndex>40</zIndex>
+	</datetime>
+	
+	<text name="md_players">
+		<origin>0.5 0.5</origin>									
+		<size>0.2822917 0.0601852</size>									
+		<pos>0.16 0.915</pos>									
+		<fontPath>./../../art/fonts/players.ttf</fontPath>
+		<alignment>left</alignment>
+		<fontSize>0.062</fontSize>
+		<color>C0C0C0</color>
+		<color ifSubset="backgroundAmbience:Light">000000</color>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>55</zIndex>
+	</text>
+
+	<text name="md_developer, md_publisher, md_genre">
+		<size>0.1421875 0.025</size>									
+	</text>
+	<text name="md_developer">
+		<pos>0.1164063 0.7492593</pos>									
+	</text>
+	<text name="md_publisher">
+		<pos>0.1164063 0.7862963</pos>									
+	</text>
+	<text name="md_genre">
+		<pos>0.1164063 0.8233333</pos>									
+		<color ifSubset="backgroundAmbience:Light">660099</color>
+	    <glowSize ifSubset="backgroundAmbience:Light">0</glowSize>
+	</text>
+	
+	<datetime name="md_releasedate">
+		<size>0.1421875 0.025</size>									
+		<pos>0.1164063 0.8603704</pos>									
+		<rotation>0</rotation>
+	</datetime>
+	
+	<text name="md_playcount">
+		<size>0.0838542 0.025</size>									
+		<pos>0.2674479 0.7862963</pos>									
+	</text>
+	<datetime name="md_lastplayed">
+		<size>0.0838542 0.025</size>	
+		<pos>0.2674479 0.8233333</pos>									
+	</datetime>
+	<text name="md_gametime">
+		<size>0.0838542 0.025</size>	
+		<pos>0.2674479 0.8603704</pos>									
+	</text>
+	
+	<rating name="md_rating">
+		<origin>0.5 0.5</origin>
+		<pos>0.216 0.748</pos>									
+		<size>0.16 0.032</size>
+		<color>FFFF00</color>
+		<horizontalAlignment>right</horizontalAlignment>
+		<rotation>0</rotation>
+		<unfilledColor>606060</unfilledColor>
+		<unfilledPath>:/star_filled.svg</unfilledPath>
+		<zIndex>99</zIndex>
+	</rating>
+	
+	<image name="md_flag">
+		<origin>0.5 0.5</origin>									
+		<pos>0.765625 0.9296296</pos>									
+		<maxSize>0.025 0.0296296</maxSize>																
+	</image>
+
+	<image name="md_manual,md_nomanual, ghost_manual, 
+	             md_savestate,md_nosavestate,ghost_savestate
+				 md_kidgame, md_notkidgame, ghost_kidgame
+				 md_map, md_nomap, ghost_md_map
+				 md_cheevos,md_notcheevos, ghost_cheevos
+				 md_hidden, ghost_hidden">
+		<origin>0.5 0.5</origin>
+		<maxSize>0.02 0.03</maxSize>
+		<color>dddddd</color>
+		<zIndex>150</zIndex>
+	</image>
+	
+	<image name="md_manual,md_nomanual, ghost_manual">
+		<pos>0.8223958 0.9296296</pos>									
+		<path>./../../art/icons/book.png</path>
+	</image>
+	
+	<image name="md_savestate,md_nosavestate,ghost_savestate">
+		<pos>0.8494792 0.9296296</pos>									
+		<path>./../../art/icons/SaveState.png</path>
+	</image>
+
+	<image name="md_kidgame, md_notkidgame, ghost_kidgame"> 
+		<pos>0.8739583 0.9296296</pos>									
+		<path>./../../art/icons/kid.svg</path>
+	</image>
+
+	<image name="md_map, md_nomap, ghost_md_map"> 
+		<pos>0.8963542 0.9296296</pos>									
+		<path>./../../art/icons/map.png</path>
+	</image>
+
+	<image name="md_cheevos,md_notcheevos, ghost_cheevos">
+		<pos>0.9192708 0.9296296</pos>									
+		<path>./../../art/icons/Contest.png</path>
+		<color>FFFF00</color>
+	</image>
+	
+	<image name="md_hidden, ghost_hidden">
+		<pos>0.9453125 0.9296296</pos>									
+		<path>./../../art/icons/hidden.svg</path>
+		<color>ff0000</color>
+	</image>
+
+	<image name="md_nomanual, md_nosavestate, md_notkidgame, md_nomap, md_notcheevos">
+		<color>80808040</color>
+	</image>
+
+<!-- pour contrer le bug que l'icone parfois disparaît sans raison .... -->
+	<image name="ghost_manual, ghost_savestate, ghost_kidgame, ghost_md_map, ghost_cheevos, ghost_hidden" extra="true">
+		<color>80808080</color>
+		<zIndex>149</zIndex> 
+		<storyboard event="open">
+			<animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+	   </storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+		</storyboard>
+	</image>
+	
+ </customView>
+ 
+ 
+</theme>

@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-	<view name="detailed, video">
+	<view name="detailed">
 		<textlist name="gamelist">
 			<!-- Choix de la Police, Taille et Nombres de lignes dans la gamelist 
 			     J'ai une erreur dans le script, quand on mettait "auto" ça met la denière lignes
 				 donc j'ai du rajouter la ligne auto a la fin de chaque Subset pour que ça passe bien -->
 			<fontPath ifSubset="gamelistFont:ubuntu">./../../art/fonts/ubuntu.ttf</fontPath>
 			<fontPath ifSubset="gamelistFont:ubuntu-bold">./../../art/fonts/ubuntu-bold.ttf</fontPath>
+			<fontPath ifSubset="gamelistFont:charge-vector">./../../art/fonts/charge-vector.otf</fontPath>
+			<fontPath ifSubset="gamelistFont:barlow">./../../art/fonts/BarlowCondensed-Regular.ttf</fontPath>
 			<fontPath ifSubset="gamelistFont:flatwheat">./../../art/fonts/flatwheat.ttf</fontPath>
 			<fontPath ifSubset="gamelistFont:auto">./../../art/fonts/ubuntu.ttf</fontPath>
 			<fontSize ifSubset="gamelistFontSize:0.017">0.017</fontSize>
@@ -46,15 +48,13 @@
 			<lines ifSubset="gamelistLines:27">27</lines>
 			<lines ifSubset="gamelistLines:auto">17</lines>
 		</textlist>
-	</view>
-	
-	<view name="video">
 		<text name="md_description">
-			<fontSize ifSubset="descriptionFontSize:0.017">0.017</fontSize>
-			<fontSize ifSubset="descriptionFontSize:0.019">0.019</fontSize>
-			<fontSize ifSubset="descriptionFontSize:0.020">0.020</fontSize>
-			<fontSize ifSubset="descriptionFontSize:0.023">0.023</fontSize>
-			<fontSize ifSubset="descriptionFontSize:auto">0.019</fontSize>		
+			<fontSize ifSubset="descriptionFontSize:mini">0.016</fontSize>
+			<fontSize ifSubset="descriptionFontSize:small">0.020</fontSize>
+			<fontSize ifSubset="descriptionFontSize:medium">0.023</fontSize>
+			<fontSize ifSubset="descriptionFontSize:large">0.026</fontSize>
+			<fontSize ifSubset="descriptionFontSize:maxi">0.032</fontSize>
+			<fontSize ifSubset="descriptionFontSize:auto">0.023</fontSize>		
 		</text>
 		<image name="overlay_fanart">
 			<opacity ifSubset="fanartOpacity:100 %">1</opacity>
@@ -67,6 +67,7 @@
 			<opacity ifSubset="fanartOpacity:30 %">0.3</opacity>
 			<opacity ifSubset="fanartOpacity:20 %">0.2</opacity>
 			<opacity ifSubset="fanartOpacity:10 %">0.1</opacity>
+			<opacity ifSubset="fanartOpacity:0 %">0</opacity>
 			<opacity ifSubset="fanartOpacity:auto">0.7</opacity>
 		</image>
 		<image name="overlay_gamelist">
@@ -82,6 +83,5 @@
 			<opacity ifSubset="gamelistOpacity:10 %">0.1</opacity>
 			<opacity ifSubset="gamelistOpacity:auto">0.8</opacity>
 		</image>
-
 	</view>
 </theme>

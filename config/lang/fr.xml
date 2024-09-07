@@ -13,6 +13,7 @@
 <systembackground.snap>Avatar animation</systembackground.snap>
 <systembackground.carboncontrol>Manettes fil de fer</systembackground.carboncontrol>
 <systembackground.randomvideo>Vidéo aléatoire</systembackground.randomvideo>
+<systembackground.fanart>Fanart aléatoire</systembackground.fanart>
 <systembackground.randombox>Boîtes de jeu aléatoire</systembackground.randombox>
 <tilesViewName>Vignettes</tilesViewName>
 <iconsViewName>Icônes</iconsViewName>
@@ -49,6 +50,11 @@
 <systemViewExInfos>Informations du système améliorées</systemViewExInfos>
 <dateFormat>%d/%m/%Y</dateFormat>
 <helpbuttons>Position des boutons</helpbuttons>
+<xboxbuttons>Xbox boutons</xboxbuttons>
+<xboxbuttonslegacy>Xbox boutons legacy</xboxbuttonslegacy>
+<psxbuttons>Playstation boutons</psxbuttons>
+<psxbuttonslegacy>Playstation boutons legacy</psxbuttonslegacy>
+<arcadebuttons>Arcade boutons</arcadebuttons>
 <gamecarouseltype>Image source</gamecarouseltype>
 <gameBar>Barre d'information des jeux</gameBar>
 <animatedInfobar>Animation du volet aperçu</animatedInfobar>
@@ -121,10 +127,13 @@
 <gamelistFont>gamelist : Type de police </gamelistFont>
 <gamelistFontSize>gamelist : Taille de la police</gamelistFontSize>
 <gamelistLines>gamelist : Nombre de lignes</gamelistLines>
-<fanart.Display>Affichage des fanarts en arrière plan</fanart.Display>
+<background.Display>Affichage en arrière plan</background.Display>
 <descriptionFontSize>Taille de la police des descriptions</descriptionFontSize>
 <fanartOpacity>Opacité de l'overlay du Fanart</fanartOpacity>
 <gamelistOpacity>Opacité de la Gamelist</gamelistOpacity>
+<background.Ambience>Ambiance de l'arrière plan</background.Ambience>
+<dark>Sombre</dark>
+<light>Lumineux</light>
 
 <GamesNumber>Jeux</GamesNumber>
 <GameNumber>Jeu</GameNumber>

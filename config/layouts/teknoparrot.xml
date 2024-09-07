@@ -8,7 +8,7 @@
 
 		<size>0.3125 0.6481481</size>									
 		<pos>0.4901042 0.6111111</pos>									
-									
+		<pos ifHelpPrompts="false">0.4901042 0.6811111</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -30,7 +30,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-		<pos>0.4895833 0.6513889</pos>																
+		<pos>0.4895833 0.6513889</pos>		
+		<pos ifHelpPrompts="false">0.4895833 0.7213889</pos>
 		<maxSize>0.2552083 0.2472222</maxSize>
 
 		<zIndex>30</zIndex>
@@ -56,7 +57,8 @@
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
 		<size>0.2552083 0.2472222</size>									
-		<pos>0.4895833 0.6513889</pos>									
+		<pos>0.4895833 0.6513889</pos>	
+		<pos ifHelpPrompts="false">0.4895833 0.7213889</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -87,7 +89,7 @@
 
   
   
-  <view name="detailed">
+  <customView name="legendary">
   
 		 
 	<image name="cadre" extra="true">
@@ -359,6 +361,4 @@
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>           </theme>

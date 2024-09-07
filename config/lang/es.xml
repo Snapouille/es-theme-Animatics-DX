@@ -13,6 +13,7 @@
 <systembackground.snap>Animación de avatares</systembackground.snap>
 <systembackground.carboncontrol>Palancas de cable</systembackground.carboncontrol>
 <systembackground.randomvideo>Vídeo aleatorio</systembackground.randomvideo>
+<systembackground.fanart>Fanart aleatorio</systembackground.fanart>
 <systembackground.randombox>Cajas de juego aleatorias</systembackground.randombox>
 <tilesViewName>Viñetas</tilesViewName>
 <iconsViewName>Iconos</iconsViewName>
@@ -49,6 +50,11 @@
 <systemViewExInfos>Información del sistema mejorada</systemViewExInfos>
 <dateFormat>%d/%m/%Y</dateFormat>
 <helpbuttons>Posición de los botones</helpbuttons>
+<xboxbuttons>Xbox botones</xboxbuttons>
+<xboxbuttonslegacy>Xbox botones legacy</xboxbuttonslegacy>
+<psxbuttons>Playstation botones</psxbuttons>
+<psxbuttonslegacy>Playstation botones legacy</psxbuttonslegacy>
+<arcadebuttons>Arcade botones</arcadebuttons>
 <gamecarouseltype>Fuente de la imagen</gamecarouseltype>
 <gameBar>Barra de información del juego</gameBar>
 <animatedInfobar>Animación de la sección general</animatedInfobar>
@@ -71,8 +77,30 @@
 <gamelistFont>Lista de juegos: Tipo</gamelistFont>
 <gamelistFontSize>Lista de juegos: tamaño de letra</gamelistFontSize>
 <gamelistLines>Lista de juegos: Número de líneas</gamelistLines>
-<fanart.Display>Fondo Vista Fanart</fanart.Display>
+<background.Display>visualización de fondo</background.Display>
 <descriptionFontSize>Descripción Tamaño de letra</descriptionFontSize>
+
+<fanartOpacity>opacidad del fanart</fanartOpacity>
+<gamelistOpacity>Opacidad del Gamelist</gamelistOpacity>
+<background.Ambience>Ambiente de fondo</background.Ambience>
+<dark>oscuro</dark>
+<light>luz</light>
+
+<GamesNumber>juegos</GamesNumber>
+<GameNumber>juego</GameNumber>
+
+<GamesFavs>Favoritos</GamesFavs>
+<NumberPlayed>Jugado</NumberPlayed>
+<theme.mostplayed>Más jugados :</theme.mostplayed>
+<theme.lastplayedLabel>Último partido :  </theme.lastplayedLabel>
+<theme.timesPlayedLabel>Número de partidos : </theme.timesPlayedLabel>
+<theme.gameTimeLabel>Tiempo de juego : </theme.gameTimeLabel>
+
+
+
+<systemview.grid>cuadrícula (nuevo))</systemview.grid>
+<subset.Grid_View_Size>Vista en cuadrícula: dimensiones</subset.Grid_View_Size>
+
 
 
 </variables>

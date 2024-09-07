@@ -7,9 +7,9 @@
 		<origin>0.5 0.5</origin>
 		<path>./../../system/PET/ecran_console.png</path>
 
-<size>0.3796875 0.525</size>									
-<pos>0.5794271 0.6208333</pos>									
-									
+		<size>0.3796875 0.525</size>									
+		<pos>0.5794271 0.6208333</pos>									
+		<pos ifHelpPrompts="false">0.5794271 0.6708333</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -31,9 +31,9 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<size>0.1442708 0.1935185</size>																
-<pos>0.5768229 0.4930556</pos>																
-
+		<size>0.1442708 0.1935185</size>																
+		<pos>0.5768229 0.4930556</pos>																
+		<pos ifHelpPrompts="false">0.5768229 0.5430556</pos>
 		<zIndex>30</zIndex>
 
 	  
@@ -56,8 +56,9 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.1442708 0.1935185</size>																
-<pos>0.5768229 0.4930556</pos>																
+		<size>0.1442708 0.1935185</size>																
+		<pos>0.5768229 0.4930556</pos>	
+		<pos ifHelpPrompts="false">0.5768229 0.5430556</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -94,13 +95,13 @@
 
   
   
-  <view name="detailed">
+  <customView name="legendary">
  
 	
 	<image name="ecran_console" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.3432292 0.4740741</size>									
-			<pos>0.7107813 0.4064815</pos>									
+			<pos>0.7107813 0.4194815</pos>									
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
@@ -124,7 +125,7 @@
 		<video name="md_video">
 			<origin>0.5 0.5</origin>									
 			<size>0.1333333 0.1805556</size>									
-			<pos>0.7105208 0.2893519</pos>									
+			<pos>0.7105208 0.3023519</pos>									
 
 		  
 		  
@@ -146,7 +147,7 @@
 		<image name="black_bg">
 			<origin>0.5 0.5</origin>									
 			<size>0.1333333 0.1805556</size>									
-			<pos>0.7105208 0.2893519</pos>									
+			<pos>0.7105208 0.3023519</pos>									
 
 
 				<storyboard event="open">
@@ -199,6 +200,4 @@
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>           </theme>

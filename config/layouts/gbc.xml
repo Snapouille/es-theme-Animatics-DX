@@ -9,7 +9,7 @@
 
 		<size>0.2484375 0.7398148</size>									
 		<pos>0.5861979 0.5328704</pos>									
-									
+		<pos ifHelpPrompts="false">0.5861979 0.5928704</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -32,6 +32,7 @@
 		<origin>0.5 0.5</origin>									
 
 		<pos>0.5848958 0.3356481</pos>		
+		<pos ifHelpPrompts="false">0.5848958 0.3956481</pos>
 		<minSize>0.1479167 0.2268519</minSize>									
 		<maxSize>0.1479167 0.2268519</maxSize>									
 
@@ -58,7 +59,8 @@
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
 		<size>0.1489583 0.2287037</size>									
-		<pos>0.5854167 0.3356481</pos>									
+		<pos>0.5854167 0.3356481</pos>	
+		<pos ifHelpPrompts="false">0.5848958 0.3956481</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -109,7 +111,7 @@
   
   
   
-  <view name="detailed">
+  <customView name="legendary">
 	
 	<image name="ecran_console" extra="static">
 			<pos>0.73 0.20</pos>
@@ -135,7 +137,7 @@
   
   
 		<video name="md_video">
-			<maxSize>0.1151042 0.1851852</maxSize>									
+			<size>0.1151042 0.1851852</size>									
 			<pos>0.8289063 0.3459259</pos>
 			
 		  
@@ -213,25 +215,23 @@
 	
 	
 	<text name="md_description">
-			
 		<pos>0.5895833 0.6675926</pos>									
 		
 		<storyboard event="open">
-			<animation property="size" to="0.2427083 0.423" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.2427083 0.392" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="activate">
-			<animation property="size" to="0.2427083 0.423" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.2427083 0.392" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="deactivate">
 		   <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
 	</text>
 	
 		
-   </view>
+</customView>
   
   
   

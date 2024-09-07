@@ -96,13 +96,14 @@
   
   
   
-  <view name="detailed">
+  <customView name="legendary">
  
 		<image name="ecran_console" extra="static">
 			<origin>0.5 0.5</origin>									
 
 			<size>0.3854167 0.4</size>									
-			<pos>0.703125 0.4046296</pos>									
+			<pos>0.703125 0.4046296</pos>	
+			<pos ifHelpPrompts="false">0.703125 0.4246296</pos>
 			<scale>1</scale>
 			<color>FFFFFF</color>
 			<opacity>1</opacity>
@@ -110,11 +111,11 @@
 
 			
 				<storyboard event="open">
-					<animation property="y" to="0.6731481" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.28" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="y" to="0.6731481" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.28" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -124,15 +125,15 @@
 		</image>
   
 		<video name="md_video">
-			<pos>0.703125 0.399537</pos>									
-			<maxSize>0.2572917 0.2768519</maxSize>									
-			<minSize>0.2572917 0.2768519</minSize>
+			<pos>0.703125 0.399537</pos>
+			<pos ifHelpPrompts="false">0.703125 0.419537</pos>
+			<size>0.2572917 0.2768519</size>									
 				<storyboard event="open">
-					<animation property="y" to="0.6680556" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.28" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="y" to="0.6680556" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.28" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -143,13 +144,14 @@
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 			<size>0.2572917 0.2768519</size>																
-			<pos>0.703125 0.399537</pos>																
+			<pos>0.703125 0.399537</pos>	
+			<pos ifHelpPrompts="false">0.703125 0.419537</pos>
 				<storyboard event="open">
-					<animation property="y" to="0.6680556" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.28" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="y" to="0.6680556" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.28" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -188,14 +190,14 @@
 	
 	
 	<text name="md_description">
-		<pos>0.764 0.303</pos>									
+		<pos>0.763 0.303</pos>									
 
 		<storyboard event="open">
-			<animation property="size" to="0.3671875 0.185" begin="1400" duration="200" mode="linear"/>
+			<animation property="size" to="0.3671875 0.197" begin="1400" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="activate">
-			<animation property="size" to="0.3671875 0.185" begin="1400" duration="200" mode="linear"/>
+			<animation property="size" to="0.3671875 0.197" begin="1400" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="deactivate">
@@ -208,6 +210,6 @@
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>      
+
+   </theme>

@@ -104,7 +104,7 @@
 
  
   
-  <view name="detailed">
+  <customView name="legendary">
 	
 	<image name="ecran_console" extra="static">
 			<origin>0.5 0.5</origin>									
@@ -214,11 +214,11 @@
 		<pos>0.584 0.705</pos>									
 		
 		<storyboard event="open">
-			<animation property="size" to="0.2427083 0.373" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.2427083 0.367" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="activate">
-			<animation property="size" to="0.2427083 0.373" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.2427083 0.367" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="deactivate">
@@ -229,7 +229,8 @@
 	
 	
 		
-   </view>
-  
-  
-</theme>
+   </customView>      
+
+
+
+   </theme>

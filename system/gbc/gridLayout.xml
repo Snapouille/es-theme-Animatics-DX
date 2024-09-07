@@ -29,27 +29,30 @@
 			
 			<storyboard repeat="forever">
 			
-				<animation property="rotation" 	to="-40" 			begin="" duration="300" mode="linear"/>
-				<animation property="scale" 	to="0.55" 			begin="" duration="300" mode="linear"/>
-				<animation property="pos" 		to="0.035 0.68" 	begin="" duration="300" mode="linear"/>
+				<animation property="rotation" 	to="-40" 			begin="" duration="150" mode="linear"/>
+				<animation property="scale" 	to="0.55" 			begin="" duration="150" mode="linear"/>
+				<animation property="pos" 		to="0.035 0.68" 	begin="" duration="150" mode="linear"/>
 				
-				<animation property="rotation" 	to="-22" 			begin="300" duration="200" mode="linear"/>
-				<animation property="scale" 	to="0.65" 			begin="300" duration="200" mode="linear"/>
-				<animation property="pos" 		to="0.1 0.53" 		begin="300" duration="200" mode="linear"/>
+				<animation property="rotation" 	to="-22" 			begin="150" duration="100" mode="linear"/>
+				<animation property="scale" 	to="0.65" 			begin="150" duration="100" mode="linear"/>
+				<animation property="pos" 		to="0.1 0.53" 		begin="150" duration="100" mode="linear"/>
 				
-				<animation property="rotation" 	to="-5" 			begin="500" duration="300" mode="linear"/>
-				<animation property="scale" 	to="0.7" 			begin="500" duration="300" mode="linear"/>
-				<animation property="pos" 		to="0.25 0.38" 		begin="500" duration="300" mode="linear"/>
+				<animation property="rotation" 	to="-5" 			begin="250" duration="150" mode="linear"/>
+				<animation property="scale" 	to="0.7" 			begin="250" duration="150" mode="linear"/>
+				<animation property="pos" 		to="0.25 0.38" 		begin="250" duration="150" mode="linear"/>
 				
-				<animation property="rotation" 	to="5" 				begin="800" duration="200" mode="linear"/>
-				<animation property="scale" 	to="0.75" 			begin="800" duration="200" mode="linear"/>
-				<animation property="pos" 		to="0.35 0.31" 		begin="800" duration="200" mode="linear"/>
+				<animation property="rotation" 	to="5" 				begin="400" duration="100" mode="linear"/>
+				<animation property="scale" 	to="0.75" 			begin="400" duration="100" mode="linear"/>
+				<animation property="pos" 		to="0.35 0.31" 		begin="400" duration="100" mode="linear"/>
 				
-				<animation property="scale" 	to="0.85" 			begin="1000" duration="600" mode="linear"/>
-				<animation property="x" 		to="0.8" 			begin="1000" duration="800" mode="linear"/>
-				<animation property="y" 		to="0.41" 			begin="1000" duration="500" mode="linear"/>
-				<animation property="rotation" 	to="30" 			begin="1000" duration="700" mode="linear"/>
+				<animation property="scale" 	to="0.85" 			begin="500" duration="300" mode="linear"/>
+				<animation property="x" 		to="0.8" 			begin="500" duration="400" mode="linear"/>
+				<animation property="y" 		to="0.41" 			begin="500" duration="250" mode="linear"/>
+				<animation property="rotation" 	to="30" 			begin="500" duration="350" mode="linear"/>
 				
+				<animation property="scale" 	to="0.87" 			begin="800" duration="9000" mode="linear"/>
+				<animation property="rotation" 	to="31" 			begin="800" duration="9000" mode="linear"/>
+				<animation property="offsetY" 	to="0.03" 			begin="800" duration="9000" mode="linear"/>
 				
 				<animation property="scale" 	to="1"	 			begin="10000" duration="300" mode="linear"/>
 				<animation property="x" 		to="1.1" 			begin="10000" duration="300" mode="linear"/>

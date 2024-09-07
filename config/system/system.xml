@@ -347,16 +347,19 @@ originally based on: "carbon"
 	
 	
 <!-- Cartouche d'aide en bas "Helpsystem" -->
-		
+
 	<helpsystem name="help">
 		<!-- <size>0.01 0.01</size> -->
 		<!-- <maxSize>0.1 0.025</maxSize> -->
-		<pos>0.01 0.955</pos>
+		<pos>0.015 0.955</pos>
 		<fontSize>0.0313</fontSize>
 		<!-- <glowColor>dataColor</glowColor> -->
 		<!-- <glowSize>1</glowSize> -->
 		<!-- <glowOffset>1</glowOffset> -->
 	</helpsystem>
+
+
+		
 	
 <!-- Cadre du cartouche de l'aide en bas -->
 	
@@ -687,6 +690,43 @@ originally based on: "carbon"
 	
 	
 	</view>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''      SYSTEM HORIZONTAL  '''''''''''''''' -->
+<!-- '''''' en complément du horizontal.xml ''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+
+	
+	
+	<view name="system" ifSubset="SystemView:horizontal">
+	
+		
+		<!-- barre cadre droit de l'aide à suppr si pas d'aide afficher -->
+		<image name="right_BottomFrame" extra="true">
+			<pos ifHelpPrompts="false">2 2</pos>
+		</image>
+		
+	
+	
+	</view>
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -1096,11 +1136,11 @@ originally based on: "carbon"
 	
 	<!-- Remplissage d'un black faible opacité -->
     <image name="bg_Frame" extra="true">
-      <path>${themePath}/art/divers/black.png</path>
+		<path>${themePath}/art/divers/black.png</path>
 		<size>0.6291667 0.302</size>									
 		<pos>0.0296875 0.0472222</pos>									
-      <zIndex>16</zIndex>
-	  <opacity>0.4</opacity>
+		<zIndex>16</zIndex>
+		<opacity>0.4</opacity>
     </image>
 	
 	<!-- le Blurs pour affiner la banner -->

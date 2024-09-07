@@ -6,8 +6,8 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 		<scale>0.9</scale>
-<size>0.3578125 0.5231481</size>										
-<pos>0.4523438 0.6560185</pos>									
+		<size>0.3578125 0.5231481</size>										
+		<pos>0.4523438 0.6560185</pos>									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<opacity>0</opacity>
@@ -105,7 +105,7 @@
    
    
   
-  <view name="detailed">
+  <customView name="legendary">
   	
 	
 	<image name="ecran_console" extra="static">
@@ -132,7 +132,7 @@
   
   
 		<video name="md_video">
-			<maxSize>0.2052083 0.3490741</maxSize>									
+			<size>0.2052083 0.3490741</size>									
 			<pos>0.7025 0.4152778</pos>									
 							
 
@@ -208,7 +208,4 @@
 	
 	
 	
-   </view>
-  
-  
-</theme>
+   </customView>           </theme>

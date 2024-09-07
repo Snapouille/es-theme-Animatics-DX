@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <include>./default.xml</include>
+	<view name="menu,system,detailed,grid">
+    <helpsystem name="help">
+      <iconColor>FFFFFF</iconColor>
+      <iconA>./../../art/icons/arcade/a.png</iconA>
+      <iconB>./../../art/icons/arcade/b.png</iconB>
+      <iconX>./../../art/icons/arcade/x.png</iconX>
+      <iconY>./../../art/icons/arcade/y.png</iconY>
+      <!-- <iconStart>./../../art/icons/arcade/start.png</iconStart> -->
+      <!-- <iconSelect>./../../art/icons/arcade/select.png</iconSelect> -->
+      <iconUpDownLeftRight>./../../art/icons/arcade/updownleftright.png</iconUpDownLeftRight>
+      <iconUpDown>./../../art/icons/arcade/updown.png</iconUpDown>
+      <iconLeftRight>./../../art/icons/arcade/leftright.png</iconLeftRight>		  
+    </helpsystem>
+	</view>
+</theme>
+
+
+

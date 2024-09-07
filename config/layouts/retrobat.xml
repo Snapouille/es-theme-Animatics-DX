@@ -9,13 +9,40 @@
 	
 	
 	<video name="md_video">
-		<visible>false</visible>
-	 </video>
-	
-	<image name="md_thumbnail">
-		<x>0.3</x>
+		<origin>0.5 0.5</origin>									
+		<pos>0.45 0.53</pos>	
+		<pos ifHelpPrompts="false">0.45 0.59</pos>
+		<maxSize>0.3546875 0.7231481</maxSize>									
 		
+		<storyboard event="open">
+			<animation property="opacity" to="1" duration="1" mode="linear"/>
+		</storyboard>
+			
+		<storyboard event="activate">
+			<animation property="opacity" to="1" duration="1" mode="linear"/>
+		</storyboard>
+			
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</video>
+	
+	<image name="thumbnail-gamecarousel">
+		<visible>false</visible>
 	</image>
+	
+	<text name="md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players">
+		<visible>false</visible>
+	</text>
+	
+	<image name="ghost_hidden, md_hidden, ghost_cheevos, md_cheevos,md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate,md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual, md_flag">
+		<visible>false</visible>
+	</image>
+	
+	<rating name="md_rating">
+		<visible>false</visible>
+	</rating>
 	
 	
 	
@@ -28,23 +55,108 @@
  
   
   
-  <view name="detailed">
+  <customView name="legendary">
   
-	<image name="ecran_console" extra="static">
+	<image name="ecran_console, detailsBkLine2, md_marquee, md_thumbnail, md_flag, info_background, yellowSquare, topSquare, stats-bar1, stats-bar2, controller-bar" extra="static">
 		<visible>false</visible>
 	</image>
+	
+	<text name="md_lbl_publisher, md_lbl_releasedate, md_publisher, md_releasedate, md_players, md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_playcount, md_lastplayed, md_gametime">
+		<visible>false</visible>
+	</text>
   
+	<image name="md_manual,md_nomanual, ghost_manual, 
+	             md_savestate,md_nosavestate,ghost_savestate
+				 md_kidgame, md_notkidgame, ghost_kidgame
+				 md_map, md_nomap, ghost_md_map
+				 md_cheevos,md_notcheevos, ghost_cheevos
+				 md_hidden, ghost_hidden, md_flag">
+		<visible>false</visible>
+	</image>
   	
 	<image name="md_thumbnail">
 		<visible>false</visible>
 		
+	<rating name="md_rating">
+		<visible>false</visible>
+	</rating>
+		
+		
+		
 	</image>
 	
 	<video name="md_video">
-	  <maxSize>0.3 0.25</maxSize>
+	  <maxSize>0.35 0.3</maxSize>
+	  <pos>0.668 0.3897</pos>
+	  
+		<storyboard event="open">
+			<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+			
+		<storyboard event="activate">
+				<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+			
+		<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
 	 </video>
+	 
+	 
+	 
+	 
+	<!-- fond noir de l'écran de TV -->
+	<image name="black_bg" extra="true">
+	    <size>0.38 0.38</size>
+		<pos>0.6677604 0.3884259</pos>	
+		
+		<storyboard event="open">
+			<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+			
+		<storyboard event="activate">
+				<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
+			
+		<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</image>
+	 
+	 
+	 
+	 
+	<!-- Ligne du haut à réduire vers la gauche -->
+	<image name="topLine" extra="true">
+      <pos>0 0.155</pos>
+      <size>0.343 0.005</size>
+    </image>
 	
-   </view>
-  
-  
-</theme>
+	<!-- Ligne du haut à pousser vers la droite -->
+	<!-- on ne bouge rien en mode library -->
+	<image name="topLineRight" extra="true">
+      <pos>0.343 0.155</pos>
+      <size>1 0.005</size>
+	  
+		<storyboard event="open">
+			<animation property="pos" to="0.343 0.155" begin="1000" duration="500" mode="Linear"/>
+		</storyboard>
+		
+		<storyboard event="activate">
+			<animation property="pos" to="0.343 0.155" begin="1000" duration="500" mode="Linear"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="pos" to="0.343 0.155" duration="100" mode="linear"/>
+		</storyboard>
+    </image>
+	
+	
+	
+	
+	 
+	
+   </customView>          
+
+
+   </theme>

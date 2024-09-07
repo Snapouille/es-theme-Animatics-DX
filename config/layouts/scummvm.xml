@@ -7,9 +7,9 @@
 		<origin>0.5 0.5</origin>
 		<path>./../../system/scummvm/ecran_console2.png</path>
 
-<size>0.5151042 0.5555556</size>									
-<pos>0.5341146 0.6201852</pos>									
-									
+		<size>0.5151042 0.5555556</size>									
+		<pos>0.5341146 0.6201852</pos>									
+		<pos ifHelpPrompts="false">0.5341146 0.6801852</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -31,8 +31,9 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<pos>0.5427083 0.4956481</pos>									
-<maxSize>0.18125 0.2361111</maxSize>									
+		<pos>0.5427083 0.4956481</pos>	
+		<pos ifHelpPrompts="false">0.5427083 0.5556481</pos>
+		<maxSize>0.18125 0.2361111</maxSize>									
 
 		<zIndex>30</zIndex>
 
@@ -56,8 +57,9 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.18125 0.2361111</size>																
-<pos>0.5427083 0.4956481</pos>																
+		<size>0.18125 0.25</size>																
+		<pos>0.5427083 0.4956481</pos>
+		<pos ifHelpPrompts="false">0.5427083 0.5556481</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -101,11 +103,12 @@
   
   
   
-  <view name="detailed">
+  <customView name="legendary">
   	
 	
 	<image name="ecran_console" extra="static">
-			<pos>0.515 0.17</pos>
+			<pos>0.509 0.18</pos>
+			<pos ifHelpPrompts="false">0.509 0.20</pos>
 			<size>0.4427083 0.525</size>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -113,11 +116,11 @@
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.56" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.554" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.56" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.554" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -126,9 +129,9 @@
 			
 		</image>
   
-  
 		<video name="md_video">
-		  <pos>0.711 0.404</pos>
+		  <pos>0.711 0.414</pos>
+		  <pos ifHelpPrompts="false">0.711 0.434</pos>
 		  <size>0.239 0.317</size>
 		  <roundCorners>0.02</roundCorners>
 		  
@@ -149,9 +152,9 @@
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		  <pos>0.711 0.404</pos>
+		  <pos>0.711 0.414</pos>
+		  <pos ifHelpPrompts="false">0.711 0.434</pos>
 		  <size>0.239 0.317</size>
-		  
 		  
 				<storyboard event="open">
 					<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
@@ -204,7 +207,4 @@
 	
 	
 	
-   </view>
-  
-  
-</theme>
+   </customView>           </theme>

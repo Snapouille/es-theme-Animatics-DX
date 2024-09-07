@@ -9,7 +9,7 @@
 
 		<size>0.4682292 0.7407407</size>									
 		<pos>0.5565104 0.5638889</pos>									
-									
+		<pos ifHelpPrompts="false">0.5565104 0.6138889</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -31,7 +31,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-		<pos>0.584375 0.3726852</pos>									
+		<pos>0.584375 0.3726852</pos>
+		<pos ifHelpPrompts="false">0.584375 0.4226852</pos>
 		<maxSize>0.2041667 0.2768519</maxSize>									
 
 		<zIndex>30</zIndex>
@@ -57,7 +58,8 @@
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
 		<size>0.2041667 0.2768519</size>																
-		<pos>0.584375 0.3726852</pos>																
+		<pos>0.584375 0.3726852</pos>	
+		<pos ifHelpPrompts="false">0.584375 0.4226852</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -101,11 +103,12 @@
   
   
   
-  <view name="detailed">
+  <customView name="legendary">
   	
 	
 		<image name="ecran_console" extra="static">
-			<pos>0.515 0.175</pos>
+			<pos>0.515 0.18</pos>
+			<pos ifHelpPrompts="false">0.515 0.20</pos>
 			<size>0.4427083 0.525</size>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -128,7 +131,8 @@
   
   
 		<video name="md_video">
-		  <pos>0.713 0.402</pos>
+		  <pos>0.713 0.407</pos>
+		  <pos ifHelpPrompts="false">0.713 0.427</pos>
 		  <size>0.233 0.317</size>
 		  
 		  
@@ -148,7 +152,8 @@
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		  <pos>0.713 0.402</pos>
+		  <pos>0.713 0.407</pos>
+		  <pos ifHelpPrompts="false">0.713 0.427</pos>
 		  <size>0.233 0.317</size>
 		  
 		  
@@ -197,7 +202,7 @@
 	
 	
 		
-   </view>
-  
-  
-</theme>
+   </customView>        
+
+
+   </theme>

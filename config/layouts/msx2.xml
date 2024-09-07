@@ -9,7 +9,7 @@
 
 		<size>0.5177083 0.7407407</size>									
 		<pos>0.5427083 0.5444444</pos>									
-									
+		<pos ifHelpPrompts="false">0.5427083 0.5944444</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -33,7 +33,7 @@
 
 		<size>0.1895833 0.2703704</size>									
 		<pos>0.5677083 0.3611111</pos>									
-
+		<pos ifHelpPrompts="false">0.5677083 0.4111111</pos>
 		<zIndex>30</zIndex>
 
 	  
@@ -57,7 +57,8 @@
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
 		<size>0.1895833 0.2703704</size>									
-		<pos>0.5677083 0.3611111</pos>									
+		<pos>0.5677083 0.3611111</pos>	
+		<pos ifHelpPrompts="false">0.5677083 0.4111111</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -80,11 +81,12 @@
 		<pos>0.3 0.293</pos>									
 	</text>
 
-
-
-
 	
 </view>
+
+
+
+
 
 
 <customView name="fanart">
@@ -99,12 +101,12 @@
  
   
   
-  <view name="detailed">
-  	
-	
+  <customView name="legendary">
+  
 		<image name="ecran_console" extra="static">
 			<path>./../../system/msx/ecran_console.png</path>
-			<pos>0.515 0.17</pos>
+			<pos>0.515 0.18</pos>
+			<pos ifHelpPrompts="false">0.515 0.20</pos>
 			<size>0.4427083 0.525</size>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -122,14 +124,13 @@
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
 				</storyboard>
-			
 		</image>
   
   
 		<video name="md_video">
-		  <pos>0.712 0.395</pos>
+		  <pos>0.712 0.405</pos>
+		  <pos ifHelpPrompts="false">0.712 0.425</pos>
 		  <size>0.227 0.313</size>
-		  
 		  
 				<storyboard event="open">
 					<animation property="x" to="0.772" begin="1200" duration="200" mode="linear"/>
@@ -142,14 +143,13 @@
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
 				</storyboard>
-		  
 		</video>
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		  <pos>0.712 0.39</pos>
-		  <size>0.227 0.33</size>
-		  
+		  <pos>0.712 0.405</pos>
+		  <pos ifHelpPrompts="false">0.712 0.425</pos>
+		  <size>0.227 0.333</size>
 		  
 				<storyboard event="open">
 					<animation property="x" to="0.772" begin="1200" duration="200" mode="linear"/>
@@ -163,7 +163,6 @@
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
 				</storyboard>
 		</image>
-  
   
   
 	<image name="md_thumbnail">
@@ -173,7 +172,6 @@
 		<scale>0.57</scale>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
-		
 		
 		<storyboard event="open">
                 <animation property="x" to="0.42" begin="1200" duration="200" mode="linear"/>
@@ -190,19 +188,9 @@
 		<storyboard event="deactivate">
 			    <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
-		
-		
-		
-		
 	</image>
 	
-	
-	
-	
-	
 		
-   </view>
-  
-  
-</theme>
+   </customView>    
+
+   </theme>

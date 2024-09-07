@@ -14,6 +14,18 @@ originally based on: "carbon"
 	<image name="extension_hor, extension_ver">
 		<visible>false</visible>
 	</image>
+	
+	
+     <image name="background-art" extra="true">
+		<color>000000</color>
+		<colorEnd>727272</colorEnd>
+		<gradientType>horizontal</gradientType>
+    </image>
+	
+	
+	
+	
+	
 
 	
 	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->

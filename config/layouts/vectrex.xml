@@ -9,7 +9,7 @@
 
 		<size>0.2010417 0.6018519</size>									
 		<pos>0.5875208 0.5774074</pos>									
-									
+		<pos ifHelpPrompts="false">0.5875208 0.6274074</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -31,7 +31,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-		<pos>0.58075 0.5010185</pos>									
+		<pos>0.58075 0.5010185</pos>	
+		<pos ifHelpPrompts="false">0.58075 0.5510185</pos>
 		<maxSize>0.1354167 0.2898148</maxSize>									
 
 		<zIndex>30</zIndex>
@@ -57,7 +58,8 @@
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
 		<size>0.1354167 0.2898148</size>																
-		<pos>0.58075 0.5010185</pos>																
+		<pos>0.58075 0.5010185</pos>	
+		<pos ifHelpPrompts="false">0.58075 0.5510185</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -102,13 +104,13 @@
 
  
   
-  <view name="detailed">
+  <customView name="legendary">
   
 		
 		<image name="ecran_console" extra="true">
 			<origin>0.5 0.5</origin>									
 			<size>0.1859375 0.5564815</size>									
-			<pos>0.7408854 0.4634259</pos>									
+			<pos>0.7408854 0.4734259</pos>									
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
@@ -130,8 +132,8 @@
   
 		
 		<video name="md_video">
-			<pos>0.734375 0.3930556</pos>									
-			<maxSize>0.1260417 0.2694444</maxSize>									
+			<pos>0.734375 0.4030556</pos>									
+			<size>0.1260417 0.2694444</size>									
 		  
 		  
 				<storyboard event="open">
@@ -151,7 +153,7 @@
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 			<size>0.1260417 0.2694444</size>																
-			<pos>0.734375 0.3930556</pos>																
+			<pos>0.734375 0.4030556</pos>																
 		  
 				<storyboard event="open">
 					<animation property="x" to="0.84" begin="1200" duration="200" mode="linear"/>
@@ -198,14 +200,14 @@
 	
 	<text name="md_description">
 			
-		<pos>0.61 0.72</pos>									
+		<pos>0.602 0.72</pos>									
 		
 		<storyboard event="open">
-			<animation property="size" to="0.27 0.32" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.27 0.247" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="activate">
-			<animation property="size" to="0.27 0.32" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.27 0.247" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="deactivate">
@@ -217,6 +219,6 @@
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>         
+
+   </theme>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <view name="system">
+  
+	<image name="background, bgsky, ControllerOverlay, frame_barreAnim_haut, frame_barreAnim_bas, frame_barreAnim_gauche, frame_barreAnim_droite">
+		  <visible>false</visible>
+	</image>
+	
+	<!-- On les masque les diagos BAS -->
+	<image name="diago-bas1, diago-bas2, diago-bas3, diago-bas4, diago-bas5">
+		<visible>false</visible>
+	</image>
+	
+	
+	
+	<!-- Affichage des statistiques détaillées -->
+	  <text name="systemInfoEx" ifSubset="SystemView:wheel" extra="true">
+        <alignment>left</alignment>
+		<pos>0.165 0.69</pos>
+		<pos ifHelpPrompts="false">0.165 0.725</pos>
+		<zIndex>30</zIndex>
+		<storyboard>
+				<animation property="opacity" from="0" to="1" begin="" duration="1000" mode="linear"/>				
+				<animation property="offsetX" to="-0.01" begin="" duration="1000" mode="EaseInOut"/>
+		</storyboard>
+		
+      </text>
+	  
+		<!-- Texte nombre de jeux si affiché -->
+		<text name="systemInfo" ifSubset="InfoCustomView:total|detailed">
+			<pos>0.5143229 0.0663889</pos>									
+		</text>
+		<!-- Masque derrière l'affiches du nombre de jeux -->
+		<image name="masque_behind" ifSubset="InfoCustomView:total|detailed" extra="true">
+			<pos>0.5143229 0.0663889</pos>									
+		</image>
+
+
+
+	  
+	<image name="barre_Haut" extra="true">
+		<path>./../../../art/divers/white.png</path>
+		<color>${frameColor}</color>
+		<zIndex>23</zIndex>
+		<origin>0.5 0.5</origin>									
+		<size>0.55 0.0055556</size>									
+		<pos>0.315 0.0925926</pos>									
+	</image>
+
+
+	<image name="overlay_fixe" extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.5</pos>									
+		<size>1 1</size>									
+		<path>./../../../art/divers/overlay_fanart_dark.png</path>
+		<opacity>0.25</opacity>
+		<zIndex>4</zIndex>
+	</image>
+
+	<!-- View : WHEEL -->
+	<image name="wheel-bg" extra="static">
+		<opacity>0.85</opacity>
+    </image>
+	
+	<!-- View : WHEEL-ANIMATICS -->
+	<image name="vertical_down_bg_black, vertical_up_bg_black, black_BottomFrame" extra="static">
+		<opacity>0.75</opacity>
+    </image>
+	<image name="BarAndRound" ifSubset="InfoCustomView:detailed" extra="static">
+		<visible>false</visible>
+	</image>
+
+
+
+    <image name="randomImage" extra="true">
+      <path>{random:fanart}</path>
+	  <default>./../../../art/divers/bg.png</default>   
+	  <color>FFFFFF</color>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <minSize>1 1</minSize>
+      <zIndex>3</zIndex>
+      <linearSmooth>true</linearSmooth>
+	  
+		<storyboard>
+				<animation property="scale" from="1.1" to="1" begin="" duration="14000" autoreverse="true" repeat="forever" mode="EaseInOut"/>				
+		</storyboard>
+	  
+    </image>
+
+
+    <video name="backgroundvideo" extra="true">
+		<path>{random}</path>
+		<origin>0.5 0.5</origin>
+		<delay>0</delay> 
+		<effect>none</effect>
+		<zIndex>31</zIndex>
+		
+		<shader>
+			<path>${themePath}/art/shaders/border.glsl</path>
+			<borderSize>0.02</borderSize>
+			<borderColor>${baseColor}</borderColor>
+		</shader>
+		
+		<size>0.19260415 0.2476852</size>	
+		<pos>0.131 0.6</pos>
+		
+		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.2 0.2</size>									
+		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.135 0.62</pos>									
+		
+		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
+		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.129 0.575</pos>									
+		
+		<size if="{system.theme} == 'pokemini'">0.168 0.2</size>									
+		<pos  if="{system.theme} == 'pokemini'">0.118 0.615</pos>	
+		
+		<size if="{system.theme} == 'nds' ">0.1125 0.3</size>									
+		<pos  if="{system.theme} == 'nds' ">0.092 0.57</pos>		
+
+		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.161 0.273</size>									
+		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.116 0.582</pos>	
+
+		<size if="{system.theme} == 'auto-verticalarcade' ">0.131 0.273</size>									
+		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.101 0.59</pos>	
+
+		<size if="{system.theme} == 'arduboy' ">0.198 0.177</size>		
+		<pos  if="{system.theme} == 'arduboy' ">0.134 0.635</pos>		
+    </video>
+
+
+
+	
+  </view>
+  
+  
+  
+	<view name="system" ifSubset="SystemView:grid">
+	
+		<image name="barre_Haut" extra="true">
+			<visible>false</visible>
+		</image>
+		
+		<video name="backgroundvideo" extra="true">
+			<path>{random}</path>
+			<origin>0.5 0.5</origin>
+			<delay>0</delay> 
+			<effect>none</effect>
+			<zIndex>31</zIndex>
+			
+			<shader>
+				<path>${themePath}/art/shaders/border.glsl</path>
+				<borderSize>0.007</borderSize>
+				<borderColor>${baseColor}</borderColor>
+			</shader>
+			
+			<size>0.238 0.3</size>									
+			<pos>0.861 0.773</pos>
+			
+			<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3 0.3</size>									
+			<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.83 0.753</pos>									
+			
+			<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
+			<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.773</pos>									
+			
+			<size if="{system.theme} == 'pokemini'">0.252 0.3</size>									
+			<pos  if="{system.theme} == 'pokemini'">0.854 0.773</pos>	
+			
+			<size if="{system.theme} == 'nds' ">0.1125 0.3</size>									
+			<pos  if="{system.theme} == 'nds' ">0.9235 0.773</pos>		
+
+			<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.177 0.3</size>									
+			<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.891 0.773</pos>	
+
+			<size if="{system.theme} == 'auto-verticalarcade' ">0.144 0.3</size>									
+			<pos  if="{system.theme} == 'auto-verticalarcade' ">0.9077 0.773</pos>	
+
+			<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>		
+			<pos  if="{system.theme} == 'arduboy' ">0.861 0.75</pos>		
+		</video>
+		
+		
+	</view>
+  
+  
+  
+  
+  
+</theme>

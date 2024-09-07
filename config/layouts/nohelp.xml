@@ -16,6 +16,7 @@
   </view>
   
   
+  
   <view name="system" ifSubset="SystemView:simple">
 		<image name="BottomBar" extra="true">
 		  <visible>false</visible>
@@ -57,56 +58,44 @@
   
   
   
-  <!-- On repositionne la barre en bas pour la mettre tout en bas de l'écran-->
-	<view name="detailed, grid">
-		<image name="bottom" extra="true">
-			  <visible>true</visible>
-			  <pos>0 1.06</pos>
-		</image>
-    </view>
-	
   
-  <!-- <view name="video"> -->
-    
-    <!-- <textlist name="gamelist"> -->
-      <!-- <size>0.35 0.83</size> -->
-	  <!-- <lines>19</lines> -->
-    <!-- </textlist> -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	<view name="grid">
 	
-	<!-- <image name="iconsLine" extra="true"> -->
-		<!-- <size>0.003 0.90</size> -->
-	<!-- </image> -->
-	
-	<!-- <image name="md_flag"> -->
-		<!-- <pos>0.976 0.95</pos> -->
-	<!-- </image> -->
-	
-	<!-- <datetime name="md_releasedate"> -->
-		<!-- <pos>0.976 0.85</pos> -->
-	<!-- </datetime> -->
+		<!-- On repositionne la barre en bas pour la mettre tout en bas de l'écran-->
+		<!-- <image name="bottom" extra="true"> -->
+			  <!-- <visible>true</visible> -->
+			  <!-- <pos>0 1.06</pos> -->
+		<!-- </image> -->
+  
+	    <imagegrid name="gamegrid">
+			<pos>0 0.485</pos>
+			<size>1 0.47</size>
+		</imagegrid>
 		
-  <!-- </view> -->
+		
+		<image name="extension_ver, extension_hor" extra="true">
+			<visible>false</visible>
+		</image>
   
+	</view>
   
-  <view name="grid" ifSubset="SystemView:grid">
-  
-	<imagegrid name="imagegrid">
-		 <pos>0.025 0.495</pos>
-		 <size>0.950 0.47</size>
-		 <margin>0.005 0.006</margin>
-		 <padding>0.008 0.05</padding>
-		<!-- <autoLayout>5 1</autoLayout> -->
-		  <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
-    </imagegrid>
-  
-  </view>
-  
+
   
   
   
    <customView name="boxes_big, boxes_medium, boxes_small">
   
-	  <imagegrid name="gamegrid">
+	   <imagegrid name="gamegrid">
 		  <pos>0.333333 0.05</pos>
 		</imagegrid>
 	  		
@@ -129,10 +118,9 @@
   </customView>
   
   
-  
+ 
   
   <customView name="fanart">
-  
 		<gamecarousel name="gamecarousel">
             <pos>0.45 0.275</pos>
         </gamecarousel>
@@ -160,21 +148,72 @@
         <text name="md_description">
 			<pos>0.05 0.74</pos>
         </text>
-	
   </customView>
   
   
+
+
+
+
+
   
-  <view name="detailed">
+<customView name="legendary">
+
   
 	<textlist name="gamelist">
        <size>0.291 0.817</size>
-	  <lines>19</lines>
+	   <lines>19</lines>
     </textlist>
   
 	<image name="iconsLine" extra="true">
 		<size>0.003 0.90</size>
 	</image>
+	
+
+
+
+
+	
+	
+	<text name="md_lbl_developer">
+		<pos>0.504 0.765</pos>
+	</text>
+	
+	<text name="md_developer">
+		<pos>0.504 0.795</pos>
+	</text>
+	
+	<text name="md_lbl_publisher">
+		<pos>0.504 0.835</pos>
+	</text>
+	
+	<text name="md_publisher">
+		<pos>0.504 0.865</pos>
+	</text>
+	
+	<text name="md_lbl_releasedate">
+		<pos>0.504 0.907</pos>
+	</text>
+	
+	<datetime name="md_releasedate">
+		<pos>0.504 0.937</pos>
+	</datetime>
+	
+	<image name="md_flag">
+		<pos>0.888 0.775</pos>
+	</image>
+	
+	
+	
+	<text name="md_lbl_genre">
+		<pos>0.872 0.907</pos>
+	</text>
+	
+	<text name="md_genre">
+		<pos>0.53 0.937</pos>
+	</text>
+	
+	
 	
 	<text name="md_developer">
 		<storyboard event="open">
@@ -209,7 +248,33 @@
 	</text>
 	
 	
+	
+	<text name="md_players">
+		<pos>0.8265 0.867</pos>
+		<pos if="{system.theme} == 'arduboy' ">0.343 0.95</pos>
+				 
+		<storyboard event="open">
+			<animation property="pos" to="0.3795 0.955" begin="1200"  duration="200" mode="linear"/>
+			<animation property="size" to="0.13 0.103" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+		<storyboard event="activate">
+			<animation property="pos" to="0.3795 0.955" begin="1200"  duration="200" mode="linear"/>
+			<animation property="size" to="0.13 0.103" begin="1200"  duration="200" mode="linear"/>
+			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</text>
+
+
+	
 	<image name="md_flag">
+	
+		<pos if="{system.theme} == 'pokemini' || {system.theme} == 'supervision' || {system.theme} == 'arduboy' || 
+		         {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || 
+				 {system.theme} == 'gbc2players' ">0.525 0.7</pos>
 		
 		<storyboard event="open">
 			<animation property="pos" to="0.976 0.928" begin="1200"  duration="200" mode="linear"/>
@@ -249,35 +314,177 @@
 	
 	
 	
-	<text name="md_players">
-		<color>ff3f2f</color>
-		<pos>0.81 0.807</pos>
-		<origin>0.5 0.5</origin>
-		<fontPath>./../../art/fonts/players.ttf</fontPath>
-		<size>0.203 0.103</size>
-		<alignment>right</alignment>
-		<fontSize>0.048</fontSize>
-        <singleLineScroll>true</singleLineScroll>
-		<storyboard event="open">
-			<animation property="pos" to="0.343 0.955" begin="1200"  duration="200" mode="linear"/>
-			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
-		</storyboard>
-		<storyboard event="activate">
-			<animation property="pos" to="0.343 0.955" begin="1200"  duration="200" mode="linear"/>
-			<animation property="color" to="dddddd" begin="1200"  duration="200" mode="linear"/>
-		</storyboard>
-		<storyboard event="deactivate">
-		   <animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-	</text>	
+	
+		<text name="md_lbl_playcount">
+			<y>0.69</y>
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+			<y>0.76</y>
+		</text>
+		
+		<text name="md_lbl_gametime">
+			<y>0.84</y>
+		</text>
+	
+		<text name="md_playcount">
+			<y>0.72</y>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<y>0.79</y>
+		</datetime>
+		<text name="md_gametime">
+			<y>0.87</y>	
+		</text>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<text name="md_description">
+		<pos>0.70 0.825</pos>
+		<!-- Description avec seulement 6 lignes à cause de la taille de l'écran console -->
+		<pos if="{system.theme} == 'c64' || {system.theme} == 'dreamcast' ">0.70 0.85</pos>
+		<!-- Description des consoles en hauteur -->
+		<pos if="{system.theme} == 'megaduck' || {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.5895833 0.6875926</pos>
+		<pos if="{system.theme} == 'pokemini' ">0.584 0.705</pos>
+		<pos if="{system.theme} == 'supervision' ">0.615 0.75</pos>
+		<pos if="{system.theme} == 'vectrex' ">0.602 0.74</pos>
+		<pos if="{system.theme} == 'arduboy' ">0.5895833 0.7495926</pos>
+		<pos if="{system.theme} == 'virtualboy' ">0.75 0.335</pos>
+		<pos if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.748 0.317</pos>
+		<pos if="{system.theme} == '3ds' ">0.763 0.323</pos>
+		<pos if="{system.theme} == 'gamepock' ">0.757 0.265</pos>
+		<pos if="{system.theme} == 'gmaster' ">0.7457813 0.35</pos>
+	</text>
+	
 	
 	
 	<image name="stats-bar1" extra="true">
 		<pos>0.4317708 0.993</pos>		
 	</image>		
+
+
 	<image name="stats-bar2" extra="true">
 		<pos>0.3145833 0.993</pos>			
+
+		<storyboard event="open" repeatAt="1960">
+			<animation property="opacity" to="1" 	begin="1950"  duration="10" mode="linear"/>
+			<animation property="h" to="0.0277778" 	begin="1950"  duration="100" mode="linear"/>
+			<animation property="y" to="0.9212963" 	begin="1950"  duration="100" mode="linear"/>
+			
+			<animation property="y" to="0.7351852" 	begin="2050"  duration="800" mode="bump"/>
+			<animation property="w" to="0.1348958" 	begin="2900"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3804688" 	begin="2900"  duration="500" mode="linear"/>
+			
+			<animation property="w" to="0.003125" 	begin="5000"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3145833" 	begin="5000"  duration="500" mode="linear"/>
+			
+			<animation property="y" to="0.8055556" 	begin="5550"  duration="300" mode="bump"/>
+			<animation property="w" to="0.1348958" 	begin="5900"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3804688" 	begin="5900"  duration="500" mode="linear"/>
+			<animation property="w" to="0.003125" 	begin="8000"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3145833" 	begin="8000"  duration="500" mode="linear"/>
+
+			<animation property="y" to="0.8841111" 	begin="8550"  duration="300" mode="bump"/>
+			<animation property="w" to="0.1348958" 	begin="8900"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3804688" 	begin="8900"  duration="500" mode="linear"/>
+			<animation property="w" to="0.003125" 	begin="11000"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3145833" 	begin="11000"  duration="500" mode="linear"/>
+			
+			<animation property="y" to="0.33" 		begin="11550"  duration="1200" mode="bump"/>
+			<animation property="h" to="0.23" 		begin="12700"  duration="800" autoreverse="true" mode="bump"/>
+			
+			<animation property="y" to="0.75" 		begin="13800"  duration="1200" mode="bump"/>
+			<animation property="h" to="0.18" 		begin="15200"  duration="1000" autoreverse="true" mode="bump"/>
+			
+			<animation property="y" to="0.17" 		begin="16600"  duration="7000" mode="easeOut"/>
+			<animation property="y" to="0.9212963" 	begin="23650"  duration="7000" mode="easeIn"/>
+		</storyboard>
+		
+		<storyboard event="activate" repeatAt="1960">
+			<animation property="opacity" to="1" 	begin="1950"  duration="10" mode="linear"/>
+			<animation property="h" to="0.0277778" 	begin="1950"  duration="100" mode="linear"/>
+			<animation property="y" to="0.9212963" 	begin="1950"  duration="100" mode="linear"/>
+			
+			<animation property="y" to="0.7351852" 	begin="2050"  duration="800" mode="bump"/>
+			<animation property="w" to="0.1348958" 	begin="2900"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3804688" 	begin="2900"  duration="500" mode="linear"/>
+			
+			<animation property="w" to="0.003125" 	begin="5000"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3145833" 	begin="5000"  duration="500" mode="linear"/>
+			
+			<animation property="y" to="0.8055556" 	begin="5550"  duration="300" mode="bump"/>
+			<animation property="w" to="0.1348958" 	begin="5900"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3804688" 	begin="5900"  duration="500" mode="linear"/>
+			<animation property="w" to="0.003125" 	begin="8000"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3145833" 	begin="8000"  duration="500" mode="linear"/>
+
+			<animation property="y" to="0.8841111" 	begin="8550"  duration="300" mode="bump"/>
+			<animation property="w" to="0.1348958" 	begin="8900"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3804688" 	begin="8900"  duration="500" mode="linear"/>
+			<animation property="w" to="0.003125" 	begin="11000"  duration="500" mode="linear"/>
+			<animation property="x" to="0.3145833" 	begin="11000"  duration="500" mode="linear"/>
+			
+			<animation property="y" to="0.33" 		begin="11550"  duration="1200" mode="bump"/>
+			<animation property="h" to="0.23" 		begin="12700"  duration="800" autoreverse="true" mode="bump"/>
+			
+			<animation property="y" to="0.75" 		begin="13800"  duration="1200" mode="bump"/>
+			<animation property="h" to="0.18" 		begin="15200"  duration="1000" autoreverse="true" mode="bump"/>
+			
+			<animation property="y" to="0.17" 		begin="16600"  duration="7000" mode="easeOut"/>
+			<animation property="y" to="0.9212963" 	begin="23650"  duration="7000" mode="easeIn"/>
+		</storyboard>
+		
+		<storyboard event="deactivate">
+		   <animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>	
+		
 	</image>		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
   
   
 	<!-- Square jaune qui se balade -->
@@ -502,231 +709,136 @@
     </image>
   
   
-  </view>
+  </customView>
   
   
   
   
   
+<!-- AU FINAL ON NE MODIFIE PLUS CETTE VUE AVEC LA GAMELIST RVGM, CAR AVEC LA TRANSPARENCE DE l'OVERLAY CE NE VA PLUS DU TOUT -->
   
-  
-<view name="video"> 
-	<!-- overlay dimmable -->
-	<image name="overlay_gamelist" extra="true">
-		<size>0.2416667 0.9588889</size>									
-		<pos>0.8541667 0.5112963</pos>									
-	</image>
+<!-- <customView name="videofull">  -->
 
-	<textlist name="gamelist">
-		<size>0.2166667 0.6951852</size>									
-		<pos>0.8557292 0.5400741</pos>									
-	</textlist>
+	<!-- <image name="overlay_gamelist" extra="true"> -->
+		<!-- <size>0.2416667 0.9588889</size>									 -->
+		<!-- <pos>0.8541667 0.5112963</pos>									 -->
+	<!-- </image> -->
+
+	<!-- <textlist name="gamelist"> -->
+		<!-- <size>0.2166667 0.6951852</size>									 -->
+		<!-- <pos>0.8557292 0.5400741</pos>									 -->
+	<!-- </textlist> -->
 	
-	<image name="triangle-rvgm-haut" extra="true">
-		<pos>0.8523438 0.1765741</pos>									
-	</image>
+	<!-- <image name="triangle-rvgm-haut" extra="true"> -->
+		<!-- <pos>0.8523438 0.1765741</pos>									 -->
+	<!-- </image> -->
 
-	<image name="triangle-rvgm-bas" extra="true">
-		<pos>0.8518229 0.902963</pos>									
-	</image>
+	<!-- <image name="triangle-rvgm-bas" extra="true"> -->
+		<!-- <pos>0.8518229 0.902963</pos>									 -->
+	<!-- </image> -->
 		
-	<text name="md_description">
-		<pos>0.526 0.86</pos>									
-	</text>
+	<!-- <text name="md_description"> -->
+		<!-- <pos>0.526 0.86</pos>									 -->
+	<!-- </text> -->
 	
-	<image name="rvgm-developer-icon" extra="true">
-		<pos>0.0338542 0.7783333</pos>									
-	</image>
+	<!-- <image name="rvgm-developer-icon" extra="true"> -->
+		<!-- <pos>0.0338542 0.7783333</pos>									 -->
+	<!-- </image> -->
 	
-	<image name="rvgm-publisher-icon" extra="true">
-		<pos>0.0338542 0.8153704</pos>									
-	</image>
+	<!-- <image name="rvgm-publisher-icon" extra="true"> -->
+		<!-- <pos>0.0338542 0.8153704</pos>									 -->
+	<!-- </image> -->
 
-	<image name="rvgm-genre-icon" extra="true">
-		<pos>0.0338542 0.8533333</pos>									
-	</image>
+	<!-- <image name="rvgm-genre-icon" extra="true"> -->
+		<!-- <pos>0.0338542 0.8533333</pos>									 -->
+	<!-- </image> -->
 
-	<image name="rvgm-date-icon" extra="true">
-		<pos>0.0338542 0.8894444</pos>									
-	</image>
+	<!-- <image name="rvgm-date-icon" extra="true"> -->
+		<!-- <pos>0.0338542 0.8894444</pos>									 -->
+	<!-- </image> -->
 	
-	<image name="rvgm-playcount-icon" extra="true">
-		<pos>0.2125 0.8162963</pos>									
-	</image>
+	<!-- <image name="rvgm-playcount-icon" extra="true"> -->
+		<!-- <pos>0.2125 0.8162963</pos>									 -->
+	<!-- </image> -->
 	
-	<image name="rvgm-lastplayed-icon" extra="true">
-		<pos>0.2114583 0.8551852</pos>									
-	</image>
+	<!-- <image name="rvgm-lastplayed-icon" extra="true"> -->
+		<!-- <pos>0.2114583 0.8551852</pos>									 -->
+	<!-- </image> -->
 
-	<image name="rvgm-gametime-icon" extra="true">
-		<pos>0.2109375 0.8908333</pos>									
-	</image>
+	<!-- <image name="rvgm-gametime-icon" extra="true"> -->
+		<!-- <pos>0.2109375 0.8908333</pos>									 -->
+	<!-- </image> -->
 
-	<text name="md_players">
-		<pos>0.16 0.95</pos>									
-	</text>
+	<!-- <text name="md_players"> -->
+		<!-- <pos>0.16 0.95</pos> -->
+		<!-- <color ifSubset="backgroundAmbience:Light">${baseColor}</color> -->
+	<!-- </text> -->
 	
-	<text name="md_developer">
-		<pos>0.1164063 0.7792593</pos>									
-	</text>
-	<text name="md_publisher">
-		<pos>0.1164063 0.8162963</pos>									
-	</text>
-	<text name="md_genre">
-		<pos>0.1164063 0.8533333</pos>									
-	</text>
+	<!-- <text name="md_developer"> -->
+		<!-- <pos>0.1164063 0.7792593</pos>									 -->
+	<!-- </text> -->
+	<!-- <text name="md_publisher"> -->
+		<!-- <pos>0.1164063 0.8162963</pos>									 -->
+	<!-- </text> -->
+	<!-- <text name="md_genre"> -->
+		<!-- <pos>0.1164063 0.8533333</pos>									 -->
+	<!-- </text> -->
 	
-	<datetime name="md_releasedate">
-		<pos>0.1164063 0.8903704</pos>									
-	</datetime>
+	<!-- <datetime name="md_releasedate"> -->
+		<!-- <pos>0.1164063 0.8903704</pos>									 -->
+	<!-- </datetime> -->
 	
-	<text name="md_playcount">
-		<pos>0.2674479 0.8162963</pos>									
-	</text>
-	<datetime name="md_lastplayed">
-		<pos>0.2674479 0.8533333</pos>									
-	</datetime>
-	<text name="md_gametime">
-		<pos>0.2674479 0.8903704</pos>									
-	</text>
+	<!-- <text name="md_playcount"> -->
+		<!-- <pos>0.2674479 0.8162963</pos>									 -->
+	<!-- </text> -->
+	<!-- <datetime name="md_lastplayed"> -->
+		<!-- <pos>0.2674479 0.8533333</pos>									 -->
+	<!-- </datetime> -->
+	<!-- <text name="md_gametime"> -->
+		<!-- <pos>0.2674479 0.8903704</pos>									 -->
+	<!-- </text> -->
 	
-	<rating name="md_rating">
-		<pos>0.216 0.778</pos>									
-	</rating>
+	<!-- <rating name="md_rating"> -->
+		<!-- <pos>0.216 0.778</pos>									 -->
+	<!-- </rating> -->
 
-	<image name="md_flag">
-		<pos>0.765625 0.9596296</pos>									
-	</image>
+	<!-- <image name="md_flag"> -->
+		<!-- <pos>0.765625 0.9596296</pos>									 -->
+	<!-- </image> -->
 
-	<image name="md_manual,md_nomanual, ghost_manual">
-		<pos>0.8223958 0.9596296</pos>									
-	</image>
+	<!-- <image name="md_manual,md_nomanual, ghost_manual"> -->
+		<!-- <pos>0.8223958 0.9596296</pos>									 -->
+	<!-- </image> -->
 	
-	<image name="md_savestate,md_nosavestate,ghost_savestate">
-		<pos>0.8494792 0.9596296</pos>									
-	</image>
+	<!-- <image name="md_savestate,md_nosavestate,ghost_savestate"> -->
+		<!-- <pos>0.8494792 0.9596296</pos>									 -->
+	<!-- </image> -->
 
-	<image name="md_kidgame, md_notkidgame, ghost_kidgame"> 
-		<pos>0.8739583 0.9596296</pos>									
-	</image>
+	<!-- <image name="md_kidgame, md_notkidgame, ghost_kidgame">  -->
+		<!-- <pos>0.8739583 0.9596296</pos>									 -->
+	<!-- </image> -->
 
-	<image name="md_map, md_nomap, ghost_md_map"> 
-		<pos>0.8963542 0.9596296</pos>									
-	</image>
+	<!-- <image name="md_map, md_nomap, ghost_md_map">  -->
+		<!-- <pos>0.8963542 0.9596296</pos>									 -->
+	<!-- </image> -->
 
-	<image name="md_cheevos,md_notcheevos, ghost_cheevos">
-		<pos>0.9192708 0.9596296</pos>									
-	</image>
+	<!-- <image name="md_cheevos,md_notcheevos, ghost_cheevos"> -->
+		<!-- <pos>0.9192708 0.9596296</pos>									 -->
+	<!-- </image> -->
 	
-	<image name="md_hidden, ghost_hidden">
-		<pos>0.9453125 0.9596296</pos>									
-	</image>
-</view>
-
-
-
-<customView name="rvgm_legacy">
-  
-	<!-- MD image et video qui match avec l'overlay du cadreTV -->
-	<image name="md_image"> 
-		<pos>0.23 0.32</pos>									
-	</image>
-	
-	<video name="md_video">
-		<pos>0.23 0.32</pos>									
-	</video>
-	
-	<text name="md_description">
-		<pos>0.2546875 0.765</pos>									
-	</text>
-	
-	<image name="md_thumbnail"> 
-		<pos>0.6174479 0.7615741</pos>									
-		<maxSize>0.2057292 0.43</maxSize>									
-	</image>
-	
-	
-	<!-- Affichage du controller2 -->
-	<image name="controller2" extra="true">
-		<pos>0.09 0.57</pos>	
-		<y if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.54</y>									
-    </image>
+	<!-- <image name="md_hidden, ghost_hidden"> -->
+		<!-- <pos>0.9453125 0.9596296</pos>									 -->
+	<!-- </image> -->
+<!-- </customView> -->
 
 
-	<rating name="md_rating">
-		<pos>0.3960938 0.9578704</pos>									
-	</rating>	
-	
-	
-	<text name="md_players">
-		<pos>0.16 0.95</pos>									
-	</text>
 
-	
-	
-	<!-- A PARTIR DE LA ça ne bouge pas, mais obliger de les mettres car sinon ça reprend les positions de la vue mère -->
-	<image name="rvgm-developer-icon" extra="true">
-		<pos>0.5319792 0.2498148</pos>									
-	</image>
-	
-	<image name="rvgm-publisher-icon" extra="true">
-		<pos>0.5319792 0.285</pos>									
-	</image>
 
-	<image name="rvgm-genre-icon" extra="true">
-		<pos>0.5319792 0.3211111</pos>									
-	</image>
 
-	<image name="rvgm-date-icon" extra="true">
-		<pos>0.5319792 0.3581481</pos>									
-	</image>
-	
-	<image name="rvgm-playcount-icon" extra="true">
-		<pos>0.5319792 0.4133333</pos>									
-	</image>
-	
-	<image name="rvgm-lastplayed-icon" extra="true">
-		<pos>0.5319792 0.4503704</pos>									
-	</image>
 
-	<image name="rvgm-gametime-icon" extra="true">
-		<pos>0.5319792 0.4869444</pos>									
-	</image>
 
-	<text name="md_developer, md_publisher, md_genre, md_releasedate, md_playcount, md_lastplayed, md_gametime">
-		<size>0.16 0.0240741</size>									
-	</text>
-	
-	<text name="md_developer">
-		<pos>0.6299479 0.2488889</pos>									
-	</text>
-	<text name="md_publisher">
-		<pos>0.6299479 0.285</pos>									
-	</text>
-	<text name="md_genre">
-		<pos>0.6299479 0.3211111</pos>									
-	</text>
-	
-	<datetime name="md_releasedate">
-		<pos>0.6299479 0.3582222</pos>									
-	</datetime>
-	
-	<text name="md_playcount">
-		<pos>0.6299479 0.4133333</pos>									
-	</text>
-	<datetime name="md_lastplayed">
-		<pos>0.6299479 0.4494444</pos>									
-	</datetime>
-	<text name="md_gametime">
-		<pos>0.6299479 0.4875556</pos>									
-	</text>
-	
-	
-	
-	
-	
-		
-</customView>
+
+
   
   
   

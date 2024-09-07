@@ -6,8 +6,8 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 		
-<size>0.4557292 0.4787037</size>									
-<pos>0.4923438 0.6560185</pos>									
+		<size>0.4557292 0.4787037</size>									
+		<pos>0.4923438 0.6560185</pos>									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<opacity>0</opacity>
@@ -30,8 +30,8 @@
 	
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-<maxSize>0.3380208 0.3796296</maxSize>									
-<pos>0.4850521 0.6601852</pos>									
+		<maxSize>0.3380208 0.3796296</maxSize>									
+		<pos>0.4850521 0.6601852</pos>									
 
 		<zIndex>11</zIndex>
 
@@ -53,8 +53,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.3380208 0.3796296</size>									
-<pos>0.4850521 0.6601852</pos>									
+		<size>0.3380208 0.3796296</size>									
+		<pos>0.4850521 0.6601852</pos>									
 		<zIndex>10</zIndex>
 			<storyboard event="open">
 				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
@@ -73,11 +73,12 @@
   
   
   
-  <view name="detailed">
+  <customView name="legendary">
   	
 	
 	<image name="ecran_console" extra="static">
 			<pos>0.515 0.17</pos>
+			<pos ifHelpPrompts="false">0.515 0.19</pos>
 			<size>0.4427083 0.525</size>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -101,7 +102,8 @@
   
 		<video name="md_video">
 		  
-		<pos>0.7148438 0.4125</pos>									
+		<pos>0.7148438 0.4125</pos>	
+		<pos ifHelpPrompts="false">0.7148438 0.4325</pos>
 		<maxSize>0.2505208 0.3935185</maxSize>									
 
 		  
@@ -123,7 +125,7 @@
 		<image name="black_bg">
 		  <size>0.2505208 0.3935185</size>									
 		  <pos>0.7148438 0.4125</pos>		
-		  
+		  <pos ifHelpPrompts="false">0.7148438 0.4325</pos>
 		  
 				<storyboard event="open">
 					<animation property="x" to="0.7648438" begin="1200" duration="200" mode="linear"/>
@@ -176,7 +178,4 @@
 	
 	
 	
-   </view>
-  
-  
-</theme>
+   </customView>           </theme>

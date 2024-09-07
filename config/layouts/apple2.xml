@@ -8,7 +8,7 @@
 		<path>./../../system/${system.theme}/ecran_console2.png</path>
 		<size>0.3807292 0.5240741</size>									
 		<pos>0.5002604 0.6435185</pos>									
-									
+		<pos ifHelpPrompts="false">0.5002604 0.6935185</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -32,7 +32,7 @@
 
 		<size>0.1510417 0.2009259</size>									
 		<pos>0.5442708 0.5263889</pos>									
-
+		<pos ifHelpPrompts="false">0.5442708 0.5763889</pos>
 		<roundCorners>0.03</roundCorners>
 	  
 			<storyboard event="open">
@@ -55,7 +55,8 @@
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
 		<size>0.1510417 0.2009259</size>									
-		<pos>0.5442708 0.5263889</pos>									
+		<pos>0.5442708 0.5263889</pos>
+		<pos ifHelpPrompts="false">0.5442708 0.5763889</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -75,11 +76,12 @@
 
 
   
-  <view name="detailed">
+  <customView name="legendary">
  
 	
 	<image name="ecran_console" extra="static">
 			<pos>0.495 0.19</pos>
+		    <pos ifHelpPrompts="false">0.495 0.21</pos>
 			<size>0.4427083 0.525</size>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -87,13 +89,11 @@
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.58" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.17" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.033"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.58" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.17" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.033"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -105,16 +105,15 @@
   
 		<video name="md_video">
 		  <pos>0.685 0.321</pos>
+		  <pos ifHelpPrompts="false">0.685 0.341</pos>
 		  <size>0.135 0.176</size>
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.77" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.301" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.033"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.77" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.301" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.033"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -127,16 +126,15 @@
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 		  <pos>0.685 0.321</pos>
-		  <size>0.14 0.176</size>
+		  <pos ifHelpPrompts="false">0.685 0.341</pos>
+		  <size>0.14 0.19</size>
 	  
 			<storyboard event="open">
-					<animation property="x" to="0.77" begin="1200" duration="200" mode="linear"/>
-					<animation property="y" to="0.301" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.033"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.77" begin="1200" duration="200" mode="linear"/>
-						<animation property="y" to="0.301" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.033"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -174,6 +172,5 @@
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>      
+   </theme>

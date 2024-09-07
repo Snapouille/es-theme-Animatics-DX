@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <include>./default.xml</include>
+	<view name="menu,system,detailed,grid">
+    <helpsystem name="help">
+      <iconColor>FFFFFF</iconColor>
+      <iconA>./../../art/icons/psxlegacy/a.svg</iconA>
+      <iconB>./../../art/icons/psxlegacy/b.svg</iconB>
+      <iconX>./../../art/icons/psxlegacy/x.svg</iconX>
+      <iconY>./../../art/icons/psxlegacy/y.svg</iconY>
+      <iconStart>./../../art/icons/psxlegacy/start.svg</iconStart>
+      <iconSelect>./../../art/icons/psxlegacy/select.svg</iconSelect>	
+      <iconUpDownLeftRight>./../../art/icons/psxlegacy/updownleftright.svg</iconUpDownLeftRight>
+      <iconUpDown>./../../art/icons/psxlegacy/updown.svg</iconUpDown>
+      <iconLeftRight>./../../art/icons/psxlegacy/leftright.svg</iconLeftRight>		  
+    </helpsystem>
+	</view>
+</theme>
+
+
+

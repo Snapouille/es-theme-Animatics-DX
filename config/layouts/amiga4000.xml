@@ -3,14 +3,16 @@
   
   
   
-  <view name="detailed">
+  <customView name="legendary">
   
 	
 	<image name="ecran_console" extra="static">
+	
 			<path>./../../system/amiga/ecran_console.png</path>
 			<origin>0.5 0.5</origin>
 			<size>0.2979167 0.4916667</size>									
-			<pos>0.7005208 0.4171296</pos>									
+			<pos>0.7005208 0.4271296</pos>
+			<pos ifHelpPrompts="false">0.7005208 0.4471296</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
@@ -33,7 +35,8 @@
   
 		<video name="md_video">
 			<size>0.2286458 0.3055556</size>									
-			<pos>0.7007813 0.3824074</pos>									
+			<pos>0.7007813 0.3924074</pos>	
+			<pos ifHelpPrompts="false">0.7007813 0.4124074</pos>
 				<storyboard event="open">
 					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
@@ -50,8 +53,9 @@
 		
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-<size>0.2286458 0.3055556</size>									
-<pos>0.7007813 0.3824074</pos>									
+			<size>0.2286458 0.3055556</size>									
+			<pos>0.7007813 0.3924074</pos>
+			<pos ifHelpPrompts="false">0.7007813 0.4124074</pos>
 				<storyboard event="open">
 					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
@@ -103,7 +107,5 @@
 	
 	
 	
-   </view>
-  
-  
-</theme>
+   </customView>       
+   </theme>

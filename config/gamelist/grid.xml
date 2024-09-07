@@ -10,11 +10,54 @@ originally based on: "carbon"
    
 <view name="grid">
  
-	<image name="background">
-	  <path>./../../art/divers/bg.png</path>
-	  <color>${backgroundColor}</color>
-	  <zIndex>5</zIndex>
-	</image>
+	<helpsystem name="help">
+		<iconColor>${baseColor}</iconColor>
+		<fontSize>0.028</fontSize>
+		<pos>0.009 0.955</pos>
+	</helpsystem>  
+
+	
+     <image name="background-art" extra="true">
+		<path>{game:fanart}</path>
+		<pos>0.5 0.5</pos>
+		<minSize>1 1</minSize>
+		<origin>0.5 0.5</origin>
+		<color>000000</color>
+		<colorEnd>727272</colorEnd>
+		<gradientType>vertical</gradientType>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>3</zIndex>
+		<default>${themePath}/system/${system.theme}/background.png</default>
+		<default>${themePath}/system/${system.theme}/background.jpg</default>
+		<default>${themePath}/system/${system.theme}/background-grid.jpg</default>
+    </image>
+
+     <image name="background-art" ifSubset="backgroundDisplay:legacy" extra="true">
+		<path>${themePath}/system/${system.theme}/background.png</path>
+		<path>${themePath}/system/${system.theme}/background.jpg</path>
+		<path>${themePath}/system/${system.theme}/background-grid.jpg</path>
+    </image>
+	
+     <image name="background-art" ifSubset="backgroundDisplay:retro" extra="true">
+		<path>${themePath}/art/divers/bg.png</path>
+    </image>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	<image name="topLine, logo, cadre">
 		<visible>false</visible>
@@ -727,7 +770,7 @@ originally based on: "carbon"
 	
 	
 	<image name="md_image">
-			<default>./../../art/divers/mediamissing.png</default>
+			<!-- <default>./../../art/divers/mediamissing.png</default> -->
 			<origin>0.5 0.5</origin>
 			<pos>0.8567708 0.1986111</pos>									
 			<maxSize>0.2145833 0.2712963</maxSize>									

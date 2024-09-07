@@ -634,6 +634,10 @@
 	  <text name="systemInfoEx" extra="true">
         <alignment>left</alignment>
 		<pos>0.07 0.68</pos>
+		
+		<pos ifHelpPrompts="false">0.07 0.725</pos>
+		
+		
 		<zIndex>10</zIndex>
 		<storyboard>
 				<animation property="zIndex" from="10" to="30" begin="900" mode="linear"/>

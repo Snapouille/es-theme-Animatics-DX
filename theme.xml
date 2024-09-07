@@ -7,8 +7,9 @@ license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
 <theme defaultView="detailed">
-  <formatVersion>7</formatVersion>
-  <variables>
+<formatVersion>7</formatVersion>
+
+<variables>
     <baseColor>8b0000</baseColor>
     <gradientEndColor>6b2020</gradientEndColor>
     <centerFadeColor>8b000050</centerFadeColor>
@@ -36,14 +37,11 @@ originally based on: "carbon"
 	<systembackground.snap>Avatar animation</systembackground.snap>
 	<systembackground.carboncontrol>Carbon Controller</systembackground.carboncontrol>
 	<systembackground.randomvideo>Random Video</systembackground.randomvideo>
-	<systembackground.fanart>Fanart</systembackground.fanart>
+	<systembackground.fanart>Random Fanart</systembackground.fanart>
     <optimizesmallscreensSubsetName>Optimize for small screens</optimizesmallscreensSubsetName>
     <helpSubsetName>Help icons</helpSubsetName>
     <systemViewName>System view</systemViewName>
-    <systemview.darkened>darkened</systemview.darkened>
     <systemview.horizontal>horizontal</systemview.horizontal>
-    <systemview.legacy>legacy</systemview.legacy>
-    <systemview.transparent>transparent</systemview.transparent>
     <systemview.simple>simple</systemview.simple>
     <systemview.vertical>vertical</systemview.vertical>
     <systemview.wheel>wheel</systemview.wheel>
@@ -54,9 +52,14 @@ originally based on: "carbon"
 	<InfoCustomView>Infos / Statistics</InfoCustomView>
     <subset.shader>Shader</subset.shader>
     <glowSubsetName>Glow selection</glowSubsetName>
+	<!-- Bouttons d'aide ------------------------------------------------->
     <helpbuttons>Button location</helpbuttons>
     <xboxbuttons>Xbox buttons</xboxbuttons>
+    <xboxbuttonslegacy>Xbox buttons legacy</xboxbuttonslegacy>
     <psxbuttons>Playstation buttons</psxbuttons>
+    <psxbuttonslegacy>Playstation buttons legacy</psxbuttonslegacy>
+    <arcadebuttons>Arcade buttons</arcadebuttons>
+	<!-- --------------- ------------------------------------------------->
     <marquee>marquee</marquee>
     <image>image</image>
     <text>text</text>
@@ -82,37 +85,26 @@ originally based on: "carbon"
 	<gamelistFont>Gamelist: Typo</gamelistFont>
 	<gamelistFontSize>Gamelist: font size</gamelistFontSize>
 	<gamelistLines>Gamelist: Number of lines</gamelistLines>
-	<fanart.Display>Background Fanart View</fanart.Display>
+	<background.Display>Background Display</background.Display>
 	<descriptionFontSize>Description font size</descriptionFontSize>
 	<boxback.Display>Boxback</boxback.Display>
 	
-	
-	<!-- variables qui ajoute un tiret si l'année est supérieur à 1958
-		le signe &gt correspond à >
-		variable utilisé dans l'affichage système en vue Grid -->	
-	<va.dash.year if="${system.releaseYear} &gt; '1958'">-</va.dash.year>
-	
-	<!-- !!! !!! TRADUCTION A FAIRE !!! !!! -->
 	<fanartOpacity>Fanart overlay Opacity</fanartOpacity>
 	<gamelistOpacity>Gamelist Opacity</gamelistOpacity>
-	<rvgm.Ambiance>Ambiance RVGM views</rvgm.Ambiance>
-	
+	<background.Ambience>Background Ambience</background.Ambience>
+	<dark>Dark</dark>
+	<light>Light</light>
 	<GameNumber>Game</GameNumber>
 	<GamesNumber>Games</GamesNumber>
-	
 	<GamesFavs>Favorites</GamesFavs>
 	<NumberPlayed>Played</NumberPlayed>	
 	<theme.mostplayed>Most played:</theme.mostplayed>	
-	
 	<theme.lastplayedLabel>Last Played: </theme.lastplayedLabel>
 	<theme.timesPlayedLabel>Times Played: </theme.timesPlayedLabel>
 	<theme.gameTimeLabel>Game Time: </theme.gameTimeLabel>	
-	
-	
 	<subset.Grid_View_Size>Grid view : Size</subset.Grid_View_Size>
 	
-		
-  </variables>
+</variables>
   
   
   
@@ -350,6 +342,7 @@ originally based on: "carbon"
 	<include name="carbon control" displayName="${systembackground.carboncontrol}">./config/system/systembackground/carboncontrollers.xml</include>
     <include name="random video" displayName="${systembackground.randomvideo}">./config/system/systembackground/video.xml</include>
     <include name="random box" displayName="${systembackground.fanart}">./config/system/systembackground/fanart.xml</include>
+    <include name="random video + fanart" displayName="${systembackground.videofanart}">./config/system/systembackground/videofanart.xml</include>
 </subset>
   
 
@@ -397,25 +390,6 @@ originally based on: "carbon"
 	<include name="retropie" displayName="Retropie" />
 	<include name="animatics-dx" displayName="Animatics-DX" />
 </subset>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -557,9 +531,10 @@ originally based on: "carbon"
 </view>
 
 
+
 <include>./config/system/system.xml</include>
 <include>./config/system/user.xml</include>
-<include>./config/gamelist/gameinfobar.xml</include>
+<!-- <include>./config/gamelist/gameinfobar.xml</include> -->
 <include>./config/colorset/color-options.xml</include>
 
 <include>./system/infos/${system.theme}.xml</include>
@@ -570,12 +545,20 @@ originally based on: "carbon"
 
 <!-- Subset options for help -->
   <subset name="helpsystem" displayName="${helpSubsetName}">
+    <!-- <include name="standard" displayName="${gray}">./config/help/default.xml</include> -->
+    <include name="colored" displayName="${colored}">./config/help/colorhelp.xml</include>
     <include name="buttons" displayName="${helpbuttons}">./config/help/buttons.xml</include>
     <include name="xboxbuttons" displayName="${xboxbuttons}">./config/help/xboxbuttons.xml</include>
+    <include name="xboxbuttonslegacy" displayName="${xboxbuttonslegacy}">./config/help/xboxbuttonslegacy.xml</include>
     <include name="psxbuttons" displayName="${psxbuttons}">./config/help/psxbuttons.xml</include>
-    <include name="colored" displayName="${colored}">./config/help/colorhelp.xml</include>
-    <include name="standard" displayName="${gray}">./config/help/default.xml</include>
+    <include name="psxbuttonslegacy" displayName="${psxbuttonslegacy}">./config/help/psxbuttonslegacy.xml</include>
+    <include name="arcadebuttons" displayName="${arcadebuttons}">./config/help/arcadebuttons.xml</include>
   </subset>
+  
+  
+  
+  
+  
   
 <!-- Subset options for screen -->
   <subset name="shader" displayName="${subset.shader}">
@@ -589,33 +572,37 @@ originally based on: "carbon"
 	
 	
 	<!-- Choix d'afficher les fanarts ou non -->
-	<subset name="fanartDisplay" displayName="${fanart.Display}" appliesTo="detailed, video, rvgm">
-			<include name="Show" displayName="${show}"/>
-			<include name="Hide" displayName="${hide}"/>
+	<subset name="backgroundDisplay" displayName="${background.Display}" appliesTo="detailed, rvgm, videofull, primacy">
+			<include name="auto" displayName="${auto}"/>
+			<include name="legacy" displayName="${legacy}"/>
+			<include name="fanart" displayName="${fanart}"/>
+			<include name="retro" displayName="${retro}"/>
 	</subset>
 	
 	
 	<!-- Choix de l'ambiance des vues RVGM entre sombre ou clair -->
-	<subset name="rvgmAmbiance" displayName="${rvgm.Ambiance}" appliesTo="rvgm-the-new-order, rvgm-legacy">
+	<subset name="backgroundAmbience" displayName="${background.Ambience}" appliesTo="detailed, rvgm, videofull">
 			<include name="Dark" displayName="${dark}"/>
 			<include name="Light" displayName="${light}"/>
 	</subset>
 	
 
 	<!-- Choix d'afficher les boxback ou non -->
-	<subset name="boxbackDisplay" displayName="${boxback.Display}" appliesTo="video, rvgm">
+	<subset name="boxbackDisplay" displayName="${boxback.Display}" appliesTo="detailed, rvgm, videofull, primacy">
 			<include name="Show" displayName="${show}"/>
 			<include name="Hide" displayName="${hide}"/>
 	</subset>
 
 	
-	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="detailed, video, rvgm">
+	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="detailed, rvgm, videofull">
         <include name="auto"/>
 		<include name="ubuntu"/>
 		<include name="ubuntu-bold"/>
+		<include name="barlow"/>
+		<include name="charge-vector"/>
         <include name="flatwheat"/>
     </subset>
-	<subset name="gamelistLines" displayName="${gamelistLines}" appliesTo="detailed, video, rvgm">
+	<subset name="gamelistLines" displayName="${gamelistLines}" appliesTo="detailed, rvgm, videofull, primacy">
         <include name="auto"/>
         <include name="9"/>
         <include name="11"/>
@@ -628,7 +615,7 @@ originally based on: "carbon"
         <include name="25"/>
 		<include name="27"/>
     </subset>
-    <subset name="gamelistFontSize" displayName="${gamelistFontSize}" appliesTo="detailed, video, rvgm">
+    <subset name="gamelistFontSize" displayName="${gamelistFontSize}" appliesTo="detailed, rvgm, videofull, primacy">
         <include name="auto"/>
 		<include name="0.017"/>
         <include name="0.018"/>
@@ -655,14 +642,15 @@ originally based on: "carbon"
         <include name="0.039"/>
         <include name="0.040"/>
     </subset>
-    <subset name="descriptionFontSize" displayName="${descriptionFontSize}" appliesTo="video, rvgm">
+    <subset name="descriptionFontSize" displayName="${descriptionFontSize}" appliesTo="detailed, rvgm, videofull">
         <include name="auto"/>
-		<include name="0.017"/>
-        <include name="0.019"/>
-        <include name="0.020"/>
-        <include name="0.023"/>
+		<include name="mini"/>
+        <include name="small"/>
+        <include name="medium"/>
+        <include name="large"/>
+        <include name="maxi"/>
     </subset>
-    <subset name="fanartOpacity" displayName="${fanartOpacity}" appliesTo="video, rvgm">
+    <subset name="fanartOpacity" displayName="${fanartOpacity}" appliesTo="detailed, rvgm, videofull">
         <include name="auto"/>
         <include name="100 %"/>
         <include name="90 %"/>
@@ -674,8 +662,9 @@ originally based on: "carbon"
         <include name="30 %"/>
         <include name="20 %"/>
         <include name="10 %"/>
+        <include name="0 %"/>
     </subset>
-    <subset name="gamelistOpacity" displayName="${gamelistOpacity}" appliesTo="video, rvgm">
+    <subset name="gamelistOpacity" displayName="${gamelistOpacity}" appliesTo="detailed, rvgm, videofull">
         <include name="auto"/>
         <include name="100 %"/>
         <include name="90 %"/>
@@ -691,42 +680,25 @@ originally based on: "carbon"
 
 	
 	<!-- Views  -->
-  <include>./config/gamelist/common.xml</include>
-  <include>./config/gamelist/basic.xml</include>
-  <include>./config/gamelist/gamecarousel.xml</include>
-  <include>./config/gamelist/detailed.xml</include>
-  <include>./config/gamelist/video.xml</include>
-  <include>./config/gamelist/grid.xml</include>
-  <include>./config/gamelist/rvgm_the_new_order.xml</include>
-  <include>./config/gamelist/rvgm_legacy.xml</include>
-  <include>./config/gamelist/boxes_big.xml</include>
-  <include>./config/gamelist/boxes_medium.xml</include>
-  <include>./config/gamelist/boxes_small.xml</include>
-  <include>./config/gamelist/fanart.xml</include>
-	
-    
+	<include>./config/gamelist/common.xml</include>
+	<include>./config/gamelist/detailed.xml</include>
+	<include>./config/gamelist/gamecarousel.xml</include>
+	<include>./config/gamelist/grid.xml</include>
+	<!-- Custom Views  -->
+	<include>./config/gamelist/legendary.xml</include>
+	<include>./config/gamelist/primacy.xml</include>
+	<include>./config/gamelist/videofull.xml</include>
+	<include>./config/gamelist/fanart.xml</include>
+	<include>./config/gamelist/rvgm.xml</include>
+	<include>./config/gamelist/boxes_big.xml</include>
+	<include>./config/gamelist/boxes_medium.xml</include>
+	<include>./config/gamelist/boxes_small.xml</include>
+
+
 	<!-- Specific layout for systems -->
 	<include>./config/layouts/${system.theme}.xml</include>
-<!-- Layout when help is disabled -->
+	<!-- Layout when help is disabled -->
 	<include ifHelpPrompts="false">./config/layouts/nohelp.xml</include>
 	
-	
-	
-<!-- Fond qui défile-->
-  <!-- <view name="system"> -->
-	<!-- <image name="bgsky" extra="static"> -->
-      <!-- <pos>1 0.324</pos> -->
-      <!-- <size>0 0</size> -->
-      <!-- <origin>0.5 0.5</origin> -->
-      <!-- <path>./art/divers/bgsky.png</path> -->
-	  <!-- <color>AAAAAA</color> -->
-      <!-- <zIndex>10</zIndex> -->
-      <!-- <storyboard repeat="forever"> -->
-            <!-- <animation property="x" from="1" to="0" begin="" duration="80000" mode="Linear" autoReverse="true"/> -->
-			<!-- <animation property="y" from="0.324" to="-0.07" begin="" duration="80000" mode="Linear" autoReverse="true"/> -->
-	  <!-- </storyboard>	  	   -->
-    <!-- </image> -->
-  <!-- </view> -->
-  
   
 </theme>

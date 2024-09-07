@@ -5,11 +5,10 @@
   
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
-
-<path>./../../system/alphadenshi/ecran_console.png</path>
+		<path>${themePath}/system/alphadenshi/ecran_console.png</path>
 		<size>0.3255208 0.6342593</size>									
-<pos>0.5132813 0.6197222</pos>									
-									
+		<pos>0.5132813 0.6197222</pos>									
+		<pos ifHelpPrompts="false">0.5132813 0.6897222</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -31,11 +30,11 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<pos>0.5132813 0.6725</pos>									
-<maxSize>0.1828125 0.2509259</maxSize>									
+		<pos>0.5132813 0.6725</pos>		
+		<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
+		<maxSize>0.1828125 0.2509259</maxSize>									
 
 		<zIndex>30</zIndex>
-
 	  
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -56,8 +55,9 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.1828125 0.2509259</size>																
-<pos>0.5132813 0.6725</pos>																
+		<size>0.1828125 0.2509259</size>																
+		<pos>0.5132813 0.6725</pos>		
+		<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -78,7 +78,8 @@
 		<path>./../../art/logos/${system.theme}.png</path>
 		<origin>0.5 0.5</origin>
 		<maxSize>0.25 0.10</maxSize>									
-		<pos>0.5122396 0.3891667</pos>									
+		<pos>0.5122396 0.3891667</pos>
+		<pos ifHelpPrompts="false">0.5122396 0.4591667</pos>									
 		<zIndex>33</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -101,19 +102,14 @@
 	<text name="md_description">
 	  <size>0.53 0.088</size> <!-- 3 lignes -->
 	</text>
-	
-	
-	
-	
-
 
 	
 </view>
 
 
-    
   
-    <view name="detailed">
+  
+    <customView name="legendary">
   
 		 
 	
@@ -143,19 +139,18 @@
 			<path>./../../system/alphadenshi/ecran_console.png</path>
 			<pos>0.61 0.01</pos>
 			<scale>1</scale>
-			<path>./../../system/alphadenshi/ecran_console.png</path>
-		<size>0.3255208 0.6342593</size>									
+			<size>0.3255208 0.6342593</size>									
 									
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.61" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="x" to="0.61" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -173,11 +168,11 @@
 
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.7726563" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7726563" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -193,11 +188,11 @@
 		 
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.7575521" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7575521" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -356,6 +351,5 @@
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>         
+   </theme>

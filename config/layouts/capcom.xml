@@ -112,7 +112,7 @@
 
     
   
-  <view name="detailed">
+  <customView name="legendary">
   
 	<!-- On masque le logo et le cadre du logo car on la deja dans le MARQUEE du bartop 
 		     On repositionne aussi un peu les logos des jeux à l'aparition avant le slide vers la gauche -->
@@ -359,6 +359,4 @@
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>           </theme>

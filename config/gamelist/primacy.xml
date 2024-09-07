@@ -3,42 +3,47 @@
 <formatVersion>7</formatVersion>
 
 
-  <view name="basic">
-  
-	<helpsystem name="help">
-		<iconColor>FFFFFF</iconColor>
-		<fontSize>0.02</fontSize>
-		<pos>0.005 0.975</pos>
-		<fontPath>${themePath}/art/fonts/ubuntu.ttf</fontPath>
-	</helpsystem>  
+<customView name="primacy" inherits="detailed" displayName="${primacyview}">
 
-     <image name="bg_fanart" extra="true">
-		<path>exists({game:fanart}) ? {game:fanart} : 0</path>
-		<!-- <autoFade>false</autoFade> -->
-		<pos>0.5 0.5</pos>
-		<minSize>1 1</minSize>
-		<origin>0.5 0.5</origin>
-		<color>FFFFFFDD</color>
+	<image name="bg-infos, border-info-top, border-info-bottom, border-info-left, border-info-right, frame_barreAnim, icon-pads, md_marquee, overlay_fixe, overlay_fanart_fixe, overlay_fanart, overlay_gamelist, triangle-rvgm-haut, triangle-rvgm-bas,
+					rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon, md_flag"> 
+		<visible>false</visible>
+	</image>
+	
+    <screenshader name="bg-infos-blur" extra="true">
+		<visible>false</visible>
+    </screenshader>
+	
+	<text name="md_description, md_developer, md_publisher, md_genre, md_playcount,	md_gametime">
+		<visible>false</visible>
+	</text>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<visible>false</visible>
+	</datetime>
+
+	<rating name="md_rating">
+		<visible>false</visible>
+	</rating>
+	
+     <image name="background-art" extra="true">
+		<!-- <color>FFFFFFDD</color> -->
+		<color>727272</color>
 		<colorEnd>000000</colorEnd>
 		<gradientType>vertical</gradientType>
-		<linearSmooth>true</linearSmooth>
-		<zIndex>2</zIndex>
-		<default>${themePath}/system/${system.theme}/background.png</default>
-		<default>${themePath}/system/${system.theme}/background.jpg</default>
-		<default>${themePath}/system/${system.theme}/background-grid.jpg</default>
     </image>
 
     <textlist name="gamelist">
+	  <origin>0 0</origin>									
       <pos>0.3 0.6</pos>
-      <size>0.6 0.35</size>
-      <lines>13</lines>
+	  <pos ifHelpPrompts="false">0.3 0.63</pos>	
+      <size>0.68 0.35</size>
       <horizontalMargin>0.005</horizontalMargin>
       <scrollbarColor>transparent</scrollbarColor>
       <itemTemplate>
         <image name="selectionBackground">
           <path>${themePath}/art/divers/white.png</path>
           <color>transparent</color>
-		  
           <roundCorners>4</roundCorners>
           <storyboard event="activate">
             <animation property="color" to="${backgroundColor}"/>
@@ -66,7 +71,7 @@
                 <animation property="singleLineScroll" to="false"/>
               </storyboard>
             </text>
-            <text name="genreId" pos="0.51 0" size="0.15 1">
+            <text name="genreId" pos="0.51 0" size="0.20 1">
               <text>  {game:genre}  </text>
               <verticalAlignment>center</verticalAlignment>
               <alignment>left</alignment>
@@ -84,7 +89,7 @@
                 <animation property="singleLineScroll" to="false"/>
               </storyboard>
             </text>
-            <text name="starsId" pos="0.67 0" size="0.1 1">
+            <text name="starsId" pos="0.72 0" size="0.1 1">
               <text>{game:stars}</text>
               <verticalAlignment>center</verticalAlignment>
               <alignment>left</alignment>
@@ -100,7 +105,7 @@
                 <animation property="singleLineScroll" to="false"/>
               </storyboard>
             </text>
-            <text name="developerId" pos="0.77 0" size="0.22 1">
+            <text name="developerId" pos="0.82 0" size="0.22 1">
               <text>{game:developer}</text>
               <verticalAlignment>center</verticalAlignment>
               <alignment>left</alignment>
@@ -118,54 +123,87 @@
                 <animation property="singleLineScroll" to="false"/>
               </storyboard>
             </text>
-			
           </container>
         </image>
       </itemTemplate>
     </textlist>
 
-	<video name="PreviewVid" extra="true">				
-		<path>{game:video}</path>
-		<delay>0</delay>
-		<origin>0.5 0.5</origin>
-		<pos>0.88 0.4</pos>
-		<maxSize>0.2 0.35</maxSize>
-		<zIndex>10</zIndex>
-		<effect>none</effect>
-	  <shader>
-        <path>:/shaders/border.glsl</path>
-		<borderSize>0.01</borderSize>
-		<borderColor>${baseColor}</borderColor>
-        <innerShadowSize>0.01</innerShadowSize>
-        <innerShadowColor>00000030</innerShadowColor>
-        <!-- <outerShadowSize>0.020</outerShadowSize> -->
-        <!-- <outerShadowColor>00000050</outerShadowColor> -->
-      </shader>
-	</video>
+
+	<image name="md_image"> 
+		<size>0.238 0.3</size>									
+		<pos>0.861 0.423</pos>
+
+		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3 0.3</size>									
+		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.83 0.423</pos>									
+		
+		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
+		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
+		
+		<size if="{system.theme} == 'pokemini'">0.252 0.3</size>									
+		<pos  if="{system.theme} == 'pokemini'">0.854 0.423</pos>	
+		
+		<size if="{system.theme} == 'nds' ">0.1125 0.3</size>					
+		<pos  if="{system.theme} == 'nds' ">0.9235 0.423</pos>		
+
+		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.177 0.3</size>									
+		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.891 0.423</pos>
+
+		<size if="{system.theme} == 'auto-verticalarcade' ">0.144 0.3</size>									
+		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.9077 0.423</pos>	
+
+		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>	
+		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>		
+	</image>
+
+	<video name="md_video">
+		<size>0.238 0.3</size>									
+		<pos>0.861 0.423</pos>
+		
+		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3 0.3</size>									
+		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.83 0.423</pos>									
+		
+		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
+		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
+		
+		<size if="{system.theme} == 'pokemini'">0.252 0.3</size>									
+		<pos  if="{system.theme} == 'pokemini'">0.854 0.423</pos>	
+		
+		<size if="{system.theme} == 'nds' ">0.1125 0.3</size>									
+		<pos  if="{system.theme} == 'nds' ">0.9235 0.423</pos>		
+
+		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.177 0.3</size>									
+		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.891 0.423</pos>	
+
+		<size if="{system.theme} == 'auto-verticalarcade' ">0.144 0.3</size>									
+		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.9077 0.423</pos>	
+
+		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>		
+		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>		
+	</video>	
+
 	
-	<image name="BoxesThumbnail" extra="true">				
-		<path>{game:thumbnail}</path>
-		<origin>0.5 0.5</origin>									
-		<pos>0.157 0.682</pos>									
-		<maxSize>0.25 0.548</maxSize>
+	<image name="thumbnail_ID" extra="true">				
+		<pos>0.157 0.662</pos>	
+		<pos ifHelpPrompts="false">0.157 0.682</pos>	
+		<maxSize>0.25 0.588</maxSize>
+		<maxSize ifHelpPrompts="false">0.25 0.608</maxSize>
 		<verticalAlignment>bottom</verticalAlignment>
 		<!-- <horizontalAlignment>right</horizontalAlignment> -->
-		<zIndex>10</zIndex>
 		<!-- <default>${themePath}/art/divers/noboxart.png</default> -->
 	  <shader>
         <path>:/shaders/border.glsl</path>
-        <!-- <cornerRadius>0.03</cornerRadius> -->
 		<borderSize>0.001</borderSize>
 		<borderColor>000000</borderColor>
-        <innerShadowSize>0.01</innerShadowSize>
-        <innerShadowColor>00000030</innerShadowColor>
         <outerShadowSize>0.020</outerShadowSize>
         <outerShadowColor>00000050</outerShadowColor>
       </shader>		
 	</image>
 	
-	
-	
+    <image name="boxback_ID" ifSubset="boxbackDisplay:Show" extra="true">
+		<pos>0.157 0.682</pos>									
+		<maxSize>0.25 0.548</maxSize>
+		<verticalAlignment>bottom</verticalAlignment>
+	</image>
 	
 	
 	
@@ -248,10 +286,6 @@
 	</text> 
 	
 	
-	
-	
-	
-	
 	<image name="manufacturer-icon" extra="true">
 		<color>FFFFFF</color>
 		<size>0.0119792 0.0212963</size>									
@@ -305,8 +339,6 @@
 		<path>${themePath}/art/icons/rvgm-playcount-icon.png</path>
 	</image>
 	
-	
-	
 	<text name="gameInfoEx, gameInfoEx2, gameInfoExNull, game-lastplayed" extra="true">
 		<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
 		<fontSize>0.025</fontSize>
@@ -319,7 +351,6 @@
 		<visible>true</visible>  
 	</text>
 
-	
 	<text name="gameInfoEx" extra="true">
          <text>'' + '${theme.timesPlayedLabel}' + ' ' + {game:playcount} + '    -    ' + '${theme.gameTimeLabel}' + ' ' + {game:gametime}.expandseconds() + '' </text>
          <visible>{game:gametime} &gt; 0 ? 1 : 0</visible>
@@ -363,15 +394,6 @@
       </control>
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 <!-- encadrement du controller ou de la ControllerFrame en haut à droite	 -->
 	<image name="ControllerFrame-top, ControllerFrame-bottom, ControllerFrame-bottom2, ControllerFrame-left, ControllerFrame-right, ControllerFrame-line
 				 ControllerFrame-Bg, ControllerFrame-blur, ControllerFrame-BgMaxController" extra="true">
@@ -380,8 +402,6 @@
         <color>${baseColor}</color>
 		<zIndex>18</zIndex>
 	</image>
-	
-	
 	
 	
 	<image name="ControllerFrame-top" extra="true">
@@ -427,77 +447,83 @@
 		<blur>6</blur>
     </screenshader>
 	
-	
-
-	<image name="ControllerFrame-BgMaxController" extra="true">
-		<tile>false</tile>
-		<pos>0.8997396 0.1208333</pos>									
+	<image name="controller2" extra="true">
+		<pos>0.8997396 0.122</pos>	
+		<y if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == '3ds' || {system.theme} == 'xbox360' ">0.122</y>									
 		<maxSize>0.1442708 0.1324074</maxSize>									
-		<zIndex>19</zIndex>
-		<color>FFFFFF</color>
-		<linearSmooth>true</linearSmooth>
 		<horizontalAlignment>center</horizontalAlignment>
-			<path>${themePath}/art/controllers2/default.png</path>
-			<path>${themePath}/art/controllers2/${system.theme}.png</path>
-			<path ifSubset="artworkregion:us">${themePath}/art/controllers2/us/${system.theme}.png</path>
-			<path ifSubset="artworkregion:jp">${themePath}/art/controllers2/jp/${system.theme}.png</path>
-			<!-- si COLLECTION on affiche le systeme au lieu de la manette -->
-			<path if="${system.manufacturer} == 'Collections'">${themePath}/art/consoles/{game:system}.png</path>
-		<opacity>1</opacity>
-		<scale>1</scale>
-		
-		<!-- ANIMATION NON PRIS EN COMPTE DANS UNE VUE BASIC -->
-		
-		<!-- <storyboard event="open"> -->
-			<!-- <animation property="opacity" to="1" begin="600" duration="300" mode="Linear"/> -->
-			<!-- <animation property="scale" to="1" begin="600" duration="300" mode="Linear"/> -->
-		<!-- </storyboard> -->
-		
-		<!-- <storyboard event="activate"> -->
-			<!-- <animation property="opacity" to="1" begin="" duration="1" mode="Linear"/> -->
-			<!-- <animation property="scale" to="1" begin="" duration="1" mode="Linear"/> -->
-			<!-- <animation property="offsetY" to="0.002" begin="200" duration="150" autoreverse="true" mode="Linear"/> -->
-		<!-- </storyboard> -->
-		
-		<!-- <storyboard event="deactivate"> -->
-		   <!-- <animation property="opacity" to="0" duration="1" mode="linear"/> -->
-		<!-- </storyboard> -->
     </image>
 	
+	<text name="md_players">
+		<size>0.2822917 0.0601852</size>									
+		<pos>0.5 0.313</pos>
+		<color ifSubset="backgroundAmbience:Light">C0C0C0</color>
+		<alignment>right</alignment>
+		<fontSize>0.042</fontSize>
+		<zIndex>55</zIndex>
+	</text>
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<image name="logo">
-			<path>${themePath}/art/logos/${system.theme}.png</path>
-			<path>${themePath}/art/logos/${system.theme}-${lang}.png</path>
-			<path ifSubset="artworkregion:us">${themePath}/art/logos/us/${system.theme}.png</path>
-			<path ifSubset="artworkregion:jp">${themePath}/art/logos/jp/${system.theme}.png</path>
+	<image name="logo">
+		<path>${themePath}/art/logos/${system.theme}.png</path>
+		<path>${themePath}/art/logos/${system.theme}-${lang}.png</path>
+		<path ifSubset="artworkregion:us">${themePath}/art/logos/us/${system.theme}.png</path>
+		<path ifSubset="artworkregion:jp">${themePath}/art/logos/jp/${system.theme}.png</path>
 
-			<origin>0.5 0.5</origin>									
-			<pos>0.7335938 0.0824074</pos>									
-			<maxSize>0.1453125 0.0592593</maxSize>									
-							
-			<scale>1</scale>
-			<linearSmooth>true</linearSmooth>
-			<alignment>center</alignment>
-			<zIndex>102</zIndex>
-		</image>
+		<origin>0.5 0.5</origin>									
+		<pos>0.734375 0.074537</pos>									
+		<maxSize>0.157 0.076</maxSize>									
+						
+		<scale>1</scale>
+		<linearSmooth>true</linearSmooth>
+		<alignment>center</alignment>
+		<zIndex>102</zIndex>
+	</image>
 	
+	
+	<!-- ----------------------------------------------	 -->
+	<!-- Encadrement du logo des systèmes                -->
+	<!-- ----------------------------------------------	 -->
+	
+	<image name="logo_gauche1, logo_droit1, logo_haut1, logo_bg, logo_bg1, logo_bg2" extra="true">
+		<path>${themePath}/art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>18</zIndex>
+		<origin>0.5 0.5</origin>
+	</image>
+		
+	<image name="logo_gauche1" extra="true">
+		<size>0.0015625 0.0166667</size>									
+		<pos>0.6408854 0.037963</pos>									
+	</image>
+	
+	<image name="logo_droit1" extra="true">
+		<size>0.0015625 0.0166667</size>									
+		<pos>0.8278646 0.037963</pos>									
+	</image>
+	
+	<image name="logo_haut1" extra="true">
+		<size>0.1885417 0.0027778</size>									
+		<pos>0.734375 0.0282407</pos>									
+	</image>
+	
+	<!-- black au fond -->
+    <image name="logo_bg, logo_bg1, logo_bg2">
+      <path>${themePath}/art/divers/black.png</path>
+	  <opacity>0.9</opacity>
+      <zIndex>15</zIndex>
+    </image>
+    <image name="logo_bg" extra="true">
+		<size>0.1697917 0.0898148</size>									
+		<pos>0.734375 0.074537</pos>									
+    </image>
+    <image name="logo_bg1" extra="true">
+		<size>0.0078125 0.0166667</size>									
+		<pos>0.6455729 0.037963</pos>									
+    </image>
+    <image name="logo_bg2" extra="true">
+		<size>0.0078125 0.0157407</size>									
+		<pos>0.8231771 0.0375</pos>									
+    </image>
 	
 	
 	
@@ -514,9 +540,6 @@
 		<color>dddddd</color>
 		<zIndex>150</zIndex>
 	</image>
-	
-	
-	
 	
 	
 <image name="md_manual,md_nomanual, ghost_manual">
@@ -551,11 +574,9 @@
 		<color>ff0000</color>
 	</image>
 
-
 	<image name="md_nomanual, md_nosavestate, md_notkidgame, md_nomap, md_notcheevos">
 		<color>80808040</color>
 	</image>
-
 
 <!-- pour contrer le bug que l'icone parfois disparaît sans raison .... -->
 	<image name="ghost_manual, ghost_savestate, ghost_kidgame, ghost_md_map, ghost_cheevos, ghost_hidden" extra="true">
@@ -579,12 +600,6 @@
 	</image>	
 	
 	
-	
-	
-	
-	
-	
-	
-  </view>
+ </customView>
      
 </theme>

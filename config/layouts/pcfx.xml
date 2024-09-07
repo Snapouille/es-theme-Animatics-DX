@@ -7,7 +7,8 @@
 		<origin>0.5 0.5</origin>									
 		<path>./../../art/screen/matsui.png</path>
 		<size>0.3630208 0.4777778</size>									
-		<pos>0.4484896 0.6324074</pos>									
+		<pos>0.4734896 0.6324074</pos>
+		<pos ifHelpPrompts="false">0.4734896 0.6824074</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<opacity>0</opacity>
@@ -22,41 +23,22 @@
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
 			</storyboard>
-				
 	</image>
   
   
 	<image name="Consoles" extra="static">
-		<path>./../../art/consoles/${system.theme}.png</path>
-		<path>./../../art/consoles/${system.theme}.svg</path>
-		<path ifSubset="artworkregion:US">./../../art/consoles/US/${system.theme}.png</path>
-		<path ifSubset="artworkregion:JP">./../../art/consoles/JP/${system.theme}.png</path>
-		<linearSmooth>true</linearSmooth>
-		<origin>0.5 0.5</origin>									
-		<maxSize>0.3408333 0.2959259</maxSize>									
-		<pos>0.6710417 0.7755556</pos>	
-		<opacity>0</opacity>		
-		<zIndex>16</zIndex>
-		  <storyboard event="open">
-				<animation property="offsetX" to="0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="" mode="linear"/>
-			</storyboard>
-
+		<visible>true</visible>
+		<scale>1.2</scale>
+		<pos>0.6460417 0.8205556</pos>	
+		<pos ifHelpPrompts="false">0.6460417 0.8705556</pos>
     </image>
 
 
 	
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-		<pos>0.4447604 0.6018519</pos>									
+		<pos>0.4697604 0.6018519</pos>	
+		<pos ifHelpPrompts="false">0.4697604 0.6518519</pos>
 		<maxSize>0.25646875 0.3333333</maxSize>										
 
 		<zIndex>11</zIndex>
@@ -79,8 +61,9 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-		<size>0.2546875 0.3333333</size>									
-		<pos>0.4447604 0.6018519</pos>									
+		<size>0.2546875 0.38</size>									
+		<pos>0.4697604 0.6018519</pos>
+		<pos ifHelpPrompts="false">0.4697604 0.6518519</pos>
 		<zIndex>10</zIndex>
 			<storyboard event="open">
 				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
@@ -95,7 +78,6 @@
 	</image>
 </view>  
   
-  
     
 	
 <customView name="fanart">
@@ -109,11 +91,12 @@
   
   
   
-  <view name="detailed">
+  <customView name="legendary">
   	
 	
 	<image name="ecran_console" extra="static">
-			<pos>0.515 0.17</pos>
+			<pos>0.509 0.18</pos>
+			<pos ifHelpPrompts="false">0.509 0.20</pos>
 			<size>0.4427083 0.525</size>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -121,11 +104,11 @@
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.565" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.554" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.565" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.554" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -134,18 +117,19 @@
 			
 		</image>
   
-  
 		<video name="md_video">
-		  <pos>0.717 0.407</pos>
-		  <size>0.237 0.317</size>
+		  <pos>0.711 0.414</pos>
+		  <pos ifHelpPrompts="false">0.711 0.434</pos>
+		  <size>0.239 0.317</size>
+		  <roundCorners>0.02</roundCorners>
 		  
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.767" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.767" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -156,16 +140,16 @@
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		  <pos>0.717 0.407</pos>
-		  <size>0.237 0.317</size>
-		  
+		  <pos>0.711 0.414</pos>
+		  <pos ifHelpPrompts="false">0.711 0.434</pos>
+		  <size>0.239 0.317</size>
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.767" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.767" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -211,7 +195,4 @@
 	
 	
 	
-   </view>
-  
-  
-</theme>
+   </customView>           </theme>

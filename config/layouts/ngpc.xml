@@ -8,7 +8,7 @@
 
 		<size>0.4322917 0.4768519</size>									
 		<pos>0.4886458 0.6634259</pos>									
-									
+		<pos ifHelpPrompts="false">0.4886458 0.7134259</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -32,7 +32,7 @@
 
 		<size>0.1635417 0.2685185</size>									
 		<pos>0.4886458 0.6407407</pos>									
-
+		<pos ifHelpPrompts="false">0.4886458 0.6907407</pos>
 		<zIndex>30</zIndex>
 
 	  
@@ -56,7 +56,8 @@
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
 		<size>0.1635417 0.2685185</size>									
-		<pos>0.4886458 0.6407407</pos>									
+		<pos>0.4886458 0.6407407</pos>	
+		<pos ifHelpPrompts="false">0.4886458 0.6907407</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -94,7 +95,7 @@
   
   
    
-  <view name="detailed">
+  <customView name="legendary">
   
 		<image name="ecran_console" extra="static">
 			<origin>0.5 0.5</origin>									
@@ -107,11 +108,13 @@
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="offsetY" to="0.28" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.02" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="offsetY" to="0.28" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.02" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -126,11 +129,13 @@
 			<pos>0.6986979 0.4009259</pos>									
 		  
 				<storyboard event="open">
-					<animation property="offsetY" to="0.28" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.02" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="offsetY" to="0.28" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.02" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -145,11 +150,13 @@
 			<pos>0.6986979 0.4009259</pos>									
 		  
 				<storyboard event="open">
-					<animation property="offsetY" to="0.28" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.02" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="offsetY" to="0.28" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.02" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -168,13 +175,13 @@
 		<roundCorners>0.01</roundCorners>
 		
 		<storyboard event="open">
-                <animation property="x" to="0.418" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.413" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.26" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="0.98" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.418" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.413" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.26" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="0.98" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
@@ -186,27 +193,15 @@
 	
 	
 	
-	<text name="md_description">
-		<pos>0.753 0.33</pos>									
-		
-		<storyboard event="open">
-			<animation property="size" to="0.3326042 0.265" begin="1200" duration="200" mode="linear"/>
-		</storyboard>
-		
-		<storyboard event="activate">
-			<animation property="size" to="0.3326042 0.265" begin="1200" duration="200" mode="linear"/>
-		</storyboard>
-		
-		<storyboard event="deactivate">
-		   <animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-		
-	</text>
 	
 	
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>        
+
+
+
+
+
+   </theme>

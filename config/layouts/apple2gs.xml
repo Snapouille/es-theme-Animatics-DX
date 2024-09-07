@@ -5,9 +5,9 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 		<path>./../../system/${system.theme}/ecran_console2.png</path>
-<size>0.4401042 0.5277778</size>									
-<pos>0.4986979 0.6564815</pos>									
-									
+		<size>0.4401042 0.5277778</size>									
+		<pos>0.4986979 0.6564815</pos>									
+		<pos ifHelpPrompts="false">0.4986979 0.7064815</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -29,8 +29,9 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<pos>0.4989583 0.5388889</pos>									
-<maxSize>0.1458333 0.1907407</maxSize>									
+		<pos>0.4989583 0.5388889</pos>	
+		<pos ifHelpPrompts="false">0.4989583 0.5888889</pos>
+		<maxSize>0.1458333 0.1907407</maxSize>									
 
 		<roundCorners>0.03</roundCorners>
 	  
@@ -53,8 +54,9 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.1458333 0.1907407</size>																
-<pos>0.4989583 0.5388889</pos>																
+		<size>0.1458333 0.1907407</size>																
+		<pos>0.4989583 0.5388889</pos>
+		<pos ifHelpPrompts="false">0.4989583 0.5888889</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -72,11 +74,12 @@
 </view>
   
   
-  <view name="detailed">
+  <customView name="legendary">
   	
 	
 	<image name="ecran_console" extra="static">
-			<pos>0.515 0.17</pos>
+			<pos>0.515 0.18</pos>
+			<pos ifHelpPrompts="false">0.515 0.20</pos>
 			<size>0.4427083 0.525</size>
 			<scale>0.9</scale>
 			<opacity>1</opacity>
@@ -98,7 +101,8 @@
 		</image>
   
 		<video name="md_video">
-		  <pos>0.711 0.404</pos>
+		  <pos>0.711 0.414</pos>
+		  <pos ifHelpPrompts="false">0.711 0.434</pos>
 		  <size>0.239 0.317</size>
 		  <roundCorners>0.02</roundCorners>
 		  
@@ -119,7 +123,8 @@
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		  <pos>0.711 0.404</pos>
+		  <pos>0.711 0.414</pos>
+		  <pos ifHelpPrompts="false">0.711 0.434</pos>
 		  <size>0.239 0.317</size>
 		  
 				<storyboard event="open">
@@ -168,7 +173,4 @@
 	
 	
 	
-   </view>
-  
-  
-</theme>
+   </customView>           </theme>

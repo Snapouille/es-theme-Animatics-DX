@@ -6,9 +6,8 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 
-<path>./../../system/alphadenshi/ecran_console.png</path>
 		<size>0.3255208 0.6342593</size>									
-<pos>0.5132813 0.6197222</pos>									
+		<pos>0.5132813 0.6197222</pos>									
 									
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
@@ -31,8 +30,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<pos>0.5132813 0.6725</pos>									
-<maxSize>0.1828125 0.2509259</maxSize>									
+		<pos>0.5132813 0.6725</pos>									
+		<maxSize>0.1828125 0.2509259</maxSize>									
 
 		<zIndex>30</zIndex>
 
@@ -56,8 +55,8 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.1828125 0.2509259</size>																
-<pos>0.5132813 0.6725</pos>																
+		<size>0.1828125 0.2509259</size>																
+		<pos>0.5132813 0.6725</pos>																
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -111,9 +110,9 @@
 </view>
 
 
-    
   
-  <view name="detailed">
+  
+    <customView name="legendary">
   
 		 
 	
@@ -143,19 +142,18 @@
 			<path>./../../system/alphadenshi/ecran_console.png</path>
 			<pos>0.61 0.01</pos>
 			<scale>1</scale>
-			<path>./../../system/alphadenshi/ecran_console.png</path>
-		<size>0.3255208 0.6342593</size>									
+			<size>0.3255208 0.6342593</size>									
 									
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.61" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="x" to="0.61" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -168,16 +166,16 @@
 		<video name="md_video">
 		 
 		<pos>0.7726563 0.3791667</pos>									
-		<maxSize>0.1796875 0.2472222</maxSize>			
+		<size>0.1796875 0.2472222</size>			
 
 
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.7726563" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7726563" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -193,11 +191,11 @@
 		 
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.7575521" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7575521" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -209,22 +207,22 @@
   
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
-		<pos>0.368 0.33</pos> 
-		<maxSize>0.3 0.57</maxSize>
-		<scale>0.53</scale>
+		<pos>0.3685 0.33</pos> 
+		<maxSize>0.25 0.56</maxSize>
+		<scale>0.51</scale>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
 		
 		
 		<storyboard event="open">
-                <animation property="x" to="0.431" begin="1200" duration="200" mode="linear"/>
-				<animation property="y" to="0.32" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.421" begin="1200" duration="200" mode="linear"/>
+				<animation property="y" to="0.33" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.431" begin="1200" duration="200" mode="linear"/>
-				<animation property="y" to="0.32" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.421" begin="1200" duration="200" mode="linear"/>
+				<animation property="y" to="0.33" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
@@ -356,6 +354,5 @@
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>         
+   </theme>

@@ -10,6 +10,77 @@
   
   
   
+  <view name="detailed">
+  
+	<!-- Encadrement des stats + blur -->
+	<image name="bg-infos, border-info-top, border-info-bottom, border-info-left, border-info-right">
+		<visible>false</visible>
+	</image>
+	
+    <screenshader name="bg-infos-blur" extra="true">
+		<visible>false</visible>
+    </screenshader>
+  
+	<image name="encadrement-infos, frame_barreAnim, icon-pads, rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, 
+					rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon,	boxback_ID, md_image, controller2, overlay_fanart_fixe"> 
+		<visible>false</visible>
+	</image>
+	
+	<image name="md_manual,md_nomanual, ghost_manual, 
+	             md_savestate,md_nosavestate,ghost_savestate
+				 md_kidgame, md_notkidgame, ghost_kidgame
+				 md_map, md_nomap, ghost_md_map
+				 md_cheevos,md_notcheevos, ghost_cheevos
+				 md_hidden, ghost_hidden, md_flag">
+		<visible>false</visible>
+	</image>
+
+	<text name="md_developer, md_publisher, md_genre, md_playcount,	md_gametime">
+		<visible>false</visible>
+	</text>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<visible>false</visible>
+	</datetime>
+	
+	<rating name="md_rating">
+		<visible>false</visible>
+	</rating>
+  
+	<video name="md_video">
+		<visible>false</visible>
+	</video>
+	
+     <image name="thumbnail_ID" extra="true">
+		<pos>0.33 0.495</pos>									
+		<maxSize>0.5 0.85</maxSize>	
+    </image>
+
+	<textlist name="gamelist">
+		<size>0.2166667 0.7151852</size>									
+		<pos>0.8557292 0.5500741</pos>									
+	</textlist>
+	
+	<image name="triangle-rvgm-haut" extra="true">
+		<pos>0.8523438 0.1665741</pos>									
+	</image>
+
+	<image name="triangle-rvgm-bas" extra="true">
+		<pos>0.8518229 0.932963</pos>									
+	</image>
+	
+  </view>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
    <view name="gamecarousel">
   
@@ -37,10 +108,25 @@
 		
 	</video>
 	
-	<image name="md_thumbnail">
+	<image name="thumbnail-gamecarousel">
 		<visible>false</visible>
-		
 	</image>
+	
+	<text name="md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players">
+		<visible>false</visible>
+	</text>
+	
+	<image name="ghost_hidden, md_hidden, ghost_cheevos, md_cheevos,md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate,md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual, md_flag">
+		<visible>false</visible>
+	</image>
+	
+	<rating name="md_rating">
+		<visible>false</visible>
+	</rating>
+	
+	
+	
+	
 	
 	
 	
@@ -68,7 +154,7 @@
   
   
   
-<view name="detailed">
+<customView name="legendary">
 
 	<image name="iconsLine, detailsBkLine, ecran_console, detailsBkLine2, md_marquee, md_thumbnail, md_flag, info_background, black_bg" extra="static">
 		<visible>false</visible>
@@ -144,6 +230,10 @@
 	
 		
 		
-</view>
-  
-</theme>
+</customView>        
+
+
+
+
+
+   </theme>

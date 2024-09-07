@@ -50,9 +50,12 @@
 
 
 	<image name="overlay_fixe" extra="true">
-		<path>./../../../art/divers/overlay_fanart.png</path>
-		<opacity>0.15</opacity>
-		<zIndex>11</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.5</pos>									
+		<size>1 1</size>									
+		<path>./../../../art/divers/overlay_fanart_dark.png</path>
+		<opacity>0.25</opacity>
+		<zIndex>4</zIndex>
 	</image>
 
 	<!-- View : WHEEL -->
@@ -72,14 +75,28 @@
 
     <image name="randomImage" extra="true">
       <path>{random:fanart}</path>
-	  <default>./../../../art/divers/bg.png</default>      
-	  <color>FFFFFF90</color>
+	  <default>./../../../art/divers/bg.png</default>   
+	  <color>FFFFFF</color>
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
       <minSize>1 1</minSize>
-      <zIndex>10</zIndex>
+      <zIndex>3</zIndex>
       <linearSmooth>true</linearSmooth>
+	  
+		<storyboard>
+				<animation property="scale" from="1.1" to="1" begin="" duration="14000" autoreverse="true" repeat="forever" mode="EaseInOut"/>				
+		</storyboard>
+	  
     </image>
+
+
+
+
+
+
+
+
+
 
 	
   </view>

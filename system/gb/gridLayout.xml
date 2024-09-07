@@ -5,7 +5,6 @@
 
 	<view name="system">
 	
-	
 		<image name="BG_snapLegacy" extra="true">
 			<size>1 1</size>									
 			<pos>0.5 0.5</pos>	
@@ -16,8 +15,6 @@
 				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
 			  </storyboard>
 		</image>
-	
-	
 	
 	
 		<image name="tuyau" extra="static">
@@ -32,22 +29,24 @@
 			<origin>0.5 0.5</origin>									
 			<size>0.2833333 0.6722222</size>									
 			<path>./mario1.png</path>
-			<scale>1</scale>
+			<scale>0.1</scale>
 			<opacity>1</opacity>
 			<zIndex>1001</zIndex>
 			
 			
-			<pos>1.05 0.5</pos>									
+			<pos>1.05 0.8</pos>									
 
 			<storyboard>
+				<animation property="rotation" from="40" to="0" begin="100" duration="500" mode="EaseOut"/>
 				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="-0.35" begin="100" duration="500" mode="Bump"/>
+				<animation property="scale" to="1" begin="100" duration="500" mode="EaseOut"/>
 				
 				<animation property="opacity" to="0" begin="1000" duration="2000" mode="linear"/>
 				
 				
 			</storyboard>
 		</image>
-		
 		
 		
 		<image name="mario2" extra="true">	
@@ -59,7 +58,7 @@
 			<zIndex>1000</zIndex>
 			
 			
-			<pos>1.05 0.5</pos>									
+			<pos>1.05 0.45</pos>									
 
 			<storyboard>
 				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
@@ -72,7 +71,6 @@
 				
 			</storyboard>
 		</image>
-		
 		
 	
 		<image name="boulet" extra="static">	
@@ -92,14 +90,14 @@
 		</image>
 	
 	
-	
-		<image name="gombaG, gombaD" extra="static">
+		<image name="gombaG" extra="static">
 			<origin>0 0</origin>
-			<pos>0.728 0.848</pos>
+			<pos>0.728 0.84</pos>
 			<size>0.0260417 0.037037</size>
 			<path>./gomba.gif</path>
 			<opacity>1</opacity>
 			<zIndex>14</zIndex>
+			<scale>1.3</scale>
 		</image>	
 	
 		<image name="gombaD" extra="static">
@@ -111,8 +109,6 @@
 				<animation property="x" to="0.871" begin="" duration="6000" autoreverse="true" mode="linear"/>
 			</storyboard>
 		</image>
-			
-		
 		
 	</view>
 

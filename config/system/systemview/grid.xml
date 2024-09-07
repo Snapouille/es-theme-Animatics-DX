@@ -17,7 +17,6 @@
 	</feature>
 		
 		
-		
 	<view name="system">
 
 		<image name="frame_barreAnim_haut, frame_barreAnim_bas, frame_barreAnim_gauche, frame_barreAnim_droite">
@@ -159,15 +158,36 @@
 				  <!-- <scale>0.963</scale> -->
 				<!-- </image> -->
 
-			<image name="SystemArt" extra="true">
-			  <path>firstfile("${themePath}/art/logos/" + {system:theme} + ".png","${themePath}/art/logos/" + {system:theme} + ".svg")</path>
-			  <pos>0.5</pos>
-			  <origin>0.5</origin>
-			  <maxSize>1 1</maxSize>
-			  <linearSmooth>true</linearSmooth>
-			  <zIndex>4</zIndex>
+
+
+
+            <!-- Here we add a drop shadow to the logo -->
+            <!-- <image name="logoDropShadow" pos="0.5" origin="0.5" maxSize="1" linearSmooth="true"> -->
+              <!-- <path>{system:logo}</path> -->
+              <!-- <padding>3 3 -3 -3</padding> -->
+              <!-- <color>00000080</color> -->
+              <!-- <zIndex>5</zIndex> -->
+			  <!-- <scale>0.9</scale> -->
+            <!-- </image> -->
+            <image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="true">
+              <path>{system:logo}</path>
+			  <zIndex>6</zIndex>
 			  <scale>0.9</scale>
-			</image>
+            </image>
+
+
+			<!-- ANCIEN MOYEN D'AFFICHER LES LOGOS MAIS JE N'AVAIS PAS LES LOGOS AVEC LA LANGUE -->
+			<!-- <image name="SystemArt" extra="true"> -->
+			  <!-- <path>firstfile("${themePath}/art/logos/" + {system:theme} + ".png", -->
+			                  <!-- "${themePath}/art/logos/" + {system:theme} + ".svg") -->
+			  <!-- </path> -->
+			  <!-- <pos>0.5</pos> -->
+			  <!-- <origin>0.5</origin> -->
+			  <!-- <maxSize>1 1</maxSize> -->
+			  <!-- <linearSmooth>true</linearSmooth> -->
+			  <!-- <zIndex>4</zIndex> -->
+			  <!-- <scale>0.9</scale> -->
+			<!-- </image> -->
 
 
 

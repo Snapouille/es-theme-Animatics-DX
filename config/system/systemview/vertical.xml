@@ -296,8 +296,8 @@
 	<!-- Position des infos sur les statistiques du système si ils sont affichés -->
 	  <text name="systemInfoEx" extra="true">
         <alignment>left</alignment>
-		<pos>0.07 0.68</pos>
-		<pos ifHelpPrompts="false">0.07 0.725</pos>
+		<pos>0.035 0.68</pos>
+		<pos ifHelpPrompts="false">0.035 0.725</pos>
       </text>
 
 

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <include>./default.xml</include>
+	<view name="menu,system,detailed,grid">
+    <helpsystem name="help">
+      <iconColor>FFFFFF</iconColor>
+      <iconA>./../../art/icons/xboxlegacy/a.png</iconA>
+      <iconB>./../../art/icons/xboxlegacy/b.png</iconB>
+      <iconX>./../../art/icons/xboxlegacy/x.png</iconX>
+      <iconY>./../../art/icons/xboxlegacy/y.png</iconY>
+      <iconStart>./../../art/icons/xboxlegacy/start.png</iconStart>
+      <iconSelect>./../../art/icons/xboxlegacy/select.png</iconSelect>
+      <iconUpDownLeftRight>./../../art/icons/xboxlegacy/updownleftright.png</iconUpDownLeftRight>
+      <iconUpDown>./../../art/icons/xboxlegacy/updown.png</iconUpDown>
+      <iconLeftRight>./../../art/icons/xboxlegacy/leftright.png</iconLeftRight>		  
+    </helpsystem>
+	</view>
+</theme>
+
+
+

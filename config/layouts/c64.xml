@@ -6,9 +6,9 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 
-<size>0.3973958 0.5222222</size>									
-<pos>0.5123438 0.6518519</pos>									
-									
+		<size>0.3973958 0.5222222</size>									
+		<pos>0.5123438 0.6518519</pos>									
+		<pos ifHelpPrompts="false">0.5123438 0.7018519</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -30,9 +30,9 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<size>0.175 0.2314815</size>									
-<pos>0.5297917 0.5574074</pos>									
-
+		<size>0.175 0.2314815</size>									
+		<pos>0.5297917 0.5574074</pos>									
+		<pos ifHelpPrompts="false">0.5297917 0.6074074</pos>
 		<zIndex>30</zIndex>
 
 	  
@@ -55,8 +55,9 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.175 0.2314815</size>									
-<pos>0.5297917 0.5574074</pos>									
+		<size>0.175 0.2314815</size>									
+		<pos>0.5297917 0.5574074</pos>	
+		<pos ifHelpPrompts="false">0.5297917 0.6074074</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -98,67 +99,70 @@
    
    
   
-  <view name="detailed">
+  <customView name="legendary">
  
 	
 	<image name="ecran_console" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.3973958 0.5222222</size>									
-			<pos>0.6924479 0.4361111</pos>									
+			<pos>0.6924479 0.4361111</pos>	
+			<pos ifHelpPrompts="false">0.6924479 0.4561111</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="pos" to="0.7445313 0.6304074" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.043"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="pos" to="0.7445313 0.6304074" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.043"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
+				</storyboard>		
 			
 		</image>
   
   
 		<video name="md_video">
 			<size>0.1734375 0.237037</size>									
-			<pos>0.7101563 0.3416667</pos>									
+			<pos>0.7101563 0.3416667</pos>
+			<pos ifHelpPrompts="false">0.7101563 0.3616667</pos>
 		  
 				<storyboard event="open">
-					<animation property="pos" to="0.7622396 0.535963" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.043"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="pos" to="0.7622396 0.535963" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.043"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
+				</storyboard>		
 		  
 		</video>
 		
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 			<size>0.1734375 0.237037</size>									
-			<pos>0.7101563 0.3416667</pos>									
+			<pos>0.7101563 0.3416667</pos>	
+			<pos ifHelpPrompts="false">0.7101563 0.3616667</pos>
 	  
 				<storyboard event="open">
-					<animation property="pos" to="0.7622396 0.535963" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.043"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="pos" to="0.7622396 0.535963" begin="1200"  duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.043"  begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
+				</storyboard>		
 		</image>
   
   
@@ -172,15 +176,15 @@
 		<roundCorners>0.01</roundCorners>
 		
 		<storyboard event="open">
-                <animation property="x" to="0.417" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.403" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.295" begin="1200" duration="200" mode="linear"/>
-				<animation property="scale" to="0.95" begin="1200" duration="200" mode="linear"/>
+				<animation property="scale" to="0.88" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.417" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.403" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.295" begin="1200" duration="200" mode="linear"/>
-				<animation property="scale" to="0.95" begin="1200" duration="200" mode="linear"/>
+				<animation property="scale" to="0.88" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
@@ -190,16 +194,15 @@
 	
 	
 	<text name="md_description">
-		<pos>0.7513021 0.269</pos>									
+		<pos>0.7 0.802</pos>
 
 		<storyboard event="open">
-			<animation property="size" to="0.3671875 0.158" begin="1400" duration="200" mode="linear"/>
+			<animation property="size" to="0.45 0.116" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
-		
 		<storyboard event="activate">
-			<animation property="size" to="0.3671875 0.158" begin="1400" duration="200" mode="linear"/>
+			<animation property="opacity" to="1" begin="1200" duration="100" mode="linear"/>
+			<animation property="size" to="0.45 0.116" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
-		
 		<storyboard event="deactivate">
 		   <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
@@ -207,6 +210,8 @@
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>        
+
+
+
+   </theme>

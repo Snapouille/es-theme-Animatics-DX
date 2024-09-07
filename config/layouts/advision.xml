@@ -6,9 +6,9 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 
-<size>0.2494792 0.6055556</size>									
-<pos>0.4908854 0.6342593</pos>									
-									
+		<size>0.2494792 0.6055556</size>									
+		<pos>0.4908854 0.6342593</pos>									
+		<pos ifHelpPrompts="false">0.4908854 0.6842593</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -30,8 +30,9 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-<pos>0.4875 0.5462963</pos>									
-<maxSize>0.1447917 0.187037</maxSize>									
+		<pos>0.4875 0.5462963</pos>		
+		<pos ifHelpPrompts="false">0.4875 0.5962963</pos>
+		<maxSize>0.1447917 0.187037</maxSize>									
 
 		<zIndex>30</zIndex>
 
@@ -55,8 +56,9 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-<size>0.1447917 0.187037</size>									
-<pos>0.4875 0.5462963</pos>									
+			<size>0.1447917 0.187037</size>									
+			<pos>0.4875 0.5462963</pos>	
+			<pos ifHelpPrompts="false">0.4875 0.5962963</pos>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
 			</storyboard>
@@ -84,7 +86,7 @@
  
  
   
-  <view name="detailed">
+  <customView name="legendary">
   
 	<!-- On masque le logo et le cadre du logo car on la deja dans le MARQUEE du bartop 
 		     On repositionne aussi un peu les logos des jeux à l'aparition avant le slide vers la gauche -->
@@ -105,6 +107,7 @@
   
 		<image name="ecran_console" extra="static">
 			<pos>0.63 0.04</pos>
+		    <pos ifHelpPrompts="false">0.63 0.09</pos>
 			<scale>1</scale>
 			<size>0.2494792 0.6055556</size>									
 									
@@ -129,8 +132,9 @@
 		  
 		
 		<video name="md_video">
-		    <pos>0.7507813 0.2555556</pos>									
-			<maxSize>0.1484375 0.1925926</maxSize>
+		    <pos>0.7507813 0.2555556</pos>
+		    <pos ifHelpPrompts="false">0.7507813 0.3055556</pos>
+			<size>0.1484375 0.1925926</size>
 		  
 		  
 		  
@@ -151,6 +155,7 @@
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 		  <pos>0.7507813 0.2555556</pos>
+		  <pos ifHelpPrompts="false">0.7507813 0.3055556</pos>
 		  <size>0.1484375 0.1925926</size>			
 		  
 				<storyboard event="open">
@@ -312,6 +317,7 @@
 	
 	
 		
-   </view>
-  
-</theme>
+   </customView>     
+
+
+   </theme>

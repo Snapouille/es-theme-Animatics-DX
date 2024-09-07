@@ -130,19 +130,21 @@
    
     <image name="ControllerOverlay" extra="true">
       <tile>false</tile>
-      <pos>1.3 0.37</pos>
+      <pos>0.8325 0.43</pos>
       <origin>0.5 0.5</origin>
-	  <maxSize>0.50 0.55</maxSize> 
+	  <maxSize>0.50 0.75</maxSize> 
 	  <path>./../../../art/controllers/${system.theme}.svg</path>
 	  <path>./../../../art/controllers/${system.theme}.png</path>
       <linearSmooth>false</linearSmooth>
-	  <scale>0</scale>
+	  <scale>0.55</scale>
+	  <opacity>1</opacity>
 	  <zIndex>23</zIndex>
 	  <color>${baseColor}</color>
+	  
 	  <storyboard>
 	  
-				<animation property="offsetX" to="-0.465" begin="200" duration="500" mode="EaseOut"/>
-				<animation property="scale" to="0.55" begin="200" duration="500" mode="Bump"/>
+				<!-- <animation property="offsetY" to="-0.2" begin="200" duration="500" mode="EaseOut"/> -->
+				<!-- <animation property="opacity" to="1"    begin="200" duration="500" mode="linear"/> -->
 
 				
 				<animation property="color" from="ff000050" to="ff000050" begin="3000" duration="" mode="linear"/>

@@ -1,6 +1,6 @@
 ﻿<theme>
  
-<view name="detailed">
+<customView name="legendary">
 
 	<image name="md_thumbnail">
 	
@@ -31,6 +31,4 @@
 	</image>
 
 	
-</view>
-  
-</theme>
+</customView>           </theme>

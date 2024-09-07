@@ -31,7 +31,7 @@
 		
 		<image name="sorciere" extra="static">
 			<origin>0 0</origin>
-			<pos>1.1 0.07</pos>
+			<pos>1.1 0.13</pos>
 			<size>0.084375 0.1574074</size>									
 			<scale>0.55</scale>
 			<rotation>-10</rotation>
@@ -74,7 +74,7 @@
 				
 				<animation property="rotation" to="-45" begin="11500" duration="5500" mode="linear"/>
 				<animation property="x" from="1.1" to="-1" begin="11500" duration="5500" mode="linear"/>
-				<animation property="y" to="0.2" begin="13500" duration="3500" mode="bump"/>
+				<animation property="y" to="0.23" begin="13500" duration="3500" mode="bump"/>
 				<animation property="opacity" to="0" begin="23000" duration="100" mode="linear"/>
 				
 		</storyboard>

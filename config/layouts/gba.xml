@@ -8,7 +8,7 @@
 
 		<size>0.428125 0.4287037</size>									
 		<pos>0.4909375 0.6643519</pos>									
-									
+		<pos ifHelpPrompts="false">0.4909375 0.7243519</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -30,7 +30,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 		<size>0.1916667 0.2342593</size>									
-		<pos>0.4914583 0.6421296</pos>									
+		<pos>0.4914583 0.6421296</pos>	
+		<pos ifHelpPrompts="false">0.4914583 0.7021296</pos>
 		<zIndex>30</zIndex>
 	  
 			<storyboard event="open">
@@ -53,7 +54,8 @@
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
 		<size>0.1916667 0.2342593</size>									
-		<pos>0.4914583 0.6421296</pos>									
+		<pos>0.4914583 0.6421296</pos>	
+		<pos ifHelpPrompts="false">0.4914583 0.7021296</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -93,13 +95,14 @@
 
   
     
-<view name="detailed">
+<customView name="legendary">
   
   
 		<image name="ecran_console" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.428125 0.4287037</size>									
-			<pos>0.6989583 0.4287963</pos>									
+			<pos>0.6989583 0.4287963</pos>
+			<pos ifHelpPrompts="false">0.6989583 0.4487963</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
@@ -107,11 +110,13 @@
 			
 				<storyboard event="open">
 					<animation property="size" to="0.4036458 0.4046296" begin="1200" duration="200" mode="linear"/>
-					<animation property="pos" to="0.6950521 0.6708333" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.003" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.26" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="activate">
 					<animation property="size" to="0.4036458 0.4046296" begin="1200" duration="200" mode="linear"/>
-					<animation property="pos" to="0.6950521 0.6708333" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.003" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.26" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -120,16 +125,19 @@
 		
 		
 		<video name="md_video">
-				<pos>0.6992188 0.407963</pos>									
+				<pos>0.6992188 0.407963</pos>	
+				<pos ifHelpPrompts="false">0.6992188 0.427963</pos>
 				<size>0.1911458 0.2333333</size>	
 				
 				<storyboard event="open">
 					<animation property="size" to="0.1802083 0.2203704" begin="1200" duration="200" mode="linear"/>
-					<animation property="pos" to="0.6953125 0.6509259" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.003" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.26" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="activate">
 					<animation property="size" to="0.1802083 0.2203704" begin="1200" duration="200" mode="linear"/>
-					<animation property="pos" to="0.6953125 0.6509259" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.003" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.26" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -139,14 +147,17 @@
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 			<size>0.1911458 0.2333333</size>																
-			<pos>0.6992188 0.407963</pos>																
+			<pos>0.6992188 0.407963</pos>
+			<pos ifHelpPrompts="false">0.6992188 0.427963</pos>
 				<storyboard event="open">
 					<animation property="size" to="0.1802083 0.2203704" begin="1200" duration="200" mode="linear"/>
-					<animation property="pos" to="0.6953125 0.6759259" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.003" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.26" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="activate">
 					<animation property="size" to="0.1802083 0.2203704" begin="1200" duration="200" mode="linear"/>
-					<animation property="pos" to="0.6953125 0.6759259" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.003" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="0.26" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -159,7 +170,7 @@
 	<image name="md_thumbnail">
 		<origin>0.40 0.50</origin>
 		<pos>0.3685 0.29</pos> 
-		<maxSize>0.25 0.4</maxSize>
+		<maxSize>0.217 0.4</maxSize>
 		<scale>0.55</scale>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
@@ -185,11 +196,11 @@
 		<pos>0.748 0.317</pos>									
 		
 		<storyboard event="open">
-			<animation property="size" to="0.3826042 0.241" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.3826042 0.196" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="activate">
-			<animation property="size" to="0.3826042 0.241" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.3826042 0.196" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		
 		<storyboard event="deactivate">
@@ -199,7 +210,7 @@
 	</text>
    
    
-   </view>
+</customView>
    
  
 

@@ -8,7 +8,7 @@
 
 		<size>0.4359375 0.6148148</size>									
 		<pos>0.4721354 0.6037037</pos>									
-									
+		<pos ifHelpPrompts="false">0.4721354 0.6637037</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -30,7 +30,8 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-		<pos>0.4572917 0.4722222</pos>									
+		<pos>0.4572917 0.4722222</pos>	
+		<pos ifHelpPrompts="false">0.4572917 0.5322222</pos>
 		<maxSize>0.18125 0.237963</maxSize>																
 
 		<zIndex>30</zIndex>
@@ -56,7 +57,8 @@
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
 		<size>0.18125 0.237963</size>									
-		<pos>0.4572917 0.4717593</pos>									
+		<pos>0.4572917 0.4717593</pos>	
+		<pos ifHelpPrompts="false">0.4572917 0.5322222</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -85,13 +87,14 @@
  
   
   
-  <view name="detailed">
+  <customView name="legendary">
   	
 	
 		<image name="ecran_console" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.3348958 0.4722222</size>									
-			<pos>0.6976563 0.412963</pos>									
+			<pos>0.6976563 0.412963</pos>	
+			<pos ifHelpPrompts="false">0.6976563 0.432963</pos>
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
@@ -113,8 +116,9 @@
   
   
 		<video name="md_video">
-			<pos>0.6861979 0.3101852</pos>									
-			<maxSize>0.1348958 0.1796296</maxSize>									
+			<pos>0.6861979 0.3101852</pos>	
+			<pos ifHelpPrompts="false">0.6861979 0.3301852</pos>
+			<size>0.1348958 0.1796296</size>									
 		  
 		  
 				<storyboard event="open">
@@ -135,7 +139,7 @@
 		<image name="black_bg">
 			<size>0.1348958 0.1796296</size>									
 			<pos>0.6861979 0.3101852</pos>									
-		  
+			<pos ifHelpPrompts="false">0.6861979 0.3301852</pos>
 		  
 				<storyboard event="open">
 					<animation property="offsetX" to="0.05" begin="1200" duration="200" mode="linear"/>
@@ -188,7 +192,4 @@
 	
 	
 		
-   </view>
-  
-  
-</theme>
+   </customView>           </theme>
