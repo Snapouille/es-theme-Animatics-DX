@@ -19,7 +19,8 @@ Features :
 
 MUSIC add-on :
 
-    You can add a setlist of music to be played with the theme animations, just copy the ‘es-theme-Animatics-DX-Music’ directory which you can download here : 
+    You can add a setlist of music to be played with the theme animations !
+    Just copy the ‘es-theme-Animatics-DX-Music’ directory which you can download here : 
     https://github.com/Snapouille/es-theme-Animatics-DX-Music
 
 
