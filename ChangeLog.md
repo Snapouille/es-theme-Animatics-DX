@@ -1,3 +1,66 @@
+## V 2.00 - (07 09 2024)
+
+For this new update I did some drastic changes to the set up of my theme.
+Please see a quick summary below:
+- the RVGM legacy view becomes the detailed view
+- the detailed view becomes the legendary view
+- the video view becomes the videofull view
+- the RVGM new order view becomes the RVGM view
+- Add a new gamelist view : Primacy  
+
+![2024-09-07 08_36_29-Window](https://github.com/user-attachments/assets/a55be1a9-d6b2-4684-ad47-b94c4c83ad7d)
+
+
+For the System Background you have 5 choices now :
+- Avatar animation (default)
+- Carbon controller
+- Random video
+- Random fanart
+- Randow fanart + video (new)
+
+For the Help Icons you have 7 choices now :
+- Colored (default)
+- Button Location
+- Xbox buttons
+- Xbox buttons legacy (real buttons)
+- Playstation buttons
+- Playstation buttons legacy (real buttons)
+- Arcade buttons (for bartop user)
+
+For the Gamelist Background Display you have 4 choices now :
+- Legacy (the background corresponds to the system animation background)
+- Fanart (the game's farnart if available, otherwise the system animation background will be automatically chosen)
+- Retro (the old official background theme)
+- Auto (corresponds to the fanart choice)
+
+Gamelist Background atmosphere (views : detailed, RVGM and videofull) :
+- light or dark ambiance can be chosen 
+
+Gamelist line, size and type (views : detailed, RVGM, videofull) :
+- size, type and number of lines can be chosen
+
+Gamelist and fanart opacity (views : detailed, RVGM, videofull) :
+- levels of opacity can be chosen for gamelist overlay and background overlay
+
+Boxback (views : detailed, RVGM, videofull and primacy):
+- displaying rear cover of the box can be chosen
+
+Other changes :
+- new Virtual Boy system animation
+- new Super GameBoy system animation
+- new Singe system animation (batocera feature, for retrobat Singe is in the same system that Daphne)
+- add Background and Avatar for the Java j2me system
+- update of the Daphne system animation
+- update of the Sega32x system animation for the grid view
+
+Make your changes without fear, have fun. You can undo all your changes with a single click using the ‘reset customisations tool’.
+
+
+
+
+
+
+
 ## V 1.77 - (24 08 2024)
 - Add system : Singe (Daphne fork)
 - Add system : Sega System SP
