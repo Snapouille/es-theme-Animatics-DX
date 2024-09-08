@@ -24,8 +24,9 @@ originally based on: "carbon"
 	
 	
 	
-	
-	
+	<text name="WhatSystemGAME" extra="static">
+		<visible>false</visible>
+	</text>
 
 	
 	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
@@ -42,6 +43,7 @@ originally based on: "carbon"
 		<fontPath>./../../art/fonts/gobold-blocky-regular.otf</fontPath>
 		<fontSize>0.020</fontSize>
 		<zIndex>131</zIndex>
+		<visible>true</visible>
 		<storyboard event="open">
 			<animation property="color" to="FFFF00" begin="6000" duration="1000" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="12000" duration="1000" autoreverse="true" mode="linear"/>
@@ -223,7 +225,7 @@ originally based on: "carbon"
 	  
 	  <text name="md_genre">
          <pos>0.011 0.48</pos>
-         <size>0.41 0.033</size>
+         <size>0.3 0.033</size>
          <fontSize>0.019</fontSize>
       </text>
 	  
@@ -238,7 +240,7 @@ originally based on: "carbon"
 	
 	  <text name="md_developer">
 		 <pos>0.011 0.845</pos>
-         <size>0.38 0.039</size>
+         <size>0.3 0.039</size>
 		 <alignment>left</alignment>
          <fontSize>0.024</fontSize>
       </text>
