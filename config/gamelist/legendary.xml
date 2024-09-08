@@ -585,6 +585,7 @@ originally based on: "carbon"
 			|| {system.theme} == 'mame' 
 			|| {system.theme} == 'teknoparrot' 
 			|| {system.theme} == 'daphne' 
+			|| {system.theme} == 'singe' 
 			|| {system.theme} == 'advision' 
 			|| {system.theme} == 'naomi' 
 			|| {system.theme} == 'naomi2'">		
@@ -731,6 +732,7 @@ originally based on: "carbon"
 		|| {system.theme} == 'mame' 
 		|| {system.theme} == 'teknoparrot' 
 		|| {system.theme} == 'daphne' 
+		|| {system.theme} == 'singe' 
 		|| {system.theme} == 'advision' 
 		|| {system.theme} == 'dreamcast' 
 		|| {system.theme} == 'naomi' 

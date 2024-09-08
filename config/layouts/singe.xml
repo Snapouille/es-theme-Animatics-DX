@@ -319,42 +319,7 @@
 	
 	<!-- Square jaune qui se balade -->
 	<image name="yellowSquare" extra="true">
-		<pos>1.1 0.1569444</pos>									
-	  
-		<storyboard event="open">
-			<animation property="opacity" to="1" begin="2400" duration="10" mode="Linear"/>
-			
-			
-			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
-			
-			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
-			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
-			
-			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
-			<animation property="pos" to="0.3116667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
-			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
-			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
-		</storyboard>
-		
-		<storyboard event="activate">
-			<animation property="opacity" to="1" begin="2400" duration="10" mode="Linear"/>
-			
-			
-			<animation property="pos" to="0.9515625 0.1569444" begin="2230" duration="1070" mode="EaseInOut"/>
-			
-			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
-			<animation property="size" to="0.0026042 0.0046296" begin="2400" duration="1500" autoreverse="true" repeat="4" mode="Linear"/>
-			
-			<animation property="pos" to="0.9515625 0.9365741" begin="3300" duration="3000" mode="EaseInOut"/>
-			<animation property="pos" to="0.3116667 0.9365741" begin="6300" duration="4000" mode="EaseInOut"/>
-			<animation property="pos" to="0.3116667 0.1569444" begin="10300" duration="3000" mode="EaseInOut"/>
-			<animation property="pos" to="-0.007 0.1569444" begin="13300" duration="2000" mode="EaseInOut"/>
-
-		</storyboard>
-		
-		<storyboard event="deactivate">
-		   <animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
+		<visible>false</visible>
 	  
     </image>
 	
@@ -368,4 +333,7 @@
 	
 	
 		
-   </customView>           </theme>
+   </customView>         
+
+
+</theme>

@@ -545,7 +545,7 @@ originally based on: "carbon"
 		<pos ifHelpPrompts="false">0.12 0.73</pos>
 		<origin>0.5 0.5</origin>
 		<reflexion>0 0</reflexion>
-		<default>./../../art/divers/noboxart.png</default>
+		<!-- <default>./../../art/divers/noboxart.png</default> -->
 		<zIndex>150</zIndex>
 			<storyboard event="open">
                 <animation property="offsetX" from="-0.5" to="0" duration="400" mode="EaseOutQuint"/>
