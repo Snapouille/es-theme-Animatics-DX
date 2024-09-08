@@ -10,12 +10,6 @@ originally based on: "carbon"
    
 <view name="grid">
  
-	<helpsystem name="help">
-		<iconColor>${baseColor}</iconColor>
-		<fontSize>0.028</fontSize>
-		<pos>0.009 0.955</pos>
-	</helpsystem>  
-
 	
      <image name="background-art" extra="true">
 		<path>{game:fanart}</path>
@@ -69,10 +63,12 @@ originally based on: "carbon"
 	
 	
 	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
-	<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static">
+	<!-- <text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static"> -->
+	<text name="WhatSystemGAME" extra="static">
 		<origin>0 0</origin>									
 		<size>0.4 0.03</size>									
-		<pos>0.17 0.319</pos>									
+		<pos>0.01 0.904</pos>
+		<pos ifHelpPrompts="false">0.01 0.964</pos>
 		<text> {game:systemName} </text> 
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
@@ -107,10 +103,11 @@ originally based on: "carbon"
 	
    
    <imagegrid name="gamegrid">
-		<pos>0.025 0.457</pos>
+		<pos>0.025 0.447</pos>
 		<size>0.950 0.47</size>
 		<margin>0.005 0.006</margin>
 		<padding>0.008 0.05</padding> 
+		<!-- <padding>0.008 0.07</padding>  -->
 		<scrollDirection>horizontal</scrollDirection>
 		<autoLayout>5 1</autoLayout>
 
@@ -121,6 +118,8 @@ originally based on: "carbon"
 		<gameImage>./../../art/divers/noboxart.png</gameImage>
 		<zIndex>60</zIndex>
     </imagegrid>
+	
+	
 	
     <gridtile name="default">
       <padding>8</padding>
@@ -177,7 +176,7 @@ originally based on: "carbon"
 	  <text name="md_name">
          <alignment>left</alignment>
          <verticalAlignment>top</verticalAlignment>
-         <size>0.8 0.08</size>
+         <size>0.585 0.08</size>
          <color>ffffff</color>
          <pos>0.17 0.035</pos>
          <fontPath>./../../art/fonts/flatwheat.ttf</fontPath>

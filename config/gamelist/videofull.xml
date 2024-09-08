@@ -17,15 +17,15 @@
 
     <image name="background-art" extra="true">
 		<storyboard event="activate">        
-			<animation enabled="exists({game:video})" property="opacity" to="0" begin="3000" duration="1000" mode="linear"/>
+			<animation enabled="exists({game:video})" property="opacity" to="0" begin="1000" duration="1000" mode="linear"/>
 			<animation enabled="exists({game:video})" property="opacity" to="1" begin="45000" duration="1000" mode="linear"/>
 		</storyboard>
 		<storyboard event="activateNext">        
-			<animation enabled="exists({game:video})" property="opacity" to="0" begin="3000" duration="1000" mode="linear"/>
+			<animation enabled="exists({game:video})" property="opacity" to="0" begin="1000" duration="1000" mode="linear"/>
 			<animation enabled="exists({game:video})" property="opacity" to="1" begin="45000" duration="1000" mode="linear"/>
 		</storyboard>
 		<storyboard event="activatePrev">        
-			<animation enabled="exists({game:video})" property="opacity" to="0" begin="3000" duration="1000" mode="linear"/>
+			<animation enabled="exists({game:video})" property="opacity" to="0" begin="1000" duration="1000" mode="linear"/>
 			<animation enabled="exists({game:video})" property="opacity" to="1" begin="45000" duration="1000" mode="linear"/>
 		</storyboard>      
 		<storyboard ifSubset="boxbackDisplay:Show" event="deactivateNext">
@@ -72,7 +72,7 @@
 		<showSnapshotNoVideo>false</showSnapshotNoVideo> 
 		<showSnapshotDelay>false</showSnapshotDelay>
 		<loops>5</loops>
-		<delay>0.5</delay> 
+		<delay>0.1</delay> 
 		<effect>none</effect>
 		<zIndex>2</zIndex>
 		

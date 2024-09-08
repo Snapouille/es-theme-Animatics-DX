@@ -572,7 +572,7 @@ originally based on: "carbon"
 	
 	
 	<!-- Choix d'afficher les fanarts ou non -->
-	<subset name="backgroundDisplay" displayName="${background.Display}" appliesTo="detailed, rvgm, videofull, primacy">
+	<subset name="backgroundDisplay" displayName="${background.Display}" appliesTo="-">
 			<include name="auto" displayName="${auto}"/>
 			<include name="legacy" displayName="${legacy}"/>
 			<include name="fanart" displayName="${fanart}"/>

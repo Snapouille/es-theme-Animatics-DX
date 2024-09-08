@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   <!-- <include>./default.xml</include> -->
-	<view name="menu,system,detailed,grid">
+	<view name="menu,system,detailed,gamecarousel,grid">
     <helpsystem name="help">
 
 	  <iconColor>${baseColor}</iconColor>
