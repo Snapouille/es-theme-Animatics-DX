@@ -100,6 +100,84 @@
 		<zIndex>31</zIndex>
 	</image>
 	
+	
+	<image name="cartridge_ID" extra="true">
+		<path>{game:cartridge}</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.13 0.569</pos>									
+		<maxSize>0.23 0.23</maxSize>									
+		<linearSmooth>true</linearSmooth>
+		<opacity>0</opacity>
+		<zIndex>29</zIndex> 
+		<scale>1</scale>
+		<storyboard event="activate">   
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
+	
+	<!-- Système avec un CD qui tourne -->
+	<image name="cartridge_ID" if="{system.theme} == '3do' || 
+								   {system.theme} == 'amigacd32' || 
+								   {system.theme} == 'amigacdtv' || 
+								   {system.theme} == 'atarijaguarcd' || 
+								   {system.theme} == 'cdi' || 
+								   {system.theme} == 'gc' || 
+								   {system.theme} == 'dreamcast' || 
+								   {system.theme} == 'neogeocd' || 
+								   {system.theme} == 'pce-cd' || 
+								   {system.theme} == 'ps2' || 
+								   {system.theme} == 'ps3' || 
+								   {system.theme} == 'psx' || 
+								   {system.theme} == 'saturn' || 
+								   {system.theme} == 'segacd' || 
+								   {system.theme} == 'wii' || 
+								   {system.theme} == 'wiiu' || 
+								   {system.theme} == 'xbox' || 
+								   {system.theme} == 'xbox360' " extra="true">
+		<pos>0.13 0.569</pos>									
+		<maxSize>0.23 0.23</maxSize>									
+		<storyboard event="activate">   
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
+			<animation property="rotation" to="360" begin="2000" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="-360" begin="20000" duration="10000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
+			<animation property="rotation" to="360" begin="2000" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="-360" begin="20000" duration="10000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
+			<animation property="rotation" to="360" begin="2000" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="-360" begin="20000" duration="10000" mode="EaseInOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
+
+	
 
 
 	<!-- Début des nouveaux icones RVGM -->

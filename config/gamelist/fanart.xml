@@ -45,22 +45,24 @@ originally based on: "carbon"
 		<gamecarousel name="gamecarousel">
             <type>horizontal</type>
             <origin>0 0</origin>
-            <pos>0.45 0.25</pos>
+            <pos>0.45 0.17</pos>
             <size>0.61 2</size>
             <backgroundColor>333333</backgroundColor>
-            <logoScale>2.9</logoScale>
-            <logoSize>0.08 0.3</logoSize>
+            <logoScale>2.8</logoScale>
+            <logoSize>0.08 0.4</logoSize>
             <maxLogoCount>6</maxLogoCount>
             <logoRotation>0</logoRotation>
             <logoRotationOrigin>1 1</logoRotationOrigin>
             <logoAlignment>bottom</logoAlignment>
-            <logoPos>0.075 0.38</logoPos>
+            <logoPos>0.072 0.38</logoPos>
             <minLogoOpacity>0.3</minLogoOpacity>
             <imageSource>box</imageSource>
             <zIndex>21</zIndex>
 			<!-- <default>./../../art/divers/noboxart.png</default> -->
 			<gameImage>./../../art/divers/noboxart.png</gameImage>
         </gamecarousel>
+		
+		
 		
 		
 		
@@ -503,7 +505,7 @@ originally based on: "carbon"
 	<!-- La barre en bas Helpsystem -->
 	
 		<helpsystem name="help">
-			<pos>0.05 0.955</pos>
+			<pos>0.05 0.965</pos>
 			<fontSize>0.025</fontSize>
 		</helpsystem>
 		

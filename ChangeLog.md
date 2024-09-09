@@ -1,3 +1,8 @@
+## V 2.01 - (09 09 2024)
+- small bug fixes
+- add CD and cartridge appearing in Videofull view (WIP)
+
+
 ## V 2.00 - (07 09 2024)
 
 For this new update I did some drastic changes to the set up of my theme.

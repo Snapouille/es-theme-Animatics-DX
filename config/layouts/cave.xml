@@ -107,6 +107,20 @@
 </view>
 
 
+
+
+
+
+
+<customView name="fanart">
+	<image name="marquee_bartop" extra="true">
+		<visible>false</visible>
+	</image>
+</customView>        
+
+
+
+
   
   
     <customView name="legendary">
