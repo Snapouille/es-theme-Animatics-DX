@@ -29,7 +29,7 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-		<size>0.1786458 0.2990741</size>									
+		<size>0.178 0.285</size>									
 		<pos>0.4863854 0.625463</pos>									
 		<pos ifHelpPrompts="false">0.4863854 0.675463</pos>
 		<zIndex>30</zIndex>
@@ -54,7 +54,7 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-		<size>0.1786458 0.2990741</size>									
+		<size>0.1786458 0.30</size>									
 		<pos>0.4863854 0.625463</pos>	
 		<pos ifHelpPrompts="false">0.4863854 0.675463</pos>
 		<zIndex>14</zIndex>
