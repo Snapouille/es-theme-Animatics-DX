@@ -88,7 +88,7 @@ originally based on: "carbon"
 	<background.Display>Background Display</background.Display>
 	<descriptionFontSize>Description font size</descriptionFontSize>
 	<boxback.Display>Boxback</boxback.Display>
-	
+	<cartdridge.Display>Cartdridge</cartdridge.Display>
 	<fanartOpacity>Fanart overlay Opacity</fanartOpacity>
 	<gamelistOpacity>Gamelist Opacity</gamelistOpacity>
 	<background.Ambience>Background Ambience</background.Ambience>
@@ -589,6 +589,12 @@ originally based on: "carbon"
 
 	<!-- Choix d'afficher les boxback ou non -->
 	<subset name="boxbackDisplay" displayName="${boxback.Display}" appliesTo="detailed, rvgm, videofull, primacy">
+			<include name="Show" displayName="${show}"/>
+			<include name="Hide" displayName="${hide}"/>
+	</subset>
+	
+	<!-- Choix d'afficher les cartridges ou non -->
+	<subset name="cartridgeDisplay" displayName="${cartdridge.Display}" appliesTo="videofull">
 			<include name="Show" displayName="${show}"/>
 			<include name="Hide" displayName="${hide}"/>
 	</subset>

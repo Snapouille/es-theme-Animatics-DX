@@ -43,7 +43,7 @@
 	<text name="md_description">
 		<origin>0.5 0.5</origin>									
 		<size>0.37 0.226</size>									
-		<pos>0.526 0.83</pos>									
+		<pos>0.533 0.83</pos>									
 		<color>C0C0C0</color>
 		<color ifSubset="backgroundAmbience:Light">000000</color>
 		<!-- <fontSize>0.017</fontSize> on choisit auto la taille dans les menus -->
@@ -58,7 +58,7 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>
 		<size>0.98 0.93</size>									
-		<pos>0.5 0.5</pos>	
+		<pos>0.5 0.35</pos>	
 
 		<size if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == '3ds' || {system.theme} == 'xbox360' ">0.98 0.93</size>									
 		
@@ -74,14 +74,48 @@
 		<loops>5</loops>
 		<delay>0.1</delay> 
 		<effect>none</effect>
-		<zIndex>2</zIndex>
+		<zIndex>3</zIndex>
 		
 		<shader>
 			<path>:/shaders/border.glsl</path>
-			<borderSize>0.006</borderSize>
+			<borderSize>0.0001</borderSize>
 			<borderColor>${baseColor}</borderColor>
 		</shader>
 	</video>	
+	
+	
+	<!-- Si il y a une vidéo de disponible on met un cadre NOIR en bas vu qu'on monte un peu la vidéo -->
+	<image name="cartouche_bas" extra="true">
+		<visible>exists({game:video})</visible>	
+		<path>${themePath}/art/divers/white.png</path>
+		<color>FFFFFF00</color>
+		<colorEnd>000000</colorEnd>
+		<gradientType>vertical</gradientType>
+		<zIndex>4</zIndex>
+		<origin>0.5 0.5</origin>
+		<size>1 0.35</size>									
+		<pos>0.5 0.64</pos>	
+		<opacity>0</opacity>
+
+		<storyboard event="activate">   
+			<animation property="opacity" to="1" begin="1000" duration="1000" mode="linear"/>
+			<animation property="opacity" to="0" begin="44000" duration="1000" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" begin="1000" duration="1000" mode="linear"/>
+			<animation property="opacity" to="0" begin="44000" duration="1000" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" begin="1000" duration="1000" mode="linear"/>
+			<animation property="opacity" to="0" begin="44000" duration="1000" mode="linear"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</image>
 
 
 
@@ -101,26 +135,27 @@
 	</image>
 	
 	
-	<image name="cartridge_ID" extra="true">
+	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
 		<path>{game:cartridge}</path>
 		<origin>0.5 0.5</origin>									
-		<pos>0.13 0.569</pos>									
+		<pos>0.283 0.569</pos>									
 		<maxSize>0.23 0.23</maxSize>									
 		<linearSmooth>true</linearSmooth>
+		<horizontalAlignment>left</horizontalAlignment>
 		<opacity>0</opacity>
 		<zIndex>29</zIndex> 
 		<scale>1</scale>
 		<storyboard event="activate">   
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
+			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
 		</storyboard>
 		<storyboard event="activateNext">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
+			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
+			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -130,14 +165,17 @@
 		</storyboard>
     </image>
 	
-	<!-- Système avec un CD qui tourne -->
+	<!-- Système avec un CD taille normale qui tourne -->
 	<image name="cartridge_ID" if="{system.theme} == '3do' || 
 								   {system.theme} == 'amigacd32' || 
 								   {system.theme} == 'amigacdtv' || 
 								   {system.theme} == 'atarijaguarcd' || 
-								   {system.theme} == 'cdi' || 
+								   {system.theme} == 'cdi' ||
+								   {system.theme} == 'daphne' ||	
+								   {system.theme} == 'dreamcast' || 								   
 								   {system.theme} == 'gc' || 
-								   {system.theme} == 'dreamcast' || 
+								   {system.theme} == 'naomi' || 
+								   {system.theme} == 'naomi2' ||
 								   {system.theme} == 'neogeocd' || 
 								   {system.theme} == 'pce-cd' || 
 								   {system.theme} == 'ps2' || 
@@ -145,29 +183,30 @@
 								   {system.theme} == 'psx' || 
 								   {system.theme} == 'saturn' || 
 								   {system.theme} == 'segacd' || 
+								   {system.theme} == 'triforce' || 
 								   {system.theme} == 'wii' || 
 								   {system.theme} == 'wiiu' || 
 								   {system.theme} == 'xbox' || 
 								   {system.theme} == 'xbox360' " extra="true">
-		<pos>0.13 0.569</pos>									
-		<maxSize>0.23 0.23</maxSize>									
+		<horizontalAlignment>center</horizontalAlignment>
+		<pos>0.188 0.569</pos>
+		<maxSize>0.23 0.23</maxSize>	
+		<pos if="{system.theme} == 'gc'">0.167 0.578</pos>
+		<maxSize if="{system.theme} == 'gc'">0.16 0.16</maxSize>	
 		<storyboard event="activate">   
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
-			<animation property="rotation" to="360" begin="2000" duration="10000" mode="EaseInOut"/>
-			<animation property="rotation" to="-360" begin="20000" duration="10000" mode="EaseInOut"/>
+			<animation property="offsetX" to="0.075" begin="1000" duration="1000" mode="bump"/>
+			<animation property="rotation" to="360" begin="2000" duration="11000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
-			<animation property="rotation" to="360" begin="2000" duration="10000" mode="EaseInOut"/>
-			<animation property="rotation" to="-360" begin="20000" duration="10000" mode="EaseInOut"/>
+			<animation property="offsetX" to="0.075" begin="1000" duration="1000" mode="bump"/>
+			<animation property="rotation" to="360" begin="2000" duration="11000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.085" begin="1000" duration="1000" mode="bump"/>
-			<animation property="rotation" to="360" begin="2000" duration="10000" mode="EaseInOut"/>
-			<animation property="rotation" to="-360" begin="20000" duration="10000" mode="EaseInOut"/>
+			<animation property="offsetX" to="0.075" begin="1000" duration="1000" mode="bump"/>
+			<animation property="rotation" to="360" begin="2000" duration="11000" mode="EaseInOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -176,7 +215,44 @@
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
     </image>
-
+	
+	<!-- PSP -->
+	<image name="cartridge_ID" if="{system.theme} == 'psp' " extra="true">
+		<pos>0.245 0.569</pos>									
+		<maxSize>0.22 0.22</maxSize>									
+    </image>
+	
+	<!-- SWITCH -->
+	<image name="cartridge_ID" if="{system.theme} == 'switch' " extra="true">
+		<pos>0.197 0.59</pos>									
+		<maxSize>0.11 0.14</maxSize>									
+    </image>
+	
+	<!-- NES -->
+	<image name="cartridge_ID" if="{system.theme} == 'nes' " extra="true">
+		<pos>0.257 0.555</pos>									
+		<maxSize>0.25 0.25</maxSize>									
+    </image>
+	
+	<!-- SNES ET N64-->
+	<image name="thumbnail_ID, boxback_ID" if="{system.theme} == 'n64' || {system.theme} == 'snes' " extra="true">
+		<pos>0.1246875 0.442963</pos>									
+		<maxSize>0.2066667 0.5314815</maxSize>									
+    </image>
+	<image name="cartridge_ID" if="{system.theme} == 'n64' || {system.theme} == 'snes' " extra="true">
+		<pos>0.287 0.563</pos>									
+		<maxSize>0.22 0.21</maxSize>									
+    </image>
+	
+	<!-- GX4000-->
+	<image name="thumbnail_ID, boxback_ID" if="{system.theme} == 'gx4000' " extra="true">
+		<pos>0.1246875 0.442963</pos>									
+		<maxSize>0.2066667 0.5314815</maxSize>									
+    </image>
+	<image name="cartridge_ID" if="{system.theme} == 'gx4000' " extra="true">
+		<pos>0.287 0.563</pos>									
+		<maxSize>0.22 0.21</maxSize>									
+    </image>
 	
 
 
@@ -214,19 +290,19 @@
 	<image name="rvgm-playcount-icon" extra="true">
 		<path>./../../art/icons/rvgm-playcount-icon.png</path>
 		<size>0.0135417 0.025</size>									
-		<pos>0.2125 0.7862963</pos>									
+		<pos>0.2275 0.7862963</pos>									
 	</image>
 	
 	<image name="rvgm-lastplayed-icon" extra="true">
 		<path>./../../art/icons/rvgm-lastplayed-icon.png</path>
 		<size>0.0135417 0.0222222</size>									
-		<pos>0.2114583 0.8251852</pos>									
+		<pos>0.2264583 0.8251852</pos>									
 	</image>
 
 	<image name="rvgm-gametime-icon" extra="true">
 		<path>./../../art/icons/rvgm-gametime-icon.png</path>
 		<size>0.0135417 0.0231481</size>									
-		<pos>0.2109375 0.8608333</pos>									
+		<pos>0.2259375 0.8608333</pos>									
 	</image>
 
 
@@ -285,16 +361,17 @@
 
 	
 	<text name="md_developer, md_publisher, md_genre">
-		<size>0.1421875 0.025</size>									
+		<size>0.1621875 0.025</size>
+		<singleLineScroll>true</singleLineScroll>
 	</text>
 	<text name="md_developer">
-		<pos>0.1164063 0.7492593</pos>									
+		<pos>0.1264063 0.7492593</pos>									
 	</text>
 	<text name="md_publisher">
-		<pos>0.1164063 0.7862963</pos>									
+		<pos>0.1264063 0.7862963</pos>									
 	</text>
 	<text name="md_genre">
-		<pos>0.1164063 0.8233333</pos>									
+		<pos>0.1264063 0.8233333</pos>									
 		<color ifSubset="backgroundAmbience:Light">660099</color>
 	    <glowSize ifSubset="backgroundAmbience:Light">0</glowSize>
 	</text>
@@ -307,21 +384,21 @@
 	
 	<text name="md_playcount">
 		<size>0.0838542 0.025</size>									
-		<pos>0.2674479 0.7862963</pos>									
+		<pos>0.2824479 0.7862963</pos>									
 	</text>
 	<datetime name="md_lastplayed">
 		<size>0.0838542 0.025</size>	
-		<pos>0.2674479 0.8233333</pos>									
+		<pos>0.2824479 0.8233333</pos>									
 	</datetime>
 	<text name="md_gametime">
 		<size>0.0838542 0.025</size>	
-		<pos>0.2674479 0.8603704</pos>									
+		<pos>0.2824479 0.8603704</pos>									
 	</text>
 	
 	
 	<rating name="md_rating">
 		<origin>0.5 0.5</origin>
-		<pos>0.216 0.748</pos>									
+		<pos>0.231 0.748</pos>									
 		<size>0.16 0.032</size>
 		<color>FFFF00</color>
 		<horizontalAlignment>right</horizontalAlignment>

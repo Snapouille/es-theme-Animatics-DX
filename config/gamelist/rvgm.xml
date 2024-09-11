@@ -92,7 +92,7 @@
 	<text name="md_description">
 		<origin>0.5 0.5</origin>									
 		<size>0.37 0.226</size>									
-		<pos>0.526 0.83</pos>									
+		<pos>0.533 0.83</pos>									
 		<color>C0C0C0</color>
 		<color ifSubset="backgroundAmbience:Light">000000</color>
 		<!-- <fontSize>0.017</fontSize> on choisit auto la taille dans les menus -->
@@ -116,6 +116,14 @@
 		<opacity>0</opacity>
 		<zIndex>31</zIndex>
 	</image>
+	
+	<!-- on diminu un peu la largeur du maxsize quand il s'agit de jeux en 16/9ème -->
+     <image name="thumbnail_ID, boxback_ID" if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360'" extra="true">
+		<pos>0.165 0.38</pos>
+		<maxSize>0.281 0.657</maxSize>
+	</image>
+	
+	
 	
 	<!-- Début des nouveaux icones RVGM -->
 	<image name="rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon">
@@ -151,20 +159,21 @@
 	<image name="rvgm-playcount-icon" extra="true">
 		<path>./../../art/icons/rvgm-playcount-icon.png</path>
 		<size>0.0135417 0.025</size>									
-		<pos>0.2125 0.7862963</pos>									
+		<pos>0.2275 0.7862963</pos>									
 	</image>
 	
 	<image name="rvgm-lastplayed-icon" extra="true">
 		<path>./../../art/icons/rvgm-lastplayed-icon.png</path>
 		<size>0.0135417 0.0222222</size>									
-		<pos>0.2114583 0.8251852</pos>									
+		<pos>0.2264583 0.8251852</pos>									
 	</image>
 
 	<image name="rvgm-gametime-icon" extra="true">
 		<path>./../../art/icons/rvgm-gametime-icon.png</path>
 		<size>0.0135417 0.0231481</size>									
-		<pos>0.2109375 0.8608333</pos>									
+		<pos>0.2259375 0.8608333</pos>									
 	</image>
+
 
 	<text name="md_developer, md_publisher, md_playcount, md_gametime">
 		<origin>0.5 0.5</origin>
@@ -190,6 +199,7 @@
 		<visible>false</visible>
 	</text>
 
+
 	<datetime name="md_releasedate, md_lastplayed">
 		<origin>0.5 0.5</origin>
 		<size>0.15 0.015</size>
@@ -202,6 +212,8 @@
 		<zIndex>40</zIndex>
 	</datetime>
 	
+	
+
 	<text name="md_players">
 		<origin>0.5 0.5</origin>									
 		<size>0.2822917 0.0601852</size>									
@@ -215,17 +227,20 @@
 		<zIndex>55</zIndex>
 	</text>
 
+
+	
 	<text name="md_developer, md_publisher, md_genre">
-		<size>0.1421875 0.025</size>									
+		<size>0.1621875 0.025</size>
+		<singleLineScroll>true</singleLineScroll>
 	</text>
 	<text name="md_developer">
-		<pos>0.1164063 0.7492593</pos>									
+		<pos>0.1264063 0.7492593</pos>									
 	</text>
 	<text name="md_publisher">
-		<pos>0.1164063 0.7862963</pos>									
+		<pos>0.1264063 0.7862963</pos>									
 	</text>
 	<text name="md_genre">
-		<pos>0.1164063 0.8233333</pos>									
+		<pos>0.1264063 0.8233333</pos>									
 		<color ifSubset="backgroundAmbience:Light">660099</color>
 	    <glowSize ifSubset="backgroundAmbience:Light">0</glowSize>
 	</text>
@@ -238,20 +253,21 @@
 	
 	<text name="md_playcount">
 		<size>0.0838542 0.025</size>									
-		<pos>0.2674479 0.7862963</pos>									
+		<pos>0.2824479 0.7862963</pos>									
 	</text>
 	<datetime name="md_lastplayed">
 		<size>0.0838542 0.025</size>	
-		<pos>0.2674479 0.8233333</pos>									
+		<pos>0.2824479 0.8233333</pos>									
 	</datetime>
 	<text name="md_gametime">
 		<size>0.0838542 0.025</size>	
-		<pos>0.2674479 0.8603704</pos>									
+		<pos>0.2824479 0.8603704</pos>									
 	</text>
+	
 	
 	<rating name="md_rating">
 		<origin>0.5 0.5</origin>
-		<pos>0.216 0.748</pos>									
+		<pos>0.231 0.748</pos>									
 		<size>0.16 0.032</size>
 		<color>FFFF00</color>
 		<horizontalAlignment>right</horizontalAlignment>
@@ -260,6 +276,7 @@
 		<unfilledPath>:/star_filled.svg</unfilledPath>
 		<zIndex>99</zIndex>
 	</rating>
+	
 	
 	<image name="md_flag">
 		<origin>0.5 0.5</origin>									

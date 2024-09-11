@@ -1057,9 +1057,10 @@ originally based on: "carbon"
 
 	<text name="system_description" ifSubset="system-description:Show">
 		<pos>1.082 0.62</pos>
-		<size>0.3207 0.293</size>
+		<size>0.323 0.315</size>
 		<color>${infoColor}</color>
 		<autoScroll>vertical</autoScroll>
+		<alignment>right</alignment>
 		<storyboard>
 			<animation property="offsetX" to="-0.415" begin="6500" duration="1500" mode="EaseOutCubic"/>
 		</storyboard>	

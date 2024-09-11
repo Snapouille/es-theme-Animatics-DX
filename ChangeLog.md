@@ -1,3 +1,8 @@
+## V 2.02 - (11 09 2024)
+- bug fixes
+- add CDs and cartridges appearing in Videofull view (WIP 20%)
+
+
 ## V 2.01 - (09 09 2024)
 - small bug fixes
 - add CD and cartridge appearing in Videofull view (WIP)

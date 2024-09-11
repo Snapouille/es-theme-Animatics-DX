@@ -212,39 +212,99 @@ originally based on: "carbon"
             <alignment>left</alignment>
             <zIndex>99</zIndex>
 
-            <storyboard event="activate">
-                <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
-            </storyboard>
+			<storyboard event="activate">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>
+			<storyboard event="activateNext">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>
+			<storyboard event="activatePrev">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>      
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
         </text>
 
 
         <datetime name="md_releasedate">
             <pos>0.065 0.577</pos>
-            <storyboard event="activate">
-                <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
-            </storyboard>
+			<storyboard event="activate">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>
+			<storyboard event="activateNext">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>
+			<storyboard event="activatePrev">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>      
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
         </datetime>
 		
 		<image name="md_flag">
 			<pos>0.089 0.5756481</pos>		
-            <storyboard event="activate">
-                <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
-            </storyboard>
+			<storyboard event="activate">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>
+			<storyboard event="activateNext">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>
+			<storyboard event="activatePrev">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>      
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
 		</image>
 		
 		<text name="md_developer">
 			<pos>0.103 0.562</pos>	
-            <storyboard event="activate">
-                <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
-            </storyboard>
+			<storyboard event="activate">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>
+			<storyboard event="activateNext">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>
+			<storyboard event="activatePrev">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>      
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
 		</text>
 	
 		<text name="md_genre">
 			<fontSize>0.019</fontSize>
 			<pos>0.05 0.59</pos>
-            <storyboard event="activate">
-                <animation property="opacity" from="0" to="1" duration="800" mode="easeIn" />
-            </storyboard>
+			<storyboard event="activate">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>
+			<storyboard event="activateNext">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>
+			<storyboard event="activatePrev">        
+					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			</storyboard>      
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
 		</text>
 		
 
@@ -263,10 +323,22 @@ originally based on: "carbon"
 			<storyboard event="open">
 				<animation property="size" from="0.35 0" to="0.35 0.258" duration="600" mode="linear" />
 			</storyboard>
-
             <storyboard event="activate">
                 <animation property="size" from="0.35 0" to="0.35 0.258" duration="600" mode="linear" />
             </storyboard>
+			<storyboard event="activateNext">        
+                <animation property="size" from="0.35 0" to="0.35 0.258" duration="600" mode="linear" />
+			</storyboard>
+			<storyboard event="activatePrev">        
+                <animation property="size" from="0.35 0" to="0.35 0.258" duration="600" mode="linear" />
+			</storyboard>      
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+			
 			
         </text>
 		
