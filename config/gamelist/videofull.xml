@@ -189,23 +189,23 @@
 								   {system.theme} == 'xbox' || 
 								   {system.theme} == 'xbox360' " extra="true">
 		<horizontalAlignment>center</horizontalAlignment>
-		<pos>0.188 0.569</pos>
+		<pos>0.205 0.569</pos>
 		<maxSize>0.23 0.23</maxSize>	
-		<pos if="{system.theme} == 'gc'">0.167 0.578</pos>
+		<pos if="{system.theme} == 'gc'">0.19 0.578</pos>
 		<maxSize if="{system.theme} == 'gc'">0.16 0.16</maxSize>	
 		<storyboard event="activate">   
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.075" begin="1000" duration="1000" mode="bump"/>
+			<animation property="offsetX" to="0.06" begin="1000" duration="1000" mode="bump"/>
 			<animation property="rotation" to="360" begin="2000" duration="11000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.075" begin="1000" duration="1000" mode="bump"/>
+			<animation property="offsetX" to="0.06" begin="1000" duration="1000" mode="bump"/>
 			<animation property="rotation" to="360" begin="2000" duration="11000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.075" begin="1000" duration="1000" mode="bump"/>
+			<animation property="offsetX" to="0.06" begin="1000" duration="1000" mode="bump"/>
 			<animation property="rotation" to="360" begin="2000" duration="11000" mode="EaseInOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
@@ -240,20 +240,34 @@
 		<maxSize>0.2066667 0.5314815</maxSize>									
     </image>
 	<image name="cartridge_ID" if="{system.theme} == 'n64' || {system.theme} == 'snes' " extra="true">
-		<pos>0.287 0.563</pos>									
-		<maxSize>0.22 0.21</maxSize>									
+		<pos>0.279 0.575</pos>									
+		<maxSize>0.185 0.185</maxSize>									
     </image>
 	
 	<!-- GX4000-->
 	<image name="thumbnail_ID, boxback_ID" if="{system.theme} == 'gx4000' " extra="true">
 		<pos>0.1246875 0.442963</pos>									
-		<maxSize>0.2066667 0.5314815</maxSize>									
+		<maxSize>0.20 0.53</maxSize>									
     </image>
 	<image name="cartridge_ID" if="{system.theme} == 'gx4000' " extra="true">
 		<pos>0.287 0.563</pos>									
 		<maxSize>0.22 0.21</maxSize>									
     </image>
+
+	<!-- GameGear-->
+	<image name="cartridge_ID" if="{system.theme} == 'gamegear' " extra="true">
+		<pos>0.24 0.59</pos>									
+		<maxSize>0.185 0.185</maxSize>									
+    </image>
 	
+	
+	<!-- on masque les cartridges si on est dans une collection -->
+	<image name="cartridge_ID" if="{system.sortedBy} == 'Collections' || 
+								   {system.theme} == 'mess' || 
+								   {system.theme} == 'ports'">
+		<visible>false</visible>
+    </image>
+
 
 
 	<!-- Début des nouveaux icones RVGM -->
@@ -383,16 +397,16 @@
 	</datetime>
 	
 	<text name="md_playcount">
-		<size>0.0838542 0.025</size>									
-		<pos>0.2824479 0.7862963</pos>									
+		<size>0.0898542 0.025</size>									
+		<pos>0.2854479 0.7862963</pos>									
 	</text>
 	<datetime name="md_lastplayed">
-		<size>0.0838542 0.025</size>	
-		<pos>0.2824479 0.8233333</pos>									
+		<size>0.0898542 0.025</size>	
+		<pos>0.2854479 0.8233333</pos>									
 	</datetime>
 	<text name="md_gametime">
-		<size>0.0838542 0.025</size>	
-		<pos>0.2824479 0.8603704</pos>									
+		<size>0.0898542 0.025</size>	
+		<pos>0.2854479 0.8603704</pos>									
 	</text>
 	
 	

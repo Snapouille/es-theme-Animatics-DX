@@ -25,6 +25,7 @@
 		<visible>false</visible>
 		</image>
 	
+	
 		<image name="mario1" extra="true">	
 			<origin>0.5 0.5</origin>									
 			<size>0.2833333 0.6722222</size>									
@@ -32,19 +33,16 @@
 			<scale>0.1</scale>
 			<opacity>1</opacity>
 			<zIndex>1001</zIndex>
-			
-			
 			<pos>1.05 0.8</pos>									
 
-			<storyboard>
+			<storyboard repeat="forever">
 				<animation property="rotation" from="40" to="0" begin="100" duration="500" mode="EaseOut"/>
 				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
 				<animation property="offsetY" to="-0.35" begin="100" duration="500" mode="Bump"/>
 				<animation property="scale" to="1" begin="100" duration="500" mode="EaseOut"/>
-				
 				<animation property="opacity" to="0" begin="1000" duration="2000" mode="linear"/>
 				
-				
+				<animation property="opacity" to="0" begin="15000" duration="1" mode="linear"/>
 			</storyboard>
 		</image>
 		
@@ -56,19 +54,18 @@
 			<scale>1</scale>
 			<opacity>0</opacity>
 			<zIndex>1000</zIndex>
-			
-			
 			<pos>1.05 0.45</pos>									
 
-			<storyboard>
+			<storyboard repeat="forever">
 				<animation property="offsetX" to="-0.22" begin="100" duration="500" mode="EaseOut"/>
 				
 				<animation property="opacity" to="1" begin="1000" duration="10" mode="linear"/>
 				
-				<animation property="rotation" to="-720" begin="14800" duration="2000" mode="EaseOut"/>
-				<animation property="y" to="-1" begin="15000" duration="800" />
-				<animation property="x" to="1.5" begin="15000" duration="1500" />
+				<animation property="rotation" to="-720" 	begin="8800" duration="2000" mode="EaseOut"/>
+				<animation property="y" to="-1" 			begin="9000" duration="800" />
+				<animation property="x" to="1.5" 			begin="9000" duration="1500" />
 				
+				<animation property="opacity" to="0" begin="15000" duration="1" mode="linear"/>
 			</storyboard>
 		</image>
 		
@@ -84,10 +81,14 @@
 			<opacity>1</opacity>
 			<zIndex>3000</zIndex>
 	
-			<storyboard>
-					<animation property="x" to="1.1" begin="13200" duration="2000" mode="linear"/>
+			<storyboard repeat="forever">
+				<animation property="x" to="1.1" begin="7200" duration="2000" mode="linear"/>
+				<animation property="opacity" to="0" begin="15000" duration="1" mode="linear"/>
 			</storyboard>
 		</image>
+
+
+
 	
 	
 		<image name="gombaG" extra="static">

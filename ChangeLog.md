@@ -1,3 +1,20 @@
+## V 2.03 - (xx 09 2024)
+- new animation for the system SNES Grid and Wheel views
+- improved animation for the GBC Grid view
+- improved animation for the GB  Grid view
+
+Add cartridge and box layouts in videofull view for system:
+- all system with cd standard
+- gamegear
+- gamecube
+- psp
+- snes
+- n64
+- nes
+- switch 
+- gx4000
+
+
 ## V 2.02 - (11 09 2024)
 - bug fixes
 - add CDs and cartridges appearing in Videofull view (WIP 20%)
