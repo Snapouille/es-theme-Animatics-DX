@@ -653,16 +653,16 @@
 		<image name="BarAndRound" ifSubset="InfoCustomView:detailed" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.0510417 0.312963</size>									
-			<pos>0.0838542 0.7722222</pos>									
+			<pos>0.0838542 0.7722222</pos>	
+			<pos ifHelpPrompts="false">0.0838542 0.8122222</pos>	
 			<path>./../../../art/divers/BarAndRound.png</path>
+			<path ifHelpPrompts="false">./../../../art/divers/BarAndRound-alt.png</path>
 			<color>${frameColor}</color>
 			<zIndex>17</zIndex>
 			<opacity>0</opacity>
-			<visible ifHelpPrompts="false">false</visible>
 			
 			<storyboard>
 				<animation property="opacity" to="1" begin="500" duration="200" mode="linear"/>
-				<!-- <animation property="h" to="" begin="300" duration="700" mode="easeInOut"/> -->
 				<animation property="offsetX" to="0.1" begin="1000" duration="500" mode="easeOutCubic"/>
 			</storyboard>
 			

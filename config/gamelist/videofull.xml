@@ -72,7 +72,7 @@
 		<showSnapshotNoVideo>false</showSnapshotNoVideo> 
 		<showSnapshotDelay>false</showSnapshotDelay>
 		<loops>5</loops>
-		<delay>0.1</delay> 
+		<delay>0.2</delay> 
 		<effect>none</effect>
 		<zIndex>3</zIndex>
 		
@@ -148,14 +148,26 @@
 		<storyboard event="activate">   
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
 			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.085" begin="6000" duration="700" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
 		</storyboard>
 		<storyboard event="activateNext">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
 			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.085" begin="6000" duration="700" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
 			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.085" begin="6000" duration="700" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -196,17 +208,32 @@
 		<storyboard event="activate">   
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
 			<animation property="offsetX" to="0.06" begin="1000" duration="1000" mode="bump"/>
-			<animation property="rotation" to="360" begin="2000" duration="11000" mode="EaseInOut"/>
+			<animation property="rotation" to="360" begin="2000" duration="5000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.085" begin="6000" duration="700" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="720"  begin="17300" duration="7000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
 			<animation property="offsetX" to="0.06" begin="1000" duration="1000" mode="bump"/>
-			<animation property="rotation" to="360" begin="2000" duration="11000" mode="EaseInOut"/>
+			<animation property="rotation" to="360" begin="2000" duration="5000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.085" begin="6000" duration="700" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="720"  begin="17300" duration="7000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
 			<animation property="offsetX" to="0.06" begin="1000" duration="1000" mode="bump"/>
-			<animation property="rotation" to="360" begin="2000" duration="11000" mode="EaseInOut"/>
+			<animation property="rotation" to="360" begin="2000" duration="5000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.085" begin="6000" duration="700" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="720"  begin="17300" duration="7000" mode="EaseInOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -244,6 +271,17 @@
 		<maxSize>0.185 0.185</maxSize>									
     </image>
 	
+	<!-- Amstrad CPC -->
+	<image name="thumbnail_ID, boxback_ID" if="{system.theme} == 'amstradcpc' " extra="true">
+		<pos>0.1246875 0.442963</pos>									
+		<maxSize>0.21 0.53</maxSize>									
+    </image>
+	<image name="cartridge_ID" if="{system.theme} == 'amstradcpc' " extra="true">
+		<pos>0.287 0.563</pos>									
+		<maxSize>0.22 0.21</maxSize>									
+    </image>
+	
+	
 	<!-- GX4000-->
 	<image name="thumbnail_ID, boxback_ID" if="{system.theme} == 'gx4000' " extra="true">
 		<pos>0.1246875 0.442963</pos>									
@@ -257,6 +295,12 @@
 	<!-- GameGear-->
 	<image name="cartridge_ID" if="{system.theme} == 'gamegear' " extra="true">
 		<pos>0.24 0.59</pos>									
+		<maxSize>0.185 0.185</maxSize>									
+    </image>
+	
+	<!-- MASTER SYSTEM -->
+	<image name="cartridge_ID" if="{system.theme} == 'mastersystem' " extra="true">
+		<pos>0.233 0.575</pos>									
 		<maxSize>0.185 0.185</maxSize>									
     </image>
 	

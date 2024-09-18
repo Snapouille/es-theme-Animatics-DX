@@ -1113,13 +1113,13 @@ originally based on: "carbon"
 	
 	<text name="md_developer">
 		<pos>0.504 0.735</pos>
-	    <size>0.225 0.05</size>
+	    <size>0.21 0.05</size>
 		<storyboard event="open">
-			<animation property="pos" to="0.474 0.89" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.474 0.897" begin="1200" duration="200" mode="linear"/>
 			<animation property="color" to="ff3f2f" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		<storyboard event="activate">
-			<animation property="pos" to="0.474 0.89" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.474 0.897" begin="1200" duration="200" mode="linear"/>
 			<animation property="color" to="ff3f2f" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivate">
@@ -1211,20 +1211,21 @@ originally based on: "carbon"
 	</text>
 	
 	<text name="md_lbl_genre">
-		<pos>0.872 0.847</pos>
+		<pos>0.872 0.850</pos>
 		<alignment>right</alignment>
 	</text>
 	
 	<text name="md_genre">
-		<pos>0.53 0.877</pos>
+		<pos>0.67 0.880</pos>
 		<alignment>right</alignment>
-		<size>0.38 0.035</size>
+		<singleLineScroll>false</singleLineScroll>
+		<size>0.24 0.035</size>
 		<storyboard event="open">
-			<animation property="pos" to="0.55 0.897" begin="1200"  duration="200" mode="linear"/>
+			<animation property="pos" to="0.695 0.897" begin="1200"  duration="200" mode="linear"/>
 			<animation property="color" to="fdde0b" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 		<storyboard event="activate">
-			<animation property="pos" to="0.55 0.897" begin="1200"  duration="200" mode="linear"/>
+			<animation property="pos" to="0.695 0.897" begin="1200"  duration="200" mode="linear"/>
 			<animation property="color" to="fdde0b" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivate">

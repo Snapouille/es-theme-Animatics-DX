@@ -1,4 +1,13 @@
-## V 2.03 - (xx 09 2024)
+## V 2.04 - (18 09 2024)
+- add the default auto value in menu
+- many bugs views fix (big up to Patrix91)
+
+Add cartridge and box layouts in videofull view for system:
+- amstradcpc
+- mastersystem
+- 3do
+
+## V 2.03 - (13 09 2024)
 - new animation for the system SNES Grid and Wheel views
 - improved animation for the GBC Grid view
 - improved animation for the GB  Grid view

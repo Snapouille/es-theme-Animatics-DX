@@ -231,37 +231,37 @@ originally based on: "carbon"
 	</image>	
 	
 	<text name="md_name">
-         <size>0.310 0.08</size>
-         <pos>0.011 0.44</pos>
-         <fontSize>0.025</fontSize>
-      </text>
+        <size>0.310 0.08</size>
+        <pos>0.011 0.44</pos>
+        <fontSize>0.025</fontSize>
+    </text>
 	  
-	  <text name="md_genre">
-         <pos>0.011 0.48</pos>
-         <size>0.310 0.033</size>
-         <fontSize>0.019</fontSize>
-      </text>
+	<text name="md_genre">
+        <pos>0.011 0.48</pos>
+        <size>0.310 0.033</size>
+        <fontSize>0.019</fontSize>
+    </text>
 	  
 	
 	<text name="md_description">
-         <pos>0.011 0.520</pos>
-         <size>0.310 0.305</size>
-         <fontSize>0.023</fontSize>
-         <lineSpacing>1.3</lineSpacing>
-      </text>
+		<pos>0.011 0.520</pos>
+		<size>0.310 0.305</size>
+		<fontSize>0.023</fontSize>
+		<lineSpacing>1.3</lineSpacing>
+	</text>
 	
 	
 	  <text name="md_developer">
-		 <pos>0.011 0.845</pos>
-         <size>0.155 0.039</size>
-		 <alignment>left</alignment>
-         <fontSize>0.024</fontSize>
+		<pos>0.011 0.845</pos>
+        <size>0.18 0.039</size>
+		<alignment>left</alignment>
+        <fontSize>0.024</fontSize>
       </text>
 	
 	<datetime name="md_releasedate">
-		 <pos>0.01 0.870</pos>
-         <color>FFFF00</color>
-         <fontSize>0.035</fontSize>
+		<pos>0.01 0.870</pos>
+        <color>FFFF00</color>
+        <fontSize>0.035</fontSize>
     </datetime>
 
 	<image name="md_flag">

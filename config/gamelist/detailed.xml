@@ -249,22 +249,22 @@
 		<verticalAlignment>center</verticalAlignment>
 		<scale>1</scale>
 		<storyboard ifSubset="boxbackDisplay:Show" event="activate">        
-			<animation enabled="exists({game:boxback})" property="scale" to="0.9" begin="7000" duration="300" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7000" duration="300" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15000" duration="300" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15000" duration="300" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="0.8" begin="7000" duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7000" duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15000" duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15000" duration="150" mode="linear"/>
 		</storyboard>
 		<storyboard ifSubset="boxbackDisplay:Show" event="activateNext">        
-			<animation enabled="exists({game:boxback})" property="scale" to="0.9" begin="7000" duration="300" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7000" duration="300" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15000" duration="300" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15000" duration="300" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="0.8" begin="7000" duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7000" duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15000" duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15000" duration="150" mode="linear"/>
 		</storyboard>
 		<storyboard ifSubset="boxbackDisplay:Show" event="activatePrev">        
-			<animation enabled="exists({game:boxback})" property="scale" to="0.9" begin="7000" duration="300" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7000" duration="300" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15000" duration="300" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15000" duration="300" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="0.8" begin="7000" duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7000" duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15000" duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15000" duration="150" mode="linear"/>
 		</storyboard>      
 		<storyboard ifSubset="boxbackDisplay:Show" event="deactivateNext">
 			<animation property="opacity" to="1" duration="1" mode="linear"/>
@@ -286,22 +286,22 @@
 		<opacity>0</opacity>
 		<zIndex>29</zIndex>
 		<storyboard event="activate">        
-			<animation property="scale" to="1" begin="7000" duration="300" mode="linear"/>
-			<animation property="opacity" to="1" begin="7000" duration="300" mode="linear"/>
-			<animation property="scale" to="0.9" begin="15000" duration="300" mode="linear"/>
-			<animation property="opacity" to="0" begin="15000" duration="300" mode="linear"/>
+			<animation property="scale" to="1" begin="7000" duration="150" mode="linear"/>
+			<animation property="opacity" to="1" begin="7000" duration="150" mode="linear"/>
+			<animation property="scale" to="0.8" begin="15000" duration="150" mode="linear"/>
+			<animation property="opacity" to="0" begin="15000" duration="150" mode="linear"/>
 		</storyboard>
 		<storyboard event="activateNext">        
-			<animation property="scale" to="1" begin="7000" duration="300" mode="linear"/>
-			<animation property="opacity" to="1" begin="7000" duration="300" mode="linear"/>
-			<animation property="scale" to="0.9" begin="15000" duration="300" mode="linear"/>
-			<animation property="opacity" to="0" begin="15000" duration="300" mode="linear"/>
+			<animation property="scale" to="1" begin="7000" duration="150" mode="linear"/>
+			<animation property="opacity" to="1" begin="7000" duration="150" mode="linear"/>
+			<animation property="scale" to="0.8" begin="15000" duration="150" mode="linear"/>
+			<animation property="opacity" to="0" begin="15000" duration="150" mode="linear"/>
 		</storyboard>
 		<storyboard event="activatePrev">        
-			<animation property="scale" to="1" begin="7000" duration="300" mode="linear"/>
-			<animation property="opacity" to="1" begin="7000" duration="300" mode="linear"/>
-			<animation property="scale" to="0.9" begin="15000" duration="300" mode="linear"/>
-			<animation property="opacity" to="0" begin="15000" duration="300" mode="linear"/>
+			<animation property="scale" to="1" begin="7000" duration="150" mode="linear"/>
+			<animation property="opacity" to="1" begin="7000" duration="150" mode="linear"/>
+			<animation property="scale" to="0.8" begin="15000" duration="150" mode="linear"/>
+			<animation property="opacity" to="0" begin="15000" duration="150" mode="linear"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -391,7 +391,8 @@
 	<text name="md_developer, md_publisher, md_genre, md_playcount,	md_gametime">
 		<origin>0.5 0.5</origin>
 		<pos>2 2</pos>
-		<size>0.16 0.0240741</size>									
+		<size>0.16 0.0240741</size>	
+		<singleLineScroll>true</singleLineScroll>
 		<verticalAlignment>top</verticalAlignment> 
 		<color>C0C0C0</color>
 	    <glowColor>00000010</glowColor>

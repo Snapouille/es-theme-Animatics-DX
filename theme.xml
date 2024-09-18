@@ -88,7 +88,7 @@ originally based on: "carbon"
 	<background.Display>Background Display</background.Display>
 	<descriptionFontSize>Description font size</descriptionFontSize>
 	<boxback.Display>Boxback</boxback.Display>
-	<cartdridge.Display>Cartdridge</cartdridge.Display>
+	<cartridge.Display>Cartridge</cartridge.Display>
 	<fanartOpacity>Fanart overlay Opacity</fanartOpacity>
 	<gamelistOpacity>Gamelist Opacity</gamelistOpacity>
 	<background.Ambience>Background Ambience</background.Ambience>
@@ -572,7 +572,7 @@ originally based on: "carbon"
 	
 	
 	<!-- Choix d'afficher les fanarts ou non -->
-	<subset name="backgroundDisplay" displayName="${background.Display}" appliesTo="-">
+	<subset name="backgroundDisplay" displayName="${background.Display}" appliesTo="(AUTO=FANART)">
 			<include name="auto" displayName="${auto}"/>
 			<include name="legacy" displayName="${legacy}"/>
 			<include name="fanart" displayName="${fanart}"/>
@@ -594,13 +594,13 @@ originally based on: "carbon"
 	</subset>
 	
 	<!-- Choix d'afficher les cartridges ou non -->
-	<subset name="cartridgeDisplay" displayName="${cartdridge.Display}" appliesTo="videofull">
+	<subset name="cartridgeDisplay" displayName="${cartridge.Display}" appliesTo="videofull (no collections)">
 			<include name="Show" displayName="${show}"/>
 			<include name="Hide" displayName="${hide}"/>
 	</subset>
 
 	
-	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="detailed, rvgm, videofull">
+	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="detailed, rvgm, videofull   (AUTO=ubuntu)">
         <include name="auto"/>
 		<include name="ubuntu"/>
 		<include name="ubuntu-bold"/>
@@ -608,7 +608,7 @@ originally based on: "carbon"
 		<include name="charge-vector"/>
         <include name="flatwheat"/>
     </subset>
-	<subset name="gamelistLines" displayName="${gamelistLines}" appliesTo="detailed, rvgm, videofull, primacy">
+	<subset name="gamelistLines" displayName="${gamelistLines}" appliesTo="detailed, rvgm, videofull, primacy   (AUTO=17)">
         <include name="auto"/>
         <include name="9"/>
         <include name="11"/>
@@ -621,7 +621,7 @@ originally based on: "carbon"
         <include name="25"/>
 		<include name="27"/>
     </subset>
-    <subset name="gamelistFontSize" displayName="${gamelistFontSize}" appliesTo="detailed, rvgm, videofull, primacy">
+    <subset name="gamelistFontSize" displayName="${gamelistFontSize}" appliesTo="detailed, rvgm, videofull, primacy   (AUTO=0.021)">
         <include name="auto"/>
 		<include name="0.017"/>
         <include name="0.018"/>
@@ -648,7 +648,7 @@ originally based on: "carbon"
         <include name="0.039"/>
         <include name="0.040"/>
     </subset>
-    <subset name="descriptionFontSize" displayName="${descriptionFontSize}" appliesTo="detailed, rvgm, videofull">
+    <subset name="descriptionFontSize" displayName="${descriptionFontSize}" appliesTo="detailed, rvgm, videofull   (AUTO=0.023)">
         <include name="auto"/>
 		<include name="mini"/>
         <include name="small"/>
@@ -656,7 +656,7 @@ originally based on: "carbon"
         <include name="large"/>
         <include name="maxi"/>
     </subset>
-    <subset name="fanartOpacity" displayName="${fanartOpacity}" appliesTo="detailed, rvgm, videofull">
+    <subset name="fanartOpacity" displayName="${fanartOpacity}" appliesTo="detailed, rvgm, videofull   (AUTO=0.7)">
         <include name="auto"/>
         <include name="100 %"/>
         <include name="90 %"/>
@@ -670,7 +670,7 @@ originally based on: "carbon"
         <include name="10 %"/>
         <include name="0 %"/>
     </subset>
-    <subset name="gamelistOpacity" displayName="${gamelistOpacity}" appliesTo="detailed, rvgm, videofull">
+    <subset name="gamelistOpacity" displayName="${gamelistOpacity}" appliesTo="detailed, rvgm, videofull   (AUTO=0.8)">
         <include name="auto"/>
         <include name="100 %"/>
         <include name="90 %"/>
