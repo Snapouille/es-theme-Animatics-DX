@@ -1,3 +1,13 @@
+## V 2.05 - (29 09 2024)
+- add a video for retrobat system VIDEO system view
+- small bug fixes
+
+Add cartridge and box layouts in videofull view for system:
+- atarilynx
+- atarijaguar
+- atarijaguarcd
+- colecovision
+
 ## V 2.04 - (18 09 2024)
 - add the default auto value in menu
 - many bugs views fix (big up to Patrix91)

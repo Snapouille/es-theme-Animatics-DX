@@ -138,7 +138,7 @@
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
 		<path>{game:cartridge}</path>
 		<origin>0.5 0.5</origin>									
-		<pos>0.283 0.569</pos>									
+		<pos>0.26 0.569</pos>									
 		<maxSize>0.23 0.23</maxSize>									
 		<linearSmooth>true</linearSmooth>
 		<horizontalAlignment>left</horizontalAlignment>
@@ -281,6 +281,22 @@
 		<maxSize>0.22 0.21</maxSize>									
     </image>
 	
+	<!-- Atari Lynx -->
+	<image name="cartridge_ID" if="{system.theme} == 'atarilynx' " extra="true">
+		<pos>0.24 0.57</pos>									
+		<maxSize>0.185 0.185</maxSize>									
+    </image>
+	
+	<!-- Atari Jaguar -->
+	<image name="thumbnail_ID, boxback_ID" if="{system.theme} == 'atarijaguar' " extra="true">
+		<pos>0.1246875 0.442963</pos>									
+		<maxSize>0.20 0.5</maxSize>									
+    </image>
+	<image name="cartridge_ID" if="{system.theme} == 'atarijaguar' " extra="true">
+		<pos>0.253 0.55</pos>									
+		<maxSize>0.18 0.18</maxSize>									
+    </image>
+	
 	
 	<!-- GX4000-->
 	<image name="thumbnail_ID, boxback_ID" if="{system.theme} == 'gx4000' " extra="true">
@@ -298,7 +314,7 @@
 		<maxSize>0.185 0.185</maxSize>									
     </image>
 	
-	<!-- MASTER SYSTEM -->
+	<!-- Sega Master System -->
 	<image name="cartridge_ID" if="{system.theme} == 'mastersystem' " extra="true">
 		<pos>0.233 0.575</pos>									
 		<maxSize>0.185 0.185</maxSize>									

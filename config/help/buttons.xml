@@ -6,10 +6,15 @@
     <helpsystem name="help">
 
 	  <iconColor>${baseColor}</iconColor>
-      <iconA>:/help/buttons_south.svg</iconA>
-      <iconB>:/help/buttons_east.svg</iconB>
-      <iconX>:/help/buttons_west.svg</iconX>
-      <iconY>:/help/buttons_north.svg</iconY>
+      <!-- <iconA>:/help/buttons_south.svg</iconA> -->
+      <!-- <iconB>:/help/buttons_east.svg</iconB> -->
+      <!-- <iconX>:/help/buttons_west.svg</iconX> -->
+      <!-- <iconY>:/help/buttons_north.svg</iconY> -->
+	  
+      <iconA>:/help/buttons_east.svg</iconA>
+      <iconB>:/help/buttons_south.svg</iconB>
+      <iconX>:/help/buttons_north.svg</iconX>
+      <iconY>:/help/buttons_west.svg</iconY>
 	  	  
     </helpsystem>
 	</view>

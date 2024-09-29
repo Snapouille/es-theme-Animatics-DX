@@ -19,11 +19,8 @@
 		<pos ifHelpPrompts="false">0.07 0.72</pos>
 		<zIndex>30</zIndex>
 		<storyboard>
-			
 				<animation property="offsetX" to="0.1" begin="1000" duration="500" mode="easeOutCubic"/>
-			
 		</storyboard>
-		
       </text>
 	  
 	<!-- On masque la barre des stats -->
@@ -56,6 +53,7 @@
 	
     <video name="backgroundvideo" extra="true">
 		<path>{random}</path>
+		<path if="{system.theme} == 'retrobat'">${themePath}/system/retrobat/retrobat-neon.mp4</path>
 		<default>./../../../art/divers/mediamissing2.png</default>
 		<pos>0.32 0.38</pos>									
 		<minSize>0.85 0.93</minSize>									
@@ -70,6 +68,8 @@
 		<zIndex>9</zIndex>
     </video>
 	
+	
+	
     <image name="ControllerOverlay" extra="true">
       <visible>false</visible>
     </image>
@@ -81,8 +81,6 @@
   
 <view name="system" ifSubset="SystemView:grid">
   
-	
-
 	<image name="background-cut, frame_big" extra="static">
 		<visible>false</visible>
 	</image>
@@ -91,6 +89,7 @@
     <video name="backgroundvideo" extra="true">
 		<path>{random}</path>
 		<default>./../../../art/divers/mediamissing2.png</default>
+		<path if="{system.theme} == 'retrobat'">${themePath}/system/retrobat/retrobat-neon.mp4</path>
 		<pos>0.5 0.32</pos>
 		<pos ifHelpPrompts="false">0.5 0.38</pos>
 		<minSize>1 1</minSize>
@@ -103,6 +102,7 @@
 		<effect>none</effect>
 		<zIndex>9</zIndex>
     </video>
+	
 	
      
 </view>
