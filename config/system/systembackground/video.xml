@@ -12,14 +12,15 @@
 		  <visible>false</visible>
 	</image>
 	
-	<!-- On modifie l'arrivée des statistiques sur l'écran si affichage différent que Snap Legacy -->
+	<!-- On modifie affichage des statistiques du système si affichage WHEEL -->
 	  <text name="systemInfoEx" ifSubset="SystemView:wheel" extra="true">
         <alignment>left</alignment>
-		<pos>0.07 0.68</pos>
-		<pos ifHelpPrompts="false">0.07 0.72</pos>
+		<pos>0.165 0.692</pos>
+		<pos ifHelpPrompts="false">0.165 0.731</pos>
 		<zIndex>30</zIndex>
 		<storyboard>
-				<animation property="offsetX" to="0.1" begin="1000" duration="500" mode="easeOutCubic"/>
+				<animation property="opacity" from="0" to="1" begin="" duration="1000" mode="linear"/>				
+				<animation property="offsetX" to="-0.005" begin="" duration="1000" mode="EaseInOut"/>		
 		</storyboard>
       </text>
 	  
