@@ -314,10 +314,10 @@
 		<maxSize>0.185 0.185</maxSize>									
     </image>
 	
-	<!-- Sega Master System -->
-	<image name="cartridge_ID" if="{system.theme} == 'mastersystem' " extra="true">
-		<pos>0.233 0.575</pos>									
-		<maxSize>0.185 0.185</maxSize>									
+	<!-- Sega Master System & Megadrive -->
+	<image name="cartridge_ID" if="{system.theme} == 'mastersystem'  || {system.theme} == 'megadrive' " extra="true">
+		<pos>0.225 0.575</pos>									
+		<maxSize>0.155 0.213</maxSize>									
     </image>
 	
 	

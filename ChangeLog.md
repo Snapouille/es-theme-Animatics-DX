@@ -7,6 +7,7 @@ Add cartridge and box layouts in videofull view for system:
 - atarijaguar
 - atarijaguarcd
 - colecovision
+- genesis/megadrive
 
 ## V 2.04 - (18 09 2024)
 - add the default auto value in menu

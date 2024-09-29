@@ -158,7 +158,9 @@
 	<image name="md_image"> 
 		<origin>0.5 0.5</origin>
 		<size>0.3852083 0.4953704</size>									
-		<pos>0.213 0.3</pos>	
+		<pos>0.213 0.3</pos>
+		<!-- Pour système "configuration" Retrobat on masque pour éviter le changement de size -->
+		<visible if="{system.theme} == 'retrobat'">false</visible>
 
 		<size if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == '3ds' || {system.theme} == 'xbox360' ">0.442 0.44</size>									
 		<pos  if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == '3ds' || {system.theme} == 'xbox360' ">0.245 0.2949074</pos>									
@@ -603,6 +605,7 @@
 		<maxSize>0.2072917 0.15</maxSize>									
 		<linearSmooth>true</linearSmooth>
 		<zIndex>900</zIndex> 
+		<visible if="{system.theme} == 'retrobat'">false</visible>
 	</image>
 	
 	
