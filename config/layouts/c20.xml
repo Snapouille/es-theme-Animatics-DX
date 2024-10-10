@@ -31,9 +31,9 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-		<size>0.1822917 0.2472222</size>									
-		<pos>0.5875 0.4856481</pos>									
-		<pos ifHelpPrompts="false">0.5875 0.5356481</pos>
+		<size>0.1822917 0.2442222</size>									
+		<pos>0.5875 0.4846481</pos>									
+		<pos ifHelpPrompts="false">0.5875 0.5346481</pos>
 		<zIndex>30</zIndex>
 
 	  
@@ -56,9 +56,9 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-		<size>0.1822917 0.2472222</size>									
-		<pos>0.5875 0.4856481</pos>		
-		<pos ifHelpPrompts="false">0.5875 0.5356481</pos>
+		<size>0.1822917 0.2442222</size>									
+		<pos>0.5875 0.4846481</pos>		
+		<pos ifHelpPrompts="false">0.5875 0.5346481</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -72,16 +72,6 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-	
-	
-	<text name="md_description">
-		<origin>0.5 0.5</origin>									
-		<size>0.25 0.238</size>									
-		<pos>0.315 0.298</pos>									
-	</text>
-
-	
 </view>
 
 

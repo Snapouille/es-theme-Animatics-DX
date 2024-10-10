@@ -31,7 +31,8 @@
 			<zIndex>9</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<origin>0.5 0.5</origin>
-			<pos>1.65 0.15</pos>	
+			<pos>1.65 0.15</pos>
+			<pos ifHelpPrompts="false">1.65 0.20</pos>
 			<saturation>0.9</saturation>
 
 			<storyboard>
@@ -41,6 +42,25 @@
 			</storyboard>
 		</image>
 		
+		<image name="eye1" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0098958 0.0194444</size>									
+			<pos>0.7940104 0.5060185</pos>	
+			<pos ifHelpPrompts="false">0.7940104 0.5560185</pos>
+			<scale>0.7</scale>
+			<rotation>180</rotation>
+			<color>202020</color>
+			<zIndex>16</zIndex>
+			<opacity>0</opacity>
+			<path>./eye1.png</path>	
+
+			 <storyboard repeat="forever">
+			    <animation property="opacity" from="0" to="0.6" begin="1000" duration="500" mode="linear"/>
+				<animation property="opacity" from="0.6" to="0" begin="4000" duration="500" mode="linear"/>
+				
+				<animation property="opacity" from="0" to="0" begin="6000" duration="10" mode="linear"/>
+			</storyboard>				
+		</image>
 		
 		
 		
@@ -78,26 +98,6 @@
 		</image>		
 		
 		
-		<image name="eye1" extra="static">
-			<origin>0.5 0.5</origin>									
-			<size>0.0098958 0.0194444</size>									
-			<pos>0.7940104 0.5060185</pos>									
-			<scale>0.7</scale>
-			<rotation>180</rotation>
-			<color>202020</color>
-			<zIndex>16</zIndex>
-			<opacity>0</opacity>
-			<path>./eye1.png</path>	
-			
-
-			 <storyboard repeat="forever">
-			    <animation property="opacity" from="0" to="0.6" begin="1000" duration="500" mode="linear"/>
-				<animation property="opacity" from="0.6" to="0" begin="4000" duration="500" mode="linear"/>
-				
-				<animation property="opacity" from="0" to="0" begin="6000" duration="10" mode="linear"/>
-			</storyboard>				
-			
-		</image>
 
 
 

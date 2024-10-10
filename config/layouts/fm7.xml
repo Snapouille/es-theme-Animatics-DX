@@ -6,9 +6,9 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
 		<path>./../../system/fm7/ecran_console2.png</path>
-		<size>0.190625 0.4435185</size>									
-		<pos>0.5770833 0.6606481</pos>									
-									
+		<size>0.3421875 0.5777778</size>									
+		<pos>0.5361979 0.6037037</pos>									
+		<pos ifHelpPrompts="false">0.5361979 0.6537037</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<zIndex>31</zIndex>
@@ -30,9 +30,9 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-		<size>0.1458333 0.1925926</size>									
-		<pos>0.5729167 0.5703704</pos>									
-
+		<size>0.2622917 0.2372222</size>									
+		<pos>0.5305 0.4896481</pos>									
+		<pos ifHelpPrompts="false">0.5305 0.5396481</pos>
 		<zIndex>30</zIndex>
 
 	  
@@ -55,8 +55,9 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-		<size>0.1458333 0.1925926</size>									
-		<pos>0.5729167 0.5703704</pos>									
+		<size>0.2622917 0.2372222</size>									
+		<pos>0.5305 0.4896481</pos>		
+		<pos ifHelpPrompts="false">0.5305 0.5396481</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -70,16 +71,6 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-
-
-	<text name="md_description">
-	  <pos>0.18 0.211</pos>
-	</text>
-
-
-
-	
 </view>  
   
    

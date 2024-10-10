@@ -5,7 +5,6 @@
   
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
-
 		<size>0.303125 0.6009259</size>									
 		<pos>0.5020833 0.6356481</pos>									
 		<pos ifHelpPrompts="false">0.5020833 0.6956481</pos>
@@ -29,10 +28,9 @@
   
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-
 		<pos>0.5033854 0.6476852</pos>	
 		<pos ifHelpPrompts="false">0.5033854 0.7076852</pos>
-		<maxSize>0.2056458 0.2492222</maxSize>									
+		<size>0.2036458 0.2472222</size>									
 
 		<zIndex>30</zIndex>
 
@@ -72,15 +70,6 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-	
-	
-	<text name="md_description">
-	  <size>0.53 0.118</size> <!-- 4 lignes -->
-	</text>
-
-
-	
 </view>
 
 

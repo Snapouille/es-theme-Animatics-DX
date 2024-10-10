@@ -30,7 +30,7 @@
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-		<maxSize>0.290625 0.2898148</maxSize>									
+		<size>0.290625 0.2898148</size>									
 		<pos>0.4898958 0.6949074</pos>									
 		<pos ifHelpPrompts="false">0.4898958 0.7449074</pos>
 		<zIndex>30</zIndex>
@@ -71,16 +71,7 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-
-
-	<text name="md_description">
-	  <pos>0.18 0.211</pos>
-	</text>
-
-
-
-	
+		
 </view>  
   
 

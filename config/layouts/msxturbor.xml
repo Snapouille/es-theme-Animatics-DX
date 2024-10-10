@@ -6,13 +6,12 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>
 		<path>./../../system/msx2/ecran_console2.png</path>
-
-		<size>0.5177083 0.7407407</size>									
-		<pos>0.5427083 0.5444444</pos>									
-		<pos ifHelpPrompts="false">0.5427083 0.5944444</pos>
+		<size>0.381796 0.60</size>																
+		<pos>0.5351563 0.6366667</pos>																
+		<pos ifHelpPrompts="false">0.5351563 0.6716667</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
-		<zIndex>31</zIndex>
+		<zIndex>30</zIndex>
 		
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -26,15 +25,14 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-  
-  
+   
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 
-		<size>0.1895833 0.2703704</size>									
-		<pos>0.5677083 0.3611111</pos>									
-		<pos ifHelpPrompts="false">0.5677083 0.4111111</pos>
-		<zIndex>30</zIndex>
+		<size>0.139 0.217</size>									
+		<pos>0.554 0.4886074</pos>									
+		<pos ifHelpPrompts="false">0.554 0.5236074</pos>
+		<zIndex>20</zIndex>
 
 	  
 			<storyboard event="open">
@@ -50,15 +48,14 @@
 			</storyboard>
 	</video>
 	
-  
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-		<size>0.1895833 0.2703704</size>									
-		<pos>0.5677083 0.3611111</pos>	
-		<pos ifHelpPrompts="false">0.5677083 0.4111111</pos>
+		<size>0.139 0.217</size>									
+		<pos>0.554 0.4886074</pos>
+		<pos ifHelpPrompts="false">0.554 0.5236074</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -72,20 +69,7 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-	
-	
-	<text name="md_description">
-		<origin>0.5 0.5</origin>									
-		<size>0.23 0.238</size>									
-		<pos>0.3 0.293</pos>									
-	</text>
-
-	
 </view>
-
-
-
 
 <customView name="fanart">
 

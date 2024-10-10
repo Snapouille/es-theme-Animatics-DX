@@ -31,7 +31,7 @@
 		<origin>0.5 0.5</origin>									
 
 		<pos>0.4852917 0.6916667</pos>									
-		<maxSize>0.29375 0.3166667</maxSize>									
+		<size>0.29375 0.3166667</size>									
 
 		<zIndex>30</zIndex>
 
@@ -70,15 +70,6 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-
-
-	<text name="md_description">
-	  <pos>0.18 0.211</pos>
-	</text>
-
-
-
 	
 </view>  
   

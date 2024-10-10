@@ -54,7 +54,7 @@
 	
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-		<maxSize>0.2380208 0.3796296</maxSize>									
+		<size>0.2240208 0.3926296</size>									
 		<pos>0.4450521 0.6601852</pos>									
 
 		<zIndex>11</zIndex>
@@ -77,7 +77,7 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-		<size>0.2380208 0.3796296</size>									
+		<size>0.2240208 0.3926296</size>									
 		<pos>0.4450521 0.6601852</pos>									
 		<zIndex>10</zIndex>
 			<storyboard event="open">

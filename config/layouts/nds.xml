@@ -32,7 +32,7 @@
 
 		<pos>0.5191667 0.6472222</pos>	
 		<pos ifHelpPrompts="false">0.5191667 0.6972222</pos>
-		<maxSize>0.1625 0.4277778</maxSize>									
+		<size>0.1625 0.4277778</size>									
 
 		<zIndex>30</zIndex>
 
@@ -72,21 +72,6 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-
-
-	<text name="md_description">
-	  <pos>0.18 0.181</pos>
-	</text>
-
-
-	<image name="thumbnail-gamecarousel" extra="true">
-		<maxSize>0.27 0.44</maxSize>
-		<maxSize ifHelpPrompts="false">0.27 0.5</maxSize>
-		<pos>0.155 0.691</pos>
-		<pos ifHelpPrompts="false">0.155 0.73</pos>
-	</image>
-	
 </view>  
   
    

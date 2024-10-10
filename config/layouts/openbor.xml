@@ -10,44 +10,34 @@
 		<pos ifHelpPrompts="false">0.5132813 0.6897222</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
+		<zIndex>31</zIndex>		
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
   
-  
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-
 		<pos>0.5132813 0.6725</pos>		
 		<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
-		<maxSize>0.1828125 0.2509259</maxSize>									
-
-		<zIndex>30</zIndex>
-	  
+		<size>0.1828125 0.2509259</size>									
+		<zIndex>30</zIndex>	  
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
-	</video>
-	
+	</video>	
   
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
@@ -60,17 +50,14 @@
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
-	</image>
-	
+	</image>	
 	
 	<!-- MARQUEE SUR LE BARTOP NOIR -->
 	<image name="marquee_bartop" extra="true">
@@ -82,27 +69,14 @@
 		<zIndex>33</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-	
-	
-	
-	
-	
-	<text name="md_description">
-	  <size>0.53 0.088</size> <!-- 3 lignes -->
-	</text>
-
-	
 </view>
 
 

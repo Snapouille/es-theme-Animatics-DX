@@ -32,7 +32,7 @@
 
 		<pos>0.4880208 0.5189815</pos>		
 		<pos ifHelpPrompts="false">0.4880208 0.5789815</pos>
-		<maxSize>0.2208333 0.2935185</maxSize>									
+		<size>0.2208333 0.2935185</size>									
 
 		<zIndex>30</zIndex>
 
@@ -72,15 +72,6 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-	
-	
-	<text name="md_description">
-	  <size>0.53 0.12</size> <!-- 3 lignes -->
-	</text>
-
-
-	
 </view>
 
 

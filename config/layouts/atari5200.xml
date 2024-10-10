@@ -12,14 +12,12 @@
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
 		<opacity>0</opacity>
-		<zIndex>12</zIndex>
-		
+		<zIndex>12</zIndex>		
 			<storyboard event="open">
 				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
 				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
 			</storyboard>
@@ -31,22 +29,17 @@
 		<visible>true</visible>
     </image>
 
-
-	
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
 		<pos>0.4432813 0.6101852</pos>	
 		<pos ifHelpPrompts="false">0.4432813 0.6601852</pos>
-		<maxSize>0.2401042 0.312963</maxSize>									
-
+		<size>0.2401042 0.312963</size>									
 		<zIndex>11</zIndex>
-
 			<storyboard event="open">
 				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
 				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
 			</storyboard>
@@ -58,7 +51,7 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-		<size>0.2401042 0.332963</size>									
+		<size>0.2401042 0.312963</size>									
 		<pos>0.4432813 0.6101852</pos>	
 		<pos ifHelpPrompts="false">0.4432813 0.6601852</pos>
 		<zIndex>10</zIndex>
@@ -66,17 +59,12 @@
 				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
 				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 	</image>
 </view>
-
-  
-  
   
 <customView name="fanart">
 

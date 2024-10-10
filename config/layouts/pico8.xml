@@ -35,7 +35,7 @@
 	
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-		<maxSize>0.2380208 0.3796296</maxSize>									
+		<size>0.2380208 0.3796296</size>									
 		<pos>0.4550521 0.6601852</pos>									
 		<pos ifHelpPrompts="false">0.4550521 0.7101852</pos>
 		<zIndex>11</zIndex>

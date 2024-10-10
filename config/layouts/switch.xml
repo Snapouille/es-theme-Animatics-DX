@@ -30,7 +30,7 @@
 		<origin>0.5 0.5</origin>									
 		<pos>0.472 0.6925926</pos>	
 		<pos ifHelpPrompts="false">0.472 0.7525926</pos>
-		<maxSize>0.2609375 0.2685185</maxSize>																
+		<size>0.26 0.262</size>																
 		<zIndex>30</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -51,9 +51,9 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-		<size>0.28 0.27</size>									
+		<size>0.26 0.262</size>									
 		<pos>0.472 0.6925926</pos>	
-		<pos ifHelpPrompts="false">0.4822396 0.7525926</pos>
+		<pos ifHelpPrompts="false">0.472 0.7525926</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
@@ -67,11 +67,6 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-	<text name="md_description">
-	  <pos>0.18 0.211</pos>
-	</text>
-
 </view>  
   
   

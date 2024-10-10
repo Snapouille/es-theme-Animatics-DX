@@ -243,6 +243,13 @@
 		</storyboard>
     </image>
 	
+	<!-- on masque les cartridges si on est dans une collection -->
+	<image name="cartridge_ID" if="{system.sortedBy} == 'Collections' || 
+								   {system.theme} == 'mess' || 
+								   {system.theme} == 'ports'">
+		<visible>false</visible>
+    </image>
+	
 	<!-- PSP -->
 	<image name="cartridge_ID" if="{system.theme} == 'psp' " extra="true">
 		<pos>0.245 0.569</pos>									
@@ -257,8 +264,8 @@
 	
 	<!-- NES -->
 	<image name="cartridge_ID" if="{system.theme} == 'nes' " extra="true">
-		<pos>0.257 0.555</pos>									
-		<maxSize>0.25 0.25</maxSize>									
+		<pos>0.225 0.555</pos>									
+		<maxSize>0.155 0.25</maxSize>									
     </image>
 	
 	<!-- SNES ET N64-->
@@ -281,8 +288,8 @@
 		<maxSize>0.22 0.21</maxSize>									
     </image>
 	
-	<!-- Atari Lynx -->
-	<image name="cartridge_ID" if="{system.theme} == 'atarilynx' " extra="true">
+	<!-- Atari Lynx & PC Engine -->
+	<image name="cartridge_ID" if="{system.theme} == 'atarilynx'  || {system.theme} == 'pcengine' " extra="true">
 		<pos>0.24 0.57</pos>									
 		<maxSize>0.185 0.185</maxSize>									
     </image>
@@ -320,13 +327,13 @@
 		<maxSize>0.155 0.213</maxSize>									
     </image>
 	
-	
-	<!-- on masque les cartridges si on est dans une collection -->
-	<image name="cartridge_ID" if="{system.sortedBy} == 'Collections' || 
-								   {system.theme} == 'mess' || 
-								   {system.theme} == 'ports'">
-		<visible>false</visible>
+	<!-- GBA -->
+	<image name="cartridge_ID" if="{system.theme} == 'gba' " extra="true">
+		<pos>0.2 0.59</pos>									
+		<maxSize>0.12 0.12</maxSize>									
     </image>
+
+
 
 
 

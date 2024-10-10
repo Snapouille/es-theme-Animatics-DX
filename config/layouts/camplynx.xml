@@ -6,22 +6,18 @@
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>
 		<path>./../../system/camplynx/ecran_console2.png</path>
-
 		<size>0.4098958 0.6037037</size>									
-		<pos>0.5216146 0.5694444</pos>									
-		<pos ifHelpPrompts="false">0.5216146 0.6194444</pos>
+		<pos>0.5216146 0.6194444</pos>									
+		<pos ifHelpPrompts="false">0.5216146 0.6694444</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
+		<zIndex>31</zIndex>		
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
@@ -30,22 +26,17 @@
   
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
-
-		<pos>0.578125 0.4842593</pos>		
-		<pos ifHelpPrompts="false">0.578125 0.5442593</pos>
-		<maxSize>0.2104167 0.2962963</maxSize>									
-
+		<pos>0.578125 0.5212593</pos>		
+		<pos ifHelpPrompts="false">0.578125 0.5812593</pos>
+		<size>0.2104167 0.2902963</size>									
 		<zIndex>30</zIndex>
-
-	  
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
 			</storyboard>
 				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
@@ -57,39 +48,21 @@
 		<path>./../../art/divers/white.png</path>
 		<color>000000</color>
 		<origin>0.5 0.5</origin>
-		<size>0.2104167 0.2962963</size>																
-		<pos>0.578125 0.4842593</pos>	
-		<pos ifHelpPrompts="false">0.578125 0.5442593</pos>
+		<size>0.2104167 0.2902963</size>																
+		<pos>0.578125 0.5212593</pos>	
+		<pos ifHelpPrompts="false">0.578125 0.5812593</pos>
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
+			</storyboard>				
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-	
-	
-	<text name="md_description">
-		<origin>0.5 0.5</origin>									
-		<size>0.23 0.238</size>									
-		<pos>0.3 0.293</pos>									
-	</text>
-
-
-
-
-	
 </view>
-
-
-
 
 
 <customView name="fanart">

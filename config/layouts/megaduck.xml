@@ -33,7 +33,7 @@
 		<minSize>0.1927083 0.2592593</minSize>
 		<pos>0.5697396 0.4685185</pos>	
 		<pos ifHelpPrompts="false">0.5697396 0.5185185</pos>
-		<maxSize>0.1026042 0.1611111</maxSize>									
+		<size>0.1026042 0.1611111</size>									
 
 		<zIndex>30</zIndex>
 
@@ -73,22 +73,137 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
+		
+	<text name="name_Id" extra="true">
+		<text>{game:name}</text>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+    </text>
 	
-	
-	
-	<text name="md_description">
-		<origin>0.5 0.5</origin>									
-		<size>0.25 0.238</size>									
-		<pos>0.315 0.298</pos>									
+	<text name="developer_Id" extra="true">
+		<text>{game:developer}</text>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
 	</text>
-
-
-
+	
+	<image name="md_flag">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+	</image>
+	
+	<datetime name="md_releasedate">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>			 
+    </datetime>
 	
 	
-</view>  
-
-
+	<text name="genre_Id" extra="true">
+		<text>{game:genre}</text>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>		  
+	</text>
+	
+	<text name="description_Id" extra="true">
+	    <text>{game:desc}</text>
+		<origin>0.5 0.5</origin>									
+		<size>0.24 0.24</size>									
+		<pos>0.30 0.272</pos>	
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>		
+	</text>
+	
+	<!-- Système avec une cartouche taille normale -->		
+	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
+		<path>{game:cartridge}</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.285 0.691</pos>
+		<pos ifHelpPrompts="false">0.285 0.73</pos>		
+		<maxSize>0.199440 0.168762</maxSize>
+		<linearSmooth>true</linearSmooth>
+		<horizontalAlignment>left</horizontalAlignment>
+		<opacity>0</opacity>
+		<zIndex>22</zIndex> 
+		<scale>1</scale>
+		<storyboard event="activate">   
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.065" begin="6000" duration="700" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.065" begin="6000" duration="700" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.065" begin="6000" duration="700" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
+</view>
 
 <customView name="fanart">
 

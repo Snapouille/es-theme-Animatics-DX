@@ -527,6 +527,36 @@
     </image>
 	
 	
+	<!-- Marquee qui sort de derrière le logo des systèmes -->
+	<image name="marquee_ID" extra="true">
+		<path>{game:marquee}</path>
+		<origin>0.5 0.5</origin>									
+		<maxSize>0.1338542 0.087037</maxSize>									
+		<pos>0.7341146 0.0740741</pos>									
+		<zIndex>14</zIndex>
+		<opacity>0</opacity>
+		
+		<storyboard event="activate">   
+			<animation property="opacity" to="1" 	 begin="1900" duration="350" mode="linear"/>
+			<animation property="offsetY" to="0.115" begin="1900" duration="700" mode="EaseOut"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" 	 begin="1900" duration="350" mode="linear"/>
+			<animation property="offsetY" to="0.115" begin="1900" duration="700" mode="EaseOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" 	 begin="1900" duration="350" mode="linear"/>
+			<animation property="offsetY" to="0.115" begin="1900" duration="700" mode="EaseOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>	
+    </image>
+	
+	
 	
 	
 	
