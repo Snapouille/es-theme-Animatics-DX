@@ -1,4 +1,4 @@
-## V 2.06 - (xx 10 2024)
+## V 2.06 - (10 10 2024)
 - add the ability to display cartridges in the gamecarousel view (big up to Patrix91)
 - new ScummVM system animation
 - new Openbor system animation
@@ -7,6 +7,7 @@ Add cartridge and box layouts in videofull view for system:
 - pcengine
 - nes
 - gba
+
 
 
 ## V 2.05 - (29 09 2024)

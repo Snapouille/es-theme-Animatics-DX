@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 
 
+
 <customView name="primacy" inherits="detailed" displayName="${primacyview}">
 
 	<image name="bg-infos, border-info-top, border-info-bottom, border-info-left, border-info-right, frame_barreAnim, icon-pads, md_marquee, overlay_fixe, overlay_fanart_fixe, overlay_fanart, overlay_gamelist, triangle-rvgm-haut, triangle-rvgm-bas,
