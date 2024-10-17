@@ -1,3 +1,11 @@
+## V 2.07 - (17 10 2024)
+- add the ability to display cartridges in the primacy view
+- add background for the ps4 collection
+- add new auto-collection spinner
+- add new auto-collection trackball
+- add new collection disney
+
+
 ## V 2.06 - (10 10 2024)
 - add the ability to display cartridges in the gamecarousel view (big up to Patrix91)
 - new ScummVM system animation

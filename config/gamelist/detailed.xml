@@ -269,10 +269,10 @@
 			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15000" duration="150" mode="linear"/>
 		</storyboard>      
 		<storyboard ifSubset="boxbackDisplay:Show" event="deactivateNext">
-			<animation property="opacity" to="1" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
 		<storyboard ifSubset="boxbackDisplay:Show" event="deactivatePrev">
-			<animation property="opacity" to="1" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
     </image>
 

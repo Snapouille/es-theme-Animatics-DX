@@ -71,6 +71,35 @@
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
+	
+	<text name="description_Id" extra="true">
+	  <text>{game:desc}</text>
+	  <origin>0 0</origin>
+	  <color>928e94D0</color>
+	  <fontSize>0.021</fontSize>
+	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+	  <size>0.53 0.12</size>
+	  <linearSmooth>true</linearSmooth>
+	  <alignment>left</alignment>
+	  <verticalAlignment>top</verticalAlignment>
+	  <autoScroll>vertical</autoScroll>
+	  <pos>0.18 0.161</pos>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+			<animation enabled="exists({game:cartridge})" property="size" to="0.42 0.12" begin="1500" duration="250" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.42 0.12" begin="1500" duration="250" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.42 0.12" begin="1500" duration="250" mode="easeIn"/>
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </text>
 </view>
 
 

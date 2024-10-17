@@ -74,7 +74,7 @@
 		
 	<text name="name_Id" extra="true">
 		<text>{game:name}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -88,7 +88,7 @@
 	
 	<text name="developer_Id" extra="true">
 		<text>{game:developer}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -101,7 +101,7 @@
 	</text>
 	
 	<image name="md_flag">
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -114,7 +114,7 @@
 	</image>
 	
 	<datetime name="md_releasedate">
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -129,7 +129,7 @@
 	
 	<text name="genre_Id" extra="true">
 		<text>{game:genre}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -145,8 +145,8 @@
 	    <text>{game:desc}</text>
 		<origin>0.5 0.5</origin>									
 		<size>0.24 0.24</size>									
-		<pos>0.30 0.272</pos>	
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+		<pos>0.30 0.282</pos>	
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -161,13 +161,14 @@
 	<!-- Système avec un CD taille normale qui tourne -->
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
 		<path>{game:cartridge}</path>
-		<origin>0.5 0.5</origin>									
-		<pos>0.275 0.691</pos>
-		<pos ifHelpPrompts="false">0.275 0.73</pos>	
-		<horizontalAlignment>center</horizontalAlignment>
-		<maxSize>0.32 0.32</maxSize>
-		<zIndex>22</zIndex>		
-		<storyboard event="activate">   
+		<origin>0 0.5</origin>									
+		<pos>0.185 0.691</pos>
+		<pos ifHelpPrompts="false">0.185 0.73</pos>		
+		<maxSize>0.276 0.276</maxSize>
+		<linearSmooth>true</linearSmooth>
+		<opacity>0</opacity>
+		<zIndex>22</zIndex> 		
+		<storyboard event="open">   
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
 			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
 			<animation property="rotation" to="3600" begin="2600" duration="30000" mode="EaseInOut"/>

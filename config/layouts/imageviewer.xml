@@ -236,4 +236,41 @@
 
 
 
+<customView name="primacy">
+
+	<image name="controller2, thumbnail_ID" extra="static">
+		<visible>true</visible>
+	</image>
+	
+	<image name="date-icon, manufacturer-icon, stats-icon"> 
+		<visible>false</visible>
+	</image>
+	
+	<text name="releaseyearId, developerNameId, system_desc, gameInfoEx, gameInfoEx2, gameInfoExNull, game-lastplayed" extra="true">
+		<visible>false</visible>
+	</text> 
+	
+	
+		
+	<textlist name="gamelist">
+	  <origin>0 0</origin>									
+      <pos>0.655 0.6</pos>
+	  <pos ifHelpPrompts="false">0.655 0.63</pos>	
+      <size>0.68 0.35</size>
+    </textlist>
+
+     <image name="thumbnail_ID" extra="true">
+		<pos>0.35 0.66</pos>
+		<pos ifHelpPrompts="false">0.35 0.677</pos>
+		<maxSize>0.5 0.6</maxSize>	
+		<maxSize ifHelpPrompts="false">0.5 0.63</maxSize>	
+    </image>
+
+</customView>   
+
+
+
+
+
+
    </theme>

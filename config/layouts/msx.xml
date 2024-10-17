@@ -75,7 +75,7 @@
 		
 	<text name="name_Id" extra="true">
 		<text>{game:name}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -89,7 +89,7 @@
 	
 	<text name="developer_Id" extra="true">
 		<text>{game:developer}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -102,7 +102,7 @@
 	</text>
 	
 	<image name="md_flag">
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -115,7 +115,7 @@
 	</image>
 	
 	<datetime name="md_releasedate">
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -130,7 +130,7 @@
 	
 	<text name="genre_Id" extra="true">
 		<text>{game:genre}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -146,8 +146,8 @@
 	    <text>{game:desc}</text>
 		<origin>0.5 0.5</origin>									
 		<size>0.24 0.24</size>									
-		<pos>0.30 0.272</pos>	
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+		<pos>0.30 0.282</pos>	
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 		</storyboard>
@@ -162,16 +162,14 @@
 	<!-- Système avec une cartouche taille normale -->		
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
 		<path>{game:cartridge}</path>
-		<origin>0.5 0.5</origin>									
-		<pos>0.285 0.691</pos>
-		<pos ifHelpPrompts="false">0.285 0.73</pos>		
-		<maxSize>0.147583 0.231000</maxSize>
+		<origin>0 0.5</origin>									
+		<pos>0.185 0.691</pos>
+		<pos ifHelpPrompts="false">0.185 0.73</pos>		
+		<maxSize>0.147150 0.230322</maxSize>
 		<linearSmooth>true</linearSmooth>
-		<horizontalAlignment>left</horizontalAlignment>
 		<opacity>0</opacity>
 		<zIndex>22</zIndex> 
-		<scale>1</scale>
-		<storyboard event="activate">   
+		<storyboard event="open">   
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
 			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
 			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.065" begin="6000" duration="700" mode="linear"/>

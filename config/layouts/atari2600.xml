@@ -27,6 +27,7 @@
   
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
+		<maxSize>0.24291663 0.19351849</maxSize>
     </image>
 
 	<video name="md_video">

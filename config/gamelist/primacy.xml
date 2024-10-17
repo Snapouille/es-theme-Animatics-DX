@@ -131,14 +131,30 @@
 
 
 	<image name="md_image"> 
-		<size>0.238 0.3</size>									
-		<pos>0.861 0.423</pos>
+		<size>0.2255208 0.3</size>									
+		<pos>0.8674479 0.4231481</pos>				
+		
 
 		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3 0.3</size>									
 		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.83 0.423</pos>									
 		
 		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
 		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
+		
+		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' ">0.1932292 0.3009259</size>									
+		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' ">0.8835938 0.4226852</pos>	
+		
+		<size if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.2171875 0.3009259</size>									
+		<pos  if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.8716146 0.4226852</pos>	
+		
+		<size if="{system.theme} == 'amstradcpc' ">0.2390625 0.3009259</size>									
+		<pos  if="{system.theme} == 'amstradcpc' ">0.8606771 0.4226852</pos>	
+		
+		<size if="{system.theme} == 'megadrive' ">0.2213542 0.3009259</size>									
+		<pos  if="{system.theme} == 'megadrive' ">0.8695313 0.4226852</pos>	
+		
+		<size if="{system.theme} == 'gx4000' ">0.2244792 0.2990741</size>									
+		<pos  if="{system.theme} == 'gx4000' ">0.8679688 0.4236111</pos>	
 		
 		<size if="{system.theme} == 'pokemini'">0.252 0.3</size>									
 		<pos  if="{system.theme} == 'pokemini'">0.854 0.423</pos>	
@@ -157,14 +173,33 @@
 	</image>
 
 	<video name="md_video">
-		<size>0.238 0.3</size>									
-		<pos>0.861 0.423</pos>
+		<!-- <size>0.1932292 0.3009259</size>									 -->
+		<!-- <pos>0.8835938 0.4226852</pos>				 -->
+
+		<size>0.2255208 0.3</size>									
+		<pos>0.8674479 0.4231481</pos>				
+		
 		
 		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3 0.3</size>									
 		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.83 0.423</pos>									
 		
 		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
 		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
+		
+		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' ">0.1932292 0.3009259</size>									
+		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' ">0.8835938 0.4226852</pos>	
+		
+		<size if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.2171875 0.3009259</size>									
+		<pos  if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.8716146 0.4226852</pos>	
+		
+		<size if="{system.theme} == 'amstradcpc' ">0.2390625 0.3009259</size>									
+		<pos  if="{system.theme} == 'amstradcpc' ">0.8606771 0.4226852</pos>	
+		
+		<size if="{system.theme} == 'megadrive' ">0.2213542 0.3009259</size>									
+		<pos  if="{system.theme} == 'megadrive' ">0.8695313 0.4226852</pos>	
+		
+		<size if="{system.theme} == 'gx4000' ">0.2244792 0.2990741</size>									
+		<pos  if="{system.theme} == 'gx4000' ">0.8679688 0.4236111</pos>	
 		
 		<size if="{system.theme} == 'pokemini'">0.252 0.3</size>									
 		<pos  if="{system.theme} == 'pokemini'">0.854 0.423</pos>	
@@ -183,11 +218,108 @@
 	</video>	
 
 	
+	
+	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
+		<path>{game:cartridge}</path>
+		<origin>0.5 0.5</origin>									
+		<maxSize>0.1619792 0.1796296</maxSize>									
+		<!-- <pos>0.64 0.4712963</pos> -->
+		<pos>0.657 0.4712963</pos>
+		<x if="{system.theme} == 'switch' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == '3ds' ">0.57</x>	
+		<x if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' ">0.685</x>			
+		<x if="{system.theme} == 'amstradcpc' ">0.64</x>			
+		<x if="{system.theme} == 'gx4000' ">0.656</x>	
+		<linearSmooth>true</linearSmooth>
+		<horizontalAlignment>right</horizontalAlignment>
+		<opacity>0</opacity>
+		<zIndex>29</zIndex> 
+		<scale>1</scale>
+		<storyboard event="activate">   
+			<animation property="opacity" to="1" 				begin="2100" duration="1" mode="linear"/>
+			<animation property="offsetX" from ="0.15" to="0" 	begin="2100" duration="1000" mode="easeOut"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" 				begin="2100" duration="1" mode="linear"/>
+			<animation property="offsetX" from ="0.15" to="0" 	begin="2100" duration="1000" mode="easeOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" 				begin="2100" duration="1" mode="linear"/>
+			<animation property="offsetX" from ="0.15" to="0" 	begin="2100" duration="1000" mode="easeOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="offsetX" from ="0" to="0.30" duration="500" mode="easeIn"/>
+			<animation property="opacity" to="0" begin="450" duration="50" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="offsetX" from ="0" to="0.30" duration="500" mode="easeIn"/>
+			<animation property="opacity" to="0" begin="450" duration="50" mode="linear"/>
+		</storyboard>
+    </image>
+	
+	
+	<!-- Système avec un CD qui tourne -->
+	<image name="cartridge_ID" if="{system.theme} == '3do' || 
+								   {system.theme} == 'amigacd32' || 
+								   {system.theme} == 'amigacdtv' || 
+								   {system.theme} == 'atarijaguarcd' || 
+								   {system.theme} == 'cdi' ||
+								   {system.theme} == 'daphne' ||	
+								   {system.theme} == 'dreamcast' || 								   
+								   {system.theme} == 'gc' || 
+								   {system.theme} == 'naomi' || 
+								   {system.theme} == 'naomi2' ||
+								   {system.theme} == 'neogeocd' || 
+								   {system.theme} == 'pce-cd' || 
+								   {system.theme} == 'ps2' || 
+								   {system.theme} == 'ps3' || 
+								   {system.theme} == 'psx' || 
+								   {system.theme} == 'saturn' || 
+								   {system.theme} == 'segacd' || 
+								   {system.theme} == 'triforce' || 
+								   {system.theme} == 'wii' || 
+								   {system.theme} == 'wiiu' || 
+								   {system.theme} == 'xbox' || 
+								   {system.theme} == 'xbox360' " extra="true">
+		<horizontalAlignment>center</horizontalAlignment>
+		<!-- <pos>0.675 0.4712963</pos> -->
+		<pos>0.69 0.4712963</pos>
+		<x if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == '3ds' || {system.theme} == 'xbox360' ">0.605</x>	
+		
+		<storyboard event="activate">   
+			<animation property="opacity" to="1" 				begin="2200" duration="1" mode="linear"/>
+			<animation property="offsetX" from ="0.15" to="0" 	begin="2200" duration="1000" mode="easeOut"/>
+			<animation property="rotation" to="720" 			begin="2800" duration="10000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" 				begin="2200" duration="1" mode="linear"/>
+			<animation property="offsetX" from ="0.15" to="0" 	begin="2200" duration="1000" mode="easeOut"/>
+			<animation property="rotation" to="720" 			begin="2800" duration="10000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" 				begin="2200" duration="1" mode="linear"/>
+			<animation property="offsetX" from ="0.15" to="0" 	begin="2200" duration="1000" mode="easeOut"/>
+			<animation property="rotation" to="720" 			begin="2800" duration="10000" mode="EaseInOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="offsetX" from ="0" to="0.15" duration="250" mode="easeIn"/>
+			<animation property="opacity" to="0" begin="240" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="offsetX" from ="0" to="0.15" duration="250" mode="easeIn"/>
+			<animation property="opacity" to="0" begin="240" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
+	
+	
+	
+	
+	
+	
 	<image name="thumbnail_ID" extra="true">				
 		<pos>0.157 0.662</pos>	
-		<pos ifHelpPrompts="false">0.157 0.682</pos>	
+		<pos ifHelpPrompts="false">0.157 0.68</pos>	
 		<maxSize>0.25 0.588</maxSize>
-		<maxSize ifHelpPrompts="false">0.25 0.608</maxSize>
+		<maxSize ifHelpPrompts="false">0.25 0.6</maxSize>
 		<verticalAlignment>bottom</verticalAlignment>
 		<!-- <horizontalAlignment>right</horizontalAlignment> -->
 		<!-- <default>${themePath}/art/divers/noboxart.png</default> -->
@@ -538,24 +670,47 @@
 		<opacity>0</opacity>
 		
 		<storyboard event="activate">   
-			<animation property="opacity" to="1" 	 begin="1900" duration="350" mode="linear"/>
-			<animation property="offsetY" to="0.115" begin="1900" duration="700" mode="EaseOut"/>
+			<animation property="opacity" to="1" 	 begin="1800" duration="350" mode="linear"/>
+			<animation property="offsetY" to="0.115" begin="1800" duration="700" mode="EaseOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" 	 begin="1900" duration="350" mode="linear"/>
-			<animation property="offsetY" to="0.115" begin="1900" duration="700" mode="EaseOut"/>
+			<animation property="opacity" to="1" 	 begin="1800" duration="350" mode="linear"/>
+			<animation property="offsetY" to="0.115" begin="1800" duration="700" mode="EaseOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" 	 begin="1900" duration="350" mode="linear"/>
-			<animation property="offsetY" to="0.115" begin="1900" duration="700" mode="EaseOut"/>
+			<animation property="opacity" to="1" 	 begin="1800" duration="350" mode="linear"/>
+			<animation property="offsetY" to="0.115" begin="1800" duration="700" mode="EaseOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
+			<animation property="offsetY" to="0" duration="250" mode="easeIn"/>
+			<animation property="opacity" to="0" begin="240" duration="1" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivatePrev">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
+			<animation property="offsetY" to="0" duration="250" mode="easeIn"/>
+			<animation property="opacity" to="0" begin="240" duration="1" mode="linear"/>
 		</storyboard>	
     </image>
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

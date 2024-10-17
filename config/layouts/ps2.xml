@@ -27,8 +27,10 @@
   
   
 	<image name="Consoles" extra="static">
+		<maxSize>0.317999952 0.253333296</maxSize>	
+		<pos>0.6260417 0.7905556</pos>	
+		<pos ifHelpPrompts="false">0.6260417 0.8405556</pos>
 		<visible>true</visible>
-		<scale>1.2</scale>
     </image>
 
 

@@ -24,6 +24,8 @@
 	</image>
     
 	<image name="Consoles" extra="static">
+		<pos>0.6260417 0.8205556</pos>	
+		<pos ifHelpPrompts="false">0.6260417 0.8705556</pos>
 		<visible>true</visible>
     </image>
 	

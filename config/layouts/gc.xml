@@ -25,13 +25,12 @@
 			</storyboard>
 	</image>
   
-  
 	<image name="Consoles" extra="static">
+		<maxSize>0.2208333 0.1759259</maxSize>	
+		<pos>0.6260417 0.8305556</pos>	
+		<pos ifHelpPrompts="false">0.6260417 0.8805556</pos>
 		<visible>true</visible>
-		<scale>1.2</scale>
     </image>
-
-
 	
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									

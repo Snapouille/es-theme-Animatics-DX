@@ -44,10 +44,10 @@
 		
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
-		<pos>0.6960417 0.8205556</pos>	
-		<pos ifHelpPrompts="false">0.6960417 0.8705556</pos>
-		<scale>1.2</scale>
+		<pos>0.6960417 0.7905556</pos>	
+		<pos ifHelpPrompts="false">0.6960417 0.8405556</pos>
 		<zIndex>32</zIndex>
+		<maxSize>0.32399952 0.253333296</maxSize>
     </image>
 
 	<video name="md_video">

@@ -84,8 +84,8 @@
 	  <alignment>left</alignment>
 	  <verticalAlignment>top</verticalAlignment>
 	  <autoScroll>vertical</autoScroll>
-	  <pos>0.18 0.151</pos>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="activate">
+	  <pos>0.18 0.161</pos>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
 			<animation enabled="exists({game:cartridge})" property="size" to="0.42 0.12" begin="1500" duration="250" mode="easeIn"/>
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     

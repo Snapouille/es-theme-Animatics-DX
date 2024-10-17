@@ -8,6 +8,7 @@
 		<image name="avatar-girl" extra="static">
 			<origin>0 0</origin>
 			<pos>0.69 0.13</pos>
+			<pos ifHelpPrompts="false">0.69 0.19</pos>	
 			<size>0.3072917 0.9092593</size>									
 
 			<scale>0.9</scale>
@@ -25,6 +26,7 @@
 		<image name="avatar-girl_bis" extra="static">
 			<origin>0 0</origin>
 			<pos>0.69 0.13</pos>
+			<pos ifHelpPrompts="false">0.69 0.19</pos>	
 			<size>0.3072917 0.9092593</size>									
 
 			<scale>0.9</scale>
@@ -44,6 +46,7 @@
 		<image name="avatar-girl_ter" extra="static">
 			<origin>0 0</origin>
 			<pos>0.69 0.13</pos>
+			<pos ifHelpPrompts="false">0.69 0.19</pos>	
 			<size>0.3072917 0.9092593</size>									
 
 			<scale>0.9</scale>

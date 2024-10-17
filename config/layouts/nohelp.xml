@@ -210,17 +210,20 @@
 		<pos>0.872 0.907</pos>
 	</text>
 	
+	<text name="md_genre">
+		<pos>0.53 0.937</pos>
+	</text>
 	
 	
 	
 	<text name="md_developer">
 		<storyboard event="open">
-			<animation property="pos" to="0.474 0.952" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.474 0.945" begin="1200" duration="200" mode="linear"/>
 			<animation property="color" to="ff3f2f" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="activate">
-			<animation property="pos" to="0.474 0.952" begin="1200" duration="200" mode="linear"/>
+			<animation property="pos" to="0.474 0.945" begin="1200" duration="200" mode="linear"/>
 			<animation property="color" to="ff3f2f" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 
@@ -230,14 +233,13 @@
 	</text>
 	
 	<text name="md_genre">
-		<pos>0.67 0.937</pos>
 		<storyboard event="open">
-			<animation property="pos" to="0.695 0.952" begin="1200"  duration="200" mode="linear"/>
+			<animation property="pos" to="0.55 0.952" begin="1200"  duration="200" mode="linear"/>
 			<animation property="color" to="fdde0b" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="activate">
-			<animation property="pos" to="0.695 0.952" begin="1200"  duration="200" mode="linear"/>
+			<animation property="pos" to="0.55 0.952" begin="1200"  duration="200" mode="linear"/>
 			<animation property="color" to="fdde0b" begin="1200"  duration="200" mode="linear"/>
 		</storyboard>
 
