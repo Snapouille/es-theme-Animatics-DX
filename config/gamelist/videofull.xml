@@ -257,6 +257,12 @@
 		<maxSize>0.22 0.22</maxSize>									
     </image>
 	
+	<!-- GB, GBC -->
+	<image name="cartridge_ID" if="{system.theme} == 'gbc' || {system.theme} == 'gb' " extra="true">
+		<pos>0.25 0.569</pos>									
+		<maxSize>0.20 0.18</maxSize>									
+    </image>
+	
 	<!-- SWITCH -->
 	<image name="cartridge_ID" if="{system.theme} == 'switch' " extra="true">
 		<pos>0.197 0.59</pos>									
