@@ -168,29 +168,18 @@
 		<linearSmooth>true</linearSmooth>
 		<opacity>0</opacity>
 		<zIndex>22</zIndex> 
+		<!-- <scale>1.10</scale>	 -->
 		<storyboard event="open">   
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
-			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.065" begin="6000" duration="700" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
+			<animation property="offsetX" from="-0.10" to="0.065" begin="1000" duration="600" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
-			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.065" begin="6000" duration="700" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
+			<animation property="offsetX" from="-0.10" to="0.065" begin="1000" duration="600" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
-			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.065" begin="6000" duration="700" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetX" to="0.065"  begin="16500" duration="800" mode="bump"/>
+			<animation property="offsetX" from="-0.10" to="0.065" begin="1000" duration="600" mode="EaseInOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -201,15 +190,6 @@
     </image>
 </view>
 
-<customView name="fanart">
-
-	<text name="md_description">
-		<origin>0 0</origin>
-		<pos>0.05 0.64</pos>
-		<size>0.35 0.258</size>
-	</text>
-
-</customView>
     
   
   <customView name="legendary">

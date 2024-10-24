@@ -164,24 +164,28 @@
 		<origin>0 0.5</origin>									
 		<pos>0.185 0.691</pos>
 		<pos ifHelpPrompts="false">0.185 0.73</pos>		
-		<maxSize>0.276 0.276</maxSize>
+		<maxSize>0.29 0.29</maxSize>
 		<linearSmooth>true</linearSmooth>
 		<opacity>0</opacity>
-		<zIndex>22</zIndex>  
+		<zIndex>22</zIndex>
+		<!-- <scale>1.10</scale>	 -->
 		<storyboard event="open">   
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
-			<animation property="rotation" to="3600" begin="2600" duration="30000" mode="EaseInOut"/>
+			<animation property="offsetX" from="-0.10" to="0.065" begin="1000" duration="600" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
-			<animation property="rotation" to="3600" begin="2600" duration="30000" mode="EaseInOut"/>
+			<animation property="offsetX" from="-0.10" to="0.065" begin="1000" duration="600" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.065" begin="1000" duration="800" mode="bump"/>
-			<animation property="rotation" to="3600" begin="2600" duration="30000" mode="EaseInOut"/>
+			<animation property="offsetX" from="-0.10" to="0.065" begin="1000" duration="600" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -192,15 +196,6 @@
     </image>
 </view>
   
-<customView name="fanart">
-
-	<text name="md_description">
-		<origin>0 0</origin>
-		<pos>0.05 0.64</pos>
-		<size>0.35 0.258</size>
-	</text>
-
-</customView>
   
   
   

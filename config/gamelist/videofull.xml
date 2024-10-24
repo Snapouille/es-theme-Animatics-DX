@@ -275,8 +275,8 @@
 		<maxSize>0.2066667 0.5314815</maxSize>									
     </image>
 	<image name="cartridge_ID" if="{system.theme} == 'n64' || {system.theme} == 'snes' " extra="true">
-		<pos>0.279 0.575</pos>									
-		<maxSize>0.185 0.185</maxSize>									
+		<pos>0.265 0.575</pos>									
+		<maxSize>0.155 0.185</maxSize>									
     </image>
 	
 	<!-- Amstrad CPC -->

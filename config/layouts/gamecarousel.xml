@@ -272,6 +272,18 @@ originally based on: "carbon"
             </storyboard>
 		</image>
 		
+		<datetime name="md_releasedate">
+			<origin>0.5 1</origin>
+			<pos>0.976 0.78</pos>
+			<size>0.1 0.035</size>
+			<format>%Y</format>
+			<color>dddddd</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+			<rotation>-90</rotation>
+			<alignment>left</alignment>
+			<fontSize>0.031</fontSize>
+		</datetime>
 
 		<image name="md_flag">
 			<origin>0.5 0</origin>
@@ -783,7 +795,7 @@ originally based on: "carbon"
 		<linearSmooth>true</linearSmooth>
 		<opacity>0</opacity>
 		<zIndex>800</zIndex> 
-		<!-- <scale>0.90</scale> -->
+		<scale>0.90</scale>
 		<storyboard event="open">   
 			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
 			<animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseOut"/>
@@ -797,10 +809,10 @@ originally based on: "carbon"
 			<animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
-			<animation property="opacity" to="0" mode="linear"/>
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivatePrev">
-			<animation property="opacity" to="0" mode="linear"/>
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
     </image>
 	
@@ -824,7 +836,6 @@ originally based on: "carbon"
 								   {system.theme} == 'psx' || 
 								   {system.theme} == 'saturn' || 
 								   {system.theme} == 'segacd' || 
-								   {system.theme} == 'snes-msu1' || 
 								   {system.theme} == 'singe' ||	
 								   {system.theme} == 'triforce' || 
 								   {system.theme} == 'wii' || 
@@ -867,23 +878,23 @@ originally based on: "carbon"
 
 		<!-- Adventure Vision -->
 	<image name="cartridge_ID"  if="{system.theme} == 'advision' " extra="true">
-		<maxSize>0.186615 0.090084</maxSize>						
+		<maxSize>0.207350 0.100094</maxSize>						
     </image>
 		
 		<!-- GBA -->
 	<image name="cartridge_ID" if="{system.theme} == 'gba' " extra="true">
-		<maxSize>0.175500 0.102375</maxSize>						
+		<maxSize>0.195000 0.113750</maxSize>						
     </image>
 	
 		<!-- Commodore VIC-20 -->
 	<image name="cartridge_ID"  if="{system.theme} == 'c20' " extra="true">
-		<maxSize>0.276471 0.157131</maxSize>						
+		<maxSize>0.310202 0.176302</maxSize>						
     </image>
 	
 		<!-- WonderSwan / WonderSwan Color -->
 	<image name="cartridge_ID" if="{system.theme} == 'wonderswan' ||
 								   {system.theme} == 'wonderswancolor' " extra="true">
-		<maxSize>0.186615 0.115928</maxSize>									
+		<maxSize>0.207350 0.128808</maxSize>									
     </image>
 		
 		<!-- AMSTRAD CPC / Acorn Electron / Astrocade / Atom / BBC Micro / Camputers Lynx / Commodore PET / Laser 310 / Sharp X1 / ZX81 /
@@ -910,7 +921,7 @@ originally based on: "carbon"
 								   {system.theme} == 'c64' ||
 								   {system.theme} == 'cplus4' ||
 								   {system.theme} == 'pv1000' " extra="true">
-		<maxSize>0.147420 0.234000 </maxSize>	<!-- VALEURS VOLONTAIREMENT INVERSEES -->					
+		<maxSize>0.163800 0.260000</maxSize>	<!-- VALEURS VOLONTAIREMENT INVERSEES -->					
     </image>
 	
 		<!-- MASTER SYSTEM / MEGADRIVE / Tutor / MSU-MD / TI-99 -->
@@ -919,119 +930,120 @@ originally based on: "carbon"
 									{system.theme} == 'tutor' ||	
 									{system.theme} == 'msu-md' ||
 									{system.theme} == 'ti99' " extra="true">
-		<maxSize>0.244296 0.156078</maxSize>									
+		<maxSize>0.271440 0.173420</maxSize>									
     </image>
 	
 		<!-- SEGA 32X -->
 	<image name="cartridge_ID" if="{system.theme} == 'sega32x' " extra="true">
-		<maxSize>0.246753 0.160056</maxSize>									
+		<maxSize>0.274170 0.177840</maxSize>									
     </image>
 	
 		<!-- N64 -->
 	<image name="cartridge_ID"  if="{system.theme} == 'n64' " extra="true">
-		<maxSize>0.253344 0.167294</maxSize>						
+		<maxSize>0.281493 0.185883</maxSize>						
     </image>
 	
 		<!-- SNES -->
 	<image name="cartridge_ID"  if="{system.theme} == 'snes' ||
 									{system.theme} == 'satellaview'	" extra="true">
-		<maxSize>0.260033 0.176085</maxSize>						
+		<maxSize>0.295804 0.200308</maxSize>						
     </image>
 	
 		<!-- SATELLAVIEW -->
-	<image name="cartridge_ID"  if="{system.theme} == 'satellaview'	" extra="true">
-		<maxSize>0.151680357 0.240504606</maxSize>						
+	<image name="cartridge_ID"  if="{system.theme} == 'snes' ||
+									{system.theme} == 'satellaview'	" extra="true">
+		<maxSize>0.205308 0.325804</maxSize>						
     </image>
 	
 		<!-- Color Computer / Super A'Can / Interton VC 4000 -->
 	<image name="cartridge_ID"  if="{system.theme} == 'coco' ||
 								    {system.theme} == 'supracan' ||	
 									{system.theme} == 'vc4000' " extra="true">
-		<maxSize>0.244296 0.171912</maxSize>									
+		<maxSize>0.271440 0.191013</maxSize>									
     </image>
 	
 		<!-- NEO GEO MVS -->
 	<image name="cartridge_ID" if="{system.theme} == 'neogeo' " extra="true">
-		<maxSize>0.327600 0.251160</maxSize>						
+		<maxSize>0.364000 0.279067</maxSize>						
     </image>
 	
 		<!-- Neo-Geo Pocket / Neo-Geo Pocket Color -->
 	<image name="cartridge_ID"  if="{system.theme} == 'ngp' ||	
 									{system.theme} == 'ngpc' " extra="true">
-		<maxSize>0.166920 0.140275</maxSize>									
+		<maxSize>0.264453 0.217904</maxSize>									
     </image>
 	
 		<!-- JAGUAR -->
 	<image name="cartridge_ID"  if="{system.theme} == 'atarijaguar' " extra="true">
-		<maxSize>0.238007 0.196113</maxSize>						
+		<maxSize>0.263616 0.217214</maxSize>						
     </image>
 	
 		<!-- Pokémon Mini -->
 	<image name="cartridge_ID"  if="{system.theme} == 'pokemini' " extra="true">
-		<maxSize>0.118287 0.114707</maxSize>						
+		<maxSize>0.131430 0.127452</maxSize>						
     </image>
 	
 		<!-- Game.com -->
 	<image name="cartridge_ID"  if="{system.theme} == 'gamecom' " extra="true">
-		<maxSize>0.139562 0.132600</maxSize>						
+		<maxSize>0.155068 0.147333</maxSize>						
     </image>
 	
 		<!-- Game Master -->
 	<image name="cartridge_ID"  if="{system.theme} == 'gmaster' " extra="true">
-		<maxSize>0.157658 0.141570</maxSize>						
+		<maxSize>0.175175 0.157300</maxSize>						
     </image>
 	
 		<!-- Game Pocket Computer -->
 	<image name="cartridge_ID"  if="{system.theme} == 'gamepock' " extra="true">
-		<maxSize>0.177875 0.166485</maxSize>						
+		<maxSize>0.197639 0.184984</maxSize>						
     </image>
 
 		<!-- Epoch Super Cassette Vision / Virtual Boy -->
 	<image name="cartridge_ID" if="{system.theme} == 'scv' ||
 								   {system.theme} == 'virtualboy' " extra="true">
-		<maxSize>0.192225 0.179694</maxSize>									
+		<maxSize>0.213584 0.199661</maxSize>									
     </image>
 		
 		<!-- ATOMISWAVE -->
 	<image name="cartridge_ID"  if="{system.theme} == 'atomiswave' " extra="true">
-		<maxSize>0.231660 0.215280</maxSize>								
+		<maxSize>0.257400 0.239200</maxSize>								
     </image>
 		
 		<!-- Atari 5200 -->
 	<image name="cartridge_ID"  if="{system.theme} == 'atari5200' " extra="true">
-		<maxSize>0.247884 0.230178</maxSize>								
+		<maxSize>0.275427 0.255753</maxSize>								
     </image>
 		
 		<!-- Supervision -->
 	<image name="cartridge_ID"  if="{system.theme} == 'supervision' " extra="true">
-		<maxSize>0.167388 0.171861</maxSize>								
+		<maxSize>0.185987 0.190957</maxSize>								
     </image>
 	
 		<!-- PSP / GAME GEAR -->
 	<image name="cartridge_ID" if="{system.theme} == 'psp' ||
 								   {system.theme} == 'gamegear' " extra="true">
-		<maxSize>0.182208 0.182208</maxSize>									
+		<maxSize>0.202453 0.202453</maxSize>									
     </image>
 		
 		<!-- Socrates -->
 	<image name="cartridge_ID"  if="{system.theme} == 'socrates' " extra="true">
-		<maxSize>0.191100 0.191100</maxSize>								
+		<maxSize>0.212333 0.212333</maxSize>								
     </image>
 	
 		<!-- Vectrex -->
 	<image name="cartridge_ID" if="{system.theme} == 'vectrex'  " extra="true">
-		<maxSize>0.191400 0.198818</maxSize>						
+		<maxSize>0.212667 0.220909</maxSize>						
     </image>
 	
 		<!-- GAMECUBE -->
 	<image name="cartridge_ID" if="{system.theme} == 'gc'  " extra="true">
-		<maxSize>0.194688 0.194688</maxSize>						
+		<maxSize>0.21632 0.21632</maxSize>						
     </image>
 
 		<!-- V.Smile / GX4000 -->
 	<image name="cartridge_ID" if="{system.theme} == 'vsmile' ||
 								   {system.theme} == 'gx4000' " extra="true">
-		<maxSize>0.202176 0.206369</maxSize>									
+		<maxSize>0.224640 0.229299</maxSize>									
     </image>
 	
 		<!-- Amiga AGA / AMIGA / Amiga OCS/ECS / Archimedes / Atari ST / Macintosh / SAM Coupé -->
@@ -1042,22 +1054,22 @@ originally based on: "carbon"
 									{system.theme} == 'atarist' ||	
 									{system.theme} == 'macintosh' ||	
 									{system.theme} == 'samcoupe' " extra="true">
-		<maxSize>0.212355 0.219905</maxSize>
+		<maxSize>0.235950 0.244339</maxSize>
     </image>
 	
 		<!-- APF M-1000 -->
 	<image name="cartridge_ID" if="{system.theme} == 'apfm1000'  " extra="true">
-		<maxSize>0.217445 0.225498</maxSize>						
+		<maxSize>0.241605 0.250553</maxSize>						
     </image>
 	
 		<!-- Nintendo 64 Disk Drive -->
 	<image name="cartridge_ID" if="{system.theme} == 'n64dd'  " extra="true">
-		<maxSize>0.232015 0.238128</maxSize>						
+		<maxSize>0.257794 0.264586</maxSize>						
     </image>
 	
 		<!-- Super Game Boy -->
 	<image name="cartridge_ID" if="{system.theme} == 'sgb'  " extra="true">
-		<maxSize>0.255528 0.263640</maxSize>						
+		<maxSize>0.283920 0.292933</maxSize>						
     </image>
 	
 		<!-- Apple II / Apple IIGS / Dos/ FM-7 / PC-8800 / PC-9800 / Sharp X68000 / Tandy Video Information System / Thomson MO/TO-->
@@ -1070,18 +1082,18 @@ originally based on: "carbon"
 									{system.theme} == 'x68000' ||	
 									{system.theme} == 'vis' ||	
 									{system.theme} == 'thomson' " extra="true">
-		<maxSize>0.261165 0.261165</maxSize>
+		<maxSize>0.290184 0.290184</maxSize>
     </image>
 	
 		<!-- 3DS / NDS -->
 	<image name="cartridge_ID"  if="{system.theme} == '3ds' ||
 									{system.theme} == 'nds' " extra="true">
-		<maxSize>0.114543 0.121485</maxSize>						
+		<maxSize>0.127270 0.134983</maxSize>						
     </image>
 	
 		<!-- ATARI LYNX -->
 	<image name="cartridge_ID" if="{system.theme} == 'atarilynx' " extra="true">
-		<maxSize>0.167388 0.176046</maxSize>									
+		<maxSize>0.185987 0.195607</maxSize>									
     </image>
 	
 		<!-- Game Boy / Game Boy (2 players) / Game Boy Color / Game Boy Color (2 players) -->
@@ -1089,27 +1101,27 @@ originally based on: "carbon"
 									{system.theme} == 'gb2players' ||	
 									{system.theme} == 'gbc' ||	
 									{system.theme} == 'gbc2players' " extra="true">	
-		<maxSize>0.160056 0.182520</maxSize>								
+		<maxSize>0.177840 0.202800</maxSize>								
     </image>
 	
 		<!-- Family Computer Disk System -->
 	<image name="cartridge_ID" if="{system.theme} == 'fds' " extra="true">
-		<maxSize>0.190320 0.218868</maxSize>								
+		<maxSize>0.211467 0.243187</maxSize>								
     </image>
 	
 		<!-- NES -->
 	<image name="cartridge_ID" if="{system.theme} == 'nes' " extra="true">
-		<maxSize>0.238680 0.266526</maxSize>								
+		<maxSize>0.265200 0.296140</maxSize>								
     </image>
 
 		<!-- GP32 -->
 	<image name="cartridge_ID" if="{system.theme} == 'gp32' " extra="true">
-		<maxSize>0.119048 0.144788</maxSize>								
+		<maxSize>0.132275 0.160875</maxSize>								
     </image>
 		
 		<!-- Mega Duck / Cougar Boy -->
 	<image name="cartridge_ID" if="{system.theme} == 'megaduck' " extra="true">
-		<maxSize>0.156630 0.185103</maxSize>								
+		<maxSize>0.174034 0.205670</maxSize>								
     </image>
 	
 		<!-- Atari 800 / Atari 8 Bit / Spectravideo SV-328 / Atari XE Game System / CreatiVision -->
@@ -1118,71 +1130,71 @@ originally based on: "carbon"
 									{system.theme} == 'spectravideo' ||	
 									{system.theme} == 'xegs' ||
 									{system.theme} == 'crvision' " extra="true">
-		<maxSize>0.166803 0.201279</maxSize>								
+		<maxSize>0.185337 0.223643</maxSize>								
     </image>
 	
 		<!-- Atari 2600 / Atari 7800 -->
 	<image name="cartridge_ID"  if="{system.theme} == 'atari2600' ||	
 									{system.theme} == 'atari7800' " extra="true">
-		<maxSize>0.190281 0.223928</maxSize>							
+		<maxSize>0.211423 0.248809</maxSize>							
     </image>
 	
 		<!-- Sega Pico -->
 	<image name="cartridge_ID" if="{system.theme} == 'pico' " extra="true">
-		<maxSize>0.265900 0.327600</maxSize>								
+		<maxSize>0.295444 0.364000</maxSize>								
     </image>
 	
 		<!-- SuFami Turbo -->
 	<image name="cartridge_ID" if="{system.theme} == 'sufami' " extra="true">
-		<maxSize>0.148005 0.193752</maxSize>								
+		<maxSize>0.164450 0.215280</maxSize>								
     </image>
 	
 		<!-- Mattel Intellivision -->
 	<image name="cartridge_ID" if="{system.theme} == 'intellivision' " extra="true">
-		<maxSize>0.164424 0.212784</maxSize>								
+		<maxSize>0.182693 0.236427</maxSize>								
     </image>
 		
 		<!-- SG-1000 / Othello Multivision -->
 	<image name="cartridge_ID"  if="{system.theme} == 'sg-1000' ||
 									{system.theme} == 'multivision' " extra="true">
-		<maxSize>0.186798 0.239031</maxSize>								
+		<maxSize>0.207554 0.265590</maxSize>								
     </image>
 	
 		<!-- PS VITA -->
 	<image name="cartridge_ID"  if="{system.theme} == 'psvita' " extra="true">
-		<maxSize>0.083655 0.114075</maxSize>								
+		<maxSize>0.092950 0.126750</maxSize>								
     </image>	
 	
 		<!-- Channel-F -->
 	<image name="cartridge_ID"  if="{system.theme} == 'channelf' " extra="true">
-		<maxSize>0.205012 0.282162</maxSize>								
+		<maxSize>0.227791 0.313513</maxSize>								
     </image>	
 	
 		<!-- SWITCH -->
 	<image name="cartridge_ID"  if="{system.theme} == 'switch' " extra="true">
-		<maxSize>0.079853 0.117878</maxSize>								
+		<maxSize>0.088725 0.130975</maxSize>								
     </image>	
 	
 		<!-- Arcadia 2001 -->
 	<image name="cartridge_ID"  if="{system.theme} == 'arcadia' " extra="true">
-		<maxSize>0.182967 0.279669</maxSize>								
+		<maxSize>0.203296 0.310743</maxSize>								
     </image>	
 	
 		<!-- PC Engine / SuperGrafx -->
 	<image name="cartridge_ID" if="{system.theme} == 'pcengine' ||
 								   {system.theme} == 'supergrafx' " extra="true">
-		<maxSize>0.131771 0.208845</maxSize>									
+		<maxSize>0.146413 0.232050</maxSize>									
     </image>	
 	
 		<!-- Gamate -->
 	<image name="cartridge_ID"  if="{system.theme} == 'gamate' " extra="true">
-		<maxSize>0.132432 0.210196</maxSize>								
+		<maxSize>0.147147 0.233552</maxSize>								
     </image>	
 	
 		<!-- Odyssey 2 / Videopac+ G7400 -->
 	<image name="cartridge_ID" if="{system.theme} == 'odyssey2' ||
 								   {system.theme} == 'videopacplus' " extra="true">
-		<maxSize>0.163800 0.260033</maxSize>
+		<maxSize>0.182000 0.288925</maxSize>
     </image>			
 	
 		<!-- SYSTEMES DIVERS - SUPPORT NUMERISES OU ARCADE -->

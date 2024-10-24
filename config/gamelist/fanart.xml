@@ -28,12 +28,18 @@ originally based on: "carbon"
 	</text>
 
 
-	<image name="md_image">
+	<image name="md_image, boxback_ID">
 			<visible>false</visible>
 	</image>
+	
 	<video name="md_video">
 			<visible>false</visible>
 	</video>
+	
+	
+	<text name="md_name">
+			<visible>false</visible>
+	</text>
 	
 
 
@@ -91,9 +97,9 @@ originally based on: "carbon"
 
      <image name="background-art" extra="true">
 		<path>{game:fanart}</path>
-		<pos>0 0</pos>
-		<maxSize>0.7 0.7101852</maxSize>
-		<origin>0 0</origin>
+		<size>0.8380208 0.82</size>									
+		<pos>0.4190104 0.4046296</pos>									
+		<origin>0.5 0.5</origin>
 		<color>FFFFFF</color>
 		<colorEnd>FFFFFF</colorEnd>
 		<zIndex>14</zIndex>
@@ -101,6 +107,12 @@ originally based on: "carbon"
 		<default>${themePath}/system/${system.theme}/background.jpg</default>
 		<default>${themePath}/system/${system.theme}/background-grid.jpg</default>
 		<!-- <visible>exists({game:fanart})</visible> -->
+		
+			<storyboard repeat="forever">
+					<animation property="scale" from="1.1" to="1" duration="15000" autoreverse="true" mode="easeInOut" />
+					<animation property="offsetX" to="-0.05" duration="15000" autoreverse="true" mode="easeInOut" />
+			</storyboard>
+		
     </image>
 
 
@@ -190,19 +202,8 @@ originally based on: "carbon"
 	</video>	
 
 
-
-
-
-
-
-
-
-
-
-
-        <text name="md_name">
-            <origin>0 0</origin>
-            <pos>0.05 0.52</pos>
+        <text name="name_Id">
+            <pos>0.05 0.555</pos>
             <size>0.39 0.1</size>
 		    <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
             <fontSize>0.032</fontSize>
@@ -210,7 +211,7 @@ originally based on: "carbon"
             <glowColor>00000016</glowColor>
             <glowSize>1</glowSize>
             <alignment>left</alignment>
-            <zIndex>99</zIndex>
+            <zIndex>100</zIndex>
 
 			<storyboard event="activate">        
 					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
@@ -231,34 +232,43 @@ originally based on: "carbon"
 
 
         <datetime name="md_releasedate">
-            <pos>0.065 0.577</pos>
-			<storyboard event="activate">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>
-			<storyboard event="activateNext">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>
-			<storyboard event="activatePrev">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>      
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+            <pos>0.065 0.617</pos>
         </datetime>
 		
 		<image name="md_flag">
-			<pos>0.089 0.5756481</pos>		
-			<storyboard event="activate">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+			<pos>0.089 0.6156481</pos>		
+		</image>
+		
+		<text name="developer_Id">
+            <pos>0.103 0.602</pos>
+			<singleLineScroll>true</singleLineScroll>
+			<zIndex>100</zIndex>
+		</text>
+	
+		<text name="genre_Id">
+			<fontSize>0.019</fontSize>
+            <pos>0.05 0.632</pos>
+			<singleLineScroll>true</singleLineScroll>
+			<zIndex>100</zIndex>
+		</text>
+		
+		<image name="separate_line" extra="true">
+			<path>./../../art/divers/white.png</path>
+			<color>${dataColor}</color>
+			<origin>0.5 0.5</origin>									
+			<size>0.01 0.0017</size>									
+			<pos>0.2255208 0.6967593</pos>	
+			<opacity>0.6</opacity>
+			<zIndex>100</zIndex>
+			
+			<storyboard event="activate">   
+					<animation property="w" to="0.3510417" duration="300" mode="linear" />
 			</storyboard>
 			<storyboard event="activateNext">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+					<animation property="w" to="0.3510417" duration="300" mode="linear" />
 			</storyboard>
 			<storyboard event="activatePrev">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
+					<animation property="w" to="0.3510417" duration="300" mode="linear" />
 			</storyboard>      
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -268,81 +278,42 @@ originally based on: "carbon"
 			</storyboard>
 		</image>
 		
-		<text name="md_developer">
-			<pos>0.103 0.562</pos>	
-			<singleLineScroll>true</singleLineScroll>
-			<storyboard event="activate">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>
-			<storyboard event="activateNext">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>
-			<storyboard event="activatePrev">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>      
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
-		</text>
-	
-		<text name="md_genre">
-			<fontSize>0.019</fontSize>
-			<pos>0.05 0.59</pos>
-			<singleLineScroll>true</singleLineScroll>
-			<storyboard event="activate">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>
-			<storyboard event="activateNext">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>
-			<storyboard event="activatePrev">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>      
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		
+		<text name="description_Id" extra="true">
+			<visible>false</visible>
 		</text>
 		
-
         <text name="md_description">
-            <origin>0 0</origin>
-			<pos>0.05 0.64</pos>
-			<size>0.35 0.258</size>
+			<linearSmooth>true</linearSmooth>
+			<size>0.35 0.268</size>
 			<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-            <fontSize>0.016</fontSize>
-            <color>CCCCCC</color>
-            <glowColor>00000016</glowColor>
-            <glowSize>1</glowSize>
-            <alignment>left</alignment>
-            <lineSpacing>1.16</lineSpacing>
+			<fontSize>0.016</fontSize>
+			<color>cdcdcd</color>
+			<visible>true</visible>
+			<glowColor>00000016</glowColor>
+			<glowSize>1</glowSize>
+			<!-- <alignment>left</alignment> -->
+			<!-- <lineSpacing>1.16</lineSpacing> -->
+			<!-- <zIndex>100</zIndex> -->
+			<pos>0.05 0.67</pos>
 
 			<storyboard event="open">
-				<animation property="size" from="0.35 0" to="0.35 0.258" duration="600" mode="linear" />
+				<animation property="size" from="0.35 0" to="0.35 0.268" duration="600" mode="linear" />
 			</storyboard>
-            <storyboard event="activate">
-                <animation property="size" from="0.35 0" to="0.35 0.258" duration="600" mode="linear" />
-            </storyboard>
 			<storyboard event="activateNext">        
-                <animation property="size" from="0.35 0" to="0.35 0.258" duration="600" mode="linear" />
+				<animation property="size" from="0.35 0" to="0.35 0.268" duration="600" mode="linear" />
 			</storyboard>
 			<storyboard event="activatePrev">        
-                <animation property="size" from="0.35 0" to="0.35 0.258" duration="600" mode="linear" />
+				<animation property="size" from="0.35 0" to="0.35 0.268" duration="600" mode="linear" />
 			</storyboard>      
 			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
+				<animation property="opacity" to="0"  mode="linear"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
+				<animation property="opacity" to="0"  mode="linear"/>
 			</storyboard>
-			
-			
         </text>
+		
 		
 		<image name="cadre_gauche" extra="true">
 		  <pos>0.8168 0.07</pos>

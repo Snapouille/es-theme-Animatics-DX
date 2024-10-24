@@ -1,3 +1,9 @@
+## V 2.08 - (24 10 2024)
+- add the ability to display cartridges in the fanart view
+- add a second primacy view with some adjustements and new animation (big up to Patrix91)
+- adjust the ScummVM animation
+
+
 ## V 2.07 - (17 10 2024)
 - add the ability to display cartridges in the primacy view
 - add background for the ps4 collection

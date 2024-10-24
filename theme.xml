@@ -693,6 +693,7 @@ originally based on: "carbon"
 	<!-- Custom Views  -->
 	<include>./config/gamelist/legendary.xml</include>
 	<include>./config/gamelist/primacy.xml</include>
+	<include>./config/gamelist/primacy_alt.xml</include>
 	<include>./config/gamelist/videofull.xml</include>
 	<include>./config/gamelist/fanart.xml</include>
 	<include>./config/gamelist/rvgm.xml</include>

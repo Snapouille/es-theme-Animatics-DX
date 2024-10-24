@@ -134,15 +134,14 @@
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
 		
-
 		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3 0.3</size>									
 		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.83 0.423</pos>									
 		
 		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
 		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
 		
-		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' ">0.1932292 0.3009259</size>									
-		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' ">0.8835938 0.4226852</pos>	
+		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.1932292 0.3009259</size>									
+		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.8835938 0.4226852</pos>	
 		
 		<size if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.2171875 0.3009259</size>									
 		<pos  if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.8716146 0.4226852</pos>	
@@ -173,12 +172,8 @@
 	</image>
 
 	<video name="md_video">
-		<!-- <size>0.1932292 0.3009259</size>									 -->
-		<!-- <pos>0.8835938 0.4226852</pos>				 -->
-
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
-		
 		
 		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3 0.3</size>									
 		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.83 0.423</pos>									
@@ -186,8 +181,8 @@
 		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
 		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
 		
-		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' ">0.1932292 0.3009259</size>									
-		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' ">0.8835938 0.4226852</pos>	
+		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.1932292 0.3009259</size>									
+		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.8835938 0.4226852</pos>	
 		
 		<size if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.2171875 0.3009259</size>									
 		<pos  if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.8716146 0.4226852</pos>	
@@ -218,110 +213,15 @@
 	</video>	
 
 	
-	
-	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
-		<path>{game:cartridge}</path>
-		<origin>0.5 0.5</origin>									
-		<maxSize>0.1619792 0.1796296</maxSize>									
-		<!-- <pos>0.64 0.4712963</pos> -->
-		<pos>0.657 0.4712963</pos>
-		<x if="{system.theme} == 'switch' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == '3ds' ">0.57</x>	
-		<x if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' ">0.685</x>			
-		<x if="{system.theme} == 'amstradcpc' ">0.64</x>			
-		<x if="{system.theme} == 'gx4000' ">0.656</x>	
-		<linearSmooth>true</linearSmooth>
-		<horizontalAlignment>right</horizontalAlignment>
-		<opacity>0</opacity>
-		<zIndex>29</zIndex> 
-		<scale>1</scale>
-		<storyboard event="activate">   
-			<animation property="opacity" to="1" 				begin="2100" duration="1" mode="linear"/>
-			<animation property="offsetX" from ="0.15" to="0" 	begin="2100" duration="1000" mode="easeOut"/>
-		</storyboard>
-		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" 				begin="2100" duration="1" mode="linear"/>
-			<animation property="offsetX" from ="0.15" to="0" 	begin="2100" duration="1000" mode="easeOut"/>
-		</storyboard>
-		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" 				begin="2100" duration="1" mode="linear"/>
-			<animation property="offsetX" from ="0.15" to="0" 	begin="2100" duration="1000" mode="easeOut"/>
-		</storyboard>      
-		<storyboard event="deactivateNext">
-			<animation property="offsetX" from ="0" to="0.30" duration="500" mode="easeIn"/>
-			<animation property="opacity" to="0" begin="450" duration="50" mode="linear"/>
-		</storyboard>
-		<storyboard event="deactivatePrev">
-			<animation property="offsetX" from ="0" to="0.30" duration="500" mode="easeIn"/>
-			<animation property="opacity" to="0" begin="450" duration="50" mode="linear"/>
-		</storyboard>
-    </image>
-	
-	
-	<!-- Système avec un CD qui tourne -->
-	<image name="cartridge_ID" if="{system.theme} == '3do' || 
-								   {system.theme} == 'amigacd32' || 
-								   {system.theme} == 'amigacdtv' || 
-								   {system.theme} == 'atarijaguarcd' || 
-								   {system.theme} == 'cdi' ||
-								   {system.theme} == 'daphne' ||	
-								   {system.theme} == 'dreamcast' || 								   
-								   {system.theme} == 'gc' || 
-								   {system.theme} == 'naomi' || 
-								   {system.theme} == 'naomi2' ||
-								   {system.theme} == 'neogeocd' || 
-								   {system.theme} == 'pce-cd' || 
-								   {system.theme} == 'ps2' || 
-								   {system.theme} == 'ps3' || 
-								   {system.theme} == 'psx' || 
-								   {system.theme} == 'saturn' || 
-								   {system.theme} == 'segacd' || 
-								   {system.theme} == 'triforce' || 
-								   {system.theme} == 'wii' || 
-								   {system.theme} == 'wiiu' || 
-								   {system.theme} == 'xbox' || 
-								   {system.theme} == 'xbox360' " extra="true">
-		<horizontalAlignment>center</horizontalAlignment>
-		<!-- <pos>0.675 0.4712963</pos> -->
-		<pos>0.69 0.4712963</pos>
-		<x if="{system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == '3ds' || {system.theme} == 'xbox360' ">0.605</x>	
-		
-		<storyboard event="activate">   
-			<animation property="opacity" to="1" 				begin="2200" duration="1" mode="linear"/>
-			<animation property="offsetX" from ="0.15" to="0" 	begin="2200" duration="1000" mode="easeOut"/>
-			<animation property="rotation" to="720" 			begin="2800" duration="10000" mode="EaseInOut"/>
-		</storyboard>
-		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" 				begin="2200" duration="1" mode="linear"/>
-			<animation property="offsetX" from ="0.15" to="0" 	begin="2200" duration="1000" mode="easeOut"/>
-			<animation property="rotation" to="720" 			begin="2800" duration="10000" mode="EaseInOut"/>
-		</storyboard>
-		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" 				begin="2200" duration="1" mode="linear"/>
-			<animation property="offsetX" from ="0.15" to="0" 	begin="2200" duration="1000" mode="easeOut"/>
-			<animation property="rotation" to="720" 			begin="2800" duration="10000" mode="EaseInOut"/>
-		</storyboard>      
-		<storyboard event="deactivateNext">
-			<animation property="offsetX" from ="0" to="0.15" duration="250" mode="easeIn"/>
-			<animation property="opacity" to="0" begin="240" duration="1" mode="linear"/>
-		</storyboard>
-		<storyboard event="deactivatePrev">
-			<animation property="offsetX" from ="0" to="0.15" duration="250" mode="easeIn"/>
-			<animation property="opacity" to="0" begin="240" duration="1" mode="linear"/>
-		</storyboard>
-    </image>
-	
-	
-	
-	
-	
-	
-	<image name="thumbnail_ID" extra="true">				
-		<pos>0.157 0.662</pos>	
-		<pos ifHelpPrompts="false">0.157 0.68</pos>	
+	<image name="thumbnail_ID" extra="true">
+		<origin>0.5 0.5</origin>	
+		<pos>0.151 0.662</pos>	
+		<pos ifHelpPrompts="false">0.151 0.682</pos>	
 		<maxSize>0.25 0.588</maxSize>
-		<maxSize ifHelpPrompts="false">0.25 0.6</maxSize>
-		<verticalAlignment>bottom</verticalAlignment>
-		<!-- <horizontalAlignment>right</horizontalAlignment> -->
+		<maxSize ifHelpPrompts="false">0.25 0.608</maxSize>
+		<verticalAlignment>center</verticalAlignment>
+		<linearSmooth>true</linearSmooth>
+		<horizontalAlignment>center</horizontalAlignment>
 		<!-- <default>${themePath}/art/divers/noboxart.png</default> -->
 	  <shader>
         <path>:/shaders/border.glsl</path>
@@ -331,16 +231,478 @@
         <outerShadowColor>00000050</outerShadowColor>
       </shader>		
 	</image>
-	
+
     <image name="boxback_ID" ifSubset="boxbackDisplay:Show" extra="true">
-		<pos>0.157 0.682</pos>									
-		<maxSize>0.25 0.548</maxSize>
-		<verticalAlignment>bottom</verticalAlignment>
-		
+		<pos>0.151 0.662</pos>	
+		<pos ifHelpPrompts="false">0.151 0.682</pos>	
+		<maxSize>0.25 0.588</maxSize>
+		<maxSize ifHelpPrompts="false">0.25 0.608</maxSize>
+		<verticalAlignment>center</verticalAlignment>	
+		<horizontalAlignment>center</horizontalAlignment>
+		<zIndex>35</zIndex> 
 	</image>
+
+	<!-- Système avec une cartouche taille normale -->	
+	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
+		<path>{game:cartridge}</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.151 0.1965</pos>	
+		<pos ifHelpPrompts="false">0.151 0.2115</pos>		
+		<maxSize>0.195 0.195</maxSize>									
+		<linearSmooth>true</linearSmooth>
+		<opacity>0</opacity>
+		<zIndex>20</zIndex> 
+		<!-- <scale>1.20</scale> -->
+		<storyboard event="open">   
+			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
 	
+	<!-- Système avec un CD taille normale qui tourne -->
+	<image name="cartridge_ID" if="{system.theme} == '3do' || 
+								   {system.theme} == 'amigacd32' || 
+								   {system.theme} == 'amigacdtv' || 
+								   {system.theme} == 'atarijaguarcd' || 
+								   {system.theme} == 'cdi' ||
+								   {system.theme} == 'daphne' ||	
+								   {system.theme} == 'dreamcast' || 
+								   {system.theme} == 'fmtowns' || 								   
+								   {system.theme} == 'gc' || 
+								   {system.theme} == 'naomi' ||
+								   {system.theme} == 'naomi2' ||
+								   {system.theme} == 'neogeocd' || 
+								   {system.theme} == 'pce-cd' || 
+								   {system.theme} == 'pcfx' || 
+								   {system.theme} == 'ps2' || 
+								   {system.theme} == 'ps3' || 
+								   {system.theme} == 'psx' || 
+								   {system.theme} == 'saturn' || 
+								   {system.theme} == 'segacd' || 
+								   {system.theme} == 'snes-msu1' || 
+								   {system.theme} == 'singe' ||	
+								   {system.theme} == 'triforce' || 
+								   {system.theme} == 'wii' || 
+								   {system.theme} == 'wiiu' || 
+								   {system.theme} == 'windows' || 
+								   {system.theme} == 'xbox' || 
+								   {system.theme} == 'xbox360' " extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.151 0.1965</pos>	
+		<pos ifHelpPrompts="false">0.151 0.2115</pos>	
+		<maxSize>0.29 0.29</maxSize>
+		<zIndex>20</zIndex>
+		<!-- <scale>1.20</scale> -->
+		<storyboard event="open">   
+			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
 	
+	<!---------------------------------------------------------------------------------->
+
+		<!-- Adventure Vision -->
+	<image name="cartridge_ID"  if="{system.theme} == 'advision' " extra="true">
+		<maxSize>0.207350 0.100094</maxSize>						
+    </image>
+		
+		<!-- GBA -->
+	<image name="cartridge_ID" if="{system.theme} == 'gba' " extra="true">
+		<maxSize>0.195000 0.113750</maxSize>						
+    </image>
 	
+		<!-- Commodore VIC-20 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'c20' " extra="true">
+		<maxSize>0.307190 0.174590</maxSize>						
+    </image>
+	
+		<!-- WonderSwan / WonderSwan Color -->
+	<image name="cartridge_ID" if="{system.theme} == 'wonderswan' ||
+								   {system.theme} == 'wonderswancolor' " extra="true">
+		<maxSize>0.207350 0.128808</maxSize>									
+    </image>
+		
+		<!-- AMSTRAD CPC / Acorn Electron / Astrocade / Atom / BBC Micro / Camputers Lynx / Commodore PET / Laser 310 / Sharp X1 / ZX81 /
+		MSX TURBOR / MSX / MSX 1 / MSX 2 / MSX 2+ / ADAM / COLECOVISION / ZX SPECTRUM / COMMODORE 128 / COMMODORE 64 / COMMODORE PLUS 4 / Casio PV-1000 -->
+	<image name="cartridge_ID" if="{system.theme} == 'amstradcpc' ||
+								   {system.theme} == 'electron' ||
+								   {system.theme} == 'astrocade' ||
+								   {system.theme} == 'atom' ||
+								   {system.theme} == 'bbcmicro' ||
+								   {system.theme} == 'camplynx' ||
+								   {system.theme} == 'pet' ||
+								   {system.theme} == 'laser310' ||
+								   {system.theme} == 'x1' ||
+								   {system.theme} == 'zx81' ||
+								   {system.theme} == 'msxturbor' ||	
+								   {system.theme} == 'msx' ||	
+								   {system.theme} == 'msx1' ||	
+								   {system.theme} == 'msx2' ||	
+								   {system.theme} == 'msx2+' ||
+								   {system.theme} == 'adam' ||	
+								   {system.theme} == 'colecovision' ||
+								   {system.theme} == 'zxspectrum' ||		
+								   {system.theme} == 'c128' ||
+								   {system.theme} == 'c64' ||
+								   {system.theme} == 'cplus4' ||
+								   {system.theme} == 'pv1000' " extra="true">
+		<maxSize>0.163800 0.260000</maxSize>	<!-- VALEURS VOLONTAIREMENT INVERSEES -->					
+    </image>
+	
+		<!-- MASTER SYSTEM / MEGADRIVE / Tutor / MSU-MD / TI-99 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'mastersystem' ||
+								    {system.theme} == 'megadrive' ||	
+									{system.theme} == 'tutor' ||	
+									{system.theme} == 'msu-md' ||
+									{system.theme} == 'ti99' " extra="true">
+		<maxSize>0.271440 0.173420</maxSize>									
+    </image>
+	
+		<!-- SEGA 32X -->
+	<image name="cartridge_ID" if="{system.theme} == 'sega32x' " extra="true">
+		<maxSize>0.274170 0.177840</maxSize>									
+    </image>
+	
+		<!-- N64 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'n64' " extra="true">
+		<maxSize>0.281493 0.185883</maxSize>						
+    </image>
+	
+		<!-- SNES -->
+	<image name="cartridge_ID"  if="{system.theme} == 'snes' ||
+									{system.theme} == 'satellaview'	" extra="true">
+		<maxSize>0.288925 0.195650</maxSize>						
+    </image>
+	
+		<!-- SATELLAVIEW -->
+	<image name="cartridge_ID"  if="{system.theme} == 'satellaview'	" extra="true">
+		<maxSize>0.16853373 0.26722734</maxSize>						
+    </image>
+	
+		<!-- Color Computer / Super A'Can / Interton VC 4000 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'coco' ||
+								    {system.theme} == 'supracan' ||	
+									{system.theme} == 'vc4000' " extra="true">
+		<maxSize>0.271440 0.191013</maxSize>									
+    </image>
+	
+		<!-- NEO GEO MVS -->
+	<image name="cartridge_ID" if="{system.theme} == 'neogeo' " extra="true">
+		<maxSize>0.364000 0.279067</maxSize>						
+    </image>
+	
+		<!-- Neo-Geo Pocket / Neo-Geo Pocket Color -->
+	<image name="cartridge_ID"  if="{system.theme} == 'ngp' ||	
+									{system.theme} == 'ngpc' " extra="true">
+		<maxSize>0.185467 0.155861</maxSize>									
+    </image>
+	
+		<!-- JAGUAR -->
+	<image name="cartridge_ID"  if="{system.theme} == 'atarijaguar' " extra="true">
+		<maxSize>0.264453 0.217904</maxSize>						
+    </image>
+	
+		<!-- Pokémon Mini -->
+	<image name="cartridge_ID"  if="{system.theme} == 'pokemini' " extra="true">
+		<maxSize>0.131430 0.127452</maxSize>						
+    </image>
+	
+		<!-- Game.com -->
+	<image name="cartridge_ID"  if="{system.theme} == 'gamecom' " extra="true">
+		<maxSize>0.155068 0.147333</maxSize>						
+    </image>
+	
+		<!-- Game Master -->
+	<image name="cartridge_ID"  if="{system.theme} == 'gmaster' " extra="true">
+		<maxSize>0.175175 0.157300</maxSize>						
+    </image>
+	
+		<!-- Game Pocket Computer -->
+	<image name="cartridge_ID"  if="{system.theme} == 'gamepock' " extra="true">
+		<maxSize>0.197639 0.184984</maxSize>						
+    </image>
+
+		<!-- Epoch Super Cassette Vision / Virtual Boy -->
+	<image name="cartridge_ID" if="{system.theme} == 'scv' ||
+								   {system.theme} == 'virtualboy' " extra="true">
+		<maxSize>0.213584 0.199661</maxSize>									
+    </image>
+		
+		<!-- ATOMISWAVE -->
+	<image name="cartridge_ID"  if="{system.theme} == 'atomiswave' " extra="true">
+		<maxSize>0.257400 0.239200</maxSize>								
+    </image>
+		
+		<!-- Atari 5200 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'atari5200' " extra="true">
+		<maxSize>0.275427 0.255753</maxSize>								
+    </image>
+		
+		<!-- Supervision -->
+	<image name="cartridge_ID"  if="{system.theme} == 'supervision' " extra="true">
+		<maxSize>0.185987 0.190957</maxSize>								
+    </image>
+	
+		<!-- PSP / GAME GEAR -->
+	<image name="cartridge_ID" if="{system.theme} == 'psp' ||
+								   {system.theme} == 'gamegear' " extra="true">
+		<maxSize>0.202453 0.202453</maxSize>									
+    </image>
+		
+		<!-- Socrates -->
+	<image name="cartridge_ID"  if="{system.theme} == 'socrates' " extra="true">
+		<maxSize>0.212333 0.212333</maxSize>								
+    </image>
+	
+		<!-- Vectrex -->
+	<image name="cartridge_ID" if="{system.theme} == 'vectrex'  " extra="true">
+		<maxSize>0.212667 0.220909</maxSize>						
+    </image>
+	
+		<!-- GAMECUBE -->
+	<image name="cartridge_ID" if="{system.theme} == 'gc'  " extra="true">
+		<maxSize>0.21632 0.21632</maxSize>						
+    </image>
+
+		<!-- V.Smile / GX4000 -->
+	<image name="cartridge_ID" if="{system.theme} == 'vsmile' ||
+								   {system.theme} == 'gx4000' " extra="true">
+		<maxSize>0.224640 0.229299</maxSize>									
+    </image>
+	
+		<!-- Amiga AGA / AMIGA / Amiga OCS/ECS / Archimedes / Atari ST / Macintosh / SAM Coupé -->
+	<image name="cartridge_ID"  if="{system.theme} == 'amiga1200' ||	
+									{system.theme} == 'amiga' ||
+									{system.theme} == 'amiga500' ||	
+									{system.theme} == 'archimedes' ||	
+									{system.theme} == 'atarist' ||	
+									{system.theme} == 'macintosh' ||	
+									{system.theme} == 'samcoupe' " extra="true">
+		<maxSize>0.235950 0.244339</maxSize>
+    </image>
+	
+		<!-- APF M-1000 -->
+	<image name="cartridge_ID" if="{system.theme} == 'apfm1000'  " extra="true">
+		<maxSize>0.241605 0.250553</maxSize>						
+    </image>
+	
+		<!-- Nintendo 64 Disk Drive -->
+	<image name="cartridge_ID" if="{system.theme} == 'n64dd'  " extra="true">
+		<maxSize>0.257794 0.264586</maxSize>						
+    </image>
+	
+		<!-- Super Game Boy -->
+	<image name="cartridge_ID" if="{system.theme} == 'sgb'  " extra="true">
+		<maxSize>0.283920 0.292933</maxSize>						
+    </image>
+	
+		<!-- Apple II / Apple IIGS / Dos/ FM-7 / PC-8800 / PC-9800 / Sharp X68000 / Tandy Video Information System / Thomson MO/TO-->
+	<image name="cartridge_ID"  if="{system.theme} == 'apple2' ||	
+									{system.theme} == 'apple2gs' ||	
+									{system.theme} == 'pc' ||	
+									{system.theme} == 'fm7' ||	
+									{system.theme} == 'pc88' ||	
+									{system.theme} == 'pc98' ||	
+									{system.theme} == 'x68000' ||	
+									{system.theme} == 'vis' ||	
+									{system.theme} == 'thomson' " extra="true">
+		<maxSize>0.290184 0.290184</maxSize>
+    </image>
+	
+		<!-- 3DS / NDS -->
+	<image name="cartridge_ID"  if="{system.theme} == '3ds' ||
+									{system.theme} == 'nds' " extra="true">
+		<maxSize>0.127270 0.134983</maxSize>						
+    </image>
+	
+		<!-- ATARI LYNX -->
+	<image name="cartridge_ID" if="{system.theme} == 'atarilynx' " extra="true">
+		<maxSize>0.185987 0.195607</maxSize>									
+    </image>
+	
+		<!-- Game Boy / Game Boy (2 players) / Game Boy Color / Game Boy Color (2 players) -->
+	<image name="cartridge_ID" if="{system.theme} == 'gb' ||	
+									{system.theme} == 'gb2players' ||	
+									{system.theme} == 'gbc' ||	
+									{system.theme} == 'gbc2players' " extra="true">	
+		<maxSize>0.177840 0.202800</maxSize>								
+    </image>
+	
+		<!-- Family Computer Disk System -->
+	<image name="cartridge_ID" if="{system.theme} == 'fds' " extra="true">
+		<maxSize>0.211467 0.243187</maxSize>								
+    </image>
+	
+		<!-- NES -->
+	<image name="cartridge_ID" if="{system.theme} == 'nes' " extra="true">
+		<maxSize>0.265200 0.296140</maxSize>								
+    </image>
+
+		<!-- GP32 -->
+	<image name="cartridge_ID" if="{system.theme} == 'gp32' " extra="true">
+		<maxSize>0.132275 0.160875</maxSize>								
+    </image>
+		
+		<!-- Mega Duck / Cougar Boy -->
+	<image name="cartridge_ID" if="{system.theme} == 'megaduck' " extra="true">
+		<maxSize>0.174034 0.205670</maxSize>								
+    </image>
+	
+		<!-- Atari 800 / Atari 8 Bit / Spectravideo SV-328 / Atari XE Game System / CreatiVision -->
+	<image name="cartridge_ID"  if="{system.theme} == 'atari800' ||	
+									{system.theme} == 'atari8bit' ||	
+									{system.theme} == 'spectravideo' ||	
+									{system.theme} == 'xegs' ||
+									{system.theme} == 'crvision' " extra="true">
+		<maxSize>0.185337 0.223643</maxSize>								
+    </image>
+	
+		<!-- Atari 2600 / Atari 7800 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'atari2600' ||	
+									{system.theme} == 'atari7800' " extra="true">
+		<maxSize>0.211423 0.248809</maxSize>							
+    </image>
+	
+		<!-- Sega Pico -->
+	<image name="cartridge_ID" if="{system.theme} == 'pico' " extra="true">
+		<maxSize>0.295444 0.364000</maxSize>								
+    </image>
+	
+		<!-- SuFami Turbo -->
+	<image name="cartridge_ID" if="{system.theme} == 'sufami' " extra="true">
+		<maxSize>0.164450 0.215280</maxSize>								
+    </image>
+	
+		<!-- Mattel Intellivision -->
+	<image name="cartridge_ID" if="{system.theme} == 'intellivision' " extra="true">
+		<maxSize>0.182693 0.236427</maxSize>								
+    </image>
+		
+		<!-- SG-1000 / Othello Multivision -->
+	<image name="cartridge_ID"  if="{system.theme} == 'sg-1000' ||
+									{system.theme} == 'multivision' " extra="true">
+		<maxSize>0.207554 0.265590</maxSize>								
+    </image>
+	
+		<!-- PS VITA -->
+	<image name="cartridge_ID"  if="{system.theme} == 'psvita' " extra="true">
+		<maxSize>0.092950 0.126750</maxSize>								
+    </image>	
+	
+		<!-- Channel-F -->
+	<image name="cartridge_ID"  if="{system.theme} == 'channelf' " extra="true">
+		<maxSize>0.227791 0.313513</maxSize>								
+    </image>	
+	
+		<!-- SWITCH -->
+	<image name="cartridge_ID"  if="{system.theme} == 'switch' " extra="true">
+		<maxSize>0.088725 0.130975</maxSize>								
+    </image>	
+	
+		<!-- Arcadia 2001 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'arcadia' " extra="true">
+		<maxSize>0.203296 0.310743</maxSize>								
+    </image>	
+	
+		<!-- PC Engine / SuperGrafx -->
+	<image name="cartridge_ID" if="{system.theme} == 'pcengine' ||
+								   {system.theme} == 'supergrafx' " extra="true">
+		<maxSize>0.146413 0.232050</maxSize>									
+    </image>	
+	
+		<!-- Gamate -->
+	<image name="cartridge_ID"  if="{system.theme} == 'gamate' " extra="true">
+		<maxSize>0.147147 0.233552</maxSize>								
+    </image>	
+	
+		<!-- Odyssey 2 / Videopac+ G7400 -->
+	<image name="cartridge_ID" if="{system.theme} == 'odyssey2' ||
+								   {system.theme} == 'videopacplus' " extra="true">
+		<maxSize>0.182000 0.288925</maxSize>
+    </image>			
+	
+		<!-- SYSTEMES DIVERS - SUPPORT NUMERISES OU ARCADE -->
+		<!-- SEGA SYSTEM SP / CHIHIRO / SOLARUS / NAMCO 2X6 / COMMANDER GENIUS / STEAM / LCD GAMES / PLUG N PLAY / FLASH / FINAL BURN NEO / UZEBOX / FUTURE PINBALL / PDP-1 / EASY RPG  -->
+		<!-- MUGEN / IKEMEN / PICO 8 / TIC-80 / LOWRES NX / PYXEL / WASM 4 / ARDUBOY / SCUMMVM / MOONLIGHT / OPEN BOR / ZELDA CLASSIC / PYGAME / VIRTUA PINBALL / MODEL 2 / MODEL 3 / THE X TECH -->
+	<!-- <image name="cartridge_ID"  if="{system.theme} == 'systemsp' ||	 -->
+									<!-- {system.theme} == 'chihiro' ||	 -->
+									<!-- {system.theme} == 'solarus' ||	 -->
+									<!-- {system.theme} == 'namco2x6' ||	 -->
+									<!-- {system.theme} == 'cgenius' ||	 -->
+									<!-- {system.theme} == 'steam' ||	 -->
+									<!-- {system.theme} == 'lcdgames' ||	 -->
+									<!-- {system.theme} == 'vgmplay' ||	 -->
+									<!-- {system.theme} == 'plugnplay' ||	 -->
+									<!-- {system.theme} == 'flash' || -->
+									<!-- {system.theme} == 'fbneo' || -->
+									<!-- {system.theme} == 'uzebox' || -->
+									<!-- {system.theme} == 'fpinball' || -->
+									<!-- {system.theme} == 'pdp1' || -->
+									<!-- {system.theme} == 'easyrpg' || -->
+									<!-- {system.theme} == 'mugen' || -->
+									<!-- {system.theme} == 'ikemen' || -->
+									<!-- {system.theme} == 'pico8' || -->
+									<!-- {system.theme} == 'tic80' || -->
+									<!-- {system.theme} == 'lowresnx' || -->
+									<!-- {system.theme} == 'pyxel' || -->
+									<!-- {system.theme} == 'wasm4' || -->
+									<!-- {system.theme} == 'arduboy' || -->
+									<!-- {system.theme} == 'scummvm' || -->
+									<!-- {system.theme} == 'moonlight' || -->
+									<!-- {system.theme} == 'openbor' || -->
+									<!-- {system.theme} == 'zeldac' || -->
+									<!-- {system.theme} == 'pygame' || -->
+									<!-- {system.theme} == 'vpinball' || -->
+									<!-- {system.theme} == 'model2' || -->
+									<!-- {system.theme} == 'model3' || -->
+									<!-- {system.theme} == 'thextech' " extra="true"> -->
+		<!-- <pos>0.235 0.515</pos> -->
+		<!-- <maxSize>0.22 0.22</maxSize>	 -->
+    <!-- </image> -->
+
+	<!---------------------------------------------------------------------------------->
+		
+		<!-- on masque les cartridges si on est dans une collection -->
+	<image name="cartridge_ID" if="{system.sortedBy} == 'Collections' || 
+								   {system.theme} == 'mess' || 
+								   {system.theme} == 'ports'">
+		<visible>false</visible>
+    </image>
+		
 	<!-- ----------------------------------------------	 -->
 	<!-- Encadrement HAUT au dessus de la grid           -->
 	<!-- ----------------------------------------------	 -->
@@ -354,50 +716,189 @@
 		
 	<image name="up_Frame_border" extra="true">
 		<size>0.6302083 0.0027778</size>									
-		<pos>0.3342708 0.0476852</pos>									
+		<pos>0.3342708 0.0476852</pos>	
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3557083 0.0027778" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4716708 0.0476852" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3557083 0.0027778" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4716708 0.0476852" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3557083 0.0027778" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4716708 0.0476852" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>		
 	</image>
 		
 	<image name="down_Frame_border" extra="true">
 		<size>0.6302083 0.0027778</size>									
-		<pos>0.3342708 0.3486111</pos>									
+		<pos>0.3342708 0.3566111</pos>	
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3557083 0.0027778" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4716708 0.3566111" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4716708 0.4996111" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3557083 0.0027778" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4716708 0.3566111" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4716708 0.4996111" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3557083 0.0027778" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4716708 0.3566111" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4716708 0.4996111" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>				
 	</image>
 	
 	<image name="left_Frame_border" extra="true">
-		<size>0.0015625 0.3037037</size>									
-		<pos>0.0199479 0.1981481</pos>									
+		<size>0.0015625 0.3087037</size>									
+		<pos>0.0199479 0.2011481</pos>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+			<animation enabled="exists({game:cartridge})" property="size" to="0.0015625 0.3087037" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.29450479 0.2011481" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.0015625 0.4517037" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.29450479 0.2726481" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.0015625 0.3087037" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.29450479 0.2011481" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.0015625 0.4517037" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.29450479 0.2726481" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.0015625 0.3087037" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.29450479 0.2011481" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.0015625 0.4517037" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.29450479 0.2726481" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>		
 	</image>
-	
+
 	<image name="right_Frame_border" extra="true">
-		<size>0.0015625 0.3037037</size>									
-		<pos>0.6485938 0.1981481</pos>									
+		<size>0.0015625 0.3087037</size>
+		<pos>0.6485938 0.2011481</pos>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.6485938 0.2726481" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.0015625 0.4517037" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.6485938 0.2726481" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.0015625 0.4517037" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.6485938 0.2726481" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.0015625 0.4517037" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
 	</image>
-	
-	<!-- Remplissage d'un black faible opacité -->
-    <image name="bg_Frame" extra="true">
-      <path>${themePath}/art/divers/black.png</path>
-		<size>0.6291667 0.302</size>									
-		<pos>0.0196875 0.0472222</pos>									
-      <zIndex>16</zIndex>
-	  <opacity>0.4</opacity>
-    </image>
 	
 	<!-- le Blurs pour affiner la banner -->
     <screenshader name="blur_Frame" extra="true">
       <path>${themePath}/art/shaders/blurcrt.glsl</path>
-		<size>0.6291667 0.302</size>									
-		<pos>0.0196875 0.0472222</pos>									
+		<size>0.6291667 0.31</size>									
+		<pos>0.0196875 0.0482222</pos>									
       <zIndex>17</zIndex>
       <blur>6</blur>
     </screenshader>
+	<control name="blur_Frame" extra="true">
+        <storyboard ifSubset="cartridgeDisplay:Show" event="open">
+            <animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.31" begin="1500" duration="500" mode="easeIn"/>
+            <animation enabled="exists({game:cartridge})" property="pos" to="0.2945875 0.04712222" begin="1500" duration="500" mode="easeIn"/>
+            <animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.454" begin="2200" duration="500" mode="easeIn"/>
+        </storyboard> 
+	<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">
+            <animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.31" begin="1500" duration="500" mode="easeIn"/>
+            <animation enabled="exists({game:cartridge})" property="pos" to="0.2945875 0.04712222" begin="1500" duration="500" mode="easeIn"/>
+            <animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.454" begin="2200" duration="500" mode="easeIn"/>
+        </storyboard>
+        <storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">
+            <animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.31" begin="1500" duration="500" mode="easeIn"/>
+            <animation enabled="exists({game:cartridge})" property="pos" to="0.2945875 0.04712222" begin="1500" duration="500" mode="easeIn"/>
+            <animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.454" begin="2200" duration="500" mode="easeIn"/>
+        </storyboard>
+        <storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+            <animation property="opacity" to="0" duration="" mode="linear"/>
+        </storyboard>
+        <storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+            <animation property="opacity" to="0" duration="" mode="linear"/>
+        </storyboard>
+    </control>
+
 	
-	
-	
-	
+	<!-- Remplissage d'un black faible opacité -->
+    <image name="bg_Frame" extra="true">
+		<path>${themePath}/art/divers/black.png</path>
+		<size>0.6291667 0.31</size>									
+		<pos>0.0196875 0.0472222</pos>			
+		<zIndex>16</zIndex>
+		<opacity>0.4</opacity>
+		
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.31" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.2945875 0.04712222" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.454" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.31" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.2945875 0.0472222" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.454" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.31" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.2945875 0.0472222" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3541667 0.454" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>	
+    </image>
+
 	<image name="date-icon" extra="true">
 		<color>FFFFFF</color>
 		<size>0.0130208 0.0212963</size>									
 		<pos>0.035 0.072</pos>									
 		<path>${themePath}/art/icons/rvgm-date-icon.png</path>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3102 0.072" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3102 0.072" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3102 0.072" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>	
 	</image>
 	
 	
@@ -413,18 +914,46 @@
 		<glowColor>00000080</glowColor>
 		<glowSize>1</glowSize>
         <multiLine>false</multiLine>
-		
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3402 0.072" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3402 0.072" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3402 0.072" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
 		<storyboard>
 			<animation property="color" to="FFFF00" begin="8000" duration="1000" autoreverse="true" mode="linear"/>
 		</storyboard>
-	</text> 
-	
+	</text>
 	
 	<image name="manufacturer-icon" extra="true">
 		<color>FFFFFF</color>
 		<size>0.0119792 0.0212963</size>									
 		<pos>0.105 0.072</pos>	
 		<path>${themePath}/art/icons/rvgm-publisher-icon.png</path>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3802 0.072" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3802 0.072" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3802 0.072" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>	
 	</image>
 	
 	<text name="developerNameId" extra="true">
@@ -434,15 +963,33 @@
 		<verticalAlignment>top</verticalAlignment>
 		<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
 		<fontSize>0.025</fontSize>
-		<pos>0.118 0.0535</pos>	
+		<pos>0.115 0.0535</pos>	
 		<rotation>0</rotation>
-		<size>0.25 0.28</size>
+		<size>0.40 0.28</size>
+        <singleLineScroll>true</singleLineScroll>
 		<zIndex>2001</zIndex>
 		<color>${infoColor}</color>
 		<glowColor>00000080</glowColor>
 		<glowSize>1</glowSize>
 		<opacity>1</opacity>
-		
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+			<animation enabled="exists({game:cartridge})" property="size" to="0.18 0.28" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3902 0.0535" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.18 0.28" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3902 0.0535" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.18 0.28" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.3902 0.0535" begin="1500" duration="500" mode="easeIn"/>
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
 		<storyboard>
 			<animation property="color" to="FFFF00" begin="18000" duration="1000" autoreverse="true" mode="linear"/>
 		</storyboard>
@@ -450,11 +997,11 @@
 
 	<text name="system_desc" extra="true">
 		<text>{game:desc}</text>
-		<origin>0.5 0.5</origin>
+		<origin>0.5 0</origin>
 		<fontPath>${themePath}/art/fonts/BarlowCondensed-Regular.ttf</fontPath>
 		<fontSize>0.026</fontSize>
-		<size>0.617 0.189</size>									
-		<pos>0.3355 0.188</pos>	
+		<size>0.617 0.19</size>									
+		<pos>0.3355 0.160</pos>
 		<alignment>left</alignment>
 		<verticalAlignment>top</verticalAlignment>
 		<color>${frameColor}</color>
@@ -463,30 +1010,58 @@
 		<lineSpacing>1.3</lineSpacing>
 		<glowColor>00000069</glowColor>
 		<glowSize>1</glowSize>
-		<glowOffset>3 2</glowOffset>			
+		<glowOffset>3 2</glowOffset>	
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.190" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4713 0.159" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.31315" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.01" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.190" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4713 0.159" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.31315" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.01" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.190" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="pos" to="0.4713 0.159" begin="1500" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.31315" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.01" begin="2200" duration="500" mode="easeIn"/>
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>			
 	</text>
 	
 	<image name="stats-icon" ifSubset="InfoCustomView:total|detailed" extra="true">
 		<color>FFFFFF</color>
-		<size>0.028125 0.05</size>									
-		<pos>0.0410417 0.3138889</pos>									
+		<size>0.0224 0.04</size>									
+		<pos>0.6257417 0.133</pos>									
 		<path>${themePath}/art/icons/rvgm-playcount-icon.png</path>
 	</image>
 	
 	<text name="gameInfoEx, gameInfoEx2, gameInfoExNull, game-lastplayed" extra="true">
 		<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
-		<fontSize>0.025</fontSize>
+		<fontSize>0.0195</fontSize>
 		<zIndex>2001</zIndex>
 		<color>6cffa3</color>
 		<glowColor>00000080</glowColor>
+        <multiLine>false</multiLine>
+        <autoScrollDelay>250</autoScrollDelay>
+        <singleLineScroll>true</singleLineScroll>
 		<glowSize>1</glowSize>
-		<size>0.45 0.28</size>
-		<pos>0.065 0.18</pos>
-		<visible>true</visible>  
+		<size>0.31 0.28</size>
+		<pos>0.301 -0.002</pos>
+		<alignment>right</alignment>
+		<visible>true</visible> 
 	</text>
 
 	<text name="gameInfoEx" extra="true">
-         <text>'' + '${theme.timesPlayedLabel}' + ' ' + {game:playcount} + '    -    ' + '${theme.gameTimeLabel}' + ' ' + {game:gametime}.expandseconds() + '' </text>
+         <text>' ' + '${theme.timesPlayedLabel}' + ' ' + {game:playcount} + ' - ' + '${theme.gameTimeLabel}' + ' ' + {game:gametime}.expandseconds() + '' </text>
          <visible>{game:gametime} &gt; 0 ? 1 : 0</visible>
       </text>
 
@@ -590,7 +1165,7 @@
 	
 	<text name="md_players">
 		<size>0.2822917 0.0601852</size>									
-		<pos>0.5 0.313</pos>
+		<pos>0.5 0.0755</pos>
 		<color ifSubset="backgroundAmbience:Light">C0C0C0</color>
 		<alignment>right</alignment>
 		<fontSize>0.042</fontSize>
@@ -669,48 +1244,25 @@
 		<zIndex>14</zIndex>
 		<opacity>0</opacity>
 		
-		<storyboard event="activate">   
-			<animation property="opacity" to="1" 	 begin="1800" duration="350" mode="linear"/>
-			<animation property="offsetY" to="0.115" begin="1800" duration="700" mode="EaseOut"/>
+		<storyboard event="open">   
+			<animation property="opacity" to="1" 	 begin="1900" duration="350" mode="linear"/>
+			<animation property="offsetY" to="0.115" begin="1900" duration="700" mode="EaseOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" 	 begin="1800" duration="350" mode="linear"/>
-			<animation property="offsetY" to="0.115" begin="1800" duration="700" mode="EaseOut"/>
+			<animation property="opacity" to="1" 	 begin="1900" duration="350" mode="linear"/>
+			<animation property="offsetY" to="0.115" begin="1900" duration="700" mode="EaseOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" 	 begin="1800" duration="350" mode="linear"/>
-			<animation property="offsetY" to="0.115" begin="1800" duration="700" mode="EaseOut"/>
+			<animation property="opacity" to="1" 	 begin="1900" duration="350" mode="linear"/>
+			<animation property="offsetY" to="0.115" begin="1900" duration="700" mode="EaseOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
-			<animation property="offsetY" to="0" duration="250" mode="easeIn"/>
-			<animation property="opacity" to="0" begin="240" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivatePrev">
-			<animation property="offsetY" to="0" duration="250" mode="easeIn"/>
-			<animation property="opacity" to="0" begin="240" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>	
     </image>
-	
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
@@ -785,7 +1337,205 @@
 			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
 		</storyboard>
 	</image>	
+
+		<!-- on empeche le mouvement des textes et des éléments pour les cartridges qui ne doivent pas apparaitre dans les collections -->
+	<image name="up_Frame_border" if="{system.sortedBy} == 'Collections' || 
+									  {system.theme} == 'mess' || 
+									  {system.theme} == 'ports'" extra="true">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+    </image>
 	
+	<image name="down_Frame_border" if="{system.sortedBy} == 'Collections' || 
+										{system.theme} == 'mess' || 
+										{system.theme} == 'ports'" extra="true">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+    </image>
+	
+	<image name="left_Frame_border" if="{system.sortedBy} == 'Collections' || 
+										{system.theme} == 'mess' || 
+										{system.theme} == 'ports'" extra="true">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+    </image>
+	
+	<image name="right_Frame_border" if="{system.sortedBy} == 'Collections' || 
+										{system.theme} == 'mess' || 
+										{system.theme} == 'ports'" extra="true">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+    </image>
+	
+    <image name="bg_Frame" if="{system.sortedBy} == 'Collections' || 
+							   {system.theme} == 'mess' || 
+							   {system.theme} == 'ports'" extra="true">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+    </image>
+	
+    <screenshader name="blur_Frame" if="{system.sortedBy} == 'Collections' || 
+										{system.theme} == 'mess' || 
+										{system.theme} == 'ports'" extra="true">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+    </screenshader>
+	
+	<image name="date-icon" if="{system.sortedBy} == 'Collections' || 
+								{system.theme} == 'mess' || 
+								{system.theme} == 'ports'" extra="true">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+    </image>
+	
+	<text name="releaseyearId" if="{system.sortedBy} == 'Collections' || 
+								   {system.theme} == 'mess' || 
+								   {system.theme} == 'ports'" extra="true">
+		<text>{game:releaseyear}</text>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+    </text>
+
+	<image name="manufacturer-icon" if="{system.sortedBy} == 'Collections' || 
+										{system.theme} == 'mess' || 
+										{system.theme} == 'ports'" extra="true">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+    </image>
+	
+	<text name="developerNameId" if="{system.sortedBy} == 'Collections' || 
+							       	 {system.theme} == 'mess' || 
+									 {system.theme} == 'ports'" extra="true">
+		<text>{game:publisher}</text>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+	</text>
+	
+	<text name="system_desc" if="{system.sortedBy} == 'Collections' || 
+								 {system.theme} == 'mess' || 
+								 {system.theme} == 'ports'" extra="true">
+		<text>{game:desc}</text>
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>		  
+	</text>
+	
+	<image name="stats-icon" if="{system.sortedBy} == 'Collections' || 
+								 {system.theme} == 'mess' || 
+								 {system.theme} == 'ports'" extra="true">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>	
+    </image>
+	
+	<text name="gameInfoEx, gameInfoEx2, gameInfoExNull, game-lastplayed" if="{system.sortedBy} == 'Collections' || 
+																			  {system.theme} == 'mess' || 
+																			  {system.theme} == 'ports'" extra="true">
+	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+		</storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+		</storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
+		</storyboard>		
+	</text>
 	
  </customView>
      
