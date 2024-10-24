@@ -28,7 +28,7 @@
 
 			<scale>0.9</scale>
 			<rotation>0</rotation>
-			<zIndex>280</zIndex>
+			<zIndex>28000</zIndex>
 			<opacity>1</opacity>
 			<path>./avatar.png</path>
 		
@@ -39,8 +39,8 @@
                 <animation property="x" to="0.74" 				begin="3000" duration="1000" mode="bump"/>
                 <animation property="rotation" from="2" to="-2" begin="4000" duration="1000" mode="bump"/>
                 
-				<animation property="x" to="0.76" 				begin="4000" duration="1000" mode="bump"/>
-				<animation property="y" to="0.55" 				begin="4000" duration="1000" mode="bump"/>
+				<animation property="x" to="0.73" 				begin="4000" duration="1000" mode="bump"/>
+				<animation property="y" to="0.53" 				begin="4000" duration="1000" mode="bump"/>
 				<animation property="scale" to="1" 				begin="4000" duration="1000" mode="linear"/>
     
             </storyboard>		
@@ -52,12 +52,12 @@
 		<image name="avatar2" extra="static">
 			<origin>0 0</origin>
 			<pos>-0.10 0.75</pos>
-			<pos ifHelpPrompts="false">-0.10 0.81</pos>
+			<pos ifHelpPrompts="false">-0.10 0.79</pos>
 			<size>0.1526042 0.2277778</size>									
 			<scale>1</scale>
 			<opacity>0</opacity>
 			<path>./avatar2.png</path>
-			<zIndex>14</zIndex>
+			<zIndex>14000</zIndex>
 		
 			<storyboard>
 				<animation property="x" from="0" to="0.75"		begin="" 		duration="3000" mode="linear"/>
@@ -65,7 +65,7 @@
 				
 				<animation property="rotation" to="-20" 		begin="3000" 	duration="2000" mode="linear"/>
 				<animation property="x" to="-1" 				begin="3000" 	duration="1000" mode="linear"/>
-				<animation property="y" to="0.5"				begin="3000"	duration="500" mode="linear"/>		
+				<animation property="y" to="0.55"				begin="3000"	duration="500" mode="linear"/>		
 				<animation property="scale" to="2"				begin="3000" 	duration="500" mode="linear"/>
 			</storyboard>
 
@@ -82,7 +82,7 @@
 			<rotation>-20</rotation>
 			<path>./avatar4.png</path>
 			<opacity>0</opacity>
-			<zIndex>18</zIndex>
+			<zIndex>18000</zIndex>
 		
 			<storyboard>
 			
