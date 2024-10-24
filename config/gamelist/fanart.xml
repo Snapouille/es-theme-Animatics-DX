@@ -243,22 +243,6 @@ originally based on: "carbon"
             <glowSize>1</glowSize>
             <alignment>left</alignment>
             <zIndex>100</zIndex>
-
-			<storyboard event="activate">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>
-			<storyboard event="activateNext">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>
-			<storyboard event="activatePrev">        
-					<animation property="opacity" from="0" to="1" duration="1" mode="linear" />
-			</storyboard>      
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
         </text>
 
 
@@ -302,10 +286,10 @@ originally based on: "carbon"
 					<animation property="w" to="0.3510417" duration="300" mode="linear" />
 			</storyboard>      
 			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
+				<animation property="opacity" to="0" mode="linear"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
+				<animation property="opacity" to="0" mode="linear"/>
 			</storyboard>
 		</image>
 		
