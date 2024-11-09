@@ -204,7 +204,7 @@
 		<horizontalAlignment>center</horizontalAlignment>
 		<pos>0.205 0.569</pos>
 		<maxSize>0.23 0.23</maxSize>	
-		<pos if="{system.theme} == 'gc'">0.19 0.578</pos>
+		<pos if="{system.theme} == 'gc'">0.2 0.578</pos>
 		<maxSize if="{system.theme} == 'gc'">0.16 0.16</maxSize>	
 		<storyboard event="activate">   
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
@@ -254,7 +254,7 @@
 	<!-- PSP -->
 	<image name="cartridge_ID" if="{system.theme} == 'psp' " extra="true">
 		<pos>0.245 0.569</pos>									
-		<maxSize>0.22 0.22</maxSize>									
+		<maxSize>0.2 0.2</maxSize>									
     </image>
 	
 	<!-- GB, GBC -->
@@ -271,8 +271,8 @@
 	
 	<!-- NES -->
 	<image name="cartridge_ID" if="{system.theme} == 'nes' " extra="true">
-		<pos>0.225 0.555</pos>									
-		<maxSize>0.155 0.25</maxSize>									
+		<pos>0.205 0.555</pos>									
+		<maxSize>0.11 0.25</maxSize>									
     </image>
 	
 	<!-- SNES ET N64-->
@@ -282,7 +282,7 @@
     </image>
 	<image name="cartridge_ID" if="{system.theme} == 'n64' || {system.theme} == 'snes' " extra="true">
 		<pos>0.265 0.575</pos>									
-		<maxSize>0.155 0.185</maxSize>									
+		<maxSize>0.145 0.185</maxSize>									
     </image>
 	
 	<!-- Amstrad CPC -->
@@ -331,13 +331,25 @@
 	<!-- Sega Master System & Megadrive -->
 	<image name="cartridge_ID" if="{system.theme} == 'mastersystem'  || {system.theme} == 'megadrive' " extra="true">
 		<pos>0.225 0.575</pos>									
-		<maxSize>0.155 0.213</maxSize>									
+		<maxSize>0.14 0.213</maxSize>									
     </image>
 	
 	<!-- GBA -->
 	<image name="cartridge_ID" if="{system.theme} == 'gba' " extra="true">
 		<pos>0.2 0.59</pos>									
 		<maxSize>0.12 0.12</maxSize>									
+    </image>
+
+	<!-- GB -->
+	<image name="cartridge_ID" if="{system.theme} == 'gb' || {system.theme} == 'gb2players'  || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' " extra="true">
+		<pos>0.235 0.59</pos>									
+		<maxSize>0.16 0.16</maxSize>									
+    </image>
+
+	<!-- neogeo -->
+	<image name="cartridge_ID" if="{system.theme} == 'neogeo' " extra="true">
+		<pos>0.24 0.59</pos>									
+		<maxSize>0.177 0.177</maxSize>									
     </image>
 
 

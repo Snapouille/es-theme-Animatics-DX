@@ -1,3 +1,9 @@
+## V 2.09 - (09 11 2024)
+- new Sega Master System animation
+- fanart view : new design
+- rvgm view : add the ability to display cartridges (beta)
+
+
 ## V 2.08 - (24 10 2024)
 - add the ability to display cartridges in the fanart view
 - add a second primacy view with some adjustements and new animation (big up to Patrix91)

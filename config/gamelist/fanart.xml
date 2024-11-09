@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
@@ -8,12 +8,9 @@ originally based on: "carbon"
 <theme defaultView="detailed">
   <formatVersion>7</formatVersion>
   
-  
-    
 <customView name="fanart" inherits="gamecarousel" displayName="${fanartview}">
 
-
-	<image name="BarAndRound, thumbnail-gamecarousel, cadre, logo, ecran_console, console-collection, md_thumbnail, Chevron_haut, Chevron_bas, cadre_haut1, cadre_haut2, black_bg" extra="true">
+	<image name="BarAndRound, thumbnail-gamecarousel, cadre, ecran_console, console-collection, md_thumbnail, Chevron_haut, Chevron_bas, cadre_haut1, cadre_haut2, black_bg" extra="true">
 			<visible>false</visible>
 	</image>
 
@@ -27,7 +24,6 @@ originally based on: "carbon"
 		<zIndex>34</zIndex>
 	</text>
 
-
 	<image name="md_image, boxback_ID">
 			<visible>false</visible>
 	</image>
@@ -35,67 +31,55 @@ originally based on: "carbon"
 	<video name="md_video">
 			<visible>false</visible>
 	</video>
-	
-	
+		
 	<text name="md_name">
 			<visible>false</visible>
 	</text>
 	
-
-
 	<image name="background">		  
 			<visible>false</visible>
 	</image>
-		
-	
-		<gamecarousel name="gamecarousel">
+			
+	<gamecarousel name="gamecarousel">
             <type>horizontal</type>
             <origin>0 0</origin>
-            <pos>0.45 0.17</pos>
+            <pos>0.41 0.18</pos>
             <size>0.61 2</size>
             <backgroundColor>333333</backgroundColor>
-            <logoScale>2.8</logoScale>
+            <logoScale>2.66</logoScale>
             <logoSize>0.08 0.4</logoSize>
-            <maxLogoCount>6</maxLogoCount>
+            <maxLogoCount>6.6</maxLogoCount>
             <logoRotation>0</logoRotation>
             <logoRotationOrigin>1 1</logoRotationOrigin>
             <logoAlignment>bottom</logoAlignment>
-            <logoPos>0.072 0.38</logoPos>
+            <logoPos>0.066 0.38</logoPos>
             <minLogoOpacity>0.3</minLogoOpacity>
+			<minLogoScale>0.8</minLogoScale>
             <imageSource>box</imageSource>
             <zIndex>21</zIndex>
 			<!-- <default>./../../art/divers/noboxart.png</default> -->
 			<gameImage>./../../art/divers/noboxart.png</gameImage>
-        </gamecarousel>
+    </gamecarousel>
 		
-		
-		
-		
-		
-		
-
-        <text name="gamecarouselLogoText">
+    <text name="gamecarouselLogoText">
 			<color>000000</color>
 			<!-- <glowColor>00000050</glowColor> -->
 			<!-- <glowSize>3</glowSize> -->
 			<!-- <glowOffset>3</glowOffset> -->
 			<lineSpacing>1.0</lineSpacing>
 			<fontSize>0.001</fontSize>
-        </text>
+    </text>
 		
-
-        <!-- Overlay background -->
-        <image name="overlay" extra="true">
+    <!-- Overlay background -->
+    <image name="overlay" extra="true">
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
             <path>./../../art/divers/overlay_fanart_view.png</path>
             <zIndex>16</zIndex>
-        </image>
+    </image>
 
-
-
-     <image name="background-art" extra="true">
+    <image name="background-art" extra="true">
 		<path>{game:fanart}</path>
 		<size>0.8380208 0.82</size>									
 		<pos>0.4190104 0.4046296</pos>									
@@ -107,18 +91,16 @@ originally based on: "carbon"
 		<default>${themePath}/system/${system.theme}/background.jpg</default>
 		<default>${themePath}/system/${system.theme}/background-grid.jpg</default>
 		<!-- <visible>exists({game:fanart})</visible> -->
-		
 			<storyboard repeat="forever">
 					<animation property="scale" from="1.1" to="1" duration="15000" autoreverse="true" mode="easeInOut" />
 					<animation property="offsetX" to="-0.05" duration="15000" autoreverse="true" mode="easeInOut" />
 			</storyboard>
-		
     </image>
 
-
-
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
-		<storyboard event="open">   
+		<pos>0.7175 0.175</pos>	
+		<storyboard event="open">
+		<zIndex>30</zIndex>		
 			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
 			<animation property="offsetY" from="-0.40" to="0.05" begin="1600" duration="600" mode="EaseOut"/>
 		</storyboard>
@@ -137,16 +119,83 @@ originally based on: "carbon"
 			<animation property="opacity" to="0" mode="linear"/>
 		</storyboard>
     </image>
-
-
-
-
-
-
-
-
-
-
+	
+	<!-- Système avec un CD taille normale qui tourne -->
+	<image name="cartridge_ID" if="{system.theme} == '3do' || 
+								   {system.theme} == 'amigacd32' || 
+								   {system.theme} == 'amigacdtv' || 
+								   {system.theme} == 'atarijaguarcd' || 
+								   {system.theme} == 'cdi' ||
+								   {system.theme} == 'daphne' ||	
+								   {system.theme} == 'dreamcast' || 
+								   {system.theme} == 'fmtowns' || 								   
+								   {system.theme} == 'gc' || 
+								   {system.theme} == 'naomi' ||
+								   {system.theme} == 'naomi2' ||
+								   {system.theme} == 'neogeocd' || 
+								   {system.theme} == 'pce-cd' || 
+								   {system.theme} == 'pcfx' || 
+								   {system.theme} == 'ps2' || 
+								   {system.theme} == 'ps3' || 
+								   {system.theme} == 'psx' || 
+								   {system.theme} == 'saturn' || 
+								   {system.theme} == 'segacd' || 
+								   {system.theme} == 'snes-msu1' || 
+								   {system.theme} == 'singe' ||	
+								   {system.theme} == 'triforce' || 
+								   {system.theme} == 'wii' || 
+								   {system.theme} == 'wiiu' || 
+								   {system.theme} == 'windows' || 
+								   {system.theme} == 'xbox' || 
+								   {system.theme} == 'xbox360' " extra="true">
+		<pos>0.7175 0.19</pos>	
+		<maxSize>0.295 0.295</maxSize>
+		<zIndex>30</zIndex>
+		<!-- <scale>0.90</scale> -->
+		<storyboard event="open">   
+			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
+	
+	<!-- BOITIER SPECIAL 3DO / COLLECTIONS -->
+	<gamecarousel name="gamecarousel" if="{system.theme} == 'psp'  ||
+										  {system.sortedBy} == 'Collections'  ||
+										  {system.theme} == '3do' " extra="true">
+			<logoPos>0.050 0.38</logoPos>
+            <logoScale>2.25</logoScale>					
+    </gamecarousel>
+	
+	<!-- BOITIER SPECIAL PSP -->
+	<gamecarousel name="gamecarousel" if="{system.theme} == 'psp' " extra="true">
+			<logoPos>0.060 0.38</logoPos>
+            <logoScale>2.45</logoScale>					
+    </gamecarousel>
+	
+		<!-- GAMECUBE -->
+	<image name="cartridge_ID" if="{system.theme} == 'gc'  " extra="true">
+		<maxSize>0.194688 0.194688</maxSize>						
+    </image>
 
 	<image name="img-Preview" extra="true">
 		<path>{game:image}</path>
@@ -160,32 +209,29 @@ originally based on: "carbon"
 		</shader>
 		
 		<size>0.19260415 0.2476852</size>									
-		<pos>0.86 0.535</pos>
+		<pos>0.86 0.525</pos>
 		
 		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.2 0.2</size>									
-		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.856 0.523</pos>									
+		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.856 0.513</pos>									
 		
 		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
-		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8625 0.573</pos>									
+		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8625 0.563</pos>									
 		
 		<size if="{system.theme} == 'pokemini'">0.168 0.2</size>									
-		<pos  if="{system.theme} == 'pokemini'">0.872 0.573</pos>	
+		<pos  if="{system.theme} == 'pokemini'">0.872 0.563</pos>	
 		
 		<size if="{system.theme} == 'nds' ">0.1125 0.3</size>									
-		<pos  if="{system.theme} == 'nds' ">0.90 0.573</pos>		
+		<pos  if="{system.theme} == 'nds' ">0.90 0.563</pos>		
 
 		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.161 0.273</size>									
-		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.876 0.565</pos>	
+		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.876 0.555</pos>	
 
 		<size if="{system.theme} == 'auto-verticalarcade' ">0.131 0.273</size>									
-		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.891 0.55</pos>	
+		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.891 0.54</pos>	
 
 		<size if="{system.theme} == 'arduboy' ">0.198 0.177</size>		
-		<pos  if="{system.theme} == 'arduboy' ">0.8575 0.52</pos>		
+		<pos  if="{system.theme} == 'arduboy' ">0.8575 0.51</pos>	
 	</image>	
-
-
-
 
 	<video name="video-Preview" extra="true">
 		<path>{game:video}</path>
@@ -205,37 +251,53 @@ originally based on: "carbon"
 		</shader>
 		
 		<size>0.19260415 0.2476852</size>									
-		<pos>0.861 0.423</pos>
-		
-		<size>0.19260415 0.2476852</size>									
-		<pos>0.86 0.535</pos>
+		<pos>0.86 0.525</pos>
 		
 		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.2 0.2</size>									
-		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.856 0.523</pos>									
+		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.856 0.513</pos>									
 		
 		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
-		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8625 0.573</pos>									
+		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8625 0.563</pos>									
 		
 		<size if="{system.theme} == 'pokemini'">0.168 0.2</size>									
-		<pos  if="{system.theme} == 'pokemini'">0.872 0.573</pos>	
+		<pos  if="{system.theme} == 'pokemini'">0.872 0.563</pos>	
 		
 		<size if="{system.theme} == 'nds' ">0.1125 0.3</size>									
-		<pos  if="{system.theme} == 'nds' ">0.90 0.573</pos>		
+		<pos  if="{system.theme} == 'nds' ">0.90 0.563</pos>		
 
 		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.161 0.273</size>									
-		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.876 0.565</pos>	
+		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.876 0.555</pos>	
 
 		<size if="{system.theme} == 'auto-verticalarcade' ">0.131 0.273</size>									
-		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.891 0.55</pos>	
+		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.891 0.54</pos>	
 
 		<size if="{system.theme} == 'arduboy' ">0.198 0.177</size>		
-		<pos  if="{system.theme} == 'arduboy' ">0.8575 0.52</pos>		
+		<pos  if="{system.theme} == 'arduboy' ">0.8575 0.51</pos>			
 	</video>	
 
+	<!-- Affichage et Animation LOGO des systèmes  -->	
+	<image name="logo">
+		<maxSize>0.15 0.0825</maxSize>
+		<pos>0.977 0.525</pos>
 
-        <text name="name_Id">
-            <pos>0.05 0.555</pos>
-            <size>0.39 0.1</size>
+		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.977 0.513</pos>									
+		
+		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.977 0.563</pos>									
+						
+		<pos  if="{system.theme} == 'pokemini'">0.977 0.563</pos>	
+							
+		<pos  if="{system.theme} == 'nds' ">0.977 0.563</pos>		
+									
+		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.977 0.555</pos>	
+							
+		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.977 0.54</pos>	
+
+		<pos  if="{system.theme} == 'arduboy' ">0.977 0.51</pos>	
+    </image>	
+
+    <text name="name_Id">
+            <pos>0.03 0.56</pos>
+            <size>0.35 0.1</size>
 		    <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
             <fontSize>0.032</fontSize>
             <color>FFFFFF</color>
@@ -243,39 +305,63 @@ originally based on: "carbon"
             <glowSize>1</glowSize>
             <alignment>left</alignment>
             <zIndex>100</zIndex>
-        </text>
+				<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+				</storyboard>
+				<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+				</storyboard>
+				<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+				</storyboard>      
+				<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+				</storyboard>
+				<storyboard ifSubset="cartridgeDisplay:Show"  event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </text>
 
-
-        <datetime name="md_releasedate">
-            <pos>0.065 0.617</pos>
-        </datetime>
+	<datetime name="md_releasedate">
+            <pos>0.045 0.617</pos>
+    </datetime>
 		
-		<image name="md_flag">
-			<pos>0.089 0.6156481</pos>		
-		</image>
+	<image name="md_flag">
+			<pos>0.069 0.6156481</pos>		
+	</image>
 		
-		<text name="developer_Id">
-            <pos>0.103 0.602</pos>
+	<text name="developer_Id">
+            <pos>0.083 0.602</pos>	
 			<singleLineScroll>true</singleLineScroll>
 			<zIndex>100</zIndex>
-		</text>
+	</text>
 	
-		<text name="genre_Id">
+	<text name="genre_Id">
 			<fontSize>0.019</fontSize>
-            <pos>0.05 0.632</pos>
+            <pos>0.03 0.632</pos>
 			<singleLineScroll>true</singleLineScroll>
+			<size>0.35 0.025</size>
 			<zIndex>100</zIndex>
-		</text>
+				<storyboard ifSubset="cartridgeDisplay:Show" event="open">
+				</storyboard>
+				<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
+				</storyboard>
+				<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
+				</storyboard>      
+				<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+				</storyboard>
+				<storyboard ifSubset="cartridgeDisplay:Show"  event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</text>
 		
-		<image name="separate_line" extra="true">
+	<image name="separate_line" extra="true">
 			<path>./../../art/divers/white.png</path>
 			<color>${dataColor}</color>
 			<origin>0.5 0.5</origin>									
 			<size>0.01 0.0017</size>									
-			<pos>0.2255208 0.6967593</pos>	
+			<pos>0.2055208 0.6637593</pos>	
+			<pos ifHelpPrompts="false">0.2055208 0.6967593</pos>
 			<opacity>0.6</opacity>
 			<zIndex>100</zIndex>
-			
 			<storyboard event="activate">   
 					<animation property="w" to="0.3510417" duration="300" mode="linear" />
 			</storyboard>
@@ -291,16 +377,15 @@ originally based on: "carbon"
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="0" mode="linear"/>
 			</storyboard>
-		</image>
+	</image>
 		
-		
-		<text name="description_Id" extra="true">
+	<text name="description_Id" extra="true">
 			<visible>false</visible>
-		</text>
+	</text>
 		
-        <text name="md_description">
+    <text name="md_description">
 			<linearSmooth>true</linearSmooth>
-			<size>0.35 0.268</size>
+			<size>0.35 0.278</size>
 			<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 			<fontSize>0.016</fontSize>
 			<color>cdcdcd</color>
@@ -310,16 +395,15 @@ originally based on: "carbon"
 			<!-- <alignment>left</alignment> -->
 			<!-- <lineSpacing>1.16</lineSpacing> -->
 			<!-- <zIndex>100</zIndex> -->
-			<pos>0.05 0.67</pos>
-
+			<pos>0.03 0.67</pos>
 			<storyboard event="open">
-				<animation property="size" from="0.35 0" to="0.35 0.268" duration="600" mode="linear" />
+				<animation property="size" from="0.35 0" to="0.35 0.278" duration="600" mode="linear" />
 			</storyboard>
 			<storyboard event="activateNext">        
-				<animation property="size" from="0.35 0" to="0.35 0.268" duration="600" mode="linear" />
+				<animation property="size" from="0.35 0" to="0.35 0.278" duration="600" mode="linear" />
 			</storyboard>
 			<storyboard event="activatePrev">        
-				<animation property="size" from="0.35 0" to="0.35 0.268" duration="600" mode="linear" />
+				<animation property="size" from="0.35 0" to="0.35 0.278" duration="600" mode="linear" />
 			</storyboard>      
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0"  mode="linear"/>
@@ -327,34 +411,31 @@ originally based on: "carbon"
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="0"  mode="linear"/>
 			</storyboard>
-        </text>
+    </text>
 		
-		
-		<image name="cadre_gauche" extra="true">
+	<image name="cadre_gauche" extra="true">
 		  <pos>0.8168 0.07</pos>
-		</image>
+	</image>
 		
-		<image name="cadre_droit" extra="true">
+	<image name="cadre_droit" extra="true">
 		  <!-- <pos>0.163 0.09</pos> -->
 		  <pos>0.953 0.07</pos>
-		</image>
+	</image>
 		
-		<image name="cadre_haut" extra="true">
+	<image name="cadre_haut" extra="true">
 		  <pos>0.8168 0.07</pos>
-		</image>
+	</image>
 		
-		<image name="cadre_bas" extra="true">
+	<image name="cadre_bas" extra="true">
 		  <pos>0.8168 0.381</pos>
-		</image>
+	</image>
 		
-		<image name="AngleCadre" extra="static">
+	<image name="AngleCadre" extra="static">
 			<pos>0.8316667 0.3591667</pos>									
-		</image>
+	</image>
 
-		
-		<image name="ca-tourne" extra="true">
+	<image name="ca-tourne" extra="true">
 			<pos>0.8420833 0.3837037</pos>									
-
 			<storyboard event="open">
 				<animation property="opacity" to="1"   begin="1000" duration="10"  mode="linear"/>
 				<animation property="x" to="0.9545833" begin="1000" duration="200" mode="linear"/>
@@ -363,7 +444,6 @@ originally based on: "carbon"
 				<animation property="y" to="0.3837037" begin="1700" duration="300" mode="linear"/>
 				<animation property="opacity" to="0"   begin="2000" duration="10"  mode="linear"/>
 			</storyboard>
-			
 			<storyboard event="activate">
 				<animation property="opacity" to="1"   begin="50"   duration="10"  mode="linear"/>
 				<animation property="x" to="0.9545833" begin="50"   duration="200" mode="linear"/>
@@ -372,15 +452,13 @@ originally based on: "carbon"
 				<animation property="y" to="0.3837037" begin="850" duration="300" mode="linear"/>
 				<animation property="opacity" to="0"   begin="1150" duration="10"  mode="linear"/>
 			</storyboard>
-			
 			<storyboard event="deactivate">
 				<animation property="opacity" to="0" duration="10" mode="linear"/>
 			</storyboard>			
-		</image>
+	</image>
 		
-		<!-- Bordure gauche du cadre -->
-		
-		<image name="border_gauche"  extra="true">
+	<!-- Bordure gauche du cadre -->	
+	<image name="border_gauche"  extra="true">
 			<path>./../../art/divers/white.png</path>
 			<color>${dataColor}</color>
 			<origin>0.5 0.5</origin>									
@@ -390,43 +468,34 @@ originally based on: "carbon"
 				<storyboard event="open">
 					<animation property="h" to="0.25" begin="" duration="300" autoreverse="true" mode="EaseInOut"/>
 				</storyboard>
-				
 				<storyboard event="activate">
 					<animation property="h" to="0.25" begin="" duration="300" autoreverse="true" mode="EaseInOut"/>
 				</storyboard>
-				
 				<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="10" mode="linear"/>
 				</storyboard>
-		</image>		
-		
-		
-		
-
-		
-<!-- Quadrillage au niveau des metadata (Nombre de parties, Dernier jeu, ...)  -->
+	</image>		
+	
+	<!-- Quadrillage au niveau des metadata (Nombre de parties, Dernier jeu, ...)  -->
 	<image name="info_background" extra="true">
          <pos>0.82 0.07</pos>
 		 <zIndex>36</zIndex>
-      </image>
+    </image>
 	  
-<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->
-			
-		<text name="md_lbl_playcount">
+	<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->		
+	<text name="md_lbl_playcount">
 			<pos>0.83 0.085</pos>
-		</text>
+	</text>
 		
-		<text name="md_lbl_lastplayed">
+	<text name="md_lbl_lastplayed">
 			<pos>0.83 0.163</pos>
-		</text>
+	</text>
 		
-		<text name="md_lbl_gametime">
+	<text name="md_lbl_gametime">
 			<pos>0.83 0.24</pos>
-		</text>
+	</text>
 					
-<!-- METADATA -->
-	
-	
+	<!-- METADATA -->
 	<text name="md_playcount">
 		<pos>0.825 0.115</pos>		
 	</text>
@@ -439,19 +508,16 @@ originally based on: "carbon"
 		<pos>0.825 0.270</pos>	
 	</text>
     
-	
 	<text name="md_players">
 		<pos>0.883 0.343</pos>
 		<size>0.13 0.08</size>
     </text>
 
-  
 	<!-- Barre and Round du Haut -->
 	<image name="BarAndRound2" extra="static">
 		<pos>0.935 0.073</pos>									
 		<zIndex>35</zIndex>
 		<flipX>true</flipX>
-
 		<storyboard event="open">
 			<animation property="offsetY" to="0.1" duration="1" mode="linear"/>
 			<animation property="opacity" to="1" begin="500" duration="10" mode="linear"/>
@@ -459,26 +525,20 @@ originally based on: "carbon"
 			<animation property="offsetX" to="-0.12" begin="800" duration="300" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" begin="800" duration="300" autoreverse="true" mode="linear"/>
 		</storyboard>
-		
 		<storyboard event="activate">
 			<animation property="opacity" to="1" duration="10" mode="linear"/>
 			<animation property="offsetX" to="-0.12" duration="300" autoreverse="true" mode="linear"/>
 			<animation property="color" to="FFFF00" duration="300" autoreverse="true" mode="linear"/>
 		</storyboard>
-		
 		<storyboard event="deactivate">
 			<animation property="opacity" to="0" duration="10" mode="linear"/>
 		</storyboard>
-		
 	</image>
 		
-	
-	
 	<!-- Barre and Round du BAS -->
 	<image name="BarAndRound" extra="true">
 		<pos>0.8665625 0.289</pos>
 		<zIndex>35</zIndex>
-
 		<storyboard event="open">
 			<animation property="y" to="0.2481481" duration="1" mode="linear"/>
 			<animation property="x" to="0.8454167" duration="1" mode="linear"/>
@@ -486,19 +546,15 @@ originally based on: "carbon"
 			<animation property="y" to="0.289" begin="500" duration="200" mode="linear"/>
 			<animation property="x" to="0.8665625" begin="700" duration="300" mode="linear"/>
 		</storyboard>
-		
 		<storyboard event="activate">
 			<animation property="offsetX" to="-0.005" duration="50" autoreverse="true" mode="linear"/>
 			<animation property="opacity" to="1" duration="10" mode="linear"/>
 		</storyboard>
-		
 		<storyboard event="deactivate">
 			<animation property="opacity" to="0" duration="10" mode="linear"/>
 		</storyboard>
 	</image>
-
 	
-		
 	<rating name="md_rating">
 		<pos>0.977 0.416</pos>
 		<size>0.028 0.033</size>
@@ -511,78 +567,63 @@ originally based on: "carbon"
 		<zIndex>99</zIndex>
 	</rating>
 
-		
-		<image name="md_manual,md_nomanual">
+	<image name="md_manual,md_nomanual">
 			<pos>0.976 0.105</pos>
-		</image>
+	</image>
 		
-		<image name="ghost_manual" extra="true">
+	<image name="ghost_manual" extra="true">
 			<pos>0.976 0.105</pos>
-		</image>
+	</image>
 	
-		<image name="md_map, md_nomap">
+	<image name="md_map, md_nomap">
 			<pos>0.976 0.155</pos>
-		</image>
+	</image>
 		
-		<image name="ghost_md_map" extra="true"> 
+	<image name="ghost_md_map" extra="true"> 
 			<pos>0.976 0.155</pos>
-		</image>
+	</image>
 		
-		 <image name="md_savestate,md_nosavestate">
+	 <image name="md_savestate,md_nosavestate">
 			  <pos>0.976 0.205</pos>
-		</image>
+	</image>
 		
-		<image name="ghost_savestate" extra="true">
+	<image name="ghost_savestate" extra="true">
 			  <pos>0.976 0.205</pos>
-		</image>
+	</image>
 		
-		<image name="md_kidgame, md_notkidgame"> 
+	<image name="md_kidgame, md_notkidgame"> 
 			<pos>0.976 0.255</pos>
-		</image>
+	</image>
 		
-		<image name="ghost_kidgame" extra="true"> 
+	<image name="ghost_kidgame" extra="true"> 
 			<pos>0.976 0.255</pos>
-		</image>
+	</image>
 		
-		<image name="md_cheevos,md_notcheevos">
+	<image name="md_cheevos,md_notcheevos">
 			<pos>0.976 0.305</pos>
-		</image>
+	</image>
 		
-		<image name="ghost_cheevos" extra="true">
+	<image name="ghost_cheevos" extra="true">
 			<pos>0.976 0.305</pos>
-		</image>
+	</image>
     
-		<image name="md_hidden">
+	<image name="md_hidden">
 			<pos>0.976 0.355</pos>
-		</image>
+	</image>
 		
-		<image name="ghost_hidden" extra="true">
+	<image name="ghost_hidden" extra="true">
 			<pos>0.976 0.355</pos>
-		</image>
-		
-		
+	</image>
 		
 	<!-- La barre en bas Helpsystem -->
-	
-		<helpsystem name="help">
+	<helpsystem name="help">
 			<pos>0.05 0.965</pos>
 			<fontSize>0.025</fontSize>
-		</helpsystem>
-		
+	</helpsystem>
 		
 	<!-- On masque le cadre de l'aide -->
-	
 	<image name="up_BottomFrame, down_BottomFrame, left_BottomFrame, right_BottomFrame, black_BottomFrame" extra="true">
 		<visible>false</visible>
 	</image>
-		
-		
-  
-  
-  
-</customView>
-  
-  
-  
-  
+	</customView>
 </theme>

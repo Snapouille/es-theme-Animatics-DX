@@ -190,36 +190,32 @@
     </image>
 </view>
 
-    
-  
-  <customView name="legendary">
-  
-  
-  
-		 
-	<image name="cadre" extra="true">
-		<visible>false</visible>
-	</image>
-	
-	<image name="md_marquee">
-		<pos>0.7567708 0.1013889</pos>									
-		<maxSize>0.18 0.075</maxSize>									
-		<zIndex>100</zIndex>
+<customView name="fanart">
 
-		<storyboard event="open">
-			<animation property="scale" to="1" duration="250" mode="Linear"/>
-		</storyboard>
-				
-		<storyboard event="activate">
-			<animation property="scale" to="1" duration="250" mode="Linear"/>
-		</storyboard>
-		
-		<storyboard event="deactivate">
-			<animation property="scale" to="0" duration="250" mode="Linear"/>
-		</storyboard>
-		
-	</image>
-	
+    <image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
+		<origin>0.5 0.5</origin>
+        <pos>0.7175 0.175</pos>
+        <storyboard event="open">
+            <animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+            <animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseOut"/>
+        </storyboard>
+        <storyboard event="activateNext">
+            <animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+            <animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseOut"/>
+        </storyboard>
+        <storyboard event="activatePrev">
+            <animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+            <animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseOut"/>
+        </storyboard>
+        <storyboard event="deactivateNext">
+            <animation property="opacity" to="0" mode="linear"/>
+        </storyboard>
+        <storyboard event="deactivatePrev">
+            <animation property="opacity" to="0" mode="linear"/>
+        </storyboard>
+    </image>
+
+</customView>
 	
 	<!-- fond noir pour le marquee -->
 	<image name="black_marquee" extra="true">

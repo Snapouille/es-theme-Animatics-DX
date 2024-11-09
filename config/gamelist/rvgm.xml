@@ -124,6 +124,55 @@
 	</image>
 	
 	
+
+	
+	
+	<!-- Système avec une cartouche taille normale -->	
+	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
+		<path>{game:cartridge}</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.27 -0.1</pos>									
+		<maxSize>0.195 0.195</maxSize>									
+		<linearSmooth>true</linearSmooth>
+		<opacity>0</opacity>
+		<zIndex>800</zIndex> 
+		<storyboard event="open">   
+			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+			<animation property="offsetY" to="0.7" begin="1600" duration="800" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+			<animation property="offsetY" to="0.7" begin="1600" duration="800" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+			<animation property="offsetY" to="0.7" begin="1600" duration="800" mode="EaseInOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" mode="linear"/>
+		</storyboard>
+    </image>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	<!-- Début des nouveaux icones RVGM -->
 	<image name="rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon">

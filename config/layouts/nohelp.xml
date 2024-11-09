@@ -123,31 +123,31 @@
   
   <customView name="fanart">
 		<gamecarousel name="gamecarousel">
-            <pos>0.45 0.197</pos>
+            <pos>0.41 0.205</pos>
         </gamecarousel>
 		
         <text name="name_Id">
-            <pos>0.05 0.585</pos>
+            <pos>0.03 0.593</pos>
         </text>
 
         <datetime name="md_releasedate">
-            <pos>0.065 0.647</pos>
+            <pos>0.045 0.65</pos>
         </datetime>
 		
 		<image name="md_flag">
-			<pos>0.089 0.6456481</pos>		
+			<pos>0.069 0.6486481</pos>		
 		</image>
 		
 		<text name="developer_Id">
-            <pos>0.103 0.632</pos>
+            <pos>0.083 0.635</pos>
 		</text>
 	
 		<text name="genre_Id">
-            <pos>0.05 0.662</pos>
+            <pos>0.03 0.665</pos>
 		</text>
 		
         <text name="md_description">
-			<pos>0.05 0.71</pos>
+			<pos>0.03 0.703</pos>
         </text>
   </customView>
   

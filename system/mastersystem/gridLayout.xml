@@ -5,126 +5,160 @@
 
 	<view name="system">
 	
-	
 		<image name="BG_snapLegacy" extra="true">
 			<size>1 1</size>									
 			<pos>0.5 0.44</pos>	
-			<scale>1</scale>	
+			<scale>1.03</scale>	
 			<pos ifHelpPrompts="false">0.5 0.5</pos>
 			<flipX>true</flipX>
 			<saturation>0.7</saturation>
 			  <storyboard>
 				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+				<animation property="scale" to="1" 		begin="" duration="600" mode="linear"/>
 			  </storyboard>
 		</image>
 		
 		
+		<image name="avatar, momie, pow, oiseau, alex-anim, alex-danse">
+			<origin>0.5 0.5</origin>
+			<linearSmooth>true</linearSmooth>
+			<scale>1</scale>
+			<zIndex>25</zIndex>
+		</image>
 		
 		
-		<image name="avatar" extra="static">
-			<origin>0 0</origin>
-			<pos>1.1 0.59</pos>
+		
+		<image name="avatar" extra="true">
+			<pos>1.2 0.69</pos>
 			<size>0.2083333 0.35</size>									
-
 			<scale>0.9</scale>
-			<rotation>0</rotation>
-			<zIndex>28000</zIndex>
-			<opacity>1</opacity>
 			<path>./avatar.png</path>
 		
 			 <storyboard>
-				<animation property="x" to="0.77" 				begin="2600" duration="400" mode="linear"/>
+				<animation property="x" to="0.87" 				begin="2600" duration="400" mode="linear"/>
 						
 			    <animation property="rotation" to="2" 			begin="3000" duration="1000" mode="bump"/>
-                <animation property="x" to="0.74" 				begin="3000" duration="1000" mode="bump"/>
+                <animation property="x" to="0.84" 				begin="3000" duration="1000" mode="bump"/>
                 <animation property="rotation" from="2" to="-2" begin="4000" duration="1000" mode="bump"/>
                 
-				<animation property="x" to="0.73" 				begin="4000" duration="1000" mode="bump"/>
-				<animation property="y" to="0.53" 				begin="4000" duration="1000" mode="bump"/>
-				<animation property="scale" to="1" 				begin="4000" duration="1000" mode="linear"/>
-    
+				<animation property="x" to="0.87" 				begin="4000" duration="500" mode="bump"/>
+				<animation property="y" to="0.71" 				begin="4000" duration="500" mode="bump"/>
+				<animation property="scale" to="1" 				begin="4000" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="0" 			begin="4600" duration="170" mode="linear"/>
             </storyboard>		
-			
 		</image>
 		
-				
 		
-		<image name="avatar2" extra="static">
-			<origin>0 0</origin>
-			<pos>-0.10 0.75</pos>
-			<pos ifHelpPrompts="false">-0.10 0.79</pos>
+		<image name="momie" extra="true">
+			<pos>-0.10 0.85</pos>
+			<pos ifHelpPrompts="false">-0.10 0.89</pos>
 			<size>0.1526042 0.2277778</size>									
-			<scale>1</scale>
 			<opacity>0</opacity>
-			<path>./avatar2.png</path>
-			<zIndex>14000</zIndex>
+			<path>./momie.gif</path>
 		
 			<storyboard>
-				<animation property="x" from="0" to="0.75"		begin="" 		duration="3000" mode="linear"/>
+				<animation property="x" from="0" to="0.85"		begin="" 		duration="3000" mode="linear"/>
 				<animation property="opacity" from="0" to="1"	begin="" 		duration="10" 	mode="linear"/>
 				
-				<animation property="rotation" to="-20" 		begin="3000" 	duration="2000" mode="linear"/>
+				<animation property="rotation" to="-20" 		begin="3000" 	duration="1500" mode="linear"/>
 				<animation property="x" to="-1" 				begin="3000" 	duration="1000" mode="linear"/>
-				<animation property="y" to="0.55"				begin="3000"	duration="500" mode="linear"/>		
+				<animation property="y" to="0.79"				begin="3000"	duration="500" mode="linear"/>		
 				<animation property="scale" to="2"				begin="3000" 	duration="500" mode="linear"/>
 			</storyboard>
-
 		</image>
 		
 		
 		
-		<image name="avatar4" extra="static">
-			<origin>0 0</origin>
-			<pos>0.7 0.6</pos>
+		<image name="pow" extra="true">
+			<pos>0.7 0.7</pos>
 			<size>0.2015625 0.2740741</size>									
-
 			<scale>0.8</scale>
 			<rotation>-20</rotation>
-			<path>./avatar4.png</path>
+			<path>./pow.png</path>
 			<opacity>0</opacity>
-			<zIndex>18000</zIndex>
 		
 			<storyboard>
-			
 				<animation property="opacity" from="0" to="1" 	begin="3000" duration="30" mode="linear"/>
 				<animation property="scale" to="1" 				begin="3000" duration="1300" mode="linear"/>
-				<animation property="y" to="0.47" 				begin="3000" duration="1300" mode="easeOut"/>
-				<animation property="x" to="0.65" 				begin="3000" duration="1300" mode="easeOut"/>
+				<animation property="y" to="0.57" 				begin="3000" duration="1300" mode="easeOut"/>
+				<animation property="x" to="0.75" 				begin="3000" duration="1300" mode="easeOut"/>
 				<animation property="opacity" from="1" to="0" 	begin="3800" duration="500" mode="linear"/>
-				
 			</storyboard>			
 		</image>
 		
 		
 		
+		<image name="alex-anim" extra="true">
+			<scale>0.93</scale>
+			<path>./alex-anim.gif</path>
+			<opacity>0</opacity>
+			<size>0.1755208 0.4287037</size>									
+			<pos>0.87 0.73</pos>									
+		
+			<storyboard repeatAt="5000">
+				<animation property="opacity" to="1" 			begin="4600" duration="170" mode="linear"/>
+				
+				<animation property="opacity" to="0" 			begin="9000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 			begin="17600" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 			begin="27000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 			begin="41000" duration="10" mode="linear"/>
+				
+            </storyboard>		
+		</image>
+		
+		
+		<image name="alex-danse" extra="true">
+			<scale>0.93</scale>
+			<path>./alex-danse.gif</path>
+			<opacity>0</opacity>
+			<size>0.1755208 0.4287037</size>									
+			<pos>0.87 0.73</pos>									
+		
+			<storyboard repeatAt="5000">
+				
+				<animation property="opacity" to="1" 			begin="9000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 			begin="17600" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 			begin="27000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 			begin="41000" duration="10" mode="linear"/>
+				
+            </storyboard>		
+		</image>
+		
+		
+		
+		
+		
 		<image name="oiseau" extra="true">
-			<origin>0 0</origin>
-			<pos>1 -0.3</pos>
+			<pos>1 -0.2</pos>
 			<size>0.1161458 0.1768519</size>									
 			<scale>0.7</scale>
-			<opacity>1</opacity>
 			<path>./oiseau.gif</path>
-			<linearSmooth>true</linearSmooth>
-			<zIndex>170</zIndex>
+			<zIndex>25000</zIndex>
 			
 			<storyboard repeat="forever">
-	
-				<animation property="y" from="-0.3" to="0.20" begin="" duration="2000" mode="bump"/>
-				<animation property="x" to="0.79" begin="" duration="2000" mode="easeIn"/>
-				<animation property="rotation" to="3" begin="" autoreverse="true" duration="650" repeat="14" mode="linear"/>
-				<animation property="y" from="0.20" to="0.21" begin="800" autoreverse="true" duration="400" repeat="2" mode="easeOut"/>
-				<animation property="y" from="0.20" to="0.15" begin="2400" duration="1400" mode="linear"/>
-				<animation property="y" from="0.15" to="0.17" begin="3800" autoreverse="true" duration="400" repeat="2" mode="easeInOut"/>
+				<animation property="y" from="-0.3" to="0.17" 		begin="10000" duration="2000" mode="bump"/>
+				<animation property="x" to="0.79" 					begin="10000" duration="2000" mode="easeIn"/>
+				<animation property="rotation" to="3" 				begin="10000" autoreverse="true" duration="650" repeat="14" mode="linear"/>
+				<animation property="y" from="0.17" to="0.20" 		begin="12400" duration="1400" mode="linear"/>
+				<animation property="y" from="0.20" to="0.19" 		begin="13800" autoreverse="true" duration="400" repeat="2" mode="easeInOut"/>
+				<animation property="y" to="0.22" 					begin="15800" duration="1000" mode="easeInOut"/>
 				
-				<animation property="x" to="0.88" begin="2000" duration="6000" autoreverse="true" mode="easeInOut"/>
+				<animation property="x" to="0.88" 					begin="12000" duration="6000" autoreverse="true" mode="easeInOut"/>
 				
-				<animation property="x" to="0.5" begin="15000" duration="2500" mode="easeIn"/>
-				<animation property="y" to="-0.2" begin="15000" duration="2500" mode="easeIn"/>
-				<animation property="opacity" to="0" begin="18000" duration="500" mode="linear"/>
-	
+				<animation property="x" to="0.5" 					begin="25000" duration="2500" mode="easeIn"/>
+				<animation property="y" to="-0.2" 					begin="25000" duration="2500" mode="easeIn"/>
+				<animation property="opacity" to="0" 				begin="28000" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="0" 				begin="35000" duration="10" mode="linear"/>
 			</storyboard>
 			
 		</image>
+		
+		
+		
+		
+		
 		
 		
 		
@@ -139,32 +173,13 @@
 		</image>
 		
 		
-		<image name="cloud2" extra="true">
-			<origin>0.5 0.5</origin>									
-			<size>0.1822917 0.0574074</size>									
-			<pos>0.4755208 0.2300926</pos>									
-			<path>./cloud2.png</path>
-			<storyboard>
-				<animation property="x" to="1.1" begin="" duration="35000" mode="linear"/>
-			</storyboard>
-		</image>
-
-		<image name="cloud3" extra="true">
-			<origin>0.5 0.5</origin>									
-			<size>0.2020833 0.1240741</size>									
-			<pos>0.42 0.1064815</pos>									
-			<path>./cloud3.png</path>
-			<storyboard>
-				<animation property="x" to="1.1" begin="" duration="42000" mode="linear"/>
-			</storyboard>
-		</image>
 
 
 		<image name="cloud4" extra="true">
 			<origin>0.5 0.5</origin>									
-			<size>0.18125 0.1074074</size>									
+			<size>0.1822917 0.0574074</size>									
 			<pos>0.1463542 0.1296296</pos>									
-			<path>./cloud4.png</path>
+			<path>./cloud2.png</path>
 			<storyboard>
 				<animation property="x" to="1.1" begin="" duration="70000" mode="linear"/>
 			</storyboard>
@@ -176,9 +191,9 @@
 			<origin>0.5 0.5</origin>									
 			<size>0.18125 0.1407407</size>									
 			<pos>-0.1 0.1467593</pos>									
-			<path>./cloud1.png</path>
+			<path>./cloud4.png</path>
 			<storyboard repeat="forever">
-				<animation property="x" to="1.1" begin="6000" duration="90000" mode="linear"/>
+				<animation property="x" to="1.1" begin="25000" duration="90000" mode="linear"/>
 			</storyboard>
 		</image>
 		
@@ -189,7 +204,7 @@
 			<pos>-0.1 0.2300926</pos>									
 			<path>./cloud2.png</path>
 			<storyboard repeat="forever">
-				<animation property="x" to="1.1" begin="25000" duration="90000" mode="linear"/>
+				<animation property="x" to="1.1" begin="58000" duration="90000" mode="linear"/>
 			</storyboard>
 		</image>
 
@@ -199,7 +214,7 @@
 			<pos>-0.1 0.1064815</pos>									
 			<path>./cloud3.png</path>
 			<storyboard repeat="forever">
-				<animation property="x" to="1.1" begin="32000" duration="90000" mode="linear"/>
+				<animation property="x" to="1.1" begin="70000" duration="90000" mode="linear"/>
 			</storyboard>
 		</image>
 
@@ -210,7 +225,7 @@
 			<pos>-0.1 0.1296296</pos>									
 			<path>./cloud4.png</path>
 			<storyboard repeat="forever">
-				<animation property="x" to="1.1" begin="55000" duration="90000" mode="linear"/>
+				<animation property="x" to="1.1" begin="99000" duration="90000" mode="linear"/>
 			</storyboard>
 		</image>
 		

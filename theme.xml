@@ -594,7 +594,7 @@ originally based on: "carbon"
 	</subset>
 	
 	<!-- Choix d'afficher les cartridges ou non -->
-	<subset name="cartridgeDisplay" displayName="${cartridge.Display}" appliesTo="videofull (no collections)">
+	<subset name="cartridgeDisplay" displayName="${cartridge.Display}" appliesTo="videofull, primacy, gamecarousel">
 			<include name="Show" displayName="${show}"/>
 			<include name="Hide" displayName="${hide}"/>
 	</subset>

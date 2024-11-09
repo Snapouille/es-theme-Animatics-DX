@@ -135,7 +135,7 @@
 
 
 
-<customView name="primacy">
+<customView name="primacy, primacy alt">
 
 	<image name="controller2, thumbnail_ID" extra="static">
 		<visible>true</visible>
@@ -165,6 +165,8 @@
     </image>
 
 </customView>     
+
+
 
 
 

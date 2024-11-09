@@ -32,6 +32,10 @@
 		<color>727272</color>
 		<colorEnd>000000</colorEnd>
 		<gradientType>vertical</gradientType>
+					<storyboard repeat="forever">
+					<animation property="scale" from="1.2" to="1.1" duration="15000" autoreverse="true" mode="easeInOut" />
+					<animation property="offsetX" to="-0.05" duration="15000" autoreverse="true" mode="easeInOut" />
+			</storyboard>
     </image>
 
     <textlist name="gamelist">
@@ -275,36 +279,69 @@
 	
 	<!-- Système avec un CD taille normale qui tourne -->
 	<image name="cartridge_ID" if="{system.theme} == '3do' || 
-								   {system.theme} == 'amigacd32' || 
-								   {system.theme} == 'amigacdtv' || 
-								   {system.theme} == 'atarijaguarcd' || 
-								   {system.theme} == 'cdi' ||
-								   {system.theme} == 'daphne' ||	
-								   {system.theme} == 'dreamcast' || 
-								   {system.theme} == 'fmtowns' || 								   
-								   {system.theme} == 'gc' || 
+								   {system.theme} == 'daphne' ||								   
+								   {system.theme} == 'gc' || 				   
 								   {system.theme} == 'naomi' ||
 								   {system.theme} == 'naomi2' ||
-								   {system.theme} == 'neogeocd' || 
-								   {system.theme} == 'pce-cd' || 
-								   {system.theme} == 'pcfx' || 
 								   {system.theme} == 'ps2' || 
 								   {system.theme} == 'ps3' || 
-								   {system.theme} == 'psx' || 
-								   {system.theme} == 'saturn' || 
-								   {system.theme} == 'segacd' || 
-								   {system.theme} == 'snes-msu1' || 
 								   {system.theme} == 'singe' ||	
 								   {system.theme} == 'triforce' || 
 								   {system.theme} == 'wii' || 
 								   {system.theme} == 'wiiu' || 
-								   {system.theme} == 'windows' || 
 								   {system.theme} == 'xbox' || 
 								   {system.theme} == 'xbox360' " extra="true">
 		<origin>0.5 0.5</origin>
 		<pos>0.151 0.1965</pos>	
 		<pos ifHelpPrompts="false">0.151 0.2115</pos>	
-		<maxSize>0.29 0.29</maxSize>
+		<maxSize>0.295 0.295</maxSize>
+		<zIndex>20</zIndex>
+		<!-- <scale>1.20</scale> -->
+		<storyboard event="open">   
+			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
+	
+		<!-- Système avec un CD taille normale qui tourne -->
+	<image name="cartridge_ID" if="{system.theme} == 'amigacd32' || 
+								   {system.theme} == 'amigacdtv' || 
+								   {system.theme} == 'atarijaguarcd' || 
+								   {system.theme} == 'cdi' ||
+								   {system.theme} == 'dreamcast' || 
+								   {system.theme} == 'fmtowns' || 								   
+								   {system.theme} == 'neogeocd' || 
+								   {system.theme} == 'pce-cd' || 
+								   {system.theme} == 'pcfx' || 
+								   {system.theme} == 'psx' || 
+								   {system.theme} == 'saturn' || 
+								   {system.theme} == 'segacd' || 
+								   {system.theme} == 'snes-msu1' || 
+								   {system.theme} == 'windows' " extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.151 0.1965</pos>	
+		<pos ifHelpPrompts="false">0.151 0.2115</pos>	
+		<maxSize>0.312 0.312</maxSize>
 		<zIndex>20</zIndex>
 		<!-- <scale>1.20</scale> -->
 		<storyboard event="open">   
@@ -1015,19 +1052,19 @@
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.190" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="pos" to="0.4713 0.159" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.31315" begin="2200" duration="500" mode="easeIn"/>
-			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.01" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.0025" begin="2200" duration="500" mode="easeIn"/>
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.190" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="pos" to="0.4713 0.159" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.31315" begin="2200" duration="500" mode="easeIn"/>
-			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.01" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.0025" begin="2200" duration="500" mode="easeIn"/>
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.190" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="pos" to="0.4713 0.159" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.31315" begin="2200" duration="500" mode="easeIn"/>
-			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.01" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.0025" begin="2200" duration="500" mode="easeIn"/>
 		</storyboard>      
 		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>

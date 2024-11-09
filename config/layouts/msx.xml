@@ -191,9 +191,32 @@
     </image>
 </view>
 
+<customView name="fanart">
 
-  
-  
+    <image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
+		<origin>0.5 0.5</origin>
+        <pos>0.7175 0.175</pos>
+        <storyboard event="open">
+            <animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+            <animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseOut"/>
+        </storyboard>
+        <storyboard event="activateNext">
+            <animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+            <animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseOut"/>
+        </storyboard>
+        <storyboard event="activatePrev">
+            <animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
+            <animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseOut"/>
+        </storyboard>
+        <storyboard event="deactivateNext">
+            <animation property="opacity" to="0" mode="linear"/>
+        </storyboard>
+        <storyboard event="deactivatePrev">
+            <animation property="opacity" to="0" mode="linear"/>
+        </storyboard>
+    </image>
+
+</customView>
   
   <customView name="legendary">
   

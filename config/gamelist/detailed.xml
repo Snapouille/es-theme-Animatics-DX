@@ -472,8 +472,8 @@
 	<rating name="md_rating">
 		<origin>0.5 0.5</origin>
 		<size>0.1942708 0.0601852</size>									
-		<pos>0.3960938 0.9078704</pos>
-		<pos ifHelpPrompts="false">0.3960938 0.923</pos>
+		<pos>0.39 0.9078704</pos>
+		<pos ifHelpPrompts="false">0.39 0.923</pos>
 		<color>FFFF00</color>
 		<color ifSubset="backgroundAmbience:Light">fffc00</color>
 		<horizontalAlignment>right</horizontalAlignment>
@@ -483,8 +483,6 @@
 		<zIndex>99</zIndex>
 	</rating>
 	
-
-
 	<image name="md_flag">
 		<origin>0.5 0.5</origin>									
 		<pos>0.765625 0.9296296</pos>									
