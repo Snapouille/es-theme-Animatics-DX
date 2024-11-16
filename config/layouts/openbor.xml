@@ -5,39 +5,119 @@
   
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
+		<path>./../../system/alphadenshi/ecran_console.png</path>
 		<size>0.3255208 0.6342593</size>									
 		<pos>0.5132813 0.6197222</pos>									
 		<pos ifHelpPrompts="false">0.5132813 0.6897222</pos>
 		<color>FFFFFF</color>
 		<flipY>false</flipY>
-		<zIndex>31</zIndex>		
+		<zIndex>31</zIndex>
+		
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>				
+			</storyboard>
+				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>				
+			</storyboard>
+				
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
   
+  
 	<video name="md_video">
 		<origin>0.5 0.5</origin>									
+
 		<pos>0.5132813 0.6725</pos>		
 		<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
 		<size>0.1828125 0.2509259</size>									
-		<zIndex>30</zIndex>	  
+
+		<zIndex>30</zIndex>
+	  
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>				
+			</storyboard>
+				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>				
+			</storyboard>
+				
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
-	</video>	
+	</video>
+	
+	
+		<video name="md_video">
+			<visible>false</visible>
+		</video>
+		
+		
+		<image name="game_imagepreview" extra="true">
+			<path>{game:image}</path>
+			<origin>0.5 0.5</origin>
+			
+			<pos>0.5132813 0.6725</pos>		
+			<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
+			
+			<h>0.2509259</h>	
+			<maxSize>0.1828125 0.2509259</maxSize>	
+			<linearSmooth>true</linearSmooth>
+			<zIndex>17</zIndex> 
+			
+			<storyboard event="open">
+				<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+			</storyboard>
+			<storyboard event="activate">
+				<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" begin="" duration="" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="game_imagepreview_blackscreen" extra="true">
+			<origin>0.5 0.5</origin>
+			<visible>!empty({game:image})</visible>
+			
+			<path>./../../art/divers/white.png</path>
+			<color>000000</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.5132813 0.6725</pos>		
+			<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
+			<size>0.1828125 0.2509259</size>
+			<zIndex>16</zIndex>
+			
+			<storyboard event="open">
+				<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+			</storyboard>
+			<storyboard event="activate">
+				<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" begin="" duration="" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		<video name="game_video" extra="true">
+			<path>{game:video}</path>
+			<origin>0.5 0.5</origin>
+			
+			<pos>0.5132813 0.6725</pos>		
+			<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
+			
+			<h>0.2509259</h>	
+			<maxSize>0.1828125 0.2509259</maxSize>	
+			<linearSmooth>true</linearSmooth>
+			<zIndex>15</zIndex> 
+		</video>
+	
+	
   
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
@@ -50,14 +130,17 @@
 		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>				
+			</storyboard>
+				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>				
+			</storyboard>
+				
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
-	</image>	
+	</image>
+	
 	
 	<!-- MARQUEE SUR LE BARTOP NOIR -->
 	<image name="marquee_bartop" extra="true">
@@ -69,61 +152,34 @@
 		<zIndex>33</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>				
+			</storyboard>
+				
 			<storyboard event="activate">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>				
+			</storyboard>
+				
 			<storyboard event="deactivate">
 					<animation property="opacity" to="0" duration="1" mode="linear"/>
 			</storyboard>
 	</image>
-	
-	<text name="description_Id" extra="true">
-	  <text>{game:desc}</text>
-	  <origin>0 0</origin>
-	  <color>928e94D0</color>
-	  <fontSize>0.021</fontSize>
-	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-	  <size>0.53 0.12</size>
-	  <linearSmooth>true</linearSmooth>
-	  <alignment>left</alignment>
-	  <verticalAlignment>top</verticalAlignment>
-	  <autoScroll>vertical</autoScroll>
-	  <pos>0.18 0.161</pos>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-    </text>
 </view>
 
 
 
-<customView name="fanart">
 
-	<image name="marquee_bartop">
+<customView name="fanart">
+	<image name="marquee_bartop" extra="true">
 		<visible>false</visible>
 	</image>
+</customView>        
 
-</customView>
-
-
-
-    
+	
+	
   
   <customView name="legendary">
   
+	<!-- On masque le logo et le cadre du logo car on la deja dans le MARQUEE du bartop 
+		     On repositionne aussi un peu les logos des jeux à l'aparition avant le slide vers la gauche -->
 		 
 	<image name="cadre" extra="true">
 		<visible>false</visible>
@@ -155,17 +211,17 @@
 			<pos>0.61 0.01</pos>
 			<scale>1</scale>
 			<size>0.3255208 0.6342593</size>									
-									
+			<path>./../../system/alphadenshi/ecran_console.png</path>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
 			<zIndex>31</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.61" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="x" to="0.61" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -175,26 +231,73 @@
 		</image>
   
   
+		
+		
 		<video name="md_video">
-		 
-		<pos>0.7726563 0.3791667</pos>									
-		<size>0.1796875 0.2472222</size>			
-
-
-		  
-				<storyboard event="open">
-					<animation property="x" to="0.7726563" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="x" to="0.7726563" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
-		  
+			<visible>false</visible>
 		</video>
+		
+		
+		<image name="game_imagepreview" extra="true">
+			<path>{game:image}</path>
+			<origin>0.5 0.5</origin>
+			
+			<pos>0.7726563 0.3791667</pos>									
+			
+			<h>0.2509259</h>	
+			<maxSize>0.1828125 0.2509259</maxSize>	
+			<linearSmooth>true</linearSmooth>
+			<zIndex>17</zIndex> 
+			
+			<storyboard event="open">
+				<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+			</storyboard>
+			<storyboard event="activate">
+				<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" begin="" duration="" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="game_imagepreview_blackscreen" extra="true">
+			<origin>0.5 0.5</origin>
+			<visible>!empty({game:image})</visible>
+			
+			<path>./../../art/divers/white.png</path>
+			<color>000000</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.7726563 0.3791667</pos>									
+			<size>0.1828125 0.2509259</size>
+			<zIndex>16</zIndex>
+			
+			<storyboard event="open">
+				<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+			</storyboard>
+			<storyboard event="activate">
+				<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" begin="" duration="" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		
+		<video name="game_video" extra="true">
+			<path>{game:video}</path>
+			<origin>0.5 0.5</origin>
+			
+			<pos>0.7726563 0.3791667</pos>									
+			
+			<h>0.2509259</h>	
+			<maxSize>0.1828125 0.2509259</maxSize>	
+			<linearSmooth>true</linearSmooth>
+			<zIndex>15</zIndex> 
+		</video>
+		
+		
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
@@ -203,15 +306,15 @@
 		 
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.7726563" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7726563" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
+					<animation property="offsetX" to="0" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 		</image>
   
@@ -366,4 +469,7 @@
 	
 	
 		
-   </customView>           </theme>
+   </customView>        
+
+
+   </theme>

@@ -5,46 +5,68 @@
   <view name="gamecarousel">
   
 	<image name="ecran_console" extra="static">
-		<visible>false</visible>
+			<visible>false</visible>
 	</image>
+	<!-- fond noir de l'écran -->
+	<image name="black_bg">
+	  <visible>false</visible>
+	</image>
+
+	
+	
+	
+		<video name="md_video">
+			<visible>false</visible>
+		</video>
+		
+		
+		<video name="game_video" extra="true">
+			<path>{game:video}</path>
+			<origin>0.5 0.5</origin>
+			
+			<pos>0.52 0.65</pos>									
+			
+			<h>0.53</h>	
+			<maxSize>0.33 0.53</maxSize>	
+			<linearSmooth>true</linearSmooth>
+			<zIndex>15</zIndex> 
+		</video>
+	
   </view>
   
   
   
-  
-  
-  <customView name="legendary">
+<customView name="legendary">
   
 	
 	<image name="ecran_console" extra="static">
 			<visible>false</visible>
 	</image>
+	<!-- fond noir de l'écran -->
+	<image name="black_bg">
+	  <visible>false</visible>
+	</image>
+
 	
 	
 	
-	
-	<video name="md_video">
-		  <pos>0.707 0.41</pos>
-		  <maxSize>0.34 0.36</maxSize>
-		  
-				<storyboard event="open">
-					<animation property="x" to="0.77" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="x" to="0.77" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
-		  
+		<video name="md_video">
+			<visible>false</visible>
+		</video>
+		
+		
+		<video name="game_video" extra="true">
+			<path>{game:video}</path>
+			<origin>0.5 0.5</origin>
+			
+			<pos>0.7726563 0.415</pos>									
+			
+			<h>0.45</h>	
+			<maxSize>0.3 0.45</maxSize>	
+			<linearSmooth>true</linearSmooth>
+			<zIndex>15</zIndex> 
 		</video>
   
-	<!-- fond noir de l'écran -->
-		<image name="black_bg">
-		  <visible>false</visible>
-		</image>
 	
 	
 	
@@ -224,7 +246,7 @@
 	
 	
 		
-   </view>
+</customView>
   
   
   
