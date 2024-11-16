@@ -211,7 +211,7 @@
 	
 	
 	
-	<!-- Special agencement pour box SNES N64 G&W -->
+	<!-- Special agencement pour box SNES et N64 -->
 	<!-- Animation LOGO des systèmes  -->	
 	<image name="logo">
 			<storyboard>
@@ -238,9 +238,11 @@
 
 	
 	<!-- Affichage du controller2 -->
-	<image name="console-collection" extra="true">
+	<image name="controller2" extra="true">
 		<pos>0.7119271 0.0819444</pos>
     </image>
+	
+	
 	
 	
 	
