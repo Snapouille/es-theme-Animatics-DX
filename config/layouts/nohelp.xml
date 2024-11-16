@@ -202,6 +202,7 @@
 	
 	<image name="md_flag">
 		<pos>0.888 0.775</pos>
+	    <pos if="{system.theme} == 'megaduck' || {system.theme} == 'supervision' ">0.525 0.7</pos>
 	</image>
 	
 	
@@ -599,14 +600,14 @@
 	  
 		<storyboard event="open">
 			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
-			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="500" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1569444" begin="1500" duration="500" mode="EaseOut"/>
+			<animation property="pos" to="0.7386979 0.1569444" begin="1000" duration="500" mode="Linear"/>
+			<animation property="pos" to="0.6167396 0.1569444" begin="1500" duration="500" mode="EaseOut"/>
 			
-			<animation property="pos" to="0.6997396 0.1523148" begin="2000" duration="25" mode="Linear"/>
-			<animation property="pos" to="0.6945313 0.1523148" begin="2025" duration="55" mode="Linear"/>
-			<animation property="pos" to="0.6945313 0.1625" begin="2080" duration="50" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1625" begin="2130" duration="50" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6167396 0.1523148" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.6115313 0.1523148" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.6115313 0.1625" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6167396 0.1625" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6167396 0.1569444" begin="2180" duration="50" mode="Linear"/>
 			
 			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
 			
@@ -622,14 +623,14 @@
 		
 		<storyboard event="activate">
 			<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
-			<animation property="pos" to="0.9486979 0.1569444" begin="1000" duration="480" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1569444" begin="1500" duration="480" mode="EaseOut"/>
+			<animation property="pos" to="0.7386979 0.1569444" begin="1000" duration="500" mode="Linear"/>
+			<animation property="pos" to="0.6167396 0.1569444" begin="1500" duration="500" mode="EaseOut"/>
 			
-			<animation property="pos" to="0.6997396 0.1523148" begin="2000" duration="25" mode="Linear"/>
-			<animation property="pos" to="0.6945313 0.1523148" begin="2025" duration="55" mode="Linear"/>
-			<animation property="pos" to="0.6945313 0.1625" begin="2080" duration="50" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1625" begin="2130" duration="50" mode="Linear"/>
-			<animation property="pos" to="0.6997396 0.1569444" begin="2180" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6167396 0.1523148" begin="2000" duration="25" mode="Linear"/>
+			<animation property="pos" to="0.6115313 0.1523148" begin="2025" duration="55" mode="Linear"/>
+			<animation property="pos" to="0.6115313 0.1625" begin="2080" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6167396 0.1625" begin="2130" duration="50" mode="Linear"/>
+			<animation property="pos" to="0.6167396 0.1569444" begin="2180" duration="50" mode="Linear"/>
 			
 			<animation property="size" to="0.0088542 0.0157407" begin="2180" duration="50" mode="Linear"/>
 			

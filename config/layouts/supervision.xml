@@ -221,7 +221,7 @@
   <customView name="legendary">
 	
 	<image name="ecran_console" extra="static">
-			<pos>0.658 0.185</pos>
+			<pos>0.728 0.185</pos>
 			<size>0.1989583 0.6083333</size>
 			<scale>0.95</scale>
 			<opacity>1</opacity>
@@ -229,11 +229,11 @@
 			<zIndex>61</zIndex>
 			
 			<storyboard event="open">
-					<animation property="x" to="0.75" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.747" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.75" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.747" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -244,16 +244,16 @@
   
   
 		<video name="md_video">
-		  <pos>0.753 0.337</pos>
+		  <pos>0.823 0.337</pos>
 		  <size>0.12 0.17</size>
 		 
 		  
 		  <storyboard event="open">
-					<animation property="x" to="0.845" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.842" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.845" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.842" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -264,14 +264,14 @@
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		  <pos>0.753 0.337</pos>
+		  <pos>0.823 0.337</pos>
 		  <size>0.12 0.17</size>
 				<storyboard event="open">
-					<animation property="x" to="0.845" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.842" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.845" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.842" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -280,6 +280,10 @@
 		  
 		</image>
   
+  
+	<image name="md_flag">
+		<pos>0.525 0.645</pos>
+	</image>
 		
 		
   

@@ -83,39 +83,37 @@
 	<image name="ecran_console" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.2276042 0.5157407</size>									
-			<pos>0.7707813 0.4689815</pos>									
+			<pos>0.8007813 0.4689815</pos>									
 			<scale>1</scale>
 			<opacity>1</opacity>
 			<color>FFFFFF</color>
 			<zIndex>61</zIndex>
 			
 				<storyboard event="open">
-					<animation property="offsetX" to="0.055" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.025" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="offsetX" to="0.055" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.025" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
 						<animation property="opacity" to="0" duration="1" mode="linear"/>
 				</storyboard>
-			
-			
 		</image>
   
   
 		<video name="md_video">
 			<size>0.1171875 0.1472222</size>									
-			<pos>0.7697396 0.3884259</pos>									
+			<pos>0.7997396 0.3884259</pos>									
 		  
 		  
 		  <storyboard event="open">
-					<animation property="offsetX" to="0.055" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.025" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="offsetX" to="0.055" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.025" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -127,15 +125,15 @@
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
 			<size>0.1171875 0.1472222</size>									
-			<pos>0.7697396 0.3884259</pos>									
+			<pos>0.7997396 0.3884259</pos>									
 		  
 		  
 		  <storyboard event="open">
-					<animation property="offsetX" to="0.055" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.025" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="offsetX" to="0.055" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetX" to="0.025" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
