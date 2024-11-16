@@ -222,7 +222,7 @@
   <customView name="legendary">
 	
 	<image name="ecran_console" extra="static">
-			<pos>0.67 0.20</pos>
+			<pos>0.70 0.20</pos>
 			<size>0.2098958 0.5555556</size>									
 			<scale>1</scale>
 			<opacity>1</opacity>
@@ -230,11 +230,11 @@
 			<zIndex>61</zIndex>
 			
 				<storyboard event="open">
-					<animation property="x" to="0.725" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.72" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.725" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.72" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -245,16 +245,16 @@
   
   
 		<video name="md_video">
-			<pos>0.7744271 0.362963</pos>
+			<pos>0.8044271 0.357963</pos>
 			<size>0.1005208 0.1518519</size>									
 			
 		  
 				<storyboard event="open">
-					<animation property="x" to="0.8294271" begin="1200"  duration="200" mode="linear"/>
+					<animation property="x" to="0.8244271" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="x" to="0.8294271" begin="1200"  duration="200" mode="linear"/>
+					<animation property="x" to="0.8244271" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -266,15 +266,15 @@
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-		    <pos>0.7744271 0.362963</pos>
-			<size>0.1005208 0.1518519</size>
+		    <pos>0.8044271 0.357963</pos>
+			<size>0.1005208 0.17</size>
 	  
 				<storyboard event="open">
-					<animation property="x" to="0.8294271" begin="1200"  duration="200" mode="linear"/>
+					<animation property="x" to="0.8244271" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-					<animation property="x" to="0.8294271" begin="1200"  duration="200" mode="linear"/>
+					<animation property="x" to="0.8244271" begin="1200"  duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
