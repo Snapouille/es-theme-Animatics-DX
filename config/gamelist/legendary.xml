@@ -898,7 +898,7 @@ originally based on: "carbon"
 		<selectorColor>${centerFadeColor}</selectorColor>
 		<selectedColor>fdde0b</selectedColor>
 		<extraTextColor>c0a767</extraTextColor>
-		<extraTextColor if="{system.theme} == 'RA multiplayer'" >FFFFFF00</extraTextColor>
+		<extraTextColor if="{system.theme} == 'RA multiplayer'" >ffffff00</extraTextColor>
 		<forceUppercase>0</forceUppercase>
 		<pos>0.01 0.17</pos>
 		<size>0.291 0.755</size>

@@ -144,6 +144,20 @@
 		
 		
 		
+		<image name="cloud1" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.18125 0.1407407</size>									
+			<pos>0.7 0.19</pos>			
+			<linearSmooth>true</linearSmooth>
+			<path>./cloud.png</path>
+			<scale>0.7</scale>
+			<storyboard repeat="forever">
+				<animation property="x" to="-0.1" begin="3000" duration="25000" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
 		
 		
 		

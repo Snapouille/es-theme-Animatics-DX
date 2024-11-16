@@ -1,3 +1,12 @@
+## V 2.10 - (16 11 2024)
+- new PORTS system animation
+- new WonderSwan system animation
+- add rock for the WonderSwan color animation (grid view)
+- add clouds for the system gb animation
+- add PS4 in legendary view
+- fix vertical arcade aspect ratio for legendary and gamecarousel view
+
+
 ## V 2.09 - (09 11 2024)
 - new Sega Master System animation
 - fanart view : new design

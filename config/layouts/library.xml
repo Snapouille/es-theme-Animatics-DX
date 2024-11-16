@@ -69,6 +69,8 @@
 		<pos>0.8518229 0.932963</pos>									
 	</image>
 	
+	
+	
   </view>
 
 
@@ -149,8 +151,6 @@
 		<visible>false</visible>
 	</text> 
 	
-	
-		
 	<textlist name="gamelist">
 	  <origin>0 0</origin>									
       <pos>0.35 0.6</pos>
@@ -159,8 +159,8 @@
     </textlist>
 
      <image name="thumbnail_ID" extra="true">
-		<pos>0.96 0.62</pos>
-		<pos ifHelpPrompts="false">0.96 0.65</pos>
+		<pos>0.85 0.62</pos>
+		<pos ifHelpPrompts="false">0.85 0.65</pos>
 		<maxSize>0.5 0.7</maxSize>	
     </image>
 
@@ -234,40 +234,58 @@
 	
 	
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-		<pos>0.45 0.53</pos>	
-		<pos ifHelpPrompts="false">0.45 0.59</pos>
-		<maxSize>0.3546875 0.7231481</maxSize>									
+	  <pos>0.43 0.5</pos>
+	  <pos ifHelpPrompts="false">0.43 0.55</pos>
+	  <size>0.45 0.7</size>																
 		
 		<storyboard event="open">
-			<animation property="opacity" to="1" duration="1" mode="linear"/>
+			<animation property="offsetY" to="0.03" duration="100" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-			<animation property="opacity" to="1" duration="1" mode="linear"/>
+			<animation property="offsetY" to="0.03" duration="100" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
 	</video>
 	
+	
 	<image name="thumbnail-gamecarousel">
-		<visible>false</visible>
+		<maxSize>0.15 0.25</maxSize>
+		<maxSize ifHelpPrompts="false">0.15 0.25</maxSize>
+		<pos>0.1 0.25</pos>
+		<pos ifHelpPrompts="false">0.1 0.25</pos>
+		
+			<storyboard event="open">
+			</storyboard>
+			<storyboard event="activateNext">
+			</storyboard>
+			<storyboard event="activatePrev">
+			</storyboard>
+			<storyboard event="deactivate">
+			</storyboard>		
+		
 	</image>
 	
-	<text name="md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players">
+	<text name="md_playcount, md_lastplayed, md_gametime, md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, genre_Id, description_Id, developer_Id, md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players">
 		<visible>false</visible>
 	</text>
 	
-	<image name="ghost_hidden, md_hidden, ghost_cheevos, md_cheevos,md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate,md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual, md_flag">
+	<datetime name="md_releasedate">
+		<visible>false</visible>
+    </datetime>
+	
+	<image name="black_bg, md_flag, ghost_hidden, md_hidden, ghost_cheevos, md_cheevos, md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate, md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual">
 		<visible>false</visible>
 	</image>
 	
 	<rating name="md_rating">
 		<visible>false</visible>
 	</rating>
+	
+	
 	
 	
   </view>
@@ -280,17 +298,26 @@
   
 <customView name="fanart">
 
-	<text name="md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players">
+	<video name="md_video">
 		<visible>false</visible>
-	</text>
+	</video>
 	
-	<image name="ghost_hidden, md_hidden, ghost_cheevos, md_cheevos,md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate,md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual, md_flag">
-		<visible>false</visible>
+	<image name="thumbnail-gamecarousel">
+		<visible>true</visible>
+		<maxSize>0.12 0.25</maxSize>
+		<maxSize ifHelpPrompts="false">0.12 0.25</maxSize>
+		<pos>0.887 0.22</pos>
+		<pos ifHelpPrompts="false">0.887 0.22</pos>
+		<zIndex>60</zIndex>
 	</image>
 	
-	<rating name="md_rating">
+	<image name="img-Preview, logo">
 		<visible>false</visible>
-	</rating>
+	</image>
+
+	<video name="video-Preview">
+		<visible>false</visible>
+	</video>
 	
 </customView>
   

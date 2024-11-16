@@ -251,20 +251,13 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
 	<!-- Position des consoles si "Total" des jeux ou "rien" select -->
 	<image name="Consoles" extra="static">
       <opacity>0</opacity>
 	  <pos>0.812 0.5</pos>
       <origin>0.5 0.5</origin>
-      <size>0.2375 0</size>
+	  <maxSize>0.2614583 0.3351852</maxSize>	
+	  <linearSmooth>true</linearSmooth>
       <zIndex>40</zIndex>
 		<storyboard repeatAt="2">
 			<animation property="opacity" from="1" to="1" begin="350" duration="" mode="Linear"/>
@@ -289,7 +282,8 @@
       <opacity>0</opacity>
 	  <pos>0.812 0.4</pos>
       <origin>0.5 0.5</origin>
-      <size>0.1375 0</size>
+	  <maxSize>0.2614583 0.33</maxSize>	
+	  <linearSmooth>true</linearSmooth>
       <zIndex>40</zIndex>
 		<storyboard repeatAt="2">
 			<animation property="opacity" from="1" to="1" begin="350" duration="" mode="Linear"/>

@@ -32,7 +32,7 @@
 			<zIndex>25</zIndex>
 
 			<storyboard>
-				<animation property="scale" to="0.8" begin="100" duration="500" mode="EaseIn"/>
+				<animation property="scale" to="0.8" begin="100" duration="300" mode="EaseIn"/>
 			</storyboard>
 		
 		</image>
