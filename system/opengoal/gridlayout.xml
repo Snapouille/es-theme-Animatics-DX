@@ -1,0 +1,24 @@
+<!-- OpenGoal -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="avatar1" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.2828125 0.6824074</size>									
+			<pos>1.1 0.6</pos>									
+			<path>./avatar1.png</path>
+			<opacity>1</opacity>
+			<zIndex>20</zIndex>
+			<storyboard>
+        		<animation property="offsetX" to="-0.268" begin="" duration="700" mode="EaseInOut"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

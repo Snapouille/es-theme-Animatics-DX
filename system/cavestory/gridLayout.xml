@@ -7,43 +7,85 @@
 	<view name="system">
 	
 		
-		<image name="avatar1, avatar2, cloud1, cloud2, cloud3, cloud4, stars1, stars2, stars3">
+		<image name="avatar1, avatar2, avatar2-sword, cloud1, cloud2, cloud3, cloud4, stars1, stars2, stars3">
 			<origin>0.5 0.5</origin>									
 			<linearSmooth>true</linearSmooth>
 			<opacity>0</opacity>
 			<scale>1</scale>
 		</image>
 		
+		
+		
 	
 		<image name="avatar1" extra="true">
-			<path>./avatar1.png</path>
+			<path>./avatar1.gif</path>
 			<size>0.1708333 0.3</size>									
-			<pos>-0.1 0.9925926</pos>	
+			<pos>-0.1 0.99</pos>
+			<pos ifHelpPrompts="false">-0.1 1.05</pos>
 			<opacity>1</opacity>
 			<zIndex>1000</zIndex>
 
 			<storyboard>
 				<animation property="offsetX" to="0.85" begin="700" duration="500" mode="EaseOut"/>
-				<animation property="offsetY" to="-0.6" begin="700" duration="500" mode="Bump"/>
+				<animation property="offsetY" to="-0.5" begin="700" duration="500" mode="Bump"/>
 				<animation property="rotation" from="40" to="0" 	begin="700" duration="500" mode="Bump"/>
 			</storyboard>
-			
 		</image>
 		
-		<image name="avatar2" extra="true">
-			<path>./avatar2.png</path>
-			<size>0.1671875 0.262037</size>									
-			<pos>0.99 1.15</pos>									
-			<opacity>1</opacity>
-			<zIndex>6</zIndex>
-
-			<storyboard>
-				<animation property="offsetX" to="-0.1" 			begin="500" duration="500" mode="EaseOut"/>
-				<animation property="offsetY" to="-0.5" 			begin="500" duration="500" mode="Bump"/>
-				<animation property="rotation" from="-40" to="0" 	begin="500" duration="500" mode="Bump"/>
-			</storyboard>
-			
+		
+		
+		<image name="avatar-stone" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.4598958 0.1842593</size>									
+			<pos>0.95 1.28</pos>	
+			<pos ifHelpPrompts="false">0.95 1.34</pos>
+			<path>./avatar-stone.png</path>
+			<zIndex>15</zIndex>
+				<storyboard>
+					<animation property="offsetY" to="-0.4" begin="" duration="1000" mode="EaseInOut"/>
+				</storyboard>
 		</image>
+		
+		
+		<image name="avatar2-sword" extra="true">
+			<path>./avatar2-sword.gif</path>
+			<size>0.1671875 0.262037</size>									
+			<pos>1.01 1.15</pos>	
+			<pos ifHelpPrompts="false">1.01 1.21</pos>
+			<opacity>1</opacity>
+			<zIndex>16</zIndex>
+			<storyboard repeatAt="1100">
+				<animation property="offsetX" to="-0.1" 			begin="500" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="-0.35" 			begin="500" duration="500" mode="Bump"/>
+				<animation property="rotation" from="-40" to="0" 	begin="500" duration="500" mode="Bump"/>
+				
+				<animation property="opacity" to="0" 				begin="1500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 				begin="5000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 				begin="6500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 				begin="10000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar2" extra="true">
+			<path>./avatar2.gif</path>
+			<size>0.1671875 0.262037</size>									
+			<pos>1.01 1.15</pos>	
+			<pos ifHelpPrompts="false">1.01 1.21</pos>
+			<opacity>0</opacity>
+			<zIndex>16</zIndex>
+			<storyboard repeatAt="1100">
+				<animation property="offsetX" to="-0.1" 			begin="500" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="-0.35" 			begin="500" duration="500" mode="Bump"/>
+				<animation property="rotation" from="-40" to="0" 	begin="500" duration="500" mode="Bump"/>
+				
+				<animation property="opacity" to="1" 				begin="1500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 				begin="5000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 				begin="6500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 				begin="10000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
 		
 		
 		

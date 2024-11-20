@@ -34,15 +34,18 @@
 	<image name="avatar-dragon-static" extra="static">
 		<origin>0.5 0.5</origin>									
 		<size>0.5145833 1.0388889</size>									
-		<pos>1.5 -0.5</pos>									
+		<pos>1.5 0.1</pos>									
 		<path>./avatar-dragon-static.gif</path>
 		<linearSmooth>true</linearSmooth>
-		<scale>0.1</scale>
+		<scale>1.5</scale>
 		<zIndex>20000</zIndex>
 		
 		<storyboard repeat="forever">
-			<animation property="pos" to="0.8 0.53" begin="100" duration="3500" mode="EaseInOut"/>
-			<animation property="scale" to="0.7" begin="100" duration="3500" mode="Bump"/>
+		
+		
+			<animation property="x" to="0.8" begin="100" duration="3000" mode="EaseInOut"/>
+			<animation property="y" to="0.53" begin="100" duration="3000" mode="Bump"/>
+			<animation property="scale" to="0.7" begin="100" duration="3000" mode="EaseInOut"/>
 			
 			<animation property="offsetX" to="-0.9" begin="10333" duration="2000" mode="EaseInOut"/>
 			<animation property="offsetY" to="-0.85" begin="10333" duration="2000" mode="EaseInOut"/>

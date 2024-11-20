@@ -5,10 +5,13 @@
 	
 	<view name="system">
 	
+	
+	
+	
 	<image name="background-light" extra="true">
 		<origin>0.5 0.5</origin>									
-		<size>0.58125 0.6509259</size>									
-		<pos>0.3177083 0.3856481</pos>	
+		<size>0.3177083 0.6018519</size>									
+		<pos>0.3057292 0.3925926</pos>									
 		<path>./background-light.png</path>
 		<opacity>0</opacity>
 		<zIndex>4</zIndex>
@@ -38,8 +41,8 @@
         		<animation property="size" to="0.2640625 0.625" begin="" duration="500" mode="EaseInOut"/>
 				<animation property="pos" to="0.5304688 0.5189815" begin="" duration="500" mode="EaseInOut"/>
 				
-				<animation property="size" to="0.6140625 1.4537037" begin="11800" duration="500" mode="EaseInOut"/>
-				<animation property="pos" to="1.2585938 0.9814815" begin="11800" duration="500" mode="EaseInOut"/>
+				<animation property="size" to="0.6140625 1.4537037" begin="10800" duration="500" mode="EaseInOut"/>
+				<animation property="pos" to="1.2585938 0.9814815" begin="10800" duration="500" mode="EaseInOut"/>
 			</storyboard>					
 		</image>
 		
@@ -66,9 +69,8 @@
 				<animation property="opacity" from="0.8" to="0.6" begin="9400" duration="200" autoreverse="true" repeat="2" mode="linear"/>
 
 				<animation property="opacity" from="0.8" to="0.6" begin="9800" duration="100" autoreverse="true" repeat="1" mode="linear"/>
-				<animation property="opacity" from="0.8" to="0.5" begin="10000" duration="200" autoreverse="true" repeat="3" mode="linear"/>
 				
-				<animation property="opacity" to="0" begin="11800" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="10800" duration="100" mode="linear"/>
 			</storyboard>					
 		</image>
 
@@ -85,8 +87,8 @@
 				<animation property="offsetX" to="-0.0003" begin="700" duration="50" autoreverse="true" repeat="100" mode="linear"/>
 				<animation property="offsetY" to="-0.0003" begin="700" duration="50" autoreverse="true" repeat="100" mode="linear"/>
 				
-				<animation property="size" to="0.4151042 0.5268519" begin="10700" duration="300" mode="EaseInOut"/>
-				<animation property="pos" to="0.9695313 1.2615741" begin="10700" duration="300" mode="EaseInOut"/>
+				<animation property="size" to="0.4151042 0.5268519" begin="9700" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="0.9695313 1.2615741" begin="9700" duration="300" mode="EaseInOut"/>
 			</storyboard>					
 		</image>
 		
@@ -102,8 +104,8 @@
 				<animation property="offsetX" to="-0.0003" begin="900" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				<animation property="offsetY" to="-0.0003" begin="900" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				
-				<animation property="size" to="0.2953125 0.5055556" begin="10900" duration="300" mode="EaseInOut"/>
-				<animation property="pos" to="0.8502604 1.3083333" begin="10900" duration="300" mode="EaseInOut"/>
+				<animation property="size" to="0.2953125 0.5055556" begin="9900" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="0.8502604 1.3083333" begin="9900" duration="300" mode="EaseInOut"/>
 			</storyboard>					
 		</image>
 		
@@ -119,8 +121,8 @@
 				<animation property="offsetX" to="-0.0003" begin="1100" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				<animation property="offsetY" to="-0.0003" begin="1100" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				
-				<animation property="size" to="0.409375 0.4296296" begin="11100" duration="300" mode="EaseInOut"/>
-				<animation property="pos" to="0.9385417 -0.2333333" begin="11100" duration="300" mode="EaseInOut"/>
+				<animation property="size" to="0.409375 0.4296296" begin="10100" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="0.9385417 -0.2333333" begin="10100" duration="300" mode="EaseInOut"/>
 			</storyboard>					
 		</image>
 		
@@ -137,8 +139,8 @@
 				<animation property="offsetX" to="-0.0003" begin="1100" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				<animation property="offsetY" to="-0.0003" begin="1100" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				
-				<animation property="size" to="0.3276042 0.1898148" begin="11100" duration="300" mode="EaseInOut"/>
-				<animation property="pos" to="1.1591146 0.8078704" begin="11100" duration="300" mode="EaseInOut"/>
+				<animation property="size" to="0.3276042 0.1898148" begin="10150" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="1.1591146 0.8078704" begin="10150" duration="300" mode="EaseInOut"/>
 			</storyboard>					
 		</image>
 		
@@ -154,8 +156,8 @@
 				<animation property="offsetX" to="-0.0003" begin="1300" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				<animation property="offsetY" to="-0.0003" begin="1300" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				
-				<animation property="size" to="0.3755208 0.3611111" begin="11300" duration="300" mode="EaseInOut"/>
-				<animation property="pos" to="1.0846354 1.1990741" begin="11300" duration="300" mode="EaseInOut"/>
+				<animation property="size" to="0.3755208 0.3611111" begin="10300" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="1.0846354 1.1990741" begin="10300" duration="300" mode="EaseInOut"/>
 			</storyboard>					
 		</image>
 		
@@ -172,8 +174,8 @@
 				<animation property="offsetX" to="-0.0003" begin="1400" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				<animation property="offsetY" to="-0.0003" begin="1400" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				
-				<animation property="size" to="0.3375 0.0962963" begin="11400" duration="300" mode="EaseInOut"/>
-				<animation property="pos" to="1.1947917 0.2546296" begin="11400" duration="300" mode="EaseInOut"/>
+				<animation property="size" to="0.3375 0.0962963" begin="10400" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="1.1947917 0.2546296" begin="10400" duration="300" mode="EaseInOut"/>
 			</storyboard>					
 		</image>
 		
@@ -190,10 +192,491 @@
 				<animation property="offsetX" to="-0.0003" begin="1500" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				<animation property="offsetY" to="-0.0003" begin="1500" duration="50" autoreverse="true" repeat="200" mode="linear"/>
 				
-				<animation property="size" to="0.5479167 0.1564815" begin="11500" duration="300" mode="EaseInOut"/>
-				<animation property="pos" to="1.2739583 0.5671296" begin="11500" duration="300" mode="EaseInOut"/>
+				<animation property="size" to="0.5479167 0.1564815" begin="10500" duration="300" mode="EaseInOut"/>
+				<animation property="pos" to="1.2739583 0.5671296" begin="10500" duration="300" mode="EaseInOut"/>
 			</storyboard>					
 		</image>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		<image name="rock01, rock01bis, rock01ter, rock01quarter, rock02, rock02bis, rock02ter, rock03, rock04, rock05, rock06, rock07">
+			<path>./rock01.png</path>
+			<origin>0.5 0.5</origin>
+			<size>0.3817708 0.4157407</size>									
+			<zIndex>19</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		
+		<image name="rock01" extra="true">
+			<pos>0.5 -1.15</pos>	
+
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="10500" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="11000" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock02" extra="true">
+			<pos>0.7 -1.15</pos>
+			<rotation>70</rotation>
+			<scale>0.7</scale>
+			<zIndex>15</zIndex>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="10700" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="11200" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock03" extra="true">
+			<pos>0.3 -1.05</pos>
+			<rotation>10</rotation>
+			<scale>0.6</scale>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="10800" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="11300" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock04" extra="true">
+			<pos>0.35 -1.2</pos>
+			<rotation>-10</rotation>
+			<scale>0.65</scale>
+			<size>0.5 0.4157407</size>	
+			<flipX>true</flipX>
+			
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="10900" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="11400" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock05" extra="true">
+			<pos>0.4 -1.4</pos>
+			<rotation>0</rotation>
+			<scale>0.5</scale>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="11100" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="11600" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="rock06" extra="true">
+			<pos>0.55 -1.4</pos>
+			<rotation>20</rotation>
+			<scale>0.4</scale>
+			
+			<size>0.5 0.4157407</size>	
+			
+			
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="11200" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="11700" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock07" extra="true">
+			<pos>0.65 -1.39</pos>
+			<zIndex>6</zIndex>
+			<rotation>30</rotation>
+			<scale>0.6</scale>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="11400" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="11900" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="rock01bis" extra="true">
+			<pos>0.55 -1.55</pos>
+			<rotation>0</rotation>
+			<scale>0.7</scale>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="11500" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="12000" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock01ter" extra="true">
+			<pos>0.15 -1.15</pos>
+			<rotation>0</rotation>
+			<scale>0.95</scale>
+			<flipX>true</flipX>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="11950" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="12450" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock01quarter" extra="true">
+			<pos>0.75 -1.15</pos>
+			<flipX>true</flipX>
+			<rotation>0</rotation>
+			<scale>0.95</scale>
+			<zIndex>8</zIndex>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="12400" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="12900" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock02bis" extra="true">
+			<pos>0.73 -1.4</pos>
+			<rotation>10</rotation>
+			<scale>0.9</scale>
+			<zIndex>9</zIndex>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="12600" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="13100" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+
+		<image name="rock02ter" extra="true">
+			<pos>0.23 -1.4</pos>
+			<rotation>-15</rotation>
+			<scale>0.85</scale>
+			<zIndex>18</zIndex>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="12250" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="12750" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+
+
+		
+		<image name="rock08, rock08bis, rock09, rock10, rock11">
+			<path>./rock02.png</path>
+			<origin>0.5 0.5</origin>
+			<size>0.0848958 0.0564815</size>									
+			<zIndex>21</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		
+		<image name="rock08" extra="true">
+			<pos>0.4 -1.01</pos>									
+			<rotation>0</rotation>
+			<scale>1</scale>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="10600" duration="800" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="11400" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock08bis" extra="true">
+			<pos>0.18 -1</pos>									
+			<rotation>-20</rotation>
+			<scale>1</scale>
+			<flipX>true</flipX>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="10000" duration="800" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="10800" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="rock09" extra="true">
+			<pos>0.65 -0.99</pos>									
+			<rotation>30</rotation>
+			<scale>0.9</scale>
+			
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="11800" duration="800" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="12600" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock10" extra="true">
+			<pos>0.58 -1.5</pos>		
+			<zIndex>6</zIndex>
+			<rotation>-20</rotation>
+			<scale>1</scale>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="11900" duration="800" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="12700" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock11" extra="true">
+			<pos>0.47 -1.46</pos>		
+			<zIndex>6</zIndex>
+			<rotation>30</rotation>
+			<scale>1</scale>
+			<storyboard>
+				<animation property="offsetY" to="2" 	begin="12000" duration="800" mode="linear"/>
+				<animation property="offsetY" to="1.99" begin="12800" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		
+		
+		
+		<image name="dust0, dust1, dust2, dust3, dust4, dust5, dust6">
+			<path>./dust.png</path>
+			<origin>0.5 0.5</origin>
+			<size>1.003125 1.0805556</size>									
+			<linearSmooth>true</linearSmooth>
+			<opacity>0</opacity>
+			<zIndex>19</zIndex>
+		</image>
+		
+		
+		<image name="dust0" extra="true">
+			<pos>0.35 0.85</pos>	
+
+			<storyboard>
+				<animation property="opacity" to="1" 	begin="11000" duration="500" mode="linear"/>
+				<animation property="scale" to="1.3" 	begin="11000" duration="1000" mode="linear"/>
+				<animation property="offsetY" to="0.01" begin="11000" duration="100" autoreverse="true" repeat="5" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="12000" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="11300" duration="500" mode="linear"/>
+				<animation property="scale" to="1.3" 	begin="11300" duration="1000" mode="linear"/>
+				<animation property="offsetY" to="0.01" begin="11300" duration="100" autoreverse="true" repeat="5" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="12300" duration="500" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="dust1" extra="true">
+			<pos>0.4 0.7</pos>	
+
+			<storyboard>
+				<animation property="opacity" to="1" 	begin="11500" duration="500" mode="linear"/>
+				<animation property="scale" to="1.3" 	begin="11500" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="12500" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="11800" duration="500" mode="linear"/>
+				<animation property="scale" to="1.3" 	begin="11800" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="12800" duration="500" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="dust2" extra="true">
+			<pos>0.6 0.65</pos>	
+			<scale>0.95</scale>
+
+			<storyboard>
+				<animation property="opacity" to="1" 	begin="12000" duration="500" mode="linear"/>
+				<animation property="scale" to="1.2" 	begin="12000" duration="1000" mode="linear"/>
+				<animation property="offsetY" to="0.01" begin="12000" duration="100" autoreverse="true" repeat="5" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="13000" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="12300" duration="500" mode="linear"/>
+				<animation property="scale" to="1.2" 	begin="12300" duration="1000" mode="linear"/>
+				<animation property="offsetY" to="0.01" begin="12300" duration="100" autoreverse="true" repeat="5" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="13300" duration="500" mode="linear"/>
+				
+			</storyboard>					
+		</image>
+
+		<image name="dust3" extra="true">
+			<pos>0.5 0.6</pos>	
+			<scale>0.9</scale>
+
+			<storyboard>
+				<animation property="opacity" to="1" 	begin="12500" duration="500" mode="linear"/>
+				<animation property="scale" to="1.1" 	begin="12500" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="13500" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="12800" duration="500" mode="linear"/>
+				<animation property="scale" to="1.1" 	begin="12800" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="13800" duration="500" mode="linear"/>
+			</storyboard>					
+		</image>
+
+		<image name="dust4" extra="true">
+			<pos>0.4 0.55</pos>	
+			<scale>0.85</scale>
+
+			<storyboard>
+				<animation property="opacity" to="1" 	begin="13000" duration="500" mode="linear"/>
+				<animation property="scale" to="1.3" 	begin="13000" duration="1000" mode="linear"/>
+				<animation property="offsetY" to="0.01" begin="13000" duration="100" autoreverse="true" repeat="5" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="14000" duration="500" mode="linear"/>
+			</storyboard>					
+		</image>
+
+		<image name="dust5" extra="true">
+			<pos>0.6 0.5</pos>	
+			<scale>0.80</scale>
+
+			<storyboard>
+				<animation property="opacity" to="1" 	begin="13300" duration="500" mode="linear"/>
+				<animation property="scale" to="1" 		begin="13300" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="14300" duration="500" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="dust6" extra="true">
+			<pos>0.45 0.22</pos>	
+			<zIndex>11</zIndex>
+			<scale>0.5</scale>
+
+			<storyboard>
+				<animation property="opacity" to="1" 	begin="13100" duration="500" mode="linear"/>
+				<animation property="scale" to="0.8" 	begin="13100" duration="1000" mode="linear"/>
+				<animation property="offsetY" to="0.01" begin="13100" duration="100" autoreverse="true" repeat="5" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="14100" duration="500" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		
+		
+		
+		
+		<image name="rock012, rock012bis, rock013, rock014, rock015, rock016, rock017, rock018, rockround, rockroundbis">
+			<path>./rock01.png</path>
+			<origin>0.5 0.5</origin>
+			<size>0.3817708 0.4157407</size>									
+			<zIndex>5</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		
+		<image name="rock012" extra="true">
+			<pos>0.5 -1.15</pos>
+			<zIndex>12</zIndex>
+			<storyboard>
+				<animation property="offsetY" to="1.6" 	begin="12500" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.59" begin="13000" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock013" extra="true">
+			<pos>0.7 -1.15</pos>
+			<rotation>70</rotation>
+			<scale>0.7</scale>
+			<storyboard>
+				<animation property="offsetY" to="1.6" 	begin="12700" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.59" begin="13200" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock014" extra="true">
+			<pos>0.3 -1.05</pos>
+			<rotation>10</rotation>
+			<scale>0.6</scale>
+			
+			<storyboard>
+				<animation property="offsetY" to="1.6" 	begin="12800" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.59" begin="13300" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock015" extra="true">
+			<pos>0.35 -1.2</pos>
+			<rotation>-20</rotation>
+			<scale>0.65</scale>
+			<storyboard>
+				<animation property="offsetY" to="1.6" 	begin="12900" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.59" begin="13400" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock016" extra="true">
+			<pos>0.4 -1.4</pos>
+			<rotation>0</rotation>
+			<scale>0.5</scale>
+			
+			<storyboard>
+				<animation property="offsetY" to="1.6" 	begin="13100" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.59" begin="13600" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="rock017" extra="true">
+			<pos>0.55 -1.4</pos>
+			<rotation>20</rotation>
+			<scale>0.4</scale>
+			<storyboard>
+				<animation property="offsetY" to="1.6" 	begin="13200" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.59" begin="13700" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rock018" extra="true">
+			<pos>0.65 -1.39</pos>
+			<zIndex>12</zIndex>
+			<rotation>30</rotation>
+			<scale>0.6</scale>
+			<storyboard>
+				<animation property="offsetY" to="1.6" 	begin="13400" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.59" begin="13900" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		<image name="rock012bis" extra="true">
+			<pos>0.5 -1.55</pos>
+			<rotation>0</rotation>
+			<scale>0.7</scale>
+			<storyboard>
+				<animation property="offsetY" to="1.6" 	begin="13500" duration="500" mode="linear"/>
+				<animation property="offsetY" to="1.59" begin="14000" duration="50" autoreverse="true" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="rockround" extra="true">
+			<size>0.1333333 0.2074074</size>									
+			<pos>0.35625 0</pos>									
+			<rotation>0</rotation>
+			<scale>1</scale>
+			<opacity>0</opacity>
+			<storyboard>
+				<animation property="opacity" to="1" 		begin="14000" duration="10" mode="linear"/>
+				<animation property="rotation" to="-5000" 	begin="14000" duration="10000" mode="linear"/>
+				
+				<animation property="x" to="0.2078125" 		begin="14000" duration="1500" mode="linear"/>
+				<animation property="y" to="0.3518519" 		begin="14000" duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="14490" duration="10" mode="linear"/>
+				
+				
+			</storyboard>					
+		</image>
+		
+		
+		<image name="rockroundbis" extra="true">
+			<size>0.1333333 0.2074074</size>									
+			<pos>0.35625 0</pos>									
+			<rotation>0</rotation>
+			<scale>1</scale>
+			<opacity>0</opacity>
+			<zIndex>26</zIndex>
+			<storyboard>
+				<animation property="rotation" to="-5000" 	begin="14000" duration="10000" mode="linear"/>
+				
+				<animation property="x" to="0.2078125" 		begin="14000" duration="1500" mode="linear"/>
+				<animation property="y" to="0.3518519" 		begin="14000" duration="1500" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="14490" duration="10" mode="linear"/>
+				
+				<animation property="offsetY" to="-0.02" 	begin="15500" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="offsetX" to="-0.06" 	begin="15500" duration="200" mode="linear"/>
+				
+				<animation property="x" to="-0.08" 			begin="15700" duration="1300" mode="linear"/>
+				<animation property="y" to="0.98" 			begin="15700" duration="1300" mode="linear"/>
+				
+			</storyboard>					
+		</image>
+		
+	
+		
+		
 		
 	</view>
 </theme>

@@ -195,7 +195,8 @@
 		
 		<image name="avatar-goku" extra="static">
 			<size>0.3526042 0.5805556</size>									
-			<pos>0.5440104 0.6449074</pos>									
+			<pos>0.5440104 0.6449074</pos>
+			<pos ifHelpPrompts="false">0.5440104 0.7149074</pos>
 			<path>./avatar-goku.gif</path>
 			<opacity>1</opacity>
 			<zIndex>50</zIndex>

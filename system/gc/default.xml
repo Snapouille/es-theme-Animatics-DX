@@ -73,30 +73,26 @@
 		</image>
 		
 		<image name="lumiere" extra="static">
-			<origin>0 0</origin>
-			<pos>0.027 0.062</pos>
-			<size>0.5791667 0.6453704</size>									
+			<origin>0.5 0.5</origin>									
+			<size>0.3640625 0.6101852</size>									
+			<pos>0.2106771 0.4032407</pos>									
 
 			<scale>1</scale>
-			<opacity>1</opacity>
+			<opacity>0</opacity>
 			<path>./lumiere.png</path>
-			<zIndex>16</zIndex>
+			<zIndex>10</zIndex>
 		</image>
 		
 		
 		<image name="lumiere" extra="true">
 		
 			<storyboard repeat="forever">
-				
-			<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
 
-        		<animation property="opacity" begin="3800" from="1" to="0.8" duration="10" autoreverse="true" repeat="5" mode="linear"/>
-        		<animation property="opacity" begin="4500" from="1" to="0.8" duration="5" autoreverse="true" repeat="3" mode="linear"/>
-        		<animation property="opacity" begin="6500" from="1" to="0.8" duration="7" autoreverse="true" repeat="2" mode="linear"/>
-        		<animation property="opacity" begin="7000" from="1" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
-        		<animation property="opacity" begin="12000" from="1" to="0.8" duration="10" autoreverse="true" repeat="10" mode="linear"/>
-			
-			
+        		<animation property="opacity" begin="3800" from="0" to="0.8" duration="10" autoreverse="true" repeat="5" mode="linear"/>
+        		<animation property="opacity" begin="4500" from="0" to="0.8" duration="5" autoreverse="true" repeat="3" mode="linear"/>
+        		<animation property="opacity" begin="6500" from="0" to="0.8" duration="7" autoreverse="true" repeat="2" mode="linear"/>
+        		<animation property="opacity" begin="7000" from="0" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
+        		<animation property="opacity" begin="12000" from="0" to="0.8" duration="10" autoreverse="true" repeat="10" mode="linear"/>
 			
 			</storyboard>
 		

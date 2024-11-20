@@ -5,6 +5,9 @@
 
 	<view name="system">
 	
+    <image name="BG_snapLegacy" extra="true">
+		<pos>0.32 0.3847222</pos>									
+    </image>
 	
 		<image name="disc" extra="static">
 			<origin>0 0</origin>									

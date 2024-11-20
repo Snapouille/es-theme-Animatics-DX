@@ -1,3 +1,15 @@
+## V 2.11 - (20 11 2024)
+- add Ship of Harkinian System
+- add Vircon32 System
+- add OpenGoal System
+- add gemrb System
+- upgrade SAMcoupé animation
+- upgrade xRick animation
+- upgrade Sega Gamegear animation
+- upgrade PORTS system animation
+- many view fixes
+
+
 ## V 2.10 - (16 11 2024)
 - new PORTS system animation
 - new WonderSwan system animation

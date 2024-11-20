@@ -5,6 +5,12 @@
 
 	<view name="system">
 	
+    <image name="BG_snapLegacy" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.58125 0.6509259</size>									
+		<pos>0.3177083 0.3856481</pos>	
+    </image>
+	
 		<image name="giddy1" extra="static">
 			<origin>0 0</origin>
 			<pos>0.45 0.42</pos>
@@ -193,36 +199,6 @@
 		
 		
 		
-		<image name="light" extra="static">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>									
-
-			<scale>1</scale>
-			<opacity>1</opacity>
-			<path>./light.png</path>
-			<zIndex>16</zIndex>
-		</image>
-		
-		
-		<image name="light" extra="true">
-		
-			<storyboard repeat="forever">
-				
-				<animation property="opacity" from="1" to="0" begin="" duration="7500" mode="linear"/>
-				
-				<animation property="opacity" from="0" to="1" begin="7500" duration="100" autoreverse="true" repeat="1" mode="linear"/>
-				<animation property="opacity" from="0" to="1" begin="7700" duration="200" autoreverse="true" repeat="1" mode="linear"/>
-				<animation property="opacity" from="0" to="1" begin="8100" duration="500" autoreverse="true" repeat="2" mode="linear"/>
-				<animation property="opacity" from="0" to="1" begin="10100" duration="200" autoreverse="true" repeat="3" mode="linear"/>
-				
-				<animation property="opacity" from="0" to="1" begin="11300" duration="100" mode="linear"/>
-				
-				<animation property="opacity" to="1" begin="16900" duration="100" mode="linear"/>
-				
-			</storyboard>
-		
-		</image>
 	
 		
 		

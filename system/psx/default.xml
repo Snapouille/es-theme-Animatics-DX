@@ -6,6 +6,12 @@
 	<view name="system">
 	
 	
+    <image name="BG_snapLegacy" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.58125 0.6509259</size>									
+		<pos>0.3177083 0.3856481</pos>	
+    </image>
+	
 		<image name="crabEyes" extra="static">
 			<origin>0 0</origin>									
 			<size>0.0375 0.0074074</size>									

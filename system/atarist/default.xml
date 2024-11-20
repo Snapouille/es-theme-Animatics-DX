@@ -4,6 +4,10 @@
 <formatVersion>7</formatVersion>
 	
 <view name="system">
+
+    <image name="BG_snapLegacy" extra="true">
+		<pos>0.308 0.3847222</pos>									
+    </image>
 	
 	<image name="boy, girl, avatar2-light, avatar2-candle, avatar3-eye, background-torch-right, background-torch-left, background-light" extra="static">
 		<origin>0.5 0.5</origin>									
@@ -62,7 +66,7 @@
 	
 	<image name="background-torch-left" extra="true">
 		<size>0.0255208 0.0777778</size>									
-		<pos>0.2044271 0.2157407</pos>									
+		<pos>0.209 0.2157407</pos>									
 		<path>./background-torch-left.gif</path>
 		<opacity>0</opacity>
 		<zIndex>15</zIndex>
@@ -71,20 +75,6 @@
 		</storyboard>
 	</image>
 	
-	<image name="background-light" extra="static"> 
-		<size>0.471875 0.6490741</size>									
-		<pos>0.2619792 0.3884259</pos>									
-		<path>./background-light.png</path>
-		<zIndex>15</zIndex>
-		<storyboard repeat="forever">
-			<animation property="opacity" from="0" to="0.6" begin="" duration="1000" autoreverse="true" repeat="2" mode="linear"/>
-			<animation property="opacity" from="0" to="0.4" begin="5000" duration="100" autoreverse="true" repeat="1" mode="linear"/>
-			<animation property="opacity" from="0" to="0.6" begin="5200" duration="200" autoreverse="true" repeat="1" mode="linear"/>
-			<animation property="opacity" from="0" to="0.4" begin="5600" duration="500" autoreverse="true" repeat="2" mode="linear"/>
-			<animation property="opacity" from="0" to="0.6" begin="7600" duration="200" autoreverse="true" repeat="2" mode="linear"/>
-		</storyboard>	
-		
-	</image>
 	
 	<image name="avatar3-eye" extra="static"> 
 		<origin>0 0</origin>

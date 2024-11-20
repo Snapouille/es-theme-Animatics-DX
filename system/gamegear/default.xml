@@ -4,19 +4,91 @@
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<image name="mickey" extra="static">
-			<origin>0 0</origin>									
-			<pos>-0.2 0.34</pos>
-			<size>0.1895833 0.5990741</size>									
-
-			<scale>0.65</scale>
-			<path>./mickey.png</path>
+	
+		<image name="BG_snapLegacy" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.6645833 0.6648148</size>									
+			<pos>0.30625 0.3851852</pos>
+			<scale>1.1</scale>
+								
+			  <storyboard>
+					<animation property="scale" to="1" 		begin="" duration="1000" mode="EaseInOut"/>
+					<animation property="offsetX" to="0.05" begin="" duration="1000" mode="EaseInOut"/>
+			  </storyboard>
+		</image>
+		
+		<image name="BG_tree" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.25625 0.6685185</size>									
+			<pos>0.1515625 0.3861111</pos>									
+			<path>./tree.png</path>
+			<linearSmooth>true</linearSmooth>
 			<opacity>0</opacity>
-			<zIndex>18</zIndex>
+			<zIndex>9</zIndex>
+			<storyboard repeatAt="1200">
+				<animation property="opacity" to="1" 	begin="1000" duration="100" mode="linear"/>
+				<animation property="scale" to="0.99" 	begin="5000" duration="1000" autoreverse="true" mode="easeInOut"/>
+				<animation property="scale" to="1.01" 	begin="10000" duration="500" autoreverse="true" mode="easeInOut"/>
+				
+				<animation property="opacity" to="1" begin="20000" duration="500" mode="linear"/>
+			</storyboard>
+		</image>
+	
+		<image name="BG_tree_eyes" extra="true">	
+			<origin>0 0</origin>
+			<pos>0.115 0.17</pos>
+			<size>0.0619792 0.0759259</size>									
+
+			<scale>1</scale>
+			<path>./eye.png</path>
+			<opacity>0</opacity>
+			<zIndex>10</zIndex>
+			
+			<storyboard repeat="forever">
+					<animation property="opacity" from ="0" to="0.9" begin="3000" duration="2000" mode="linear"/>
+					<animation property="opacity" from ="0.9" to="0" begin="13000" duration="2000" mode="linear"/>
+					
+					<animation property="opacity" to="0" begin="20000" duration="500" mode="linear"/>
+			</storyboard>	
+		</image>
+	
+	
+	
+	
+	
+	
+		<image name="avatar-stone" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.4598958 0.1842593</size>									
+			<pos>0.15 0.85</pos>									
+			<path>./avatar-stone.png</path>
+			<flipX>true</flipX>
+			<zIndex>11</zIndex>
+				<storyboard>
+					<animation property="offsetY" to="-0.2" begin="" duration="1000" mode="EaseInOut"/>
+				</storyboard>
+		</image>
+	
+	
+	
+		<image name="mickey" extra="true">
+			<origin>0 0</origin>									
+			<pos>0.17 0.44</pos>
+			<size>0.1895833 0.5990741</size>									
+			<scale>0.6</scale>
+			<path>./mickey.gif</path>
+			<opacity>0</opacity>
+			<zIndex>13</zIndex>
+			
+			<storyboard>
+					<animation property="opacity" to="1" begin="200" duration="10" mode="linear"/>
+					<animation property="offsetY" to="-0.1" begin="200" duration="1000" mode="bump"/>
+			</storyboard>					
+			
 		</image>	
 	
 		
-		<image name="sorciere" extra="static">
+		<image name="sorciere" extra="true">
 			<origin>0 0</origin>
 			<pos>1 0.13</pos>
 			<size>0.2916667 0.3814815</size>									
@@ -24,145 +96,86 @@
 			<rotation>-10</rotation>
 			<path>./sorciere.png</path>
 			<opacity>1</opacity>
-			<zIndex>18</zIndex>
-		</image>	
+			<zIndex>8</zIndex>
+			<storyboard repeat="forever">
+					<animation property="x" from="1" to="-1" begin="13000" duration="5500" mode="easeInOut"/>
+					<animation property="opacity" to="1" begin="36000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
 		
-		<image name="sorciere2" extra="static">
+		
+		
+		
+		
+		<image name="sorciere2" extra="true">	
 			<origin>0 0</origin>
-			<pos>-1 0.13</pos>
+			<pos>-1 0.14</pos>
 			<size>0.2916667 0.3814815</size>									
-			<scale>0.4</scale>
+			<scale>0.3</scale>
 			<flipX>true</flipX>
 			<path>./sorciere.png</path>
 			<opacity>1</opacity>
-			<zIndex>18</zIndex>
-		</image>	
-		
-		
-		<image name="chauvesouris01" extra="static">
-			<origin>0 0</origin>
-			<pos>-1 -1</pos>
-			<size>0.0442708 0.0416667</size>									
-
-			<scale>0.5</scale>
-			<path>./chauvesouris.png</path>
-			<opacity>1</opacity>
-			<zIndex>17</zIndex>
-		</image>
-		
-		<image name="chauvesouris02" extra="static">
-			<origin>0 0</origin>
-			<pos>-1 -1</pos>
-			<size>0.0442708 0.0416667</size>									
-			<scale>0.5</scale>
-			<path>./chauvesouris.png</path>
-			<opacity>1</opacity>
-			<zIndex>17</zIndex>
-		</image>
-		
-		<image name="eye" extra="static">
-			<origin>0 0</origin>
-			<pos>0.117 0.17</pos>
-			<size>0.0619792 0.0759259</size>									
-
-			<scale>1</scale>
-			<path>./eye.png</path>
-			<opacity>0</opacity>
-			<zIndex>17</zIndex>
-		</image>
-		
-		
-	<image name="mickey" extra="true">	
-		<storyboard repeat="forever">
-		
-				<animation property="opacity" to="1" begin="1200" duration="1500" mode="linear"/>
-				<animation property="x" to="0.18" begin="2000" autoreverse="true" duration="17000" mode="easeOutCubic"/>
-				<animation property="color" from="202020" to="FFFFFF" begin="2000" autoreverse="true" duration="17000" mode="easeOut"/>
-				
-				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
-				
-				
+			<zIndex>8</zIndex>
 			
-		</storyboard>
-	</image>
-	
-	<image name="eye" extra="true">	
-		<storyboard repeat="forever">
-		
-				<animation property="opacity" from ="0" to="0.9" begin="13000" duration="2000" mode="linear"/>
-				<animation property="opacity" from ="0.9" to="0" begin="23000" duration="2000" mode="linear"/>
-				
-				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
-			
-		</storyboard>
-	</image>
-	
-	
-	<image name="sorciere" extra="true">	
-		<storyboard repeat="forever">
-				
-				<animation property="x" from="1" to="-1" begin="1500" duration="9500" mode="easeIn"/>
-				
-				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
-				
-		</storyboard>
+			<storyboard repeat="forever">
+					
+					<animation property="rotation" to="5" begin="16000" duration="1500" mode="linear"/>
+					
+					<animation property="x" from="-1" to="0.29" begin="16000" duration="3500" mode="linear"/>
+					
+					<animation property="offsetX" to="0.002" begin="19500" autoreverse="true" duration="500" repeat="4" mode="easeIn"/>
+					<animation property="rotation" from="5" to="6" begin="19500" autoreverse="true" duration="1000" repeat="2" mode="linear"/>
+					<animation property="offsetY" to="-0.005" begin="19500" autoreverse="true" duration="500" repeat="4" mode="linear"/>
+					
+					<animation property="x"  to="1" begin="23500" duration="1500" mode="linear"/>
+					
+					<animation property="opacity" to="1" begin="36000" duration="10" mode="linear"/>
+			</storyboard>
 	</image>
 	
 	
-	<image name="sorciere2" extra="true">	
-		<storyboard repeat="forever">
-				
-				<animation property="rotation" to="5" begin="22000" duration="1500" mode="linear"/>
-				
-				<animation property="x" from="-1" to="0.26" begin="22000" duration="3500" mode="linear"/>
-				
-				<animation property="x" from="0.26" to="0.262" begin="25500" autoreverse="true" duration="500" repeat="4" mode="linear"/>
-				<animation property="rotation" from="5" to="6" begin="25500" autoreverse="true" duration="1000" repeat="2" mode="linear"/>
-				<animation property="y" from="0.13" to="0.12" begin="25500" autoreverse="true" duration="500" repeat="4" mode="linear"/>
-				
-				<animation property="x" from="0.26" to="1" begin="29500" duration="2500" mode="linear"/>
-				
-				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
-				
-		</storyboard>
-	</image>
-	
-	<image name="chauvesouris01" extra="true">	
-		<storyboard repeat="forever">
-		
-				<animation property="rotation" to="2" begin="700" duration="1000" mode="bump"/>
-                <animation property="x" to="0.4" begin="" duration="1700" mode="bump"/>
-                <animation property="rotation" from="2" to="-2" begin="1700" duration="1000" mode="bump"/>
-                
-				<animation property="x" from="0.4" to="0.30" begin="1700" duration="1500" mode="bump"/>
-				<animation property="y" from="0.3" to="0.03" begin="1700" duration="1500" mode="bump"/>
-    
-                <animation property="scale" from="0" to="30" begin="1700" duration="1500" mode="EaseIn"/>
-				<animation property="opacity" to="0" begin="1700" duration="1500" mode="linear"/>
-				
-				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
-				
-		</storyboard>
-	</image>
 	
 	
-	<image name="chauvesouris02" extra="true">	
-		<storyboard repeat="forever">
-		
-				<animation property="rotation" to="-20" begin="1200" duration="2500" mode="bump"/>
-                <animation property="x" to="0.2" begin="1200" duration="1000" mode="bump"/>
-                <animation property="rotation" from="-20" to="-22" begin="2200" duration="1000" mode="bump"/>
-                
-				<animation property="x" from="0.2" to="0.01" begin="2200" duration="1500" mode="bump"/>
-				<animation property="y" from="0.4" to="0.03" begin="2200" duration="1500" mode="bump"/>
-    
-                <animation property="scale" from="0" to="30" begin="2200" duration="2000" mode="EaseIn"/>
-				<animation property="opacity" to="0" begin="2700" duration="1500" mode="linear"/>
-				
-				<animation property="opacity" to="0" begin="35500" duration="500" mode="linear"/>
-				
-		</storyboard>
+	
+	<image name="avatar-clouds2" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>3 0.712037</size>									
+		<pos>-1 0.25</pos>									
+		<path>./avatar-clouds.png</path>
+		<flipX>true</flipX>
+        <zIndex>7</zIndex>
+		<scale>0.3</scale>
+			<storyboard repeat="forever">
+				<animation property="x" to="3" begin="3000" duration="33000" mode="EaseOut"/>
+				<animation property="x" to="3" begin="36000" duration="10" mode="EaseOut"/>
+			</storyboard>
 	</image>
+	
+
+	<image name="avatar-bats" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.5567708 0.3574074</size>									
+		<pos>-0.4 0.7</pos>									
+		<path>./avatar-bats.gif</path>
+        <zIndex>8</zIndex>
+		<opacity>0</opacity>
+		<scale>0.7</scale>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" 		begin="" 	duration="100" mode="EaseOut"/>
+				<animation property="pos" to="0.27 0.19" 	begin="" 	duration="8000" mode="EaseOut"/>
+				<animation property="scale" to="0.5" 		begin="" 	duration="8000" mode="linear"/>
+				<animation property="offsetX" to="0.005" 	begin="8000" duration="2000" mode="linear"/>
+				<animation property="offsetY" to="0.01" 	begin="8000" duration="2000" mode="linear"/>
+				<animation property="scale" to="0.3" 		begin="10000" duration="9000" mode="EaseInOut"/>
+				<animation property="offsetX" to="-0.2" 	begin="10000" duration="9000" mode="EaseInOut"/>
+				<animation property="offsetY" to="-0.6" 	begin="10000" duration="9000" mode="EaseInOut"/>
+				
+				<animation property="opacity" to="0" begin="36000" duration="10" mode="linear"/>
+			</storyboard>
+	</image>
+	
+	
+	
 	
 	
 	

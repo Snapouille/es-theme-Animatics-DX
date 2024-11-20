@@ -61,9 +61,14 @@
 		<path>./../../../system/${system.theme}/background.jpg</path>
 		<path>./../../../system/${system.theme}/background.png</path>
 		<scale>1.03</scale>
+		<!-- <origin>0.5 0.5</origin>									 -->
+		<!-- <size>0.58125 0.6509259</size>									 -->
+		<!-- <pos>0.3177083 0.3856481</pos>	 -->
+
 		<origin>0.5 0.5</origin>									
-		<size>0.58125 0.6509259</size>									
-		<pos>0.3177083 0.3856481</pos>									
+		<size>0.6510417 0.6509259</size>									
+		<pos>0.3 0.3847222</pos>									
+		
 		<zIndex>3</zIndex>
 		<storyboard>
 				<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>

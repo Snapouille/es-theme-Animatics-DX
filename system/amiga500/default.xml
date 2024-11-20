@@ -8,8 +8,8 @@
 	
 		<image name="background-dungeon" extra="true">
 			<origin>0.5 0.5</origin>									
-			<pos>0.2755208 0.2814815</pos>									
-			<size>0.0458333 0.1907407</size>									
+			<size>0.0510417 0.2092593</size>									
+			<pos>0.2541667 0.2157407</pos>									
 			<opacity>0</opacity>
 			<path>./background-dungeon.png</path>
 			<zIndex>20</zIndex>

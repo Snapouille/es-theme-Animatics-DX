@@ -1,0 +1,28 @@
+<!-- GameBoy MSU-1 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="BG_snapLegacy" extra="true">
+			<pos>0.5 0.5</pos>	
+		</image>
+	
+	
+		<image name="link" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.2885417 0.6481481</size>									
+			<pos>0.84 1</pos>									
+			<path>./link.png</path>
+			<opacity>1</opacity>
+			<zIndex>20000</zIndex>
+			<storyboard>
+        		<animation property="offsetY" to="-0.5" begin="" duration="700" mode="Bump"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

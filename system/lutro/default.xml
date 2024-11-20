@@ -6,9 +6,16 @@
 
 	<view name="system">
 	
+    <image name="BG_snapLegacy" extra="true">
+		<scale>1</scale>
+		<storyboard>
+				<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
+		</storyboard>
+    </image>
+	
 		<image name="avatar" extra="static">
 			<origin>0 0</origin>
-			<pos>0.04 0.55</pos>
+			<pos>0.04 0.53</pos>
 			<size>0.4244792 0.2416667</size>									
 
 			<scale>0.6</scale>
