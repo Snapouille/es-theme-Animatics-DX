@@ -141,8 +141,8 @@
 		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3 0.3</size>									
 		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.83 0.423</pos>									
 		
-		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
-		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
+		<size if="{system.theme} == 'megaduck' || {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
+		<pos  if="{system.theme} == 'megaduck' || {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
 		
 		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.1932292 0.3009259</size>									
 		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.8835938 0.4226852</pos>	
@@ -182,8 +182,8 @@
 		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3 0.3</size>									
 		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.83 0.423</pos>									
 		
-		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
-		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
+		<size if="{system.theme} == 'megaduck' || {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
+		<pos  if="{system.theme} == 'megaduck' || {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
 		
 		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.1932292 0.3009259</size>									
 		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.8835938 0.4226852</pos>	

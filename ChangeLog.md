@@ -1,3 +1,7 @@
+## V 2.12 - (21 11 2024)
+- fix Megaduck screen in Primacy views
+- some other screen fix
+
 ## V 2.11 - (20 11 2024)
 - add Ship of Harkinian System
 - add Vircon32 System

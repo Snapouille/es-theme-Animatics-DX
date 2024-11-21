@@ -6,8 +6,9 @@
 
 	<view name="system">
 	
-	
-		<image name="BG_snapLegacy" extra="true">
+	    <image name="BG_snapLegacy" extra="true">
+			<pos>0.5 0.5</pos>		
+			<size>1 1</size>									
 			<path>./background.jpg</path>
 		</image>
 	
