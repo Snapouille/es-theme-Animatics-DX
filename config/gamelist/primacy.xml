@@ -172,7 +172,10 @@
 		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.9077 0.423</pos>	
 
 		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>	
-		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>		
+		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>	
+
+		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
+		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
 	</image>
 
 	<video name="md_video">
@@ -213,7 +216,10 @@
 		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.9077 0.423</pos>	
 
 		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>		
-		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>		
+		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>	
+
+		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
+		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
 	</video>	
 
 	

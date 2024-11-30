@@ -6,38 +6,114 @@
 
 	<view name="system">
 	
-		<image name="avatar-girl" extra="static">
-			<origin>0 0</origin>									
-			<size>0.3171875 0.7407407</size>									
-			<pos>0.11 0.23</pos>
-			<scale>0.6</scale>
-			<opacity>1</opacity>
-			<path>./avatar-girl.png</path>
-			<zIndex>20</zIndex>
-			
-			<!-- <visible>false</visible>		 -->
-
-			<storyboard repeat="forever">
-					
-					<animation property="x" to="0.17" begin="500" duration="1500" mode="EaseOut"/>
-					
-					<animation property="scale" to="1" begin="2000" duration="350" mode="Linear"/>
-					<animation property="x" to="0.33" begin="2000" duration="375" mode="EaseOut"/>
-					<animation property="y" to="0.19" begin="2000" duration="375" mode="EaseOut"/>
-
-					
-					
-					<animation property="x" to="1" begin="25000" duration="500" mode="linear"/>
-					<animation property="opacity" to="0" begin="25500" duration="500" mode="linear"/>
-					
+	    <image name="BG_snapLegacy" extra="true">
+			<scale>2</scale>
+			<storyboard>
+				<animation property="offsetX" from="0.25" to="0" begin="" 	duration="2600" mode="EaseOut"/>
+				<animation property="offsetY" from="0.25" to="0" begin="" 	duration="2600" mode="EaseOut"/>
+				<animation property="scale" to="1" 	begin="" 			duration="2600" mode="EaseOut"/>
 			</storyboard>
+		</image>
 		
-		
+	    <image name="BG_front, BG_middle" extra="true">
+			<origin>0.5 0.5</origin>
+			<linearSmooth>true</linearSmooth>
 		</image>
 		
 		
-		
-		
+	    <image name="BG_front" extra="true">
+			<size>0.6541667 0.6546296</size>									
+			<pos>0.3651042 0.3856481</pos>									
+			<path>./BG_front.png</path>
+			<zIndex>9</zIndex>
+			<scale>2</scale>
+			<storyboard>
+				<animation property="offsetY" from="-0.2" to="0" 	begin="" duration="2000" mode="EaseOut"/>
+				<animation property="scale" from="2" to="1" 		begin="" duration="2000" mode="EaseOut"/>
+			</storyboard>
+		</image>
+	
+	
+	    <image name="BG_middle" extra="true">
+			<size>0.4348958 0.5287037</size>									
+			<pos>0.2554688 0.8856481</pos>									
+			<path>./BG_middle.png</path>
+			<zIndex>7</zIndex>
+			<scale>0.5</scale>
+			<storyboard>
+				<animation property="offsetY" to="-0.45" begin="" duration="2300" mode="EaseOut"/>
+				<animation property="scale" to="1" 	begin="" 	 duration="2300" mode="EaseOut"/>
+			</storyboard>
+		</image>
+	
+	
+	
+	<image name="avatar-clouds" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>1.5 0.2</size>									
+		<pos>-1 0.1</pos>									
+		<path>./avatar-clouds.png</path>
+		<flipX>true</flipX>
+        <zIndex>6</zIndex>
+		<scale>0.6</scale>
+			<storyboard repeat="forever">
+				<animation property="x" to="1.3" begin="" duration="30000" mode="EaseIn"/>
+			</storyboard>
+	</image>
+	
+	
+	
+	<image name="avatar-clouds2" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.9 0.412037</size>									
+		<pos>-0.35 0.45</pos>									
+		<path>./avatar-clouds.png</path>
+        <zIndex>8</zIndex>
+		<scale>0.85</scale>
+			<storyboard repeat="forever">
+				<animation property="x" to="1.3" begin="" duration="55000" mode="EaseOut"/>
+				<animation property="offsetY" to="-0.05" begin="" duration="15000" autoreverse="true" mode="EaseOut"/>
+				<animation property="scale" to="0.855" begin="" duration="2500" autoreverse="true" repeat="11" mode="easeInOut"/>
+			</storyboard>
+	</image>
+	
+	
+	
+	
+	<image name="avatar-girl" extra="true">
+			<origin>0 0</origin>									
+			<size>0.3145833 0.7</size>									
+			<pos>0.04 0.33</pos>
+			<scale>0.51</scale>
+			<opacity>1</opacity>
+			<path>./avatar-girl.png</path>
+			<zIndex>20</zIndex>
+			<linearSmooth>true</linearSmooth>
+			
+			<storyboard>
+				<animation property="x" to="0.19" 		begin="" duration="500" mode="EaseIn"/>
+				
+				<animation property="scale" to="0.9" 	begin="500" duration="350" mode="Linear"/>
+				<animation property="x" to="0.32" 		begin="500" duration="375" mode="Bump"/>
+				<animation property="y" to="0.12" 		begin="500" duration="375" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" 	begin="900" duration="10" mode="linear"/>	
+			</storyboard>
+	</image>	
+	
+	
+	<image name="avatar-girl2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.1921875 0.78</size>									
+			<pos>0.52 0.49</pos>									
+			<path>./avatar-girl2.gif</path>
+			<zIndex>20</zIndex>
+			<opacity>0</opacity>
+			
+			<storyboard>
+				<animation property="opacity" to="1" 		begin="900" duration="10" mode="linear"/>	
+			</storyboard>
+	</image>	
 		
 		
 		

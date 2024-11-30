@@ -1,0 +1,25 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>This collection is your best memory friend. It's where you'll keep all the games you've started and sworn you'd finish one day. At least here they won't get lost in the meanders of your infinite sets and you'll be able to get your hands on them again easily.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Cette collection est votre meilleure amie mémoire, c'est ici que vous allez pouvoir ranger tous les jeux que vous commencez et dont vous vous êtes jurés de les finir un jour. Au moins ici ils ne seront plus perdus dans les méandres de vos sets infinis et vous allez pouvoir remettre la main aisément dessus.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Esta colección es tu mejor amiga de la memoria. Es donde guardarás todos los juegos que has empezado y que juraste que terminarías algún día. Al menos aquí no se perderán entre tus interminables juegos y podrás volver a echarle el guante con facilidad.</text>
+</text>
+
+</view>
+</theme>

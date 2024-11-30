@@ -1,3 +1,8 @@
+## V 2.13 - (30 11 2024)
+- add a New Collection : Work In Progress GAMES
+- new Sharp X68000 animation
+- fix wonderswan ratio screen for Primacy and Primacy alt views
+
 ## V 2.12 - (21 11 2024)
 - fix Megaduck screen in Primacy views
 - some other screen fix

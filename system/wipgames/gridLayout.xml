@@ -1,0 +1,193 @@
+<!-- Collection WIP Games -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	    <image name="BG_snapLegacy" extra="true">
+			<pos>0.5 0.5</pos>		
+			<size>1 1</size>									
+			<path>./background.png</path>
+		</image>
+		
+	    <image name="start-warped, stop-warped, warped, space, arm1, arm2, box" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>		
+			<linearSmooth>true</linearSmooth>
+			<scale>1</scale>
+		</image>
+		
+		
+	    <image name="warped" extra="true">
+			<path>./warped.gif</path>
+			<size>1 1</size>									
+			<opacity>0</opacity>
+			<zIndex>2</zIndex>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="3500" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="9500" duration="1000" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="20000" 	duration="1000" mode="linear"/>
+
+				<animation property="opacity" to="0" begin="28000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="32000" duration="1"  mode="linear"/>
+			</storyboard>
+		</image>
+	
+	    <image name="space" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>2.0833333 0.6583333</size>									
+			<pos>1.0296875 0.3291667</pos>	
+			<opacity>1</opacity>
+			<zIndex>1</zIndex>
+		
+			<path>./space.jpg</path>
+			<storyboard repeat="forever">
+				<animation property="offsetX" to="-0.03" 		begin="" 		duration="3000" mode="linear"/>
+				<animation property="scale" to="3"  			begin="3000" 	duration="1500" mode="linear"/>
+				<animation property="offsetX" to="0.33" 		begin="3000" 	duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" 			begin="3500" 	duration="1000" mode="linear"/>
+				<animation property="offsetX" to="-0.9" 		begin="4600" 	duration="10" 	mode="linear"/>
+				<animation property="scale" to="0.9"  			begin="4600" 	duration="10" 	mode="linear"/>
+				<animation property="opacity" to="1" 			begin="10000" 	duration="1000" mode="linear"/>
+				<animation property="scale" to="1"  			begin="10000" 	duration="500" mode="linear"/>
+				<animation property="offsetX" to="-1" 			begin="10000" 	duration="500" mode="linear"/>
+				<animation property="offsetX" to="-1.02" 		begin="10500" 	duration="9000" mode="linear"/>
+				
+				<animation property="scale" to="3"  			begin="19510" 	duration="1500" mode="linear"/>
+				<animation property="offsetX" to="-2.1" 		begin="19510" 	duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" 			begin="20000" 	duration="1000" mode="linear"/>
+				<animation property="offsetX" to="0.03"	 		begin="22100" 	duration="10" 	mode="linear"/>
+				<animation property="scale" to="0.9"  			begin="22100" 	duration="10" 	mode="linear"/>
+				
+				<animation property="opacity" to="1" 			begin="27500" 	duration="1500" mode="linear"/>
+				<animation property="scale" to="1"  			begin="27500" 	duration="1500" mode="linear"/>
+				<animation property="offsetX" to="0" 			begin="29000" 	duration="3000" mode="linear"/>
+				
+				<animation property="opacity" to="1" 			begin="32000" 	duration="1" 	mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		<image name="box" extra="true">
+		  <path>{random:thumbnail}</path>
+		  <color>FFFFFFFF</color>
+		  <pos>0.82 0.32</pos>
+		  <origin>0.5 0.5</origin>
+		  <maxSize>0.28 0.4</maxSize>
+		  <zIndex>12</zIndex>
+		  <scale>0.1</scale>
+		  <opacity>0</opacity>
+		  <visible>true</visible>
+		  
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" 			begin="11000" 	duration="50" mode="linear"/>
+				<animation property="scale" to="0.8"  			begin="11000" 	duration="500" mode="linear"/>
+				
+				<animation property="scale" to="1"  			begin="12900" 	duration="200" mode="linear"/>
+				
+				<animation property="scale" 	to="0.1"  		begin="18000" 	duration="500" mode="linear"/>
+				<animation property="rotation" 	to="1080"  		begin="18000" 	duration="500" mode="linear"/>
+				<animation property="opacity" 	to="0" 			begin="18450" 	duration="50" mode="linear"/>
+				
+				<animation property="opacity" to="0" 			begin="32000" 	duration="1" 	mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="arm1" extra="true">
+			<path>./arm1.png</path>
+			<size>0.1270833 0.6166667</size>									
+			<pos>0.8614583 1.3916667</pos>									
+			<zIndex>13</zIndex>
+			
+			<storyboard repeat="forever">
+			
+				<animation property="offsetX" to="-0.03" 	begin="2000" 	duration="600" mode="linear"/>
+				<animation property="offsetY" to="-0.44" 	begin="2000" 	duration="600" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="2800" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="3000" 	duration="10" mode="linear"/>
+				<animation property="offsetY" to="0" 		begin="6000" 	duration="600" mode="linear"/>
+				<animation property="offsetX" to="0" 		begin="7000" 	duration="10" mode="linear"/>
+			
+				<animation property="offsetY" to="-0.7" 	begin="11500" 	duration="1000" mode="linear"/>
+				
+				<animation property="opacity" to="0" 		begin="12700" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="12900" 	duration="10" mode="linear"/>
+				
+				<animation property="offsetY" to="-0.55" 	begin="13100" 	duration="200" mode="linear"/>
+				<animation property="offsetY" to="-0.7" 	begin="17500" 	duration="300" mode="linear"/>
+				
+				<animation property="opacity" to="0" 		begin="17800" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="18000" 	duration="10" mode="linear"/>
+				
+				<animation property="offsetX" to="-0.03" 	begin="18500" 	duration="600" mode="linear"/>
+				<animation property="offsetY" to="-0.44" 	begin="18500" 	duration="600" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="19300" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="19500" 	duration="10" mode="linear"/>
+				<animation property="offsetY" to="0" 		begin="21500" 	duration="800" mode="linear"/>
+				
+				<animation property="offsetY" to="-0.28" 	begin="30700" 	duration="300" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="31100" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="31200" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="31300" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="31400" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="31500" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="31600" 	duration="10" mode="linear"/>
+				<animation property="offsetY" to="0" 		begin="31650" 	duration="300" mode="linear"/>
+				
+				<animation property="opacity" to="0" 		begin="32000" 	duration="1" 	mode="linear"/>
+			</storyboard>
+		</image>
+
+		
+		<image name="arm2" extra="true">
+			<path>./arm2.png</path>
+			<size>0.1192708 0.6435185</size>									
+			<pos>0.8669271 0.6782407</pos>									
+			<zIndex>13</zIndex>
+			<opacity>0</opacity>
+			
+			<storyboard repeat="forever">
+			
+				<animation property="offsetX" to="-0.057" 	begin="" 	duration="10" mode="linear"/>
+				<animation property="offsetY" to="0.26" 	begin="" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="2800" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="3000" 	duration="10" mode="linear"/>
+				
+				<animation property="offsetY" to="0" 		begin="3100" 	duration="10" mode="linear"/>
+				<animation property="offsetX" to="0" 		begin="3100" 	duration="10" mode="linear"/>
+			
+				<animation property="opacity" to="1" 		begin="12700" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="12900" 	duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" 		begin="17800" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="18000" 	duration="10" mode="linear"/>
+				
+				
+				
+				<animation property="offsetX" to="-0.057" 	begin="18500" 	duration="10" mode="linear"/>
+				<animation property="offsetY" to="0.26" 	begin="18500" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="19300" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="19500" 	duration="10" mode="linear"/>
+				
+				<animation property="offsetY" to="0.42" 	begin="30700" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="31100" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="31200" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="31300" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="31400" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 		begin="31500" 	duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="31600" 	duration="10" mode="linear"/>
+				<animation property="offsetY" to="0" 		begin="31650" 	duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" 		begin="32000" 	duration="1" 	mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

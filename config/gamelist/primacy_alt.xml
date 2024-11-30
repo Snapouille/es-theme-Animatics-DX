@@ -168,7 +168,11 @@
 		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.9077 0.423</pos>	
 
 		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>	
-		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>		
+		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>	
+
+		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
+		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
+		
 	</image>
 
 	<video name="md_video">
@@ -213,21 +217,26 @@
 		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.9077 0.423</pos>	
 
 		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>		
-		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>		
+		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>	
+
+		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
+		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
 	</video>	
 
-	
 	
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
 		<path>{game:cartridge}</path>
 		<origin>0.5 0.5</origin>									
-		<maxSize>0.1619792 0.1796296</maxSize>									
+		<maxSize>0.1619792 0.1796296</maxSize>	
+		<maxSize if="{system.theme} == 'switch' || {system.theme} == 'nds' ">0.1619792 0.15</maxSize>	
+		<maxSize if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.15 0.15</maxSize>	
 		<pos>0.807 0.4712963</pos>
 		<x if="{system.theme} == 'switch' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == '3ds' ">0.72</x>	
 		<x if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'gb' || {system.theme} == 'gbc' || {system.theme} == 'atari2600' ">0.833</x>	
-		<x if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.84</x>	
+		<x if="{system.theme} == 'megaduck' || {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.84</x>	
 		<x if="{system.theme} == 'amstradcpc' ">0.795</x>			
 		<x if="{system.theme} == 'gx4000' ">0.805</x>	
+		<x if="{system.theme} == 'nds' ">0.91</x>	
 		<linearSmooth>true</linearSmooth>
 		<horizontalAlignment>right</horizontalAlignment>
 		<opacity>0</opacity>
@@ -246,12 +255,10 @@
 			<animation property="offsetX" to="-0.15" 	begin="2100" duration="1000" mode="easeOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
-			<animation property="offsetX" from ="0" to="0.30" duration="500" mode="easeIn"/>
-			<animation property="opacity" to="0" begin="450" duration="50" mode="linear"/>
+			<animation property="opacity" to="0" duration="10" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivatePrev">
-			<animation property="offsetX" from ="0" to="0.30" duration="500" mode="easeIn"/>
-			<animation property="opacity" to="0" begin="450" duration="50" mode="linear"/>
+			<animation property="opacity" to="0" duration="10" mode="linear"/>
 		</storyboard>
     </image>
 	
@@ -299,12 +306,10 @@
 			<animation property="rotation" to="720" 			begin="2800" duration="10000" mode="EaseInOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
-			<animation property="offsetX" from ="0" to="0.15" duration="250" mode="easeIn"/>
-			<animation property="opacity" to="0" begin="240" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" duration="10" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivatePrev">
-			<animation property="offsetX" from ="0" to="0.15" duration="250" mode="easeIn"/>
-			<animation property="opacity" to="0" begin="240" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" duration="10" mode="linear"/>
 		</storyboard>
     </image>
 	
@@ -333,12 +338,11 @@
 	</image>
 	
     <image name="boxback_ID" ifSubset="boxbackDisplay:Show" extra="true">
-		<pos>0.157 0.682</pos>									
-		<maxSize>0.25 0.548</maxSize>
-		<verticalAlignment>bottom</verticalAlignment>
-		
+		<pos ifHelpPrompts="false">0.151 0.682</pos>	
+		<maxSize>0.25 0.588</maxSize>
+		<maxSize ifHelpPrompts="false">0.25 0.608</maxSize>
+		<verticalAlignment>center</verticalAlignment>
 	</image>
-	
 	
 	
 	<!-- ----------------------------------------------	 -->

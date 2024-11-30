@@ -2,11 +2,10 @@
 
 
 Theme for Emulation Station compatible with
-- Batocera
-- Emuelec
-- Retrobat
+- [Batocera](https://batocera.org/)
+- [RetroBat](https://www.retrobat.org/)
 
-**V 2.12 - (2024 11 21) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
+**V 2.13 - (2024 11 30) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
 
 Features :
 
