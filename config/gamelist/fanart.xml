@@ -58,7 +58,7 @@ originally based on: "carbon"
             <imageSource>box</imageSource>
             <zIndex>21</zIndex>
 			<!-- <default>./../../art/divers/noboxart.png</default> -->
-			<gameImage>./../../art/divers/noboxart.png</gameImage>
+			<!-- <gameImage>./../../art/divers/noboxart.png</gameImage> -->
     </gamecarousel>
 		
     <text name="gamecarouselLogoText">

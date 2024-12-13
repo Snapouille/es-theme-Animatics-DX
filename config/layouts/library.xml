@@ -152,15 +152,77 @@
 	</text> 
 	
 	<textlist name="gamelist">
-	  <origin>0 0</origin>									
-      <pos>0.35 0.6</pos>
-	  <pos ifHelpPrompts="false">0.35 0.63</pos>	
-      <size>0.68 0.35</size>
+      <pos>-1 0</pos>
+	  <pos ifHelpPrompts="false">-1 0</pos>	
+      <size>0.01 0.01</size>
     </textlist>
+	
+	<text name="label-library" extra="true">
+		<text>{game:name}</text>
+		<origin>0.5 0.5</origin>
+		<size>0.56 0.1</size>									
+		<fontSize>0.029</fontSize>
+		<pos>0.33 0.1</pos>
+		<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
+		<zIndex>2001</zIndex>
+		<color>${dataColor}</color>
+		<glowColor>00000080</glowColor>
+		<glowSize>1</glowSize>
+        <multiLine>false</multiLine>
+		<singleLineScroll>true</singleLineScroll>
+		<storyboard>
+			<animation property="color" to="FFFF00" begin="8000" duration="1000" autoreverse="true" mode="linear"/>
+		</storyboard>
+	</text> 
+	
+	
+	<text name="architecture-system-label" extra="true">
+		<text>SYSTEM : </text>
+		<origin>0.5 0.5</origin>
+		<size>0.6 0.1</size>									
+		<fontSize>0.018</fontSize>
+		<pos>0.35 0.25</pos>
+		<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
+		<zIndex>2001</zIndex>
+		<color>${baseColor}</color>
+		<glowColor>00000080</glowColor>
+		<glowSize>1</glowSize>
+        <multiLine>false</multiLine>
+	</text> 
+	
+	<text name="architecture-system" extra="true">
+		<text>{global:architecture}</text>
+		<origin>0.5 0.5</origin>
+		<size>0.6 0.1</size>									
+		<fontSize>0.018</fontSize>
+		<pos>0.4 0.25</pos>
+		<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
+		<zIndex>2001</zIndex>
+		<color>${infoColor}</color>
+		<glowColor>00000080</glowColor>
+		<glowSize>1</glowSize>
+        <multiLine>false</multiLine>
+	</text> 
+	
+	
+	<text name="path-library" extra="true">
+		<text>{game:path}</text>
+		<origin>0.5 0.5</origin>
+		<size>0.56 0.1</size>									
+		<fontSize>0.018</fontSize>
+		<pos>0.33 0.3</pos>
+		<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
+		<zIndex>2001</zIndex>
+		<color>${baseColor}</color>
+		<glowColor>00000080</glowColor>
+		<glowSize>1</glowSize>
+        <multiLine>true</multiLine>
+	</text> 
+	
 
      <image name="thumbnail_ID" extra="true">
 		<pos>0.85 0.62</pos>
-		<pos ifHelpPrompts="false">0.85 0.65</pos>
+		<pos ifHelpPrompts="false">0.85 0.62</pos>
 		<maxSize>0.5 0.7</maxSize>	
     </image>
 

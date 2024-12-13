@@ -223,6 +223,7 @@
 		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
 	</video>	
 
+
 	
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
 		<path>{game:cartridge}</path>
@@ -323,7 +324,7 @@
 		<pos>0.151 0.662</pos>	
 		<pos ifHelpPrompts="false">0.151 0.682</pos>	
 		<maxSize>0.25 0.588</maxSize>
-		<maxSize ifHelpPrompts="false">0.25 0.608</maxSize>
+		<!-- <maxSize ifHelpPrompts="false">0.25 0.608</maxSize> -->
 		<verticalAlignment>center</verticalAlignment>
 		<linearSmooth>true</linearSmooth>
 		<horizontalAlignment>center</horizontalAlignment>
@@ -340,7 +341,7 @@
     <image name="boxback_ID" ifSubset="boxbackDisplay:Show" extra="true">
 		<pos ifHelpPrompts="false">0.151 0.682</pos>	
 		<maxSize>0.25 0.588</maxSize>
-		<maxSize ifHelpPrompts="false">0.25 0.608</maxSize>
+		<!-- <maxSize ifHelpPrompts="false">0.25 0.608</maxSize> -->
 		<verticalAlignment>center</verticalAlignment>
 	</image>
 	
@@ -616,13 +617,39 @@
 		<path ifSubset="artworkregion:jp">${themePath}/art/logos/jp/${system.theme}.png</path>
 
 		<origin>0.5 0.5</origin>									
-		<pos>0.734375 0.074537</pos>									
-		<maxSize>0.157 0.076</maxSize>									
-						
+		<pos>0.734375 0.0740741</pos>									
+		<maxSize>0.145 0.064</maxSize>									
+		<linearSmooth>true</linearSmooth>
 		<scale>1</scale>
 		<linearSmooth>true</linearSmooth>
 		<alignment>center</alignment>
 		<zIndex>102</zIndex>
+		
+
+		<!-- on passe un petit opacity 0 pour contrer l'animation du logo de detailed.xml -->
+		<storyboard>   
+			<animation property="opacity" to="0"  		begin="1000" duration="1" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="open">   
+			<animation property="offsetY" to="-0.008" 	begin="1700" duration="100" autoreverse="true" mode="linear"/>
+		</storyboard>
+		<storyboard event="activate">   
+			<animation property="offsetY" to="-0.008" 	begin="1700" duration="100" autoreverse="true" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">  
+			<animation property="offsetY" to="-0.008" 	begin="1700" duration="100" autoreverse="true" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="offsetY" to="-0.008" 	begin="1700" duration="100" autoreverse="true" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0"  duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0"  duration="1" mode="linear"/>
+		</storyboard>
+		
 	</image>
 	
 	
@@ -707,13 +734,72 @@
 	
 	
 
+<!-- encadrement bordure extérieure droite et bas	 -->
+	<image name="outer_edge1, outer_edge2, outer_edge3">
+		<origin>0.5 0.5</origin>
+		<path>${themePath}/art/divers/white.png</path>
+        <color>${baseColor}</color>
+		<zIndex>18</zIndex>
+	</image>
+	
+	<image name="outer_edge1" extra="true">
+		<size>0.0197917 0.0027778</size>									
+		<pos>0.9901042 0.1273148</pos>									
+	</image>		
+	
+	<image name="outer_edge2" extra="true">
+		<size>0.0015625 0.8740741</size>									
+		<pos>0.9992188 0.562963</pos>									
+	</image>		
+	
+	<image name="outer_edge3" extra="true">
+		<size>1 0.0027778</size>									
+		<pos>0.5 0.9986111</pos>									
+	</image>		
 	
 	
 	
+	<!-- barres animées du coin supérieur gauche -->
+	<image name="upper-left_up, upper-left_left" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>18</zIndex>
+		<origin>0.5 0.5</origin>
+	</image>
+
+	<!-- coin supérieur gauche - barre haute -->
+	<image name="upper-left_up" extra="true">
+		<size>0.5 0.0027778</size>									
+		<pos>0.2 0.0013889</pos>		
+
+		<storyboard repeat="forever">
+			<animation property="offsetX" from="0" to="-0.11" begin="1100" duration="650" mode="linear"/>
+			<animation property="offsetX" from="-0.11" to="-0.21" begin="5100" duration="900" mode="EaseIn"/>
+			<animation property="offsetX" to="0" begin="6500" duration="2000" mode="EaseOutCubic"/>
+			
+			<animation property="offsetX" to="0" begin="25000" duration="10" mode="linear"/>
+		</storyboard>
+	  
+	</image>
 	
-	
-	
-	
+	<!-- coin supérieur gauche - barre gauche  -->
+	<image name="upper-left_left" extra="true">
+		<size>0.0015625 0.3703704</size>									
+		<pos>0.0007813 0.11</pos>						
+
+		<storyboard repeat="forever">
+			<animation property="size" to="0.0015625 0.5555556" begin="1100" duration="650" mode="linear"/>
+			<animation property="pos" to="0.0007813 0.28" begin="1100" duration="650" mode="linear"/>
+			
+			<animation property="size" to="0.0015625 0.7092593" begin="5100" duration="900" mode="EaseIn"/>
+			<animation property="pos" to="0.0007813 0.31" begin="5100" duration="900" mode="EaseIn"/>
+			
+			<animation property="size" to="0.0015625 0.3703704" begin="6500" duration="900" mode="EaseOutCubic"/>
+			<animation property="pos" to="0.0007813 0.11" begin="6500" duration="2000" mode="EaseOutCubic"/>
+			
+			<animation property="offsetX" to="0" begin="25000" duration="10" mode="linear"/>
+		</storyboard>
+	</image>
 	
 	
 	

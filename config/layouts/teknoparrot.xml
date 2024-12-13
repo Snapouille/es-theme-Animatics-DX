@@ -159,21 +159,15 @@
   
 		<video name="md_video">
 		 
-		<pos>0.7713542 0.3722222</pos>									
-		<maxSize>0.2552083 0.25</maxSize>								
+			<pos>0.7721354 0.3731481</pos>									
+			<size>0.2536458 0.2518519</size>									
 
-
-											
-									
-
-
-		  
 				<storyboard event="open">
-					<animation property="x" to="0.7713542" begin="1200" duration="200" mode="linear"/>
+					<animation property="x" to="0.7721354" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="activate">
-						<animation property="x" to="0.7713542" begin="1200" duration="200" mode="linear"/>
+						<animation property="x" to="0.7721354" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
 					
 				<storyboard event="deactivate">
@@ -184,10 +178,9 @@
   
 		<!-- fond noir de l'écran -->
 		<image name="black_bg">
-			 <size>0.2552083 0.25</size>											
+			 <size>0.2552083 0.26</size>											
 			 <pos>0.7713542 0.3722222</pos>									
 		 
-		  
 				<storyboard event="open">
 					<animation property="x" to="0.7713542" begin="1200" duration="200" mode="linear"/>
 				</storyboard>
@@ -207,7 +200,7 @@
 		<origin>0.40 0.50</origin>
 		<pos>0.368 0.33</pos> 
 		<maxSize>0.3 0.57</maxSize>
-		<scale>0.53</scale>
+		<scale>0.51</scale>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
 		

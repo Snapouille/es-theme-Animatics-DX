@@ -38,6 +38,8 @@
 			</storyboard>
     </image>
 
+
+
     <textlist name="gamelist">
 	  <origin>0 0</origin>									
       <pos>0.3 0.6</pos>
@@ -228,7 +230,7 @@
 		<pos>0.151 0.662</pos>	
 		<pos ifHelpPrompts="false">0.151 0.682</pos>	
 		<maxSize>0.25 0.588</maxSize>
-		<maxSize ifHelpPrompts="false">0.25 0.608</maxSize>
+		<!-- <maxSize ifHelpPrompts="false">0.25 0.608</maxSize> -->
 		<verticalAlignment>center</verticalAlignment>
 		<linearSmooth>true</linearSmooth>
 		<horizontalAlignment>center</horizontalAlignment>
@@ -246,7 +248,7 @@
 		<pos>0.151 0.662</pos>	
 		<pos ifHelpPrompts="false">0.151 0.682</pos>	
 		<maxSize>0.25 0.588</maxSize>
-		<maxSize ifHelpPrompts="false">0.25 0.608</maxSize>
+		<!-- <maxSize ifHelpPrompts="false">0.25 0.608</maxSize> -->
 		<verticalAlignment>center</verticalAlignment>	
 		<horizontalAlignment>center</horizontalAlignment>
 		<zIndex>35</zIndex> 
@@ -264,16 +266,16 @@
 		<zIndex>20</zIndex> 
 		<!-- <scale>1.20</scale> -->
 		<storyboard event="open">   
-			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
-			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+			<animation property="opacity" to="1" 				begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="2000" duration="600" mode="EaseOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
-			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+			<animation property="opacity" to="1" 				begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="2000" duration="600" mode="EaseOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
-			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
+			<animation property="opacity" to="1" 				begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="2000" duration="600" mode="EaseOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -304,21 +306,21 @@
 		<zIndex>20</zIndex>
 		<!-- <scale>1.20</scale> -->
 		<storyboard event="open">   
-			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
-			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
-			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
-			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+			<animation property="opacity" to="1" 				begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="2000" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" 			begin="2750" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" 			begin="20000" duration="30000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
-			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
-			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
-			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+			<animation property="opacity" to="1" 				begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="2000" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" 			begin="2750" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" 			begin="20000" duration="30000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
-			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
-			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
+			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="2000" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" begin="2750" duration="10000" mode="EaseInOut"/>
 			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
@@ -351,22 +353,22 @@
 		<zIndex>20</zIndex>
 		<!-- <scale>1.20</scale> -->
 		<storyboard event="open">   
-			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
-			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
-			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
-			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+			<animation property="opacity" to="1" 				begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="2000" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" 			begin="2750" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" 			begin="20000" duration="30000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
-			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
-			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
-			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+			<animation property="opacity" to="1" 				begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="2000" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" 			begin="2750" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" 			begin="20000" duration="30000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" begin="1850" duration="1" mode="linear"/>
-			<animation property="offsetY" from="0.40" to="0.00" begin="1850" duration="600" mode="EaseOut"/>
-			<animation property="rotation" to="1080" begin="2600" duration="10000" mode="EaseInOut"/>
-			<animation property="rotation" to="3600" begin="20000" duration="30000" mode="EaseInOut"/>
+			<animation property="opacity" to="1" 				begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="0.40" to="0.00" begin="2000" duration="600" mode="EaseOut"/>
+			<animation property="rotation" to="1080" 			begin="2750" duration="10000" mode="EaseInOut"/>
+			<animation property="rotation" to="3600" 			begin="20000" duration="30000" mode="EaseInOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -377,6 +379,18 @@
     </image>
 	
 	<!---------------------------------------------------------------------------------->
+	
+	
+		<!-- PSX -->
+	<image name="cartridge_ID"  if="{system.theme} == 'psx'  ||
+								    {system.theme} == 'cdi'  ||
+								    {system.theme} == 'neogeocd' || 
+								    {system.theme} == 'dreamcast' || 
+								    {system.theme} == 'pce-cd' "  extra="true">
+		<y>0.2365</y>	
+		<y ifHelpPrompts="false">0.2515</y>	
+    </image>
+	
 
 		<!-- Adventure Vision -->
 	<image name="cartridge_ID"  if="{system.theme} == 'advision' " extra="true">
@@ -385,7 +399,9 @@
 		
 		<!-- GBA -->
 	<image name="cartridge_ID" if="{system.theme} == 'gba' " extra="true">
-		<maxSize>0.195000 0.113750</maxSize>						
+		<maxSize>0.195000 0.113750</maxSize>
+		<y>0.2365</y>	
+		<y ifHelpPrompts="false">0.2515</y>	
     </image>
 	
 		<!-- Commodore VIC-20 -->
@@ -442,13 +458,17 @@
 	
 		<!-- N64 -->
 	<image name="cartridge_ID"  if="{system.theme} == 'n64' " extra="true">
-		<maxSize>0.281493 0.185883</maxSize>						
+		<maxSize>0.281493 0.185883</maxSize>	
+		<y>0.2265</y>	
+		<y ifHelpPrompts="false">0.2415</y>			
     </image>
 	
 		<!-- SNES -->
 	<image name="cartridge_ID"  if="{system.theme} == 'snes' ||
 									{system.theme} == 'satellaview'	" extra="true">
-		<maxSize>0.288925 0.195650</maxSize>						
+		<maxSize>0.288925 0.195650</maxSize>	
+		<y>0.2265</y>	
+		<y ifHelpPrompts="false">0.2415</y>			
     </image>
 	
 		<!-- SATELLAVIEW -->
@@ -589,7 +609,9 @@
 		<!-- 3DS / NDS -->
 	<image name="cartridge_ID"  if="{system.theme} == '3ds' ||
 									{system.theme} == 'nds' " extra="true">
-		<maxSize>0.127270 0.134983</maxSize>						
+		<maxSize>0.127270 0.134983</maxSize>	
+		<y>0.2365</y>	
+		<y ifHelpPrompts="false">0.2515</y>	
     </image>
 	
 		<!-- ATARI LYNX -->
@@ -602,7 +624,9 @@
 									{system.theme} == 'gb2players' ||	
 									{system.theme} == 'gbc' ||	
 									{system.theme} == 'gbc2players' " extra="true">	
-		<maxSize>0.177840 0.202800</maxSize>								
+		<maxSize>0.177840 0.202800</maxSize>
+		<y>0.2365</y>	
+		<y ifHelpPrompts="false">0.2515</y>	
     </image>
 	
 		<!-- Family Computer Disk System -->
@@ -622,7 +646,9 @@
 		
 		<!-- Mega Duck / Cougar Boy -->
 	<image name="cartridge_ID" if="{system.theme} == 'megaduck' " extra="true">
-		<maxSize>0.174034 0.205670</maxSize>								
+		<maxSize>0.174034 0.205670</maxSize>	
+		<y>0.2365</y>	
+		<y ifHelpPrompts="false">0.2515</y>	
     </image>
 	
 		<!-- Atari 800 / Atari 8 Bit / Spectravideo SV-328 / Atari XE Game System / CreatiVision -->
@@ -684,7 +710,9 @@
 		<!-- PC Engine / SuperGrafx -->
 	<image name="cartridge_ID" if="{system.theme} == 'pcengine' ||
 								   {system.theme} == 'supergrafx' " extra="true">
-		<maxSize>0.146413 0.232050</maxSize>									
+		<maxSize>0.146413 0.232050</maxSize>	
+		<y>0.2365</y>	
+		<y ifHelpPrompts="false">0.2515</y>	
     </image>	
 	
 		<!-- Gamate -->
@@ -1058,19 +1086,19 @@
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.190" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="pos" to="0.4713 0.159" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.31315" begin="2200" duration="500" mode="easeIn"/>
-			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.0025" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.0055" begin="2200" duration="500" mode="easeIn"/>
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.190" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="pos" to="0.4713 0.159" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.31315" begin="2200" duration="500" mode="easeIn"/>
-			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.0025" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.0055" begin="2200" duration="500" mode="easeIn"/>
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.190" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="pos" to="0.4713 0.159" begin="1500" duration="500" mode="easeIn"/>
 			<animation enabled="exists({game:cartridge})" property="size" to="0.3382 0.31315" begin="2200" duration="500" mode="easeIn"/>
-			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.0025" begin="2200" duration="500" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="offsetY" to="0.0055" begin="2200" duration="500" mode="easeIn"/>
 		</storyboard>      
 		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -1119,7 +1147,6 @@
          <text>${theme.timesPlayedLabel} 0</text>
          <visible>{game:gametime} == 0 ? 1 : 0</visible>
       </text>
-
 
       <text name="game-lastplayed" extra="true">
          <text>{game:lastplayed}.elapsed().proper()</text>
@@ -1222,13 +1249,38 @@
 		<path ifSubset="artworkregion:jp">${themePath}/art/logos/jp/${system.theme}.png</path>
 
 		<origin>0.5 0.5</origin>									
-		<pos>0.734375 0.074537</pos>									
-		<maxSize>0.157 0.076</maxSize>									
-						
+		<pos>0.734375 0.0740741</pos>									
+		<maxSize>0.145 0.064</maxSize>									
+		<linearSmooth>true</linearSmooth>
 		<scale>1</scale>
 		<linearSmooth>true</linearSmooth>
 		<alignment>center</alignment>
 		<zIndex>102</zIndex>
+		
+		<!-- on passe un petit opacity 0 pour contrer l'animation du logo de detailed.xml -->
+		<storyboard>   
+			<animation property="opacity" to="0"  		begin="1000" duration="1" mode="linear"/>
+		</storyboard>
+		
+		<storyboard event="open">   
+			<animation property="offsetY" to="-0.008" 	begin="1700" duration="100" autoreverse="true" mode="linear"/>
+		</storyboard>
+		<storyboard event="activate">   
+			<animation property="offsetY" to="-0.008" 	begin="1700" duration="100" autoreverse="true" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">  
+			<animation property="offsetY" to="-0.008" 	begin="1700" duration="100" autoreverse="true" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="offsetY" to="-0.008" 	begin="1700" duration="100" autoreverse="true" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0"  duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0"  duration="1" mode="linear"/>
+		</storyboard>
+		
 	</image>
 	
 	
@@ -1261,7 +1313,7 @@
 	<!-- black au fond -->
     <image name="logo_bg, logo_bg1, logo_bg2">
       <path>${themePath}/art/divers/black.png</path>
-	  <opacity>0.9</opacity>
+	  <opacity>1</opacity>
       <zIndex>15</zIndex>
     </image>
     <image name="logo_bg" extra="true">
@@ -1306,6 +1358,84 @@
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>	
     </image>
+	
+	
+	
+	
+<!-- encadrement bordure extérieure droite et bas	 -->
+	<image name="outer_edge1, outer_edge2, outer_edge3">
+		<origin>0.5 0.5</origin>
+		<path>${themePath}/art/divers/white.png</path>
+        <color>${baseColor}</color>
+		<zIndex>18</zIndex>
+	</image>
+	
+	<image name="outer_edge1" extra="true">
+		<size>0.0197917 0.0027778</size>									
+		<pos>0.9901042 0.1273148</pos>									
+	</image>		
+	
+	<image name="outer_edge2" extra="true">
+		<size>0.0015625 0.8740741</size>									
+		<pos>0.9992188 0.562963</pos>									
+	</image>		
+	
+	<image name="outer_edge3" extra="true">
+		<size>1 0.0027778</size>									
+		<pos>0.5 0.9986111</pos>									
+	</image>		
+	
+	
+	
+	<!-- barres animées du coin supérieur gauche -->
+	<image name="upper-left_up, upper-left_left" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>18</zIndex>
+		<origin>0.5 0.5</origin>
+	</image>
+
+	<!-- coin supérieur gauche - barre haute -->
+	<image name="upper-left_up" extra="true">
+		<size>0.5 0.0027778</size>									
+		<pos>0.2 0.0013889</pos>		
+
+		<storyboard repeat="forever">
+			<animation property="offsetX" from="0" to="-0.11" begin="1100" duration="650" mode="linear"/>
+			<animation property="offsetX" from="-0.11" to="-0.21" begin="5100" duration="900" mode="EaseIn"/>
+			<animation property="offsetX" to="0" begin="6500" duration="2000" mode="EaseOutCubic"/>
+			
+			<animation property="offsetX" to="0" begin="25000" duration="10" mode="linear"/>
+		</storyboard>
+	  
+	</image>
+	
+	<!-- coin supérieur gauche - barre gauche  -->
+	<image name="upper-left_left" extra="true">
+		<size>0.0015625 0.3703704</size>									
+		<pos>0.0007813 0.11</pos>						
+
+		<storyboard repeat="forever">
+			<animation property="size" to="0.0015625 0.5555556" begin="1100" duration="650" mode="linear"/>
+			<animation property="pos" to="0.0007813 0.28" begin="1100" duration="650" mode="linear"/>
+			
+			<animation property="size" to="0.0015625 0.7092593" begin="5100" duration="900" mode="EaseIn"/>
+			<animation property="pos" to="0.0007813 0.31" begin="5100" duration="900" mode="EaseIn"/>
+			
+			<animation property="size" to="0.0015625 0.3703704" begin="6500" duration="900" mode="EaseOutCubic"/>
+			<animation property="pos" to="0.0007813 0.11" begin="6500" duration="2000" mode="EaseOutCubic"/>
+			
+			<animation property="offsetX" to="0" begin="25000" duration="10" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

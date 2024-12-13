@@ -104,23 +104,151 @@ originally based on: "carbon"
 	
 	
     <imagegrid name="gamegrid">
-      <pos>0.333333 0.03</pos>
+      <pos>0.333333 -0.1</pos>
       <size>0.6666667 0.895</size>
-	  <margin>0 0</margin>
-      <padding>0.004 0 0.004 0</padding>
+	  <margin>0 0.01</margin>
+      <padding>0.01 0.001 0.001 0.001</padding>
       <zIndex>10</zIndex>
       <autoLayout>3 2</autoLayout>
 	  <autoLayout if="{system.theme} == '3ds' || {system.theme} == 'gameandwatch' || {system.theme} == 'megaduck' || {system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'virtualboy'">3 3</autoLayout>
 	  <autoLayout if="{system.theme} == 'model2' || {system.theme} == 'pv1000' || {system.theme} == 'wonderswancolor' || {system.theme} == 'zx81'">5 2</autoLayout>
-	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'switch' || {system.theme} == 'mastersystem' || {system.theme} == 'psp'  ">4 2</autoLayout>
-	  <autoLayout if="{system.theme} == 'psx' ">2 2</autoLayout>
+	  <autoLayout if="{system.theme} == 'nes' || {system.theme} == '3do' || {system.theme} == 'switch' || {system.theme} == 'mastersystem' || {system.theme} == 'psp'  ">4 2</autoLayout>
 	  <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
 	  <scrollLoop>true</scrollLoop>
 	  <scrollSound>./../../art/sounds/scroll.wav</scrollSound>
 	  <scrollDirection>vertical</scrollDirection>
+	  
+			<itemTemplate>
+				<container>
+					<image name="thumbnail">
+						<linearSmooth>true</linearSmooth>
+						<visible if="{system.theme} == 'snes' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'solarus'">false</visible>
+						<pos>0.5 0.6</pos>
+						<origin>0.5 0.6</origin>
+						<maxSize>0.95 0.95</maxSize>
+						<path>{game:thumbnail}</path>
+						<!-- A METTRE EN PLACE DANS LE MENU POUR LES BOX 3D ou 2D au choix de l'utilisateur -->
+						<!-- <path ifSubset="starthumb:starbox3d">{game:boxart}</path> -->
+						<!-- <path ifSubset="starthumb:starbox2d">{game:thumbnail}</path> -->
+						<storyboard event="open">
+							<animation property="rotation" to="5"     begin="" duration="100" autoreverse="true" mode="EaseInOut"/>
+							<animation property="offsetY" to="-0.004" begin="" duration="850" autoreverse="true" repeat="forever" mode="bump"/>
+						</storyboard>
+						<storyboard event="activate">
+							<animation property="rotation" to="5"     begin="" duration="100" autoreverse="true" mode="EaseInOut"/>
+							<animation property="offsetY" to="-0.004" begin="" duration="850" autoreverse="true" repeat="forever" mode="bump"/>
+						</storyboard>
+						<storyboard event="deactivate">
+							<animation property="offsetY" to="0"  begin="" duration="" mode="Linear"/>
+							<animation property="rotation" to="0" begin="" duration="" mode="Linear"/>
+						</storyboard>
+						<storyboard event="scroll">
+							<animation property="offsetY" to="0"  begin="" duration="" mode="Linear"/>
+							<animation property="rotation" to="0" begin="" duration="" mode="Linear"/>
+						</storyboard>
+					</image>
+					<image name="thumbnail">
+						<linearSmooth>true</linearSmooth>
+						<visible>false</visible>
+						<visible if="{system.theme} == 'snes' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'|| {system.theme} == 'solarus'">{game:region} == 'jp'</visible>
+						<pos>0.5 0.6</pos>
+						<origin>0.5 0.6</origin>
+						<rotation>90</rotation>
+						<rotation>90</rotation>
+						<maxSize>1 1</maxSize>
+						<scale>1.2</scale>
+						<path>{game:thumbnail}</path>
+						<path ifSubset="starthumb:starbox3d">{game:boxart}</path>
+						<path ifSubset="starthumb:starbox2d">{game:thumbnail}</path>
+						<storyboard event="open">
+							<animation property="rotation" to="95"     begin="" duration="100" autoreverse="true" mode="EaseInOut"/>
+							<animation property="offsetY" to="-0.004" begin="" duration="850" autoreverse="true" repeat="forever" mode="bump"/>
+						</storyboard>
+						<storyboard event="activate">
+							<animation property="rotation" to="95"     begin="" duration="100" autoreverse="true" mode="EaseInOut"/>
+							<animation property="offsetY" to="-0.004" begin="" duration="850" autoreverse="true" repeat="forever" mode="bump"/>
+						</storyboard>
+						<storyboard event="deactivate">
+							<animation property="offsetY" to="0"  begin="" duration="" mode="Linear"/>
+							<animation property="rotation" to="90" begin="" duration="" mode="Linear"/>
+						</storyboard>
+						<storyboard event="scroll">
+							<animation property="offsetY" to="0"  begin="" duration="" mode="Linear"/>
+							<animation property="rotation" to="90" begin="" duration="" mode="Linear"/>
+						</storyboard>
+					</image>
+					<image name="thumbnail">
+						<linearSmooth>true</linearSmooth>
+						<visible>false</visible>
+						<visible if="{system.theme} == 'snes' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'|| {system.theme} == 'solarus'">{game:region} != 'jp'</visible>
+						<pos>0.5 0.6</pos>
+						<origin>0.5 0.6</origin>
+						<rotation>0</rotation>
+						<maxSize>1 0.95</maxSize>
+						<path>{game:thumbnail}</path>
+						<path ifSubset="starthumb:starbox3d">{game:boxart}</path>
+						<path ifSubset="starthumb:starbox2d">{game:thumbnail}</path>
+						<storyboard event="open">
+							<animation property="rotation" to="5"     begin="" duration="100" autoreverse="true" mode="EaseInOut"/>
+							<animation property="offsetY" to="-0.004" begin="" duration="850" autoreverse="true" repeat="forever" mode="bump"/>
+						</storyboard>
+						<storyboard event="activate">
+							<animation property="rotation" to="5"    begin="" duration="100" autoreverse="true" mode="EaseInOut"/>
+							<animation property="offsetY" to="-0.004" begin="" duration="850" autoreverse="true" repeat="forever" mode="bump"/>
+						</storyboard>
+						<storyboard event="deactivate">
+							<animation property="offsetY" to="0"  begin="" duration="" mode="Linear"/>
+							<animation property="rotation" to="0" begin="" duration="" mode="Linear"/>
+						</storyboard>
+						<storyboard event="scroll">
+							<animation property="offsetY" to="0"  begin="" duration="" mode="Linear"/>
+							<animation property="rotation" to="0" begin="" duration="" mode="Linear"/>
+						</storyboard>
+					</image>
+				</container>
+			</itemTemplate>
+	  
+	  
 	</imagegrid>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
     <gridtile name="default">
       <backgroundColor>FFFFFF00</backgroundColor>
@@ -147,7 +275,7 @@ originally based on: "carbon"
 	  <maxSize>0.11 0.11</maxSize>
 		<storyboard repeatAt="forever">
 			<animation property="scale" to="1.5" begin="3000" duration="500" autoreverse="true" mode="bump"/>
-			<animation property="rotation" to="1080" begin="15000" duration="500" mode="easeInOut"/>
+			<animation property="rotation" to="580" begin="15000" duration="500" mode="easeInOut"/>
 		</storyboard>
 	  
     </image>

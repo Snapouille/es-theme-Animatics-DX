@@ -1165,7 +1165,8 @@ originally based on: "carbon"
 	
 	<text name="manufacturerName" extra="true">
 		<origin>0 0</origin>
-		<text>${system.sortedBy}</text>
+		<!-- <text>${system.sortedBy}</text> -->
+        <text>{system:manufacturer}</text>
 		<alignment>left</alignment>
 		<verticalAlignment>top</verticalAlignment>
 		<fontPath>./../../art/fonts/charge-vector.otf</fontPath>

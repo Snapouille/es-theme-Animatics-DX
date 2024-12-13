@@ -1,3 +1,8 @@
+## V 2.14 - (13 12 2024)
+- new jaguar CD system animation
+- some screen fix and improvements
+
+
 ## V 2.13 - (30 11 2024)
 - add a New Collection : Work In Progress GAMES
 - new Sharp X68000 animation

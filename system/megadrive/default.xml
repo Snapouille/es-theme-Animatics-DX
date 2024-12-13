@@ -6,15 +6,36 @@
 
 	<view name="system">
 		
-		<image name="avatar" extra="static">
+		<image name="avatar" extra="true">	
 			<origin>0 0</origin>									
 			<size>0.265625 0.8361111</size>									
-			<pos>0.13 0.21</pos>
+			<pos>0.13 0.24</pos>
 			<scale>0.55</scale>
 			<opacity>0</opacity>
 			<zIndex>1901</zIndex>
-		</image>	
-	
+		
+			<storyboard repeat="forever">
+					<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear"/>
+					<animation property="x" to="0.23" begin="100" duration="3700" mode="EaseOut"/>
+					<animation property="scale" from="0.55" to="0.8" begin="4000" duration="350" mode="bump"/>
+					<animation property="x" from="0.13" to="0.36" begin="4000" duration="375" mode="EaseOut"/>
+					<animation property="y" from="0.17" to="0.03" begin="4000" duration="375" mode="EaseOut"/>
+
+					<animation property="x" from="0.34" to="0.31" begin="5100" duration="300" mode="bump"/>
+					<animation property="y" from="0.03" to="-0.03" begin="5100" duration="300" mode="bump"/>
+					<animation property="rotation" from="0" to="-3" begin="5100" autoreverse="true" duration="300" mode="easyin"/>
+
+					<animation property="rotation" from="0" to="-20" begin="6200" autoreverse="true" duration="200" mode="easyin"/>
+					<animation property="y" from="0.03" to="-1" begin="6300" duration="300" mode="bump"/>
+					
+					<animation property="rotation" from="0" to="-50" begin="10000" duration="300" mode="easyin"/>
+					<animation property="x" from="0.31" to="0.04" begin="10000" duration="300" mode="bump"/>
+					<animation property="y" from="-1" to="1" begin="10500" duration="1000" mode="bump"/>
+
+					<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+			
 	
 		<image name="avatar2" extra="static">
 				<origin>0 0</origin>									
@@ -37,32 +58,6 @@
 		</image>
 	
 	
-		<image name="avatar" extra="true">	
-		
-			<storyboard repeat="forever">
-					
-					<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear"/>
-					<animation property="x" to="0.23" begin="100" duration="3700" mode="EaseOut"/>
-					<animation property="scale" from="0.55" to="0.8" begin="4000" duration="350" mode="bump"/>
-					<animation property="x" from="0.13" to="0.36" begin="4000" duration="375" mode="EaseOut"/>
-					<animation property="y" from="0.17" to="0.03" begin="4000" duration="375" mode="EaseOut"/>
-
-					<animation property="x" from="0.34" to="0.31" begin="5100" duration="300" mode="bump"/>
-					<animation property="y" from="0.03" to="-0.03" begin="5100" duration="300" mode="bump"/>
-					<animation property="rotation" from="0" to="-3" begin="5100" autoreverse="true" duration="300" mode="easyin"/>
-
-					<animation property="rotation" from="0" to="-20" begin="6200" autoreverse="true" duration="200" mode="easyin"/>
-					<animation property="y" from="0.03" to="-1" begin="6300" duration="300" mode="bump"/>
-					
-					<animation property="rotation" from="0" to="-50" begin="10000" duration="300" mode="easyin"/>
-					<animation property="x" from="0.31" to="0.04" begin="10000" duration="300" mode="bump"/>
-					<animation property="y" from="-1" to="1" begin="10500" duration="1000" mode="bump"/>
-
-					
-					<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear"/>
-					
-			</storyboard>
-		</image>
 		
 		
 		<image name="avatar2" extra="true">	

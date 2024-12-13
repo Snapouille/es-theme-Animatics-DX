@@ -107,16 +107,17 @@ originally based on: "carbon"
 		<size>0.950 0.47</size>
 		<margin>0.005 0.006</margin>
 		<padding>0.008 0.05</padding> 
-		<!-- <padding>0.008 0.07</padding>  -->
+		
 		<scrollDirection>horizontal</scrollDirection>
 		<autoLayout>5 1</autoLayout>
-
+		
 		<autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
 		<centerSelection>true</centerSelection>
 		<scrollLoop>true</scrollLoop>
 		<imageSource>thumbnail</imageSource>
 		<gameImage>./../../art/divers/noboxart.png</gameImage>
 		<zIndex>60</zIndex>
+		
     </imagegrid>
 	
 	
