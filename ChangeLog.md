@@ -1,3 +1,8 @@
+## V 2.15 - (23 12 2024)
+- improve the default background in wipgames collection
+- fix xbox360 layouts in legendary view
+
+
 ## V 2.14 - (13 12 2024)
 - new jaguar CD system animation
 - some screen fix and improvements
