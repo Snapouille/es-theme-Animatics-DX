@@ -47,8 +47,8 @@
 				<animation property="color" to="ffffff" 					begin="12200" duration="50" mode="linear"/>
 				<animation property="origin" to="0 0" 						begin="12200" duration="50" mode="linear"/>
 				
-				<animation property="saturation" to="0" begin="10000" duration="2500" mode="linear"/>
-				<animation property="saturation" to="1" begin="15000" duration="2500" mode="linear"/>
+				<!-- <animation property="saturation" to="0" begin="10000" duration="2500" mode="linear"/> -->
+				<!-- <animation property="saturation" to="1" begin="15000" duration="2500" mode="linear"/> -->
 							
 				<animation property="opacity" to="0" begin="25000" duration="10" mode="linear"/>	
 				<animation property="opacity" to="0" begin="33300" duration="33" mode="linear"/>	

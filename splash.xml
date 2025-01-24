@@ -14,7 +14,7 @@ originally based on: "carbon"
 	<view name="splash">
 	
 		<text name="version" extra="true">
-			<text>V 2.15 - 2024 12 23</text>
+			<text>V 2.16 - 2025 01 24 -</text>
 			<pos>0.02 0.951</pos>
 			<color>f4ff1a</color>
 			<fontPath>./art/fonts/ubuntu.ttf</fontPath>
@@ -24,7 +24,7 @@ originally based on: "carbon"
 		</text>
 		
 		<text name="contact" extra="true">
-			<text>/ contact : fabtahiti11@gmail.com) /</text>
+			<text> https://github.com/Snapouille/es-theme-Animatics-DX </text>
 			<pos>0.13 0.951</pos>
 			<color>22e2f3</color>
 			<fontPath>./art/fonts/ubuntu.ttf</fontPath>

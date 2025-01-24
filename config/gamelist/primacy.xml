@@ -84,7 +84,7 @@
               <alignment>left</alignment>
               <fontPath>${themePath}/art/fonts/gobold-blocky-regular.otf</fontPath>
               <fontSize>0.018</fontSize>
-              <color>A0A0A0</color>
+              <color>C0C0C0</color>
               <multiLine>false</multiLine>
               <autoScrollDelay>250</autoScrollDelay>
               <storyboard event="activate">
@@ -137,6 +137,9 @@
 
 
 	<image name="md_image"> 
+		<!-- on affiche pas si on est dans une collection -->
+		<visible if="${system.manufacturer} == 'Collections'">false</visible>
+	
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
 		
@@ -181,6 +184,9 @@
 	</image>
 
 	<video name="md_video">
+		<!-- on affiche pas si on est dans une collection -->
+		<visible if="${system.manufacturer} == 'Collections'">false</visible>
+	
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
 		
@@ -223,6 +229,61 @@
 		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
 		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
 	</video>	
+	
+	
+	
+	<!-- AFFICHAGE DANS UNE NOUVELLE IMAGE ET NOUVELLE VIDEO SI ON EST DANS UNE COLLECTION -->
+	<!-- POUR CONSERVER UN BON RATIO DES IMAGES ET VIDEOS AVEC LEUR SYSTEME RESPECTIF -->
+	<image name="md_image_collections" extra="true">
+		<zIndex>140</zIndex>
+		<origin>0.5 0.5</origin>	
+		<!-- on affiche l'image seulement si il n'y a pas de vidéo pour le jeu -->
+		<visible>!exists({game:video})</visible>
+		<!-- et seulement si on est dans une collection, sinon on affiche pas -->
+		<visible if="${system.manufacturer} != 'Collections'">false</visible>
+		<path>{game:image}</path>
+		<maxSize>0.28 0.3</maxSize>				
+		<pos>0.839 0.44</pos>
+		<horizontalAlignment>right</horizontalAlignment>
+		
+		<shader>
+			<path>${themePath}/art/shaders/border.glsl</path>
+			<borderSize>0.008</borderSize>
+			<borderColor>${baseColor}</borderColor>
+		</shader>
+	</image>
+
+	<video name="md_video_collections" if="${system.manufacturer} == 'Collections'" extra="true">
+		<zIndex>150</zIndex>
+		<origin>1 0.5</origin>
+		<opacity>0</opacity>
+		<path>{game:video}</path>
+		<maxSize>0.28 0.3</maxSize>				
+		<pos>0.98 0.44</pos>	
+		
+		<storyboard event="open">
+			<animation property="opacity" from="0" to="1" begin="400" duration="1000" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			 <animation property="opacity" from="0" to="1"  begin="400" duration="1000" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="opacity" from="0" to="1"  begin="400" duration="1000" mode="linear"/>
+	   </storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+		<shader>
+			<path>${themePath}/art/shaders/border.glsl</path>
+			<borderSize>0.008</borderSize>
+			<borderColor>${baseColor}</borderColor>
+		</shader>
+	</video>
+	
 
 	
 	<image name="thumbnail_ID" extra="true">
@@ -724,7 +785,17 @@
 	<image name="cartridge_ID" if="{system.theme} == 'odyssey2' ||
 								   {system.theme} == 'videopacplus' " extra="true">
 		<maxSize>0.182000 0.288925</maxSize>
-    </image>			
+    </image>	
+
+
+		<!-- on masque les cartridges si on est dans une collection -->
+	<image name="cartridge_ID" if="{system.sortedBy} == 'Collections' || 
+								   {system.theme} == 'mess' || 
+								   {system.theme} == 'ports'">
+		<visible>false</visible>
+    </image>
+
+	
 	
 		<!-- SYSTEMES DIVERS - SUPPORT NUMERISES OU ARCADE -->
 		<!-- SEGA SYSTEM SP / CHIHIRO / SOLARUS / NAMCO 2X6 / COMMANDER GENIUS / STEAM / LCD GAMES / PLUG N PLAY / FLASH / FINAL BURN NEO / UZEBOX / FUTURE PINBALL / PDP-1 / EASY RPG  -->
@@ -767,12 +838,9 @@
 
 	<!---------------------------------------------------------------------------------->
 		
-		<!-- on masque les cartridges si on est dans une collection -->
-	<image name="cartridge_ID" if="{system.sortedBy} == 'Collections' || 
-								   {system.theme} == 'mess' || 
-								   {system.theme} == 'ports'">
-		<visible>false</visible>
-    </image>
+	
+	
+	
 		
 	<!-- ----------------------------------------------	 -->
 	<!-- Encadrement HAUT au dessus de la grid           -->

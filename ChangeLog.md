@@ -1,3 +1,10 @@
+## V 2.16 - (24 01 2025)
+- add Sega Lindbergh system for batocera
+- add the doom3 system for batocera
+- add correct video ratio in collection for primacy and primacy alt view
+- fix boxes big view and default box setup
+
+
 ## V 2.15 - (23 12 2024)
 - improve the default background in wipgames collection
 - fix xbox360 layouts in legendary view

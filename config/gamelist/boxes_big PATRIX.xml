@@ -154,30 +154,30 @@ originally based on: "carbon"
 						<!-- <linearSmooth>true</linearSmooth> -->
 						<visible>false</visible>
 						<visible if="{system.theme} == 'snes' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'|| {system.theme} == 'solarus'">{game:region} == 'jp'</visible>
-						<pos>0.5 0.6</pos>
+						<pos>0.5 0.65</pos>
 						<origin>0.5 0.6</origin>
 						<rotation>90</rotation>
 						<maxSize>1 1</maxSize>
-						<scale>1.2</scale>
+						<scale>1.325</scale>
 						<path>{game:thumbnail}</path>
 						<default>./../../art/divers/noboxart.png</default>
 						<!-- <path ifSubset="starthumb:starbox3d">{game:boxart}</path> -->
 						<!-- <path ifSubset="starthumb:starbox2d">{game:thumbnail}</path> -->
 						<storyboard event="open">
-							<animation property="rotation" to="95"     begin="" duration="100" autoreverse="true" mode="EaseInOut"/>
+							<animation property="rotation" to="-85"     begin="" duration="100" autoreverse="true" mode="EaseInOut"/>
 							<animation property="offsetY" to="-0.004" begin="" duration="850" autoreverse="true" repeat="forever" mode="bump"/>
 						</storyboard>
 						<storyboard event="activate">
-							<animation property="rotation" to="95"     begin="" duration="100" autoreverse="true" mode="EaseInOut"/>
+							<animation property="rotation" to="-85"     begin="" duration="100" autoreverse="true" mode="EaseInOut"/>
 							<animation property="offsetY" to="-0.004" begin="" duration="850" autoreverse="true" repeat="forever" mode="bump"/>
 						</storyboard>
 						<storyboard event="deactivate">
 							<animation property="offsetY" to="0"  begin="" duration="" mode="Linear"/>
-							<animation property="rotation" to="90" begin="" duration="" mode="Linear"/>
+							<animation property="rotation" to="-90" begin="" duration="" mode="Linear"/>
 						</storyboard>
 						<storyboard event="scroll">
 							<animation property="offsetY" to="0"  begin="" duration="" mode="Linear"/>
-							<animation property="rotation" to="90" begin="" duration="" mode="Linear"/>
+							<animation property="rotation" to="-90" begin="" duration="" mode="Linear"/>
 						</storyboard>
 					</image>
 					<image name="thumbnail">
