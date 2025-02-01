@@ -87,6 +87,7 @@ originally based on: "carbon"
 	<gamelistLines>Gamelist: Number of lines</gamelistLines>
 	<background.Display>Background Display</background.Display>
 	<descriptionFontSize>Description font size</descriptionFontSize>
+	<boxfront.Display>Boxfront</boxfront.Display>
 	<boxback.Display>Boxback</boxback.Display>
 	<cartridge.Display>Cartridge</cartridge.Display>
 	<fanartOpacity>Fanart overlay Opacity</fanartOpacity>
@@ -586,6 +587,12 @@ originally based on: "carbon"
 			<include name="Light" displayName="${light}"/>
 	</subset>
 	
+	
+	<!-- Choix d'afficher les box en 2D ou 3D -->
+	<subset name="boxfrontDisplay" displayName="${boxfront.Display}" appliesTo="detailed, rvgm, videofull, primacy">
+			<include name="2d" displayName="${2d}"/>
+			<include name="3d" displayName="${3d}"/>
+	</subset>
 
 	<!-- Choix d'afficher les boxback ou non -->
 	<subset name="boxbackDisplay" displayName="${boxback.Display}" appliesTo="detailed, rvgm, videofull, primacy">
@@ -594,7 +601,7 @@ originally based on: "carbon"
 	</subset>
 	
 	<!-- Choix d'afficher les cartridges ou non -->
-	<subset name="cartridgeDisplay" displayName="${cartridge.Display}" appliesTo="videofull, primacy, gamecarousel">
+	<subset name="cartridgeDisplay" displayName="${cartridge.Display}" appliesTo="videofull, primacy, gamecarousel, rvgm">
 			<include name="Show" displayName="${show}"/>
 			<include name="Hide" displayName="${hide}"/>
 	</subset>

@@ -130,9 +130,6 @@ originally based on: "carbon"
 						<maxSize>0.95 0.95</maxSize>
 						<path>{game:thumbnail}</path>
 						<default>./../../art/divers/noboxart.png</default>
-						<!-- A METTRE EN PLACE DANS LE MENU POUR LES BOX 3D ou 2D au choix de l'utilisateur -->
-						<!-- <path ifSubset="starthumb:starbox3d">{game:boxart}</path> -->
-						<!-- <path ifSubset="starthumb:starbox2d">{game:thumbnail}</path> -->
 						<storyboard event="open">
 							<animation property="rotation" to="5"     begin="" duration="100" autoreverse="true" mode="EaseInOut"/>
 							<animation property="offsetY" to="-0.004" begin="" duration="850" autoreverse="true" repeat="forever" mode="bump"/>

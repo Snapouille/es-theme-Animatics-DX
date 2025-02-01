@@ -240,9 +240,16 @@
 	</video>	
 
 
-
+	
+	
+	<!-- Affiche des boites face avant : Box Front -->
      <image name="thumbnail_ID" extra="true">
-		<path>{game:thumbnail}</path>
+	 
+		<!-- au choix de l'utilisateur pour l'affichage des box en 2D ou 3D -->
+		<path ifSubset="boxfrontDisplay:2d">{game:thumbnail}</path>
+		<path ifSubset="boxfrontDisplay:3d">firstfile({game:boxart},{game:thumbnail})</path>	 
+		
+		
 		<origin>0.5 0.5</origin>									
 		<pos>0.6106771 0.7421296</pos>									
 		<maxSize>0.2015625 0.40</maxSize>									
@@ -277,7 +284,7 @@
     </image>
 
 
-
+	<!-- Affiche des boites face arrière : Box Back -->
      <image name="boxback_ID" ifSubset="boxbackDisplay:Show" extra="true">
 		<path>{game:boxback}</path>
 		<origin>0.5 0.5</origin>									

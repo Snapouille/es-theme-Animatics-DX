@@ -1,3 +1,7 @@
+## V 2.17 - (xx 01 2025)
+- add the possibility to display 2D (thumbnail) or 3D boxes (boxart) from user gamelist
+
+
 ## V 2.16 - (24 01 2025)
 - add Sega Lindbergh system for batocera
 - add the doom3 system for batocera
