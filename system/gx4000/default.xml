@@ -14,13 +14,13 @@
 					<animation property="pos" to="0.3151042 0.387037" begin="1000" duration="2300" mode="EaseInOut"/>
 			  </storyboard>
 		</image>
-		
 	
 	
 		<image name="avatar" extra="static">
 			<origin>0.5 0.5</origin>
-			<pos>0.35 0.59</pos>
-			<size>0.284375 0.6296296</size>									
+			<size>0.2260417 0.6277778</size>									
+			<pos>0.3 0.60</pos>									
+			<path>./avatar.gif</path>
 			<scale>0.3</scale>
 			<opacity>1</opacity>
 
@@ -30,15 +30,17 @@
 				<animation property="y" to="0.51" begin="1000" duration="1500" mode="EaseOut"/>
 				
 				<animation property="scale" to="0.98" begin="2500" duration="1000" mode="Linear"/>
-				<animation property="x" to="0.44" begin="2500" duration="1000" mode="EaseOut"/>
-				<animation property="y" to="0.57" begin="2500" duration="1000" mode="EaseOut"/>
+				<animation property="x" to="0.55" begin="2500" duration="1000" mode="EaseOut"/>
+				<animation property="y" to="0.53" begin="2500" duration="1000" mode="EaseOut"/>
 				
 				<animation property="scale" to="1" begin="3500" duration="3000" autoreverse="true" repeat="forever" mode="EaseInOut"/>
-				<animation property="y" to="0.59" begin="3500" duration="3000" autoreverse="true" repeat="forever" mode="EaseInOut"/>
+				<animation property="y" to="0.55" begin="3500" duration="3000" autoreverse="true" repeat="forever" mode="EaseInOut"/>
 			</storyboard>
 
 		
 		</image>
+		
+		
 	</view>
 
 </theme>

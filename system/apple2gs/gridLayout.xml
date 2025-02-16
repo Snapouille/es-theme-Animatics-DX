@@ -53,52 +53,54 @@
 			<path>./wizard.gif</path>
 			<opacity>1</opacity>
 
-			<storyboard repeatAt="7000">
+			<storyboard repeat="forever">
 				
-				<animation property="opacity" to="0" begin="7500" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="8500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2500" duration="10" mode="linear"/>
 				
-				<animation property="opacity" to="0" begin="9000" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="10000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4000" duration="10" mode="linear"/>
 						
-				<animation property="opacity" to="0" begin="10500" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="11500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5500" duration="10" mode="linear"/>
 				
-				<animation property="opacity" to="0" begin="12000" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="13000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="7000" duration="10" mode="linear"/>
 
-				<animation property="opacity" to="1" begin="17000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="13000" duration="10" mode="linear"/>
 			</storyboard>
 		</image>
 		
 		<image name="wizard-eyes-flip" extra="true">
 			<path>./wizard-eyes.gif</path>
 
-			<storyboard repeatAt="7000">
+			<storyboard repeat="forever">
 				
-				<animation property="opacity" to="1" begin="6500" duration="10" mode="linear"/>
-				<animation property="opacity" to="0" begin="7000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1000" duration="10" mode="linear"/>
 				
-				<animation property="opacity" to="1" begin="13500" duration="10" mode="linear"/>
-				<animation property="opacity" to="0" begin="14000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="7500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8000" duration="10" mode="linear"/>
 				
-				<animation property="opacity" to="1" begin="16500" duration="10" mode="linear"/>
-				<animation property="opacity" to="0" begin="17000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="10500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
 			</storyboard>
 		</image>
 		
 		<image name="wizard-hand-flip" extra="true">
 			<path>./wizard-hand.gif</path>
 
-			<storyboard repeatAt="7000">
+			<storyboard repeat="forever">
 				
-				<animation property="opacity" to="1" begin="7500" duration="10" mode="linear"/>
-				<animation property="opacity" to="0" begin="8500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2500" duration="10" mode="linear"/>
 				
-				<animation property="opacity" to="1" begin="10500" duration="10" mode="linear"/>
-				<animation property="opacity" to="0" begin="11500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5500" duration="10" mode="linear"/>
 				
-				<animation property="opacity" to="0" begin="17000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
 			</storyboard>
 		</image>
 		
@@ -106,15 +108,15 @@
 		<image name="wizard-fist-flip" extra="true">
 			<path>./wizard-fist-true.gif</path>
 			
-			<storyboard repeatAt="7000">
+			<storyboard repeat="forever">
 				
-				<animation property="opacity" to="1" begin="9000" duration="10" mode="linear"/>
-				<animation property="opacity" to="0" begin="10000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4000" duration="10" mode="linear"/>
 				
-				<animation property="opacity" to="1" begin="12000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="6000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="7000" duration="10" mode="linear"/>
+				
 				<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
-				
-				<animation property="opacity" to="0" begin="17000" duration="10" mode="linear"/>
 			</storyboard>
 		</image>
 		

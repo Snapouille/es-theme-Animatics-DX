@@ -21,7 +21,8 @@
 		<image name="BG_tree" extra="true">
 			<origin>0.5 0.5</origin>									
 			<size>0.3838542 1</size>									
-			<pos>0.1919271 0.5</pos>									
+			<pos>0.1919271 0.44</pos>
+			<pos ifHelpPrompts="false">0.1919271 0.5</pos>
 			<path>./tree.png</path>
 			<linearSmooth>true</linearSmooth>
 			<opacity>0</opacity>

@@ -1,4 +1,13 @@
-## V 2.17 - (xx 01 2025)
+## V 2.18 - (16 02 2025)
+- new PC88 system animation
+- new Amstrad CPC system animation
+- new auto-collection Last Played animation
+- add GP32 handheld in Legendary and Game Carousel views
+- cartridges readjustment in RVGM view
+- readjustment of the correct ratio for collections, fbneo and mame
+
+
+## V 2.17 - (01 02 2025)
 - add the possibility to display 2D (thumbnail) or 3D boxes (boxart) from user gamelist
 
 

@@ -48,15 +48,15 @@
 	
 	
 	
-		<image name="blob1" extra="static">
+		<image name="blob1" extra="true">
 		<visible>false</visible>
 		</image>
 		
-		<image name="blob2" extra="static">
+		<image name="blob2" extra="true">
 		<visible>false</visible>
 		</image>
 		
-		<image name="rebecca1" extra="static">
+		<image name="rebecca1" extra="true">
 			<size>0.1734375 0.7416667</size>									
 			<scale>0.95</scale>
 			<opacity>1</opacity>
@@ -67,29 +67,78 @@
 			<pos>0.78 0.55</pos>	
 			<pos ifHelpPrompts="false">0.78 0.58</pos>	
 
-			<storyboard>
+			<storyboard repeatAt="800">
 				<animation property="scale" to="1" begin="100" duration="500" mode="EaseOut"/>
 				<animation property="offsetY" to="0.01" begin="100" duration="500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" begin="1000" duration="10" mode="Linear"/>
+				<animation property="opacity" to="1" begin="3000" duration="10" mode="Linear"/>
+				
+				<animation property="opacity" to="1" begin="5000" duration="10" mode="Linear"/>
 			</storyboard>
-			
+		</image>
+		
+		
+		<image name="rebecca1bis" extra="true">
+			<size>0.1734375 0.7416667</size>									
+			<scale>0.95</scale>
+			<opacity>1</opacity>
+			<path>./rebecca1bis.png</path>
+			<zIndex>19</zIndex>
+			<opacity>0</opacity>
+			<origin>0.5 0.5</origin>
+			<pos>0.78 0.55</pos>	
+			<pos ifHelpPrompts="false">0.78 0.58</pos>	
+
+			<storyboard repeatAt="800">
+				<animation property="scale" to="1" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="0.01" begin="100" duration="500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+				<animation property="opacity" to="0" begin="3300" duration="10" mode="Linear"/>
+				
+				<animation property="opacity" to="0" begin="5000" duration="10" mode="Linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="rebecca1bis-mouth" extra="true">
+			<opacity>1</opacity>
+			<path>./rebecca1bis-mouth.png</path>
+			<zIndex>19</zIndex>
+			<opacity>0</opacity>
+			<origin>0.5 0.5</origin>
+			<size>0.0151042 0.0175926</size>									
+			<pos>0.8007813 0.2667593</pos>									
+			<pos ifHelpPrompts="false">0.8007813 0.2976852</pos>	
+
+			<storyboard repeatAt="800">
+				<animation property="opacity" to="1" begin="1300" duration="10" mode="Linear"/>
+				<animation property="opacity" to="0" begin="2000" duration="10" mode="Linear"/>
+				
+				<animation property="opacity" to="0" begin="9200" duration="10" mode="Linear"/>
+			</storyboard>
 		</image>
 		
 		
 		
 		
-		<image name="rebecca2" extra="static">
+		
+		
+		
+		<image name="rebecca2" extra="true">
 		<visible>false</visible>
 		</image>
 		
-		<image name="fire" extra="static">
+		<image name="fire" extra="true">
 		<visible>false</visible>
 		</image>
 		
-		<image name="blood" extra="static">
+		<image name="blood" extra="true">
 		<visible>false</visible>
 		</image>
 		
-		<image name="lumiere" extra="static">
+		<image name="lumiere" extra="true">
 		<visible>false</visible>
 		</image>
 		

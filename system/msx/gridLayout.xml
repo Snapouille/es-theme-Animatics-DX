@@ -101,16 +101,16 @@
 		
 		<image name="penguin-gif" extra="true">
 			<size>0.2822917 0.4731481</size>									
-			<pos>-0.2 0.68</pos>
-			<pos ifHelpPrompts="false">-0.2 0.74</pos>	
-			<scale>0.5</scale>
+			<pos>-0.2 0.63</pos>
+			<pos ifHelpPrompts="false">-0.2 0.69</pos>	
+			<scale>0.6</scale>
 			<path>./penguin.gif</path>
 			<zIndex>14</zIndex>
 			<flipX>true</flipX>
 			
 			 <storyboard repeat="forever">
 				<animation property="opacity" to="1" begin="" duration="150" mode="Easein"/>
-				<animation property="x" from="-0.2" to="0.8" begin="" duration="3000" mode="easeIn"/>
+				<animation property="x" from="-0.2" to="0.75" begin="" duration="3000" mode="easeIn"/>
 						
                 <animation property="x" to="0.73" begin="3000" duration="1000" mode="bump"/>
 				<animation property="y" to="0.59" begin="3000" duration="1000" mode="bump"/>

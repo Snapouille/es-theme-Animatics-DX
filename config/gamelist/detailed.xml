@@ -156,6 +156,7 @@
 
 <!-- MD image et MD video qui match ensemble avec le shader -->
 	<image name="md_image"> 
+		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
 		<origin>0.5 0.5</origin>
 		<size>0.3852083 0.4953704</size>									
 		<pos>0.213 0.3</pos>
@@ -176,9 +177,6 @@
 		
 		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.307 0.52</size>									
 		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.255 0.33</pos>	
-
-		<size if="{system.theme} == 'auto-verticalarcade' ">0.2375 0.495</size>									
-		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.25 0.32</pos>	
 		
 		<size if="{system.theme} == 'pokemini'">0.38 0.45</size>									
 		<size if="{system.theme} == 'arduboy' ">0.3852083 0.343</size>									
@@ -199,6 +197,7 @@
 	</image>
 
 	<video name="md_video">
+		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
 		<origin>0.5 0.5</origin>
 		<size>0.3852083 0.4953704</size>									
 		<pos>0.213 0.3</pos>	
@@ -217,9 +216,6 @@
 		
 		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.307 0.52</size>									
 		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.255 0.33</pos>	
-
-		<size if="{system.theme} == 'auto-verticalarcade' ">0.2375 0.495</size>									
-		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.25 0.32</pos>	
 		
 		<size if="{system.theme} == 'pokemini'">0.38 0.45</size>									
 		<size if="{system.theme} == 'arduboy' ">0.3852083 0.343</size>									
@@ -238,6 +234,74 @@
 			<borderColor>${baseColor}</borderColor>
 		</shader>
 	</video>	
+
+
+
+
+	<!-- POUR CONSERVER UN BON RATIO DES IMAGES ET VIDEOS DANS LES COLLECTIONS et FBNEO / MAME-->
+	<image name="md_image_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
+		
+		<zIndex>52</zIndex>
+		<origin>0.5 0.5</origin>	
+		<path>{game:image}</path>
+		<pos>0.2611979 0.3384259</pos>									
+		<maxSize>0.4588542 0.5157407</maxSize>									
+		
+		<storyboard event="open">
+			<animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1000" duration="500" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			 <animation enabled="exists({game:video})" property="opacity" from="1" to="0"  begin="1000" duration="500" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation enabled="exists({game:video})" property="opacity" from="1" to="0"  begin="1000" duration="500" mode="linear"/>
+	   </storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+		<shader>
+			<path>${themePath}/art/shaders/border.glsl</path>
+			<borderSize>0.008</borderSize>
+			<borderColor>${baseColor}</borderColor>
+		</shader>
+	</image>
+
+	<video name="md_video_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
+		<zIndex>52</zIndex>
+		<origin>0.5 0.5</origin>
+		<opacity>0</opacity>
+		<path>{game:video}</path>
+		<pos>0.2611979 0.3384259</pos>									
+		<maxSize>0.4588542 0.5157407</maxSize>									
+		
+		<storyboard event="open">
+			<animation property="opacity" from="0" to="1" begin="1000" duration="500" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			 <animation property="opacity" from="0" to="1"  begin="1000" duration="500" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="opacity" from="0" to="1"  begin="1000" duration="500" mode="linear"/>
+	   </storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+		<shader>
+			<path>${themePath}/art/shaders/border.glsl</path>
+			<borderSize>0.008</borderSize>
+			<borderColor>${baseColor}</borderColor>
+		</shader>
+	</video>
+
+
 
 
 	

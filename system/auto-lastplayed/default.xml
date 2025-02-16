@@ -5,38 +5,17 @@
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<image name="avatar" extra="static">
-			<pos>0.06 -1</pos>
-			<scale>0.55</scale>
-			
-		<!-- <storyboard > -->
-										
-				
-				<!-- <animation property="y" from="-1" to="0.39" begin="2000" duration="175" mode="EaseOut"/> -->
-				<!-- <animation property="rotation" to="3.5" begin="2000" autoreverse="true" duration="300" repeat="forever" mode="linear"/> -->
-    		
-        		
-		<!-- </storyboard> -->
-
-		</image>
+	
+	
 		
-		<image name="avatar2" extra="static">
+		<image name="lightning" extra="static">
 			<origin>0.5 0.5</origin>									
 			<size>0.5083333 0.5092593</size>									
 			<pos>0.3083333 0.3481481</pos>									
-			<path>./avatar2.png</path>
+			<path>./lightning.png</path>
 			<opacity>0</opacity>
 			<zIndex>17</zIndex>
-		</image>
-		
-		
-		<image name="avatar" extra="true">
-					
-		</image>
-		
-		
-		
-		<image name="avatar2" extra="true">
+			
 			<storyboard repeat="forever">
 				<animation property="opacity" to="0" begin="" duration="2000" mode="linear"/>
 				<animation property="opacity" from="0" to="1" begin="2000" duration="10" mode="linear"/>

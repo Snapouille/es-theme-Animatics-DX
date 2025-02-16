@@ -6,13 +6,16 @@
 
 	<view name="system">
 	
+		<image name="lightning" extra="true">
+			<visible>false</visible>
+		</image>
+	
 		<image name="BG_snapLegacy" extra="true">
 			<size>1 1</size>									
 			<pos>0.5 0.44</pos>	<scale>1</scale>	
 			<pos ifHelpPrompts="false">0.5 0.5</pos>	
 			<saturation>0.7</saturation>
 			<path>./background.jpg</path>
-			<!-- <flipX>true</flipX> -->
 			
 			  <storyboard>
 				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
@@ -20,26 +23,250 @@
 		</image>
 		
 	
-		<image name="avatar" extra="true">
-			<origin>0.5 0.5</origin>
-			<size>0.2848958 0.837963</size>									
-			<pos>1.05 0.55</pos>									
-			<path>./avatarM.png</path>
-			<scale>0.9</scale>
+		<image name="avatar-marty" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.1286458 0.6435185</size>									
+			<pos>1.11 0.60</pos>									
+			<pos ifHelpPrompts="false">1.11 0.655</pos>	
+			<path>./avatar-marty.png</path>
+			<flipX>true</flipX>
+			<zIndex>6</zIndex>
 
-			<storyboard>
-				<animation property="offsetX" to="-0.21" begin="100" duration="500" mode="EaseOut"/>
-			</storyboard>
-			
-			<storyboard ifHelpPrompts="false">
-				<animation property="offsetY"  to="0.06"/>
-				<animation property="offsetX" to="-0.21" begin="100" duration="500" mode="EaseOut"/>
+			<storyboard repeatAt="1000">
+				<animation property="offsetX" to="-0.21" begin="200" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="0" 	begin="9000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="18000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="20000" duration="10" mode="linear"/>
 			</storyboard>
 		</image>
 		
-		<image name="avatar2" extra="true">
-		<visible>false</visible>
+		<image name="avatar-marty2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.1286458 0.6435185</size>									
+			<pos>1.11 0.60</pos>									
+			<pos ifHelpPrompts="false">1.11 0.655</pos>	
+			<path>./avatar-marty2.png</path>
+			<flipX>true</flipX>
+			<zIndex>6</zIndex>
+			<opacity>0</opacity>
+			
+
+			<storyboard repeatAt="1000">
+				<animation property="offsetX" to="-0.21" begin="200" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="1" 	begin="9000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="18000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" 	begin="20000" duration="10" mode="linear"/>
+			</storyboard>
 		</image>
+		
+		
+		<image name="avatar-doc" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.209375 0.6907407</size>									
+			<pos>0.99 0.54</pos>	
+			<pos ifHelpPrompts="false">0.99 0.595</pos>	
+			<path>./avatar-doc.png</path>
+			<zIndex>5</zIndex>
+
+			<storyboard repeatAt="1000">
+				<animation property="offsetX" to="-0.21" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="0" 	begin="1000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="1150" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="1300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="1400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="1700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="1750" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="1800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="1900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="2100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="2300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="2500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="2700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="2900" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="3000" duration="10" mode="linear"/>
+				
+				
+				<animation property="opacity" to="0" 	begin="6000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="6150" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="6300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="6400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="6700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="6750" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="6800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="6900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="7100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="7300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="7500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="7700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="7900" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="8000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="20000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-doc2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.209375 0.6907407</size>									
+			<pos>0.99 0.54</pos>	
+			<pos ifHelpPrompts="false">0.99 0.595</pos>	
+			<path>./avatar-doc2.png</path>
+			<zIndex>5</zIndex>
+			<opacity>0</opacity>
+
+			<storyboard repeatAt="1000">
+				<animation property="offsetX" to="-0.21" begin="100" duration="500" mode="EaseOut"/>
+				<animation property="opacity" to="1" 	begin="1000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="1150" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="1300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="1400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="1700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="1750" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="1800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="1900" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="2100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="2300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="2500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="2700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="2900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="3000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="6000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="6150" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="6300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="6400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="6700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="6750" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="6800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="6900" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="7100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="7300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="7500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="7700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="7900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="8000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" 	begin="20000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-doc-eyes" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0234375 0.0148148</size>									
+			<pos>0.8054688 0.2687037</pos>									
+			<pos ifHelpPrompts="false">0.8054688 0.3287037</pos>	
+			<path>./avatar-doc-eyes.png</path>
+			<zIndex>6</zIndex>
+			<opacity>0</opacity>
+
+			<storyboard repeatAt="1000">
+				<animation property="opacity" to="1" 	begin="1300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="1400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="2100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="2300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="2900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="3000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="4000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="4500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="6000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="6300" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="8300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="8400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="9100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="9300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" 	begin="9900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="10000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="12000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="12500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="15000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="15300" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" 	begin="20000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-doc-mouth" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.0177083 0.025</size>									
+			<pos>0.8072917 0.3043519</pos>									
+			<pos ifHelpPrompts="false">0.8072917 0.3643519</pos>	
+			<path>./avatar-doc-mouth.gif</path>
+			<zIndex>6</zIndex>
+			<opacity>0</opacity>
+
+			<storyboard repeatAt="1000">
+				<animation property="opacity" to="1" 	begin="3300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="4000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="1" 	begin="8300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" 	begin="9500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" 	begin="20000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-bulle" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.1041667 0.1685185</size>									
+			<pos>0.76 0.19</pos>									
+			<pos ifHelpPrompts="false">0.76 0.25</pos>	
+			<path>./avatar-bulle.png</path>
+			<path>./avatar-bulle-${lang}.png</path>
+			<zIndex>4</zIndex>
+			<scale>0.9</scale>
+			<opacity>0</opacity>
+
+			<storyboard repeatAt="1000">
+				<animation property="opacity" to="1" 		begin="3300" duration="300"  mode="linear"/>
+				<animation property="offsetX" to="-0.025" 	begin="3300" duration="200"  mode="linear"/>
+				<animation property="offsetY" to="-0.02" 	begin="3300" duration="150"   mode="bump"/>
+				<animation property="scale" to="1" 			begin="3300" duration="150"  mode="easeInOut"/>
+				
+				<animation property="opacity" to="0" 		begin="6000" duration="200" 	mode="linear"/>
+				<animation property="scale" to="0.9" 		begin="6000" duration="200"  	mode="linear"/>
+				<animation property="offsetX" to="-0.01" 	begin="6000" duration="200"  	mode="linear"/>
+				<animation property="offsetY" to="-0.01" 	begin="6000" duration="200"   	mode="bump"/>
+				
+				<animation property="opacity" to="0" 	begin="20000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-bulle2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.1041667 0.1685185</size>									
+			<pos>0.753 0.18</pos>									
+			<pos ifHelpPrompts="false">0.753 0.23</pos>	
+			<path>./avatar-bulle2.png</path>
+			<path>./avatar-bulle2-${lang}.png</path>
+			<zIndex>10000</zIndex>
+			<scale>1.1</scale>
+			<opacity>0</opacity>
+
+			<storyboard repeatAt="1000">
+				<animation property="opacity" to="1" 		begin="8300" duration="300"  mode="linear"/>
+				<animation property="offsetX" to="-0.025" 	begin="8300" duration="200"  mode="linear"/>
+				<animation property="offsetY" to="-0.02" 	begin="8300" duration="150"   mode="bump"/>
+				<animation property="scale" to="1.2" 		begin="8300" duration="150"  mode="easeInOut"/>
+				
+				<animation property="opacity" to="0" 		begin="12000" duration="200" 	mode="linear"/>
+				<animation property="scale" to="1.1" 			begin="12000" duration="200"  	mode="linear"/>
+				<animation property="offsetX" to="-0.01" 	begin="12000" duration="200"  	mode="linear"/>
+				<animation property="offsetY" to="-0.01" 	begin="12000" duration="200"   	mode="bump"/>
+				
+				<animation property="opacity" to="0" 		begin="20000" duration="10" mode="linear"/>
+			</storyboard>
+		</image>
+		
 		
 	</view>
 

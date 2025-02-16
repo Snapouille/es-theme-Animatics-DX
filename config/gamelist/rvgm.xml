@@ -25,7 +25,10 @@
 		<maxSize>0.18 0.15</maxSize>									
 	</image>
 
+
+
 	<image name="md_image"> 
+		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
 		<size>0.334375 0.4148148</size>									
 		<pos>0.53 0.45</pos>
 
@@ -58,6 +61,7 @@
 	</image>
 
 	<video name="md_video">
+		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
 		<size>0.334375 0.4148148</size>									
 		<pos>0.53 0.45</pos>	
 		
@@ -87,7 +91,23 @@
 		
 		<size if="{system.theme} == 'arduboy' ">0.334375 0.298</size>	
 		<pos  if="{system.theme} == 'arduboy' ">0.53 0.45</pos>		
-	</video>	
+	</video>		
+	
+	<!-- POUR CONSERVER UN BON RATIO DES IMAGES ET VIDEOS DANS LES COLLECTIONS et FBNEO / MAME-->
+	<image name="md_image_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
+		<pos>0.5296875 0.449537</pos>									
+		<maxSize>0.334375 0.4157407</maxSize>									
+	</image>
+
+	<video name="md_video_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
+		<pos>0.5296875 0.449537</pos>									
+		<maxSize>0.334375 0.4157407</maxSize>									
+	</video>
+	
+	
+	
+	
+	
 	
 	<text name="md_description">
 		<origin>0.5 0.5</origin>									
@@ -124,29 +144,43 @@
 	</image>
 	
 	
-
 	
 	
-	<!-- Système avec une cartouche taille normale -->	
+	
+		<!-- Système avec une cartouche taille normale -->	
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
 		<path>{game:cartridge}</path>
-		<origin>0.5 0.5</origin>									
-		<pos>0.27 -0.1</pos>									
+		<origin>0.5 0.5</origin>
+		<pos>0.275 -0.1</pos>
+		<!-- <pos ifHelpPrompts="false">0.151 0.2115</pos>		 -->
 		<maxSize>0.195 0.195</maxSize>									
 		<linearSmooth>true</linearSmooth>
 		<opacity>0</opacity>
 		<zIndex>800</zIndex> 
+		<!-- <scale>1.20</scale> -->
 		<storyboard event="open">   
-			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
-			<animation property="offsetY" to="0.7" begin="1600" duration="800" mode="EaseInOut"/>
+			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.66" 						begin="2000" duration="800" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.66" 	begin="16500" duration="700" mode="EaseOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
-			<animation property="offsetY" to="0.7" begin="1600" duration="800" mode="EaseInOut"/>
+			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.66" 						begin="2000" duration="800" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.66" 	begin="16500" duration="700" mode="EaseOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
-			<animation property="offsetY" to="0.7" begin="1600" duration="800" mode="EaseInOut"/>
+			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.66" 						begin="2000" duration="800" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.66" 	begin="16500" duration="700" mode="EaseOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" mode="linear"/>
@@ -156,6 +190,548 @@
 		</storyboard>
     </image>
 	
+	<!-- Système avec un CD taille normale qui tourne -->
+	<image name="cartridge_ID" if="{system.theme} == 'windows' ||
+								   {system.theme} == 'wiiu' ||
+								   {system.theme} == 'ps3' ||
+								   {system.theme} == 'xbox360' " extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.24 -0.090559</pos>
+		<!-- <pos ifHelpPrompts="false">0.151 0.2115</pos>	 -->
+		<maxSize>0.295 0.295</maxSize>
+		<zIndex>800</zIndex>
+		<!-- <scale>1.20</scale> -->
+		<storyboard event="open">   
+			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0"		begin="7600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>	
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
+	
+		<!-- Système avec un CD taille normale qui tourne -->
+	<image name="cartridge_ID" if="{system.theme} == '3do' || 
+								   {system.theme} == 'amigacd32' ||
+								   {system.theme} == 'amigacdtv' || 
+								   {system.theme} == 'atarijaguarcd' || 
+								   {system.theme} == 'cdi' ||
+								   {system.theme} == 'dreamcast' || 
+								   {system.theme} == 'fmtowns' || 								   
+								   {system.theme} == 'neogeocd' || 
+								   {system.theme} == 'pce-cd' || 
+								   {system.theme} == 'pcfx' || 
+								   {system.theme} == 'psx' || 
+								   {system.theme} == 'saturn' || 
+								   {system.theme} == 'segacd' || 
+								   {system.theme} == 'snes-msu1' || 
+								   {system.theme} == 'daphne' ||								   
+								   {system.theme} == 'gc' || 				   
+								   {system.theme} == 'naomi' ||
+								   {system.theme} == 'naomi2' ||
+								   {system.theme} == 'ps2' || 
+								   {system.theme} == 'singe' ||	
+								   {system.theme} == 'triforce' || 
+								   {system.theme} == 'wii' ||  
+								   {system.theme} == 'xbox' " extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.265 -0.090559</pos>
+		<!-- <pos ifHelpPrompts="false">0.151 0.2115</pos>	 -->
+		<maxSize>0.312 0.312</maxSize>
+		<zIndex>800</zIndex>
+		<!-- <scale>1.20</scale> -->
+		<storyboard event="open">   
+			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0"		begin="7600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>	
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
+	
+	<!---------------------------------------------------------------------------------->
+
+		<!-- Adventure Vision -->
+	<image name="cartridge_ID"  if="{system.theme} == 'advision' " extra="true">
+		<maxSize>0.207350 -0.032281</maxSize>
+		<pos>0.289163 -0.032281</pos>						
+    </image>
+		
+		<!-- GBA -->
+	<image name="cartridge_ID" if="{system.theme} == 'gba' " extra="true">
+		<maxSize>0.195000 0.113750</maxSize>
+		<pos>0.292250 -0.036685</pos>		
+    </image>
+	
+		<!-- Commodore VIC-20 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'c20' " extra="true">
+		<maxSize>0.307190 0.174590</maxSize>
+		<pos>0.264203 -0.056306</pos>						
+    </image>
+	
+		<!-- WonderSwan / WonderSwan Color -->
+	<image name="cartridge_ID" if="{system.theme} == 'wonderswan' ||
+								   {system.theme} == 'wonderswancolor' " extra="true">
+		<maxSize>0.207350 0.128808</maxSize>
+		<pos>0.289163 -0.041541</pos>									
+    </image>
+		
+		<!-- AMSTRAD CPC / Acorn Electron / Astrocade / Atom / BBC Micro / Camputers Lynx / Commodore PET / Laser 310 / Sharp X1 / ZX81 /
+		MSX TURBOR / MSX / MSX 1 / MSX 2 / MSX 2+ / ADAM / COLECOVISION / ZX SPECTRUM / COMMODORE 128 / COMMODORE 64 / COMMODORE PLUS 4 / Casio PV-1000 -->
+	<image name="cartridge_ID" if="{system.theme} == 'amstradcpc' ||
+								   {system.theme} == 'electron' ||
+								   {system.theme} == 'astrocade' ||
+								   {system.theme} == 'atom' ||
+								   {system.theme} == 'bbcmicro' ||
+								   {system.theme} == 'camplynx' ||
+								   {system.theme} == 'pet' ||
+								   {system.theme} == 'laser310' ||
+								   {system.theme} == 'x1' ||
+								   {system.theme} == 'zx81' ||
+								   {system.theme} == 'msxturbor' ||	
+								   {system.theme} == 'msx' ||	
+								   {system.theme} == 'msx1' ||	
+								   {system.theme} == 'msx2' ||	
+								   {system.theme} == 'msx2+' ||
+								   {system.theme} == 'adam' ||	
+								   {system.theme} == 'colecovision' ||
+								   {system.theme} == 'zxspectrum' ||		
+								   {system.theme} == 'c128' ||
+								   {system.theme} == 'c64' ||
+								   {system.theme} == 'cplus4' ||
+								   {system.theme} == 'pv1000' " extra="true">
+		<maxSize>0.163800 0.260000</maxSize>	<!-- VALEURS VOLONTAIREMENT INVERSEES -->	
+		<pos>0.276000 -0.052826</pos>				
+    </image>
+	
+		<!-- MASTER SYSTEM / MEGADRIVE / Tutor / MSU-MD / TI-99 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'mastersystem' ||
+								    {system.theme} == 'megadrive' ||	
+									{system.theme} == 'tutor' ||	
+									{system.theme} == 'msu-md' ||
+									{system.theme} == 'ti99' " extra="true">
+		<maxSize>0.271440 0.173420</maxSize>	
+		<pos>0.273140 -0.055929</pos>			
+    </image>
+	
+		<!-- SEGA 32X -->
+	<image name="cartridge_ID" if="{system.theme} == 'sega32x' " extra="true">
+		<maxSize>0.274170 0.177840</maxSize>
+		<pos>0.272458 -0.057354</pos>		
+    </image>
+	
+		<!-- N64 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'n64' " extra="true">
+		<maxSize>0.281493 0.185883</maxSize>
+		<pos>0.270627 -0.059948</pos>			
+    </image>
+	
+		<!-- SNES -->
+	<image name="cartridge_ID"  if="{system.theme} == 'snes' " extra="true">
+		<maxSize>0.288925 0.195650</maxSize>		
+		<pos>0.266769 -0.063098</pos>
+    </image>
+	
+		<!-- SATELLAVIEW -->
+	<image name="cartridge_ID"  if="{system.theme} == 'satellaview'	" extra="true">
+		<maxSize>0.16853373 0.26722734</maxSize>
+		<pos>0.268454 -0.101325</pos>						
+    </image>
+	
+		<!-- Color Computer / Super A'Can / Interton VC 4000 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'coco' ||
+								    {system.theme} == 'supracan' ||	
+									{system.theme} == 'vc4000' " extra="true">
+		<maxSize>0.271440 0.191013</maxSize>	
+		<pos>0.273140 -0.061602</pos>								
+    </image>
+	
+		<!-- NEO GEO MVS -->
+	<image name="cartridge_ID" if="{system.theme} == 'neogeo' " extra="true">
+		<maxSize>0.364000 0.279067</maxSize>	
+		<pos>0.250 -0.09</pos>	
+    </image>
+	
+		<!-- Neo-Geo Pocket / Neo-Geo Pocket Color -->
+	<image name="cartridge_ID"  if="{system.theme} == 'ngp' ||	
+									{system.theme} == 'ngpc' " extra="true">
+		<maxSize>0.185467 0.155861</maxSize>	
+		<pos>0.294633 -0.050266</pos>			
+    </image>
+	
+		<!-- JAGUAR -->
+	<image name="cartridge_ID"  if="{system.theme} == 'atarijaguar' " extra="true">
+		<maxSize>0.264453 0.217904</maxSize>
+		<pos>0.274887 -0.070275</pos>		
+    </image>
+	
+		<!-- Pokémon Mini -->
+	<image name="cartridge_ID"  if="{system.theme} == 'pokemini' " extra="true">
+		<maxSize>0.131430 0.127452</maxSize>
+		<pos>0.308143 -0.041104</pos>						
+    </image>
+	
+		<!-- Game.com -->
+	<image name="cartridge_ID"  if="{system.theme} == 'gamecom' " extra="true">
+		<maxSize>0.155068 0.147333</maxSize>
+		<pos>0.302233 -0.047516</pos>						
+    </image>
+	
+		<!-- Game Master -->
+	<image name="cartridge_ID"  if="{system.theme} == 'gmaster' " extra="true">
+		<maxSize>0.175175 0.157300</maxSize>
+		<pos>0.297206 -0.050730</pos>						
+    </image>
+	
+		<!-- Game Pocket Computer -->
+	<image name="cartridge_ID"  if="{system.theme} == 'gamepock' " extra="true">
+		<maxSize>0.197639 0.184984</maxSize>
+		<pos>0.291590 -0.059658</pos>						
+    </image>
+
+		<!-- Epoch Super Cassette Vision / Virtual Boy -->
+	<image name="cartridge_ID" if="{system.theme} == 'scv' ||
+								   {system.theme} == 'virtualboy' " extra="true">
+		<maxSize>0.213584 0.199661</maxSize>	
+		<pos>0.287604 -0.064391</pos>		
+    </image>
+		
+		<!-- ATOMISWAVE -->
+	<image name="cartridge_ID"  if="{system.theme} == 'atomiswave' " extra="true">
+		<maxSize>0.257400 0.239200</maxSize>	
+		<pos>0.276650 -0.077143</pos>		
+    </image>
+		
+		<!-- Atari 5200 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'atari5200' " extra="true">
+		<maxSize>0.275427 0.255753</maxSize>
+		<pos>0.272143 -0.082481</pos>								
+    </image>
+		
+		<!-- Supervision -->
+	<image name="cartridge_ID"  if="{system.theme} == 'supervision' " extra="true">
+		<maxSize>0.185987 0.190957</maxSize>
+		<pos>0.290392 -0.071899</pos>								
+    </image>
+	
+		<!-- PSP -->
+	<image name="cartridge_ID" if="{system.theme} == 'psp' " extra="true">
+		<maxSize>0.202453 0.202453</maxSize>
+		<pos>0.261275 -0.076228</pos>		
+    </image>
+	
+		<!-- GAME GEAR -->
+	<image name="cartridge_ID" if="{system.theme} == 'gamegear' " extra="true">
+		<maxSize>0.202453 0.202453</maxSize>
+		<pos>0.286275 -0.076228</pos>		
+    </image>
+		
+		<!-- Socrates -->
+	<image name="cartridge_ID"  if="{system.theme} == 'socrates' " extra="true">
+		<maxSize>0.212333 0.212333</maxSize>
+		<pos>0.283805 -0.079948</pos>								
+    </image>
+	
+		<!-- Vectrex -->
+	<image name="cartridge_ID" if="{system.theme} == 'vectrex'  " extra="true">
+		<maxSize>0.212667 0.220909</maxSize>
+		<pos>0.283722 -0.083177</pos>		
+    </image>
+	
+		<!-- GAMECUBE -->
+	<image name="cartridge_ID" if="{system.theme} == 'gc'  " extra="true">
+		<maxSize>0.21632 0.21632</maxSize>		
+		<pos>0.282808 -0.081449</pos>		
+    </image>
+
+		<!-- V.Smile / GX4000 -->
+	<image name="cartridge_ID" if="{system.theme} == 'vsmile' ||
+								   {system.theme} == 'gx4000' " extra="true">
+		<maxSize>0.224640 0.229299</maxSize>
+		<pos>0.280728 -0.086336</pos>									
+    </image>
+	
+		<!-- Amiga AGA / AMIGA / Amiga OCS/ECS / Archimedes / Atari ST / Macintosh / SAM Coupé -->
+	<image name="cartridge_ID"  if="{system.theme} == 'amiga1200' ||	
+									{system.theme} == 'amiga' ||
+									{system.theme} == 'amiga500' ||	
+									{system.theme} == 'archimedes' ||	
+									{system.theme} == 'atarist' ||	
+									{system.theme} == 'macintosh' ||	
+									{system.theme} == 'samcoupe' " extra="true">
+		<maxSize>0.235950 0.244339</maxSize>
+		<pos>0.277901 -0.091999</pos>
+    </image>
+	
+		<!-- APF M-1000 -->
+	<image name="cartridge_ID" if="{system.theme} == 'apfm1000'  " extra="true">
+		<maxSize>0.241605 0.250553</maxSize>
+		<pos>0.276487 -0.094338</pos>						
+    </image>
+	
+		<!-- Nintendo 64 Disk Drive -->
+	<image name="cartridge_ID" if="{system.theme} == 'n64dd'  " extra="true">
+		<maxSize>0.257794 0.264586</maxSize>
+		<pos>0.272440 -0.099622</pos>						
+    </image>
+	
+		<!-- Super Game Boy -->
+	<image name="cartridge_ID" if="{system.theme} == 'sgb'  " extra="true">
+		<maxSize>0.283920 0.292933</maxSize>
+		<pos>0.265908 -0.110295</pos>						
+    </image>
+	
+		<!-- Apple II / Apple IIGS / Dos/ FM-7 / PC-8800 / PC-9800 / Sharp X68000 / Tandy Video Information System / Thomson MO/TO-->
+	<image name="cartridge_ID"  if="{system.theme} == 'apple2' ||	
+									{system.theme} == 'apple2gs' ||	
+									{system.theme} == 'pc' ||	
+									{system.theme} == 'fm7' ||	
+									{system.theme} == 'pc88' ||	
+									{system.theme} == 'pc98' ||	
+									{system.theme} == 'x68000' ||	
+									{system.theme} == 'vis' ||	
+									{system.theme} == 'thomson' " extra="true">
+		<maxSize>0.290184 0.290184</maxSize>
+		<pos>0.264342 -0.109260</pos>
+    </image>
+	
+		<!-- 3DS / NDS -->
+	<image name="cartridge_ID"  if="{system.theme} == '3ds' ||
+									{system.theme} == 'nds' " extra="true">
+		<maxSize>0.127270 0.134983</maxSize>	
+		<pos>0.305071 -0.050824</pos>		
+    </image>
+	
+		<!-- ATARI LYNX -->
+	<image name="cartridge_ID" if="{system.theme} == 'atarilynx' " extra="true">
+		<maxSize>0.185987 0.195607</maxSize>
+		<pos>0.290392 -0.073650</pos>	
+    </image>
+	
+		<!-- Game Boy / Game Boy (2 players) / Game Boy Color / Game Boy Color (2 players) -->
+	<image name="cartridge_ID" if="{system.theme} == 'gb' ||	
+									{system.theme} == 'gb2players' ||	
+									{system.theme} == 'gbc' ||	
+									{system.theme} == 'gbc2players' " extra="true">	
+		<maxSize>0.177840 0.202800</maxSize>
+		<pos>0.292428 -0.076358</pos>
+    </image>
+	
+		<!-- Family Computer Disk System -->
+	<image name="cartridge_ID" if="{system.theme} == 'fds' " extra="true">
+		<maxSize>0.211467 0.243187</maxSize>
+		<pos>0.284022 -0.091565</pos>								
+    </image>
+	
+		<!-- NES -->
+	<image name="cartridge_ID" if="{system.theme} == 'nes' " extra="true">
+		<maxSize>0.265200 0.296140</maxSize>
+		<pos>0.270588 -0.111503</pos>	
+    </image>
+
+		<!-- GP32 -->
+	<image name="cartridge_ID" if="{system.theme} == 'gp32' " extra="true">
+		<maxSize>0.132275 0.160875</maxSize>
+		<pos>0.303820 -0.060573</pos>								
+    </image>
+		
+		<!-- Mega Duck / Cougar Boy -->
+	<image name="cartridge_ID" if="{system.theme} == 'megaduck' " extra="true">
+		<maxSize>0.174034 0.205670</maxSize>
+		<pos>0.293380 -0.077439</pos>	
+    </image>
+	
+		<!-- Atari 800 / Atari 8 Bit / Spectravideo SV-328 / Atari XE Game System / CreatiVision -->
+	<image name="cartridge_ID"  if="{system.theme} == 'atari800' ||	
+									{system.theme} == 'atari8bit' ||	
+									{system.theme} == 'spectravideo' ||	
+									{system.theme} == 'xegs' ||
+									{system.theme} == 'crvision' " extra="true">
+		<maxSize>0.185337 0.223643</maxSize>
+		<pos>0.290554 -0.084206</pos>								
+    </image>
+	
+		<!-- Atari 2600 / Atari 7800 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'atari2600' ||	
+									{system.theme} == 'atari7800' " extra="true">
+		<maxSize>0.211423 0.248809</maxSize>
+		<pos>0.284033 -0.093682</pos>							
+    </image>
+	
+		<!-- Sega Pico -->
+	<image name="cartridge_ID" if="{system.theme} == 'pico' " extra="true">
+		<maxSize>0.295444 0.364000</maxSize>
+		<pos>0.263027 -0.137053</pos>								
+    </image>
+	
+		<!-- SuFami Turbo -->
+	<image name="cartridge_ID" if="{system.theme} == 'sufami' " extra="true">
+		<maxSize>0.164450 0.215280</maxSize>
+		<pos>0.295776 -0.081057</pos>								
+    </image>
+	
+		<!-- Mattel Intellivision -->
+	<image name="cartridge_ID" if="{system.theme} == 'intellivision' " extra="true">
+		<maxSize>0.182693 0.236427</maxSize>
+		<pos>0.291215 -0.089019</pos>								
+    </image>
+		
+		<!-- SG-1000 / Othello Multivision -->
+	<image name="cartridge_ID"  if="{system.theme} == 'sg-1000' ||
+									{system.theme} == 'multivision' " extra="true">
+		<maxSize>0.207554 0.265590</maxSize>	
+		<pos>0.285 -0.10</pos>	
+    </image>
+	
+		<!-- PS VITA -->
+	<image name="cartridge_ID"  if="{system.theme} == 'psvita' " extra="true">
+		<maxSize>0.092950 0.126750</maxSize>
+		<pos>0.288651 -0.047724</pos>
+    </image>	
+	
+		<!-- Channel-F -->
+	<image name="cartridge_ID"  if="{system.theme} == 'channelf' " extra="true">
+		<maxSize>0.227791 0.313513</maxSize>
+		<pos>0.279941 -0.118044</pos>								
+    </image>	
+	
+		<!-- SWITCH -->
+	<image name="cartridge_ID"  if="{system.theme} == 'switch' " extra="true">
+		<maxSize>0.088725 0.130975</maxSize>	
+		<pos>0.294707 -0.049315</pos>	
+    </image>	
+	
+		<!-- Arcadia 2001 -->
+	<image name="cartridge_ID"  if="{system.theme} == 'arcadia' " extra="true">
+		<maxSize>0.203296 0.310743</maxSize>
+		<pos>0.286064 -0.117001</pos>								
+    </image>	
+	
+		<!-- PC Engine / SuperGrafx -->
+	<image name="cartridge_ID" if="{system.theme} == 'pcengine' ||
+								   {system.theme} == 'supergrafx' " extra="true">
+		<maxSize>0.146413 0.232050</maxSize>
+		<pos>0.300285 -0.087372</pos>	
+    </image>	
+	
+		<!-- Gamate -->
+	<image name="cartridge_ID"  if="{system.theme} == 'gamate' " extra="true">
+		<maxSize>0.147147 0.233552</maxSize>
+		<pos>0.300102 -0.087937</pos>								
+    </image>	
+	
+		<!-- Odyssey 2 / Videopac+ G7400 -->
+	<image name="cartridge_ID" if="{system.theme} == 'odyssey2' ||
+								   {system.theme} == 'videopacplus' " extra="true">
+		<maxSize>0.182000 0.288925</maxSize>
+		<pos>0.291388 -0.108786</pos>
+    </image>	
+
+		<!-- on masque les cartridges si on est dans une collection -->
+	<image name="cartridge_ID" if="{system.sortedBy} == 'Collections' || 
+								   {system.theme} == 'mess' || 
+								   {system.theme} == 'ports'">
+		<visible>false</visible>
+    </image>
+
+		<!-- SYSTEMES DIVERS - SUPPORT NUMERISES OU ARCADE -->
+		<!-- SEGA SYSTEM SP / CHIHIRO / SOLARUS / NAMCO 2X6 / COMMANDER GENIUS / STEAM / LCD GAMES / PLUG N PLAY / FLASH / FINAL BURN NEO / UZEBOX / FUTURE PINBALL / PDP-1 / EASY RPG  -->
+		<!-- MUGEN / IKEMEN / PICO 8 / TIC-80 / LOWRES NX / PYXEL / WASM 4 / ARDUBOY / SCUMMVM / MOONLIGHT / OPEN BOR / ZELDA CLASSIC / PYGAME / VIRTUA PINBALL / MODEL 2 / MODEL 3 / THE X TECH -->
+	<!-- <image name="cartridge_ID"  if="{system.theme} == 'systemsp' ||	 -->
+									<!-- {system.theme} == 'chihiro' ||	 -->
+									<!-- {system.theme} == 'solarus' ||	 -->
+									<!-- {system.theme} == 'namco2x6' ||	 -->
+									<!-- {system.theme} == 'cgenius' ||	 -->
+									<!-- {system.theme} == 'steam' ||	 -->
+									<!-- {system.theme} == 'lcdgames' ||	 -->
+									<!-- {system.theme} == 'vgmplay' ||	 -->
+									<!-- {system.theme} == 'plugnplay' ||	 -->
+									<!-- {system.theme} == 'flash' || -->
+									<!-- {system.theme} == 'fbneo' || -->
+									<!-- {system.theme} == 'uzebox' || -->
+									<!-- {system.theme} == 'fpinball' || -->
+									<!-- {system.theme} == 'pdp1' || -->
+									<!-- {system.theme} == 'easyrpg' || -->
+									<!-- {system.theme} == 'mugen' || -->
+									<!-- {system.theme} == 'ikemen' || -->
+									<!-- {system.theme} == 'pico8' || -->
+									<!-- {system.theme} == 'tic80' || -->
+									<!-- {system.theme} == 'lowresnx' || -->
+									<!-- {system.theme} == 'pyxel' || -->
+									<!-- {system.theme} == 'wasm4' || -->
+									<!-- {system.theme} == 'arduboy' || -->
+									<!-- {system.theme} == 'scummvm' || -->
+									<!-- {system.theme} == 'moonlight' || -->
+									<!-- {system.theme} == 'openbor' || -->
+									<!-- {system.theme} == 'zeldac' || -->
+									<!-- {system.theme} == 'pygame' || -->
+									<!-- {system.theme} == 'vpinball' || -->
+									<!-- {system.theme} == 'model2' || -->
+									<!-- {system.theme} == 'model3' || -->
+									<!-- {system.theme} == 'thextech' " extra="true"> -->
+		<!-- <pos>0.235 0.515</pos> -->
+		<!-- <maxSize>0.22 0.22</maxSize>	 -->
+    <!-- </image> -->
+
+	<!---------------------------------------------------------------------------------->	
 	
 	
 	

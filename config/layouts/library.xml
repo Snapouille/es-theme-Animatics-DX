@@ -152,9 +152,9 @@
 	</text> 
 	
 	<textlist name="gamelist">
-      <pos>-1 0</pos>
-	  <pos ifHelpPrompts="false">-1 0</pos>	
-      <size>0.01 0.01</size>
+	  <origin>0 0</origin>									
+      <pos>0.08 0.55</pos>
+      <size>0.4 0.35</size>
     </textlist>
 	
 	<text name="label-library" extra="true">
