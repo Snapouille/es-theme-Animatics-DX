@@ -240,6 +240,12 @@
 
 <customView name="fanart">
 
+		<image name="game_imagepreview">
+			<visible>false</visible>
+		</image>
+
+
+
     <image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
 		<origin>0.5 0.5</origin>
         <pos>0.7175 0.175</pos>
@@ -264,6 +270,12 @@
     </image>
 
 </customView>
+
+
+
+
+
+
 
 
 

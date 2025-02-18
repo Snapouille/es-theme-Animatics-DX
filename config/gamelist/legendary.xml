@@ -29,7 +29,14 @@ originally based on: "carbon"
 	<image name="up_BottomFrame, down_BottomFrame, left_BottomFrame, right_BottomFrame, black_BottomFrame" extra="true">
 		<visible>true</visible>
 	</image>
+	
+	<image name="md_image_new">
+		<visible>false</visible>
+    </image>
 
+	<video name="md_video_new">
+		<visible>false</visible>
+	</video>
 
 
 
@@ -444,6 +451,7 @@ originally based on: "carbon"
 			<borderSize>0</borderSize>
 			<borderColor>${baseColor}</borderColor>
 		</shader>
+		<visible>true</visible>
 
 		<pos>0.718 0.3897</pos>
 		<!-- <maxSize>0.32 0.32</maxSize> -->

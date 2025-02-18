@@ -1,3 +1,7 @@
+## V 2.19 - (18 02 2025)
+- video bug fixes for legendary and videofull views
+
+
 ## V 2.18 - (16 02 2025)
 - new PC88 system animation
 - new Amstrad CPC system animation
