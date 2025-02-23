@@ -25,8 +25,6 @@
 		<maxSize>0.18 0.15</maxSize>									
 	</image>
 
-
-
 	<image name="md_image"> 
 		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
 		<size>0.334375 0.4148148</size>									
@@ -121,12 +119,39 @@
 		<zIndex>30</zIndex>
 	</text>
 
+
+
+
      <image name="thumbnail_ID" extra="true">
 		<pos>0.185 0.38</pos>
 		<maxSize>0.321 0.657</maxSize>
 		<verticalAlignment>center</verticalAlignment>
 		<horizontalAlignment>left</horizontalAlignment>
-	</image>
+		<storyboard ifSubset="boxbackDisplay:Show" event="activate">        
+			<animation enabled="exists({game:boxback})" property="scale" to="0.8" 	begin="10000" 	duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" 	begin="10140" 	duration="10" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" 	begin="18000"  	duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 	begin="18000" 	duration="10" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="boxbackDisplay:Show" event="activateNext">        
+			<animation enabled="exists({game:boxback})" property="scale" to="0.8" 	begin="10000" 	duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" 	begin="10140" 	duration="10" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" 	begin="18000"  	duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 	begin="18000" 	duration="10" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="boxbackDisplay:Show" event="activatePrev">        
+			<animation enabled="exists({game:boxback})" property="scale" to="0.8" 	begin="10000" 	duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" 	begin="10140" 	duration="10" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" 	begin="18000"  	duration="150" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" 	begin="18000" 	duration="10" mode="linear"/>
+		</storyboard>      
+		<storyboard ifSubset="boxbackDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="0" duration="10" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="boxbackDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="0" duration="10" mode="linear"/>
+		</storyboard>
+    </image>
 	
      <image name="boxback_ID" ifSubset="boxbackDisplay:Show" extra="true">
 		<pos>0.185 0.38</pos>
@@ -135,18 +160,38 @@
 		<horizontalAlignment>left</horizontalAlignment>
 		<opacity>0</opacity>
 		<zIndex>31</zIndex>
-	</image>
+		<storyboard event="activate">        
+			<animation property="scale" to="1" begin="10000" duration="150" mode="linear"/>
+			<animation property="opacity" to="1" begin="10000" duration="150" mode="linear"/>
+			<animation property="scale" to="0.8" begin="18000" duration="150" mode="linear"/>
+			<animation property="opacity" to="0" begin="18000" duration="150" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">        
+			<animation property="scale" to="1" begin="10000" duration="150" mode="linear"/>
+			<animation property="opacity" to="1" begin="10000" duration="150" mode="linear"/>
+			<animation property="scale" to="0.8" begin="18000" duration="150" mode="linear"/>
+			<animation property="opacity" to="0" begin="18000" duration="150" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">        
+			<animation property="scale" to="1" begin="10000" duration="150" mode="linear"/>
+			<animation property="opacity" to="1" begin="10000" duration="150" mode="linear"/>
+			<animation property="scale" to="0.8" begin="18000" duration="150" mode="linear"/>
+			<animation property="opacity" to="0" begin="18000" duration="150" mode="linear"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
 	
-	<!-- on diminu un peu la largeur du maxsize quand il s'agit de jeux en 16/9ème -->
+	<!-- on diminue un peu la largeur du maxsize quand il s'agit de jeux en 16/9ème -->
      <image name="thumbnail_ID, boxback_ID" if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360'" extra="true">
 		<pos>0.165 0.38</pos>
 		<maxSize>0.281 0.657</maxSize>
 	</image>
-	
-	
-	
-	
-	
+		
 		<!-- Système avec une cartouche taille normale -->	
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
 		<path>{game:cartridge}</path>
@@ -159,28 +204,28 @@
 		<zIndex>800</zIndex> 
 		<!-- <scale>1.20</scale> -->
 		<storyboard event="open">   
-			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
-			<animation property="offsetY" from="-0.40" to="0.66" 						begin="2000" duration="800" mode="EaseOut"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="0.66" 	begin="16500" duration="700" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.66" begin="2000" duration="800" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" begin="9000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="9600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="18500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.66" begin="18500" duration="700" mode="EaseOut"/>
 		</storyboard>
 		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
-			<animation property="offsetY" from="-0.40" to="0.66" 						begin="2000" duration="800" mode="EaseOut"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="0.66" 	begin="16500" duration="700" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.66" begin="2000" duration="800" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" begin="9000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="9600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="18500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.66" begin="18500" duration="700" mode="EaseOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
-			<animation property="offsetY" from="-0.40" to="0.66" 						begin="2000" duration="800" mode="EaseOut"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="0.66" 	begin="16500" duration="700" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.66" begin="2000" duration="800" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" begin="9000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="9600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="18500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.66" begin="18500" duration="700" mode="EaseOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" mode="linear"/>
@@ -202,34 +247,34 @@
 		<zIndex>800</zIndex>
 		<!-- <scale>1.20</scale> -->
 		<storyboard event="open">   
-			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
-			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
-			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0"		begin="7600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>	
+			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2500" duration="15000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" begin="9000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="9600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="18500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  begin="18500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  begin="19000" duration="30000" mode="EaseInOut"/>		
 		</storyboard>
 		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
-			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
-			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>
+			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2500" duration="15000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" begin="9000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="9600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="18500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  begin="18500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  begin="19000" duration="30000" mode="EaseInOut"/>	
 		</storyboard>
 		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
-			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
-			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>
+			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2500" duration="15000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" begin="9000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="9600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="18500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  begin="18500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  begin="19000" duration="30000" mode="EaseInOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -270,34 +315,34 @@
 		<zIndex>800</zIndex>
 		<!-- <scale>1.20</scale> -->
 		<storyboard event="open">   
-			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
-			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
-			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0"		begin="7600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>	
+			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2500" duration="15000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" begin="9000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="9600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="18500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  begin="18500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  begin="19000" duration="30000" mode="EaseInOut"/>	
 		</storyboard>
 		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
-			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
-			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>
+			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2500" duration="15000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" begin="9000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="9600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="18500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  begin="18500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  begin="19000" duration="30000" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" 										begin="2000" duration="1" mode="linear"/>
-			<animation property="offsetY" from="-0.40" to="0.65" 						begin="2000" duration="800" mode="EaseInOut"/>
-			<animation property="rotation" to="360" 									begin="2500" duration="5000" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" 	begin="7000" duration="600" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="0" 		begin="7600" duration="100" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="opacity" to="1" 		begin="16500" duration="1" mode="linear"/>
-			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  	begin="16500" duration="700" mode="EaseInOut"/>
-			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  	begin="17000" duration="30000" mode="EaseInOut"/>
+			<animation property="opacity" to="1" begin="2000" duration="1" mode="linear"/>
+			<animation property="offsetY" from="-0.40" to="0.65" begin="2000" duration="800" mode="EaseInOut"/>
+			<animation property="rotation" to="1080" begin="2500" duration="15000" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="-0.060" begin="9000" duration="600" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="9600" duration="100" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="18500" duration="1" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetY" to="0.65"  begin="18500" duration="700" mode="EaseInOut"/>
+			<animation enabled="exists({game:boxback})" property="rotation" to="3600"  begin="19000" duration="30000" mode="EaseInOut"/>
 		</storyboard>      
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -359,7 +404,7 @@
 								   {system.theme} == 'cplus4' ||
 								   {system.theme} == 'pv1000' " extra="true">
 		<maxSize>0.163800 0.260000</maxSize>	<!-- VALEURS VOLONTAIREMENT INVERSEES -->	
-		<pos>0.276000 -0.052826</pos>				
+		<pos>0.276000 -0.07</pos>				
     </image>
 	
 		<!-- MASTER SYSTEM / MEGADRIVE / Tutor / MSU-MD / TI-99 -->
@@ -572,7 +617,7 @@
 									{system.theme} == 'gbc' ||	
 									{system.theme} == 'gbc2players' " extra="true">	
 		<maxSize>0.177840 0.202800</maxSize>
-		<pos>0.292428 -0.076358</pos>
+		<pos>0.31 -0.076358</pos>
     </image>
 	
 		<!-- Family Computer Disk System -->
@@ -631,7 +676,7 @@
 		<!-- Mattel Intellivision -->
 	<image name="cartridge_ID" if="{system.theme} == 'intellivision' " extra="true">
 		<maxSize>0.182693 0.236427</maxSize>
-		<pos>0.291215 -0.089019</pos>								
+		<pos>0.26 -0.089019</pos>								
     </image>
 		
 		<!-- SG-1000 / Othello Multivision -->
@@ -731,7 +776,7 @@
 		<!-- <maxSize>0.22 0.22</maxSize>	 -->
     <!-- </image> -->
 
-	<!---------------------------------------------------------------------------------->	
+	<!---------------------------------------------------------------------------------->
 	
 	
 	

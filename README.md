@@ -5,7 +5,7 @@ Theme for Emulation Station compatible with
 - [Batocera](https://batocera.org/)
 - [RetroBat](https://www.retrobat.org/)
 
-**V 2.19 - (2024 02 18) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
+**V 2.20 - (2024 02 23) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
 
 Features :
 
@@ -109,6 +109,7 @@ Pour terminer, n'oubliez pas de paramétrer dans les options du thème :
 ### Big Thanks and credits to :
 
 - Darknior RVGM (large artworks dealer)
+- Patrix91 (big investment in game cartridges features)
 - Pajarorrojo Playstation-X (inspiration and code for avatars-logo and nickname)
 - EvilDindon Arcade Planet (large inspiration for gamelist view)
 - Lehcimcramtrebor know as the great HelMic Hexa and RCBX (many many tips and code tricks)

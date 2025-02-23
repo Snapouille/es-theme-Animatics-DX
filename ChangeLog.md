@@ -1,3 +1,9 @@
+## V 2.20 - (23 02 2025)
+- correct ratio and cartridge positioning in RVGM views (big up to Patrix91 for this work)
+- add a monitor view for lutro system in legendary and gamecarousel views
+- bug fixes for legendary and gamecarousel views
+
+
 ## V 2.19 - (18 02 2025)
 - video bug fixes for legendary and videofull views
 
