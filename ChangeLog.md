@@ -1,3 +1,6 @@
+## V 2.21 - (01 03 2025)
+- fix size for Amiga disks (cartridges) when grouped in a collection
+
 ## V 2.20 - (23 02 2025)
 - correct ratio and cartridge positioning in RVGM views (big up to Patrix91 for this work)
 - add a monitor view for lutro system in legendary and gamecarousel views

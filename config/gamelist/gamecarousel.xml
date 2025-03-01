@@ -1070,8 +1070,8 @@ originally based on: "carbon"
     </image>
 	
 		<!-- Amiga AGA / AMIGA / Amiga OCS/ECS / Archimedes / Atari ST / Macintosh / SAM Coupé -->
-	<image name="cartridge_ID"  if="{system.theme} == 'amiga1200' ||	
-									{system.theme} == 'amiga' ||
+	<image name="cartridge_ID"  if="{system.collection} == 'amiga' ||
+									{system.theme} == 'amiga1200' ||	
 									{system.theme} == 'amiga500' ||	
 									{system.theme} == 'archimedes' ||	
 									{system.theme} == 'atarist' ||	
