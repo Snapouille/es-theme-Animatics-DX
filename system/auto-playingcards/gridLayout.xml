@@ -1,0 +1,26 @@
+<!-- auto collection Cartes -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	<image name="BG_snapLegacy" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>1 1</size>									
+		<pos>0.5 0.5</pos>	
+		<scale>1</scale>
+		<path>./background-grid.jpg</path>
+    </image>	
+	
+	
+	
+	<image name="lumiere" extra="static">
+		<visible>false</visible>
+	</image>
+		
+		
+		
+	</view>
+
+</theme>

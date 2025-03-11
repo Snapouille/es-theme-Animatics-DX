@@ -4,29 +4,19 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>The Othello Multivision is a console released in 1983 by Tsukuda Original, compatible with SEGA's SG-1000 games. It features an integrated wired controller and was designed around the game Othello. A few exclusive games were developed, but the console remained little-known. It's a clone of the SG-1000, offering an unpopular alternative to SEGA's machine.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>L’Othello Multivision est une console sortie en 1983 par Tsukuda Original, compatible avec les jeux SG-1000 de SEGA. Elle possède une manette filaire intégrée et a été conçue autour du jeu Othello. Quelques jeux exclusifs ont été développés, mais la console est restée méconnue. C'est un clone de la SG-1000, offrant une alternative peu populaire à la machine de SEGA.</text>
+</text>
 
-	</view>
+
+</view>
 </theme>

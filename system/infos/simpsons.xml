@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Simpsons games are a series of video games inspired by the famous animated series. Since the 90s, they have explored various genres, including beat'em up (The Simpsons Arcade Game), racing (Road Rage) and action-adventure (Hit and Run). Appreciated for their true-to-series humor, they immerse players in the wacky world of Springfield. Some titles, like Hit and Run, have become cult hits with fans.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux Simpsons sont une série de jeux vidéo inspirés de la célèbre série animée. Depuis les années 90, ils explorent divers genres, comme le beat'em up (The Simpsons Arcade Game), la course (Road Rage) ou l’action-aventure (Hit and Run). Appréciés pour leur humour fidèle à la série, ils plongent les joueurs dans l’univers déjanté de Springfield. Certains titres, comme Hit and Run, sont devenus cultes auprès des fans.</text>
+</text>
+
+
+</view>
+</theme>

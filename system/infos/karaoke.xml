@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Create a folder or put files with both .mp3 and .cdg extensions in the \roms\karaoke folder. The PocketCDG core can load any MP3+CDG file combination. It will then show the lyrics onscreen like a true karaoke player, and it will also highlight the text which should be currently sung.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Vous pouvez créer des sous-dossiers, ou bien directement ajouter les fichiers avec les extensions .mp3 et .cdg dans le dossier \roms\karaoke. Le core PocketCDG chargera n'importe quelle combinaison de fichiers MP3+CDG, a partir du moment ou les deux fichiers possèdent le même nom. Les paroles apparaitront à l'écran comme un vrai karaoké, et les paroles seront mis en surbrillance en même temps que le texte sera chanté.</text>
+</text>
+
+
+</view>
+</theme>

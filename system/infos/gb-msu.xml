@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>MSU-1 Game Boy games are hacks or modifications of Game Boy games that use the MSU-1 chip. This chip makes it possible to add high-quality audio tracks. This can give games a new lease of life with enhanced sounds, often made by passionate retro-gaming fans.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux MSU-1 sur Game Boy sont des hacks ou des modifications de jeux Game Boy qui utilisent la puce MSU-1. Cette puce permet d'ajouter des pistes audio de haute qualité. Cela peut donner aux jeux une nouvelle vie avec des sons améliorés, souvent réalisés par des fans passionnés de rétro-gaming.</text>
+</text>
+
+
+</view>
+</theme>

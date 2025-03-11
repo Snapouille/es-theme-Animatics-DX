@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Metal Gear is a series of action games created by Hideo Kojima, centered on Solid Snake's missions of espionage and sabotage. The saga blends strategy, infiltration and combat with themes of geopolitics and nuclear war. It stands out for its innovative gameplay, complex storyline and deep characters. Metal Gear is a benchmark for the genre, profoundly influencing the video game industry.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Metal Gear est une série de jeux d'action créée par Hideo Kojima, centrée sur les missions d'espionnage et de sabotage menées par Solid Snake. La saga mêle stratégie, infiltration et combats tout en abordant des thèmes de géopolitique et de la guerre nucléaire. Elle se distingue par son gameplay innovant, son scénario complexe et ses personnages profonds. Metal Gear est une référence du genre, influençant profondément l'industrie du jeu vidéo.</text>
+</text>
+
+
+</view>
+</theme>

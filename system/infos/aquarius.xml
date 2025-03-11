@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Aquarius is a personal computer produced by Mattel Electronics. It was equipped with a Zilog Z80 processor, 4 kB RAM (expandable to 52 k) and a BASIC interpreter in ROM. It could be fitted with a special screen and cassette player, and a port extension for two joysticks.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Aquarius est un ordinateur personnel produit par Mattel Electronics. Il était équipé d'un processeur Zilog Z80, de 4 ko de RAM (extensible jusqu'à 52 k) et disposait d'un interpréteur BASIC en ROM. Il pouvait recevoir un écran et un lecteur de cassettes spécifiques, une extension de ports permettant de brancher deux manettes.</text>
+</text>
+
+
+</view>
+</theme>

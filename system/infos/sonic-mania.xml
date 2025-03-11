@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Sonic Mania is a game engine designed to recreate the classic Sonic experience of the '90s, with modern enhancements. It supports high-definition graphics, fluid gameplay and detailed levels, while retaining the retro feel of the original games. Sonic Mania combines elements from Sonic 1, 2 and 3.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Sonic Mania est un moteur de jeu conçu pour recréer l’expérience classique des Sonic des années 90 tout en apportant des améliorations modernes. Il supporte des graphismes en haute définition, un gameplay fluide et des niveaux détaillés tout en conservant la sensation rétro des jeux originaux. Sonic Mania combine des éléments de Sonic 1, 2 et 3.</text>
+</text>
+
+
+</view>
+</theme>

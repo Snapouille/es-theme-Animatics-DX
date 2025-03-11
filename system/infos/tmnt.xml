@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Teenage Mutant Ninja Turtles (TMNT) games, inspired by the famous Teenage Mutant Turtles, have been around since the late 80s. Mixing beat'em up, action and adventure, they have marked several generations, notably with Konami's arcade classics. The franchise has evolved over time, with adaptations on various consoles and modernized remakes such as Shredder's Revenge. TMNT remains a nostalgic reference appreciated by fans of cooperative games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux Teenage Mutant Ninja Turtles (TMNT), inspirés des célèbres tortues mutantes, mélangeant beat'em up, action et aventure. Ils ont marqué plusieurs générations, notamment avec les classiques d’arcade de Konami. La franchise a évolué avec le temps, proposant des adaptations sur diverses consoles et des remakes modernisés comme Shredder’s Revenge. TMNT reste une référence nostalgique et appréciée des fans de jeux coopératifs.</text>
+</text>
+
+
+</view>
+</theme>

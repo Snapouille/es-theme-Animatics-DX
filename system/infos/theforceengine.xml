@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Force Engine is an open-source game engine designed to run classic Star Wars games such as Jedi Knight: Dark Forces and Jedi Knight II: Jedi Outcast on modern platforms. The engine retains the essence of the original games, while enabling mods, control customization and improved gameplay fluidity.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>The Force Engine est un moteur de jeu open-source conçu pour faire tourner les jeux Star Wars classiques comme Jedi Knight: Dark Forces et Jedi Knight II: Jedi Outcast sur des plateformes modernes. Le moteur conserve l'essence des jeux originaux tout en permettant des mods, une personnalisation des contrôles et une meilleure fluidité de jeu.</text>
+</text>
+
+
+</view>
+</theme>

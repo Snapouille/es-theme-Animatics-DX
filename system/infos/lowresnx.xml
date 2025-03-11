@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Imagine LowRes NX as a handheld game console with a d-pad, two action buttons and a little rubber keyboard below a slidable touchscreen. LowRes NX was inspired by real 8- and 16-bit systems and simulates chips for graphics, sound and I/O, which actually work like classic hardware. It supports hardware sprites as well as hardware parallax scrolling.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Imaginez LowRes NX comme une console de jeu portable avec un d-pad, deux boutons d'action et un petit clavier en caoutchouc sous un écran tactile coulissant. LowRes NX s'inspire des systèmes 8 et 16 bits réels et simule des puces pour les graphiques, le son et les E/S, qui fonctionnent réellement comme du matériel classique. Il prend en charge les sprites matériels ainsi que le défilement parallaxe matériel.</text>
+</text>
+
+
+</view>
+</theme>

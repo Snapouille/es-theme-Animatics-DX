@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The VG5000µ is a computer designed by Philips in 1984. It was manufactured in Le Mans by Radiotechnique and marketed under the Philips, Radiola and Schneider brand names.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le VG5000µ est un ordinateur créé par la société Philips en 1984. Il fut fabriqué au Mans par la société Radiotechnique et commercialisé sous les marques Philips, Radiola et Schneider. Son clavier en gomme et son manque de support logiciel l'ont rendu peu populaire. Il est aujourd’hui un ordinateur rétro méconnu, apprécié des collectionneurs.</text>
+</text>
+
+
+</view>
+</theme>

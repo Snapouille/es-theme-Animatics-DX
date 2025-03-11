@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>GZDoom is an advanced source port of the OpenGL-based Doom engine. It enhances graphics, adds modern effects (dynamic lighting, shaders) and supports advanced mods with visual and gameplay improvements. Compatible with Doom, Heretic, Hexen and Strife, it offers great flexibility for level designers.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>GZDoom est un port source avancé du moteur de Doom basé sur OpenGL. Il permet d'améliorer les graphismes, d'ajouter des effets modernes (éclairages dynamiques, shaders) et de supporter des mods avancés avec des améliorations visuelles et de gameplay. Compatible avec Doom, Heretic, Hexen et Strife, il offre une grande flexibilité pour les créateurs de niveaux.</text>
+</text>
+
+
+</view>
+</theme>

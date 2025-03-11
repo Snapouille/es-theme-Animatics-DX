@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Vircon32 is a new game console, created from scratch. It is a 32-bit system created with the goal of being as simple as possible, but still having enough features to support full, elaborate games. As the name implies, Vircon32 is a 32-bit virtual console: it is meant as a standard that could be implemented either in software or hardware.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Vircon32 est une nouvelle console de jeu, créée à partir de zéro. Il s'agit d'un système 32 bits créé dans le but d'être aussi simple que possible, tout en ayant suffisamment de fonctionnalités pour supporter des jeux complets et élaborés. Comme son nom l'indique, Vircon32 est une console virtuelle 32 bits : il s'agit d'un standard qui peut être implémenté soit dans le logiciel, soit dans le matériel.</text>
+</text>
+
+
+</view>
+</theme>

@@ -34,7 +34,7 @@
 				<animation property="x" to="0.42" begin="1700" duration="300" mode="bump"/>
 				<animation property="y" to="0.1" begin="1700" duration="375" mode="EaseOut"/>
 				<animation property="x" to="0.43" begin="2000" duration="3000" autoreverse="true" repeat="3" mode="linear"/>
-				<animation property="opacity" to="0" begin="5000" duration="2000" mode="Linear"/>
+				<animation property="opacity" to="0" begin="5000" duration="20" mode="Linear"/>
 				<animation property="opacity" to="0" begin="20900" duration="100" mode="Linear"/>
 
 		</storyboard>
@@ -50,8 +50,8 @@
 			<zIndex>20</zIndex>
 				<storyboard repeat="forever">
 						<animation property="x" to="0.43" begin="2000" duration="3000" autoreverse="true" repeat="3" mode="linear"/>
-						<animation property="opacity" to="1" begin="5000" duration="2000" mode="Linear"/>
-						<animation property="opacity" to="0" begin="10000" duration="2000" mode="Linear"/>
+						<animation property="opacity" to="1" begin="5000" duration="20" mode="Linear"/>
+						<animation property="opacity" to="0" begin="10000" duration="20" mode="Linear"/>
 						<animation property="opacity" to="0" begin="20900" duration="100" mode="Linear"/>
 				</storyboard>
 		</image>
@@ -67,8 +67,8 @@
 			<zIndex>20</zIndex>
 				<storyboard repeat="forever">
 						<animation property="x" to="0.43" begin="2000" duration="3000" autoreverse="true" repeat="3" mode="linear"/>
-						<animation property="opacity" to="1" begin="10000" duration="2000" mode="Linear"/>
-						<animation property="opacity" to="0" begin="15000" duration="2000" mode="Linear"/>
+						<animation property="opacity" to="1" begin="10000" duration="20" mode="Linear"/>
+						<animation property="opacity" to="0" begin="15000" duration="20" mode="Linear"/>
 						<animation property="opacity" to="0" begin="20900" duration="100" mode="Linear"/>
 				</storyboard>
 		</image>
@@ -83,7 +83,7 @@
 			<zIndex>20</zIndex>
 				<storyboard repeat="forever">
 						<animation property="x" to="0.43" begin="2000" duration="3000" autoreverse="true" repeat="3" mode="linear"/>
-						<animation property="opacity" to="1" begin="15000" duration="2000" mode="Linear"/>
+						<animation property="opacity" to="1" begin="15000" duration="20" mode="Linear"/>
 						
 						<animation property="scale" to="5" begin="20100" duration="900" mode="Linear"/>
 						<animation property="x" to="-1" begin="20100" duration="900" mode="Linear"/>

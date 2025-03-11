@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Many popular titles have benefited from French translations, whether for text, voices or both. These include role-playing games, graphic adventures and even action games. Translations enable players to better understand storylines and enjoy a more immersive experience in their own language.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>De nombreux titres populaires ont bénéficié de traductions française, que ce soit pour le texte, les voix ou les deux. Cela inclut des jeux de rôle, des aventures graphiques ou même des jeux d’action. Les traductions permettent aux joueurs de mieux comprendre les intrigues et de profiter d’une expérience plus immersive dans leur langue.</text>
+</text>
+
+
+</view>
+</theme>

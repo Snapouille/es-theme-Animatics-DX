@@ -4,30 +4,19 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-	    
+<text name="system_description" extra="true">
+<text>Commander Genius is an open-source game engine developed to run games from the Commander Keen series, a classic from the 90s. The engine enables all Commander Keen episodes to be played on modern platforms, with improvements such as compatibility with higher resolutions and better support for modern controls. It retains the original graphic style and gameplay, while offering improved fluidity and bug fixes.</text>
+</text>
 
-		<text name="system_description" extra="true" >
-			<text></text>
-		</text>
+<text name="system_description" extra="true" lang="fr">
+<text>Commander Genius est un moteur de jeu développé pour faire tourner les jeux de la série Commander Keen, un classique des années 90. Le moteur permet de jouer à tous les épisodes de Commander Keen avec des améliorations comme la compatibilité avec des résolutions plus élevées et un meilleur support des contrôles modernes. Il conserve le style graphique et le gameplay originaux tout en offrant une meilleure fluidité et des corrections de bugs.</text>
+</text>
 
-		<text name="system_description" extra="true" lang="fr" >
-			<text></text>
-		</text>
 
-		
-		<text name="system_description" extra="true" lang="es">
-			<text></text>
-		</text>
-
-		<text name="system_description" extra="true" lang="pt" >
-			<text></text>
-		</text>
-		
-				
-
-	</view>
+</view>
 </theme>

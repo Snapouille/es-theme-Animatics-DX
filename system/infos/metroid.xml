@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Metroid is a series of action-adventure games developed by Nintendo, in which bounty hunter Samus Aran explores alien worlds while battling creatures and space pirates. The “Metroidvania” gameplay combines exploration, acquiring new powers and solving puzzles. The immersive atmosphere and sci-fi elements make this a striking series. Metroid is a benchmark for the genre, influencing many open-world adventure games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Metroid est une série de jeux d’action-aventure développée par Nintendo, où la chasseuse de primes Samus Aran explore des mondes extraterrestres tout en combattant des créatures et des pirates de l'espace. Le gameplay "Metroidvania" combine exploration, acquisition de nouveaux pouvoirs et résolutions de puzzles. Metroid est une référence du genre, influençant de nombreux jeux d’aventure en monde ouvert.</text>
+</text>
+
+
+</view>
+</theme>

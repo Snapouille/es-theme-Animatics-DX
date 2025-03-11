@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Mario is Nintendo's iconic series of platform games, featuring the plumber Mario who rescues Princess Peach from the clutches of Bowser. With gameplay based on jumps, power-ups and varied levels, the saga has evolved through 2D, 3D and spin-off games. Each opus brings innovations while retaining the original spirit. It's one of the most popular and influential franchises in video game history.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Mario est une série de jeux de plateforme emblématique de Nintendo, mettant en scène le plombier Mario qui sauve la princesse Peach des griffes de Bowser. Avec un gameplay basé sur les sauts, les power-ups et des niveaux variés, la saga a évolué avec des jeux en 2D, 3D et des spin-offs. Chaque opus apporte des innovations tout en conservant l’esprit original. C’est l’une des franchises les plus populaires et influentes de l’histoire du jeu vidéo.</text>
+</text>
+
+
+</view>
+</theme>

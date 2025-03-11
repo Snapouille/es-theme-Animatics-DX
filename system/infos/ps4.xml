@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The PlayStation 4 is an eighth-generation home video game console developed by Sony Computer Entertainment. Introduced on February 20, 2013, it succeeds the PlayStation 3 and competes with Microsoft's Xbox One and Nintendo's Wii U and Switch. Always equipped with a Blu-ray player, it can achieve Full HD (1080p) definition for video games and Ultra HD for photos and videos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La PlayStation 4 est une console de jeux vidéo de salon de huitième génération développée par Sony Computer Entertainment. Présentée le 20 février 2013, elle succède à la PlayStation 3 et se place en concurrence avec la Xbox One de Microsoft et la Wii U puis la Switch de Nintendo. Toujours équipée d’un lecteur Blu-ray, elle peut atteindre une définition Full HD (1080p) pour les jeux vidéo et Ultra HD pour les photos et vidéos.</text>
+</text>
+
+
+</view>
+</theme>

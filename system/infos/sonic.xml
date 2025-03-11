@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Sonic the Hedgehog is a series of platform games created by Sega, centered on Sonic, a super-fast hedgehog, who battles the evil Dr. Robotnik. The gameplay is characterized by fast-paced levels, loops and a strong emphasis on speed. With allies like Tails and Knuckles, the series has evolved over the years while remaining true to its dynamic spirit. Sonic is one of the most iconic franchises in video game history.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Sonic the Hedgehog est une série de jeux de plateforme créée par Sega, centrée sur Sonic, un hérisson super rapide, qui lutte contre le maléfique Dr. Robotnik. Le gameplay se distingue par des niveaux rapides, des loops et une forte emphasis sur la vitesse. Avec des alliés comme Tails et Knuckles, la série a évolué au fil des ans tout en restant fidèle à son esprit dynamique. Sonic est l'une des franchises les plus emblématiques de l'histoire du jeu vidéo.</text>
+</text>
+
+
+</view>
+</theme>

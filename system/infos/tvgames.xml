@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Integrated home video game console with a game controller, usually battery-powered, that connects directly to a TV. Designed to look like a toy or classic game console controller, with the addition of a composite video cable to connect the unit. These systems usually contain a collection of classic games, or original games based on licensed properties.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Console de jeu vidéo domestique intégrée avec un contrôleur de jeu, généralement alimenté par des piles, qui se connecte directement à un téléviseur. Conçue pour ressembler à un jouet ou à une manette de console de jeu classique, avec l'ajout d'un câble vidéo composite pour connecter l'unité. Ces systèmes contiennent généralement une collection de jeux classiques ou des jeux originaux basés sur des propriétés sous licence.</text>
+</text>
+
+
+</view>
+</theme>

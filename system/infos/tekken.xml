@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Tekken is a fighting game series developed by Bandai Namco, known for its fluid gameplay and deep combo mechanics. Each character has a distinct fighting style, ranging from martial arts to more exotic techniques. The saga is distinguished by its 3D fighting system, iconic characters and complex storylines. Tekken is one of the most popular and influential fighting franchises in video games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Tekken est une série de jeux de combat développée par Bandai Namco, connue pour son gameplay fluide et ses mécaniques profondes de combos. Chaque personnage a un style de combat distinct, allant des arts martiaux aux techniques plus exotiques. La saga se distingue par son système de combat en 3D, ses personnages emblématiques et ses intrigues complexes. Tekken est l'une des franchises de combat les plus populaires et influentes du jeu vidéo.</text>
+</text>
+
+
+</view>
+</theme>

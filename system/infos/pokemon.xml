@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Pokémon is a series of role-playing games published by Nintendo, in which players capture and train creatures called Pokémon to battle other trainers. The gameplay is based on collecting, breeding and evolving Pokémon, with strategic turn-based battles. Each opus offers new regions, creatures and mechanics, while maintaining the spirit of exploration and collection. Pokémon is one of the most popular and influential video game franchises.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Pokémon est une série de jeux de rôle où les joueurs capturent et entraînent des créatures appelées Pokémon pour combattre d'autres dresseurs. Le gameplay repose sur la collecte, l’élevage et l'évolution des Pokémon, avec des batailles stratégiques au tour par tour. Chaque opus propose de nouvelles régions, créatures et mécaniques, tout en maintenant l’esprit d'exploration et de collection. Pokémon est l’une des franchises les plus populaires du jeu vidéo.</text>
+</text>
+
+
+</view>
+</theme>

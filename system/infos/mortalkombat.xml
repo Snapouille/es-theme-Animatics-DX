@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Mortal Kombat is a fighting game series created by Midway, famous for its violent confrontations and “Fatalities”. Each character has unique fighting styles and special powers, with storylines often centered on inter-dimensional tournaments. The saga is known for its realistic graphics, tactical gameplay and iconic characters. Mortal Kombat remains one of the most controversial and influential franchises in the genre.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Mortal Kombat est une série de jeux de combat créée par Midway, célèbre pour ses affrontements violents et ses "Fatalities". Chaque personnage a des styles de combat uniques et des pouvoirs spéciaux, avec des intrigues souvent centrées sur des tournois inter-dimensionnels. La saga est connue pour ses graphismes réalistes, son gameplay tactique et ses personnages iconiques. Mortal Kombat reste l'une des franchises les plus controversées et influentes du genre.</text>
+</text>
+
+
+</view>
+</theme>

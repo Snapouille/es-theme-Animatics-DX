@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Ship of Harkinian is an open-source game engine that lets you play The Legend of Zelda: Ocarina of Time with modern enhancements. It uses reverse engineering to recreate the game engine while adding features such as high resolution, 60 FPS support and customizable controls. The aim is to modernize the experience while remaining faithful to the original game.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Ship of Harkinian est un moteur de jeu open-source permettant de jouer à The Legend of Zelda: Ocarina of Time avec des améliorations modernes. Il utilise du reverse engineering pour recréer le moteur du jeu tout en ajoutant des fonctionnalités comme la haute résolution, le support des 60 FPS et des contrôles personnalisables. Son objectif est de moderniser l'expérience tout en restant fidèle au jeu original.</text>
+</text>
+
+
+</view>
+</theme>

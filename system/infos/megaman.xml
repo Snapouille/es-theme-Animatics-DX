@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Mega Man is a series of action-platform games from Capcom in which the robot Mega Man battles Dr. Wily and his evil robots. The gameplay is based on non-linear levels, with each boss defeated giving rise to a new weapon. Renowned for its difficulty and precision, the saga has evolved into several sub-series, such as X and Battle Network. It remains an icon of retro-gaming and action-platforming.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Mega Man est une série de jeux d’action-plateforme de Capcom où le robot Mega Man affronte le Dr. Wily et ses robots maléfiques. Le gameplay repose sur des niveaux non linéaires, où chaque boss vaincu donne une nouvelle arme. Connue pour sa difficulté et sa précision, la saga a évolué avec plusieurs sous-séries comme X et Battle Network. Elle reste une icône du rétro-gaming et de l’action-plateforme.</text>
+</text>
+
+
+</view>
+</theme>

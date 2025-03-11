@@ -1,5 +1,16 @@
+## V 2.22 - (11 03 2025)
+- add Philips P2000 system
+- add Philips VG5000u system
+- add OpenJazz game engine for Jazz Jackrabbit
+- add PerfectDark game engine
+- add the Spinner auto-collection
+- add the trackball auto-collection
+- add a description and background to all auto-collection
+
+
 ## V 2.21 - (01 03 2025)
 - fix size for Amiga disks (cartridges) when grouped in a collection
+
 
 ## V 2.20 - (23 02 2025)
 - correct ratio and cartridge positioning in RVGM views (big up to Patrix91 for this work)

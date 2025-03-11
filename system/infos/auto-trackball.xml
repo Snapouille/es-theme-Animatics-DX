@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Video games using a trackball, such as Marble Madness, Cabal or Crystal Castles, leverage the device's precision for smooth and fast movements, often in 3D environments or maze-like settings. Popular in the 80s and 90s, these games provided a unique experience, though trackballs have since become less common, replaced by joysticks and mice.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux vidéo utilisant un trackball, comme Marble Madness, Cabal ou Crystal Castles, exploitent la précision du dispositif pour des mouvements fluides et rapides, souvent dans des environnements en 3D ou des labyrinthes. Populaires dans les années 80 et 90, ces jeux offrent une expérience unique, bien que le trackball soit aujourd'hui moins courant au profit des joysticks et souris.</text>
+</text>
+
+
+</view>
+</theme>

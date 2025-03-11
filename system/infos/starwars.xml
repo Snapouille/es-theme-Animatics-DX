@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Star Wars games cover a wide range of genres, from action-adventure to space combat and FPS. Since the 80s, they have been immersing players in the saga's universe, with original or film-inspired scenarios. Some, like Knights of the Old Republic, have become cult favorites for their storytelling and in-depth gameplay. The franchise continues to evolve with ever more ambitious titles.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux Star Wars couvrent de nombreux genres, allant de l'action-aventure aux combats spatiaux en passant par le FPS. Depuis les années 80, ils plongent les joueurs dans l’univers de la saga avec des scénarios originaux ou inspirés des films. Certains, comme Knights of the Old Republic, sont devenus cultes pour leur narration et leur gameplay profond. La franchise continue d’évoluer avec des titres toujours plus ambitieux.</text>
+</text>
+
+
+</view>
+</theme>

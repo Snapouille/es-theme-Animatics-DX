@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Metal Slug is a 2D shooter series developed by SNK, known for its frenetic action and detailed pixel art graphics. Players control soldiers battling enemies through levels filled with impressive weapons, vehicles and bosses. The series stands out for its cooperative gameplay, humor and quirky atmosphere. Metal Slug is a classic of the “run and gun” genre and a mainstay of arcade games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Metal Slug est une série de jeux de tir en 2D développée par SNK, connue pour son action frénétique et ses graphismes pixel art détaillés. Les joueurs contrôlent des soldats combattant des ennemis à travers des niveaux remplis d'armes, de véhicules et de boss impressionnants. La série se distingue par son gameplay coopératif, son humour et son atmosphère décalée. Metal Slug est un classique du genre "run and gun" et un pilier des jeux d'arcade.</text>
+</text>
+
+
+</view>
+</theme>

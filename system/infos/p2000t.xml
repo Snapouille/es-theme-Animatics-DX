@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Philips P2000T computer was Philips' first real entry into the home computer market, after the Philips Videopac G7000 game console (better known in North America as the Magnavox Odyssey2), which they had already sold to compete with the Atari 2600 and similar game consoles. The P2000T enjoyed only limited success, and Philips later replaced it with its MSX machines.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>L'ordinateur Philips P2000T a été la première véritable entrée de Philips sur le marché des ordinateurs domestiques, après la console de jeu Philips Videopac G7000 (mieux connue en Amérique du Nord sous le nom de Magnavox Odyssey2), qu'ils avaient déjà vendue pour concurrencer l'Atari 2600 et d'autres consoles de jeu similaires. Le P2000T n'a connu qu'un succès limité, et Philips l'a remplacé plus tard par ses machines MSX.</text>
+</text>
+
+
+</view>
+</theme>

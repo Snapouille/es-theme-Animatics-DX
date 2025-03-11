@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Final Fantasy is a role-playing game series created by Square Enix, known for its rich worlds, iconic characters and epic storytelling. Each opus features a distinct universe blending fantasy and science fiction, with gameplay evolving from turn-based to real-time action. Invocations, music and progression mechanics are iconic elements. The saga is a major RPG reference and has marked generations of players.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Final Fantasy est une série de jeux de rôle créée par Square Enix, connue pour ses mondes riches, ses personnages emblématiques et ses récits épiques. Chaque opus propose un univers distinct mêlant fantasy et science-fiction, avec un gameplay évoluant du tour par tour à l’action en temps réel. Les invocations, la musique et les mécaniques de progression sont des éléments iconiques. La saga est une référence majeure du RPG et a marqué des générations de joueurs.</text>
+</text>
+
+
+</view>
+</theme>

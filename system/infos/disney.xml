@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Disney games are a series of video games based on iconic Disney characters and films. In existence since the 1980s, they cover a wide range of genres, from platformers to action-adventure and racing. Appreciated for their meticulous graphics and faithfulness to the original works, they have left their mark on several generations of gamers. Some titles, such as Castle of Illusion, have become timeless classics.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux Disney sont une série de jeux vidéo basés sur les personnages et films emblématiques de Disney. Présents depuis les années 80, ils couvrent divers genres, comme la plateforme, l'action-aventure ou encore la course. Appréciés pour leurs graphismes soignés et leur fidélité aux œuvres originales, ils marquent plusieurs générations de joueurs. Certains titres, comme Castle of Illusion, sont devenus des classiques intemporels.</text>
+</text>
+
+
+</view>
+</theme>

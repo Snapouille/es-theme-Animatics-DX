@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Pinball M features original tables with realistic graphics and physics, aiming to offer an accessible and immersive pinball experience. The game includes multiplayer modes for challenging other players and online leaderboards. It also features progression elements and rewards. With its simple interface, it is designed to be played on mobile devices, offering a fast and fun experience.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Pinball M propose des tables originales avec des graphismes et une physique réaliste, visant à offrir une expérience de flipper accessible et immersive. Le jeu inclut des modes multijoueurs pour défier d'autres joueurs et des classements en ligne. Il met également en avant des éléments de progression et des récompenses. Avec son interface simple, il est conçu pour être joué sur des appareils mobiles, offrant une expérience rapide et fun.</text>
+</text>
+
+
+</view>
+</theme>

@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Wonder Boy is a series of games published by SEGA, mixing platformers and action-RPGs. Beginning in 1986 as a scrolling action game, the series evolved into richer adventures with weapons, transformations and quests. It stands out for its colorful worlds, varied gameplay and influence on other titles. Several remakes and sequels have modernized the franchise while retaining its retro charm.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Wonder Boy est une série de jeux publiée par SEGA, mélangeant plateformes et action-RPG. Débutant en 1986 comme un jeu d'action à défilement, la série évolue vers des aventures plus riches avec des armes, transformations et quêtes. Elle se distingue par ses mondes colorés, son gameplay varié et son influence sur d’autres titres. Plusieurs remakes et suites ont modernisé la franchise tout en conservant son charme rétro.</text>
+</text>
+
+
+</view>
+</theme>

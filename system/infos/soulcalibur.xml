@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>SoulCalibur is a 3D fighting game series developed by Bandai Namco, in which warriors clash using iconic weapons. Each character has a unique fighting style, with gameplay mechanics focused on fluid combos and parries. The series stands out for its detailed graphics and medieval-fantasy universe. SoulCalibur is a benchmark in the fighting genre, famous for its intense, strategic confrontations.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>SoulCalibur est une série de jeux de combat 3D développée par Bandai Namco, où des guerriers s'affrontent en utilisant des armes emblématiques. Chaque personnage a un style de combat unique, avec des mécaniques de gameplay axées sur des combos fluides et des parades. La série se distingue par ses graphismes détaillés et son univers médiéval-fantastique. SoulCalibur est une référence du genre de combat, célèbre pour ses affrontements intenses.</text>
+</text>
+
+
+</view>
+</theme>

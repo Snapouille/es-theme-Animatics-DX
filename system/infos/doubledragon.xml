@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Double Dragon is an iconic beat'em up game series in which brothers Billy and Jimmy Lee battle gangs. Launched in 1987 by Technōs Japan, it popularized the genre with its cooperative gameplay. Players chain together street battles using punches, kicks and weapons. The saga has influenced many fighting games and remains a retro-gaming classic.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Double Dragon est une série de jeux beat'em up emblématique où les frères Billy et Jimmy Lee affrontent des gangs. Lancée en 1987 par Technōs Japan, elle popularise le genre avec son gameplay coopératif. Les joueurs enchaînent les combats de rue en utilisant coups de poing, pieds et armes. La saga a influencé de nombreux jeux de combat et reste un classique du rétro-gaming.</text>
+</text>
+
+
+</view>
+</theme>

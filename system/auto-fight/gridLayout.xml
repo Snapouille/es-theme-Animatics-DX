@@ -1,0 +1,69 @@
+<!-- Auto-fight Vs Fighting -->
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+	
+	<image name="BG_snapLegacy" extra="true">
+	  
+		<origin>0.5 0.5</origin>									
+		<size>1.6 1.1425926</size>									
+		<pos>0.5 0.5</pos>	
+		<scale>0.9</scale>
+  
+		  <storyboard>
+				<animation property="offsetX" to="-0.13" begin="" duration="1000" mode="EaseInOut"/>
+				<!-- <animation property="size" to="0.91875 0.6564815" begin="4000" duration="300" mode="EaseIn"/> -->
+				<!-- <animation property="pos" to="0.3041667 0.3875" begin="4000" duration="300" mode="EaseIn"/> -->
+		  </storyboard>
+	  
+    </image>	
+	
+	<image name="bath" extra="true">
+		<visible>false</visible>
+	</image>
+	
+	<image name="background-wall" extra="true">
+		<visible>false</visible>
+	</image>
+
+
+	<image name="balrog" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.2890625 0.6055556</size>									
+		<pos>0.83 0.65</pos>									
+		<path>./balrog.gif</path>
+		<scale>0.95</scale>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>20</zIndex>
+		<storyboard>
+			<animation property="scale" to="0.96" begin="4300" duration="100" autoreverse="true" mode="EaseInOut"/>
+		</storyboard>
+	</image>
+
+	
+	<image name="honda-fly" extra="true">
+		<visible>false</visible>
+	</image>
+	
+	<image name="honda-fixe" extra="true">
+		<visible>false</visible>
+	</image>
+
+	<image name="honda-anim1" extra="true">
+		<visible>false</visible>
+	</image>
+
+
+	<image name="honda-anim2" extra="true">
+		<visible>false</visible>
+	</image>
+	
+	
+	<image name="honda-anim3" extra="true">
+		<visible>false</visible>
+	</image>
+			
+</view>
+
+</theme>

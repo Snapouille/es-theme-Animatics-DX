@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>This Pinball FX is a reworking of the franchise with a new graphics engine. It features classic and licensed tables (Star Wars, Marvel, Williams, etc.) with enhanced visuals and refined physics. The game introduces a virtual currency and subscription-based business model. The emphasis is on multiplayer, challenges and online tournaments.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Ce Pinball FX est une refonte de la franchise avec un nouveau moteur graphique. Il propose des tables classiques et sous licence (Star Wars, Marvel, Williams, etc.) avec des visuels améliorés et une physique affinée. Le jeu introduit un modèle économique basé sur une monnaie virtuelle et un abonnement. Il met l’accent sur le multijoueur, les défis et les tournois en ligne.</text>
+</text>
+
+
+</view>
+</theme>

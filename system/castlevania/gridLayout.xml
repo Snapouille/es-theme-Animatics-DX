@@ -33,7 +33,7 @@
 			<path>./avatar-stone.png</path>
 			<zIndex>10</zIndex>
 				<storyboard>
-					<animation property="offsetY" to="-0.4" begin="" duration="600" mode="EaseInOut"/>
+					<animation property="offsetY" to="-0.4" begin="" duration="600" mode="EaseOut"/>
 				</storyboard>
 		</image>
 		

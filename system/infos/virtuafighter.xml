@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Virtua Fighter is a series of 3D fighting games developed by SEGA, which pioneered the genre in 1993. It stands out for its realism, technical gameplay and three-button fighting system: fist, foot and guard. Each opus improves the graphics and fluidity of combat, influencing many other franchises. Its strategic approach has made it a benchmark for fighting game enthusiasts.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Virtua Fighter est une série de jeux de combat 3D développée par SEGA, pionnière du genre dès 1993. Elle se distingue par son réalisme, son gameplay technique et son système de combat basé sur trois boutons  poing, pied et garde. Chaque opus améliore les graphismes et la fluidité des combats, influençant de nombreuses autres franchises. Son approche stratégique en a fait une référence pour les amateurs de jeux de combat.</text>
+</text>
+
+
+</view>
+</theme>

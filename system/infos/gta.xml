@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Grand Theft Auto (GTA) is a series of open-world action games created by Rockstar, in which players take on the role of criminals in fictional cities. Blending scripted missions with total freedom, the saga is known for its satirical humor, violence and varied gameplay. Each opus features a unique story inspired by gangster films and urban culture. GTA is one of the most influential and popular video game franchises.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Grand Theft Auto (GTA) est une série de jeux d’action en monde ouvert créée par Rockstar, où les joueurs incarnent des criminels évoluant dans des villes fictives. Mélangeant missions scénarisées et liberté totale, la saga est connue pour son humour satirique, sa violence et son gameplay varié. Chaque opus propose une histoire unique inspirée de films de gangsters et de la culture urbaine. GTA est l’une des franchises les plus influentes et populaires du jeu vidéo.</text>
+</text>
+
+
+</view>
+</theme>

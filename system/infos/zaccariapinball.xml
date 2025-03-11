@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Zaccaria Pinball features classic tables from Italian manufacturer Zaccaria. It features faithful reproductions of pinball machines from the 70s and 80s, with enhanced graphics and a realistic physics engine. The game includes various modes, such as simulation mode and remastered mode. It also features an editor for customizing tables. It's a reference for retro pinball fans.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Zaccaria Pinball met en avant les tables classiques du fabricant italien Zaccaria. Il propose des reproductions fidèles de flippers des années 70-80, avec des graphismes améliorés et un moteur physique réaliste. Le jeu inclut divers modes, comme le mode simulation et le mode remastérisé. Il offre aussi un éditeur pour personnaliser les tables. C’est une référence pour les amateurs de flippers rétro.</text>
+</text>
+
+
+</view>
+</theme>

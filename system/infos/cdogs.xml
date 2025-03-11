@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>C-Dogs SDL is an open-source top-view shooter, and a re-release of the 90s game C-Dogs. The game features both single-player and multiplayer modes, where players take on waves of enemies in a variety of missions. It features improved graphics, a new interface and mod support. The game retains the spirit of its predecessor, with fast-paced, intense gameplay.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>C-Dogs SDL est un jeu de tir en vue de dessus, développé en open-source, et une réédition du jeu C-Dogs des années 90. Le jeu propose un mode solo et multijoueur, où les joueurs affrontent des vagues d'ennemis dans des missions variées. Il offre des graphismes améliorés, une nouvelle interface et le support des mods. Le jeu conserve l’esprit de son prédécesseur avec un gameplay rapide et intense.</text>
+</text>
+
+
+</view>
+</theme>

@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Legend of Zelda is an action-adventure series created by Nintendo in 1986. Its hallmarks are exploration, dungeons, puzzles and an open world rich in secrets. Players take on the role of Link, a hero charged with rescuing Princess Zelda and battling the evil Ganon. The saga revolutionized video games with cult titles such as Ocarina of Time and Breath of the Wild.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>The Legend of Zelda est une série d'action-aventure créée par Nintendo en 1986. Elle se distingue par son exploration, ses donjons, ses énigmes et son monde ouvert riche en secrets. Le joueur incarne Link, un héros chargé de sauver la princesse Zelda et d’affronter le maléfique Ganon. La saga a révolutionné le jeu vidéo avec des titres cultes comme Ocarina of Time sur Nintendo 64 et plus récemment Breath of the Wild sur Nintendo Switch.</text>
+</text>
+
+
+</view>
+</theme>

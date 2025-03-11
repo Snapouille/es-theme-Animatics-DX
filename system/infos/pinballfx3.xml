@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Pinball FX3 is a pinball game developed by Zen Studios. It features original and licensed tables (Star Wars, Universal, Williams, etc.), with enhanced graphics. The game emphasizes competitive multiplayer, tournaments and online leaderboards. Pinball FX2 tables can also be transferred. Its progression and challenge system brings a more modern dimension to virtual pinball.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Pinball FX3 est un jeu de flipper développé par Zen Studios. Il propose des tables originales et sous licence (Star Wars, Universal, Williams, etc.), avec des graphismes améliorés. Le jeu met l’accent sur le multijoueur compétitif, les tournois et les classements en ligne. Il permet de transférer certaines tables de Pinball FX2. Son système de progression et de défis apporte une dimension plus moderne au flipper virtuel.</text>
+</text>
+
+
+</view>
+</theme>

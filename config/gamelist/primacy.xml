@@ -37,6 +37,25 @@
 					<animation property="offsetX" to="-0.05" duration="15000" autoreverse="true" mode="easeInOut" />
 			</storyboard>
     </image>
+	
+	
+	
+	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
+	<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.2182292 0.02</size>									
+		<pos>0.45 0.03</pos>
+		<text> - {game:systemName} - </text> 
+        <alignment>center</alignment>
+        <verticalAlignment>top</verticalAlignment>
+		<forceUppercase>1</forceUppercase>
+		<color>${baseColor}</color>
+		<fontPath>./../../art/fonts/gobold-blocky-regular.otf</fontPath>
+		<fontSize>0.020</fontSize>
+		<zIndex>131</zIndex>
+		<visible>true</visible>
+	</text>
+	
 
 
 

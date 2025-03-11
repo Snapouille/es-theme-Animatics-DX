@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>OpenJazz is an open-source game engine that lets you play Jazz Jackrabbit on modern systems. It was developed by Alister Thomson through reverse engineering of the original game. The engine offers improvements such as compatibility with high resolutions, multiplayer support and improved fluidity.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>OpenJazz est un moteur de jeu open-source permettant de jouer à Jazz Jackrabbit sur des systèmes modernes. Il a été développé par Alister Thomson grâce à du reverse engineering du jeu original. Le moteur offre des améliorations comme la compatibilité avec les hautes résolutions, le support du multijoueur et une meilleure fluidité.</text>
+</text>
+
+
+</view>
+</theme>

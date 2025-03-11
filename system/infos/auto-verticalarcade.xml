@@ -10,44 +10,13 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-<text></text>
+<text>Vertical-view arcade games are games where the action takes place from top to bottom, offering an ideal perspective for shoot'em ups, racing games and some run and gun games. This format gives a better view of the terrain and promotes fast, fluid gameplay. Very popular in the 80s and 90s, these games are known for their progressive difficulty and high replayability.</text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-<text></text>
+<text>Les jeux d'arcade en vue verticale sont des jeux où l'action se déroule de haut en bas, offrant une perspective idéale pour les shoot'em up, les jeux de course et certains run and gun. Ce format permet une meilleure visibilité du terrain et favorise un gameplay rapide et fluide. Très populaires dans les années 80 et 90, ces jeux sont connus pour leur difficulté progressive et leur rejouabilité élevée.</text>
 </text>
 
-<text name="system_description" extra="true" lang="de">
-<text></text>
-</text>
-
-<text name="system_description" extra="true" lang="es">
-<text></text>
-</text>
-
-<text name="system_description" extra="true" lang="it">
-<text></text>
-</text>
-
-<text name="system_description" extra="true" lang="ja">
-<text></text>
-</text>
-
-<text name="system_description" extra="true" lang="nl">
-<text></text>
-</text>
-
-<text name="system_description" extra="true" lang="pl">
-<text></text>
-</text>
-
-<text name="system_description" extra="true" lang="pt">
-<text></text>
-</text>
-
-<text name="system_description" extra="true" lang="ru">
-<text></text>
-</text>
 
 </view>
 </theme>

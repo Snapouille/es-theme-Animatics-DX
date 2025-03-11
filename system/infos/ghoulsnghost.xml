@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Ghouls 'n Ghosts is a series of action-platform games developed by Capcom, in which the knight Arthur battles demonic creatures to save a princess. Known for its extreme difficulty, it requires precision and memorization of levels. Arthur can collect various weapons and improve his armor, but loses it at the first blow. The series is a retro-gaming mainstay, making its mark on history with its demanding gameplay and gothic atmosphere.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Ghouls 'n Ghosts est une série de jeux d'action-plateforme développée par Capcom, où le chevalier Arthur combat des créatures démoniaques pour sauver une princesse. Connue pour sa difficulté extrême, elle exige précision et mémorisation des niveaux. La série est un pilier du rétro-gaming, marquant l’histoire avec son gameplay exigeant et son ambiance gothique.</text>
+</text>
+
+
+</view>
+</theme>

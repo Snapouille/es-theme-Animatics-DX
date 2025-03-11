@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Game hacks are modifications to existing video games, created by fans or amateur programmers. They can include changes to levels, graphics, gameplay or even story, transforming the original experience. Very popular for retro games like Super Mario, Sonic or Pokémon, they allow you to explore new, unofficial versions. Some hacks become cult favorites, rivaling the original titles in creativity.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux hacks sont des modifications de jeux vidéo existants, créées par des fans ou des programmeurs amateurs. Ils peuvent inclure des changements de niveaux, de graphismes, de gameplay ou même d’histoire, transformant l’expérience originale. Très populaires pour les jeux rétro comme Super Mario, Sonic ou Pokémon, ils permettent d’explorer de nouvelles versions non officielles. Certains hacks deviennent cultes et rivalisent avec les titres originaux en créativité.</text>
+</text>
+
+
+</view>
+</theme>

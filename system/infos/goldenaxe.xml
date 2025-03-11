@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Golden Axe is a beat'em up fantasy series from Sega, where warriors fight the tyrant Death Adder to save their kingdom. Inspired by Conan the Barbarian, it features sword fighting, magic and mounts to ride. Its cooperative gameplay and heroic fantasy atmosphere made it a classic of the 90s. Despite a prolonged absence, the series remains a benchmark for the genre.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Golden Axe est une série de beat'em up fantasy de Sega, où des guerriers combattent le tyran Death Adder pour sauver leur royaume. Inspirée de Conan le Barbare, elle propose des combats à l’arme blanche, de la magie et des montures à chevaucher. Son gameplay coopératif et son ambiance heroic fantasy en ont fait un classique des années 90. La série reste une référence du genre malgré une absence prolongée.</text>
+</text>
+
+
+</view>
+</theme>

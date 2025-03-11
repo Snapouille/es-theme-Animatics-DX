@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Samurai Shodown is a fighting game series developed by SNK, focusing on sword duels between samurai and warriors inspired by feudal Japan. Gameplay focuses on precision, strategy and powerful attacks. Each character has unique weapons and techniques, and Samurai Shodown is renowned for its tactical depth and violent, stylized combat.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Samurai Shodown est une série de jeux de combat développée par SNK, centrée sur des duels au sabre entre samouraïs et guerriers inspirés du Japon féodal. Le gameplay met l'accent sur la précision, la stratégie et les attaques puissantes. Chaque personnage possède des armes et techniques uniques, Samurai Shodown est reconnu pour sa profondeur tactique et ses combats violents et stylisés.</text>
+</text>
+
+
+</view>
+</theme>

@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Angel Island Revisited is an open-source game engine developed to recreate the Sonic the Hedgehog 2 experience using a modern graphics style while retaining the retro feel. The engine is based on the Retro Engine used in Sonic Mania, offering high-definition graphics and improved physics. It allows players to rediscover classic levels such as Angel Island, with new mechanics and enriched visual effects.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Angel Island Revisited est un moteur de jeu open-source développé pour recréer l'expérience du jeu Sonic the Hedgehog 2 en utilisant un style graphique moderne tout en conservant la sensation rétro. Le moteur repose sur le Retro Engine utilisé par Sonic Mania, offrant des graphismes en haute définition et une physique améliorée. Il permet aux joueurs de redécouvrir des niveaux classiques comme Angel Island, avec de nouvelles mécaniques et des effets visuels enrichis.</text>
+</text>
+
+
+</view>
+</theme>

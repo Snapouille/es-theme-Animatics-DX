@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Raze is an open-source game engine designed to run several retro FPS games based on the Build engine, such as Duke Nukem 3D, Blood, Shadow Warrior and Redneck Rampage. Developed from GZDoom, it brings modern enhancements such as OpenGL/Vulkan rendering, high-resolution compatibility and improved controls. It features improved fluidity, bug fixes and multi-game support in a single interface.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Raze est un moteur de jeu open-source conçu pour faire tourner plusieurs FPS rétro basés sur le moteur Build, comme Duke Nukem 3D, Blood, Shadow Warrior et Redneck Rampage. Développé à partir de GZDoom, il apporte des améliorations modernes telles que le rendu OpenGL/Vulkan, la compatibilité avec les hautes résolutions et des contrôles améliorés. Il permet une meilleure fluidité, des corrections de bugs et un support multi-jeux dans une seule interface.</text>
+</text>
+
+
+</view>
+</theme>

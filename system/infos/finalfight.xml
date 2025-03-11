@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Final Fight is a beat'em up series from Capcom that began in 1989, with Haggar, Cody and Guy battling the Mad Gear gang to save Metro City. The gameplay is based on dynamic street battles with varied attacks and pick-upable weapons. The series influenced the genre with its fluid action and urban atmosphere. Although less exploited today, it remains a retro-gaming classic.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Final Fight est une série de beat'em up de Capcom débutée en 1989, où Haggar, Cody et Guy affrontent le gang Mad Gear pour sauver Metro City. Le gameplay repose sur des combats de rue dynamiques avec des attaques variées et des armes ramassables. La série a influencé le genre avec son action fluide et son ambiance urbaine. Bien que moins exploitée aujourd’hui, elle reste un classique du rétro-gaming.</text>
+</text>
+
+
+</view>
+</theme>

@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Pinball FX2 is a pinball game developed by Zen Studios. It features original and licensed tables (Marvel, Star Wars, etc.), with HD graphics and fluid gameplay. The game emphasizes online multiplayer, leaderboards and challenges. Its realistic physics engine enhances the experience over its predecessor.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Pinball FX2 est un jeu de flipper développé par Zen Studios. Il propose des tables originales et sous licence (Marvel, Star Wars, etc.), avec des graphismes HD et un gameplay fluide. Le jeu met l’accent sur le multijoueur en ligne, les classements et les défis. Son moteur physique réaliste améliore l’expérience par rapport à son prédécesseur.</text>
+</text>
+
+
+</view>
+</theme>

@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Tetris, created by Alexey Pajitnov in 1984, is emblematic for its geometric blocks that players must assemble to form complete lines. Originally developed in the Soviet Union, Tetris has become a worldwide phenomenon thanks to its addictive simplicity and ability to transcend generations. With adaptations on virtually every console and device, Tetris remains an enduring symbol of puzzle play and strategic skill.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Tetris, créée par Alexey Pajitnov en 1984, est emblématique pour ses blocs géométriques que les joueurs doivent assembler pour former des lignes complètes. Initialement développé en Union Soviétique, Tetris est devenu un phénomène mondial grâce à sa simplicité addictive et sa capacité à transcender les générations. Avec des adaptations sur pratiquement toutes les consoles et appareils, Tetris reste un symbole durable de jeu de puzzle et de stratégie.</text>
+</text>
+
+
+</view>
+</theme>

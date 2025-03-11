@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Shmups (shoot 'em up) are action games in which the player controls a ship or a character who must shoot at waves of enemies while avoiding their projectiles. Very popular in the 80s and 90s, they come in several sub-genres, such as bullet hell and run and gun. Nervous gameplay and high difficulty make these games demanding but highly addictive.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Les shmups (shoot 'em up) sont des jeux d'action où le joueur contrôle un vaisseau ou un personnage qui doit tirer sur des vagues d’ennemis tout en évitant leurs projectiles. Très populaires dans les années 80 et 90, ils se déclinent en plusieurs sous-genres comme le bullet hell ou le run and gun. Leur gameplay nerveux et leur difficulté élevée en font des jeux exigeants mais très addictifs.</text>
+</text>
+
+
+</view>
+</theme>

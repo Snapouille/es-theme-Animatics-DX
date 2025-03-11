@@ -1,0 +1,23 @@
+<!-- Mortal Kombat collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.35625 1</size>									
+			<pos>0.82 1.51</pos>									
+			<path>./avatar.png</path>
+			<scale>0.8</scale>
+
+			<storyboard>
+				<animation property="offsetY" to="-1" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+			
+		</image>
+		
+		
+	</view>
+</theme>

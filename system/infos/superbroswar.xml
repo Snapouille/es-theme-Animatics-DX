@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Super Mario War is an open-source game engine designed for a multiplayer platform game inspired by the Super Mario universe. It allows multiple players to compete in randomly generated levels featuring classic Mario elements such as enemies, blocks and power-ups. The engine also lets you create and customize maps, add mods and play in cooperative or competitive mode.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Super Mario War est un moteur de jeu open-source conçu pour un jeu de plateforme multijoueur inspiré de l'univers de Super Mario. Il permet à plusieurs joueurs de s'affronter sur des niveaux générés aléatoirement avec des éléments classiques de Mario, comme des ennemis, des blocs et des power-ups. Le moteur permet également de créer et de personnaliser des cartes, d'ajouter des mods et de jouer en mode coopératif ou compétitif.</text>
+</text>
+
+
+</view>
+</theme>

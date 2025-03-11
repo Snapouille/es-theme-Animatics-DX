@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>OpenGOAL is an open-source game engine designed for Jak and Daxter: The Precursor Legacy, enabling it to be played on PC with modern enhancements. It is based on reverse engineering of the original engine, written in Naughty Dog's GOAL (Game Oriented Assembly Lisp) language. OpenGOAL offers optimizations such as high resolution, 60 FPS support and improved controls.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>OpenGOAL est un moteur de jeu open-source conçu pour Jak and Daxter: The Precursor Legacy, permettant d’y jouer sur PC avec des améliorations modernes. Il repose sur la rétro-ingénierie du moteur original, écrit en GOAL (Game Oriented Assembly Lisp), le langage de Naughty Dog. OpenGOAL offre des optimisations comme la haute résolution, le support des 60 FPS et des contrôles améliorés.</text>
+</text>
+
+
+</view>
+</theme>

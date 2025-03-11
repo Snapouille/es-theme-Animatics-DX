@@ -9,22 +9,22 @@ originally based on: "carbon"
 
 	<view name="system">
 				
-				<text name="system_description" extra="true">
+			<text name="system_description" extra="true">
+				<text>NMK, founded in 1980 in Japan, was a company specializing in arcade game development, known for titles like Thunder Dragon and Hacha Mecha Fighter. It often collaborated with other publishers to produce intense shoot 'em ups and action games. Although the company faded in the 2000s, its games remain beloved by retro gaming fans for their distinctive style and challenging gameplay.</text>
+			</text>
+		
+			<text name="system_description" extra="true" lang="es">
 				<text></text>
 			</text>
 		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+			<text name="system_description" extra="true" lang="fr">
+				<text>NMK, fondée en 1980 au Japon, était une société spécialisée dans le développement de jeux d'arcade, connue pour des titres comme Thunder Dragon et Hacha Mecha Fighter. Elle collaborait souvent avec d'autres éditeurs pour produire des shoot 'em up et des jeux d'action au gameplay intense. Bien que la société ait disparu dans les années 2000, ses jeux restent appréciés des fans de rétrogaming pour leur style et leur difficulté caractéristiques.</text>
+			</text>
 
 	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
+			<text name="system_description" extra="true" lang="pt">
+					<text></text>
+			</text>
 		
 				
 

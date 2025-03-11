@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Bomberman is a video game series centered on characters who use bombs to fight their way through mazes. Gameplay focuses on destroying blocks to open paths and defeat opponents. The series has evolved through various versions, introducing new game modes and characters while retaining the central concept of bombs.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Bomberman est une série de jeux vidéo centrée sur des personnages qui utilisent des bombes pour se battre dans des labyrinthes. Le gameplay met l'accent sur la destruction de blocs pour ouvrir des chemins et vaincre les adversaires. La série a évolué avec différentes versions, introduisant de nouveaux modes de jeu et des personnages tout en conservant le concept central des bombes.</text>
+</text>
+
+
+</view>
+</theme>

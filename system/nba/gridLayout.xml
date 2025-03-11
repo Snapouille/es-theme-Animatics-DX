@@ -30,8 +30,8 @@
 			<flipX>true</flipX>
 			
 			<storyboard repeat="forever">
-        		<animation property="x" to="0.81" begin="" duration="1500" mode="EaseOutCubic"/>
-				<animation property="scale" to="1.1" begin="" duration="1000" mode="Bump"/>
+        		<animation property="x" to="0.81" begin="" duration="1600" mode="EaseOutCubic"/>
+				<animation property="scale" to="1.1" begin="" duration="1100" mode="Bump"/>
 				
 				<animation property="offsetY" to="1" begin="10700" duration="600" mode="Bump"/>
 				

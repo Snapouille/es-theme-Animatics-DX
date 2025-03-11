@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The player controls actions by turning a wheel-like device, such as a spinner, to interact with the gameplay. A classic example is Arkanoid, where the spinner is used to control the racket that bounces the ball. These games emphasize precision and speed of movement. The spinner adds an extra dimension of direct control.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le joueur contrôle des actions en tournant un dispositif de type molette ou roue, comme un spinner, pour interagir avec le gameplay. Un exemple classique est Arkanoid, où le spinner est utilisé pour contrôler la raquette qui fait rebondir la balle. Ces jeux mettent l'accent sur la précision et la rapidité des mouvements. Le spinner ajoute une dimension supplémentaire de contrôle direct.</text>
+</text>
+
+
+</view>
+</theme>

@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>GemRB (Game Engine Made with Ruby and Bean) is an open-source game engine designed to run the classic Baldur's Gate, Icewind Dale, and Planescape: Torment games on modern systems. It lets you play these RPGs with enhanced graphics and performance, while retaining the original experience and gameplay. The engine is compatible with higher resolutions, offers better control management, and allows modding to customize games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>GemRB (Game Engine Made with Ruby and Bean) est un moteur de jeu open-source conçu pour faire tourner les jeux classiques de Baldur's Gate, Icewind Dale, et Planescape: Torment sur des systèmes modernes. Il permet de jouer à ces RPGs avec des améliorations graphiques et de performance, tout en conservant l'expérience et le gameplay originaux. Le moteur permet le modding pour personnaliser les jeux.</text>
+</text>
+
+
+</view>
+</theme>

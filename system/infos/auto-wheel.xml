@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Games using a steering wheel, like Gran Turismo or Forza Motorsport, deliver an immersive driving experience, simulating the precision and realism of car racing. Popular in simulation and arcade games, they are essential for motorsport enthusiasts.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Les jeux utilisant un volant, comme Gran Turismo ou Forza Motorsport, offrent une expérience de conduite immersive, simulant la précision et le réalisme des courses automobiles. Populaires dans les jeux de simulation et d'arcade, ils sont essentiels pour les fans de sports mécaniques.</text>
+</text>
+
+
+</view>
+</theme>

@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>REminiscence is an open-source game engine enabling Flashback: The Quest for Identity to be played on modern platforms. It offers improvements such as high resolution, better sound and increased compatibility with several systems, including Windows, Linux and macOS. The engine retains the original gameplay while optimizing fluidity and controls.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>REminiscence est un moteur de jeu open-source permettant de jouer à Flashback: The Quest for Identity sur des plateformes modernes. Il offre des améliorations comme la haute résolution, un meilleur son et une compatibilité accrue avec plusieurs systèmes, dont Windows, Linux et macOS. Le moteur conserve le gameplay original tout en optimisant la fluidité et les contrôles.</text>
+</text>
+
+
+</view>
+</theme>

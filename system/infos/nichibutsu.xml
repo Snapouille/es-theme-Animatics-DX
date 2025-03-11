@@ -4,29 +4,19 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
+
 <theme>
-	<formatVersion>7</formatVersion>
+<formatVersion>7</formatVersion>
+<view name="system">
 
-	<view name="system">
-				
-				<text name="system_description" extra="true">
-				<text></text>
-			</text>
-		
-				<text name="system_description" extra="true" lang="es">
-				<text></text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
-				<text></text>
-		</text>
+<text name="system_description" extra="true">
+<text>Nichibutsu, founded in 1953 in Japan, is a company known for its arcade games in the 80s, such as Crazy Climber and Moon Cresta. It stood out for innovative game concepts and a unique visual style. Though less influential today, Nichibutsu left its mark on the gaming industry with its original creations and its role in the golden age of arcade gaming.</text>
+</text>
 
-	
-		<text name="system_description" extra="true" lang="pt">
-				<text></text>
-		</text>
-		
-				
+<text name="system_description" extra="true" lang="fr">
+<text>Nichibutsu, fondée en 1953 au Japon, est une société connue pour ses jeux d'arcade dans les années 80, comme Crazy Climber et Moon Cresta. Elle s'est distinguée par des concepts de jeu innovants et un style visuel unique. Bien que moins influente aujourd'hui, Nichibutsu a marqué l'industrie du jeu vidéo par ses créations originales et son rôle dans l'âge d'or de l'arcade.</text>
+</text>
 
-	</view>
+
+</view>
 </theme>

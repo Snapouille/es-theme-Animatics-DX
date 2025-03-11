@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Castlevania is a series of action-adventure games developed by Konami, featuring the Belmont clan's battle against Dracula and his creatures. Mixing exploration, combat and platforming, the saga is known for its gothic atmosphere and cult music. Modern episodes adopt a “Metroidvania” style, with a more open world and progressive upgrades.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Castlevania est une série de jeux d’action-aventure développée par Konami, mettant en scène la lutte du clan Belmont contre Dracula et ses créatures. Mélangeant exploration, combats et plateformes, la saga est connue pour son ambiance gothique et sa musique culte. Les épisodes modernes adoptent un style "Metroidvania" avec un monde plus ouvert et des améliorations progressives.</text>
+</text>
+
+
+</view>
+</theme>

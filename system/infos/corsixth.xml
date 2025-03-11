@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>CorsixTH is an open-source game engine designed to recreate the Theme Hospital experience on modern systems. It makes it possible to play this classic management simulation seamlessly, with graphics and gameplay adapted to modern resolutions. The engine enhances the original experience by offering customization options and improved control support.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>CorsixTH est un moteur de jeu open-source conçu pour recréer l'expérience de Theme Hospital sur des systèmes modernes. Il permet de jouer à ce classique de simulation de gestion de manière fluide avec des graphismes et un gameplay adaptés aux résolutions modernes. Le moteur améliore l’expérience originale en offrant des options de personnalisation et un meilleur support des contrôles.</text>
+</text>
+
+
+</view>
+</theme>
