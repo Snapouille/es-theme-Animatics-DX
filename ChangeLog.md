@@ -11,6 +11,9 @@
 - add the trackball auto-collection
 - add a description and background to all auto-collection
 
+![Capture d'écran 2025-03-11 134013](https://github.com/user-attachments/assets/0173d709-b0aa-4705-93e8-f9ab35bc08ee)
+
+
 
 ## V 2.21 - (01 03 2025)
 - fix size for Amiga disks (cartridges) when grouped in a collection
