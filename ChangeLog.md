@@ -1,3 +1,7 @@
+## V 2.23 - (20 03 2025)
+- fix cartridges size bug with RVGM and Gamecarousel views
+
+
 ## V 2.22 - (11 03 2025)
 - add Philips P2000 system
 - add Philips VG5000u system
