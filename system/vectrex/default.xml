@@ -6,6 +6,19 @@
 
 
 	<view name="system">
+	
+		<image name="background-city" extra="true">
+			<path>./background-city.png</path>
+			<flipX>true</flipX>
+			<origin>0.5 0.5</origin>									
+			<size>1 0.5138889</size>									
+			<pos>0.33 0.555</pos>	
+			<linearSmooth>true</linearSmooth>
+			<scale>0.6</scale>
+			<zIndex>14</zIndex>
+		</image>
+	
+	
 		<image name="avatar1" extra="static">
 			<origin>0 0</origin>									
 			<size>0.625 0.2425926</size>									
@@ -14,6 +27,7 @@
 			<path>./avatar1.png</path>
 			<opacity>0</opacity>
 			<zIndex>120</zIndex>
+			<linearSmooth>true</linearSmooth>
 		</image>	
 
 	
@@ -25,6 +39,7 @@
 			<path>./avatar2.png</path>
 			<opacity>0</opacity>
 			<zIndex>119</zIndex>
+			<linearSmooth>true</linearSmooth>
 		</image>	
 	
 	
@@ -36,7 +51,8 @@
 			<path>./avatar3.png</path>
 			<opacity>1</opacity>
 			<zIndex>120</zIndex>
-	</image>
+			<linearSmooth>true</linearSmooth>
+		</image>	
 	
 	<image name="avatar4" extra="static">
 			<origin>0 0</origin>									
@@ -46,7 +62,8 @@
 			<path>./avatar.png</path>
 			<opacity>1</opacity>
 			<zIndex>120</zIndex>
-	</image>
+			<linearSmooth>true</linearSmooth>
+		</image>	
 	
 	
 		<image name="avatar1" extra="true">	

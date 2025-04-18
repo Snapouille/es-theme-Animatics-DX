@@ -11,11 +11,15 @@
 	
 	
 	
-		<image name="BG_snapLegacy" extra="true">
-			<flipX>true</flipX>
+	
+		<image name="background-city" extra="true">
+			<path>./background-city.png</path>
+			<origin>0.5 0.5</origin>									
+			<size>1 0.5138889</size>									
+			<pos>0.5 0.7523148</pos>	
+			<scale>1.1</scale>
+			<linearSmooth>true</linearSmooth>
 		</image>
-	
-	
 	
 	
 	
@@ -27,6 +31,7 @@
 			<path>./avatar1.png</path>
 			<opacity>0</opacity>
 			<zIndex>12000</zIndex>
+			<linearSmooth>true</linearSmooth>
 		</image>	
 
 	
@@ -38,6 +43,7 @@
 			<path>./avatar2.png</path>
 			<opacity>0</opacity>
 			<zIndex>11900</zIndex>
+			<linearSmooth>true</linearSmooth>
 		</image>	
 	
 	
@@ -49,6 +55,7 @@
 			<path>./avatar3.png</path>
 			<opacity>1</opacity>
 			<zIndex>8</zIndex>
+			<linearSmooth>true</linearSmooth>
 	</image>
 	
 	
@@ -60,7 +67,7 @@
 					<animation property="opacity" from="0" to="1" begin="" duration="100" mode="linear"/>
 					
 					<animation property="x" from="-1" to="0.1" begin="100" duration="700" mode="EaseOut"/>
-					<animation property="x" from="0.1" to="0.40" begin="800" duration="3000" mode="EaseOut"/>
+					<animation property="x" from="0.1" to="0.40" begin="800" duration="3000" mode="EaseIn"/>
 					
 					<animation property="opacity" from="1" to="0" begin="3900" duration="40" autoreverse="true" repeat="5" mode="linear"/>
 					<animation property="opacity" from="1" to="0" begin="4400" duration="15" mode="linear"/>

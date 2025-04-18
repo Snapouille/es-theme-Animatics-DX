@@ -135,7 +135,7 @@
 
 	<image name="md_image"> 
 		<!-- on affiche pas si on est dans une collection ou bien dans les systèmes FBNEO et MAME-->
-		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
+		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
 	
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
@@ -178,11 +178,14 @@
 
 		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
 		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
+		
+		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.25 0.2962963</size>	
+		<pos  if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.854 0.423</pos>	
 	</image>
 
 	<video name="md_video">
 		<!-- on affiche pas si on est dans une collection ou bien dans les systèmes FBNEO et MAME-->
-		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
+		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
 	
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
@@ -225,18 +228,21 @@
 
 		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
 		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
+				
+		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.25 0.2962963</size>	
+		<pos  if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.854 0.423</pos>	
 	</video>	
 	
 	
 	
 	<!-- AFFICHAGE DANS UNE NOUVELLE IMAGE ET NOUVELLE VIDEO SI ON EST DANS UNE COLLECTION ou SYSTEME MAME et FBNEO-->
-	<image name="md_image_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
+	<image name="md_image_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
 		<maxSize>0.28 0.3</maxSize>				
 		<pos>0.839 0.44</pos>
 		<horizontalAlignment>right</horizontalAlignment>
 	</image>
 
-	<video name="md_video_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
+	<video name="md_video_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
 		<origin>1 0.5</origin>
 		<maxSize>0.28 0.3</maxSize>				
 		<pos>0.979 0.44</pos>	
@@ -252,6 +258,8 @@
 		<maxSize>0.2078125 0.2074074</maxSize>									
 		<maxSize if="{system.theme} == 'switch' || {system.theme} == 'nds' || {system.theme} == '3ds' ">0.1619792 0.15</maxSize>	
 		<maxSize if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.15 0.15</maxSize>	
+		<maxSize if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.15 0.15</maxSize>	
+		
 		<!-- <maxSize if="${system.manufacturer} == 'Collections'">0.15 0.15</maxSize>	 -->
 		
 		<pos>0.18 0.547</pos>	

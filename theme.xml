@@ -485,46 +485,39 @@ originally based on: "carbon"
 
 		<controllerActivity name="controllerActivity">
 			<pos>0.007 0.008</pos>
-			<!-- <pos ifSubset="SystemView:grid">0.255 0.031</pos> -->
 			<size>0.185 0.023</size>
 			<itemSpacing>0.003</itemSpacing>
 			<color>FFFFFF90</color>
 			<!-- controllers -->
 			<imagePath>./art/gamepad.svg</imagePath>
-
-			<!-- <gunPath>./art/gun.svg</gunPath> -->
 			<gunPath>./art/gun.png</gunPath>
 			<wheelPath>./art/wheel.svg</wheelPath>	
-
 			<activityColor>A0A0FFC0</activityColor>
-			<hotkeyColor>FFA0A0C0</hotkeyColor>
-			 
+			<hotkeyColor>FFA0A0C0</hotkeyColor>		 
 		</controllerActivity>
 		
 		
 		<text name="clock">
 			  <origin>1 1</origin>
 			  <color>${frameColor}</color>
-			  <fontPath>./art/fonts/flatwheat.ttf</fontPath>
-			  <pos>1.002 0.991</pos>
-			  <alignment>center</alignment>			  
-			  
-			  <fontSize>0.0125</fontSize>
-			  <glowColor>00000010</glowColor>
-			  <glowSize>3</glowSize>
-			  <!-- <visible ifHelpPrompts="false">false</visible> -->
+			  <fontPath>./art/fonts/ubuntu.ttf</fontPath>
+			  <pos>0.99 0.985</pos>
+			  <size>0.07 0.0275</size>
+			  <fontSize>0.025</fontSize>
+			  <glowColor>000000</glowColor>
+			  <glowSize>1</glowSize>
 		</text>
 
 		<batteryIndicator name="batteryIndicator">
 			  <pos>0.963 0.007</pos>
 			  <size>0.033 0.0275</size>
 			  <horizontalAlignment>right</horizontalAlignment>
-			  <!-- <incharge>./art/battery/incharge.svg</incharge> -->
-			  <!-- <full>./art/battery/full.svg</full> -->
-			  <!-- <at75>./art/battery/75.svg</at75> -->
-			  <!-- <at50>./art/battery/50.svg</at50> -->
-			  <!-- <at25>./art/battery/25.svg</at25> -->
-			  <!-- <empty>./art/battery/empty.svg</empty> -->
+			  <incharge>./art/battery/incharge.svg</incharge>
+			  <full>./art/battery/full.svg</full>
+			  <at75>./art/battery/75.svg</at75>
+			  <at50>./art/battery/50.svg</at50>
+			  <at25>./art/battery/25.svg</at25>
+			  <empty>./art/battery/empty.svg</empty>
 			  <color>FFFFFFA0</color>
 		</batteryIndicator>
 			  
@@ -535,13 +528,9 @@ originally based on: "carbon"
 
 <include>./config/system/system.xml</include>
 <include>./config/system/user.xml</include>
-<!-- <include>./config/gamelist/gameinfobar.xml</include> -->
 <include>./config/colorset/color-options.xml</include>
-
 <include>./system/infos/${system.theme}.xml</include>
   
- 
-
 
 
 <!-- Subset options for help -->
@@ -557,20 +546,12 @@ originally based on: "carbon"
   </subset>
   
   
-  
-  
-  
-  
 <!-- Subset options for screen -->
   <subset name="shader" displayName="${subset.shader}">
     <include name="None" displayName="${none}"/>
     <include name="ScanLines" displayName="${scanlines}">./config/shader/scanlines.xml</include>
     <include name="Crt" displayName="${crt}">./config/shader/crt.xml</include>
   </subset>
-
-
-
-	
 	
 	<!-- Choix d'afficher les fanarts ou non -->
 	<subset name="backgroundDisplay" displayName="${background.Display}" appliesTo="(AUTO=FANART)">

@@ -156,7 +156,7 @@
 
 <!-- MD image et MD video qui match ensemble avec le shader -->
 	<image name="md_image"> 
-		<visible if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
+		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
 		<origin>0.5 0.5</origin>
 		<size>0.3852083 0.4953704</size>									
 		<pos>0.213 0.3</pos>
@@ -179,11 +179,7 @@
 		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.255 0.33</pos>	
 		
 		<size if="{system.theme} == 'pokemini'">0.38 0.45</size>									
-		<size if="{system.theme} == 'arduboy' ">0.3852083 0.343</size>		
-		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.3885417 0.4444444</size>
-		
-		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.375 0.4444444</size>	
-		<pos if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.217 0.305</pos>	
+		<size if="{system.theme} == 'arduboy' ">0.3852083 0.343</size>									
 
 		<zIndex>52</zIndex>
 		<storyboard>        
@@ -201,7 +197,7 @@
 	</image>
 
 	<video name="md_video">
-		<visible if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
+		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
 		<origin>0.5 0.5</origin>
 		<size>0.3852083 0.4953704</size>									
 		<pos>0.213 0.3</pos>	
@@ -222,11 +218,7 @@
 		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.255 0.33</pos>	
 		
 		<size if="{system.theme} == 'pokemini'">0.38 0.45</size>									
-		<size if="{system.theme} == 'arduboy' ">0.3852083 0.343</size>	
-		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.3885417 0.4444444</size>
-		
-		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.375 0.4444444</size>	
-		<pos if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.217 0.305</pos>	
+		<size if="{system.theme} == 'arduboy' ">0.3852083 0.343</size>									
 		
 		<snapshotSource>image</snapshotSource>
 		<showSnapshotNoVideo>true</showSnapshotNoVideo> 
@@ -247,14 +239,13 @@
 
 
 	<!-- POUR CONSERVER UN BON RATIO DES IMAGES ET VIDEOS DANS LES COLLECTIONS et FBNEO / MAME-->
-	<image name="md_image_new" if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
+	<image name="md_image_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
 		
 		<zIndex>52</zIndex>
 		<origin>0.5 0.5</origin>	
 		<path>{game:image}</path>
 		<pos>0.2611979 0.3384259</pos>									
-		<maxSize>0.4588542 0.5157407</maxSize>	
-		<maxSize if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.3885417 0.4444444</maxSize>
+		<maxSize>0.4588542 0.5157407</maxSize>									
 		
 		<storyboard event="open">
 			<animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="1000" duration="500" mode="linear"/>
@@ -279,14 +270,13 @@
 		</shader>
 	</image>
 
-	<video name="md_video_new" if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
+	<video name="md_video_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
 		<zIndex>52</zIndex>
 		<origin>0.5 0.5</origin>
 		<opacity>0</opacity>
 		<path>{game:video}</path>
 		<pos>0.2611979 0.3384259</pos>									
-		<maxSize>0.4588542 0.5157407</maxSize>	
-		<maxSize if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.3885417 0.4444444</maxSize>
+		<maxSize>0.4588542 0.5157407</maxSize>									
 		
 		<storyboard event="open">
 			<animation property="opacity" from="0" to="1" begin="1000" duration="500" mode="linear"/>
@@ -656,7 +646,7 @@
 			<path ifSubset="artworkregion:us">./../../art/controllers2/us/${system.theme}.png</path>
 			<path ifSubset="artworkregion:jp">./../../art/controllers2/jp/${system.theme}.png</path>
 			<!-- si COLLECTION on affiche le systeme au lieu de la manette -->
-			<path if="{system.manufacturer} == 'Collections'">./../../art/consoles/{game:system}.png</path>
+			<path if="${system.manufacturer} == 'Collections'">./../../art/consoles/{game:system}.png</path>
 		<opacity>0</opacity>
 		<scale>0</scale>
 

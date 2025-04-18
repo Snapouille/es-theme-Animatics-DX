@@ -160,7 +160,7 @@
 
 	<image name="md_image"> 
 		<!-- on affiche pas si on est dans une collection ou bien dans les systèmes FBNEO et MAME-->
-		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
+		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
 	
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
@@ -201,13 +201,16 @@
 		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>	
 		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>	
 
-		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
-		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
+		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.1942708 0.2222222</size>	
+		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8830729 0.4231481</pos>	
+		
+		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.25 0.2962963</size>	
+		<pos  if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.854 0.423</pos>	
 	</image>
 
 	<video name="md_video">
 		<!-- on affiche pas si on est dans une collection ou bien dans les systèmes FBNEO et MAME-->
-		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
+		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
 	
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
@@ -248,20 +251,23 @@
 		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>		
 		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>	
 
-		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
-		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
+		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.1942708 0.2222222</size>	
+		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8830729 0.4231481</pos>	
+		
+		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.25 0.2962963</size>	
+		<pos  if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.854 0.423</pos>	
 	</video>	
-	
+
 	
 	
 	<!-- AFFICHAGE DANS UNE NOUVELLE IMAGE ET NOUVELLE VIDEO SI ON EST DANS UNE COLLECTION ou SYSTEME MAME et FBNEO-->
-	<image name="md_image_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
+	<image name="md_image_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
 		<maxSize>0.28 0.3</maxSize>				
 		<pos>0.839 0.44</pos>
 		<horizontalAlignment>right</horizontalAlignment>
 	</image>
 
-	<video name="md_video_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
+	<video name="md_video_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
 		<origin>1 0.5</origin>
 		<maxSize>0.28 0.3</maxSize>				
 		<pos>0.979 0.44</pos>	
@@ -483,7 +489,7 @@
 								   {system.theme} == 'c64' ||
 								   {system.theme} == 'cplus4' ||
 								   {system.theme} == 'pv1000' " extra="true">
-		<maxSize>0.163800 0.260000</maxSize>	<!-- VALEURS VOLONTAIREMENT INVERSEES -->					
+		<maxSize>0.183800 0.260000</maxSize>	<!-- VALEURS VOLONTAIREMENT INVERSEES -->					
     </image>
 	
 		<!-- MASTER SYSTEM / MEGADRIVE / Tutor / MSU-MD / TI-99 -->
@@ -612,7 +618,8 @@
     </image>
 	
 		<!-- Amiga AGA / AMIGA / Amiga OCS/ECS / Archimedes / Atari ST / Macintosh / SAM Coupé -->
-	<image name="cartridge_ID"  if="{system.collection} == 'amiga' ||
+		
+	<image name="cartridge_ID"  if="{system.theme} == 'amiga' ||
 									{system.theme} == 'amiga1200' ||	
 									{system.theme} == 'amiga500' ||	
 									{system.theme} == 'archimedes' ||	
@@ -621,7 +628,7 @@
 									{system.theme} == 'samcoupe' " extra="true">
 		<maxSize>0.235950 0.244339</maxSize>
     </image>
-	
+
 		<!-- APF M-1000 -->
 	<image name="cartridge_ID" if="{system.theme} == 'apfm1000'  " extra="true">
 		<maxSize>0.241605 0.250553</maxSize>						

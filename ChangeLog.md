@@ -1,3 +1,10 @@
+## V 2.24 - (18 03 2025)
+- resize the clock for the poorly sighted
+- resize the wonderswan screen ratio on detailed, rvgm and primacy view
+- resize the gba screen ratio on detailed, rvgm and primacy view
+- reorganisation of Vectrex animation
+
+
 ## V 2.23 - (20 03 2025)
 - fix cartridges size bug with RVGM and Gamecarousel views
 

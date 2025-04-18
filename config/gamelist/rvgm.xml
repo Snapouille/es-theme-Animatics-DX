@@ -26,7 +26,7 @@
 	</image>
 
 	<image name="md_image"> 
-		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
+		<visible if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
 		<size>0.334375 0.4148148</size>									
 		<pos>0.53 0.45</pos>
 
@@ -35,6 +35,9 @@
 		
 		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.235 0.375</size>									
 		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.535 0.45</pos>									
+		
+		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.27052088 0.42129626</size>									
+		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.535 0.455</pos>	
 		
 		<size if="{system.theme} == '3ds'">0.35 0.375</size>									
 		<pos  if="{system.theme} == '3ds'">0.535 0.45</pos>	
@@ -56,10 +59,14 @@
 
 		<size if="{system.theme} == 'arduboy' ">0.334375 0.298</size>	
 		<pos  if="{system.theme} == 'arduboy' ">0.53 0.45</pos>		
+		
+		<!-- <size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.3237847 0.3703704</size>	 -->
+		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.3125 0.3703704</size>	
+
 	</image>
 
 	<video name="md_video">
-		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'">false</visible>
+		<visible if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
 		<size>0.334375 0.4148148</size>									
 		<pos>0.53 0.45</pos>	
 		
@@ -67,7 +74,10 @@
 		<pos  if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.525 0.45</pos>									
 		
 		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.235 0.375</size>									
-		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.535 0.45</pos>									
+		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.535 0.455</pos>									
+		
+		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.27052088 0.42129626</size>									
+		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.535 0.455</pos>	
 		
 		<size if="{system.theme} == '3ds'">0.35 0.375</size>									
 		<pos  if="{system.theme} == '3ds'">0.535 0.45</pos>	
@@ -89,15 +99,19 @@
 		
 		<size if="{system.theme} == 'arduboy' ">0.334375 0.298</size>	
 		<pos  if="{system.theme} == 'arduboy' ">0.53 0.45</pos>		
+		
+		<!-- <size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.3237847 0.3703704</size> -->
+		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.3125 0.3703704</size>	
+
 	</video>		
 	
 	<!-- POUR CONSERVER UN BON RATIO DES IMAGES ET VIDEOS DANS LES COLLECTIONS et FBNEO / MAME-->
-	<image name="md_image_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
+	<image name="md_image_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
 		<pos>0.5296875 0.449537</pos>									
 		<maxSize>0.334375 0.4157407</maxSize>									
 	</image>
 
-	<video name="md_video_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame'" extra="true">
+	<video name="md_video_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
 		<pos>0.5296875 0.449537</pos>									
 		<maxSize>0.334375 0.4157407</maxSize>									
 	</video>
