@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Mega-CD, also known as the Sega CD in North America, is a CD-ROM drive peripheral for the Mega Drive video game console. The price, the single speed CD drive adding loading times, the 64 colour graphics and an underpowered processor for video rendering will be the big weaknesses of this system.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le Mega-CD, également connu sous le nom de Sega CD en Amérique du Nord, est un périphérique lecteur de CD-ROM destiné à la console de jeu vidéo Mega Drive. Le prix, le lecteur CD simple vitesse ajoutant des temps de chargement, les graphismes en 64 couleurs et un processeur sous-puissant pour le rendu vidéo seront les grosses faiblesses de ce système.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die Mega-CD, in Nordamerika auch als Sega CD bekannt, ist ein peripheres CD-ROM-Laufwerk für die Videospielkonsole Mega Drive. Der Preis, das Single-Speed-CD-Laufwerk mit Ladezeiten, 64-Farben-Grafiken und ein unterlegener Prozessor für die Videowiedergabe waren die großen Schwächen dieses Systems.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Mega-CD, también conocido como Sega CD en Norteamérica, es un periférico de unidad de CD-ROM para la videoconsola Mega Drive. El precio, la unidad de CD de una sola velocidad que añadía tiempos de carga, los gráficos de 64 colores y un procesador poco potente para el renderizado de vídeo serán los grandes puntos débiles de este sistema.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Mega-CD, noto anche come Sega CD in Nord America, è una periferica per unità CD-ROM per la console per videogiochi Mega Drive. Il prezzo, l'unità CD a velocità singola che aggiunge tempi di caricamento, la grafica a 64 colori e un processore poco potente per il rendering video saranno i grandi punti deboli di questo sistema.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>メガCDは、北米ではセガCDとも呼ばれ、ビデオゲーム機「メガドライブ」用のCD-ROMドライブ周辺機器である。価格、シングルスピードのCDドライブによるロード時間の増加、64色のグラフィック、ビデオレンダリング用のプロセッサのパワー不足などが、このシステムの大きな弱点となるであろう。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Mega-CD, ook bekend als de Sega CD in Noord-Amerika, is een CD-ROM drive randapparaat voor de Mega Drive video game console. De prijs, de single speed CD drive die laadtijden toevoegt, de 64 kleuren graphics en een underpowered processor voor video rendering zijn de grote zwakheden van dit systeem.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Mega-CD, znany również jako Sega CD w Ameryce Północnej, to urządzenie peryferyjne z napędem CD-ROM dla konsoli gier wideo Mega Drive. Cena, pojedyncza prędkość napędu CD dodająca czasy ładowania, 64 kolorowa grafika i niedostatecznie mocny procesor do renderowania wideo będą wielkimi słabościami tego systemu.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Mega-CD, também conhecido como o CD Sega na América do Norte, é um periférico de unidade de CD-ROM para a consola de videojogos Mega Drive. O preço, a unidade de CD de velocidade única adicionando tempos de carregamento, os 64 gráficos a cores e um processador de baixo consumo de energia para renderização de vídeo serão os grandes pontos fracos deste sistema.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Mega-CD, также известный как Sega CD в Северной Америке, является периферийным устройством привода CD-ROM для игровой консоли Mega Drive. Цена, односкоростной CD-привод, увеличивающий время загрузки, 64-цветная графика и недостаточно мощный процессор для рендеринга видео - вот основные недостатки этой системы.</text>
+</text>
+
+</view>
+</theme>

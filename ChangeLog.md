@@ -3,6 +3,7 @@
 - resize the wonderswan screen ratio on detailed, rvgm and primacy view
 - resize the gba screen ratio on detailed, rvgm and primacy view
 - reorganisation of Vectrex animation
+- change segacd to megacd
 
 
 ## V 2.23 - (20 03 2025)
