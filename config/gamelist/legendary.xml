@@ -576,6 +576,7 @@ originally based on: "carbon"
 			|| {system.theme} == 'psikyo' 
 			|| {system.theme} == 'sammy' 
 			|| {system.theme} == 'sega' 
+			|| {system.theme} == 'segastv' 
 			|| {system.theme} == 'seibukaihatsu' 
 			|| {system.theme} == 'semicom'
 			|| {system.theme} == 'snk' 
@@ -723,6 +724,7 @@ originally based on: "carbon"
 		|| {system.theme} == 'psikyo' 
 		|| {system.theme} == 'sammy' 
 		|| {system.theme} == 'sega' 
+		|| {system.theme} == 'segastv' 
 		|| {system.theme} == 'seibukaihatsu' 
 		|| {system.theme} == 'semicom'
 		|| {system.theme} == 'snk' 
@@ -749,6 +751,7 @@ originally based on: "carbon"
 	<visible>false</visible>
 </image>
 	
+
 
 
 <!-- 2 barres qui bougent haut coin supérieur gauche -->

@@ -1,3 +1,9 @@
+## V 2.25 - (26 04 2025)
+- add a bartop view for Sega STV in gamecarousel and legendary view
+- resize the ps4 size in gamecarousel view
+- fix amstradcpc animation when help bar is activated
+
+
 ## V 2.24 - (18 03 2025)
 - resize the clock for the poorly sighted
 - resize the wonderswan screen ratio on detailed, rvgm and primacy view
