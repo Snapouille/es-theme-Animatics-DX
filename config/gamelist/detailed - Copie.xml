@@ -275,6 +275,7 @@
 		<origin>0.5 0.5</origin>
 		<opacity>0</opacity>
 		<path>{game:video}</path>
+		<delay>0.1</delay>
 		<pos>0.2611979 0.3384259</pos>									
 		<maxSize>0.4588542 0.5157407</maxSize>									
 		
