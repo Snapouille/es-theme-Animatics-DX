@@ -9,13 +9,37 @@ originally based on: "carbon"
 <theme>
   <formatVersion>7</formatVersion>
   <view name="splash">
+  
+	<image name="background_fanart" extra="true">
+		<pos>0.5 0.5</pos>
+		<origin>0.5 0.5</origin>
+		<size>1 1</size>
+		<path>{game:fanart}</path>
+		<zIndex>1</zIndex>
+	</image>
+	<image name="overlay-fanart" extra="true">
+		<visible>exists({game:fanart})</visible>
+		<path>${themePath}/art/divers/overlay_fanart.png</path>
+		<origin>0.5 0.5</origin>
+		<size>2 2</size>
+		<zIndex>2</zIndex>
+	</image>
+	<image name="bg_marquee" extra="true">
+		<visible>exists({game:fanart})</visible>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.1</pos>
+		<maxSize>0.2 0.15</maxSize>
+		<path>{game:marquee}</path>
+		<zIndex>3</zIndex>
+	</image>
 	<image name="background-default" extra="true">
+		<visible>!exists({game:fanart})</visible>
 		<linearSmooth>true</linearSmooth>
 		<path>./art/divers/splash.png</path>
 		<origin>0.5 0.5</origin>
 		<pos>0.5 0.5</pos>
 		<size>1 1</size>
-		<zIndex>00</zIndex>
+		<zIndex>1</zIndex>
 	</image>  
 	<!-- Affiche la preview du jeu sur le background-default -->
 	<image name="background">
@@ -30,6 +54,7 @@ originally based on: "carbon"
       <!-- <backgroundColor>000000FF</backgroundColor> -->
     <!-- </splash> -->
 	<text name="label">
+		<visible>!exists({game:fanart})</visible>
 		<color>FFFFFF</color>
 		<alignment>center</alignment>
 		<fontPath>./art/fonts/charge-vector.otf</fontPath>

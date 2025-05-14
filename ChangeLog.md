@@ -1,3 +1,9 @@
+## V 2.26 - (14 05 2025)
+- add system Dragon32 background
+- add system Commander x16 background
+- change splashscreen if fanart for the game exists
+
+
 ## V 2.25 - (26 04 2025)
 - add a bartop view for Sega STV in gamecarousel and legendary view
 - resize the ps4 size in gamecarousel view

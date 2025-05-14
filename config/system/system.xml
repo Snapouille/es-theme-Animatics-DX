@@ -21,6 +21,8 @@ originally based on: "carbon"
 	</image>
 	
 	<sound name="bgsound">
+		<path>./../../../zzz-DX-Music/${system.theme}.mp3</path>
+		<path>./../../../zzz-DX-Music/${system.theme}.ogg</path>
 		<path>./../../../es-theme-Animatics-DX-Music/${system.theme}.mp3</path>
 		<path>./../../../es-theme-Animatics-DX-Music/${system.theme}.ogg</path>
 		<path>./../../../es-theme-Animatics-DX-Music-master/es-theme-Animatics-DX-Music/${system.theme}.mp3</path>
