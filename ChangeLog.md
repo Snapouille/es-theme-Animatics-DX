@@ -1,3 +1,7 @@
+## V 2.27 - (31 05 2025)
+- add NaomiGD system (foclabroc pull request)
+
+
 ## V 2.26 - (14 05 2025)
 - add system Dragon32 background
 - add system Commander x16 background
