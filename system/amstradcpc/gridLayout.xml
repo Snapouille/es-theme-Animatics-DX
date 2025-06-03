@@ -29,18 +29,17 @@
 			<pos>0.5 0.6023148</pos>									
 			<path>./background-city2.png</path>
 			<scale>1</scale>
-			<linearSmooth>true</linearSmooth>
-			<saturation>0.7</saturation>
+			<zIndex>5</zIndex>
+			<saturation>1</saturation>
 			  <storyboard>
 				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
 			  </storyboard>
 		</image>
 		
-		
 		<image name="background-sunset" extra="true">
 			<origin>0.5 0.5</origin>									
-			<size>0.9994792 0.45</size>									
-			<pos>0.4997396 0.225</pos>									
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>									
 			<path>./background-sunset.png</path>
 			<zIndex>4</zIndex>
 			<storyboard>

@@ -63,7 +63,7 @@
 		<minSize if="{system.theme} == 'nds'">1.1 1.6</minSize>									
 		<maxSize if="{system.theme} == 'nds'">1.1 1.6</maxSize>			
 		<origin>0.5 0.5</origin>
-		<delay>0</delay>
+		<delay>0.1</delay> 
 		<color>FFFFFFA0</color>
 		<effect>none</effect>
 		<zIndex>9</zIndex>
@@ -98,7 +98,7 @@
 		<pos 	 if="{system.theme} == 'nds'">0.5 0.68</pos>	
 		<maxSize if="{system.theme} == 'nds'">3 3</maxSize>			
 		<origin>0.5 0.5</origin>
-		<delay>0</delay>
+		<delay>0.1</delay> 
 		<color>FFFFFFA0</color>
 		<effect>none</effect>
 		<zIndex>9</zIndex>

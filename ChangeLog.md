@@ -1,3 +1,8 @@
+## V 2.28 - (03 06 2025)
+- fix video + fanart systemview
+- fix amstrad cpc animation  
+
+
 ## V 2.27 - (31 05 2025)
 - add NaomiGD system (foclabroc pull request)
 

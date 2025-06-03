@@ -92,7 +92,7 @@
     <video name="backgroundvideo" extra="true">
 		<path>{random}</path>
 		<origin>0.5 0.5</origin>
-		<delay>0</delay> 
+		<delay>0.1</delay> 
 		<effect>none</effect>
 		<zIndex>31</zIndex>
 		
@@ -143,7 +143,7 @@
 		<video name="backgroundvideo" extra="true">
 			<path>{random}</path>
 			<origin>0.5 0.5</origin>
-			<delay>0</delay> 
+			<delay>0.1</delay> 
 			<effect>none</effect>
 			<zIndex>31</zIndex>
 			
