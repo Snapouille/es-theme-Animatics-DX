@@ -305,6 +305,7 @@ originally based on: "carbon"
 	<video name="md_video">
 		<pos>0.237 0.215</pos>
 		<maxSize>0.16 0.24</maxSize>
+		<delay>0.1</delay> 
 	</video>
 	
 	<image name="md_image">

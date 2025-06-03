@@ -23,6 +23,7 @@
     <video name="videobox" extra="true">
       <pos>0.675 0.40</pos>
       <maxSize>0.40 0.55</maxSize>
+	  <delay>0.1</delay> 
     </video>   
 	
     
