@@ -95,6 +95,12 @@
 		<delay>0.1</delay> 
 		<effect>none</effect>
 		<zIndex>31</zIndex>
+				
+		<roundCorners>0</roundCorners>
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<audio>false</audio>
+		<default>${themePath}/art/divers/no-video.mp4</default>
 		
 		<shader>
 			<path>${themePath}/art/shaders/border.glsl</path>
@@ -146,6 +152,12 @@
 			<delay>0.1</delay> 
 			<effect>none</effect>
 			<zIndex>31</zIndex>
+						
+			<roundCorners>0</roundCorners>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<audio>false</audio>
+			<default>${themePath}/art/divers/no-video.mp4</default>		
 			
 			<shader>
 				<path>${themePath}/art/shaders/border.glsl</path>

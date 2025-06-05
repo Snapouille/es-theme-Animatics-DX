@@ -55,7 +55,6 @@
     <video name="backgroundvideo" extra="true">
 		<path>{random}</path>
 		<path if="{system.theme} == 'retrobat'">${themePath}/system/retrobat/retrobat-neon.mp4</path>
-		<default>./../../../art/divers/mediamissing2.png</default>
 		<pos>0.32 0.38</pos>									
 		<minSize>0.85 0.93</minSize>									
 		<maxSize>0.85 0.93</maxSize>	
@@ -67,6 +66,12 @@
 		<color>FFFFFFA0</color>
 		<effect>none</effect>
 		<zIndex>9</zIndex>
+		
+		<roundCorners>0</roundCorners>
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<audio>false</audio>
+		<default>${themePath}/art/divers/no-video.mp4</default>
     </video>
 	
 	
@@ -89,7 +94,6 @@
 	
     <video name="backgroundvideo" extra="true">
 		<path>{random}</path>
-		<default>./../../../art/divers/mediamissing2.png</default>
 		<path if="{system.theme} == 'retrobat'">${themePath}/system/retrobat/retrobat-neon.mp4</path>
 		<pos>0.5 0.32</pos>
 		<pos ifHelpPrompts="false">0.5 0.38</pos>
@@ -102,6 +106,12 @@
 		<color>FFFFFFA0</color>
 		<effect>none</effect>
 		<zIndex>9</zIndex>
+		
+		<roundCorners>0</roundCorners>
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<audio>false</audio>
+		<default>${themePath}/art/divers/no-video.mp4</default>
     </video>
 	
 	
