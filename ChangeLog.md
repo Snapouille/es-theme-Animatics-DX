@@ -1,4 +1,5 @@
 ## V 2.28 - (03 06 2025)
+- add DICE (Discrete Integrated Circuit Emulator) emulator
 - fix video + fanart systemview
 - fix amstrad cpc animation  
 
