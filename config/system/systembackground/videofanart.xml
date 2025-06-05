@@ -63,15 +63,31 @@
     </image>
 	
 	<!-- View : WHEEL-ANIMATICS -->
-	<image name="vertical_down_bg_black, vertical_up_bg_black, black_BottomFrame" extra="static">
+	<image name="vertical_down_bg_black, vertical_up_bg_black" extra="static">
 		<opacity>0.75</opacity>
     </image>
+	
+	<image name="black_BottomFrame_extension" extra="true">
+		<size>1 0.0555556</size>									
+		<pos>0.5 0.9675926</pos>		
+		<opacity>0.75</opacity>
+	</image>
+	
+	<!-- on prend le black d'origine pour éviter les superpositions en vue du passage à 0.75 opacity quand la barre d'aide est afficher -->
+	<image ifHelpPrompts="true" name="vertical_down_bg_black" extra="true">
+		<path>./../../../art/divers/vertical_down_bg_black.png</path>
+		<size>0.3677083 0.3416667</size>									
+		<pos>0.9140625 0.7689815</pos>									
+	</image>
+	
 	<image name="BarAndRound" ifSubset="InfoCustomView:detailed" extra="static">
 		<visible>false</visible>
 	</image>
 
-
-
+	<image name="black_BottomFrame" extra="true">
+		<visible>false</visible>
+	</image>
+	
     <image name="randomImage" extra="true">
       <path>{random:fanart}</path>
 	  <default>./../../../art/divers/bg.png</default>   
