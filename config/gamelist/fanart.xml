@@ -17,14 +17,20 @@ originally based on: "carbon"
 	<image name="diagobase1, diagobase2, diagobase3, diagobase4, diagobase5, diagoyellow1, diagoyellow2, diagoyellow3, diagoyellow4, diagoyellow5">
 			<visible>false</visible>
 	</image>
+	<image name="desc_cadre_gauche, desc_cadre_droit, desc_cadre_haut, desc_cadre_bas">
+			<visible>false</visible>
+	</image>
 	
 	
-	
+	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+		<pos>0.7 0.52</pos>									
+	</image>
 
 	<text name="WhatSystemGAME" extra="true">
-		<pos>0.70 0.027</pos>
-		<alignment>right</alignment>
-		<zIndex>34</zIndex>
+		<!-- <pos>0.70 0.027</pos> -->
+		<!-- <alignment>right</alignment> -->
+		<!-- <zIndex>34</zIndex> -->
+			<visible>false</visible>
 	</text>
 
 	<image name="md_image, boxback_ID">
