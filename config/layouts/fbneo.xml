@@ -2,6 +2,7 @@
 
 
 <view name="gamecarousel">
+
   
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
@@ -29,9 +30,10 @@
   
 	
 	
-		<video name="md_video">
-			<visible>false</visible>
-		</video>
+	<!-- je décale en dehors de l'écran car il s'affichait toujours, même avec un visible=false ... -->
+	<video name="md_video">
+		<pos>-2 -1</pos>
+	</video>
 		
 		
 		<image name="game_imagepreview" extra="true">
@@ -189,22 +191,6 @@
 		</storyboard>		  
 	</text>
 	
-	<text name="description_Id" extra="true">
-	    <text>{game:desc}</text>
-		<origin>0.5 0.5</origin>									
-		<size>0.24 0.24</size>									
-		<pos>0.30 0.282</pos>	
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>		
-	</text>
 	
 	<!-- Système avec une cartouche taille normale -->		
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
@@ -237,6 +223,10 @@
 		</storyboard>
     </image>
 </view>
+
+
+
+
 
 <customView name="fanart">
 

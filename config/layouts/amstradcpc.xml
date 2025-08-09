@@ -1,110 +1,34 @@
 ﻿<theme>
 
-
 <view name="gamecarousel">
-  
+
+	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+		<pos>0.32 0.6</pos>									
+		<pos ifHelpPrompts="false">0.32 0.645</pos>
+	</image>
+
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>									
-
-		<size>0.5161458 0.6453704</size>	
-		<pos>0.5403646 0.6139815</pos>									
-		<pos ifHelpPrompts="false">0.5403646 0.6639815</pos>									
-									
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.48875 0.5881111</size>									
+		<pos>0.515 0.629</pos>									
+		<pos ifHelpPrompts="false">0.535 0.668</pos>									
 	</image>
-  
   
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
-		<size>0.2276042 0.29809259</size>									
-		<pos>0.5726563 0.4962407</pos>
-		<pos ifHelpPrompts="false">0.5726563 0.5462407</pos>									
-
+		<size>0.2125 0.2759259</size>									
+		<pos>0.5453125 0.5271481</pos>									
+		<pos ifHelpPrompts="false">0.5653125 0.5661481</pos>
 		<roundCorners>0.03</roundCorners>
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</video>
 	
-  
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
-		<size>0.2276042 0.2989259</size>									
-		<pos>0.5726563 0.4962407</pos>
-		<pos ifHelpPrompts="false">0.5726563 0.5462407</pos>	
-		
-		<zIndex>14</zIndex>
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.22 0.28</size>									
+		<pos>0.5453125 0.5271481</pos>									
+		<pos ifHelpPrompts="false">0.5653125 0.5661481</pos>
 	</image>
 	
-	<text name="description_Id" extra="true">
-	  <text>{game:desc}</text>
-	  <origin>0 0</origin>
-	  <color>928e94D0</color>
-	  <fontSize>0.021</fontSize>
-	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-	  <size>0.53 0.12</size>
-	  <linearSmooth>true</linearSmooth>
-	  <alignment>left</alignment>
-	  <verticalAlignment>top</verticalAlignment>
-	  <autoScroll>vertical</autoScroll>
-	  <pos>0.18 0.161</pos>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-    </text>
 </view>
-
-
 
 
 

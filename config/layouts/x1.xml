@@ -2,163 +2,35 @@
 
 
 <view name="gamecarousel">
+
+	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+		<pos>0.35 0.77</pos>									
+		<pos ifHelpPrompts="false">0.35 0.82</pos>
+	</image>
   
 	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>
 		<path>./../../system/x1/ecran_console2.png</path>
-
 		<size>0.4682292 0.7407407</size>									
-		<pos>0.5565104 0.5638889</pos>									
-		<pos ifHelpPrompts="false">0.5565104 0.6138889</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<pos>0.6 0.585</pos>									
+		<pos ifHelpPrompts="false">0.6 0.635</pos>
+		<scale>0.88</scale>
 	</image>
-  
   
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
-		<pos>0.584375 0.3726852</pos>
-		<pos ifHelpPrompts="false">0.584375 0.4226852</pos>
-		<size>0.2041667 0.2728519</size>									
-
-		<zIndex>30</zIndex>
-
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.17 0.23</size>									
+		<pos>0.6244792 0.4162037</pos>			
+		<pos ifHelpPrompts="false">0.6244792 0.4662037</pos>
 	</video>
 	
-  
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
-		<size>0.2041667 0.2728519</size>																
-		<pos>0.584375 0.3726852</pos>	
-		<pos ifHelpPrompts="false">0.584375 0.4226852</pos>
-		<zIndex>14</zIndex>
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.178125 0.2416667</size>									
+		<pos>0.6244792 0.4162037</pos>		
+		<pos ifHelpPrompts="false">0.6244792 0.4662037</pos>
 	</image>
 		
-	<text name="name_Id" extra="true">
-		<text>{game:name}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>	
-    </text>
-	
-	<text name="developer_Id" extra="true">
-		<text>{game:developer}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>	
-	</text>
-	
-	<image name="md_flag">
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>	
-	</image>
-	
-	<datetime name="md_releasedate">
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>			 
-    </datetime>
-	
-	
-	<text name="genre_Id" extra="true">
-		<text>{game:genre}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>		  
-	</text>
-	
-	<text name="description_Id" extra="true">
-	    <text>{game:desc}</text>
-		<origin>0.5 0.5</origin>									
-		<size>0.24 0.24</size>									
-		<pos>0.30 0.282</pos>	
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>		
-	</text>
+		
+		
 	
 	<!-- Système avec une cartouche taille normale -->		
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
@@ -190,7 +62,11 @@
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
     </image>
+	
 </view>
+
+
+
  
 <customView name="fanart">
 

@@ -5,7 +5,7 @@ Theme for Emulation Station compatible with
 - [Batocera](https://batocera.org/)
 - [RetroBat](https://www.retrobat.org/)
 
-**V 2.28 - (2025 06 03) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
+**V 2.29 - (2025 08 09) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
 
 Features :
 
@@ -114,6 +114,9 @@ Pour terminer, n'oubliez pas de paramétrer dans les options du thème :
 - EvilDindon Arcade Planet (large inspiration for gamelist view)
 - Lehcimcramtrebor know as the great HelMic Hexa and RCBX (many many tips and code tricks)
 - Elardramora known as my savior (tips and tricks + tricks and tips, and more)
+- Bob morane manufacturer logo and many tricks
+- Pequetren oval wheel design
+- Lesebio and Zaldred square wheel design 
 
 and never forget f.caruso and Lbrpdx, without whom none of this would be possible :)
 

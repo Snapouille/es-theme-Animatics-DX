@@ -3,104 +3,85 @@
 
 <view name="gamecarousel">
   
-	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>
-		<path>./../../system/amiga/ecran_console2.png</path>
-
-		<size>0.4197917 0.5694444</size>									
-		<pos>0.555625 0.5893519</pos>									
-		<pos ifHelpPrompts="false">0.555625 0.6393519</pos>
+	<image name="bureau" extra="static">
+		<path ifSubset="deskType:wood1">${themePath}/art/divers/desk-wood1-wide.png</path>
+		<path ifSubset="deskType:wood2">${themePath}/art/divers/desk-wood2-wide.png</path>
+		<size>1 0.3175926</size>									
+		<pos>0.5 0.7875</pos>	
+		<pos ifHelpPrompts="false">0.5 0.8475</pos>
+	</image>
+	
+	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+		<size>0.0625 0.1694444</size>									
+		<pos>0.34 0.58</pos>									
+		<pos ifHelpPrompts="false">0.355 0.635</pos>
+	</image>
+	
+	<image name="lamp" extra="true">
+		<origin>0.5 0.5</origin>	
+		<path>${themePath}/art/mini/lamp.png</path>
+		<size>0.1515625 0.3814815</size>									
+		<pos>0.28 0.53</pos>									
+		<pos ifHelpPrompts="false">0.28 0.58</pos>
 		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
+		<zIndex>4</zIndex>
+	</image>
+	
+	<image name="lamp_halo" extra="true">
+		<origin>0.5 0.5</origin>	
+		<path>${themePath}/art/mini/lamp_halo.png</path>
+		<size>0.2744792 0.5018519</size>									
+		<pos>0.3992188 0.5990741</pos>									
+		<pos ifHelpPrompts="false">0.3992188 0.6490741</pos>
+		<color>FFFFFF</color>
+		<opacity>0</opacity>
+		<zIndex>5</zIndex>
 		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<storyboard event="open">
+                <animation property="opacity" to="0.6" begin="1500" duration="300" mode="linear"/>			
+		</storyboard>
+			
+		<storyboard event="activate">
+                <animation property="opacity" to="0.6" begin="1500" duration="300" mode="linear"/>			
+		</storyboard>
+			
+		<storyboard event="deactivate">
+                <animation property="opacity" to="0" mode="linear"/>			
+		</storyboard>
+	</image>
+	
+	<image name="lamp_cache" extra="true">
+		<origin>0.5 0.5</origin>	
+		<path>${themePath}/art/mini/lamp_cache.png</path>
+		<size>0.071875 0.1166667</size>									
+		<pos>0.3171875 0.4546296</pos>									
+		<pos ifHelpPrompts="false">0.3171875 0.5046296</pos>
+		<color>FFFFFF</color>
+		<zIndex>6</zIndex>
+	</image>
+	
+	<image name="ecran_console" extra="static">
+		<path>./../../system/amiga/ecran_console2.png</path>
+		<size>0.4197917 0.5694444</size>									
+		<pos>0.565625 0.6293519</pos>									
+		<pos ifHelpPrompts="false">0.555625 0.6893519</pos>
 	</image>
   
   
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
-		<size>0.1720833 0.227037</size>									
-		<pos>0.5811458 0.4666667</pos>									
-		<pos ifHelpPrompts="false">0.5811458 0.5166667</pos>
-		<zIndex>30</zIndex>
-
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.1770833 0.237037</size>									
+		<pos>0.5911458 0.5066667</pos>									
+		<pos ifHelpPrompts="false">0.5811458 0.5666667</pos>
 	</video>
 	
   
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
-		<size>0.1720833 0.227037</size>									
-		<pos>0.5811458 0.4666667</pos>	
-		<pos ifHelpPrompts="false">0.5811458 0.5166667</pos>
-		<zIndex>14</zIndex>
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.1770833 0.237037</size>									
+		<pos>0.5911458 0.5066667</pos>	
+		<pos ifHelpPrompts="false">0.5811458 0.5666667</pos>
 	</image>
 	
-	<text name="description_Id" extra="true">
-	  <text>{game:desc}</text>
-	  <origin>0 0</origin>
-	  <color>928e94D0</color>
-	  <fontSize>0.021</fontSize>
-	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-	  <size>0.53 0.12</size>
-	  <linearSmooth>true</linearSmooth>
-	  <alignment>left</alignment>
-	  <verticalAlignment>top</verticalAlignment>
-	  <autoScroll>vertical</autoScroll>
-	  <pos>0.18 0.161</pos>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-    </text>
 </view>
 
 

@@ -2,73 +2,31 @@
   
   <view name="gamecarousel">
   
-	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
-		<path>./../../system/${system.theme}/ecran_console2.png</path>
-		<size>0.4401042 0.5277778</size>									
-		<pos>0.4986979 0.6564815</pos>									
-		<pos ifHelpPrompts="false">0.4986979 0.7064815</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+		<pos>0.315 0.66</pos>									
+		<pos ifHelpPrompts="false">0.315 0.71</pos>
+		<maxSize>0.09 0.25</maxSize>	
 	</image>
   
+	<image name="ecran_console" extra="static">
+		<path>./../../system/${system.theme}/ecran_console2.png</path>
+		<size>0.4401042 0.5277778</size>									
+		<pos>0.5186979 0.6264815</pos>									
+		<pos ifHelpPrompts="false">0.5186979 0.6764815</pos>
+	</image>
   
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
-		<pos>0.4989583 0.5388889</pos>	
-		<pos ifHelpPrompts="false">0.4989583 0.5888889</pos>
+		<pos>0.5189583 0.5088889</pos>	
+		<pos ifHelpPrompts="false">0.5189583 0.5588889</pos>
 		<size>0.1458333 0.1867407</size>									
-
 		<roundCorners>0.03</roundCorners>
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</video>
 	
-  
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
 		<size>0.1458333 0.1867407</size>																
-		<pos>0.4989583 0.5388889</pos>
-		<pos ifHelpPrompts="false">0.4989583 0.5888889</pos>
-		<zIndex>14</zIndex>
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<pos>0.5189583 0.5088889</pos>
+		<pos ifHelpPrompts="false">0.5189583 0.5588889</pos>
 	</image>
 	
 </view>

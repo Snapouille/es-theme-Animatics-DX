@@ -4,193 +4,32 @@
 <view name="gamecarousel">
   
 	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
-
 		<size>0.2098958 0.5555556</size>									
 		<pos>0.5702604 0.5888889</pos>									
 		<pos ifHelpPrompts="false">0.5702604 0.6388889</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</image>
-  
   
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
-		<minSize>0.1927083 0.2592593</minSize>
 		<pos>0.5697396 0.4685185</pos>	
 		<pos ifHelpPrompts="false">0.5697396 0.5185185</pos>
 		<size>0.1026042 0.1611111</size>									
-
-		<zIndex>30</zIndex>
-
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</video>
 	
-  
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
 		<size>0.1026042 0.1611111</size>									
 		<pos>0.5697396 0.4685185</pos>	
 		<pos ifHelpPrompts="false">0.5697396 0.5185185</pos>
-		<zIndex>14</zIndex>
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+	</image>
+	
+	<image name="thumbnail-gamecarousel" extra="true">
+		<pos>0.155 0.691</pos>
+		<pos ifHelpPrompts="false">0.155 0.723</pos>
 	</image>
 		
-	<text name="name_Id" extra="true">
-		<text>{game:name}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>	
-    </text>
-	
-	<text name="developer_Id" extra="true">
-		<text>{game:developer}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>	
-	</text>
-	
-	<image name="md_flag">
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>	
-	</image>
-	
-	<datetime name="md_releasedate">
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>			 
-    </datetime>
-	
-	
-	<text name="genre_Id" extra="true">
-		<text>{game:genre}</text>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>		  
-	</text>
-	
-	<text name="description_Id" extra="true">
-	    <text>{game:desc}</text>
-		<origin>0.5 0.5</origin>									
-		<size>0.24 0.24</size>									
-		<pos>0.30 0.282</pos>	
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-		</storyboard>		
-	</text>
-	
-	<!-- Système avec une cartouche taille normale -->		
-	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
-		<path>{game:cartridge}</path>
-		<origin>0 0.5</origin>									
-		<pos>0.185 0.691</pos>
-		<pos ifHelpPrompts="false">0.185 0.73</pos>		
-		<maxSize>0.156630 0.185103</maxSize>
-		<linearSmooth>true</linearSmooth>
-		<opacity>0</opacity>
-		<zIndex>22</zIndex> 
-		<!-- <scale>1.10</scale>	 -->
-		<storyboard event="open">   
-			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" from="-0.10" to="0.065" begin="1000" duration="600" mode="EaseInOut"/>
-		</storyboard>
-		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" from="-0.10" to="0.065" begin="1000" duration="600" mode="EaseInOut"/>
-		</storyboard>
-		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
-			<animation property="offsetX" from="-0.10" to="0.065" begin="1000" duration="600" mode="EaseInOut"/>
-		</storyboard>      
-		<storyboard event="deactivateNext">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-		<storyboard event="deactivatePrev">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-    </image>
 </view>
+
+
 
 <customView name="fanart">
 

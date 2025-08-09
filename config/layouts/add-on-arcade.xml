@@ -1,0 +1,351 @@
+﻿<theme>
+<!-- ------------------------------------------------------- -->
+<!-- ------------------------------------------------------- -->
+<!-- --------- ADD-ON Arcade installé ---------------------- -->
+<!-- --------- ifSubset="add-on.Arcade:yes" ---------------- -->
+<!-- ------------------------------------------------------- -->
+<!-- ------------------------------------------------------- -->
+
+<view name="gamecarousel" if=" 
+               {system.theme} == 'arcade' 
+			|| {system.theme} == 'atomiswave' 
+			|| {system.theme} == 'auto-verticalarcade' 
+			|| {system.theme} == 'auto-lightgun' 
+			|| {system.theme} == 'auto-wheel' 
+			|| {system.theme} == 'cave' 
+			|| {system.theme} == 'cps1' 
+			|| {system.theme} == 'cps2' 
+			|| {system.theme} == 'cps3' 
+			|| {system.theme} == 'daphne' 
+			|| {system.theme} == 'fbneo' 
+			|| {system.theme} == 'mame' 
+			|| {system.theme} == 'model2' 
+			|| {system.theme} == 'model3' 
+			|| {system.theme} == 'naomi' 
+			|| {system.theme} == 'naomi2' 
+			|| {system.theme} == 'singe' 
+			">
+  
+ 
+	<image name="bureau, mini, ecran_console_defaut, marquee_bartop" extra="static">
+		<visible>false</visible>
+	</image>
+  
+	<!-- je décale en dehors de l'écran car il s'affichait toujours, même avec un visible=false ... -->
+	<video name="md_video">
+		<pos>-2 -1</pos>
+	</video>
+	
+	<text name="description_Id" extra="true">
+		<origin>0 0</origin>
+		<pos>0.18 0.133</pos>
+		<size>0.575 0.12</size>
+		<pos ifHelpPrompts="false">0.18 0.146</pos>
+		<size ifHelpPrompts="false">0.575 0.15</size>
+	</text>
+	
+	<!-- Encadrement de la zone Description -->
+	<image name="desc_cadre_gauche, desc_cadre_droit, desc_cadre_haut, desc_cadre_bas">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<origin>0 0</origin>
+		<zIndex>57</zIndex>
+	</image>
+	 
+	<image name="desc_cadre_gauche" extra="true">
+		<size>0.003125 0.237037</size>									
+		<pos>0.1630208 0.0490741</pos>									
+	</image>
+	
+	<image name="desc_cadre_haut" extra="true">
+		<size>0.6083333 0.0037037</size>									
+		<pos>0.1630208 0.0490741</pos>									
+	</image>
+	
+	<image name="desc_cadre_droit" extra="true">
+		<size>0.0036458 0.212037</size>									
+		<pos>0.7677083 0.0490741</pos>									
+		<size ifHelpPrompts="false">0.0036458 0.2694444</size>
+		<pos ifHelpPrompts="false">0.7677083 0.0490741</pos>
+	</image>
+	
+	<image name="desc_cadre_bas" extra="true">
+		<size>0.6083333 0.0037037</size>									
+		<pos>0.1630208 0.2574074</pos>									
+		<size ifHelpPrompts="false">0.6083333 0.0037037</size>
+		<pos ifHelpPrompts="false">0.1630208 0.3148148</pos>
+	</image>
+	
+	<image name="desc_fond_black" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0 0</origin>
+		<zIndex>5</zIndex>
+		<size>0.603125 0.2083333</size>									
+		<pos>0.1645833 0.05</pos>									
+		<size ifHelpPrompts="false">0.6015625 0.2648148</size>
+		<pos ifHelpPrompts="false">0.1661458 0.05</pos>
+		<opacity>0.7</opacity>
+	</image>
+	
+  
+  
+	<image name="ecran_console" extra="static">
+	
+		<path>firstfile(
+			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png",
+			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/_default.png")
+		</path>
+		
+		<path if="{system.theme} == 'auto-lightgun'">firstfile(
+			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png",
+			"${themePath}/art/screen/lightgun_cab.png")
+		</path>
+		
+		<path if="{system.theme} == 'auto-wheel'">firstfile(
+			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png",
+			"${themePath}/art/screen/wheel_cab.png")
+		</path>
+		
+		<path if="{system.theme} == 'atomiswave'">firstfile(
+			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png",
+			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/_default_atomiswave.png")
+		</path>
+		
+		<path if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">firstfile(
+			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png",
+			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/_default_naomi.png")
+		</path>
+		
+		<path if="{system.theme} == 'daphne">${themePath}/../zzz-DX_Add-On/_inc/cabinets/_default.png</path>
+		
+		<origin>0.5 0.5</origin>									
+		<size>0.4010417 0.6787037</size>									
+		<pos>0.5036458 0.5976852</pos>		
+		<size ifHelpPrompts="false">0.4010417 0.6787037</size>									
+		<pos ifHelpPrompts="false">0.5036458 0.6560185</pos>									
+		<color>FFFFFF</color>
+		<flipY>false</flipY>
+		<zIndex>31</zIndex>
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~ LES MARQUEE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	<!-- Dans un premier temps on va vérifier si il existe un marquee 
+	dans le répertoire des marquees, sinon on met un fond noir et on insère 
+	le logo du jeu comme marquee -->	
+ 
+	<image name="ecran_console_marquee" extra="static">
+		<path>"${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".png"</path>
+		<visible if="{system.theme} == 'atomiswave'">false</visible>
+		<origin>0.5 0.5</origin>									
+		<size>0.2911458 0.1435185</size>									
+		<pos>0.4971354 0.3319444</pos>									
+		<size ifHelpPrompts="false">0.2911458 0.1435185</size>									
+		<pos ifHelpPrompts="false">0.4971354 0.3902778</pos>									
+		<color>FFFFFF</color>
+		<zIndex>29</zIndex>
+	</image>
+	
+	<!-- Marquee BLACK si jamais il n'y a ni borne officielle / ni marquee-->
+	<image name="marquee_black" extra="true">
+		<!-- sera visible à 2 conditions : que la borne officielle et le marquee n'existent pas -->
+		<visible>!exists("${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png") &&
+				 !exists("${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".png")</visible>
+		<visible if="{system.theme} == 'atomiswave'">false</visible>
+		<path>${themePath}/art/divers/white.png</path>
+		<color>000000</color>
+		<zIndex>28</zIndex>
+		<origin>0 0</origin>									
+		<size>0.2979167 0.1453704</size>									
+		<pos>0.3479167 0.2592593</pos>									
+		<pos ifHelpPrompts="false">0.3479167 0.3175926</pos>
+	</image>
+
+	<!-- Logo du jeu dans le Marquee BLACK si jamais il n'y a ni borne officielle / ni marquee-->
+	<image name="marquee_logosjeux" extra="true">
+		<!-- sera visible à 2 conditions : que la borne officielle et le marquee n'existent pas -->
+		<visible>!exists("${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png") &&
+				 !exists("${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".png")</visible>
+		<visible if="{system.theme} == 'atomiswave'">false</visible>
+		<path>{game:marquee}</path>
+		<zIndex>29</zIndex> 
+		<origin>0.5 0.5</origin>									
+		<pos>0.4955729 0.3342593</pos>
+		<pos ifHelpPrompts="false">0.4955729 0.3925926</pos>
+		<maxSize>0.2161458 0.1092593</maxSize>									
+	</image>
+	
+	
+	
+	<image name="game_imagepreview" extra="true">
+		<path>{game:image}</path>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>17</zIndex> 
+		<origin>0.5 0.5</origin>
+		
+		<pos>0.4973958 0.6236111</pos>									
+		<h>0.3305556</h>	
+		<maxSize>0.2458333 0.3305556</maxSize>
+
+		<pos ifHelpPrompts="false">0.4973958 0.6819444</pos>									
+		<h ifHelpPrompts="false">0.3305556</h>	
+		<maxSize ifHelpPrompts="false">0.2458333 0.3305556</maxSize>	
+		
+		<storyboard event="open">
+			<animation enabled="exists({game:video})" property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+		</storyboard>
+		<storyboard event="activate">
+			<animation enabled="exists({game:video})" property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" begin="" duration="" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	
+	
+	
+	<image name="game_imagepreview_blackscreen" extra="true">
+		<origin>0.5 0.5</origin>
+		<visible>!empty({game:image})</visible>
+		<zIndex>16</zIndex>
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>
+		
+		<pos>0.4973958 0.6236111</pos>									
+		<size>0.2458333 0.3305556</size>	
+		
+		<size ifHelpPrompts="false">0.2458333 0.3305556</size>									
+		<pos ifHelpPrompts="false">0.4973958 0.6819444</pos>									
+				
+				
+
+		<storyboard event="open">
+			<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+		</storyboard>
+		<storyboard event="activate">
+			<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" begin="" duration="" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	<video name="game_video" extra="true">
+		<path>{game:video}</path>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>15</zIndex> 
+		<origin>0.5 0.5</origin>
+		
+		<pos>0.4973958 0.6236111</pos>									
+		<h>0.3305556</h>	
+		<maxSize>0.2458333 0.3305556</maxSize>	
+		
+		<pos ifHelpPrompts="false">0.4973958 0.6819444</pos>									
+		<h ifHelpPrompts="false">0.3305556</h>	
+		<maxSize ifHelpPrompts="false">0.2458333 0.3305556</maxSize>									
+	</video>
+  
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>
+		<zIndex>14</zIndex>
+		
+		<size>0.265625 0.3638889</size>									
+		<pos>0.4979167 0.6236111</pos>									
+		
+		<size ifHelpPrompts="false">0.27 0.35</size>									
+		<pos ifHelpPrompts="false">0.4973958 0.6819444</pos>									
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+	
+	
+	
+	
+	
+	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~ SYSTEMES BORNE NAOMI ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	<image name="ecran_console_marquee" if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">
+		<size>0.24 0.08</size>
+		<pos>0.4960938 0.2995371</pos>
+		<pos ifHelpPrompts="false">0.4960938 0.3578704</pos>
+	</image>
+	
+	<image name="marquee_black" if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">
+		<size>0.25 0.1453704</size>	
+		<x>0.3679167</x>	
+	</image>
+	
+	<image name="marquee_logosjeux" if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">
+		<maxSize>0.2411458 0.0712963</maxSize>
+		<pos>0.4960938 0.2995371</pos>
+		<pos ifHelpPrompts="false">0.4960938 0.3578704</pos>
+	</image>
+	
+	<image name="game_imagepreview, game_imagepreview_blackscreen, black_bg" if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">
+		<scale>1.03</scale>
+	</image>
+	
+	<video name="game_video" if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">
+		<scale>1.025</scale>
+	</video>
+	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+</view>
+
+
+
+
+
+</theme>

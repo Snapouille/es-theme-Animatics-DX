@@ -4,103 +4,25 @@
 <view name="gamecarousel">
   
 	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
-
 		<size>0.4359375 0.6148148</size>									
-		<pos>0.4721354 0.6037037</pos>									
-		<pos ifHelpPrompts="false">0.4721354 0.6637037</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<pos>0.52 0.63</pos>									
+		<pos ifHelpPrompts="false">0.52 0.68</pos>
+		<scale>0.9</scale>
 	</image>
-  
   
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
-		<pos>0.4572917 0.4722222</pos>	
-		<pos ifHelpPrompts="false">0.4572917 0.5322222</pos>
-		<size>0.18125 0.237963</size>																
-
-		<zIndex>30</zIndex>
-
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.1630208 0.2194444</size>									
+		<pos>0.5070313 0.5125</pos>	
+		<pos ifHelpPrompts="false">0.5070313 0.5625</pos>
 	</video>
 	
-  
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
-		<size>0.18125 0.237963</size>									
-		<pos>0.4572917 0.4717593</pos>	
-		<pos ifHelpPrompts="false">0.4572917 0.5322222</pos>
-		<zIndex>14</zIndex>
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.1630208 0.2194444</size>									
+		<pos>0.5070313 0.5125</pos>									
+		<pos ifHelpPrompts="false">0.5070313 0.5625</pos>
 	</image>
 	
-	<text name="description_Id" extra="true">
-	  <text>{game:desc}</text>
-	  <origin>0 0</origin>
-	  <color>928e94D0</color>
-	  <fontSize>0.021</fontSize>
-	  <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-	  <size>0.53 0.12</size>
-	  <linearSmooth>true</linearSmooth>
-	  <alignment>left</alignment>
-	  <verticalAlignment>top</verticalAlignment>
-	  <autoScroll>vertical</autoScroll>
-	  <pos>0.18 0.161</pos>
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-			<animation enabled="exists({game:cartridge})" property="size" to="0.41 0.12" begin="1500" duration="250" mode="easeIn"/>
-		</storyboard>      
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-    </text>
 </view>
 
 

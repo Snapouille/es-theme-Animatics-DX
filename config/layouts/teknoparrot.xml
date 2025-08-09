@@ -1,77 +1,29 @@
 ﻿<theme>
 
-
 <view name="gamecarousel">
-  
-	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
 
+	<image name="ecran_console" extra="static">
 		<size>0.3125 0.6481481</size>									
 		<pos>0.4901042 0.6111111</pos>									
 		<pos ifHelpPrompts="false">0.4901042 0.6811111</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<zIndex>80</zIndex>
 	</image>
   
   
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
 		<pos>0.4895833 0.6513889</pos>		
 		<pos ifHelpPrompts="false">0.4895833 0.7213889</pos>
 		<size>0.2552083 0.2472222</size>
-
-		<zIndex>30</zIndex>
-
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</video>
 	
   
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
 		<size>0.2552083 0.2472222</size>									
 		<pos>0.4895833 0.6513889</pos>	
 		<pos ifHelpPrompts="false">0.4895833 0.7213889</pos>
-		<zIndex>14</zIndex>
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</image>
+	
 </view>
 
 

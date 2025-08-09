@@ -1,78 +1,28 @@
 ﻿<theme>
   <formatVersion>7</formatVersion>
   
-  <view name="gamecarousel">
+<view name="gamecarousel">
   
 	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
-		
-		<size>0.3557292 0.4787037</size>									
-		<pos>0.4623438 0.6560185</pos>	
-		<pos ifHelpPrompts="false">0.4623438 0.7060185</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<opacity>0</opacity>
-		<zIndex>12</zIndex>
-		
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>
-				
+		<scale>0.9</scale>
+		<size>0.3578125 0.5231481</size>										
+		<pos>0.5023438 0.6360185</pos>	
+		<pos ifHelpPrompts="false">0.5023438 0.6560185</pos>				
 	</image>
   
-  
-	<image name="Consoles" extra="static">
-		<visible>true</visible>
-    </image>
-
-
-	
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-		<size>0.2380208 0.3796296</size>									
-		<pos>0.4550521 0.6601852</pos>									
-		<pos ifHelpPrompts="false">0.4550521 0.7101852</pos>
-		<zIndex>11</zIndex>
-
-			<storyboard event="open">
-
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>
-				
+		<size>0.2083333 0.3703704</size>									
+		<pos>0.4953125 0.6425926</pos>									
+		<pos ifHelpPrompts="false">0.4953125 0.6625926</pos>				
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
-		<size>0.2380208 0.3796296</size>		
-		<pos>0.4550521 0.6601852</pos>	
-		<pos ifHelpPrompts="false">0.4550521 0.7101852</pos>
-		<zIndex>10</zIndex>
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>
-				
+		<size>0.23 0.39</size>									
+		<pos>0.4953125 0.6425926</pos>									
+		<pos ifHelpPrompts="false">0.4953125 0.6625926</pos>				
 	</image>
+	
 </view> 
   
   

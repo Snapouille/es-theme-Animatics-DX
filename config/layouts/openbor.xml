@@ -3,119 +3,89 @@
 
 <view name="gamecarousel">
   
+	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+		<pos>0.3 0.755</pos>									
+	</image>
+  
+  
+	<image name="bureau" extra="static">
+		<pos>0.5 0.833</pos>	
+		<pos ifHelpPrompts="false">0.5 0.92</pos>
+	</image>
+  
 	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
 		<path>./../../system/alphadenshi/ecran_console.png</path>
 		<size>0.3255208 0.6342593</size>									
 		<pos>0.5132813 0.6197222</pos>									
 		<pos ifHelpPrompts="false">0.5132813 0.6897222</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<zIndex>71</zIndex>
 	</image>
   
-  
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
-		<pos>0.5132813 0.6725</pos>		
-		<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
-		<size>0.1828125 0.2509259</size>									
-
-		<zIndex>30</zIndex>
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<visible>false</visible>
 	</video>
 	
+	<image name="game_imagepreview" extra="true">
+		<path>{game:image}</path>
+		<origin>0.5 0.5</origin>
+		
+		<pos>0.5132813 0.6725</pos>		
+		<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
+		
+		<h>0.2509259</h>	
+		<maxSize>0.1828125 0.2509259</maxSize>	
+		<linearSmooth>true</linearSmooth>
+		<zIndex>17</zIndex> 
+		
+		<storyboard event="open">
+			<animation enabled="exists({game:video})" property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+		</storyboard>
+		<storyboard event="activate">
+			<animation enabled="exists({game:video})" property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" begin="" duration="" mode="linear"/>
+		</storyboard>
+	</image>
+		
+	<image name="game_imagepreview_blackscreen" extra="true">
+		<origin>0.5 0.5</origin>
+		<visible>!empty({game:image})</visible>
+		
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>
+		<pos>0.5132813 0.6725</pos>		
+		<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
+		<size>0.1828125 0.2509259</size>
+		<zIndex>16</zIndex>
+		
+		<storyboard event="open">
+			<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+		</storyboard>
+		<storyboard event="activate">
+			<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" begin="" duration="" mode="linear"/>
+		</storyboard>
+	</image>
 	
-		<video name="md_video">
-			<visible>false</visible>
-		</video>
+	
+	
+	
+	<video name="game_video" extra="true">
+		<path>{game:video}</path>
+		<origin>0.5 0.5</origin>
 		
+		<pos>0.5132813 0.6725</pos>		
+		<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
 		
-		<image name="game_imagepreview" extra="true">
-			<path>{game:image}</path>
-			<origin>0.5 0.5</origin>
-			
-			<pos>0.5132813 0.6725</pos>		
-			<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
-			
-			<h>0.2509259</h>	
-			<maxSize>0.1828125 0.2509259</maxSize>	
-			<linearSmooth>true</linearSmooth>
-			<zIndex>17</zIndex> 
-			
-			<storyboard event="open">
-				<animation enabled="exists({game:video})" property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
-			</storyboard>
-			<storyboard event="activate">
-				<animation enabled="exists({game:video})" property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-				<animation property="opacity" to="0" begin="" duration="" mode="linear"/>
-			</storyboard>
-		</image>
-		
-		<image name="game_imagepreview_blackscreen" extra="true">
-			<origin>0.5 0.5</origin>
-			<visible>!empty({game:image})</visible>
-			
-			<path>./../../art/divers/white.png</path>
-			<color>000000</color>
-			<origin>0.5 0.5</origin>
-			<pos>0.5132813 0.6725</pos>		
-			<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
-			<size>0.1828125 0.2509259</size>
-			<zIndex>16</zIndex>
-			
-			<storyboard event="open">
-				<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
-			</storyboard>
-			<storyboard event="activate">
-				<animation property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-				<animation property="opacity" to="0" begin="" duration="" mode="linear"/>
-			</storyboard>
-		</image>
-		
-		
-		
-		
-		<video name="game_video" extra="true">
-			<path>{game:video}</path>
-			<origin>0.5 0.5</origin>
-			
-			<pos>0.5132813 0.6725</pos>		
-			<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
-			
-			<h>0.2509259</h>	
-			<maxSize>0.1828125 0.2509259</maxSize>	
-			<linearSmooth>true</linearSmooth>
-			<zIndex>15</zIndex> 
-		</video>
+		<h>0.2509259</h>	
+		<maxSize>0.1828125 0.2509259</maxSize>	
+		<linearSmooth>true</linearSmooth>
+		<zIndex>15</zIndex> 
+	</video>
 	
 	
   
@@ -149,7 +119,7 @@
 		<maxSize>0.25 0.10</maxSize>									
 		<pos>0.5122396 0.3891667</pos>
 		<pos ifHelpPrompts="false">0.5122396 0.4591667</pos>									
-		<zIndex>33</zIndex>
+		<zIndex>72</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
 			</storyboard>

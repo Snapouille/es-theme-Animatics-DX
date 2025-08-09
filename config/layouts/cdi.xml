@@ -1,66 +1,37 @@
 ﻿<theme>
   
 <view name="gamecarousel">
-  
-	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
-		<path>./../../art/screen/nec1990.png</path>
-		<size>0.3526042 0.4092593</size>									
-		<pos>0.4628646 0.6388889</pos>	
-		<pos ifHelpPrompts="false">0.4628646 0.6888889</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<opacity>0</opacity>
-		<zIndex>12</zIndex>		
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>				
-	</image>
-   
+
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
+		<pos>0.7 0.815</pos>	
+		<pos ifHelpPrompts="false">0.7 0.865</pos>
+		<rotation>4</rotation>
     </image>
-	
+  
+	<image name="ecran_console" extra="static">
+		<path>./../../art/screen/nec1990.png</path>
+		<size>0.3807292 0.4527778</size>									
+		<pos>0.4576563 0.5691667</pos>	
+		<pos ifHelpPrompts="false">0.4576563 0.6291667</pos>
+	</image>
+
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-		<size>0.2480833 0.3338889</size>									
-		<pos>0.4292708 0.637037</pos>
-		<pos ifHelpPrompts="false">0.4292708 0.687037</pos>									
-		<zIndex>11</zIndex>
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>				
+		<pos>0.4202813 0.5661852</pos>	
+		<pos ifHelpPrompts="false">0.4202813 0.6461852</pos>
+		<size>0.2701042 0.372963</size>									
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
-		<size>0.2480833 0.3338889</size>									
-		<pos>0.4292708 0.637037</pos>
-		<pos ifHelpPrompts="false">0.4292708 0.687037</pos>
-		<zIndex>10</zIndex>
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>				
+		<pos>0.4202813 0.5661852</pos>	
+		<pos ifHelpPrompts="false">0.4202813 0.6461852</pos>
+		<size>0.2701042 0.372963</size>
 	</image>
-</view> 
+	
+</view>
+
+
 
 <customView name="fanart">
 

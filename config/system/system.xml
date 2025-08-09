@@ -17,17 +17,13 @@ originally based on: "carbon"
 	  <origin>0 0</origin>
 	  <path>./../../art/divers/bg.png</path>
 	  <color>${backgroundColor}</color>
-	  <zIndex>10</zIndex>
+	  <zIndex>1000</zIndex>
 	</image>
 	
 	<sound name="bgsound">
-		<path>./../../../zzz-DX-Music/${system.theme}.mp3</path>
-		<path>./../../../zzz-DX-Music/${system.theme}.ogg</path>
-		<path>./../../../es-theme-Animatics-DX-Music/${system.theme}.mp3</path>
-		<path>./../../../es-theme-Animatics-DX-Music/${system.theme}.ogg</path>
-		<path>./../../../es-theme-Animatics-DX-Music-master/es-theme-Animatics-DX-Music/${system.theme}.mp3</path>
-		<path>./../../../es-theme-Animatics-DX-Music-master/es-theme-Animatics-DX-Music/${system.theme}.ogg</path>
-		<!-- <path>./../../../es-theme-Animatics-DX-Music/${system.theme}.m3u</path> -->
+		<path>./../../../zzz-DX_Add-On/_inc/music/${system.theme}.mp3</path>
+		<path>./../../../zzz-DX_Add-On/_inc/music/${system.theme}.ogg</path>
+		<!-- <path>./../../../zzz-DX_Add-On/_inc/music/${system.theme}.m3u</path> -->
 	</sound>		
 
     <text name="logoText">

@@ -1,79 +1,34 @@
 ﻿<theme>
 
-
 <view name="gamecarousel">
+
+	<image name="bureau" extra="static">
+		<size>1.0755208 0.38</size>									
+		<pos>0.53 0.905</pos>									
+		<pos ifHelpPrompts="false">0.53 0.94</pos>
+		<rotation>1</rotation>
+	</image>
   
 	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
-
 		<size>0.2494792 0.6055556</size>									
 		<pos>0.4908854 0.6342593</pos>									
 		<pos ifHelpPrompts="false">0.4908854 0.6842593</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</image>
   
-  
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
 		<pos>0.4875 0.5462963</pos>		
 		<pos ifHelpPrompts="false">0.4875 0.5962963</pos>
 		<size>0.1447917 0.187037</size>									
-
-		<zIndex>30</zIndex>
-
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</video>
 	
-  
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
-			<size>0.1447917 0.187037</size>									
-			<pos>0.4875 0.5462963</pos>	
-			<pos ifHelpPrompts="false">0.4875 0.5962963</pos>
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.1447917 0.187037</size>									
+		<pos>0.4875 0.5462963</pos>	
+		<pos ifHelpPrompts="false">0.4875 0.5962963</pos>
 	</image>
+	
 </view> 
- 
- 
  
  
   

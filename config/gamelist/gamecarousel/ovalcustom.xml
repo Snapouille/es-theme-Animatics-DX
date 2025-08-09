@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="gamecarousel">
+	<gamecarousel name="gamecarousel">
+		<itemTemplate>
+			<container>
+				<image name="fond">
+					<pos>0.5</pos>
+					<origin>0.5</origin>
+					<maxSize>1</maxSize>
+					<path>firstfile(
+						"${themePath}/art/wheel/ovalcustom/" + {system:theme} + ".png",
+						"${themePath}/art/wheel/rectfond.png")
+					</path>
+					<zIndex>98</zIndex>
+					<opacity>1</opacity>
+				</image>
+				<image name="marquee">
+					<pos>0.5</pos>
+					<origin>0.5</origin>
+					<maxSize>0.67 0.3</maxSize>
+					<path>{game:marquee}</path>
+					<zIndex>99</zIndex>
+					<linearSmooth>true</linearSmooth>
+				</image>
+				<!-- <image name="fondwheel"> -->
+					<!-- <pos>0.5</pos> -->
+					<!-- <origin>0.5</origin> -->
+					<!-- <maxSize>1</maxSize> -->
+					<!-- <path>${themePath}/art/wheel/rectrefl.png</path> -->
+					<!-- <zIndex>100</zIndex> -->
+					<!-- <opacity>1</opacity> -->
+				<!-- </image> -->
+				<image name="favorite">
+					<visible>{game:favorite}</visible>
+					<path>${themePath}/art/divers/heart.png</path>
+					<pos>0.85 0.36</pos>
+					<zIndex>101</zIndex>
+					<maxSize>0.07 0.07</maxSize>
+				</image>
+				<text name="gamename">
+					<visible>!exists({game:marquee})</visible>
+					<text>{game:name}</text>
+					<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
+					<color>FFFFFF</color>
+					<alignment>center</alignment>
+					<fontSize>0.023</fontSize>
+					<lineSpacing>1</lineSpacing>
+					<size>0.75 0.5</size>
+					<pos>0.115 0.25</pos>
+					<glowColor>00000066</glowColor>
+					<glowSize>2</glowSize>
+					<zIndex>400</zIndex>
+					<multiLine>true</multiLine>
+				</text>
+			</container>
+		</itemTemplate>
+	</gamecarousel>
+</view>
+</theme>

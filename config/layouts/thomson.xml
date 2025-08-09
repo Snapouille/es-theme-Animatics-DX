@@ -2,6 +2,15 @@
 
 
 <view name="gamecarousel">
+
+
+	<image name="bureau" extra="static">
+		<size>1.0755208 0.48</size>									
+		<pos>0.53 0.825</pos>									
+		<pos ifHelpPrompts="false">0.53 0.84</pos>
+	</image>
+
+
   
 	<image name="ecran_console" extra="static">
 		<origin>0.5 0.5</origin>

@@ -60,6 +60,7 @@ originally based on: "carbon"
 			<minLogoScale>0.8</minLogoScale>
             <imageSource>box</imageSource>
             <zIndex>21</zIndex>
+			<imageSource>thumbnail</imageSource>   <!-- text, image, thumbnail, marquee -->
 			<!-- <default>./../../art/divers/noboxart.png</default> -->
 			<!-- <gameImage>./../../art/divers/noboxart.png</gameImage> -->
     </gamecarousel>
@@ -94,10 +95,6 @@ originally based on: "carbon"
 		<default>${themePath}/system/${system.theme}/background.jpg</default>
 		<default>${themePath}/system/${system.theme}/background-grid.jpg</default>
 		<!-- <visible>exists({game:fanart})</visible> -->
-			<storyboard repeat="forever">
-					<animation property="scale" from="1.1" to="1" duration="15000" autoreverse="true" mode="easeInOut" />
-					<animation property="offsetX" to="-0.05" duration="15000" autoreverse="true" mode="easeInOut" />
-			</storyboard>
     </image>
 
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">

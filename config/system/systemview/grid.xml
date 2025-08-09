@@ -63,6 +63,7 @@
 
 	<imagegrid name="imagegrid">
 		<zIndex>20</zIndex>
+		<scrollSound>${themePath}/art/sounds/selectgrid.wav</scrollSound>
 		<pos>0.023 0.377</pos>
 		<pos ifHelpPrompts="false">0.023 0.41</pos>	
 		<size>0.648 0.536</size>

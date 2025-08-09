@@ -86,6 +86,7 @@ originally based on: "carbon"
 	<gamelistFontSize>Gamelist: font size</gamelistFontSize>
 	<gamelistLines>Gamelist: Number of lines</gamelistLines>
 	<background.Display>Background Display</background.Display>
+	<background.Move>Background Movement</background.Move>
 	<descriptionFontSize>Description font size</descriptionFontSize>
 	<boxfront.Display>Boxfront</boxfront.Display>
 	<boxback.Display>Boxback</boxback.Display>
@@ -104,6 +105,39 @@ originally based on: "carbon"
 	<theme.timesPlayedLabel>Times Played: </theme.timesPlayedLabel>
 	<theme.gameTimeLabel>Game Time: </theme.gameTimeLabel>	
 	<subset.Grid_View_Size>Grid view : Size</subset.Grid_View_Size>
+	
+	<figurine.Display>Mini Figures</figurine.Display>
+	<wheel.shape>wheel shape</wheel.shape>
+	<curved>standard curved</curved>
+	<vertical>vertical</vertical>
+	<logo.style>logo style</logo.style>
+	<rectcustom>customized rectangle</rectcustom>
+	<ovalcustom>customized oval</ovalcustom>
+	<ovalcarbon>oval carbon</ovalcarbon>
+	<ovalsilver>oval silver</ovalsilver>
+	<logounified>Logo unified</logounified>
+	<logos.displayed>logos displayed</logos.displayed>
+	<logo.opacity>Unselected logos opacity</logo.opacity>
+	<add-on.Arcade>Arcade add-on installed?</add-on.Arcade>
+	
+	<desk.type>Desk Type</desk.type>
+	<wood1>Oakwood</wood1>
+	<wood2>Walnutwood</wood2>
+	<wood3>Amberwood</wood3>
+	<wood4>Sunwood</wood4>
+	<wood5>Rosewood</wood5>
+	<leather1>Ornathide</leather1>
+	<leather2>Ravenhide</leather2>
+	<leather3>Copperhide</leather3>
+	<metal1>Rust Browned Metal</metal1>
+	<metal2>Shadowsteel</metal2>
+	<cosmos>Starveil</cosmos>
+	<leopard>Leopard Adorn</leopard>
+	<magma>Moltencore</magma>
+	<marble>Nightmarble</marble>
+	<onthegreen>on the Green</onthegreen>
+	
+	
 	
 </variables>
   
@@ -353,16 +387,11 @@ originally based on: "carbon"
 	<include name="Hide" displayName="${hide}"/>
 </subset>
 
-
-
 <!-- Affichage des Infos sur les systèmes-->
 <subset name="system-description" displayName="${system-description}">
 	<include name="Show" displayName="${show}">./config/system/show-system-description.xml</include>
 	<include name="Hide" displayName="${hide}"/>
 </subset>
-
-
-
 
 
 <!-- Avatar utilisateur -->
@@ -498,14 +527,12 @@ originally based on: "carbon"
 		
 		
 		<text name="clock">
-			  <origin>1 1</origin>
-			  <color>${frameColor}</color>
-			  <fontPath>./art/fonts/ubuntu.ttf</fontPath>
-			  <pos>0.99 0.985</pos>
-			  <size>0.07 0.0275</size>
-			  <fontSize>0.025</fontSize>
-			  <glowColor>000000</glowColor>
-			  <glowSize>1</glowSize>
+			<origin>1 1</origin>
+			<color>${baseColor}</color>
+			<fontPath>./art/fonts/gobold-blocky-regular.otf</fontPath>
+			<pos>0.9975 0.993</pos>
+			<size>0.07 0.0275</size>
+			<fontSize>0.024</fontSize>
 		</text>
 
 		<batteryIndicator name="batteryIndicator">
@@ -547,46 +574,138 @@ originally based on: "carbon"
   
   
 <!-- Subset options for screen -->
-  <subset name="shader" displayName="${subset.shader}">
-    <include name="None" displayName="${none}"/>
-    <include name="ScanLines" displayName="${scanlines}">./config/shader/scanlines.xml</include>
-    <include name="Crt" displayName="${crt}">./config/shader/crt.xml</include>
-  </subset>
-	
-	<!-- Choix d'afficher les fanarts ou non -->
-	<subset name="backgroundDisplay" displayName="${background.Display}" appliesTo="(AUTO=FANART)">
-			<include name="auto" displayName="${auto}"/>
-			<include name="legacy" displayName="${legacy}"/>
-			<include name="fanart" displayName="${fanart}"/>
-			<include name="retro" displayName="${retro}"/>
+	<subset name="shader" displayName="${subset.shader}">
+		<include name="None" displayName="${none}"/>
+		<include name="ScanLines" displayName="${scanlines}">./config/shader/scanlines.xml</include>
+		<include name="Crt" displayName="${crt}">./config/shader/crt.xml</include>
 	</subset>
 	
+	<!-- Choix d'afficher les fanarts ou non -->
+	<subset name="backgroundDisplay" displayName="${background.Display}" appliesTo="detailed, legendary, primacy, rvgm, primacy, gamecarousel, grid  (AUTO=FANART)">
+		<include name="auto" displayName="${auto}"/>
+		<include name="legacy" displayName="${legacy}"/>
+		<include name="fanart" displayName="${fanart}"/>
+		<include name="retro" displayName="${retro}"/>
+	</subset>
+	
+	<!-- Choix d'animer les fanarts ou non -->
+	<subset name="backgroundMove" displayName="${background.Move}" appliesTo="detailed, legendary, primacy, rvgm, primacy, gamecarousel, grid">
+		<include name="yes" displayName="${yes}"/>
+		<include name="no" displayName="${no}"/>
+	</subset>	
 	
 	<!-- Choix de l'ambiance des vues RVGM entre sombre ou clair -->
 	<subset name="backgroundAmbience" displayName="${background.Ambience}" appliesTo="detailed, rvgm, videofull">
-			<include name="Dark" displayName="${dark}"/>
-			<include name="Light" displayName="${light}"/>
+		<include name="Dark" displayName="${dark}"/>
+		<include name="Light" displayName="${light}"/>
 	</subset>
 	
-	
 	<!-- Choix d'afficher les box en 2D ou 3D -->
-	<subset name="boxfrontDisplay" displayName="${boxfront.Display}" appliesTo="detailed, rvgm, videofull, primacy">
-			<include name="2d" displayName="${2d}"/>
-			<include name="3d" displayName="${3d}"/>
+	<subset name="boxfrontDisplay" displayName="${boxfront.Display}" appliesTo="detailed, rvgm, videofull, primacy, gamecarousel">
+		<include name="2d" displayName="${2d}"/>
+		<include name="3d" displayName="${3d}"/>
 	</subset>
 
 	<!-- Choix d'afficher les boxback ou non -->
 	<subset name="boxbackDisplay" displayName="${boxback.Display}" appliesTo="detailed, rvgm, videofull, primacy">
-			<include name="Show" displayName="${show}"/>
-			<include name="Hide" displayName="${hide}"/>
+		<include name="Show" displayName="${show}"/>
+		<include name="Hide" displayName="${hide}"/>
 	</subset>
 	
 	<!-- Choix d'afficher les cartridges ou non -->
 	<subset name="cartridgeDisplay" displayName="${cartridge.Display}" appliesTo="videofull, primacy, gamecarousel, rvgm">
-			<include name="Show" displayName="${show}"/>
-			<include name="Hide" displayName="${hide}"/>
+		<include name="Show" displayName="${show}"/>
+		<include name="Hide" displayName="${hide}"/>
+	</subset>
+	
+	<!-- ------------------------------------- -->
+	<!-- ------------------------------------- -->
+	<!-- MENU SPECIAL POUR LA VUE GAMECAROUSEL -->
+	<!-- ------------------------------------- -->
+	<!-- ------------------------------------- -->
+	<subset name="spacer001" displayName="______________________________________________________________" appliesTo="›››››››››››››››››››››››››››››››››››››››››››››››››››››››››››   GameCarousel Options   ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹">
+		<include name=" " displayName=" "/>
+	</subset>
+	
+	<!-- Permet la mise en place des bornes arcades si add-on installé -->
+	<subset name="add-on.Arcade" displayName="${add-on.Arcade}" appliesTo="gamecarousel">
+		<include name="no" displayName="${no}"/>
+		<include name="yes" displayName="${yes}"/>
+	</subset>	
+	
+	<!-- Choix du type de bureau -->
+	<subset name="deskType" displayName="${desk.type}" appliesTo="gamecarousel">
+		<include name="wood1" 		displayName="${wood1}"/>
+		<include name="wood2" 		displayName="${wood2}"/>
+		<include name="wood3" 		displayName="${wood3}"/>
+		<include name="wood4"	 	displayName="${wood4}"/>
+		<include name="wood5" 		displayName="${wood5}"/>
+		<include name="metal1" 		displayName="${metal1}"/>
+		<include name="metal2" 		displayName="${metal2}"/>
+		<include name="leather1" 	displayName="${leather1}"/>
+		<include name="leather2" 	displayName="${leather2}"/>
+		<include name="leather3" 	displayName="${leather3}"/>
+		<include name="cosmos" 		displayName="${cosmos}"/>
+		<include name="leopard" 	displayName="${leopard}"/>
+		<include name="magma" 		displayName="${magma}"/>
+		<include name="marble" 		displayName="${marble}"/>
+		<include name="onthegreen" 	displayName="${onthegreen}"/>
+	</subset>	
+	
+	<!-- Choix d'afficher les figurines ou non -->
+	<subset name="figurineDisplay" displayName="${figurine.Display}" appliesTo="gamecarousel">
+		<include name="Show" displayName="${show}"/>
+		<include name="Hide" displayName="${hide}"/>
+	</subset>
+	
+	<!-- Choix de la direction de la roue, soit arrondi soit droite -->
+	<subset name="wheelshape" displayName="${wheel.shape}" appliesTo="gamecarousel">
+		<include name="curved" displayName="${curved}"/>
+		<include name="vertical" displayName="${vertical}"/>
+	</subset>
+	
+	<!-- Choix de l'encadrement du logo -->
+	<subset name="logo.style" displayName="${logo.style}" appliesTo="gamecarousel">
+		<include name="rectcustom" displayName="${rectcustom}">${themePath}/config/gamelist/gamecarousel/rectcustom.xml</include>
+		<include name="ovalcustom" displayName="${ovalcustom}">${themePath}/config/gamelist/gamecarousel/ovalcustom.xml</include>
+		<include name="ovalcarbon" displayName="${ovalcarbon}">${themePath}/config/gamelist/gamecarousel/ovalcarbon.xml</include>
+		<include name="ovalsilver" displayName="${ovalsilver}">${themePath}/config/gamelist/gamecarousel/ovalsilver.xml</include>
+		<include name="logounified" displayName="${logounified}">${themePath}/config/gamelist/gamecarousel/unified.xml</include>
+		<include name="standard" displayName="${standard}"/>
+	</subset>
+	
+	<!-- Choix du nombre de logos -->
+	<subset name="logos.displayed" displayName="${logos.displayed}" appliesTo="gamecarousel   (AUTO=9)">
+        <include name="auto"/>
+		<include name="five" displayName="5"/>
+		<include name="seven" displayName="7"/>
+		<include name="nine" displayName="9"/>
+		<include name="eleven" displayName="11"/>
+		<include name="thirteen" displayName="13"/>
 	</subset>
 
+	<!-- Choix de l'opacité des logos -->
+	<subset name="logo.opacity" displayName="${logo.opacity}" appliesTo="gamecarousel   (AUTO=60%)">
+        <include name="auto"/>
+        <include name="0 %"/>
+        <include name="20 %"/>
+        <include name="40 %"/>
+        <include name="60 %"/>
+        <include name="80 %"/>
+        <include name="100 %"/>
+	</subset>
+	
+	
+	<!-- ---------------------------------------- -->
+	<!-- ---------------------------------------- -->
+	<!-- MENU SPECIAL POUR LES VUES AVEC GAMELIST -->
+	<!-- ---------------------------------------- -->
+	<!-- ---------------------------------------- -->
+	
+	<subset name="spacer002" displayName="______________________________________________________________" appliesTo="››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››   GameList Options   ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹">
+		<include name=" " displayName=" "/>
+	</subset>
+	
 	
 	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="detailed, rvgm, videofull   (AUTO=ubuntu)">
         <include name="auto"/>
@@ -671,6 +790,7 @@ originally based on: "carbon"
         <include name="20 %"/>
         <include name="10 %"/>
     </subset>
+	
 
 	
 	<!-- Views  -->
@@ -694,6 +814,7 @@ originally based on: "carbon"
 	<include>./config/layouts/${system.theme}.xml</include>
 	<!-- Layout when help is disabled -->
 	<include ifHelpPrompts="false">./config/layouts/nohelp.xml</include>
-	
+	<!-- xml spécial si add-on arcade installé -->
+	<include ifSubset="add-on.Arcade:yes">${themePath}/config/layouts/add-on-arcade.xml</include>
   
 </theme>

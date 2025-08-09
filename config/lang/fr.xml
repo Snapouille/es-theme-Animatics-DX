@@ -128,6 +128,7 @@
 <gamelistFontSize>gamelist : Taille de la police</gamelistFontSize>
 <gamelistLines>gamelist : Nombre de lignes</gamelistLines>
 <background.Display>Affichage en arrière plan</background.Display>
+<background.Move>Animer arrière plan</background.Move>
 <descriptionFontSize>Taille de la police des descriptions</descriptionFontSize>
 <fanartOpacity>Opacité de l'overlay du Fanart</fanartOpacity>
 <gamelistOpacity>Opacité de la Gamelist</gamelistOpacity>
@@ -145,8 +146,6 @@
 <theme.timesPlayedLabel>Nombre de parties : </theme.timesPlayedLabel>
 <theme.gameTimeLabel>Temps de jeu : </theme.gameTimeLabel>
 
-
-
 <systemview.grid>grille (nouveauté)</systemview.grid>
 <subset.Grid_View_Size>Vue Grille : dimensions</subset.Grid_View_Size>
 
@@ -154,7 +153,35 @@
 <boxback.Display>boîtes de jeu face arrière</boxback.Display>
 <cartridge.Display>cartouches de  jeu</cartridge.Display>
 
-
+<wheel.shape>forme de la roue</wheel.shape>
+<curved>courbé standard</curved>
+<vertical>verticale</vertical>
+<logo.style>style des logos</logo.style>
+<rectcustom>rectangle personnalisé</rectcustom>
+<ovalcustom>ovale personnalisé</ovalcustom>
+<ovalcarbon>ovale carbon</ovalcarbon>
+<ovalsilver>ovale argenté</ovalsilver>
+<logounified>logos unifiés</logounified>
+<logos.displayed>logos affichés</logos.displayed>
+<logo.opacity>Opacité logos inactifs</logo.opacity>
+<add-on.Arcade>Add-on arcade installé ?</add-on.Arcade>
+<desk.type>Type de Bureau</desk.type>
+<wood1>Bois de Chêne</wood1>
+<wood2>Bois de Noyer</wood2>
+<wood3>Bois d’Ambre</wood3>
+<wood4>Bois Solaire</wood4>
+<wood5>Bois de Rose</wood5>
+<leather1>Cuir Orné</leather1>
+<leather2>Cuir peau de corbeau</leather2>
+<leather3>Cuir de Cuivre</leather3>
+<metal1>Métal rouille bruni</metal1>
+<metal2>Acier d’Ombre</metal2>
+<cosmos>Voile Stellaire</cosmos>
+<leopard>Parure Léopard</leopard>
+<magma>Coeur de Lave</magma>
+<marble>Marbre Nocturne</marble>
+<onthegreen>sur le Green</onthegreen>
+	
 
 </variables>
 

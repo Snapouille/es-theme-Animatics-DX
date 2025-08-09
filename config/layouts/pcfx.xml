@@ -2,66 +2,40 @@
   
   
 <view name="gamecarousel">
+
+	<image name="Consoles" extra="static">
+		<visible>true</visible>
+		<size>0.2208333 0.262037</size>	
+		<pos>0.725 0.77</pos>	
+		<pos ifHelpPrompts="false">0.725 0.82</pos>
+		<scale>1.1</scale>
+    </image>
   
 	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
 		<path>./../../art/screen/matsui.png</path>
 		<size>0.3630208 0.4777778</size>									
 		<pos>0.4734896 0.6324074</pos>
 		<pos ifHelpPrompts="false">0.4734896 0.6824074</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<opacity>0</opacity>
-		<zIndex>12</zIndex>		
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>
 	</image>
-    
-	<image name="Consoles" extra="static">
-		<visible>true</visible>
-    </image>
 	
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
 		<pos>0.4697604 0.5998519</pos>	
 		<pos ifHelpPrompts="false">0.4697604 0.6498519</pos>
 		<size>0.2496875 0.335</size>										
-		<zIndex>11</zIndex>
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>				
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
 		<pos>0.4697604 0.5998519</pos>	
 		<pos ifHelpPrompts="false">0.4697604 0.6498519</pos>
 		<size>0.2496875 0.335</size>
-		<zIndex>10</zIndex>
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>				
 	</image>
+	
 </view> 
+
+
+
+
 	
 <customView name="fanart">
 

@@ -2,89 +2,47 @@
 
 
 <view name="gamecarousel">
+
+	<image name="Consoles" extra="static">
+		<visible>true</visible>
+		<pos>0.715 0.735</pos>	
+		<pos ifHelpPrompts="false">0.715 0.78</pos>
+		<zIndex>32</zIndex>
+		<size>0.3229167 0.462963</size>	
+		<scale>0.75</scale>
+    </image>
   
 	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>
 		<path>./../../art/screen/sharp.png</path>
 		<size>0.4015625 0.5148148</size>									
-		<pos>0.4855729 0.6416667</pos>									
-		<pos ifHelpPrompts="false">0.4855729 0.6916667</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>12</zIndex>
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>
+		<pos>0.4855729 0.6066667</pos>									
+		<pos ifHelpPrompts="false">0.4855729 0.6516667</pos>
 	</image>
-	
 	
 	<image name="kinect" extra="static">
 		<origin>0.5 0.5</origin>
 		<path>./../../art/screen/kinect.png</path>
 		<size>0.0822917 0.0222222</size>									
-		<pos>0.4866667 0.3851852</pos>									
-		<pos ifHelpPrompts="false">0.4866667 0.4351852</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>	
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>
+		<pos>0.4866667 0.3501852</pos>									
+		<pos ifHelpPrompts="false">0.4866667 0.3951852</pos>
 	</image>
 		
-	<image name="Consoles" extra="static">
-		<visible>true</visible>
-		<pos>0.6960417 0.7905556</pos>	
-		<pos ifHelpPrompts="false">0.6960417 0.8405556</pos>
-		<zIndex>32</zIndex>
-		<maxSize>0.32399952 0.253333296</maxSize>
-    </image>
-
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-		<pos>0.4850521 0.612963</pos>		
-		<pos ifHelpPrompts="false">0.4850521 0.662963</pos>
-		<size>0.3557292 0.3648148</size>									
-		<zIndex>30</zIndex>
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>	
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>
+		<pos>0.4850521 0.572963</pos>		
+		<pos ifHelpPrompts="false">0.4850521 0.622963</pos>
+		<size>0.3557292 0.3698148</size>
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
 		<size>0.3557292 0.3648148</size>																
-		<pos>0.4850521 0.612963</pos>	
-		<pos ifHelpPrompts="false">0.4850521 0.662963</pos>
-		<zIndex>14</zIndex>
-			<storyboard event="open">
-				<animation property="offsetX" to="-0.02" duration="10" mode="linear"/>
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-				<animation property="offsetX" to="0" begin="500" duration="200" mode="linear"/>
-			</storyboard>	
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-			</storyboard>
+		<pos>0.4850521 0.577963</pos>	
+		<pos ifHelpPrompts="false">0.4850521 0.622963</pos>
 	</image>
+	
 </view>
+
+
 
  <customView name="fanart">
 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="gamecarousel">
+	<gamecarousel name="gamecarousel">
+		<itemTemplate>
+			<container>
+				<image name="marquee">
+					<pos>0.63 0.5</pos>
+					<origin>0.5 0.5</origin>
+					<maxSize>0.75 0.6</maxSize>
+					<path>{game:marquee}</path>
+					<zIndex>100</zIndex>
+					<linearSmooth>true</linearSmooth>
+				</image>
+				<image name="favorite">
+					<visible>{game:favorite}</visible>
+					<path>${themePath}/art/divers/heart.png</path>
+					<pos>0.14 0.47</pos>
+					<zIndex>101</zIndex>
+					<maxSize>0.08 0.08</maxSize>
+				</image>
+				<text name="gamename">
+					<visible>!exists({game:marquee})</visible>
+					<text>{game:name}</text>
+					<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
+					<color>FFFFFF</color>
+					<alignment>center</alignment>
+					<fontSize>0.03</fontSize>
+					<lineSpacing>1</lineSpacing>
+					<size>0.7 0.5</size>
+					<pos>0.28 0.25</pos>
+					<glowColor>00000066</glowColor>
+					<glowSize>2</glowSize>
+					<zIndex>400</zIndex>
+				</text>
+			</container>
+		</itemTemplate>
+	</gamecarousel>
+</view>
+</theme>
+
+
+

@@ -3,68 +3,24 @@
 
 <view name="gamecarousel">
 
+	<image name="ecran_console" extra="static">
+		<size>0.4921875 0.5268519</size>									
+		<pos>0.51 0.6299074</pos>	
+		<pos ifHelpPrompts="false">0.51 0.6599074</pos>
+	</image>
 
-  
-		<image name="ecran_console" extra="static">
-			<origin>0.5 0.5</origin>									
-			<size>0.4921875 0.5268519</size>									
-			<pos>0.49 0.6599074</pos>		
-			<flipY>false</flipY>
-			<scale>0.9</scale>
-			<opacity>1</opacity>
-			<color>FFFFFF</color>
-			<zIndex>31</zIndex>
-			
-				<storyboard event="open">
-						<animation property="opacity" to="1" duration="1" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="opacity" to="1" duration="1" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="1" duration="1" mode="linear"/>
-				</storyboard>
-			
-		</image>
-  
-  
-		<video name="md_video">
-			<size>0.2286458 0.3046296</size>									
-			<pos>0.4913021 0.6532407</pos>									
-		  
-				<storyboard event="open">
-						<animation property="opacity" to="1" duration="1" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="opacity" to="1" duration="1" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
-		  
-		</video>
-  
-		<!-- fond noir de l'écran -->
-		<image name="black_bg">
-			<size>0.23125 0.3138889</size>									
-			<pos>0.4920833 0.6513889</pos>									
-		  
-				<storyboard event="open">
-						<animation property="opacity" to="1" duration="1" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="opacity" to="1" duration="1" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="1" duration="1" mode="linear"/>
-				</storyboard>
-		</image>
+	<video name="md_video">
+		<size>0.2286458 0.3046296</size>									
+		<pos>0.5113021 0.6232407</pos>	
+		<pos ifHelpPrompts="false">0.5113021 0.6532407</pos>
+	</video>
+
+	<!-- fond noir de l'écran -->
+	<image name="black_bg">
+		<size>0.26 0.34</size>									
+		<pos>0.5120833 0.6213889</pos>		
+		<pos ifHelpPrompts="false">0.5120833 0.6513889</pos>
+	</image>
 	
 </view>  
   

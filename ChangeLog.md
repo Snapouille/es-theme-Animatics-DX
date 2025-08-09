@@ -1,3 +1,14 @@
+## V 2.29 - (09 08 2025)
+- readjustment of the time in the bottom right-hand corner
+- add option to enable or disable background animation in gamelist views
+
+Gamecarousel View (BE CAREFUL, ALL IS A WORK IN PROGRESS):
+- add the option to display 3D box art
+- add new graphic options for the logo wheel
+- add desks to place TVs and computers
+- add figurine items
+
+
 ## V 2.28 - (03 06 2025)
 - add DICE (Discrete Integrated Circuit Emulator) emulator
 - fix video + fanart systemview

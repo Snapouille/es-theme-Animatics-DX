@@ -4,33 +4,12 @@
   
   <view name="gamecarousel">
   
-	<image name="ecran_console" extra="static">
-			<visible>false</visible>
+	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+		<pos>0.31 0.71</pos>									
+		<pos ifHelpPrompts="false">0.31 0.77</pos>
+		<maxSize>0.13 0.35</maxSize>	
 	</image>
-	<!-- fond noir de l'écran -->
-	<image name="black_bg">
-	  <visible>false</visible>
-	</image>
-
-	
-	
-	
-		<video name="md_video">
-			<visible>false</visible>
-		</video>
-		
-		
-		<video name="game_video" extra="true">
-			<path>{game:video}</path>
-			<origin>0.5 0.5</origin>
-			
-			<pos>0.52 0.65</pos>									
-			
-			<h>0.53</h>	
-			<maxSize>0.33 0.53</maxSize>	
-			<linearSmooth>true</linearSmooth>
-			<zIndex>15</zIndex> 
-		</video>
+  
 	
   </view>
   
@@ -42,6 +21,8 @@
 	<image name="ecran_console" extra="static">
 			<visible>false</visible>
 	</image>
+	
+	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg">
 	  <visible>false</visible>

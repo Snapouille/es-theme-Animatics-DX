@@ -2,75 +2,30 @@
 
 
 <view name="gamecarousel">
-  
-	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
 
-		<size>0.4635417 0.3611111</size>									
-		<pos>0.47625 0.6925926</pos>									
-		<pos ifHelpPrompts="false">0.47625 0.7425926</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+		<pos>0.31 0.74</pos>									
+		<pos ifHelpPrompts="false">0.31 0.8</pos>
+		<maxSize>0.13 0.35</maxSize>	
 	</image>
   
+	<image name="ecran_console" extra="static">
+		<size>0.4635417 0.3611111</size>									
+		<pos>0.49625 0.6225926</pos>									
+		<pos ifHelpPrompts="false">0.49625 0.6725926</pos>
+	</image>
   
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
-		<pos>0.4772917 0.6787037</pos>	
-		<pos ifHelpPrompts="false">0.4772917 0.7287037</pos>
+		<pos>0.4972917 0.6087037</pos>	
+		<pos ifHelpPrompts="false">0.4972917 0.6587037</pos>
 		<size>0.2666667 0.2740741</size>									
-
-		<zIndex>30</zIndex>
-
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</video>
 	
-  
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
 		<size>0.2666667 0.2740741</size>																
-		<pos>0.4772917 0.6787037</pos>	
-		<pos ifHelpPrompts="false">0.4772917 0.7287037</pos>
-		<zIndex>14</zIndex>
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<pos>0.4972917 0.6087037</pos>	
+		<pos ifHelpPrompts="false">0.4972917 0.6587037</pos>
 	</image>
 	
 </view>  

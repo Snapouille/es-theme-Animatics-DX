@@ -2,79 +2,34 @@
 
 
 <view name="gamecarousel">
+
+	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+		<pos>0.33 0.69</pos>									
+		<pos ifHelpPrompts="false">0.33 0.74</pos>
+		<maxSize>0.12 0.24</maxSize>	
+	</image>
   
 	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
 		<path>./../../system/pc/ecran_console.png</path>
 		<size>0.4119792 0.5231481</size>									
 		<pos>0.5382813 0.649537</pos>									
 		<pos ifHelpPrompts="false">0.5382813 0.709537</pos>
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</image>
   
-  
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
 		<size>0.1723958 0.225</size>									
 		<pos>0.5065104 0.5347222</pos>									
 		<pos ifHelpPrompts="false">0.5065104 0.5947222</pos>
-		<zIndex>30</zIndex>
-
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</video>
 	
-  
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
 		<size>0.1723958 0.225</size>									
 		<pos>0.5065104 0.5347222</pos>	
 		<pos ifHelpPrompts="false">0.5065104 0.5947222</pos>
-		<zIndex>14</zIndex>
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
 	</image>
+	
 </view>   
-  
-  
-  
   
   
   
