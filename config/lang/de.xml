@@ -92,6 +92,9 @@
 <wood3>Bernholz</wood3>
 <wood4>Sonnenholz</wood4>
 <wood5>Rosenholz</wood5>
+<wood6>Comic-Cartoon Rohes Holz</wood6>
+<wood7>Comic-Cartoon Gefrostetes Holz</wood7>
+<wood8>Comic-Cartoon Dunkles Holz</wood8>
 <leather1>Verziertes Leder</leather1>
 <leather2>Rabenleder</leather2>
 <leather3>Kupferleder</leather3>
@@ -102,6 +105,12 @@
 <magma>Lavaherz</magma>
 <marble>Mitternachtsmarmor</marble>
 <onthegreen>Auf dem Green</onthegreen>
+
+<figurine.Display>Figuren</figurine.Display>
+<figurine.systemOnly>Nur Systemfiguren anzeigen</figurine.systemOnly>
+<figurine.addonOrSystem>Add-on-Figuren anzeigen, sonst Systemfiguren</figurine.addonOrSystem>
+<figurine.addonOnly>Nur Add-on-Figuren anzeigen</figurine.addonOnly>
+<figurine.none>Keine Figuren anzeigen</figurine.none>
 
 </variables>
 

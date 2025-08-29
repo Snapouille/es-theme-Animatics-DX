@@ -106,7 +106,6 @@ originally based on: "carbon"
 	<theme.gameTimeLabel>Game Time: </theme.gameTimeLabel>	
 	<subset.Grid_View_Size>Grid view : Size</subset.Grid_View_Size>
 	
-	<figurine.Display>Mini Figures</figurine.Display>
 	<wheel.shape>wheel shape</wheel.shape>
 	<curved>standard curved</curved>
 	<vertical>vertical</vertical>
@@ -126,6 +125,9 @@ originally based on: "carbon"
 	<wood3>Amberwood</wood3>
 	<wood4>Sunwood</wood4>
 	<wood5>Rosewood</wood5>
+	<wood6>Comic-Cartoon Raw Wood</wood6>
+	<wood7>Comic-Cartoon Frosted Wood</wood7>
+	<wood8>Comic-Cartoon Dark Wood</wood8>
 	<leather1>Ornathide</leather1>
 	<leather2>Ravenhide</leather2>
 	<leather3>Copperhide</leather3>
@@ -137,7 +139,11 @@ originally based on: "carbon"
 	<marble>Nightmarble</marble>
 	<onthegreen>on the Green</onthegreen>
 	
-	
+	<figurine.Display>figurines</figurine.Display>
+	<figurine.systemOnly>Display only system figurines</figurine.systemOnly>
+	<figurine.addonOrSystem>Display add-on figurines or system if missing</figurine.addonOrSystem>
+	<figurine.addonOnly>Display only add-on figurines</figurine.addonOnly>
+	<figurine.none>Do not display figurines</figurine.none>
 	
 </variables>
   
@@ -640,6 +646,9 @@ originally based on: "carbon"
 		<include name="wood3" 		displayName="${wood3}"/>
 		<include name="wood4"	 	displayName="${wood4}"/>
 		<include name="wood5" 		displayName="${wood5}"/>
+		<include name="wood6" 		displayName="${wood6}"/>
+		<include name="wood7" 		displayName="${wood7}"/>
+		<include name="wood8" 		displayName="${wood8}"/>
 		<include name="metal1" 		displayName="${metal1}"/>
 		<include name="metal2" 		displayName="${metal2}"/>
 		<include name="leather1" 	displayName="${leather1}"/>
@@ -652,11 +661,19 @@ originally based on: "carbon"
 		<include name="onthegreen" 	displayName="${onthegreen}"/>
 	</subset>	
 	
+	<!-- Choix de l'affichage des figurines -->
+	<subset name="figurineDisplay"     displayName="${figurine.Display}" appliesTo="gamecarousel">
+		<include name="systemOnly"     displayName="${figurine.systemOnly}"/>
+		<include name="addonOnly"      displayName="${figurine.addonOnly}"/>
+		<include name="addonOrSystem"  displayName="${figurine.addonOrSystem}"/>
+		<include name="none"           displayName="${figurine.none}"/>
+	</subset>	
+	
 	<!-- Choix d'afficher les figurines ou non -->
-	<subset name="figurineDisplay" displayName="${figurine.Display}" appliesTo="gamecarousel">
-		<include name="Show" displayName="${show}"/>
-		<include name="Hide" displayName="${hide}"/>
-	</subset>
+		<!-- <subset name="figurineDisplay" displayName="${figurine.Display}" appliesTo="gamecarousel"> -->
+			<!-- <include name="Show" displayName="${show}"/> -->
+			<!-- <include name="Hide" displayName="${hide}"/> -->
+		<!-- </subset> -->
 	
 	<!-- Choix de la direction de la roue, soit arrondi soit droite -->
 	<subset name="wheelshape" displayName="${wheel.shape}" appliesTo="gamecarousel">

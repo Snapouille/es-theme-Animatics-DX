@@ -7,7 +7,7 @@
 			<visible>false</visible>
 	</image>
 	
-	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+	<image name="figurines" extra="true">
 		<pos>0.35 0.535</pos>									
 		<pos ifHelpPrompts="false">0.35 0.59</pos>
 	</image>

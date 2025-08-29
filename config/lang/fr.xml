@@ -171,6 +171,9 @@
 <wood3>Bois d’Ambre</wood3>
 <wood4>Bois Solaire</wood4>
 <wood5>Bois de Rose</wood5>
+<wood6>Bois Brut Comic-Cartoon</wood6>
+<wood7>Bois Givré Comic-Cartoon</wood7>
+<wood8>Bois Foncé Comic-Cartoon</wood8>
 <leather1>Cuir Orné</leather1>
 <leather2>Cuir peau de corbeau</leather2>
 <leather3>Cuir de Cuivre</leather3>
@@ -181,6 +184,12 @@
 <magma>Coeur de Lave</magma>
 <marble>Marbre Nocturne</marble>
 <onthegreen>sur le Green</onthegreen>
+
+<figurine.Display>Figurines</figurine.Display>
+<figurine.systemOnly>Uniquement les figurines système</figurine.systemOnly>
+<figurine.addonOrSystem>Figurines add-on ou système si absentes</figurine.addonOrSystem>
+<figurine.addonOnly>Uniquement les figurines add-on</figurine.addonOnly>
+<figurine.none>Ne pas afficher de figurines</figurine.none>
 	
 
 </variables>

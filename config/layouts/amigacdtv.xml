@@ -3,29 +3,29 @@
 
 <view name="gamecarousel">
 
-	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
-		<pos>0.315 0.60</pos>									
-		<pos ifHelpPrompts="false">0.315 0.64</pos>
+	<image name="figurines" extra="true">
+		<pos>0.305 0.69</pos>									
+		<pos ifHelpPrompts="false">0.305 0.735</pos>
 	</image>
   
 	<image name="ecran_console" extra="static">
 		<path>./../../system/amigacdtv/ecran_console2.png</path>
 		<size>0.4869792 0.5768519</size>									
-		<pos>0.5145313 0.6226852</pos>									
-		<pos ifHelpPrompts="false">0.5145313 0.6626852</pos>
+		<pos>0.5145313 0.6326852</pos>									
+		<pos ifHelpPrompts="false">0.5145313 0.6826852</pos>
 	</image>
   
 	<video name="md_video">
 		<size>0.1665083 0.219</size>									
-		<pos>0.5162708 0.4893519</pos>	
-		<pos ifHelpPrompts="false">0.5162708 0.5293519</pos>
+		<pos>0.5162708 0.4993519</pos>	
+		<pos ifHelpPrompts="false">0.5162708 0.5493519</pos>
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
 		<size>0.16657083 0.219</size>									
-		<pos>0.5162708 0.4893519</pos>	
-		<pos ifHelpPrompts="false">0.5162708 0.5293519</pos>
+		<pos>0.5162708 0.4993519</pos>	
+		<pos ifHelpPrompts="false">0.5162708 0.5493519</pos>
 	</image>
 	
 </view>

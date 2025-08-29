@@ -3,7 +3,7 @@
 
 <view name="gamecarousel">
 
-	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+	<image name="figurines" extra="true">
 		<pos>0.31 0.74</pos>									
 		<pos ifHelpPrompts="false">0.31 0.8</pos>
 		<maxSize>0.13 0.35</maxSize>	

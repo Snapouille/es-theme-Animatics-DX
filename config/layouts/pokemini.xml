@@ -2,7 +2,7 @@
 
 <view name="gamecarousel">
   
-	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+	<image name="figurines" extra="true">
 		<x>0.3</x>
 	</image>
   

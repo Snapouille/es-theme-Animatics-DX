@@ -3,14 +3,16 @@
 
 <view name="gamecarousel">
   
-	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+	<image name="figurines" extra="true">
 		<pos>0.34 0.58</pos>									
 		<pos ifHelpPrompts="false">0.355 0.635</pos>
+		<maxSize>0.10 0.22</maxSize>	
+		<zIndex>4</zIndex>
 	</image>
 	
 	<image name="lamp" extra="true">
 		<origin>0.5 0.5</origin>	
-		<path>${themePath}/art/mini/lamp.png</path>
+		<path>${themePath}/art/figurines/lamp.png</path>
 		<size>0.1515625 0.3814815</size>									
 		<pos>0.28 0.53</pos>									
 		<pos ifHelpPrompts="false">0.28 0.58</pos>
@@ -20,7 +22,7 @@
 	
 	<image name="lamp_halo" extra="true">
 		<origin>0.5 0.5</origin>	
-		<path>${themePath}/art/mini/lamp_halo.png</path>
+		<path>${themePath}/art/figurines/lamp_halo.png</path>
 		<size>0.2744792 0.5018519</size>									
 		<pos>0.3992188 0.5990741</pos>									
 		<pos ifHelpPrompts="false">0.3992188 0.6490741</pos>
@@ -43,7 +45,7 @@
 	
 	<image name="lamp_cache" extra="true">
 		<origin>0.5 0.5</origin>	
-		<path>${themePath}/art/mini/lamp_cache.png</path>
+		<path>${themePath}/art/figurines/lamp_cache.png</path>
 		<size>0.071875 0.1166667</size>									
 		<pos>0.3171875 0.4546296</pos>									
 		<pos ifHelpPrompts="false">0.3171875 0.5046296</pos>

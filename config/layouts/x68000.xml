@@ -2,6 +2,11 @@
 
 
 <view name="gamecarousel">
+
+	<image name="figurines" extra="true">
+		<pos>0.315 0.68</pos>									
+		<pos ifHelpPrompts="false">0.315 0.73</pos>
+	</image>
   
 	<image name="ecran_console" extra="static">
 		<size>0.4359375 0.6148148</size>									
@@ -11,7 +16,7 @@
 	</image>
   
 	<video name="md_video">
-		<size>0.1630208 0.2194444</size>									
+		<size>0.16 0.21</size>									
 		<pos>0.5070313 0.5125</pos>	
 		<pos ifHelpPrompts="false">0.5070313 0.5625</pos>
 	</video>

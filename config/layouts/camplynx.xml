@@ -3,6 +3,11 @@
 
 <view name="gamecarousel">
 
+	<image name="figurines" extra="true">
+		<pos>0.28 0.795</pos>									
+		<pos ifHelpPrompts="false">0.28 0.84</pos>
+	</image>
+
 	<image name="ecran_console" extra="static">
 		<path>./../../system/camplynx/ecran_console2.png</path>
 		<size>0.4098958 0.6037037</size>									

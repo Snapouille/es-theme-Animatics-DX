@@ -10,7 +10,8 @@ originally based on: "carbon"
 <variables>
 	<!-- variable servant à récupérer la family du jeu 
 	     afin de pouvoir la traiter en minuscule lors de l'affichage des figurines -->
-    <mini_family>{game:family}</mini_family>
+    <fig_name>{game:name}</fig_name>
+    <fig_family>{game:family}</fig_family>
 </variables>
 
    
@@ -515,7 +516,7 @@ originally based on: "carbon"
 </image>
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
-<!-- LOGOS PUBLISHERS      -->
+<!--   LOGOS PUBLISHERS    -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
 
 <!-- on masque le developper qu'on remplace par le genre pour gagner une ligne de description -->
@@ -573,7 +574,7 @@ originally based on: "carbon"
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
-<!--  STYLE DE BUREAU      -->
+<!--   STYLE DE BUREAU     -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
 
 <!-- Le bureau est mis en visible FALSE si le fichier ecran_console.png et ecran_console2 n'existe pas -->
@@ -585,6 +586,9 @@ originally based on: "carbon"
 	<path ifSubset="deskType:wood3">${themePath}/art/desk/wood3.png</path>
 	<path ifSubset="deskType:wood4">${themePath}/art/desk/wood4.png</path>
 	<path ifSubset="deskType:wood5">${themePath}/art/desk/wood5.png</path>
+	<path ifSubset="deskType:wood6">${themePath}/art/desk/wood6.png</path>
+	<path ifSubset="deskType:wood7">${themePath}/art/desk/wood7.png</path>
+	<path ifSubset="deskType:wood8">${themePath}/art/desk/wood8.png</path>
 	<path ifSubset="deskType:metal1">${themePath}/art/desk/metal1.png</path>
 	<path ifSubset="deskType:metal2">${themePath}/art/desk/metal2.png</path>
 	<path ifSubset="deskType:leather1">${themePath}/art/desk/leather1.png</path>
@@ -613,12 +617,17 @@ originally based on: "carbon"
 					|| 	 {system.theme} == 'msx' 
 					|| 	 {system.theme} == 'camplynx' 
 					|| 	 {system.theme} == 'dreamcast' 
+					|| 	 {system.theme} == 'fm7' 
+					|| 	 {system.theme} == 'x1' 
 					|| 	 {system.theme} == 'pet'" extra="static">
 	<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1-wide.png</path>
 	<path ifSubset="deskType:wood2">${themePath}/art/desk/wood2-wide.png</path>
 	<path ifSubset="deskType:wood3">${themePath}/art/desk/wood3-wide.png</path>
 	<path ifSubset="deskType:wood4">${themePath}/art/desk/wood4-wide.png</path>
 	<path ifSubset="deskType:wood5">${themePath}/art/desk/wood5-wide.png</path>
+	<path ifSubset="deskType:wood6">${themePath}/art/desk/wood6-wide.png</path>
+	<path ifSubset="deskType:wood7">${themePath}/art/desk/wood7-wide.png</path>
+	<path ifSubset="deskType:wood8">${themePath}/art/desk/wood8-wide.png</path>
 	<path ifSubset="deskType:metal1">${themePath}/art/desk/metal1-wide.png</path>
 	<path ifSubset="deskType:metal2">${themePath}/art/desk/metal2-wide.png</path>
 	<path ifSubset="deskType:leather1">${themePath}/art/desk/leather1-wide.png</path>
@@ -640,14 +649,19 @@ originally based on: "carbon"
 					|| 	 {system.theme} == 'c20' 
 					|| 	 {system.theme} == 'c64' 
 					|| 	 {system.theme} == 'c128' 
+					|| 	 {system.theme} == 'cplus4' 
 					|| 	 {system.theme} == 'msx2' 
 					|| 	 {system.theme} == 'msx2+' 
-					|| 	 {system.theme} == 'msxturbor'" extra="static">
+					|| 	 {system.theme} == 'msxturbor' 
+					|| 	 {system.theme} == 'thomson'" extra="static">
 	<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1-wide.png</path>
 	<path ifSubset="deskType:wood2">${themePath}/art/desk/wood2-wide.png</path>
 	<path ifSubset="deskType:wood3">${themePath}/art/desk/wood3-wide.png</path>
 	<path ifSubset="deskType:wood4">${themePath}/art/desk/wood4-wide.png</path>
 	<path ifSubset="deskType:wood5">${themePath}/art/desk/wood5-wide.png</path>
+	<path ifSubset="deskType:wood6">${themePath}/art/desk/wood6-wide.png</path>
+	<path ifSubset="deskType:wood7">${themePath}/art/desk/wood7-wide.png</path>
+	<path ifSubset="deskType:wood8">${themePath}/art/desk/wood8-wide.png</path>
 	<path ifSubset="deskType:metal1">${themePath}/art/desk/metal1-wide.png</path>
 	<path ifSubset="deskType:metal2">${themePath}/art/desk/metal2-wide.png</path>
 	<path ifSubset="deskType:leather1">${themePath}/art/desk/leather1-wide.png</path>
@@ -752,27 +766,51 @@ originally based on: "carbon"
 
 
 
-	
-	
-<!-- Affichage des figurines sur le bureau  -->
-<!-- on recherche dans un premier temps si la famille existe dans la gamelist -->
-<!-- sinon par défaut on met une figurine qui porte le même nom que le système -->
-<!-- (les positions sont ajustés suivant les systèmes dans le répertoire layouts) -->
-<!-- Pour les dimensions mettre 400 max en largeur ou en hauteur -->
-<!-- Si la figurine est trop grande faut rajouter du vide autour -->
-<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
-	<path>firstfile(
-		"${themePath}/art/mini/" + lower(${mini_family}) + ".png",
-		"${themePath}/art/mini/" + stem({game:system:theme}) + ".png")
-	</path>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~ AFFICHAGE DES FIGURINES ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<image name="figurines" extra="true">
 	<origin>0.5 0.5</origin>
-	<pos>0.3 0.77</pos>									
-	<pos ifHelpPrompts="false">0.3 0.82</pos>
+	<pos>0.3 0.795</pos>									
+	<pos ifHelpPrompts="false">0.3 0.84</pos>
 	<maxSize>0.11 0.25</maxSize>	
 	<verticalAlignment>bottom</verticalAlignment>
 	<color>FFFFFF</color>
 	<zIndex>40</zIndex>
 </image>
+
+<!-- figurines systemes incluses dans le thème -->
+<image name="figurines" ifSubset="figurineDisplay:systemOnly">
+	<path>"${themePath}/art/figurines/" + {game:system:theme} + ".png"</path>
+</image>
+
+<!-- on recherche uniquement dans les Add-on, en premier par nom du jeu puis par famille -->
+<image name="figurines" ifSubset="figurineDisplay:addonOnly">
+	<path>firstfile(
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png")
+	</path>
+</image>
+
+<!-- on recherche en premier par nom du jeu puis par famille puis figurines par défaut si on trouve rien -->
+<image name="figurines" ifSubset="figurineDisplay:addonOrSystem">
+	<path>firstfile(
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
+		"${themePath}/art/figurines/" + {game:system:theme} + ".png")
+	</path>
+</image>
+
+<image name="figurines" ifSubset="figurineDisplay:none">
+	<visible>false</visible>
+</image>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
 
 
 
@@ -1414,7 +1452,6 @@ originally based on: "carbon"
 		<pos>0.6875 0.153</pos>
 		<maxSize>0.26845 0.26845</maxSize>
 		<zIndex>800</zIndex>
-		<!-- <scale>0.90</scale> -->
 		<storyboard event="open">   
 			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
 			<animation property="offsetY" from="-0.40" to="0.03" begin="1600" duration="600" mode="EaseInOut"/>
@@ -1523,11 +1560,6 @@ originally based on: "carbon"
 								   {system.theme} == 'laser310' ||
 								   {system.theme} == 'x1' ||
 								   {system.theme} == 'zx81' ||
-								   {system.theme} == 'msxturbor' ||	
-								   {system.theme} == 'msx' ||	
-								   {system.theme} == 'msx1' ||	
-								   {system.theme} == 'msx2' ||	
-								   {system.theme} == 'msx2+' ||
 								   {system.theme} == 'adam' ||	
 								   {system.theme} == 'colecovision' ||
 								   {system.theme} == 'zxspectrum' ||		
@@ -1537,6 +1569,19 @@ originally based on: "carbon"
 								   {system.theme} == 'pv1000' " extra="true">
 		<maxSize>0.185 0.236600</maxSize>	<!-- VALEURS VOLONTAIREMENT INVERSEES -->					
     </image>
+	
+		<!-- MSX / MSX 1 / MSX 2 / MSX 2+  -->
+	<image name="cartridge_ID" if="{system.theme} == 'msxturbor' ||	
+								   {system.theme} == 'fm7' ||	
+								   {system.theme} == 'msx' ||	
+								   {system.theme} == 'msx1' ||	
+								   {system.theme} == 'msx2' ||	
+								   {system.theme} == 'msx2+' " extra="true">
+		<pos>0.625 0.153</pos>
+		<maxSize>0.185 0.19</maxSize>						
+    </image>
+	
+	
 	
 		<!-- MASTER SYSTEM / MEGADRIVE / Tutor / MSU-MD / TI-99 -->
 	<image name="cartridge_ID"  if="{system.theme} == 'mastersystem' ||
@@ -1684,17 +1729,16 @@ originally based on: "carbon"
 		<maxSize>0.258367 0.266569</maxSize>						
     </image>
 	
-		<!-- Apple II / Apple IIGS / Dos/ FM-7 / PC-8800 / PC-9800 / Sharp X68000 / Tandy Video Information System / Thomson MO/TO-->
+		<!-- Apple II / Apple IIGS / Dos/ PC-8800 / PC-9800 / Sharp X68000 / Tandy Video Information System / Thomson MO/TO-->
 	<image name="cartridge_ID"  if="{system.theme} == 'apple2' ||	
 									{system.theme} == 'apple2gs' ||	
 									{system.theme} == 'pc' ||	
-									{system.theme} == 'fm7' ||	
 									{system.theme} == 'pc88' ||	
 									{system.theme} == 'pc98' ||	
 									{system.theme} == 'x68000' ||	
 									{system.theme} == 'vis' ||	
 									{system.theme} == 'thomson' " extra="true">
-		<maxSize>0.264067 0.264067</maxSize>
+		<maxSize>0.25 0.25</maxSize>
     </image>
 	
 		<!-- 3DS / NDS -->
@@ -1774,7 +1818,7 @@ originally based on: "carbon"
 	
 		<!-- PS VITA -->
 	<image name="cartridge_ID"  if="{system.theme} == 'psvita' " extra="true">
-		<maxSize>0.084585 0.115343</maxSize>								
+		<maxSize>0.09 0.13</maxSize>								
     </image>	
 	
 		<!-- Channel-F -->
@@ -1909,6 +1953,7 @@ originally based on: "carbon"
 			|| {system.theme} == 'gb2players' 
 			|| {system.theme} == 'gbc' 
 			|| {system.theme} == 'gbc2players' 
+			|| {system.theme} == 'fm7' 
 			|| {system.theme} == 'msx' 
 			|| {system.theme} == 'msx1' 
 			|| {system.theme} == 'msx2' 
@@ -1920,7 +1965,7 @@ originally based on: "carbon"
 			">	
 
 
-<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+<image name="figurines" extra="true">
 	<pos>0.405 0.77</pos>									
 	<pos ifHelpPrompts="false">0.415 0.79</pos>
 </image>

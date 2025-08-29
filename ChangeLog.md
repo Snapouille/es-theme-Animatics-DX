@@ -1,3 +1,8 @@
+## V 2.30 - (29 08 2025)
+- add three wood comic-cartoon style desks by Neo Geoff
+- add the Figurines add-on
+
+
 ## V 2.29 - (09 08 2025)
 - readjustment of the time in the bottom right-hand corner
 - add option to enable or disable background animation in gamelist views

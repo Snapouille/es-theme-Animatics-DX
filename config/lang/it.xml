@@ -92,6 +92,9 @@
 <wood3>Legno d’ambra</wood3>
 <wood4>Legno solare</wood4>
 <wood5>Legno di rosa</wood5>
+<wood6>Legno Grezzo Comic-Cartoon</wood6>
+<wood7>Legno Ghiacciato Comic-Cartoon</wood7>
+<wood8>Legno Scuro Comic-Cartoon</wood8>
 <leather1>Pelle ornata</leather1>
 <leather2>Pelle di corvo</leather2>
 <leather3>Pelle di rame</leather3>
@@ -102,6 +105,12 @@
 <magma>Cuore di lava</magma>
 <marble>Marmo notturno</marble>
 <onthegreen>Sul green</onthegreen>
+
+<figurine.Display>Figure</figurine.Display>
+<figurine.systemOnly>Mostra solo le figure di sistema</figurine.systemOnly>
+<figurine.addonOrSystem>Mostra le figure add-on o di sistema se assenti</figurine.addonOrSystem>
+<figurine.addonOnly>Mostra solo le figure add-on</figurine.addonOnly>
+<figurine.none>Non mostrare le figure</figurine.none>
 
 </variables>
 

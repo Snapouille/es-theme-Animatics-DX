@@ -3,28 +3,28 @@
 
 <view name="gamecarousel">
 
-	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
-		<y>0.67</y>
-		<y ifHelpPrompts="false">0.72</y>
+	<image name="figurines" extra="true">
+		<pos>0.33 0.68</pos>
+		<pos ifHelpPrompts="false">0.33 0.73</pos>
 	</image>
   
 	<image name="ecran_console" extra="static">
-		<size>0.5151042 0.5555556</size>									
-		<pos>0.5341146 0.6201852</pos>									
-		<pos ifHelpPrompts="false">0.5341146 0.6801852</pos>
+		<size>0.4119792 0.5231481</size>									
+		<pos>0.5582813 0.649537</pos>									
+		<pos ifHelpPrompts="false">0.5582813 0.709537</pos>
 	</image>
   
 	<video name="md_video">
-		<pos>0.4957083 0.4956481</pos>	
-		<pos ifHelpPrompts="false">0.4957083 0.5556481</pos>
-		<size>0.21425 0.235</size>									
+		<size>0.1723958 0.225</size>									
+		<pos>0.5265104 0.5347222</pos>									
+		<pos ifHelpPrompts="false">0.5265104 0.5947222</pos>
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<size>0.21425 0.235</size>																
-		<pos>0.4957083 0.4956481</pos>
-		<pos ifHelpPrompts="false">0.4957083 0.5556481</pos>
+		<size>0.1723958 0.225</size>									
+		<pos>0.5265104 0.5347222</pos>	
+		<pos ifHelpPrompts="false">0.5265104 0.5947222</pos>
 	</image>
 	
 </view>  

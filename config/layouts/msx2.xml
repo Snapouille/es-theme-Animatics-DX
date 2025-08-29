@@ -2,6 +2,12 @@
 
 
 <view name="gamecarousel">
+
+	<image name="figurines" extra="true">
+		<pos>0.33 0.57</pos>									
+		<pos ifHelpPrompts="false">0.33 0.61</pos>
+		<maxSize>0.13 0.28</maxSize>	
+	</image>
   
 	<image name="ecran_console" extra="static">
 		<path>./../../system/msx2/ecran_console2.png</path>

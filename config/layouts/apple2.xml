@@ -3,10 +3,10 @@
  
 <view name="gamecarousel">
 
-	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
-		<maxSize>0.04 0.15</maxSize>									
-		<pos>0.3 0.73</pos>									
-		<pos ifHelpPrompts="false">0.3 0.78</pos>
+	<image name="figurines" extra="true">
+		<pos>0.29 0.68</pos>									
+		<pos ifHelpPrompts="false">0.29 0.73</pos>
+		<maxSize>0.09 0.25</maxSize>	
 	</image>
   
 	<image name="ecran_console" extra="static">
@@ -18,10 +18,10 @@
   
   
 	<video name="md_video">
-		<size>0.1510417 0.1959259</size>									
-		<pos>0.5442708 0.5253889</pos>									
-		<pos ifHelpPrompts="false">0.5442708 0.5753889</pos>
-		<roundCorners>0.03</roundCorners>
+		<pos>0.5440104 0.525463</pos>	
+		<pos ifHelpPrompts="false">0.5440104 0.575463</pos>
+		<maxSize>0.1390625 0.1805556</maxSize>									
+		<roundCorners>0.01</roundCorners>
 	</video>
 	
   

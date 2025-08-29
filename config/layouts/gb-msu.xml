@@ -1,0 +1,128 @@
+﻿<theme>
+  
+  
+<view name="gamecarousel">
+  
+	<image name="ecran_console_defaut" extra="static">
+		<visible>false</visible>
+    </image>
+	
+	<image name="Consoles" extra="static">
+		<path>./../../art/consoles/satellaview.png</path>
+		<visible>true</visible>
+		<size>0.2208333 0.262037</size>									
+		<pos>0.657 0.8</pos>	
+		<pos ifHelpPrompts="false">0.665 0.85</pos>
+    </image>
+  
+	<image name="ecran_console" extra="static">
+		<path>./../../art/screen/matsui.png</path>
+		<size>0.3630208 0.4777778</size>									
+		<pos>0.4734896 0.6224074</pos>
+		<pos ifHelpPrompts="false">0.4734896 0.6624074</pos>
+	</image>
+    
+	<video name="md_video">
+		<pos>0.4697604 0.5898519</pos>	
+		<pos ifHelpPrompts="false">0.4697604 0.6298519</pos>
+		<size>0.2496875 0.335</size>										
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<pos>0.4697604 0.5898519</pos>	
+		<pos ifHelpPrompts="false">0.4697604 0.6298519</pos>
+		<size>0.2496875 0.335</size>
+	</image>
+	
+</view> 
+
+
+
+
+<customView name="fanart">
+
+	<image name="Consoles">
+		<visible>false</visible>
+	</image>
+
+</customView>
+
+   
+  
+ <customView name="legendary">
+  
+	
+	<image name="ecran_console" extra="static">
+			<pos>0.495 0.21</pos>
+			<pos ifHelpPrompts="false">0.495 0.23</pos>
+			<size>0.4427083 0.525</size>
+			<scale>0.90</scale>
+			<color>FFFFFF</color>
+			<opacity>1</opacity>
+			<zIndex>31</zIndex>
+			
+				<storyboard event="open">
+					<animation property="offsetX" to="0.04" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="-0.02" begin="1200" duration="200" mode="linear"/>
+				</storyboard>
+					
+				<storyboard event="activate">
+					<animation property="offsetX" to="0.04" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="-0.02" begin="1200" duration="200" mode="linear"/>
+				</storyboard>
+					
+				<storyboard event="deactivate">
+						<animation property="opacity" to="0" duration="1" mode="linear"/>
+				</storyboard>
+			
+	</image>
+		
+		
+		<video name="md_video">
+		  <pos>0.687 0.40</pos>
+			<pos ifHelpPrompts="false">0.687 0.42</pos>
+		  <size>0.225 0.31</size>
+				<storyboard event="open">
+					<animation property="offsetX" to="0.04" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="-0.02" begin="1200" duration="200" mode="linear"/>
+				</storyboard>
+					
+				<storyboard event="activate">
+					<animation property="offsetX" to="0.04" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="-0.02" begin="1200" duration="200" mode="linear"/>
+				</storyboard>
+					
+				<storyboard event="deactivate">
+						<animation property="opacity" to="0" duration="1" mode="linear"/>
+				</storyboard>
+		</video>
+		
+		<!-- fond noir de l'écran -->
+		<image name="black_bg">
+		    <pos>0.687 0.40</pos>
+			<pos ifHelpPrompts="false">0.687 0.42</pos>
+		    <size>0.225 0.31</size>
+				<storyboard event="open">
+					<animation property="offsetX" to="0.04" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="-0.02" begin="1200" duration="200" mode="linear"/>
+				</storyboard>
+					
+				<storyboard event="activate">
+					<animation property="offsetX" to="0.04" begin="1200" duration="200" mode="linear"/>
+					<animation property="offsetY" to="-0.02" begin="1200" duration="200" mode="linear"/>
+				</storyboard>
+					
+				<storyboard event="deactivate">
+						<animation property="opacity" to="0" duration="1" mode="linear"/>
+				</storyboard>
+		</image>
+	
+	
+	
+	
+		
+   </customView>      
+
+
+   </theme>

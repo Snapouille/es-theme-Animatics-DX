@@ -92,7 +92,9 @@
 <wood3>Madeira de âmbar</wood3>
 <wood4>Madeira solar</wood4>
 <wood5>Madeira de rosa</wood5>
-<leather1>Couro ornamentado</leather1>
+<wood6>Madeira Bruta Comic-Cartoon</wood6>
+<wood7>Madeira Congelada Comic-Cartoon</wood7>
+<wood8>Madeira Escura Comic-Cartoon</wood8><leather1>Couro ornamentado</leather1>
 <leather2>Couro de corvo</leather2>
 <leather3>Couro de cobre</leather3>
 <metal1>Metal enferrujado brunido</metal1>
@@ -102,6 +104,12 @@
 <magma>Coração de lava</magma>
 <marble>Mármore noturno</marble>
 <onthegreen>No green</onthegreen>
+
+<figurine.Display>Figuras</figurine.Display>
+<figurine.systemOnly>Exibir apenas figuras do sistema</figurine.systemOnly>
+<figurine.addonOrSystem>Exibir figuras do add-on ou do sistema se ausentes</figurine.addonOrSystem>
+<figurine.addonOnly>Exibir apenas figuras do add-on</figurine.addonOnly>
+<figurine.none>Não exibir figuras</figurine.none>
 
 </variables>
 

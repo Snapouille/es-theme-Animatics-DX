@@ -7,17 +7,11 @@
 			<visible>false</visible>
 	</image>
 	
-	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
+	<image name="figurines" extra="true">
 		<pos>0.35 0.535</pos>									
 		<pos ifHelpPrompts="false">0.35 0.59</pos>
 	</image>
 	
-	<image name="bureau" extra="static">
-		<size>1.0755208 0.38</size>									
-		<pos>0.53 0.775</pos>									
-		<pos ifHelpPrompts="false">0.53 0.81</pos>
-	</image>
-  
 	<image name="ecran_console" extra="static">
 		<path>./../../system/c20/ecran_console2.png</path>
 		<size>0.3421875 0.5777778</size>									

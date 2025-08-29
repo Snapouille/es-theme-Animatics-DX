@@ -2,9 +2,9 @@
 
 <view name="gamecarousel">
 
-	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
-		<pos>0.32 0.6</pos>									
-		<pos ifHelpPrompts="false">0.32 0.645</pos>
+	<image name="figurines" extra="true">
+		<pos>0.32 0.61</pos>									
+		<pos ifHelpPrompts="false">0.32 0.65</pos>
 	</image>
 
 	<image name="ecran_console" extra="static">

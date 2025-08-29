@@ -96,8 +96,6 @@
 <theme.timesPlayedLabel>Número de partidos : </theme.timesPlayedLabel>
 <theme.gameTimeLabel>Tiempo de juego : </theme.gameTimeLabel>
 
-
-
 <systemview.grid>cuadrícula (nuevo))</systemview.grid>
 <subset.Grid_View_Size>Vista en cuadrícula: dimensiones</subset.Grid_View_Size>
 
@@ -120,6 +118,9 @@
 <wood3>Madera de ámbar</wood3>
 <wood4>Madera solar</wood4>
 <wood5>Madera de rosa</wood5>
+<wood6>Madera en Bruto Comic-Cartoon</wood6>
+<wood7>Madera Escarchada Comic-Cartoon</wood7>
+<wood8>Madera Oscura Comic-Cartoon</wood8>
 <leather1>Cuero ornamentado</leather1>
 <leather2>Cuero de cuervo</leather2>
 <leather3>Cuero de cobre</leather3>
@@ -130,6 +131,12 @@
 <magma>Corazón de lava</magma>
 <marble>Mármol nocturno</marble>
 <onthegreen>En el green</onthegreen>
+
+<figurine.Display>Figuras</figurine.Display>
+<figurine.systemOnly>Mostrar solo las figuras del sistema</figurine.systemOnly>
+<figurine.addonOrSystem>Mostrar las figuras del add-on o del sistema si faltan</figurine.addonOrSystem>
+<figurine.addonOnly>Mostrar solo las figuras del add-on</figurine.addonOnly>
+<figurine.none>No mostrar figuras</figurine.none>
 
 </variables>
 

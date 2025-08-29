@@ -3,24 +3,30 @@
 
 <view name="gamecarousel">
   
+	<image name="figurines" extra="true">
+		<pos>0.35 0.63</pos>									
+		<pos ifHelpPrompts="false">0.35 0.68</pos>
+		<maxSize>0.12 0.27</maxSize>	
+	</image>
+
 	<image name="ecran_console" extra="static">
-		<path>./../../system/lutro/ecran_console.png</path>
-		<size>0.5067708 0.5777778</size>									
-		<pos>0.5044271 0.625</pos>	
-		<pos ifHelpPrompts="false">0.5044271 0.675</pos>
+		<path>./../../system/fm7/ecran_console2.png</path>
+		<size>0.3203125 0.65</size>									
+		<pos>0.6059896 0.5916667</pos>	
+		<pos ifHelpPrompts="false">0.6059896 0.6466667</pos>
 	</image>
   
 	<video name="md_video">
-		<pos>0.5059896 0.5259259</pos>
-		<pos ifHelpPrompts="false">0.5059896 0.5759259</pos>
-		<maxSize>0.3473958 0.3296296</maxSize>									
+		<size>0.190625 0.2592593</size>									
+		<pos>0.60625 0.4342593</pos>	
+		<pos ifHelpPrompts="false">0.60625 0.4892593</pos>
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<size>0.3473958 0.3296296</size>									
-		<pos>0.5059896 0.5259259</pos>									
-		<pos ifHelpPrompts="false">0.5059896 0.5759259</pos>
+		<size>0.190625 0.2592593</size>									
+		<pos>0.60625 0.4342593</pos>	
+		<pos ifHelpPrompts="false">0.60625 0.4892593</pos>
 	</image>
 	
 </view>
