@@ -1,8 +1,13 @@
+## V 2.31 - (30 08 2025)
+- add new animation for system Singe
+- fix figurines visibility for Arcade system
+- fix various figurines and consoles layouts
+  
 ## V 2.30 - (29 08 2025)
 - add three wood comic-cartoon style desks by Neo Geoff
-- add the Figurines add-on
-
-
+- add all figurines system default for gamecarousel view
+- add the figurines add-on
+  
 ## V 2.29 - (09 08 2025)
 - readjustment of the time in the bottom right-hand corner
 - add option to enable or disable background animation in gamelist views

@@ -10,12 +10,12 @@
   
 	<image name="ecran_console" extra="static">
 		<size>0.2098958 0.5555556</size>									
-		<pos>0.5702604 0.5888889</pos>									
+		<pos>0.5702604 0.6238889</pos>									
 		<pos ifHelpPrompts="false">0.5702604 0.6388889</pos>
 	</image>
   
 	<video name="md_video">
-		<pos>0.5697396 0.4685185</pos>	
+		<pos>0.5697396 0.5035185</pos>	
 		<pos ifHelpPrompts="false">0.5697396 0.5185185</pos>
 		<size>0.1026042 0.1611111</size>									
 	</video>
@@ -23,13 +23,13 @@
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
 		<size>0.1026042 0.1611111</size>									
-		<pos>0.5697396 0.4685185</pos>	
+		<pos>0.5697396 0.5035185</pos>	
 		<pos ifHelpPrompts="false">0.5697396 0.5185185</pos>
 	</image>
 	
 	<image name="thumbnail-gamecarousel" extra="true">
-		<pos>0.155 0.691</pos>
-		<pos ifHelpPrompts="false">0.155 0.723</pos>
+		<pos>0.145 0.691</pos>
+		<pos ifHelpPrompts="false">0.145 0.723</pos>
 	</image>
 		
 </view>

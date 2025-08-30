@@ -808,6 +808,7 @@ originally based on: "carbon"
 	<visible>false</visible>
 </image>
 
+
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
@@ -2058,6 +2059,7 @@ originally based on: "carbon"
 <view name="gamecarousel" if=" {system.theme} == 'arcade' 
 			|| {system.theme} == 'auto-verticalarcade' 
 			|| {system.theme} == 'auto-lightgun' 
+			|| {system.theme} == 'auto-wheel' 
 			|| {system.theme} == 'alphadenshi' 
 			|| {system.theme} == 'atari' 
 			|| {system.theme} == 'atlus' 
@@ -2126,6 +2128,11 @@ originally based on: "carbon"
 	
 <!-- on affiche pas les éléments du bureau -->
 	<image name="bureau, mini, ecran_console_defaut" extra="static">
+		<visible>false</visible>
+	</image>
+	
+<!-- On masque les figurines pour les systèmes Arcades et Collections sans bureau -->
+	<image name="figurines" extra="true">
 		<visible>false</visible>
 	</image>
 	
