@@ -2,6 +2,9 @@
 - add new animation for system Singe
 - fix figurines visibility for Arcade system
 - fix various figurines and consoles layouts
+
+<img width="1920" height="1080" alt="Singe NEW" src="https://github.com/user-attachments/assets/1508e35c-8cb8-4209-9917-9551d88f1c97" />
+
   
 ## V 2.30 - (29 08 2025)
 - add three wood comic-cartoon style desks by Neo Geoff
