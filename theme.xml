@@ -148,7 +148,6 @@ originally based on: "carbon"
 </variables>
   
   
-  
 <!-- Personalisation Utilisateurs-->
 	<include>./your-nickname.xml</include>
 	<include ifArch="windows">./../../../../your-nickname.xml</include> <!-- On check à la racine de Retrobat si l'user a coller le xml custom -->
