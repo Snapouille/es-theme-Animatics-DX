@@ -54,8 +54,8 @@ Features :
 ![2024-02-28 17_35_43-EmulationStation](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/96b6206d-bf1c-49b8-8c66-3698c1f3099f)
 
 ## Gamelist view : Game Carousel
-![2024-01-25 09_50_06-Window](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/d3f1759b-b3fe-4317-adaf-914a6d505fe2)
-
+<img width="1920" height="1080" alt="2025-08-30 09_42_58-EmulationStation" src="https://github.com/user-attachments/assets/4e3cb4fc-43f1-433c-a1bc-fbbfecf43db8" />
+  
 ## Gamelist view : Legendary
 ![legendary](https://github.com/user-attachments/assets/c7b45496-be87-4e9b-98e2-a171ea25ef54)
 
