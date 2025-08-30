@@ -121,7 +121,7 @@ Link: upcoming
 ### Big Thanks and credits to :
 
 - Darknior RVGM (large artworks dealer)
-- Patrix91 (big investment in game cartridges features)
+- Patrix91 (big investment in game cartridges and figurines features)
 - Pajarorrojo Playstation-X (inspiration and code for avatars-logo and nickname)
 - EvilDindon Arcade Planet (large inspiration for gamelist view)
 - Lehcimcramtrebor know as the great HelMic Hexa and RCBX (many many tips and code tricks)
