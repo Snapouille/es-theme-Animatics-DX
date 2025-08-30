@@ -16,12 +16,6 @@ Features :
     16/9 Only, not compatible with 4/3 or 5/4 for now
     Pi4 or more powerfull recommended
 
-
-
-# MUSIC add-on
-You can add a setlist of music to be played with the theme animations, just copy the ‘es-theme-Animatics-DX-Music’ directory which you can download here : 
-https://github.com/Snapouille/es-theme-Animatics-DX-Music
-
 # System View
 
 ## System View Wheel-Animatics
@@ -104,6 +98,22 @@ Vous pouvez également utiliser un nom d'utilisateur et un logo entièrement per
 Pour terminer, n'oubliez pas de paramétrer dans les options du thème :
 (-> Paramètres d'affichage -> Configuration du thème -> Votre Surnom : personnalisé: Here Your Nickname)
 
+---
+  
+# ADD-ONS
+
+## MUSIC add-on
+You can add a setlist of music to be played with the theme animations.  
+Link: https://github.com/Snapouille/DX_Theme_Music_Add-On
+
+## FIGURINES add-on
+You can add extra figurines to enhance the theme with additional system or add-on figurines.  
+Link: https://github.com/Snapouille/DX_Theme_Figurines_Add-On
+
+## CABINETS add-on
+You can add extra cabinet overlays and images to customize the appearance of your theme per system.  
+Link: upcoming
+  
 ---
 
 ### Big Thanks and credits to :
