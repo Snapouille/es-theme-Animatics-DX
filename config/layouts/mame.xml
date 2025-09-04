@@ -28,9 +28,10 @@
 	</image>
   
 	
-		<video name="md_video">
-			<visible>false</visible>
-		</video>
+	<!-- je décale en dehors de l'écran car il s'affichait toujours, même avec un visible=false ... -->
+	<video name="md_video">
+		<pos>-2 -1</pos>
+	</video>
 		
 		
 		<image name="game_imagepreview" extra="true">

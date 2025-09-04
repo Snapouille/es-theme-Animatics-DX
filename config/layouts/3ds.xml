@@ -3,28 +3,28 @@
 <view name="gamecarousel">
   
 	<image name="figurines" extra="true">
-		<pos>0.295 0.675</pos>	
-		<pos ifHelpPrompts="false">0.295 0.725</pos>
+		<pos>0.305 0.69</pos>	
+		<pos ifHelpPrompts="false">0.305 0.74</pos>
 		<zIndex>5</zIndex>
 	</image>
   
 	<image name="ecran_console" extra="static">
-		<size>0.4385417 0.4555556</size>									
-		<pos>0.54 0.71</pos>	
-		<pos ifHelpPrompts="false">0.54 0.77</pos>
+		<size>0.3885417 0.4037037</size>									
+		<pos>0.565625 0.7342593</pos>									
+		<pos ifHelpPrompts="false">0.565625 0.7942593</pos>
 	</image>
   
 	<video name="md_video">
-		<size>0.2921875 0.3138889</size>									
-		<pos>0.5398438 0.7034259</pos>									
-		<pos ifHelpPrompts="false">0.5398438 0.7634259</pos>
+		<size>0.2583333 0.2759259</size>									
+		<pos>0.565625 0.7277778</pos>									
+		<pos ifHelpPrompts="false">0.565625 0.7877778</pos>
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<size>0.2921875 0.3138889</size>									
-		<pos>0.5398438 0.7034259</pos>									
-		<pos ifHelpPrompts="false">0.5398438 0.7634259</pos>
+		<size>0.2583333 0.2759259</size>									
+		<pos>0.565625 0.7277778</pos>									
+		<pos ifHelpPrompts="false">0.565625 0.7877778</pos>
 	</image>
 	
 </view>  

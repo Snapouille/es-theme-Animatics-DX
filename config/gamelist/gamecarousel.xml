@@ -1008,6 +1008,7 @@ originally based on: "carbon"
 	</image>	  
 	
 	
+	
 		<gamecarousel name="gamecarousel">
 			<type>vertical_wheel</type>
 			<logoScale>1.2</logoScale>
@@ -1674,6 +1675,7 @@ originally based on: "carbon"
 		
 		<!-- Supervision -->
 	<image name="cartridge_ID"  if="{system.theme} == 'supervision' " extra="true">
+		<pos>0.62 0.14</pos>
 		<maxSize>0.169248 0.173771</maxSize>								
     </image>
 	
@@ -1962,7 +1964,7 @@ originally based on: "carbon"
 			|| {system.theme} == 'msxturbor' 
 			|| {system.theme} == 'supervision' 
 			|| {system.theme} == 'vectrex' 
-			|| {system.theme} == 'x1' 
+			|| {system.theme} == 'x1'
 			">	
 
 
@@ -2001,50 +2003,50 @@ originally based on: "carbon"
 		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>	
 </text>
 	
-	<text name="description_Id" extra="true">
-		<size>0.268 0.24</size>									
-		<pos>0.18 0.135</pos>	
-	  	<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
+<text name="description_Id" extra="true">
+	<size>0.268 0.24</size>									
+	<pos>0.18 0.135</pos>	
+	<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
+	<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
+	<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
+	<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext"></storyboard>
+	<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>		
+</text>
+
+	
+<!-- Encadrement de la zone Description, on bloque l'animation pour ces systèmes -->
+<image name="desc_cadre_gauche, desc_cadre_droit, desc_cadre_haut, desc_cadre_bas, desc_fond_black">
+		<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
 		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext"></storyboard>
-		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>		
-	</text>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>
+</image>
+ 
+<image name="desc_cadre_gauche" extra="true">
+	<size>0.003125 0.237037</size>									
+	<pos>0.1630208 0.0490741</pos>									
+</image>
 
-	
-	<!-- Encadrement de la zone Description, on bloque l'animation pour ces systèmes -->
-	<image name="desc_cadre_gauche, desc_cadre_droit, desc_cadre_haut, desc_cadre_bas, desc_fond_black">
-			<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
-			<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
-			<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
-			<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext"></storyboard>
-			<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>
-	</image>
-	 
-	<image name="desc_cadre_gauche" extra="true">
-		<size>0.003125 0.237037</size>									
-		<pos>0.1630208 0.0490741</pos>									
-	</image>
-	
-	<image name="desc_cadre_haut" extra="true">
-		<size>0.3010417 0.0037037</size>									
-		<pos>0.1661458 0.0490741</pos>									
-	</image>
-	
-	<image name="desc_cadre_droit" extra="true">
-		<size>0.0036458 0.3342593</size>									
-		<pos>0.4635417 0.0490741</pos>									
-	</image>
-	
-	<image name="desc_cadre_bas" extra="true">
-		<size>0.3010417 0.0037037</size>									
-		<pos>0.1661458 0.3796296</pos>									
-	</image>
-	
-	<image name="desc_fond_black" extra="true">
-		<size>0.3010417 0.3305556</size>									
-		<pos>0.1640625 0.0509259</pos>									
-	</image>
+<image name="desc_cadre_haut" extra="true">
+	<size>0.3010417 0.0037037</size>									
+	<pos>0.1661458 0.0490741</pos>									
+</image>
+
+<image name="desc_cadre_droit" extra="true">
+	<size>0.0036458 0.3342593</size>									
+	<pos>0.4635417 0.0490741</pos>									
+</image>
+
+<image name="desc_cadre_bas" extra="true">
+	<size>0.3010417 0.0037037</size>									
+	<pos>0.1661458 0.3796296</pos>									
+</image>
+
+<image name="desc_fond_black" extra="true">
+	<size>0.3010417 0.3305556</size>									
+	<pos>0.1640625 0.0509259</pos>									
+</image>
 	
 	
 </view>
@@ -2053,10 +2055,11 @@ originally based on: "carbon"
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<!-- pour les systèmes ARCADE  				 --------------->
+<!--        pour les systèmes ARCADE  		 --------------->
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 		
-<view name="gamecarousel" if=" {system.theme} == 'arcade' 
+<view name="gamecarousel" if=" 
+               {system.theme} == 'arcade' 
 			|| {system.theme} == 'auto-verticalarcade' 
 			|| {system.theme} == 'auto-lightgun' 
 			|| {system.theme} == 'auto-wheel' 
@@ -2117,7 +2120,8 @@ originally based on: "carbon"
 			|| {system.theme} == 'daphne' 
 			|| {system.theme} == 'singe' 
 			|| {system.theme} == 'naomi' 
-			|| {system.theme} == 'naomi2'">		
+			|| {system.theme} == 'naomi2'
+			">		
 
 
 <!-- on décale légèrement les box (flyers) vers la droite -->
@@ -2126,7 +2130,7 @@ originally based on: "carbon"
 		<pos ifHelpPrompts="false">0.135 0.723</pos>
 	</image>
 	
-<!-- on affiche pas les éléments du bureau -->
+<!-- on affiche pas les éléments du bureau-->
 	<image name="bureau, mini, ecran_console_defaut" extra="static">
 		<visible>false</visible>
 	</image>
@@ -2135,6 +2139,86 @@ originally based on: "carbon"
 	<image name="figurines" extra="true">
 		<visible>false</visible>
 	</image>
+	
+	
+<!-- on bloque l'animation pour ces systèmes -->
+	<text name="name_Id, genre_Id, description_Id, WhatSystemGAME" extra="true">
+		<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>	
+	</text>
+	
+	
+<!-- Nouvel Encadrement de la zone Description, on bloque l'animation pour ces systèmes -->
+	<image name="desc_cadre_gauche, desc_cadre_droit, desc_cadre_haut, desc_cadre_bas, desc_fond_black">
+			<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
+			<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
+			<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
+			<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext"></storyboard>
+			<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>
+	</image>
+	 
+	<image name="desc_cadre_droit" extra="true">
+		<size>0.003125 0.2324074</size>									
+		<pos>0.7583333 0.0490741</pos>		
+		<size ifHelpPrompts="false">0.003125 0.2694444</size>									
+		<pos ifHelpPrompts="false">0.7582292 0.0490741</pos>									
+	</image>
+	
+	<image name="desc_cadre_bas" extra="true">
+		<size>0.5953125 0.0037037</size>									
+		<pos>0.1661458 0.2777778</pos>	
+		<size ifHelpPrompts="false">0.5952083 0.0037037</size>									
+		<pos ifHelpPrompts="false">0.1661458 0.3148148</pos>									
+	</image>
+	
+	<image name="desc_fond_black" extra="true">
+		<size>0.5942708 0.225</size>									
+		<pos>0.1640625 0.0527778</pos>		
+		<size ifHelpPrompts="false">0.59625 0.2675926</size>									
+		<pos ifHelpPrompts="false">0.1640625 0.05</pos>									
+	</image>
+	
+	<text name="description_Id" extra="true">
+		<pos>0.18 0.133</pos>
+		<size>0.575 0.12</size>
+		<pos ifHelpPrompts="false">0.18 0.146</pos>
+		<size ifHelpPrompts="false">0.565 0.15</size>
+	</text>
+	
+	
+	<!-- on fait sortir la cartridge par la gauche de derrrière le boxart -->		
+	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
+		<pos>0.185 0.691</pos>
+		<pos ifHelpPrompts="false">0.185 0.73</pos>		
+		<maxSize>0.25 0.25</maxSize>
+		<opacity>0</opacity>
+		<zIndex>22</zIndex> 
+		<storyboard event="open">   
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" from="-0.05" to="0.14" begin="1000" duration="600" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" from="-0.05" to="0.14" begin="1000" duration="600" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>
+			<animation property="offsetX" from="-0.05" to="0.14" begin="1000" duration="600" mode="EaseInOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
+	
+	
+	
+	
 	
 </view>
 

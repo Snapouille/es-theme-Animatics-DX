@@ -3,62 +3,56 @@
 
 <view name="gamecarousel">
   
-	<image name="bureau" extra="static">
-		<path ifSubset="deskType:wood1">${themePath}/art/divers/desk-wood1-wide.png</path>
-		<path ifSubset="deskType:wood2">${themePath}/art/divers/desk-wood2-wide.png</path>
-		<size>1 0.3175926</size>									
-		<pos>0.5 0.7875</pos>	
-		<pos ifHelpPrompts="false">0.5 0.8475</pos>
-	</image>
 	
 	<image name="figurines" extra="true">
-		<size>0.0625 0.1694444</size>									
-		<pos>0.34 0.58</pos>									
-		<pos ifHelpPrompts="false">0.355 0.635</pos>
-	</image>
-	
-	<image name="lamp" extra="true">
-		<origin>0.5 0.5</origin>	
-		<path>${themePath}/art/figurines/lamp.png</path>
-		<size>0.1515625 0.3814815</size>									
-		<pos>0.28 0.53</pos>									
-		<pos ifHelpPrompts="false">0.28 0.58</pos>
-		<color>FFFFFF</color>
+		<pos>0.315 0.61</pos>									
+		<pos ifHelpPrompts="false">0.315 0.67</pos>
+		<maxSize>0.10 0.22</maxSize>	
 		<zIndex>4</zIndex>
 	</image>
 	
-	<image name="lamp_halo" extra="true">
-		<origin>0.5 0.5</origin>	
-		<path>${themePath}/art/figurines/lamp_halo.png</path>
-		<size>0.2744792 0.5018519</size>									
-		<pos>0.3992188 0.5990741</pos>									
-		<pos ifHelpPrompts="false">0.3992188 0.6490741</pos>
-		<color>FFFFFF</color>
-		<opacity>0</opacity>
-		<zIndex>5</zIndex>
-		
-		<storyboard event="open">
-                <animation property="opacity" to="0.6" begin="1500" duration="300" mode="linear"/>			
-		</storyboard>
-			
-		<storyboard event="activate">
-                <animation property="opacity" to="0.6" begin="1500" duration="300" mode="linear"/>			
-		</storyboard>
-			
-		<storyboard event="deactivate">
-                <animation property="opacity" to="0" mode="linear"/>			
-		</storyboard>
-	</image>
+	<!-- <image name="lamp" extra="true"> -->
+		<!-- <origin>0.5 0.5</origin>	 -->
+		<!-- <path>${themePath}/art/figurines/lamp.png</path> -->
+		<!-- <size>0.1515625 0.3814815</size>									 -->
+		<!-- <pos>0.28 0.53</pos>									 -->
+		<!-- <pos ifHelpPrompts="false">0.28 0.58</pos> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <zIndex>4</zIndex> -->
+	<!-- </image> -->
 	
-	<image name="lamp_cache" extra="true">
-		<origin>0.5 0.5</origin>	
-		<path>${themePath}/art/figurines/lamp_cache.png</path>
-		<size>0.071875 0.1166667</size>									
-		<pos>0.3171875 0.4546296</pos>									
-		<pos ifHelpPrompts="false">0.3171875 0.5046296</pos>
-		<color>FFFFFF</color>
-		<zIndex>6</zIndex>
-	</image>
+	<!-- <image name="lamp_halo" extra="true"> -->
+		<!-- <origin>0.5 0.5</origin>	 -->
+		<!-- <path>${themePath}/art/figurines/lamp_halo.png</path> -->
+		<!-- <size>0.2744792 0.5018519</size>									 -->
+		<!-- <pos>0.3992188 0.5990741</pos>									 -->
+		<!-- <pos ifHelpPrompts="false">0.3992188 0.6490741</pos> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <opacity>0</opacity> -->
+		<!-- <zIndex>5</zIndex> -->
+		
+		<!-- <storyboard event="open"> -->
+                <!-- <animation property="opacity" to="0.6" begin="1500" duration="300" mode="linear"/>			 -->
+		<!-- </storyboard> -->
+			
+		<!-- <storyboard event="activate"> -->
+                <!-- <animation property="opacity" to="0.6" begin="1500" duration="300" mode="linear"/>			 -->
+		<!-- </storyboard> -->
+			
+		<!-- <storyboard event="deactivate"> -->
+                <!-- <animation property="opacity" to="0" mode="linear"/>			 -->
+		<!-- </storyboard> -->
+	<!-- </image> -->
+	
+	<!-- <image name="lamp_cache" extra="true"> -->
+		<!-- <origin>0.5 0.5</origin>	 -->
+		<!-- <path>${themePath}/art/figurines/lamp_cache.png</path> -->
+		<!-- <size>0.071875 0.1166667</size>									 -->
+		<!-- <pos>0.3171875 0.4546296</pos>									 -->
+		<!-- <pos ifHelpPrompts="false">0.3171875 0.5046296</pos> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <zIndex>6</zIndex> -->
+	<!-- </image> -->
 	
 	<image name="ecran_console" extra="static">
 		<path>./../../system/amiga/ecran_console2.png</path>

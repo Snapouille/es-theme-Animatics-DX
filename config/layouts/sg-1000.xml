@@ -5,9 +5,10 @@
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
 		<size>0.3119792 0.2564815</size>									
-		<pos>0.65 0.88</pos>
-		<pos ifHelpPrompts="false">0.68 0.885</pos>
-		<scale>0.75</scale>
+		<pos>0.7 0.835</pos>
+		<pos ifHelpPrompts="false">0.7 0.885</pos>
+		<rotation>5</rotation>
+		<scale>0.7</scale>
     </image>
 
 	<image name="ecran_console" extra="static">

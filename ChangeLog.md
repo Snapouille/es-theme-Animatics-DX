@@ -1,3 +1,6 @@
+## V 2.32 - (04 09 2025)
+- fix screen layout bugs (thanks to Patrix91 for the feedback)
+
 ## V 2.31 - (30 08 2025)
 - add new animation for system Singe
 - fix figurines visibility for Arcade system

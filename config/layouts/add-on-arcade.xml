@@ -27,9 +27,12 @@
 			">
   
  
-	<image name="bureau, figurines, ecran_console_defaut, marquee_bartop" extra="static">
+	<image name="bureau, figurines, ecran_console_defaut, marquee_bartop, cartridge_ID" extra="static">
 		<visible>false</visible>
 	</image>
+	
+	
+	
   
 	<!-- je décale en dehors de l'écran car il s'affichait toujours, même avec un visible=false ... -->
 	<video name="md_video">
@@ -117,7 +120,10 @@
 			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/_default_naomi.png")
 		</path>
 		
-		<path if="{system.theme} == 'daphne">${themePath}/../zzz-DX_Add-On/_inc/cabinets/_default.png</path>
+		<path if="{system.theme} == 'daphne'">firstfile(
+			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png",
+			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/_default.png")
+		</path>
 		
 		<origin>0.5 0.5</origin>									
 		<size>0.4010417 0.6787037</size>									
