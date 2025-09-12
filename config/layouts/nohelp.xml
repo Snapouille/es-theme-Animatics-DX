@@ -93,7 +93,7 @@
   
   
   
-   <customView name="boxes_big, boxes_medium, boxes_small">
+   <customView name="boxes_big, boxes_medium, boxes_small, boxes_gameName">
   
 	   <imagegrid name="gamegrid">
 		  <pos>0.333333 0.05</pos>

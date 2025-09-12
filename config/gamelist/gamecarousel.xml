@@ -1003,6 +1003,13 @@ originally based on: "carbon"
 		</storyboard>
     </image>
 	
+	<!-- pour les box plus en mode paysage on descend un peu le tout -->
+	<image name="thumbnail-gamecarousel, boxback_ID" extra="true" if="{system.theme} == 'snes' || {system.theme} == 'n64'  ">
+		<pos>0.12 0.707</pos>
+		<pos ifHelpPrompts="false">0.12 0.746</pos>
+    </image>
+	
+	
 	<image name="md_marquee">
 	  <visible>false</visible>
 	</image>	  
@@ -1168,13 +1175,13 @@ originally based on: "carbon"
 	<alignment>left</alignment>
 	<singleLineScroll>true</singleLineScroll>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="open">
-			<animation enabled="exists({game:cartridge})" property="size" to="0.33 0.03" begin="1500" duration="250" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.33 0.03" begin="1300" duration="350" mode="easeIn"/>
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext">     
-			<animation enabled="exists({game:cartridge})" property="size" to="0.33 0.03" begin="1500" duration="250" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.33 0.03" begin="1300" duration="350" mode="easeIn"/>
 		</storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev">     
-			<animation enabled="exists({game:cartridge})" property="size" to="0.33 0.03" begin="1500" duration="250" mode="easeIn"/>
+			<animation enabled="exists({game:cartridge})" property="size" to="0.33 0.03" begin="1300" duration="350" mode="easeIn"/>
 		</storyboard>      
 		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>

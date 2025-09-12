@@ -8,7 +8,7 @@ originally based on: "carbon"
 <theme defaultView="detailed">
   <formatVersion>7</formatVersion>
   
-<customView name="boxes_big" inherits="grid" displayName="${bigboxesview}">
+<customView name="boxes_gameName" inherits="grid" displayName="${gameNameboxesview}">
 
 
 	<image name="extension_hor, extension_ver">
@@ -26,6 +26,7 @@ originally based on: "carbon"
 	
 	<text name="WhatSystemGAME" extra="static">
 		<visible>false</visible>
+		<!-- <text> = {system:theme} </text>  -->
 	</text>
 
 	
@@ -110,10 +111,10 @@ originally based on: "carbon"
 	  <margin>0 0.01</margin>
       <padding>0.01 0.001 0.001 0.001</padding>
       <zIndex>10</zIndex>
-      <autoLayout>3 2</autoLayout>
-	  <autoLayout if="{system.theme} == '3ds' || {system.theme} == 'gameandwatch' || {system.theme} == 'megaduck' || {system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'virtualboy'">3 3</autoLayout>
-	  <autoLayout if="{system.theme} == 'model2' || {system.theme} == 'pv1000' || {system.theme} == 'wonderswancolor' || {system.theme} == 'zx81'">5 2</autoLayout>
-	  <autoLayout if="{system.theme} == 'nes' || {system.theme} == '3do' || {system.theme} == 'switch' || {system.theme} == 'mastersystem' || {system.theme} == 'psp'  ">4 2</autoLayout>
+      <autoLayout>4 2</autoLayout>
+	  <autoLayout if="{system.theme} == 'psp' || {system.theme} == 'switch' || {system.theme} == 'model2' || {system.theme} == 'pv1000' || {system.theme} == 'zx81'">5 2</autoLayout>
+	  <autoLayout if="{system.theme} == 'gameandwatch' ">3 3</autoLayout>
+	  <autoLayout if="{system.theme} == 'lcdgames' || {system.theme} == 'psx' || {system.theme} == 'neogeocd' || {system.theme} == 'dreamcast' || {system.theme} == 'saturn' || {system.theme} == 'cdi' || {system.theme} == 'snes-msu1' || {system.theme} == 'nds' || {system.theme} == 'pokemini' || {system.theme} == 'sgb' || {system.theme} == 'gba' || {system.theme} == 'gbc2players' || {system.theme} == 'gbc' || {system.theme} == 'gb2players' || {system.theme} == 'gb' || {system.theme} == 'supergrafx' || {system.theme} == '3ds' || {system.theme} == 'amigacd32' || {system.theme} == 'amigacdtv'  || {system.theme} == 'megaduck'  || {system.theme} == 'gamepock'  || {system.theme} == 'pcengine' || {system.theme} == 'pce-cd' || {system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'virtualboy'">3 2</autoLayout>
 	  <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
@@ -124,11 +125,10 @@ originally based on: "carbon"
 			<itemTemplate>
 				<container>
 					<image name="thumbnail">
-						<!-- <linearSmooth>true</linearSmooth> -->
 						<visible if="{system.theme} == 'snes' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'solarus'">false</visible>
 						<pos>0.5 0.6</pos>
 						<origin>0.5 0.6</origin>
-						<maxSize>0.95 0.95</maxSize>
+						<maxSize>0.95 0.75</maxSize>
 						<path ifSubset="boxfrontDisplay:2d">{game:thumbnail}</path>
 						<path ifSubset="boxfrontDisplay:3d">firstfile({game:boxart},{game:thumbnail})</path>	 
 						<default ifSubset="boxfrontDisplay:2d">./../../art/divers/noboxart.png</default>
@@ -151,13 +151,12 @@ originally based on: "carbon"
 						</storyboard>
 					</image>
 					<image name="thumbnail">
-						<!-- <linearSmooth>true</linearSmooth> -->
 						<visible>false</visible>
 						<visible if="{system.theme} == 'snes' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'|| {system.theme} == 'solarus'">{game:region} == 'jp'</visible>
 						<pos>0.5 0.6</pos>
 						<origin>0.5 0.6</origin>
 						<rotation>90</rotation>
-						<maxSize>1 1</maxSize>
+						<maxSize>0.95 0.75</maxSize>
 						<scale>1.2</scale>
 						<path ifSubset="boxfrontDisplay:2d">{game:thumbnail}</path>
 						<path ifSubset="boxfrontDisplay:3d">firstfile({game:boxart},{game:thumbnail})</path>	 
@@ -181,13 +180,12 @@ originally based on: "carbon"
 						</storyboard>
 					</image>
 					<image name="thumbnail">
-						<!-- <linearSmooth>true</linearSmooth> -->
 						<visible>false</visible>
 						<visible if="{system.theme} == 'snes' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'|| {system.theme} == 'solarus'">{game:region} != 'jp'</visible>
 						<pos>0.5 0.6</pos>
 						<origin>0.5 0.6</origin>
 						<rotation>0</rotation>
-						<maxSize>1 0.95</maxSize>
+						<maxSize>0.95 0.75</maxSize>
 						<path ifSubset="boxfrontDisplay:2d">{game:thumbnail}</path>
 						<path ifSubset="boxfrontDisplay:3d">firstfile({game:boxart},{game:thumbnail})</path>	 
 						<default ifSubset="boxfrontDisplay:2d">./../../art/divers/noboxart.png</default>
@@ -209,6 +207,24 @@ originally based on: "carbon"
 							<animation property="rotation" to="0" begin="" duration="" mode="Linear"/>
 						</storyboard>
 					</image>
+					
+					<text name="gamename">
+						<text>{game:name}</text>
+						<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
+						<color>FFFFFF</color>
+						<alignment>center</alignment>
+						<fontSize>0.016</fontSize>
+						<lineSpacing>1</lineSpacing>
+						<size>0.75 0.5</size>
+						<origin>0.5 0.6</origin>
+						<pos>0.5 1</pos>
+						<glowColor>00000066</glowColor>
+						<glowSize>2</glowSize>
+						<zIndex>400</zIndex>
+						<multiLine>true</multiLine>
+						<!-- <singleLineScroll>true</singleLineScroll> -->
+					</text>
+				
 				</container>
 			</itemTemplate>
 	  

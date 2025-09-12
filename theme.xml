@@ -78,6 +78,7 @@ originally based on: "carbon"
 	<bigboxesview>Boxes - Big Size</bigboxesview>
 	<mediumboxesview>Boxes - Medium Size</mediumboxesview>
 	<smallboxesview>Boxes - Small Size</smallboxesview>
+	<gameNameboxesview>Boxes - With game Name</gameNameboxesview>
 	<user.help>Help for custom logo and nickname</user.help>
 	<subset.frameColor>Frame Color</subset.frameColor>	
 	<subset.infoColor>Text and Data Color</subset.infoColor>	
@@ -824,6 +825,7 @@ originally based on: "carbon"
 	<include>./config/gamelist/boxes_big.xml</include>
 	<include>./config/gamelist/boxes_medium.xml</include>
 	<include>./config/gamelist/boxes_small.xml</include>
+	<include>./config/gamelist/boxes_gameName.xml</include>
 
 
 	<!-- Specific layout for systems -->

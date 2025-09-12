@@ -1,3 +1,8 @@
+## V 2.33 - (12 09 2025)
+- Add a boxes view with the game name
+- new default boxes (Boxart Missing) in 2D/3D
+- figurines adjustment
+
 ## V 2.32 - (04 09 2025)
 - fix screen layout bugs (thanks to Patrix91 for the feedback)
 
