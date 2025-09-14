@@ -1,5 +1,9 @@
+## V 2.34 - (14 09 2025)
+- add pspminis (custom system)
+- fix gamecarousel layouts for 4k resolution
+
 ## V 2.33 - (12 09 2025)
-- Add a boxes view with the game name
+- add a boxes view with the game name
 - new default boxes (Boxart Missing) in 2D/3D
 - figurines adjustment
 
