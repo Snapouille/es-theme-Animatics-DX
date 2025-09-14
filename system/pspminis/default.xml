@@ -1,0 +1,36 @@
+<!-- pspminis  -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.45 0.5</pos>	
+			<scale>1.1</scale>
+			  <storyboard>
+				<animation property="offsetX" to="0.05" begin="" duration="2500" mode="EaseInOut"/>
+				<animation property="scale" to="1" begin="" duration="15000" autoreverse="true" repeat="forever" mode="Linear"/>
+			  </storyboard>
+		</image>
+	
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>-0.07 0.64</pos>
+			<scale>1.3</scale>
+			<path>./avatar.png</path>
+			<flipX>false</flipX>
+			<zIndex>110</zIndex>
+
+			<storyboard repeatAt="2000">
+				<animation property="offsetX" to="0.6" begin="100" duration="500" mode="EaseOut"/>
+			</storyboard>
+		</image>
+		
+	</view>
+
+</theme>
+
+
