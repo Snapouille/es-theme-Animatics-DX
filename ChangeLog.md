@@ -1,3 +1,6 @@
+## V 2.35 - (15 09 2025)
+- fix publisher name casing for Batocera
+
 ## V 2.34 - (14 09 2025)
 - add pspminis (custom system)
 - fix gamecarousel layouts for 4k resolution

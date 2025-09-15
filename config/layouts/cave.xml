@@ -8,14 +8,14 @@
 		<size>0.3255208 0.6342593</size>									
 		<pos>0.5132813 0.6197222</pos>									
 		<pos ifHelpPrompts="false">0.5132813 0.6897222</pos>
-		<zIndex>80</zIndex> 
+		<zIndex>31</zIndex>
 	</image>
   
-  
 	
-		<video name="md_video">
-			<visible>false</visible>
-		</video>
+	<!-- je décale en dehors de l'écran car il s'affichait toujours, même avec un visible=false ... -->
+	<video name="md_video">
+		<pos>-2 -1</pos>
+	</video>
 		
 		
 		<image name="game_imagepreview" extra="true">
@@ -84,20 +84,13 @@
   
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>
 		<size>0.1828125 0.2509259</size>																
 		<pos>0.5132813 0.6725</pos>		
 		<pos ifHelpPrompts="false">0.5132813 0.7425</pos>
-	</image>
-	
-	
-	<!-- MARQUEE SUR LE BARTOP NOIR -->
-	<image name="marquee_bartop" extra="true">
-		<path>./../../art/logos/${system.theme}.png</path>
-		<origin>0.5 0.5</origin>
-		<maxSize>0.25 0.10</maxSize>									
-		<pos>0.5122396 0.3891667</pos>
-		<pos ifHelpPrompts="false">0.5122396 0.4591667</pos>									
-		<zIndex>81</zIndex>
+		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
 			</storyboard>
@@ -112,6 +105,26 @@
 	</image>
 	
 	
+	<!-- MARQUEE SUR LE BARTOP NOIR -->
+	<image name="marquee_bartop" extra="true">
+		<path>./../../art/logos/${system.theme}.png</path>
+		<origin>0.5 0.5</origin>
+		<maxSize>0.25 0.10</maxSize>									
+		<pos>0.5122396 0.3891667</pos>
+		<pos ifHelpPrompts="false">0.5122396 0.4591667</pos>									
+		<zIndex>33</zIndex>
+			<storyboard event="open">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
 </view>
 
 

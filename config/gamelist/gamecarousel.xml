@@ -8,10 +8,10 @@ originally based on: "carbon"
 <formatVersion>7</formatVersion>
 
 <variables>
-	<!-- variable servant à récupérer la family du jeu 
-	     afin de pouvoir la traiter en minuscule lors de l'affichage des figurines -->
+	<!-- variable servant à récupérer le binding afin de pouvoir la traiter en minuscule pour éviter les problèmes de CASSE -->
     <fig_name>{game:name}</fig_name>
     <fig_family>{game:family}</fig_family>
+    <game_publi>{game:publisher}</game_publi>
 </variables>
 
    
@@ -526,7 +526,8 @@ originally based on: "carbon"
 </text>
 
 <image name="publisher_logo" extra="static">
-	<path>"${themePath}/art/publisher/" + stem({game:publisher}) + ".png"</path>
+	<!-- on recupère la variable du publisher qu'on force en minuscule pour éviter les problèmes de CASSE -->
+	<path>"${themePath}/art/publisher/" + lower(${game_publi}) + ".png"</path>
 	<origin>0.5 0.5</origin>									
 	<pos>0.096875 0.1467593</pos>									
 	<maxSize>0.0822917 0.0564815</maxSize>									
