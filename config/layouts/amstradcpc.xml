@@ -4,7 +4,7 @@
 
 	<image name="figurines" extra="true">
 		<pos>0.32 0.61</pos>									
-		<pos ifHelpPrompts="false">0.32 0.65</pos>
+		<pos ifHelpPrompts="false">0.32 0.663</pos>
 	</image>
 
 	<image name="ecran_console" extra="static">

@@ -1,3 +1,7 @@
+## V 2.36 - (17 09 2025)
+- bug fix publisher default text for Batocera
+- add new publishers logo
+
 ## V 2.35 - (15 09 2025)
 - fix publisher name casing for Batocera
 

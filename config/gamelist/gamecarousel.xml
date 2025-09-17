@@ -549,11 +549,11 @@ originally based on: "carbon"
 	
 <!-- on affiche le publisher en texte si on trouve pas de logo -->
 <text name="publisher_text" extra="true">
-	<visible>!exists("${themePath}/art/publisher/" + {game:publisher} + ".png")</visible> 
+	<visible>!exists("${themePath}/art/publisher/" + lower({game:publisher}) + ".png")</visible> 
 	<text>{game:publisher}</text>
 	<origin>0.5 0.5</origin>									
 	<size>0.0994792 0.0527778</size>									
-	<pos>0.0950521 0.149537</pos>									
+	<pos>0.0950521 0.155</pos>									
 	<color>${dataColor}</color>
 	<alignment>center</alignment>
 	<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
@@ -573,7 +573,6 @@ originally based on: "carbon"
 		<animation property="opacity" to="0" duration="1" mode="linear"/>
 	</storyboard>
 </text>	
-
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
 <!--   STYLE DE BUREAU     -->
