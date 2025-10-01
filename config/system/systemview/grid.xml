@@ -31,12 +31,6 @@
 			<visible>false</visible>
 		</image>	
 	
-
-
-
-	
-		
-	
 	
 	<!-- AFFICHAGE DE L'IMAGE DU CONTROLLER -->
 	<!-- <image name="controllers" extra="true"> -->
@@ -50,16 +44,6 @@
       <!-- <path>firstfile("${themePath}/art/controllers2/" + {system:theme} + ".svg","${themePath}/art/controllers2/" + {system:theme} + ".png")</path> -->
     <!-- </image> -->
 	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
 
 	<imagegrid name="imagegrid">
 		<zIndex>20</zIndex>
@@ -249,8 +233,6 @@
 	</text>
 		
 		
-		
-		
 	<!-- si on Affichage toutes les stats avec animation (Nombre de jeux, jeux joués, favoris et 2ème ligne jeu le plus joué)	 -->
     <text name="systemInfoEx, systemInfoEx2,systemInfoExNull" ifSubset="InfoCustomView:detailed" extra="true">
 		<fontPath>./../../../art/fonts/charge-vector.otf</fontPath>
@@ -264,8 +246,6 @@
 		<visible>true</visible>  
 		<multiLine>false</multiLine>
 	</text>
-		
-		
 		
 		
 	  <text name="systemInfoEx" ifSubset="InfoCustomView:detailed" extra="static">
@@ -287,56 +267,22 @@
 
       <control name="systemInfoEx">
          <storyboard repeat="forever">
-            <animation property="opacity" from="1" to="0" begin="2000" duration="350" mode="easeOut" />
-            <animation property="offsetY" to="-0.02" begin="2000" duration="350" mode="easeOut" />
-            <animation property="opacity" from="0" to="1" begin="5000" duration="350" mode="easeIn" />
-            <animation property="offsetY" to="0" begin="5000" duration="350" mode="easeOut" />
+            <animation property="opacity" from="1" to="0" begin="3000" duration="350" mode="easeOut" />
+            <animation property="offsetY" to="-0.02" begin="3000" duration="350" mode="easeOut" />
+            <animation property="opacity" from="0" to="1" begin="6000" duration="350" mode="easeIn" />
+            <animation property="offsetY" to="0" begin="6000" duration="350" mode="easeOut" />
          </storyboard>
       </control>
 
       <control name="systemInfoEx2">
          <storyboard repeat="forever">
-            <animation property="opacity" from="0" to="1" begin="2000" duration="350" mode="easeIn" />
-            <animation property="offsetY" from="0.02" begin="2000" duration="350" mode="easeOut" />
-            <animation property="opacity" from="1" to="0" begin="5000" duration="350" mode="easeOut" />
-            <animation property="offsetY" to="0.02" begin="5000" duration="350" mode="easeIn" />
+            <animation property="opacity" from="0" to="1" begin="3000" duration="350" mode="easeIn" />
+            <animation property="offsetY" from="0.02" begin="3000" duration="350" mode="easeOut" />
+            <animation property="opacity" from="1" to="0" begin="6000" duration="350" mode="easeOut" />
+            <animation property="offsetY" to="0.02" begin="6000" duration="350" mode="easeIn" />
          </storyboard>
       </control>
 		
-		
-		
-		
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
-
-
-
 
 	<image name="right_BottomFrame" extra="true">
 		<visible ifHelpPrompts="false">false</visible>
@@ -344,7 +290,5 @@
 
 
 	</view>
-	
-	
 	
 </theme>

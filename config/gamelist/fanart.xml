@@ -17,14 +17,63 @@ originally based on: "carbon"
 	<image name="diagobase1, diagobase2, diagobase3, diagobase4, diagobase5, diagoyellow1, diagoyellow2, diagoyellow3, diagoyellow4, diagoyellow5">
 			<visible>false</visible>
 	</image>
+	
 	<image name="desc_cadre_gauche, desc_cadre_droit, desc_cadre_haut, desc_cadre_bas">
 			<visible>false</visible>
 	</image>
 	
-	
-	<image name="mini" ifSubset="figurineDisplay:Show" extra="true">
-		<pos>0.7 0.52</pos>									
+	<!-- on masque les figurines de la vue de base gamecarousel car il y a trop de de spécificité -->
+	<image name="figurines" extra="true">
+		<visible>false</visible>
 	</image>
+	
+	
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~ AFFICHAGE DES FIGURINES ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<image name="figurines_fanart" extra="true">
+	<origin>0.5 0.5</origin>
+		<pos>0.7 0.52</pos>									
+	<!-- <pos ifHelpPrompts="false">0.3 0.84</pos> -->
+	<maxSize>0.11 0.25</maxSize>	
+	<verticalAlignment>bottom</verticalAlignment>
+	<color>FFFFFF</color>
+	<zIndex>40</zIndex>
+</image>
+
+<!-- figurines systemes incluses dans le thème -->
+<image name="figurines_fanart" ifSubset="figurineDisplay:systemOnly">
+	<path>"${themePath}/art/figurines/" + {game:system:theme} + ".png"</path>
+</image>
+
+<!-- on recherche uniquement dans les Add-on, en premier par nom du jeu puis par famille -->
+<image name="figurines_fanart" ifSubset="figurineDisplay:addonOnly">
+	<path>firstfile(
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png")
+	</path>
+</image>
+
+<!-- on recherche en premier par nom du jeu puis par famille puis figurines par défaut si on trouve rien -->
+<image name="figurines_fanart" ifSubset="figurineDisplay:addonOrSystem">
+	<path>firstfile(
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
+		"${themePath}/art/figurines/" + {game:system:theme} + ".png")
+	</path>
+</image>
+
+<image name="figurines_fanart" ifSubset="figurineDisplay:none">
+	<visible>false</visible>
+</image>
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
 
 	<text name="WhatSystemGAME" extra="true">
 		<!-- <pos>0.70 0.027</pos> -->
@@ -52,12 +101,12 @@ originally based on: "carbon"
 	<gamecarousel name="gamecarousel">
             <type>horizontal</type>
             <origin>0 0</origin>
-            <pos>0.41 0.18</pos>
-            <size>0.61 2</size>
+            <pos>0.41 0.3</pos>
+            <size>0.71 1</size>
             <backgroundColor>333333</backgroundColor>
-            <logoScale>2.66</logoScale>
+            <logoScale>2</logoScale>
             <logoSize>0.08 0.4</logoSize>
-            <maxLogoCount>6.6</maxLogoCount>
+            <maxLogoCount>8</maxLogoCount>
             <logoRotation>0</logoRotation>
             <logoRotationOrigin>1 1</logoRotationOrigin>
             <logoAlignment>bottom</logoAlignment>
@@ -104,7 +153,7 @@ originally based on: "carbon"
     </image>
 
 	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
-		<pos>0.7175 0.175</pos>	
+		<pos>0.7 0.175</pos>	
 		<storyboard event="open">
 		<zIndex>30</zIndex>		
 			<animation property="opacity" to="1" begin="1600" duration="1" mode="linear"/>
@@ -154,7 +203,7 @@ originally based on: "carbon"
 								   {system.theme} == 'windows' || 
 								   {system.theme} == 'xbox' || 
 								   {system.theme} == 'xbox360' " extra="true">
-		<pos>0.7175 0.19</pos>	
+		<pos>0.7 0.19</pos>	
 		<maxSize>0.295 0.295</maxSize>
 		<zIndex>30</zIndex>
 		<!-- <scale>0.90</scale> -->
@@ -403,13 +452,13 @@ originally based on: "carbon"
 			<!-- <zIndex>100</zIndex> -->
 			<pos>0.03 0.67</pos>
 			<storyboard event="open">
-				<animation property="size" from="0.35 0" to="0.35 0.278" duration="600" mode="linear" />
+				<animation property="size" from="0.35 0" to="0.35 0.272" duration="600" mode="linear" />
 			</storyboard>
 			<storyboard event="activateNext">        
-				<animation property="size" from="0.35 0" to="0.35 0.278" duration="600" mode="linear" />
+				<animation property="size" from="0.35 0" to="0.35 0.272" duration="600" mode="linear" />
 			</storyboard>
 			<storyboard event="activatePrev">        
-				<animation property="size" from="0.35 0" to="0.35 0.278" duration="600" mode="linear" />
+				<animation property="size" from="0.35 0" to="0.35 0.272" duration="600" mode="linear" />
 			</storyboard>      
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0"  mode="linear"/>

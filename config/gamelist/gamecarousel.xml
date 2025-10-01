@@ -529,18 +529,18 @@ originally based on: "carbon"
 	<!-- on recupère la variable du publisher qu'on force en minuscule pour éviter les problèmes de CASSE -->
 	<path>"${themePath}/art/publisher/" + lower(${game_publi}) + ".png"</path>
 	<origin>0.5 0.5</origin>									
-	<pos>0.096875 0.1467593</pos>									
+	<pos>0.096875 0.153</pos>									
 	<maxSize>0.0822917 0.0564815</maxSize>									
 	<color>FFFFFF</color>
 	<zIndex>8</zIndex>
 	<verticalAlignment>bottom</verticalAlignment>
 	<horizontalAlignment>right</horizontalAlignment>
-	<linearSmooth>true</linearSmooth>
+	<!-- <linearSmooth>true</linearSmooth> -->
 	<storyboard event="open">
-		<animation property="offsetY" to="-0.1" begin="150" duration="800" mode="easeOut"/>
+		<animation property="offsetY" to="-0.1" begin="150" duration="600" mode="easeOut"/>
 	</storyboard>
 	<storyboard event="activate">
-		<animation property="offsetY" to="-0.1" begin="150" duration="800" mode="easeOut"/>
+		<animation property="offsetY" to="-0.1" begin="150" duration="600" mode="easeOut"/>
 	</storyboard>
 	<storyboard event="deactivate">
 		<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -562,12 +562,12 @@ originally based on: "carbon"
 	<glowColor>00000066</glowColor>
 	<glowSize>2</glowSize>
 	<zIndex>8</zIndex>
-	<linearSmooth>true</linearSmooth>
+	<!-- <linearSmooth>true</linearSmooth> -->
 	<storyboard event="open">
-		<animation property="offsetY" to="-0.1" begin="150" duration="800" mode="easeOut"/>
+		<animation property="offsetY" to="-0.1" begin="150" duration="600" mode="easeOut"/>
 	</storyboard>
 	<storyboard event="activate">
-		<animation property="offsetY" to="-0.1" begin="150" duration="800" mode="easeOut"/>
+		<animation property="offsetY" to="-0.1" begin="150" duration="600" mode="easeOut"/>
 	</storyboard>
 	<storyboard event="deactivate">
 		<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -1053,8 +1053,9 @@ originally based on: "carbon"
 			<logoRotation ifSubset="wheelshape:vertical,logos.displayed:thirteen">-0.21</logoRotation>
 			
 			<!-- on force une valeur inférieur aux logos pour les quantités 9 et 13 du choix unified ou standard sinon ça glitch -->
-			<logoRotation ifSubset="logo.style:logounified|standard,logos.displayed:eleven">-0.29</logoRotation>
-			<logoRotation ifSubset="logo.style:logounified|standard,logos.displayed:thirteen">-0.28</logoRotation>
+			<!-- apparement c'est corrigé, donc on enlève -->
+			<!-- <logoRotation ifSubset="logo.style:logounified|standard,logos.displayed:eleven">-0.29</logoRotation> -->
+			<!-- <logoRotation ifSubset="logo.style:logounified|standard,logos.displayed:thirteen">-0.28</logoRotation> -->
 			
 			<minLogoOpacity ifSubset="logo.opacity:auto">0.6</minLogoOpacity>
 			<minLogoOpacity ifSubset="logo.opacity:0 %">0</minLogoOpacity>

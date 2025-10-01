@@ -1,3 +1,9 @@
+## V 2.37 - (01 10 2025)
+- bug fix gamecarousel view logo unified and standard
+- small fix in farnarts view
+- add new publishers logo
+- fix dark publisher logos (thanks to _bonbonboy)
+
 ## V 2.36 - (17 09 2025)
 - bug fix publisher default text for Batocera
 - add new publishers logo
@@ -33,12 +39,11 @@
 ## V 2.29 - (09 08 2025)
 - readjustment of the time in the bottom right-hand corner
 - add option to enable or disable background animation in gamelist views
-
-Gamecarousel View (BE CAREFUL, ALL IS A WORK IN PROGRESS):
 - add the option to display 3D box art
 - add new graphic options for the logo wheel
 - add desks to place TVs and computers
 - add figurine items
+- add publishers logo (thanks to Bob Morane)
 
 
 ## V 2.28 - (03 06 2025)
