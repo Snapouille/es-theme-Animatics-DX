@@ -173,6 +173,9 @@
 		<size if="{system.theme} == 'nds' ">0.2 0.495</size>									
 		<pos  if="{system.theme} == 'nds' ">0.175 0.3</pos>	
 		
+		<size if="{system.theme} == 'wasm4' ">0.2880208 0.512963</size>									
+		<pos  if="{system.theme} == 'wasm4' ">0.2549479 0.3305556</pos>	
+		
 		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.325 0.52</size>									
 		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.255 0.33</pos>	
 
@@ -224,6 +227,9 @@
 		
 		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.307 0.52</size>									
 		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.255 0.33</pos>	
+		
+		<size if="{system.theme} == 'wasm4' ">0.2880208 0.512963</size>									
+		<pos  if="{system.theme} == 'wasm4' ">0.2549479 0.3305556</pos>	
 		
 		<size if="{system.theme} == 'pokemini'">0.38 0.45</size>									
 		<size if="{system.theme} == 'arduboy' ">0.3852083 0.343</size>	

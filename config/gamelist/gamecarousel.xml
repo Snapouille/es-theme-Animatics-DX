@@ -611,9 +611,12 @@ originally based on: "carbon"
 <image name="bureau" if="{system.theme} == 'amstradcpc' 
 					|| 	 {system.theme} == 'amiga500' 
 					|| 	 {system.theme} == 'amiga1200' 
+					|| 	 {system.theme} == 'amiga4000' 
 					|| 	 {system.theme} == 'atari8bit' 
 					|| 	 {system.theme} == 'atari800' 
 					|| 	 {system.theme} == 'atari5200' 
+					|| 	 {system.theme} == 'bbcmicro' 
+					|| 	 {system.theme} == 'electron' 
 					|| 	 {system.theme} == 'msx1' 
 					|| 	 {system.theme} == 'msx' 
 					|| 	 {system.theme} == 'camplynx' 
@@ -1973,6 +1976,7 @@ originally based on: "carbon"
 			|| {system.theme} == 'msxturbor' 
 			|| {system.theme} == 'supervision' 
 			|| {system.theme} == 'vectrex' 
+			|| {system.theme} == 'wasm4' 
 			|| {system.theme} == 'x1'
 			">	
 

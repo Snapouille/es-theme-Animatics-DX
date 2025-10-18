@@ -1,3 +1,14 @@
+## V 2.38 - (18 10 2025)
+- Add Namco 357/369 system
+- Update MegaDrive PNG with shadow
+- Add TI/99 computer to Game Carousel and Legendary views
+- Add BBC Micro computer to Game Carousel and Legendary views
+- Add Acorn Electron computer to Game Carousel and Legendary views
+- Add Amiga4000 computer to Game Carousel and Legendary views
+- Add Colecovison ADAM computer to Game Carousel and Legendary views
+- Add WASM4 fantasy console to Game Carousel and Legendary views
+- Add new publishers logo
+  
 ## V 2.37 - (01 10 2025)
 - bug fix gamecarousel view logo unified and standard
 - small fix in farnarts view

@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The System 357 is a PlayStation 3-based arcade system designed for arcades, created by Japanese company Namco Bandai Games in 2007. The System 369 (sometimes called System 359) is an evolution of the System 357. The specifications are the same as those of the PlayStation 3 Slim, but the chassis is smaller and generates less heat. Only one game uses this arcade system: Tekken Tag Tournament 2.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le System 357 est un système d'arcade basé sur la PlayStation 3 destiné aux salles d'arcade, créé par la société japonaise Namco Bandai Games en 2007. Le System 369 (parfois appelé System 359) est une évolution du System 357. Les spécifications sont les mêmes que celles de la Playstation 3 Slim, en outre le châssis est plus petit et dégage moins de chaleur. Un seul jeu utilise ce système d'arcade: Tekken Tag Tournament 2.</text>
+</text>
+
+</view>
+</theme>

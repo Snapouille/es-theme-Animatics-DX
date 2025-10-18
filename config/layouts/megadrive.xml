@@ -6,6 +6,13 @@
 
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
+		<size>0.2260417 0.1722222</size>									
+		<pos>0.681 0.835</pos>	
+		<pos ifHelpPrompts="false">0.681 0.885</pos>
+    </image>
+	
+	<image name="Consoles2" extra="static">
+		<visible>true</visible>
 		<size>0.2208333 0.2203704</size>									
 		<pos>0.67 0.82</pos>	
 		<pos ifHelpPrompts="false">0.67 0.87</pos>

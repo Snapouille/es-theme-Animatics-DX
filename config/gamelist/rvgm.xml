@@ -59,6 +59,9 @@
 
 		<size if="{system.theme} == 'arduboy' ">0.334375 0.298</size>	
 		<pos  if="{system.theme} == 'arduboy' ">0.53 0.45</pos>		
+
+		<size if="{system.theme} == 'wasm4' ">0.2296875 0.4074074</size>	
+		<pos  if="{system.theme} == 'wasm4' ">0.5299479 0.45</pos>		
 		
 		<!-- <size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.3237847 0.3703704</size>	 -->
 		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.3125 0.3703704</size>	
@@ -100,6 +103,9 @@
 		
 		<size if="{system.theme} == 'arduboy' ">0.334375 0.298</size>	
 		<pos  if="{system.theme} == 'arduboy' ">0.53 0.45</pos>		
+
+		<size if="{system.theme} == 'wasm4' ">0.2296875 0.4074074</size>	
+		<pos  if="{system.theme} == 'wasm4' ">0.5299479 0.45</pos>		
 		
 		<!-- <size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.3237847 0.3703704</size> -->
 		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.3125 0.3703704</size>	

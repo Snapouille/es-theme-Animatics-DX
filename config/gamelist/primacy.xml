@@ -196,6 +196,9 @@
 		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>	
 		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>	
 
+		<size if="{system.theme} == 'wasm4' ">0.1661458 0.2944444</size>	
+		<pos  if="{system.theme} == 'wasm4' ">0.8966146 0.4231481</pos>	
+
 		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.1942708 0.2222222</size>	
 		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8830729 0.4231481</pos>	
 		
@@ -243,8 +246,11 @@
 		<size if="{system.theme} == 'auto-verticalarcade' ">0.144 0.3</size>									
 		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.9077 0.423</pos>	
 
-		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>		
+		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>	
 		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>	
+
+		<size if="{system.theme} == 'wasm4' ">0.1661458 0.2944444</size>	
+		<pos  if="{system.theme} == 'wasm4' ">0.8966146 0.4231481</pos>	
 
 		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.1942708 0.2222222</size>	
 		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8830729 0.4231481</pos>	

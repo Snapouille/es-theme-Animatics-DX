@@ -343,22 +343,6 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	<text name="md_description">
 		<pos>0.70 0.825</pos>
 		<!-- Description avec seulement 6 lignes à cause de la taille de l'écran console -->
@@ -374,6 +358,7 @@
 		<pos if="{system.theme} == '3ds' ">0.763 0.323</pos>
 		<pos if="{system.theme} == 'gamepock' ">0.757 0.265</pos>
 		<pos if="{system.theme} == 'gmaster' ">0.7457813 0.35</pos>
+		<pos if="{system.theme} == 'wasm4' ">0.58 0.78</pos>
 	</text>
 	
 	
