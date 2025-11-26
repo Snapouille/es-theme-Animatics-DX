@@ -25,8 +25,8 @@ Features :
 ![2024-07-29 10_04_20-Window](https://github.com/user-attachments/assets/fc7b5df4-4c91-4b8a-b7e0-e47e20b1670c)  
 
 ## System View Figurines
-
-
+<img width="1920" height="1080" alt="2025-11-26 11_09_58-EmulationStation" src="https://github.com/user-attachments/assets/26d395be-17a4-438e-bd86-52e9f14adfd2" />  
+  
 ## System View Vertical
 | Without system description  | With system description |
 | ------------- | ------------- |
