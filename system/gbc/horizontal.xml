@@ -1,0 +1,111 @@
+<!-- Game Boy Color -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+    <image name="BG_snapLegacy" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.58125 0.6509259</size>									
+		<pos>0.3177083 0.3856481</pos>	
+    </image>
+	
+		<image name="wagon" extra="true">
+			<origin>0 0</origin>
+			<pos>-0.05 0.53</pos>
+			<size>0.4166667 0.7777778</size>
+			
+			
+			<rotation>-32</rotation>
+			<opacity>0</opacity>
+			<path>./wagon.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>1910</zIndex>
+			
+		
+			<storyboard repeat="forever">
+				
+				<animation property="rotation" to="-32" begin="" duration="10" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="300" duration="" mode="linear"/>
+				
+				<animation property="x" to="0.05" begin="300" duration="1100" mode="linear"/>
+				<animation property="y" to="0.245" begin="300" duration="1100" mode="linear"/>
+				<animation property="scale" from="0.25" to="0.35" begin="300" duration="1100" mode="linear"/>
+				<animation property="rotation" from="-32" to="-30" begin="600" duration="500" mode="linear"/>
+				<animation property="rotation" from="-30" to="-20" begin="1100" duration="1300" mode="linear"/>
+				
+				<animation property="x" to="0.33" begin="1400" duration="2100" mode="easeIn"/>
+				<animation property="y" to="-0.01" begin="1400" duration="2100" mode="bump"/>
+				<animation property="scale" to="0.7" begin="1400" duration="2100" mode="easeOut"/>
+				<animation property="rotation" from="-20" to="0" begin="2400" duration="1100" mode="linear"/>
+		
+				<animation property="x" to="0.37" begin="3500" duration="10000" mode="linear"/>
+				<animation property="y" to="-0.01" begin="3500" duration="10000" mode="bump"/>
+				<animation property="scale" to="0.72" begin="3500" duration="10000" mode="linear"/>
+				
+				<animation property="y" to="1" begin="13500" duration="200" mode="linear"/>
+				
+				<animation property="opacity" from="0" to="0" begin="25000" duration="500" mode="linear"/>
+			</storyboard>
+		
+		</image>
+			
+	
+		<image name="parrot" extra="true">
+			<origin>0 0</origin>
+			<pos>0.25 -1</pos>
+			<size>0.05 0.125</size>	
+			
+			<opacity>1</opacity>
+			<path>./parrot.gif</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>190</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="y" from="-1" to="0.14" 	begin="8000" duration="3000" mode="linear"/>
+				<animation property="rotation" to="3"		 	begin="10000" autoreverse="true" duration="650" repeat="14" mode="linear"/>
+				<animation property="y" from="0.14" to="0.15"	begin="10800" autoreverse="true" duration="400" repeat="11" mode="EaseOut"/>
+				
+	
+				<animation property="scale" to="2" 			begin="20000" duration="2500" mode="linear"/>
+				<animation property="x" to="-0.1" 			begin="20000" duration="2500" mode="linear"/>
+				<animation property="y" to="-0.5" 			begin="20000" duration="2500" mode="linear"/>
+				
+				<animation property="opacity" to="0" 		begin="25000" duration="10" mode="linear"/>
+				
+			</storyboard>
+			
+		</image>
+		
+		
+		
+		
+		
+			
+		
+		<image name="chute" extra="true">
+			<origin>0 0</origin>
+			<pos>0.41 -0.35</pos>
+			<size>0.35 1</size>
+
+			<opacity>0</opacity>
+			<path>./chute.png</path>
+			<zIndex>17</zIndex>
+		
+			<storyboard repeat="forever">
+				
+				<animation property="opacity" from="0" to="1" begin="13500" duration="10" mode="linear"/>
+				<animation property="y" to="1" begin="13500" duration="200" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="13690" duration="10" mode="linear"/>
+				
+				<animation property="opacity" from="0" to="0" begin="25000" duration="500" mode="linear"/>
+			</storyboard>
+		
+		</image>
+		
+		
+		
+	</view>
+
+</theme>

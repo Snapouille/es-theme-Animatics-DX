@@ -1,0 +1,85 @@
+<!-- Arduboy -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			  <storyboard>
+			  
+					<!-- <animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/> -->
+					
+					<animation property="scale" to="1.3" begin="" duration="1" mode="linear"/>
+					<animation property="scale" to="1.1" begin="10" duration="500" mode="linear"/>
+					
+					<animation property="scale" to="1.13" begin="1000" autoreverse="true" repeat="4" duration="50" mode="linear"/>
+					
+			  </storyboard>
+		</image>
+		
+		
+
+		<image name="avatar1" extra="static">
+			<origin>0.5 0.5</origin>	
+			<size>0.253125 0.4268519</size>									
+			<pos>0.17 0.51</pos>	
+			<scale>0.4</scale>
+			<linearSmooth>true</linearSmooth>
+			<path>./avatar1.png</path>
+			<zIndex>20</zIndex>			
+			<storyboard>
+				
+				<animation property="x" to="0.33" begin="" duration="1000" mode="bump"/>
+				<animation property="rotation" to="15" begin="100" duration="900" mode="linear"/>
+				
+        		<animation property="x" to="0.5" begin="1000" duration="800" mode="EaseInOut"/>
+				<animation property="scale" to="1.1" begin="1000" duration="800" mode="Bump"/>
+        		<animation property="y" to="0.5" begin="1000" duration="1000" mode="EaseInOut"/>
+				
+				<animation property="rotation" to="0" begin="1000" duration="700" mode="linear"/>
+				<animation property="opacity" to="0" begin="1500" duration="10" mode="linear"/>
+				
+			</storyboard>					
+
+		</image>
+		
+		<image name="avatar2" extra="static">
+			<origin>0.5 0.5</origin>	
+			<size>0.253125 0.4268519</size>									
+			<pos>0.17 0.59</pos>	
+			<scale>0.4</scale>
+			<linearSmooth>true</linearSmooth>	
+			<path>./avatar2.png</path>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+			<storyboard>
+			
+				<animation property="x" to="0.33" begin="" duration="1000" mode="bump"/>
+				<animation property="rotation" to="15" begin="100" duration="900" mode="linear"/>
+				
+        		<animation property="x" to="0.5" begin="1000" duration="800" mode="EaseInOut"/>
+				<animation property="scale" to="1.1" begin="1000" duration="800" mode="Bump"/>
+        		<animation property="y" to="0.5" begin="1000" duration="1000" mode="EaseInOut"/>
+				
+				<animation property="rotation" to="0" begin="1000" duration="700" mode="linear"/>
+				<animation property="opacity" to="1" begin="1500" duration="10" mode="linear"/>
+				
+				<animation property="saturation" to="0" begin="1200" duration="25" autoreverse="true" repeat="8" mode="linear"/>
+				
+				<animation property="rotation" to="-10" begin="1800" duration="125" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="1.2" begin="1800" duration="125" autoreverse="true" mode="linear"/>
+				<animation property="x" to="0.4" begin="1800" duration="125" autoreverse="true" mode="linear"/>
+				<animation property="y" to="0.45" begin="1800" duration="50" mode="linear"/>
+				<animation property="y" to="0.50" begin="1850" duration="200" mode="bump"/>
+				
+				
+				
+				
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>

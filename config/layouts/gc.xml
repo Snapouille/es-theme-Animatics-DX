@@ -14,21 +14,21 @@
 	<image name="ecran_console" extra="static">
 		<path>./../../art/screen/trinitron.png</path>
 		<size>0.3223958 0.4472222</size>									
-		<pos>0.4518229 0.6384259</pos>	
-		<pos ifHelpPrompts="false">0.4518229 0.6684259</pos>
+		<pos>0.4618229 0.6384259</pos>	
+		<pos ifHelpPrompts="false">0.4618229 0.6684259</pos>
 	</image>
 	
 	<video name="md_video">
-		<pos>0.4523438 0.6342593</pos>	
-		<pos ifHelpPrompts="false">0.4523438 0.6642593</pos>
+		<pos>0.4623438 0.6342593</pos>	
+		<pos ifHelpPrompts="false">0.4623438 0.6642593</pos>
 		<size>0.2682292 0.3537037</size>									
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
 		<size>0.2682292 0.3537037</size>									
-		<pos>0.4523438 0.6342593</pos>	
-		<pos ifHelpPrompts="false">0.4523438 0.6642593</pos>
+		<pos>0.4623438 0.6342593</pos>	
+		<pos ifHelpPrompts="false">0.4623438 0.6642593</pos>
 	</image>
 	
 </view> 

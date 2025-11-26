@@ -1,0 +1,244 @@
+<!-- LCD Games -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+    <image name="BG_snapLegacy" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.58125 0.6509259</size>									
+		<pos>0.3177083 0.3856481</pos>	
+    </image>
+	
+		<image name="helico" extra="static">
+			<origin>0 0</origin>
+			<pos>0.465 0.07</pos>
+			<size>0.2473958 0.2564815</size>									
+
+			<scale>0.5</scale>
+			<zIndex>17</zIndex>
+			<opacity>0</opacity>
+			<path>./helico.png</path>
+		</image>
+	
+		<image name="gw1" extra="static">
+			<origin>0 0</origin>
+			<pos>0.45 0.14</pos>
+			<size>0.0671875 0.1398148</size>									
+
+			<scale>0.5</scale>
+			<zIndex>17</zIndex>
+			<opacity>0</opacity>
+			<path>./gw1.png</path>
+		</image>
+		
+		<image name="gw2" extra="static">
+			<origin>0 0</origin>
+			<pos>0.39 0.17</pos>
+			<size>0.1015625 0.2462963</size>									
+
+			<scale>0.5</scale>
+			<zIndex>17</zIndex>
+			<opacity>0</opacity>
+			<path>./gw2.png</path>
+		</image>
+		
+		<image name="gw3" extra="static">
+			<origin>0 0</origin>
+			<pos>0.32 0.27</pos>
+			<size>0.1104167 0.2361111</size>									
+
+			<rotation>10</rotation>
+			<scale>0.6</scale>
+			<zIndex>17</zIndex>
+			<opacity>0</opacity>
+			<path>./gw3.png</path>
+		</image>
+		
+		<image name="gw3bis" extra="static">
+			<origin>0 0</origin>
+			<pos>0.38 0.36</pos>
+			<size>0.1104167 0.2361111</size>									
+
+			<rotation>-10</rotation>
+			<scale>0.6</scale>
+			<zIndex>17</zIndex>
+			<opacity>0</opacity>
+			<path>./gw3.png</path>
+		</image>
+		
+		<image name="gw3bisbis" extra="static">
+			<origin>0 0</origin>
+			<pos>0.33 0.46</pos>
+			<size>0.1104167 0.2361111</size>									
+
+			<rotation>0</rotation>
+			<scale>0.6</scale>
+			<zIndex>17</zIndex>
+			<opacity>0</opacity>
+			<path>./gw3.png</path>
+		</image>
+		
+		
+		
+		
+		<image name="barque" extra="static">
+			<origin>0 0</origin>
+			<pos>0.28 0.5</pos>
+			<size>0.1770833 0.1916667</size>									
+
+			<scale>0.6</scale>
+			<zIndex>17</zIndex>
+			<opacity>0</opacity>
+			<path>./barque.png</path>
+		</image>
+		
+		
+		
+		<image name="aileron" extra="static">
+			<origin>0 0</origin>
+			<pos>0.45 0.63</pos>
+			<size>0.0453125 0.0685185</size>									
+
+			<scale>0.6</scale>
+			<zIndex>17</zIndex>
+			<opacity>0</opacity>
+			<path>./aileron.png</path>
+		</image>
+		
+		
+		
+		
+		
+		
+		<image name="helico" extra="true">
+			 <storyboard repeat="forever">
+			    <animation property="opacity" from="0" to="1" begin="0" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="20" duration="3000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="3020" duration="20" mode="linear"/>
+				<animation property="opacity" from="0" to="0" begin="3040" duration="4240" mode="linear"/>
+            </storyboard>		
+		</image>
+				
+		
+		<image name="gw1" extra="true">
+			 <storyboard repeat="forever">
+			    <animation property="opacity" from="0" to="1" begin="1020" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="1040" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="2040" duration="20" mode="linear"/>
+				<animation property="opacity" from="0" to="0" begin="2060" duration="5220" mode="linear"/>
+            </storyboard>		
+		</image>
+		
+		<image name="gw2" extra="true">
+			 <storyboard repeat="forever">
+			    <animation property="opacity" from="0" to="1" begin="2040" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="2060" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="3060" duration="20" mode="linear"/>
+				<animation property="opacity" from="0" to="0" begin="3080" duration="4200" mode="linear"/>
+            </storyboard>		
+		</image>	
+			
+		<image name="gw3" extra="true">
+			 <storyboard repeat="forever">
+			    <animation property="opacity" from="0" to="1" begin="3060" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="3080" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="4080" duration="20" mode="linear"/>
+				<animation property="opacity" from="0" to="0" begin="4100" duration="3180" mode="linear"/>
+            </storyboard>		
+		</image>	
+		
+		<image name="gw3bis" extra="true">
+			 <storyboard repeat="forever">
+			    <animation property="opacity" from="0" to="1" begin="4080" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="4100" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="5100" duration="20" mode="linear"/>
+				<animation property="opacity" from="0" to="0" begin="5120" duration="2160" mode="linear"/>
+            </storyboard>		
+		</image>	
+			
+		<image name="gw3bisbis" extra="true">
+			 <storyboard repeat="forever">
+			    <animation property="opacity" from="0" to="1" begin="5100" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="5120" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="6120" duration="20" mode="linear"/>
+				<animation property="opacity" from="0" to="0" begin="6140" duration="1140" mode="linear"/>
+            </storyboard>		
+		</image>		
+		
+		
+		<image name="barque" extra="true">
+			 <storyboard repeat="forever">
+			 
+			 
+				<animation property="opacity" from="0" to="1" begin="" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="20" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="1020" duration="20" mode="linear"/>
+				<animation property="x" to="0.18" begin="1040" duration="" mode="linear"/>
+			 
+				<animation property="opacity" from="0" to="1" begin="1040" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="1060" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="2060" duration="20" mode="linear"/>
+				<animation property="x" to="0.08" begin="2080" duration="" mode="linear"/>
+				
+				<animation property="opacity" from="0" to="1" begin="2080" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="2100" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="3100" duration="20" mode="linear"/>
+				<animation property="x" to="0.18" begin="3120" duration="" mode="linear"/>
+			
+				<animation property="opacity" from="0" to="1" begin="3120" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="3140" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="4140" duration="20" mode="linear"/>
+				<animation property="x" to="0.28" begin="4160" duration="" mode="linear"/>
+					
+				<animation property="opacity" from="0" to="1" begin="4160" duration="20" mode="linear"/>
+			    <animation property="opacity" from="0" to="1" begin="5200" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="5220" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="6220" duration="20" mode="linear"/>
+				<animation property="x" to="0.38" begin="6240" duration="" mode="linear"/>
+				
+				<animation property="opacity" from="0" to="1" begin="6240" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="6260" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="7260" duration="20" mode="linear"/>
+				<animation property="x" to="0.28" begin="7280" duration="" mode="linear"/>
+				
+				
+				
+            </storyboard>		
+		</image>
+		
+		
+		
+		<image name="aileron" extra="true">
+			 <storyboard repeat="forever">
+			 
+				<animation property="opacity" from="0" to="1" begin="10000" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="10020" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="11020" duration="20" mode="linear"/>
+				<animation property="x" to="0.35" begin="11040" duration="" mode="linear"/>
+			 
+				<animation property="opacity" from="0" to="1" begin="11040" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="11060" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="12060" duration="20" mode="linear"/>
+				<animation property="x" to="0.25" begin="12080" duration="" mode="linear"/>
+				
+				<animation property="opacity" from="0" to="1" begin="12080" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="12100" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="13100" duration="20" mode="linear"/>
+				<animation property="x" to="0.15" begin="13120" duration="" mode="linear"/>
+			
+				<animation property="opacity" from="0" to="1" begin="13120" duration="20" mode="linear"/>
+				<animation property="opacity" from="1" to="1" begin="13140" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="14140" duration="20" mode="linear"/>
+				<animation property="x" to="0.05" begin="14160" duration="" mode="linear"/>
+					
+				
+            </storyboard>		
+		</image>
+		
+		
+		
+	</view>
+
+</theme>

@@ -1,0 +1,196 @@
+<!-- Nintendo NES -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.5 0.5</pos>	
+			<saturation>0.7</saturation>
+			  <storyboard>
+				<animation property="saturation" to="1" begin="" duration="500" mode="linear"/>
+			  </storyboard>
+		</image>
+		
+		<image name="background-ground" extra="true">
+			<path>./background-ground.png</path>
+			<origin>0.5 0.5</origin>									
+			<size>1 0.812037</size>									
+			<pos>0.32 0.5</pos>									
+			<zIndex>10</zIndex>
+			<scale>0.7</scale>
+			<storyboard>
+				<animation property="scale" to="0.56" begin="" duration="700" mode="EaseOut"/>
+			</storyboard>	
+		</image>
+		
+		<image name="dog" extra="true">
+			<origin>0 0</origin>									
+			<pos>0.43 1.1</pos>
+			<size>0.1645833 0.5648148</size>									
+			<zIndex>20</zIndex>
+			<opacity>1</opacity>
+			<path>./dog.png</path>
+			<storyboard repeat="forever">
+				<animation property="offsetY" to="-0.85" begin="200" duration="700" mode="EaseOut"/>
+				<animation property="offsetY" to="0.85" begin="2500" duration="1000" mode="EaseIn"/>
+				
+				<animation property="offsetY" to="0.97" begin="35000" duration="10" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		
+		<image name="dogbis" extra="true">
+			<origin>0.5 0.5</origin>									
+			<pos>0.53 1.2</pos>
+			<size>0.1645833 0.5648148</size>									
+			<zIndex>9</zIndex>
+			<opacity>1</opacity>
+			<path>./dog.png</path>
+			<scale>0.35</scale>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" to="-0.71" 	begin="5700" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="0.71" 	begin="6700" duration="500" mode="EaseIn"/>
+
+				<animation property="scale" to="0.25" 		begin="7000" duration="1" mode="linear"/>
+				<animation property="offsetX" to="-0.1" 	begin="7000" duration="1" mode="linear"/>
+				<animation property="offsetY" to="-0.68" 	begin="7000" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="0.68" 	begin="8000" duration="500" mode="EaseIn"/>
+				
+				<animation property="scale" to="0.2" 		begin="8500" duration="1" mode="linear"/>
+				<animation property="offsetX" to="-0.05" 	begin="8500" duration="1" mode="linear"/>
+				<animation property="offsetY" to="-0.67" 	begin="8500" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="0.67" 	begin="9500" duration="500" mode="EaseIn"/>
+				
+				<animation property="scale" to="0.25" 		begin="20500" duration="1" mode="linear"/>
+				<animation property="offsetX" to="-0.1" 	begin="20500" duration="1" mode="linear"/>
+				<animation property="offsetY" to="-0.67" 	begin="20500" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="0.67" 	begin="21500" duration="500" mode="EaseIn"/>
+				
+				<animation property="offsetY" to="0.97" begin="35000" duration="10" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		<image name="dog_gif" extra="true">
+			<path>./dog_gif.gif</path>
+			<origin>0 0</origin>									
+			<pos>0.2 1.1</pos>
+			<size>0.1645833 0.5648148</size>									
+			<zIndex>13</zIndex>
+			<opacity>1</opacity>
+			<scale>0.95</scale>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" to="-0.75" begin="12200" duration="700" mode="EaseOut"/>
+				<animation property="offsetY" to="0.75" begin="15000" duration="1000" mode="EaseIn"/>
+				
+				<animation property="offsetY" to="0.97" begin="35000" duration="10" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		<image name="dog2" extra="true">
+			<origin>0 0</origin>									
+			<pos>0.475 1.1</pos>
+			<size>0.2098958 0.5648148</size>									
+			<zIndex>9</zIndex>
+			<opacity>1</opacity>
+			<path>./dog2.png</path>
+
+			<storyboard repeat="forever">
+				<animation property="scale" to="0.33" 	begin="22500" duration="1" mode="linear"/>
+				<animation property="offsetY" to="-0.71" begin="22500" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="0.71" 	begin="23500" duration="500" mode="EaseIn"/>
+				
+				<animation property="offsetY" to="0.97" begin="35000" duration="10" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		<image name="dog2bis" extra="true">
+			<origin>0 0</origin>									
+			<pos>0.45 1.1</pos>
+			<size>0.2098958 0.5648148</size>									
+			<zIndex>20</zIndex>
+			<opacity>1</opacity>
+			<path>./dog2.png</path>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" to="-0.81" 	begin="24500" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="0.81" 	begin="30000" duration="1000" mode="EaseIn"/>
+				
+				<animation property="offsetY" to="0.97" begin="35000" duration="10" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		<image name="bird" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>-1 0.2</pos>
+			<size>0.1395833 0.1944444</size>									
+			<path>./avatar2.gif</path>
+			<zIndex>9</zIndex>
+			<scale>0.5</scale>
+			
+			<storyboard repeat="forever">
+				<animation property="x" from="-0.2" to="0.8" 	begin="1500" duration="4500" mode="linear"/>
+				<animation property="rotation" to="1" 			begin="1500" duration="100" autoreverse="true" repeat="20" mode="linear"/>
+				<animation property="y" to="0.18" 				begin="1500" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.26" 				begin="2500" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.22" 				begin="3500" duration="500" mode="linear"/>	
+				<animation property="y" to="0.3" 				begin="4000" duration="1000" mode="EaseOut"/>	
+				<animation property="y" to="0.19" 				begin="5000" duration="1000" mode="linear"/>
+
+				<animation property="scale" to="0.4" 			begin="16000" duration="1" mode="linear"/>
+				<animation property="x" from="-0.2" to="0.5" 	begin="16500" duration="3500" mode="linear"/>
+				<animation property="rotation" to="1" 			begin="16500" duration="100" autoreverse="true" repeat="10" mode="linear"/>
+				<animation property="y" to="0.18" 				begin="16500" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.26" 				begin="17500" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.18" 				begin="18500" duration="500" mode="linear"/>	
+				<animation property="y" to="0.22" 				begin="19000" duration="1000" mode="EaseOut"/>
+				
+				<animation property="y" to="0.6" 				begin="20000" duration="400" mode="linear"/>
+				<animation property="scale" to="0.37" 			begin="20000" duration="100" mode="linear"/>
+				<animation property="rotation" to="250" 		begin="20000" duration="100" mode="bump"/>
+				<animation property="scale" to="0.25" 			begin="20100" duration="400" mode="linear"/>
+				
+				<animation property="y" to="0.15" begin="35000" duration="10" mode="linear"/>	
+			</storyboard>				
+		</image>
+		
+		
+		
+		
+		<image name="bird2" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>1.2 0.25</pos>
+			<size>0.1395833 0.1944444</size>									
+			<path>./avatar2.gif</path>
+			<scale>0.45</scale>
+			<flipX>true</flipX>
+			<zIndex>11</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" from="0.7" to="-0.2" 	begin="10000" duration="5500" mode="linear"/>
+				<animation property="rotation" to="1" 			begin="10000" duration="100" autoreverse="true" repeat="25" mode="linear"/>
+				<animation property="y" to="0.3" 				begin="10000" duration="1000" mode="Bump"/>
+				<animation property="y" to="0.15" 				begin="11000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="0.2" 				begin="12000" duration="500" mode="linear"/>	
+				<animation property="y" to="0.11" 				begin="12500" duration="1000" mode="EaseIn"/>	
+				<animation property="y" to="0.21" 				begin="13500" duration="1000" mode="linear"/>	
+				
+				<animation property="scale" to="0.35" 			begin="31000" duration="1" mode="linear"/>
+				<animation property="x" from="0.8" to="0.1" 	begin="31000" duration="4000" mode="linear"/>
+				<animation property="rotation" to="1" 			begin="31000" duration="100" autoreverse="true" repeat="9" mode="linear"/>
+				<animation property="y" to="0.3" 				begin="31000" duration="1000" mode="Bump"/>
+				<animation property="y" to="0.35" 				begin="32000" duration="1000" mode="EaseIn"/>
+				<animation property="y" to="-0.10" 				begin="33000" duration="2000" mode="EaseIn"/>
+				
+				<animation property="y" to="-0.3" begin="35000" duration="10" mode="linear"/>	
+			</storyboard>				
+		</image>
+		
+
+		
+	</view>
+</theme>

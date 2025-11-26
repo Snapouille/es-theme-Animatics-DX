@@ -11,6 +11,7 @@ originally based on: "carbon"
 	<!-- variable servant à récupérer le binding afin de pouvoir la traiter en minuscule pour éviter les problèmes de CASSE -->
     <fig_name>{game:name}</fig_name>
     <fig_family>{game:family}</fig_family>
+    <fig_genre>{game:genre}</fig_genre>
     <game_publi>{game:publisher}</game_publi>
 </variables>
 
@@ -527,7 +528,10 @@ originally based on: "carbon"
 
 <image name="publisher_logo" extra="static">
 	<!-- on recupère la variable du publisher qu'on force en minuscule pour éviter les problèmes de CASSE -->
-	<path>"${themePath}/art/publisher/" + lower(${game_publi}) + ".png"</path>
+	<path>firstfile(
+		"${themePath}/art/publisher/" + lower(${game_publi}) + ".png",
+		"${themePath}/art/publisher/" + lower(${game_publi}) + ".jpg")
+	</path>
 	<origin>0.5 0.5</origin>									
 	<pos>0.096875 0.153</pos>									
 	<maxSize>0.0822917 0.0564815</maxSize>									
@@ -535,7 +539,7 @@ originally based on: "carbon"
 	<zIndex>8</zIndex>
 	<verticalAlignment>bottom</verticalAlignment>
 	<horizontalAlignment>right</horizontalAlignment>
-	<!-- <linearSmooth>true</linearSmooth> -->
+	<linearSmooth>true</linearSmooth>
 	<storyboard event="open">
 		<animation property="offsetY" to="-0.1" begin="150" duration="600" mode="easeOut"/>
 	</storyboard>
@@ -787,23 +791,32 @@ originally based on: "carbon"
 </image>
 
 <!-- figurines systemes incluses dans le thème -->
+<!-- <image name="figurines" ifSubset="figurineDisplay:systemOnly"> -->
+	<!-- <path>"${themePath}/art/figurines/" + {game:system:theme} + ".png"</path> -->
+<!-- </image> -->
 <image name="figurines" ifSubset="figurineDisplay:systemOnly">
-	<path>"${themePath}/art/figurines/" + {game:system:theme} + ".png"</path>
-</image>
-
-<!-- on recherche uniquement dans les Add-on, en premier par nom du jeu puis par famille -->
-<image name="figurines" ifSubset="figurineDisplay:addonOnly">
 	<path>firstfile(
-		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
-		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png")
+	    "${themePath}/art/figurines/" + {game:system:theme} + "-default.png",
+	    "${themePath}/art/figurines/" + {game:system:theme} + ".png")
 	</path>
 </image>
 
-<!-- on recherche en premier par nom du jeu puis par famille puis figurines par défaut si on trouve rien -->
+<!-- on recherche uniquement dans les Add-on, en premier par nom du jeu puis par famille puis par genre -->
+<image name="figurines" ifSubset="figurineDisplay:addonOnly">
+	<path>firstfile(
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/genre/" + lower(${fig_genre}) + ".png")
+	</path>
+</image>
+
+<!-- on recherche en premier par nom du jeu puis par famille puis par genre puis la figurine par défaut si on trouve rien -->
 <image name="figurines" ifSubset="figurineDisplay:addonOrSystem">
 	<path>firstfile(
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/genre/" + lower(${fig_genre}) + ".png",
+	    "${themePath}/art/figurines/" + {game:system:theme} + "-default.png",
 		"${themePath}/art/figurines/" + {game:system:theme} + ".png")
 	</path>
 </image>
@@ -1020,55 +1033,55 @@ originally based on: "carbon"
 	
 	
 	
-		<gamecarousel name="gamecarousel">
-			<type>vertical_wheel</type>
-			<logoScale>1.2</logoScale>
-			<logoScale ifSubset="wheelshape:curved,logo.style:logounified">1.5</logoScale>
-			<logoSize>0.15 0.26</logoSize>
-			<color>00000000</color>
-			<maxLogoCount>15</maxLogoCount>
-			<logoAlignment>center</logoAlignment>
-			<imageSource>marquee</imageSource>
-			<defaultTransition>instant</defaultTransition>
-			<scrollSound>${themePath}/art/sounds/scroll.wav</scrollSound>
-			<zIndex>10</zIndex>
-			
-			<pos>0.45 0</pos>
-			<size>0.8 1</size>
-			<logoRotationOrigin>6 0.5</logoRotationOrigin>
-			
-			<logoRotation ifSubset="wheelshape:curved,logos.displayed:auto">-5.5</logoRotation>  
-			<logoRotation ifSubset="wheelshape:curved,logos.displayed:five">-9.5</logoRotation>  
-			<logoRotation ifSubset="wheelshape:curved,logos.displayed:seven">-6.5</logoRotation>
-			<logoRotation ifSubset="wheelshape:curved,logos.displayed:nine">-5.5</logoRotation>
-			<logoRotation ifSubset="wheelshape:curved,logos.displayed:eleven">-4.5</logoRotation>
-			<logoRotation ifSubset="wheelshape:curved,logos.displayed:thirteen">-3.5</logoRotation>
-			
-			<pos 				ifSubset="wheelshape:vertical">0.787 0</pos>
-			<logoRotationOrigin ifSubset="wheelshape:vertical">100 0</logoRotationOrigin>
-			<logoAlignment 		ifSubset="wheelshape:vertical">left</logoAlignment>	
-			
-			<logoRotation ifSubset="wheelshape:vertical,logos.displayed:auto">-0.38</logoRotation>
-			<logoRotation ifSubset="wheelshape:vertical,logos.displayed:five">-0.55</logoRotation>
-			<logoRotation ifSubset="wheelshape:vertical,logos.displayed:seven">-0.38</logoRotation>
-			<logoRotation ifSubset="wheelshape:vertical,logos.displayed:nine">-0.298</logoRotation>
-			<logoRotation ifSubset="wheelshape:vertical,logos.displayed:eleven">-0.245</logoRotation>
-			<logoRotation ifSubset="wheelshape:vertical,logos.displayed:thirteen">-0.21</logoRotation>
-			
-			<!-- on force une valeur inférieur aux logos pour les quantités 9 et 13 du choix unified ou standard sinon ça glitch -->
-			<!-- apparement c'est corrigé, donc on enlève -->
-			<!-- <logoRotation ifSubset="logo.style:logounified|standard,logos.displayed:eleven">-0.29</logoRotation> -->
-			<!-- <logoRotation ifSubset="logo.style:logounified|standard,logos.displayed:thirteen">-0.28</logoRotation> -->
-			
-			<minLogoOpacity ifSubset="logo.opacity:auto">0.6</minLogoOpacity>
-			<minLogoOpacity ifSubset="logo.opacity:0 %">0</minLogoOpacity>
-			<minLogoOpacity ifSubset="logo.opacity:20 %">0.2</minLogoOpacity>
-			<minLogoOpacity ifSubset="logo.opacity:40 %">0.4</minLogoOpacity>
-			<minLogoOpacity ifSubset="logo.opacity:60 %">0.6</minLogoOpacity>
-			<minLogoOpacity ifSubset="logo.opacity:80 %">0.8</minLogoOpacity>
-			<minLogoOpacity ifSubset="logo.opacity:100 %">1.0</minLogoOpacity>
-			
-		</gamecarousel>
+	<gamecarousel name="gamecarousel">
+		<type>vertical_wheel</type>
+		<logoScale>1.2</logoScale>
+		<logoScale ifSubset="wheelshape:curved,logo.style:logounified">1.5</logoScale>
+		<logoSize>0.15 0.26</logoSize>
+		<color>00000000</color>
+		<maxLogoCount>15</maxLogoCount>
+		<logoAlignment>center</logoAlignment>
+		<imageSource>marquee</imageSource>
+		<defaultTransition>instant</defaultTransition>
+		<scrollSound>${themePath}/art/sounds/scroll.wav</scrollSound>
+		<zIndex>10</zIndex>
+		
+		<pos>0.45 0</pos>
+		<size>0.8 1</size>
+		<logoRotationOrigin>6 0.5</logoRotationOrigin>
+		
+		<logoRotation ifSubset="wheelshape:curved,logos.displayed:auto">-5.5</logoRotation>  
+		<logoRotation ifSubset="wheelshape:curved,logos.displayed:five">-9.5</logoRotation>  
+		<logoRotation ifSubset="wheelshape:curved,logos.displayed:seven">-6.5</logoRotation>
+		<logoRotation ifSubset="wheelshape:curved,logos.displayed:nine">-5.5</logoRotation>
+		<logoRotation ifSubset="wheelshape:curved,logos.displayed:eleven">-4.5</logoRotation>
+		<logoRotation ifSubset="wheelshape:curved,logos.displayed:thirteen">-3.5</logoRotation>
+		
+		<pos 				ifSubset="wheelshape:vertical">0.787 0</pos>
+		<logoRotationOrigin ifSubset="wheelshape:vertical">100 0</logoRotationOrigin>
+		<logoAlignment 		ifSubset="wheelshape:vertical">left</logoAlignment>	
+		
+		<logoRotation ifSubset="wheelshape:vertical,logos.displayed:auto">-0.38</logoRotation>
+		<logoRotation ifSubset="wheelshape:vertical,logos.displayed:five">-0.55</logoRotation>
+		<logoRotation ifSubset="wheelshape:vertical,logos.displayed:seven">-0.38</logoRotation>
+		<logoRotation ifSubset="wheelshape:vertical,logos.displayed:nine">-0.298</logoRotation>
+		<logoRotation ifSubset="wheelshape:vertical,logos.displayed:eleven">-0.245</logoRotation>
+		<logoRotation ifSubset="wheelshape:vertical,logos.displayed:thirteen">-0.21</logoRotation>
+		
+		<!-- on force une valeur inférieur aux logos pour les quantités 9 et 13 du choix unified ou standard sinon ça glitch -->
+		<!-- apparement c'est corrigé, donc on enlève -->
+		<!-- <logoRotation ifSubset="logo.style:logounified|standard,logos.displayed:eleven">-0.29</logoRotation> -->
+		<!-- <logoRotation ifSubset="logo.style:logounified|standard,logos.displayed:thirteen">-0.28</logoRotation> -->
+		
+		<minLogoOpacity ifSubset="logo.opacity:auto">0.6</minLogoOpacity>
+		<minLogoOpacity ifSubset="logo.opacity:0 %">0</minLogoOpacity>
+		<minLogoOpacity ifSubset="logo.opacity:20 %">0.2</minLogoOpacity>
+		<minLogoOpacity ifSubset="logo.opacity:40 %">0.4</minLogoOpacity>
+		<minLogoOpacity ifSubset="logo.opacity:60 %">0.6</minLogoOpacity>
+		<minLogoOpacity ifSubset="logo.opacity:80 %">0.8</minLogoOpacity>
+		<minLogoOpacity ifSubset="logo.opacity:100 %">1.0</minLogoOpacity>
+		
+	</gamecarousel>
 	
 	
 	
@@ -1545,6 +1558,11 @@ originally based on: "carbon"
 	<image name="cartridge_ID"  if="{system.theme} == 'advision' " extra="true">
 		<maxSize>0.188689 0.091085</maxSize>						
     </image>
+	
+		<!-- ScummVM -->
+	<image name="cartridge_ID"  if="{system.theme} == 'scummvm' " extra="true">
+		<maxSize>0.28392 0.27</maxSize>
+    </image>
 		
 		<!-- GBA -->
 	<image name="cartridge_ID" if="{system.theme} == 'gba' " extra="true">
@@ -1928,6 +1946,7 @@ originally based on: "carbon"
 <text name="WhatSystemGAME, name_Id, description_Id" 
 		if="{system.sortedBy} == 'Collections' || 
 			{system.theme} == 'mess' || 
+			{system.theme} == 'lcdgames' || 
 			{system.theme} == 'ports'">
 	<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
 	<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
@@ -1938,7 +1957,8 @@ originally based on: "carbon"
 
 <image name="desc_cadre_gauche, desc_cadre_droit, desc_cadre_haut, desc_cadre_bas, desc_fond_black"
 		 if="{system.sortedBy} == 'Collections' || 
-			 {system.theme} == 'mess' || 
+			{system.theme} == 'mess' || 
+			{system.theme} == 'lcdgames' || 
 			 {system.theme} == 'ports'">
 		<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
@@ -1983,7 +2003,7 @@ originally based on: "carbon"
 
 <image name="figurines" extra="true">
 	<pos>0.405 0.77</pos>									
-	<pos ifHelpPrompts="false">0.415 0.79</pos>
+	<pos ifHelpPrompts="false">0.415 0.81</pos>
 </image>
 
 <!-- on repositionne le nom du système sur le cadre	 -->
@@ -2125,6 +2145,7 @@ originally based on: "carbon"
 			|| {system.theme} == 'universal' 
 			|| {system.theme} == 'visco' 
 			|| {system.theme} == 'vsc' 
+			|| {system.theme} == 'williams' 
 			|| {system.theme} == 'atomiswave' 
 			|| {system.theme} == 'fbneo' 
 			|| {system.theme} == 'hbmame' 

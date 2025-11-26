@@ -1,0 +1,23 @@
+<!-- WonderBoy collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.3291667 0.5555556</size>									
+			<pos>0.48 0.51</pos>	
+			<scale>1</scale>
+			<linearSmooth>true</linearSmooth>					
+			<storyboard>
+				
+        		<animation property="x" to="0.52" begin="" duration="4000" mode="EaseInOut"/>
+        		
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>

@@ -1,38 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-	<formatVersion>7</formatVersion>
-	<variables>
-		<ArchOrNot ifArch="windows">ROOT OF RETROBAT FOLDER</ArchOrNot>
-		<ArchOrNot ifArch="windows" lang="fr">à la racine du répertoire RETROBAT</ArchOrNot>
-		<ArchOrNot ifArch="windows" lang="es">RAÍZ DE LA CARPETA RETROBAT</ArchOrNot>
-		<ArchOrNot ifNotArch="windows">SAME LEVEL THEN "themes" FOLDER</ArchOrNot>
-		<ArchOrNot ifNotArch="windows" lang="fr">au même niveau que le dossier "themes"</ArchOrNot>
-		<ArchOrNot ifNotArch="windows" lang="es">MISMO NIVEL QUE LA CARPETA "temas</ArchOrNot>
-		
-		<Racine ifArch="windows">Retrobat\emulationstation\.emulationstation\themes\es-theme-Animatics-DX</Racine>
-		<Racine ifNotArch="windows">\userdata\themes</Racine>
-		
-	</variables>
-	<view name="system">
-		<image name="helpFrame" extra="true">
-			<zIndex>1000</zIndex>
-			<tile>true</tile>
-			<path>./../../art/divers/white.png</path>
-			<color>eaffaa</color>
-			<size>0.36 1</size>
-			<pos>0.18 0.5</pos>
-			<origin>0.5 0.5</origin>
-		</image>
-		<text name="helpInformations" extra="true">
-			<zIndex>1001</zIndex>
-			<size>0.35 0.79</size>
-			<pos>0.18 0.5</pos>
-			<origin>0.5 0.5</origin>
-			<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-			<fontSize>0.017</fontSize>
-			<alignment>center</alignment>
-			<verticalAlignment>center</verticalAlignment>
-			<color>000000</color>
+<formatVersion>7</formatVersion>
+<variables>
+	<ArchOrNot ifArch="windows">ROOT OF RETROBAT FOLDER</ArchOrNot>
+	<ArchOrNot ifArch="windows" lang="fr">à la racine du répertoire RETROBAT</ArchOrNot>
+	<ArchOrNot ifArch="windows" lang="es">RAÍZ DE LA CARPETA RETROBAT</ArchOrNot>
+	<ArchOrNot ifNotArch="windows">SAME LEVEL THEN "themes" FOLDER</ArchOrNot>
+	<ArchOrNot ifNotArch="windows" lang="fr">au même niveau que le dossier "themes"</ArchOrNot>
+	<ArchOrNot ifNotArch="windows" lang="es">MISMO NIVEL QUE LA CARPETA "temas</ArchOrNot>
+	
+	<Racine ifArch="windows">Retrobat\emulationstation\.emulationstation\themes\es-theme-Animatics-DX</Racine>
+	<Racine ifNotArch="windows">\userdata\themes</Racine>
+	
+</variables>
+
+<view name="system">
+
+	<image name="helpFrame" extra="true">
+		<zIndex>30000</zIndex>
+		<tile>true</tile>
+		<path>./../../art/divers/white.png</path>
+		<color>eaffaa</color>
+		<size>0.36 1</size>
+		<pos>0.18 0.5</pos>
+		<origin>0.5 0.5</origin>
+	</image>
+	
+	<text name="helpInformations" extra="true">
+		<zIndex>30001</zIndex>
+		<size>0.35 0.79</size>
+		<pos>0.18 0.5</pos>
+		<origin>0.5 0.5</origin>
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+		<fontSize>0.017</fontSize>
+		<alignment>center</alignment>
+		<verticalAlignment>center</verticalAlignment>
+		<color>000000</color>
 
 <!--english-->
 <text>--- HELP WITH LOGO AND CUSTOM NICKNAME ---
@@ -137,11 +140,11 @@ AYUDA PARA LOGOTIPO Y APODO PERSONALIZADOS
 OCULTAR
 _________________________________________________________________________
 
-
 </text>
 
 
 
-		</text>
-	</view>
+</text>
+</view>
+
 </theme>

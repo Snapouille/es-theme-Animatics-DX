@@ -1,0 +1,215 @@
+<!-- Auto Light Gun collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+		<image name="BG_snapLegacy" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.58125 0.6509259</size>									
+			<pos>0.3177083 0.3856481</pos>	
+		</image>
+
+		<image name="t800" extra="static">
+			<origin>0.5 0.5</origin>	
+			<size>0.221875 0.6861111</size>																	
+			<pos>0.41 1.3</pos>	
+			<path>./t800.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<storyboard>
+				
+        		<animation property="x" to="0.55" begin="" duration="500" mode="EaseInOut"/>
+        		<animation property="y" to="0.51" begin="" duration="700" mode="EaseInOut"/>
+				
+			</storyboard>					
+
+		</image>
+	
+
+
+		<image name="eyes" extra="static">
+
+			<origin>0.5 0.5</origin>									
+			<size>0.0229167 0.0092593</size>									
+			<pos>0.5072917 0.212963</pos>										
+			<opacity>0</opacity>
+			<path>./eyes.png</path>
+			<zIndex>17</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="1200" duration="500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" begin="6000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="1" begin="8300" duration="500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear"/>
+			</storyboard>		
+			
+			
+		</image>
+
+
+		<image name="fire" extra="static">
+					<origin>0.5 0.5</origin>									
+					<size>0.0822917 0.0740741</size>									
+					<pos>0.6901042 0.4814815</pos>									
+					<zIndex>20</zIndex>
+					<opacity>0</opacity>
+					<path>./fire.png</path>
+					<storyboard repeat="forever">
+						<animation property="opacity" from="0" to="1" begin="2000" duration="40" autoreverse="true" repeat="30" mode="linear"/>
+						<animation property="opacity" from="0" to="1" begin="8800" duration="40" autoreverse="true" repeat="50" mode="linear"/>
+						<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear"/>
+					</storyboard>
+		</image>
+
+		<image name="minifire1" extra="static">
+					<origin>0.5 0.5</origin>									
+					<size>0.0052083 0.0037037</size>									
+					<pos>0.2203125 0.5888889</pos>									
+					<zIndex>18</zIndex>
+					<opacity>0</opacity>
+					<path>./minifire.png</path>
+					<storyboard repeat="forever">
+						<animation property="opacity" from="0" to="1" begin="1000" duration="40" autoreverse="true" repeat="5" mode="linear"/>
+						<animation property="opacity" from="0" to="1" begin="4000" duration="40" autoreverse="true" repeat="10" mode="linear"/>
+						<animation property="opacity" from="0" to="1" begin="7000" duration="40" autoreverse="true" repeat="20" mode="linear"/>
+						<animation property="opacity" from="0" to="1" begin="12000" duration="40" autoreverse="true" repeat="10" mode="linear"/>
+						<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear"/>
+					</storyboard>
+		</image>
+
+		<image name="minifire2" extra="static">
+					<origin>0.5 0.5</origin>									
+					<size>0.0052083 0.0037037</size>									
+					<pos>0.2677083 0.5611111</pos>
+					<zIndex>18</zIndex>
+					<opacity>0</opacity>
+					<path>./minifire.png</path>
+					<storyboard repeat="forever">
+						<animation property="opacity" from="0" to="1" begin="2000" duration="40" autoreverse="true" repeat="5" mode="linear"/>
+						<animation property="opacity" from="0" to="1" begin="5300" duration="40" autoreverse="true" repeat="10" mode="linear"/>
+						<animation property="opacity" from="0" to="1" begin="8000" duration="40" autoreverse="true" repeat="20" mode="linear"/>
+						<animation property="opacity" from="0" to="1" begin="13000" duration="40" autoreverse="true" repeat="10" mode="linear"/>
+						<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear"/>
+					</storyboard>
+		</image>
+
+		<image name="t800mini" extra="static">
+			<origin>0.5 0.5</origin>	
+			<size>0.0213542 0.0481481</size>									
+			<pos>0.3736979 0.5842593</pos>									
+			<path>./t800mini.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>15</zIndex>			
+		</image>
+		
+		<image name="minifire3" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0046875 0.0027778</size>									
+			<pos>0.3617188 0.5852963</pos>									
+			<zIndex>18</zIndex>
+			<rotation>-10</rotation>
+			<opacity>0</opacity>
+			<path>./minifire.png</path>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="1500" duration="40" autoreverse="true" repeat="15" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="6000" duration="40" autoreverse="true" repeat="10" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="9000" duration="40" autoreverse="true" repeat="20" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="14000" duration="40" autoreverse="true" repeat="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="16000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="ship" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0859375 0.0833333</size>									
+			<pos>-0.3 0.1305556</pos>									
+			<path>./ship.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>160</zIndex>
+			<storyboard repeat="forever">
+				
+        		<animation property="pos" to="0.1242188 0.3305556" begin="3000" duration="2000" mode="EaseInOut"/>
+				<animation property="x" to="0.1252188" begin="5000" duration="100" autoreverse="true" repeat="5"  mode="EaseInOut"/>
+        		<animation property="y" to="0.3315556" begin="5000" duration="100" autoreverse="true" repeat="5"  mode="EaseInOut"/>
+				
+				<animation property="x" to="0.18" begin="6000" duration="3000" mode="linear"/>
+				<animation property="y" to="0.31" begin="6000" duration="3000" mode="bump"/>
+				
+				<animation property="x" to="0.181" begin="9000" duration="100" autoreverse="true" repeat="7"  mode="EaseInOut"/>
+        		<animation property="y" to="0.311" begin="9000" duration="100" autoreverse="true" repeat="10"  mode="EaseInOut"/>
+				
+				<animation property="x" to="0.35" begin="11000" duration="2000" mode="EaseIn"/>
+				<animation property="y" to="-0.21" begin="11300" duration="1700" mode="EaseIn"/>
+				<animation property="size" to="0.3578125 0.3481481" begin="11000" duration="2000" mode="EaseIn"/>
+				
+				<animation property="opacity" to="0" begin="30000" duration="1000" mode="linear"/>
+			</storyboard>					
+
+		</image>
+
+		<image name="minifire4" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0052083 0.0037037</size>									
+			<pos>0.1609375 0.3703704</pos>									
+			<zIndex>18</zIndex>
+			<rotation>30</rotation>
+			<opacity>0</opacity>
+			<path>./minifire.png</path>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="5000" duration="40" autoreverse="true" repeat="12" mode="linear"/>
+				<animation property="pos" to="0.215 0.351" begin="7000" duration=""/>
+				<animation property="opacity" from="0" to="1" begin="9000" duration="40" autoreverse="true" repeat="18" mode="linear"/>
+				<animation property="opacity" to="0" begin="30000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+	
+		<image name="minifire5" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0052083 0.0037037</size>									
+			<pos>0.1645833 0.3666667</pos>									
+			<zIndex>18</zIndex>
+			<rotation>30</rotation>
+			<opacity>0</opacity>
+			<path>./minifire.png</path>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="5000" duration="40" autoreverse="true" repeat="12" mode="linear"/>
+				<animation property="pos" to="0.218 0.347" begin="7000" duration=""/>
+				<animation property="opacity" from="0" to="1" begin="9000" duration="40" autoreverse="true" repeat="18" mode="linear"/>
+				<animation property="opacity" to="0" begin="30000" duration="1000" mode="linear"/>
+			
+			</storyboard>
+		</image>
+	
+	<image name="bgFlash" extra="true">
+		
+		<origin>0 0</origin>
+			<pos>0.027 0.062</pos>
+			<size>0.5791667 0.6453704</size>									
+
+			<scale>1</scale>
+			<opacity>0</opacity>
+			<path>./bgFlash.png</path>
+			<zIndex>16</zIndex>
+
+			<storyboard repeat="forever">
+				
+        		<animation property="opacity" begin="3800" from="0" to="0.5" duration="10" autoreverse="true" repeat="8" mode="linear"/>
+        		<animation property="opacity" begin="4500" from="0" to="0.8" duration="5" autoreverse="true" repeat="5" mode="linear"/>
+        		<animation property="opacity" begin="6500" from="0" to="0.6" duration="7" autoreverse="true" repeat="4" mode="linear"/>
+        		<animation property="opacity" begin="7000" from="0" to="0.4" duration="5" autoreverse="true" repeat="6" mode="linear"/>
+        		<animation property="opacity" begin="12000" from="0" to="0.7" duration="10" autoreverse="true" repeat="3" mode="linear"/>
+			
+			</storyboard>
+		
+		</image>
+	
+	
+	
+	</view>
+	
+</theme>

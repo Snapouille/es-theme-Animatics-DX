@@ -1,0 +1,134 @@
+<!-- Atomiswave  -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<pos>-0.2 0.207</pos>
+			<size>0.3333333 0.9101852</size>									
+
+			<scale>0.55</scale>
+			<zIndex>19</zIndex>
+					
+
+		<storyboard repeat="forever">
+				
+				<animation property="x" to="0.20" begin="400" duration="1000" mode="EaseOut"/>
+				
+				<animation property="scale" to="1" begin="1400" duration="350" mode="Linear"/>
+				<animation property="x" to="0.37" begin="1400" duration="375" mode="EaseOut"/>
+				<animation property="y" to="0.19" begin="1400" duration="375" mode="EaseOut"/>
+
+        		<animation property="x" to="0.34" begin="1700" duration="300" mode="linear"/>
+				<animation property="y" to="0.13" begin="2000" duration="150" mode="bump"/>
+				<animation property="x" to="0.23" begin="2000" duration="150" mode="bump"/>
+				
+				<animation property="opacity" to="0" begin="1700" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="16400" duration="100" mode="Linear"/>
+		</storyboard>
+		
+				
+		</image>
+		
+		
+		<image name="avatar2" extra="static">
+			<origin>0 0</origin>
+			<pos>0.37 0.19</pos>
+			<size>0.3333333 0.9101852</size>									
+
+			<scale>1</scale>
+			<zIndex>19</zIndex>
+			<flipX>true</flipX>
+			<opacity>0</opacity>
+			<path>./avatar.png</path>
+
+
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="1700" duration="100" mode="linear"/>
+				<animation property="x" to="0.34" begin="1700" duration="300" mode="linear"/>
+				<animation property="y" to="0.13" begin="2000" duration="150" mode="bump"/>
+				<animation property="x" to="0.23" begin="2000" duration="150" mode="bump"/>
+				<animation property="x" to="0.33" begin="2150" duration="2850" mode="EaseInOut"/>
+				
+				<animation property="scale" to="5" begin="16000" duration="500" mode="Linear"/>
+				<animation property="x" to="-0.5" begin="16000" duration="500" mode="linear"/>
+				<animation property="y" to="-0.05" begin="16000" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="16300" duration="200" mode="Linear"/>
+			</storyboard>
+
+		
+		</image>
+		
+		
+		<image name="avatar2-eyes" extra="static">
+			<origin>0 0</origin>
+			<pos>0.37 0.19</pos>
+			<size>0.3333333 0.9101852</size>									
+
+			<scale>1</scale>
+			<zIndex>20</zIndex>
+			<opacity>0</opacity>
+			<path>./avatar2-eyes.png</path>
+
+
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="1700" duration="100" mode="linear"/>
+				<animation property="x" to="0.34" begin="1700" duration="300" mode="linear"/>
+				<animation property="y" to="0.13" begin="2000" duration="150" mode="bump"/>
+				<animation property="x" to="0.23" begin="2000" duration="150" mode="bump"/>
+				<animation property="x" to="0.33" begin="2150" duration="2850" mode="EaseInOut"/>
+				
+				<animation property="x" from="0.33" to="0.328" begin="3000" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
+				<animation property="x" from="0.33" to="0.332" begin="5000" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
+				<animation property="x" from="0.33" to="0.328" begin="8000" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
+				<animation property="x" from="0.33" to="0.332" begin="12000" autoreverse="true" duration="1000" mode="EaseOutCubic"/>
+				
+				
+				<animation property="scale" to="5" begin="16000" duration="500" mode="Linear"/>
+				<animation property="x" to="-0.5" begin="16000" duration="500" mode="linear"/>
+				<animation property="y" to="-0.05" begin="16000" duration="500" mode="linear"/>
+				
+				
+				<animation property="opacity" to="0" begin="16300" duration="200" mode="Linear"/>
+			</storyboard>
+
+		
+		</image>
+		
+		
+		
+		
+		<image name="sandstorm" extra="static">
+			<origin>0 0</origin>
+			<pos>0 0.2</pos>
+			<size>0.3427083 0.2240741</size>									
+
+			<scale>4</scale>
+			<zIndex>15</zIndex>
+			<opacity>1</opacity>
+			<path>./sandstorm.png</path>
+
+
+			<storyboard repeat="forever">
+				<animation property="x" from="0" to="-0.35" begin="" autoreverse="true" duration="20000" mode="linear"/>
+				<animation property="y" from="0.2" to="0.203" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="scale" from="4" to="4.01" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="opacity" from="1" to="0.6" begin="" autoreverse="true" duration="1000" repeat="20" mode="linear"/>
+			
+			</storyboard>
+
+		
+		</image>
+		
+		
+		
+		
+	</view>
+
+</theme>

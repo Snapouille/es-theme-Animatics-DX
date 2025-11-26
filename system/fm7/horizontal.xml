@@ -1,0 +1,221 @@
+<!-- Fujitsu FM7 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>2.3203125 1.6027778</size>									
+			<pos>1.1768229 0.8439815</pos>									
+
+			<storyboard repeat="forever">
+				<animation property="x" to="-0.5471354" 			begin="" duration="4000" mode="linear"/>
+				<animation property="size" to="1.1755208 0.812037" 	begin="4000" duration="1500" mode="linear"/>
+				<animation property="pos" to="0.6028646 0.4523148" 	begin="4000" duration="1500" mode="linear"/>
+				<animation property="size" to="2.3203125 1.6027778" begin="13300" duration="4000" mode="linear"/>
+				<animation property="pos" to="1.1768229 0.8439815" 	begin="13300" duration="4000" mode="linear"/>
+				
+			</storyboard>
+		</image>
+		
+
+
+		
+		<image name="bg_mountain, avatar-mazinger-fly, avatar-mazinger-fly-flip, avatar-mazinger-stand, avatar-mazinger-stand-flip, avatar-punch, avatar-mazinger-fire, blast1, blast2">
+			<origin>0.5 0.5</origin>	
+			<linearSmooth>true</linearSmooth>
+		</image>
+		
+		
+		<image name="bg_mountain" extra="true">
+			<path>./bg_mountain.png</path>
+			<size>1.4270833 0.3490741</size>									
+			<pos>-0.103125 0.5976852</pos>			
+			<zIndex>6</zIndex>
+		
+			<storyboard repeat="forever">
+				<animation property="x" to="0.7354167" 				begin="500" duration="3500" mode="EaseInOut"/>
+				<animation property="size" to="0.8458333 0.2064815" begin="4000" duration="1500" mode="linear"/>
+				<animation property="pos" to="0.459375 0.6458333" 	begin="4000" duration="1500" mode="linear"/>	
+				<animation property="size" to="1.4270833 0.3490741" begin="13300" duration="4000" mode="linear"/>
+				<animation property="pos" to="-0.103125 0.5976852" 	begin="13300" duration="4000" mode="linear"/>
+				
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-breebera-test" extra="true">
+			<path>./avatar-breebera.gif</path>
+			<size>0.3098958 0.2666667</size>	
+			<flipX>true</flipX>
+			<pos>0.7 0.7</pos>		
+			<scale>0.1</scale>
+			<zIndex>5</zIndex>
+
+			<storyboard repeat="forever">				
+				<animation property="pos" to="0.2 0.2" 		begin="" duration="1500" mode="EaseInOut"/>
+				<animation property="scale" to="0.7" 		begin="" duration="1500" mode="EaseInOut"/>
+				<animation property="pos" to="-0.2 -0.2" 	begin="3500" duration="1000" mode="EaseInOut"/>
+				<animation property="scale" to="1" 			begin="3500" duration="1000" mode="EaseInOut"/>
+				
+				<animation property="opacity" to="0" begin="17200" duration="100" mode="linear"/>
+			</storyboard>
+
+		</image>
+		
+	
+		<image name="avatar-mazinger-fly" extra="true">
+			<path>./avatar-mazinger-fly.png</path>
+			<size>0.4442708 0.7259259</size>									
+			<pos>0 0</pos>
+			<scale>0.1</scale>
+			<zIndex>12</zIndex>
+
+			<storyboard repeat="forever">				
+				<animation property="pos" to="0.4617188 0.437963" 	begin="4000" duration="1500" mode="bump"/>
+				<animation property="zIndex" to="20" 				begin="4500" duration="10" mode="linear"/>
+				<animation property="scale" to="1" 					begin="4500" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" 				begin="5500" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17200" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-mazinger-fly-flip" extra="true">
+			<path>./avatar-mazinger-fly.png</path>
+			<size>0.4442708 0.7259259</size>									
+			<pos>0.6 0.437963</pos>
+			<flipX>true</flipX>
+			<zIndex>22</zIndex>
+			<opacity>0</opacity>
+			<scale>0.9</scale>
+
+			<storyboard repeat="forever">				
+				<animation property="opacity" to="1" 		begin="13000" duration="100" mode="linear"/>
+				<animation property="offsetY" to="0.01" 	begin="13000" duration="150" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="1" 			begin="13000" duration="300" mode="linear"/>
+				<animation property="offsetY" to="-1" 		begin="13300" duration="1000" mode="linear"/>
+				<animation property="offsetX" to="-0.4" 	begin="13300" duration="1000" mode="linear"/>
+				<animation property="scale" to="0.3"		begin="13300" duration="1000" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17200" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-mazinger-stand-flip" extra="true">
+			<path>./avatar-mazinger-stand.png</path>
+			<size>0.2640625 0.5851852</size>									
+			<pos>0.5393229 0.5296296</pos>									
+			<flipX>true</flipX>
+			<opacity>0</opacity>
+			<zIndex>21</zIndex>
+			
+			<storyboard repeat="forever">	
+				<animation property="opacity" to="1" begin="5500" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="5600" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17200" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-mazinger-stand" extra="true">
+			<path>./avatar-mazinger-stand.png</path>
+			<size>0.2640625 0.5851852</size>									
+			<pos>0.5424479 0.5277778</pos>									
+			<opacity>0</opacity>
+			<zIndex>21</zIndex>
+
+			<storyboard repeat="forever">	
+				<animation property="opacity" to="1" begin="5600" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="6100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13000" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17200" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-mazinger-fire" extra="true">
+			<path>./avatar-mazinger-fire.png</path>
+			<size>0.2640625 0.5851852</size>									
+			<pos>0.5424479 0.5277778</pos>									
+			<opacity>0</opacity>
+			<zIndex>21</zIndex>
+
+			<storyboard repeat="forever">	
+				<animation property="opacity" to="1" begin="6100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17200" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-punch" extra="true">
+			<path>./avatar-punch.gif</path>
+			<size>0.1859375 0.1527778</size>									
+			<pos>0.5005208 0.3055556</pos>									
+			<opacity>0</opacity>
+			<zIndex>22</zIndex>
+			<scale>0.59</scale>
+			
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" 				begin="6000" duration="100" mode="linear"/>
+				
+				<animation property="scale" to="1" 					begin="6500" duration="500" mode="linear"/>
+				<animation property="pos" to="-0.0929688 -0.03" 	begin="6500" duration="500" mode="linear"/>
+				
+				<animation property="scale" to="0.59" 			   	begin="9000" duration="1500" mode="EaseOut"/>
+				<animation property="pos" to="0.5005208 0.3055556" 	begin="9000" duration="1500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" 				begin="11500" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17200" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+		
+
+
+		<image name="blast1" extra="true">
+			<path>./blast1.png</path>
+			<size>0.1463542 0.2805556</size>									
+			<pos>0.0731771 0.1402778</pos>									
+			<opacity>0</opacity>
+			<zIndex>9000</zIndex>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" 		begin="7200" duration="100" mode="linear"/>
+				<animation property="scale" to="0.95" 		begin="7900" duration="700" mode="linear"/>
+				<animation property="offsetY" to="-0.01" 	begin="7900" duration="700" mode="linear"/>
+				<animation property="offsetX" to="-0.01" 	begin="7900" duration="700" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="8100" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17200" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+
+
+		<image name="blast2" extra="true">
+			<path>./blast2.png</path>
+			<size>0.2078125 0.4175926</size>									
+			<pos>0.1039063 0.2087963</pos>									
+			<opacity>0</opacity>
+			<zIndex>9001</zIndex>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" 		begin="7800" duration="100" mode="linear"/>
+				<animation property="scale" to="0.95" 		begin="8500" duration="700" mode="linear"/>
+				<animation property="offsetY" to="-0.01" 	begin="8500" duration="700" mode="linear"/>
+				<animation property="offsetX" to="-0.01" 	begin="8500" duration="700" mode="linear"/>
+				<animation property="opacity" to="0" 		begin="8700" duration="500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17200" duration="100" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

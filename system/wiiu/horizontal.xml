@@ -1,0 +1,505 @@
+<!-- WII U -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<image name="kart" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.3536458 0.5361111</size>									
+									
+			<pos>0.3 0.28</pos>									
+			<scale>0.1</scale>
+			<path>./kart.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>20</zIndex>
+
+			
+			<storyboard repeat="forever">
+				<animation property="scale" to="1" begin="" duration="1500" mode="EaseIn"/>
+        		<animation property="x" to="0.51" begin="" duration="1500" mode="EaseOutQuint"/>
+        		<animation property="y" to="0.55" begin="" duration="1500" mode="EaseInQuint"/>
+				<animation property="rotation" from="-30" to="20" begin="" duration="1500" mode="linear"/>
+		
+		
+				<animation property="color" from="ff000050" to="ff000050" begin="2000" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="2000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="2100" duration="150" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="4100" duration="150" mode="linear"/>
+				
+				<animation property="color" from="ff000050" to="ff000050" begin="4000" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="4000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="4050" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="4050" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="4150" duration="" mode="linear"/>
+				<animation property="origin" to="0.55 0.5" 	begin="4150" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="4200" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="4200" duration="50" mode="linear"/>
+				
+				<animation property="color" from="ff000050" to="ff000050" begin="7000" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="7000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="7050" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5"	begin="7050" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="7150" duration="" mode="linear"/>
+				<animation property="origin" to="0.55 0.5" 	begin="7150" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="7200" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="7200" duration="50" mode="linear"/>
+				
+				<animation property="color" from="ff000050" to="ff000050" begin="7500" duration="" mode="linear"/>
+				<animation property="origin" to="0.525 0.5" 	begin="7500" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="7550" duration="50" mode="linear"/>
+				<animation property="origin" to="0.5 0.5" 	begin="7550" duration="50" mode="linear"/>	
+				
+				<animation property="y" to="1.3" begin="8000" duration="500" mode="EaseOut"/>
+				<animation property="x" to="0.35" begin="8000" duration="500" mode="EaseOut"/>
+				<animation property="opacity" from="1" to="0" begin="15000" duration="10" mode="linear"/>
+				
+				
+			</storyboard>
+			
+		</image>
+		
+		
+		<image name="sparkles" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.3536458 0.5361111</size>									
+									
+			<pos>0.3 0.28</pos>									
+			<scale>0.1</scale>
+			<path>./sparkles.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+
+			<storyboard repeat="forever">
+				
+				<animation property="scale" to="1" begin="" duration="1500" mode="EaseIn"/>
+        		<animation property="x" to="0.51" begin="" duration="1500" mode="EaseOutQuint"/>
+        		<animation property="y" to="0.55" begin="" duration="1500" mode="EaseInQuint"/>
+				<animation property="rotation" from="-30" to="20" begin="" duration="1500" mode="linear"/>
+				
+				<animation property="opacity" begin="100" from="1" to="0.6" duration="10" autoreverse="true" repeat="50" mode="linear"/>
+				<animation property="opacity" begin="1000" from="1" to="0.4" duration="10" autoreverse="true" repeat="50" mode="linear"/>
+				<animation property="opacity" begin="2000" from="1" to="0.6" duration="10" autoreverse="true" repeat="50" mode="linear"/>
+				<animation property="opacity" begin="3000" from="1" to="0.4" duration="10" autoreverse="true" repeat="50" mode="linear"/>
+				<animation property="opacity" begin="4000" from="1" to="0.6" duration="10" autoreverse="true" repeat="50" mode="linear"/>
+				<animation property="opacity" begin="5000" from="1" to="0.4" duration="10" autoreverse="true" repeat="50" mode="linear"/>
+				<animation property="opacity" begin="6000" from="1" to="0.6" duration="10" autoreverse="true" repeat="50" mode="linear"/>
+				<animation property="opacity" begin="7000" from="1" to="0.4" duration="10" autoreverse="true" repeat="50" mode="linear"/>
+				<animation property="opacity" begin="8000" from="1" to="0.6" duration="10" autoreverse="true" repeat="50" mode="linear"/>
+				
+			
+				<animation property="y" to="1.3" begin="8000" duration="500" mode="EaseOut"/>
+				<animation property="opacity" from="1" to="0" begin="15000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<image name="spark1" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0026042 0.0046296</size>									
+			<pos>0.1799479 0.2825</pos>									
+			<scale>1</scale>
+			<path>./spark.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>eb183b</color>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" from="1" to="0" begin="" duration="2500" mode="linear"/>
+				<animation property="opacity" to="0" begin="2500" duration="10" mode="linear"/>
+				
+				
+				
+				
+				<animation property="opacity" to="0" begin="20000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="firework1" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.2234375 0.387037</size>									
+			<pos>0.1700521 0.2894444</pos>									
+			<scale>0</scale>
+			<path>./firework.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>eb183b</color>
+
+			<storyboard repeat="forever">
+				<animation property="scale" from="0" to="1" begin="2500" duration="500" mode="linear"/>
+				<animation property="color" from="eb183b" to="fcff00" begin="2500" duration="2500" mode="linear"/>
+				<animation property="scale" from="1" to="0.7" begin="3000" duration="1500" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="3000" duration="1500" mode="linear"/>
+				
+				
+				
+				
+				<animation property="opacity" to="0" begin="20000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		
+		<image name="spark2" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0026042 0.0046296</size>									
+			<pos>0.2320313 0.5502778</pos>																		
+			<scale>1</scale>
+			<path>./spark.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>eb18e9</color>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" from="1" to="0" begin="" duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" begin="1500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="firework2" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.1177083 0.2046296</size>									
+			<pos>0.2276042 0.5558333</pos>										
+			<scale>0</scale>
+			<path>./firework.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>eb18e9</color>
+
+			<storyboard repeat="forever">
+				<animation property="scale" from="0" to="0.9" begin="1500" duration="500" mode="linear"/>
+				<animation property="color" from="eb18e9" to="fcff00" begin="1500" duration="2500" mode="linear"/>
+				<animation property="scale" from="0.9" to="0.7" begin="2000" duration="1500" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="2000" duration="1500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="18000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+
+
+
+
+		<image name="spark3" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0026042 0.0046296</size>									
+			<pos>0.1070313 0.599537</pos>									
+			<scale>1</scale>
+			<opacity>0</opacity>
+			<path>./spark.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>0ae734</color>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" from="1" to="0" begin="1500" duration="1500" mode="linear"/>
+				<animation property="opacity" to="1" begin="1500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="firework3" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0802083 0.1398148</size>									
+			<pos>0.1041667 0.6023148</pos>									
+			<scale>0</scale>
+			<path>./firework.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>0ae734</color>
+
+			<storyboard repeat="forever">
+				<animation property="scale" from="0" to="0.9" begin="3000" duration="500" mode="linear"/>
+				<animation property="scale" from="0.9" to="0.6" begin="3500" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="3500" duration="1000" mode="linear"/>
+				<animation property="scale" to="0" begin="4500" duration="10" mode="linear"/>
+				
+				
+				<animation property="pos" to="0.25 0.18" begin="5000" duration="10" mode="linear"/>
+				<animation property="color" to="ff00e4" begin="5500" duration="10" mode="linear"/>
+				
+				<animation property="scale" from="0" to="0.9" begin="5000" duration="500" mode="linear"/>
+				<animation property="scale" from="0.9" to="0.6" begin="5500" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="5500" duration="1000" mode="linear"/>
+				<animation property="scale" to="0" begin="6500" duration="10" mode="linear"/>
+				
+				
+				<animation property="pos" to="0.15 0.23" begin="7000" duration="10" mode="linear"/>
+				<animation property="color" to="d2ff00" begin="7500" duration="10" mode="linear"/>
+				
+				<animation property="scale" from="0" to="1.1" begin="7000" duration="500" mode="linear"/>
+				<animation property="scale" from="1.1" to="0.9" begin="7500" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="7500" duration="1000" mode="linear"/>
+				<animation property="scale" to="0" begin="8500" duration="10" mode="linear"/>
+				
+				
+				<animation property="pos" to="0.11 0.33" begin="9000" duration="10" mode="linear"/>
+				<animation property="color" to="00ff60" begin="9500" duration="10" mode="linear"/>
+				
+				<animation property="scale" from="0" to="0.9" begin="9000" duration="500" mode="linear"/>
+				<animation property="scale" from="0.9" to="0.6" begin="9500" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="9500" duration="1000" mode="linear"/>
+				<animation property="scale" to="0" begin="10500" duration="10" mode="linear"/>
+				
+				
+				<animation property="pos" to="0.41 0.17" begin="11000" duration="10" mode="linear"/>
+				<animation property="color" to="ffb400" begin="11500" duration="10" mode="linear"/>
+				
+				<animation property="scale" from="0" to="1.1" begin="11000" duration="500" mode="linear"/>
+				<animation property="scale" from="1.1" to="0.9" begin="11500" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="11500" duration="1000" mode="linear"/>
+				<animation property="scale" to="0" begin="12500" duration="10" mode="linear"/>
+				
+				
+				
+				<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		
+		<image name="spark4" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0026042 0.0046296</size>									
+			<pos>0.6799479 0.2625</pos>									
+			<scale>1</scale>
+			<opacity>0</opacity>
+			<path>./spark.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>003cff</color>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" from="1" to="0" begin="6500" duration="2500" mode="linear"/>
+				<animation property="opacity" to="1" begin="6500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="firework4" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.2234375 0.387037</size>									
+			<pos>0.6700521 0.2694444</pos>									
+			<scale>0</scale>
+			<path>./firework.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>003cff</color>
+
+			<storyboard repeat="forever">
+				<animation property="scale" from="0" to="1.2" begin="9000" duration="1000" mode="linear"/>
+				<animation property="color" from="003cff" to="fcff00" begin="9000" duration="2500" mode="linear"/>
+				<animation property="scale" from="1.2" to="1.1" begin="10000" duration="1500" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="10000" duration="1500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+
+
+
+
+		<image name="spark5" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0026042 0.0046296</size>									
+			<pos>0.2399479 0.3325</pos>									
+			<scale>1</scale>
+			<opacity>0</opacity>
+			<path>./spark.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>ffa800</color>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" from="1" to="0" begin="3500" duration="2500" mode="linear"/>
+				<animation property="opacity" to="1" begin="3500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="14000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="firework5" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.2234375 0.387037</size>									
+			<pos>0.2300521 0.3394444</pos>									
+			<scale>0</scale>
+			<path>./firework.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>ffa800</color>
+
+			<storyboard repeat="forever">
+				<animation property="scale" from="0" to="0.9" begin="6000" duration="1000" mode="linear"/>
+				<animation property="color" from="ffa800" to="fcff00" begin="6000" duration="2500" mode="linear"/>
+				<animation property="scale" from="0.9" to="0.6" begin="7000" duration="1500" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="7000" duration="1500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="14000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		
+		
+		<image name="spark6" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0026042 0.0046296</size>									
+			<pos>0.1370313 0.499537</pos>									
+			<scale>1</scale>
+			<opacity>0</opacity>
+			<path>./spark.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>fcff00</color>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" from="1" to="0" begin="6500" duration="1500" mode="linear"/>
+				<animation property="opacity" to="1" begin="5500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="14000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="firework6" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0802083 0.1398148</size>									
+			<pos>0.1341667 0.5023148</pos>									
+			<scale>0</scale>
+			<path>./firework.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>fcff00</color>
+
+			<storyboard repeat="forever">
+				<animation property="scale" from="0" to="1" begin="8000" duration="500" mode="linear"/>
+				<animation property="color" from="fcff00" to="fcff00" begin="8000" duration="1500" mode="linear"/>
+				<animation property="scale" from="1" to="0.7" begin="8500" duration="1000" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="8500" duration="1000" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="14000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		
+		
+		
+		<image name="spark7" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0026042 0.0046296</size>									
+			<pos>0.3320313 0.4502778</pos>																		
+			<scale>1</scale>
+			<path>./spark.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>00fff0</color>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" from="1" to="0" begin="7000" duration="1500" mode="linear"/>
+				<animation property="opacity" to="0" begin="8500" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="12000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="firework7" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.1177083 0.2046296</size>									
+			<pos>0.3276042 0.4558333</pos>										
+			<scale>0</scale>
+			<path>./firework.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>00fff0</color>
+
+			<storyboard repeat="forever">
+				<animation property="scale" from="0" to="0.8" begin="8500" duration="500" mode="linear"/>
+				<animation property="scale" from="0.8" to="0.6" begin="9000" duration="1500" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="9000" duration="1500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="12000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		
+		<image name="spark8" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.0026042 0.0046296</size>									
+			<pos>0.6099479 0.5625</pos>									
+			<scale>1</scale>
+			<opacity>0</opacity>
+			<path>./spark.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>ff00de</color>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" from="1" to="0" begin="10500" duration="2500" mode="linear"/>
+				<animation property="opacity" to="1" begin="10500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="32000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="firework8" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.2234375 0.387037</size>									
+			<pos>0.6000521 0.5694444</pos>									
+			<scale>0</scale>
+			<path>./firework.png</path>
+			<linearSmooth>true</linearSmooth>	
+			<zIndex>19</zIndex>
+			<color>ff00de</color>
+
+			<storyboard repeat="forever">
+				<animation property="scale" from="0" to="1.1" begin="13000" duration="1000" mode="linear"/>
+				<animation property="color" from="ff00de" to="fcff00" begin="13000" duration="2500" mode="linear"/>
+				<animation property="scale" from="1.1" to="0.9" begin="14000" duration="1500" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="14000" duration="1500" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="32000" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+
+
+
+
+
+
+
+	</view>
+
+</theme>

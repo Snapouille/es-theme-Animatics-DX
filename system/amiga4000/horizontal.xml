@@ -1,0 +1,32 @@
+<!-- Amiga 4000 -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<pos>0.2 0.122</pos>
+			<size>0.29375 0.9092593</size>									
+			<scale>0.65</scale>
+
+		<storyboard>
+				
+				<animation property="x" to="0.21" begin="700" duration="2000" mode="EaseOut"/>
+				
+				<animation property="scale" to="1" begin="2700" duration="350" mode="Linear"/>
+				<animation property="x" to="0.365" begin="2700" duration="375" mode="bump"/>
+				<animation property="y" to="-0.12" begin="2700" duration="375" mode="EaseOut"/>
+		</storyboard>
+		
+		
+		
+		
+		
+		
+		
+		</image>
+	</view>
+
+</theme>

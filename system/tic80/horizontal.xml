@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<pos>0.4 0.4</pos>
+			<size>0.2911458 0.3759259</size>									
+			<storyboard>
+				<animation property="y" from="2" begin="0" duration="350" mode="easyOut"/>
+        		<animation property="scale" to="1.02" begin="350" autoreverse="true" duration="500" repeat="forever" mode="easeIn"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar2" extra="static">
+			<origin>0 0</origin>
+			<pos>0.4 -0.245</pos>
+			<maxSize>0.265 0.557</maxSize>
+			<linearSmooth>true</linearSmooth>
+			<path>./avatar-saw.png</path>
+			<zIndex>20</zIndex>
+			<storyboard>
+				<animation property="y" from="-1" begin="0" duration="1000" mode="easyOut"/>
+        		<animation property="rotation" to="360" begin="0" autoreverse="false" duration="800" repeat="forever" mode="linear"/>
+			</storyboard>
+		</image>
+		
+	</view>
+
+</theme>

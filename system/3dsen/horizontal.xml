@@ -1,0 +1,22 @@
+<!-- 3D sen -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<size>1 1</size>									
+			<pos>0.51875 0.38</pos>									
+			  <storyboard>
+					<animation property="x" to="0.1125" begin="" duration="1000" mode="EaseInOut"/>
+					<animation property="size" to="0.6567708 0.6564815" begin="1000" duration="500" mode="EaseIn"/>
+					<animation property="pos" to="0.2861979 0.401" begin="1000" duration="500" mode="EaseIn"/>
+			  </storyboard>
+		</image>
+	
+		
+	</view>
+
+</theme>

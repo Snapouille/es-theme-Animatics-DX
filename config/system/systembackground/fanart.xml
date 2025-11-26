@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-  <formatVersion>4</formatVersion>
+<formatVersion>4</formatVersion>
   
-  <view name="system">
+<view name="system">
   
 	<image name="background, bgsky, ControllerOverlay, frame_barreAnim_haut, frame_barreAnim_bas, frame_barreAnim_gauche, frame_barreAnim_droite">
 		  <visible>false</visible>
@@ -13,6 +13,10 @@
 		<visible>false</visible>
 	</image>
 	
+	<!-- on affiche pas la barre haut ni les diago haut si pas de surnom et pas d'avatar -->
+	<image name="barre_Haut, diago-haut1, diago-haut2, diago-haut3, diago-haut4, diago-haut5" ifSubset="user-username:none, user-logo:none" extra="true">
+		<visible>false</visible>
+	</image>
 	
 	
 	<!-- On modifie affichage des statistiques du système si affichage WHEEL -->
@@ -35,9 +39,6 @@
 		<image name="masque_behind" ifSubset="InfoCustomView:total|detailed" extra="true">
 			<pos>0.5143229 0.0663889</pos>									
 		</image>
-
-
-
 	  
 	<image name="barre_Haut" extra="true">
 		<path>./../../../art/divers/white.png</path>
@@ -89,8 +90,6 @@
 		<visible>false</visible>
 	</image>
 
-
-
     <image name="randomImage" extra="true">
       <path>{random:fanart}</path>
 	  <default>./../../../art/divers/bg.png</default>   
@@ -106,26 +105,16 @@
 		</storyboard>
 	  
     </image>
-
-
-
-
-
-
-
-
-
-
 	
-  </view>
+</view>
   
   
   
-	<view name="system" ifSubset="SystemView:grid">
-		<image name="barre_Haut" extra="true">
-			<visible>false</visible>
-		</image>
-	</view>
+<view name="system" ifSubset="SystemView:grid|figurines">
+	<image name="barre_Haut" extra="true">
+		<visible>false</visible>
+	</image>
+</view>
   
   
   

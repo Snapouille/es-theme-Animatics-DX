@@ -1,0 +1,187 @@
+<!-- Atari 5200 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="pooka" extra="true"> 
+			<origin>0.5 0.5</origin>									
+			<size>0.0916667 0.1666667</size>									
+			<pos>0.1776042 -0.0833333</pos>									
+			<path>./pooka.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>14</zIndex>
+			<storyboard repeat="forever">
+				<animation property="rotation" from="0" to="10" begin="300" duration="700" mode="linear"/>
+				<animation property="pos" to="0.1776042 0.3148148" begin="280" duration="700" mode="linear"/>
+				<animation property="opacity" to="0" begin="900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="15000" duration="10" mode="linear"/>
+			</storyboard>	
+		</image>
+		
+		<image name="pooka-zIndex" extra="true"> 
+			<origin>0.5 0.5</origin>									
+			<size>0.0916667 0.1666667</size>									
+			<pos>0.1776042 -0.0833333</pos>									
+			<path>./pooka.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>150</zIndex>
+			<opacity>0</opacity>
+			<storyboard repeat="forever">
+				<animation property="rotation" from="0" to="10" begin="300" duration="700" mode="linear"/>
+				<animation property="pos" to="0.1776042 0.3148148" begin="280" duration="700" mode="linear"/>
+				<animation property="opacity" to="1" begin="900" duration="10" mode="linear"/>
+				<animation property="rotation" from="10" to="280" begin="1000" duration="1000" mode="linear"/>
+				<animation property="pos" to="0.2917708 0.23" begin="1000" duration="800" mode="linear"/>
+				<animation property="rotation" from="280" to="350" begin="2000" duration="400" mode="linear"/>
+				<animation property="pos" to="0.2947917 0.537037" begin="1800" duration="600" mode="EaseIn"/>
+				<animation property="offsetY" to="0.02" begin="2400" duration="100" autoreverse="true" mode="EaseIn"/>
+				<animation property="size" from="0.0916667 0.1666667" to="0.3979167 0.7231481" begin="3000" duration="7000" mode="linear"/>
+				<animation property="pos" to="0.2520833 0.3726852" begin="3000" duration="7000" mode="linear"/>
+				<animation property="rotation" from="0" to="1.8" begin="3000" duration="150" autoreverse="true" repeat="12" mode="linear"/>
+				<animation property="rotation" from="0" to="0.85" begin="6600" duration="150" autoreverse="true" repeat="13" mode="linear"/>
+				<animation property="opacity" to="0" begin="10300" duration="700" mode="linear"/>
+				<animation property="opacity" to="1" begin="15000" duration="10" mode="linear"/>
+			</storyboard>	
+		</image>
+		
+		
+		<image name="boom" extra="true"> 
+			<origin>0.5 0.5</origin>									
+			<size>0.6776042 1.0666667</size>									
+			<pos>0.2700521 0.2731481</pos>									
+			<path>./boom.png</path>
+			<linearSmooth>true</linearSmooth>
+			<opacity>0</opacity>
+			<zIndex>2000</zIndex>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="10000" duration="500" mode="linear"/>
+				<animation property="scale" to="1.05" begin="10000" autoreverse="true" duration="500" mode="EaseOut"/>
+				<animation property="rotation" to="-0.4" begin="10000" autoreverse="true" duration="100" repeat="5" mode="linear"/>
+				<animation property="rotation" to="-0.35" begin="10000" duration="150" autoreverse="true" repeat="3" mode="linear"/>
+				<animation property="rotation" to="-0.25" begin="10900" duration="150" autoreverse="true" repeat="3" mode="linear"/>
+				<animation property="scale" to="0.95" begin="11000" duration="2600" mode="EaseOut"/>
+				<animation property="rotation" to="0.15" begin="11800" duration="150" autoreverse="true" repeat="3" mode="linear"/>
+				<animation property="rotation" to="0.05" begin="12700" duration="150" autoreverse="true" repeat="3" mode="linear"/>
+				<animation property="opacity" to="0" begin="13000" duration="1010" mode="linear"/>
+				<animation property="opacity" to="0" begin="15000" duration="10" mode="linear"/>
+			</storyboard>	
+		</image>
+		
+		
+		
+		<image name="digdugGuy" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.3145833 0.4972222</size>									
+			<pos>0.4515625 0.5875</pos>									
+			<path>./digdugGuy.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>20</zIndex>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="0" begin="3000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3170" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3340" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3510" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3680" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3850" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4020" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4190" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4360" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4530" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4870" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5040" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5210" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5380" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5550" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5720" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5890" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6060" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="6230" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="6570" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6740" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="6910" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="7080" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="7250" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="7420" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="7590" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="7760" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="7930" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8270" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8440" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8610" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8780" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8950" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9120" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="9290" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9460" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="9630" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="9970" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="15000" duration="10" mode="linear"/>
+			</storyboard>			
+		</image>
+			
+		
+		<image name="digdugGuy2" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.3145833 0.4972222</size>									
+			<pos>0.4515625 0.5875</pos>									
+			<path>./digdugGuy2.png</path>
+			<linearSmooth>true</linearSmooth>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+			<storyboard repeat="forever">		
+				<animation property="opacity" to="1" begin="3000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3170" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3340" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3510" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3680" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3850" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4020" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4190" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4360" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4530" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4870" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5040" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5210" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5380" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5550" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5720" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5890" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="6060" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6230" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="6400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6570" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="6740" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6910" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="7080" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="7250" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="7420" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="7590" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="7760" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="7930" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8270" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8440" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8610" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8780" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8950" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="9120" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9290" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="9460" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9630" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="9800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9970" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="15000" duration="10" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		
+	</view>
+</theme>
+

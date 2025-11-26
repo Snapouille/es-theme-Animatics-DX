@@ -1,0 +1,156 @@
+<!-- Channel F -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+
+    <image name="BG_snapLegacy" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.58125 0.6509259</size>									
+		<pos>0.3177083 0.3856481</pos>	
+    </image>
+		
+		<image name="avatar-roi" extra="static">
+			<origin>0 0</origin>
+			<size>0.1046875 0.5148148</size>									
+			<pos>0.2322917 0.187963</pos>									
+
+			<path>./avatar-roi.png</path>
+			<opacity>0</opacity>
+			<zIndex>15</zIndex>
+			
+			
+			<storyboard repeat="forever">
+			
+				<animation property="y" from="2" begin="0" duration="350" mode="linear"/>
+				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="3000" duration="" mode="linear"/>
+				<animation property="origin" to="0.025 0" 	begin="3000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="3100" duration="150" mode="linear"/>
+				<animation property="origin" to="0 0" 	begin="3100" duration="150" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="5000" duration="" mode="linear"/>
+				<animation property="origin" to="0.025 0" 	begin="5000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="5050" duration="50" mode="linear"/>
+				<animation property="origin" to="0 0" 	begin="5050" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="5150" duration="" mode="linear"/>
+				<animation property="origin" to="0.05 0" 	begin="5150" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="5200" duration="50" mode="linear"/>
+				<animation property="origin" to="0 0" 	begin="5200" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="9000" duration="" mode="linear"/>
+				<animation property="origin" to="0.025 0" 	begin="9000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9050" duration="50" mode="linear"/>
+				<animation property="origin" to="0 0"	begin="9050" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="9150" duration="" mode="linear"/>
+				<animation property="origin" to="0.05 0" 	begin="9150" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9200" duration="50" mode="linear"/>
+				<animation property="origin" to="0 0" 	begin="9200" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="9500" duration="" mode="linear"/>
+				<animation property="origin" to="0.025 0" 	begin="9500" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9550" duration="50" mode="linear"/>
+				<animation property="origin" to="0 0" 	begin="9550" duration="50" mode="linear"/>				
+				<animation property="color" to="ffffff" begin="9700" duration="5000" mode="linear"/>
+				<animation property="origin" from="0 0" to="0 0" begin="9700" duration="5000" mode="linear"/>
+
+				<animation property="y" to="1" begin="15000" duration="350" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="50" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-roi-shadow" extra="static">
+			<origin>0 0</origin>
+			<pos>0.24 0.387</pos>
+			<size>0.1963542 0.4388889</size>									
+
+			<scale>0.6</scale>
+			<path>./avatar-roi-shadow.png</path>
+			<zIndex>13</zIndex>
+			<opacity>0</opacity>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="0.5" begin="350" duration="1000" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="15000" duration="350" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="50" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-reine" extra="static">
+			<origin>0 0</origin>
+			<size>0.1098958 0.4509259</size>									
+			<pos>0.4401042 0.1157407</pos>									
+
+			<path>./avatar-reine.png</path>
+			<opacity>0</opacity>
+			<zIndex>15</zIndex>
+			<storyboard repeat="forever">
+				<animation property="x" from="2" begin="0" duration="750" mode="EaseIn"/>
+				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+				
+				<animation property="x" to="1" begin="15000" duration="350" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="50" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-reine-shadow" extra="static">
+			<origin>0 0</origin>
+			<pos>0.45 0.31</pos>
+			<size>0.1739583 0.3740741</size>									
+
+			<scale>0.6</scale>
+			<path>./avatar-reine-shadow.png</path>
+			<zIndex>13</zIndex>
+			<opacity>0</opacity>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="0.5" begin="750" duration="1000" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="15000" duration="350" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="50" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-pion" extra="static">
+			<origin>0 0</origin>
+			<size>0.0875 0.2796296</size>									
+			<pos>0.1244792 0.0768519</pos>									
+
+			<path>./avatar-pion.png</path>
+			<opacity>0</opacity>
+			<zIndex>159</zIndex>
+			<storyboard repeat="forever">
+				<animation property="x" from="-2" begin="0" duration="550" mode="linear"/>
+				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+				
+				<animation property="x" to="-1" begin="15000" duration="350" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="50" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-pion-shadow" extra="static">
+			<origin>0 0</origin>
+			<size>0.0755208 0.1648148</size>									
+			<pos>0.1364583 0.1416667</pos>									
+
+			<path>./avatar-pion-shadow.png</path>
+			<zIndex>13</zIndex>
+			<opacity>0</opacity>
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="0.5" begin="550" duration="1000" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="15000" duration="350" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="17000" duration="50" mode="linear"/>
+			</storyboard>
+		</image>
+		
+
+	</view>
+	
+
+</theme>
+

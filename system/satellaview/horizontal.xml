@@ -1,0 +1,54 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+		
+
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<size>0.2385417 0.6444444</size>									
+
+			<pos>0.33 0.177</pos>
+			<zIndex>21</zIndex>
+			
+			<storyboard>
+				
+        		<animation property="x" to="0.39" begin="" duration="4000" mode="EaseInOut"/>
+        		
+			</storyboard>	
+			
+		</image>
+
+		<!-- Arc en ciel -->
+		<!-- <image name="avatar2" extra="static"> -->
+			<!-- <origin>0 0</origin> -->
+			<!-- <pos>0 0.05</pos> -->
+			<!-- <maxSize>1 1</maxSize> -->
+			<!-- <path>./avatar2.png</path> -->
+			<!-- <linearSmooth>true</linearSmooth> -->
+			<!-- <color>FFFFFFB3</color> -->
+			<!-- <zIndex>18</zIndex> -->
+		<!-- </image> -->
+
+		<!-- Sprites -->
+		<image name="avatar3" extra="static">
+			<origin>0 0</origin>
+			<pos>0 -0.115</pos>
+			<maxSize>1 1</maxSize>
+			<path>./avatar3.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>20</zIndex>
+		</image>
+
+		<!-- Nuages -->
+		<image name="avatar4" extra="static">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<maxSize>1 1</maxSize>
+			<path>./avatar4.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>10</zIndex>
+		</image>
+
+	</view>
+</theme>

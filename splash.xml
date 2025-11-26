@@ -14,7 +14,7 @@ originally based on: "carbon"
 	<view name="splash">
 	
 		<text name="version" extra="true">
-			<text>V 2.38 - 2025 10 18 -</text>
+			<text>V 2.39 - 2025 11 26 -</text>
 			<pos>0.02 0.951</pos>
 			<color>f4ff1a</color>
 			<fontPath>./art/fonts/ubuntu.ttf</fontPath>
@@ -49,7 +49,6 @@ originally based on: "carbon"
 			<text>by Snapouille</text>
 		</text>
 	
-	
 		<splash name="splash">
 			<backgroundColor>303030FF</backgroundColor>
 		</splash>
@@ -71,8 +70,6 @@ originally based on: "carbon"
 				<gradientType>horizontal</gradientType>
 		</image>
 	
-		
-		
 		<image name="logo-user" extra="static">
 		
 			<origin>0.5 0</origin>
@@ -81,7 +78,6 @@ originally based on: "carbon"
 			<backgroundColor>ff000000</backgroundColor>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>10</zIndex>
-		
 		
 			 <path>./art/logo-user/${image.logo}</path>
 			 <path ifSubset="user-logo:custom">./your-logo.png</path>
@@ -107,12 +103,8 @@ originally based on: "carbon"
          <!-- <linearSmooth>true</linearSmooth> -->
 		<!-- </webimage>		 -->
 		
-		
-		
 
 	</view>
-
-
 
 
 </theme>

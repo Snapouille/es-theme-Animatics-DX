@@ -1,0 +1,28 @@
+<!-- atari 800 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<image name="avatar" extra="true">
+			<origin>0 0</origin>
+			<pos>0.12 0.54</pos>
+			<scale>0</scale>
+			<size>0.3067708 0.7407407</size>									
+			<linearSmooth>true</linearSmooth>
+
+			<storyboard>
+				
+				<animation property="x" to="0.14" begin="1000" duration="4000" mode="linear"/>
+        		<animation property="y" to="0.2" begin="1000" duration="4000" mode="linear"/>
+				<animation property="scale" from="0.05" to="0.3" begin="1000" duration="4000" mode="linear"/>
+				
+				<animation property="x" to="0.31" begin="6000" duration="800" mode="linear"/>
+				<animation property="y" to="-0.01" begin="6500" duration="300" mode="linear"/>
+				<animation property="scale" to="1.2" begin="6000" duration="800" mode="linear"/>
+        						
+			</storyboard>
+		</image>
+	</view>
+
+</theme>

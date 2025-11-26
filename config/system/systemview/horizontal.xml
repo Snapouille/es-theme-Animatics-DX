@@ -18,10 +18,11 @@
 	  <text name="system_description" ifSubset="system-description:Show">
 			<visible>false</visible>
 		</text>
-	  
-	  
     </view>
   </feature>
+	
+	
+	
 	
 	
   <view name="system">
@@ -29,20 +30,21 @@
      
   	
     <carousel name="systemcarousel">
-      <color>00000000</color>
-      <colorEnd>00000000</colorEnd>
-      <size>1 0.375</size>
-      <pos>0 0.805</pos>
-	  <pos ifHelpPrompts="false">0 0.875</pos>	
-      <origin>0 0</origin>
-	  <logoPos>-1 0</logoPos>
-	  <logoScale>0.85</logoScale>
-      <logoSize>0.16 0.11</logoSize>
-	  <maxLogoCount>5</maxLogoCount>
-   	  <systemInfoDelay>1000</systemInfoDelay>
-	  <defaultTransition>fade &amp; slide</defaultTransition> <!-- slide / fade / instant -->
-	  <zIndex>2001</zIndex>
-	  <linearSmooth>true</linearSmooth>
+		<color>00000000</color>
+		<colorEnd>00000000</colorEnd>
+		<size>0.96 0.375</size>
+		<pos>0.02 0.805</pos>
+		<pos ifHelpPrompts="false">0.02 0.875</pos>	
+		<origin>0 0</origin>
+		<logoPos>-1 0</logoPos>
+		<logoScale>0.85</logoScale>
+		<logoSize>0.16 0.11</logoSize>
+		<maxLogoCount>5</maxLogoCount>
+		<systemInfoDelay>1000</systemInfoDelay>
+		<defaultTransition>fade &amp; slide</defaultTransition> <!-- slide / fade / instant -->
+		<zIndex>2001</zIndex>
+		<linearSmooth>true</linearSmooth>
+		<transitionSpeed>750</transitionSpeed>
     </carousel>
 		
     <image name="bglandscape" extra="static">
@@ -76,7 +78,7 @@
     <image name="bg_Frame" extra="true">
 		<path>${themePath}/art/divers/black.png</path>
 		<size>0.32 0.92</size>									
-		<pos>0.66 0</pos>									
+		<pos>0.65 0</pos>									
 		<zIndex>6</zIndex>
 		<opacity>0.8</opacity>
     </image>
@@ -85,21 +87,15 @@
     <screenshader name="blur_Frame" extra="true">
       <path>${themePath}/art/shaders/blurcrt.glsl</path>
 		<size>0.32 0.92</size>									
-		<pos>0.66 0</pos>									
+		<pos>0.65 0</pos>									
       <zIndex>7</zIndex>
       <blur>6</blur>
     </screenshader>
 	
 	
-	
-	
-	
-	
-	
-	
 	<!-- emplacement et animation du logo -->
 	<image name="Color Logos" extra="static">
-      <pos>0.8125 0.11</pos>
+      <pos>0.81 0.11</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.28 0.164</maxSize>
 	  <path>./../../../art/logos/${system.theme}.png</path>
@@ -109,49 +105,25 @@
 	  <linearSmooth>true</linearSmooth>
       <zIndex>21</zIndex>
 	  <scale>1</scale>
-	  <storyboard>
-		  <!-- <animation property="opacity" from="0" to="1" begin="" duration="200" mode="Linear"/> -->
-		  <animation property="scale" from="0.5" to="0.95" begin="" duration="500" mode="EaseOut"/>
-		  <!-- <animation property="y" from="0.345" to="0.11" begin="620" duration="375" mode="EaseOut"/> -->
-		  <!-- <animation property="x" from="0.5" to="0.8125" begin="620" duration="375" mode="EaseOut"/> -->
-	  </storyboard>
 	</image>
 	
-	<!-- emplacement et animation du logo avec effet vanish -->
-	<image name="VanishingColorLogos" extra="static">
-	  <linearSmooth>true</linearSmooth>
-      <pos>0.8125 0.11</pos>
-      <origin>0.5 0.5</origin>
-      <maxSize>0.28 0.164</maxSize>
-	  <path>./../../../art/logos/${system.theme}.png</path>
-	  <path>./../../../art/logos/${system.theme}-${lang}.png</path>
-	  <path ifSubset="artworkregion:us">./../../../art/logos/us/${system.theme}.png</path>
-	  <path ifSubset="artworkregion:jp">./../../../art/logos/jp/${system.theme}.png</path>
-	  <opacity>0</opacity>
-	  <zIndex>20</zIndex>
-	  <storyboard>
-          <animation property="opacity" from="0.75" to="0" begin="200" duration="3000" mode="EaseOut"/>
-		  <animation property="scale" from="0.55" to="1" begin="200" duration="3000" mode="EaseOut"/>
-		  <animation property="color" from="FFAAAA" to="FF7777" begin="180" duration="3000" mode="EaseOut"/>
-	  </storyboard>
-    </image>
 	
 	
 	
 	
 	
 	<!-- Logo qui clignote en jaune dans la barre des tâches-->
-	<image name="logo">
-		 <color>909098ff</color>
-		 <opacity>1</opacity>
-	     <linearSmooth>false</linearSmooth>	 
-		 <storyboard event="activate">
- 			<animation property="color" from="FFFF00ff" to="909000ff" begin="350" duration="1200" mode="Linear" autoreverse="true" repeat="forever"/>
-		 </storyboard>
-		 <storyboard event="deactivate">
- 			<animation property="color" from="909098ff" to="909098ff" begin="" duration="" mode="Linear"/>
-	     </storyboard>	
-	</image>
+	<!-- <image name="logo"> -->
+		 <!-- <color>909098ff</color> -->
+		 <!-- <opacity>1</opacity> -->
+	     <!-- <linearSmooth>false</linearSmooth>	  -->
+		 <!-- <storyboard event="activate"> -->
+ 			<!-- <animation property="color" from="FFFF00ff" to="909000ff" begin="350" duration="1200" mode="Linear" autoreverse="true" repeat="forever"/> -->
+		 <!-- </storyboard> -->
+		 <!-- <storyboard event="deactivate"> -->
+ 			<!-- <animation property="color" from="909098ff" to="909098ff" begin="" duration="" mode="Linear"/> -->
+	     <!-- </storyboard>	 -->
+	<!-- </image> -->
 	
 	
 	
@@ -203,8 +175,6 @@
 		
 		
 		
-		
-		
 		<!-- On affiche le total des jeux si l'option TOTAL a été select -->
 		<text name="systemInfo" ifSubset="InfoCustomView:total|detailed">
 			<origin>0.5 0.5</origin>									
@@ -253,21 +223,13 @@
 	
 	<!-- Position des consoles si "Total" des jeux ou "rien" select -->
 	<image name="Consoles" extra="static">
-      <opacity>0</opacity>
+      <opacity>1</opacity>
 	  <pos>0.812 0.5</pos>
       <origin>0.5 0.5</origin>
-	  <maxSize>0.2614583 0.3351852</maxSize>	
+	  <maxSize>0.24 0.3</maxSize>	
 	  <linearSmooth>true</linearSmooth>
       <zIndex>40</zIndex>
-		<storyboard repeatAt="2">
-			<animation property="opacity" from="1" to="1" begin="350" duration="" mode="Linear"/>
-            <animation property="offsetY" from="0" to="-0.06" begin="620" duration="350" mode="EaseOutCubic" autoReverse="true"/>
-            <animation property="offsetY" from="0" to="-0.038" begin="1320" duration="250" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="-0.024" begin="1820" duration="140" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="-0.009" begin="2100" duration="60" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="-0.0025" begin="2220" duration="20" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="0" begin="2260" duration="2500" mode="Linear" autoReverse="true"/>
-	  </storyboard>	  
+      <path>./../../art/consoles/${system.theme}.png</path>
 	</image>
 	
 	<!-- Position si "Total" on remonte un peu les consoles -->
@@ -279,21 +241,13 @@
 	
 	<!-- Position des consoles si les statistiques du système sont affichés -->
 	<image name="Consoles" extra="static" ifSubset="InfoCustomView:detailed">
-      <opacity>0</opacity>
+      <opacity>1</opacity>
 	  <pos>0.812 0.4</pos>
+	  <pos ifHelpPrompts="false">0.812 0.43</pos>
       <origin>0.5 0.5</origin>
-	  <maxSize>0.2614583 0.33</maxSize>	
+	  <maxSize>0.24 0.3</maxSize>	
 	  <linearSmooth>true</linearSmooth>
       <zIndex>40</zIndex>
-		<storyboard repeatAt="2">
-			<animation property="opacity" from="1" to="1" begin="350" duration="" mode="Linear"/>
-            <animation property="offsetY" from="0" to="-0.06" begin="620" duration="350" mode="EaseOutCubic" autoReverse="true"/>
-            <animation property="offsetY" from="0" to="-0.038" begin="1320" duration="250" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="-0.024" begin="1820" duration="140" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="-0.009" begin="2100" duration="60" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="-0.0025" begin="2220" duration="20" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="0" begin="2260" duration="2500" mode="Linear" autoReverse="true"/>
-	  </storyboard>	  
 	</image>
 	
 	
@@ -309,8 +263,12 @@
 	
 	
 	<text name="systemInfoEx" extra="true">
+		<fontSize>0.022</fontSize>
+		<size>0.295 0.28</size>
+
         <alignment>center</alignment>
-		<pos>0.3425 0.50</pos>
+		<pos>0.662 0.53</pos>
+		<pos ifHelpPrompts="false">0.662 0.57</pos>
       </text>
 	
 	

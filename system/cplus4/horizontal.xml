@@ -1,0 +1,24 @@
+<!-- C4plus -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>	
+			<size>0.14375 0.7675926</size>									
+			<pos>0.49 0.47</pos>	
+			<scale>0.95</scale>
+			<linearSmooth>true</linearSmooth>					
+			<storyboard>
+				
+        		<animation property="x" to="0.53" begin="" duration="2000" mode="EaseInOut"/>
+				<animation property="scale" to="1" begin="" duration="2000" mode="EaseInOut"/>
+        		
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>

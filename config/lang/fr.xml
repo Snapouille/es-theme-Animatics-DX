@@ -62,6 +62,7 @@
 <color>Colorés</color>
 <blackandwhite>Noir et Blanc</blackandwhite>
 <custom>Personnalisé</custom>
+<user.help>Aide logo et surnom perso</user.help>
 <user.logo>Votre Logo</user.logo>
 <user.username>Votre surnom</user.username>
 <system-description>Descriptions des systèmes</system-description>
@@ -72,7 +73,6 @@
 <mediumboxesview>Boîtes - Format moyen</mediumboxesview>
 <smallboxesview>Boîtes - Petit format</smallboxesview>
 <gameNameboxesview>Boîtes - nom du jeu</gameNameboxesview>
-<user.help>Help for custom logo and nickname</user.help>
 <subset.frameColor>Couleur du cadre</subset.frameColor>
 <subset.infoColor>Couleur texte et info</subset.infoColor>
 <dimgray>Gris sombre</dimgray>
@@ -147,7 +147,7 @@
 <theme.timesPlayedLabel>Nombre de parties : </theme.timesPlayedLabel>
 <theme.gameTimeLabel>Temps de jeu : </theme.gameTimeLabel>
 
-<systemview.grid>grille (nouveauté)</systemview.grid>
+<systemview.grid>grille</systemview.grid>
 <subset.Grid_View_Size>Vue Grille : dimensions</subset.Grid_View_Size>
 
 <boxfront.Display>boîtes de jeu face avant</boxfront.Display>

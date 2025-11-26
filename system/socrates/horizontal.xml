@@ -1,0 +1,24 @@
+<!-- Vtech Socrates -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>	
+			<size>0.2604167 0.4666667</size>									
+			<pos>0.45 0.55</pos>	
+			<scale>0.9</scale>
+			<linearSmooth>true</linearSmooth>			
+			<storyboard>
+				
+        		<animation property="x" to="0.55" begin="" duration="2000" mode="EaseInOut"/>
+				<animation property="scale" to="1" begin="" duration="2000" mode="Bump"/>
+        		
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>

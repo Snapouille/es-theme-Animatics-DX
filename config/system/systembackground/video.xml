@@ -85,7 +85,7 @@
   
   
   
-<view name="system" ifSubset="SystemView:grid">
+<view name="system" ifSubset="SystemView:grid|figurines">
   
 	<image name="background-cut, frame_big" extra="static">
 		<visible>false</visible>

@@ -1,0 +1,147 @@
+<!-- Auto All Games -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		
+		<image name="sofa" extra="static">
+			<origin>0 0</origin>									
+			<size>0.5208333 0.6046296</size>									
+			<pos>0.235 0.28</pos>
+			<scale>0.45</scale>
+			<color>202020</color>
+			<path>./sofa.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>19</zIndex>
+		</image>
+		
+		<image name="ghost" extra="static">
+			<origin>0 0</origin>									
+			<size>0.5208333 0.6046296</size>
+			<pos>-1 0.28</pos>
+			<scale>0.45</scale>
+			<color>202020</color>
+			<path>./ghost.png</path>
+			<zIndex>19</zIndex>
+		</image>
+		
+		<image name="tuyau" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1197917 0.3898148</size>									
+			<pos>0.08 -1</pos>
+			<scale>0.8</scale>
+			<path>./tuyau.png</path>
+			<zIndex>20</zIndex>
+		</image>
+		
+		<image name="tuyauH" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1197917 0.3898148</size>	
+			<pos>0.08 -1</pos>
+			<scale>0.8</scale>
+			<path>./tuyauH.png</path>
+			<zIndex>19</zIndex>
+		</image>
+		
+		<image name="mario" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1302083 0.2657407</size>									
+			<pos>0.095 0.45</pos>
+			<scale>0.57</scale>
+			<path>./mario.png</path>
+			<opacity>0</opacity>
+			<zIndex>19</zIndex>
+		</image>
+		
+		
+		<image name="mario" extra="true">
+			<storyboard repeat="forever">
+				
+				<animation property="opacity" from="0" to="1" begin="6200" duration="300" mode="linear"/>
+				<animation property="x" from="0.095" to="0.08" begin="6200" duration="1300" mode="EaseInQuint"/>
+				<animation property="y" from="0.45" to="0.207" begin="6200" duration="1300" mode="Linear"/>
+                <animation property="scale" from="0.57" to="0.75" begin="6200" duration="1300" mode="EaseInQuint"/>
+				
+				
+				<animation property="x" from="0.08" to="0.095" begin="30000" duration="1300" mode="EaseOutQuint"/>
+				<animation property="y" from="0.207" to="0.45" begin="30000" duration="1300" mode="Linear"/>
+                <animation property="scale" from="0.75" to="0.57" begin="30000" duration="1300" mode="EaseOutQuint"/>
+				<animation property="opacity" from="1" to="0" begin="31000" duration="300" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="36500" duration="100" mode="Linear"/>
+				
+			</storyboard>			
+		</image>
+		
+		<image name="tuyau" extra="true">
+			<storyboard repeat="forever">
+				<animation property="y" from="-1" to="0.39" begin="5700" duration="500" mode="Linear"/>
+				
+				<animation property="y" from="0.39" to="-1" begin="33000" duration="500" mode="Linear"/>
+				
+				<animation property="y" to="-1" begin="36500" duration="100" mode="Linear"/>
+			</storyboard>			
+		</image>
+		
+		
+		<image name="tuyauH" extra="true">
+			<storyboard repeat="forever">
+			
+				<animation property="y" from="-1" to="0.39" begin="5700" duration="500" mode="Linear"/>
+			
+				<animation property="y" from="0.39" to="-1" begin="33000" duration="500" mode="Linear"/>
+				
+				<animation property="y" to="-1" begin="36500" duration="100" mode="Linear"/>
+				
+			</storyboard>			
+		</image>
+		
+		<image name="sofa" extra="true">
+			<storyboard repeat="forever">
+				<animation property="x" from="0.235" to="0.23" begin="3000" duration="800" mode="EaseInQuint"/>
+				<animation property="y" from="0.28" to="0.24" begin="3000" duration="800" mode="Linear"/>
+                <animation property="scale" from="0.45" to="0.85" begin="3000" duration="800" mode="EaseInQuint"/>
+				<animation property="color" from="202020" to="FFFFFF" begin="3000" duration="800" mode="EaseInQuint"/>
+				
+				<animation property="rotation" to="-0.5" begin="3800" autoreverse="true" duration="1600" repeat="10" mode="Linear"/>
+				<animation property="x" to="0.22" begin="3800" autoreverse="true" duration="1600" repeat="10" mode="Linear"/>
+				
+				<animation property="x" from="0.23" to="0.235" begin="35800" duration="800" mode="EaseOutQuint"/>
+				<animation property="y" from="0.24" to="0.28" begin="35800" duration="800" mode="Linear"/>
+                <animation property="scale" from="0.85" to="0.45" begin="35800" duration="800" mode="EaseOutQuint"/>
+				<animation property="color" from="FFFFFF" to="202020" begin="35800" duration="800" mode="EaseOutQuint"/>
+				
+				
+			</storyboard>			
+		</image>
+		
+		<image name="ghost" extra="true">
+			<storyboard repeat="forever">
+			
+				<animation property="x" to="0.235" begin="" duration="1000" mode="EaseOutQuint"/>
+				<animation property="rotation" to="-30" begin="" autoreverse="true" duration="1500" repeat="1" mode="EaseOut"/>
+				<animation property="y" to="0.2" begin="" autoreverse="true" duration="1500" repeat="1" mode="EaseIn"/>
+				<animation property="x" to="0.26" begin="1000" autoreverse="true" duration="500" repeat="3" mode="linear"/>
+			
+				<animation property="x" from="0.235" to="0.23" begin="3000" duration="800" mode="EaseInQuint"/>
+				<animation property="y" from="0.28" to="0.24" begin="3000" duration="800" mode="Linear"/>
+                <animation property="scale" from="0.45" to="0.85" begin="3000" duration="800" mode="EaseInQuint"/>
+				<animation property="color" from="202020" to="FFFFFF" begin="3000" duration="800" mode="EaseInQuint"/>
+				
+				<animation property="rotation" to="-10" begin="3800" autoreverse="true" duration="5000" repeat="3" mode="Linear"/>
+				<animation property="x" from="0.23" to="0.24" begin="3800" autoreverse="true" duration="3000" repeat="5" mode="Linear"/>
+				<animation property="y" to="0.22" begin="3800" autoreverse="true" duration="3200" repeat="5" mode="Linear"/>
+				
+				<animation property="x" from="0.23" to="1" begin="33800" duration="2800" mode="EaseIn"/>
+				<animation property="scale" to="4" begin="33800" duration="2800" mode="Linear"/>			
+				
+			</storyboard>			
+		</image>
+		
+		
+	</view>
+	
+</theme>
+

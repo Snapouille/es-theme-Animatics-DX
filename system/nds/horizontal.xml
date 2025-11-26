@@ -1,0 +1,160 @@
+<!-- NDS -->
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+	<image name="BG_snapLegacy" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>1 1</size>									
+		<pos>0.375 0.5583333</pos>									
+		  <storyboard>
+			<animation property="size" to="0.7463542 0.7462963" begin="" duration="2500" mode="EaseInOut"/>
+			<animation property="pos" to="0.3976563 0.418" begin="" duration="2500" mode="EaseInOut"/>
+		  </storyboard>
+	</image>
+
+	<image name="avatar-stone" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.6526042 0.3175926</size>									
+		<pos>0.6736979 1.0412037</pos>									
+		<path>./avatar-stone.png</path>
+        <zIndex>15</zIndex>
+			<storyboard>
+				<animation property="offsetY" to="-0.2" begin="" duration="1000" mode="EaseInOut"/>
+			</storyboard>
+	</image>
+	
+	<image name="avatar-clouds" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.9270833 0.812037</size>									
+		<pos>-0.2427083 0.35</pos>									
+		<path>./avatar-clouds.png</path>
+        <zIndex>11</zIndex>
+		<scale>0.6</scale>
+			<storyboard repeatAt="1500">
+				<animation property="x" to="0.8927083" begin="2000" duration="8000" mode="EaseInOut"/>
+				<animation property="x" to="0.8927083" begin="18000" duration="1" mode="EaseInOut"/>
+			</storyboard>
+	</image>
+
+	<image name="avatar-bats" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.5567708 0.3574074</size>									
+		<pos>0.8924479 1.7</pos>									
+		<path>./avatar-bats.gif</path>
+        <zIndex>12</zIndex>
+		<scale>0.8</scale>
+			<storyboard repeat="forever">
+				<animation property="pos" to="0.2434896 0.25" begin="" duration="12000" mode="EaseInOut"/>
+				<animation property="offsetX" to="0.005" begin="12000" duration="2000" mode="linear"/>
+				<animation property="offsetY" to="0.01" begin="12000" duration="2000" mode="linear"/>
+				<animation property="scale" to="0" begin="14000" duration="10000" mode="EaseInOut"/>
+				<animation property="offsetX" to="-0.2" begin="14000" duration="10000" mode="EaseInOut"/>
+				
+				<animation property="pos" to="0.8924479 1.7" begin="25000" duration="1" mode="EaseInOut"/>
+				<animation property="scale" to="0.9" begin="25100" duration="1" mode="EaseInOut"/>
+				
+				<animation property="pos" to="0.36 0.35" begin="27000" duration="10000" mode="EaseInOut"/>
+				<animation property="offsetX" to="-0.17" begin="37000" duration="2000" mode="linear"/>
+				<animation property="offsetY" to="0.01" begin="37000" duration="2000" mode="linear"/>
+				<animation property="scale" to="0" begin="39000" duration="10000" mode="EaseInOut"/>
+				<animation property="offsetX" to="-0.3" begin="39000" duration="10000" mode="EaseInOut"/>
+				
+				<animation property="scale" to="0" begin="50000" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+
+	<image name="avatar-genya" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.08125 0.4527778</size>									
+		<pos>-0.1 0.4773148</pos>									
+		<path>./avatar-genya.png</path>
+        <zIndex>13</zIndex>
+		<storyboard>
+			<animation property="x" to="0.1296875" begin="1600" duration="1000" mode="EaseInOut"/>
+		</storyboard>
+	</image>
+	
+	<image name="avatar-genya-GIF" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.08125 0.4527778</size>									
+		<pos>0.1296875 0.4773148</pos>									
+		<path>./avatar-genya-wind.gif</path>
+        <zIndex>14</zIndex>
+		<opacity>0</opacity>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="4000" duration="1" mode="linear"/>
+				<animation property="opacity" to="0" begin="10000" duration="1" mode="linear"/>
+				<animation property="opacity" to="0" begin="18000" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+
+	
+
+	<image name="avatar-soma" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.1942708 0.8037037</size>									
+		<pos>0.5679688 1.525</pos>									
+		<path>./avatar-soma.png</path>
+        <zIndex>20</zIndex>
+			<storyboard repeatAt="1500">
+			
+				<animation property="offsetY" to="-1" begin="" duration="1000" mode="EaseInOut"/>
+			
+				<animation property="opacity" to="0" begin="4000" duration="1" mode="EaseInOut"/>
+				<animation property="opacity" to="1" begin="10000" duration="1" mode="EaseInOut"/>
+				<animation property="opacity" to="1" begin="18000" duration="1" mode="EaseInOut"/>
+			</storyboard>
+	</image>
+	
+	<image name="avatar-soma-GIF" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.1942708 0.8037037</size>									
+		<pos>0.5679688 0.525</pos>									
+		<path>./avatar-soma-wind.gif</path>
+        <zIndex>21</zIndex>
+		<opacity>0</opacity>
+			<storyboard repeatAt="1500">
+				<animation property="opacity" to="1" begin="4000" duration="1" mode="EaseInOut"/>
+				<animation property="opacity" to="0" begin="10000" duration="1" mode="EaseInOut"/>
+				<animation property="opacity" to="0" begin="18000" duration="1" mode="EaseInOut"/>
+			</storyboard>
+	</image>
+
+	
+
+	<image name="avatar-yoko" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.1192708 0.7611111</size>									
+		<pos>0.4898438 1.5518519</pos>									
+		<path>./avatar-yoko.png</path>
+        <zIndex>22</zIndex>
+			<storyboard repeatAt="1500">
+			
+				<animation property="offsetY" to="-1" begin="200" duration="1000" mode="EaseInOut"/>
+
+				<animation property="opacity" to="0" begin="4000" duration="1" mode="EaseInOut"/>
+				<animation property="opacity" to="1" begin="10000" duration="1" mode="EaseInOut"/>
+				<animation property="opacity" to="1" begin="18000" duration="1" mode="EaseInOut"/>
+			</storyboard>
+	</image>
+	
+	<image name="avatar-yoko-GIF" extra="static">
+		<origin>0.5 0.5</origin>									
+		<size>0.1192708 0.7611111</size>									
+		<pos>0.4898438 0.5518519</pos>									
+		<path>./avatar-yoko-wind.gif</path>
+        <zIndex>23</zIndex>
+		<opacity>0</opacity>
+			<storyboard repeatAt="1500">
+				<animation property="opacity" to="1" begin="4000" duration="1" mode="EaseInOut"/>
+				<animation property="opacity" to="0" begin="10000" duration="1" mode="EaseInOut"/>
+				<animation property="opacity" to="0" begin="18000" duration="1" mode="EaseInOut"/>
+			</storyboard>
+	</image>
+
+
+	
+</view>
+</theme>

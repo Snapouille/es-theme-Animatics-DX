@@ -1,0 +1,728 @@
+<!-- WonderSwan Color -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+	
+	<!-- <image name="BG_snapLegacy" extra="true"> -->
+		<!-- <scale>2.03</scale> -->
+		<!-- <color>202020</color> -->
+		<!-- <size>0.58125 0.6509259</size>									 -->
+		<!-- <pos>0.3177083 0.3856481</pos>									 -->
+		<!-- <zIndex>3</zIndex> -->
+		  <!-- <storyboard> -->
+					<!-- <animation property="color" to="FFFFFFFF" begin="" duration="1000" mode="linear"/> -->
+					
+					<!-- <animation property="scale" to="1" begin="" duration="1300" mode="EaseInOut"/> -->
+					<!-- <animation property="offsetX" to="-0.001" begin="" duration="500" mode="linear"/> -->
+		  <!-- </storyboard> -->
+    <!-- </image> -->
+	
+	
+	
+		<image name="pegase, star01, star02, star03, line01, line02, line03, line04, line05, line06, line07, line08, line09, line10, line11, line12, line13, star04, star05, star06, star07, star08, star09, star10, star11, star12, star13, star14">
+			<zIndex>17</zIndex>
+			<origin>0.5 0.5</origin>
+			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		
+		<image name="seiya1, seiya1bis, seiya2, seiya2bis, seiya3, seiya3bis, laser1, laser2, laser3, laser4, laser5, laser6">
+			<zIndex>28</zIndex>
+			<origin>0.5 0.5</origin>
+			<opacity>0</opacity>
+			<linearSmooth>true</linearSmooth>
+		</image>
+
+		<image name="seiya1" extra="true">
+			<size>0.1729167 0.7037037</size>								
+			<pos>-0.37 0.4861111</pos>				
+			<opacity>0</opacity>
+			<path>./seiya/seiya1.png</path>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="100" duration="10" mode="easeInOut"/>
+				<animation property="x" from="-0.37" to="0.5369792" begin="" duration="1000" mode="easeInOut"/>
+				
+				<animation property="opacity" to="0" begin="800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2600" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3200" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5600" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6200" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="6500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="7100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="7400" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="seiya1bis" extra="true">
+			<size>0.1729167 0.7037037</size>								
+			<pos>-0.37 0.4861111</pos>				
+			<opacity>0</opacity>
+			<path>./seiya/seiya1bis.png</path>
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="100" duration="10" mode="easeInOut"/>
+				<animation property="x" from="-0.37" to="0.5369792" begin="" duration="1000" mode="easeInOut"/>
+				
+				<animation property="opacity" to="1" begin="800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="1400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="1700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="2600" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="2900" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3200" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="3500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="3800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="4400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="4700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="5600" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="5900" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="6200" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="6500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="6800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="7100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="7400" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="7700" duration="100"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="star01" extra="true">
+			<size>0.0046875 0.0092593</size>									
+			<pos>0.1914063 0.3583333</pos>									
+			<path>./seiya/star01.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1000" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1000" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="5000" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="11000" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="21300" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star02" extra="true">
+			<size>0.0036458 0.0055556</size>									
+			<pos>0.2132813 0.3361111</pos>									
+			<path>./seiya/star02.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1100" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1100" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="5100" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="11200" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="21200" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star03" extra="true">
+			<size>0.00625 0.0092593</size>									
+			<pos>0.2395833 0.3685185</pos>									
+			<path>./seiya/star03.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1200" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1200" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="5200" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="11400" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="21100" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star04" extra="true">
+			<size>0.003125 0.0055556</size>									
+			<pos>0.2463542 0.3787037</pos>									
+			<path>./seiya/star04.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1300" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1300" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="5300" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="11600" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="21000" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star05" extra="true">
+			<size>0.0057292 0.0101852</size>									
+			<pos>0.2638021 0.400463</pos>									
+			<path>./seiya/star05.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1400" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1400" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="5400" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="11800" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20900" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star06" extra="true">
+			<size>0.0078125 0.0092593</size>									
+			<pos>0.3200521 0.4092593</pos>									
+			<path>./seiya/star06.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1500" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1500" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="5500" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="12000" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20800" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star07" extra="true">
+			<size>0.0052083 0.0101852</size>									
+			<pos>0.3083333 0.5013889</pos>									
+			<path>./seiya/star07.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1600" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1600" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="5600" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="12200" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20700" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star08" extra="true">
+			<size>0.0052083 0.0092593</size>									
+			<pos>0.2609375 0.487963</pos>									
+			<path>./seiya/star08.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1700" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1700" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="5700" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="12400" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20600" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star09" extra="true">
+			<size>0.003125 0.0064815</size>									
+			<pos>0.2494792 0.4708333</pos>									
+			<path>./seiya/star09.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1800" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1800" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="5800" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="12600" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20500" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star10" extra="true">
+			<size>0.003125 0.0055556</size>									
+			<pos>0.2442708 0.4648148</pos>									
+			<path>./seiya/star10.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1900" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1900" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="5900" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="12800" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20400" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star11" extra="true">
+			<size>0.0041667 0.0055556</size>									
+			<pos>0.2109375 0.4768519</pos>									
+			<path>./seiya/star11.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="2000" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="2000" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="6000" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="13000" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20300" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star12" extra="true">
+			<size>0.003125 0.0046296</size>									
+			<pos>0.1932292 0.4800926</pos>									
+			<path>./seiya/star12.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="2100" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="2100" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="6100" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="13200" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20200" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star13" extra="true">
+			<size>0.003125 0.0055556</size>									
+			<pos>0.2427083 0.5018519</pos>									
+			<path>./seiya/star13.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="2200" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="2200" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="6200" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="13400" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20100" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="star14" extra="true">
+			<size>0.0057292 0.0111111</size>									
+			<pos>0.2158854 0.5305556</pos>									
+			<path>./seiya/star14.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="2300" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="2300" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="6300" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="scale" to="2" begin="13600" duration="100" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20000" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		
+		
+		<image name="line01" extra="true">
+			<size>0.0166667 0.0194444</size>									
+			<pos>0.2026042 0.3467593</pos>									
+			<path>./seiya/line01.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1200" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1200" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="21400" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line02" extra="true">
+			<size>0.0239583 0.0296296</size>									
+			<pos>0.2265625 0.3527778</pos>									
+			<path>./seiya/line02.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1300" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1300" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="21300" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line03" extra="true">
+			<size>0.0151042 0.0185185</size>									
+			<pos>0.2544271 0.3888889</pos>									
+			<path>./seiya/line03.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1400" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1400" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="21200" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line04" extra="true">
+			<size>0.0515625 0.0092593</size>									
+			<pos>0.2908854 0.4055556</pos>									
+			<path>./seiya/line04.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1500" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1500" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="21100" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line05" extra="true">
+			<size>0.0119792 0.087037</size>									
+			<pos>0.3148438 0.4537037</pos>									
+			<path>./seiya/line05.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1600" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1600" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="21000" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line06" extra="true">
+			<size>0.0427083 0.0166667</size>									
+			<pos>0.2848958 0.4953704</pos>									
+			<path>./seiya/line06.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1700" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1700" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20900" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line07" extra="true">
+			<size>0.0041667 0.0787037</size>									
+			<pos>0.2630208 0.4449074</pos>									
+			<path>./seiya/line07.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1800" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1800" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20800" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line08" extra="true">
+			<size>0.0088542 0.0138889</size>									
+			<pos>0.2549479 0.4800926</pos>									
+			<path>./seiya/line08.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="1900" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="1900" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20700" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line09" extra="true">
+			<size>0.0052083 0.0055556</size>									
+			<pos>0.2473958 0.4685185</pos>									
+			<path>./seiya/line09.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="2000" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="2000" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20600" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line10" extra="true">
+			<size>0.03125 0.0148148</size>									
+			<pos>0.2286458 0.4703704</pos>									
+			<path>./seiya/line10.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="2100" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="2100" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20500" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line11" extra="true">
+			<size>0.0135417 0.0027778</size>									
+			<pos>0.2020833 0.4791667</pos>									
+			<path>./seiya/line11.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="2200" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="2200" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20400" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line12" extra="true">
+			<size>0.0145833 0.012037</size>									
+			<pos>0.2510417 0.4958333</pos>									
+			<path>./seiya/line12.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="2300" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="2300" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20300" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		<image name="line13" extra="true">
+			<size>0.0229167 0.0231481</size>									
+			<pos>0.2296875 0.5152778</pos>									
+			<path>./seiya/line13.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="2400" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="2400" duration="50" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="0" begin="20200" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+		</image>
+		
+		<image name="pegase" extra="true">
+			<size>0.5375 0.6444444</size>									
+			<pos>0.3088542 0.3861111</pos>									
+			<path>./seiya/pegase.png</path>
+			<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="2400" duration="2600" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="20000" duration="2000"/>
+				
+			</storyboard>					
+		</image>
+		
+		
+		
+		<image name="laser1" extra="true">
+			<size>0.1229167 0.3935185</size>									
+			<pos>0.5317708 0.1967593</pos>																
+			<path>./seiya/laser1.png</path>
+								
+			<storyboard repeat="forever">
+				
+        		<animation property="opacity" to="1" begin="6300" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="6300" duration="50" autoreverse="true" mode="linear"/>
+        		<animation property="opacity" to="0" begin="6450" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+				
+			</storyboard>					
+
+		</image>
+		<image name="laser2" extra="true">
+			<size>0.1229167 0.5712963</size>									
+			<pos>0.5307292 0.2782407</pos>									
+			<path>./seiya/laser2.png</path>
+								
+			<storyboard repeat="forever">
+				
+        		<animation property="opacity" to="1" begin="6450" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="6450" duration="50" autoreverse="true" mode="linear"/>
+        		<animation property="opacity" to="0" begin="6600" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+				
+			</storyboard>					
+
+		</image>
+		<image name="laser3" extra="true">
+			<size>0.2479167 0.8805556</size>									
+			<pos>0.5317708 0.4384259</pos>									
+			<path>./seiya/laser3.png</path>
+								
+			<storyboard repeat="forever">
+				
+        		<animation property="opacity" to="1" begin="6600" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="6600" duration="50" autoreverse="true" mode="linear"/>
+        		<animation property="opacity" to="0" begin="6750" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+				
+			</storyboard>					
+
+		</image>
+		<image name="laser4" extra="true">
+			<size>0.3166667 0.8981481</size>									
+			<pos>0.5197917 0.4490741</pos>									
+			<path>./seiya/laser4.png</path>
+								
+			<storyboard repeat="forever">
+				
+        		<animation property="opacity" to="1" begin="6750" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="6750" duration="50" autoreverse="true" mode="linear"/>
+        		<animation property="opacity" to="0" begin="6900" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+				
+			</storyboard>					
+
+		</image>
+		<image name="laser5" extra="true">
+			<size>1.0041667 1.3148148</size>									
+			<pos>0.5447917 0.2324074</pos>									
+			<path>./seiya/laser5.png</path>
+								
+			<storyboard repeat="forever">
+				
+        		<animation property="opacity" to="1" begin="6900" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="6900" duration="50" autoreverse="true" mode="linear"/>
+        		<animation property="opacity" to="0" begin="7050" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="7350" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="7350" duration="50" autoreverse="true" mode="linear"/>
+        		<animation property="opacity" to="0" begin="7500" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="7800" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="7800" duration="50" autoreverse="true" mode="linear"/>
+        		<animation property="opacity" to="0" begin="7950" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+				
+			</storyboard>					
+
+		</image>
+		<image name="laser6" extra="true">
+			<size>0.5755208 0.9435185</size>									
+			<pos>0.5815104 0.4375</pos>									
+			<path>./seiya/laser6.png</path>
+								
+			<storyboard repeat="forever">
+				
+        		<animation property="opacity" to="1" begin="7050" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="7050" duration="50" autoreverse="true" mode="linear"/>
+        		<animation property="opacity" to="0" begin="7200" duration="100" mode="EaseOut"/>
+				
+				<animation property="opacity" to="1" begin="7500" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="7500" duration="50" autoreverse="true" mode="linear"/>
+        		<animation property="opacity" to="0" begin="8000" duration="2000" mode="EaseOut"/>
+				
+				<animation property="opacity" to="1" begin="8100" duration="100" mode="linear"/>
+				<animation property="scale" to="2" begin="8100" duration="50" autoreverse="true" mode="linear"/>
+        		<animation property="opacity" to="0" begin="8250" duration="2000" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+				
+			</storyboard>					
+
+		</image>
+		
+		
+		<image name="seiya2" extra="true">
+			<size>0.2791667 0.7407407</size>									
+			<pos>0.5432292 0.5064815</pos>									
+			<path>./seiya/seiya2.png</path>
+								
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="7700" duration="100"/>
+				<animation property="opacity" to="0" begin="8000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8200" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8600" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="9000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9200" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="9400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9600" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="9800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="10000" duration="100"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+
+		</image>
+		
+		<image name="seiya2bis" extra="true">
+			<size>0.2791667 0.7407407</size>									
+			<pos>0.5432292 0.5064815</pos>									
+			<path>./seiya/seiya2bis.png</path>
+								
+			<storyboard repeat="forever">
+				
+				<animation property="opacity" to="1" begin="8000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8200" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="8600" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="8800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="9200" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="9600" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="9800" duration="10" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+			</storyboard>					
+
+		</image>
+		
+		
+		<image name="seiya3" extra="true">
+			<size>0.43125 0.7407407</size>									
+			<pos>0.5239583 0.4898148</pos>									
+			<path>./seiya/seiya3.png</path>
+								
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="10000" duration="100"/>
+				<animation property="scale" to="1.1" begin="10000" duration="100" autoreverse="true" mode="linear"/>
+				
+				<animation property="opacity" to="0" begin="10300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="10600" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="10900" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11200" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="12100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="12400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="12700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="13000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="13600" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13900" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="14200" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="14500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="14800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="15100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="15400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="15700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="16000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="16300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="16600" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="16900" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="17200" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="17500" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="17800" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="18100" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="18400" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="18700" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="19000" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="19300" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="19600" duration="10" mode="linear"/>
+				
+				
+				<animation property="scale" to="6" begin="18700" duration="1300"/>
+				<animation property="offsetY" to="1.3" begin="18700" duration="1300"/>
+				<animation property="offsetX" to="-0.1" begin="18700" duration="1300"/>
+				<animation property="opacity" to="0" begin="19700" duration="300"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+				
+			</storyboard>					
+
+		</image>
+		
+		
+		<image name="seiya3bis" extra="true">
+			<size>0.43125 0.7407407</size>									
+			<pos>0.5239583 0.4898148</pos>									
+			<path>./seiya/seiya3bis.png</path>
+								
+			<storyboard repeat="forever">
+				<animation property="scale" to="1.1" begin="10000" duration="100" autoreverse="true" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="10300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="10600" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="10900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11200" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="11500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="11800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="12100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="12400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="12700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="13300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="13600" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="13900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="14200" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="14500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="14800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="15100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="15400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="15700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="16000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="16300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="16600" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="16900" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="17200" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="17500" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="17800" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="18100" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="18400" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="18700" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="19000" duration="10" mode="linear"/>
+				<animation property="opacity" to="1" begin="19300" duration="10" mode="linear"/>
+				<animation property="opacity" to="0" begin="19600" duration="10" mode="linear"/>
+				
+				
+				<animation property="scale" to="6" begin="18700" duration="1300"/>
+				<animation property="offsetY" to="1.3" begin="18700" duration="1300"/>
+				<animation property="offsetX" to="-0.1" begin="18700" duration="1300"/>
+				<animation property="opacity" to="0" begin="19700" duration="300"/>
+				
+				<animation property="opacity" to="0" begin="21990" duration="10" mode="linear"/>
+				
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>

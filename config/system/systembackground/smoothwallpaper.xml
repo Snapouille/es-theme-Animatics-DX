@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+  
+<view name="system">
+	
+	<image name="background" extra="static">
+		  <visible>false</visible>
+	</image>
+	
+	<image name="frame_barreAnim_bas, BarAndRound, diago-bas1, diago-bas2, diago-bas3, diago-bas4, diago-bas5">
+		<visible>false</visible>
+	</image>	
+	
+	<image name="barre_Haut" ifSubset="SystemView:horizontal|wheel|wheel-animatics" extra="true">
+		<path>./../../../art/divers/white.png</path>
+		<color>${frameColor}</color>
+		<zIndex>23</zIndex>
+		<origin>0.5 0.5</origin>									
+		<size>0.5364583 0.0055556</size>									
+		<pos>0.3328125 0.0925926</pos>									
+	</image>
+	
+	<!-- on affiche pas la barre haut ni les diago haut si pas de surnom et pas d'avatar -->
+	<image name="barre_Haut, frame_barreAnim_haut, diago-haut1, diago-haut2, diago-haut3, diago-haut4, diago-haut5" ifSubset="user-username:none, user-logo:none" extra="true">
+		<visible>false</visible>
+	</image>
+	
+	
+	<image name="background-smooth" extra="true">
+		<size>1 1</size>
+		<pos>0.5 0.5</pos>
+		<pos ifSubset="SystemView:horizontal">0.5 0.45</pos>
+		<origin>0.5 0.5</origin>
+		<zIndex>1</zIndex>
+		
+		<path>firstfile(
+			"${themePath}/system/" + {system:theme} + "/background-fanart.jpg",
+			"${themePath}/system/" + {system:theme} + "/background-grid.jpg",
+			"${themePath}/system/" + {system:theme} + "/background.jpg")
+		</path>
+	</image>
+	
+	<!-- Flip des background pour ces vues -->
+	<image name="background-smooth" ifSubset="SystemView:horizontal|wheel|wheel-animatics" extra="true">
+		<flipX if="{system.theme} == '3do' || 
+				   {system.theme} == 'apple2' ||
+				   {system.theme} == 'atari800' ||
+				   {system.theme} == 'atari5200' ||
+				   {system.theme} == 'xegs' ||
+				   {system.theme} == 'atarilynx' ||
+				   {system.theme} == 'wonderswancolor' ||
+				   {system.theme} == 'amiga500' ||
+				   {system.theme} == 'advision' ||
+				   {system.theme} == 'channelf' ||
+				   {system.theme} == 'pico8' ||
+				   {system.theme} == 'fmtowns' ||
+				   {system.theme} == 'gp32' ||
+				   {system.theme} == 'pcengine' ||
+				   {system.theme} == 'pce-cd' ||
+				   {system.theme} == 'pcfx' ||
+				   {system.theme} == 'gb' ||
+				   {system.theme} == 'gb2players' ||
+				   {system.theme} == 'snes' ||
+				   {system.theme} == 'gc' ||
+				   {system.theme} == 'nds' ||
+				   {system.theme} == 'wii' ||
+				   {system.theme} == 'cdi' ||
+				   {system.theme} == 'sg-1000' ||
+				   {system.theme} == 'mastersystem' ||
+				   {system.theme} == 'sega32x' ||
+				   {system.theme} == 'vectrex' ||
+				   {system.theme} == '3do' ">true</flipX>
+	</image>
+	
+	<!-- Flip des background pour ces vues -->
+	<image name="background-smooth" ifSubset="SystemView:grid" extra="true">
+		<flipX if="{system.theme} == 'bbcmicro' || 
+				   {system.theme} == 'apple2gs' ||
+				   {system.theme} == 'fbneo' ||
+				   {system.theme} == 'teknoparrot' ||
+				   {system.theme} == 'daphne' ||
+				   {system.theme} == 'atarist' ||
+				   {system.theme} == 'xegs' ||
+				   {system.theme} == 'atarijaguar' ||
+				   {system.theme} == 'wonderswan' ||
+				   {system.theme} == 'pv1000' ||
+				   {system.theme} == 'colecovision' ||
+				   {system.theme} == 'pet' ||
+				   {system.theme} == 'c64' ||
+				   {system.theme} == 'amiga1200' ||
+				   {system.theme} == 'amigacd32' ||
+				   {system.theme} == 'amigacdtv' ||
+				   {system.theme} == 'supracan' ||
+				   {system.theme} == 'intellivision' ||
+				   {system.theme} == 'samcoupe' ||
+				   {system.theme} == 'pc' ||
+				   {system.theme} == 'windows' ||
+				   {system.theme} == 'xbox' ||
+				   {system.theme} == 'fds' ||
+				   {system.theme} == 'snes' ||
+				   {system.theme} == 'n64' ||
+				   {system.theme} == 'gbc' ||
+				   {system.theme} == 'wii' ||
+				   {system.theme} == 'solarus' ||
+				   {system.theme} == 'model3' ||
+				   {system.theme} == 'megadrive' ||
+				   {system.theme} == 'x68000' ||
+				   {system.theme} == 'zxspectrum' ||
+				   {system.theme} == 'wipgames' ||
+				   {system.theme} == 'auto-favorites' ||
+				   {system.theme} == 'auto-lightgun' ||
+				   {system.theme} == 'auto-retroachievements' ||
+				   {system.theme} == 'neogeo' ||
+				   {system.theme} == 'neogeocd' ">true</flipX>
+	</image>
+	
+</view>
+
+
+
+<!-- changement de l'emplacement du total des jeux vers le bas  -->
+<!-- quand il n'y a ni le username ni l'avatar d'afficher pour les vues suivantes -->
+
+<view name="system" ifSubset="SystemView:horizontal, user-username:none, user-logo:none">
+
+	<!-- masque d'affichage derrière le total des jeux -->
+	<image name="masque_behind">
+		<size>0.11 0.025</size>									
+		<pos>0.499 0.761</pos>		
+		<pos ifHelpPrompts="false">0.5 0.83</pos>
+		<opacity>1</opacity>
+		<storyboard>
+			<animation property="opacity" to="1" duration="1" mode="linear" />
+		</storyboard>
+	</image>
+	
+	<!-- total des jeux  -->
+	<text name="systemInfo" ifSubset="InfoCustomView:total|detailed">
+		<size>0.1 0.0194444</size>									
+		<pos>0.5 0.76</pos>		
+		<pos ifHelpPrompts="false">0.5 0.83</pos>
+		<fontSize>0.02</fontSize>
+		<alignment>center</alignment>
+		<opacity>1</opacity>
+		<storyboard>
+			<animation property="opacity" to="1" duration="1" mode="linear" />
+		</storyboard>
+	</text>
+	
+</view>
+
+
+<view name="system" ifSubset="SystemView:wheel, user-username:none, user-logo:none">
+
+	<!-- masque d'affichage derrière le total des jeux -->
+	<image name="masque_behind">
+		<size>0.1 0.025</size>									
+		<pos>0.087 0.726</pos>		
+		<pos ifHelpPrompts="false">0.087 0.766</pos>
+		<opacity>1</opacity>
+		<storyboard>
+			<animation property="opacity" to="1" duration="1" mode="linear" />
+		</storyboard>
+	</image>
+	
+	<!-- total des jeux  -->
+	<text name="systemInfo" ifSubset="InfoCustomView:total|detailed">
+		<size>0.1 0.0194444</size>									
+		<pos>0.087 0.725</pos>		
+		<pos ifHelpPrompts="false">0.087 0.765</pos>
+		<fontSize>0.02</fontSize>
+		<alignment>center</alignment>
+		<opacity>1</opacity>
+		<storyboard>
+			<animation property="opacity" to="1" duration="1" mode="linear" />
+		</storyboard>
+	</text>
+		
+</view>
+
+  
+</theme>

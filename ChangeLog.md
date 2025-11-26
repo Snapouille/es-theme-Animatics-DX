@@ -1,3 +1,11 @@
+## V 2.39 - (26 11 2025)
+- Add a new background option: smooth wallpaper (WIP)
+- Add a new System view call : figurines   
+- Add Tic80 fantasy console to Game Carousel and Legendary views
+- Add Casio Loopy to Game Carousel and Legendary views
+- Add new publishers logo  
+- Add williams arcade manufacturer (no official ES)
+
 ## V 2.38 - (18 10 2025)
 - Add Namco 357/369 system
 - Update MegaDrive PNG with shadow

@@ -4,8 +4,8 @@
 <view name="gamecarousel">
   
 	<image name="figurines" extra="true">
-		<pos>0.29 0.74</pos>									
-		<pos ifHelpPrompts="false">0.29 0.8</pos>
+		<pos>0.305 0.74</pos>									
+		<pos ifHelpPrompts="false">0.305 0.8</pos>
 		<maxSize>0.13 0.35</maxSize>	
 	</image>
   

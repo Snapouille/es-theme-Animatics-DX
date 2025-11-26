@@ -1,0 +1,84 @@
+<!-- eDuke32 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+    <image name="BG_snapLegacy" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.58125 0.6509259</size>									
+		<pos>0.3177083 0.3856481</pos>	
+    </image>
+	
+		<image name="duke1" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.3875 0.7009259</size>									
+			<pos>0.4645833 0.3763889</pos>									
+			<path>./duke1.png</path>
+			<opacity>0</opacity>
+			<zIndex>18</zIndex>
+			<linearSmooth>true</linearSmooth>
+			
+			<storyboard>
+				
+				<animation property="opacity" from="0" to="1" begin="500" duration="500" mode="Linear"/>
+				<animation property="scale" to="1.03" begin="500" duration="250" autoreverse="true" mode="linear"/>
+				<animation property="rotation" to="1" begin="500" duration="250" autoreverse="true" mode="linear"/>
+				
+			</storyboard>	
+			
+
+	
+		</image>
+		
+		
+		<!-- SMOKE -->
+		<image name="smoke4, smoke5, smoke6" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>2 1</size>									
+			<linearSmooth>true</linearSmooth>
+			<path>./smoke.png</path>
+			<opacity>0</opacity>
+			
+			<zIndex>17</zIndex>
+		</image>
+		<image name="smoke4" extra="static">
+			<pos>0.016 0.4</pos>
+			<flipX>true</flipX>
+			
+			<storyboard>
+        		<animation property="opacity" from="0" to="1" begin="4000" duration="3000" mode="linear"/>
+				<animation property="offsetX" from="-0.05" to="0.05" begin="100" duration="20000" autoreverse="true" repeat="forever" mode="linear"/>
+				<animation property="offsetY" from="-0.003" to="0.003" begin="100" duration="1500" autoreverse="true" repeat="forever" mode="linear"/>
+
+			</storyboard>
+		</image>
+		<image name="smoke5" extra="static">
+			<pos>0.04 0.6</pos>
+			
+			<color>ffffff</color>
+			<storyboard>
+        		<animation property="opacity" from="0" to="1" begin="1000" duration="3000" mode="linear"/>
+				<animation property="offsetX" from="0.05" to="-0.05" begin="100" duration="20000" autoreverse="true" repeat="forever" mode="linear"/>
+				<animation property="offsetY" from="0.001" to="-0.001" begin="100" duration="1000" autoreverse="true" repeat="forever" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="smoke6" extra="static">
+			<pos>0.04 0.3</pos>
+			
+			<color>ffffff</color>
+			<storyboard>
+        		<animation property="opacity" from="0" to="1" begin="7000" duration="3000" mode="linear"/>
+				<animation property="offsetX" from="0.05" to="-0.05" begin="100" duration="20000" autoreverse="true" repeat="forever" mode="linear"/>
+				<animation property="offsetY" from="0.001" to="-0.001" begin="100" duration="1000" autoreverse="true" repeat="forever" mode="linear"/>
+				<animation property="opacity" to="0" begin="20000" duration="20000" autoreverse="true" repeat="forever" mode="linear"/>
+			</storyboard>
+		</image>
+		
+
+	</view>
+	
+</theme>

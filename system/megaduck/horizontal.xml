@@ -1,0 +1,390 @@
+<!-- Mega Duck -->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+		
+		
+	<image name="BG_snapLegacy" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.8197917 0.6592593</size>									
+		<pos>0.1984375 0.387037</pos>
+		<scale>1.01</scale>
+		  <storyboard>
+				<animation property="scale" to="1" begin="" duration="1000" mode="linear"/>
+		  </storyboard>
+	</image>
+	
+	<image name="BG_landscape" extra="true">
+		<path>./bg-landscape.png</path>
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>									
+		<size>0.6604167 0.6601852</size>									
+		<pos>0.3119792 0.4680556</pos>
+		<scale>1</scale>
+		<zIndex>6</zIndex>
+		  <!-- <storyboard> -->
+				<!-- <animation property="scale" to="1" begin="" duration="1500" mode="EaseOut"/> -->
+		  <!-- </storyboard> -->
+	</image>
+
+	<image name="BG_clouds" extra="true">
+		<path>./bg-clouds.png</path>
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>									
+		<size>1.40625 0.45</size>									
+		<pos>0.1979167 0.3712963</pos>									
+		<zIndex>5</zIndex>
+		<opacity>0</opacity>
+		  <storyboard>
+		  
+				<animation property="opacity" to="1" begin="1000" duration="4500" mode="linear"/>
+				<animation property="x" to="1.5" begin="6000" duration="25000" mode="EaseIn"/>
+				
+
+				<animation property="opacity" to="0" begin="40000" duration="10" mode="EaseOut"/>
+				<animation property="x" to="-0.7083333" begin="40000" duration="10" mode="EaseOut"/>
+				<animation property="opacity" to="1" begin="41000" duration="10" mode="EaseOut"/>
+				
+				<animation property="x" to="0.1979167" begin="50500" duration="20000" mode="EaseOut"/>
+				
+				
+		  </storyboard>
+	</image>
+	
+	<image name="BG_clouds2" extra="true">
+		<path>./bg-clouds.png</path>
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>									
+		<size>1.40625 0.45</size>									
+		<pos>-0.7083333 0.3712963</pos>									
+		<zIndex>5</zIndex>
+		  <storyboard>
+				<animation property="x" to="0.1979167" begin="11000" duration="20000" mode="EaseOut"/>
+				
+				<animation property="x" to="1.5" begin="41000" duration="25000" mode="EaseIn"/>
+				
+				
+		  </storyboard>
+	</image>
+	
+	
+	<image name="avatar-wolf-eyes1" extra="true">
+		<path>./avatar-wolf-eyes1.gif</path>
+		<origin>0.5 0.5</origin>									
+		<size>0.0364583 0.025</size>									
+		<pos>0.078125 0.5662037</pos>
+		<opacity>0</opacity>
+		<zIndex>7</zIndex>
+		<scale>0.7</scale>
+			<storyboard repeatAt="15000">
+				<animation property="opacity" to="1" begin="2100" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="6300" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="21000" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="30000" duration="100" mode="linear"/>
+				
+			</storyboard>
+	</image>
+	
+	
+		
+		
+	<image name="avatar-wolf-eyes2" extra="true">
+		<path>./avatar-wolf-eyes2.gif</path>
+		<origin>0.5 0.5</origin>									
+		<size>0.0416667 0.0268519</size>									
+		<pos>0.133 0.67</pos>									
+		<opacity>0</opacity>
+		<zIndex>7</zIndex>
+		<scale>0.7</scale>
+			<storyboard repeatAt="15000">
+				<animation property="opacity" to="1" begin="2500" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="6300" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="23000" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="33000" duration="100" mode="linear"/>
+				
+			</storyboard>
+	</image>
+	
+	
+	<image name="avatar-wolf-eyes3" extra="true">
+		<path>./avatar-wolf-eyes3.gif</path>
+		<origin>0.5 0.5</origin>									
+		<size>0.03125 0.0259259</size>									
+		<pos>0.15 0.58</pos>									
+		<opacity>0</opacity>
+		<zIndex>7</zIndex>
+		<scale>0.8</scale>
+		
+			<storyboard repeatAt="15000">
+				
+				<animation property="opacity" to="1" begin="1500" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="5500" duration="100" mode="linear"/>
+				
+				<animation property="opacity" to="1" begin="25000" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="36000" duration="100" mode="linear"/>
+				
+			</storyboard>
+	</image>
+	
+		
+		
+	<image name="avatar-wolf" extra="true">
+		<path>./avatar-wolf.png</path>
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>									
+		<size>0.1625 0.1925926</size>									
+		<pos>-0.11 0.6101852</pos>									
+		<zIndex>8</zIndex>
+		  <storyboard>
+				<animation property="x" to="0.1229167" begin="5000" duration="1500" mode="EaseInOut"/>
+				<animation property="x" to="-0.11" begin="17000" duration="2000" mode="EaseInOut"/>
+				
+		  </storyboard>
+	</image>
+		
+		
+	<image name="avatar-wolf-eyes" extra="true">
+		<path>./avatar-wolf-eyes.gif</path>
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>									
+		<size>0.1625 0.1925926</size>									
+		<pos>0.1229167 0.6101852</pos>									
+		<zIndex>9</zIndex>
+		<opacity>0</opacity>
+		  <storyboard>
+				<animation property="opacity" to="1" begin="9000" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="10000" duration="100" mode="linear"/>
+		  </storyboard>
+	</image>
+
+		
+	<image name="avatar-girl" extra="true">
+		<path>./avatar-girl.png</path>
+		<origin>0.5 0.5</origin>		
+		<size>0.3994792 0.762963</size>									
+		<pos>0.55 1.1</pos>
+		<scale>0.2</scale>
+		<opacity>1</opacity>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>9000</zIndex>
+		
+		<storyboard>
+			<animation property="scale" to="0.7" begin="7000" duration="700" mode="linear"/>
+			<animation property="y" to="0.53" begin="7000" duration="700" mode="bump"/>
+			<animation property="opacity" to="0" begin="11000" duration="1000" mode="linear"/>
+			<animation property="opacity" to="1" begin="26000" duration="1000" mode="linear"/>
+			
+			<animation property="opacity" to="0" begin="46000" duration="1000" mode="linear"/>
+			<animation property="opacity" to="1" begin="67500" duration="1000" mode="linear"/>
+			
+		</storyboard>
+	</image>
+	
+	
+	
+	<image name="avatar-girl-wind" extra="true">
+		<path>./avatar-girl-wind.gif</path>
+		<origin>0.5 0.5</origin>		
+		<size>0.3994792 0.762963</size>									
+		<pos>0.55 0.53</pos>
+		<scale>0.7</scale>
+		<opacity>0</opacity>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>9001</zIndex>
+		
+		<storyboard>
+			<animation property="opacity" to="1" begin="8000" duration="3000" mode="linear"/>
+			<animation property="opacity" to="0" begin="27000" duration="2000" mode="linear"/>
+			
+			<animation property="opacity" to="1" begin="43000" duration="3000" mode="linear"/>
+			<animation property="opacity" to="0" begin="68500" duration="2000" mode="linear"/>
+			
+		</storyboard>
+	</image>
+	
+	<image name="avatar-girl-eyebrow" extra="true">
+		<path>./avatar-girl-eyebrow.gif</path>
+		<origin>0.5 0.5</origin>		
+		<size>0.3994792 0.762963</size>									
+		<pos>0.55 0.53</pos>
+		<scale>0.7</scale>
+		<opacity>0</opacity>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>9002</zIndex>
+		
+		<storyboard>
+			<animation property="opacity" to="1" begin="13000" duration="10" mode="linear"/>
+			<animation property="opacity" to="0" begin="14000" duration="10" mode="linear"/>
+			<animation property="opacity" to="1" begin="23000" duration="10" mode="linear"/>
+			<animation property="opacity" to="0" begin="24000" duration="10" mode="linear"/>
+			<animation property="opacity" to="1" begin="45000" duration="10" mode="linear"/>
+			<animation property="opacity" to="0" begin="46000" duration="10" mode="linear"/>
+			<animation property="opacity" to="1" begin="58000" duration="10" mode="linear"/>
+			<animation property="opacity" to="0" begin="59000" duration="10" mode="linear"/>
+		</storyboard>
+	</image>
+	
+		
+	<image name="avatar-wand" extra="true">
+		<path>./avatar-wand.png</path>
+		<origin>0.5 0.5</origin>		
+		<size>0.1166667 0.3342593</size>									
+		<pos>0.475 0.5115741</pos>									
+		<opacity>0</opacity>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>9002</zIndex>
+		
+		<storyboard>
+			<animation property="opacity" to="1" begin="7700" duration="300" mode="linear"/>
+			<animation property="rotation" to="0.5" begin="7700" duration="500" autoreverse="true" repeat="10" mode="linear"/>
+			<animation property="opacity" from="1" to="0.6" begin="7700" duration="500" autoreverse="true" repeat="10" mode="EaseInOut"/>
+			<animation property="opacity" to="0" begin="19000" duration="500" mode="linear"/>
+			
+		</storyboard>
+	</image>
+	
+	<image name="avatar-girl-wink" extra="true">
+		<path>./avatar-girl-wink.gif</path>
+		<origin>0.5 0.5</origin>		
+		<size>0.3994792 0.762963</size>									
+		<pos>0.55 0.53</pos>
+		<opacity>0</opacity>
+		<scale>0.7</scale>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>9002</zIndex>
+		
+		<storyboard>
+				<animation property="opacity" to="1" begin="19400" duration="100" mode="linear"/>
+				<animation property="opacity" to="0" begin="19900" duration="100" mode="linear"/>
+			
+		</storyboard>
+	</image>
+	
+	
+		
+		
+	<image name="sheep" extra="true">
+		<path>./sheep.png</path>
+		<origin>0.5 0.5</origin>		
+		<size>0.0588542 0.1</size>									
+		<pos>0.3476563 0.9</pos>									
+		<linearSmooth>true</linearSmooth>
+		<zIndex>5</zIndex>
+		
+		<storyboard>
+			<animation property="y" to="0.6018519" begin="100" duration="1600" mode="linear"/>
+			<animation property="opacity" to="0" begin="8000" duration="100" mode="linear"/>
+			<animation property="opacity" to="1" begin="19500" duration="100" mode="linear"/>
+			
+		</storyboard>
+	</image>
+		
+		
+		
+	<image name="sheep-fly" extra="true">
+		<path>./sheep-fly.png</path>
+		<origin>0.5 0.5</origin>		
+		<size>0.0697917 0.1074074</size>									
+		<pos>0.353125 0.6018519</pos>									
+		<linearSmooth>true</linearSmooth>
+		<opacity>0</opacity>
+		<zIndex>6</zIndex>
+		
+		<storyboard>
+			<animation property="opacity" to="1" begin="8000" duration="100" mode="linear"/>
+			<animation property="size" to="0.0989583 0.1527778" begin="8000" duration="1600" mode="EaseInOut"/>
+			<animation property="pos"  to="0.35 0.47"  begin="8000" duration="1600" mode="EaseInOut"/>
+			
+			<animation property="rotation"  to="1"      begin="8000" duration="500" autoreverse="true" repeat="10" mode="EaseInOut"/>
+			<animation property="offsetY"   to="-0.003"  begin="8000" duration="500" autoreverse="true" repeat="10" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.0697917 0.1074074" begin="18000" duration="1600" mode="EaseInOut"/>
+			<animation property="pos"  to="0.353125 0.6018519"  begin="18000" duration="1600" mode="EaseInOut"/>
+			
+			<animation property="opacity" to="0" begin="19500" duration="100" mode="linear"/>
+			
+		</storyboard>
+	</image>
+
+		
+	<image name="sheep-aura" extra="true">
+		<path>./sheep-aura.png</path>
+		<origin>0.5 0.5</origin>		
+		<size>0.071875 0.1064815</size>									
+		<pos>0.3453125 0.6208333</pos>									
+		<linearSmooth>true</linearSmooth>
+		<opacity>0</opacity>
+		<zIndex>5</zIndex>
+		
+		<storyboard>
+			<animation property="opacity" to="0.9" begin="8000" duration="700" mode="linear"/>
+			<animation property="opacity" from="0.9" to="0.7" begin="8700" duration="500" autoreverse="true" repeat="9" mode="EaseInOut"/>
+			<animation property="size" to="0.121875 0.1805556" begin="8000" duration="1600" mode="EaseInOut"/>
+			<animation property="pos"  to="0.34 0.495"  begin="8000" duration="1600" mode="EaseInOut"/>
+			
+			<animation property="scale"  to="1.03"      begin="8000" duration="500" autoreverse="true" repeat="10" mode="EaseInOut"/>
+			
+			<animation property="size" to="0.071875 0.1064815" begin="18000" duration="1600" mode="EaseInOut"/>
+			<animation property="pos"  to="0.3453125 0.6208333"  begin="18000" duration="1600" mode="EaseInOut"/>
+			
+			<animation property="opacity" to="0" begin="19500" duration="100" mode="linear"/>
+			
+		</storyboard>
+	</image>
+		
+
+		
+		
+		<image name="bat1" extra="true">
+			<path>./bat1.gif</path>
+			<origin>0.5 0.5</origin>									
+			<size>0.190625 0.1685185</size>									
+			<pos>0.61 -0.1</pos>									
+			<zIndex>14</zIndex>
+			<scale>0.01</scale>
+			<linearSmooth>true</linearSmooth>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" to="0.3" begin="12000" duration="7000" mode="EaseOut"/>
+				<animation property="offsetX" to="-0.21" begin="12000" duration="7000" mode="EaseIn"/>
+				<animation property="rotation" from="1" to="-1" begin="12000" duration="100" autoreverse="true" repeat="133" mode="EaseIn"/>
+				<animation property="scale" to="0.5" begin="12000" duration="7000" mode="linear"/>
+				
+				<animation property="offsetY" to="-0.3" begin="32000" duration="7000" mode="EaseOut"/>
+				<animation property="offsetX" to="-1.3" begin="32000" duration="7000" mode="EaseIn"/>
+				<animation property="scale" to="0.3" begin="32000" duration="7000" mode="linear"/>
+				
+			</storyboard>
+		</image>
+		
+		<image name="bat2" extra="true">
+			<path>./bat2.gif</path>
+			<origin>0.5 0.5</origin>									
+			<size>0.190625 0.1685185</size>									
+			<pos>0.71 -0.1</pos>									
+			<zIndex>14</zIndex>
+			<scale>0.01</scale>
+			<linearSmooth>true</linearSmooth>
+
+			<storyboard repeat="forever">
+				<animation property="offsetY" to="0.25" begin="12800" duration="7000" mode="EaseOut"/>
+				<animation property="offsetX" to="-0.2" begin="12800" duration="7000" mode="EaseIn"/>
+				<animation property="rotation" from="1" to="-1" begin="12800" duration="100" autoreverse="true" repeat="133" mode="EaseIn"/>
+				<animation property="scale" to="0.4" begin="12800" duration="7000" mode="linear"/>
+				
+				
+				<animation property="offsetY" to="-0.25" begin="32500" duration="6500" mode="EaseOut"/>
+				<animation property="offsetX" to="-1.5" begin="32500" duration="6500" mode="EaseIn"/>
+				<animation property="scale" to="0.2" begin="32500" duration="6500" mode="linear"/>
+				
+			</storyboard>
+		</image>
+		
+		
+</view>
+
+</theme>

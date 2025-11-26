@@ -1,0 +1,85 @@
+<!-- FDS -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="BG_snapLegacy" extra="true">
+			<size>0.6583333 0.6583333</size>									
+			<pos>0.3536458 0.4</pos>	
+			<linearSmooth>true</linearSmooth>
+			  <storyboard>
+					<animation property="x" to="0.2807292" begin="" duration="10000" autoreverse="true" repeat="forever" mode="EaseInOut"/>
+			  </storyboard>
+		</image>
+		
+		
+		<image name="background-waves, background-monster, avatar-boat, avatar-bird">
+			<origin>0.5 0.5</origin>									
+			<linearSmooth>true</linearSmooth>
+			<zIndex>3000</zIndex>
+		</image>
+		
+		<image name="background-waves" extra="true">
+			<path>./background-waves.png</path>
+			<size>0.6125 0.3305556</size>									
+			<pos>0.33 0.55</pos>									
+			<zIndex>7</zIndex>
+
+			<storyboard repeat="forever">
+				<animation property="y" to="0.56" begin="" duration="1000" autoreverse="true" mode="EaseOutCubic"/>
+				<animation property="x" to="0.31" begin="" duration="1000" autoreverse="true" mode="EaseInOut"/>
+				<animation property="y" to="0.57" begin="2000" duration="1000" autoreverse="true" mode="EaseOutCubic"/>
+				<animation property="x" to="0.32" begin="2000" duration="1000" autoreverse="true" mode="EaseInOut"/>
+				<animation property="y" to="0.56" begin="4000" duration="1000" autoreverse="true" mode="EaseOutCubic"/>
+				<animation property="x" to="0.34" begin="4000" duration="1000" autoreverse="true" mode="EaseInOut"/>
+				
+			</storyboard>					
+		</image>
+		
+		<image name="background-monster" extra="true">
+			<path>./background-monster.png</path>
+			<size>0.5473958 0.6305556</size>									
+			<pos>-0.3174479 0.4032407</pos>	
+			<opacity>0</opacity>
+			<zIndex>6</zIndex>
+			<scale>1.7</scale>
+
+			<storyboard repeat="forever">
+				<animation property="scale" to="1" begin="3000" duration="10000" mode="linear"/>
+				<animation property="offsetX" to="0.55" begin="3000" duration="10000" mode="bump"/>
+				<animation property="opacity" to="1" begin="3000" duration="5000" mode="linear"/>
+				
+				<animation property="scale" to="1.01" begin="13000" duration="1500" autoreverse="true" repeat="forever" mode="EaseInOut"/>
+			</storyboard>					
+		</image>
+		
+
+		<image name="avatar-boat" extra="true">
+			<path>./avatar-boat.png</path>
+			<size>0.2838542 0.6074074</size>									
+			<pos>0.52 0.49</pos>	
+
+			<storyboard repeat="forever">
+				<animation property="y" to="0.50" begin="" duration="800" autoreverse="true" mode="EaseOutCubic"/>
+				<animation property="x" to="0.525" begin="" duration="800" autoreverse="true" mode="EaseInOut"/>
+			</storyboard>					
+		</image>
+		
+		<image name="avatar-bird" extra="true">
+			<path>./avatar-bird.gif</path>
+			<size>0.0755208 0.15</size>									
+			<pos>0.5 -0.1</pos>									
+
+			<storyboard repeatAt="1500">
+				<animation property="y" to="0.13" begin="" duration="1500" mode="easeInOut"/>
+				<animation property="x" to="0.58" begin="" duration="1500" mode="bump"/>
+				<animation property="rotation" to="3" begin="1500" autoreverse="true" duration="750" repeat="5" mode="bump"/>
+				<animation property="y" from="0.13" to="0.14" begin="1500" autoreverse="true" duration="670" repeat="5" mode="easeOut"/>
+				<animation property="x" to="0.59" begin="3000" duration="1500" autoreverse="true" mode="bump"/>
+			</storyboard>					
+		</image>
+		
+	</view>
+</theme>

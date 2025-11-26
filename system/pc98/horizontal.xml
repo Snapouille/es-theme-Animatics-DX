@@ -1,0 +1,24 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+			<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<pos>0.3 0.15</pos>
+			<maxSize>0.7 0.7</maxSize>
+			<path>./avatar.png</path>
+			<linearSmooth>true</linearSmooth>
+			
+			<storyboard>
+				
+        		<animation property="x" to="0.33" begin="" duration="4000" mode="EaseInOut"/>
+        		
+			</storyboard>	
+		</image>
+
+		
+		
+	</view>
+	
+</theme>

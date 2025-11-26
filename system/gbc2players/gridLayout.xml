@@ -163,7 +163,8 @@
 
 		
 			<storyboard repeat="forever">
-					<animation property="opacity" to="1" begin="7000" duration="150" autoreverse="true" mode="linear"/>
+				<animation property="opacity" to="1" begin="7000" duration="50"  mode="linear"/>
+				<animation property="opacity" to="0" begin="7400" duration="50"  mode="linear"/>
 					
 				<animation property="opacity" to="0" begin="13000" duration="1" mode="linear"/>
 			</storyboard>

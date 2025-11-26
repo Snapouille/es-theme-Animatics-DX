@@ -1,0 +1,177 @@
+<!-- Magnavox Odyssey2 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+
+		<image name="BG_snapLegacy" extra="true">
+			<scale>5.5</scale>
+			  <storyboard>
+			  
+					<animation property="scale" to="1" begin="" duration="1200" mode="EaseOut"/>
+					
+					
+			  </storyboard>
+		</image>
+		
+		<image name="vaisseau" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2604167 0.7194444</size>									
+			<pos>0.2 0.14</pos>
+			<scale>0.7</scale>
+			<path>./vaisseau.png</path>
+			<zIndex>121</zIndex>
+			<opacity>0</opacity>
+		</image>
+		
+		<image name="propulsion" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2604167 0.7194444</size>	
+			<pos>0.2 0.14</pos>
+			<scale>0.7</scale>
+			<path>./propulsion.png</path>
+			<zIndex>112</zIndex>
+			<opacity>0</opacity>
+		</image>
+		
+		<image name="fire" extra="static">
+			<origin>0 0</origin>									
+			<size>0.2166667 0.1916667</size>									
+			<pos>0.19 0.492</pos>
+			<scale>1</scale>
+			<path>./fire.png</path>
+			<zIndex>17</zIndex>
+			<opacity>0</opacity>
+		</image>
+
+		<image name="smoke" extra="static"> 
+			<origin>0 0</origin>									
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./smoke.png</path>
+			<zIndex>19</zIndex>
+			<opacity>0</opacity>
+		</image>
+		
+		
+		
+		
+		<image name="etoiles" extra="static">
+			<origin>0 0</origin>									
+			<size>0.584375 0.3814815</size>									
+			<pos>0 0.03</pos>
+			<path>./etoiles.png</path>
+			<opacity>0</opacity>
+			<zIndex>14</zIndex>
+		</image>
+	
+		<image name="etoiles" extra="true">	
+			<storyboard repeat="forever">
+					<animation property="opacity" from="0" to="1" begin="" duration="1500" mode="linear"/>
+					<animation property="x" to="0.6" begin="" duration="150000" mode="linear"/>
+					<animation property="opacity" from="1" to="0" begin="147000" duration="3000" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="etoiles2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.584375 0.3814815</size>		
+			<pos>0 0.03</pos>
+			<path>./etoiles.png</path>
+			<opacity>0</opacity>
+			<zIndex>14</zIndex>
+		</image>
+	
+		<image name="etoiles2" extra="true">	
+			<storyboard repeat="forever">
+					<animation property="opacity" from="0" to="1" begin="75000" duration="1500" mode="linear"/>
+					<animation property="x" to="0.6" begin="75000" duration="150000" mode="linear"/>
+					<animation property="opacity" from="1" to="0" begin="222000" duration="3000" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		
+		
+
+		<image name="vaisseau" extra="true">
+			<storyboard repeat="forever">
+			
+				<animation property="opacity" from="0" to="1" begin="1000" duration="1000" mode="linear"/>
+				<animation property="y" from="-1" to="0.14" begin="1000" duration="7000" mode="easeOut"/>
+				<animation property="x" from="-0.45" to="0.2" begin="1000" duration="7000" mode="easeOut"/>
+				<animation property="scale" from="2" to="0.65" begin="1000" duration="7000" mode="easeOut"/>
+				
+				<animation property="y" from="0.14" to="0.142" begin="8000" autoreverse="true" duration="400" repeat="20" mode="easeOut"/>
+				<animation property="rotation" to="0.2" begin="8000" autoreverse="true" duration="800" repeat="10" mode="linear"/>
+						
+				
+				<animation property="y" to="-1" begin="24000" duration="3000" mode="easeIn"/>
+				<animation property="y" to="-2" begin="27000" duration="4000" mode="easeIn"/>
+				
+			</storyboard>				
+		</image>
+		
+		
+		<image name="propulsion" extra="true">
+			<storyboard repeat="forever">
+			
+				<animation property="opacity" from="0" to="1" begin="1000" duration="150" autoreverse="true" repeat="80" mode="linear"/>
+							
+				<animation property="y" from="-1" to="0.14" begin="1000" duration="7000" mode="easeOut"/>
+				<animation property="x" from="-0.45" to="0.2" begin="1000" duration="7000" mode="easeOut"/>
+				<animation property="scale" from="2" to="0.65" begin="1000" duration="7000" mode="easeOut"/>
+				
+				<animation property="y" from="0.14" to="0.142" begin="8000" autoreverse="true" duration="400" repeat="20" mode="easeOut"/>
+				<animation property="rotation" to="0.2" begin="8000" autoreverse="true" duration="800" repeat="10" mode="linear"/>
+						
+				<animation property="y" to="-1" begin="24000" duration="3000" mode="easeIn"/>
+				<animation property="y" to="-2" begin="27000" duration="4000" mode="easeIn"/>
+				
+			</storyboard>				
+		</image>
+		
+		
+
+		<image name="fire" extra="true">
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="8000" duration="8000" mode="linear"/>	
+				<animation property="opacity" from="1" to="0" begin="25000" duration="3000" mode="linear"/>	
+				<animation property="opacity" to="0" begin="28000" duration="3000" mode="linear"/>
+			</storyboard>			
+		</image>
+
+
+		<image name="smoke" extra="true">
+			<storyboard repeat="forever">
+				<animation property="opacity" from="0" to="1" begin="17000" duration="6000" mode="linear"/>		
+				<animation property="scale" from="1" to="1.0007" begin="17000" duration="250" autoreverse="true" repeat="24" mode="easyIn"/>	
+				<animation property="rotation" to="0.1" begin="17000" autoreverse="true" duration="300" repeat="20" mode="linear"/>
+				<animation property="opacity" from="1" to="0" begin="26000" duration="3000" mode="linear"/>	
+				<animation property="opacity" to="0" begin="29000" duration="2000" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		
+		<image name="planetes" extra="true"> 
+			<origin>0 0</origin>									
+			<size>0.39375 0.2444444</size>									
+			<pos>0.19 0.191</pos>
+			<scale>0.7</scale>
+			<path>./planetes.png</path>
+			<zIndex>17</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<animation property="offsetX" to="-0.09" begin="" duration="1200" mode="EaseOut"/>
+				<animation property="offsetY" to="-0.08" begin="" duration="1200" mode="EaseOut"/>
+				<animation property="scale" to="1" begin="" duration="1200" mode="EaseOut"/>
+				<animation property="x" to="1" begin="1200" duration="5000000" mode="linear"/>
+			</storyboard>			
+		</image>
+		
+		
+		
+	</view>
+</theme>

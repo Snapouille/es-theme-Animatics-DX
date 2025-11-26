@@ -123,9 +123,10 @@
   
   
   <!-- Auto Views Design -->
-	<include>./../../../system/${system.theme}/default.xml</include>
+	<include ifSubset="SystemView:simple|vertical|vertical-arts|wheel|wheel-animatics">./../../../system/${system.theme}/default.xml</include>
 	<include ifSubset="SystemView:horizontal">./../../../system/${system.theme}/horizontal.xml</include>
 	<include ifSubset="SystemView:grid">./../../../system/${system.theme}/gridLayout.xml</include>
+	<include ifSubset="SystemView:figurines">./../../../system/figurinesLayout.xml</include>
 	
-  
+	
 </theme>

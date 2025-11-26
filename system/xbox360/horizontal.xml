@@ -1,0 +1,26 @@
+<!-- Xbox360 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>									
+			<size>0.41875 0.9472222</size>									
+									
+			<scale>0.8</scale>						
+								
+			<pos>0.49 0.43</pos>									
+			<zIndex>120</zIndex>
+			
+			<storyboard>
+				
+        		<animation property="x" to="0.51" begin="" duration="1000" mode="EaseInOut"/>
+        		
+			</storyboard>					
+
+		</image>
+		
+	</view>
+</theme>

@@ -1081,7 +1081,6 @@ originally based on: "carbon"
 	
 <view name="system" ifSubset="SystemView:grid, system-description:Show">
 	
-	
 	<!-- A REVOIR, L'ALIGNEMENT ET LA POSITION DECONNE -->
 	<!-- Texte avec le constructeur + l'année séparé par un tiret (variable va.dash.year) -->
 		<!-- <text name="system.manu.year" extra="true"> -->
@@ -1241,77 +1240,6 @@ originally based on: "carbon"
 		<pos>0.0510417 0.3138889</pos>									
 		<path>./../../art/icons/rvgm-playcount-icon.png</path>
 	</image>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-	<!-- ---------------------------------------------------- -->
-	<!-- Encadrement DROIT -->
-	<!-- ---------------------------------------------------- -->
-	
-	<!-- <image name="up_Desc_border, down_Desc_border, left_Desc_border, right_Desc_border, bg_Desc, blur_Desc, manufacturer-icon, date-icon"> -->
-		<!-- <path>./../../art/divers/white.png</path> -->
-		<!-- <color>${baseColor}</color> -->
-		<!-- <zIndex>2001</zIndex> -->
-		<!-- <origin>0.5 0.5</origin> -->
-	<!-- </image> -->
-		
-	<!-- <image name="up_Desc_border" extra="true"> -->
-		<!-- <size>0.28125 0.0027778</size>									 -->
-		<!-- <pos>0.8302083 0.5139815</pos>									 -->
-	<!-- </image> -->
-		
-	<!-- <image name="down_Desc_border" extra="true"> -->
-		<!-- <size>0.28125 0.0027778</size>									 -->
-		<!-- <pos>0.8307292 0.9041667</pos>									 -->
-	<!-- </image> -->
-	
-	<!-- <image name="left_Desc_border" extra="true"> -->
-		<!-- <size>0.0015625 0.392963</size>									 -->
-		<!-- <pos>0.6903646 0.7090741</pos>									 -->
-	<!-- </image> -->
-	
-	<!-- <image name="right_Desc_border" extra="true"> -->
-		<!-- <size>0.0015625 0.392963</size>									 -->
-		<!-- <pos>0.9705729 0.7090741</pos>									 -->
-	<!-- </image> -->
-	
-    <!-- <image name="bg_Desc" extra="true"> -->
-      <!-- <path>${themePath}/art/divers/black.png</path> -->
-	  <!-- <size>0.2807292 0.3911111</size>									 -->
-      <!-- <pos>0.8304688 0.7090741</pos>									 -->
-      <!-- <zIndex>2000</zIndex> -->
-	  <!-- <opacity>0.4</opacity> -->
-    <!-- </image> -->
-	
-    <!-- <screenshader name="blur_Desc" extra="true"> -->
-      <!-- <path>${themePath}/art/shaders/blurcrt.glsl</path> -->
-	  <!-- <size>0.2807292 0.3911111</size>									 -->
-      <!-- <pos>0.8304688 0.7090741</pos>									 -->
-      <!-- <zIndex>2000</zIndex> -->
-      <!-- <blur>6</blur> -->
-    <!-- </screenshader>		 -->
-		
-		
-	
-	
-	
-	
 </view>
 
 
@@ -1335,8 +1263,239 @@ originally based on: "carbon"
 		<pos>0.5 -0.095</pos>
 		<alignment>right</alignment>
     </text>
-		
 </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- ''''''''''    SYSTEM FIGURINE '''''''''''''''''' -->
+<!-- '''''' en complément du figurines.xml '''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+<!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
+	
+<view name="system" ifSubset="SystemView:figurines, system-description:Show">
+	
+		
+	<!-- ------------------ -->
+	<!-- Encadrement LOGO   -->
+	<!-- ------------------ -->
+	
+	<image name="up_Logo_line, down_Logo_line, left_Logo_line, right_Logo_line, fill_Logo">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>18</zIndex>
+		<origin>0.5 0.5</origin>
+	</image>
+		
+	<image name="up_Logo_line" extra="true">
+		<size>0.3322917 0.0027778</size>									
+		<pos>0.1806875 0.0726852</pos>									
+	</image>
+	
+	<image name="down_Logo_line" extra="true">
+		<size>0.3322917 0.0027778</size>									
+		<pos>0.1806875 0.2384259</pos>									
+	</image>
+	
+	<image name="left_Logo_line" extra="true">
+		<size>0.0015625 0.1685185</size>									
+		<pos>0.0137604 0.1555556</pos>									
+	</image>
+	
+	<image name="right_Logo_line" extra="true">
+		<size>0.0015625 0.1685185</size>									
+		<pos>0.3476146 0.1555556</pos>									
+	</image>
+	
+	<image name="fill_Logo" extra="true">
+		<size>0.3322917 0.162963</size>									
+		<pos>0.1806875 0.1555556</pos>									
+		<color>000000</color>
+		<opacity>0.85</opacity>
+	</image>
+	
+	<!-- ------------------ -->
+	<!-- Encadrement DESC   -->
+	<!-- ------------------ -->
+	
+	<image name="up_Frame_border, down_Frame_border, left_Frame_border, right_Frame_border, manufacturer-icon, date-icon, stats-icon" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<zIndex>18</zIndex>
+		<origin>0.5 0.5</origin>
+	</image>
+		
+	
+	
+	
+	<image name="up_Frame_border" extra="true">
+		<size>0.6302083 0.0027778</size>									
+		<pos>0.6742708 0.0476852</pos>									
+	</image>
+		
+	<image name="down_Frame_border" extra="true">
+		<size>0.6302083 0.0027778</size>									
+		<pos>0.6742708 0.3486111</pos>									
+	</image>
+	
+	<image name="left_Frame_border" extra="true">
+		<size>0.0015625 0.3037037</size>									
+		<pos>0.3599479 0.1981481</pos>									
+	</image>
+	
+	<image name="right_Frame_border" extra="true">
+		<size>0.0015625 0.3037037</size>									
+		<pos>0.9885938 0.1981481</pos>									
+	</image>
+	
+	<!-- Remplissage d'un black faible opacité -->
+    <image name="bg_Frame" extra="true">
+		<path>${themePath}/art/divers/black.png</path>
+		<size>0.6291667 0.302</size>									
+		<pos>0.3596875 0.0472222</pos>									
+		<zIndex>16</zIndex>
+		<opacity>0.4</opacity>
+    </image>
+	
+	<!-- le Blurs pour affiner la banner -->
+    <screenshader name="blur_Frame" extra="true">
+      <path>${themePath}/art/shaders/blurcrt.glsl</path>
+		<size>0.6291667 0.302</size>									
+		<pos>0.3596875 0.0472222</pos>									
+      <zIndex>17</zIndex>
+      <blur>6</blur>
+    </screenshader>
+	
+	
+	<image name="manufacturer-icon" extra="true">
+		<color>FFFFFF</color>
+		<size>0.0119792 0.0212963</size>									
+		<pos>0.44 0.072</pos>	
+		<!-- On change la position si la date n'est pas visible  -->
+		<pos if="${system.releaseYear} &lt; '1958'">0.375 0.072</pos>
+		<path>./../../art/icons/rvgm-publisher-icon.png</path>
+	</image>
+	
+	<text name="manufacturerName" extra="true">
+		<origin>0 0</origin>
+		<!-- <text>${system.sortedBy}</text> -->
+        <text>{system:manufacturer}</text>
+		<alignment>left</alignment>
+		<verticalAlignment>top</verticalAlignment>
+		<fontPath>./../../art/fonts/charge-vector.otf</fontPath>
+		<fontSize>0.025</fontSize>
+		<pos>0.453 0.0535</pos>	
+		<pos if="${system.releaseYear} &lt; '1958'">0.388 0.0535</pos>
+		<rotation>0</rotation>
+		<size>0.25 0.28</size>
+		<zIndex>2001</zIndex>
+		<color>${infoColor}</color>
+		<glowColor>00000080</glowColor>
+		<glowSize>1</glowSize>
+		<opacity>1</opacity>
+		
+		<storyboard>
+			<animation property="color" to="FFFF00" begin="18000" duration="1000" autoreverse="true" mode="linear"/>
+		</storyboard>
+	</text>
+
+	<image name="date-icon" extra="true">
+		<color>FFFFFF</color>
+		<visible>false</visible>
+		<visible if="${system.releaseYear} &gt; '1958'">true</visible>
+		<size>0.0130208 0.0212963</size>									
+		<pos>0.375 0.072</pos>									
+		<path>./../../art/icons/rvgm-date-icon.png</path>
+	</image>
+	
+	<text name="releaseYyear">
+		<fontSize>0.025</fontSize>
+		<pos>0.405 0.194</pos>
+		<zIndex>16</zIndex>
+		<scale>1</scale>
+		<fontPath>./../../art/fonts/charge-vector.otf</fontPath>
+		<zIndex>2001</zIndex>
+		<color>${baseColor}</color>
+		<glowColor>00000080</glowColor>
+		<glowSize>1</glowSize>
+		
+		<storyboard>
+			<animation property="color" to="FFFF00" begin="20000" duration="1000" autoreverse="true" mode="linear"/>
+		</storyboard>		
+	</text> 
+
+	<text name="system_description">
+        <origin>0.5 0.5</origin>
+		<visible>true</visible>
+		<fontPath>./../../art/fonts/BarlowCondensed-Regular.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<size>0.407 0.189</size>									
+		<pos>0.5705 0.188</pos>	
+		<pos ifSubset="InfoCustomView:nothing">0.5705 0.205</pos>	
+		<alignment>left</alignment>
+		<color>${frameColor}</color>
+		<autoScroll>vertical</autoScroll>
+		<zIndex>2001</zIndex>
+	</text>
+	
+	<image name="Consoles" extra="static">
+      <tile>false</tile>
+	  <pos>0.88625 0.199537</pos>									
+	  <maxSize>0.178125 0.2527778</maxSize>									
+      <origin>0.5 0.5</origin>
+      <zIndex>13</zIndex>
+	  <scale>1</scale>
+	  <linearSmooth>true</linearSmooth>
+	  <zIndex>2001</zIndex>
+    </image>
+	
+	<!-- On affiche l'icone STAT seulement si l'utilisateur à choisi Total des jeux ou stats détaillés -->
+	<image name="stats-icon" ifSubset="InfoCustomView:total|detailed" extra="true">
+		<color>FFFFFF</color>
+		<size>0.028125 0.05</size>									
+		<pos>0.3810417 0.3138889</pos>									
+		<path>./../../art/icons/rvgm-playcount-icon.png</path>
+	</image>
+</view>
+
+
+
+<view name="system" ifSubset="SystemView:figurines,system-description:Hide">
+
+	<text name="system_description, releaseYyear, manufacturerName">
+		<visible>false</visible>
+	</text>
+	
+	<imagegrid name="imagegrid">
+		<pos>0.0215 0.027</pos>
+		<pos ifHelpPrompts="false">0.0215 0.057</pos>	
+		<size>0.648 0.893</size>
+		<!-- <autoLayout>0 5</autoLayout> -->
+	</imagegrid>
+	
+	
+	<text name="systemInfoEx, systemInfoEx2,systemInfoExNull" extra="static">
+		<fontSize>0.023</fontSize>
+		<size>0.45 0.28</size>
+		<pos>0.5 -0.095</pos>
+		<alignment>right</alignment>
+    </text>
+</view>
+
+
+
 
 	
 	

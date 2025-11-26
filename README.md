@@ -5,11 +5,11 @@ Theme for Emulation Station compatible with
 - [Batocera](https://batocera.org/)
 - [RetroBat](https://www.retrobat.org/)
 
-**V 2.38 - (2025 10 18) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
+**V 2.39 - (2025 11 26) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
 
 Features :
 
-    6 Animated System Views (Wheel-Animatics, Grid, Wheel, Simple, Vertical and Horizontal)
+    6 Animated System Views (Wheel-Animatics, Grid, Wheel, Figurines, Vertical and Horizontal)
     10 Gamelist Views
     9 languages (German, Spanish, French, Italian, Japanese, Dutch, Polish, Portuguese and Russian)
     Regional Logos and Artwork (EU, US and JAP)
@@ -24,12 +24,7 @@ Features :
 ## System View Grid
 ![2024-07-29 10_04_20-Window](https://github.com/user-attachments/assets/fc7b5df4-4c91-4b8a-b7e0-e47e20b1670c)  
 
-## System View Simple
-| Without system description  | With system description |
-| ------------- | ------------- |
-| ![2023-03-19 09_47_07-EmulationStation](https://user-images.githubusercontent.com/105559045/226164536-f98d8474-58d0-4ff1-95c2-eebaf33a2973.png)  | ![2023-03-19 09_29_08-EmulationStation](https://user-images.githubusercontent.com/105559045/226164544-569e939f-b0b0-415c-9e4d-2c36fcff211d.png)  |
-
-![2023-03-06 20_32_31-EmulationStation](https://user-images.githubusercontent.com/105559045/223212102-9f8ef27a-ba9f-4c9b-adea-3cdb7375d828.png)
+## System View Figurines
 
 
 ## System View Vertical

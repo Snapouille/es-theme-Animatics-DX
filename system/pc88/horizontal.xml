@@ -1,0 +1,156 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+
+
+
+		<image name="background-front-day" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.6 0.5638889</size>									
+			<pos>0.3192708 0.45</pos>									
+			<path>./background-front-day.png</path>
+			<zIndex>6</zIndex>
+			  <storyboard>
+				<animation property="opacity" to="0" begin="500" duration="5000" mode="linear"/>
+			  </storyboard>						
+		</image>
+		
+		
+		<image name="background-front-night" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.6 0.5638889</size>									
+			<pos>0.3192708 0.45</pos>									
+			<path>./background-front-night.png</path>
+			<zIndex>5</zIndex>
+			<opacity>0</opacity>
+			  <storyboard>
+				<animation property="opacity" to="1" begin="200" duration="300" mode="linear"/>
+			  </storyboard>			
+			
+		</image>
+		
+		<image name="background-sky-dark" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.5755208 0.5759259</size>									
+			<pos>0.3138021 0.3472222</pos>									
+			<path>./background-sky.jpg</path>
+			<opacity>0</opacity>
+			<zIndex>4</zIndex>
+			  <storyboard>
+				<animation property="opacity" to="1" begin="" duration="5000" mode="linear"/>
+			  </storyboard>			
+		</image>
+		
+		<image name="background-stars" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.8260417 0.1648148</size>									
+			<pos>0.63 0.15</pos>									
+			<path>./background-stars.png</path>
+			<opacity>0</opacity>
+			<flipX>true</flipX>
+			<zIndex>6</zIndex>
+			  <storyboard>
+				<animation property="opacity" to="1" begin="2000" duration="5000" mode="linear"/>
+			  </storyboard>			
+		</image>
+		
+		<image name="background-stars2" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.8260417 0.1648148</size>									
+			<pos>0.4 0.19</pos>									
+			<path>./background-stars.png</path>
+			
+			<opacity>0</opacity>
+			<zIndex>6</zIndex>
+			  <storyboard>
+				<animation property="opacity" to="1" begin="4000" duration="5000" mode="linear"/>
+			  </storyboard>			
+		</image>
+		
+		
+		
+		
+		
+		<image name="background-meteorite" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.1484375 0.1101852</size>									
+			<pos>0.35 0.1662037</pos>									
+			<path>./background-meteorite.png</path>
+			<opacity>0</opacity>
+			<zIndex>4</zIndex>
+				<storyboard>
+					<animation property="opacity" to="1" 						begin="5100" duration="100" mode="linear"/>
+					<animation property="clipRect" from="1 0 0 0" to="0 0 1 0" 	begin="5000" duration="5000" mode="linear"/>
+					<animation property="offsetX"  to="-0.35" 					begin="5000" duration="160000" mode="linear"/>
+					<animation property="offsetY"  to="0.28" 					begin="5000" duration="160000" mode="linear"/>
+					<animation property="rotation" to="-25" 					begin="5000" duration="160000" mode="linear"/>
+				
+					<animation property="opacity" to="0.8" 						begin="6000" duration="100" autoreverse="true" repeat="forever" mode="linear"/>
+					
+				</storyboard>
+		</image>
+
+
+
+		<image name="avatar" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.2723958 0.7685185</size>									
+			<pos>1.05 0.55</pos>
+			<pos ifHelpPrompts="false">1.05 0.65</pos>	
+			<path>./avatar.png</path>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.5" begin="100" duration="500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="0" begin="1000" duration="10" mode="Linear"/>
+				<animation property="opacity" to="1" begin="5000" duration="10" mode="Linear"/>
+				
+				<animation property="opacity" to="0" begin="9000" duration="10" mode="Linear"/>
+				<animation property="opacity" to="1" begin="17000" duration="10" mode="Linear"/>
+				
+				<animation property="opacity" to="0" begin="18000" duration="10" mode="Linear"/>
+				
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatarBis" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.2723958 0.7685185</size>									
+			<pos>1.05 0.55</pos>
+			<pos ifHelpPrompts="false">1.05 0.65</pos>	
+			<path>./avatarBis.png</path>
+			<opacity>0</opacity>
+			<zIndex>20</zIndex>
+
+			<storyboard>
+				<animation property="offsetX" to="-0.5" begin="100" duration="500" mode="EaseOut"/>
+				
+				<animation property="opacity" to="1" begin="1000" duration="10" mode="Linear"/>
+				<animation property="opacity" to="0" begin="5000" duration="10" mode="Linear"/>
+				
+				<animation property="opacity" to="1" begin="9000" duration="10" mode="Linear"/>
+				<animation property="opacity" to="0" begin="17000" duration="10" mode="Linear"/>
+				
+				<animation property="opacity" to="1" begin="18000" duration="10" mode="Linear"/>
+				
+			</storyboard>
+		</image>
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+	</view>
+	
+</theme>

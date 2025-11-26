@@ -1,0 +1,97 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<image name="avatar, avatar_ghost1, avatar_ghost2" extra="static">
+			<origin>0 0</origin>
+			<pos>0.34 0.08</pos>
+			<maxSize>0.2969 0.9067</maxSize>
+			<path>./avatar.png</path>
+			<linearSmooth>true</linearSmooth>
+			<opacity>0</opacity>
+			<zIndex>18</zIndex>
+		</image>
+
+		<image name="avatar_ghost2" extra="true">
+			<color>5050ff</color>
+			<zIndex>17</zIndex>
+			<storyboard repeatAt="0">
+				<animation property="x" from="-1" duration="500" mode="EaseIn"/>
+				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+
+				<animation property="x" to="1" begin="10000" duration="500" mode="easeOut"/>
+				<animation property="opacity" from="1" to="0" begin="10000" duration="500" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="avatar_ghost1" extra="true">
+			<color>50ff50</color>
+			<zIndex>17</zIndex>
+			<storyboard repeatAt="0">
+				<animation property="x" from="-1" duration="500" mode="EaseIn"/>
+				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+
+				<animation property="origin" to="0.05 0" begin="3000" duration="" mode="linear"/>
+				<animation property="origin" to="0 0" 	 begin="3100" duration="150" mode="linear"/>		
+
+				<animation property="origin" to="0.05 0" begin="5000" duration="" mode="linear"/>
+				<animation property="origin" to="0 0" 	 begin="5050" duration="50" mode="linear"/>						
+				<animation property="origin" to="0.075 0" begin="5150" duration="" mode="linear"/>
+				<animation property="origin" to="0 0" 	 begin="5200" duration="50" mode="linear"/>	
+
+				<animation property="origin" to="0.05 0" begin="9000" duration="" mode="linear"/>
+				<animation property="origin" to="0 0" 	 begin="9050" duration="50" mode="linear"/>						
+				<animation property="origin" to="0.075 0" begin="9150" duration="" mode="linear"/>
+				<animation property="origin" to="0 0" 	 begin="9200" duration="50" mode="linear"/>	
+
+				<animation property="origin" to="0.05 0" begin="9500" duration="" mode="linear"/>
+				<animation property="origin" to="0 0" 	 begin="9550" duration="50" mode="linear"/>						
+
+				<animation property="x" to="1" begin="10000" duration="500" mode="easeOut"/>
+				<animation property="opacity" from="1" to="0" begin="10000" duration="500" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="avatar" extra="true">
+			<storyboard repeatAt="0">
+				<animation property="x" from="-1" duration="500" mode="EaseIn"/>
+				<animation property="offsetY" to="-0.3" duration="300" autoreverse="true" mode="EaseIn"/>
+				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+
+				<animation property="color" from="ff000050" to="ff000050" begin="3000" duration="" mode="linear"/>
+				<animation property="origin" to="0.025 0" 	begin="3000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="3100" duration="150" mode="linear"/>
+				<animation property="origin" to="0 0" 	begin="3100" duration="150" mode="linear"/>
+
+				<animation property="color" from="ff000050" to="ff000050" begin="5000" duration="" mode="linear"/>
+				<animation property="origin" to="0.025 0" 	begin="5000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="5050" duration="50" mode="linear"/>
+				<animation property="origin" to="0 0" 	begin="5050" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="5150" duration="" mode="linear"/>
+				<animation property="origin" to="0.05 0" 	begin="5150" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="5200" duration="50" mode="linear"/>
+				<animation property="origin" to="0 0" 	begin="5200" duration="50" mode="linear"/>
+
+				<animation property="color" from="ff000050" to="ff000050" begin="9000" duration="" mode="linear"/>
+				<animation property="origin" to="0.025 0" 	begin="9000" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9050" duration="50" mode="linear"/>
+				<animation property="origin" to="0 0"	begin="9050" duration="50" mode="linear"/>
+				<animation property="color" from="ff000050" to="ff000050" begin="9150" duration="" mode="linear"/>
+				<animation property="origin" to="0.05 0" 	begin="9150" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9200" duration="50" mode="linear"/>
+				<animation property="origin" to="0 0" 	begin="9200" duration="50" mode="linear"/>
+
+				<animation property="color" from="ff000050" to="ff000050" begin="9500" duration="" mode="linear"/>
+				<animation property="origin" to="0.025 0" 	begin="9500" duration="" mode="linear"/>
+				<animation property="color" to="ffffff" begin="9550" duration="50" mode="linear"/>
+				<animation property="origin" to="0 0" 	begin="9550" duration="50" mode="linear"/>				
+
+				<animation property="x" to="1" begin="10000" duration="500" mode="easeOut"/>
+				<animation property="opacity" from="1" to="0" begin="10000" duration="500" mode="linear"/>
+			</storyboard>
+		</image>
+
+	</view>
+
+</theme>

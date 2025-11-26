@@ -11,6 +11,12 @@
 		<visible>true</visible>
 	</image>
 	
+	<image name="figurines" extra="true">
+		<pos>0.333 0.765</pos>									
+		<pos ifHelpPrompts="false">0.333 0.815</pos>
+		<maxSize>0.16 0.29</maxSize>	
+	</image>
+	
 	<image name="ecran_console" extra="static">
 		<path>./../../system/gba/ecran_console.png</path>
 		<size>0.434375 0.4398148</size>									

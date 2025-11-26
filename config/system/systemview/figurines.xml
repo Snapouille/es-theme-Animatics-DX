@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<feature supported="manufacturer">
+	<view name="system">
+	  <text name="fullName" extra="true">
+		<visible>false</visible>
+	  </text>
+	  <text name="system_description" ifSubset="system-description:Show">
+			<visible>false</visible>
+	  </text>
+	</view>
+</feature>
+
+<view name="system">
+
+	<image name="frame_barreAnim_haut, frame_barreAnim_bas, frame_barreAnim_gauche, frame_barreAnim_droite">
+		<visible>false</visible>
+	</image>	
+
+	<image name="diago-haut1, diago-haut2, diago-haut3, diago-haut4, diago-haut5, diago-bas1, diago-bas2, diago-bas3, diago-bas4, diago-bas5">
+		<visible>false</visible>
+	</image>	
+
+	<image name="frame_big, background_cut">
+		<visible>false</visible>
+	</image>	
+
+	<carousel name="systemcarousel">
+		<scrollSound>${themePath}/art/sounds/selectgrid.wav</scrollSound>
+		<zIndex>20001</zIndex>
+		<type>horizontal</type>
+		<pos>-0.14 0.1</pos>
+		<pos ifHelpPrompts="true">-0.14 0.065</pos>
+		<size>1.375 1</size>
+		<logoScale>1.6</logoScale>
+		<logoSize>0.350 0.350</logoSize>
+		<color>00000000</color>
+		<logoAlignment>bottom</logoAlignment>
+		<minLogoOpacity>1</minLogoOpacity>
+		<!-- cette speed glitch un peu sur batocera mais pas sur retrobat -->
+		<!-- <transitionSpeed>750</transitionSpeed> -->
+		<logoPos>0.15 0.5</logoPos>
+		<logoPos ifHelpPrompts="false">0.15 0.53</logoPos>
+		<imageSource>thumbnail</imageSource>
+		<defaultTransition>instant</defaultTransition>
+		<!-- <logoRotation>1</logoRotation> -->
+		<!-- <logoRotationOrigin>0 1</logoRotationOrigin> -->
+		<maxLogoCount>11</maxLogoCount>
+		<itemTemplate>
+			<container>
+				<image name="shadow_figurine">
+					<pos>0.5 0.54</pos>
+					<origin>0.5 0.5</origin>
+					<maxSize>0.55 0.55</maxSize>
+					<path>"${themePath}/art/figurines/" + {system:theme} + ".png"</path>
+					<saturation>1</saturation>
+					<zIndex>5</zIndex>
+					<padding>3 3 -3 -3</padding>
+					<color>000000</color>
+				</image>
+				<image name="figurine">
+					<pos>0.5 0.54</pos>
+					<origin>0.5 0.5</origin>
+					<maxSize>0.55 0.55</maxSize>
+					<path>"${themePath}/art/figurines/" + {system:theme} + ".png"</path>
+					<saturation>0.9</saturation>
+					<zIndex>6</zIndex>
+				</image>
+				<image name="shadow_logo">
+					<pos>0.5 0.9</pos>
+					<origin>0.5 0.5</origin>
+					<maxSize>0.2 1</maxSize>
+					<path>{system:logo}</path>
+					<padding>3 3 -3 -3</padding>
+					<color>000000</color>
+					<zIndex>7</zIndex>
+				</image>
+				<image name="logo">
+					<pos>0.5 0.9</pos>
+					<origin>0.5 0.5</origin>
+					<maxSize>0.2 1</maxSize>
+					<path>{system:logo}</path>
+					<zIndex>8</zIndex>
+				</image>
+			</container>
+		</itemTemplate>
+	</carousel>
+	
+	<image name="overlay_figurine" extra="true">
+		<path>${themePath}/art/divers/overlay_figurine.png</path>
+		<opacity>1</opacity>
+		<origin>0.5 0.5</origin>									
+		<size>1 1</size>									
+		<pos>0.5 0.5</pos>									
+		<zIndex>5</zIndex>
+		<color>${baseColor}</color>
+	</image>
+	
+	<!-- emplacement et animation du logo -->
+	<image name="color_Logos" extra="static">
+		<path>./../../../art/logos/${system.theme}.svg</path>
+		<path>./../../../art/logos/${system.theme}.png</path>
+		<path>./../../../art/logos/${system.theme}-${lang}.png</path>
+		<path ifSubset="artworkregion:us">./../../../art/logos/us/${system.theme}.png</path>
+		<path ifSubset="artworkregion:jp">./../../../art/logos/jp/${system.theme}.png</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.1799479 0.1564815</pos>									
+		<maxSize>0.3057292 0.1240741</maxSize>									
+		<linearSmooth>true</linearSmooth>
+		<zIndex>21</zIndex>
+	</image>
+	
+	
+<!-- TEXT totaux des jeux -->
+		
+	<!-- On masque le total des jeux par défaut -->
+	<text name="systemInfo, systemInfoEx, systemInfoEx2,systemInfoExNull">
+		<visible>false</visible>			
+	</text>
+	
+	<!-- si on affiche juste le total des jeux par système -->
+    <text name="systemInfo" ifSubset="InfoCustomView:total">
+		<fontPath>./../../../art/fonts/charge-vector.otf</fontPath>
+		<fontSize>0.025</fontSize>
+		<zIndex>2001</zIndex>
+		<color>6cffa3</color>
+		<glowColor>00000080</glowColor>
+		<glowSize>1</glowSize>
+		<size>0.45 0.28</size>
+		<pos>0.405 0.18</pos>
+		<visible>true</visible> 
+		<opacity>1</opacity>
+		<alignment>left</alignment>
+		<pos ifSubset="system-description:Hide">0.5 -0.095</pos>
+		<alignment ifSubset="system-description:Hide">right</alignment>
+			<storyboard>
+				<animation property="opacity" from="0" to="1" begin="" duration="1" mode="Linear"/>
+			</storyboard>
+	</text>
+		
+	<!-- si on Affichage toutes les stats avec animation (Nombre de jeux, jeux joués, favoris et 2ème ligne jeu le plus joué)	 -->
+    <text name="systemInfoEx, systemInfoEx2,systemInfoExNull" ifSubset="InfoCustomView:detailed" extra="true">
+		<fontPath>./../../../art/fonts/charge-vector.otf</fontPath>
+		<fontSize>0.025</fontSize>
+		<zIndex>2001</zIndex>
+		<color>6cffa3</color>
+		<glowColor>00000080</glowColor>
+		<glowSize>1</glowSize>
+		<size>0.47 0.28</size>
+		<pos>0.405 0.18</pos>
+		<visible>true</visible>  
+		<multiLine>false</multiLine>
+	</text>
+		
+		
+	  <text name="systemInfoEx" ifSubset="InfoCustomView:detailed" extra="static">
+		 <text>{system:total} ${GamesNumber} • {system:gamesPlayed} ${NumberPlayed} • {system:favorites} ${GamesFavs}</text>
+		 <visible>{system:total} &gt; 0 ? 1 : 0</visible>
+	  </text>
+	  
+      <text name="systemInfoEx2" ifSubset="InfoCustomView:detailed" extra="static">
+         <text>${theme.mostplayed} {system:mostPlayed}</text>
+         <opacity>0</opacity>
+		 <color>f9ffa1</color>
+         <visible>{system:total} &gt; 0 ? 1 : 0</visible>
+      </text>
+
+      <text name="systemInfoExNull" ifSubset="InfoCustomView:detailed" extra="static">
+         <text>0 ${GameNumber}</text>
+         <visible>{system:total} == 0 ? 1 : 0</visible>
+      </text>
+
+      <control name="systemInfoEx">
+         <storyboard repeat="forever">
+            <animation property="opacity" from="1" to="0" begin="3000" duration="350" mode="easeOut" />
+            <animation property="offsetY" to="-0.02" begin="3000" duration="350" mode="easeOut" />
+            <animation property="opacity" from="0" to="1" begin="6000" duration="350" mode="easeIn" />
+            <animation property="offsetY" to="0" begin="6000" duration="350" mode="easeOut" />
+         </storyboard>
+      </control>
+
+      <control name="systemInfoEx2">
+         <storyboard repeat="forever">
+            <animation property="opacity" from="0" to="1" begin="3000" duration="350" mode="easeIn" />
+            <animation property="offsetY" from="0.02" begin="3000" duration="350" mode="easeOut" />
+            <animation property="opacity" from="1" to="0" begin="6000" duration="350" mode="easeOut" />
+            <animation property="offsetY" to="0.02" begin="6000" duration="350" mode="easeIn" />
+         </storyboard>
+      </control>
+		
+
+	<image name="right_BottomFrame" extra="true">
+		<visible ifHelpPrompts="false">false</visible>
+	</image>
+	
+	
+</view>
+</theme>

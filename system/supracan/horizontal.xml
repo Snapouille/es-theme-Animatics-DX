@@ -1,0 +1,99 @@
+<!-- Super Acan -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		
+		<image name="mountain" extra="true">
+			<linearSmooth>true</linearSmooth>
+			<origin>0.5 0.5</origin>									
+			<size>1 0.3138889</size>									
+			<pos>0.4125 0.6132407</pos>	
+			<path>./mountain.gif</path>
+			<zIndex>10</zIndex>		
+			<scale>0.9</scale>
+			
+			<storyboard repeatAt="13000">
+				<animation property="scale" to="0.6" begin="" duration="1000" mode="linear"/>
+				<animation property="offsetX" to="-0.15" begin="" duration="1000" mode="linear"/>
+				<animation property="scale" to="1" begin="4000" duration="3000" mode="linear"/>
+				<animation property="offsetY" to="-0.063" begin="4000" duration="3000" mode="linear"/>
+				
+				<animation property="scale" to="0.8" begin="13000" duration="4000" mode="EaseInOut"/>
+				<animation property="offsetY" to="0.02" begin="13000" duration="4000" mode="linear"/>
+				
+				<animation property="scale" to="1" begin="18000" duration="4000" mode="EaseInOut"/>
+				<animation property="offsetY" to="0.01" begin="18000" duration="4000" mode="linear"/>
+				
+				<animation property="scale" to="0.9" begin="24000" duration="4000" mode="EaseInOut"/>
+				<animation property="offsetY" to="-0.03" begin="24000" duration="4000" mode="linear"/>
+			</storyboard>
+
+		</image>
+		
+		
+
+		<image name="arcenciel" extra="static">
+			<origin>0 0</origin>									
+			<size>0.9364583 0.5398148</size>									
+			<pos>-0.2 0</pos>
+			<opacity>1</opacity>
+			<path>./arcenciel.png</path>
+			<zIndex>19</zIndex>
+			<opacity>0</opacity>
+		
+			<storyboard repeatAt="7000">
+				<animation property="opacity" from="0" to="1" begin="5000" duration="2000" mode="linear"/>
+				<animation property="opacity" from="0.8" to="1" begin="7000" duration="1000" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0.8" to="1" begin="12000" duration="100" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0.8" to="1" begin="12200" duration="200" autoreverse="true" repeat="1" mode="linear"/>
+				<animation property="opacity" from="0.8" to="1" begin="12600" duration="500" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="opacity" from="0.8" to="1" begin="14600" duration="200" autoreverse="true" repeat="2" mode="linear"/>
+			</storyboard>
+		
+		</image>
+		
+		<image name="avatar-mini" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3854167 0.6518519</size>									
+			<pos>1.3 0.17</pos>
+			<scale>0.1</scale>
+			<opacity>1</opacity>
+			<path>./avatar.gif</path>
+			
+			<zIndex>14</zIndex>
+
+			<storyboard>
+					<animation property="x" to="-1" begin="" duration="3300" mode="EaseInOut"/>
+			</storyboard>
+		</image>
+		
+	
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3854167 0.6518519</size>									
+			<pos>-1 -0.2</pos>
+			<scale>0.2</scale>
+			<opacity>1</opacity>
+			<flipX>true</flipX>
+			<path>./avatar.gif</path>
+			<zIndex>2000</zIndex>
+
+			<storyboard repeatAt="5000">
+					<animation property="pos" to="0.32 0.21" begin="4000" duration="1000" mode="EaseInOut"/>
+					<animation property="scale" to="0.9" begin="4000" duration="1000" mode="Bump"/>
+					<animation property="x" to="0.318" begin="5000" duration="455" autoreverse="true" mode="EaseInOut"/>
+					<animation property="y" to="0.208" begin="5000" duration="455" autoreverse="true" mode="EaseInOut"/>
+					<animation property="scale" to="0.898" begin="5000" duration="455" autoreverse="true" mode="Bump"/>
+			</storyboard>
+		</image>
+
+
+		
+
+		
+	</view>
+
+</theme>

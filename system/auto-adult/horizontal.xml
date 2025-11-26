@@ -1,0 +1,65 @@
+<!-- Easy RPG -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar-girl" extra="static">
+			<origin>0.5 0.5</origin>
+			<size>0.4484375 0.6898148</size>									
+			<pos>0.52 0.6550926</pos>									
+
+			<opacity>1</opacity>
+			<path>./avatar-girl.png</path>
+			<zIndex>19</zIndex>
+			
+			<storyboard repeat="forever">
+					<animation property="opacity" to="0" begin="250" duration="10" mode="linear"/>
+					<animation property="opacity" to="1" begin="800" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="avatar-girl_bis" extra="static">
+			<origin>0.5 0.5</origin>
+			<size>0.4484375 0.6898148</size>									
+			<pos>0.52 0.6550926</pos>									
+
+			<opacity>0</opacity>
+			<path>./avatar-girl_bis.png</path>
+			<zIndex>19</zIndex>
+			
+			<storyboard repeat="forever">
+					<animation property="opacity" to="1" begin="200" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="400" duration="10" mode="linear"/>	
+        			<animation property="opacity" to="1" begin="600" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="800" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		<image name="avatar-girl_ter" extra="static">
+			<origin>0.5 0.5</origin>
+			<size>0.4484375 0.6898148</size>									
+			<pos>0.52 0.6550926</pos>									
+
+			<opacity>0</opacity>
+			<path>./avatar-girl_ter.png</path>
+			<zIndex>19</zIndex>
+			
+			<storyboard repeat="forever">
+					<animation property="opacity" to="1" begin="400" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="600" duration="10" mode="linear"/>
+					<animation property="opacity" to="0" begin="800" duration="10" mode="linear"/>
+			</storyboard>
+			
+		</image>
+		
+		
+		
+		
+		
+	</view>
+
+</theme>

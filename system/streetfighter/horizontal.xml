@@ -1,0 +1,19 @@
+<!-- Street Fighter collection -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0.5 0.5</origin>
+			<size>0.1338542 0.4444444</size>									
+			<pos>0.53 0.53</pos>									
+			<path>./avatar.gif</path>
+			<scale>1.05</scale>
+			<flipX>true</flipX>
+
+		</image>
+		
+	</view>
+</theme>

@@ -1,0 +1,243 @@
+<!-- Neo Geo CD -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+			<origin>0.5 0.5</origin>									
+			<size>0.6557292 0.6555556</size>									
+			<pos>0.3539063 0.3851852</pos>	
+			  <storyboard>
+					<animation property="x" to="0.286" begin="" duration="4000" mode="EaseInOut"/>
+			  </storyboard>
+		</image>	
+		
+		
+		<image name="fog-static, fog-big, shiki, 
+					 calligra1, calligra2, calligra3, calligra4, 
+					 feuille1, feuille2, feuille3, feuille4, feuille5, feuille6" >
+			<origin>0.5 0.5</origin>									
+			<linearSmooth>true</linearSmooth>
+			<opacity>0</opacity>	
+			<zIndex>3000</zIndex>
+		</image>
+		
+		
+		
+		<image name="fog-static" extra="true">
+			<size>0.6578125 0.1907407</size>									
+			<pos>0.2747396 0.63</pos>									
+			<scale>1</scale>
+			<zIndex>22</zIndex>
+			<opacity>0.9</opacity>								
+			<path>./fog-static.png</path>
+			<storyboard repeat="forever">
+				<animation property="y" from="0.63" to="0.631" begin="" autoreverse="true" duration="1500" repeat="10" mode="linear"/>
+				<animation property="offsetX" to="0.005" begin="" autoreverse="true" duration="2000" repeat="5" mode="linear"/>
+				<animation property="opacity" from="0.9" to="0.85" begin="" autoreverse="true" duration="2000" repeat="5" mode="linear"/>
+			</storyboard>
+		</image>
+
+
+
+		<image name="fog-big" extra="true">
+			<pos>0 0.75</pos>
+			<size>0.6380208 0.3990741</size>									
+			<scale>2</scale>
+			<zIndex>24</zIndex>
+			<opacity>0.8</opacity>								
+			<path>./fog-big.png</path>
+			<storyboard repeat="forever">
+				<animation property="x" from="0.15" to="0.5" begin="" autoreverse="true" duration="20000" mode="linear"/>
+				<animation property="y" from="0.75" to="0.753" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="scale" from="2" to="2.01" begin="" autoreverse="true" duration="500" repeat="40" mode="linear"/>
+				<animation property="opacity" from="0.8" to="0.75" begin="" autoreverse="true" duration="1000" repeat="20" mode="linear"/>
+			</storyboard>
+		</image>				
+
+	
+		<image name="shiki" extra="true">
+			<size>0.1677083 0.5796296</size>									
+			<pos>0.47 0.5</pos>
+			<opacity>1</opacity>
+			<path>./shiki.gif</path>
+			  <storyboard>
+					<animation property="x" to="0.51" begin="" duration="4000" mode="EaseInOut"/>
+			  </storyboard>			
+		</image>
+	
+		
+		
+		
+		<image name="calligra1" extra="true">
+			<size>0.0052083 0.0092593</size>									
+			<pos>0.2588542 0.3925926</pos>									
+			<path>./calligra1.png</path>
+			
+			  <storyboard>
+					<animation property="opacity" to="1" begin="3000" duration="100" mode="linear"/>
+					<animation property="size" to="0.0848958 0.1509259" begin="3000" duration="300" mode="EaseInOut"/>
+					<animation property="pos" to="0.2455729 0.2106481" begin="3000" duration="300" mode="EaseInOut"/>
+					<animation property="scale" to="5" begin="5000" duration="300" mode="EaseInOut"/>
+					<animation property="offsetY" to="-0.5" begin="5000" duration="300" mode="EaseInOut"/>
+					<animation property="opacity" to="0" begin="5200" duration="100" mode="linear"/>
+			  </storyboard>			
+		</image>
+		
+		<image name="calligra2" extra="true">
+			<size>0.0052083 0.0092593</size>									
+			<pos>0.2588542 0.3925926</pos>									
+			<path>./calligra2.png</path>
+			
+			  <storyboard>
+					<animation property="opacity" to="1" begin="3100" duration="100" mode="linear"/>
+					<animation property="size" to="0.0807292 0.1472222" begin="3100" duration="300" mode="EaseInOut"/>
+					<animation property="pos" to="0.2742188 0.3337963" begin="3100" duration="300" mode="EaseInOut"/>
+					<animation property="scale" to="5" begin="5100" duration="300" mode="EaseInOut"/>
+					<animation property="offsetY" to="-0.2" begin="5100" duration="300" mode="EaseInOut"/>
+					<animation property="opacity" to="0" begin="5300" duration="100" mode="linear"/>
+			  </storyboard>			
+		</image>
+		
+		<image name="calligra3" extra="true">
+			<size>0.0052083 0.0092593</size>									
+			<pos>0.2588542 0.3925926</pos>									
+			<path>./calligra3.png</path>
+			
+			  <storyboard>
+					<animation property="opacity" to="1" begin="3200" duration="100" mode="linear"/>
+					<animation property="size" to="0.078125 0.175" begin="3200" duration="300" mode="EaseInOut"/>
+					<animation property="pos" to="0.2421875 0.4662037" begin="3200" duration="300" mode="EaseInOut"/>
+					<animation property="scale" to="5" begin="5200" duration="300" mode="EaseInOut"/>
+					<animation property="offsetY" to="0.3" begin="5200" duration="300" mode="EaseInOut"/>
+					<animation property="opacity" to="0" begin="5400" duration="100" mode="linear"/>
+			  </storyboard>			
+		</image>
+	
+		<image name="calligra4" extra="true">
+			<size>0.0052083 0.0092593</size>									
+			<pos>0.2588542 0.3925926</pos>									
+			<path>./calligra4.png</path>
+			
+			  <storyboard>
+					<animation property="opacity" to="1" begin="3300" duration="100" mode="linear"/>
+					<animation property="size" to="0.0817708 0.1564815" begin="3300" duration="300" mode="EaseInOut"/>
+					<animation property="pos" to="0.2752604 0.575463" begin="3300" duration="300" mode="EaseInOut"/>
+					<animation property="scale" to="5" begin="5300" duration="300" mode="EaseInOut"/>
+					<animation property="offsetY" to="0.6" begin="5300" duration="300" mode="EaseInOut"/>
+					<animation property="opacity" to="0" begin="5500" duration="100" mode="linear"/>
+			  </storyboard>			
+		</image>
+		
+		
+		
+		
+		<image name="feuille1" extra="true">
+			<size>0.078125 0.1648148</size>	
+			<pos>-1 0.5</pos>
+			<scale>0.28</scale>
+			<path>./feuille_3.png</path>
+			<zIndex>12</zIndex>
+		
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="2000" duration="500" mode="Linear"/>
+				<animation property="rotation" begin="2000" to="90" duration="2700" mode="linear"/>
+				<animation property="x" from="-1" begin="2000" to="1" duration="2700" mode="linear"/>
+				<animation property="y" to="0.32" begin="3000" duration="500" mode="linear"/>
+				<animation property="y" to="0.31" begin="3500" duration="500" mode="linear"/>
+				<animation property="y" to="0.32" begin="4000" duration="500" mode="linear"/>	
+			</storyboard>			
+		</image>
+		
+		<image name="feuille2" extra="true">
+			<size>0.078125 0.1435185</size>		
+			<pos>-1 0.5</pos>
+			<scale>0.25</scale>
+			<path>./feuille_4.png</path>
+			<zIndex>12</zIndex>
+		
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="2000" duration="500" mode="Linear"/>
+				<animation property="rotation" 	  begin="2100" to="-90" duration="2700" mode="linear"/>
+				<animation property="x" from="-1" begin="2100" to="1" duration="2700" mode="linear"/>
+				<animation property="y" to="0.43" begin="3100" duration="500" mode="linear"/>
+				<animation property="y" to="0.53" begin="3600" duration="500" mode="linear"/>
+				<animation property="y" to="0.43" begin="4100" duration="500" mode="linear"/>	
+			</storyboard>			
+		</image>
+		
+		<image name="feuille3" extra="true">
+			<size>0.078125 0.1407407</size>	
+			<pos>-1 0.5</pos>
+			<scale>0.15</scale>
+			<path>./feuille_1.png</path>
+			<zIndex>12</zIndex>
+		
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="2000" duration="500" mode="Linear"/>
+				<animation property="rotation" 	  begin="2200" to="180" duration="2700" mode="linear"/>
+				<animation property="x" from="-1" begin="2200" to="1" duration="2700" mode="linear"/>
+				<animation property="y" to="0.45" begin="3200" duration="500" mode="linear"/>
+				<animation property="y" to="0.55" begin="3700" duration="500" mode="linear"/>
+				<animation property="y" to="0.45" begin="4200" duration="500" mode="linear"/>	
+			</storyboard>			
+		</image>
+		
+		<image name="feuille4" extra="true">
+			<size>0.078125 0.1435185</size>		
+			<pos>-1 0.5</pos>
+			<scale>0.15</scale>
+			<path>./feuille_5.png</path>
+			<zIndex>12</zIndex>
+		
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="2000" duration="500" mode="Linear"/>
+				<animation property="rotation" 	  begin="2250" to="360" duration="2700" mode="linear"/>
+				<animation property="x" from="-1" begin="2250" to="1" duration="2700" mode="linear"/>
+				<animation property="y" to="0.45" begin="3200" duration="500" mode="linear"/>
+				<animation property="y" to="0.55" begin="3700" duration="500" mode="linear"/>
+				<animation property="y" to="0.45" begin="4200" duration="500" mode="linear"/>	
+			</storyboard>			
+		</image>
+		
+		<image name="feuille5" extra="true">
+			<size>0.078125 0.0981481</size>	
+			<pos>-1 0.5</pos>
+			<scale>0.25</scale>
+			<path>./feuille_6.png</path>
+			<zIndex>12</zIndex>
+		
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="2000" duration="500" mode="Linear"/>
+				<animation property="rotation" 	  begin="2300" to="360" duration="2700" mode="linear"/>
+				<animation property="x" from="-1" begin="2300" to="1" duration="2700" mode="linear"/>
+				<animation property="y" to="0.45" begin="3200" duration="500" mode="linear"/>
+				<animation property="y" to="0.55" begin="3700" duration="500" mode="linear"/>
+				<animation property="y" to="0.45" begin="4200" duration="500" mode="linear"/>	
+			</storyboard>			
+		</image>
+		
+		<image name="feuille6" extra="true">
+			<size>0.078125 0.1787037</size>		
+			<pos>-1 0.5</pos>
+			<scale>0.35</scale>
+			<path>./feuille_2.png</path>
+			<zIndex>12</zIndex>
+		
+			<storyboard repeat="forever">
+				<animation property="opacity" to="1" begin="2000" duration="500" mode="Linear"/>
+				<animation property="rotation" 	  begin="2400" to="240" duration="2700" mode="linear"/>
+				<animation property="x" from="-1" begin="2400" to="1" duration="2700" mode="linear"/>
+				<animation property="y" to="0.45" begin="3200" duration="500" mode="linear"/>
+				<animation property="y" to="0.55" begin="3700" duration="500" mode="linear"/>
+				<animation property="y" to="0.45" begin="4200" duration="500" mode="linear"/>	
+			</storyboard>			
+		</image>	
+	
+		
+	</view>
+
+</theme>

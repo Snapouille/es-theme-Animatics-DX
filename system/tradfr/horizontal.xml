@@ -1,0 +1,84 @@
+<!-- Easy RPG -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<pos>0.3 0.2</pos>
+			<size>0.3125 0.4907407</size>									
+									
+
+			<scale>1.2</scale>
+			<opacity>1</opacity>
+			<path>./avatar.png</path>
+			<zIndex>20</zIndex>
+			
+			
+		</image>
+		
+		
+		
+		
+		
+		
+		
+		
+		<image name="avatar-island_left" extra="static">
+			<origin>0 0</origin>
+			<pos>0.05 0.17</pos>
+			<size>0.1479167 0.2444444</size>									
+
+			<scale>1</scale>
+			<opacity>1</opacity>
+			<rotation>20</rotation>
+			<path>./avatar-island_left.png</path>
+			<zIndex>14</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" to="0.07" begin="" duration="7000" autoreverse="true" repeat="2" mode="linear"/>
+				<animation property="rotation" from="20" to="10" begin="" duration="28000" autoreverse="true" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="avatar-island_center" extra="static">
+			<origin>0 0</origin>
+			<pos>0.40 0.19</pos>
+			<size>0.1557292 0.2416667</size>									
+
+			<scale>0.7</scale>
+			<opacity>1</opacity>
+			<rotation>-10</rotation>
+			<path>./avatar-island_center.png</path>
+			<zIndex>13</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" to="0.36" begin="" duration="9000" repeat="2" autoreverse="true" mode="linear"/>
+				<animation property="rotation" from="-10" to="20" begin="" duration="18000" autoreverse="true" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar-island_up" extra="static">
+			<origin>0 0</origin>
+			<pos>0.5 0</pos>
+			<size>0.2567708 0.2166667</size>									
+
+			<scale>1</scale>
+			<opacity>1</opacity>
+			<rotation>0</rotation>
+			<path>./avatar-island_up.png</path>
+			<zIndex>18</zIndex>
+			
+			<storyboard repeat="forever">
+				<animation property="x" to="0.3" begin="" duration="20000" autoreverse="true" mode="linear"/>
+				
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

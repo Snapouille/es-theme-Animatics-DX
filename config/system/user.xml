@@ -172,5 +172,52 @@ originally based on: "carbon"
   
   
   
+<view name="system" ifSubset="SystemView:figurines">  
+	
+	<image name="encadrement" extra="true">
+		<zIndex>5000</zIndex>
+		<origin>0.5 0.5</origin>									
+		<size>0.0416667 0.0740741</size>									
+		<pos>0.78 0.037</pos>	
+		<color>${baseColor}</color>
+		  <storyboard>
+			<animation property="opacity" to="1" begin="" duration="1" autoreverse="true" mode="linear"/>
+		  </storyboard>
+	</image>
+
+	<image name="fond-encadrement, logo-user" extra="true">
+		<zIndex>5000</zIndex>
+		<origin>0.5 0.5</origin>									
+		<size>0.0385417 0.0685185</size>									
+		<pos>0.78 0.037</pos>									
+		  <storyboard>
+			<animation property="opacity" to="1" begin="" duration="1" autoreverse="true" mode="linear"/>
+		  </storyboard>
+	</image>
+	
+   <webimage name="logo-user"  extra="static" if="{global.cheevos} == true" ifSubset="user-logo:cheevos">
+	 <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+   </webimage>
+
+	<text name="nickname" extra="true">
+		<zIndex>5000</zIndex>
+		<size>0.1493958 0.0324074</size>									
+		<pos>0.805 0.013</pos>									
+		<color>${infoColor}</color>
+		<fontPath>./../../art/fonts/flatwheat.ttf</fontPath>
+		<fontSize>0.02</fontSize>
+		<alignment>left</alignment>		 
+		
+		<storyboard>
+			<animation property="color" to="FFFF00" begin="5000" duration="500" autoreverse="true" mode="linear"/>
+		  </storyboard>
+	</text>
+	
+
+</view> 
+  
+  
+  
+  
   
 </theme>

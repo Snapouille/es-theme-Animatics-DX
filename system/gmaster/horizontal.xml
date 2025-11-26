@@ -1,0 +1,166 @@
+<!-- gmaster GAME MASTER -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+	
+		<image name="BG_snapLegacy" extra="true">
+		
+			<origin>0.5 0.5</origin>									
+			<size>0.58125 0.6509259</size>									
+			<pos>0.3177083 0.3856481</pos>	
+		
+			<scale>2</scale>	
+			<storyboard>
+					<animation property="color" to="FFFFFFFF" begin="" duration="500" mode="linear"/>
+					<animation property="scale" to="1" begin="200" duration="500" mode="linear"/>		
+			</storyboard>
+		</image>
+		
+		<image name="black1, black2, black3, black4, black5, black6, black7, black8, black9, black10, black11, white1, white2, white3, white4, white5, white6" extra="true">
+			<path>./avatar-black.png</path>
+			<origin>0.5 0.5</origin>		
+			<zIndex>14</zIndex>
+		</image>
+		
+		<image name="white1, white2, white3, white4, white5, white6" extra="true">
+			<path>./avatar-white.png</path>
+			<size>0.0755 0.111</size>									
+		</image>
+		
+		<image name="white1" extra="true">
+			<pos>1.3 0.425463</pos>	
+			<storyboard>
+				<animation property="x" to="0.5255208" begin="700" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="white2" extra="true">
+			<pos>1.3 0.2939815</pos>	
+			<storyboard>
+				<animation property="x" to="0.4286458" begin="850" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="white3" extra="true">
+			<pos>1.3 0.1736111</pos>	
+			<storyboard>
+				<animation property="x" to="0.4744792" begin="1000" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="white4" extra="true">
+			<pos>-1.3 0.1958333</pos>	
+			<storyboard>
+				<animation property="x" to="0.1802083" begin="1150" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="white5" extra="true">
+			<pos>-1.3 0.1949074</pos>	
+			<storyboard>
+				<animation property="x" to="0.103125" begin="1300" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="white6" extra="true">
+			<pos>-1.3 0.0875</pos>	
+			<storyboard>
+				<animation property="x" to="0.1760417" begin="1450" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="black1">
+			<size>0.0755208 0.1166667</size>									
+			<pos>0.0945313 1.3</pos>	
+			<storyboard>
+				<animation property="y" to="0.4685185" begin="2350" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="black2">
+			<size>0.0755208 0.1166667</size>									
+			<pos>0.1851563 1.3</pos>
+			<storyboard>
+				<animation property="y" to="0.4611111" begin="2200" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="black3">
+			<size>0.0755208 0.1166667</size>									
+			<pos>0.2747396 1.3</pos>
+			<storyboard>
+				<animation property="y" to="0.4537037" begin="2050" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="black4">
+			<size>0.0744792 0.1148148</size>									
+			<pos>0.4445313 1.3</pos>
+			<storyboard>
+				<animation property="y" to="0.4342593" begin="1900" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="black5">
+			<size>0.0776042 0.1212963</size>									
+			<pos>0.3773438 1.3</pos>
+			<storyboard>
+				<animation property="y" to="0.6060185" begin="1750" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="black6">
+			<size>0.0723958 0.112963</size>									
+			<pos>0.0929688 1.3</pos>
+			<storyboard>
+				<animation property="y" to="0.3138889" begin="1600" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="black7">
+			<size>0.0723958 0.112963</size>									
+			<pos>0.1799479 1.3</pos>	
+			<storyboard>
+				<animation property="y" to="0.3111111" begin="1450" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="black8">
+			<size>0.0723958 0.1138889</size>									
+			<pos>0.2632813 1.3</pos>	
+			<storyboard>
+				<animation property="y" to="0.3041667" begin="1300" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="black9">
+			<size>0.0729167 0.112963</size>									
+			<pos>0.3453125 1.3</pos>	
+			<storyboard>
+				<animation property="y" to="0.3009259" begin="1150" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="black10">
+			<size>0.0708333 0.1111111</size>									
+			<pos>0.3260417 1.3</pos>	
+			<storyboard>
+				<animation property="y" to="0.0796296" begin="1000" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="black11">
+			<size>0.0708333 0.1101852</size>									
+			<pos>0.2536458 1.3</pos>	
+			<storyboard>
+				<animation property="y" to="0.0847222" begin="850" duration="250" mode="linear"/>
+			</storyboard>
+		</image>
+		
+		
+	</view>
+
+</theme>

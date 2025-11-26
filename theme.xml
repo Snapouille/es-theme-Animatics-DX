@@ -41,11 +41,12 @@ originally based on: "carbon"
     <optimizesmallscreensSubsetName>Optimize for small screens</optimizesmallscreensSubsetName>
     <helpSubsetName>Help icons</helpSubsetName>
     <systemViewName>System view</systemViewName>
-    <systemview.horizontal>horizontal</systemview.horizontal>
-    <systemview.simple>simple</systemview.simple>
-    <systemview.vertical>vertical</systemview.vertical>
-    <systemview.wheel>wheel</systemview.wheel>
-    <systemview.grid>grid (new)</systemview.grid>
+    <systemview.horizontal>Horizontal</systemview.horizontal>
+    <systemview.simple>Simple</systemview.simple>
+    <systemview.vertical>Vertical</systemview.vertical>
+    <systemview.wheel>Wheel</systemview.wheel>
+    <systemview.grid>Grid</systemview.grid>
+    <systemview.figurines>Figurines (New)</systemview.figurines>
     <colored>Colored</colored>
 	<subset.region>Region</subset.region>
     <subset.colorset>Colorset</subset.colorset>
@@ -364,23 +365,30 @@ originally based on: "carbon"
     <include name="nothing" displayName="${none}"/>
 </subset>
   
+  
+<!-- 21/11/2025 Vue simple désactivée, je pense que personne ne l'utilise -->
     
 <!-- Subset options for screen -->
 <subset name="SystemView" displayName="${systemViewName}">
 	<include name="wheel-animatics"  displayName="${systemview.wheel-animatics}">./config/system/systemview/wheel-animatics.xml</include>
 	<include name="wheel" displayName="${systemview.wheel}">./config/system/systemview/wheel.xml</include>
     <include name="vertical"  displayName="${systemview.vertical}">./config/system/systemview/vertical.xml</include>
-	<!-- <include name="vertical-arts"  displayName="${systemview.vertical-arts}">./config/system/systemview/vertical-arts.xml</include> -->
 	<include name="horizontal"  displayName="${systemview.horizontal}">./config/system/systemview/horizontal.xml</include>
 	<include name="grid"  displayName="${systemview.grid}">./config/system/systemview/grid.xml</include>
-	<include name="simple" displayName="${systemview.simple}">./config/system/systemview/simple.xml</include>
+	<include name="figurines"  displayName="${systemview.figurines}">./config/system/systemview/figurines.xml</include>
+	<!-- <include name="simple" displayName="${systemview.simple}">./config/system/systemview/simple.xml</include> -->
+	<!-- <include name="vertical-arts"  displayName="${systemview.vertical-arts}">./config/system/systemview/vertical-arts.xml</include> -->
 </subset>
-  
+
+
+<!-- 21/11/2025 Trop de bug dans la vue carboncontrol (manettes fil de fer) mis en standbye pour l'instant -->
+<!-- je pense que plus personne ne l'utilise, on verra ... -->
   
 <!-- Subset option for System view background -->
 <subset name="systembackground" displayName="${systemBackgroundName}">
     <include name="snap legacy" displayName="${systembackground.snap}">./config/system/systembackground/snaplegacy.xml</include>
-	<include name="carbon control" displayName="${systembackground.carboncontrol}">./config/system/systembackground/carboncontrollers.xml</include>
+    <include name="smooth wallpaper" displayName="${systembackground.wallpaper}">./config/system/systembackground/smoothwallpaper.xml</include>
+	<!-- <include name="carbon control" displayName="${systembackground.carboncontrol}">./config/system/systembackground/carboncontrollers.xml</include> -->
     <include name="random video" displayName="${systembackground.randomvideo}">./config/system/systembackground/video.xml</include>
     <include name="random box" displayName="${systembackground.fanart}">./config/system/systembackground/fanart.xml</include>
     <include name="random video + fanart" displayName="${systembackground.videofanart}">./config/system/systembackground/videofanart.xml</include>

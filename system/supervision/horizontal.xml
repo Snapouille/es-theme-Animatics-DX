@@ -1,0 +1,88 @@
+<!-- Super Vision -->
+
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+			<size>0.29375 0.3537037</size>									
+			<pos>0.8 0.11</pos>
+			<scale>0</scale>
+			<rotation>0</rotation>
+			<opacity>0</opacity>
+			<zIndex>12</zIndex>
+		</image>	
+	
+	
+		<image name="avatar2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.584375 0.3814815</size>									
+			<pos>0 0.09</pos>
+			<path>./avatar2.png</path>
+			<opacity>0</opacity>
+			<zIndex>11</zIndex>
+		</image>
+	
+		<image name="avatar3" extra="static">
+			<origin>0 0</origin>									
+			<size>0.584375 0.3814815</size>	
+			<pos>-0.5 0.09</pos>
+			<path>./avatar2.png</path>
+			<opacity>0</opacity>
+			<zIndex>11</zIndex>
+		</image>
+	
+	
+		<image name="avatar" extra="true">	
+		
+			<storyboard repeat="forever">
+					
+					<animation property="opacity" from="0" to="1" begin="" duration="1500" mode="linear"/>
+					<animation property="scale" from="0" to="0.85" begin="" duration="1500" mode="EaseIn"/>
+					<animation property="x" to="0.25" begin="" duration="1500" mode="EaseIn"/>
+					<animation property="y" to="0.148" begin="" duration="1500" mode="EaseIn"/>
+					
+					<animation property="x" from="0.25" to="0.24" begin="1500" duration="2000" mode="EaseOut"/>
+					<animation property="scale" from="0.85" to="0.9" begin="1500" duration="2000" mode="Linear"/>
+					<animation property="rotation" from="0" to="16" begin="1500" duration="12500" mode="Linear"/>
+					
+					<animation property="x" from="0.24" to="0.27" begin="3500" duration="10500" mode="Linear"/>
+					<animation property="y" from="0.148" to="0.25" begin="3500" duration="10500" mode="Linear"/>
+					<animation property="scale" from="0.9" to="1" begin="3500" duration="10500" mode="Linear"/>
+					
+					<animation property="scale" to="10" begin="14000" duration="2000" mode="EaseIn"/>
+					<animation property="x" to="-2" begin="14000" duration="2000" mode="EaseOut"/>
+					
+			</storyboard>
+		</image>
+		
+		
+		<image name="avatar2" extra="true">	
+			<storyboard repeat="forever">
+			
+					<animation property="opacity" from="0" to="1" begin="" duration="1500" mode="linear"/>
+					<animation property="x" to="0.6" begin="" duration="50000" mode="EaseIn"/>
+					<animation property="y" to="-0.1" begin="" duration="50000" mode="EaseIn"/>
+					<animation property="opacity" from="1" to="0" begin="47000" duration="3000" mode="linear"/>
+					
+			</storyboard>
+		</image>
+		
+		<image name="avatar3" extra="true">	
+			<storyboard repeat="forever">
+			
+					<animation property="opacity" from="0" to="1" begin="" duration="8000" mode="linear"/>
+					<animation property="x" to="1" begin="" duration="90000" mode="EaseIn"/>
+					<animation property="y" to="-0.5" begin="40000" duration="50000" mode="EaseIn"/>
+					<animation property="opacity" from="1" to="0" begin="87000" duration="3000" mode="linear"/>
+					
+			</storyboard>
+		</image>
+
+		
+		
+	</view>
+
+</theme>

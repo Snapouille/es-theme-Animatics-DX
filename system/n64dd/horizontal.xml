@@ -1,0 +1,20 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar" extra="static">
+			<pos>0.33 0.3</pos>
+			<maxSize>0.4 0.6</maxSize>
+			
+			<storyboard>
+				
+        		<animation property="x" to="0.38" begin="" duration="4000" mode="EaseInOut"/>
+        		
+			</storyboard>	
+			
+		</image>
+
+	</view>
+	
+</theme>
