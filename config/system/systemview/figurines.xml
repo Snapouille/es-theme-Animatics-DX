@@ -199,7 +199,7 @@
     <video name="video-preview" ifSubset="video-preview:Show" extra="true">
 		<path>{random}</path>
 		<origin>0 0</origin>
-		<delay>0.1</delay> 
+		<delay>1.1</delay> 
 		<effect>none</effect>
 		<zIndex>31</zIndex>
 				
