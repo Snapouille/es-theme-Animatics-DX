@@ -133,12 +133,14 @@
 		<visible>true</visible> 
 		<opacity>1</opacity>
 		<alignment>left</alignment>
-		<pos ifSubset="system-description:Hide">0.5 -0.095</pos>
-		<alignment ifSubset="system-description:Hide">right</alignment>
+		<!-- Fonctionne pas, à revoir -->
+		<!-- <pos 		ifSubset="system-description:Hide">0.5 -0.095</pos> -->
+		<!-- <alignment 	ifSubset="system-description:Hide">right</alignment> -->
 			<storyboard>
 				<animation property="opacity" from="0" to="1" begin="" duration="1" mode="Linear"/>
 			</storyboard>
 	</text>
+	
 		
 	<!-- si on Affichage toutes les stats avec animation (Nombre de jeux, jeux joués, favoris et 2ème ligne jeu le plus joué)	 -->
     <text name="systemInfoEx, systemInfoEx2,systemInfoExNull" ifSubset="InfoCustomView:detailed" extra="true">
@@ -194,6 +196,7 @@
 	<image name="right_BottomFrame" extra="true">
 		<visible ifHelpPrompts="false">false</visible>
 	</image>
+	
 	
 	<!-- position des vidéos preview quand elles sont affichées -->
     <video name="video-preview" ifSubset="video-preview:Show" extra="true">
