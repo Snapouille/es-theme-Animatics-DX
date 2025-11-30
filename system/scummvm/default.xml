@@ -102,7 +102,7 @@
 			<opacity>1</opacity>
 			<path>./avatar-guybrush1.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>19</zIndex>
+			<zIndex>190</zIndex>
 			<storyboard repeatAt="1000">
 				<animation property="offsetX" to="-0.565" begin="" duration="500" mode="linear"/>
 				
@@ -135,7 +135,7 @@
 			<opacity>0</opacity>
 			<path>./avatar-guybrush1bis.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>19</zIndex>
+			<zIndex>190</zIndex>
 
 			<storyboard repeatAt="1000">
 				<animation property="offsetX" to="-0.565" begin="" duration="500" mode="linear"/>
@@ -163,7 +163,7 @@
 			<opacity>0</opacity>
 			<path>./avatar-guybrush1ter.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>19</zIndex>
+			<zIndex>190</zIndex>
 
 			<storyboard repeatAt="1000">
 				<animation property="offsetX" to="-0.565" begin="" duration="500" mode="linear"/>
@@ -182,7 +182,7 @@
 		
 		
 		<image name="avatar-guybrush22" extra="true">
-			<zIndex>19</zIndex>
+			<zIndex>190</zIndex>
 			<opacity>0</opacity>
 			<path>./avatar-guybrush2.png</path>
 			<origin>0.5 0.5</origin>									

@@ -68,17 +68,12 @@ originally based on: "carbon"
 	
 	<!-- Règle d'affichage des consoles -->
 	<image name="Consoles" extra="true">
-      <path>./../../art/consoles/${system.theme}.png</path>
-	  <path>./../../art/consoles/${system.theme}.svg</path>
-	  <path ifSubset="artworkregion:us">./../../art/consoles/us/${system.theme}.png</path>
-	  <path ifSubset="artworkregion:jp">./../../art/consoles/jp/${system.theme}.png</path>
-	  <linearSmooth>false</linearSmooth>
+		<path>./../../art/consoles/${system.theme}.png</path>
+		<path>./../../art/consoles/${system.theme}.svg</path>
+		<path ifSubset="artworkregion:us">./../../art/consoles/us/${system.theme}.png</path>
+		<path ifSubset="artworkregion:jp">./../../art/consoles/jp/${system.theme}.png</path>
+		<linearSmooth>false</linearSmooth>
   	</image>
-	
-	
-	
-	
-	
 	
 	
     <image name="ControllerOverlay" extra="true">
@@ -90,8 +85,6 @@ originally based on: "carbon"
       <zIndex>19</zIndex>
       <linearSmooth>true</linearSmooth>
     </image>
-	
-	
 	
 	<!-- Animation barre autour de la frame (cadre) centrale -->
 	
@@ -472,8 +465,23 @@ originally based on: "carbon"
 	</image>
 	
 	
+	
+	
+    <video name="video-preview" ifSubset="video-preview:Hide" extra="true">
+		<visible>false</visible>
+    </video>
+	
+	
+	
 		
   </view>
+  
+  
+  
+  
+  
+  
+  
     
   <feature supported="manufacturer">
     <view name="system">
@@ -746,7 +754,7 @@ originally based on: "carbon"
 <!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
 
 	
-		<view name="system" ifSubset="SystemView:vertical">
+	<view name="system" ifSubset="SystemView:vertical">
 
 	
 		<image name="controllers2" extra="true">
@@ -858,6 +866,7 @@ originally based on: "carbon"
 		
 		
 		
+		
 	
 	</view>
 	
@@ -871,8 +880,6 @@ originally based on: "carbon"
 	
 <view name="system" ifSubset="SystemView:wheel">
 
-
-	
 	<text name="manufacturerName" extra="true">
         <pos>0.08 0.068</pos>
 		<pos ifHelpPrompts="false">0.03 0.108</pos>
@@ -943,8 +950,6 @@ originally based on: "carbon"
 	
 <view name="system" ifSubset="SystemView:wheel-animatics">
 	
-	
-	
 	<image name="logo">
 		<storyboard event="activate" repeatAt="300">
 				<animation property="scale" to="1" begin="" duration="300" mode="EaseInOut"/>
@@ -963,9 +968,6 @@ originally based on: "carbon"
 		</storyboard>		
     </image>
 	
-	
-	
-	
 	<image name="controllers2" extra="true">
 	
 		<origin>0.5 0.5</origin>									
@@ -977,13 +979,10 @@ originally based on: "carbon"
 		<path ifSubset="artworkregion:us">./../../art/controllers2/us/${system.theme}.png</path>
 		<path ifSubset="artworkregion:jp">./../../art/controllers2/jp/${system.theme}.png</path>
 		<linearSmooth>true</linearSmooth>
-		<zIndex>18</zIndex>
-	
-	
+		<zIndex>19</zIndex>
 	
 		<horizontalAlignment>center</horizontalAlignment>
 		<verticalAlignment>center</verticalAlignment>
-		
 		
 		<!-- Rotation normale à 20000 -->
 		<storyboard>
@@ -1047,6 +1046,19 @@ originally based on: "carbon"
 		<visible>false</visible>
 	</image>
 
+	<!-- si option video preview enclenché on change le storyboard des manettes -->
+	<image name="controllers2" ifSubset="video-preview:Show" extra="true">
+	
+		<storyboard>
+			<animation property="offsetX" to="-0.34375" begin="6500" duration="1500" mode="EaseOutCubic"/>
+			
+			<animation property="scale" to="0.4" begin="8000" duration="500" mode="EaseInOut"/>
+			<animation property="offsetX" to="-0.28" begin="8000" duration="500" mode="EaseInOut"/>
+			<animation property="offsetY" to="0.114" begin="8000" duration="500" mode="EaseInOut"/>
+		</storyboard>
+
+	</image>
+
 
 	<text name="system_description" ifSubset="system-description:Hide">
 		<opacity>0</opacity>	
@@ -1063,8 +1075,6 @@ originally based on: "carbon"
 			<animation property="offsetX" to="-0.415" begin="6500" duration="1500" mode="EaseOutCubic"/>
 		</storyboard>	
 	</text>
-	
-	
 	
 	
 </view>
@@ -1285,7 +1295,7 @@ originally based on: "carbon"
 <!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
 <!-- '''''''''''''''''''''''''''''''''''''''''''''''' -->
 	
-<view name="system" ifSubset="SystemView:figurines, system-description:Show">
+<view name="system" ifSubset="SystemView:figurines">
 	
 		
 	<!-- ------------------ -->
@@ -1478,20 +1488,21 @@ originally based on: "carbon"
 		<visible>false</visible>
 	</text>
 	
-	<imagegrid name="imagegrid">
-		<pos>0.0215 0.027</pos>
-		<pos ifHelpPrompts="false">0.0215 0.057</pos>	
-		<size>0.648 0.893</size>
-		<!-- <autoLayout>0 5</autoLayout> -->
-	</imagegrid>
+	<image name="up_Frame_border, down_Frame_border, left_Frame_border, right_Frame_border, manufacturer-icon, date-icon, stats-icon, Consoles, bg_Frame" extra="true">
+		<visible>false</visible>
+	</image>
 	
+    <screenshader name="blur_Frame" extra="true">
+		<visible>false</visible>
+    </screenshader>
 	
 	<text name="systemInfoEx, systemInfoEx2,systemInfoExNull" extra="static">
 		<fontSize>0.023</fontSize>
 		<size>0.45 0.28</size>
-		<pos>0.5 -0.095</pos>
-		<alignment>right</alignment>
+		<pos>0.03 -0.095</pos>
+		<alignment>left</alignment>
     </text>
+	
 </view>
 
 

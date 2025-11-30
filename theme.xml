@@ -394,7 +394,6 @@ originally based on: "carbon"
     <include name="random video + fanart" displayName="${systembackground.videofanart}">./config/system/systembackground/videofanart.xml</include>
 </subset>
   
-
 <!-- Affichage des Controlleurs-->
 <subset name="system-controllers" displayName="${system-controllers}">
 	<include name="Show" displayName="${show}"/>
@@ -407,6 +406,11 @@ originally based on: "carbon"
 	<include name="Hide" displayName="${hide}"/>
 </subset>
 
+<!-- Affichage d'une video preview sur les systèmes-->
+<subset name="video-preview" displayName="${video-preview}">
+	<include name="Hide" displayName="${hide}"/>
+	<include name="Show" displayName="${show}"/>
+</subset>
 
 <!-- Avatar utilisateur -->
 <subset name="user-logo" displayName="${user.logo}">

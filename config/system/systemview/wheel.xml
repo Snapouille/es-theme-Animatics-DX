@@ -266,6 +266,30 @@
 		
       </text>
 	  
+	  
+		<!-- position des vidéos preview quand elles sont affichées -->
+		<video name="video-preview" ifSubset="video-preview:Show" extra="true">
+			<path>{random}</path>
+			<origin>0 0</origin>
+			<delay>3.1</delay> 
+			<effect>none</effect>
+			<zIndex>1800</zIndex>
+					
+			<roundCorners>0</roundCorners>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			
+			<shader>
+				<path>${themePath}/art/shaders/border.glsl</path>
+				<borderSize>0.013</borderSize>
+				<borderColor>${baseColor}</borderColor>
+			</shader>
+			
+			<maxSize>0.21 0.19</maxSize>	
+			<pos>0.07 0.5</pos>
+		</video>
+	  
+	  
 
 	
 		

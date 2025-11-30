@@ -178,7 +178,7 @@ originally based on: "carbon"
 		<zIndex>5000</zIndex>
 		<origin>0.5 0.5</origin>									
 		<size>0.0416667 0.0740741</size>									
-		<pos>0.78 0.037</pos>	
+		<pos>0.78 0.04</pos>	
 		<color>${baseColor}</color>
 		  <storyboard>
 			<animation property="opacity" to="1" begin="" duration="1" autoreverse="true" mode="linear"/>
@@ -189,7 +189,7 @@ originally based on: "carbon"
 		<zIndex>5000</zIndex>
 		<origin>0.5 0.5</origin>									
 		<size>0.0385417 0.0685185</size>									
-		<pos>0.78 0.037</pos>									
+		<pos>0.78 0.04</pos>									
 		  <storyboard>
 			<animation property="opacity" to="1" begin="" duration="1" autoreverse="true" mode="linear"/>
 		  </storyboard>
@@ -215,8 +215,24 @@ originally based on: "carbon"
 	
 
 </view> 
+
+
+<view name="system" ifSubset="SystemView:figurines, system-description:Hide">
   
+  	<image name="encadrement" extra="true">
+		<pos>0.975 0.075</pos>	
+	</image>
+	
+	<image name="fond-encadrement, logo-user" extra="true">
+		<pos>0.975 0.075</pos>									
+	</image>
+	
+	<text name="nickname" extra="true">
+		<pos>0.8 0.06</pos>									
+		<alignment>right</alignment>		 
+	</text>
   
+</view> 
   
   
   

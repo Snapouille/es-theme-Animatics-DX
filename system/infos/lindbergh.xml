@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Sega Lindbergh is an arcade system by Sega based on a PC architecture running Linux. It uses computer-like hardware to deliver solid graphical performance. Each game requires a dedicated USB security key to start, used as protection against piracy.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le Sega Lindbergh est un système d’arcade de Sega basé sur une architecture PC sous Linux. Il utilise du matériel proche d’un ordinateur pour offrir de bonnes performances graphiques. Chaque jeu nécessite une clé USB de sécurité pour démarrer, servant de protection contre le piratage.</text>
+</text>
+
+</view>
+</theme>
