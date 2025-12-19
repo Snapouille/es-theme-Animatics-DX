@@ -611,8 +611,11 @@ originally based on: "carbon"
 	<zIndex>4</zIndex>
 </image>
 
+
+
 <!-- Système nécessitant un bureau plus profond -->
 <image name="bureau" if="{system.theme} == 'amstradcpc' 
+					|| 	 {system.theme} == 'amiga' 
 					|| 	 {system.theme} == 'amiga500' 
 					|| 	 {system.theme} == 'amiga1200' 
 					|| 	 {system.theme} == 'amiga4000' 
@@ -626,6 +629,7 @@ originally based on: "carbon"
 					|| 	 {system.theme} == 'camplynx' 
 					|| 	 {system.theme} == 'dreamcast' 
 					|| 	 {system.theme} == 'fm7' 
+					|| 	 {system.theme} == 'thomson' 
 					|| 	 {system.theme} == 'x1' 
 					|| 	 {system.theme} == 'pet'" extra="static">
 	<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1-wide.png</path>
@@ -660,8 +664,7 @@ originally based on: "carbon"
 					|| 	 {system.theme} == 'cplus4' 
 					|| 	 {system.theme} == 'msx2' 
 					|| 	 {system.theme} == 'msx2+' 
-					|| 	 {system.theme} == 'msxturbor' 
-					|| 	 {system.theme} == 'thomson'" extra="static">
+					|| 	 {system.theme} == 'msxturbor'" extra="static">
 	<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1-wide.png</path>
 	<path ifSubset="deskType:wood2">${themePath}/art/desk/wood2-wide.png</path>
 	<path ifSubset="deskType:wood3">${themePath}/art/desk/wood3-wide.png</path>
@@ -783,7 +786,7 @@ originally based on: "carbon"
 <image name="figurines" extra="true">
 	<origin>0.5 0.5</origin>
 	<pos>0.3 0.795</pos>									
-	<pos ifHelpPrompts="false">0.3 0.84</pos>
+	<pos ifHelpPrompts="false">0.3 0.845</pos>
 	<maxSize>0.11 0.25</maxSize>	
 	<verticalAlignment>bottom</verticalAlignment>
 	<color>FFFFFF</color>

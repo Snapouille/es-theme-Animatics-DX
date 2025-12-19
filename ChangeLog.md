@@ -1,3 +1,15 @@
+## V 2.41 - (19 12 2025)
+- Renamed tyrquake and vitaquake2 systems to quake and quake2   
+  
+Gamecarousel View :  
+- Added a new design for the Master System   
+- Added a new design for the Thomson system   
+- Added a new design for the Uzebox system   
+- Fixed desktop alignment when Amiga is grouped
+
+
+
+
 ## V 2.40 - (30 11 2025)
 - Added an option to display a video preview for all system views
 - Added figurines for automatic collections

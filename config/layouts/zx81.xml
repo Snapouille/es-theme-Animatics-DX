@@ -5,8 +5,8 @@
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
 		<size>0.265625 0.2944444</size>									
-		<pos>0.695 0.795</pos>	
-		<pos ifHelpPrompts="false">0.695 0.845</pos>
+		<pos>0.695 0.8</pos>	
+		<pos ifHelpPrompts="false">0.695 0.85</pos>
 		<scale>0.8</scale>
     </image>
   

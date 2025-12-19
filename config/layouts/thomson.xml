@@ -4,28 +4,28 @@
 <view name="gamecarousel">
 
 	<image name="figurines" extra="true">
-		<pos>0.32 0.6</pos>									
-		<pos ifHelpPrompts="false">0.32 0.645</pos>
+		<pos>0.32 0.65</pos>									
+		<pos ifHelpPrompts="false">0.32 0.695</pos>
 	</image>
 
 	<image name="ecran_console" extra="static">
 		<path>./../../system/thomson/ecran_console2.png</path>
-		<size>0.3567708 0.6037037</size>									
-		<pos>0.5752604 0.6277778</pos>	
-		<pos ifHelpPrompts="false">0.5752604 0.6677778</pos>
+		<size>0.3520833 0.5935185</size>									
+		<pos>0.566875 0.6317593</pos>	
+		<pos ifHelpPrompts="false">0.566875 0.6717593</pos>
 	</image>
   
 	<video name="md_video">
-		<size>0.1984375 0.2648148</size>									
-		<pos>0.6106771 0.5157407</pos>	
-		<pos ifHelpPrompts="false">0.6106771 0.5557407</pos>
+		<size>0.1541667 0.2074074</size>									
+		<pos>0.5632292 0.5053704</pos>	
+		<pos ifHelpPrompts="false">0.5632292 0.5453704</pos>
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<size>0.1984375 0.2648148</size>									
-		<pos>0.6106771 0.5157407</pos>	
-		<pos ifHelpPrompts="false">0.6106771 0.5557407</pos>
+		<size>0.1541667 0.2074074</size>									
+		<pos>0.5632292 0.5053704</pos>	
+		<pos ifHelpPrompts="false">0.5632292 0.5453704</pos>
 	</image>
 	
 </view>

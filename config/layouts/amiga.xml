@@ -11,48 +11,6 @@
 		<zIndex>4</zIndex>
 	</image>
 	
-	<!-- <image name="lamp" extra="true"> -->
-		<!-- <origin>0.5 0.5</origin>	 -->
-		<!-- <path>${themePath}/art/figurines/lamp.png</path> -->
-		<!-- <size>0.1515625 0.3814815</size>									 -->
-		<!-- <pos>0.28 0.53</pos>									 -->
-		<!-- <pos ifHelpPrompts="false">0.28 0.58</pos> -->
-		<!-- <color>FFFFFF</color> -->
-		<!-- <zIndex>4</zIndex> -->
-	<!-- </image> -->
-	
-	<!-- <image name="lamp_halo" extra="true"> -->
-		<!-- <origin>0.5 0.5</origin>	 -->
-		<!-- <path>${themePath}/art/figurines/lamp_halo.png</path> -->
-		<!-- <size>0.2744792 0.5018519</size>									 -->
-		<!-- <pos>0.3992188 0.5990741</pos>									 -->
-		<!-- <pos ifHelpPrompts="false">0.3992188 0.6490741</pos> -->
-		<!-- <color>FFFFFF</color> -->
-		<!-- <opacity>0</opacity> -->
-		<!-- <zIndex>5</zIndex> -->
-		
-		<!-- <storyboard event="open"> -->
-                <!-- <animation property="opacity" to="0.6" begin="1500" duration="300" mode="linear"/>			 -->
-		<!-- </storyboard> -->
-			
-		<!-- <storyboard event="activate"> -->
-                <!-- <animation property="opacity" to="0.6" begin="1500" duration="300" mode="linear"/>			 -->
-		<!-- </storyboard> -->
-			
-		<!-- <storyboard event="deactivate"> -->
-                <!-- <animation property="opacity" to="0" mode="linear"/>			 -->
-		<!-- </storyboard> -->
-	<!-- </image> -->
-	
-	<!-- <image name="lamp_cache" extra="true"> -->
-		<!-- <origin>0.5 0.5</origin>	 -->
-		<!-- <path>${themePath}/art/figurines/lamp_cache.png</path> -->
-		<!-- <size>0.071875 0.1166667</size>									 -->
-		<!-- <pos>0.3171875 0.4546296</pos>									 -->
-		<!-- <pos ifHelpPrompts="false">0.3171875 0.5046296</pos> -->
-		<!-- <color>FFFFFF</color> -->
-		<!-- <zIndex>6</zIndex> -->
-	<!-- </image> -->
 	
 	<image name="ecran_console" extra="static">
 		<path>./../../system/amiga/ecran_console2.png</path>
@@ -60,6 +18,7 @@
 		<pos>0.565625 0.6293519</pos>									
 		<pos ifHelpPrompts="false">0.555625 0.6893519</pos>
 	</image>
+  
   
   
 	<video name="md_video">
@@ -75,6 +34,33 @@
 		<pos>0.5911458 0.5066667</pos>	
 		<pos ifHelpPrompts="false">0.5811458 0.5666667</pos>
 	</image>
+	
+	<!-- Pour l'amiga quand il est regroupé on est obliger de forcer le bureau large -->
+	<!-- le " {system.theme} == 'amiga' " n'est pas pris en compte dans le gamecarousel.xml -->
+	<image name="bureau" extra="static">
+		<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1-wide.png</path>
+		<path ifSubset="deskType:wood2">${themePath}/art/desk/wood2-wide.png</path>
+		<path ifSubset="deskType:wood3">${themePath}/art/desk/wood3-wide.png</path>
+		<path ifSubset="deskType:wood4">${themePath}/art/desk/wood4-wide.png</path>
+		<path ifSubset="deskType:wood5">${themePath}/art/desk/wood5-wide.png</path>
+		<path ifSubset="deskType:wood6">${themePath}/art/desk/wood6-wide.png</path>
+		<path ifSubset="deskType:wood7">${themePath}/art/desk/wood7-wide.png</path>
+		<path ifSubset="deskType:wood8">${themePath}/art/desk/wood8-wide.png</path>
+		<path ifSubset="deskType:metal1">${themePath}/art/desk/metal1-wide.png</path>
+		<path ifSubset="deskType:metal2">${themePath}/art/desk/metal2-wide.png</path>
+		<path ifSubset="deskType:leather1">${themePath}/art/desk/leather1-wide.png</path>
+		<path ifSubset="deskType:leather2">${themePath}/art/desk/leather2-wide.png</path>
+		<path ifSubset="deskType:leather3">${themePath}/art/desk/leather3-wide.png</path>
+		<path ifSubset="deskType:cosmos">${themePath}/art/desk/cosmos-wide.png</path>
+		<path ifSubset="deskType:leopard">${themePath}/art/desk/leopard-wide.png</path>
+		<path ifSubset="deskType:magma">${themePath}/art/desk/magma-wide.png</path>
+		<path ifSubset="deskType:marble">${themePath}/art/desk/marble-wide.png</path>
+		<path ifSubset="deskType:onthegreen">${themePath}/art/desk/onthegreen-wide.png</path>
+			<size>1 0.3064815</size>									
+			<pos>0.5 0.7821296</pos>	
+			<pos ifHelpPrompts="false">0.5 0.8421296</pos>
+	</image>
+	
 	
 </view>
 

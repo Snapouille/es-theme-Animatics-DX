@@ -5,7 +5,7 @@ Theme for Emulation Station compatible with
 - [Batocera](https://batocera.org/)
 - [RetroBat](https://www.retrobat.org/)
 
-**V 2.40 - (2025 11 30) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
+**V 2.41 - (2025 12 19) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
 
 Features :
 

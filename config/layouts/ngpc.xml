@@ -6,26 +6,26 @@
 	<image name="figurines" extra="true">
 		<pos>0.31 0.74</pos>									
 		<pos ifHelpPrompts="false">0.31 0.8</pos>
-		<maxSize>0.13 0.35</maxSize>	
+		<maxSize>0.15 0.36</maxSize>	
 	</image>
   
 	<image name="ecran_console" extra="static">
 		<size>0.4322917 0.4768519</size>									
-		<pos>0.5186458 0.6134259</pos>									
-		<pos ifHelpPrompts="false">0.5186458 0.6634259</pos>
+		<pos>0.5186458 0.6034259</pos>									
+		<pos ifHelpPrompts="false">0.5186458 0.6534259</pos>
 	</image>
   
 	<video name="md_video">
 		<size>0.1635417 0.2685185</size>									
-		<pos>0.5186458 0.596</pos>									
-		<pos ifHelpPrompts="false">0.5186458 0.646</pos>
+		<pos>0.5186458 0.586</pos>									
+		<pos ifHelpPrompts="false">0.5186458 0.636</pos>
 	</video>
   
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
 		<size>0.1635417 0.28</size>									
-		<pos>0.5186458 0.596</pos>	
-		<pos ifHelpPrompts="false">0.5186458 0.646</pos>
+		<pos>0.5186458 0.586</pos>	
+		<pos ifHelpPrompts="false">0.5186458 0.636</pos>
 	</image>
 	
 </view>  

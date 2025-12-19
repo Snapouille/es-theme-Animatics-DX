@@ -5,40 +5,41 @@
   
 	
 	<image name="Consoles" extra="static">
+		<path>${themePath}/system/mastersystem/ecran_console2.png</path>
 		<visible>true</visible>
-		<pos>0.71 0.82</pos>	
-		<pos ifHelpPrompts="false">0.711 0.87</pos>
-		<rotation>1</rotation>
+		<size>0.2666667 0.1666667</size>									
+		<pos>0.669 0.85</pos>									
+		<pos ifHelpPrompts="false">0.669 0.905</pos>
     </image>
 	
-	<image name="gun_game" extra="static">
-		<visible>{game:gunGame} ? 1 : 0</visible>
-		<linearSmooth>true</linearSmooth>
-		<origin>0.5 0.5</origin>									
-		<path>./../../art/gun/gun_mastersystem.png</path>
-		<size>0.08 0.105</size>									
-		<pos>0.7 0.688</pos>									
-		<pos ifHelpPrompts="false">0.715 0.746</pos>
-		<opacity>0</opacity>
-		<zIndex>12</zIndex>
-			<storyboard event="open" repeatAt="4000">
-				<animation property="opacity" to="1" begin="300" duration="200" mode="linear"/>
-				<animation property="offsetX" to="-0.008" begin="500" duration="100" autoreverse="true" repeat="2" mode="easeIn"/>
-				<animation property="rotation" to="5" begin="500" duration="80" autoreverse="true" repeat="2" mode="easeIn"/>	
-				<animation property="offsetX" to="-0.008" begin="9500" duration="100" autoreverse="true" repeat="2" mode="easeIn"/>
-				<animation property="rotation" to="5" begin="9500" duration="80" autoreverse="true" repeat="2" mode="easeIn"/>	
-			</storyboard>				
-			<storyboard event="activate" repeatAt="4000">
-				<animation property="opacity" to="1" begin="300" duration="200" mode="linear"/>
-				<animation property="offsetX" to="-0.008" begin="500" duration="100" autoreverse="true" repeat="2" mode="easeIn"/>
-				<animation property="rotation" to="5" begin="500" duration="80" autoreverse="true" repeat="2" mode="easeIn"/>	
-				<animation property="offsetX" to="-0.008" begin="9500" duration="100" autoreverse="true" repeat="2" mode="easeIn"/>
-				<animation property="rotation" to="5" begin="9500" duration="80" autoreverse="true" repeat="2" mode="easeIn"/>	
-			</storyboard>
-			<storyboard event="deactivate">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
-	</image>
+	<!-- <image name="gun_game" extra="static"> -->
+		<!-- <visible>{game:gunGame} ? 1 : 0</visible> -->
+		<!-- <linearSmooth>true</linearSmooth> -->
+		<!-- <origin>0.5 0.5</origin>									 -->
+		<!-- <path>./../../art/gun/gun_mastersystem.png</path> -->
+		<!-- <size>0.08 0.105</size>									 -->
+		<!-- <pos>0.7 0.688</pos>									 -->
+		<!-- <pos ifHelpPrompts="false">0.715 0.746</pos> -->
+		<!-- <opacity>0</opacity> -->
+		<!-- <zIndex>12</zIndex> -->
+			<!-- <storyboard event="open" repeatAt="4000"> -->
+				<!-- <animation property="opacity" to="1" begin="300" duration="200" mode="linear"/> -->
+				<!-- <animation property="offsetX" to="-0.008" begin="500" duration="100" autoreverse="true" repeat="2" mode="easeIn"/> -->
+				<!-- <animation property="rotation" to="5" begin="500" duration="80" autoreverse="true" repeat="2" mode="easeIn"/>	 -->
+				<!-- <animation property="offsetX" to="-0.008" begin="9500" duration="100" autoreverse="true" repeat="2" mode="easeIn"/> -->
+				<!-- <animation property="rotation" to="5" begin="9500" duration="80" autoreverse="true" repeat="2" mode="easeIn"/>	 -->
+			<!-- </storyboard>				 -->
+			<!-- <storyboard event="activate" repeatAt="4000"> -->
+				<!-- <animation property="opacity" to="1" begin="300" duration="200" mode="linear"/> -->
+				<!-- <animation property="offsetX" to="-0.008" begin="500" duration="100" autoreverse="true" repeat="2" mode="easeIn"/> -->
+				<!-- <animation property="rotation" to="5" begin="500" duration="80" autoreverse="true" repeat="2" mode="easeIn"/>	 -->
+				<!-- <animation property="offsetX" to="-0.008" begin="9500" duration="100" autoreverse="true" repeat="2" mode="easeIn"/> -->
+				<!-- <animation property="rotation" to="5" begin="9500" duration="80" autoreverse="true" repeat="2" mode="easeIn"/>	 -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="deactivate"> -->
+				<!-- <animation property="opacity" to="0" duration="1" mode="linear"/> -->
+			<!-- </storyboard> -->
+	<!-- </image> -->
   
 	<image name="ecran_console" extra="static">
 		<path>./../../art/screen/grey1985.png</path>
