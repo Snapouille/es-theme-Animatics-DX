@@ -1,3 +1,24 @@
+## V 2.42 - (24 01 2026)
+- Added a GBA new smooth wallpaper  
+- Added a 3DS new smooth wallpaper  
+- Added a Tiger game.com new smooth wallpaper  
+- Added a star wars collection new smooth wallpaper  
+- Added a Disney collection new smooth wallpaper  
+- Added a Donkey Kong collection new smooth wallpaper  
+- Added a Nichibutsu collection new smooth wallpaper  
+- Added a Taito collection new smooth wallpaper  
+- Added a Tecmo collection new smooth wallpaper  
+- Added a Technos collection new smooth wallpaper  
+- Added a SNK collection new smooth wallpaper  
+- Added a auto-educational collection smooth wallpaper  
+- Added a auto-asiaticboard collection smooth wallpaper  
+- Added a auto-auto-huntingandfishing collection smooth wallpaper  
+- Added a auto-playingcards collection smooth wallpaper  
+- Added a auto-reflexion collection smooth wallpaper  
+- Added a auto-puzzle collection smooth wallpaper   
+- Added a auto-beatemup collection smooth wallpaper   
+- Fixed double video preview audio in the gamecarousel view for arcade systems
+
 ## V 2.41 - (19 12 2025)
 - Renamed tyrquake and vitaquake2 systems to quake and quake2   
   
@@ -6,9 +27,6 @@ Gamecarousel View :
 - Added a new design for the Thomson system   
 - Added a new design for the Uzebox system   
 - Fixed desktop alignment when Amiga is grouped
-
-
-
 
 ## V 2.40 - (30 11 2025)
 - Added an option to display a video preview for all system views

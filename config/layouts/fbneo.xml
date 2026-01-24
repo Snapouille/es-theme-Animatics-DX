@@ -33,6 +33,7 @@
 	<!-- je décale en dehors de l'écran car il s'affichait toujours, même avec un visible=false ... -->
 	<video name="md_video">
 		<pos>-2 -1</pos>
+		<audio>false</audio>
 	</video>
 		
 		

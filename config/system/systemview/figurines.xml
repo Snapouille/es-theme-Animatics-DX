@@ -98,7 +98,7 @@
 		<color>${baseColor}</color>
 	</image>
 	
-	<!-- emplacement et animation du logo -->
+	<!-- emplacement du logo système-->
 	<image name="color_Logos" extra="static">
 		<path>./../../../art/logos/${system.theme}.svg</path>
 		<path>./../../../art/logos/${system.theme}.png</path>

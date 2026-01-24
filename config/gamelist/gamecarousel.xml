@@ -2160,6 +2160,10 @@ originally based on: "carbon"
 			|| {system.theme} == 'naomi2'
 			">		
 
+<!-- On coupe le son des md_video si on est dans un système arcade pour éviter le son en double -->
+<video name="md_video">
+  <audio>false</audio>
+</video>
 
 <!-- on décale légèrement les box (flyers) vers la droite -->
 	<image name="thumbnail-gamecarousel" extra="true">
@@ -2232,6 +2236,7 @@ originally based on: "carbon"
 		<pos ifHelpPrompts="false">0.185 0.73</pos>		
 		<maxSize>0.25 0.25</maxSize>
 		<opacity>0</opacity>
+		<zIndex>22</zIndex>
 		<zIndex>22</zIndex> 
 		<storyboard event="open">   
 			<animation property="opacity" to="1" begin="1000" duration="1" mode="linear"/>

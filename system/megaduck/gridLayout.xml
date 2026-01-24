@@ -15,7 +15,7 @@
 	<image name="BG_landscape" extra="true">
 		<path>./background-grid.jpg</path>
 			<size>1 1</size>									
-			<pos>0.5 0.5</pos>	<scale>1</scale>	
+			<pos>0 0</pos>	
 		    <scale>1</scale>
 		    <zIndex>4</zIndex>
 			<saturation>0.7</saturation>
