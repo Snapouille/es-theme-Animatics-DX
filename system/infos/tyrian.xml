@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>Tyrian is a classic vertical shoot ’em up on PC, celebrated for its fast-paced action and polished presentation. It features a wide selection of weapons and upgrades, a varied campaign with memorable sci‑fi atmosphere, and a standout soundtrack. With demanding gameplay and strong replay value, Tyrian remains a landmark of the genre on microcomputers.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Tyrian est un shoot’em up vertical emblématique sur PC, apprécié pour son action nerveuse et sa réalisation soignée. Le jeu propose de nombreuses armes et améliorations, une progression rythmée par des niveaux variés, et une ambiance science-fiction portée par une bande-son marquante. Avec son gameplay exigeant et sa grande rejouabilité, Tyrian s’est imposé comme une référence du genre sur micro-ordinateur.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>Tyrian es un shoot ’em up vertical clásico en PC, apreciado por su acción intensa y su presentación cuidada. Ofrece una amplia selección de armas y mejoras, una campaña con niveles variados y una atmósfera de ciencia ficción memorable, acompañada por una banda sonora destacada. Con una jugabilidad exigente y gran rejugabilidad, Tyrian es una referencia del género en microordenador.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>Tyrian é um shoot ’em up vertical clássico no PC, conhecido pela ação rápida e pela apresentação caprichada. O jogo traz uma grande variedade de armas e melhorias, uma campanha com fases diversas e uma atmosfera de ficção científica marcante, apoiada por uma trilha sonora memorável. Com jogabilidade exigente e alta rejogabilidade, Tyrian se tornou uma referência do gênero nos microcomputadores.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Tyrian ist ein klassischer vertikaler Shoot ’em up für PC, geschätzt für seine rasante Action und seine hochwertige Präsentation. Das Spiel bietet eine große Auswahl an Waffen und Upgrades, eine abwechslungsreiche Kampagne mit prägnanter Sci‑Fi‑Atmosphäre und einen herausragenden Soundtrack. Mit forderndem Gameplay und hoher Wiederspielbarkeit gilt Tyrian als Genre‑Referenz auf dem Heimcomputer.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Tyrian è un classico shoot ’em up verticale su PC, apprezzato per l’azione frenetica e la cura della realizzazione. Propone molte armi e potenziamenti, una campagna con livelli vari e un’atmosfera fantascientifica memorabile, sostenuta da una colonna sonora di spicco. Con un gameplay impegnativo e un’elevata rigiocabilità, Tyrian è diventato un punto di riferimento del genere su microcomputer.</text>
+		</text>
+
+	</view>
+</theme>

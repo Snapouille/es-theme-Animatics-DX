@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>Zelda Classic is a community-driven engine and platform inspired by the original The Legend of Zelda, allowing players to relive a retro-style adventure while discovering numerous fan-made quests. Faithful to the 8-bit spirit with exploration, dungeons, puzzles, and combat, it stands out thanks to its wide variety of content and strong replay value through entirely original scenarios and levels.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Zelda Classic est un moteur et une plateforme communautaire inspirés du tout premier The Legend of Zelda, permettant de rejouer une aventure au style rétro tout en découvrant de nombreuses quêtes créées par les fans. En plus d’une expérience fidèle à l’esprit 8 bits (exploration, donjons, énigmes et combats), Zelda Classic se distingue par sa grande variété de contenus et sa forte rejouabilité, portée par des scénarios et des niveaux entièrement originaux.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>Zelda Classic es un motor y una plataforma comunitaria inspirados en el primer The Legend of Zelda, que permite revivir una aventura de estilo retro y descubrir numerosas misiones creadas por los fans. Fiel al espíritu de 8 bits con exploración, mazmorras, puzles y combates, destaca por su gran variedad de contenidos y su alta rejugabilidad gracias a escenarios y niveles completamente originales.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>Zelda Classic é um motor e uma plataforma comunitária inspirados no primeiro The Legend of Zelda, permitindo reviver uma aventura em estilo retrô e descobrir diversas missões criadas por fãs. Fiel ao espírito 8 bits com exploração, masmorras, enigmas e combates, destaca-se pela grande variedade de conteúdos e alta rejogabilidade, com cenários e fases totalmente originais.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Zelda Classic ist eine von der Community entwickelte Engine und Plattform, inspiriert vom ersten The Legend of Zelda, die es ermöglicht, ein Abenteuer im Retro-Stil neu zu erleben und zahlreiche von Fans erstellte Quests zu entdecken. Getreu dem 8-Bit-Geist mit Erkundung, Dungeons, Rätseln und Kämpfen überzeugt es durch eine große Inhaltsvielfalt und hohe Wiederspielbarkeit dank vollständig origineller Szenarien und Level.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Zelda Classic è un motore e una piattaforma sviluppati dalla comunità, ispirati al primo The Legend of Zelda, che permettono di rivivere un’avventura in stile retrò e scoprire numerose missioni create dai fan. Fedele allo spirito a 8 bit con esplorazione, dungeon, enigmi e combattimenti, si distingue per la grande varietà di contenuti e l’elevata rigiocabilità grazie a scenari e livelli completamente originali.</text>
+		</text>
+
+	</view>
+</theme>

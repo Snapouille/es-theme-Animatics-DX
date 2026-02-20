@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>The Medal of Honor: Allied Assault port allows players to rediscover this iconic World War II first-person shooter on modern systems with improved compatibility and comfort. Preserving its cinematic campaigns, memorable missions, and competitive multiplayer, it enhances support for modern resolutions, controls, and stability. The original game data is generally required to run the port.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le portage de Medal of Honor: Allied Assault permet de redécouvrir ce FPS emblématique de la Seconde Guerre mondiale sur des systèmes modernes, avec une compatibilité et un confort de jeu améliorés. Conservant ses campagnes scénarisées, ses missions marquantes et son multijoueur compétitif, il facilite la prise en charge des résolutions actuelles, des contrôles et de la stabilité. Il nécessite en général les fichiers du jeu original pour fonctionner.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>El port de Medal of Honor: Allied Assault permite redescubrir este icónico shooter en primera persona ambientado en la Segunda Guerra Mundial en sistemas modernos, con compatibilidad y comodidad mejoradas. Conservando sus campañas cinematográficas, misiones memorables y multijugador competitivo, mejora el soporte para resoluciones actuales, controles y estabilidad. Generalmente requiere los archivos originales del juego para funcionar.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>O port de Medal of Honor: Allied Assault permite redescobrir este icônico FPS ambientado na Segunda Guerra Mundial em sistemas modernos, com melhor compatibilidade e conforto. Mantendo suas campanhas cinematográficas, missões marcantes e multijogador competitivo, aprimora o suporte a resoluções modernas, controles e estabilidade. Geralmente é necessário possuir os arquivos originais do jogo para executá-lo.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Der Medal of Honor: Allied Assault Port ermöglicht es, diesen ikonischen Weltkriegs-Ego-Shooter auf modernen Systemen mit verbesserter Kompatibilität und höherem Spielkomfort zu erleben. Die filmreifen Kampagnen, einprägsamen Missionen und der kompetitive Mehrspielermodus bleiben erhalten, während Auflösungsunterstützung, Steuerung und Stabilität optimiert werden. In der Regel werden die Original-Spieldateien benötigt, um den Port auszuführen.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Il port di Medal of Honor: Allied Assault consente di riscoprire questo iconico FPS ambientato nella Seconda Guerra Mondiale su sistemi moderni, con compatibilità e comfort migliorati. Mantenendo le sue campagne cinematografiche, missioni memorabili e multigiocatore competitivo, ottimizza il supporto alle risoluzioni moderne, controlli e stabilità. In genere è necessario disporre dei file originali del gioco per utilizzarlo.</text>
+		</text>
+
+	</view>
+</theme>

@@ -14,6 +14,11 @@
 - Added rtcw system
 - Added 2ship system
 - Added catacomb system
+- Added mohaa system
+- Added etlegacy system
+- Added traider2 system
+- Added jazz2 system
+- Added jknight system
 - Added new publishers logo 
 
 

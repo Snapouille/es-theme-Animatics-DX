@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>The Jedi Knight port lets players rediscover this cult classic FPS on modern systems, with improved compatibility and comfort. While preserving the original experience—fast action, varied levels, and a distinctive sci‑fi atmosphere—it enhances support for modern resolutions, controls, and stability. The original game data is generally required to run the port.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le portage de Jedi Knight permet de redécouvrir ce FPS culte sur des systèmes modernes, avec une compatibilité et un confort de jeu améliorés. Tout en conservant l’expérience d’origine (action nerveuse, niveaux variés et ambiance science-fiction), il facilite la prise en charge des résolutions actuelles, des contrôles et de la stabilité. Il nécessite en général les fichiers du jeu original pour fonctionner.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>El port de Jedi Knight permite redescubrir este FPS de culto en sistemas modernos, con compatibilidad y comodidad mejoradas. Manteniendo la experiencia original—acción rápida, niveles variados y una atmósfera de ciencia ficción distintiva—mejora el soporte para resoluciones actuales, controles y estabilidad. Generalmente requiere los archivos originales del juego para funcionar.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>O port de Jedi Knight permite redescobrir este FPS cult em sistemas modernos, com melhor compatibilidade e conforto. Mantendo a experiência original—ação rápida, fases variadas e uma atmosfera de ficção científica marcante—aprimora o suporte a resolões modernas, controles e estabilidade. Geralmente é necessário possuir os arquivos originais do jogo para executá-lo.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Der Jedi Knight Port ermöglicht es, diesen Kult-FPS auf modernen Systemen mit verbesserter Kompatibilität und höherem Spielkomfort neu zu erleben. Das Originalerlebnis—rasante Action, abwechslungsreiche Levels und eine markante Sci‑Fi‑Atmosphäre—bleibt erhalten, während Auflösungsunterstützung, Steuerung und Stabilität verbessert werden. In der Regel werden die Original-Spieldateien benötigt, um den Port auszuführen.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Il port di Jedi Knight consente di riscoprire questo FPS di culto su sistemi moderni, con compatibilità e comfort migliorati. Pur mantenendo l’esperienza originale—azione frenetica, livelli vari e un’atmosfera fantascientifica distintiva—ottimizza il supporto alle risoluzioni moderne, controlli e stabilità. In genere è necessario disporre dei file originali del gioco per utilizzarlo.</text>
+		</text>
+
+	</view>
+</theme>

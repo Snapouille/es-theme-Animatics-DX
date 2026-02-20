@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
@@ -9,16 +9,35 @@ originally based on: "carbon"
 
 	<view name="system">
 
+		<!-- Default language (EN) -->
 		<text name="system_description" extra="true">
-			<text>A two-pane file manager, similar to Norton/Midnight commander, useful to manage all the /userdata files on your Batocera system.</text>
+			<text>OD Commander is a gamepad-friendly file manager integrated into the Ports section. Based on a dual-pane interface, it allows users to copy, move, rename, and organize ROMs, BIOS files, and folders directly from the system without using a PC. Convenient for managing USB drives or organizing content, OD Commander provides a simple and efficient file administration tool.</text>
 		</text>
 
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>OD Commander est un gestionnaire de fichiers pensé pour être utilisé à la manette, intégré dans la section Ports. Basé sur le principe des gestionnaires à deux panneaux, il permet de copier, déplacer, renommer et organiser facilement ROMs, BIOS et dossiers directement depuis l’interface, sans passer par un PC. Pratique pour gérer une clé USB ou organiser le contenu de la machine, OD Commander offre une solution simple et efficace pour l’administration des fichiers.</text>
+		</text>
+
+		<!-- Spanish -->
 		<text name="system_description" extra="true" lang="es">
-			<text>Un administrador de archivos de dos paneles, similar a Norton/Midnight Commander, útil para administrar todos los archivos ubicados en la carpeta /userdata de su sistema Batocera</text>
+			<text>OD Commander es un gestor de archivos diseñado para usarse con mando, integrado en la sección Ports. Basado en una interfaz de doble panel, permite copiar, mover, renombrar y organizar ROMs, BIOS y carpetas directamente desde el sistema sin necesidad de un PC. Ideal para gestionar memorias USB u organizar contenido, ofrece una solución sencilla y eficaz para la administración de archivos.</text>
 		</text>
 
-		<text name="system_name" extra="true">
-			<text>OD-Commander</text>
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>OD Commander é um gerenciador de arquivos pensado para uso com controle, integrado à seção Ports. Baseado em uma interface de dois painéis, permite copiar, mover, renomear e organizar ROMs, BIOS e pastas diretamente pelo sistema, sem necessidade de um PC. Prático para gerenciar unidades USB ou organizar conteúdos, oferece uma solução simples e eficiente para administração de arquivos.</text>
 		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>OD Commander ist ein für die Nutzung mit dem Gamepad entwickelter Dateimanager, der im Bereich Ports integriert ist. Basierend auf einer Zwei-Fenster-Oberfläche ermöglicht er das Kopieren, Verschieben, Umbenennen und Organisieren von ROMs, BIOS-Dateien und Ordnern direkt über das System, ohne einen PC zu verwenden. Ideal zur Verwaltung von USB-Laufwerken oder zur Organisation von Inhalten bietet er eine einfache und effiziente Lösung zur Dateiverwaltung.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>OD Commander è un gestore di file progettato per l’uso con il controller, integrato nella sezione Ports. Basato su un’interfaccia a doppio pannello, consente di copiare, spostare, rinominare e organizzare ROM, BIOS e cartelle direttamente dal sistema, senza bisogno di un PC. Utile per gestire unità USB o organizzare contenuti, offre una soluzione semplice ed efficace per l’amministrazione dei file.</text>
+		</text>
+
 	</view>
 </theme>

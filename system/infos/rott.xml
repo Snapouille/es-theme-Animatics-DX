@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>Rise of the Triad is a fast-paced first-person shooter franchise known for its explosive action and deliberately over-the-top tone. Across its different entries, the series features maze-like levels, a varied arsenal, and mechanics that were distinctive for their time. With its high-energy combat, spectacular moments, and competitive multiplayer, Rise of the Triad remains a memorable name from the golden age of PC FPS games.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Rise of the Triad est une licence de jeux de tir à la première personne au rythme rapide, marquée par son action explosive et son ton volontairement excessif. À travers ses différents épisodes, la série propose des niveaux labyrinthiques, un arsenal varié et des mécaniques originales pour l’époque. Se distinguant par son dynamisme, ses combats spectaculaires et son multijoueur compétitif, Rise of the Triad s’impose comme une référence marquante de l’âge d’or des FPS sur PC.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>Rise of the Triad es una franquicia de shooters en primera persona de ritmo rápido, conocida por su acción explosiva y su tono deliberadamente exagerado. A través de sus distintas entregas, la serie ofrece niveles laberínticos, un arsenal variado y mecánicas originales para su época. Con combates muy dinámicos, momentos espectaculares y un multijugador competitivo, Rise of the Triad se consolidó como un nombre destacado de la edad de oro de los FPS en PC.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>Rise of the Triad é uma franquia de jogos de tiro em primeira pessoa de ritmo acelerado, marcada por ação explosiva e um tom deliberadamente exagerado. Ao longo de suas diferentes entradas, a série traz fases labirínticas, um arsenal variado e mecânicas originais para a época. Com combates enérgicos, momentos espetaculares e multijogador competitivo, Rise of the Triad se destaca como um nome marcante da era de ouro dos FPS no PC.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Rise of the Triad ist eine rasante Ego-Shooter-Reihe, bekannt für explosive Action und einen bewusst überdrehten Ton. Über ihre verschiedenen Teile hinweg bietet die Serie labyrinthartige Levels, ein abwechslungsreiches Arsenal und für die Zeit ungewöhnliche Spielmechaniken. Mit ihrem hohen Tempo, spektakulären Gefechten und kompetitivem Mehrspielermodus gilt Rise of the Triad als prägender Name aus dem goldenen Zeitalter der PC-FPS.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Rise of the Triad è una serie di sparatutto in prima persona dal ritmo frenetico, nota per l’azione esplosiva e un tono volutamente sopra le righe. Attraverso i suoi diversi capitoli, la saga propone livelli labirintici, un arsenale vario e meccaniche originali per l’epoca. Con combattimenti dinamici, momenti spettacolari e un multigiocatore competitivo, Rise of the Triad è considerata un nome di rilievo dell’età d’oro degli FPS su PC.</text>
+		</text>
+
+	</view>
+</theme>

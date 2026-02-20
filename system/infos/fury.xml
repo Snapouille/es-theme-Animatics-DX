@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>The Ion Fury port allows players to enjoy this modern retro FPS on compatible systems with optimized compatibility and comfort. Staying true to its fast-paced gameplay, dense level design, and 1990s-inspired shooter aesthetics, it preserves rapid action and non-linear exploration while enhancing support for modern resolutions, controls, and performance. The original game data is generally required to run the port.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le portage de Ion Fury permet de profiter de ce FPS rétro moderne sur des systèmes compatibles, avec une compatibilité et un confort de jeu optimisés. Fidèle à son gameplay nerveux, ses niveaux denses et son esthétique inspirée des shooters des années 90, il conserve l’action rapide et l’exploration non linéaire tout en facilitant la prise en charge des résolutions actuelles, des contrôles et des performances. Il nécessite en général les fichiers du jeu original pour fonctionner.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>El port de Ion Fury permite disfrutar de este FPS retro moderno en sistemas compatibles, con compatibilidad y comodidad optimizadas. Fiel a su jugabilidad rápida, diseño de niveles densos y estética inspirada en los shooters de los años 90, mantiene la acción intensa y la exploración no lineal mientras mejora el soporte para resoluciones actuales, controles y rendimiento. Generalmente requiere los archivos originales del juego para funcionar.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>O port de Ion Fury permite aproveitar este FPS retrô moderno em sistemas compatíveis, com compatibilidade e conforto otimizados. Fiel ao gameplay acelerado, níveis densos e estética inspirada nos shooters dos anos 90, mantém a ação rápida e a exploração não linear enquanto aprimora o suporte a resoluções modernas, controles e desempenho. Geralmente é necessário possuir os arquivos originais do jogo para executá-lo.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Der Ion Fury Port ermöglicht es, diesen modernen Retro-FPS auf kompatiblen Systemen mit optimierter Kompatibilität und höherem Spielkomfort zu spielen. Getreu seinem rasanten Gameplay, dichten Leveldesign und der von 90er-Jahre-Shootern inspirierten Ästhetik bleiben schnelle Action und nichtlineare Erkundung erhalten, während Unterstützung für moderne Auflösungen, Steuerung und Leistung verbessert wird. In der Regel werden die Original-Spieldateien benötigt, um den Port auszuführen.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Il port di Ion Fury consente di giocare a questo moderno FPS retrò su sistemi compatibili, con compatibilità e comfort ottimizzati. Fedele al gameplay frenetico, ai livelli densi e all’estetica ispirata agli shooter degli anni 90, mantiene azione rapida ed esplorazione non lineare migliorando il supporto alle risoluzioni moderne, controlli e prestazioni. In genere è necessario disporre dei file originali del gioco per utilizzarlo.</text>
+		</text>
+
+	</view>
+</theme>

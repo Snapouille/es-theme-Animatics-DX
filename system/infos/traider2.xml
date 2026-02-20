@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>Tomb Raider II is an iconic action-adventure game featuring the explorer Lara Croft in a new globe‑trotting quest. Combining exploration, puzzles, and combat sequences, the game expands on its predecessor with more varied environments and a more cinematic presentation. Blending ancient ruins, dynamic action, and adventurous storytelling, Tomb Raider II stands as a defining episode of the saga and a landmark of the 32‑bit era.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Tomb Raider II est un jeu d’action-aventure emblématique mettant en scène l’exploratrice Lara Croft dans une nouvelle quête aux quatre coins du monde. Alternant exploration, énigmes et phases de combat, le jeu développe une mise en scène plus spectaculaire et des environnements plus variés que son prédécesseur. Avec son mélange d’aventure, d’exploration de ruines anciennes et d’action dynamique, Tomb Raider II s’impose comme un épisode marquant de la saga et une référence de l’ère 32 bits.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>Tomb Raider II es un emblemático juego de acción y aventura protagonizado por la exploradora Lara Croft en una nueva misión alrededor del mundo. Combinando exploración, puzles y combates, el título amplía la fórmula del original con entornos más variados y una presentación más cinematográfica. Con su mezcla de ruinas antiguas, acción dinámica y espíritu aventurero, Tomb Raider II es un episodio clave de la saga y un referente de la era de los 32 bits.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>Tomb Raider II é um jogo de ação e aventura icônico que coloca a exploradora Lara Croft em uma nova jornada ao redor do mundo. Alternando exploração, quebra‑cabeças e combate, o jogo amplia a experiência do título original com cenários mais variados e uma apresentação mais cinematográfica. Misturando ruínas antigas, ação dinâmica e espírito aventureiro, Tomb Raider II tornou‑se um episódio marcante da série e uma referência da era 32 bits.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Tomb Raider II ist ein ikonisches Action-Adventure mit der Abenteurerin Lara Croft in einer neuen, weltumspannenden Mission. Mit einer Mischung aus Erkundung, Rätseln und Gefechten erweitert das Spiel die Formel seines Vorgängers durch abwechslungsreichere Umgebungen und eine filmreifere Inszenierung. Die Verbindung aus antiken Ruinen, dynamischer Action und Abenteuergeist macht Tomb Raider II zu einem prägenden Teil der Reihe und zu einem Meilenstein der 32‑Bit‑Ära.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Tomb Raider II è un iconico gioco d’azione e avventura che vede l’esploratrice Lara Croft impegnata in una nuova missione intorno al mondo. Alternando esplorazione, enigmi e combattimenti, il titolo amplia la formula del predecessore con ambientazioni più varie e una messa in scena più cinematografica. Tra rovine antiche, azione dinamica e spirito d’avventura, Tomb Raider II rappresenta un capitolo fondamentale della saga e un punto di riferimento dell’era a 32 bit.</text>
+		</text>
+
+	</view>
+</theme>

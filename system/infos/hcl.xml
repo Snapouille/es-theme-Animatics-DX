@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>Hydra Castle Labyrinth is a retro-style 2D action-adventure game blending exploration, platforming, and combat. Inspired by classic titles of the genre, it features progression based on discovering new areas, items, and upgrades, with dungeons, bosses, and hidden secrets to uncover. Thanks to its precise gameplay and old-school atmosphere, Hydra Castle Labyrinth has become a cult favorite among metroidvania enthusiasts.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Hydra Castle Labyrinth est un jeu d’action-aventure en 2D au style rétro, mêlant exploration, plateforme et combats. Inspiré par les classiques du genre, il propose une progression basée sur la découverte de nouvelles zones, d’objets et d’améliorations, avec des donjons, des boss et des secrets à dénicher. Grâce à son gameplay précis et son ambiance « old-school », Hydra Castle Labyrinth s’est imposé comme un petit titre culte apprécié des amateurs de metroidvania.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>Hydra Castle Labyrinth es un juego de acción y aventura en 2D con estilo retro que combina exploración, plataformas y combate. Inspirado en los clásicos del género, ofrece una progresión basada en descubrir nuevas zonas, objetos y mejoras, con mazmorras, jefes y secretos por encontrar. Gracias a su jugabilidad precisa y su atmósfera “old-school”, se ha convertido en un pequeño título de culto entre los aficionados a los metroidvania.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>Hydra Castle Labyrinth é um jogo de ação e aventura em 2D com estilo retrô que mistura exploração, plataforma e combate. Inspirado nos clássicos do gênero, apresenta progressão baseada na descoberta de novas áreas, itens e melhorias, com masmorras, chefes e segredos a explorar. Graças ao seu gameplay preciso e atmosfera “old-school”, tornou-se um pequeno título cult entre os fãs de metroidvania.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Hydra Castle Labyrinth ist ein 2D-Action-Adventure im Retro-Stil, das Erkundung, Plattforming und Kämpfe miteinander verbindet. Inspiriert von Genreklassikern bietet es eine auf Entdeckung neuer Bereiche, Gegenstände und Upgrades basierende Progression, mit Dungeons, Bossen und versteckten Geheimnissen. Dank seines präzisen Gameplays und seiner Old-School-Atmosphäre gilt es als kleiner Kulttitel unter Metroidvania-Fans.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Hydra Castle Labyrinth è un gioco d’azione e avventura in 2D in stile retrò che combina esplorazione, piattaforme e combattimenti. Ispirato ai classici del genere, propone una progressione basata sulla scoperta di nuove aree, oggetti e potenziamenti, con dungeon, boss e segreti da trovare. Grazie al gameplay preciso e all’atmosfera “old-school”, è diventato un piccolo titolo di culto tra gli appassionati di metroidvania.</text>
+		</text>
+
+	</view>
+</theme>

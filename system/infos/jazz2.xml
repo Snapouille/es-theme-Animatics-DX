@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>The Jazz Jackrabbit 2 port allows players to rediscover this cult platformer on modern systems, improving compatibility and overall comfort. While preserving its fast-paced gameplay, colorful levels, and energetic action, such ports typically enhance resolution support, controls, and stability. The original game data is generally required to run the port.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le portage de Jazz Jackrabbit 2 permet de redécouvrir ce jeu de plateforme culte sur des systèmes modernes, en améliorant la compatibilité et le confort de jeu. Tout en conservant son gameplay rapide, ses niveaux colorés et son action nerveuse, ce type de port vise généralement une meilleure prise en charge des résolutions actuelles, des contrôles et de la stabilité. Il nécessite en général les fichiers du jeu original pour fonctionner.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>El port de Jazz Jackrabbit 2 permite redescubrir este juego de plataformas de culto en sistemas modernos, mejorando la compatibilidad y la comodidad general. Manteniendo su jugabilidad rápida, niveles coloridos y acción intensa, estos ports suelen optimizar el soporte para resoluciones actuales, controles y estabilidad. Generalmente requiere los archivos originales del juego para funcionar.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>O port de Jazz Jackrabbit 2 permite redescobrir este clássico jogo de plataforma em sistemas modernos, melhorando compatibilidade e conforto de jogo. Mantendo o gameplay rápido, níveis coloridos e ação intensa, esses ports costumam aprimorar suporte a resoluções modernas, controles e estabilidade. Geralmente é necessário possuir os arquivos originais do jogo para executá-lo.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Der Jazz Jackrabbit 2 Port ermöglicht es, diesen Kult-Plattformer auf modernen Systemen neu zu erleben und verbessert dabei Kompatibilität sowie Spielkomfort. Das rasante Gameplay, die farbenfrohen Levels und die energiegeladene Action bleiben erhalten, während Auflösungsunterstützung, Steuerung und Stabilität optimiert werden. In der Regel werden die Original-Spieldateien benötigt, um den Port auszuführen.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Il port di Jazz Jackrabbit 2 consente di riscoprire questo platform cult su sistemi moderni, migliorando compatibilità e comfort di gioco. Pur mantenendo il gameplay veloce, i livelli colorati e l’azione frenetica, questi port ottimizzano supporto alle risoluzioni moderne, controlli e stabilità. In genere è necessario disporre dei file originali del gioco per utilizzarlo.</text>
+		</text>
+
+	</view>
+</theme>

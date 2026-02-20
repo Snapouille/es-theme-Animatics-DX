@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>Abuse is a side-scrolling action game that blends platforming and shooting, known for its dark atmosphere and fast, intense gameplay. Featuring an innovative mouse-aiming system for its time, it mixes precision combat with exploration across oppressive industrial environments. Thanks to its advanced technology and distinctive mood, Abuse became a cult classic of PC action gaming.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Abuse est un jeu d’action en vue latérale mêlant plateforme et tir, reconnu pour son ambiance sombre et son gameplay nerveux. Utilisant un système de visée à la souris innovant pour l’époque, le jeu combine précision, exploration et affrontements intenses dans des environnements industriels oppressants. Grâce à son moteur technique avancé et à son atmosphère marquante, Abuse s’est imposé comme un titre culte du jeu d’action sur PC.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>Abuse es un juego de acción de desplazamiento lateral que mezcla plataformas y disparos, conocido por su atmósfera oscura y su jugabilidad intensa. Con un sistema de apuntado con ratón innovador para su época, combina combate preciso y exploración en entornos industriales opresivos. Gracias a su tecnología avanzada y a su estilo distintivo, Abuse se convirtió en un clásico de culto de la acción en PC.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>Abuse é um jogo de ação em rolagem lateral que mistura plataforma e tiro, conhecido pela atmosfera sombria e pela jogabilidade intensa. Com um sistema de mira no mouse inovador para a época, combina combate preciso e exploração em ambientes industriais opressivos. Graças à tecnologia avançada e ao clima marcante, Abuse tornou-se um clássico cult da ação no PC.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Abuse ist ein seitlich scrollendes Actionspiel, das Plattforming und Schießen verbindet und für seine düstere Atmosphäre sowie sein intensives Gameplay bekannt ist. Mit einem für die Zeit innovativen Maus-Zielsystem kombiniert es präzise Kämpfe und Erkundung in bedrückenden Industrieumgebungen. Dank seiner fortschrittlichen Technik und seines markanten Stils gilt Abuse als Kultklassiker der PC-Actionspiele.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Abuse è un gioco d’azione a scorrimento laterale che unisce piattaforme e sparatorie, noto per la sua atmosfera cupa e il gameplay intenso. Con un sistema di mira con il mouse innovativo per l’epoca, combina combattimenti di precisione ed esplorazione in ambienti industriali opprimenti. Grazie alla tecnologia avanzata e al tono distintivo, Abuse è diventato un classico di culto dell’azione su PC.</text>
+		</text>
+
+	</view>
+</theme>

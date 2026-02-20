@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>DXX-Rebirth is a modern source port of the classic first-person space shooters Descent and Descent II. Preserving the fast-paced six-degrees-of-freedom gameplay, the project enhances comfort and compatibility on modern systems. With improved resolutions, refined controls, and expanded multiplayer support, DXX-Rebirth allows players to rediscover these zero-gravity FPS classics in optimal conditions.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>DXX-Rebirth est un port moderne des classiques de tir spatial en vue subjective Descent et Descent II. Le projet conserve le gameplay nerveux en 6 degrés de liberté, tout en améliorant le confort de jeu et la compatibilité sur les machines actuelles. Avec une prise en charge élargie des résolutions, des contrôles et du multijoueur, DXX-Rebirth permet de redécouvrir ces références du FPS 3D « zéro gravité » dans les meilleures conditions.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>DXX-Rebirth es un port moderno de los clásicos shooters espaciales en primera persona Descent y Descent II. Conserva el dinámico sistema de juego en seis grados de libertad, mejorando al mismo tiempo la compatibilidad y la comodidad en sistemas actuales. Con soporte ampliado para resoluciones modernas, controles optimizados y multijugador mejorado, DXX-Rebirth permite redescubrir estos clásicos del FPS en gravedad cero en las mejores condiciones.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>DXX-Rebirth é um port moderno dos clássicos jogos de tiro espacial em primeira pessoa Descent e Descent II. Mantendo o gameplay acelerado com seis graus de liberdade, o projeto melhora o conforto e a compatibilidade em sistemas atuais. Com suporte ampliado a resoluções modernas, controles refinados e multijogador aprimorado, DXX-Rebirth permite redescobrir esses clássicos do FPS em gravidade zero nas melhores condições.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>DXX-Rebirth ist ein moderner Source-Port der klassischen Ego-Weltraum-Shooter Descent und Descent II. Das rasante Gameplay mit sechs Freiheitsgraden bleibt erhalten, während Komfort und Kompatibilität auf modernen Systemen verbessert werden. Mit Unterstützung höherer Auflösungen, optimierten Steuerungen und erweitertem Mehrspielermodus ermöglicht DXX-Rebirth die Wiederentdeckung dieser Zero-Gravity-FPS-Klassiker unter besten Bedingungen.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>DXX-Rebirth è un port moderno dei classici sparatutto spaziali in prima persona Descent e Descent II. Mantiene il gameplay frenetico a sei gradi di libertà, migliorando al contempo compatibilità e comfort sui sistemi moderni. Con supporto a risoluzioni elevate, controlli ottimizzati e multigiocatore ampliato, DXX-Rebirth consente di riscoprire questi classici FPS a gravità zero nelle migliori condizioni.</text>
+		</text>
+
+	</view>
+</theme>

@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>The Fallout 2 port allows players to rediscover this post-apocalyptic role-playing classic on modern systems, improving compatibility and overall comfort. While preserving the original experience with exploration, branching dialogues, meaningful choices, and turn-based combat, such ports typically enhance resolution support, controls, and stability. The original game data is generally required to run the port.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le portage de Fallout 2 permet de redécouvrir ce grand classique du jeu de rôle post-apocalyptique sur des systèmes modernes, en améliorant la compatibilité et le confort de jeu. Tout en conservant l’expérience d’origine (exploration, dialogues, choix et combats au tour par tour), ce type de port met généralement l’accent sur la prise en charge des résolutions actuelles, des contrôles plus pratiques et d’une meilleure stabilité. Il nécessite en général les fichiers du jeu original pour fonctionner.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>El port de Fallout 2 permite redescubrir este clásico del juego de rol postapocalíptico en sistemas modernos, mejorando la compatibilidad y la comodidad general. Conservando la experiencia original con exploración, diálogos ramificados, decisiones significativas y combate por turnos, estos ports suelen optimizar la compatibilidad con resoluciones actuales, controles y estabilidad. Generalmente requiere los archivos originales del juego para funcionar.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>O port de Fallout 2 permite redescobrir este clássico RPG pós-apocalíptico em sistemas modernos, melhorando compatibilidade e conforto de jogo. Mantendo a experiência original com exploração, diálogos ramificados, escolhas significativas e combate por turnos, esses ports costumam aprimorar suporte a resoluções atuais, controles e estabilidade. Geralmente é necessário possuir os arquivos originais do jogo para executá-lo.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Der Fallout 2 Port ermöglicht es, diesen postapokalyptischen Rollenspielklassiker auf modernen Systemen neu zu erleben und verbessert dabei Kompatibilität sowie Spielkomfort. Die ursprüngliche Erfahrung mit Erkundung, verzweigten Dialogen, bedeutenden Entscheidungen und rundenbasierten Kämpfen bleibt erhalten, während Auflösungsunterstützung, Steuerung und Stabilität optimiert werden. In der Regel werden die Original-Spieldateien benötigt, um den Port auszuführen.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Il port di Fallout 2 consente di riscoprire questo classico gioco di ruolo post-apocalittico su sistemi moderni, migliorando compatibilità e comfort di gioco. Pur mantenendo l’esperienza originale con esplorazione, dialoghi ramificati, scelte significative e combattimento a turni, questi port ottimizzano supporto alle risoluzioni moderne, controlli e stabilità. In genere è necessario disporre dei file originali del gioco per utilizzarlo.</text>
+		</text>
+
+	</view>
+</theme>

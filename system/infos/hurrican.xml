@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>The Hurrican port allows players to rediscover this explosive action-platformer on modern systems, with improved compatibility and comfort. Staying true to its fast-paced gameplay, powerful weapons, and enemy-packed levels, it preserves the arcade spirit while enhancing support for modern resolutions, controls, and stability. The original game data is generally required to run the port.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le portage de Hurrican permet de redécouvrir ce jeu d’action-plateforme explosif sur des systèmes modernes, avec une compatibilité et un confort de jeu améliorés. Fidèle à son gameplay nerveux, ses armes surpuissantes et ses niveaux riches en ennemis, il conserve l’esprit arcade tout en facilitant la prise en charge des résolutions actuelles, des contrôles et de la stabilité. Il nécessite en général les fichiers du jeu original pour fonctionner.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>El port de Hurrican permite redescubrir este explosivo juego de acción y plataformas en sistemas modernos, con compatibilidad y comodidad mejoradas. Manteniendo su jugabilidad rápida, armas potentes y niveles repletos de enemigos, conserva el espíritu arcade mientras mejora el soporte para resoluciones actuales, controles y estabilidad. Generalmente requiere los archivos originales del juego para funcionar.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>O port de Hurrican permite redescobrir este explosivo jogo de ação e plataforma em sistemas modernos, com melhor compatibilidade e conforto. Mantendo o gameplay acelerado, armas poderosas e fases cheias de inimigos, preserva o espírito arcade enquanto aprimora o suporte a resoluções modernas, controles e estabilidade. Geralmente é necessário possuir os arquivos originais do jogo para executá-lo.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Der Hurrican Port ermöglicht es, dieses explosive Action-Platformer-Spiel auf modernen Systemen mit verbesserter Kompatibilität und höherem Spielkomfort neu zu erleben. Das rasante Gameplay, die mächtigen Waffen und die gegnerreichen Levels bleiben erhalten, während Auflösungsunterstützung, Steuerung und Stabilität optimiert werden. In der Regel werden die Original-Spieldateien benötigt, um den Port auszuführen.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>Il port di Hurrican consente di riscoprire questo esplosivo gioco d’azione e piattaforme su sistemi moderni, con compatibilità e comfort migliorati. Mantenendo il gameplay frenetico, armi potenti e livelli ricchi di nemici, conserva lo spirito arcade ottimizzando il supporto alle risoluzioni moderne, controlli e stabilità. In genere è necessario disporre dei file originali del gioco per utilizzarlo.</text>
+		</text>
+
+	</view>
+</theme>
