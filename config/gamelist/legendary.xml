@@ -387,6 +387,7 @@ originally based on: "carbon"
 		<size>0.3223958 0.325</size>									
 		<pos>0.7177604 0.3884259</pos>			
 		<zIndex>14</zIndex>
+		<zIndex>14</zIndex>
 			<storyboard event="open">
 				<animation property="x" to="0.7627604" begin="1200" duration="200" mode="linear"/>
 			</storyboard>
@@ -558,6 +559,7 @@ originally based on: "carbon"
 			|| {system.theme} == 'eighting' 
 			|| {system.theme} == 'gaelco' 
 			|| {system.theme} == 'gottlieb' 
+			|| {system.theme} == 'hikaru' 
 			|| {system.theme} == 'igs' 
 			|| {system.theme} == 'incredibletech' 
 			|| {system.theme} == 'irem' 

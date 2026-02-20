@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Commodore 16 was a home computer manufactured by Commodore International in 1984. It was designed to replace the Commodore VIC-20, although it was not compatible with it. A low-cost version called the Commodore 116 was sold only in Europe.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le Commodore 16 était un ordinateur personnel fabriqué par Commodore International en 1984. Il était conçu pour remplacer le Commodore VIC-20, bien qu'il ne soit pas compatible avec ce dernier. Une version à bas prix, appelée Commodore 116, était vendue uniquement en Europe.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Commodore 16 war ein Heimcomputer, der 1984 von Commodore International hergestellt wurde. Er sollte den Commodore VIC-20 ersetzen, war aber nicht mit ihm kompatibel. Eine kostengünstige Version namens Commodore 116 wurde nur in Europa verkauft.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>El Commodore 16 fue un ordenador doméstico fabricado por la empresa Commodore International en 1984. Nació con la intención de reemplazar a la Commodore VIC-20, aunque no era compatible con ella. Existió una versión de bajo costo llamada Commodore 116 que solo se vendió en Europa.</text>
+</text>
+
+</view>
+</theme>

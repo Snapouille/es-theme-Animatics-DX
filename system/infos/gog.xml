@@ -1,0 +1,21 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>GOG.com (Good Old Games) is a PC game distribution platform best known for offering DRM-free games, allowing players to download, install, and keep their games without online restrictions. It features both modern titles and classic games adapted to run on current systems, along with frequent sales and discounts.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>GOG.com (Good Old Games) est une plateforme de distribution de jeux vidéo sur PC, connue pour proposer des jeux sans DRM, ce qui signifie qu’ils peuvent être téléchargés, installés et conservés librement sans connexion obligatoire. Elle propose des jeux récents et classiques, souvent optimisés pour fonctionner sur les systèmes modernes, ainsi que des promotions régulières.</text>
+</text>
+
+</view>
+</theme>

@@ -1,0 +1,21 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>An open-source engine derived from Fenix, BennuGD is used to run many indie 2D games and projects on modern systems. Lightweight and portable, it’s often chosen for retro-style games and homebrew ports. Fun fact: despite its simplicity, BennuGD has been used to bring various fan-made titles to handheld devices and Linux systems, keeping the retro development scene alive.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Moteur open-source dérivé de Fenix, BennuGD permet de faire tourner de nombreux jeux et projets 2D indépendants sur des systèmes modernes. Léger et portable, il est souvent utilisé pour adapter des jeux rétro ou des créations homebrew. Anecdote : malgré son apparence simple, BennuGD a servi à porter plusieurs jeux amateurs sur consoles portables et plateformes Linux, ce qui lui a donné une seconde vie dans la scène rétro.</text>
+</text>
+
+</view>
+</theme>

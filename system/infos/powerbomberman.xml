@@ -1,0 +1,21 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>An open-source engine used to play Power Bomberman, a game inspired by classic Bomberman titles featuring modern arenas, plenty of power-ups and local or online multiplayer. It modernizes the experience while keeping the fast and strategic explosive gameplay of the series. Fun fact: the game gained popularity for its massive maps supporting far more players than the original Bomberman releases.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Moteur open-source permettant de jouer à Power Bomberman, un jeu inspiré des épisodes classiques de Bomberman avec des arènes modernes, de nombreux bonus et du multijoueur local ou en ligne. Le projet modernise l’expérience tout en gardant le gameplay explosif et stratégique propre à la série. Anecdote : le jeu est devenu populaire grâce à ses énormes cartes pouvant accueillir beaucoup plus de joueurs que les versions originales.</text>
+</text>
+
+</view>
+</theme>

@@ -1,0 +1,21 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>An open-source engine used to run Return to Castle Wolfenstein, the iconic 2001 first-person shooter, with improved compatibility on modern systems, enhanced graphics options and better stability. It preserves the original experience while enabling high-resolution play and modern controls. Fun fact: the game became especially popular for its fast-paced multiplayer mode, which helped shape early 2000s online shooters.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Moteur open-source permettant de jouer à Return to Castle Wolfenstein, le célèbre FPS de 2001, avec une compatibilité améliorée sur les systèmes modernes, des options graphiques étendues et une meilleure stabilité. Le projet conserve l’expérience originale tout en facilitant le jeu en haute résolution et avec des contrôles actuels. Anecdote : le jeu s’est rapidement démarqué grâce à son mode multijoueur nerveux, qui a fortement influencé les shooters en ligne du début des années 2000.</text>
+</text>
+
+</view>
+</theme>

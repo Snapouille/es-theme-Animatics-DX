@@ -1,0 +1,21 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>A fan-made native PC port of The Legend of Zelda: Majora’s Mask, built from the N64 decompilation and featuring a modernized experience with higher framerate, widescreen support and various quality-of-life options.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Portage PC fan-made de The Legend of Zelda: Majora’s Mask, basé sur la décompilation du jeu N64, proposant une expérience modernisée avec framerate amélioré, affichage écran large et diverses options de confort.</text>
+</text>
+
+</view>
+</theme>

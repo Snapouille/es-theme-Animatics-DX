@@ -1,3 +1,22 @@
+## V 2.43 - (20 02 2026)
+- Added EAgames system
+- Added GOG system
+- Added Amazon system
+- Added BennuGD system
+- Added Bstone system
+- Added Bsyndrome system
+- Added C16 system
+- Added catacomb system
+- Added enterprise system
+- Added epic system
+- Added laseractive system
+- Added powerbomberman system
+- Added rtcw system
+- Added 2ship system
+- Added catacomb system
+- Added new publishers logo 
+
+
 ## V 2.42 - (24 01 2026)
 - Added a GBA new smooth wallpaper  
 - Added a 3DS new smooth wallpaper  

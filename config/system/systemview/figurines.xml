@@ -15,6 +15,21 @@
 
 <view name="system">
 
+
+	<!-- POUR AFFICHER LES SYSTEMES MANQUANTS -->
+	<!-- a activer quand on veut voir le nom d'un système manquant -->
+			  <!-- <text name="text_Variable" extra="true"> -->
+				<!-- <text>${system.theme}</text> -->
+				<!-- <origin>0.5 0.5</origin>									 -->
+				<!-- <size>0.4 0.1</size>									 -->
+				<!-- <pos>0.4 0.03</pos>									 -->
+				<!-- <color>ff0033</color> -->
+				<!-- <alignment>center</alignment> -->
+				<!-- <fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath> -->
+				<!-- <fontSize>0.04</fontSize> -->
+				<!-- <zIndex>8000</zIndex> -->
+			<!-- </text>	 -->
+
 	<image name="frame_barreAnim_haut, frame_barreAnim_bas, frame_barreAnim_gauche, frame_barreAnim_droite">
 		<visible>false</visible>
 	</image>	
@@ -32,7 +47,7 @@
 		<zIndex>20001</zIndex>
 		<type>horizontal</type>
 		<pos>-0.14 0.1</pos>
-		<pos ifHelpPrompts="true">-0.14 0.065</pos>
+		<pos ifHelpPrompts="true">-0.14 0.08</pos>
 		<size>1.375 1</size>
 		<logoScale>1.6</logoScale>
 		<logoSize>0.350 0.350</logoSize>

@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Pioneer LaserActive was a hybrid Laserdisc player and video game console released by Pioneer in 1993. It played Japanese/US video laserdiscs without requiring any additional modules. Optional modules (called PACs by Pioneer) expanded the hardware to include new features, including compatibility with the Sega Mega Drive/Genesis and the NEC PC Engine/TurboGrafx-16, and it was capable of running both cartridge/HuCard-based and CD-based games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La Pioneer LaserActive était un lecteur Laserdisc hybride faisant également office de console de jeux vidéo, commercialisée par Pioneer en 1993. Elle lisait les Laserdiscs vidéo japonais et américains sans nécessiter de modules supplémentaires. Des modules optionnels (appelés PAC par Pioneer) permettaient d'étendre ses fonctionnalités, notamment la compatibilité avec la Sega Mega Drive/Genesis et la NEC PC Engine/TurboGrafx-16. Elle pouvait ainsi faire tourner des jeux sur cartouche/HuCard et sur CD.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Pioneer LaserActive war ein Hybridgerät aus Laserdisc-Player und Videospielkonsole, das 1993 von Pioneer auf den Markt gebracht wurde. Er spielte japanische und US-amerikanische Videolaserdiscs ohne zusätzliche Module ab. Optionale Module (von Pioneer als PACs bezeichnet) erweiterten die Hardware um neue Funktionen, darunter die Kompatibilität mit dem Sega Mega Drive/Genesis und dem NEC PC Engine/TurboGrafx-16. Außerdem konnte er sowohl Cartridge-/HuCard-basierte als auch CD-basierte Spiele abspielen.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>El Pioneer LaserActive fue un híbrido de reproductor Laserdisc y videoconsola lanzado por Pioneer en 1993. Reproducía laserdiscs de vídeo Japón/EE. UU. sin necesidad de ningún módulo. Mediante módulos opcionales (llamados PAC por Pioneer) se ampliaba el hardware para incluir nuevas funcionalidades, entre ellas compatibilidad con la Sega Mega Drive/Genesis y la NEC PC Engine/TurboGrafx-16, siendo capaz de ejecutar tanto los juegos basados en cartucho/HuCard como los basados en CD.</text>
+</text>
+
+</view>
+</theme>

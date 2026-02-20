@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="system">
+
+    <!-- Default language (EN) -->
+    <text name="system_description" extra="true">
+      <text>Xash3D FWGS is a fork of the Xash3D Engine that is compatible with the GoldSrc engine. It lets you play Half-Life out of the box, as well as many Half-Life-based mods.</text>
+    </text>
+
+    <!-- French -->
+    <text name="system_description" extra="true" lang="fr">
+      <text>Xash3D FWGS est un fork du moteur Xash3D, compatible avec le moteur GoldSrc. Il permet de jouer à Half-Life ainsi qu'à de nombreux mods basés sur Half-Life.</text>
+    </text>
+
+    <!-- Spanish -->
+    <text name="system_description" extra="true" lang="es">
+      <text>Xash3D FWGS es una bifurcación del motor Xash3D, compatible con el motor GoldSrc. Permite jugar Half-Life desde el primer momento y muchas modificaciones basadas en Half-Life.</text>
+    </text>
+
+    <!-- Portuguese -->
+    <text name="system_description" extra="true" lang="pt">
+      <text>O Xash3D FWGS é um fork do motor Xash3D, compatível com o motor GoldSrc. Permite jogar Half-Life imediatamente e muitas modificações baseadas em Half-Life.</text>
+    </text>
+
+    <!-- German -->
+    <text name="system_description" extra="true" lang="de">
+      <text>Xash3D FWGS ist ein Fork der Xash3D-Engine, der mit der GoldSrc-Engine kompatibel ist. Es ermöglicht das Spielen von Half-Life direkt nach der Installation sowie vieler Half-Life-basierter Mods.</text>
+    </text>
+
+    <!-- Italian -->
+    <text name="system_description" extra="true" lang="it">
+      <text>Xash3D FWGS è un fork del motore Xash3D, compatibile con il motore GoldSrc. Permette di giocare a Half-Life fin da subito e a molte modifiche basate su Half-Life.</text>
+    </text>
+
+  </view>
+</theme>

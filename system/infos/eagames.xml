@@ -1,0 +1,21 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>EA distributes its PC games through the EA app (formerly Origin). This platform is used to buy, download, and launch games from EA’s catalog, including its major franchises. It is also connected to the EA Play subscription, which provides access to a selection of included games and time-limited trials. The EA launcher is required, and the games use DRM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>EA propose ses jeux PC via l’application EA app (anciennement Origin). Cette plateforme permet d’acheter, télécharger et lancer les jeux du catalogue EA (comme les franchises sportives et les licences maison). Elle est également liée à l’abonnement EA Play, qui donne accès à une sélection de jeux inclus et à des essais temporaires. L’utilisation du launcher EA est obligatoire et les jeux intègrent un DRM.</text>
+</text>
+
+</view>
+</theme>

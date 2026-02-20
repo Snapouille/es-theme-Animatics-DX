@@ -1,0 +1,21 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>A modern reimplementation of the Bermuda Syndrome engine, designed to make the 1995 PC classic run smoothly on modern systems while preserving its cinematic feel. The project rebuilds the original game’s behavior with improved compatibility and faithful presentation.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Réimplémentation moderne du moteur du jeu Bermuda Syndrome, permettant de redécouvrir ce classique PC de 1995 avec une meilleure compatibilité sur les systèmes actuels. Le projet recrée le fonctionnement du jeu original tout en restant fidèle à son ambiance cinématique inspirée des films d’aventure et de science-fiction de l’époque.</text>
+</text>
+
+</view>
+</theme>

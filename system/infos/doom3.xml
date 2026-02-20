@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Boom3 is an open-source game engine designed to run games from the Doom 3 series on modern platforms. It enhances the original game experience by offering support for higher resolutions, better fluidity and improved control handling, while retaining the original graphics and physics. The engine also makes it possible to add mods, graphical enhancements and customize the gaming experience.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Boom3 est un moteur de jeu open-source conçu pour faire tourner les jeux de la série Doom 3 sur des plateformes modernes. Il améliore l'expérience du jeu original en offrant un support pour des résolutions plus élevées, une meilleure fluidité, et une gestion améliorée des contrôles, tout en conservant les graphismes et la physique d'origine. Le moteur permet également d'ajouter des mods, des améliorations graphiques et de personnaliser l'expérience de jeu.</text>
+</text>
+
+
+</view>
+</theme>

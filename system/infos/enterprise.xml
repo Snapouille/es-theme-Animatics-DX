@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>The Enterprise 64 and 128 are European home computers designed for family and educational use. Conceived as versatile machines, they supported learning and programming as well as home entertainment. Thanks to their advanced graphics and sound capabilities for the time, Enterprise systems hosted numerous games and original productions that became representative of the 8-bit micro era.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>L’Enterprise 64 et 128 sont des micro-ordinateurs européens conçus pour un usage familial et éducatif. Pensés comme des machines polyvalentes, ils permettaient aussi bien l’apprentissage et la programmation que le divertissement à domicile. Grâce à leurs performances graphiques et sonores avancées pour l’époque, les systèmes Enterprise ont accueilli de nombreux jeux et productions originales devenues représentatives de l’ère des micro 8 bits.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>El Enterprise 64 y 128 son microordenadores europeos diseñados para uso familiar y educativo. Concebidos como máquinas versátiles, permitían tanto el aprendizaje y la programación como el entretenimiento en el hogar. Gracias a sus avanzadas prestaciones gráficas y sonoras para la época, los sistemas Enterprise albergaron numerosos juegos y producciones originales representativas de la era de los microordenadores de 8 bits.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Enterprise 64 e 128 são microcomputadores europeus concebidos para uso familiar e educativo. Pensados como máquinas versáteis, permitiam tanto a aprendizagem e a programação quanto o entretenimento doméstico. Graças às suas capacidades gráficas e sonoras avançadas para a época, os sistemas Enterprise receberam diversos jogos e produções originais representativas da era dos microcomputadores de 8 bits.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Der Enterprise 64 und 128 sind europäische Heimcomputer, die für den familiären und pädagogischen Einsatz konzipiert wurden. Als vielseitige Systeme ermöglichten sie sowohl Lernen und Programmierung als auch Unterhaltung zu Hause. Dank ihrer für die Zeit fortschrittlichen Grafik- und Soundfähigkeiten beherbergten die Enterprise-Systeme zahlreiche Spiele und originale Produktionen, die repräsentativ für die 8-Bit-Mikro-Ära wurden.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>L’Enterprise 64 e 128 sono microcomputer europei progettati per un uso familiare ed educativo. Concepite come macchine versatili, permettevano sia l’apprendimento e la programmazione sia l’intrattenimento domestico. Grazie alle loro capacità grafiche e sonore avanzate per l’epoca, i sistemi Enterprise ospitarono numerosi giochi e produzioni originali rappresentative dell’era dei micro 8 bit.</text>
+		</text>
+
+	</view>
+</theme>

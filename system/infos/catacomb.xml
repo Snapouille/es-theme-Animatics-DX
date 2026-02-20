@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>The Catacomb games form a first-person action series developed in the early 1990s. Initially distributed through the shareware model and Softdisk’s subscription services, these titles helped lay the technical and gameplay foundations of the first-person shooter. Blending dungeon exploration, real-time combat, and a medieval-fantasy atmosphere, the Catacomb series is considered a foundational step in the evolution of FPS games.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>Les jeux Catacomb forment une série de jeux d’action en vue subjective développée au début des années 1990. Distribués initialement via le modèle shareware et les services par abonnement de Softdisk, ces titres ont posé les bases techniques et ludiques du jeu de tir à la première personne. Mélangeant exploration de donjons, combats en temps réel et atmosphère médiévale-fantastique, la série Catacomb est considérée comme une étape fondatrice dans l’évolution des FPS.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>Los juegos Catacomb forman una serie de acción en primera persona desarrollada a principios de los años 90. Distribuidos inicialmente mediante el modelo shareware y los servicios de suscripción de Softdisk, estos títulos sentaron bases técnicas y jugables del shooter en primera persona. Combinando exploración de mazmorras, combates en tiempo real y una atmósfera medieval-fantástica, la serie Catacomb se considera un paso fundacional en la evolución de los FPS.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>Os jogos Catacomb formam uma série de ação em primeira pessoa desenvolvida no início dos anos 1990. Distribuídos inicialmente pelo modelo shareware e pelos serviços de assinatura da Softdisk, esses títulos ajudaram a estabelecer as bases técnicas e de jogabilidade do tiro em primeira pessoa. Misturando exploração de masmorras, combate em tempo real e uma atmosfera medieval-fantástica, a série Catacomb é considerada um passo fundamental na evolução dos FPS.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>Die Catacomb-Spiele bilden eine Ego-Actionspielreihe, die Anfang der 1990er Jahre entwickelt wurde. Ursprünglich über das Shareware-Modell und die Abonnement-Dienste von Softdisk vertrieben, legten diese Titel wichtige technische und spielerische Grundlagen für den Ego-Shooter. Mit Dungeon-Erkundung, Echtzeitkämpfen und einer mittelalterlich-fantastischen Atmosphäre gilt die Catacomb-Reihe als ein grundlegender Schritt in der Entwicklung der FPS.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>I giochi Catacomb formano una serie d’azione in prima persona sviluppata all’inizio degli anni 1990. Distribuiti inizialmente tramite il modello shareware e i servizi in abbonamento di Softdisk, questi titoli hanno contribuito a porre le basi tecniche e di gameplay dello sparatutto in prima persona. Unendo esplorazione di dungeon, combattimenti in tempo reale e un’atmosfera medievale-fantasy, la serie Catacomb è considerata una tappa fondamentale nell’evoluzione degli FPS.</text>
+		</text>
+
+	</view>
+</theme>

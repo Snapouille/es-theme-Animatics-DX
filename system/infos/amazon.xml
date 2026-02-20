@@ -1,0 +1,21 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Prime Gaming is a service included with an Amazon Prime membership. It lets you claim free games every month that you keep forever and gives you one free monthly channel subscription on Twitch. It’s essentially a gaming bonus at no extra cost.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Prime Gaming est un service inclus dans l’abonnement Amazon Prime. Il permet de récupérer chaque mois des jeux vidéo gratuits à conserver définitivement et de profiter d’un abonnement mensuel gratuit à une chaîne sur Twitch. C’est un avantage supplémentaire pour les joueurs, sans coût additionnel.</text>
+</text>
+
+</view>
+</theme>

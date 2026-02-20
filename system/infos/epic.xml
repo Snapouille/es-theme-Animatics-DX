@@ -1,0 +1,21 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Epic Games Store is a PC game distribution platform developed by Epic Games. It is best known for giving away one or more free games every week, which you keep forever once claimed. The store features modern titles, timed exclusives, and requires the Epic Games launcher to play.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>L’Epic Games Store est une plateforme de distribution de jeux vidéo sur PC, développée par Epic Games. Elle est surtout connue pour offrir un ou plusieurs jeux gratuits chaque semaine, à conserver définitivement une fois réclamés. Le store propose des jeux récents, des exclusivités temporaires et nécessite l’utilisation du launcher Epic pour jouer.</text>
+</text>
+
+</view>
+</theme>

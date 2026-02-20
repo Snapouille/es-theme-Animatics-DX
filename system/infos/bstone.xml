@@ -1,0 +1,21 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>An open-source engine used to play Blake Stone: Aliens of Gold and Blake Stone: Planet Strike, classic FPS games inspired by the Wolfenstein 3D era. It improves modern compatibility, adds enhanced graphics options and delivers a smoother experience while preserving the original gameplay.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Moteur open-source permettant de jouer à Blake Stone: Aliens of Gold et Blake Stone: Planet Strike, deux FPS cultes inspirés de l’ère Wolfenstein 3D. Il apporte une meilleure compatibilité avec les systèmes modernes, des options graphiques avancées et une expérience plus fluide tout en restant fidèle au gameplay d’origine.</text>
+</text>
+
+</view>
+</theme>
