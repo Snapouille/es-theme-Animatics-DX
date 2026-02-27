@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
 
@@ -389,9 +388,9 @@
 	</image>
 	
 	
-	<!-- ----------------------------------------------	 -->
+	<!-- ====	 -->
 	<!-- Encadrement HAUT au dessus de la grid           -->
-	<!-- ----------------------------------------------	 -->
+	<!-- ====	 -->
 	
 	<image name="up_Frame_border, down_Frame_border, left_Frame_border, right_Frame_border, manufacturer-icon, date-icon, stats-icon" extra="true">
 		<path>${themePath}/art/divers/white.png</path>
@@ -696,9 +695,9 @@
 	</image>
 	
 	
-	<!-- ----------------------------------------------	 -->
+	<!-- ====	 -->
 	<!-- Encadrement du logo des systèmes                -->
-	<!-- ----------------------------------------------	 -->
+	<!-- ====	 -->
 	
 	<image name="logo_gauche1, logo_droit1, logo_haut1, logo_bg, logo_bg1, logo_bg2" extra="true">
 		<path>${themePath}/art/divers/white.png</path>

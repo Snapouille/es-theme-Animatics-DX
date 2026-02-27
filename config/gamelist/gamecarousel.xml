@@ -24,8 +24,8 @@ originally based on: "carbon"
 </helpsystem>  
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
-<!----- GAMEINFOBAR --------->
-<!-- cartouche à droite ----->
+<!--==== GAMEINFOBAR ====-->
+<!-- cartouche à droite ==== -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
 		
 		
@@ -1429,8 +1429,8 @@ originally based on: "carbon"
 	
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
-<!--------- DEBUT ----------->
-<!----- DES CARTRIDGES ------>
+<!--==== DEBUT ====-->
+<!--==== DES CARTRIDGES ====-->
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
 	
 	
@@ -1555,7 +1555,7 @@ originally based on: "carbon"
 		</storyboard>
     </image>
 	
-	<!---------------------------------------------------------------------------------->
+	<!--====-->
 
 		<!-- Adventure Vision -->
 	<image name="cartridge_ID"  if="{system.theme} == 'advision' " extra="true">
@@ -1928,7 +1928,7 @@ originally based on: "carbon"
 		<!-- <maxSize>0.22 0.22</maxSize>	 -->
     <!-- </image> -->
 
-	<!---------------------------------------------------------------------------------->
+	<!--====-->
 		
 		
 
@@ -2091,7 +2091,7 @@ originally based on: "carbon"
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<!--        pour les systèmes ARCADE  		 --------------->
+<!--        pour les systèmes ARCADE  		 ==== -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 		
 <view name="gamecarousel" if=" 

@@ -1,5 +1,4 @@
-﻿﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--
+﻿<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
@@ -407,6 +406,31 @@ originally based on: "carbon"
 				<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
 	</text>
+	
+	
+	<image name="publisher_logo" extra="static">
+		<origin>0.5 0.5</origin>									
+		<pos>0.34 0.637</pos>									
+		<maxSize>0.08 0.035</maxSize>	
+		<zIndex>800</zIndex>
+		<storyboard event="open">
+		</storyboard>
+		<storyboard event="activate">
+		</storyboard>
+	</image>
+	
+	<!-- on affiche le publisher en texte si on trouve pas de logo -->
+	<text name="publisher_text" extra="true">
+		<size>0.0994792 0.0527778</size>									
+		<pos>0.33 0.647</pos>									
+		<alignment>right</alignment>
+		<zIndex>800</zIndex>
+		<storyboard event="open">
+		</storyboard>
+		<storyboard event="activate">
+		</storyboard>
+	</text>	
+	
 		
 	<image name="separate_line" extra="true">
 			<path>./../../art/divers/white.png</path>
@@ -680,5 +704,9 @@ originally based on: "carbon"
 	<image name="up_BottomFrame, down_BottomFrame, left_BottomFrame, right_BottomFrame, black_BottomFrame" extra="true">
 		<visible>false</visible>
 	</image>
-	</customView>
+	
+	
+	
+</customView>
+
 </theme>

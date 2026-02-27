@@ -1,3 +1,7 @@
+## V 2.44 - (27 02 2026)
+- Code optimization and cleanup
+- Converted marquee to JPG for the add-on-arcade to improve performance
+
 ## V 2.43 - (20 02 2026)
 - Added EAgames system
 - Added GOG system

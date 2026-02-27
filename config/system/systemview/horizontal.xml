@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
+﻿
 
 <theme>
   <formatVersion>7</formatVersion>
@@ -70,9 +69,9 @@
 	
 	
 	
-	<!-- ----------------------------------------------	 -->
+	<!-- ====	 -->
 	<!-- Overlay au niveau des consoles et infos         -->
-	<!-- ----------------------------------------------	 -->
+	<!-- ====	 -->
 	
 	<!-- Remplissage d'un black faible opacité -->
     <image name="bg_Frame" extra="true">

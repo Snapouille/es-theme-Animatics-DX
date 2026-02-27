@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--
+﻿<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
@@ -1111,9 +1110,9 @@ originally based on: "carbon"
 		
 		
 		
-	<!-- ----------------------------------------------	 -->
+	<!-- ====	 -->
 	<!-- Encadrement HAUT au dessus de la grid           -->
-	<!-- ----------------------------------------------	 -->
+	<!-- ====	 -->
 	
 	<image name="up_Frame_border, down_Frame_border, left_Frame_border, right_Frame_border, manufacturer-icon, date-icon, stats-icon" extra="true">
 		<path>./../../art/divers/white.png</path>
@@ -1298,9 +1297,9 @@ originally based on: "carbon"
 <view name="system" ifSubset="SystemView:figurines">
 	
 		
-	<!-- ------------------ -->
+	<!-- ==== -->
 	<!-- Encadrement LOGO   -->
-	<!-- ------------------ -->
+	<!-- ==== -->
 	
 	<image name="up_Logo_line, down_Logo_line, left_Logo_line, right_Logo_line, fill_Logo">
 		<path>./../../art/divers/white.png</path>
@@ -1336,9 +1335,9 @@ originally based on: "carbon"
 		<opacity>0.85</opacity>
 	</image>
 	
-	<!-- ------------------ -->
+	<!-- ==== -->
 	<!-- Encadrement DESC   -->
-	<!-- ------------------ -->
+	<!-- ==== -->
 	
 	<image name="up_Frame_border, down_Frame_border, left_Frame_border, right_Frame_border, manufacturer-icon, date-icon, stats-icon" extra="true">
 		<path>./../../art/divers/white.png</path>

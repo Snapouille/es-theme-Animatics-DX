@@ -149,6 +149,15 @@
         <text name="md_description">
 			<pos>0.03 0.703</pos>
         </text>
+		
+		<image name="publisher_logo" extra="static">
+			<pos>0.34 0.67</pos>									
+		</image>
+		
+		<text name="publisher_text" extra="true">
+			<pos>0.33 0.68</pos>									
+		</text>	
+		
   </customView>
   
   

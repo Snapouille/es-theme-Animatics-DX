@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<theme>
+﻿<theme>
 <formatVersion>7</formatVersion>
 <variables>
 	<ArchOrNot ifArch="windows">ROOT OF RETROBAT FOLDER</ArchOrNot>
@@ -38,7 +37,7 @@
 		<color>000000</color>
 
 <!--english-->
-<text>--- HELP WITH LOGO AND CUSTOM NICKNAME ---
+<text>==== HELP WITH LOGO AND CUSTOM NICKNAME ====
 ________________________________________________________________________
 
 You will find two files at the root of the theme:
@@ -72,7 +71,7 @@ _________________________________________________________________________</text>
 
 
 <!--français-->
-<text lang="fr">--- AIDE POUR LE LOGO ET SURNOM CUSTOM ---
+<text lang="fr">==== AIDE POUR LE LOGO ET SURNOM CUSTOM ====
 ________________________________________________________________________
 
 Vous trouverez deux fichiers à la racine du thème :
@@ -109,7 +108,7 @@ _________________________________________________________________________
 
 
 <!--espagnol-->
-<text lang="es">--- AYUDA CON LOGO Y NICK PERSONALIZADO ---
+<text lang="es">==== AYUDA CON LOGO Y NICK PERSONALIZADO ====
 ________________________________________________________________________
 
 Encontrarás dos archivos en la raíz del tema:

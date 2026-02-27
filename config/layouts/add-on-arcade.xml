@@ -1,10 +1,10 @@
 ﻿<theme>
-<!-- ------------------------------------------------------- -->
-<!-- ------------------------------------------------------- -->
-<!-- --------- ADD-ON Arcade installé ---------------------- -->
-<!-- --------- ifSubset="add-on.Arcade:yes" ---------------- -->
-<!-- ------------------------------------------------------- -->
-<!-- ------------------------------------------------------- -->
+<!-- ==== -->
+<!-- ==== -->
+<!-- ==== ADD-ON Arcade installé ==== -->
+<!-- ==== ifSubset="add-on.Arcade:yes" ==== -->
+<!-- ==== -->
+<!-- ==== -->
 
 <view name="gamecarousel" if=" 
                {system.theme} == 'arcade' 
@@ -197,7 +197,7 @@
 	le logo du jeu comme marquee -->	
  
 	<image name="ecran_console_marquee" extra="static">
-		<path>"${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".png"</path>
+		<path>"${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".jpg"</path>
 		<visible if="{system.theme} == 'atomiswave'">false</visible>
 		<origin>0.5 0.5</origin>									
 		<size>0.2911458 0.1435185</size>									
@@ -212,7 +212,7 @@
 	<image name="marquee_black" extra="true">
 		<!-- sera visible à 2 conditions : que la borne officielle et le marquee n'existent pas -->
 		<visible>!exists("${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png") &&
-				 !exists("${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".png")</visible>
+				 !exists("${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".jpg")</visible>
 		<visible if="{system.theme} == 'atomiswave'">false</visible>
 		<path>${themePath}/art/divers/white.png</path>
 		<color>000000</color>
@@ -227,7 +227,7 @@
 	<image name="marquee_logosjeux" extra="true">
 		<!-- sera visible à 2 conditions : que la borne officielle et le marquee n'existent pas -->
 		<visible>!exists("${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png") &&
-				 !exists("${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".png")</visible>
+				 !exists("${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".jpg")</visible>
 		<visible if="{system.theme} == 'atomiswave'">false</visible>
 		<path>{game:marquee}</path>
 		<zIndex>29</zIndex> 

@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--
+﻿<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 version : V1.3
@@ -53,14 +52,14 @@ originally based on: "carbon"
 	<InfoCustomView>Infos / Statistics</InfoCustomView>
     <subset.shader>Shader</subset.shader>
     <glowSubsetName>Glow selection</glowSubsetName>
-	<!-- Bouttons d'aide ------------------------------------------------->
+	<!-- Bouttons d'aide -->
     <helpbuttons>Button location</helpbuttons>
     <xboxbuttons>Xbox buttons</xboxbuttons>
     <xboxbuttonslegacy>Xbox buttons legacy</xboxbuttonslegacy>
     <psxbuttons>Playstation buttons</psxbuttons>
     <psxbuttonslegacy>Playstation buttons legacy</psxbuttonslegacy>
     <arcadebuttons>Arcade buttons</arcadebuttons>
-	<!-- --------------- ------------------------------------------------->
+	<!-- Fin des boutons d'aide -->
     <marquee>marquee</marquee>
     <image>image</image>
     <text>text</text>
@@ -637,11 +636,11 @@ originally based on: "carbon"
 		<include name="Hide" displayName="${hide}"/>
 	</subset>
 	
-	<!-- ------------------------------------- -->
-	<!-- ------------------------------------- -->
+	<!-- ===================================== -->
+	<!-- ===================================== -->
 	<!-- MENU SPECIAL POUR LA VUE GAMECAROUSEL -->
-	<!-- ------------------------------------- -->
-	<!-- ------------------------------------- -->
+	<!-- ===================================== -->
+	<!-- ===================================== -->
 	<subset name="spacer001" displayName="______________________________________________________________" appliesTo="›››››››››››››››››››››››››››››››››››››››››››››››››››››››››››   GameCarousel Options   ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹">
 		<include name=" " displayName=" "/>
 	</subset>
@@ -726,11 +725,11 @@ originally based on: "carbon"
 	</subset>
 	
 	
-	<!-- ---------------------------------------- -->
-	<!-- ---------------------------------------- -->
+	<!-- ======================================== -->
+	<!-- ======================================== -->
 	<!-- MENU SPECIAL POUR LES VUES AVEC GAMELIST -->
-	<!-- ---------------------------------------- -->
-	<!-- ---------------------------------------- -->
+	<!-- ======================================== -->
+	<!-- ======================================== -->
 	
 	<subset name="spacer002" displayName="______________________________________________________________" appliesTo="››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››   GameList Options   ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹">
 		<include name=" " displayName=" "/>
