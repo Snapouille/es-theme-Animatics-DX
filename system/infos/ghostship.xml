@@ -1,0 +1,37 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Mario 64 Ghostship is a modified version of the Super Mario 64 PC port, offering an alternative take on the original game. Built from the title’s decompilation, this kind of project allows players to explore reworked environments, different atmospheres, and custom content. It preserves the iconic gameplay while delivering a more experimental approach to the Nintendo 64 classic.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr">
+			<text>Mario 64 Ghostship est une version modifiée du port PC de Super Mario 64, proposant une expérience alternative autour du jeu original. Basé sur la décompilation du titre, ce type de build permet d’explorer des environnements revisités, des ambiances différentes et des contenus personnalisés. Il conserve le gameplay emblématique tout en offrant une approche plus expérimentale du classique de la Nintendo 64.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Mario 64 Ghostship es una versión modificada del port para PC de Super Mario 64 que ofrece una experiencia alternativa alrededor del juego original. Basado en la descompilación del título, este tipo de proyecto permite explorar entornos revisados, atmósferas diferentes y contenido personalizado. Conserva la jugabilidad emblemática mientras propone un enfoque más experimental del clásico de Nintendo 64.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>Mario 64 Ghostship é uma versão modificada do port para PC de Super Mario 64, oferecendo uma experiência alternativa em torno do jogo original. Baseado na descompilação do título, esse tipo de projeto permite explorar ambientes revisitados, atmosferas diferentes e conteúdos personalizados. Ele preserva o gameplay emblemático ao mesmo tempo em que oferece uma abordagem mais experimental do clássico do Nintendo 64.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="de">
+			<text>Mario 64 Ghostship ist eine modifizierte Version des PC-Ports von Super Mario 64 und bietet eine alternative Herangehensweise an das Originalspiel. Basierend auf der Dekompilierung des Titels ermöglicht diese Art von Projekt das Erkunden überarbeiteter Umgebungen, unterschiedlicher Stimmungen und individueller Inhalte. Das ikonische Gameplay bleibt erhalten, während gleichzeitig ein experimentellerer Zugang zum Nintendo-64-Klassiker geboten wird.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="it">
+			<text>Mario 64 Ghostship è una versione modificata del port PC di Super Mario 64, che propone un’esperienza alternativa intorno al gioco originale. Basato sulla decompilazione del titolo, questo tipo di progetto permette di esplorare ambienti rivisitati, atmosfere differenti e contenuti personalizzati. Mantiene il gameplay iconico offrendo al tempo stesso un approccio più sperimentale al classico del Nintendo 64.</text>
+		</text>
+
+	</view>
+</theme>

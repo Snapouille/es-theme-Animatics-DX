@@ -1,0 +1,37 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Epoch Cassette Vision is a Japanese home console designed for simple and immediate arcade-style play. Using interchangeable cartridges, it offered short, accessible experiences focused on action, score chasing, and local multiplayer. With its straightforward design and early place in console history, the Cassette Vision remains a notable system from the beginnings of cartridge-based gaming.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr">
+			<text>La Cassette Vision d’Epoch est une console japonaise conçue pour proposer un jeu simple et immédiat, dans l’esprit de l’arcade. Utilisant des cartouches interchangeables, elle offrait des expériences courtes et accessibles, centrées sur l’action, le score et le jeu à plusieurs en local. Avec sa conception directe et sa place précoce dans l’histoire des consoles, la Cassette Vision reste un système marquant des débuts du jeu sur cartouche.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>La Cassette Vision de Epoch es una consola japonesa pensada para ofrecer una experiencia de juego simple e inmediata, al estilo arcade. Con cartuchos intercambiables, ofrecía partidas cortas y accesibles centradas en la acción, la puntuación y el multijugador local. Gracias a su diseño directo y a su temprana presencia en la historia de las consolas, la Cassette Vision sigue siendo un sistema destacado de los inicios del juego en cartucho.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Cassette Vision da Epoch é um console japonês criado para oferecer uma experiência simples e imediata, no espírito dos arcades. Usando cartuchos intercambiáveis, oferecia partidas curtas e acessíveis, focadas em ação, pontuação e multiplayer local. Com seu design direto e seu lugar inicial na história dos consoles, o Cassette Vision permanece como um sistema marcante dos primeiros tempos dos jogos em cartucho.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="de">
+			<text>Die Cassette Vision von Epoch ist eine japanische Heimkonsole, die für ein einfaches und unmittelbares Spielerlebnis im Arcade-Stil entwickelt wurde. Mit austauschbaren Modulen bot sie kurze und zugängliche Spiele, die auf Action, Highscores und lokalen Mehrspielermodus ausgerichtet waren. Durch ihr klares Konzept und ihre frühe Rolle in der Konsolengeschichte bleibt die Cassette Vision ein prägendes System aus den Anfängen des Modulspiels.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="it">
+			<text>La Cassette Vision di Epoch è una console giapponese pensata per offrire un’esperienza di gioco semplice e immediata, nello spirito dell’arcade. Utilizzando cartucce intercambiabili, proponeva partite brevi e accessibili, incentrate su azione, punteggio e multigiocatore locale. Con il suo design diretto e il suo ruolo precoce nella storia delle console, la Cassette Vision resta un sistema importante degli inizi del gioco su cartuccia.</text>
+		</text>
+
+	</view>
+</theme>

@@ -1,6 +1,14 @@
+## V 2.45 - (13 04 2026)
+- Added BK Elektronika system
+- Added Epoch CassetteVision system
+- Added GhostShip system
+- Added trackball and spinner new png
+- Renamed Imageviewer to Screenshots
+- Gamecarousel: Added a shadow under the figurines 
+
 ## V 2.44 - (27 02 2026)
-- Code optimization and cleanup
-- Converted marquee to JPG for the add-on-arcade to improve performance
+- Code optimization and cleanup  
+- Converted marquee to JPG for the add-on-arcade to improve performance  
 
 ## V 2.43 - (20 02 2026)
 - Added EAgames system

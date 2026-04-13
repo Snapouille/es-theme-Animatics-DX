@@ -7,7 +7,7 @@
 			<visible>false</visible>
 	</image>
 	
-	<image name="figurines" extra="true">
+	<image name="figurines,shadow_figurines" extra="true">
 		<pos>0.37 0.56</pos>									
 		<pos ifHelpPrompts="false">0.37 0.61</pos>
 	</image>

@@ -1,0 +1,43 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<!-- Default language (EN) -->
+		<text name="system_description" extra="true">
+			<text>DICE simulates the earliest dedicated electronic game consoles inspired by the Pong concept. Reproducing very simple systems without cartridges or complex processors, it offers minimalist game variations based on tennis, squash, or hockey. With its immediate gameplay and historical perspective, DICE provides a glimpse into the origins of home video gaming.</text>
+		</text>
+
+		<!-- French -->
+		<text name="system_description" extra="true" lang="fr">
+			<text>DICE permet de simuler les premières consoles de jeux électroniques dédiées, inspirées du concept de Pong. Reproduisant des systèmes très simples sans cartouches ni processeur complexe, il propose des variantes de jeux minimalistes basées sur le tennis, le squash ou le hockey. Avec son gameplay immédiat et son approche historique, DICE offre un aperçu des origines du jeu vidéo domestique.</text>
+		</text>
+
+		<!-- Spanish -->
+		<text name="system_description" extra="true" lang="es">
+			<text>DICE permite simular las primeras consolas electrónicas dedicadas, inspiradas en el concepto de Pong. Reproduciendo sistemas muy simples sin cartuchos ni procesadores complejos, ofrece variantes de juego minimalistas basadas en tenis, squash o hockey. Con su jugabilidad inmediata y su enfoque histórico, DICE ofrece una visión de los orígenes del videojuego doméstico.</text>
+		</text>
+
+		<!-- Portuguese -->
+		<text name="system_description" extra="true" lang="pt">
+			<text>DICE permite simular os primeiros consoles eletrônicos dedicados, inspirados no conceito de Pong. Reproduzindo sistemas muito simples, sem cartuchos nem processadores complexos, oferece variantes de jogo minimalistas baseadas em tênis, squash ou hóquei. Com sua jogabilidade imediata e abordagem histórica, DICE oferece uma visão das origens dos videogames domésticos.</text>
+		</text>
+
+		<!-- German -->
+		<text name="system_description" extra="true" lang="de">
+			<text>DICE simuliert die ersten eigenständigen elektronischen Spielkonsolen, die vom Pong-Konzept inspiriert wurden. Es bildet sehr einfache Systeme ohne Module oder komplexe Prozessoren nach und bietet minimalistische Spielvarianten auf Basis von Tennis, Squash oder Hockey. Mit seinem direkten Gameplay und seinem historischen Ansatz vermittelt DICE einen Einblick in die Ursprünge des Heimvideospiels.</text>
+		</text>
+
+		<!-- Italian -->
+		<text name="system_description" extra="true" lang="it">
+			<text>DICE permette di simulare le prime console elettroniche dedicate, ispirate al concetto di Pong. Riproducendo sistemi molto semplici senza cartucce né processori complessi, propone varianti di gioco minimaliste basate su tennis, squash o hockey. Con il suo gameplay immediato e il suo approccio storico, DICE offre uno sguardo alle origini del videogioco domestico.</text>
+		</text>
+
+	</view>
+</theme>

@@ -2,7 +2,7 @@
 
 <view name="gamecarousel">
   
-	<image name="figurines" extra="true">
+	<image name="figurines,shadow_figurines" extra="true">
 		<pos>0.295 0.62</pos>									
 		<pos ifHelpPrompts="false">0.295 0.67</pos>
 	</image>

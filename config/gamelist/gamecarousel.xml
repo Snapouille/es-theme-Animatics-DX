@@ -340,11 +340,11 @@ originally based on: "carbon"
 
 <text name="md_players">
 	<origin>0.5 0.5</origin>
-	<fontPath>./../../art/fonts/players.ttf</fontPath>
+	<fontPath>./../../art/fonts/players_snap.ttf</fontPath>
 	<size>0.123 0.103</size>
 	<pos>0.093 0.36</pos>
 	<alignment>right</alignment>
-	<fontSize>0.045</fontSize>
+	<fontSize>0.043</fontSize>
 	<color>dddddd</color>
 	<singleLineScroll>true</singleLineScroll>
 		<storyboard event="open">
@@ -783,7 +783,7 @@ originally based on: "carbon"
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-<image name="figurines" extra="true">
+<image name="figurines,shadow_figurines" extra="true">
 	<origin>0.5 0.5</origin>
 	<pos>0.3 0.795</pos>									
 	<pos ifHelpPrompts="false">0.3 0.845</pos>
@@ -793,11 +793,18 @@ originally based on: "carbon"
 	<zIndex>40</zIndex>
 </image>
 
+<image name="shadow_figurines" extra="true">
+	<color>000000</color>
+	<opacity>0.9</opacity>
+	<zIndex>39</zIndex>
+	<padding>1 5 -1 -5</padding>
+</image>
+
 <!-- figurines systemes incluses dans le thème -->
 <!-- <image name="figurines" ifSubset="figurineDisplay:systemOnly"> -->
 	<!-- <path>"${themePath}/art/figurines/" + {game:system:theme} + ".png"</path> -->
 <!-- </image> -->
-<image name="figurines" ifSubset="figurineDisplay:systemOnly">
+<image name="figurines,shadow_figurines" ifSubset="figurineDisplay:systemOnly">
 	<path>firstfile(
 	    "${themePath}/art/figurines/" + {game:system:theme} + "-default.png",
 	    "${themePath}/art/figurines/" + {game:system:theme} + ".png")
@@ -805,7 +812,7 @@ originally based on: "carbon"
 </image>
 
 <!-- on recherche uniquement dans les Add-on, en premier par nom du jeu puis par famille puis par genre -->
-<image name="figurines" ifSubset="figurineDisplay:addonOnly">
+<image name="figurines,shadow_figurines" ifSubset="figurineDisplay:addonOnly">
 	<path>firstfile(
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
@@ -814,7 +821,7 @@ originally based on: "carbon"
 </image>
 
 <!-- on recherche en premier par nom du jeu puis par famille puis par genre puis la figurine par défaut si on trouve rien -->
-<image name="figurines" ifSubset="figurineDisplay:addonOrSystem">
+<image name="figurines,shadow_figurines" ifSubset="figurineDisplay:addonOrSystem">
 	<path>firstfile(
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
@@ -824,13 +831,15 @@ originally based on: "carbon"
 	</path>
 </image>
 
-<image name="figurines" ifSubset="figurineDisplay:none">
+<image name="figurines,shadow_figurines" ifSubset="figurineDisplay:none">
 	<visible>false</visible>
 </image>
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
 
 
 
@@ -2004,9 +2013,9 @@ originally based on: "carbon"
 			">	
 
 
-<image name="figurines" extra="true">
-	<pos>0.405 0.77</pos>									
-	<pos ifHelpPrompts="false">0.415 0.81</pos>
+<image name="figurines,shadow_figurines" extra="true">
+	<pos>0.423 0.73</pos>									
+	<pos ifHelpPrompts="false">0.423 0.77</pos>
 </image>
 
 <!-- on repositionne le nom du système sur le cadre	 -->
@@ -2161,9 +2170,9 @@ originally based on: "carbon"
 			">		
 
 <!-- On coupe le son des md_video si on est dans un système arcade pour éviter le son en double -->
-<video name="md_video">
-  <audio>false</audio>
-</video>
+	<video name="md_video">
+	  <audio>false</audio>
+	</video>
 
 <!-- on décale légèrement les box (flyers) vers la droite -->
 	<image name="thumbnail-gamecarousel" extra="true">
@@ -2177,7 +2186,7 @@ originally based on: "carbon"
 	</image>
 	
 <!-- On masque les figurines pour les systèmes Arcades et Collections sans bureau -->
-	<image name="figurines" extra="true">
+	<image name="figurines,shadow_figurines" extra="true">
 		<visible>false</visible>
 	</image>
 	

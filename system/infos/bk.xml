@@ -1,0 +1,37 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Elektronika BK is a Soviet family of home computers designed for domestic and educational use. Popular among enthusiasts for programming, learning, and gaming, these machines combined a straightforward design with solid technical capabilities for their time. Thanks to their active software scene, the BK systems hosted numerous games, utilities, and original productions that became part of Eastern European microcomputer history.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr">
+			<text>L’Elektronika BK est une famille de micro-ordinateurs soviétiques conçus pour un usage domestique et éducatif. Appréciées pour la programmation, l’apprentissage et le jeu, ces machines combinaient une conception simple à de solides capacités techniques pour leur époque. Grâce à une scène logicielle active, les systèmes BK ont accueilli de nombreux jeux, utilitaires et productions originales devenus une part marquante de l’histoire micro-informatique d’Europe de l’Est.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Elektronika BK es una familia de microordenadores soviéticos diseñada para uso doméstico y educativo. Apreciadas para programación, aprendizaje y videojuegos, estas máquinas combinaban un diseño sencillo con sólidas capacidades técnicas para su época. Gracias a una activa escena de software, los sistemas BK albergaron numerosos juegos, utilidades y producciones originales que se convirtieron en una parte destacada de la historia de la microinformática de Europa del Este.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Elektronika BK é uma família de microcomputadores soviéticos concebida para uso doméstico e educativo. Apreciadas para programação, aprendizagem e jogos, essas máquinas combinavam um design simples com sólidas capacidades técnicas para a época. Graças a uma cena de software ativa, os sistemas BK receberam diversos jogos, utilitários e produções originais que se tornaram uma parte marcante da história da microinformática do Leste Europeu.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="de">
+			<text>Der Elektronika BK ist eine sowjetische Heimcomputer-Familie, die für den privaten und pädagogischen Einsatz konzipiert wurde. Diese Rechner wurden für Programmierung, Lernen und Spiele geschätzt und verbanden ein einfaches Design mit soliden technischen Fähigkeiten für ihre Zeit. Dank einer aktiven Softwareszene boten die BK-Systeme zahlreiche Spiele, Dienstprogramme und originale Produktionen, die zu einem prägenden Teil der osteuropäischen Mikrocomputer-Geschichte wurden.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="it">
+			<text>L’Elektronika BK è una famiglia di microcomputer sovietici progettata per uso domestico ed educativo. Apprezzate per programmazione, apprendimento e videogiochi, queste macchine combinavano un design semplice con solide capacità tecniche per l’epoca. Grazie a una scena software attiva, i sistemi BK ospitarono numerosi giochi, utilità e produzioni originali divenute una parte importante della storia della microinformatica dell’Europa orientale.</text>
+		</text>
+
+	</view>
+</theme>
