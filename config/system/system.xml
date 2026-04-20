@@ -74,16 +74,16 @@ originally based on: "carbon"
 		<linearSmooth>false</linearSmooth>
   	</image>
 	
-	
-    <image name="ControllerOverlay" extra="true">
-      <tile>false</tile>
-	  <origin>0.5 0.5</origin>
-      <path>./../../art/controllers/default.svg</path>
-      <path>./../../art/controllers/${system.theme}.svg</path>
-      <color>${baseColor}</color>
-      <zIndex>19</zIndex>
-      <linearSmooth>true</linearSmooth>
-    </image>
+	<!-- Manette fil de fer, j'ai supprimer ce background pour l'instant -->
+		<!-- <image name="ControllerOverlay"> -->
+		  <!-- <tile>false</tile> -->
+		  <!-- <origin>0.5 0.5</origin> -->
+		  <!-- <path>./../../art/controllers/default.svg</path> -->
+		  <!-- <path>./../../art/controllers/${system.theme}.svg</path> -->
+		  <!-- <color>${baseColor}</color> -->
+		  <!-- <zIndex>19</zIndex> -->
+		  <!-- <linearSmooth>true</linearSmooth> -->
+		<!-- </image> -->
 	
 	<!-- Animation barre autour de la frame (cadre) centrale -->
 	

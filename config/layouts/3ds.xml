@@ -5,7 +5,6 @@
 	<image name="figurines,shadow_figurines" extra="true">
 		<pos>0.305 0.69</pos>	
 		<pos ifHelpPrompts="false">0.305 0.74</pos>
-		<zIndex>5</zIndex>
 	</image>
   
 	<image name="ecran_console" extra="static">
