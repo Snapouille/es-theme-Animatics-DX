@@ -665,7 +665,7 @@ originally based on: "carbon"
 			<path ifSubset="artworkregion:jp">./../../art/controllers2/jp/${system.theme}.png</path>
 			<!-- si COLLECTION on affiche le systeme au lieu de la manette -->
 			<!-- CASSER avec le nouveau ES en attente d'instructions f.caruso -->
-			<path if="${system.manufacturer} == 'Collections'">./../../art/consoles/{game:system}.png</path>
+			<path if="{system.manufacturer} == 'Collections'">./../../art/consoles/{game:system}.png</path>
 		<opacity>0</opacity>
 		<scale>0</scale>
 

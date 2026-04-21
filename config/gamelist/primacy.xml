@@ -154,7 +154,7 @@
 
 	<image name="md_image"> 
 		<!-- on affiche pas si on est dans une collection ou bien dans les systèmes FBNEO et MAME-->
-		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
+		<visible if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
 	
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
@@ -207,7 +207,7 @@
 
 	<video name="md_video">
 		<!-- on affiche pas si on est dans une collection ou bien dans les systèmes FBNEO et MAME-->
-		<visible if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
+		<visible if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
 		<delay>0.1</delay> 
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
@@ -261,13 +261,13 @@
 	
 	
 	<!-- AFFICHAGE DANS UNE NOUVELLE IMAGE ET NOUVELLE VIDEO SI ON EST DANS UNE COLLECTION ou SYSTEME MAME et FBNEO-->
-	<image name="md_image_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
+	<image name="md_image_new" if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
 		<maxSize>0.28 0.3</maxSize>				
 		<pos>0.839 0.44</pos>
 		<horizontalAlignment>right</horizontalAlignment>
 	</image>
 
-	<video name="md_video_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
+	<video name="md_video_new" if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
 		<origin>1 0.5</origin>
 		<maxSize>0.28 0.3</maxSize>				
 		<pos>0.979 0.44</pos>	

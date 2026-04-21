@@ -112,12 +112,12 @@
 	</video>		
 	
 	<!-- POUR CONSERVER UN BON RATIO DES IMAGES ET VIDEOS DANS LES COLLECTIONS et FBNEO / MAME-->
-	<image name="md_image_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
+	<image name="md_image_new" if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
 		<pos>0.5296875 0.449537</pos>									
 		<maxSize>0.334375 0.4157407</maxSize>									
 	</image>
 
-	<video name="md_video_new" if="${system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
+	<video name="md_video_new" if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
 		<pos>0.5296875 0.449537</pos>									
 		<maxSize>0.334375 0.4157407</maxSize>
 		<delay>0.1</delay> 

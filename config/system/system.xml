@@ -486,7 +486,8 @@ originally based on: "carbon"
     <view name="system">
       <text name="manufacturerName" extra="true">
 		<origin>0.5 0.5</origin>
-        <text>${system.sortedBy}</text>
+        <!-- <text>${system.sortedBy}</text> -->
+        <text>{system:manufacturer}</text>
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
         <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
@@ -1090,24 +1091,6 @@ originally based on: "carbon"
 	
 <view name="system" ifSubset="SystemView:grid, system-description:Show">
 	
-	<!-- A REVOIR, L'ALIGNEMENT ET LA POSITION DECONNE -->
-	<!-- Texte avec le constructeur + l'année séparé par un tiret (variable va.dash.year) -->
-		<!-- <text name="system.manu.year" extra="true"> -->
-			<!-- <text>${system.manufacturer} ${va.dash.year} ${system.releaseYearOrNull}</text> -->
-			<!-- <origin>0 0</origin> -->
-			<!-- <pos>-0.035 0.78</pos> -->
-			<!-- <zIndex>18</zIndex> -->
-			<!-- <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath> -->
-			<!-- <fontSize>0.03</fontSize> -->
-			<!-- <color>${infoColor}</color> -->
-			<!-- <glowColor>00000080</glowColor> -->
-			<!-- <glowSize>1</glowSize> -->
-			<!-- <forceUppercase>true</forceUppercase> -->
-			<!-- <rotation>-90</rotation> -->
-		<!-- </text> -->
-		
-		
-		
 		
 		
 	<!-- ====	 -->
