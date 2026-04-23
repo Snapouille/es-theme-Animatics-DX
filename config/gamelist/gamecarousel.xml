@@ -583,7 +583,7 @@ originally based on: "carbon"
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
 
 <!-- Le bureau est mis en visible FALSE si le fichier ecran_console.png et ecran_console2 n'existe pas -->
-<image name="bureau" extra="static">
+<image name="bureau" extra="true">
 	<!-- <visible>exists("${themePath}/system/" + stem({system:theme}) + "/ecran_console.png")</visible>  -->
 	<origin>0.5 0.5</origin>	
 	<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1.png</path>
@@ -614,24 +614,24 @@ originally based on: "carbon"
 
 
 <!-- Système nécessitant un bureau plus profond -->
-<image name="bureau" if="{system.theme} == 'amstradcpc' 
-					|| 	 {system.theme} == 'amiga' 
-					|| 	 {system.theme} == 'amiga500' 
-					|| 	 {system.theme} == 'amiga1200' 
-					|| 	 {system.theme} == 'amiga4000' 
-					|| 	 {system.theme} == 'atari8bit' 
-					|| 	 {system.theme} == 'atari800' 
-					|| 	 {system.theme} == 'atari5200' 
-					|| 	 {system.theme} == 'bbcmicro' 
-					|| 	 {system.theme} == 'electron' 
-					|| 	 {system.theme} == 'msx1' 
-					|| 	 {system.theme} == 'msx' 
-					|| 	 {system.theme} == 'camplynx' 
-					|| 	 {system.theme} == 'dreamcast' 
-					|| 	 {system.theme} == 'fm7' 
-					|| 	 {system.theme} == 'thomson' 
-					|| 	 {system.theme} == 'x1' 
-					|| 	 {system.theme} == 'pet'" extra="static">
+<image name="bureau" if="${system.theme} == 'amstradcpc' 
+					|| 	 ${system.theme} == 'amiga' 
+					|| 	 ${system.theme} == 'amiga500' 
+					|| 	 ${system.theme} == 'amiga1200' 
+					|| 	 ${system.theme} == 'amiga4000' 
+					|| 	 ${system.theme} == 'atari8bit' 
+					|| 	 ${system.theme} == 'atari800' 
+					|| 	 ${system.theme} == 'atari5200' 
+					|| 	 ${system.theme} == 'bbcmicro' 
+					|| 	 ${system.theme} == 'electron' 
+					|| 	 ${system.theme} == 'msx1' 
+					|| 	 ${system.theme} == 'msx' 
+					|| 	 ${system.theme} == 'camplynx' 
+					|| 	 ${system.theme} == 'dreamcast' 
+					|| 	 ${system.theme} == 'fm7' 
+					|| 	 ${system.theme} == 'thomson' 
+					|| 	 ${system.theme} == 'x1' 
+					|| 	 ${system.theme} == 'pet'" extra="true">
 	<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1-wide.png</path>
 	<path ifSubset="deskType:wood2">${themePath}/art/desk/wood2-wide.png</path>
 	<path ifSubset="deskType:wood3">${themePath}/art/desk/wood3-wide.png</path>
@@ -657,14 +657,14 @@ originally based on: "carbon"
 
 
 <!-- Système nécessitant un bureau très profond -->
-<image name="bureau" if="{system.theme} == 'atarist' 
-					|| 	 {system.theme} == 'c20' 
-					|| 	 {system.theme} == 'c64' 
-					|| 	 {system.theme} == 'c128' 
-					|| 	 {system.theme} == 'cplus4' 
-					|| 	 {system.theme} == 'msx2' 
-					|| 	 {system.theme} == 'msx2+' 
-					|| 	 {system.theme} == 'msxturbor'" extra="static">
+<image name="bureau" if="${system.theme} == 'atarist' 
+					|| 	 ${system.theme} == 'c20' 
+					|| 	 ${system.theme} == 'c64' 
+					|| 	 ${system.theme} == 'c128' 
+					|| 	 ${system.theme} == 'cplus4' 
+					|| 	 ${system.theme} == 'msx2' 
+					|| 	 ${system.theme} == 'msx2+' 
+					|| 	 ${system.theme} == 'msxturbor'" extra="true">
 	<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1-wide.png</path>
 	<path ifSubset="deskType:wood2">${themePath}/art/desk/wood2-wide.png</path>
 	<path ifSubset="deskType:wood3">${themePath}/art/desk/wood3-wide.png</path>
@@ -695,8 +695,8 @@ originally based on: "carbon"
 <!-- EN ATTENTE DE VOIR CE QU'ON FAIT POUR LES COLLECTIONS -->
 <!-- <image name="bureau" -->
 		 <!-- if="{system.sortedBy} == 'Collections' ||  -->
-			 <!-- {system.theme} == 'mess' ||  -->
-			 <!-- {system.theme} == 'ports'"> -->
+			 <!-- ${system.theme} == 'mess' ||  -->
+			 <!-- ${system.theme} == 'ports'"> -->
 		<!-- <visible>true</visible> -->
 <!-- </image> -->
 
@@ -1033,7 +1033,7 @@ originally based on: "carbon"
     </image>
 	
 	<!-- pour les box plus en mode paysage on descend un peu le tout -->
-	<image name="thumbnail-gamecarousel, boxback_ID" extra="true" if="{system.theme} == 'snes' || {system.theme} == 'n64'  ">
+	<image name="thumbnail-gamecarousel, boxback_ID" extra="true" if="${system.theme} == 'snes' || ${system.theme} == 'n64'  ">
 		<pos>0.12 0.707</pos>
 		<pos ifHelpPrompts="false">0.12 0.746</pos>
     </image>
@@ -1474,19 +1474,19 @@ originally based on: "carbon"
 	
 	
 	<!-- Système avec un CD taille normale qui tourne -->
-	<image name="cartridge_ID" if="{system.theme} == '3do' || 
-								   {system.theme} == 'daphne' ||								   
-								   {system.theme} == 'gc' || 				   
-								   {system.theme} == 'naomi' ||
-								   {system.theme} == 'naomi2' ||
-								   {system.theme} == 'ps2' || 
-								   {system.theme} == 'ps3' || 
-								   {system.theme} == 'singe' ||	
-								   {system.theme} == 'triforce' || 
-								   {system.theme} == 'wii' || 
-								   {system.theme} == 'wiiu' || 
-								   {system.theme} == 'xbox' || 
-								   {system.theme} == 'xbox360' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == '3do' || 
+								   ${system.theme} == 'daphne' ||								   
+								   ${system.theme} == 'gc' || 				   
+								   ${system.theme} == 'naomi' ||
+								   ${system.theme} == 'naomi2' ||
+								   ${system.theme} == 'ps2' || 
+								   ${system.theme} == 'ps3' || 
+								   ${system.theme} == 'singe' ||	
+								   ${system.theme} == 'triforce' || 
+								   ${system.theme} == 'wii' || 
+								   ${system.theme} == 'wiiu' || 
+								   ${system.theme} == 'xbox' || 
+								   ${system.theme} == 'xbox360' " extra="true">
 		<origin>0.5 0.5</origin>
 		<pos>0.6875 0.153</pos>
 		<maxSize>0.26845 0.26845</maxSize>
@@ -1518,21 +1518,21 @@ originally based on: "carbon"
     </image>
 	
 	<!-- Système avec un CD taille normale qui tourne -->
-	<image name="cartridge_ID" if="{system.theme} == 'amigacd32' || 
-								   {system.theme} == 'amigacdtv' || 
-								   {system.theme} == 'atarijaguarcd' || 
-								   {system.theme} == 'cdi' ||
-								   {system.theme} == 'dreamcast' || 
-								   {system.theme} == 'fmtowns' || 								   
-								   {system.theme} == 'neogeocd' || 
-								   {system.theme} == 'pce-cd' || 
-								   {system.theme} == 'pcfx' || 
-								   {system.theme} == 'psx' || 
-								   {system.theme} == 'saturn' || 
-								   {system.theme} == 'segacd' || 
-								   {system.theme} == 'megacd' || 
-								   {system.theme} == 'snes-msu1' || 
-								   {system.theme} == 'windows' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'amigacd32' || 
+								   ${system.theme} == 'amigacdtv' || 
+								   ${system.theme} == 'atarijaguarcd' || 
+								   ${system.theme} == 'cdi' ||
+								   ${system.theme} == 'dreamcast' || 
+								   ${system.theme} == 'fmtowns' || 								   
+								   ${system.theme} == 'neogeocd' || 
+								   ${system.theme} == 'pce-cd' || 
+								   ${system.theme} == 'pcfx' || 
+								   ${system.theme} == 'psx' || 
+								   ${system.theme} == 'saturn' || 
+								   ${system.theme} == 'segacd' || 
+								   ${system.theme} == 'megacd' || 
+								   ${system.theme} == 'snes-msu1' || 
+								   ${system.theme} == 'windows' " extra="true">
 		<origin>0.5 0.5</origin>
 		<pos>0.6875 0.153</pos>
 		<maxSize>0.28392 0.28392</maxSize>
@@ -1567,60 +1567,60 @@ originally based on: "carbon"
 	<!--====-->
 
 		<!-- Adventure Vision -->
-	<image name="cartridge_ID"  if="{system.theme} == 'advision' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'advision' " extra="true">
 		<maxSize>0.188689 0.091085</maxSize>						
     </image>
 	
 		<!-- ScummVM -->
-	<image name="cartridge_ID"  if="{system.theme} == 'scummvm' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'scummvm' " extra="true">
 		<maxSize>0.28392 0.27</maxSize>
     </image>
 		
 		<!-- GBA -->
-	<image name="cartridge_ID" if="{system.theme} == 'gba' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'gba' " extra="true">
 		<maxSize>0.20 0.12</maxSize>						
     </image>
 	
 		<!-- Commodore VIC-20 -->
-	<image name="cartridge_ID"  if="{system.theme} == 'c20' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'c20' " extra="true">
 		<maxSize>0.279543 0.158877</maxSize>						
     </image>
 	
 		<!-- WonderSwan / WonderSwan Color -->
-	<image name="cartridge_ID" if="{system.theme} == 'wonderswan' ||
-								   {system.theme} == 'wonderswancolor' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'wonderswan' ||
+								   ${system.theme} == 'wonderswancolor' " extra="true">
 		<maxSize>0.21 0.15</maxSize>									
     </image>
 		
 		<!-- AMSTRAD CPC / Acorn Electron / Astrocade / Atom / BBC Micro / Camputers Lynx / Commodore PET / Laser 310 / Sharp X1 / ZX81 /
 		MSX TURBOR / MSX / MSX 1 / MSX 2 / MSX 2+ / ADAM / COLECOVISION / ZX SPECTRUM / COMMODORE 128 / COMMODORE 64 / COMMODORE PLUS 4 / Casio PV-1000 -->
-	<image name="cartridge_ID" if="{system.theme} == 'amstradcpc' ||
-								   {system.theme} == 'electron' ||
-								   {system.theme} == 'astrocade' ||
-								   {system.theme} == 'atom' ||
-								   {system.theme} == 'bbcmicro' ||
-								   {system.theme} == 'camplynx' ||
-								   {system.theme} == 'pet' ||
-								   {system.theme} == 'laser310' ||
-								   {system.theme} == 'x1' ||
-								   {system.theme} == 'zx81' ||
-								   {system.theme} == 'adam' ||	
-								   {system.theme} == 'colecovision' ||
-								   {system.theme} == 'zxspectrum' ||		
-								   {system.theme} == 'c128' ||
-								   {system.theme} == 'c64' ||
-								   {system.theme} == 'cplus4' ||
-								   {system.theme} == 'pv1000' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'amstradcpc' ||
+								   ${system.theme} == 'electron' ||
+								   ${system.theme} == 'astrocade' ||
+								   ${system.theme} == 'atom' ||
+								   ${system.theme} == 'bbcmicro' ||
+								   ${system.theme} == 'camplynx' ||
+								   ${system.theme} == 'pet' ||
+								   ${system.theme} == 'laser310' ||
+								   ${system.theme} == 'x1' ||
+								   ${system.theme} == 'zx81' ||
+								   ${system.theme} == 'adam' ||	
+								   ${system.theme} == 'colecovision' ||
+								   ${system.theme} == 'zxspectrum' ||		
+								   ${system.theme} == 'c128' ||
+								   ${system.theme} == 'c64' ||
+								   ${system.theme} == 'cplus4' ||
+								   ${system.theme} == 'pv1000' " extra="true">
 		<maxSize>0.185 0.236600</maxSize>	<!-- VALEURS VOLONTAIREMENT INVERSEES -->					
     </image>
 	
 		<!-- MSX / MSX 1 / MSX 2 / MSX 2+  -->
-	<image name="cartridge_ID" if="{system.theme} == 'msxturbor' ||	
-								   {system.theme} == 'fm7' ||	
-								   {system.theme} == 'msx' ||	
-								   {system.theme} == 'msx1' ||	
-								   {system.theme} == 'msx2' ||	
-								   {system.theme} == 'msx2+' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'msxturbor' ||	
+								   ${system.theme} == 'fm7' ||	
+								   ${system.theme} == 'msx' ||	
+								   ${system.theme} == 'msx1' ||	
+								   ${system.theme} == 'msx2' ||	
+								   ${system.theme} == 'msx2+' " extra="true">
 		<pos>0.625 0.153</pos>
 		<maxSize>0.185 0.19</maxSize>						
     </image>
@@ -1628,311 +1628,311 @@ originally based on: "carbon"
 	
 	
 		<!-- MASTER SYSTEM / MEGADRIVE / Tutor / MSU-MD / TI-99 -->
-	<image name="cartridge_ID"  if="{system.theme} == 'mastersystem' ||
-								    {system.theme} == 'megadrive' ||	
-									{system.theme} == 'tutor' ||	
-									{system.theme} == 'msu-md' ||
-									{system.theme} == 'ti99' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'mastersystem' ||
+								    ${system.theme} == 'megadrive' ||	
+									${system.theme} == 'tutor' ||	
+									${system.theme} == 'msu-md' ||
+									${system.theme} == 'ti99' " extra="true">
 		<maxSize>0.28 0.19</maxSize>									
     </image>
 	
 		<!-- SEGA 32X -->
-	<image name="cartridge_ID" if="{system.theme} == 'sega32x' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'sega32x' " extra="true">
 		<maxSize>0.249495 0.161834</maxSize>									
     </image>
 	
 		<!-- N64 -->
-	<image name="cartridge_ID"  if="{system.theme} == 'n64' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'n64' " extra="true">
 		<maxSize>0.256159 0.169153</maxSize>						
     </image>
 	
 		<!-- SNES -->
-	<image name="cartridge_ID"  if="{system.theme} == 'snes' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'snes' " extra="true">
 		<maxSize>0.262922 0.178042</maxSize>						
     </image>
 	
 		<!-- SATELLAVIEW -->
-	<image name="cartridge_ID"  if="{system.theme} == 'satellaview'	" extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'satellaview'	" extra="true">
 		<maxSize>0.1533656943 0.2431768794</maxSize>						
     </image>
 	
 		<!-- Color Computer / Super A'Can / Interton VC 4000 -->
-	<image name="cartridge_ID"  if="{system.theme} == 'coco' ||
-								    {system.theme} == 'supracan' ||	
-									{system.theme} == 'vc4000' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'coco' ||
+								    ${system.theme} == 'supracan' ||	
+									${system.theme} == 'vc4000' " extra="true">
 		<maxSize>0.247010 0.173822</maxSize>									
     </image>
 	
 		<!-- NEO GEO MVS -->
-	<image name="cartridge_ID" if="{system.theme} == 'neogeo' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'neogeo' " extra="true">
 		<maxSize>0.331240 0.253951</maxSize>						
     </image>
 	
 		<!-- Neo-Geo Pocket / Neo-Geo Pocket Color -->
-	<image name="cartridge_ID"  if="{system.theme} == 'ngp' ||	
-									{system.theme} == 'ngpc' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'ngp' ||	
+									${system.theme} == 'ngpc' " extra="true">
 		<maxSize>0.168775 0.141834</maxSize>									
     </image>
 	
 		<!-- JAGUAR -->
-	<image name="cartridge_ID"  if="{system.theme} == 'atarijaguar' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'atarijaguar' " extra="true">
 		<maxSize>0.240652 0.198292</maxSize>						
     </image>
 	
 		<!-- Pokémon Mini -->
-	<image name="cartridge_ID"  if="{system.theme} == 'pokemini' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'pokemini' " extra="true">
 		<maxSize>0.119601 0.115981</maxSize>						
     </image>
 	
 		<!-- Game.com -->
-	<image name="cartridge_ID"  if="{system.theme} == 'gamecom' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'gamecom' " extra="true">
 		<maxSize>0.141112 0.134073</maxSize>						
     </image>
 	
 		<!-- Game Master -->
-	<image name="cartridge_ID"  if="{system.theme} == 'gmaster' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'gmaster' " extra="true">
 		<maxSize>0.159409 0.143143</maxSize>						
     </image>
 	
 		<!-- Game Pocket Computer -->
-	<image name="cartridge_ID"  if="{system.theme} == 'gamepock' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'gamepock' " extra="true">
 		<maxSize>0.179851 0.168335</maxSize>						
     </image>
 
 		<!-- Epoch Super Cassette Vision / Virtual Boy -->
-	<image name="cartridge_ID" if="{system.theme} == 'scv' ||
-								   {system.theme} == 'virtualboy' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'scv' ||
+								   ${system.theme} == 'virtualboy' " extra="true">
 		<maxSize>0.194361 0.181691</maxSize>									
     </image>
 		
 		<!-- ATOMISWAVE -->
-	<image name="cartridge_ID"  if="{system.theme} == 'atomiswave' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'atomiswave' " extra="true">
 		<maxSize>0.234234 0.217672</maxSize>								
     </image>
 		
 		<!-- Atari 5200 -->
-	<image name="cartridge_ID"  if="{system.theme} == 'atari5200' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'atari5200' " extra="true">
 		<maxSize>0.250638 0.232736</maxSize>								
     </image>
 		
 		<!-- Supervision -->
-	<image name="cartridge_ID"  if="{system.theme} == 'supervision' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'supervision' " extra="true">
 		<pos>0.62 0.14</pos>
 		<maxSize>0.169248 0.173771</maxSize>								
     </image>
 	
 		<!-- PSP / GAME GEAR -->
-	<image name="cartridge_ID" if="{system.theme} == 'psp' ||
-								   {system.theme} == 'gamegear' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'psp' ||
+								   ${system.theme} == 'gamegear' " extra="true">
 		<maxSize>0.184233 0.184233</maxSize>									
     </image>
 		
 		<!-- Socrates -->
-	<image name="cartridge_ID"  if="{system.theme} == 'socrates' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'socrates' " extra="true">
 		<maxSize>0.193223 0.193223</maxSize>								
     </image>
 	
 		<!-- Vectrex -->
-	<image name="cartridge_ID" if="{system.theme} == 'vectrex'  " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'vectrex'  " extra="true">
 		<maxSize>0.193527 0.201027</maxSize>						
     </image>
 	
 		<!-- GAMECUBE -->
-	<image name="cartridge_ID" if="{system.theme} == 'gc'  " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'gc'  " extra="true">
 		<maxSize>0.19352697 0.19352697</maxSize>						
     </image>
 
 		<!-- V.Smile / GX4000 -->
-	<image name="cartridge_ID" if="{system.theme} == 'vsmile' ||
-								   {system.theme} == 'gx4000' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'vsmile' ||
+								   ${system.theme} == 'gx4000' " extra="true">
 		<maxSize>0.204422 0.208662</maxSize>									
     </image>
 	
 		<!-- Amiga AGA / AMIGA / Amiga OCS/ECS / Archimedes / Atari ST / Macintosh / SAM Coupé -->
-	<image name="cartridge_ID"  if="{system.theme} == 'amiga' ||
-									{system.theme} == 'amiga1200' ||	
-									{system.theme} == 'amiga500' ||	
-									{system.theme} == 'archimedes' ||	
-									{system.theme} == 'atarist' ||	
-									{system.theme} == 'macintosh' ||	
-									{system.theme} == 'samcoupe' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'amiga' ||
+									${system.theme} == 'amiga1200' ||	
+									${system.theme} == 'amiga500' ||	
+									${system.theme} == 'archimedes' ||	
+									${system.theme} == 'atarist' ||	
+									${system.theme} == 'macintosh' ||	
+									${system.theme} == 'samcoupe' " extra="true">
 		<maxSize>0.214715 0.222349</maxSize>
     </image>
 	
 		<!-- APF M-1000 -->
-	<image name="cartridge_ID" if="{system.theme} == 'apfm1000'  " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'apfm1000'  " extra="true">
 		<maxSize>0.219861 0.228004</maxSize>						
     </image>
 	
 		<!-- Nintendo 64 Disk Drive -->
-	<image name="cartridge_ID" if="{system.theme} == 'n64dd'  " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'n64dd'  " extra="true">
 		<maxSize>0.234592 0.240774</maxSize>						
     </image>
 	
 		<!-- Super Game Boy -->
-	<image name="cartridge_ID" if="{system.theme} == 'sgb'  " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'sgb'  " extra="true">
 		<maxSize>0.258367 0.266569</maxSize>						
     </image>
 	
 		<!-- Apple II / Apple IIGS / Dos/ PC-8800 / PC-9800 / Sharp X68000 / Tandy Video Information System / Thomson MO/TO-->
-	<image name="cartridge_ID"  if="{system.theme} == 'apple2' ||	
-									{system.theme} == 'apple2gs' ||	
-									{system.theme} == 'pc' ||	
-									{system.theme} == 'pc88' ||	
-									{system.theme} == 'pc98' ||	
-									{system.theme} == 'x68000' ||	
-									{system.theme} == 'vis' ||	
-									{system.theme} == 'thomson' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'apple2' ||	
+									${system.theme} == 'apple2gs' ||	
+									${system.theme} == 'pc' ||	
+									${system.theme} == 'pc88' ||	
+									${system.theme} == 'pc98' ||	
+									${system.theme} == 'x68000' ||	
+									${system.theme} == 'vis' ||	
+									${system.theme} == 'thomson' " extra="true">
 		<maxSize>0.25 0.25</maxSize>
     </image>
 	
 		<!-- 3DS / NDS -->
-	<image name="cartridge_ID"  if="{system.theme} == '3ds' ||
-									{system.theme} == 'nds' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == '3ds' ||
+									${system.theme} == 'nds' " extra="true">
 		<maxSize>0.115816 0.122835</maxSize>						
     </image>
 	
 		<!-- ATARI LYNX -->
-	<image name="cartridge_ID" if="{system.theme} == 'atarilynx' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'atarilynx' " extra="true">
 		<maxSize>0.169248 0.178002</maxSize>									
     </image>
 	
 		<!-- Game Boy / Game Boy (2 players) / Game Boy Color / Game Boy Color (2 players) -->
-	<image name="cartridge_ID" if="{system.theme} == 'gb' ||	
-									{system.theme} == 'gb2players' ||	
-									{system.theme} == 'gbc' ||	
-									{system.theme} == 'gbc2players' " extra="true">	
+	<image name="cartridge_ID" if="${system.theme} == 'gb' ||	
+									${system.theme} == 'gb2players' ||	
+									${system.theme} == 'gbc' ||	
+									${system.theme} == 'gbc2players' " extra="true">	
 		<maxSize>0.161834 0.184548</maxSize>								
     </image>
 	
 		<!-- Family Computer Disk System -->
-	<image name="cartridge_ID" if="{system.theme} == 'fds' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'fds' " extra="true">
 		<maxSize>0.22 0.25</maxSize>								
     </image>
 	
 		<!-- NES -->
-	<image name="cartridge_ID" if="{system.theme} == 'nes' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'nes' " extra="true">
 		<maxSize>0.19 0.269487</maxSize>								
     </image>
 
 		<!-- GP32 -->
-	<image name="cartridge_ID" if="{system.theme} == 'gp32' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'gp32' " extra="true">
 		<maxSize>0.120370 0.146396</maxSize>								
     </image>
 		
 		<!-- Mega Duck / Cougar Boy -->
-	<image name="cartridge_ID" if="{system.theme} == 'megaduck' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'megaduck' " extra="true">
 		<maxSize>0.158371 0.187160</maxSize>								
     </image>
 	
 		<!-- Atari 800 / Atari 8 Bit / Spectravideo SV-328 / Atari XE Game System / CreatiVision -->
-	<image name="cartridge_ID"  if="{system.theme} == 'atari800' ||	
-									{system.theme} == 'atari8bit' ||	
-									{system.theme} == 'spectravideo' ||	
-									{system.theme} == 'xegs' ||
-									{system.theme} == 'crvision' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'atari800' ||	
+									${system.theme} == 'atari8bit' ||	
+									${system.theme} == 'spectravideo' ||	
+									${system.theme} == 'xegs' ||
+									${system.theme} == 'crvision' " extra="true">
 		<maxSize>0.168656 0.203515</maxSize>								
     </image>
 	
 		<!-- Atari 2600 / Atari 7800 -->
-	<image name="cartridge_ID"  if="{system.theme} == 'atari2600' ||	
-									{system.theme} == 'atari7800' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'atari2600' ||	
+									${system.theme} == 'atari7800' " extra="true">
 		<maxSize>0.192395 0.226416</maxSize>							
     </image>
 	
 		<!-- Sega Pico -->
-	<image name="cartridge_ID" if="{system.theme} == 'pico' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'pico' " extra="true">
 		<maxSize>0.268854 0.331240</maxSize>								
     </image>
 	
 		<!-- SuFami Turbo -->
-	<image name="cartridge_ID" if="{system.theme} == 'sufami' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'sufami' " extra="true">
 		<maxSize>0.149650 0.195905</maxSize>								
     </image>
 	
 		<!-- Mattel Intellivision -->
-	<image name="cartridge_ID" if="{system.theme} == 'intellivision' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'intellivision' " extra="true">
 		<maxSize>0.166251 0.215148</maxSize>								
     </image>
 		
 		<!-- SG-1000 / Othello Multivision -->
-	<image name="cartridge_ID"  if="{system.theme} == 'sg-1000' ||
-									{system.theme} == 'multivision' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'sg-1000' ||
+									${system.theme} == 'multivision' " extra="true">
 		<maxSize>0.188874 0.241687</maxSize>								
     </image>
 	
 		<!-- PS VITA -->
-	<image name="cartridge_ID"  if="{system.theme} == 'psvita' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'psvita' " extra="true">
 		<maxSize>0.09 0.13</maxSize>								
     </image>	
 	
 		<!-- Channel-F -->
-	<image name="cartridge_ID"  if="{system.theme} == 'channelf' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'channelf' " extra="true">
 		<maxSize>0.207290 0.285297</maxSize>								
     </image>	
 	
 		<!-- SWITCH -->
-	<image name="cartridge_ID"  if="{system.theme} == 'switch' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'switch' " extra="true">
 		<maxSize>0.10 0.15</maxSize>								
     </image>	
 	
 		<!-- Arcadia 2001 -->
-	<image name="cartridge_ID"  if="{system.theme} == 'arcadia' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'arcadia' " extra="true">
 		<maxSize>0.185000 0.282776</maxSize>								
     </image>	
 	
 		<!-- PC Engine / SuperGrafx -->
-	<image name="cartridge_ID" if="{system.theme} == 'pcengine' ||
-								   {system.theme} == 'supergrafx' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'pcengine' ||
+								   ${system.theme} == 'supergrafx' " extra="true">
 		<maxSize>0.133235 0.211166</maxSize>									
     </image>	
 	
 		<!-- Gamate -->
-	<image name="cartridge_ID"  if="{system.theme} == 'gamate' " extra="true">
+	<image name="cartridge_ID"  if="${system.theme} == 'gamate' " extra="true">
 		<maxSize>0.133904 0.212532</maxSize>								
     </image>	
 	
 		<!-- Odyssey 2 / Videopac+ G7400 -->
-	<image name="cartridge_ID" if="{system.theme} == 'odyssey2' ||
-								   {system.theme} == 'videopacplus' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'odyssey2' ||
+								   ${system.theme} == 'videopacplus' " extra="true">
 		<maxSize>0.165620 0.262922</maxSize>
     </image>			
 	
 		<!-- SYSTEMES DIVERS - SUPPORT NUMERISES OU ARCADE -->
 		<!-- SEGA SYSTEM SP / CHIHIRO / SOLARUS / NAMCO 2X6 / COMMANDER GENIUS / STEAM / LCD GAMES / PLUG N PLAY / FLASH / FINAL BURN NEO / UZEBOX / FUTURE PINBALL / PDP-1 / EASY RPG  -->
 		<!-- MUGEN / IKEMEN / PICO 8 / TIC-80 / LOWRES NX / PYXEL / WASM 4 / ARDUBOY / SCUMMVM / MOONLIGHT / OPEN BOR / ZELDA CLASSIC / PYGAME / VIRTUA PINBALL / MODEL 2 / MODEL 3 / THE X TECH -->
-	<!-- <image name="cartridge_ID"  if="{system.theme} == 'systemsp' ||	 -->
-									<!-- {system.theme} == 'chihiro' ||	 -->
-									<!-- {system.theme} == 'solarus' ||	 -->
-									<!-- {system.theme} == 'namco2x6' ||	 -->
-									<!-- {system.theme} == 'cgenius' ||	 -->
-									<!-- {system.theme} == 'steam' ||	 -->
-									<!-- {system.theme} == 'lcdgames' ||	 -->
-									<!-- {system.theme} == 'vgmplay' ||	 -->
-									<!-- {system.theme} == 'plugnplay' ||	 -->
-									<!-- {system.theme} == 'flash' || -->
-									<!-- {system.theme} == 'fbneo' || -->
-									<!-- {system.theme} == 'uzebox' || -->
-									<!-- {system.theme} == 'fpinball' || -->
-									<!-- {system.theme} == 'pdp1' || -->
-									<!-- {system.theme} == 'easyrpg' || -->
-									<!-- {system.theme} == 'mugen' || -->
-									<!-- {system.theme} == 'ikemen' || -->
-									<!-- {system.theme} == 'pico8' || -->
-									<!-- {system.theme} == 'tic80' || -->
-									<!-- {system.theme} == 'lowresnx' || -->
-									<!-- {system.theme} == 'pyxel' || -->
-									<!-- {system.theme} == 'wasm4' || -->
-									<!-- {system.theme} == 'arduboy' || -->
-									<!-- {system.theme} == 'scummvm' || -->
-									<!-- {system.theme} == 'moonlight' || -->
-									<!-- {system.theme} == 'openbor' || -->
-									<!-- {system.theme} == 'zeldac' || -->
-									<!-- {system.theme} == 'pygame' || -->
-									<!-- {system.theme} == 'vpinball' || -->
-									<!-- {system.theme} == 'model2' || -->
-									<!-- {system.theme} == 'model3' || -->
-									<!-- {system.theme} == 'thextech' " extra="true"> -->
+	<!-- <image name="cartridge_ID"  if="${system.theme} == 'systemsp' ||	 -->
+									<!-- ${system.theme} == 'chihiro' ||	 -->
+									<!-- ${system.theme} == 'solarus' ||	 -->
+									<!-- ${system.theme} == 'namco2x6' ||	 -->
+									<!-- ${system.theme} == 'cgenius' ||	 -->
+									<!-- ${system.theme} == 'steam' ||	 -->
+									<!-- ${system.theme} == 'lcdgames' ||	 -->
+									<!-- ${system.theme} == 'vgmplay' ||	 -->
+									<!-- ${system.theme} == 'plugnplay' ||	 -->
+									<!-- ${system.theme} == 'flash' || -->
+									<!-- ${system.theme} == 'fbneo' || -->
+									<!-- ${system.theme} == 'uzebox' || -->
+									<!-- ${system.theme} == 'fpinball' || -->
+									<!-- ${system.theme} == 'pdp1' || -->
+									<!-- ${system.theme} == 'easyrpg' || -->
+									<!-- ${system.theme} == 'mugen' || -->
+									<!-- ${system.theme} == 'ikemen' || -->
+									<!-- ${system.theme} == 'pico8' || -->
+									<!-- ${system.theme} == 'tic80' || -->
+									<!-- ${system.theme} == 'lowresnx' || -->
+									<!-- ${system.theme} == 'pyxel' || -->
+									<!-- ${system.theme} == 'wasm4' || -->
+									<!-- ${system.theme} == 'arduboy' || -->
+									<!-- ${system.theme} == 'scummvm' || -->
+									<!-- ${system.theme} == 'moonlight' || -->
+									<!-- ${system.theme} == 'openbor' || -->
+									<!-- ${system.theme} == 'zeldac' || -->
+									<!-- ${system.theme} == 'pygame' || -->
+									<!-- ${system.theme} == 'vpinball' || -->
+									<!-- ${system.theme} == 'model2' || -->
+									<!-- ${system.theme} == 'model3' || -->
+									<!-- ${system.theme} == 'thextech' " extra="true"> -->
 		<!-- <pos>0.235 0.515</pos> -->
 		<!-- <maxSize>0.22 0.22</maxSize>	 -->
     <!-- </image> -->
@@ -1948,18 +1948,18 @@ originally based on: "carbon"
 	
 <!-- on masque les cartridges si on est dans une collection -->
 <image name="cartridge_ID" if="{system.sortedBy} == 'Collections' || 
-							   {system.theme} == 'lcdgames' || 
-							   {system.theme} == 'mess' || 
-							   {system.theme} == 'ports'">
+							   ${system.theme} == 'lcdgames' || 
+							   ${system.theme} == 'mess' || 
+							   ${system.theme} == 'ports'" extra="true">
 	<visible>false</visible>
 </image>
 
 <!-- on bloque les animations text et image -->
 <text name="WhatSystemGAME, name_Id, description_Id" 
 		if="{system.sortedBy} == 'Collections' || 
-			{system.theme} == 'mess' || 
-			{system.theme} == 'lcdgames' || 
-			{system.theme} == 'ports'">
+			${system.theme} == 'mess' || 
+			${system.theme} == 'lcdgames' || 
+			${system.theme} == 'ports'" extra="true">
 	<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
 	<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
 	<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
@@ -1969,9 +1969,9 @@ originally based on: "carbon"
 
 <image name="desc_cadre_gauche, desc_cadre_droit, desc_cadre_haut, desc_cadre_bas, desc_fond_black"
 		 if="{system.sortedBy} == 'Collections' || 
-			{system.theme} == 'mess' || 
-			{system.theme} == 'lcdgames' || 
-			 {system.theme} == 'ports'">
+			${system.theme} == 'mess' || 
+			${system.theme} == 'lcdgames' || 
+			 ${system.theme} == 'ports'" extra="true">
 		<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
 		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
@@ -1995,22 +1995,22 @@ originally based on: "carbon"
 
 		
 <view name="gamecarousel" if=" 
-			   {system.theme} == 'arduboy' 
-			|| {system.theme} == 'gb' 
-			|| {system.theme} == 'gb2players' 
-			|| {system.theme} == 'gbc' 
-			|| {system.theme} == 'gbc2players' 
-			|| {system.theme} == 'fm7' 
-			|| {system.theme} == 'msx' 
-			|| {system.theme} == 'msx1' 
-			|| {system.theme} == 'msx2' 
-			|| {system.theme} == 'msx2+' 
-			|| {system.theme} == 'msxturbor' 
-			|| {system.theme} == 'supervision' 
-			|| {system.theme} == 'vectrex' 
-			|| {system.theme} == 'wasm4' 
-			|| {system.theme} == 'x1'
-			">	
+			   ${system.theme} == 'arduboy' 
+			|| ${system.theme} == 'gb' 
+			|| ${system.theme} == 'gb2players' 
+			|| ${system.theme} == 'gbc' 
+			|| ${system.theme} == 'gbc2players' 
+			|| ${system.theme} == 'fm7' 
+			|| ${system.theme} == 'msx' 
+			|| ${system.theme} == 'msx1' 
+			|| ${system.theme} == 'msx2' 
+			|| ${system.theme} == 'msx2+' 
+			|| ${system.theme} == 'msxturbor' 
+			|| ${system.theme} == 'supervision' 
+			|| ${system.theme} == 'vectrex' 
+			|| ${system.theme} == 'wasm4' 
+			|| ${system.theme} == 'x1'
+			" extra="true">	
 
 
 <image name="figurines,shadow_figurines" extra="true">
@@ -2104,70 +2104,70 @@ originally based on: "carbon"
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 		
 <view name="gamecarousel" if=" 
-               {system.theme} == 'arcade' 
-			|| {system.theme} == 'auto-verticalarcade' 
-			|| {system.theme} == 'auto-lightgun' 
-			|| {system.theme} == 'auto-wheel' 
-			|| {system.theme} == 'alphadenshi' 
-			|| {system.theme} == 'atari' 
-			|| {system.theme} == 'atlus' 
-			|| {system.theme} == 'openbor'	
-			|| {system.theme} == 'banpresto' 
-			|| {system.theme} == 'capcom' 
-			|| {system.theme} == 'cave' 
-			|| {system.theme} == 'centurye' 
-			|| {system.theme} == 'comad' 
-			|| {system.theme} == 'cps1' 
-			|| {system.theme} == 'cps2' 
-			|| {system.theme} == 'cps3' 
-			|| {system.theme} == 'dataeast' 
-			|| {system.theme} == 'eighting' 
-			|| {system.theme} == 'fbneo' 
-			|| {system.theme} == 'gaelco' 
-			|| {system.theme} == 'gottlieb' 
-			|| {system.theme} == 'hikaru' 
-			|| {system.theme} == 'igs' 
-			|| {system.theme} == 'incredibletech' 
-			|| {system.theme} == 'irem' 
-			|| {system.theme} == 'jaleco' 
-			|| {system.theme} == 'kaneko' 
-			|| {system.theme} == 'konami' 
-			|| {system.theme} == 'mame' 
-			|| {system.theme} == 'midway' 
-			|| {system.theme} == 'mitchell' 
-			|| {system.theme} == 'model2' 
-			|| {system.theme} == 'model3' 
-			|| {system.theme} == 'namco' 
-			|| {system.theme} == 'neogeo64' 
-			|| {system.theme} == 'nichibutsu' 
-			|| {system.theme} == 'nintendo' 
-			|| {system.theme} == 'nmk' 
-			|| {system.theme} == 'psikyo' 
-			|| {system.theme} == 'sammy' 
-			|| {system.theme} == 'sega' 
-			|| {system.theme} == 'segastv' 
-			|| {system.theme} == 'seibukaihatsu' 
-			|| {system.theme} == 'semicom'
-			|| {system.theme} == 'snk' 
-			|| {system.theme} == 'taito' 
-			|| {system.theme} == 'taitox' 
-			|| {system.theme} == 'technos' 
-			|| {system.theme} == 'tecmo' 
-			|| {system.theme} == 'toaplan' 
-			|| {system.theme} == 'universal' 
-			|| {system.theme} == 'visco' 
-			|| {system.theme} == 'vsc' 
-			|| {system.theme} == 'williams' 
-			|| {system.theme} == 'atomiswave' 
-			|| {system.theme} == 'fbneo' 
-			|| {system.theme} == 'hbmame' 
-			|| {system.theme} == 'mame' 
-			|| {system.theme} == 'teknoparrot' 
-			|| {system.theme} == 'daphne' 
-			|| {system.theme} == 'singe' 
-			|| {system.theme} == 'naomi' 
-			|| {system.theme} == 'naomi2'
-			">		
+               ${system.theme} == 'arcade' 
+			|| ${system.theme} == 'auto-verticalarcade' 
+			|| ${system.theme} == 'auto-lightgun' 
+			|| ${system.theme} == 'auto-wheel' 
+			|| ${system.theme} == 'alphadenshi' 
+			|| ${system.theme} == 'atari' 
+			|| ${system.theme} == 'atlus' 
+			|| ${system.theme} == 'openbor'	
+			|| ${system.theme} == 'banpresto' 
+			|| ${system.theme} == 'capcom' 
+			|| ${system.theme} == 'cave' 
+			|| ${system.theme} == 'centurye' 
+			|| ${system.theme} == 'comad' 
+			|| ${system.theme} == 'cps1' 
+			|| ${system.theme} == 'cps2' 
+			|| ${system.theme} == 'cps3' 
+			|| ${system.theme} == 'dataeast' 
+			|| ${system.theme} == 'eighting' 
+			|| ${system.theme} == 'fbneo' 
+			|| ${system.theme} == 'gaelco' 
+			|| ${system.theme} == 'gottlieb' 
+			|| ${system.theme} == 'hikaru' 
+			|| ${system.theme} == 'igs' 
+			|| ${system.theme} == 'incredibletech' 
+			|| ${system.theme} == 'irem' 
+			|| ${system.theme} == 'jaleco' 
+			|| ${system.theme} == 'kaneko' 
+			|| ${system.theme} == 'konami' 
+			|| ${system.theme} == 'mame' 
+			|| ${system.theme} == 'midway' 
+			|| ${system.theme} == 'mitchell' 
+			|| ${system.theme} == 'model2' 
+			|| ${system.theme} == 'model3' 
+			|| ${system.theme} == 'namco' 
+			|| ${system.theme} == 'neogeo64' 
+			|| ${system.theme} == 'nichibutsu' 
+			|| ${system.theme} == 'nintendo' 
+			|| ${system.theme} == 'nmk' 
+			|| ${system.theme} == 'psikyo' 
+			|| ${system.theme} == 'sammy' 
+			|| ${system.theme} == 'sega' 
+			|| ${system.theme} == 'segastv' 
+			|| ${system.theme} == 'seibukaihatsu' 
+			|| ${system.theme} == 'semicom'
+			|| ${system.theme} == 'snk' 
+			|| ${system.theme} == 'taito' 
+			|| ${system.theme} == 'taitox' 
+			|| ${system.theme} == 'technos' 
+			|| ${system.theme} == 'tecmo' 
+			|| ${system.theme} == 'toaplan' 
+			|| ${system.theme} == 'universal' 
+			|| ${system.theme} == 'visco' 
+			|| ${system.theme} == 'vsc' 
+			|| ${system.theme} == 'williams' 
+			|| ${system.theme} == 'atomiswave' 
+			|| ${system.theme} == 'fbneo' 
+			|| ${system.theme} == 'hbmame' 
+			|| ${system.theme} == 'mame' 
+			|| ${system.theme} == 'teknoparrot' 
+			|| ${system.theme} == 'daphne' 
+			|| ${system.theme} == 'singe' 
+			|| ${system.theme} == 'naomi' 
+			|| ${system.theme} == 'naomi2'
+			" extra="true">		
 
 <!-- On coupe le son des md_video si on est dans un système arcade pour éviter le son en double -->
 	<video name="md_video">

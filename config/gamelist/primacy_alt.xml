@@ -3,7 +3,7 @@
 
 
 
-<customView name="primacy alt" inherits="detailed" displayName="${primacyaltview}">
+<customView extra="true" name="primacy alt" inherits="detailed" displayName="${primacyaltview}">
 
 	<image name="bg-infos, border-info-top, border-info-bottom, border-info-left, border-info-right, frame_barreAnim, icon-pads, md_marquee, overlay_fixe, overlay_fanart_fixe, overlay_fanart, overlay_gamelist, triangle-rvgm-haut, triangle-rvgm-bas,
 					rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon"> 
@@ -33,7 +33,7 @@
 		<gradientType>vertical</gradientType>
     </image>
 
-    <textlist name="gamelist">
+    <textlist extra="true" name="gamelist">
 	  <origin>0 0</origin>									
       <pos>0.3 0.6</pos>
 	  <pos ifHelpPrompts="false">0.3 0.63</pos>	
@@ -41,7 +41,7 @@
       <horizontalMargin>0.005</horizontalMargin>
       <scrollbarColor>transparent</scrollbarColor>
       <itemTemplate>
-        <image name="selectionBackground">
+        <image extra="true" name="selectionBackground">
           <path>${themePath}/art/divers/white.png</path>
           <color>transparent</color>
           <roundCorners>4</roundCorners>
@@ -53,9 +53,9 @@
           </storyboard>
           <container>
             <padding>6 0</padding>
-            <text name="nameId" pos="0 0">
+            <text extra="true" name="nameId" pos="0 0">
 			  <size>0.5 1</size>
-			  <size if="{system.theme} == 'library' || {system.theme} == 'imageviewer'">0.9 1</size>
+			  <size if="${system.theme} == 'library' || ${system.theme} == 'imageviewer'">0.9 1</size>
               <text>{grid:label}</text>
               <extraTextColor>606060</extraTextColor>
               <verticalAlignment>center</verticalAlignment>
@@ -73,8 +73,8 @@
                 <animation property="singleLineScroll" to="false"/>
               </storyboard>
             </text>
-            <text name="genreId" pos="0.51 0" size="0.20 1">
-			  <visible if="{system.theme} == 'library' || {system.theme} == 'imageviewer'">false</visible>
+            <text extra="true" name="genreId" pos="0.51 0" size="0.20 1">
+			  <visible if="${system.theme} == 'library' || ${system.theme} == 'imageviewer'">false</visible>
               <text>  {game:genre}  </text>
               <verticalAlignment>center</verticalAlignment>
               <alignment>left</alignment>
@@ -132,122 +132,122 @@
     </textlist>
 
 
-	<image name="md_image"> 
+	<image extra="true" name="md_image"> 
 		<!-- on affiche pas si on est dans une collection ou bien dans les systèmes FBNEO et MAME-->
-		<visible if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
+		<visible if="{system.manufacturer} == 'Collections' || ${system.theme} == 'fbneo' || ${system.theme} == 'mame' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor' ">false</visible>
 	
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
 		
-		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3 0.3</size>									
-		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.83 0.423</pos>									
+		<size if="${system.theme} == '3ds' || ${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == 'xbox360' ">0.3 0.3</size>									
+		<pos  if="${system.theme} == '3ds' || ${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == 'xbox360' ">0.83 0.423</pos>									
 		
-		<size if="{system.theme} == 'megaduck' || {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
-		<pos  if="{system.theme} == 'megaduck' || {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
+		<size if="${system.theme} == 'megaduck' || ${system.theme} == 'gb' || ${system.theme} == 'gb2players' || ${system.theme} == 'gbc' || ${system.theme} == 'gbc2players' ">0.187 0.3</size>									
+		<pos  if="${system.theme} == 'megaduck' || ${system.theme} == 'gb' || ${system.theme} == 'gb2players' || ${system.theme} == 'gbc' || ${system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
 		
-		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.1932292 0.3009259</size>									
-		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.8835938 0.4226852</pos>	
+		<size if="${system.theme} == 'nes' || ${system.theme} == 'snes' || ${system.theme} == 'atari2600' || ${system.theme} == 'gamegear' ">0.1932292 0.3009259</size>									
+		<pos  if="${system.theme} == 'nes' || ${system.theme} == 'snes' || ${system.theme} == 'atari2600' || ${system.theme} == 'gamegear' ">0.8835938 0.4226852</pos>	
 		
-		<size if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.2171875 0.3009259</size>									
-		<pos  if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.8716146 0.4226852</pos>	
+		<size if="${system.theme} == 'fbneo' || ${system.theme} == 'mame' || ${system.theme} == 'model2' || ${system.theme} == 'model3' || ${system.theme} == 'naomi' || ${system.theme} == 'naomi2'">0.2171875 0.3009259</size>									
+		<pos  if="${system.theme} == 'fbneo' || ${system.theme} == 'mame' || ${system.theme} == 'model2' || ${system.theme} == 'model3' || ${system.theme} == 'naomi' || ${system.theme} == 'naomi2'">0.8716146 0.4226852</pos>	
 		
-		<size if="{system.theme} == 'amstradcpc' ">0.2390625 0.3009259</size>									
-		<pos  if="{system.theme} == 'amstradcpc' ">0.8606771 0.4226852</pos>	
+		<size if="${system.theme} == 'amstradcpc' ">0.2390625 0.3009259</size>									
+		<pos  if="${system.theme} == 'amstradcpc' ">0.8606771 0.4226852</pos>	
 		
-		<size if="{system.theme} == 'megadrive' ">0.2213542 0.3009259</size>									
-		<pos  if="{system.theme} == 'megadrive' ">0.8695313 0.4226852</pos>	
+		<size if="${system.theme} == 'megadrive' ">0.2213542 0.3009259</size>									
+		<pos  if="${system.theme} == 'megadrive' ">0.8695313 0.4226852</pos>	
 		
-		<size if="{system.theme} == 'gx4000' ">0.2244792 0.2990741</size>									
-		<pos  if="{system.theme} == 'gx4000' ">0.8679688 0.4236111</pos>	
+		<size if="${system.theme} == 'gx4000' ">0.2244792 0.2990741</size>									
+		<pos  if="${system.theme} == 'gx4000' ">0.8679688 0.4236111</pos>	
 		
-		<size if="{system.theme} == 'pokemini'">0.252 0.3</size>									
-		<pos  if="{system.theme} == 'pokemini'">0.854 0.423</pos>	
+		<size if="${system.theme} == 'pokemini'">0.252 0.3</size>									
+		<pos  if="${system.theme} == 'pokemini'">0.854 0.423</pos>	
 		
-		<size if="{system.theme} == 'nds' ">0.1125 0.3</size>					
-		<pos  if="{system.theme} == 'nds' ">0.9235 0.423</pos>		
+		<size if="${system.theme} == 'nds' ">0.1125 0.3</size>					
+		<pos  if="${system.theme} == 'nds' ">0.9235 0.423</pos>		
 
-		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.177 0.3</size>									
-		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.891 0.423</pos>
+		<size if="${system.theme} == 'ngp' || ${system.theme} == 'ngpc' ">0.177 0.3</size>									
+		<pos  if="${system.theme} == 'ngp' || ${system.theme} == 'ngpc' ">0.891 0.423</pos>
 
-		<size if="{system.theme} == 'auto-verticalarcade' ">0.144 0.3</size>									
-		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.9077 0.423</pos>	
+		<size if="${system.theme} == 'auto-verticalarcade' ">0.144 0.3</size>									
+		<pos  if="${system.theme} == 'auto-verticalarcade' ">0.9077 0.423</pos>	
 
-		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>	
-		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>	
+		<size if="${system.theme} == 'arduboy' ">0.238 0.212</size>	
+		<pos  if="${system.theme} == 'arduboy' ">0.861 0.4</pos>	
 
-		<size if="{system.theme} == 'wasm4' ">0.1661458 0.2944444</size>	
-		<pos  if="{system.theme} == 'wasm4' ">0.8966146 0.4231481</pos>	
+		<size if="${system.theme} == 'wasm4' ">0.1661458 0.2944444</size>	
+		<pos  if="${system.theme} == 'wasm4' ">0.8966146 0.4231481</pos>	
 
-		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
-		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
+		<size if="${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
+		<pos  if="${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
 		
-		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.25 0.2962963</size>	
-		<pos  if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.854 0.423</pos>	
+		<size if="${system.theme} == 'gba' || ${system.theme} == 'gba2players' ">0.25 0.2962963</size>	
+		<pos  if="${system.theme} == 'gba' || ${system.theme} == 'gba2players' ">0.854 0.423</pos>	
 	</image>
 
-	<video name="md_video">
+	<video extra="true" name="md_video">
 		<!-- on affiche pas si on est dans une collection ou bien dans les systèmes FBNEO et MAME-->
-		<visible if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">false</visible>
+		<visible if="{system.manufacturer} == 'Collections' || ${system.theme} == 'fbneo' || ${system.theme} == 'mame' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor' ">false</visible>
 		<delay>0.1</delay> 
 		<size>0.2255208 0.3</size>									
 		<pos>0.8674479 0.4231481</pos>				
 		
-		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.3 0.3</size>									
-		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.83 0.423</pos>									
+		<size if="${system.theme} == '3ds' || ${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == 'xbox360' ">0.3 0.3</size>									
+		<pos  if="${system.theme} == '3ds' || ${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == 'xbox360' ">0.83 0.423</pos>									
 		
-		<size if="{system.theme} == 'megaduck' || {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
-		<pos  if="{system.theme} == 'megaduck' || {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
+		<size if="${system.theme} == 'megaduck' || ${system.theme} == 'gb' || ${system.theme} == 'gb2players' || ${system.theme} == 'gbc' || ${system.theme} == 'gbc2players' ">0.187 0.3</size>									
+		<pos  if="${system.theme} == 'megaduck' || ${system.theme} == 'gb' || ${system.theme} == 'gb2players' || ${system.theme} == 'gbc' || ${system.theme} == 'gbc2players' ">0.8865 0.423</pos>									
 		
-		<size if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.1932292 0.3009259</size>									
-		<pos  if="{system.theme} == 'nes' || {system.theme} == 'snes' || {system.theme} == 'atari2600' || {system.theme} == 'gamegear' ">0.8835938 0.4226852</pos>	
+		<size if="${system.theme} == 'nes' || ${system.theme} == 'snes' || ${system.theme} == 'atari2600' || ${system.theme} == 'gamegear' ">0.1932292 0.3009259</size>									
+		<pos  if="${system.theme} == 'nes' || ${system.theme} == 'snes' || ${system.theme} == 'atari2600' || ${system.theme} == 'gamegear' ">0.8835938 0.4226852</pos>	
 		
-		<size if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.2171875 0.3009259</size>									
-		<pos  if="{system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'model2' || {system.theme} == 'model3' || {system.theme} == 'naomi' || {system.theme} == 'naomi2'">0.8716146 0.4226852</pos>	
+		<size if="${system.theme} == 'fbneo' || ${system.theme} == 'mame' || ${system.theme} == 'model2' || ${system.theme} == 'model3' || ${system.theme} == 'naomi' || ${system.theme} == 'naomi2'">0.2171875 0.3009259</size>									
+		<pos  if="${system.theme} == 'fbneo' || ${system.theme} == 'mame' || ${system.theme} == 'model2' || ${system.theme} == 'model3' || ${system.theme} == 'naomi' || ${system.theme} == 'naomi2'">0.8716146 0.4226852</pos>	
 		
-		<size if="{system.theme} == 'amstradcpc' ">0.2390625 0.3009259</size>									
-		<pos  if="{system.theme} == 'amstradcpc' ">0.8606771 0.4226852</pos>	
+		<size if="${system.theme} == 'amstradcpc' ">0.2390625 0.3009259</size>									
+		<pos  if="${system.theme} == 'amstradcpc' ">0.8606771 0.4226852</pos>	
 		
-		<size if="{system.theme} == 'megadrive' ">0.2213542 0.3009259</size>									
-		<pos  if="{system.theme} == 'megadrive' ">0.8695313 0.4226852</pos>	
+		<size if="${system.theme} == 'megadrive' ">0.2213542 0.3009259</size>									
+		<pos  if="${system.theme} == 'megadrive' ">0.8695313 0.4226852</pos>	
 		
-		<size if="{system.theme} == 'gx4000' ">0.2244792 0.2990741</size>									
-		<pos  if="{system.theme} == 'gx4000' ">0.8679688 0.4236111</pos>	
+		<size if="${system.theme} == 'gx4000' ">0.2244792 0.2990741</size>									
+		<pos  if="${system.theme} == 'gx4000' ">0.8679688 0.4236111</pos>	
 		
-		<size if="{system.theme} == 'pokemini'">0.252 0.3</size>									
-		<pos  if="{system.theme} == 'pokemini'">0.854 0.423</pos>	
+		<size if="${system.theme} == 'pokemini'">0.252 0.3</size>									
+		<pos  if="${system.theme} == 'pokemini'">0.854 0.423</pos>	
 		
-		<size if="{system.theme} == 'nds' ">0.1125 0.3</size>									
-		<pos  if="{system.theme} == 'nds' ">0.9235 0.423</pos>		
+		<size if="${system.theme} == 'nds' ">0.1125 0.3</size>									
+		<pos  if="${system.theme} == 'nds' ">0.9235 0.423</pos>		
 
-		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.177 0.3</size>									
-		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.891 0.423</pos>	
+		<size if="${system.theme} == 'ngp' || ${system.theme} == 'ngpc' ">0.177 0.3</size>									
+		<pos  if="${system.theme} == 'ngp' || ${system.theme} == 'ngpc' ">0.891 0.423</pos>	
 
-		<size if="{system.theme} == 'auto-verticalarcade' ">0.144 0.3</size>									
-		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.9077 0.423</pos>	
+		<size if="${system.theme} == 'auto-verticalarcade' ">0.144 0.3</size>									
+		<pos  if="${system.theme} == 'auto-verticalarcade' ">0.9077 0.423</pos>	
 
-		<size if="{system.theme} == 'arduboy' ">0.238 0.212</size>	
-		<pos  if="{system.theme} == 'arduboy' ">0.861 0.4</pos>	
+		<size if="${system.theme} == 'arduboy' ">0.238 0.212</size>	
+		<pos  if="${system.theme} == 'arduboy' ">0.861 0.4</pos>	
 
-		<size if="{system.theme} == 'wasm4' ">0.1661458 0.2944444</size>	
-		<pos  if="{system.theme} == 'wasm4' ">0.8966146 0.4231481</pos>	
+		<size if="${system.theme} == 'wasm4' ">0.1661458 0.2944444</size>	
+		<pos  if="${system.theme} == 'wasm4' ">0.8966146 0.4231481</pos>	
 
-		<size if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
-		<pos  if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
+		<size if="${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor' ">0.2255208 0.2574074</size>	
+		<pos  if="${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor' ">0.8674479 0.4231481</pos>	
 				
-		<size if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.25 0.2962963</size>	
-		<pos  if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.854 0.423</pos>	
+		<size if="${system.theme} == 'gba' || ${system.theme} == 'gba2players' ">0.25 0.2962963</size>	
+		<pos  if="${system.theme} == 'gba' || ${system.theme} == 'gba2players' ">0.854 0.423</pos>	
 	</video>	
 	
 	
 	
 	<!-- AFFICHAGE DANS UNE NOUVELLE IMAGE ET NOUVELLE VIDEO SI ON EST DANS UNE COLLECTION ou SYSTEME MAME et FBNEO-->
-	<image name="md_image_new" if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
+	<image name="md_image_new" if="{system.manufacturer} == 'Collections' || ${system.theme} == 'fbneo' || ${system.theme} == 'mame' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor' " extra="true">
 		<maxSize>0.28 0.3</maxSize>				
 		<pos>0.839 0.44</pos>
 		<horizontalAlignment>right</horizontalAlignment>
 	</image>
 
-	<video name="md_video_new" if="{system.manufacturer} == 'Collections' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' " extra="true">
+	<video name="md_video_new" if="{system.manufacturer} == 'Collections' || ${system.theme} == 'fbneo' || ${system.theme} == 'mame' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor' " extra="true">
 		<origin>1 0.5</origin>
 		<maxSize>0.28 0.3</maxSize>				
 		<pos>0.979 0.44</pos>	
@@ -262,9 +262,9 @@
 		<origin>0.5 0.5</origin>		
 		
 		<maxSize>0.2078125 0.2074074</maxSize>									
-		<maxSize if="{system.theme} == 'switch' || {system.theme} == 'nds' || {system.theme} == '3ds' ">0.1619792 0.15</maxSize>	
-		<maxSize if="{system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor' ">0.15 0.15</maxSize>	
-		<maxSize if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.15 0.15</maxSize>	
+		<maxSize if="${system.theme} == 'switch' || ${system.theme} == 'nds' || ${system.theme} == '3ds' ">0.1619792 0.15</maxSize>	
+		<maxSize if="${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor' ">0.15 0.15</maxSize>	
+		<maxSize if="${system.theme} == 'gba' || ${system.theme} == 'gba2players' ">0.15 0.15</maxSize>	
 		
 		<!-- <maxSize if="{system.manufacturer} == 'Collections'">0.15 0.15</maxSize>	 -->
 		
@@ -301,34 +301,35 @@
 	
 	
 	<!-- Système avec un CD qui tourne -->
-	<image name="cartridge_ID" if="{system.theme} == '3do' || 
-								   {system.theme} == 'amigacd32' || 
-								   {system.theme} == 'amigacdtv' || 
-								   {system.theme} == 'atarijaguarcd' || 
-								   {system.theme} == 'cdi' ||
-								   {system.theme} == 'daphne' ||	
-								   {system.theme} == 'dreamcast' || 								   
-								   {system.theme} == 'gc' || 
-								   {system.theme} == 'naomi' || 
-								   {system.theme} == 'naomi2' ||
-								   {system.theme} == 'neogeocd' || 
-								   {system.theme} == 'pce-cd' || 
-								   {system.theme} == 'ps2' || 
-								   {system.theme} == 'ps3' || 
-								   {system.theme} == 'psx' || 
-								   {system.theme} == 'saturn' || 
-								   {system.theme} == 'segacd' || 
-								   {system.theme} == 'triforce' || 
-								   {system.theme} == 'wii' || 
-								   {system.theme} == 'wiiu' || 
-								   {system.theme} == 'xbox' || 
-								   {system.theme} == 'xbox360' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == '3do' || 
+								   ${system.theme} == 'amigacd32' || 
+								   ${system.theme} == 'amigacdtv' || 
+								   ${system.theme} == 'atarijaguarcd' || 
+								   ${system.theme} == 'cdi' ||
+								   ${system.theme} == 'daphne' ||	
+								   ${system.theme} == 'dreamcast' || 								   
+								   ${system.theme} == 'gc' || 
+								   ${system.theme} == 'naomi' || 
+								   ${system.theme} == 'naomi2' ||
+								   ${system.theme} == 'neogeocd' || 
+								   ${system.theme} == 'pce-cd' || 
+								   ${system.theme} == 'ps2' || 
+								   ${system.theme} == 'ps3' || 
+								   ${system.theme} == 'psx' || 
+								   ${system.theme} == 'saturn' || 
+								   ${system.theme} == 'segacd' || 
+								   ${system.theme} == 'megacd' || 
+								   ${system.theme} == 'triforce' || 
+								   ${system.theme} == 'wii' || 
+								   ${system.theme} == 'wiiu' || 
+								   ${system.theme} == 'xbox' || 
+								   ${system.theme} == 'xbox360' " extra="true">
 								   
 		<horizontalAlignment>center</horizontalAlignment>
 		<pos>0.18 0.547</pos>	
 		<pos ifHelpPrompts="false">0.18 0.562</pos>	
 		
-		<!-- <x if="{system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'xbox360' ">0.605</x>	 -->
+		<!-- <x if="${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'xbox360' ">0.605</x>	 -->
 		
 		<storyboard event="activate">   
 			<animation property="opacity" to="1" 		begin="2000" duration="1" mode="linear"/>
@@ -638,7 +639,7 @@
 	
 	<image name="controller2" extra="true">
 		<pos>0.8997396 0.122</pos>	
-		<y if="{system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == '3ds' || {system.theme} == 'xbox360' ">0.122</y>									
+		<y if="${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == '3ds' || ${system.theme} == 'xbox360' ">0.122</y>									
 		<maxSize>0.1442708 0.1324074</maxSize>									
 		<horizontalAlignment>center</horizontalAlignment>
     </image>

@@ -7,65 +7,65 @@
 <!-- ==== -->
 
 <view name="gamecarousel" if=" 
-               {system.theme} == 'arcade' 
-			|| {system.theme} == 'atomiswave' 
-			|| {system.theme} == 'auto-verticalarcade' 
-			|| {system.theme} == 'auto-lightgun' 
-			|| {system.theme} == 'auto-wheel' 
-			|| {system.theme} == 'daphne' 
-			|| {system.theme} == 'fbneo' 
-			|| {system.theme} == 'hbmame' 
-			|| {system.theme} == 'mame' 
-			|| {system.theme} == 'model2' 
-			|| {system.theme} == 'model3' 
-			|| {system.theme} == 'naomi' 
-			|| {system.theme} == 'naomi2' 
-			|| {system.theme} == 'singe' 
-			|| {system.theme} == 'zinc' 
-			|| {system.theme} == 'alphadenshi' 
-			|| {system.theme} == 'atari' 
-			|| {system.theme} == 'atlus' 
-			|| {system.theme} == 'banpresto' 
-			|| {system.theme} == 'capcom' 
-			|| {system.theme} == 'cave' 
-			|| {system.theme} == 'cps1' 
-			|| {system.theme} == 'cps2' 
-			|| {system.theme} == 'cps3' 
-			|| {system.theme} == 'centurye' 
-			|| {system.theme} == 'comad' 
-			|| {system.theme} == 'dataeast' 
-			|| {system.theme} == 'eighting' 
-			|| {system.theme} == 'gaelco' 
-			|| {system.theme} == 'gottlieb' 
-			|| {system.theme} == 'hikaru' 
-			|| {system.theme} == 'igs' 
-			|| {system.theme} == 'incredibletech' 
-			|| {system.theme} == 'irem' 
-			|| {system.theme} == 'jaleco' 
-			|| {system.theme} == 'kaneko' 
-			|| {system.theme} == 'konami' 
-			|| {system.theme} == 'midway' 
-			|| {system.theme} == 'mitchell' 
-			|| {system.theme} == 'namco' 
-			|| {system.theme} == 'neogeo64' 
-			|| {system.theme} == 'nichibutsu' 
-			|| {system.theme} == 'nintendo' 
-			|| {system.theme} == 'nmk' 
-			|| {system.theme} == 'psikyo' 
-			|| {system.theme} == 'sammy' 
-			|| {system.theme} == 'sega' 
-			|| {system.theme} == 'segastv' 
-			|| {system.theme} == 'seibukaihatsu' 
-			|| {system.theme} == 'semicom'
-			|| {system.theme} == 'snk' 
-			|| {system.theme} == 'taito' 
-			|| {system.theme} == 'technos' 
-			|| {system.theme} == 'tecmo' 
-			|| {system.theme} == 'toaplan' 
-			|| {system.theme} == 'universal' 
-			|| {system.theme} == 'visco' 
-			|| {system.theme} == 'vsc' 
-			">
+               ${system.theme} == 'arcade' 
+			|| ${system.theme} == 'atomiswave' 
+			|| ${system.theme} == 'auto-verticalarcade' 
+			|| ${system.theme} == 'auto-lightgun' 
+			|| ${system.theme} == 'auto-wheel' 
+			|| ${system.theme} == 'daphne' 
+			|| ${system.theme} == 'fbneo' 
+			|| ${system.theme} == 'hbmame' 
+			|| ${system.theme} == 'mame' 
+			|| ${system.theme} == 'model2' 
+			|| ${system.theme} == 'model3' 
+			|| ${system.theme} == 'naomi' 
+			|| ${system.theme} == 'naomi2' 
+			|| ${system.theme} == 'singe' 
+			|| ${system.theme} == 'zinc' 
+			|| ${system.theme} == 'alphadenshi' 
+			|| ${system.theme} == 'atari' 
+			|| ${system.theme} == 'atlus' 
+			|| ${system.theme} == 'banpresto' 
+			|| ${system.theme} == 'capcom' 
+			|| ${system.theme} == 'cave' 
+			|| ${system.theme} == 'cps1' 
+			|| ${system.theme} == 'cps2' 
+			|| ${system.theme} == 'cps3' 
+			|| ${system.theme} == 'centurye' 
+			|| ${system.theme} == 'comad' 
+			|| ${system.theme} == 'dataeast' 
+			|| ${system.theme} == 'eighting' 
+			|| ${system.theme} == 'gaelco' 
+			|| ${system.theme} == 'gottlieb' 
+			|| ${system.theme} == 'hikaru' 
+			|| ${system.theme} == 'igs' 
+			|| ${system.theme} == 'incredibletech' 
+			|| ${system.theme} == 'irem' 
+			|| ${system.theme} == 'jaleco' 
+			|| ${system.theme} == 'kaneko' 
+			|| ${system.theme} == 'konami' 
+			|| ${system.theme} == 'midway' 
+			|| ${system.theme} == 'mitchell' 
+			|| ${system.theme} == 'namco' 
+			|| ${system.theme} == 'neogeo64' 
+			|| ${system.theme} == 'nichibutsu' 
+			|| ${system.theme} == 'nintendo' 
+			|| ${system.theme} == 'nmk' 
+			|| ${system.theme} == 'psikyo' 
+			|| ${system.theme} == 'sammy' 
+			|| ${system.theme} == 'sega' 
+			|| ${system.theme} == 'segastv' 
+			|| ${system.theme} == 'seibukaihatsu' 
+			|| ${system.theme} == 'semicom'
+			|| ${system.theme} == 'snk' 
+			|| ${system.theme} == 'taito' 
+			|| ${system.theme} == 'technos' 
+			|| ${system.theme} == 'tecmo' 
+			|| ${system.theme} == 'toaplan' 
+			|| ${system.theme} == 'universal' 
+			|| ${system.theme} == 'visco' 
+			|| ${system.theme} == 'vsc' 
+			" extra="true">
   
  
 	<image name="bureau, figurines, ecran_console_defaut, marquee_bartop, cartridge_ID" extra="static">
@@ -142,27 +142,27 @@
 			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/_default.png")
 		</path>
 		
-		<path if="{system.theme} == 'auto-lightgun'">firstfile(
+		<path if="${system.theme} == 'auto-lightgun'">firstfile(
 			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png",
 			"${themePath}/art/screen/lightgun_cab.png")
 		</path>
 		
-		<path if="{system.theme} == 'auto-wheel'">firstfile(
+		<path if="${system.theme} == 'auto-wheel'">firstfile(
 			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png",
 			"${themePath}/art/screen/wheel_cab.png")
 		</path>
 		
-		<path if="{system.theme} == 'atomiswave'">firstfile(
+		<path if="${system.theme} == 'atomiswave'">firstfile(
 			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png",
 			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/_default_atomiswave.png")
 		</path>
 		
-		<path if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">firstfile(
+		<path if="${system.theme} == 'naomi' || ${system.theme} == 'naomi2' ">firstfile(
 			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png",
 			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/_default_naomi.png")
 		</path>
 		
-		<path if="{system.theme} == 'daphne'">firstfile(
+		<path if="${system.theme} == 'daphne'">firstfile(
 			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png",
 			"${themePath}/../zzz-DX_Add-On/_inc/cabinets/_default.png")
 		</path>
@@ -198,7 +198,7 @@
  
 	<image name="ecran_console_marquee" extra="static">
 		<path>"${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".jpg"</path>
-		<visible if="{system.theme} == 'atomiswave'">false</visible>
+		<visible if="${system.theme} == 'atomiswave'">false</visible>
 		<origin>0.5 0.5</origin>									
 		<size>0.2911458 0.1435185</size>									
 		<pos>0.4971354 0.3319444</pos>									
@@ -213,7 +213,7 @@
 		<!-- sera visible à 2 conditions : que la borne officielle et le marquee n'existent pas -->
 		<visible>!exists("${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png") &&
 				 !exists("${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".jpg")</visible>
-		<visible if="{system.theme} == 'atomiswave'">false</visible>
+		<visible if="${system.theme} == 'atomiswave'">false</visible>
 		<path>${themePath}/art/divers/white.png</path>
 		<color>000000</color>
 		<zIndex>28</zIndex>
@@ -228,7 +228,7 @@
 		<!-- sera visible à 2 conditions : que la borne officielle et le marquee n'existent pas -->
 		<visible>!exists("${themePath}/../zzz-DX_Add-On/_inc/cabinets/" + stem({game:rom}) + ".png") &&
 				 !exists("${themePath}/../zzz-DX_Add-On/_inc/marquee/" + stem({game:rom}) + ".jpg")</visible>
-		<visible if="{system.theme} == 'atomiswave'">false</visible>
+		<visible if="${system.theme} == 'atomiswave'">false</visible>
 		<path>{game:marquee}</path>
 		<zIndex>29</zIndex> 
 		<origin>0.5 0.5</origin>									
@@ -343,28 +343,28 @@
 	<!-- ~~~~~~~~~~~~~~~~~~~ SYSTEMES BORNE NAOMI ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	
-	<image name="ecran_console_marquee" if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">
+	<image name="ecran_console_marquee" if="${system.theme} == 'naomi' || ${system.theme} == 'naomi2' " extra="true">
 		<size>0.24 0.08</size>
 		<pos>0.4960938 0.2995371</pos>
 		<pos ifHelpPrompts="false">0.4960938 0.3578704</pos>
 	</image>
 	
-	<image name="marquee_black" if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">
+	<image name="marquee_black" if="${system.theme} == 'naomi' || ${system.theme} == 'naomi2' " extra="true">
 		<size>0.25 0.1453704</size>	
 		<x>0.3679167</x>	
 	</image>
 	
-	<image name="marquee_logosjeux" if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">
+	<image name="marquee_logosjeux" if="${system.theme} == 'naomi' || ${system.theme} == 'naomi2' " extra="true">
 		<maxSize>0.2411458 0.0712963</maxSize>
 		<pos>0.4960938 0.2995371</pos>
 		<pos ifHelpPrompts="false">0.4960938 0.3578704</pos>
 	</image>
 	
-	<image name="game_imagepreview, game_imagepreview_blackscreen, black_bg" if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">
+	<image name="game_imagepreview, game_imagepreview_blackscreen, black_bg" if="${system.theme} == 'naomi' || ${system.theme} == 'naomi2' " extra="true">
 		<scale>1.03</scale>
 	</image>
 	
-	<video name="game_video" if="{system.theme} == 'naomi' || {system.theme} == 'naomi2' ">
+	<video name="game_video" if="${system.theme} == 'naomi' || ${system.theme} == 'naomi2' " extra="true">
 		<scale>1.025</scale>
 	</video>
 	

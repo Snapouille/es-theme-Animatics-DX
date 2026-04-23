@@ -7,7 +7,7 @@ originally based on: "carbon"
 <theme defaultView="detailed">
   <formatVersion>7</formatVersion>
   
-<customView name="fanart" inherits="gamecarousel" displayName="${fanartview}">
+<customView extra="true" name="fanart" inherits="gamecarousel" displayName="${fanartview}">
 
 	<image name="BarAndRound, thumbnail-gamecarousel, cadre, ecran_console, console-collection, md_thumbnail, Chevron_haut, Chevron_bas, cadre_haut1, cadre_haut2, black_bg" extra="true">
 			<visible>false</visible>
@@ -175,33 +175,33 @@ originally based on: "carbon"
     </image>
 	
 	<!-- Système avec un CD taille normale qui tourne -->
-	<image name="cartridge_ID" if="{system.theme} == '3do' || 
-								   {system.theme} == 'amigacd32' || 
-								   {system.theme} == 'amigacdtv' || 
-								   {system.theme} == 'atarijaguarcd' || 
-								   {system.theme} == 'cdi' ||
-								   {system.theme} == 'daphne' ||	
-								   {system.theme} == 'dreamcast' || 
-								   {system.theme} == 'fmtowns' || 								   
-								   {system.theme} == 'gc' || 
-								   {system.theme} == 'naomi' ||
-								   {system.theme} == 'naomi2' ||
-								   {system.theme} == 'neogeocd' || 
-								   {system.theme} == 'pce-cd' || 
-								   {system.theme} == 'pcfx' || 
-								   {system.theme} == 'ps2' || 
-								   {system.theme} == 'ps3' || 
-								   {system.theme} == 'psx' || 
-								   {system.theme} == 'saturn' || 
-								   {system.theme} == 'segacd' || 
-								   {system.theme} == 'snes-msu1' || 
-								   {system.theme} == 'singe' ||	
-								   {system.theme} == 'triforce' || 
-								   {system.theme} == 'wii' || 
-								   {system.theme} == 'wiiu' || 
-								   {system.theme} == 'windows' || 
-								   {system.theme} == 'xbox' || 
-								   {system.theme} == 'xbox360' " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == '3do' || 
+								   ${system.theme} == 'amigacd32' || 
+								   ${system.theme} == 'amigacdtv' || 
+								   ${system.theme} == 'atarijaguarcd' || 
+								   ${system.theme} == 'cdi' ||
+								   ${system.theme} == 'daphne' ||	
+								   ${system.theme} == 'dreamcast' || 
+								   ${system.theme} == 'fmtowns' || 								   
+								   ${system.theme} == 'gc' || 
+								   ${system.theme} == 'naomi' ||
+								   ${system.theme} == 'naomi2' ||
+								   ${system.theme} == 'neogeocd' || 
+								   ${system.theme} == 'pce-cd' || 
+								   ${system.theme} == 'pcfx' || 
+								   ${system.theme} == 'ps2' || 
+								   ${system.theme} == 'ps3' || 
+								   ${system.theme} == 'psx' || 
+								   ${system.theme} == 'saturn' || 
+								   ${system.theme} == 'segacd' || 
+								   ${system.theme} == 'snes-msu1' || 
+								   ${system.theme} == 'singe' ||	
+								   ${system.theme} == 'triforce' || 
+								   ${system.theme} == 'wii' || 
+								   ${system.theme} == 'wiiu' || 
+								   ${system.theme} == 'windows' || 
+								   ${system.theme} == 'xbox' || 
+								   ${system.theme} == 'xbox360' " extra="true">
 		<pos>0.7 0.19</pos>	
 		<maxSize>0.295 0.295</maxSize>
 		<zIndex>30</zIndex>
@@ -233,21 +233,21 @@ originally based on: "carbon"
     </image>
 	
 	<!-- BOITIER SPECIAL 3DO / COLLECTIONS -->
-	<gamecarousel name="gamecarousel" if="{system.theme} == 'psp'  ||
+	<gamecarousel name="gamecarousel" if="${system.theme} == 'psp'  ||
 										  {system.sortedBy} == 'Collections'  ||
-										  {system.theme} == '3do' " extra="true">
+										  ${system.theme} == '3do' " extra="true">
 			<logoPos>0.050 0.38</logoPos>
             <logoScale>2.25</logoScale>					
     </gamecarousel>
 	
 	<!-- BOITIER SPECIAL PSP -->
-	<gamecarousel name="gamecarousel" if="{system.theme} == 'psp' " extra="true">
+	<gamecarousel name="gamecarousel" if="${system.theme} == 'psp' " extra="true">
 			<logoPos>0.060 0.38</logoPos>
             <logoScale>2.45</logoScale>					
     </gamecarousel>
 	
 		<!-- GAMECUBE -->
-	<image name="cartridge_ID" if="{system.theme} == 'gc'  " extra="true">
+	<image name="cartridge_ID" if="${system.theme} == 'gc'  " extra="true">
 		<maxSize>0.194688 0.194688</maxSize>						
     </image>
 
@@ -265,26 +265,26 @@ originally based on: "carbon"
 		<size>0.19260415 0.2476852</size>									
 		<pos>0.86 0.525</pos>
 		
-		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.2 0.2</size>									
-		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.856 0.513</pos>									
+		<size if="${system.theme} == '3ds' || ${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == 'xbox360' ">0.2 0.2</size>									
+		<pos  if="${system.theme} == '3ds' || ${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == 'xbox360' ">0.856 0.513</pos>									
 		
-		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
-		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8625 0.563</pos>									
+		<size if="${system.theme} == 'gb' || ${system.theme} == 'gb2players' || ${system.theme} == 'gbc' || ${system.theme} == 'gbc2players' ">0.187 0.3</size>									
+		<pos  if="${system.theme} == 'gb' || ${system.theme} == 'gb2players' || ${system.theme} == 'gbc' || ${system.theme} == 'gbc2players' ">0.8625 0.563</pos>									
 		
-		<size if="{system.theme} == 'pokemini'">0.168 0.2</size>									
-		<pos  if="{system.theme} == 'pokemini'">0.872 0.563</pos>	
+		<size if="${system.theme} == 'pokemini'">0.168 0.2</size>									
+		<pos  if="${system.theme} == 'pokemini'">0.872 0.563</pos>	
 		
-		<size if="{system.theme} == 'nds' ">0.1125 0.3</size>									
-		<pos  if="{system.theme} == 'nds' ">0.90 0.563</pos>		
+		<size if="${system.theme} == 'nds' ">0.1125 0.3</size>									
+		<pos  if="${system.theme} == 'nds' ">0.90 0.563</pos>		
 
-		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.161 0.273</size>									
-		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.876 0.555</pos>	
+		<size if="${system.theme} == 'ngp' || ${system.theme} == 'ngpc' ">0.161 0.273</size>									
+		<pos  if="${system.theme} == 'ngp' || ${system.theme} == 'ngpc' ">0.876 0.555</pos>	
 
-		<size if="{system.theme} == 'auto-verticalarcade' ">0.131 0.273</size>									
-		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.891 0.54</pos>	
+		<size if="${system.theme} == 'auto-verticalarcade' ">0.131 0.273</size>									
+		<pos  if="${system.theme} == 'auto-verticalarcade' ">0.891 0.54</pos>	
 
-		<size if="{system.theme} == 'arduboy' ">0.198 0.177</size>		
-		<pos  if="{system.theme} == 'arduboy' ">0.8575 0.51</pos>	
+		<size if="${system.theme} == 'arduboy' ">0.198 0.177</size>		
+		<pos  if="${system.theme} == 'arduboy' ">0.8575 0.51</pos>	
 	</image>	
 
 	<video name="video-Preview" extra="true">
@@ -307,46 +307,46 @@ originally based on: "carbon"
 		<size>0.19260415 0.2476852</size>									
 		<pos>0.86 0.525</pos>
 		
-		<size if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.2 0.2</size>									
-		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.856 0.513</pos>									
+		<size if="${system.theme} == '3ds' || ${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == 'xbox360' ">0.2 0.2</size>									
+		<pos  if="${system.theme} == '3ds' || ${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == 'xbox360' ">0.856 0.513</pos>									
 		
-		<size if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.187 0.3</size>									
-		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.8625 0.563</pos>									
+		<size if="${system.theme} == 'gb' || ${system.theme} == 'gb2players' || ${system.theme} == 'gbc' || ${system.theme} == 'gbc2players' ">0.187 0.3</size>									
+		<pos  if="${system.theme} == 'gb' || ${system.theme} == 'gb2players' || ${system.theme} == 'gbc' || ${system.theme} == 'gbc2players' ">0.8625 0.563</pos>									
 		
-		<size if="{system.theme} == 'pokemini'">0.168 0.2</size>									
-		<pos  if="{system.theme} == 'pokemini'">0.872 0.563</pos>	
+		<size if="${system.theme} == 'pokemini'">0.168 0.2</size>									
+		<pos  if="${system.theme} == 'pokemini'">0.872 0.563</pos>	
 		
-		<size if="{system.theme} == 'nds' ">0.1125 0.3</size>									
-		<pos  if="{system.theme} == 'nds' ">0.90 0.563</pos>		
+		<size if="${system.theme} == 'nds' ">0.1125 0.3</size>									
+		<pos  if="${system.theme} == 'nds' ">0.90 0.563</pos>		
 
-		<size if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.161 0.273</size>									
-		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.876 0.555</pos>	
+		<size if="${system.theme} == 'ngp' || ${system.theme} == 'ngpc' ">0.161 0.273</size>									
+		<pos  if="${system.theme} == 'ngp' || ${system.theme} == 'ngpc' ">0.876 0.555</pos>	
 
-		<size if="{system.theme} == 'auto-verticalarcade' ">0.131 0.273</size>									
-		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.891 0.54</pos>	
+		<size if="${system.theme} == 'auto-verticalarcade' ">0.131 0.273</size>									
+		<pos  if="${system.theme} == 'auto-verticalarcade' ">0.891 0.54</pos>	
 
-		<size if="{system.theme} == 'arduboy' ">0.198 0.177</size>		
-		<pos  if="{system.theme} == 'arduboy' ">0.8575 0.51</pos>			
+		<size if="${system.theme} == 'arduboy' ">0.198 0.177</size>		
+		<pos  if="${system.theme} == 'arduboy' ">0.8575 0.51</pos>			
 	</video>	
 
 	<!-- Affichage et Animation LOGO des systèmes  -->	
-	<image name="logo">
+	<image extra="true" name="logo">
 		<maxSize>0.15 0.0825</maxSize>
 		<pos>0.977 0.525</pos>
 
-		<pos  if="{system.theme} == '3ds' || {system.theme} == 'windows' || {system.theme} == 'switch' || {system.theme} == 'wiiu' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'psvita' || {system.theme} == 'xbox360' ">0.977 0.513</pos>									
+		<pos  if="${system.theme} == '3ds' || ${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == 'xbox360' ">0.977 0.513</pos>									
 		
-		<pos  if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.977 0.563</pos>									
+		<pos  if="${system.theme} == 'gb' || ${system.theme} == 'gb2players' || ${system.theme} == 'gbc' || ${system.theme} == 'gbc2players' ">0.977 0.563</pos>									
 						
-		<pos  if="{system.theme} == 'pokemini'">0.977 0.563</pos>	
+		<pos  if="${system.theme} == 'pokemini'">0.977 0.563</pos>	
 							
-		<pos  if="{system.theme} == 'nds' ">0.977 0.563</pos>		
+		<pos  if="${system.theme} == 'nds' ">0.977 0.563</pos>		
 									
-		<pos  if="{system.theme} == 'ngp' || {system.theme} == 'ngpc' ">0.977 0.555</pos>	
+		<pos  if="${system.theme} == 'ngp' || ${system.theme} == 'ngpc' ">0.977 0.555</pos>	
 							
-		<pos  if="{system.theme} == 'auto-verticalarcade' ">0.977 0.54</pos>	
+		<pos  if="${system.theme} == 'auto-verticalarcade' ">0.977 0.54</pos>	
 
-		<pos  if="{system.theme} == 'arduboy' ">0.977 0.51</pos>	
+		<pos  if="${system.theme} == 'arduboy' ">0.977 0.51</pos>	
     </image>	
 
     <text name="name_Id">

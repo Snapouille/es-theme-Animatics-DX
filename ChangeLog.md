@@ -1,8 +1,11 @@
+## V 2.47 - (23 04 2026)
+- Fixes black screen on Batocera butterfly v43???
+  
+
 ## V 2.46 - (20 04 2026)
 - Added new oval wheel for Game Gear
 - Fixed shadow index for Amiga and 3DS
 - Fixed C20 figurine layouts
-- Fixed extra="true" for ControllerOverlay (fixes black screen on Batocera v43???)
   
 
 ## V 2.45 - (13 04 2026)

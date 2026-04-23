@@ -416,11 +416,11 @@ originally based on: "carbon"
 <subset name="user-logo" displayName="${user.logo}">
 	<include name="none" displayName="${none}" />
 	<include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements Avatar" />
+	<include name="retroachievements" displayName="Retroachivements standard" />
 	<include name="custom" displayName="${custom}" />
 	<include name="batocera" displayName="Batocera" />
 	<include name="emulationstation" displayName="Emulation Station" />
 	<include name="recalbox" displayName="Recalbox" />
-	<include name="retroachievements" displayName="Retroachivements standard" />
 	<include name="retrobat" displayName="Retrobat" />
 	<include name="retropie" displayName="Retropie" />
 	<include name="tychus" displayName="Tychus Findlay" />

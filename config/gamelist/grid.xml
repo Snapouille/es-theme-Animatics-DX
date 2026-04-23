@@ -67,7 +67,7 @@ originally based on: "carbon"
 	
 	
 	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
-	<!-- <text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static"> -->
+	<!-- <text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || ${system.theme} == 'mess' || ${system.theme} == 'ports' || ${system.theme} == 'Amiga' || ${system.theme} == 'Msx' " extra="true"> -->
 	<text name="WhatSystemGAME" extra="static">
 		<origin>0 0</origin>									
 		<size>0.4 0.03</size>									

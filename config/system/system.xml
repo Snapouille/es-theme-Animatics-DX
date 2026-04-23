@@ -997,7 +997,7 @@ originally based on: "carbon"
 		</storyboard>
 		
 		<!-- Rotation à -90° avec Zoom - -->
-		<storyboard if="{system.theme} == 'astrocade' || {system.theme} == 'channelf' || {system.theme} == 'wonderswan' || {system.theme} == 'wonderswancolor'">
+		<storyboard if="${system.theme} == 'astrocade' || ${system.theme} == 'channelf' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
 		
 			<animation property="offsetX" to="-0.34375" begin="6500" duration="1500" mode="EaseOutCubic"/>
 			
@@ -1011,7 +1011,7 @@ originally based on: "carbon"
 		</storyboard>
 		
 		<!-- Rotation à 90° avec Zoom - -->
-		<storyboard if="{system.theme} == 'wiiu' || {system.theme} == 'wii' || {system.theme} == 'vc4000' || {system.theme} == 'colecovision' || {system.theme} == 'intellivision' || {system.theme} == 'setup' || {system.theme} == 'sg-1000'">
+		<storyboard if="${system.theme} == 'wiiu' || ${system.theme} == 'wii' || ${system.theme} == 'vc4000' || ${system.theme} == 'colecovision' || ${system.theme} == 'intellivision' || ${system.theme} == 'setup' || ${system.theme} == 'sg-1000'">
 		
 			<animation property="offsetX" to="-0.34375" begin="6500" duration="1500" mode="EaseOutCubic"/>
 			
@@ -1026,7 +1026,7 @@ originally based on: "carbon"
 		
 		
 		<!-- Rotation à -90° avec Zoom + -->
-		<storyboard if="{system.theme} == 'videopac' ||  {system.theme} == 'videopacplus' ||  {system.theme} == 'supervision' ||  {system.theme} == 'scv' ||  {system.theme} == 'scummvm' ||  {system.theme} == 'pv1000' ||  {system.theme} == 'pokemini' ||  {system.theme} == 'odyssey2' ||  {system.theme} == 'megaduck' ||  {system.theme} == 'gbc' || {system.theme} == 'atari5200' || {system.theme} == 'apfm1000' || {system.theme} == 'arcadia' || {system.theme} == 'arduboy' || {system.theme} == 'gb'">
+		<storyboard if="${system.theme} == 'videopac' ||  ${system.theme} == 'videopacplus' ||  ${system.theme} == 'supervision' ||  ${system.theme} == 'scv' ||  ${system.theme} == 'scummvm' ||  ${system.theme} == 'pv1000' ||  ${system.theme} == 'pokemini' ||  ${system.theme} == 'odyssey2' ||  ${system.theme} == 'megaduck' ||  ${system.theme} == 'gbc' || ${system.theme} == 'atari5200' || ${system.theme} == 'apfm1000' || ${system.theme} == 'arcadia' || ${system.theme} == 'arduboy' || ${system.theme} == 'gb'">
 		
 			<animation property="offsetX" to="-0.34375" begin="6500" duration="1500" mode="EaseOutCubic"/>
 			

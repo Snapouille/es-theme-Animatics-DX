@@ -29,7 +29,7 @@ originally based on: "carbon"
 
 	
 	<!-- Affiche le nom du system dans les collections, les portages et les regroupements de systèmes-->
-	<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || {system.theme} == 'mess' || {system.theme} == 'ports' || {system.theme} == 'Amiga' || {system.theme} == 'Msx' " extra="static">
+	<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || ${system.theme} == 'mess' || ${system.theme} == 'ports' || ${system.theme} == 'Amiga' || ${system.theme} == 'Msx' " extra="true">
 		<origin>0.5 0.5</origin>									
 		<size>0.2182292 0.02</size>									
 		<pos>0.12 0.919</pos>
@@ -109,9 +109,9 @@ originally based on: "carbon"
       <padding>0.01 0.001 0.001 0.001</padding>
       <zIndex>10</zIndex>
       <autoLayout>3 2</autoLayout>
-	  <autoLayout if="{system.theme} == '3ds' || {system.theme} == 'gameandwatch' || {system.theme} == 'megaduck' || {system.theme} == 'n64' || {system.theme} == 'snes' || {system.theme} == 'virtualboy'">3 3</autoLayout>
-	  <autoLayout if="{system.theme} == 'model2' || {system.theme} == 'pv1000' || {system.theme} == 'wonderswancolor' || {system.theme} == 'zx81'">5 2</autoLayout>
-	  <autoLayout if="{system.theme} == 'nes' || {system.theme} == '3do' || {system.theme} == 'switch' || {system.theme} == 'mastersystem' || {system.theme} == 'psp'  ">4 2</autoLayout>
+	  <autoLayout if="${system.theme} == '3ds' || ${system.theme} == 'gameandwatch' || ${system.theme} == 'megaduck' || ${system.theme} == 'n64' || ${system.theme} == 'snes' || ${system.theme} == 'virtualboy'">3 3</autoLayout>
+	  <autoLayout if="${system.theme} == 'model2' || ${system.theme} == 'pv1000' || ${system.theme} == 'wonderswancolor' || ${system.theme} == 'zx81'">5 2</autoLayout>
+	  <autoLayout if="${system.theme} == 'nes' || ${system.theme} == '3do' || ${system.theme} == 'switch' || ${system.theme} == 'mastersystem' || ${system.theme} == 'psp'  ">4 2</autoLayout>
 	  <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
@@ -123,7 +123,7 @@ originally based on: "carbon"
 				<container>
 					<image name="thumbnail">
 						<!-- <linearSmooth>true</linearSmooth> -->
-						<visible if="{system.theme} == 'snes' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'solarus'">false</visible>
+						<visible if="${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gameandwatch' || ${system.theme} == 'solarus'">false</visible>
 						<pos>0.5 0.6</pos>
 						<origin>0.5 0.6</origin>
 						<maxSize>0.95 0.95</maxSize>
@@ -152,7 +152,7 @@ originally based on: "carbon"
 					<image name="thumbnail">
 						<!-- <linearSmooth>true</linearSmooth> -->
 						<visible>false</visible>
-						<visible if="{system.theme} == 'snes' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'|| {system.theme} == 'solarus'">{game:region} == 'jp'</visible>
+						<visible if="${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gameandwatch'|| ${system.theme} == 'solarus'">{game:region} == 'jp'</visible>
 						<pos>0.5 0.65</pos>
 						<origin>0.5 0.6</origin>
 						<rotation>90</rotation>
@@ -182,7 +182,7 @@ originally based on: "carbon"
 					<image name="thumbnail">
 						<!-- <linearSmooth>true</linearSmooth> -->
 						<visible>false</visible>
-						<visible if="{system.theme} == 'snes' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'|| {system.theme} == 'solarus'">{game:region} != 'jp'</visible>
+						<visible if="${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gameandwatch'|| ${system.theme} == 'solarus'">{game:region} != 'jp'</visible>
 						<pos>0.5 0.6</pos>
 						<origin>0.5 0.6</origin>
 						<rotation>0</rotation>

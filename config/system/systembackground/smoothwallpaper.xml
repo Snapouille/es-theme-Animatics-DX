@@ -42,76 +42,76 @@
 	
 	<!-- Flip des background pour ces vues -->
 	<image name="background-smooth" ifSubset="SystemView:horizontal|wheel|wheel-animatics" extra="true">
-		<flipX if="{system.theme} == '3do' || 
-				   {system.theme} == 'apple2' ||
-				   {system.theme} == 'atari800' ||
-				   {system.theme} == 'atari5200' ||
-				   {system.theme} == 'xegs' ||
-				   {system.theme} == 'atarilynx' ||
-				   {system.theme} == 'wonderswancolor' ||
-				   {system.theme} == 'amiga500' ||
-				   {system.theme} == 'advision' ||
-				   {system.theme} == 'channelf' ||
-				   {system.theme} == 'pico8' ||
-				   {system.theme} == 'fmtowns' ||
-				   {system.theme} == 'gp32' ||
-				   {system.theme} == 'pcengine' ||
-				   {system.theme} == 'pce-cd' ||
-				   {system.theme} == 'pcfx' ||
-				   {system.theme} == 'gb' ||
-				   {system.theme} == 'gb2players' ||
-				   {system.theme} == 'snes' ||
-				   {system.theme} == 'gc' ||
-				   {system.theme} == 'nds' ||
-				   {system.theme} == 'wii' ||
-				   {system.theme} == 'cdi' ||
-				   {system.theme} == 'sg-1000' ||
-				   {system.theme} == 'mastersystem' ||
-				   {system.theme} == 'sega32x' ||
-				   {system.theme} == 'vectrex' ||
-				   {system.theme} == '3do' ">true</flipX>
+		<flipX if="${system.theme} == '3do' || 
+				   ${system.theme} == 'apple2' ||
+				   ${system.theme} == 'atari800' ||
+				   ${system.theme} == 'atari5200' ||
+				   ${system.theme} == 'xegs' ||
+				   ${system.theme} == 'atarilynx' ||
+				   ${system.theme} == 'wonderswancolor' ||
+				   ${system.theme} == 'amiga500' ||
+				   ${system.theme} == 'advision' ||
+				   ${system.theme} == 'channelf' ||
+				   ${system.theme} == 'pico8' ||
+				   ${system.theme} == 'fmtowns' ||
+				   ${system.theme} == 'gp32' ||
+				   ${system.theme} == 'pcengine' ||
+				   ${system.theme} == 'pce-cd' ||
+				   ${system.theme} == 'pcfx' ||
+				   ${system.theme} == 'gb' ||
+				   ${system.theme} == 'gb2players' ||
+				   ${system.theme} == 'snes' ||
+				   ${system.theme} == 'gc' ||
+				   ${system.theme} == 'nds' ||
+				   ${system.theme} == 'wii' ||
+				   ${system.theme} == 'cdi' ||
+				   ${system.theme} == 'sg-1000' ||
+				   ${system.theme} == 'mastersystem' ||
+				   ${system.theme} == 'sega32x' ||
+				   ${system.theme} == 'vectrex' ||
+				   ${system.theme} == '3do' ">true</flipX>
 	</image>
 	
 	<!-- Flip des background pour ces vues -->
 	<image name="background-smooth" ifSubset="SystemView:grid" extra="true">
-		<flipX if="{system.theme} == 'bbcmicro' || 
-				   {system.theme} == 'apple2gs' ||
-				   {system.theme} == 'fbneo' ||
-				   {system.theme} == 'teknoparrot' ||
-				   {system.theme} == 'daphne' ||
-				   {system.theme} == 'atarist' ||
-				   {system.theme} == 'xegs' ||
-				   {system.theme} == 'atarijaguar' ||
-				   {system.theme} == 'wonderswan' ||
-				   {system.theme} == 'pv1000' ||
-				   {system.theme} == 'colecovision' ||
-				   {system.theme} == 'pet' ||
-				   {system.theme} == 'c64' ||
-				   {system.theme} == 'amiga1200' ||
-				   {system.theme} == 'amigacd32' ||
-				   {system.theme} == 'amigacdtv' ||
-				   {system.theme} == 'supracan' ||
-				   {system.theme} == 'intellivision' ||
-				   {system.theme} == 'samcoupe' ||
-				   {system.theme} == 'pc' ||
-				   {system.theme} == 'windows' ||
-				   {system.theme} == 'xbox' ||
-				   {system.theme} == 'fds' ||
-				   {system.theme} == 'snes' ||
-				   {system.theme} == 'n64' ||
-				   {system.theme} == 'gbc' ||
-				   {system.theme} == 'wii' ||
-				   {system.theme} == 'solarus' ||
-				   {system.theme} == 'model3' ||
-				   {system.theme} == 'megadrive' ||
-				   {system.theme} == 'x68000' ||
-				   {system.theme} == 'zxspectrum' ||
-				   {system.theme} == 'wipgames' ||
-				   {system.theme} == 'auto-favorites' ||
-				   {system.theme} == 'auto-lightgun' ||
-				   {system.theme} == 'auto-retroachievements' ||
-				   {system.theme} == 'neogeo' ||
-				   {system.theme} == 'neogeocd' ">true</flipX>
+		<flipX if="${system.theme} == 'bbcmicro' || 
+				   ${system.theme} == 'apple2gs' ||
+				   ${system.theme} == 'fbneo' ||
+				   ${system.theme} == 'teknoparrot' ||
+				   ${system.theme} == 'daphne' ||
+				   ${system.theme} == 'atarist' ||
+				   ${system.theme} == 'xegs' ||
+				   ${system.theme} == 'atarijaguar' ||
+				   ${system.theme} == 'wonderswan' ||
+				   ${system.theme} == 'pv1000' ||
+				   ${system.theme} == 'colecovision' ||
+				   ${system.theme} == 'pet' ||
+				   ${system.theme} == 'c64' ||
+				   ${system.theme} == 'amiga1200' ||
+				   ${system.theme} == 'amigacd32' ||
+				   ${system.theme} == 'amigacdtv' ||
+				   ${system.theme} == 'supracan' ||
+				   ${system.theme} == 'intellivision' ||
+				   ${system.theme} == 'samcoupe' ||
+				   ${system.theme} == 'pc' ||
+				   ${system.theme} == 'windows' ||
+				   ${system.theme} == 'xbox' ||
+				   ${system.theme} == 'fds' ||
+				   ${system.theme} == 'snes' ||
+				   ${system.theme} == 'n64' ||
+				   ${system.theme} == 'gbc' ||
+				   ${system.theme} == 'wii' ||
+				   ${system.theme} == 'solarus' ||
+				   ${system.theme} == 'model3' ||
+				   ${system.theme} == 'megadrive' ||
+				   ${system.theme} == 'x68000' ||
+				   ${system.theme} == 'zxspectrum' ||
+				   ${system.theme} == 'wipgames' ||
+				   ${system.theme} == 'auto-favorites' ||
+				   ${system.theme} == 'auto-lightgun' ||
+				   ${system.theme} == 'auto-retroachievements' ||
+				   ${system.theme} == 'neogeo' ||
+				   ${system.theme} == 'neogeocd' ">true</flipX>
 	</image>
 	
 </view>

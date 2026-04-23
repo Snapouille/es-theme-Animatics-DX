@@ -35,7 +35,7 @@
 	</image>
 	
 	<!-- Pour l'amiga quand il est regroupé on est obliger de forcer le bureau large -->
-	<!-- le " {system.theme} == 'amiga' " n'est pas pris en compte dans le gamecarousel.xml -->
+	<!-- le " ${system.theme} == 'amiga' " n'est pas pris en compte dans le gamecarousel.xml -->
 	<image name="bureau" extra="static">
 		<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1-wide.png</path>
 		<path ifSubset="deskType:wood2">${themePath}/art/desk/wood2-wide.png</path>

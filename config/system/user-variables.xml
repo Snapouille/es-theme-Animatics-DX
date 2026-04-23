@@ -7,9 +7,9 @@
 		<text.nick ifSubset="user-username:emulationstation">EmulationStation</text.nick>
 		<text.nick ifSubset="user-username:retrobat">Retrobat</text.nick>
 		<text.nick ifSubset="user-username:retropie">Retropie</text.nick>
-		<text.nick ifSubset="user-username:cheevos" if="{global.cheevos} == false" >${theme.ra-required}</text.nick>
+		<!-- <text.nick ifSubset="user-username:cheevos" if="{global.cheevos} == false" >${theme.ra-required}</text.nick> -->
 		<text.nick ifSubset="user-username:cheevos" if="{global.cheevos} == true">${cheevos.username}</text.nick>
-		<text.nick ifSubset="user-username:netplay" if="{global.netplay} == false">${theme.netplay-required}</text.nick>
+		<!-- <text.nick ifSubset="user-username:netplay" if="{global.netplay} == false">${theme.netplay-required}</text.nick> -->
 		<text.nick ifSubset="user-username:netplay" if="{global.netplay} == true">${global.netplay.username}</text.nick>
 		<!-- <text.nick ifSubset="user-username:netplay" if="{screen.ratio} == '0/0'">Netplay ID ${theme.bato35compatilble}</text.nick> -->
 		<text.nick ifSubset="user-username:animatics-dx">Animatics-DX</text.nick>

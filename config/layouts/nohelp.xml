@@ -211,7 +211,7 @@
 	
 	<image name="md_flag">
 		<pos>0.888 0.775</pos>
-	    <pos if="{system.theme} == 'megaduck' || {system.theme} == 'supervision' ">0.525 0.7</pos>
+	    <pos if="${system.theme} == 'megaduck' || ${system.theme} == 'supervision' ">0.525 0.7</pos>
 	</image>
 	
 	
@@ -263,7 +263,7 @@
 	
 	<text name="md_players">
 		<pos>0.8265 0.867</pos>
-		<pos if="{system.theme} == 'arduboy' ">0.343 0.95</pos>
+		<pos if="${system.theme} == 'arduboy' ">0.343 0.95</pos>
 				 
 		<storyboard event="open">
 			<animation property="pos" to="0.3795 0.955" begin="1200"  duration="200" mode="linear"/>
@@ -284,9 +284,9 @@
 	
 	<image name="md_flag">
 	
-		<pos if="{system.theme} == 'pokemini' || {system.theme} == 'supervision' || {system.theme} == 'arduboy' || 
-		         {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || 
-				 {system.theme} == 'gbc2players' ">0.525 0.7</pos>
+		<pos if="${system.theme} == 'pokemini' || ${system.theme} == 'supervision' || ${system.theme} == 'arduboy' || 
+		         ${system.theme} == 'gb' || ${system.theme} == 'gb2players' || ${system.theme} == 'gbc' || 
+				 ${system.theme} == 'gbc2players' ">0.525 0.7</pos>
 		
 		<storyboard event="open">
 			<animation property="pos" to="0.976 0.928" begin="1200"  duration="200" mode="linear"/>
@@ -355,19 +355,19 @@
 	<text name="md_description">
 		<pos>0.70 0.825</pos>
 		<!-- Description avec seulement 6 lignes à cause de la taille de l'écran console -->
-		<pos if="{system.theme} == 'c64' || {system.theme} == 'dreamcast' ">0.70 0.85</pos>
+		<pos if="${system.theme} == 'c64' || ${system.theme} == 'dreamcast' ">0.70 0.85</pos>
 		<!-- Description des consoles en hauteur -->
-		<pos if="{system.theme} == 'megaduck' || {system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' ">0.5895833 0.6875926</pos>
-		<pos if="{system.theme} == 'pokemini' ">0.584 0.705</pos>
-		<pos if="{system.theme} == 'supervision' ">0.615 0.75</pos>
-		<pos if="{system.theme} == 'vectrex' ">0.602 0.74</pos>
-		<pos if="{system.theme} == 'arduboy' ">0.5895833 0.7495926</pos>
-		<pos if="{system.theme} == 'virtualboy' ">0.75 0.335</pos>
-		<pos if="{system.theme} == 'gba' || {system.theme} == 'gba2players' ">0.748 0.317</pos>
-		<pos if="{system.theme} == '3ds' ">0.763 0.323</pos>
-		<pos if="{system.theme} == 'gamepock' ">0.757 0.265</pos>
-		<pos if="{system.theme} == 'gmaster' ">0.7457813 0.35</pos>
-		<pos if="{system.theme} == 'wasm4' ">0.58 0.78</pos>
+		<pos if="${system.theme} == 'megaduck' || ${system.theme} == 'gb' || ${system.theme} == 'gb2players' || ${system.theme} == 'gbc' || ${system.theme} == 'gbc2players' ">0.5895833 0.6875926</pos>
+		<pos if="${system.theme} == 'pokemini' ">0.584 0.705</pos>
+		<pos if="${system.theme} == 'supervision' ">0.615 0.75</pos>
+		<pos if="${system.theme} == 'vectrex' ">0.602 0.74</pos>
+		<pos if="${system.theme} == 'arduboy' ">0.5895833 0.7495926</pos>
+		<pos if="${system.theme} == 'virtualboy' ">0.75 0.335</pos>
+		<pos if="${system.theme} == 'gba' || ${system.theme} == 'gba2players' ">0.748 0.317</pos>
+		<pos if="${system.theme} == '3ds' ">0.763 0.323</pos>
+		<pos if="${system.theme} == 'gamepock' ">0.757 0.265</pos>
+		<pos if="${system.theme} == 'gmaster' ">0.7457813 0.35</pos>
+		<pos if="${system.theme} == 'wasm4' ">0.58 0.78</pos>
 	</text>
 	
 	
@@ -542,7 +542,7 @@
   
   
   <!-- Square jaune qui se balade si c'est un SYSTEME ARCADE avec Bartop ou Bornes et dreamcast -->
-	<image name="yellowSquare" if="{system.theme} == 'fbneo' || {system.theme} == 'dreamcast' || {system.theme} == 'auto-verticalarcade' || {system.theme} == 'mame' || {system.theme} == 'teknoparrot' || {system.theme} == 'advision' || {system.theme} == 'alphadenshi' || {system.theme} == 'arcade' || {system.theme} == 'atari' || {system.theme} == 'banpresto' || {system.theme} == 'atlus' || {system.theme} == 'atomiswave' || {system.theme} == 'capcom' || {system.theme} == 'cave' || {system.theme} == 'centurye' || {system.theme} == 'comad' || {system.theme} == 'cps1' || {system.theme} == 'cps2' || {system.theme} == 'cps3' || {system.theme} == 'daphne' || {system.theme} == 'dataeast' || {system.theme} == 'eighting' || {system.theme} == 'gaelco' || {system.theme} == 'gottlieb' || {system.theme} == 'hikaru' || {system.theme} == 'igs' || {system.theme} == 'incredibletech' || {system.theme} == 'irem' || {system.theme} == 'jaleco' || {system.theme} == 'kaneko' || {system.theme} == 'konami' || {system.theme} == 'midway' || {system.theme} == 'mitchell' || {system.theme} == 'model2' || {system.theme} == 'model3'  || {system.theme} == 'namco' || {system.theme} == 'naomi' || {system.theme} == 'naomi2' || {system.theme} == 'nichibutsu' || {system.theme} == 'nintendo' || {system.theme} == 'nmk' || {system.theme} == 'openbor' || {system.theme} == 'psikyo' || {system.theme} == 'sammy' || {system.theme} == 'sega' || {system.theme} == 'seibukaihatsu' || {system.theme} == 'semicom' || {system.theme} == 'snk' || {system.theme} == 'taito' || {system.theme} == 'technos' || {system.theme} == 'tecmo' || {system.theme} == 'toaplan' || {system.theme} == 'universal' || {system.theme} == 'visco' || {system.theme} == 'vsc'">
+	<image name="yellowSquare" if="${system.theme} == 'fbneo' || ${system.theme} == 'dreamcast' || ${system.theme} == 'auto-verticalarcade' || ${system.theme} == 'mame' || ${system.theme} == 'teknoparrot' || ${system.theme} == 'advision' || ${system.theme} == 'alphadenshi' || ${system.theme} == 'arcade' || ${system.theme} == 'atari' || ${system.theme} == 'banpresto' || ${system.theme} == 'atlus' || ${system.theme} == 'atomiswave' || ${system.theme} == 'capcom' || ${system.theme} == 'cave' || ${system.theme} == 'centurye' || ${system.theme} == 'comad' || ${system.theme} == 'cps1' || ${system.theme} == 'cps2' || ${system.theme} == 'cps3' || ${system.theme} == 'daphne' || ${system.theme} == 'dataeast' || ${system.theme} == 'eighting' || ${system.theme} == 'gaelco' || ${system.theme} == 'gottlieb' || ${system.theme} == 'hikaru' || ${system.theme} == 'igs' || ${system.theme} == 'incredibletech' || ${system.theme} == 'irem' || ${system.theme} == 'jaleco' || ${system.theme} == 'kaneko' || ${system.theme} == 'konami' || ${system.theme} == 'midway' || ${system.theme} == 'mitchell' || ${system.theme} == 'model2' || ${system.theme} == 'model3'  || ${system.theme} == 'namco' || ${system.theme} == 'naomi' || ${system.theme} == 'naomi2' || ${system.theme} == 'nichibutsu' || ${system.theme} == 'nintendo' || ${system.theme} == 'nmk' || ${system.theme} == 'openbor' || ${system.theme} == 'psikyo' || ${system.theme} == 'sammy' || ${system.theme} == 'sega' || ${system.theme} == 'seibukaihatsu' || ${system.theme} == 'semicom' || ${system.theme} == 'snk' || ${system.theme} == 'taito' || ${system.theme} == 'technos' || ${system.theme} == 'tecmo' || ${system.theme} == 'toaplan' || ${system.theme} == 'universal' || ${system.theme} == 'visco' || ${system.theme} == 'vsc'" extra="true">
 		<pos>1.1 0.1569444</pos>									
 	  
 		<storyboard event="open">
@@ -585,7 +585,7 @@
   
   
   <!-- Square jaune qui se balade SI cover verticale (SNES ou SUFAMI ou N64 gameandwatch)-->
-	<image name="yellowSquare" if="{system.theme} == 'snes' || {system.theme} == 'gameandwatch' ||  {system.theme} == 'sufami' || {system.theme} == 'n64' ">
+	<image name="yellowSquare" if="${system.theme} == 'snes' || ${system.theme} == 'gameandwatch' ||  ${system.theme} == 'sufami' || ${system.theme} == 'n64' " extra="true">
 		<origin>0.5 0.5</origin>									
 		<size>0.0026042 0.0046296</size>									
 		<pos>0.3445313 0.1569444</pos>									
@@ -646,7 +646,7 @@
 	
 	
 	<!-- Square jaune qui se balade SI système LIBRARY (bibliotheque) -->
-	<image name="yellowSquare" if="{system.theme} == 'library' || {system.theme} == 'imageviewer' ">
+	<image name="yellowSquare" if="${system.theme} == 'library' || ${system.theme} == 'imageviewer' " extra="true">
 		<origin>0.5 0.5</origin>									
 		<size>0.0026042 0.0046296</size>									
 		<pos>0.3445313 0.1569444</pos>									

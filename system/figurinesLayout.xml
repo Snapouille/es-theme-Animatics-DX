@@ -25,8 +25,8 @@
 			"${themePath}/system/" + {system:theme} + "/background.png")
 		</path>
 		
-		<flipX if="{system.theme} == 'apf1000' || 
-				   {system.theme} == 'apple2gs' ">true</flipX>
+		<flipX if="${system.theme} == 'apf1000' || 
+				   ${system.theme} == 'apple2gs' ">true</flipX>
 		
 		<saturation>1</saturation>
 		
