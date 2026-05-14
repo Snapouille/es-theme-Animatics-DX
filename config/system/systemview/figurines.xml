@@ -307,17 +307,15 @@
 			|| 	 ${system.theme} == 'atari7800'
 			|| 	 ${system.theme} == 'atari800'
 			|| 	 ${system.theme} == 'auto-casual'
-			|| 	 ${system.theme} == 'auto-lightgun'
 			|| 	 ${system.theme} == 'auto-reflection' 
+			|| 	 ${system.theme} == 'auto-verticalarcade'
 			|| 	 ${system.theme} == 'bbcmicro'
 			|| 	 ${system.theme} == 'c20' 
 			|| 	 ${system.theme} == 'colecovision' 
 			|| 	 ${system.theme} == 'epic' 
 			|| 	 ${system.theme} == 'flash' 
 			|| 	 ${system.theme} == 'gaelco' 
-			|| 	 ${system.theme} == 'gameandwatch'
 			|| 	 ${system.theme} == 'gb2players' 
-			|| 	 ${system.theme} == 'lcdgames'
 			|| 	 ${system.theme} == 'mame'
 			|| 	 ${system.theme} == 'megaman'
 			|| 	 ${system.theme} == 'mitchell'
@@ -346,7 +344,6 @@
 			|| 	 ${system.theme} == 'auto-shootemup'
 			|| 	 ${system.theme} == 'auto-simulation'
 			|| 	 ${system.theme} == 'auto-spinner'
-			|| 	 ${system.theme} == 'auto-verticalarcade'
 			|| 	 ${system.theme} == 'auto-wheel'
 			|| 	 ${system.theme} == 'cannonball'
 			|| 	 ${system.theme} == 'chihiro'
@@ -408,6 +405,8 @@
 	<image name="figurine_desc_border, figurine_desc_bg, figurine_title, figurine_title_mask, figurine_desc" 
 			 if="${system.theme} == '3do' 
 			|| 	 ${system.theme} == 'advision' 
+			|| 	 ${system.theme} == 'auto-at2players'
+			|| 	 ${system.theme} == 'auto-at4players' 
 			|| 	 ${system.theme} == 'c16' 
 			|| 	 ${system.theme} == 'castlevania' 
 			|| 	 ${system.theme} == 'coco' 
@@ -453,6 +452,7 @@
 			|| 	 ${system.theme} == 'lcdgames'
 			|| 	 ${system.theme} == 'loopy' 
 			|| 	 ${system.theme} == 'mitchell'
+			|| 	 ${system.theme} == 'nmk'
 			|| 	 ${system.theme} == 'residentevil'
 			|| 	 ${system.theme} == 'semicom' 
 			|| 	 ${system.theme} == 'shinobi' 
@@ -471,7 +471,6 @@
 	<image name="figurine_desc_border, figurine_desc_bg, figurine_title, figurine_title_mask, figurine_desc" 
 			 if="${system.theme} == 'arenseigner' 
 			|| 	 ${system.theme} == 'mariokart' 
-			|| 	 ${system.theme} == 'nmk' 
 			" extra="true">
 		<offsetX>-0.025</offsetX>
 	</image>
