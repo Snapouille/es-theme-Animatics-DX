@@ -49,5 +49,39 @@ originally based on: "carbon"
 <text>Uzebox - это игровая консоль с открытым исходным кодом и минималистичной ретро-графикой. Она основана на 8-битном микроконтроллере AVR, производимом компанией Atmel. Особенностью системы является использование ядра с прерыванием и отсутствие фреймбуфера. Игры могут быть разработаны на языке C. </text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Tron (2010)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The character of Tron evokes the digital imagination of the 1982 cult film, with virtual arenas, glowing lines and light cycle battles. On Uzebox, the game turns this idea into a simple, direct competitive duel, where each player must force the other to hit a wall, the edge of the screen or the trail left by the vehicles.
+Fun fact: The light cycle concept in Tron inspired many multiplayer games based on territory control and avoidance.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le personnage de Tron renvoie à l’imaginaire numérique du film culte de 1982, entre arènes virtuelles, lignes lumineuses et affrontements de light cycles. Sur Uzebox, le jeu reprend cette idée sous forme de duel compétitif simple et direct, où chaque joueur doit pousser l’autre à heurter un mur, le bord de l’écran ou la traînée laissée par les véhicules.
+Fun fact : Le concept des light cycles dans Tron a inspiré de nombreux jeux multijoueurs basés sur le principe de territoire et d’évitement.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>El personaje de Tron remite al imaginario digital de la película de culto de 1982, con arenas virtuales, líneas luminosas y duelos de light cycles. En Uzebox, el juego transforma esta idea en un duelo competitivo simple y directo, donde cada jugador debe hacer que el otro choque contra un muro, el borde de la pantalla o la estela de los vehículos.
+Dato curioso: El concepto de los light cycles de Tron inspiró muchos juegos multijugador basados en el control del territorio y la evasión.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Il personaggio di Tron richiama l’immaginario digitale del film cult del 1982, tra arene virtuali, linee luminose e scontri tra light cycle. Su Uzebox, il gioco riprende questa idea come un duello competitivo semplice e diretto, in cui ogni giocatore deve spingere l’altro contro un muro, il bordo dello schermo o la scia lasciata dai veicoli.
+Curiosità: Il concetto delle light cycle di Tron ha ispirato molti giochi multigiocatore basati su territorio ed evitamento.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Die Figur Tron verweist auf die digitale Vorstellungswelt des Kultfilms von 1982, mit virtuellen Arenen, leuchtenden Linien und Kämpfen zwischen Light Cycles. Auf Uzebox wird daraus ein einfacher, direkter Wettkampf, bei dem jeder Spieler den anderen gegen eine Wand, den Bildschirmrand oder die Spur der Fahrzeuge drängen muss.
+Interessante Tatsache: Das Light-Cycle-Konzept aus Tron inspirierte viele Mehrspielerspiele, die auf Gebietskontrolle und Ausweichen basieren.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>O personagem Tron remete ao imaginário digital do filme de culto de 1982, com arenas virtuais, linhas luminosas e duelos de light cycles. Na Uzebox, o jogo transforma essa ideia num duelo competitivo simples e direto, em que cada jogador deve levar o outro a bater num muro, na borda do ecrã ou no rasto deixado pelos veículos.
+Curiosidade: O conceito dos light cycles de Tron inspirou muitos jogos multijogador baseados em território e esquiva.</text>
+</text>
+
 </view>
 </theme>

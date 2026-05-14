@@ -17,6 +17,58 @@ originally based on: "carbon"
 <text>Les jeux Teenage Mutant Ninja Turtles (TMNT), inspirés des célèbres tortues mutantes, mélangeant beat'em up, action et aventure. Ils ont marqué plusieurs générations, notamment avec les classiques d’arcade de Konami. La franchise a évolué avec le temps, proposant des adaptations sur diverses consoles et des remakes modernisés comme Shredder’s Revenge. TMNT reste une référence nostalgique et appréciée des fans de jeux coopératifs.</text>
 </text>
 
+<text name="system_description" extra="true" lang="es">
+<text>Los juegos Teenage Mutant Ninja Turtles (TMNT), inspirados en las famosas tortugas mutantes, mezclan beat'em up, acción y aventura. Han marcado a varias generaciones, especialmente con los clásicos arcade de Konami. La franquicia ha evolucionado con adaptaciones en distintas consolas y remakes modernos como Shredder’s Revenge. TMNT sigue siendo una referencia nostálgica para los fans de los juegos cooperativos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>I giochi Teenage Mutant Ninja Turtles (TMNT), ispirati alle celebri tartarughe mutanti, mescolano beat'em up, azione e avventura. Hanno segnato più generazioni, soprattutto con i classici arcade di Konami. La serie si è evoluta con adattamenti su diverse console e remake moderni come Shredder’s Revenge. TMNT resta un riferimento nostalgico per gli appassionati di giochi cooperativi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die Teenage Mutant Ninja Turtles (TMNT)-Spiele, inspiriert von den berühmten mutierten Schildkröten, verbinden Beat'em up, Action und Abenteuer. Sie haben mehrere Generationen geprägt, besonders durch Konamis Arcade-Klassiker. Die Reihe entwickelte sich mit Umsetzungen auf verschiedenen Konsolen und modernen Remakes wie Shredder’s Revenge weiter. TMNT bleibt eine nostalgische Referenz für Fans kooperativer Spiele.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Os jogos Teenage Mutant Ninja Turtles (TMNT), inspirados nas famosas tartarugas mutantes, misturam beat'em up, ação e aventura. Marcaram várias gerações, especialmente com os clássicos arcade da Konami. A franquia evoluiu com adaptações em diferentes consoles e remakes modernos como Shredder’s Revenge. TMNT continua sendo uma referência nostálgica para fãs de jogos cooperativos.</text>
+</text>
+
+
+<!-- FIGURINE -->
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Teenage Mutant Ninja Turtles (Arcade, 1989)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Leonardo is the leader of the Ninja Turtles, recognizable by his blue bandana and twin katanas, embodying a disciplined and balanced fighter able to adapt to every situation, symbolizing focus and strategy within the team during intense battles against overwhelming enemies.
+Fun fact: In most TMNT games, Leonardo is designed as the most balanced character, offering a strong mix of reach, power and speed for players.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Leonardo est le leader des Tortues Ninja, reconnaissable à son bandana bleu et ses deux katanas, incarnant un combattant discipliné et équilibré capable de s’adapter à toutes les situations, symbolisant la rigueur et la stratégie au sein du groupe face à des ennemis toujours plus nombreux dans des combats intenses.
+Fun fact : Dans la plupart des jeux TMNT, Leonardo est conçu comme le personnage le plus équilibré, offrant un compromis idéal entre portée, puissance et vitesse pour les joueurs.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Leonardo es el líder de las Tortugas Ninja, reconocible por su bandana azul y sus dos katanas, como luchador disciplinado y equilibrado capaz de adaptarse a cada situación.
+Dato curioso: En la mayoría de juegos TMNT, Leonardo es el personaje más equilibrado, con buena mezcla de alcance, fuerza y velocidad.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Leonardo è il leader delle Tartarughe Ninja, riconoscibile dalla bandana blu e dalle due katane, un combattente disciplinato ed equilibrato capace di adattarsi a ogni situazione.
+Curiosità: Nella maggior parte dei giochi TMNT, Leonardo è il personaggio più equilibrato per portata, forza e velocità.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Leonardo ist der Anführer der Ninja Turtles, erkennbar an seinem blauen Bandana und zwei Katanas, ein disziplinierter und ausgewogener Kämpfer für viele Situationen.
+Interessante Tatsache: In den meisten TMNT-Spielen gilt Leonardo als ausgewogenste Figur mit guter Reichweite, Kraft und Geschwindigkeit.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Leonardo é o líder das Tartarugas Ninja, reconhecível pela bandana azul e duas katanas, um lutador disciplinado e equilibrado capaz de se adaptar a várias situações.
+Curiosidade: Na maioria dos jogos TMNT, Leonardo é o personagem mais equilibrado, combinando alcance, força e velocidade.</text>
+</text>
 
 </view>
 </theme>

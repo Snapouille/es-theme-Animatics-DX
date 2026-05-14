@@ -6,29 +6,51 @@ originally based on: "carbon"
 -->
 <theme>
 	<formatVersion>7</formatVersion>
-
 	<view name="system">
-
-		
-				<text name="system_description" extra="true" >
+		<text name="system_description" extra="true" >
 			<text>PC games, also known as computer games or personal computer games, are video games played on a personal computer rather than a dedicated video game console or arcade machine.</text>
 		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>El DOS, las siglas para el sistema operativo de disco o el sistema operativo en disco es un acrónimo para varios sistemas operativos íntimamente relacionados que dominaron el mercado para compatibilidad IBM PC entre 1981 y 1995.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
+		<text name="system_description" extra="true" lang="fr">
 			<text>DOS, acronyme de Disk Operating System ou de système d’exploitation de disques, est un acronyme pour plusieurs systèmes d’exploitation étroitement liés qui ont dominé le marché des PC compatibles IBM entre 1981 et 1995.</text>
 		</text>
-
-				<text name="system_description" extra="true" lang="pt">
+		<text name="system_description" extra="true" lang="es">
+			<text>El DOS, las siglas para el sistema operativo de disco o el sistema operativo en disco es un acrónimo para varios sistemas operativos íntimamente relacionados que dominaron el mercado para compatibilidad IBM PC entre 1981 y 1995.</text>
+		</text>
+		<text name="system_description" extra="true" lang="it">
+			<text>DOS, acronimo di Disk Operating System, indica diversi sistemi operativi strettamente legati che dominarono il mercato dei PC compatibili IBM tra il 1981 e il 1995.</text>
+		</text>
+		<text name="system_description" extra="true" lang="de">
+			<text>DOS, die Abkürzung für Disk Operating System, bezeichnet mehrere eng verwandte Betriebssysteme, die den Markt der IBM-kompatiblen PCs zwischen 1981 und 1995 dominierten.</text>
+		</text>
+		<text name="system_description" extra="true" lang="pt">
 			<text>O DOS, sigla para Disk Operating System ou sistema operacional em disco é um acrónimo para vários sistemas operativos intimamente relacionados que dominaram o mercado para compatíveis IBM PC entre 1981 e 1995.</text>
 		</text>
-
-		
-		
-				
-
+		<text name="figurine_title, figurine_title_mask" extra="true">
+			<text>&#160;&#160;Jazz Jackrabbit (1994)&#160;&#160;</text>
+		</text>
+		<text name="figurine_desc" extra="true">
+			<text>On the eve of Windows 95, MS-DOS welcomes Jazz, the green rabbit hero of a fast-paced platform game that pits him against turtles across quick, colorful levels. Inspired by the standards of the genre, the game relies on high speed, dynamic shooting and a memorable soundtrack that shaped its identity and made it a reference for 1990s PC gaming.
+Fun fact: The game’s music was composed by Alexander Brandon, later known for his work on Deus Ex and Unreal.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="fr">
+			<text>À la veille de l’arrivée de Windows 95, le MS-DOS voit débarquer Jazz, ce lapin vert héros d’un jeu de plateforme nerveux qui l’oppose à des tortues dans des niveaux rapides et colorés. Inspiré des standards du genre, le jeu mise sur une vitesse élevée, des tirs dynamiques et une bande-son marquante qui renforcent son identité et en font une référence du PC des années 90.
+Fun fact : La musique du jeu a été composée par Alexander Brandon, futur compositeur de Deus Ex et Unreal.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="es">
+			<text>En vísperas de la llegada de Windows 95, MS-DOS ve aparecer a Jazz, este conejo verde protagonista de un juego de plataformas veloz que lo enfrenta a tortugas en niveles rápidos y coloridos. Inspirado en los referentes del género, el juego apuesta por gran velocidad, disparos dinámicos y una banda sonora memorable que refuerza su identidad y lo convierte en una referencia del PC de los años 90.
+Dato curioso: La música del juego fue compuesta por Alexander Brandon, futuro compositor de Deus Ex y Unreal.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="it">
+			<text>Alla vigilia dell’arrivo di Windows 95, MS-DOS vede comparire Jazz, questo coniglio verde protagonista di un platform frenetico che lo oppone a tartarughe in livelli rapidi e colorati. Ispirato agli standard del genere, il gioco punta su grande velocità, sparatorie dinamiche e una colonna sonora incisiva che rafforza la sua identità e lo rende un riferimento del PC anni 90.
+Curiosità: La musica del gioco fu composta da Alexander Brandon, futuro compositore di Deus Ex e Unreal.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="de">
+			<text>Kurz vor der Ankunft von Windows 95 erlebt MS-DOS den Auftritt von Jazz, dem grünen Hasen und Helden eines schnellen Jump-and-Run-Spiels, das ihn in flotten, farbenfrohen Levels gegen Schildkröten antreten lässt. Inspiriert von den Standards des Genres setzt das Spiel auf hohes Tempo, dynamische Schüsse und einen markanten Soundtrack, der seine Identität prägt und es zu einer PC-Referenz der 90er macht.
+Interessante Tatsache: Die Musik des Spiels wurde von Alexander Brandon komponiert, der später an Deus Ex und Unreal arbeitete.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="pt">
+			<text>Às vésperas da chegada do Windows 95, o MS-DOS vê surgir Jazz, este coelho verde herói de um jogo de plataforma acelerado que o coloca contra tartarugas em fases rápidas e coloridas. Inspirado nos padrões do género, o jogo aposta em grande velocidade, tiros dinâmicos e uma banda sonora marcante que reforça a sua identidade e o torna uma referência do PC dos anos 90.
+Curiosidade: A música do jogo foi composta por Alexander Brandon, futuro compositor de Deus Ex e Unreal.</text>
+		</text>
 	</view>
 </theme>

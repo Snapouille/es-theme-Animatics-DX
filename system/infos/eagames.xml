@@ -1,4 +1,4 @@
- <!--
+<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
@@ -15,6 +15,56 @@ originally based on: "carbon"
 
 <text name="system_description" extra="true" lang="fr">
 <text>EA propose ses jeux PC via l’application EA app (anciennement Origin). Cette plateforme permet d’acheter, télécharger et lancer les jeux du catalogue EA (comme les franchises sportives et les licences maison). Elle est également liée à l’abonnement EA Play, qui donne accès à une sélection de jeux inclus et à des essais temporaires. L’utilisation du launcher EA est obligatoire et les jeux intègrent un DRM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>EA distribuye sus juegos de PC mediante la EA app (antes Origin). Esta plataforma permite comprar, descargar y lanzar juegos del catálogo de EA, incluidas sus principales franquicias. También está vinculada a la suscripción EA Play, que da acceso a una selección de juegos incluidos y pruebas por tiempo limitado. El lanzador de EA es obligatorio y los juegos utilizan DRM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>EA distribuisce i suoi giochi per PC tramite l’EA app (in precedenza Origin). Questa piattaforma permette di acquistare, scaricare e avviare i giochi del catalogo EA, incluse le sue principali serie. È inoltre collegata all’abbonamento EA Play, che offre accesso a una selezione di giochi inclusi e prove a tempo limitato. Il launcher EA è obbligatorio e i giochi usano DRM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>EA vertreibt seine PC-Spiele über die EA app (früher Origin). Diese Plattform dient zum Kaufen, Herunterladen und Starten von Spielen aus dem EA-Katalog, darunter große Marken des Publishers. Sie ist außerdem mit dem EA-Play-Abonnement verbunden, das Zugriff auf ausgewählte Spiele und zeitlich begrenzte Testversionen bietet. Der EA-Launcher ist erforderlich und die Spiele nutzen DRM.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A EA distribui seus jogos de PC pelo EA app (antigo Origin). Essa plataforma permite comprar, baixar e iniciar jogos do catálogo da EA, incluindo suas principais franquias. Ela também está ligada à assinatura EA Play, que oferece acesso a uma seleção de jogos incluídos e testes por tempo limitado. O launcher da EA é obrigatório e os jogos usam DRM.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Dead Space (2008)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Isaac Clarke is a space engineer facing an uncontrolled biological horror aboard the USG Ishimura, a mining ship drifting in deep space. Armed with tools turned into weapons, he fights Necromorphs, creatures born from transformed human bodies.
+Fun fact: Dead Space was designed without a classic on-screen interface, with vital information built directly into Isaac’s suit to strengthen immersion.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Isaac Clarke est un ingénieur spatial confronté à une horreur biologique incontrôlable à bord de l’USG Ishimura, un vaisseau minier dérivant dans l’espace profond. Armé d’outils détournés en armes, il affronte les nécromorphes, créatures issues de corps humains transformés.
+Fun fact : Dead Space a été conçu sans interface classique à l’écran, toutes les informations vitales étant directement intégrées à la combinaison d’Isaac pour renforcer l’immersion.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Isaac Clarke es un ingeniero espacial enfrentado a un horror biológico incontrolable a bordo del USG Ishimura, una nave minera a la deriva en el espacio profundo. Armado con herramientas convertidas en armas, combate a los necromorfos, criaturas surgidas de cuerpos humanos transformados.
+Dato curioso: Dead Space fue diseñado sin una interfaz clásica en pantalla, con la información vital integrada directamente en el traje de Isaac para reforzar la inmersión.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Isaac Clarke è un ingegnere spaziale alle prese con un orrore biologico incontrollabile a bordo della USG Ishimura, una nave mineraria alla deriva nello spazio profondo. Armato di strumenti trasformati in armi, affronta i necromorfi, creature nate da corpi umani trasformati.
+Curiosità: Dead Space è stato progettato senza un’interfaccia classica a schermo, con le informazioni vitali integrate direttamente nella tuta di Isaac per aumentare l’immersione.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Isaac Clarke ist ein Weltraumingenieur, der an Bord der USG Ishimura, eines im tiefen All treibenden Bergbauschiffs, einem unkontrollierbaren biologischen Schrecken begegnet. Mit zu Waffen umfunktionierten Werkzeugen bekämpft er Nekromorphe, Kreaturen aus verwandelten menschlichen Körpern.
+Interessante Tatsache: Dead Space wurde ohne klassische Bildschirmanzeige entworfen, da wichtige Informationen direkt in Isaacs Anzug integriert sind, um die Immersion zu verstärken.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Isaac Clarke é um engenheiro espacial diante de um horror biológico incontrolável a bordo da USG Ishimura, uma nave de mineração à deriva no espaço profundo. Armado com ferramentas transformadas em armas, ele enfrenta necromorfos, criaturas originadas de corpos humanos transformados.
+Curiosidade: Dead Space foi projetado sem uma interface clássica na tela, com as informações vitais integradas diretamente ao traje de Isaac para reforçar a imersão.</text>
 </text>
 
 </view>

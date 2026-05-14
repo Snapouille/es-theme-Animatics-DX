@@ -1,13 +1,22 @@
-## V 2.47 - (23 04 2026)
-- Fixes black screen on Batocera butterfly v43???
+## V 2.48 - (14 05 2026)
+- Added Amiga Demos system from Another Kif pack (link : https://www.youtube.com/watch?v=Guu-xQfqXDc)
+- Added Sega SC-3000 system
+- Added Sega AI system
+- Added Amstrad PCW system
+- Added Exodos system
+- Added an option to view figurine descriptions and fun facts in the System Figurines view
+- Game Carousel: added an option to animate figurines on the desktop
+- Added new publishers logo
+- Cleaned up some farnarts for the smooth wallpaper background
   
-
+## V 2.47 - (23 04 2026)
+- Fixes black screen on Batocera butterfly v43
+  
 ## V 2.46 - (20 04 2026)
 - Added new oval wheel for Game Gear
 - Fixed shadow index for Amiga and 3DS
 - Fixed C20 figurine layouts
   
-
 ## V 2.45 - (13 04 2026)
 - Added BK Elektronika system
 - Added Epoch CassetteVision system

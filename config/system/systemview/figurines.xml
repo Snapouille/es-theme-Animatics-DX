@@ -14,20 +14,35 @@
 
 <view name="system">
 
+	<!-- affichage du nom du système -->
+	<!-- pour voir de quel répertoire de travail il s'agit -->
+				<!-- <text name="txt_systemtheme" extra="true"> -->
+					<!-- <text>${system.theme}</text> -->
+					<!-- <origin>0.5 0.5</origin>									 -->
+					<!-- <size>0.25 0.1</size>									 -->
+					<!-- <pos>0.15 0.04</pos>									 -->
+					<!-- <color>ff0033</color> -->
+					<!-- <alignment>center</alignment> -->
+					<!-- <fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath> -->
+					<!-- <fontSize>0.03</fontSize> -->
+					<!-- <zIndex>8000</zIndex> -->
+				<!-- </text>	 -->
 
-	<!-- POUR AFFICHER LES SYSTEMES MANQUANTS -->
-	<!-- a activer quand on veut voir le nom d'un système manquant -->
-			  <!-- <text name="text_Variable" extra="true"> -->
-				<!-- <text>${system.theme}</text> -->
-				<!-- <origin>0.5 0.5</origin>									 -->
-				<!-- <size>0.4 0.1</size>									 -->
-				<!-- <pos>0.4 0.03</pos>									 -->
-				<!-- <color>ff0033</color> -->
-				<!-- <alignment>center</alignment> -->
-				<!-- <fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath> -->
-				<!-- <fontSize>0.04</fontSize> -->
-				<!-- <zIndex>8000</zIndex> -->
-			<!-- </text>	 -->
+
+	<!-- Affichage des SYSTEMES MANQUANTS -->
+	<!-- visible uniquement si il n'y a pas de fichier logo system -->
+	<text name="system_fallback" extra="true">
+		<visible>!exists({system:logo})</visible>
+		<text>${system.theme}</text>
+		<origin>0.5 0.5</origin>									
+		<size>0.2 0.1</size>									
+		<pos>0.175 0.155</pos>									
+		<color>ff0033</color>
+		<alignment>center</alignment>
+		<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
+		<fontSize>0.04</fontSize>
+		<zIndex>8000</zIndex>
+	</text>	
 
 	<image name="frame_barreAnim_haut, frame_barreAnim_bas, frame_barreAnim_gauche, frame_barreAnim_droite">
 		<visible>false</visible>
@@ -45,8 +60,8 @@
 		<scrollSound>${themePath}/art/sounds/selectgrid.wav</scrollSound>
 		<zIndex>20001</zIndex>
 		<type>horizontal</type>
-		<pos>-0.14 0.1</pos>
-		<pos ifHelpPrompts="true">-0.14 0.08</pos>
+		<pos>-0.02 0.1</pos>
+		<pos ifHelpPrompts="true">-0.02 0.08</pos>
 		<size>1.375 1</size>
 		<logoScale>1.6</logoScale>
 		<logoSize>0.350 0.350</logoSize>
@@ -73,6 +88,11 @@
 					<zIndex>5</zIndex>
 					<padding>3 3 -3 -3</padding>
 					<color>000000</color>
+					<storyboard event="activate" repeatAt="1000">
+						<animation property="offsetY"  to="-0.015" begin="500"   duration="300" mode="Bump"/>
+						<animation property="offsetY"  to="-0.035" begin="7000"  duration="300" mode="Bump"   autoreverse="true"/>
+						<animation property="offsetX"  to="0.005"   begin="19000" duration="200" mode="Bump"   repeat="2" autoreverse="true"/>
+					</storyboard>
 				</image>
 				<image name="figurine">
 					<pos>0.5 0.54</pos>
@@ -81,6 +101,11 @@
 					<path>"${themePath}/art/figurines/" + {system:theme} + ".png"</path>
 					<saturation>0.9</saturation>
 					<zIndex>6</zIndex>
+					<storyboard event="activate" repeatAt="1000">
+						<animation property="offsetY" to="-0.015"  begin="500"   duration="300" mode="Bump"/>
+						<animation property="offsetY" to="-0.035"  begin="7000"  duration="300" mode="Bump"   autoreverse="true"/>
+						<animation property="offsetX"  to="0.005"   begin="19000" duration="200" mode="Bump"   repeat="2" autoreverse="true"/>
+					</storyboard>
 				</image>
 				<image name="shadow_logo">
 					<pos>0.5 0.9</pos>
@@ -90,6 +115,9 @@
 					<padding>3 3 -3 -3</padding>
 					<color>000000</color>
 					<zIndex>7</zIndex>
+					<storyboard event="activate">
+						<animation property="offsetY" to="-0.015" begin="500" duration="300" mode="EaseInOut"/>
+					</storyboard>
 				</image>
 				<image name="logo">
 					<pos>0.5 0.9</pos>
@@ -97,6 +125,9 @@
 					<maxSize>0.2 1</maxSize>
 					<path>{system:logo}</path>
 					<zIndex>8</zIndex>
+					<storyboard event="activate">
+						<animation property="offsetY" to="-0.015" begin="500" duration="300" mode="EaseInOut"/>
+					</storyboard>
 				</image>
 			</container>
 		</itemTemplate>
@@ -127,7 +158,342 @@
 	</image>
 	
 	
-<!-- TEXT totaux des jeux -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Encadrement et fond des descriptions figurines -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	
+	<image name="figurine_desc_border, figurine_desc_bg, figurine_title, figurine_title_mask, figurine_desc" extra="true">
+		<visible>false</visible>
+		<origin>0 0.5</origin>
+		<alignment>left</alignment>
+		<zIndex>6</zIndex>
+		<clipRect>0 0 0.001 1</clipRect>	
+		
+		<storyboard ifSubset="figurine-description-delay:Delay1s">
+			<animation property="clipRect" to="0 0 1 1" begin="300" duration="1300" mode="EaseIn"/>
+		</storyboard>
+
+		<storyboard ifSubset="figurine-description-delay:Delay3s">
+			<animation property="clipRect" to="0 0 1 1" begin="2800" duration="1300" mode="EaseIn"/>
+		</storyboard>
+
+		<storyboard ifSubset="figurine-description-delay:Delay8s">
+			<animation property="clipRect" to="0 0 1 1" begin="7000" duration="1300" mode="EaseIn"/>
+		</storyboard>
+	</image>
+	
+	<image name="figurine_desc_border, figurine_desc_bg, figurine_title, figurine_title_mask, figurine_desc" ifSubset="figurine-description:Show" extra="true">
+		<visible>true</visible>
+		<visible if="${system.theme} == 'amiga600' 
+				|| 	 ${system.theme} == 'amigademos'
+				|| 	 ${system.theme} == 'auto-allgames'
+				|| 	 ${system.theme} == 'auto-allgames'
+				|| 	 ${system.theme} == 'auto-asiaticboard'
+				|| 	 ${system.theme} == 'auto-casino'
+				|| 	 ${system.theme} == 'auto-huntingandfishing'
+				|| 	 ${system.theme} == 'auto-musicanddance'
+				|| 	 ${system.theme} == 'auto-pinball'
+				|| 	 ${system.theme} == 'auto-pinball'
+				|| 	 ${system.theme} == 'auto-playingcards'
+				|| 	 ${system.theme} == 'auto-retroachievements'
+				|| 	 ${system.theme} == 'auto-sports'
+				|| 	 ${system.theme} == 'auto-various'
+				|| 	 ${system.theme} == 'bstone'
+				|| 	 ${system.theme} == 'cdogs'
+				|| 	 ${system.theme} == 'cgenius'
+				|| 	 ${system.theme} == 'chihiro'
+				|| 	 ${system.theme} == 'corsixth'
+				|| 	 ${system.theme} == 'custom-collections'
+				|| 	 ${system.theme} == 'dinothawr'
+				|| 	 ${system.theme} == 'favorites'
+				|| 	 ${system.theme} == 'fba'
+				|| 	 ${system.theme} == 'fba_libretro'
+				|| 	 ${system.theme} == 'fpinball'
+				|| 	 ${system.theme} == 'ghostship'
+				|| 	 ${system.theme} == 'internet'
+				|| 	 ${system.theme} == 'karaoke'
+				|| 	 ${system.theme} == 'laser310'
+				|| 	 ${system.theme} == 'lutro'
+				|| 	 ${system.theme} == 'mrboom'
+				|| 	 ${system.theme} == 'neogeomini'
+				|| 	 ${system.theme} == 'neogeox'
+				|| 	 ${system.theme} == 'nesmini'
+				|| 	 ${system.theme} == 'odcommander'
+				|| 	 ${system.theme} == 'openlara'
+				|| 	 ${system.theme} == 'palm'
+				|| 	 ${system.theme} == 'pinballfx'
+				|| 	 ${system.theme} == 'pinballm'
+				|| 	 ${system.theme} == 'quake'
+				|| 	 ${system.theme} == 'quake2'
+				|| 	 ${system.theme} == 'recordings'
+				|| 	 ${system.theme} == 'sonic-mania'
+				|| 	 ${system.theme} == 'sonic3-air'
+				|| 	 ${system.theme} == 'sonicretro'
+				|| 	 ${system.theme} == 'superbroswar'
+				|| 	 ${system.theme} == 'tradfr'
+				|| 	 ${system.theme} == 'zaccariapinball'
+				|| 	 ${system.theme} == 'zeldac'
+		">false</visible>
+	</image>
+	
+	<image name="figurine_desc_border" extra="true">
+		<path>${themePath}/art/divers/figurine_desc.png</path>
+		<size>0.5458333 0.1787037</size>									
+		<pos>0.3415 0.525</pos>
+		<pos ifHelpPrompts="true">0.3415 0.515</pos>
+		<color>${baseColor}</color>
+	</image>
+	
+	<image name="figurine_desc_bg" extra="true">
+		<path>${themePath}/art/divers/white.png</path>
+		<size>0.4682 0.1768</size>									
+		<pos>0.4192 0.5263</pos>	
+		<pos ifHelpPrompts="true">0.4192 0.516</pos>
+		<zIndex>5</zIndex>
+		<color>000000</color>
+		<opacity>0.85</opacity>
+	</image>
+		
+	<text name="figurine_desc" extra="true">
+		<fontPath>${themePath}/art/fonts/BarlowCondensed-Regular.ttf</fontPath>
+		<fontSize>0.024</fontSize>
+		<size>0.44 0.189</size>									
+		<pos>0.435 0.525</pos>	
+		<pos ifHelpPrompts="true">0.435 0.515</pos>
+		<color>${frameColor}</color>
+		<autoScroll>vertical</autoScroll>
+		<lineSpacing>1.1</lineSpacing>
+		<glowColor>00000069</glowColor>
+		<glowSize>1</glowSize>
+		<glowOffset>3 2</glowOffset>
+	</text>
+	
+	<text name="figurine_title" extra="true">
+		<size>0.35 0.02</size>									
+		<pos>0.45 0.4175</pos>
+		<pos ifHelpPrompts="true">0.45 0.4075</pos>
+        <verticalAlignment>top</verticalAlignment>
+		<forceUppercase>1</forceUppercase>
+		<color>${dataColor}</color>
+		<fontPath>${themePath}/art/fonts/gobold-regular.otf</fontPath>
+		<fontSize>0.018</fontSize>
+		<zIndex>5</zIndex>
+	</text>
+	
+	<text name="figurine_title_mask" extra="true">
+		<size>0.35 0.02</size>									
+		<pos>0.451 0.417</pos>
+		<pos ifHelpPrompts="true">0.45 0.407</pos>
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+		<forceUppercase>1</forceUppercase>
+		<color>000000</color>
+		<fontPath>${themePath}/art/fonts/gobold-regular_blockmask.ttf</fontPath>
+		<fontSize>0.024</fontSize>
+		<zIndex>4</zIndex>
+	</text>
+
+
+	<!-- Ensemble encadré devant être descendu un peu -->
+	<image name="figurine_desc_border, figurine_desc_bg, figurine_title, figurine_title_mask, figurine_desc" 
+			 if="${system.theme} == 'amiga500' 
+			|| 	 ${system.theme} == 'apple2gs' 
+			|| 	 ${system.theme} == 'archimedes'
+			|| 	 ${system.theme} == 'arduboy'
+			|| 	 ${system.theme} == 'atari5200'
+			|| 	 ${system.theme} == 'atari7800'
+			|| 	 ${system.theme} == 'atari800'
+			|| 	 ${system.theme} == 'auto-casual'
+			|| 	 ${system.theme} == 'auto-lightgun'
+			|| 	 ${system.theme} == 'auto-reflection' 
+			|| 	 ${system.theme} == 'bbcmicro'
+			|| 	 ${system.theme} == 'c20' 
+			|| 	 ${system.theme} == 'colecovision' 
+			|| 	 ${system.theme} == 'epic' 
+			|| 	 ${system.theme} == 'flash' 
+			|| 	 ${system.theme} == 'gaelco' 
+			|| 	 ${system.theme} == 'gameandwatch'
+			|| 	 ${system.theme} == 'gb2players' 
+			|| 	 ${system.theme} == 'lcdgames'
+			|| 	 ${system.theme} == 'mame'
+			|| 	 ${system.theme} == 'megaman'
+			|| 	 ${system.theme} == 'mitchell'
+			|| 	 ${system.theme} == 'nichibutsu'
+			|| 	 ${system.theme} == 'nmk'
+			|| 	 ${system.theme} == 'pet' 
+			|| 	 ${system.theme} == 'solarus'
+			|| 	 ${system.theme} == 'spectravideo'
+			|| 	 ${system.theme} == 'starwars'
+			|| 	 ${system.theme} == 'taito'
+			|| 	 ${system.theme} == 'tecmo'
+			|| 	 ${system.theme} == 'toaplan'
+			|| 	 ${system.theme} == 'universal'
+			|| 	 ${system.theme} == 'x68000'
+			" extra="true">
+		<offsetY>0.03</offsetY>
+	</image>
+
+	<!-- Ensemble encadré devant être descendu beaucoup -->
+	<image name="figurine_desc_border, figurine_desc_bg, figurine_title, figurine_title_mask, figurine_desc" 
+			 if="${system.theme} == 'amiga1200' 
+			|| 	 ${system.theme} == 'atom'
+			|| 	 ${system.theme} == 'auto-lastplayed'
+			|| 	 ${system.theme} == 'auto-platform'
+			|| 	 ${system.theme} == 'auto-racedriving'
+			|| 	 ${system.theme} == 'auto-shootemup'
+			|| 	 ${system.theme} == 'auto-simulation'
+			|| 	 ${system.theme} == 'auto-spinner'
+			|| 	 ${system.theme} == 'auto-verticalarcade'
+			|| 	 ${system.theme} == 'auto-wheel'
+			|| 	 ${system.theme} == 'cannonball'
+			|| 	 ${system.theme} == 'chihiro'
+			|| 	 ${system.theme} == 'irem'
+			|| 	 ${system.theme} == 'shmups'
+			|| 	 ${system.theme} == 'triforce'
+			" extra="true">
+		<offsetY>0.05</offsetY>
+	</image>
+
+
+	<!-- Ensemble encadré devant aller un peu à droite -->
+	<image name="figurine_desc_border, figurine_desc_bg, figurine_title, figurine_title_mask, figurine_desc" 
+			 if="${system.theme} == '2ship' 
+			|| 	 ${system.theme} == 'apple2' 
+			|| 	 ${system.theme} == 'astrocade' 
+			|| 	 ${system.theme} == 'atarijaguarcd' 
+			|| 	 ${system.theme} == 'atarist'
+			|| 	 ${system.theme} == 'camplynx'
+			|| 	 ${system.theme} == 'capcom'
+			|| 	 ${system.theme} == 'cgenius' 
+			|| 	 ${system.theme} == 'dice' 
+			|| 	 ${system.theme} == 'dragonball' 
+			|| 	 ${system.theme} == 'gamate' 
+			|| 	 ${system.theme} == 'gbc2players' 
+			|| 	 ${system.theme} == 'gemrb' 
+			|| 	 ${system.theme} == 'intellivision' 
+			|| 	 ${system.theme} == 'megaduck' 
+			|| 	 ${system.theme} == 'metalslug' 
+			|| 	 ${system.theme} == 'mortalkombat' 
+			|| 	 ${system.theme} == 'nes' 
+			|| 	 ${system.theme} == 'openbor' 
+			|| 	 ${system.theme} == 'pico8' 
+			|| 	 ${system.theme} == 'psvita' 
+			|| 	 ${system.theme} == 'pv1000' 
+			|| 	 ${system.theme} == 'saturn' 
+			|| 	 ${system.theme} == 'sgb' 
+			|| 	 ${system.theme} == 'snk' 
+			|| 	 ${system.theme} == 'soccer' 
+			|| 	 ${system.theme} == 'streetfighter' 
+			|| 	 ${system.theme} == 'sufami' 
+			|| 	 ${system.theme} == 'supracan' 
+			|| 	 ${system.theme} == 'tekken' 
+			|| 	 ${system.theme} == 'vectrex' 
+			|| 	 ${system.theme} == 'vircon32' 
+			|| 	 ${system.theme} == 'wii' 
+			|| 	 ${system.theme} == 'x1' 
+			|| 	 ${system.theme} == 'x68000' 
+			|| 	 ${system.theme} == 'xegs' 
+			|| 	 ${system.theme} == 'zelda' 
+			|| 	 ${system.theme} == 'zinc' 
+			|| 	 ${system.theme} == 'zx81' 
+			" extra="true">
+		<offsetX>0.01</offsetX>
+	</image>
+
+
+	<!-- Ensemble encadré devant aller beaucoup à droite -->
+	<image name="figurine_desc_border, figurine_desc_bg, figurine_title, figurine_title_mask, figurine_desc" 
+			 if="${system.theme} == '3do' 
+			|| 	 ${system.theme} == 'advision' 
+			|| 	 ${system.theme} == 'c16' 
+			|| 	 ${system.theme} == 'castlevania' 
+			|| 	 ${system.theme} == 'coco' 
+			|| 	 ${system.theme} == 'disney' 
+			|| 	 ${system.theme} == 'donkeykong' 
+			|| 	 ${system.theme} == 'dragon32' 
+			|| 	 ${system.theme} == 'fm7' 
+			|| 	 ${system.theme} == 'fmtowns' 
+			|| 	 ${system.theme} == 'gb' 
+			|| 	 ${system.theme} == 'metroid' 
+			|| 	 ${system.theme} == 'msx' 
+			|| 	 ${system.theme} == 'msx1' 
+			|| 	 ${system.theme} == 'n64dd' 
+			|| 	 ${system.theme} == 'namco' 
+			|| 	 ${system.theme} == 'pc98' 
+			|| 	 ${system.theme} == 'pcengine' 
+			|| 	 ${system.theme} == 'ports' 
+			|| 	 ${system.theme} == 'soccer' 
+			|| 	 ${system.theme} == 'thomson' 
+			|| 	 ${system.theme} == 'tmnt' 
+			|| 	 ${system.theme} == 'vpinball' 
+			" extra="true">
+		<offsetX>0.02</offsetX>
+	</image>
+
+	<!-- Ensemble encadré devant aller un peu à gauche -->
+	<image name="figurine_desc_border, figurine_desc_bg, figurine_title, figurine_title_mask, figurine_desc" 
+			 if="${system.theme} == 'arduboy' 
+			|| 	 ${system.theme} == 'auto-action'
+			|| 	 ${system.theme} == 'auto-adult'
+			|| 	 ${system.theme} == 'auto-shootemup' 
+			|| 	 ${system.theme} == 'auto-shooter'
+			|| 	 ${system.theme} == 'auto-simulation' 
+			|| 	 ${system.theme} == 'auto-wheel' 
+			|| 	 ${system.theme} == 'c20' 
+			|| 	 ${system.theme} == 'cassettevision' 
+			|| 	 ${system.theme} == 'colecovision'
+			|| 	 ${system.theme} == 'daphne' 
+			|| 	 ${system.theme} == 'gaelco' 
+			|| 	 ${system.theme} == 'gameandwatch' 
+			|| 	 ${system.theme} == 'irem' 
+			|| 	 ${system.theme} == 'konami' 
+			|| 	 ${system.theme} == 'lcdgames'
+			|| 	 ${system.theme} == 'loopy' 
+			|| 	 ${system.theme} == 'mitchell'
+			|| 	 ${system.theme} == 'residentevil'
+			|| 	 ${system.theme} == 'semicom' 
+			|| 	 ${system.theme} == 'shinobi' 
+			|| 	 ${system.theme} == 'simpsons' 
+			|| 	 ${system.theme} == 'spectravideo' 
+			|| 	 ${system.theme} == 'taito' 
+			|| 	 ${system.theme} == 'technos' 
+			|| 	 ${system.theme} == 'toaplan' 
+			|| 	 ${system.theme} == 'universal' 
+			|| 	 ${system.theme} == 'vc4000' 
+			" extra="true">
+		<offsetX>-0.015</offsetX>
+	</image>
+	
+	<!-- Ensemble encadré devant aller bcp à gauche -->
+	<image name="figurine_desc_border, figurine_desc_bg, figurine_title, figurine_title_mask, figurine_desc" 
+			 if="${system.theme} == 'arenseigner' 
+			|| 	 ${system.theme} == 'mariokart' 
+			|| 	 ${system.theme} == 'nmk' 
+			" extra="true">
+		<offsetX>-0.025</offsetX>
+	</image>
+
+
+
+
+
+
+
+
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- FIN Encadrement et fond des descriptions figurines -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+	
+	
+	
+	<!-- TEXT totaux des jeux -->
 		
 	<!-- On masque le total des jeux par défaut -->
 	<text name="systemInfo, systemInfoEx, systemInfoEx2,systemInfoExNull">

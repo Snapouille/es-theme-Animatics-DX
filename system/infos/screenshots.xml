@@ -23,15 +23,52 @@ originally based on: "carbon"
 (Si vous voulez effectuer un screenshot manuellement in game la combinaison est Hotkey+L, les retroachivements vous permettent aussi d'avoir les screenshots des succès remportés si vous avez activer l'option)</text>
 		</text>	
 
+		<text name="system_description" extra="true" lang="it">
+			<text>Qui puoi ritrovare tutti i tuoi screenshot personali, salvati manualmente in gioco con la combinazione Hotkey+L.</text>
+		</text>
 
+		<text name="system_description" extra="true" lang="de">
+			<text>Hier findest du alle deine persönlichen Screenshots, die im Spiel manuell mit der Tastenkombination Hotkey+L gespeichert wurden.</text>
+		</text>
 
+		<text name="system_description" extra="true" lang="pt">
+			<text>Aqui você encontra todas as suas capturas de tela pessoais, salvas manualmente no jogo com a combinação Hotkey+L.</text>
+		</text>
 
+		<text name="figurine_title, figurine_title_mask" extra="true">
+			<text>&#160;&#160;Beyond Good &amp; Evil (2003)&#160;&#160;</text>
+		</text>
 
+		<text name="figurine_desc" extra="true">
+			<text>Jade, a committed photographer, documents the events on the planet Hillys while investigating a major conspiracy. Between infiltration, exploration and shots taken in the heart of the action, the game blends adventure and storytelling in a rich, lively world, carried by a determined and memorable character.
+Fun fact: Photography is a central game mechanic, used both to earn money and to move the story forward.</text>
+		</text>
 
+		<text name="figurine_desc" extra="true" lang="fr">
+			<text>Jade, photographe engagée, documente les événements de la planète Hillys tout en enquêtant sur une conspiration majeure. Entre infiltration, exploration et prises de vue au cœur de l’action, le jeu mêle aventure et narration dans un univers riche et vivant, porté par un personnage déterminé et attachant.
+Fun fact : La photographie est une mécanique centrale du jeu, servant à la fois à gagner de l’argent et à faire avancer l’histoire.</text>
+		</text>
 
+		<text name="figurine_desc" extra="true" lang="es">
+			<text>Jade, fotógrafa comprometida, documenta los sucesos del planeta Hillys mientras investiga una gran conspiración. Entre infiltración, exploración y fotografías tomadas en plena acción, el juego mezcla aventura y narración en un universo rico y vivo, sostenido por un personaje decidido y carismático.
+Dato curioso: La fotografía es una mecánica central del juego, usada tanto para ganar dinero como para hacer avanzar la historia.</text>
+		</text>
 
+		<text name="figurine_desc" extra="true" lang="it">
+			<text>Jade, fotografa impegnata, documenta gli eventi del pianeta Hillys mentre indaga su una grande cospirazione. Tra infiltrazione, esplorazione e scatti nel cuore dell’azione, il gioco unisce avventura e narrazione in un universo ricco e vivo, sorretto da un personaggio deciso e memorabile.
+Curiosità: La fotografia è una meccanica centrale del gioco, utile sia per guadagnare denaro sia per far avanzare la storia.</text>
+		</text>
 
-		
+		<text name="figurine_desc" extra="true" lang="de">
+			<text>Jade, eine engagierte Fotografin, dokumentiert die Ereignisse auf dem Planeten Hillys und untersucht zugleich eine große Verschwörung. Zwischen Infiltration, Erkundung und Aufnahmen mitten im Geschehen verbindet das Spiel Abenteuer und Erzählung in einer lebendigen Welt mit einer entschlossenen, einprägsamen Figur.
+Interessante Tatsache: Fotografie ist eine zentrale Spielmechanik, mit der man Geld verdient und zugleich die Handlung vorantreibt.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="pt">
+			<text>Jade, fotógrafa engajada, documenta os acontecimentos do planeta Hillys enquanto investiga uma grande conspiração. Entre infiltração, exploração e fotos feitas no meio da ação, o jogo mistura aventura e narrativa em um universo rico e vivo, conduzido por uma personagem determinada e marcante.
+Curiosidade: A fotografia é uma mecânica central do jogo, usada tanto para ganhar dinheiro quanto para avançar na história.</text>
+		</text>
+
 	</view>
 
 </theme>

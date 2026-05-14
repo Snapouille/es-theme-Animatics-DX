@@ -1,4 +1,4 @@
- <!--
+<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
@@ -15,6 +15,60 @@ originally based on: "carbon"
 
 <text name="system_description" extra="true" lang="fr">
 <text>Prime Gaming est un service inclus dans l’abonnement Amazon Prime. Il permet de récupérer chaque mois des jeux vidéo gratuits à conserver définitivement et de profiter d’un abonnement mensuel gratuit à une chaîne sur Twitch. C’est un avantage supplémentaire pour les joueurs, sans coût additionnel.</text>
+</text>
+
+<text name="system_description" extra="true" lang="en">
+<text>Prime Gaming is a service included with an Amazon Prime membership. It lets you claim free games every month that you keep forever and gives you one free monthly channel subscription on Twitch. It’s essentially a gaming bonus at no extra cost.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Prime Gaming es un servicio incluido con la suscripción Amazon Prime. Permite reclamar juegos gratuitos cada mes para conservarlos de forma definitiva y ofrece una suscripción mensual gratuita a un canal de Twitch. Es una ventaja adicional para jugadores, sin coste extra.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Prime Gaming è un servizio incluso nell’abbonamento Amazon Prime. Permette di riscattare ogni mese giochi gratuiti da conservare per sempre e offre un abbonamento mensile gratuito a un canale Twitch. È un vantaggio extra per i giocatori, senza costi aggiuntivi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Prime Gaming ist ein Dienst, der in Amazon Prime enthalten ist. Er ermöglicht es, jeden Monat kostenlose Spiele dauerhaft zu sichern und bietet ein kostenloses monatliches Kanal-Abo auf Twitch. Es ist ein zusätzlicher Vorteil für Spieler, ohne Mehrkosten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Prime Gaming é um serviço incluído na assinatura Amazon Prime. Permite resgatar jogos gratuitos todos os meses para guardar para sempre e oferece uma subscrição mensal gratuita a um canal da Twitch. É uma vantagem extra para jogadores, sem custo adicional.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>  Lara Croft  </text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Lara Croft is an iconic adventurer, instantly recognizable by her deliberately curvy silhouette in her earliest appearances. For Prime Gaming, she reflects a selection of games built around action, exploration and puzzles, with a strong place in video game history.
+Fun fact: Lara Croft was one of the first video game characters modeled in real-time 3D with a full body, marking an important step in polygonal character design.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Lara Croft est une aventurière iconique, immédiatement reconnaissable par sa silhouette volontairement plantureuse dans ses premières représentations. Pour Prime Gaming, elle incarne une sélection de jeux mêlant action, exploration et énigmes, avec une présence forte dans l’histoire du jeu vidéo.
+Fun fact : Lara Croft est l’un des premiers personnages de jeu vidéo à avoir été modélisé en 3D temps réel avec un corps complet, marquant une étape importante dans l’évolution des personnages polygonaux.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Lara Croft es una aventurera icónica, reconocible al instante por su silueta deliberadamente voluptuosa en sus primeras apariciones. Para Prime Gaming, representa una selección de juegos de acción, exploración y puzles, con un lugar destacado en la historia del videojuego.
+Dato curioso: Lara Croft fue uno de los primeros personajes de videojuego modelados en 3D en tiempo real con un cuerpo completo, marcando un paso importante en el diseño poligonal.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Lara Croft è un’avventuriera iconica, subito riconoscibile per la silhouette volutamente prosperosa delle prime apparizioni. Per Prime Gaming, rappresenta una selezione di giochi basati su azione, esplorazione ed enigmi, con un posto forte nella storia del videogioco.
+Curiosità: Lara Croft fu uno dei primi personaggi dei videogiochi modellati in 3D in tempo reale con un corpo completo, segnando un passaggio importante nel design poligonale.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Lara Croft ist eine ikonische Abenteurerin, sofort erkennbar an der bewusst üppigen Silhouette ihrer frühen Auftritte. Für Prime Gaming steht sie für eine Auswahl von Spielen rund um Action, Erkundung und Rätsel, mit einem festen Platz in der Videospielgeschichte.
+Interessante Tatsache: Lara Croft gehörte zu den ersten Videospielfiguren, die in Echtzeit-3D mit vollständigem Körper modelliert wurden, ein wichtiger Schritt im polygonalen Charakterdesign.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Lara Croft é uma aventureira icónica, facilmente reconhecível pela silhueta deliberadamente voluptuosa das primeiras aparições. Para Prime Gaming, representa uma seleção de jogos de ação, exploração e enigmas, com um lugar forte na história dos videojogos.
+Curiosidade: Lara Croft foi uma das primeiras personagens de videojogos modeladas em 3D em tempo real com corpo completo, marcando um passo importante no design poligonal.</text>
 </text>
 
 </view>

@@ -169,6 +169,9 @@
 		<size if="${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == '3ds' || ${system.theme} == 'xbox360' ">0.442 0.44</size>									
 		<pos  if="${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == '3ds' || ${system.theme} == 'xbox360' ">0.245 0.2949074</pos>									
 
+		<size if="${system.theme} == 'amigademos' || ${system.theme} == 'amiga500' || ${system.theme} == 'amiga1200' || ${system.theme} == 'amiga4000' || ${system.theme} == 'amigademos'">0.348 0.495</size>									
+		<pos  if="${system.theme} == 'amigademos' || ${system.theme} == 'amiga500' || ${system.theme} == 'amiga1200' || ${system.theme} == 'amiga4000' || ${system.theme} == 'amigademos'">0.213 0.3</pos>	
+		
 		<size if="${system.theme} == 'nds' ">0.2 0.495</size>									
 		<pos  if="${system.theme} == 'nds' ">0.175 0.3</pos>	
 		
@@ -214,6 +217,9 @@
 
 		<size if="${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == '3ds' || ${system.theme} == 'xbox360' ">0.442 0.44</size>									
 		<pos  if="${system.theme} == 'windows' || ${system.theme} == 'switch' || ${system.theme} == 'wiiu' || ${system.theme} == 'ps3' || ${system.theme} == 'psp' || ${system.theme} == 'psvita' || ${system.theme} == '3ds' || ${system.theme} == 'xbox360' ">0.245 0.2949074</pos>									
+		
+		<size if="${system.theme} == 'amigademos' || ${system.theme} == 'amiga500' || ${system.theme} == 'amiga1200' || ${system.theme} == 'amiga4000' || ${system.theme} == 'amigademos'">0.348 0.495</size>									
+		<pos  if="${system.theme} == 'amigademos' || ${system.theme} == 'amiga500' || ${system.theme} == 'amiga1200' || ${system.theme} == 'amiga4000' || ${system.theme} == 'amigademos'">0.213 0.3</pos>	
 		
 		<size if="${system.theme} == 'nds' ">0.2 0.495</size>									
 		<pos  if="${system.theme} == 'nds' ">0.175 0.3</pos>	

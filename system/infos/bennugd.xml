@@ -1,4 +1,4 @@
- <!--
+<!--
 Theme: Animatix-DX for Retrobat / Batocera / Emuelec
 author: Snapouille
 license: creative commons CC-BY-NC-SA
@@ -15,6 +15,56 @@ originally based on: "carbon"
 
 <text name="system_description" extra="true" lang="fr">
 <text>Moteur open-source dérivé de Fenix, BennuGD permet de faire tourner de nombreux jeux et projets 2D indépendants sur des systèmes modernes. Léger et portable, il est souvent utilisé pour adapter des jeux rétro ou des créations homebrew. Anecdote : malgré son apparence simple, BennuGD a servi à porter plusieurs jeux amateurs sur consoles portables et plateformes Linux, ce qui lui a donné une seconde vie dans la scène rétro.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Motor de código abierto derivado de Fenix, BennuGD se utiliza para ejecutar muchos juegos y proyectos 2D independientes en sistemas modernos. Ligero y portable, suele elegirse para juegos de estilo retro y ports homebrew. Dato curioso: pese a su sencillez, BennuGD se ha usado para llevar varios títulos creados por fans a dispositivos portátiles y sistemas Linux.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Motore open source derivato da Fenix, BennuGD viene usato per eseguire molti giochi e progetti 2D indipendenti su sistemi moderni. Leggero e portabile, è spesso scelto per giochi in stile rétro e conversioni homebrew. Curiosità: nonostante la sua semplicità, BennuGD è stato usato per portare diversi titoli amatoriali su dispositivi portatili e sistemi Linux.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Als Open-Source-Engine auf Basis von Fenix wird BennuGD genutzt, um viele unabhängige 2D-Spiele und Projekte auf modernen Systemen auszuführen. Leichtgewichtig und portabel, eignet sie sich oft für Retro-Spiele und Homebrew-Portierungen. Interessante Tatsache: BennuGD wurde für mehrere Fan-Projekte auf Handhelds und Linux-Systemen genutzt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Motor open source derivado do Fenix, o BennuGD é usado para executar muitos jogos e projetos 2D independentes em sistemas modernos. Leve e portátil, costuma ser escolhido para jogos de estilo retrô e ports homebrew. Curiosidade: apesar da simplicidade, o BennuGD já levou vários títulos feitos por fãs a dispositivos portáteis e sistemas Linux.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Toki (Remake)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Remake of Toki developed with Bennu Game Development, this version modernizes the action platforming of the warrior ape. Gameplay relies on precise shots, timing and learning each level against varied enemies. It keeps the arcade spirit of the original while adapting it to a modern environment.
+Fun fact: Bennu Game Development is an open-source engine derived from Fenix, itself based on DIV Games Studio.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Remake de Toki développé avec Bennu Game Development, cette version modernise l’action plateforme du singe guerrier. Le gameplay repose sur des tirs précis, le timing et l’apprentissage des niveaux face à des ennemis variés. L’ensemble conserve l’esprit arcade du jeu original tout en s’adaptant à un environnement moderne.
+Fun fact : Bennu Game Development est un moteur open source dérivé de Fénix, lui-même issu de DIV Games Studio.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Remake de Toki desarrollado con Bennu Game Development, esta versión moderniza la acción de plataformas del simio guerrero. La jugabilidad se basa en disparos precisos, el timing y el aprendizaje de los niveles frente a enemigos variados. Conserva el espíritu arcade del original adaptado a un entorno moderno.
+Dato curioso: Bennu Game Development es un motor open source derivado de Fénix, a su vez basado en DIV Games Studio.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Remake di Toki sviluppato con Bennu Game Development, questa versione modernizza l’azione platform della scimmia guerriera. Il gameplay si basa su tiri precisi, tempismo e apprendimento dei livelli contro nemici vari. Conserva lo spirito arcade dell’originale adattandolo a un ambiente moderno.
+Curiosità: Bennu Game Development è un motore open source derivato da Fénix, a sua volta nato da DIV Games Studio.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Remake von Toki, entwickelt mit Bennu Game Development, diese Version modernisiert die Action-Plattform-Elemente des kämpfenden Affen. Das Gameplay beruht auf präzisen Schüssen, Timing und dem Lernen der Level gegen vielfältige Gegner. Es bewahrt den Arcade-Geist des Originals in moderner Umgebung.
+Interessante Tatsache: Bennu Game Development ist eine Open-Source-Engine, abgeleitet von Fénix, das auf DIV Games Studio basiert.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Remake de Toki desenvolvido com Bennu Game Development, esta versão moderniza a ação de plataforma do macaco guerreiro. A jogabilidade depende de tiros precisos, timing e aprendizagem dos níveis contra inimigos variados. Mantém o espírito arcade do original adaptado a um ambiente moderno.
+Curiosidade: Bennu Game Development é um motor open source derivado do Fénix, por sua vez baseado no DIV Games Studio.</text>
 </text>
 
 </view>

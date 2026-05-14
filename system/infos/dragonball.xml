@@ -10,11 +10,51 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-<text>Dragon Ball</text>
+<text>Dragon Ball is a manga by Akira Toriyama. It follows Son Goku from childhood to adulthood as he explores the world in search of the Dragon Balls and faces increasingly powerful opponents, some of whom become allies. The manga became a major cultural phenomenon, with many video games and other derivative works created from it.</text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
 <text>Dragon Ball est un manga d'Akira Toriyama. Il raconte le parcours de Son Goku, depuis l'enfance jusqu'à l'âge adulte où il est amené à explorer le monde à la recherche des Dragon Balls et à combattre des adversaires de plus en plus forts, dont certains deviendront des alliés. Le manga s'inscrit dans la culture de masse en tant que phénomène culturel. De nombreux jeux vidéo et autres produits dérivés en sont issus.</text>
+</text>
+<text name="system_description" extra="true" lang="es">
+<text>Dragon Ball es un manga de Akira Toriyama. Narra el recorrido de Son Goku, desde la infancia hasta la edad adulta, mientras explora el mundo en busca de las Dragon Balls y combate contra adversarios cada vez más fuertes, algunos de los cuales se convierten en aliados. El manga se integró en la cultura popular como un fenómeno cultural, dando lugar a numerosos videojuegos y productos derivados.</text>
+</text>
+<text name="system_description" extra="true" lang="it">
+<text>Dragon Ball è un manga di Akira Toriyama. Racconta il percorso di Son Goku, dall'infanzia all'età adulta, mentre esplora il mondo alla ricerca delle Dragon Balls e affronta avversari sempre più forti, alcuni dei quali diventeranno alleati. Il manga è entrato nella cultura di massa come fenomeno culturale, dando origine a numerosi videogiochi e prodotti derivati.</text>
+</text>
+<text name="system_description" extra="true" lang="de">
+<text>Dragon Ball ist ein Manga von Akira Toriyama. Er erzählt den Weg von Son Goku, von seiner Kindheit bis ins Erwachsenenalter, während er die Welt auf der Suche nach den Dragon Balls erkundet und gegen immer stärkere Gegner kämpft, von denen einige zu Verbündeten werden. Der Manga wurde zu einem kulturellen Phänomen der Popkultur und brachte zahlreiche Videospiele sowie weitere Ableger hervor.</text>
+</text>
+<text name="system_description" extra="true" lang="pt">
+<text>Dragon Ball é um manga de Akira Toriyama. Conta o percurso de Son Goku, desde a infância até à idade adulta, enquanto explora o mundo em busca das Dragon Balls e enfrenta adversários cada vez mais fortes, alguns dos quais se tornam aliados. O manga entrou na cultura de massas como fenómeno cultural, originando numerosos videojogos e outros produtos derivados.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Dragon Ball (Famicom, 1986)&#160;&#160;</text>
+</text>
+<text name="figurine_desc" extra="true">
+<text>Young Son Goku is a pure-hearted fighter, recognizable by his monkey tail and endless curiosity, traveling on his magical Kinto-un cloud reserved for pure souls, a symbol of his innocence and early adventures in a quest mixing martial arts, discovery and decisive encounters that will shape his destiny.
+Fun fact: The Kinto-un cloud is inspired by the magic cloud from the Chinese novel Journey to the West, a major work that strongly influenced Dragon Ball.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Son Goku enfant est un jeune combattant au cœur pur, reconnaissable à sa queue de singe et à son insatiable curiosité, voyageant sur son nuage magique Kinto-un réservé aux âmes pures, symbole de son innocence et de ses débuts dans une quête mêlant arts martiaux, aventure et rencontres déterminantes qui façonneront son destin.
+Fun fact : Le nuage Kinto-un est inspiré du “nuage magique” du roman chinois Le Voyage en Occident, une œuvre majeure qui a fortement influencé la création de Dragon Ball.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="es">
+<text>Son Goku niño es un joven luchador de corazón puro, reconocible por su cola de mono y su curiosidad insaciable, viajando sobre su nube mágica Kinto-un reservada a las almas puras, símbolo de su inocencia y de sus primeros pasos en una búsqueda que mezcla artes marciales, aventura y encuentros decisivos que moldearán su destino.
+Dato curioso: La nube Kinto-un está inspirada en la nube mágica de la novela china Viaje al Oeste, una obra clave que influyó mucho en la creación de Dragon Ball.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="it">
+<text>Son Goku bambino è un giovane combattente dal cuore puro, riconoscibile dalla coda di scimmia e dalla curiosità inesauribile, in viaggio sulla sua nuvola magica Kinto-un riservata alle anime pure, simbolo della sua innocenza e dei suoi esordi in una ricerca fatta di arti marziali, avventura e incontri decisivi che plasmeranno il suo destino.
+Curiosità: La nuvola Kinto-un si ispira alla nuvola magica del romanzo cinese Il viaggio in Occidente, opera fondamentale per la creazione di Dragon Ball.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="de">
+<text>Der junge Son Goku ist ein Kämpfer mit reinem Herzen, erkennbar an seinem Affenschwanz und seiner unstillbaren Neugier, der auf seiner magischen Kinto-un-Wolke reist, die reinen Seelen vorbehalten ist. Sie steht für seine Unschuld und seine Anfänge in einer Reise voller Kampfkunst, Abenteuer und prägender Begegnungen.
+Interessante Tatsache: Die Kinto-un-Wolke ist von der magischen Wolke aus dem chinesischen Roman Die Reise nach Westen inspiriert, der Dragon Ball stark beeinflusste.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Son Goku criança é um jovem lutador de coração puro, reconhecível pela cauda de macaco e pela curiosidade insaciável, viajando na sua nuvem mágica Kinto-un reservada às almas puras, símbolo da sua inocência e dos seus primeiros passos numa busca que mistura artes marciais, aventura e encontros decisivos que moldarão o seu destino.
+Curiosidade: A nuvem Kinto-un é inspirada na nuvem mágica do romance chinês Jornada ao Oeste, uma obra essencial que influenciou muito Dragon Ball.</text>
 </text>
 
 </view>

@@ -49,5 +49,40 @@ originally based on: "carbon"
 <text>arduboy - это 8-битная портативная игровая консоль на базе платформы Arduino с открытым исходным кодом2. Первоначально это был проект Кевина Бейтса на Kickstarter3, который стартовал в начале 2015 года и собрал более 400 000 долларов при участии более 7 000 вкладчиков. В него встроен 1,3-дюймовый монохромный OLED-дисплей с разрешением 128 x 64.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Circuit Dude (2016)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Circuit Dude is a top-down puzzle game where a small technician builds a secret invention by wiring chips, pushing blocks and activating circuits. Designed around the Arduboy limits, it uses a very clear monochrome display, short stages and Sokoban-like logic.
+Fun fact: The Arduboy version featured 75 levels, before a larger PC release added 120 more with a level editor.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Circuit Dude est un puzzle game en vue de dessus où le joueur aide un petit technicien à construire une invention secrète en branchant des puces, en poussant des blocs et en activant des circuits. Pensé pour les limites de l’Arduboy, le jeu exploite un affichage monochrome très lisible, des niveaux courts et une logique proche du Sokoban.
+Fun fact : La version Arduboy proposait 75 niveaux, avant qu’une version plus complète sur PC n’en ajoute 120 avec un éditeur de niveaux.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Circuit Dude es un puzzle con vista cenital donde el jugador ayuda a un pequeño técnico a crear un invento secreto conectando chips, empujando bloques y activando circuitos. Pensado para los límites de Arduboy, usa una pantalla monocroma muy clara, fases cortas y una lógica cercana a Sokoban.
+Dato curioso: La versión de Arduboy incluía 75 niveles, antes de que una edición de PC añadiera 120 más con editor de niveles.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Circuit Dude è un puzzle game con visuale dall’alto in cui il giocatore aiuta un piccolo tecnico a costruire un’invenzione segreta collegando chip, spingendo blocchi e attivando circuiti. Pensato per i limiti di Arduboy, usa una grafica monocromatica molto chiara, livelli brevi e una logica vicina a Sokoban.
+Curiosità: La versione Arduboy offriva 75 livelli, prima che un’edizione PC più ricca ne aggiungesse altri 120 con editor di livelli.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Circuit Dude ist ein Puzzle-Spiel aus der Draufsicht, in dem ein kleiner Techniker eine geheime Erfindung baut, indem er Chips verbindet, Blöcke verschiebt und Schaltkreise aktiviert. Für die Grenzen des Arduboy gedacht, nutzt es eine klare Monochromgrafik, kurze Level und eine Logik nahe an Sokoban.
+Interessante Tatsache: Die Arduboy-Version bot 75 Level, bevor eine größere PC-Fassung 120 weitere und einen Level-Editor hinzufügte.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Circuit Dude é um puzzle visto de cima em que o jogador ajuda um pequeno técnico a construir uma invenção secreta ligando chips, empurrando blocos e ativando circuitos. Pensado para os limites do Arduboy, usa um visual monocromático muito claro, fases curtas e uma lógica próxima de Sokoban.
+Curiosidade: A versão Arduboy trazia 75 níveis, antes de uma edição mais completa para PC acrescentar mais 120 com editor de níveis.</text>
+</text>
+
 </view>
 </theme>

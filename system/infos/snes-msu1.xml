@@ -1,52 +1,63 @@
-<!--
-Theme: Animatix-DX for Retrobat / Batocera / Emuelec
-author: Snapouille
-license: creative commons CC-BY-NC-SA
-originally based on: "carbon"
--->
-
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
 
 <text name="system_description" extra="true">
-<text>The MSU-1 chip does not exist in physical form on the console, it is a virtual chip created by a genius, reminiscent of Nintendo and Sony coming together to release the Super Nintendo PlayStation Super CD. This chip allows, among other things, to have new sound features with the addition of audio tracks.</text>
+<text>MSU-1 Super Nintendo games are modified versions of SNES titles using the MSU-1 chip. This virtual chip allows the addition of high-quality audio tracks, offering enhanced sound experiences and giving classic games a new atmosphere created by dedicated retro-gaming fans.</text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-<text>La puce MSU-1 n'existe pas en physique sur la console, c'est une puce virtuelle créer par un génie qui rappelle le rapprochement de Nintendo et de Sony pour sortir la Super Nintendo PlayStation Super CD. Cette puce permet entre autres d'avoir de nouvelles fonctionnalités sonores avec l'ajout de pistes audio.</text>
-</text>
-
-<text name="system_description" extra="true" lang="de">
-<text>Der MSU-1-Chip existiert nicht physisch auf der Konsole, sondern ist ein virtueller Chip, der von einem Genie geschaffen wurde, das an die Annäherung von Nintendo und Sony bei der Veröffentlichung der Super Nintendo PlayStation Super CD erinnert. Dieser Chip ermöglicht unter anderem neue Soundfunktionen durch Hinzufügen von Audiospuren.</text>
+<text>Les jeux MSU-1 sur Super Nintendo sont des versions modifiées de jeux SNES utilisant la puce MSU-1. Cette puce virtuelle permet d’ajouter des pistes audio de haute qualité et d’offrir une expérience sonore enrichie, redonnant une nouvelle ambiance aux jeux classiques.</text>
 </text>
 
 <text name="system_description" extra="true" lang="es">
-<text>El chip MSU-1 no existe de forma física en la consola, es un chip virtual creado por un genio que recuerda el acercamiento entre Nintendo y Sony para lanzar la Super Nintendo PlayStation Super CD. Este chip permite, entre otras cosas, disponer de nuevas funciones de sonido con la adición de pistas de audio.</text>
+<text>Los juegos MSU-1 de Super Nintendo son versiones modificadas de títulos SNES que utilizan el chip MSU-1. Este chip virtual permite añadir pistas de audio de alta calidad y ofrecer una experiencia sonora mejorada, dando nueva vida a los juegos clásicos.</text>
 </text>
 
 <text name="system_description" extra="true" lang="it">
-<text>Il chip MSU-1 non esiste in forma fisica sulla console, è un chip virtuale creato da un genio che ricorda il riavvicinamento tra Nintendo e Sony per rilasciare il Super Nintendo PlayStation Super CD. Questo chip permette, tra le altre cose, di avere nuove caratteristiche sonore con l'aggiunta di tracce audio.</text>
+<text>I giochi MSU-1 per Super Nintendo sono versioni modificate di titoli SNES che utilizzano il chip MSU-1. Questo chip virtuale permette di aggiungere tracce audio di alta qualità, offrendo un’esperienza sonora migliorata ai giochi classici.</text>
 </text>
 
-<text name="system_description" extra="true" lang="ja">
-<text>MSU-1チップはゲーム機に物理的に存在するものではなく、任天堂とソニーが和解してスーパーファミコン・プレイステーション・スーパーCDを発売したことを思い出した天才が作ったバーチャルチップである。このチップによって、とりわけ、オーディオトラックの追加による新しいサウンド機能を持つことができる。</text>
-</text>
-
-<text name="system_description" extra="true" lang="nl">
-<text>De MSU-1 chip bestaat niet in fysieke vorm op de console, het is een virtuele chip gemaakt door een genie die zich de toenadering tussen Nintendo en Sony herinnert om de Super Nintendo PlayStation Super CD uit te brengen. Deze chip maakt onder andere nieuwe geluidsfuncties mogelijk met de toevoeging van audiotracks.</text>
-</text>
-
-<text name="system_description" extra="true" lang="pl">
-<text>Chip MSU-1 nie istnieje w formie fizycznej na konsoli, jest to wirtualny chip stworzony przez geniusza, który wspomina zbliżenie Nintendo i Sony w celu wydania Super Nintendo PlayStation Super CD. Chip ten pozwala między innymi na posiadanie nowych funkcji dźwiękowych z dodaniem ścieżek audio.</text>
+<text name="system_description" extra="true" lang="de">
+<text>MSU-1-Spiele für das Super Nintendo sind modifizierte SNES-Titel, die den MSU-1-Chip nutzen. Dieser virtuelle Chip ermöglicht hochwertige Audiotracks und bietet eine verbesserte Klangkulisse für klassische Spiele.</text>
 </text>
 
 <text name="system_description" extra="true" lang="pt">
-<text>O chip MSU-1 não existe em forma física na consola, é um chip virtual criado por um génio que recorda a aproximação entre a Nintendo e a Sony para o lançamento do Super Nintendo PlayStation Super CD. Este chip permite, entre outras coisas, ter novas características sonoras com a adição de faixas de áudio.</text>
+<text>Os jogos MSU-1 para Super Nintendo são versões modificadas de títulos SNES que utilizam o chip MSU-1. Este chip virtual permite adicionar faixas de áudio de alta qualidade, oferecendo uma experiência sonora melhorada aos jogos clássicos.</text>
 </text>
 
-<text name="system_description" extra="true" lang="ru">
-<text>Чип MSU-1 не существует в физической форме на консоли, это виртуальный чип, созданный гением, который вспомнил о сближении Nintendo и Sony для выпуска Super Nintendo PlayStation Super CD. Этот чип позволяет, помимо прочего, иметь новые звуковые возможности с добавлением аудиодорожек.</text>
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Demon’s Crest (1994)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Firebrand is a winged demon able to fly, breathe fire and transform into stronger forms. Driven by the conquest of the six elemental crests, he explores a dark world filled with danger and hidden paths. His adventure combines demanding action, exploration and progression within a gothic setting built around discovery and power upgrades.
+Fun fact: Demon’s Crest is the third game in the Gargoyle’s Quest spin-off series from Ghosts ’n Goblins.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Firebrand est un démon ailé capable de voler, cracher du feu et se transformer en formes redoutables. Obsédé par la conquête des six pierres élémentaires, il parcourt un monde sombre rempli de dangers et de passages cachés. Son aventure mêle action exigeante, exploration et progression dans un univers gothique structuré autour des transformations.
+Fun fact : Demon’s Crest est le troisième épisode de la série dérivée Gargoyle’s Quest, issue de Ghosts ’n Goblins.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Firebrand es un demonio alado capaz de volar, escupir fuego y transformarse en formas más poderosas. Obsesionado con conquistar los seis emblemas elementales, recorre un mundo oscuro lleno de peligros y caminos ocultos. Su aventura combina acción exigente, exploración y progresión en un entorno gótico centrado en las transformaciones.
+Dato curioso: Demon’s Crest es el tercer juego de la serie derivada Gargoyle’s Quest de Ghosts ’n Goblins.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Firebrand è un demone alato capace di volare, sputare fuoco e trasformarsi in forme più potenti. Ossessionato dalla conquista dei sei stemmi elementali, attraversa un mondo oscuro pieno di pericoli e percorsi nascosti. La sua avventura unisce azione impegnativa, esplorazione e progressione in un universo gotico basato sulle trasformazioni.
+Curiosità: Demon’s Crest è il terzo episodio della serie Gargoyle’s Quest derivata da Ghosts ’n Goblins.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Firebrand ist ein geflügelter Dämon, der fliegen, Feuer speien und sich verwandeln kann. Getrieben von der Suche nach den sechs elementaren Wappen erkundet er eine dunkle Welt voller Gefahren und geheimer Wege. Sein Abenteuer verbindet anspruchsvolle Action, Erkundung und Fortschritt in einem gotischen Umfeld mit Fokus auf Verwandlungen.
+Interessante Tatsache: Demon’s Crest ist der dritte Teil der Gargoyle’s-Quest-Reihe aus Ghosts ’n Goblins.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Firebrand é um demónio alado capaz de voar, cuspir fogo e transformar-se em formas mais poderosas. Obcecado pela conquista dos seis emblemas elementares, percorre um mundo sombrio cheio de perigos e caminhos ocultos. A sua aventura combina ação exigente, exploração e progressão num universo gótico centrado nas transformações.
+Curiosidade: Demon’s Crest é o terceiro jogo da série Gargoyle’s Quest derivada de Ghosts ’n Goblins.</text>
 </text>
 
 </view>

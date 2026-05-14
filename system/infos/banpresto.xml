@@ -17,16 +17,20 @@ originally based on: "carbon"
 <text>Banpresto Co., Ltd. (株式会社バンプレスト) est une société japonaise de fabrication de jouets et de figurines ainsi que d’édition et de développement de jeux vidéo, fondée en avril 1977 et située dans l'arrondissement de Shinagawa à Tokyo.</text>
 </text>
 
-<text name="system_description" extra="true" lang="de">
-<text>Banpresto Co, Ltd (株式会社バンプレスト) ist ein japanisches Unternehmen, das Spielzeuge und Figuren herstellt sowie Videospiele veröffentlicht und entwickelt. Es wurde im April 1977 gegründet und hat seinen Sitz im Bezirk Shinagawa in Tokio.</text>
-</text>
-
 <text name="system_description" extra="true" lang="es">
 <text>Banpresto Co, Ltd (株式会社バンプレスト) es una empresa japonesa fabricante de juguetes y figuras de acción y editora y desarrolladora de videojuegos, fundada en abril de 1977 y ubicada en Shinagawa Ward, Tokio.</text>
 </text>
 
 <text name="system_description" extra="true" lang="it">
 <text>Banpresto Co, Ltd (株式会社バンプレスト) è una società giapponese di produzione di giocattoli e action figure e di pubblicazione e sviluppo di videogiochi, fondata nell'aprile del 1977 e con sede nel quartiere di Shinagawa, a Tokyo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Banpresto Co, Ltd (株式会社バンプレスト) ist ein japanisches Unternehmen, das Spielzeuge und Figuren herstellt sowie Videospiele veröffentlicht und entwickelt. Es wurde im April 1977 gegründet und hat seinen Sitz im Bezirk Shinagawa in Tokio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Banpresto Co, Ltd (株式会社バンプレスト) é uma empresa japonesa de fabrico de brinquedos e figuras de acção e de edição e desenvolvimento de jogos de vídeo, fundada em Abril de 1977 e localizada em Shinagawa Ward, Tóquio.</text>
 </text>
 
 <text name="system_description" extra="true" lang="ja">
@@ -41,12 +45,42 @@ originally based on: "carbon"
 <text>Banpresto Co, Ltd (株式会社バンプレスト) to japońska firma produkująca zabawki i figurki akcji oraz wydająca i rozwijająca gry wideo, założona w kwietniu 1977 roku i mieszcząca się w Shinagawa Ward w Tokio.</text>
 </text>
 
-<text name="system_description" extra="true" lang="pt">
-<text>Banpresto Co, Ltd (株式会社バンプレスト) é uma empresa japonesa de fabrico de brinquedos e figuras de acção e de edição e desenvolvimento de jogos de vídeo, fundada em Abril de 1977 e localizada em Shinagawa Ward, Tóquio.</text>
-</text>
-
 <text name="system_description" extra="true" lang="ru">
 <text>Banpresto Co, Ltd (株式会社バンプレスト) - японская компания по производству игрушек и фигурок, изданию и разработке видеоигр, основанная в апреле 1977 года и расположенная в токийском квартале Синагава.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Godzilla (1993)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Godzilla is a gigantic creature that became one of the most famous monsters in Japanese cinema. With his massive silhouette, dorsal plates and atomic breath, he has long embodied destruction, nuclear disaster and the kaiju universe popularized by tokusatsu productions. His imposing presence deeply influenced Japanese science fiction and inspired many giant monsters in film and video games.
+Fun fact: Godzilla’s original roar was created by rubbing a resin-coated glove along the strings of a double bass.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Godzilla est une créature gigantesque devenue l’un des monstres les plus célèbres du cinéma japonais. Avec sa silhouette massive, ses plaques dorsales et son souffle atomique, il incarne depuis des décennies l’univers des kaijū popularisé par les productions tokusatsu. Son apparence a inspiré de nombreux monstres géants au cinéma comme dans le jeu vidéo.
+Fun fact : Le rugissement original de Godzilla a été créé en frottant un gant enduit de résine sur les cordes d’une contrebasse.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Godzilla es una criatura gigantesca que se convirtió en uno de los monstruos más famosos del cine japonés. Con su silueta enorme, sus placas dorsales y su aliento atómico, encarna desde hace décadas la destrucción, los desastres nucleares y el universo kaiju popularizado por las producciones tokusatsu. Su presencia imponente marcó profundamente la ciencia ficción japonesa e inspiró a muchos monstruos gigantes del cine y los videojuegos.
+Dato curioso: El rugido original de Godzilla se creó frotando un guante cubierto de resina sobre las cuerdas de un contrabajo.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Godzilla è una creatura gigantesca diventata uno dei mostri più celebri del cinema giapponese. Con la sua sagoma massiccia, le placche dorsali e il soffio atomico, incarna da decenni distruzione, catastrofi nucleari e l’universo kaiju reso popolare dalle produzioni tokusatsu. La sua presenza imponente ha segnato profondamente la fantascienza giapponese e ispirato molti mostri giganti nel cinema e nei videogiochi.
+Curiosità: Il ruggito originale di Godzilla fu creato strofinando un guanto ricoperto di resina sulle corde di un contrabbasso.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Godzilla ist eine gigantische Kreatur und eines der berühmtesten Monster des japanischen Kinos. Mit seiner massiven Silhouette, den Rückenplatten und dem atomaren Atem verkörpert er seit Jahrzehnten Zerstörung, nukleare Katastrophen und die durch Tokusatsu-Produktionen geprägte Kaiju-Welt. Seine imposante Präsenz prägte die japanische Science-Fiction nachhaltig und inspirierte viele Riesenmonster in Film und Videospielen.
+Interessante Tatsache: Godzillas ursprüngliches Brüllen entstand, indem ein mit Harz bestrichener Handschuh über die Saiten eines Kontrabasses gerieben wurde.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Godzilla é uma criatura gigantesca que se tornou um dos monstros mais famosos do cinema japonês. Com a sua silhueta maciça, placas dorsais e sopro atómico, encarna há décadas a destruição, as catástrofes nucleares e o universo kaiju popularizado pelas produções tokusatsu. A sua presença imponente marcou profundamente a ficção científica japonesa e inspirou muitos monstros gigantes no cinema e nos videojogos.
+Curiosidade: O rugido original de Godzilla foi criado esfregando uma luva coberta de resina nas cordas de um contrabaixo.</text>
 </text>
 
 </view>

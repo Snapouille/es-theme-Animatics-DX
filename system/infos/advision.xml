@@ -49,5 +49,40 @@ originally based on: "carbon"
 <text>Adventure Vision - это консоль на базе картриджа, выпущенная компанией Entex Industries в 1982 году. Монитор, игровые элементы управления и компьютерное оборудование находятся в одном портативном устройстве. Светодиодный монитор может отображать только красные пиксели. Было выпущено четыре игры, все они являются аркадными портами.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Defender (1982)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The Defender ship is a space fighter tasked with protecting humanoids from waves of hostile aliens. Able to move quickly in both directions and use forward fire as well as a smart bomb, it demands precise control in a fast and demanding gameplay style.
+Fun fact: Defender is considered one of the first games to introduce free horizontal scrolling, letting players move through a continuous world.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le vaisseau de Defender est un chasseur spatial chargé de protéger des humanoïdes contre des vagues d’aliens hostiles. Capable de se déplacer rapidement dans les deux sens et d’utiliser un tir frontal ainsi qu’une bombe intelligente, il exige une maîtrise précise dans un gameplay nerveux et exigeant.
+Fun fact : Defender est considéré comme l’un des premiers jeux à avoir introduit un scrolling horizontal libre, permettant au joueur de naviguer sans interruption dans un monde continu.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>La nave de Defender es un caza espacial encargado de proteger a los humanoides de oleadas de alienígenas hostiles. Capaz de moverse rápido en ambos sentidos y usar disparo frontal junto a una bomba inteligente, exige un control preciso en un juego intenso y exigente.
+Dato curioso: Defender es considerado uno de los primeros juegos en introducir desplazamiento horizontal libre, permitiendo recorrer un mundo continuo.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>La nave di Defender è un caccia spaziale incaricato di proteggere gli umanoidi da ondate di alieni ostili. Capace di muoversi rapidamente in entrambe le direzioni e usare un fuoco frontale oltre a una bomba intelligente, richiede grande precisione in un gameplay rapido ed esigente.
+Curiosità: Defender è considerato uno dei primi giochi a introdurre lo scorrimento orizzontale libero, permettendo di esplorare un mondo continuo.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Das Schiff aus Defender ist ein Raumjäger, der Humanoide vor Wellen feindlicher Aliens schützen muss. Es kann sich schnell in beide Richtungen bewegen und nutzt Frontfeuer sowie eine Smart Bomb, wodurch präzise Kontrolle in einem schnellen und fordernden Spiel nötig ist.
+Interessante Tatsache: Defender gilt als eines der ersten Spiele mit freiem horizontalem Scrolling, bei dem man sich durch eine zusammenhängende Welt bewegt.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>A nave de Defender é um caça espacial encarregado de proteger humanoides contra ondas de alienígenas hostis. Capaz de se mover rapidamente nos dois sentidos e usar disparo frontal além de uma bomba inteligente, exige controle preciso em uma jogabilidade rápida e exigente.
+Curiosidade: Defender é considerado um dos primeiros jogos a introduzir rolagem horizontal livre, permitindo navegar por um mundo contínuo.</text>
+</text>
+
 </view>
 </theme>

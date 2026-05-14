@@ -12,41 +12,67 @@ originally based on: "carbon"
 <text name="system_description" extra="true">
 <text>The Intellivision, a word formed from Intelligent Television, is a video game console produced by Mattel in 1979. It was the first to pose a serious threat to the dominance of Atari and its 2600. An advertising campaign mercilessly compared the possibilities of the Atari 2600 to those of the Intellivision.</text>
 </text>
-
 <text name="system_description" extra="true" lang="fr">
 <text>L'Intellivision, mot-valise formé à partir de Intelligent Television, est une console de jeux vidéo produite par Mattel en 1979. Elle est la première qui constituait une menace sérieuse face à la domination d'Atari et sa 2600. Une campagne de publicité comparait impitoyablement les possibilités de l'Atari 2600 à celles de l'Intellivision.</text>
 </text>
-
-<text name="system_description" extra="true" lang="de">
-<text>Die Intellivision, ein Kofferwort aus Intelligent Television, ist eine Videospielkonsole, die 1979 von Mattel hergestellt wurde. Sie war die erste, die eine ernsthafte Bedrohung für die Dominanz von Atari und seinem 2600 darstellte. In einer Werbekampagne wurden die Möglichkeiten des Atari 2600 gnadenlos mit denen des Intellivision verglichen.</text>
-</text>
-
 <text name="system_description" extra="true" lang="es">
 <text>La Intellivision, palabra formada a partir de Intelligent Television, es una videoconsola producida por Mattel en 1979. Fue la primera en plantear una seria amenaza al dominio de Atari y su 2600. Una campaña publicitaria comparaba sin piedad las posibilidades de la Atari 2600 con las de la Intellivision.</text>
 </text>
-
 <text name="system_description" extra="true" lang="it">
 <text>L'Intellivision, parola formata da Intelligent Television, è una console per videogiochi prodotta da Mattel nel 1979. Fu la prima a rappresentare una seria minaccia al dominio di Atari e del suo 2600. Una campagna pubblicitaria paragonava impietosamente le possibilità dell'Atari 2600 a quelle dell'Intellivision.</text>
 </text>
-
-<text name="system_description" extra="true" lang="ja">
-<text>インテリジェント・テレビジョンから形成された言葉であるインテリビジョンは、1979年にマテル社が製造したビデオゲーム機である。アタリ社の2600の覇権を脅かした最初の製品である。広告キャンペーンでは、アタリ2600の可能性とインテリビジョンの可能性を容赦なく比較した。</text>
+<text name="system_description" extra="true" lang="de">
+<text>Die Intellivision, ein Kofferwort aus Intelligent Television, ist eine Videospielkonsole, die 1979 von Mattel hergestellt wurde. Sie war die erste, die eine ernsthafte Bedrohung für die Dominanz von Atari und seinem 2600 darstellte. In einer Werbekampagne wurden die Möglichkeiten des Atari 2600 gnadenlos mit denen des Intellivision verglichen.</text>
 </text>
-
-<text name="system_description" extra="true" lang="nl">
-<text>De Intellivision, een woord gevormd door Intelligent Television, is een videospelconsole die in 1979 door Mattel werd geproduceerd. Het was de eerste die een serieuze bedreiging vormde voor de dominantie van Atari en haar 2600. In een reclamecampagne werden de mogelijkheden van de Atari 2600 genadeloos vergeleken met die van de Intellivision.</text>
-</text>
-
-<text name="system_description" extra="true" lang="pl">
-<text>Intellivision, słowo utworzone od Intelligent Television, to konsola do gier wideo wyprodukowana przez firmę Mattel w 1979 roku. Jako pierwsza stanowiła poważne zagrożenie dla dominacji firmy Atari i jej 2600. Kampania reklamowa bezlitośnie porównywała możliwości Atari 2600 do możliwości Intellivision.</text>
-</text>
-
 <text name="system_description" extra="true" lang="pt">
 <text>A Intellivision, palavra formada a partir da Televisão Inteligente, é uma consola de jogos de vídeo produzida pela Mattel em 1979. Foi a primeira a representar uma séria ameaça ao domínio da Atari e dos seus 2600. Uma campanha publicitária comparou impiedosamente as possibilidades do Atari 2600 com as do Intellivision.</text>
 </text>
-
+<text name="system_description" extra="true" lang="ja">
+<text>インテリジェント・テレビジョンから形成された言葉であるインテリビジョンは、1979年にマテル社が製造したビデオゲーム機である。アタリ社の2600の覇権を脅かした最初の製品である。広告キャンペーンでは、アタリ2600の可能性とインテリビジョンの可能性を容赦なく比較した。</text>
+</text>
+<text name="system_description" extra="true" lang="nl">
+<text>De Intellivision, een woord gevormd door Intelligent Television, is een videospelconsole die in 1979 door Mattel werd geproduceerd. Het was de eerste die een serieuze bedreiging vormde voor de dominantie van Atari en haar 2600. In een reclamecampagne werden de mogelijkheden van de Atari 2600 genadeloos vergeleken met die van de Intellivision.</text>
+</text>
+<text name="system_description" extra="true" lang="pl">
+<text>Intellivision, słowo utworzone od Intelligent Television, to konsola do gier wideo wyprodukowana przez firmę Mattel w 1979 roku. Jako pierwsza stanowiła poważne zagrożenie dla dominacji firmy Atari i jej 2600. Kampania reklamowa bezlitośnie porównywała możliwości Atari 2600 do możliwości Intellivision.</text>
+</text>
 <text name="system_description" extra="true" lang="ru">
 <text>Intellivision, слово образовано от Intelligent Television, - это игровая приставка, выпущенная компанией Mattel в 1979 году. Это была первая консоль, которая представляла серьезную угрозу господству Atari и ее 2600. Рекламная кампания безжалостно сравнивала возможности Atari 2600 с возможностями Intellivision.</text>
+</text>
+
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Astrosmash (1981)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The cannon from Astrosmash defends the surface against falling meteors, bombs, guided missiles and UFOs. Moving along a single line, it demands quick, accurate fire as the pace keeps rising. This figurine highlights the game's arcade identity, instant action and major role in the Intellivision library.
+Fun fact: Astrosmash became one of the Intellivision's best-selling games and was later included in some console bundles.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le canon d’Astrosmash défend la surface contre une pluie de météores, bombes, missiles guidés et OVNIs. Mobile sur une seule ligne, il impose un tir rapide et précis, avec un rythme qui accélère sans cesse. Cette figurine met en avant l’identité arcade du jeu, son action immédiate et son rôle majeur dans le catalogue Intellivision.
+Fun fact : Astrosmash est devenu l’un des jeux les plus vendus de l’Intellivision et a ensuite été inclus dans certains packs de la console.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>El cañón de Astrosmash defiende la superficie contra meteoritos, bombas, misiles guiados y ovnis. Al moverse en una sola línea, exige disparos rápidos y precisos mientras el ritmo aumenta sin parar. Esta figura destaca la identidad arcade del juego, su acción inmediata y su papel clave en Intellivision.
+Dato curioso: Astrosmash fue uno de los juegos más vendidos de Intellivision y después se incluyó en algunos packs de la consola.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Il cannone di Astrosmash difende la superficie da meteore, bombe, missili guidati e UFO. Muovendosi su una sola linea, richiede tiri rapidi e precisi mentre il ritmo aumenta senza sosta. Questa statuetta mette in evidenza l'identità arcade del gioco, l'azione immediata e il ruolo chiave su Intellivision.
+Curiosità: Astrosmash fu uno dei giochi più venduti per Intellivision e in seguito venne incluso in alcuni bundle della console.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Die Kanone aus Astrosmash verteidigt die Oberfläche gegen Meteore, Bomben, Lenkraketen und UFOs. Auf einer einzigen Linie beweglich, verlangt sie schnelles, präzises Feuer, während das Tempo stetig steigt. Diese Figur betont die Arcade-Identität, die direkte Action und die wichtige Rolle im Intellivision-Katalog.
+Interessante Tatsache: Astrosmash wurde eines der meistverkauften Intellivision-Spiele und später einigen Konsolen-Bundles beigelegt.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>O canhão de Astrosmash defende a superfície contra meteoros, bombas, mísseis guiados e OVNIs. Movendo-se numa só linha, exige disparos rápidos e precisos enquanto o ritmo aumenta sem parar. Esta figura destaca a identidade arcade do jogo, a ação imediata e o papel importante no catálogo Intellivision.
+Curiosidade: Astrosmash tornou-se um dos jogos mais vendidos da Intellivision e depois foi incluído em alguns packs da consola.</text>
 </text>
 
 </view>

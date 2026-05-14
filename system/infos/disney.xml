@@ -16,7 +16,46 @@ originally based on: "carbon"
 <text name="system_description" extra="true" lang="fr">
 <text>Les jeux Disney sont une série de jeux vidéo basés sur les personnages et films emblématiques de Disney. Présents depuis les années 80, ils couvrent divers genres, comme la plateforme, l'action-aventure ou encore la course. Appréciés pour leurs graphismes soignés et leur fidélité aux œuvres originales, ils marquent plusieurs générations de joueurs. Certains titres, comme Castle of Illusion, sont devenus des classiques intemporels.</text>
 </text>
+<text name="system_description" extra="true" lang="es">
+<text>Los juegos Disney son una serie de videojuegos basados en personajes y películas emblemáticos de Disney. Presentes desde los años 80, abarcan diversos géneros, como plataformas, acción-aventura o carreras. Apreciados por sus gráficos cuidados y su fidelidad a las obras originales, han marcado a varias generaciones de jugadores. Algunos títulos, como Castle of Illusion, se han convertido en clásicos atemporales.</text>
+</text>
+<text name="system_description" extra="true" lang="it">
+<text>I giochi Disney sono una serie di videogiochi basati su personaggi e film iconici Disney. Presenti dagli anni 80, coprono diversi generi, come piattaforme, azione-avventura e corse. Apprezzati per la grafica curata e la fedeltà alle opere originali, hanno segnato diverse generazioni di giocatori. Alcuni titoli, come Castle of Illusion, sono diventati classici senza tempo.</text>
+</text>
+<text name="system_description" extra="true" lang="de">
+<text>Disney-Spiele sind eine Reihe von Videospielen, die auf bekannten Disney-Figuren und -Filmen basieren. Seit den 1980er-Jahren decken sie verschiedene Genres ab, darunter Jump ’n’ Run, Action-Adventure und Rennspiele. Geschätzt für ihre sorgfältige Grafik und ihre Nähe zu den Originalwerken, haben sie mehrere Spielergenerationen geprägt. Einige Titel, wie Castle of Illusion, wurden zu zeitlosen Klassikern.</text>
+</text>
+<text name="system_description" extra="true" lang="pt">
+<text>Os jogos Disney são uma série de videojogos baseados em personagens e filmes emblemáticos da Disney. Presentes desde os anos 80, abrangem vários géneros, como plataformas, ação e aventura ou corridas. Apreciados pelos gráficos cuidados e pela fidelidade às obras originais, marcaram várias gerações de jogadores. Alguns títulos, como Castle of Illusion, tornaram-se clássicos intemporais.</text>
+</text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Mickey Mousecapade (NES, 1987)&#160;&#160;</text>
+</text>
+<text name="figurine_desc" extra="true">
+<text>Mickey Mouse is Disney’s central figure, recognizable by his large round ears and streamlined design, embodying mischievous optimism since his debut. His image has crossed eras by adapting to different media, appearing as early as 1987 in Mickey Mousecapade, a notable first console video game centered on him.
+Fun fact: Mickey was originally meant to be called Mortimer, but Lillian Disney suggested a simpler name, with Mortimer later reused to create his arrogant rival.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Mickey Mouse est la figure centrale de Disney, reconnaissable à ses grandes oreilles rondes et son design épuré, incarnant un optimisme malicieux depuis ses débuts, son image ayant traversé les époques en s’adaptant aux différents médias, apparaissant dès 1987 dans Mickey Mousecapade, premier jeu vidéo notable le mettant en scène sur console.
+Fun fact : Mickey devait initialement s’appeler Mortimer, mais Lillian Disney proposa un nom plus simple, le nom Mortimer étant ensuite réutilisé pour créer son rival arrogant.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="es">
+<text>Mickey Mouse es la figura central de Disney, reconocible por sus grandes orejas redondas y su diseño depurado, encarnando un optimismo pícaro desde sus inicios. Su imagen ha cruzado épocas adaptándose a distintos medios y apareció ya en 1987 en Mickey Mousecapade, primer videojuego notable de consola centrado en él.
+Dato curioso: Mickey debía llamarse originalmente Mortimer, pero Lillian Disney propuso un nombre más simple, y Mortimer se reutilizó después para crear a su rival arrogante.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="it">
+<text>Mickey Mouse è la figura centrale di Disney, riconoscibile per le grandi orecchie rotonde e il design essenziale, incarnando fin dagli esordi un ottimismo malizioso. La sua immagine ha attraversato le epoche adattandosi a diversi media, apparendo già nel 1987 in Mickey Mousecapade, primo videogioco notevole per console incentrato su di lui.
+Curiosità: Mickey doveva inizialmente chiamarsi Mortimer, ma Lillian Disney propose un nome più semplice, poi Mortimer fu riutilizzato per creare il suo rivale arrogante.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="de">
+<text>Mickey Mouse ist die zentrale Figur von Disney, erkennbar an seinen großen runden Ohren und dem klaren Design. Seit seinen Anfängen verkörpert er einen schelmischen Optimismus. Sein Bild wandelte sich mit verschiedenen Medien und erschien schon 1987 in Mickey Mousecapade, einem frühen bedeutenden Konsolenspiel mit ihm im Mittelpunkt.
+Interessante Tatsache: Mickey sollte ursprünglich Mortimer heißen, doch Lillian Disney schlug einen einfacheren Namen vor; Mortimer wurde später als sein arroganter Rivale wiederverwendet.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Mickey Mouse é a figura central da Disney, reconhecível pelas grandes orelhas redondas e pelo design depurado, encarnando desde o início um otimismo malicioso. A sua imagem atravessou épocas ao adaptar-se a vários meios, surgindo já em 1987 em Mickey Mousecapade, primeiro videojogo notável de consola centrado nele.
+Curiosidade: Mickey devia chamar-se Mortimer, mas Lillian Disney sugeriu um nome mais simples, e Mortimer foi depois reutilizado para criar o seu rival arrogante.</text>
+</text>
 
 </view>
 </theme>

@@ -4,19 +4,47 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
-
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
-
 <text name="system_description" extra="true">
 <text>Vircon32 is a new game console, created from scratch. It is a 32-bit system created with the goal of being as simple as possible, but still having enough features to support full, elaborate games. As the name implies, Vircon32 is a 32-bit virtual console: it is meant as a standard that could be implemented either in software or hardware.</text>
 </text>
-
 <text name="system_description" extra="true" lang="fr">
 <text>Vircon32 est une nouvelle console de jeu, créée à partir de zéro. Il s'agit d'un système 32 bits créé dans le but d'être aussi simple que possible, tout en ayant suffisamment de fonctionnalités pour supporter des jeux complets et élaborés. Comme son nom l'indique, Vircon32 est une console virtuelle 32 bits : il s'agit d'un standard qui peut être implémenté soit dans le logiciel, soit dans le matériel.</text>
 </text>
-
-
+<text name="system_description" extra="true" lang="es">
+<text>Vircon32 es una nueva consola de videojuegos, creada desde cero. Es un sistema de 32 bits diseñado con el objetivo de ser lo más simple posible, pero con suficientes funciones para soportar juegos completos y elaborados. Como indica su nombre, Vircon32 es una consola virtual de 32 bits: un estándar que puede implementarse tanto por software como por hardware.</text>
+</text>
+<text name="system_description" extra="true" lang="it">
+<text>Vircon32 è una nuova console di gioco, creata da zero. È un sistema a 32 bit progettato con l'obiettivo di essere il più semplice possibile, ma con funzioni sufficienti per supportare giochi completi ed elaborati. Come suggerisce il nome, Vircon32 è una console virtuale a 32 bit: uno standard che può essere implementato sia via software sia via hardware.</text>
+</text>
+<text name="system_description" extra="true" lang="de">
+<text>Vircon32 ist eine neue Spielkonsole, die von Grund auf entwickelt wurde. Es handelt sich um ein 32-Bit-System mit dem Ziel, so einfach wie möglich zu sein und dennoch genug Funktionen für vollständige, ausgearbeitete Spiele zu bieten. Wie der Name andeutet, ist Vircon32 eine virtuelle 32-Bit-Konsole: ein Standard, der sowohl in Software als auch in Hardware umgesetzt werden kann.</text>
+</text>
+<text name="system_description" extra="true" lang="pt">
+<text>Vircon32 é uma nova consola de jogos, criada de raiz. É um sistema de 32 bits concebido para ser o mais simples possível, mas ainda assim com recursos suficientes para suportar jogos completos e elaborados. Como o nome indica, Vircon32 é uma consola virtual de 32 bits: um padrão que pode ser implementado tanto em software como em hardware.</text>
+</text>
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;MineSweeper (2022)&#160;&#160;</text>
+</text>
+<text name="figurine_desc" extra="true">
+<text>The mine in MineSweeper embodies the hidden danger at the center of the grid, motionless but decisive as soon as a square is revealed. Its presence gives weight to every clue, turning each number into a careful step between logic, caution and risk. Fun fact: The Vircon32 version keeps the three classic Windows grid sizes, adapted for a more arcade-style experience.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="fr">
+<text>La mine de MineSweeper incarne le danger caché au cœur de la grille, immobile mais décisive dès qu’une case est révélée. Sa présence donne tout son poids au jeu, où chaque chiffre sert d’indice pour avancer sans provoquer l’explosion. Cette figurine met en avant la tension simple du démineur, entre logique, prudence et prise de risque. Fun fact : Cette version Vircon32 reprend les trois tailles de grille classiques du jeu Windows, adaptées à une expérience plus arcade.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="es">
+<text>La mina de MineSweeper encarna el peligro oculto en el centro de la cuadrícula, inmóvil pero decisiva cuando se revela una casilla. Su presencia da peso a cada pista, haciendo que cada número sea un paso entre lógica, prudencia y riesgo. Dato curioso: La versión de Vircon32 conserva los tres tamaños clásicos de Windows, adaptados a una experiencia más arcade.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="it">
+<text>La mina di MineSweeper incarna il pericolo nascosto al centro della griglia, immobile ma decisiva quando viene scoperta una casella. La sua presenza dà peso a ogni indizio, trasformando ogni numero in una scelta tra logica, prudenza e rischio. Curiosità: La versione Vircon32 conserva le tre dimensioni classiche di Windows, adattate a un'esperienza più arcade.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="de">
+<text>Die Mine in MineSweeper verkörpert die verborgene Gefahr im Raster, reglos, aber entscheidend, sobald ein Feld aufgedeckt wird. Ihre Präsenz verleiht jedem Hinweis Gewicht und macht jede Zahl zu einem Schritt zwischen Logik, Vorsicht und Risiko. Interessante Tatsache: Die Vircon32-Version behält die drei klassischen Windows-Rastergrößen bei, angepasst an ein stärkeres Arcade-Gefühl.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="pt">
+<text>A mina de MineSweeper representa o perigo escondido no centro da grelha, imóvel mas decisiva quando uma casa é revelada. A sua presença dá peso a cada pista, tornando cada número num passo entre lógica, prudência e risco. Curiosidade: A versão Vircon32 mantém os três tamanhos clássicos do Windows, adaptados a uma experiência mais arcade.</text>
+</text>
 </view>
 </theme>

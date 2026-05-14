@@ -6,17 +6,66 @@ originally based on: "carbon"
 -->
 
 <theme>
-<formatVersion>7</formatVersion>
-<view name="system">
+	<formatVersion>7</formatVersion>
+	<view name="system">
 
-<text name="system_description" extra="true">
-<text>OpenGOAL is an open-source game engine designed for Jak and Daxter: The Precursor Legacy, enabling it to be played on PC with modern enhancements. It is based on reverse engineering of the original engine, written in Naughty Dog's GOAL (Game Oriented Assembly Lisp) language. OpenGOAL offers optimizations such as high resolution, 60 FPS support and improved controls.</text>
-</text>
+		<text name="system_description" extra="true">
+			<text>OpenGOAL is an open-source game engine designed for Jak and Daxter: The Precursor Legacy, enabling it to be played on PC with modern enhancements. It is based on reverse engineering of the original engine, written in Naughty Dog's GOAL (Game Oriented Assembly Lisp) language. OpenGOAL offers optimizations such as high resolution, 60 FPS support and improved controls.</text>
+		</text>
 
-<text name="system_description" extra="true" lang="fr">
-<text>OpenGOAL est un moteur de jeu open-source conçu pour Jak and Daxter: The Precursor Legacy, permettant d’y jouer sur PC avec des améliorations modernes. Il repose sur la rétro-ingénierie du moteur original, écrit en GOAL (Game Oriented Assembly Lisp), le langage de Naughty Dog. OpenGOAL offre des optimisations comme la haute résolution, le support des 60 FPS et des contrôles améliorés.</text>
-</text>
+		<text name="system_description" extra="true" lang="fr">
+			<text>OpenGOAL est un moteur de jeu open-source conçu pour Jak and Daxter: The Precursor Legacy, permettant d’y jouer sur PC avec des améliorations modernes. Il repose sur la rétro-ingénierie du moteur original, écrit en GOAL (Game Oriented Assembly Lisp), le langage de Naughty Dog. OpenGOAL offre des optimisations comme la haute résolution, le support des 60 FPS et des contrôles améliorés.</text>
+		</text>
 
+		<text name="system_description" extra="true" lang="es">
+			<text>OpenGOAL es un motor de juego de código abierto diseñado para Jak and Daxter: The Precursor Legacy, que permite jugarlo en PC con mejoras modernas. Se basa en la ingeniería inversa del motor original, escrito en GOAL (Game Oriented Assembly Lisp), el lenguaje de Naughty Dog. OpenGOAL ofrece optimizaciones como alta resolución, soporte para 60 FPS y controles mejorados.</text>
+		</text>
 
-</view>
+		<text name="system_description" extra="true" lang="it">
+			<text>OpenGOAL è un motore di gioco open-source progettato per Jak and Daxter: The Precursor Legacy, che permette di giocarlo su PC con miglioramenti moderni. Si basa sul reverse engineering del motore originale, scritto in GOAL (Game Oriented Assembly Lisp), il linguaggio di Naughty Dog. OpenGOAL offre ottimizzazioni come alta risoluzione, supporto a 60 FPS e controlli migliorati.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="de">
+			<text>OpenGOAL ist eine Open-Source-Spielengine für Jak and Daxter: The Precursor Legacy, mit der das Spiel auf dem PC mit modernen Verbesserungen gespielt werden kann. Sie basiert auf Reverse Engineering der ursprünglichen Engine, die in Naughty Dogs Sprache GOAL (Game Oriented Assembly Lisp) geschrieben wurde. OpenGOAL bietet Optimierungen wie hohe Auflösung, 60-FPS-Unterstützung und verbesserte Steuerung.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>OpenGOAL é um motor de jogo open-source criado para Jak and Daxter: The Precursor Legacy, permitindo jogá-lo no PC com melhorias modernas. Ele se baseia na engenharia reversa do motor original, escrito em GOAL (Game Oriented Assembly Lisp), a linguagem da Naughty Dog. OpenGOAL oferece otimizações como alta resolução, suporte a 60 FPS e controles aprimorados.</text>
+		</text>
+
+		<text name="figurine_title, figurine_title_mask" extra="true">
+			<text>&#160;&#160;Jak and Daxter: The Precursor Legacy (2001)&#160;&#160;</text>
+		</text>
+
+		<text name="figurine_desc" extra="true">
+			<text>Jak is an agile young adventurer, recognizable by his blond hair and blue tunic, accompanied by Daxter, his companion transformed into an ottsel. Together, they explore varied islands, cross obstacles and face creatures by using the different forms of eco. Their duo balances action, platforming and exploration in a coherent open world.
+Fun fact: Jak does not speak in the first game, leaving Daxter to carry most of the dialogue and humor.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="fr">
+			<text>Jak est un jeune aventurier agile, reconnaissable à ses cheveux blonds et sa tunique bleue, accompagné de Daxter, son compagnon transformé en ottsel. Ensemble, ils explorent des îles variées, franchissent obstacles et affrontent créatures en utilisant les différentes formes d’éco. Leur duo repose sur l’équilibre entre action, plateforme et exploration dans un monde ouvert cohérent.
+Fun fact : Jak ne prononce aucun mot dans le premier jeu, laissant Daxter porter l’essentiel des dialogues et de l’humour.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="es">
+			<text>Jak es un joven aventurero ágil, reconocible por su cabello rubio y su túnica azul, acompañado por Daxter, su compañero transformado en ottsel. Juntos exploran islas variadas, superan obstáculos y enfrentan criaturas usando las distintas formas de eco. Su dúo equilibra acción, plataformas y exploración en un mundo abierto coherente.
+Dato curioso: Jak no pronuncia una palabra en el primer juego, dejando que Daxter lleve gran parte de los diálogos y el humor.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="it">
+			<text>Jak è un giovane avventuriero agile, riconoscibile per i capelli biondi e la tunica blu, accompagnato da Daxter, il suo compagno trasformato in ottsel. Insieme esplorano isole diverse, superano ostacoli e affrontano creature usando le varie forme di eco. Il loro duo unisce azione, piattaforme ed esplorazione in un mondo aperto coerente.
+Curiosità: Jak non pronuncia nessuna parola nel primo gioco, lasciando a Daxter gran parte dei dialoghi e dell’umorismo.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="de">
+			<text>Jak ist ein junger, wendiger Abenteurer, erkennbar an seinem blonden Haar und der blauen Tunika, begleitet von Daxter, seinem in einen Ottsel verwandelten Gefährten. Gemeinsam erkunden sie abwechslungsreiche Inseln, überwinden Hindernisse und kämpfen mit verschiedenen Eco-Formen gegen Kreaturen. Ihr Duo verbindet Action, Plattformspiel und Erkundung in einer stimmigen offenen Welt.
+Interessante Tatsache: Jak spricht im ersten Spiel kein einziges Wort, sodass Daxter den Großteil der Dialoge und des Humors trägt.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="pt">
+			<text>Jak é um jovem aventureiro ágil, reconhecível pelo cabelo loiro e pela túnica azul, acompanhado por Daxter, seu companheiro transformado em ottsel. Juntos, exploram ilhas variadas, superam obstáculos e enfrentam criaturas usando as diferentes formas de eco. A dupla equilibra ação, plataforma e exploração em um mundo aberto coerente.
+Curiosidade: Jak não diz uma palavra no primeiro jogo, deixando Daxter conduzir a maior parte dos diálogos e do humor.</text>
+		</text>
+
+	</view>
 </theme>

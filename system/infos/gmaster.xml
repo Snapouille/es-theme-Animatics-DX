@@ -49,5 +49,40 @@ originally based on: "carbon"
 <text>Game Master - это портативная игровая приставка, произведенная компанией Hartung и предназначенная для конкуренции с Nintendo Game Boy. Она имеет монохромный ЖК-экран размером 64 x 64 и использует 40-контактный порт для картриджей, как и Supervision, но не совместима с ней. В зависимости от страны существовало довольно много различных производителей.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Go Bang! (1990)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The Go Bang! stone represents the abstract duel at the heart of this Game Master board game, where every placement matters to form a line before the opponent. The figurine highlights a simple, round and readable piece, faithful to the console's monochrome style. It evokes a direct puzzle game based on anticipation, blocking and quick reading of the grid.
+Fun fact: Go Bang! follows the gomoku principle, an alignment game where the goal is to form a row of five stones.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>La pierre de Go Bang! représente le duel abstrait au centre de ce jeu de plateau sur Game Master, où chaque placement compte pour former une ligne avant l’adversaire. La figurine met en valeur une pièce simple, ronde et lisible, fidèle à l’esprit monochrome de la console. Elle évoque un jeu de réflexion direct, basé sur l’anticipation, le blocage et la lecture rapide de la grille.
+Fun fact : Go Bang! reprend le principe du gomoku, un jeu d’alignement où il faut former une rangée de cinq pierres.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>La piedra de Go Bang! representa el duelo abstracto en el centro de este juego de tablero para Game Master, donde cada colocación cuenta para formar una línea antes que el rival. La figura destaca una pieza simple, redonda y legible, fiel al estilo monocromo de la consola. Evoca un juego de lógica directo, basado en anticipación, bloqueo y lectura rápida de la cuadrícula.
+Dato curioso: Go Bang! sigue el principio del gomoku, un juego de alineación donde hay que formar una fila de cinco piedras.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>La pietra di Go Bang! rappresenta il duello astratto al centro di questo gioco da tavolo per Game Master, dove ogni piazzamento conta per formare una linea prima dell’avversario. La statuetta valorizza un pezzo semplice, rotondo e leggibile, fedele allo stile monocromatico della console. Evoca un gioco logico diretto, basato su previsione, blocco e lettura rapida della griglia.
+Curiosità: Go Bang! segue il principio del gomoku, un gioco di allineamento in cui bisogna formare una fila di cinque pietre.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Der Stein aus Go Bang! steht für das abstrakte Duell im Zentrum dieses Brettspiels auf Game Master, bei dem jede Platzierung zählt, um vor dem Gegner eine Linie zu bilden. Die Figur betont ein schlichtes, rundes und gut lesbares Spielstück, passend zum monochromen Stil der Konsole. Sie erinnert an ein direktes Denkspiel mit Vorausplanung, Blockieren und schnellem Erfassen des Gitters.
+Interessante Tatsache: Go Bang! folgt dem Gomoku-Prinzip, bei dem eine Reihe aus fünf Steinen gebildet werden muss.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>A pedra de Go Bang! representa o duelo abstrato no centro deste jogo de tabuleiro para Game Master, onde cada colocação conta para formar uma linha antes do adversário. A figura destaca uma peça simples, redonda e legível, fiel ao estilo monocromático da consola. Evoca um jogo de lógica direto, baseado em antecipação, bloqueio e leitura rápida da grelha.
+Curiosidade: Go Bang! segue o princípio do gomoku, um jogo de alinhamento em que é preciso formar uma fila de cinco pedras.</text>
+</text>
+
 </view>
 </theme>

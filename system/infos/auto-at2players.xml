@@ -10,23 +10,23 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-<text>Automatic game list. Here you will find all the games that are compatible for two players on any system. How about a little Street Fighter 2?</text>
+<text>Here you will find a selection of games designed to be enjoyed by two players across every platform. Cooperative adventures, versus matches, spontaneous couch sessions or legendary rivalries between friends, this collection brings together multiplayer experiences that became cult favorites over the years. From the intense duels of Street Fighter II to the frantic action of Metal Slug, everything is here to relive the spirit of true arcade and console nights.</text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-<text>Vous trouverez ici tous les jeux compatibles pour deux joueurs tout système confondus. Que diriez-vous d'un petit Street Fighter 2 ?</text>
+<text>Vous trouverez ici une sélection de jeux pensés pour être partagés à deux joueurs, toutes plateformes confondues. Coopération, versus, parties improvisées sur le canapé ou rivalités légendaires entre amis, cette collection rassemble des expériences multijoueur devenues cultes au fil des générations. Des duels nerveux de Street Fighter II aux parties frénétiques de Metal Slug, tout est réuni pour retrouver l’esprit des vraies soirées arcade et consoles.</text>
 </text>
 
 <text name="system_description" extra="true" lang="de">
-<text>Automatische Liste von Spielen. Hier finden Sie alle kompatiblen Spiele für zwei Spieler aller Systeme. Wie wäre es mit einem kleinen Street Fighter 2?</text>
+<text>Hier findest du eine Auswahl an Spielen, die für zwei Spieler gedacht sind, unabhängig von der Plattform. Koop-Abenteuer, Versus-Matches, spontane Sessions auf dem Sofa oder legendäre Rivalitäten unter Freunden – diese Sammlung vereint Multiplayer-Erlebnisse, die über die Jahre Kultstatus erreicht haben. Von den intensiven Duellen in Street Fighter II bis zur hektischen Action von Metal Slug ist alles dabei, um das Gefühl echter Arcade-Abende wiederzuerleben.</text>
 </text>
 
 <text name="system_description" extra="true" lang="es">
-<text>Lista automática de juegos. Aquí encontrarás todos los juegos compatibles para dos jugadores en todos los sistemas. ¿Qué tal un poco de Street Fighter 2?</text>
+<text>Aquí encontrarás una selección de juegos pensados para disfrutarse entre dos jugadores, sin importar la plataforma. Cooperación, versus, partidas improvisadas en el sofá o rivalidades legendarias entre amigos, esta colección reúne experiencias multijugador convertidas en clásicos con el paso de los años. Desde los intensos duelos de Street Fighter II hasta la acción frenética de Metal Slug, todo está aquí para revivir el espíritu de las auténticas noches arcade.</text>
 </text>
 
 <text name="system_description" extra="true" lang="it">
-<text>Elenco automatico dei giochi. Qui troverete tutti i giochi compatibili per due giocatori su tutti i sistemi. Che ne dite di un po' di Street Fighter 2?</text>
+<text>Qui troverai una selezione di giochi pensati per essere condivisi in due giocatori, su qualsiasi piattaforma. Cooperativa, versus, partite improvvisate sul divano o rivalità leggendarie tra amici, questa collezione riunisce esperienze multigiocatore diventate cult nel corso degli anni. Dai duelli frenetici di Street Fighter II all’azione esplosiva di Metal Slug, tutto è pronto per ritrovare lo spirito delle vere serate arcade.</text>
 </text>
 
 <text name="system_description" extra="true" lang="ja">
@@ -42,11 +42,46 @@ originally based on: "carbon"
 </text>
 
 <text name="system_description" extra="true" lang="pt">
-<text>Lista de jogos automática. Aqui encontrará todos os jogos que são compatíveis para dois jogadores em todos os sistemas. Que tal um pequeno Street Fighter 2?</text>
+<text>Aqui encontrarás uma seleção de jogos pensados para serem aproveitados por dois jogadores em diferentes plataformas. Cooperação, versus, partidas improvisadas no sofá ou rivalidades lendárias entre amigos, esta coleção reúne experiências multijogador que se tornaram cult ao longo dos anos. Dos duelos intensos de Street Fighter II à ação frenética de Metal Slug, tudo está aqui para reviver o espírito das verdadeiras noites de arcade.</text>
 </text>
 
 <text name="system_description" extra="true" lang="ru">
 <text>Список автоматических игр. Здесь вы найдете все игры, совместимые для двух игроков на всех системах. Как насчет небольшого Street Fighter 2?</text>
+</text>
+
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Marvel vs. Capcom: Clash of Super Heroes (Arcade, 1998)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Chun-Li and Iron Man embody the clash between Capcom fighters and Marvel superheroes in fast, readable and spectacular team battles. Their duel captures the controlled chaos of the game, with aerial attacks, assists and special moves filling the screen while keeping an extremely sharp two-player rhythm.
+Fun fact: The game let players call assist partners from lesser-known Capcom titles, including Arthur from Ghosts ’n Goblins and Lou from Three Wonders.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Chun-Li et Iron Man incarnent l’affrontement entre l’univers Capcom et les super-héros Marvel dans des combats en équipe rapides, lisibles et spectaculaires. Leur duel illustre parfaitement le chaos maîtrisé du jeu, entre attaques aériennes, assists et coups spéciaux qui envahissent l’écran tout en gardant un gameplay extrêmement nerveux.
+Fun fact : Le jeu permettait d’appeler des partenaires d’assistance issus de licences Capcom plus discrètes, comme Arthur de Ghosts ’n Goblins ou Lou de Three Wonders.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Chun-Li e Iron Man encarnan el choque entre los luchadores de Capcom y los superhéroes de Marvel en combates por equipos rápidos, claros y espectaculares. Su duelo resume el caos controlado del juego, con ataques aéreos, asistencias y técnicas especiales que llenan la pantalla sin perder ritmo.
+Dato curioso: El juego permitía llamar a compañeros de apoyo de licencias menos conocidas de Capcom, como Arthur de Ghosts ’n Goblins o Lou de Three Wonders.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Chun-Li e Iron Man incarnano lo scontro tra i lottatori Capcom e i supereroi Marvel in battaglie a squadre rapide, leggibili e spettacolari. Il loro duello riassume il caos controllato del gioco, tra attacchi aerei, assist e mosse speciali che riempiono lo schermo senza perdere ritmo.
+Curiosità: Il gioco permetteva di chiamare partner di supporto da licenze Capcom meno note, come Arthur di Ghosts ’n Goblins o Lou di Three Wonders.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Chun-Li und Iron Man verkörpern den Zusammenprall von Capcom-Kämpfern und Marvel-Superhelden in schnellen, klar lesbaren und spektakulären Teamduellen. Ihr Kampf zeigt das kontrollierte Chaos des Spiels, mit Luftangriffen, Assists und Spezialattacken, die den Bildschirm füllen.
+Interessante Tatsache: Das Spiel ließ Hilfsfiguren aus weniger bekannten Capcom-Titeln antreten, darunter Arthur aus Ghosts ’n Goblins und Lou aus Three Wonders.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Chun-Li e Iron Man representam o confronto entre lutadores da Capcom e super-heróis da Marvel em batalhas de equipa rápidas, claras e espetaculares. O duelo traduz o caos controlado do jogo, com ataques aéreos, assistências e golpes especiais a encher o ecrã sem perder ritmo.
+Curiosidade: O jogo permitia chamar parceiros de assistência de séries Capcom menos conhecidas, como Arthur de Ghosts ’n Goblins ou Lou de Three Wonders.</text>
 </text>
 
 </view>

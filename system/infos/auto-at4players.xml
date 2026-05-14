@@ -10,43 +10,62 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-<text>Automatic game list. Here you will find all the games compatible with four or more players on any system. How about a little Bomberman?</text>
+<text>Here you will find a selection of games playable by up to four players across every platform. Full cooperation, chaotic battles, couch sessions with friends or high-energy arcade cabinets, this collection celebrates the most social and explosive multiplayer experiences in video games.</text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-<text>Vous trouverez ici tous les jeux compatibles pour quatre joueurs ou plus tout système confondus. Et si on se lançait un petit Bomberman des familles ?</text>
-</text>
-
-<text name="system_description" extra="true" lang="de">
-<text>Automatische Liste von Spielen. Hier finden Sie alle kompatiblen Spiele für vier oder mehr Spieler auf allen Systemen. Wie wäre es mit einem kleinen Bomberman?</text>
+<text>Retrouvez ici une sélection de jeux compatibles jusqu’à quatre joueurs, toutes plateformes confondues. Coopération totale, batailles chaotiques, parties entre amis sur le canapé ou bornes d’arcade survitaminées, cette collection met à l’honneur les expériences multijoueur les plus conviviales et explosives du jeu vidéo.</text>
 </text>
 
 <text name="system_description" extra="true" lang="es">
-<text>Lista automática de juegos. Aquí encontrarás todos los juegos compatibles para cuatro o más jugadores en cualquier sistema. ¿Qué tal un poco de Bomberman?</text>
+<text>Aquí encontrarás una selección de juegos compatibles hasta cuatro jugadores, sin importar la plataforma. Cooperación total, batallas caóticas, partidas entre amigos en el sofá o recreativas llenas de energía, esta colección celebra las experiencias multijugador más sociales y explosivas del videojuego.</text>
 </text>
 
 <text name="system_description" extra="true" lang="it">
-<text>Elenco automatico dei giochi. Qui troverete tutti i giochi compatibili con quattro o più giocatori su qualsiasi sistema. Che ne dite di un po' di Bomberman?</text>
+<text>Qui troverai una selezione di giochi compatibili fino a quattro giocatori, su qualsiasi piattaforma. Cooperazione totale, battaglie caotiche, partite tra amici sul divano o cabinati arcade pieni di energia, questa collezione celebra le esperienze multigiocatore più sociali ed esplosive del videogioco.</text>
 </text>
 
-<text name="system_description" extra="true" lang="ja">
-<text>自動ゲームリストです。ここでは、どのシステムでも4人以上のプレイヤーに対応したゲームをすべて見つけることができます。ボンバーマンなんていかがですか？</text>
-</text>
-
-<text name="system_description" extra="true" lang="nl">
-<text>Automatische spelletjeslijst. Hier vind je alle spellen die geschikt zijn voor vier of meer spelers op elk systeem. Wat dacht je van een beetje Bomberman?</text>
-</text>
-
-<text name="system_description" extra="true" lang="pl">
-<text>Automatyczna lista gier. Tutaj znajdziesz wszystkie gry, które są kompatybilne dla czterech lub więcej graczy na dowolnym systemie. Co powiecie na małego Bombermana?</text>
+<text name="system_description" extra="true" lang="de">
+<text>Hier findest du eine Auswahl an Spielen für bis zu vier Spieler auf allen Plattformen. Volle Kooperation, chaotische Kämpfe, Couch-Partien mit Freunden oder energiegeladene Arcade-Automaten: Diese Sammlung feiert die geselligsten und explosivsten Multiplayer-Erlebnisse der Videospielgeschichte.</text>
 </text>
 
 <text name="system_description" extra="true" lang="pt">
-<text>Lista de jogos automática. Aqui encontrará todos os jogos que são compatíveis para quatro ou mais jogadores em qualquer sistema. Que tal um pequeno bombardeiro?</text>
+<text>Aqui encontrarás uma seleção de jogos compatíveis até quatro jogadores em várias plataformas. Cooperação total, batalhas caóticas, partidas no sofá com amigos ou máquinas arcade cheias de energia, esta coleção celebra algumas das experiências multijogador mais sociais e explosivas dos videojogos.</text>
 </text>
 
-<text name="system_description" extra="true" lang="ru">
-<text>Автоматический список игр. Здесь вы найдете все игры, совместимые для четырех и более игроков на любой системе. Как насчет маленького Бомбермена?</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Gauntlet Legends (Arcade, 1998)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Gauntlet Legends turns arcade action into a true four-player cooperative adventure, with dungeons full of monsters, traps and treasures to collect together. Each hero has distinct abilities, and the game constantly pushes the group forward to survive the chaos quickly filling the screen.
+Fun fact: The arcade cabinet allowed players to save character progress with a password system, a fairly unusual feature for arcade games of that era.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Gauntlet Legends transforme l’action arcade en véritable aventure coopérative à quatre joueurs, avec des donjons remplis de monstres, de pièges et de trésors à récupérer ensemble. Chaque héros possède ses propres capacités et le jeu pousse constamment les joueurs à avancer en groupe pour survivre au chaos qui envahit rapidement l’écran.
+Fun fact : La borne arcade de Gauntlet Legends permettait de sauvegarder la progression des personnages grâce à un système de mots de passe, assez rare pour un jeu d’arcade de cette époque.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Gauntlet Legends convierte la acción arcade en una verdadera aventura cooperativa para cuatro jugadores, con mazmorras llenas de monstruos, trampas y tesoros para recoger en equipo. Cada héroe tiene habilidades propias, y el juego empuja al grupo a avanzar unido para sobrevivir al caos que llena rápidamente la pantalla.
+Dato curioso: La máquina arcade permitía guardar el progreso de los personajes mediante un sistema de contraseñas, algo poco habitual en los salones recreativos de la época.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Gauntlet Legends trasforma l’azione arcade in una vera avventura cooperativa per quattro giocatori, con dungeon pieni di mostri, trappole e tesori da raccogliere insieme. Ogni eroe ha abilità diverse e il gioco spinge il gruppo ad avanzare unito per sopravvivere al caos che riempie rapidamente lo schermo.
+Curiosità: Il cabinato arcade permetteva di salvare i progressi dei personaggi con un sistema di password, una funzione piuttosto rara per l’epoca.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Gauntlet Legends macht Arcade-Action zu einem echten Koop-Abenteuer für vier Spieler, mit Dungeons voller Monster, Fallen und Schätze, die gemeinsam gesammelt werden. Jeder Held besitzt eigene Fähigkeiten, und das Spiel treibt die Gruppe ständig voran, um das schnell wachsende Chaos auf dem Bildschirm zu überleben.
+Interessante Tatsache: Der Arcade-Automat erlaubte es, den Fortschritt der Figuren über ein Passwortsystem zu speichern, was für diese Zeit eher ungewöhnlich war.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Gauntlet Legends transforma a ação arcade numa verdadeira aventura cooperativa para quatro jogadores, com masmorras cheias de monstros, armadilhas e tesouros para recolher em equipa. Cada herói tem capacidades próprias, e o jogo obriga o grupo a avançar junto para sobreviver ao caos que rapidamente enche o ecrã.
+Curiosidade: A máquina arcade permitia guardar o progresso das personagens através de palavras-passe, algo pouco comum nos arcades dessa época.</text>
 </text>
 
 </view>

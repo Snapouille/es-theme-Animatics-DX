@@ -4,19 +4,53 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
-
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
-
 <text name="system_description" extra="true">
 <text>IKEMEN is an open-source fighting game engine based on M.U.G.E.N, offering greater flexibility and new features. Developed in Python and later in Go (IKEMEN GO), it facilitates customization and the addition of new mechanics. IKEMEN is popular with fighting game fans wishing to create or modify their own experiences.</text>
 </text>
-
 <text name="system_description" extra="true" lang="fr">
 <text>IKEMEN est un moteur de jeu de combat open-source basé sur M.U.G.E.N, offrant plus de flexibilité et de nouvelles fonctionnalités. Développé en Python et plus tard en Go (IKEMEN GO), il facilite la personnalisation et l'ajout de nouvelles mécaniques. IKEMEN est populaire parmi les fans de jeux de combat souhaitant créer ou modifier leurs propres expériences.</text>
 </text>
-
-
+<text name="system_description" extra="true" lang="es">
+<text>IKEMEN es un motor de juegos de lucha de código abierto basado en M.U.G.E.N, con mayor flexibilidad y nuevas funciones. Desarrollado en Python y más tarde en Go (IKEMEN GO), facilita la personalización y la incorporación de nuevas mecánicas. IKEMEN es popular entre los aficionados que quieren crear o modificar sus propias experiencias.</text>
+</text>
+<text name="system_description" extra="true" lang="it">
+<text>IKEMEN è un motore open source per giochi di combattimento basato su M.U.G.E.N, con maggiore flessibilità e nuove funzioni. Sviluppato in Python e poi in Go (IKEMEN GO), facilita la personalizzazione e l'aggiunta di nuove meccaniche. IKEMEN è apprezzato dagli appassionati che vogliono creare o modificare le proprie esperienze.</text>
+</text>
+<text name="system_description" extra="true" lang="de">
+<text>IKEMEN ist eine quelloffene Fighting-Game-Engine auf Basis von M.U.G.E.N, die mehr Flexibilität und neue Funktionen bietet. Entwickelt in Python und später in Go (IKEMEN GO), erleichtert sie Anpassungen und neue Mechaniken. IKEMEN ist bei Fans beliebt, die eigene Kampferlebnisse erstellen oder verändern möchten.</text>
+</text>
+<text name="system_description" extra="true" lang="pt">
+<text>IKEMEN é um motor de jogos de luta de código aberto baseado em M.U.G.E.N, oferecendo mais flexibilidade e novos recursos. Desenvolvido em Python e depois em Go (IKEMEN GO), facilita a personalização e a adição de novas mecânicas. IKEMEN é popular entre fãs que querem criar ou modificar suas próprias experiências.</text>
+</text>
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Street Fighter II (1991)&#160;&#160;</text>
+</text>
+<text name="figurine_desc" extra="true">
+<text>Ken Masters is an American fighter with an offensive style, trained alongside Ryu in martial arts. Recognizable by his blond hair and red gi, he favors speed, pressure and iconic moves such as the flaming Shoryuken. In IKEMEN, he represents a faithful and customizable version, often enriched with variants from several adaptations of the character.
+Fun fact: Ken's fighting style became more aggressive over the series, with faster chains and fiery attacks that increasingly set him apart from Ryu.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Ken Masters est un combattant américain au style offensif, formé aux arts martiaux aux côtés de Ryu. Reconnaissable à sa chevelure blonde et son kimono rouge, il privilégie la vitesse, la pression et des techniques emblématiques comme le Shoryuken enflammé. Dans Ikemen, il incarne une version fidèle et personnalisable, souvent enrichie de variantes issues de plusieurs adaptations.
+Fun fact : Le style de Ken est devenu plus agressif au fil de la série, avec des enchaînements rapides et des attaques enflammées qui l’éloignent de Ryu.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="es">
+<text>Ken Masters es un luchador estadounidense de estilo ofensivo, entrenado en artes marciales junto a Ryu. Reconocible por su cabello rubio y su gi rojo, apuesta por la velocidad, la presión y técnicas emblemáticas como el Shoryuken en llamas. En IKEMEN, representa una versión fiel y personalizable, a menudo enriquecida con variantes de varias adaptaciones del personaje.
+Dato curioso: El estilo de Ken se volvió más agresivo con la serie, con cadenas rápidas y ataques de fuego que lo separan cada vez más de Ryu.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="it">
+<text>Ken Masters è un combattente americano dallo stile offensivo, addestrato nelle arti marziali insieme a Ryu. Riconoscibile per i capelli biondi e il gi rosso, punta su velocità, pressione e tecniche iconiche come lo Shoryuken infuocato. In IKEMEN rappresenta una versione fedele e personalizzabile, spesso arricchita da varianti tratte da diverse adattamenti del personaggio.
+Curiosità: Lo stile di Ken è diventato più aggressivo nella serie, con combo rapide e attacchi infuocati che lo distinguono sempre più da Ryu.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="de">
+<text>Ken Masters ist ein amerikanischer Kämpfer mit offensivem Stil, der gemeinsam mit Ryu in den Kampfkünsten ausgebildet wurde. Erkennbar an blondem Haar und rotem Gi setzt er auf Tempo, Druck und bekannte Techniken wie den flammenden Shoryuken. In IKEMEN steht er für eine treue und anpassbare Version, oft ergänzt durch Varianten aus mehreren Auftritten der Figur.
+Interessante Tatsache: Kens Stil wurde im Lauf der Serie aggressiver, mit schnellen Kombos und Feuerangriffen, die ihn immer stärker von Ryu abheben.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Ken Masters é um lutador americano de estilo ofensivo, treinado nas artes marciais ao lado de Ryu. Reconhecido pelo cabelo loiro e pelo gi vermelho, aposta em velocidade, pressão e golpes marcantes como o Shoryuken flamejante. No IKEMEN, representa uma versão fiel e personalizável, muitas vezes enriquecida com variantes de várias adaptações do personagem.
+Curiosidade: O estilo de Ken ficou mais agressivo ao longo da série, com sequências rápidas e ataques de fogo que o afastam cada vez mais de Ryu.</text>
+</text>
 </view>
 </theme>

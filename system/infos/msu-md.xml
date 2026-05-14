@@ -10,44 +10,77 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-<text>The MSU is a custom coprocessor that allows playback of CD quality audio (44.1 kHz, 16 bit), as well as addressing up to 4 GB of data. This allows ROM hacks to replace background music in games with high quality versions, and even play animated videos.</text>
+<text>Following the restructuring in the spring of 2000 and especially because of the poor commercial reception of the Dreamcast in Japan, Sega refocuses on the arcade sector and markets the Naomi 2. The architecture of the Naomi 2 is similar to that of its predecessor, so the games are compatible. At the time, the Naomi 2 was a powerful reference in the arcade, taking advantage of Sega's know-how in this field.</text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-<text>Le MSU est un coprocesseur personnalisé qui permet la lecture d'audio de qualité CD (44,1 kHz, 16 bits), ainsi que l'adressage jusqu'à 4 Go de données. Cela permet aux hacks ROM de remplacer la musique de fond des jeux par des versions de haute qualité, et même de lire des vidéos animées.</text>
+<text>À la suite de la restructuration subie au printemps 2000 et surtout à cause du faible accueil commercial de la Dreamcast au Japon, Sega se recentre sur le secteur arcade et commercialise le Naomi 2. L'architecture du Naomi 2 est semblable à celle de son ainée, les jeux sont donc compatible. Il s'impose à l'époque comme une référence de puissance en arcade, profitant du savoir-faire de Sega dans ce domaine.</text>
 </text>
 
 <text name="system_description" extra="true" lang="de">
-<text>Der MSU ist ein angepasster Koprozessor, der die Wiedergabe von Audio in CD-Qualität (44,1 kHz, 16 Bit) sowie die Adressierung von bis zu 4 GB Daten ermöglicht. Dadurch können ROM-Hacks die Hintergrundmusik von Spielen durch qualitativ hochwertige Versionen ersetzen und sogar animierte Videos abspielen.</text>
+<text>Nach der Umstrukturierung im Frühjahr 2000 und vor allem wegen der schwachen Verkaufszahlen der Dreamcast in Japan konzentrierte sich Sega wieder auf den Arcade-Bereich und brachte das Naomi 2 auf den Markt. Die Architektur des Naomi 2 ähnelt der seines Vorgängers, so dass die Spiele kompatibel sind. Das Naomi 2 war zu dieser Zeit eine Referenz für Arcade-Spiele und profitierte von Segas Know-how in diesem Bereich.</text>
 </text>
 
 <text name="system_description" extra="true" lang="es">
-<text>El MSU es un coprocesador personalizado que permite reproducir audio con calidad de CD (44,1 kHz, 16 bits), así como direccionar hasta 4 GB de datos. Esto permite realizar hacks de ROM para sustituir la música de fondo de los juegos por versiones de alta calidad, e incluso reproducir vídeos animados.</text>
+<text>Tras la reestructuración de la primavera de 2000 y, sobre todo, debido a la mala acogida comercial de la Dreamcast en Japón, Sega vuelve a centrarse en el sector de los salones recreativos y comercializa la Naomi 2. La arquitectura de la Naomi 2 es similar a la de su predecesora, por lo que los juegos son compatibles. En su momento, la Naomi 2 fue una potente referencia en el arcade, aprovechando el saber hacer de Sega en este campo.</text>
 </text>
 
 <text name="system_description" extra="true" lang="it">
-<text>L'MSU è un coprocessore personalizzato che consente di riprodurre audio di qualità CD (44,1 kHz, 16 bit) e di indirizzare fino a 4 GB di dati. Questo permette agli hack ROM di sostituire la musica di sottofondo nei giochi con versioni di alta qualità e persino di riprodurre video animati.</text>
+<text>In seguito alla ristrutturazione avvenuta nella primavera del 2000 e soprattutto a causa della scarsa accoglienza commerciale del Dreamcast in Giappone, Sega si concentra nuovamente sul settore arcade e commercializza il Naomi 2. L'architettura del Naomi 2 è simile a quella del suo predecessore, quindi i giochi sono compatibili. All'epoca, il Naomi 2 era un potente riferimento nel settore arcade, sfruttando il know-how di Sega in questo campo.</text>
 </text>
 
 <text name="system_description" extra="true" lang="ja">
-<text>MSUはカスタムコプロセッサで、CDクオリティのオーディオ（44.1kHz、16bit）の再生や、最大4GBのデータのアドレス指定が可能です。これにより、ROMハックでゲームのBGMを高音質版に置き換えたり、アニメーションの動画を再生したりすることも可能です。</text>
+<text>2000年春のリストラの後、特に日本でのドリームキャストの商業的な評判が悪かったため、セガはアーケード部門に再注目し、ナオミ2を販売する。Naomi 2のアーキテクチャは前作と同様であるため、ゲームに互換性がある。当時、「ナオミ2」はセガのノウハウを生かし、アーケードで強力なリファレンスとなった。</text>
 </text>
 
 <text name="system_description" extra="true" lang="nl">
-<text>De MSU is een aangepaste coprocessor waarmee audio van CD-kwaliteit (44,1 kHz, 16 bit) kan worden afgespeeld, en waarmee tot 4 GB aan gegevens kan worden geadresseerd. Hierdoor kunnen ROM-hacks achtergrondmuziek in spellen vervangen door versies van hoge kwaliteit, en zelfs geanimeerde video's afspelen.</text>
+<text>Na de herstructurering in de lente van 2000 en vooral door de slechte commerciële ontvangst van de Dreamcast in Japan, richt Sega zich opnieuw op de arcade-sector en brengt de Naomi 2 op de markt. De architectuur van de Naomi 2 is vergelijkbaar met die van zijn voorganger, zodat de spellen compatibel zijn. In die tijd was de Naomi 2 een krachtige referentie in de arcadehal, waarbij gebruik werd gemaakt van de knowhow van Sega op dit gebied.</text>
 </text>
 
 <text name="system_description" extra="true" lang="pl">
-<text>MSU jest niestandardowym koprocesorem, który umożliwia odtwarzanie dźwięku o jakości CD (44,1 kHz, 16 bitów), a także adresowanie do 4 GB danych. Dzięki temu ROM hacki mogą zastąpić muzykę w grach jej wysokiej jakości wersjami, a nawet odtwarzać animowane filmy.</text>
+<text>Po restrukturyzacji wiosną 2000 roku, a zwłaszcza z powodu słabego komercyjnego przyjęcia Dreamcasta w Japonii, Sega skupia się na sektorze gier zręcznościowych i wprowadza na rynek Naomi 2. Architektura Naomi 2 jest podobna do architektury poprzednika, więc gry są kompatybilne. W tym czasie Naomi 2 było potężnym odniesieniem w arcade, wykorzystując know-how firmy Sega w tej dziedzinie.</text>
 </text>
 
 <text name="system_description" extra="true" lang="pt">
-<text>A MSU é um coprocessador personalizado que permite a reprodução de áudio com qualidade de CD (44,1 kHz, 16 bit), bem como o endereçamento de até 4 GB de dados. Isto permite aos hacks de ROM substituir a música de fundo em jogos por versões de alta qualidade, e até mesmo reproduzir vídeos animados.</text>
+<text>Após a reestruturação na Primavera de 2000 e especialmente devido à má recepção comercial do Dreamcast no Japão, a Sega reorientou-se para o sector das arcadas e lançou a Naomi 2. A arquitectura da Naomi 2 é semelhante à da sua antecessora, pelo que os jogos são compatíveis. Na altura, a Naomi 2 era uma referência poderosa na arcada, tirando partido do know-how da Sega neste campo.</text>
 </text>
 
 <text name="system_description" extra="true" lang="ru">
-<text>MSU - это пользовательский сопроцессор, который позволяет воспроизводить аудио CD-качества (44,1 кГц, 16 бит), а также адресовать до 4 Гб данных. Это позволяет ROM-хакам заменять фоновую музыку в играх высококачественными версиями и даже воспроизводить анимированное видео.</text>
+<text>После реструктуризации весной 2000 года и особенно из-за плохого коммерческого приема Dreamcast в Японии, Sega переориентируется на сектор аркад и выпускает на рынок Naomi 2. Архитектура Naomi 2 аналогична архитектуре ее предшественницы, поэтому игры совместимы. В то время Naomi 2 была мощным эталоном в аркадах, используя ноу-хау Sega в этой области.</text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Initial D Arcade Stage (2002)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Takumi Fujiwara is a quiet high school student who becomes a formidable driver through nightly deliveries behind the wheel of his father's Toyota AE86. In Initial D Arcade Stage, he embodies downhill drift control, precise racing lines and calm focus against rivals often far more confident on Japan's mountain roads.
+Fun fact: Takumi's Toyota AE86 became a cult car, sharply boosting the real model's popularity among drift fans.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Takumi Fujiwara est un lycéen discret devenu pilote redoutable grâce à ses livraisons nocturnes au volant de la Toyota AE86 de son père. Dans Initial D Arcade Stage, il incarne la maîtrise du drift en descente, les trajectoires millimétrées et le calme face à des rivaux souvent plus sûrs d’eux sur les routes de montagne japonaises.
+Fun fact : La Toyota AE86 de Takumi est devenue culte au point de faire exploser la popularité réelle de ce modèle chez les amateurs de drift.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Takumi Fujiwara es un estudiante discreto convertido en piloto temible gracias a sus repartos nocturnos al volante del Toyota AE86 de su padre. En Initial D Arcade Stage, representa el dominio del drift en bajada, las trazadas milimétricas y la calma ante rivales a menudo mucho más seguros en las carreteras de montaña japonesas.
+Dato curioso: El Toyota AE86 de Takumi se volvió de culto y disparó la popularidad real de este modelo entre los aficionados al drift.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Takumi Fujiwara è uno studente riservato diventato un pilota temibile grazie alle consegne notturne al volante della Toyota AE86 di suo padre. In Initial D Arcade Stage incarna il controllo del drift in discesa, traiettorie precise e calma davanti a rivali spesso molto più sicuri sulle strade di montagna giapponesi.
+Curiosità: La Toyota AE86 di Takumi è diventata un'auto di culto, aumentando davvero la popolarità del modello tra gli appassionati di drift.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Takumi Fujiwara ist ein zurückhaltender Schüler, der durch nächtliche Lieferfahrten im Toyota AE86 seines Vaters zu einem gefürchteten Fahrer wird. In Initial D Arcade Stage steht er für kontrolliertes Driften bergab, genaue Linienwahl und Ruhe gegenüber oft deutlich selbstsichereren Rivalen auf Japans Bergstraßen.
+Interessante Tatsache: Takumis Toyota AE86 wurde zum Kultauto und steigerte die echte Beliebtheit dieses Modells unter Driftfans stark.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Takumi Fujiwara é um estudante discreto que se torna um piloto temido graças às entregas noturnas ao volante do Toyota AE86 do pai. Em Initial D Arcade Stage, ele representa o domínio do drift em descida, trajetórias precisas e calma diante de rivais muitas vezes mais confiantes nas estradas de montanha do Japão.
+Curiosidade: O Toyota AE86 de Takumi virou carro de culto e aumentou muito a popularidade real desse modelo entre fãs de drift.</text>
+</text>
 </view>
 </theme>

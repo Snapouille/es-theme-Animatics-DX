@@ -49,5 +49,41 @@ originally based on: "carbon"
 <text>Pico-8 - это виртуальная машина, разработанная компанией Lexaloffle Games. С помощью среды Lua пользователь может создавать различные элементы игры (звуки, спрайты, карты...). Графический дисплей ограничен 16 цветами, 128x128 пикселей, что придает создаваемым играм минималистский и ретро аспект.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Celeste (2018)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Celeste is a demanding platform game where Madeline climbs a mountain through precise jumps, dashes and tightly timed sequences. In its PICO-8 version, the game keeps only the essentials with short stages, instant controls and a strong challenge built on repetition and mastery.
+Fun fact: Celeste Classic was created in just a few days during a game jam, before becoming the foundation for the full game released in 2018.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Celeste propose une aventure de plateforme exigeante où Madeline gravit une montagne en enchaînant sauts précis, dash et séquences millimétrées. Dans sa version PICO-8, le jeu revient à l’essentiel avec des niveaux courts, un gameplay immédiat et un défi basé sur la répétition et la maîtrise.
+Fun fact : Celeste Classic a été développé en quelques jours lors d’une game jam avant de devenir la base du jeu complet sorti en 2018.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Celeste ofrece una aventura de plataformas exigente donde Madeline escala una montaña con saltos precisos, dash y secuencias muy ajustadas. En su versión PICO-8, el juego vuelve a lo esencial con niveles cortos, controles inmediatos y un reto basado en repetición y dominio.
+Dato curioso: Celeste Classic fue creado en pocos días durante una game jam, antes de convertirse en la base del juego completo lanzado en 2018.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Celeste propone un’avventura platform impegnativa in cui Madeline scala una montagna con salti precisi, dash e sequenze millimetriche. Nella versione PICO-8, il gioco torna all’essenziale con livelli brevi, controlli immediati e una sfida basata su ripetizione e padronanza.
+Curiosità: Celeste Classic fu creato in pochi giorni durante una game jam, prima di diventare la base del gioco completo uscito nel 2018.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Celeste ist ein anspruchsvolles Plattformspiel, in dem Madeline einen Berg mit präzisen Sprüngen, Dashes und genau getakteten Abläufen erklimmt. In der PICO-8-Version reduziert sich das Spiel auf kurze Level, direkte Steuerung und eine Herausforderung aus Wiederholung und Können.
+Interessante Tatsache: Celeste Classic entstand in wenigen Tagen während eines Game Jams und wurde später zur Grundlage des vollständigen Spiels von 2018.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Celeste é uma aventura de plataformas exigente onde Madeline escala uma montanha com saltos precisos, dash e sequências muito ajustadas. Na versão PICO-8, o jogo regressa ao essencial com níveis curtos, controlos imediatos e um desafio baseado na repetição e domínio.
+Curiosidade: Celeste Classic foi criado em poucos dias durante uma game jam, antes de se tornar a base do jogo completo lançado em 2018.</text>
+</text>
+
+
 </view>
 </theme>

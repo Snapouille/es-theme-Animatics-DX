@@ -17,6 +17,55 @@ originally based on: "carbon"
 <text>GZDoom est un port source avancé du moteur de Doom basé sur OpenGL. Il permet d'améliorer les graphismes, d'ajouter des effets modernes (éclairages dynamiques, shaders) et de supporter des mods avancés avec des améliorations visuelles et de gameplay. Compatible avec Doom, Heretic, Hexen et Strife, il offre une grande flexibilité pour les créateurs de niveaux.</text>
 </text>
 
+<text name="system_description" extra="true" lang="es">
+<text>GZDoom es un port fuente avanzado del motor de Doom basado en OpenGL. Mejora los gráficos, añade efectos modernos como iluminación dinámica y shaders, y permite usar mods avanzados con mejoras visuales y de jugabilidad. Compatible con Doom, Heretic, Hexen y Strife, ofrece gran flexibilidad a los creadores de niveles.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>GZDoom è un port sorgente avanzato del motore di Doom basato su OpenGL. Migliora la grafica, aggiunge effetti moderni come luci dinamiche e shader, e supporta mod avanzate con miglioramenti visivi e di gameplay. Compatibile con Doom, Heretic, Hexen e Strife, offre grande flessibilità ai creatori di livelli.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>GZDoom ist ein erweiterter Source-Port der OpenGL-basierten Doom-Engine. Er verbessert die Grafik, fügt moderne Effekte wie dynamische Beleuchtung und Shader hinzu und unterstützt fortgeschrittene Mods mit visuellen und spielerischen Erweiterungen. Kompatibel mit Doom, Heretic, Hexen und Strife, bietet er Leveldesignern große Flexibilität.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>GZDoom é um port de código-fonte avançado do motor de Doom baseado em OpenGL. Melhora os gráficos, adiciona efeitos modernos como iluminação dinâmica e shaders, e suporta mods avançados com melhorias visuais e de jogabilidade. Compatível com Doom, Heretic, Hexen e Strife, oferece grande flexibilidade aos criadores de níveis.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;DOOM (1993)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The Space Marine is a nameless soldier sent to Mars who becomes the last barrier against a demonic invasion. Silent and relentless, he fights through military bases and corrupted hellscapes with a brutal arsenal. In GZDoom, he keeps the raw speed of the original gameplay while opening the door to modern improvements and custom content.
+Fun fact: Fans long called him Doomguy, a nickname later embraced officially in newer DOOM entries.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le Space Marine est un soldat anonyme envoyé sur Mars qui devient le dernier rempart face à une invasion démoniaque. Silencieux et implacable, il traverse bases militaires et enfers corrompus avec un arsenal brutal. Dans GZDoom, il garde la nervosité du gameplay original tout en profitant d'améliorations modernes et de contenus personnalisés.
+Fun fact : Les fans l'ont longtemps appelé Doomguy, un surnom ensuite repris officiellement dans les épisodes récents de DOOM.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>El Space Marine es un soldado anónimo enviado a Marte que se convierte en la última defensa ante una invasión demoníaca. Silencioso e implacable, atraviesa bases militares e infiernos corruptos con un arsenal brutal. En GZDoom, conserva la velocidad del juego original mientras aprovecha mejoras modernas y contenidos personalizados.
+Dato curioso: Los fans lo llamaron Doomguy durante años, un apodo que luego fue adoptado oficialmente en entregas recientes de DOOM.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Lo Space Marine è un soldato anonimo inviato su Marte che diventa l'ultima barriera contro un'invasione demoniaca. Silenzioso e implacabile, attraversa basi militari e inferni corrotti con un arsenale brutale. In GZDoom, conserva la rapidità del gameplay originale e sfrutta miglioramenti moderni e contenuti personalizzati.
+Curiosità: I fan lo hanno chiamato Doomguy per anni, un soprannome poi adottato ufficialmente negli episodi recenti di DOOM.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Der Space Marine ist ein namenloser Soldat auf dem Mars, der zur letzten Verteidigung gegen eine dämonische Invasion wird. Stumm und unerbittlich kämpft er sich mit einem brutalen Arsenal durch Militärbasen und verdorbene Höllenwelten. In GZDoom behält er das hohe Tempo des Originals und nutzt moderne Verbesserungen sowie eigene Inhalte.
+Interessante Tatsache: Fans nannten ihn lange Doomguy, ein Spitzname, der später in neueren DOOM-Teilen offiziell aufgegriffen wurde.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>O Space Marine é um soldado anónimo enviado a Marte que se torna a última defesa contra uma invasão demoníaca. Silencioso e implacável, atravessa bases militares e infernos corrompidos com um arsenal brutal. Em GZDoom, mantém a velocidade do jogo original enquanto aproveita melhorias modernas e conteúdos personalizados.
+Curiosidade: Os fãs chamaram-lhe Doomguy durante anos, alcunha depois adotada oficialmente nos episódios recentes de DOOM.</text>
+</text>
 
 </view>
 </theme>

@@ -49,5 +49,39 @@ originally based on: "carbon"
 <text>Lynx - это британский 8-битный домашний компьютер. Выпускалось несколько моделей с 48, 96 или 128 кБ оперативной памяти. С помощью встроенных расширений ОЗУ можно было увеличить до 192 кБ. Для своего времени эта машина была довольно продвинутой.</text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+	<text>&#160;&#160;Planetoids (1984)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+	<text>Planetoids features a spaceship navigating through an asteroid field, destroying rocks while avoiding collisions and enemies. Inspired directly by the Asteroids formula, the Camputers Lynx version focuses on simple and readable action, where inertia control and shooting precision are key to survival.
+Fun fact: Planetoids is one of many Asteroids-inspired clones that appeared on home computers in the early 1980s.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+	<text>Planetoids propose un vaisseau spatial évoluant dans un champ d’astéroïdes à détruire tout en évitant les collisions et les ennemis. Inspiré directement du principe d’Asteroids, le jeu sur Camputers Lynx mise sur une action simple et lisible, où le contrôle de l’inertie et la précision des tirs sont essentiels pour survivre.
+Fun fact : Planetoids fait partie des nombreux clones d’Asteroids apparus au début des années 80 sur les micro-ordinateurs domestiques.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+	<text>Planetoids presenta una nave espacial que se mueve en un campo de asteroides, destruyéndolos mientras evita colisiones y enemigos. Inspirado directamente en el concepto de Asteroids, el juego en Camputers Lynx apuesta por una acción simple y clara, donde el control de la inercia y la precisión de disparo son esenciales para sobrevivir.
+Dato curioso: Planetoids forma parte de los numerosos clones inspirados en Asteroids que aparecieron en los microordenadores domésticos a principios de los años 80.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+	<text>Planetoids mette in scena una navicella che si muove in un campo di asteroidi, distruggendoli evitando collisioni e nemici. Ispirato direttamente al concetto di Asteroids, il gioco su Camputers Lynx punta su un’azione semplice e leggibile, dove il controllo dell’inerzia e la precisione dei colpi sono fondamentali per sopravvivere.
+Curiosità: Planetoids è uno dei numerosi cloni ispirati ad Asteroids apparsi sui computer domestici all’inizio degli anni 80.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+	<text>Planetoids zeigt ein Raumschiff, das sich durch ein Asteroidenfeld bewegt und dabei Hindernisse zerstört sowie Kollisionen und Gegner vermeidet. Direkt vom Konzept von Asteroids inspiriert, setzt die Camputers-Lynx-Version auf einfache und gut lesbare Action, bei der Trägheitskontrolle und Schussgenauigkeit entscheidend sind.
+Interessante Tatsache: Planetoids gehört zu den zahlreichen Asteroids-Klonen, die Anfang der 80er Jahre auf Heimcomputern erschienen sind.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+	<text>Planetoids apresenta uma nave espacial navegando por um campo de asteroides, destruindo rochas enquanto evita colisões e inimigos. Inspirado diretamente no conceito de Asteroids, o jogo no Camputers Lynx aposta em uma ação simples e clara, onde o controle da inércia e a precisão dos disparos são essenciais para sobreviver.
+Curiosidade: Planetoids faz parte dos inúmeros clones inspirados em Asteroids que surgiram nos computadores domésticos no início dos anos 80.</text>
+</text>
+
 </view>
 </theme>

@@ -17,16 +17,20 @@ originally based on: "carbon"
 <text>SNK Corporation est une entreprise japonaise fondée en 1973 dont l'activité est la planification, le développement et l'édition de jeux vidéo et de systèmes de jeu vidéo, ainsi que la création et la gestion de centres de divertissement. SNK est le fondateur du cultissime système Neo-Geo.</text>
 </text>
 
-<text name="system_description" extra="true" lang="de">
-<text>SNK Corporation ist ein 1973 gegründetes japanisches Unternehmen, das sich mit der Planung, Entwicklung und Veröffentlichung von Videospielen und Videospielsystemen sowie mit der Schaffung und Verwaltung von Unterhaltungszentren befasst. SNK ist der Gründer des kultigen Neo-Geo-Systems.</text>
-</text>
-
 <text name="system_description" extra="true" lang="es">
 <text>SNK Corporation es una empresa japonesa fundada en 1973 que planifica, desarrolla y publica videojuegos y sistemas de videojuegos, y crea y gestiona centros de entretenimiento. SNK es la creadora del popular sistema Neo-Geo.</text>
 </text>
 
 <text name="system_description" extra="true" lang="it">
 <text>SNK Corporation è una società giapponese fondata nel 1973 che progetta, sviluppa e pubblica videogiochi e sistemi di videogiochi e crea e gestisce centri di intrattenimento. SNK è il fondatore del popolare sistema Neo-Geo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>SNK Corporation ist ein 1973 gegründetes japanisches Unternehmen, das sich mit der Planung, Entwicklung und Veröffentlichung von Videospielen und Videospielsystemen sowie mit der Schaffung und Verwaltung von Unterhaltungszentren befasst. SNK ist der Gründer des kultigen Neo-Geo-Systems.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A SNK Corporation é uma empresa japonesa fundada em 1973 que planeia, desenvolve e publica jogos de vídeo e sistemas de jogos de vídeo, e cria e gere centros de entretenimento. A SNK é a fundadora do popular sistema Neo-Geo.</text>
 </text>
 
 <text name="system_description" extra="true" lang="ja">
@@ -41,12 +45,42 @@ originally based on: "carbon"
 <text>SNK Corporation to japońska firma założona w 1973 roku, która planuje, rozwija i wydaje gry wideo i systemy gier wideo, a także tworzy i zarządza centrami rozrywki. SNK jest twórcą popularnego systemu Neo-Geo.</text>
 </text>
 
-<text name="system_description" extra="true" lang="pt">
-<text>A SNK Corporation é uma empresa japonesa fundada em 1973 que planeia, desenvolve e publica jogos de vídeo e sistemas de jogos de vídeo, e cria e gere centros de entretenimento. A SNK é a fundadora do popular sistema Neo-Geo.</text>
-</text>
-
 <text name="system_description" extra="true" lang="ru">
 <text>SNK Corporation - японская компания, основанная в 1973 году, которая планирует, разрабатывает и издает видеоигры и видеоигровые системы, а также создает и управляет развлекательными центрами. SNK является создателем популярной системы Neo-Geo.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;The Last Blade (1997)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Kaede is a young swordsman drawn into a conflict mixing demons, legendary blades and a fantastic feudal Japan. In The Last Blade, he shifts between fast strikes, powerful techniques and transformations tied to dragon energy, with a visual style inspired by Japanese woodblock prints.
+Fun fact: The Last Blade is often seen as one of the most beautiful Neo Geo games thanks to its detailed animation and seasonal Japanese backdrops.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Kaede est un jeune épéiste entraîné malgré lui dans un conflit mêlant démons, sabres légendaires et Japon féodal fantastique. Dans The Last Blade, il alterne entre attaques rapides, techniques puissantes et transformations liées à l’énergie du dragon, avec un style visuel inspiré des estampes japonaises.
+Fun fact : The Last Blade est souvent considéré comme l’un des plus beaux jeux Neo Geo grâce à ses animations détaillées et ses décors inspirés des saisons japonaises.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Kaede es un joven espadachín arrastrado a un conflicto que mezcla demonios, espadas legendarias y un Japón feudal fantástico. En The Last Blade alterna ataques rápidos, técnicas poderosas y transformaciones ligadas a la energía del dragón, con un estilo visual inspirado en los grabados japoneses.
+Dato curioso: The Last Blade suele considerarse uno de los juegos más bellos de Neo Geo por sus animaciones detalladas y sus escenarios estacionales japoneses.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Kaede è un giovane spadaccino trascinato in un conflitto che unisce demoni, lame leggendarie e un Giappone feudale fantastico. In The Last Blade alterna attacchi rapidi, tecniche potenti e trasformazioni legate all’energia del drago, con uno stile visivo ispirato alle stampe giapponesi.
+Curiosità: The Last Blade è spesso considerato uno dei giochi Neo Geo più belli grazie alle animazioni dettagliate e agli scenari stagionali giapponesi.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Kaede ist ein junger Schwertkämpfer, der in einen Konflikt aus Dämonen, legendären Klingen und einem fantastischen feudalen Japan gerät. In The Last Blade wechselt er zwischen schnellen Angriffen, starken Techniken und Verwandlungen durch Drachenenergie, mit einem von japanischen Holzschnitten geprägten Stil.
+Interessante Tatsache: The Last Blade gilt oft als eines der schönsten Neo Geo Spiele, dank detailreicher Animationen und japanischer Jahreszeiten-Kulissen.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Kaede é um jovem espadachim envolvido num conflito que mistura demónios, lâminas lendárias e um Japão feudal fantástico. Em The Last Blade alterna ataques rápidos, técnicas poderosas e transformações ligadas à energia do dragão, com um estilo visual inspirado nas gravuras japonesas.
+Curiosidade: The Last Blade é frequentemente visto como um dos jogos mais bonitos da Neo Geo graças às animações detalhadas e aos cenários sazonais japoneses.</text>
 </text>
 
 </view>

@@ -49,5 +49,40 @@ originally based on: "carbon"
 <text>Мыслительные игры отличаются использованием абстрактных механизмов, где случайность имеет нулевую (или ограниченную) роль. Это может быть головоломка, пасьянс, игра, где нужно разгадать загадку, игра в слова, игра-симулятор...</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Lemmings (Amiga, 1991)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Lemmings asks the player to guide a crowd of tiny creatures to the exit by assigning them roles such as digging, blocking, building or climbing. Each level relies on observation, timing and group management, with solutions that can look simple at first but quickly become chaotic when several actions must be chained at once.
+Fun fact: Lemmings began as a simple animation test created by Mike Dailly at DMA Design before becoming one of the studio’s biggest hits.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Lemmings demande de guider une foule de petites créatures vers la sortie en leur attribuant des rôles précis comme creuser, bloquer, construire ou grimper. Chaque niveau repose sur l’observation, le timing et la gestion du groupe, avec des solutions parfois simples en apparence mais rapidement chaotiques lorsque plusieurs actions doivent être enchaînées en même temps.
+Fun fact : Lemmings est né d’un simple test d’animation créé par Mike Dailly chez DMA Design, avant de devenir l’un des plus grands succès du studio.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Lemmings propone guiar a una multitud de pequeñas criaturas hasta la salida asignándoles tareas como excavar, bloquear, construir o trepar. Cada nivel se basa en la observación, el timing y la gestión del grupo, con soluciones que parecen simples al principio pero se vuelven caóticas al encadenar varias acciones.
+Dato curioso: Lemmings nació como una simple prueba de animación creada por Mike Dailly en DMA Design antes de convertirse en uno de los mayores éxitos del estudio.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Lemmings chiede di guidare una folla di piccole creature verso l’uscita assegnando loro compiti come scavare, bloccare, costruire o arrampicarsi. Ogni livello si basa su osservazione, tempismo e gestione del gruppo, con soluzioni che sembrano semplici ma diventano caotiche quando più azioni vanno concatenate.
+Curiosità: Lemmings nacque da un semplice test di animazione creato da Mike Dailly presso DMA Design prima di diventare uno dei più grandi successi dello studio.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Lemmings fordert den Spieler auf, eine Menge kleiner Wesen zum Ausgang zu führen, indem er ihnen Aufgaben wie Graben, Blockieren, Bauen oder Klettern zuweist. Jedes Level setzt auf Beobachtung, Timing und Gruppensteuerung, mit Lösungen, die zunächst einfach wirken, aber schnell chaotisch werden.
+Interessante Tatsache: Lemmings begann als einfacher Animationstest von Mike Dailly bei DMA Design, bevor es zu einem der größten Erfolge des Studios wurde.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Lemmings pede ao jogador que guie uma multidão de pequenas criaturas até à saída, atribuindo-lhes funções como escavar, bloquear, construir ou trepar. Cada nível depende da observação, do timing e da gestão do grupo, com soluções que parecem simples mas ficam caóticas quando várias ações se encadeiam.
+Curiosidade: Lemmings nasceu de um simples teste de animação criado por Mike Dailly na DMA Design antes de se tornar um dos maiores sucessos do estúdio.</text>
+</text>
+
 </view>
 </theme>

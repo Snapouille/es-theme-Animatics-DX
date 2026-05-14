@@ -49,5 +49,40 @@ originally based on: "carbon"
 <text>WASM-4 позволяет разрабатывать игровые картриджи (ПЗУ), которые могут быть созданы с помощью любого языка программирования, компилируемого в WebAssembly. Размер картриджа и памяти ограничен 64 КБ, а экран представляет собой квадрат 160x160 пикселей с 4 настраиваемыми цветами.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;First Flight (2022)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>First Flight follows a young witch during her first ride through the sky, in an aerial skill game where she must pass through rings as fast as possible. Designed for WASM-4, it uses simple controls, a low-resolution look and a clear goal based on trajectory, timing and precision.
+Fun fact: The game was created in only a few days during a game jam, an event where developers build a complete game within a very short time limit.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>First Flight met en scène une jeune sorcière lors de son premier vol, dans un jeu d’adresse aérien où il faut traverser des anneaux le plus vite possible. Pensé pour WASM-4, il mise sur une prise en main immédiate, une présentation en basse résolution et un objectif simple basé sur la trajectoire et la précision.
+Fun fact : Le jeu a été créé en seulement quelques jours lors d’une game jam, un événement où les développeurs doivent concevoir un jeu complet dans un temps très limité.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>First Flight presenta a una joven bruja en su primer vuelo, en un juego aéreo de habilidad donde debe atravesar anillos lo más rápido posible. Pensado para WASM-4, apuesta por controles inmediatos, baja resolución y un objetivo claro basado en trayectoria, ritmo y precisión.
+Dato curioso: El juego fue creado en pocos días durante una game jam, un evento donde los desarrolladores deben hacer un juego completo en muy poco tiempo.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>First Flight segue una giovane strega durante il suo primo volo, in un gioco aereo di abilità dove deve attraversare anelli il più velocemente possibile. Pensato per WASM-4, punta su comandi immediati, bassa risoluzione e un obiettivo chiaro basato su traiettoria e precisione.
+Curiosità: Il gioco è stato creato in pochi giorni durante una game jam, un evento in cui gli sviluppatori devono realizzare un gioco completo in poco tempo.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>First Flight zeigt eine junge Hexe bei ihrem ersten Flug, in einem Geschicklichkeitsspiel, bei dem sie möglichst schnell durch Ringe fliegen muss. Für WASM-4 entwickelt, setzt es auf direkte Steuerung, niedrige Auflösung und ein klares Ziel aus Flugbahn, Timing und Präzision.
+Interessante Tatsache: Das Spiel entstand in wenigen Tagen während eines Game Jams, bei dem Entwickler in sehr kurzer Zeit ein komplettes Spiel erschaffen.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>First Flight acompanha uma jovem bruxa no seu primeiro voo, num jogo aéreo de habilidade em que deve atravessar anéis o mais depressa possível. Criado para WASM-4, aposta em controlos imediatos, baixa resolução e um objetivo claro baseado em trajetória, ritmo e precisão.
+Curiosidade: O jogo foi criado em poucos dias durante uma game jam, um evento onde programadores fazem um jogo completo num tempo muito limitado.</text>
+</text>
+
 </view>
 </theme>

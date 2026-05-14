@@ -49,6 +49,41 @@ originally based on: "carbon"
 <text>Список последних 50 игр, в которые вы играли. Возможно, пришло время подумать о том, чтобы закончить их, что вы думаете?</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Back to the Future (1985)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Doc’s DeLorean is a time machine built from a sports car, recognizable by its gullwing doors and futuristic equipment. In this last played list, it makes sense as a symbol of returning to the recent past, letting the player revisit the latest games launched like small trips through time.
+Fun fact: In the saga, the DeLorean must reach exactly 88 miles per hour to activate time travel, a detail that became iconic.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>La DeLorean du Doc est une machine à voyager dans le temps transformée à partir d’une voiture sportive, reconnaissable à ses portières papillon et à ses équipements futuristes. Dans cette liste des dernières parties, elle fait sens comme symbole d’un retour dans le passé récent, permettant de revisiter les derniers jeux lancés comme autant de voyages à travers le temps.
+Fun fact : Dans la saga, la DeLorean doit atteindre précisément 88 miles à l’heure pour activer le voyage temporel, un détail devenu emblématique de la série.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>El DeLorean del Doc es una máquina del tiempo creada a partir de un coche deportivo, reconocible por sus puertas de ala de gaviota y su equipo futurista. En esta lista de últimas partidas, funciona como símbolo de regreso al pasado reciente, permitiendo revisitar los últimos juegos iniciados como pequeños viajes en el tiempo.
+Dato curioso: En la saga, el DeLorean debe alcanzar exactamente 88 millas por hora para activar el viaje temporal, un detalle que se volvió icónico.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>La DeLorean del Doc è una macchina del tempo ricavata da un’auto sportiva, riconoscibile dalle porte ad ala di gabbiano e dagli elementi futuristici. In questa lista delle ultime partite, rappresenta un ritorno al passato recente, per rivedere gli ultimi giochi avviati come piccoli viaggi nel tempo.
+Curiosità: Nella saga, la DeLorean deve raggiungere esattamente 88 miglia orarie per attivare il viaggio nel tempo, un dettaglio diventato iconico.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Docs DeLorean ist eine Zeitmaschine, die aus einem Sportwagen gebaut wurde und an Flügeltüren sowie futuristischer Technik erkennbar ist. In dieser Liste der zuletzt gespielten Titel passt sie als Symbol für eine Rückkehr in die nahe Vergangenheit, um die zuletzt gestarteten Spiele wie kleine Zeitreisen erneut zu besuchen.
+Interessante Tatsache: In der Saga muss der DeLorean genau 88 Meilen pro Stunde erreichen, um die Zeitreise auszulösen.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>O DeLorean do Doc é uma máquina do tempo criada a partir de um carro desportivo, reconhecível pelas portas asa de gaivota e equipamentos futuristas. Nesta lista dos últimos jogos, funciona como símbolo de regresso ao passado recente, permitindo revisitar os jogos lançados recentemente como pequenas viagens no tempo.
+Curiosidade: Na saga, o DeLorean precisa atingir exatamente 88 milhas por hora para ativar a viagem no tempo, um detalhe que se tornou icónico.</text>
+</text>
+
 </view>
 </theme>
 

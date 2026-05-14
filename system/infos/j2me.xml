@@ -49,5 +49,41 @@ originally based on: "carbon"
 <text>J2ME (Java 2 Platform, Micro Edition) - это технология, которая позволяет программистам использовать язык программирования Java и связанные с ним инструменты для разработки программ для беспроводных мобильных информационных устройств, таких как мобильные телефоны и персональные цифровые помощники (PDA). </text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Snake (1997)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Snake is a minimalist skill game where the player guides a growing serpent, collecting items while avoiding walls and its own body. On Java J2ME phones, it perfectly represents simple, readable mobile play, built for short sessions on a numeric keypad, with difficulty rising naturally as space becomes limited.
+Fun fact: Snake became famous on Nokia phones from 1997 onward, before inspiring many Java mobile versions across other devices.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Snake est un jeu d’adresse minimaliste où le joueur guide un serpent qui grandit à chaque élément avalé, tout en évitant les murs et son propre corps. Sur téléphones Java J2ME, il incarne parfaitement le jeu mobile simple, lisible et immédiat, pensé pour des parties courtes au clavier numérique, avec une difficulté qui augmente naturellement à mesure que l’espace se réduit.
+Fun fact : Snake est devenu célèbre grâce aux téléphones Nokia dès 1997, avant d’inspirer de nombreuses versions mobiles en Java sur d’autres appareils.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Snake es un juego de habilidad minimalista donde el jugador guía una serpiente que crece al recoger objetos, evitando muros y su propio cuerpo. En teléfonos Java J2ME, representa el juego móvil simple, claro e inmediato, pensado para partidas cortas con teclado numérico, con una dificultad que aumenta al reducirse el espacio.
+Dato curioso: Snake se hizo famoso en los teléfonos Nokia desde 1997, antes de inspirar muchas versiones móviles en Java para otros dispositivos.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Snake è un gioco di abilità minimalista in cui il giocatore guida un serpente che cresce raccogliendo oggetti, evitando muri e il proprio corpo. Sui telefoni Java J2ME rappresenta il gioco mobile semplice, chiaro e immediato, pensato per partite brevi con tastierino numerico, con difficoltà crescente mentre lo spazio diminuisce.
+Curiosità: Snake divenne famoso sui telefoni Nokia dal 1997, prima di ispirare molte versioni mobili Java su altri dispositivi.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Snake ist ein minimalistisches Geschicklichkeitsspiel, in dem der Spieler eine wachsende Schlange steuert, Gegenstände einsammelt und Wände sowie den eigenen Körper meidet. Auf Java-J2ME-Handys steht es für einfaches, gut lesbares mobiles Spielen mit kurzen Runden auf der Zahlentastatur.
+Interessante Tatsache: Snake wurde ab 1997 durch Nokia-Handys berühmt und inspirierte später viele mobile Java-Versionen auf anderen Geräten.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Snake é um jogo de perícia minimalista em que o jogador guia uma serpente que cresce ao apanhar itens, evitando paredes e o próprio corpo. Nos telemóveis Java J2ME, representa o jogo móvel simples, claro e imediato, pensado para partidas curtas no teclado numérico, com dificuldade crescente à medida que o espaço diminui.
+Curiosidade: Snake ficou famoso nos telemóveis Nokia a partir de 1997, antes de inspirar muitas versões móveis em Java noutros aparelhos.</text>
+</text>
+
+
 </view>
 </theme>

@@ -10,13 +10,63 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-<text>Star Wars games cover a wide range of genres, from action-adventure to space combat and FPS. Since the 80s, they have been immersing players in the saga's universe, with original or film-inspired scenarios. Some, like Knights of the Old Republic, have become cult favorites for their storytelling and in-depth gameplay. The franchise continues to evolve with ever more ambitious titles.</text>
+<text>Star Wars games adapt the iconic science fiction universe into various gameplay styles, from space combat to action adventures.</text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-<text>Les jeux Star Wars couvrent de nombreux genres, allant de l'action-aventure aux combats spatiaux en passant par le FPS. Depuis les années 80, ils plongent les joueurs dans l’univers de la saga avec des scénarios originaux ou inspirés des films. Certains, comme Knights of the Old Republic, sont devenus cultes pour leur narration et leur gameplay profond. La franchise continue d’évoluer avec des titres toujours plus ambitieux.</text>
+<text>Les jeux Star Wars adaptent l’univers emblématique de science-fiction en proposant des expériences variées, du combat spatial à l’action-aventure.</text>
 </text>
 
+<text name="system_description" extra="true" lang="es">
+<text>Los juegos de Star Wars adaptan el universo de ciencia ficción en distintos estilos de juego, desde combates espaciales hasta aventuras.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>I giochi di Star Wars adattano il celebre universo fantascientifico in diversi stili di gioco, dal combattimento spaziale all’avventura.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Star-Wars-Spiele setzen das ikonische Science-Fiction-Universum in verschiedene Spielstile um, von Weltraumkämpfen bis zu Abenteuern.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Os jogos de Star Wars adaptam o universo de ficção científica em vários estilos, desde combates espaciais até aventuras.</text>
+</text>
+
+<!-- FIGURINE -->
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Star Wars (Arcade, 1983)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The X-Wing is an iconic Rebel Alliance starfighter, recognizable by its S-foils that open into an X shape in attack position, combining speed, firepower and agility to take on superior enemy forces in space battles. Fun fact: The X-Wing gets its name from the distinctive shape of its wings when opened in combat, a design that became instantly iconic.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le X-Wing est un chasseur emblématique de l’Alliance Rebelle, reconnaissable à ses ailes en position d’attaque formant un X et à sa polyvalence en combat spatial, incarnant un appareil capable d’affronter des forces supérieures grâce à sa maniabilité et sa puissance de feu dans des batailles décisives.
+Fun fact : Le X-Wing doit son nom à la forme de ses ailes ouvertes en combat, un design devenu immédiatement reconnaissable et iconique dans toute la saga Star Wars.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>El X-Wing es un caza emblemático de la Alianza Rebelde, reconocible por sus alas en forma de X en combate, combinando velocidad y potencia en batallas espaciales.
+Dato curioso: Su nombre proviene de la forma de sus alas abiertas en combate.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>L’X-Wing è un caccia iconico dell’Alleanza Ribelle, riconoscibile per le ali a X in posizione d’attacco, combinando velocità e potenza.
+Curiosità: Il nome deriva dalla forma delle ali aperte.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Der X-Wing ist ein ikonischer Jäger der Rebellenallianz, erkennbar an seinen X-förmigen Flügeln im Angriffsmodus.
+Interessante Tatsache: Der Name stammt von der Form der geöffneten Flügel.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>O X-Wing é um caça icônico da Aliança Rebelde, reconhecível pelas asas em forma de X em combate.
+Curiosidade: O nome vem do formato das asas abertas.</text>
+</text>
 
 </view>
 </theme>

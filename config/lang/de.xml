@@ -58,6 +58,12 @@
 <user.logo>Ihr Logo</user.logo>
 <user.username>Ihr Spitzname</user.username>
 <system-description>Systembeschreibungen</system-description>
+<video-preview>Zufällige Videovorschau</video-preview>
+<figurine-description>Figurenbeschreibung</figurine-description>
+<figurine-description-delay>Anzeigeverzögerung der Figurenbeschreibung</figurine-description-delay>
+<delay-1-second>1 Sekunde</delay-1-second>
+<delay-3-seconds>3 Sekunden</delay-3-seconds>
+<delay-8-seconds>8 Sekunden</delay-8-seconds>
 <video-preview>Video-Vorschau</video-preview>
 <system-controllers>Bild von Controllern</system-controllers>
 <show>Anzeigen</show>
@@ -108,6 +114,7 @@
 <onthegreen>Auf dem Green</onthegreen>
 
 <figurine.Display>Figuren</figurine.Display>
+<figurine.Animation>Figurenanimationen</figurine.Animation>
 <figurine.systemOnly>Nur Systemfiguren anzeigen</figurine.systemOnly>
 <figurine.addonOrSystem>Add-on-Figuren anzeigen, sonst Systemfiguren</figurine.addonOrSystem>
 <figurine.addonOnly>Nur Add-on-Figuren anzeigen</figurine.addonOnly>

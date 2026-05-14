@@ -49,5 +49,40 @@ originally based on: "carbon"
 <text>Вдохновленная Pico-8, TIC-80 - это фантазийная консоль с открытым исходным кодом (есть также платная версия с более широкими возможностями). Она работает на платформах Android, HTML5 (на WebAssembly4), Linux, macOS и Windows.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Super Meat Boy TIC-80 Demake (2020)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Super Meat Boy TIC-80 Demake captures the spirit of the original game in a tiny version built for the TIC-80 fantasy console. Meat Boy crosses short, dangerous stages where every jump demands precision, speed and instant retries after failure, keeping the die and retry rhythm in a compact retro format.
+Fun fact: Meat Boy first appeared in a 2008 Flash game called Meat Boy before becoming the more famous console release Super Meat Boy.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Super Meat Boy TIC-80 Demake reprend l’esprit du jeu original dans une version miniature pensée pour la fantasy console TIC-80. Meat Boy traverse des niveaux courts et dangereux où chaque saut demande précision, vitesse et reprise immédiate après l’échec. Le jeu conserve l’idée centrale du die and retry, avec une action nerveuse adaptée à un format rétro très compact.
+Fun fact : Le personnage de Meat Boy vient à l’origine d’un jeu Flash appelé Meat Boy, créé en 2008, avant de devenir la version plus connue sortie sur consoles.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Super Meat Boy TIC-80 Demake recupera el espíritu del juego original en una versión en miniatura creada para la fantasy console TIC-80. Meat Boy supera niveles cortos y peligrosos donde cada salto exige precisión, velocidad y reintentos inmediatos tras fallar, conservando el ritmo die and retry en formato retro compacto.
+Dato curioso: Meat Boy apareció primero en un juego Flash de 2008 llamado Meat Boy, antes de convertirse en el lanzamiento de consola Super Meat Boy.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Super Meat Boy TIC-80 Demake riprende lo spirito del gioco originale in una versione in miniatura creata per la fantasy console TIC-80. Meat Boy attraversa livelli brevi e pericolosi dove ogni salto richiede precisione, velocità e tentativi immediati dopo l’errore, mantenendo il ritmo die and retry in formato retro compatto.
+Curiosità: Meat Boy apparve prima in un gioco Flash del 2008 chiamato Meat Boy, prima di diventare la più celebre uscita su console Super Meat Boy.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Super Meat Boy TIC-80 Demake übernimmt den Geist des Originals in einer Miniaturversion für die Fantasy-Konsole TIC-80. Meat Boy durchquert kurze, gefährliche Level, in denen jeder Sprung Präzision, Tempo und sofortige Neustarts nach Fehlern verlangt, mit kompaktem Retro-Die-and-Retry-Rhythmus.
+Interessante Tatsache: Meat Boy erschien zuerst 2008 in einem Flash-Spiel namens Meat Boy, bevor daraus die bekanntere Konsolenversion Super Meat Boy wurde.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Super Meat Boy TIC-80 Demake recupera o espírito do jogo original numa versão em miniatura criada para a fantasy console TIC-80. Meat Boy atravessa níveis curtos e perigosos onde cada salto exige precisão, velocidade e novas tentativas imediatas após o erro, mantendo o ritmo die and retry em formato retro compacto.
+Curiosidade: Meat Boy apareceu primeiro num jogo Flash de 2008 chamado Meat Boy, antes de se tornar no lançamento de consola Super Meat Boy.</text>
+</text>
+
 </view>
 </theme>

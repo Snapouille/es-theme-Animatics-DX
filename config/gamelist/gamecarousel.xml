@@ -23,6 +23,7 @@ originally based on: "carbon"
 	<pos>0.009 0.955</pos>
 </helpsystem>  
 
+
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
 <!--==== GAMEINFOBAR ====-->
 <!-- cartouche à droite ==== -->
@@ -532,6 +533,7 @@ originally based on: "carbon"
 		"${themePath}/art/publisher/" + lower(${game_publi}) + ".png",
 		"${themePath}/art/publisher/" + lower(${game_publi}) + ".jpg")
 	</path>
+	<!-- <path if="${system.theme} == 'amigademos'">${themePath}/art/logos/amigademos.png</path> -->
 	<origin>0.5 0.5</origin>									
 	<pos>0.096875 0.153</pos>									
 	<maxSize>0.0822917 0.0564815</maxSize>									
@@ -554,6 +556,7 @@ originally based on: "carbon"
 <!-- on affiche le publisher en texte si on trouve pas de logo -->
 <text name="publisher_text" extra="true">
 	<visible>!exists("${themePath}/art/publisher/" + lower({game:publisher}) + ".png")</visible> 
+	<visible if="${system.theme} == 'amigademos'">false</visible> 
 	<text>{game:publisher}</text>
 	<origin>0.5 0.5</origin>									
 	<size>0.0994792 0.0527778</size>									
@@ -619,6 +622,7 @@ originally based on: "carbon"
 					|| 	 ${system.theme} == 'amiga500' 
 					|| 	 ${system.theme} == 'amiga1200' 
 					|| 	 ${system.theme} == 'amiga4000' 
+					|| 	 ${system.theme} == 'amigademos' 
 					|| 	 ${system.theme} == 'atari8bit' 
 					|| 	 ${system.theme} == 'atari800' 
 					|| 	 ${system.theme} == 'atari5200' 
@@ -735,7 +739,6 @@ originally based on: "carbon"
 	<loops>1</loops>
 	<zIndex>30</zIndex>
 	<defaultSnapshot>./../../art/divers/mediamissing.png</defaultSnapshot>
-
 	<maxSize>0.3395833 0.3462963</maxSize>									
 	<pos>0.5102083 0.6092593</pos>	
 	<pos ifHelpPrompts="false">0.5102083 0.6592593</pos>
@@ -747,7 +750,6 @@ originally based on: "carbon"
 	<color>000000</color>
 	<origin>0.5 0.5</origin>
 	<zIndex>10</zIndex>
-
 	<size>0.3395833 0.3462963</size>									
 	<pos>0.5102083 0.6092593</pos>	
 	<pos ifHelpPrompts="false">0.5102083 0.6592593</pos>
@@ -800,10 +802,24 @@ originally based on: "carbon"
 	<padding>1 5 -1 -5</padding>
 </image>
 
+
+
+<!-- animation des figurines  -->
+<image name="figurines,shadow_figurines" ifSubset="figurineAnimation:yes">
+	<storyboard event="activate" repeatAt="10">
+		<animation property="offsetY"  	to="-0.02" 	begin="6000"  duration="300" mode="Bump" autoreverse="true"/>
+		<animation property="rotation"  to="-3" 	begin="6000"  duration="150" mode="Bump" autoreverse="true"/>
+		<animation property="rotation"  to="3" 		begin="6000"  duration="150" mode="Bump" autoreverse="true"/>
+		<animation property="rotation"  to="3"   	begin="12000" duration="200" mode="Bump" autoreverse="true"/>
+		<animation property="rotation"  to="-3"   	begin="12000" duration="200" mode="Bump" autoreverse="true"/>
+		<animation property="offsetX"  	to="0.01"   begin="12000" duration="400" mode="Bump" autoreverse="true"/>
+	</storyboard>
+	<storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="1" mode="linear"/>
+	</storyboard>
+</image>
+
 <!-- figurines systemes incluses dans le thème -->
-<!-- <image name="figurines" ifSubset="figurineDisplay:systemOnly"> -->
-	<!-- <path>"${themePath}/art/figurines/" + {game:system:theme} + ".png"</path> -->
-<!-- </image> -->
 <image name="figurines,shadow_figurines" ifSubset="figurineDisplay:systemOnly">
 	<path>firstfile(
 	    "${themePath}/art/figurines/" + {game:system:theme} + "-default.png",

@@ -21,6 +21,10 @@ originally based on: "carbon"
 <text>Die 3DO ist eine Heimkonsole, die von dem Unternehmer und Gründer von Electronic Arts Trip Hawkins entwickelt wurde. Da sie nicht vom Unternehmen selbst hergestellt wurde, wurde sie an Dritte lizenziert. Panasonic produzierte die ersten Modelle 1993, weitere Versionen wurden 1994 von GoldStar (heute LG Electronics) und 1995 von Sanyo veröffentlicht.</text>
 </text>
 
+<text name="system_description" extra="true" lang="de">
+<text>Die 3DO ist eine Heimkonsole, die von dem Unternehmer und Gründer von Electronic Arts Trip Hawkins entwickelt wurde. Da sie nicht vom Unternehmen selbst hergestellt wurde, wurde sie an Dritte lizenziert. Panasonic produzierte die ersten Modelle 1993, weitere Versionen wurden 1994 von GoldStar (heute LG Electronics) und 1995 von Sanyo veröffentlicht.</text>
+</text>
+
 <text name="system_description" extra="true" lang="es">
 <text>La 3DO es una consola doméstica diseñada por el empresario y fundador de Electronic Arts : Trip Hawkins. No fue fabricada por la propia empresa, sino que se concedió bajo licencia a terceros. Panasonic fabricó los primeros modelos en 1993, y GoldStar (ahora LG Electronics) y Sanyo lanzaron nuevas versiones en 1994 y 1995, respectivamente.</text>
 </text>
@@ -28,7 +32,6 @@ originally based on: "carbon"
 <text name="system_description" extra="true" lang="it">
 <text>Il 3DO è una console domestica progettata dall'imprenditore e fondatore di Electronic Arts Trip Hawkins. Non è stata prodotta dall'azienda stessa, ma è stata data in licenza a terzi. Panasonic ha prodotto i primi modelli nel 1993, mentre altre versioni sono state rilasciate nel 1994 da GoldStar (ora LG Electronics) e nel 1995 da Sanyo.</text>
 </text>
-
 
 <text name="system_description" extra="true" lang="jp">
 <text>3DOは、起業家でありエレクトロニック・アーツの創設者であるトリップ・ホーキンスが設計した家庭用ゲーム機です。同社自身では製造されず、サードパーティにライセンスされた。1993年にパナソニックが最初のモデルを製造し、1994年にゴールドスター（現LGエレクトロニクス）、1995年に三洋電機がさらなるバージョンをリリースした。</text>
@@ -48,6 +51,40 @@ originally based on: "carbon"
 
 <text name="system_description" extra="true" lang="ru">
 <text>3DO - это домашняя консоль, разработанная предпринимателем и основателем Electronic Arts Трипом Хокинсом. Она не производилась самой компанией, а была лицензирована третьими лицами. Первые модели были выпущены компанией Panasonic в 1993 году, последующие версии были выпущены в 1994 году компанией GoldStar (сейчас LG Electronics) и в 1995 году компанией Sanyo</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>  Gex (1995)  </text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Gex is a sarcastic, television-obsessed gecko with a cool, mocking attitude. He mainly fights with his tail and moves with great agility by climbing walls. His cartoon style and constant punchlines are a big part of his charm. He explores worlds inspired by TV channels parodying pop culture.
+Fun fact: the game features hundreds of different jokes, often adapted by country, making Gex feel unique depending on the version.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Gex est un gecko sarcastique accro à la télévision, avec une attitude cool et moqueuse. Il se bat principalement avec sa queue et se déplace avec agilité en grimpant aux murs. Son style cartoon et ses punchlines constantes font tout son charme. Il évolue dans des univers inspirés de chaînes TV parodiant la culture populaire.
+Anecdote : le jeu contient des centaines de blagues différentes, souvent adaptées selon les pays, rendant Gex unique selon la version.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Gex es un gecko sarcástico adicto a la televisión, con una actitud relajada y burlona. Lucha principalmente con su cola y se mueve con gran agilidad trepando por las paredes. Su estilo cartoon y sus frases constantes son gran parte de su encanto. Recorre mundos inspirados en canales de televisión que parodian la cultura popular.
+Curiosidad: el juego contiene cientos de chistes diferentes, a menudo adaptados según el país, haciendo que Gex sea único según la versión.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Gex è un geco sarcastico ossessionato dalla televisione, con un atteggiamento cool e beffardo. Combatte principalmente con la coda e si muove con grande agilità arrampicandosi sui muri. Il suo stile cartoon e le sue battute continue sono gran parte del suo fascino. Attraversa mondi ispirati ai canali TV che parodiano la cultura popolare.
+Curiosità: il gioco contiene centinaia di battute diverse, spesso adattate in base al paese, rendendo Gex unico a seconda della versione.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Gex ist ein sarkastischer, fernsehbesessener Gecko mit einer coolen und spöttischen Haltung. Er kämpft hauptsächlich mit seinem Schwanz und bewegt sich sehr geschickt, indem er Wände hinaufklettert. Sein Cartoon-Stil und seine ständigen Sprüche machen einen großen Teil seines Charmes aus. Er reist durch Welten, die von TV-Sendern inspiriert sind und die Popkultur parodieren.
+Fun Fact: Das Spiel enthält Hunderte verschiedener Witze, die oft je nach Land angepasst wurden, wodurch Gex je nach Version einzigartig wirkt.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Gex é uma osga sarcástica viciada em televisão, com uma atitude descontraída e gozadora. Ele luta principalmente com a cauda e desloca-se com grande agilidade, trepando pelas paredes. O seu estilo cartoon e as suas piadas constantes fazem grande parte do seu charme. Ele atravessa mundos inspirados em canais de TV que parodiam a cultura popular.
+Curiosidade: o jogo contém centenas de piadas diferentes, muitas vezes adaptadas conforme o país, tornando Gex único dependendo da versão.</text>
 </text>
 
 </view>

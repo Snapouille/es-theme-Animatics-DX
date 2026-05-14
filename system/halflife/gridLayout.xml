@@ -1,0 +1,23 @@
+<!-- xash3d_fwgs halflife -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+	<image name="BG_snapLegacy" extra="true">
+		<flipX>true</flipX>
+	</image>
+
+	<image name="avatar" extra="static">
+		<pos>0.69 1.5</pos>	
+		<scale>0.7</scale>
+		<linearSmooth>true</linearSmooth>					
+		<storyboard>
+			<animation property="y" to="0.3" begin="" duration="500" mode="EaseInOut"/>
+		</storyboard>					
+
+	</image>
+		
+	</view>
+</theme>

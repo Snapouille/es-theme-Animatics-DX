@@ -10,11 +10,61 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-<text>The System 357 is a PlayStation 3-based arcade system designed for arcades, created by Japanese company Namco Bandai Games in 2007. The System 369 (sometimes called System 359) is an evolution of the System 357. The specifications are the same as those of the PlayStation 3 Slim, but the chassis is smaller and generates less heat. Only one game uses this arcade system: Tekken Tag Tournament 2.</text>
+<text>Namco System 357 and System 369 are PlayStation 3-based arcade systems developed by Namco Bandai Games for high-end arcade releases. Introduced with Tekken 6, the System 357 powered several demanding titles using internal storage and hardware close to Sony's console. The System 369 later refined the platform with a smaller, cooler design derived from the PS3 Slim.</text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-<text>Le System 357 est un système d'arcade basé sur la PlayStation 3 destiné aux salles d'arcade, créé par la société japonaise Namco Bandai Games en 2007. Le System 369 (parfois appelé System 359) est une évolution du System 357. Les spécifications sont les mêmes que celles de la Playstation 3 Slim, en outre le châssis est plus petit et dégage moins de chaleur. Un seul jeu utilise ce système d'arcade: Tekken Tag Tournament 2.</text>
+<text>Namco System 357 et System 369 sont des systèmes d’arcade basés sur la PlayStation 3, développés par Namco Bandai Games pour des productions arcade haut de gamme. Introduit avec Tekken 6, le System 357 a accueilli plusieurs titres exigeants grâce à un stockage interne et à une architecture proche de la console Sony. Le System 369 affine ensuite la plateforme avec un format plus compact et moins chaud, dérivé de la PS3 Slim.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Namco System 357 y System 369 son sistemas arcade basados en PlayStation 3, desarrollados por Namco Bandai Games para lanzamientos arcade de gama alta. Introducido con Tekken 6, el System 357 movió varios títulos exigentes gracias a su almacenamiento interno y a una arquitectura cercana a la consola de Sony. El System 369 refinó después la plataforma con un diseño más compacto y menos caluroso, derivado de PS3 Slim.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Namco System 357 e System 369 sono sistemi arcade basati su PlayStation 3, sviluppati da Namco Bandai Games per produzioni arcade di fascia alta. Introdotto con Tekken 6, il System 357 ha ospitato diversi titoli impegnativi grazie alla memoria interna e a un’architettura vicina alla console Sony. Il System 369 ha poi perfezionato la piattaforma con un formato più compatto e meno caldo, derivato da PS3 Slim.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Namco System 357 und System 369 sind auf der PlayStation 3 basierende Arcade-Systeme, die Namco Bandai Games für hochwertige Arcade-Veröffentlichungen entwickelte. Das mit Tekken 6 eingeführte System 357 betrieb mehrere anspruchsvolle Titel mit internem Speicher und einer Architektur nahe an Sonys Konsole. Das System 369 verfeinerte die Plattform später mit einem kompakteren, kühleren Design auf Basis der PS3 Slim.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Namco System 357 e System 369 são sistemas arcade baseados na PlayStation 3, desenvolvidos pela Namco Bandai Games para lançamentos arcade de alto nível. Introduzido com Tekken 6, o System 357 recebeu vários títulos exigentes graças ao armazenamento interno e a uma arquitetura próxima da consola da Sony. O System 369 refinou depois a plataforma com um formato mais compacto e menos quente, derivado da PS3 Slim.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Tekken 6 (2007)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>King is a masked wrestler known for his jaguar head, combining raw power with precise grappling techniques. In Tekken 6, he chains throws, ground holds and demanding combos, rewarding mastery of timing and sequences. The figure captures his imposing presence, between physical strength and technical discipline.
+Fun fact: King’s mask is inspired by Mexican wrestling, and his style uses real lucha libre holds adapted to Tekken’s gameplay.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>King est un catcheur masqué reconnaissable à sa tête de jaguar, mêlant puissance brute et techniques de lutte précises. Sur Tekken 6, il enchaîne projections, prises au sol et combos exigeants, récompensant la maîtrise du timing et des enchaînements. La figurine capture cette présence imposante, entre force physique et discipline technique.
+Fun fact : Le masque de King est inspiré du catch mexicain, et son style reprend de véritables prises de lucha libre adaptées au gameplay de Tekken.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>King es un luchador enmascarado reconocible por su cabeza de jaguar, que combina fuerza bruta con técnicas precisas de agarre. En Tekken 6 encadena proyecciones, llaves en el suelo y combos exigentes, recompensando el dominio del ritmo y las secuencias. La figura captura su presencia imponente, entre fuerza física y disciplina técnica.
+Dato curioso: La máscara de King está inspirada en la lucha libre mexicana, y su estilo usa llaves reales adaptadas al gameplay de Tekken.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>King è un wrestler mascherato riconoscibile per la testa di giaguaro, che unisce forza bruta e tecniche di presa precise. In Tekken 6 concatena proiezioni, prese a terra e combo impegnative, premiando la padronanza del tempismo e delle sequenze. La statuetta cattura la sua presenza imponente, tra forza fisica e disciplina tecnica.
+Curiosità: La maschera di King è ispirata al wrestling messicano, e il suo stile riprende vere prese di lucha libre adattate al gameplay di Tekken.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>King ist ein maskierter Wrestler mit Jaguarkopf, der rohe Kraft mit präzisen Grifftechniken verbindet. In Tekken 6 reiht er Würfe, Bodengriffe und anspruchsvolle Kombos aneinander und belohnt die Beherrschung von Timing und Abfolgen. Die Figur fängt seine imposante Präsenz zwischen körperlicher Stärke und technischer Disziplin ein.
+Interessante Tatsache: Kings Maske ist vom mexikanischen Wrestling inspiriert, und sein Stil nutzt echte Lucha-Libre-Griffe, angepasst an Tekkens Gameplay.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>King é um lutador mascarado reconhecível pela cabeça de jaguar, combinando força bruta com técnicas precisas de luta. Em Tekken 6 encadeia projeções, golpes no chão e combos exigentes, recompensando o domínio do timing e das sequências. A figura capta a sua presença imponente, entre força física e disciplina técnica.
+Curiosidade: A máscara de King é inspirada na luta livre mexicana, e o seu estilo usa golpes reais de lucha libre adaptados ao gameplay de Tekken.</text>
 </text>
 
 </view>

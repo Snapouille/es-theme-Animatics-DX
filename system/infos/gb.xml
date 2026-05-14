@@ -10,23 +10,23 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-<text>The Game Boy (ゲームボーイ) is a portable 8-bit video game console. It was designed by Gunpei Yokoi and Nintendo Research & Development, the same team that designed the Game and Watch series as well as many successful NES games. Despite the release of more technically advanced portable consoles, the Game Boy was a huge success.</text>
+<text>The Game Boy (ゲームボーイ) is a portable 8-bit video game console. It was designed by Gunpei Yokoi and Nintendo Research &amp; Development, the same team that designed the Game and Watch series as well as many successful NES games. Despite the release of more technically advanced portable consoles, the Game Boy was a huge success.</text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-<text>La Game Boy (ゲームボーイ) est une console portable de jeu vidéo 8-bits. Elle fut conçue par Gunpei Yokoi et Nintendo Research & Development, la même équipe ayant conçu la série des Game and Watch ainsi que de nombreux jeux à succès sur NES. Malgré la sortie de consoles portables techniquement plus avancées, la Game Boy a connu un très franc succès.</text>
+<text>La Game Boy (ゲームボーイ) est une console portable de jeu vidéo 8-bits. Elle fut conçue par Gunpei Yokoi et Nintendo Research &amp; Development, la même équipe ayant conçu la série des Game and Watch ainsi que de nombreux jeux à succès sur NES. Malgré la sortie de consoles portables techniquement plus avancées, la Game Boy a connu un très franc succès.</text>
 </text>
 
 <text name="system_description" extra="true" lang="de">
-<text>Der Game Boy (ゲームボーイ) ist eine tragbare Konsole für 8-Bit-Videospiele. Sie wurde von Gunpei Yokoi und Nintendo Research & Development entwickelt, demselben Team, das auch die Game and Watch-Reihe und viele erfolgreiche Spiele für das NES entworfen hat. Obwohl technisch fortschrittlichere Handheld-Konsolen auf den Markt kamen, war der Game Boy ein sehr großer Erfolg.</text>
+<text>Der Game Boy (ゲームボーイ) ist eine tragbare Konsole für 8-Bit-Videospiele. Sie wurde von Gunpei Yokoi und Nintendo Research &amp; Development entwickelt, demselben Team, das auch die Game and Watch-Reihe und viele erfolgreiche Spiele für das NES entworfen hat. Obwohl technisch fortschrittlichere Handheld-Konsolen auf den Markt kamen, war der Game Boy ein sehr großer Erfolg.</text>
 </text>
 
 <text name="system_description" extra="true" lang="es">
-<text>La Game Boy (ゲームボーイ) es una videoconsola portátil de 8 bits. Fue diseñada por Gunpei Yokoi y Nintendo Research & Development, el mismo equipo que diseñó la serie Game and Watch, así como muchos juegos de éxito de NES. A pesar del lanzamiento de consolas portátiles técnicamente más avanzadas, la Game Boy fue un gran éxito.</text>
+<text>La Game Boy (ゲームボーイ) es una videoconsola portátil de 8 bits. Fue diseñada por Gunpei Yokoi y Nintendo Research &amp; Development, el mismo equipo que diseñó la serie Game and Watch, así como muchos juegos de éxito de NES. A pesar del lanzamiento de consolas portátiles técnicamente más avanzadas, la Game Boy fue un gran éxito.</text>
 </text>
 
 <text name="system_description" extra="true" lang="it">
-<text>Il Game Boy (ゲームボーイ) è una console portatile per videogiochi a 8 bit. È stata progettata da Gunpei Yokoi e da Nintendo Research & Development, lo stesso team che ha progettato la serie Game and Watch e molti giochi NES di successo. Nonostante l'uscita di console portatili tecnicamente più avanzate, il Game Boy ebbe un enorme successo.</text>
+<text>Il Game Boy (ゲームボーイ) è una console portatile per videogiochi a 8 bit. È stata progettata da Gunpei Yokoi e da Nintendo Research &amp; Development, lo stesso team che ha progettato la serie Game and Watch e molti giochi NES di successo. Nonostante l'uscita di console portatili tecnicamente più avanzate, il Game Boy ebbe un enorme successo.</text>
 </text>
 
 <text name="system_description" extra="true" lang="ja">
@@ -34,19 +34,54 @@ originally based on: "carbon"
 </text>
 
 <text name="system_description" extra="true" lang="nl">
-<text>De Game Boy (ゲームボーイ) is een draagbare 8-bit video game console. Hij werd ontworpen door Gunpei Yokoi en Nintendo Research & Development, hetzelfde team dat de Game and Watch-serie en vele succesvolle NES-spellen ontwierp. Ondanks de release van meer technisch geavanceerde draagbare consoles, was de Game Boy een groot succes.</text>
+<text>De Game Boy (ゲームボーイ) is een draagbare 8-bit video game console. Hij werd ontworpen door Gunpei Yokoi en Nintendo Research &amp; Development, hetzelfde team dat de Game and Watch-serie en vele succesvolle NES-spellen ontwierp. Ondanks de release van meer technisch geavanceerde draagbare consoles, was de Game Boy een groot succes.</text>
 </text>
 
 <text name="system_description" extra="true" lang="pl">
-<text>Game Boy (ゲームボーイ) to przenośna 8-bitowa konsola do gier wideo. Został zaprojektowany przez Gunpei Yokoi i Nintendo Research & Development, ten sam zespół, który zaprojektował serię Game and Watch, jak również wiele udanych gier NES. Pomimo wydania bardziej zaawansowanych technicznie przenośnych konsol, Game Boy był ogromnym sukcesem.</text>
+<text>Game Boy (ゲームボーイ) to przenośna 8-bitowa konsola do gier wideo. Został zaprojektowany przez Gunpei Yokoi i Nintendo Research &amp; Development, ten sam zespół, który zaprojektował serię Game and Watch, jak również wiele udanych gier NES. Pomimo wydania bardziej zaawansowanych technicznie przenośnych konsol, Game Boy był ogromnym sukcesem.</text>
 </text>
 
 <text name="system_description" extra="true" lang="pt">
-<text>O Game Boy (ゲームボーイ) é uma consola de jogos de vídeo portátil de 8 bits. Foi concebida por Gunpei Yokoi e Nintendo Research & Development, a mesma equipa que concebeu a série Game and Watch, assim como muitos jogos de sucesso da NES. Apesar do lançamento de consolas portáteis mais avançadas tecnicamente, o Game Boy foi um enorme sucesso.</text>
+<text>O Game Boy (ゲームボーイ) é uma consola de jogos de vídeo portátil de 8 bits. Foi concebida por Gunpei Yokoi e Nintendo Research &amp; Development, a mesma equipa que concebeu a série Game and Watch, assim como muitos jogos de sucesso da NES. Apesar do lançamento de consolas portáteis mais avançadas tecnicamente, o Game Boy foi um enorme sucesso.</text>
 </text>
 
 <text name="system_description" extra="true" lang="ru">
-<text>Game Boy (ゲームボーイ) - портативная 8-битная игровая приставка. Она была разработана Гунпеем Йокой и компанией Nintendo Research & Development, той же командой, которая создала серию игр Game and Watch, а также множество успешных игр для NES. Несмотря на выпуск более технически совершенных портативных консолей, Game Boy имела огромный успех.</text>
+<text>Game Boy (ゲームボーイ) - портативная 8-битная игровая приставка. Она была разработана Гунпеем Йокой и компанией Nintendo Research &amp; Development, той же командой, которая создала серию игр Game and Watch, а также множество успешных игр для NES. Несмотря на выпуск более технически совершенных портативных консолей, Game Boy имела огромный успех.</text>
+</text>
+
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;The Legend of Zelda: Link’s Awakening (1993)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The Wind Fish and Koholint Island capture the strange, melancholic heart of Link’s Awakening. Between adventure, exploration and quiet poetry, they recall one of the Game Boy’s most distinctive episodes, where each discovery brings Link closer to the truth about the island, in a world both gentle and unsettling, shaped by a unique dreamlike atmosphere.
+Fun fact: Link’s Awakening is the only game in the series where Zelda is completely absent, neither physically present nor mentioned in the story.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le Poisson-Rêve et l’île de Cocolint évoquent toute la dimension étrange et mélancolique de Link’s Awakening. Entre aventure, exploration et poésie, elle rappelle l’un des épisodes les plus singuliers de la Game Boy, où chaque découverte rapproche Link de la vérité sur l’île, dans un univers aussi doux qu’inquiétant, marqué par une atmosphère onirique unique.
+Fun fact : Link’s Awakening est le seul épisode de la saga où Zelda est totalement absente, ni présente physiquement ni mentionnée dans l’histoire.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>El Pez del Viento y la isla Koholint evocan toda la dimensión extraña y melancólica de Link’s Awakening. Entre aventura, exploración y poesía, recuerdan uno de los episodios más singulares de Game Boy, donde cada descubrimiento acerca a Link a la verdad sobre la isla, en un universo tan dulce como inquietante, marcado por una atmósfera onírica única.
+Dato curioso: Link’s Awakening es el único juego de la saga donde Zelda está totalmente ausente, sin aparecer ni ser mencionada en la historia.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Il Pesce Vento e l’isola di Koholint evocano tutta la dimensione strana e malinconica di Link’s Awakening. Tra avventura, esplorazione e poesia, ricordano uno degli episodi più singolari del Game Boy, dove ogni scoperta avvicina Link alla verità sull’isola, in un universo dolce e inquietante, segnato da un’atmosfera onirica unica.
+Curiosità: Link’s Awakening è l’unico gioco della saga in cui Zelda è totalmente assente, senza apparire né essere citata nella storia.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Der Windfisch und die Insel Cocolint greifen die seltsame, melancholische Stimmung von Link’s Awakening auf. Zwischen Abenteuer, Erkundung und leiser Poesie erinnern sie an eine der eigenwilligsten Game-Boy-Episoden, in der jede Entdeckung Link der Wahrheit über die Insel näherbringt, in einer sanften und zugleich unheimlichen Traumwelt.
+Interessante Tatsache: Link’s Awakening ist das einzige Spiel der Reihe, in dem Zelda völlig fehlt, weder körperlich noch in der Geschichte erwähnt.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>O Peixe dos Ventos e a ilha Koholint evocam toda a dimensão estranha e melancólica de Link’s Awakening. Entre aventura, exploração e poesia, lembram um dos episódios mais singulares do Game Boy, onde cada descoberta aproxima Link da verdade sobre a ilha, num universo tão doce quanto inquietante, marcado por uma atmosfera onírica única.
+Curiosidade: Link’s Awakening é o único jogo da série em que Zelda está totalmente ausente, sem aparecer nem ser mencionada na história.</text>
 </text>
 
 </view>

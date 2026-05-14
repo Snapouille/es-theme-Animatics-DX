@@ -1,0 +1,88 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Sega AI Computer is an educational computer released in Japan by Sega in 1986. Designed for children and computer-assisted learning, it used software on cards, a touchpad with overlays, speech synthesis and the Prolog language. Extremely rare and long poorly documented, it mainly hosted programs mixing reading, music, logic and English practice, far from Sega’s better-known consoles.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le Sega AI Computer est un ordinateur éducatif lancé au Japon par Sega en 1986. Pensé pour les enfants et l’apprentissage assisté, il utilisait des logiciels sur cartes, un pavé tactile avec surcouches, la synthèse vocale et le langage Prolog. Très rare et peu documenté pendant longtemps, il a surtout accueilli des programmes mêlant lecture, musique, logique et initiation à l’anglais, loin des consoles Sega plus connues.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Sega AI Computer ist ein Lerncomputer, den Sega 1986 in Japan veröffentlichte. Er war für Kinder und computergestütztes Lernen gedacht und nutzte Software auf Karten, ein Touchpad mit Auflagen, Sprachausgabe und die Sprache Prolog. Das sehr seltene und lange kaum dokumentierte Gerät bot vor allem Programme für Lesen, Musik, Logik und Englischübungen, weit entfernt von Segas bekannteren Konsolen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Sega AI Computer es un ordenador educativo lanzado por Sega en Japón en 1986. Pensado para niños y aprendizaje asistido, usaba programas en tarjetas, un panel táctil con plantillas, síntesis de voz y el lenguaje Prolog. Muy raro y durante mucho tiempo poco documentado, albergó sobre todo programas de lectura, música, lógica e iniciación al inglés, lejos de las consolas más conocidas de Sega.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Sega AI Computer è un computer educativo lanciato da Sega in Giappone nel 1986. Pensato per i bambini e l’apprendimento assistito, usava software su schede, un touchpad con mascherine, sintesi vocale e il linguaggio Prolog. Molto raro e a lungo poco documentato, ospitò soprattutto programmi di lettura, musica, logica e inglese, lontano dalle console Sega più conosciute.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>セガAIコンピュータは、1986年にセガが日本で発売した教育向けコンピュータです。子ども向けの学習支援を目的とし、カード式ソフト、専用シート付きタッチパッド、音声合成、Prologを活用しました。非常に珍しく長く情報が少なかった機種で、読書、音楽、論理、英語学習を中心としたソフトが揃っていました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Sega AI Computer is een educatieve computer die Sega in 1986 in Japan uitbracht. Hij was bedoeld voor kinderen en computerondersteund leren, met software op kaarten, een touchpad met overlays, spraaksynthese en de taal Prolog. Dit zeer zeldzame en lang slecht gedocumenteerde systeem bood vooral programma’s rond lezen, muziek, logica en Engels, ver van Sega’s bekendere consoles.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Sega AI Computer to komputer edukacyjny wydany przez Segę w Japonii w 1986 roku. Przeznaczony dla dzieci i nauki wspomaganej komputerowo, korzystał z programów na kartach, panelu dotykowego z nakładkami, syntezy mowy i języka Prolog. Bardzo rzadki i długo słabo opisany, oferował głównie programy do czytania, muzyki, logiki i nauki angielskiego, z dala od znanych konsol Segi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Sega AI Computer é um computador educativo lançado pela Sega no Japão em 1986. Pensado para crianças e aprendizagem assistida, usava programas em cartões, um painel tátil com sobreposições, síntese de voz e a linguagem Prolog. Muito raro e durante muito tempo pouco documentado, recebeu sobretudo programas de leitura, música, lógica e iniciação ao inglês, longe das consolas mais conhecidas da Sega.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Sega AI Computer — образовательный компьютер, выпущенный Sega в Японии в 1986 году. Он был рассчитан на детей и обучение с помощью компьютера, использовал программы на картах, сенсорную панель с накладками, синтез речи и язык Prolog. Очень редкая и долго плохо описанная система предлагала в основном программы для чтения, музыки, логики и изучения английского.</text>
+</text>
+
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Alice World (1988)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Alice explores a fantasy tale-inspired world in a colorful educational program mixing mini-games, logic and learning. With her simple, recognizable appearance, this figurine recalls early Japanese family software designed to introduce younger users to computers.
+Fun fact: Despite its resemblance to Alice in Wonderland, Alice World is not an official adaptation of Lewis Carroll’s famous tale.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Alice explore un univers inspiré des contes fantastiques dans un programme éducatif coloré mêlant mini-jeux, logique et apprentissage. Avec son apparence simple et reconnaissable, cette figurine rappelle les logiciels familiaux japonais du début des années 80 pensés pour initier les plus jeunes à l’informatique.
+Fun fact : Malgré sa ressemblance avec Alice au pays des merveilles, Alice World n’est pas une adaptation officielle du conte de Lewis Carroll.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Alice explora un universo inspirado en los cuentos fantásticos dentro de un programa educativo colorido que mezcla minijuegos, lógica y aprendizaje. Con su apariencia sencilla y reconocible, esta figurina recuerda el software familiar japonés de comienzos de los años 80 pensado para acercar la informática a los más jóvenes.
+Dato curioso: Aunque se parece a Alicia en el país de las maravillas, Alice World no es una adaptación oficial del cuento de Lewis Carroll.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Alice esplora un universo ispirato ai racconti fantastici in un programma educativo colorato che unisce minigiochi, logica e apprendimento. Con il suo aspetto semplice e riconoscibile, questa figurina ricorda i software familiari giapponesi dei primi anni 80 pensati per avvicinare i più giovani all’informatica.
+Curiosità: Nonostante somigli ad Alice nel Paese delle Meraviglie, Alice World non è un adattamento ufficiale del racconto di Lewis Carroll.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Alice erkundet eine von fantastischen Märchen inspirierte Welt in einem farbenfrohen Lernprogramm, das Minispiele, Logik und Wissen verbindet. Mit ihrem einfachen, wiedererkennbaren Aussehen erinnert diese Figur an japanische Familiensoftware der frühen 80er, die Kinder an Computer heranführen sollte.
+Interessante Tatsache: Trotz der Ähnlichkeit mit Alice im Wunderland ist Alice World keine offizielle Adaption der Erzählung von Lewis Carroll.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Alice explora um universo inspirado em contos fantásticos num programa educativo colorido que mistura minijogos, lógica e aprendizagem. Com a sua aparência simples e reconhecível, esta figurina lembra o software familiar japonês do início dos anos 80 criado para aproximar os mais jovens da informática.
+Curiosidade: Apesar da semelhança com Alice no País das Maravilhas, Alice World não é uma adaptação oficial do conto de Lewis Carroll.</text>
+</text>
+
+</view>
+</theme>

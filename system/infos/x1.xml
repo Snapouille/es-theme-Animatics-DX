@@ -29,24 +29,42 @@ originally based on: "carbon"
 <text>Sharp X1 è il nome dato a una serie di microcomputer giapponesi creati da Sharp Corporation dal 1982 al 1988. Tutti incorporavano un processore Zilog Z80. L'X1 non utilizzava il linguaggio BASIC, ma caricava l'interprete direttamente da una cassetta audio. Questo concetto permetteva di accedere allo spazio RAM tramite la registrazione dei dati.</text>
 </text>
 
-<text name="system_description" extra="true" lang="ja">
-<text>シャープX1は、1982年から1988年にかけてシャープ株式会社が製作した日本製マイクロコンピュータのシリーズ名である。いずれもZilog Z80プロセッサを搭載している。X1はBASIC言語を使わず、オーディオカセットから直接インタプリタを読み込んでいた。このコンセプトにより、データ記録によるRAM空間へのアクセスが可能になった。</text>
-</text>
-
-<text name="system_description" extra="true" lang="nl">
-<text>De Sharp X1 is de naam van een serie Japanse microcomputers die van 1982 tot 1988 door Sharp Corporation zijn gemaakt. Ze bevatten allemaal een Zilog Z80 processor. De X1 gebruikte niet de BASIC-taal, maar laadde de interpreter rechtstreeks vanaf een audiocassette. Dit concept maakte toegang tot RAM ruimte mogelijk via data opname.</text>
-</text>
-
-<text name="system_description" extra="true" lang="pl">
-<text>Sharp X1 to nazwa nadana serii japońskich mikrokomputerów stworzonych przez Sharp Corporation w latach 1982-1988. Wszystkie one zawierały procesor Zilog Z80. X1 nie używał języka BASIC, ale ładował interpreter bezpośrednio z kasety audio. Taka koncepcja pozwalała na dostęp do przestrzeni RAM poprzez nagrywanie danych.</text>
-</text>
-
 <text name="system_description" extra="true" lang="pt">
 <text>O Sharp X1 é o nome dado a uma série de microcomputadores japoneses criados pela Sharp Corporation de 1982 a 1988. Todos eles incorporaram um processador Zilog Z80. O X1 não utilizou a linguagem BASIC mas carregou o intérprete directamente a partir de uma cassete áudio. Este conceito permitiu o acesso ao espaço RAM através da gravação de dados.</text>
 </text>
 
-<text name="system_description" extra="true" lang="ru">
-<text>Sharp X1 - это название серии японских микрокомпьютеров, созданных корпорацией Sharp с 1982 по 1988 год. Все они были оснащены процессором Zilog Z80. В X1 не использовался язык BASIC, а интерпретатор загружался непосредственно с аудиокассеты. Эта концепция позволяла получить доступ к пространству оперативной памяти через запись данных.</text>
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Galaxian (1979)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Galaxian features a space battle where the player controls a ship moving horizontally against organized alien waves that dive in formation with precise attacks, introducing dynamic enemy behavior and a faster, more strategic pace across arcade and home systems.
+Fun fact: Galaxian was one of the first games to display true color graphics with independent sprites, marking a major technical leap in arcades in 1979.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Galaxian propose un affrontement spatial où le joueur contrôle un vaisseau mobile sur un axe horizontal face à des vagues d’aliens organisés qui plongent en formation pour attaquer avec précision, introduisant des mouvements ennemis dynamiques qui donnent au jeu un rythme plus nerveux et stratégique sur borne comme sur micro-ordinateurs.
+Fun fact : Galaxian est l’un des premiers jeux à afficher de vrais graphismes en couleur avec des sprites indépendants, marquant une avancée technique majeure en arcade en 1979.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Galaxian propone un enfrentamiento espacial donde el jugador controla una nave que se mueve horizontalmente frente a oleadas de alienígenas que se lanzan en formación con ataques precisos, introduciendo enemigos dinámicos y un ritmo más rápido y estratégico.
+Dato curioso: Galaxian fue uno de los primeros juegos con gráficos en color real y sprites independientes en 1979.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Galaxian propone uno scontro spaziale in cui il giocatore controlla una nave su asse orizzontale contro ondate di alieni che si lanciano in formazione con attacchi precisi, introducendo nemici dinamici e un ritmo più veloce e strategico.
+Curiosità: Galaxian fu tra i primi giochi con grafica a colori reali e sprite indipendenti nel 1979.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Galaxian bietet ein Weltraumgefecht, bei dem der Spieler ein Schiff horizontal bewegt und gegen organisierte Alienwellen kämpft, die in Formation angreifen, was dynamischere Gegner und ein schnelleres, strategischeres Spieltempo einführt.
+Interessante Tatsache: Galaxian gehörte 1979 zu den ersten Spielen mit echten Farbgraphiken und unabhängigen Sprites.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Galaxian apresenta um combate espacial onde o jogador controla uma nave em movimento horizontal contra ondas de alienígenas que mergulham em formação com ataques precisos, trazendo inimigos mais dinâmicos e um ritmo mais rápido e estratégico.
+Curiosidade: Galaxian foi um dos primeiros jogos com gráficos coloridos reais e sprites independentes em 1979.</text>
 </text>
 
 </view>

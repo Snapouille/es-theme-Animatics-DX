@@ -6,27 +6,51 @@ originally based on: "carbon"
 -->
 <theme>
 	<formatVersion>7</formatVersion>
-
 	<view name="system">
-				
-			<text name="system_description" extra="true">
-				<text>NMK, founded in 1980 in Japan, was a company specializing in arcade game development, known for titles like Thunder Dragon and Hacha Mecha Fighter. It often collaborated with other publishers to produce intense shoot 'em ups and action games. Although the company faded in the 2000s, its games remain beloved by retro gaming fans for their distinctive style and challenging gameplay.</text>
-			</text>
-		
-			<text name="system_description" extra="true" lang="es">
-				<text></text>
-			</text>
-		
-			<text name="system_description" extra="true" lang="fr">
-				<text>NMK, fondée en 1980 au Japon, était une société spécialisée dans le développement de jeux d'arcade, connue pour des titres comme Thunder Dragon et Hacha Mecha Fighter. Elle collaborait souvent avec d'autres éditeurs pour produire des shoot 'em up et des jeux d'action au gameplay intense. Bien que la société ait disparu dans les années 2000, ses jeux restent appréciés des fans de rétrogaming pour leur style et leur difficulté caractéristiques.</text>
-			</text>
-
-	
-			<text name="system_description" extra="true" lang="pt">
-					<text></text>
-			</text>
-		
-				
-
+		<text name="system_description" extra="true">
+			<text>NMK, founded in 1980 in Japan, was a company specializing in arcade game development, known for titles like Thunder Dragon and Hacha Mecha Fighter. It often collaborated with other publishers to produce intense shoot 'em ups and action games. Although the company faded in the 2000s, its games remain beloved by retro gaming fans for their distinctive style and challenging gameplay.</text>
+		</text>
+		<text name="system_description" extra="true" lang="fr">
+			<text>NMK, fondée en 1980 au Japon, était une société spécialisée dans le développement de jeux d'arcade, connue pour des titres comme Thunder Dragon et Hacha Mecha Fighter. Elle collaborait souvent avec d'autres éditeurs pour produire des shoot 'em up et des jeux d'action au gameplay intense. Bien que la société ait disparu dans les années 2000, ses jeux restent appréciés des fans de rétrogaming pour leur style et leur difficulté caractéristiques.</text>
+		</text>
+		<text name="system_description" extra="true" lang="es">
+			<text>NMK, fundada en 1980 en Japón, fue una compañía especializada en el desarrollo de juegos arcade, conocida por títulos como Thunder Dragon y Hacha Mecha Fighter. A menudo colaboró con otros editores para crear shoot 'em ups y juegos de acción intensos. Aunque la empresa desapareció en los años 2000, sus juegos siguen siendo apreciados por los fans del retro por su estilo distintivo y su elevada dificultad.</text>
+		</text>
+		<text name="system_description" extra="true" lang="it">
+			<text>NMK, fondata nel 1980 in Giappone, era una società specializzata nello sviluppo di giochi arcade, nota per titoli come Thunder Dragon e Hacha Mecha Fighter. Collaborava spesso con altri editori per produrre shoot 'em up e giochi d'azione intensi. Anche se l'azienda è scomparsa negli anni 2000, i suoi giochi restano apprezzati dagli appassionati di retrogaming per il loro stile distintivo e la loro difficoltà.</text>
+		</text>
+		<text name="system_description" extra="true" lang="de">
+			<text>NMK, 1980 in Japan gegründet, war ein auf Arcade-Spiele spezialisiertes Unternehmen, bekannt für Titel wie Thunder Dragon und Hacha Mecha Fighter. Es arbeitete häufig mit anderen Publishern zusammen, um intensive Shoot 'em ups und Actionspiele zu entwickeln. Obwohl die Firma in den 2000er Jahren verschwand, bleiben ihre Spiele bei Retro-Fans wegen ihres markanten Stils und ihres hohen Schwierigkeitsgrads beliebt.</text>
+		</text>
+		<text name="system_description" extra="true" lang="pt">
+			<text>A NMK, fundada em 1980 no Japão, foi uma empresa especializada no desenvolvimento de jogos arcade, conhecida por títulos como Thunder Dragon e Hacha Mecha Fighter. Colaborava frequentemente com outras editoras para criar shoot 'em ups e jogos de ação intensos. Embora tenha desaparecido nos anos 2000, seus jogos continuam apreciados por fãs de retrogaming pelo estilo distinto e pela dificuldade.</text>
+		</text>
+		<text name="figurine_title, figurine_title_mask" extra="true">
+			<text>&#160;&#160;Bomb Jack Twin (1993)&#160;&#160;</text>
+		</text>
+		<text name="figurine_desc" extra="true">
+			<text>Bomb Jack returns in a more nervous and explosive version where stages scroll horizontally through platforms, flying enemies and bonuses to collect. The game keeps the quick jumps and bomb collecting of the original title, but adds more continuous action, shooting and visual effects typical of early 90s arcade productions.
+Fun fact: Despite its name, Bomb Jack Twin plays more like a modern arcade action game than a direct sequel to the original 1984 Bomb Jack.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="fr">
+			<text>Bomb Jack revient dans une version plus nerveuse et explosive où les niveaux défilent horizontalement entre plateformes, ennemis volants et bonus à récupérer. Le jeu conserve les sauts rapides et la collecte de bombes du titre original, mais ajoute davantage d’action continue, de tirs et d’effets visuels typiques des productions arcade du début des années 90.
+Fun fact : Malgré son nom, Bomb Jack Twin joue davantage comme un jeu d’action arcade moderne que comme une suite directe du Bomb Jack original de 1984.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="es">
+			<text>Bomb Jack regresa en una versión más nerviosa y explosiva, con fases que avanzan horizontalmente entre plataformas, enemigos voladores y bonus por recoger. El juego conserva los saltos rápidos y la recolección de bombas del título original, pero añade más acción continua, disparos y efectos visuales típicos del arcade de principios de los 90.
+Dato curioso: A pesar de su nombre, Bomb Jack Twin se juega más como un arcade de acción moderno que como una secuela directa del Bomb Jack original de 1984.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="it">
+			<text>Bomb Jack ritorna in una versione più frenetica ed esplosiva, con livelli che scorrono orizzontalmente tra piattaforme, nemici volanti e bonus da raccogliere. Il gioco conserva i salti rapidi e la raccolta di bombe del titolo originale, ma aggiunge più azione continua, spari ed effetti visivi tipici degli arcade dei primi anni 90.
+Curiosità: Nonostante il nome, Bomb Jack Twin si gioca più come un moderno arcade d'azione che come un seguito diretto del Bomb Jack originale del 1984.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="de">
+			<text>Bomb Jack kehrt in einer hektischeren und explosiveren Version zurück, in der die Stages horizontal durch Plattformen, fliegende Gegner und sammelbare Boni scrollen. Das Spiel behält die schnellen Sprünge und das Bombensammeln des Originals bei, ergänzt sie aber durch mehr durchgehende Action, Schüsse und Arcade-Effekte der frühen 90er.
+Interessante Tatsache: Trotz des Namens spielt sich Bomb Jack Twin eher wie ein modernes Arcade-Actionspiel als wie eine direkte Fortsetzung des Bomb Jack von 1984.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="pt">
+			<text>Bomb Jack retorna em uma versão mais nervosa e explosiva, com fases que avançam horizontalmente entre plataformas, inimigos voadores e bônus para coletar. O jogo mantém os saltos rápidos e a coleta de bombas do título original, mas adiciona mais ação contínua, tiros e efeitos visuais típicos dos arcades do início dos anos 90.
+Curiosidade: Apesar do nome, Bomb Jack Twin se joga mais como um arcade de ação moderno do que como uma sequência direta do Bomb Jack original de 1984.</text>
+		</text>
 	</view>
 </theme>

@@ -49,5 +49,45 @@ originally based on: "carbon"
 <text>Acorn Electron - это начальная версия BBC Micro. Он имеет 32 килобайта оперативной памяти, а его ПЗУ включает язык BBC BASIC и операционную систему. Он способен сохранять и загружать программы на аудиокассету через кабель-переходник, который входит в комплект поставки и может быть подключен к магнитофону.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>  Repton (1985)  </text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Repton is a small explorer collecting diamonds in trap-filled caves. Inspired by Boulder Dash, the Acorn Electron version takes a more measured approach, with clear visuals and simple but effective animation, offering precise control despite the machine's limits.
+Fun fact: Repton became a true mascot for Acorn microcomputers, leading to several popular sequels in the United Kingdom.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Repton est un petit explorateur chargé de collecter des diamants dans des cavernes piégées. Inspiré de Boulder Dash, le jeu adopte sur Acorn Electron une approche plus posée, avec une lisibilité claire et des animations simples mais efficaces, offrant un contrôle précis malgré les limites matérielles.
+Fun fact : Repton est devenu une véritable mascotte des micro-ordinateurs Acorn, au point de connaître plusieurs suites populaires au Royaume-Uni.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="en">
+<text>Repton is a small explorer collecting diamonds in trap-filled caves. Inspired by Boulder Dash, the Acorn Electron version takes a more measured approach, with clear visuals and simple but effective animation, offering precise control despite the machine's limits.
+Fun fact: Repton became a true mascot for Acorn microcomputers, leading to several popular sequels in the United Kingdom.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Repton es un pequeño explorador que recoge diamantes en cavernas llenas de trampas. Inspirado en Boulder Dash, en Acorn Electron adopta un ritmo más pausado, con imagen clara y animaciones sencillas pero eficaces, ofreciendo un control preciso pese a los límites de la máquina.
+Fun fact: Repton se convirtió en una auténtica mascota de los microordenadores Acorn, con varias secuelas populares en el Reino Unido.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Repton è un piccolo esploratore che raccoglie diamanti in caverne piene di trappole. Ispirato a Boulder Dash, su Acorn Electron adotta un ritmo più ragionato, con grafica leggibile e animazioni semplici ma efficaci, offrendo un controllo preciso nonostante i limiti della macchina.
+Fun fact: Repton divenne una vera mascotte dei microcomputer Acorn, dando vita a diverse serie popolari nel Regno Unito.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Repton ist ein kleiner Entdecker, der in fallenreichen Höhlen Diamanten sammelt. Inspiriert von Boulder Dash setzt die Acorn-Electron-Version auf ein ruhigeres Tempo, klare Grafik und einfache, aber wirksame Animationen, mit präziser Steuerung trotz der Grenzen der Maschine.
+Fun fact: Repton wurde zu einem echten Maskottchen der Acorn-Mikrocomputer und erhielt mehrere beliebte Fortsetzungen in Großbritannien.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Repton é um pequeno explorador que recolhe diamantes em cavernas cheias de armadilhas. Inspirado em Boulder Dash, no Acorn Electron assume um ritmo mais ponderado, com imagem clara e animações simples mas eficazes, oferecendo controlo preciso apesar dos limites da máquina.
+Fun fact: Repton tornou-se uma verdadeira mascote dos microcomputadores Acorn, originando várias sequelas populares no Reino Unido.</text>
+</text>
+
 </view>
 </theme>

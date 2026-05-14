@@ -1,7 +1,8 @@
 ﻿<theme>
 
 <view name="system">
-	<image name="frame_big, encadrement">
+	<image name="frame_big, encadrement,figurine_desc_border,up_Frame_border, down_Frame_border, left_Frame_border, right_Frame_border
+	up_Logo_line, down_Logo_line, left_Logo_line, right_Logo_line, up_Desc_border">
 		<color ifSubset="frame_color:Dimgrey">696969</color>
 		<color ifSubset="frame_color:Silver">C0C0C0</color>
 		<color ifSubset="frame_color:Ivory">FFFFF0</color>

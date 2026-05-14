@@ -74,6 +74,151 @@ originally based on: "carbon"
 		<linearSmooth>false</linearSmooth>
   	</image>
 	
+	<!-- Règle d'affichage des controllers2 en png -->
+	<image name="controllers2" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<zIndex>19</zIndex>
+		<horizontalAlignment>right</horizontalAlignment>
+		<verticalAlignment>bottom</verticalAlignment>
+	
+		<path>${themePath}/art/controllers2/default.png</path>
+		<path>${themePath}/art/controllers2/${system.theme}.png</path>
+		<path ifSubset="artworkregion:us">${themePath}/art/controllers2/us/${system.theme}.png</path>
+		<path ifSubset="artworkregion:jp">${themePath}/art/controllers2/jp/${system.theme}.png</path>
+		
+		<!-- pad ARCADE rouge -->
+		<path if="${system.theme} == 'alphadenshi' 
+				|| 	 ${system.theme} == 'arcade'
+				|| 	 ${system.theme} == 'atari'
+				|| 	 ${system.theme} == 'auto-verticalarcade'
+				|| 	 ${system.theme} == 'banpresto'
+				|| 	 ${system.theme} == 'cps1'
+				|| 	 ${system.theme} == 'cps2'
+				|| 	 ${system.theme} == 'cps3'
+				|| 	 ${system.theme} == 'dataeast'
+				|| 	 ${system.theme} == 'fba'
+				|| 	 ${system.theme} == 'fbn'
+				|| 	 ${system.theme} == 'fbneo'
+				|| 	 ${system.theme} == 'gaelco'
+				|| 	 ${system.theme} == 'gottlieb'
+				|| 	 ${system.theme} == 'hikaru'
+				|| 	 ${system.theme} == 'igs'
+				|| 	 ${system.theme} == 'irem'
+				|| 	 ${system.theme} == 'kaneko'
+				|| 	 ${system.theme} == 'midway'
+				|| 	 ${system.theme} == 'model2'
+				|| 	 ${system.theme} == 'namco'
+				|| 	 ${system.theme} == 'namco2x6'
+				|| 	 ${system.theme} == 'nichibutsu'
+				|| 	 ${system.theme} == 'nintendo'
+				|| 	 ${system.theme} == 'psikyo'
+				|| 	 ${system.theme} == 'sega'
+				|| 	 ${system.theme} == 'segastv'
+				|| 	 ${system.theme} == 'seibukaihatsu'
+				|| 	 ${system.theme} == 'taito'
+				|| 	 ${system.theme} == 'tecmo'
+				|| 	 ${system.theme} == 'triforce'
+				|| 	 ${system.theme} == 'universal'
+		">${themePath}/art/controllers2/arcade01.png</path>
+		
+		<!-- pad ARCADE bleu -->
+		<path if="${system.theme} == 'atlus' 
+				|| 	 ${system.theme} == 'chihiro'
+				|| 	 ${system.theme} == 'jaleco'
+				|| 	 ${system.theme} == 'lindbergh'
+				|| 	 ${system.theme} == 'mame'
+				|| 	 ${system.theme} == 'mitchell'
+				|| 	 ${system.theme} == 'snk'
+				|| 	 ${system.theme} == 'technos'
+				|| 	 ${system.theme} == 'teknoparrot'
+				|| 	 ${system.theme} == 'visco'
+				|| 	 ${system.theme} == 'zinc'
+		">${themePath}/art/controllers2/arcade02.png</path>
+		
+		
+		<!-- pad ARCADE vert -->
+		<path if="${system.theme} == 'atomiswave' 
+				|| 	 ${system.theme} == 'cave'
+				|| 	 ${system.theme} == 'cave3rd'
+				|| 	 ${system.theme} == 'hbmame'
+				|| 	 ${system.theme} == 'model3'
+				|| 	 ${system.theme} == 'naomi'
+				|| 	 ${system.theme} == 'naomi2'
+				|| 	 ${system.theme} == 'naomigd'
+				|| 	 ${system.theme} == 'nmk'
+				|| 	 ${system.theme} == 'sammy'
+		">${themePath}/art/controllers2/arcade03.png</path>
+		
+		
+		<!-- pad ARCADE orange -->
+		<path if="${system.theme} == 'comad' 
+				|| 	 ${system.theme} == 'daphne'
+				|| 	 ${system.theme} == 'konami'
+				|| 	 ${system.theme} == 'toaplan'
+		">${themePath}/art/controllers2/arcade04.png</path>
+		
+		
+		<!-- pad ARCADE bleu ciel -->
+		<path if="${system.theme} == 'centurye' 
+				|| 	 ${system.theme} == 'semicom'
+				|| 	 ${system.theme} == 'vsc'
+		">${themePath}/art/controllers2/arcade05.png</path>
+				
+		<!-- pad ARCADE jaune -->
+		<path if="${system.theme} == 'capcom' 
+				|| 	 ${system.theme} == 'eighting'
+				|| 	 ${system.theme} == 'incredibletech'
+		">${themePath}/art/controllers2/arcade06.png</path>
+		
+				
+		<!-- pad ARCADE violet -->
+		<path if="${system.theme} == 'vvs' 
+		">${themePath}/art/controllers2/arcade07.png</path>
+		
+		
+		<!-- Pinball -->
+		<path if="${system.theme} == 'fpinball' 
+				|| 	 ${system.theme} == 'pinballfx'
+				|| 	 ${system.theme} == 'pinballfx2'
+				|| 	 ${system.theme} == 'pinballfx3'
+				|| 	 ${system.theme} == 'pinballm'
+				|| 	 ${system.theme} == 'vpinball'
+				|| 	 ${system.theme} == 'zaccariapinball'
+		">${themePath}/art/controllers2/pinball.png</path>
+		
+		
+		<!-- pad "Fantasy" -->
+		<path if="${system.theme} == 'pico8' 
+				|| 	 ${system.theme} == 'pygame'
+				|| 	 ${system.theme} == 'pyxel'
+				|| 	 ${system.theme} == 'tic-80'
+				|| 	 ${system.theme} == 'tic80'
+				|| 	 ${system.theme} == 'uzebox'
+				|| 	 ${system.theme} == 'wasm4'
+		">${themePath}/art/controllers2/fantasy01.png</path>
+		
+		<!-- pad Megadrive -->
+		<path if="${system.theme} == 'megadrive-msu' 
+				|| 	 ${system.theme} == 'megadrivemsu'
+				|| 	 ${system.theme} == 'msu-md'
+		">${themePath}/art/controllers2/megadrive.png</path>
+		
+		<!-- pad SNES -->
+		<path if="${system.theme} == 'snes-msu' 
+				|| 	 ${system.theme} == 'snes-msu1'
+				|| 	 ${system.theme} == 'snesh'
+				|| 	 ${system.theme} == 'snesmsu1'
+		">${themePath}/art/controllers2/snes.png</path>
+		
+		<!-- pad TurbographX tg16 -->
+		<path if="${system.theme} == 'tg-cd' 
+				|| 	 ${system.theme} == 'tg16cd'
+		">${themePath}/art/controllers2/tg16.png</path>
+		
+	</image>
+
+	
+	
 	<!-- Manette fil de fer, j'ai supprimer ce background pour l'instant -->
 		<!-- <image name="ControllerOverlay"> -->
 		  <!-- <tile>false</tile> -->
@@ -606,25 +751,13 @@ originally based on: "carbon"
 				</storyboard>	
 		</text>
 		
-	
-		<image name="controllers2" extra="true">
-		
-			<path>./../../art/controllers2/default.png</path>
-			<path>./../../art/controllers2/${system.theme}.png</path>
-			<path ifSubset="artworkregion:us">./../../art/controllers2/us/${system.theme}.png</path>
-			<path ifSubset="artworkregion:jp">./../../art/controllers2/jp/${system.theme}.png</path>
-			<linearSmooth>true</linearSmooth>
-			<zIndex>18</zIndex>
-		
+		<image name="controllers2" extra="true">		
 			<pos>1.1592917 0.11</pos>	
 			<maxSize>0.3 0.25</maxSize>									
-			<horizontalAlignment>right</horizontalAlignment>
-			<verticalAlignment>bottom</verticalAlignment>
 			<storyboard>
 				<animation property="offsetX" to="-0.475" begin="" duration="1300" mode="EaseOutCubic"/>
 			</storyboard>	
 		</image>
-		
 		
 		<image name="controllers2" ifSubset="system-controllers:Hide">
 			<visible>false</visible>
@@ -758,19 +891,8 @@ originally based on: "carbon"
 
 	
 		<image name="controllers2" extra="true">
-		
-			<path>./../../art/controllers2/default.png</path>
-			<path>./../../art/controllers2/${system.theme}.png</path>
-			<path ifSubset="artworkregion:us">./../../art/controllers2/us/${system.theme}.png</path>
-			<path ifSubset="artworkregion:jp">./../../art/controllers2/jp/${system.theme}.png</path>
-			<linearSmooth>true</linearSmooth>
-			<zIndex>18</zIndex>
-			
 			<pos>1.1572917 0.05</pos>	
-			<maxSize>0.2302083 0.1787037</maxSize>									
-			<horizontalAlignment>right</horizontalAlignment>
-			<verticalAlignment>bottom</verticalAlignment>
-			
+			<maxSize>0.2302083 0.1787037</maxSize>												
 			<storyboard>
 				<animation property="offsetX" to="-0.4" begin="6500" duration="1500" mode="EaseOutCubic"/>
 			</storyboard>	
@@ -969,18 +1091,9 @@ originally based on: "carbon"
     </image>
 	
 	<image name="controllers2" extra="true">
-	
 		<origin>0.5 0.5</origin>									
 		<pos>1.1817708 0.2101852</pos>									
-		<maxSize>0.3 0.3</maxSize>									
-	
-		<path>./../../art/controllers2/default.png</path>
-		<path>./../../art/controllers2/${system.theme}.png</path>
-		<path ifSubset="artworkregion:us">./../../art/controllers2/us/${system.theme}.png</path>
-		<path ifSubset="artworkregion:jp">./../../art/controllers2/jp/${system.theme}.png</path>
-		<linearSmooth>true</linearSmooth>
-		<zIndex>19</zIndex>
-	
+		<maxSize>0.3 0.3</maxSize>		
 		<horizontalAlignment>center</horizontalAlignment>
 		<verticalAlignment>center</verticalAlignment>
 		
@@ -1011,7 +1124,7 @@ originally based on: "carbon"
 		</storyboard>
 		
 		<!-- Rotation à 90° avec Zoom - -->
-		<storyboard if="${system.theme} == 'wiiu' || ${system.theme} == 'wii' || ${system.theme} == 'vc4000' || ${system.theme} == 'colecovision' || ${system.theme} == 'intellivision' || ${system.theme} == 'setup' || ${system.theme} == 'sg-1000'">
+		<storyboard if="${system.theme} == 'colecovision' || ${system.theme} == 'intellivision' || ${system.theme} == 'setup' || ${system.theme} == 'sg-1000' || ${system.theme} == 'vc4000' || ${system.theme} == 'wii' || ${system.theme} == 'wiiu'">
 		
 			<animation property="offsetX" to="-0.34375" begin="6500" duration="1500" mode="EaseOutCubic"/>
 			
@@ -1026,7 +1139,7 @@ originally based on: "carbon"
 		
 		
 		<!-- Rotation à -90° avec Zoom + -->
-		<storyboard if="${system.theme} == 'videopac' ||  ${system.theme} == 'videopacplus' ||  ${system.theme} == 'supervision' ||  ${system.theme} == 'scv' ||  ${system.theme} == 'scummvm' ||  ${system.theme} == 'pv1000' ||  ${system.theme} == 'pokemini' ||  ${system.theme} == 'odyssey2' ||  ${system.theme} == 'megaduck' ||  ${system.theme} == 'gbc' || ${system.theme} == 'atari5200' || ${system.theme} == 'apfm1000' || ${system.theme} == 'arcadia' || ${system.theme} == 'arduboy' || ${system.theme} == 'gb'">
+		<storyboard if="${system.theme} == 'apfm1000' ||  ${system.theme} == 'arcadia' ||  ${system.theme} == 'arduboy' ||  ${system.theme} == 'atari5200' ||  ${system.theme} == 'gb' ||  ${system.theme} == 'gbc' ||  ${system.theme} == 'megaduck' ||  ${system.theme} == 'odyssey2' ||  ${system.theme} == 'pokemini' ||  ${system.theme} == 'pv1000' || ${system.theme} == 'scummvm' || ${system.theme} == 'scv' || ${system.theme} == 'supervision' || ${system.theme} == 'videopac' || ${system.theme} == 'videopacplus'">
 		
 			<animation property="offsetX" to="-0.34375" begin="6500" duration="1500" mode="EaseOutCubic"/>
 			
@@ -1498,11 +1611,6 @@ originally based on: "carbon"
     </image>
 	
 	<image name="controllers2" extra="true">
-		<path>${themePath}/art/controllers2/default.png</path>
-		<path>${themePath}/art/controllers2/${system.theme}.png</path>
-		<path ifSubset="artworkregion:us">${themePath}/art/controllers2/us/${system.theme}.png</path>
-		<path ifSubset="artworkregion:jp">${themePath}/art/controllers2/jp/${system.theme}.png</path>
-	
 		<pos>0.88625 0.19</pos>									
 		<maxSize>0.17 0.23</maxSize>									
 		<origin>0.5 0.5</origin>

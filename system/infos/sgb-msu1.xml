@@ -1,10 +1,3 @@
-<!--
-Theme: Animatix-DX for Retrobat / Batocera / Emuelec
-author: Snapouille
-license: creative commons CC-BY-NC-SA
-originally based on: "carbon"
--->
-
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
@@ -17,6 +10,55 @@ originally based on: "carbon"
 <text>Les jeux MSU-1 sur Game Boy sont des hacks ou des modifications de jeux Game Boy qui utilisent la puce MSU-1. Cette puce permet d'ajouter des pistes audio de haute qualité. Cela peut donner aux jeux une nouvelle vie avec des sons améliorés, souvent réalisés par des fans passionnés de rétro-gaming.</text>
 </text>
 
+<text name="system_description" extra="true" lang="es">
+<text>Los juegos MSU-1 de Game Boy son hacks o modificaciones de juegos de Game Boy que utilizan el chip MSU-1. Este chip permite añadir pistas de audio de alta calidad. Esto puede dar nueva vida a los juegos con sonidos mejorados, a menudo creados por apasionados aficionados al retro-gaming.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>I giochi MSU-1 per Game Boy sono hack o modifiche di giochi Game Boy che utilizzano il chip MSU-1. Questo chip permette di aggiungere tracce audio di alta qualità. Può dare nuova vita ai giochi con suoni migliorati, spesso realizzati da appassionati di retro-gaming.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>MSU-1-Game-Boy-Spiele sind Hacks oder Modifikationen von Game-Boy-Spielen, die den MSU-1-Chip nutzen. Dieser Chip ermöglicht das Hinzufügen hochwertiger Audiospuren. So können Spiele mit verbesserten Klängen neues Leben erhalten, oft erstellt von leidenschaftlichen Retro-Gaming-Fans.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Os jogos MSU-1 para Game Boy são hacks ou modificações de jogos Game Boy que utilizam o chip MSU-1. Este chip permite adicionar faixas de áudio de alta qualidade. Isso pode dar nova vida aos jogos com sons melhorados, muitas vezes criados por fãs apaixonados de retro-gaming.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;The Legend of Zelda: Link’s Awakening (1993)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Link is a young hero stranded on Koholint Island after a storm at sea. Armed with his sword and shield, he explores a strange world filled with unusual creatures and enigmatic characters. The adventure stands out for its dreamlike and melancholic atmosphere, where each dungeon reveals a deeper mystery surrounding the island and its very existence.
+Fun fact: The game features enemies from the Mario universe, including Goombas and Piranha Plants appearing in certain dungeons.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Link est un jeune héros échoué sur l’île Cocolint après une tempête en mer. Armé de son épée et de son bouclier, il explore un monde étrange peuplé de créatures atypiques et de personnages énigmatiques. L’aventure se distingue par son ambiance onirique et mélancolique, où chaque donjon dévoile peu à peu un mystère plus profond autour de l’île et de son existence.
+Fun fact : Le jeu intègre des ennemis de l’univers Mario, dont des Goombas et des plantes Piranha dans certains donjons.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Link es un joven héroe que llega a la isla Koholint tras una tormenta en el mar. Armado con su espada y escudo, explora un mundo extraño lleno de criaturas atípicas y personajes enigmáticos. La aventura destaca por su atmósfera onírica y melancólica, donde cada mazmorra revela poco a poco un misterio más profundo sobre la isla.
+Dato curioso: El juego incluye enemigos del universo Mario, como Goombas y plantas Piraña en algunas mazmorras.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Link è un giovane eroe naufragato sull’isola di Koholint dopo una tempesta in mare. Armato di spada e scudo, esplora un mondo strano popolato da creature insolite e personaggi enigmatici. L’avventura si distingue per la sua atmosfera onirica e malinconica, dove ogni dungeon rivela gradualmente un mistero più profondo legato all’isola.
+Curiosità: Il gioco include nemici dell’universo Mario, come Goomba e piante Piranha in alcuni dungeon.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Link ist ein junger Held, der nach einem Sturm auf der Insel Cocolint strandet. Mit Schwert und Schild erkundet er eine seltsame Welt voller ungewöhnlicher Kreaturen und rätselhafter Figuren. Das Abenteuer zeichnet sich durch seine traumhafte und melancholische Atmosphäre aus, in der jeder Dungeon nach und nach ein tieferes Geheimnis der Insel enthüllt.
+Interessante Tatsache: Im Spiel erscheinen Gegner aus dem Mario-Universum, darunter Goombas und Piranha-Pflanzen in einigen Dungeons.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Link é um jovem herói que naufraga na ilha Koholint após uma tempestade no mar. Armado com espada e escudo, explora um mundo estranho repleto de criaturas incomuns e personagens enigmáticos. A aventura destaca-se pela sua atmosfera onírica e melancólica, onde cada masmorra revela gradualmente um mistério mais profundo sobre a ilha.
+Curiosidade: O jogo inclui inimigos do universo Mario, como Goombas e plantas Piranha em algumas masmorras.</text>
+</text>
 
 </view>
 </theme>

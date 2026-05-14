@@ -65,7 +65,12 @@
 <user.logo>Votre Logo</user.logo>
 <user.username>Votre surnom</user.username>
 <system-description>Descriptions des systèmes</system-description>
-<video-preview>Aperçu vidéo</video-preview>
+<video-preview>Aperçu vidéo aléatoire</video-preview>
+<figurine-description>Description des figurines</figurine-description>
+<figurine-description-delay>Délai affichage description figurine</figurine-description-delay>
+<delay-1-second>1 seconde</delay-1-second>
+<delay-3-seconds>3 secondes</delay-3-seconds>
+<delay-8-seconds>8 secondes</delay-8-seconds>
 <system-controllers>Image des contrôleurs</system-controllers>
 <show>Afficher</show>
 <hide>Masquer</hide>
@@ -73,7 +78,7 @@
 <mediumboxesview>Boîtes - Format moyen</mediumboxesview>
 <smallboxesview>Boîtes - Petit format</smallboxesview>
 <gameNameboxesview>Boîtes - nom du jeu</gameNameboxesview>
-<subset.frameColor>Couleur du cadre</subset.frameColor>
+<subset.frameColor>Couleur des cadres</subset.frameColor>
 <subset.infoColor>Couleur texte et info</subset.infoColor>
 <dimgray>Gris sombre</dimgray>
 <silver>Argent</silver>
@@ -187,6 +192,7 @@
 <onthegreen>sur le Green</onthegreen>
 
 <figurine.Display>Figurines</figurine.Display>
+<figurine.Animation>Animations des figurines</figurine.Animation>
 <figurine.systemOnly>Uniquement les figurines système</figurine.systemOnly>
 <figurine.addonOrSystem>Figurines add-on ou système si absentes</figurine.addonOrSystem>
 <figurine.addonOnly>Uniquement les figurines add-on</figurine.addonOnly>

@@ -24,7 +24,13 @@
 	
 	
 	
-  <view name="system">
+	<view name="system">
+	
+		<!-- Image et texte utilisé uniquement dans la vue système Figurines -->
+		<image name="figurine_desc_border, figurine_desc_bg, figurine_title, figurine_title_mask, figurine_desc" extra="true">
+			<visible>false</visible>
+		</image>
+
   
      
   	

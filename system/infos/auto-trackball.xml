@@ -4,19 +4,53 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
-
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
-
 <text name="system_description" extra="true">
 <text>Video games using a trackball, such as Marble Madness, Cabal or Crystal Castles, leverage the device's precision for smooth and fast movements, often in 3D environments or maze-like settings. Popular in the 80s and 90s, these games provided a unique experience, though trackballs have since become less common, replaced by joysticks and mice.</text>
 </text>
-
 <text name="system_description" extra="true" lang="fr">
 <text>Les jeux vidéo utilisant un trackball, comme Marble Madness, Cabal ou Crystal Castles, exploitent la précision du dispositif pour des mouvements fluides et rapides, souvent dans des environnements en 3D ou des labyrinthes. Populaires dans les années 80 et 90, ces jeux offrent une expérience unique, bien que le trackball soit aujourd'hui moins courant au profit des joysticks et souris.</text>
 </text>
-
-
+<text name="system_description" extra="true" lang="es">
+<text>Los videojuegos que utilizan trackball, como Marble Madness, Cabal o Crystal Castles, aprovechan la precisión del dispositivo para lograr movimientos fluidos y rápidos, a menudo en entornos 3D o laberínticos. Populares en los años 80 y 90, ofrecían una experiencia única, aunque el trackball se volvió menos común frente a joysticks y ratones.</text>
+</text>
+<text name="system_description" extra="true" lang="it">
+<text>I videogiochi che utilizzano il trackball, come Marble Madness, Cabal o Crystal Castles, sfruttano la precisione del dispositivo per movimenti fluidi e rapidi, spesso in ambienti 3D o labirintici. Popolari negli anni 80 e 90, offrivano un'esperienza unica, anche se il trackball è poi diventato meno comune rispetto a joystick e mouse.</text>
+</text>
+<text name="system_description" extra="true" lang="de">
+<text>Videospiele mit Trackball, wie Marble Madness, Cabal oder Crystal Castles, nutzen die Präzision des Eingabegeräts für flüssige und schnelle Bewegungen, oft in 3D-Umgebungen oder Labyrinthen. In den 80er- und 90er-Jahren beliebt, boten sie ein besonderes Spielgefühl, auch wenn Trackballs später seltener wurden als Joysticks und Mäuse.</text>
+</text>
+<text name="system_description" extra="true" lang="pt">
+<text>Jogos que utilizam trackball, como Marble Madness, Cabal ou Crystal Castles, aproveitam a precisão do dispositivo para movimentos rápidos e suaves, muitas vezes em ambientes 3D ou labirínticos. Populares nos anos 80 e 90, ofereciam uma experiência única, embora o trackball tenha se tornado menos comum que joysticks e mouses.</text>
+</text>
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Cabal (Arcade, 1988)&#160;&#160;</text>
+</text>
+<text name="figurine_desc" extra="true">
+<text>Cabal is an arcade shooter by TAD Corporation where a commando advances facing the screen, dodging fire, throwing grenades and destroying scenery. Its separate aiming, playable with a trackball on some cabinets, gives the action a fast, precise rhythm suited to unusual arcade controls.
+Fun fact: Cabal was TAD Corporation's first game, before Blood Bros., its western-themed spiritual successor.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Cabal est un jeu de tir arcade de TAD Corporation où un commando progresse face à l’écran, entre rafales, grenades et décors destructibles. Sa visée séparée du personnage, jouable au trackball sur certaines bornes, donne un rythme nerveux et très lisible, parfait pour une collection dédiée aux contrôles atypiques.
+Fun fact : Cabal est le premier jeu développé par TAD Corporation, avant Blood Bros., son héritier spirituel western.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="es">
+<text>Cabal es un juego de disparos arcade de TAD Corporation donde un comando avanza de cara a la pantalla, entre ráfagas, granadas y escenarios destructibles. Su mira separada del personaje, jugable con trackball en algunas máquinas, aporta un ritmo rápido y preciso ideal para controles arcade poco comunes.
+Dato curioso: Cabal fue el primer juego de TAD Corporation, antes de Blood Bros., su sucesor espiritual de temática western.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="it">
+<text>Cabal è uno sparatutto arcade di TAD Corporation in cui un commando avanza rivolto verso lo schermo, tra raffiche, granate e scenari distruttibili. La mira separata dal personaggio, usabile con trackball su alcuni cabinati, offre un ritmo rapido e preciso adatto ai controlli arcade più particolari.
+Curiosità: Cabal fu il primo gioco di TAD Corporation, prima di Blood Bros., il suo successore spirituale western.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="de">
+<text>Cabal ist ein Arcade-Shooter von TAD Corporation, in dem ein Kommando frontal über den Bildschirm vorrückt, Schüssen ausweicht, Granaten wirft und Deckung zerstört. Die vom Charakter getrennte Zielsteuerung, auf manchen Automaten per Trackball spielbar, sorgt für ein schnelles und präzises Spielgefühl.
+Interessante Tatsache: Cabal war das erste Spiel von TAD Corporation, vor Blood Bros., seinem geistigen Western-Nachfolger.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Cabal é um jogo de tiro arcade da TAD Corporation em que um comando avança de frente para a tela, entre rajadas, granadas e cenários destrutíveis. A mira separada do personagem, jogável com trackball em algumas máquinas, cria um ritmo rápido e preciso, perfeito para controles arcade incomuns.
+Curiosidade: Cabal foi o primeiro jogo da TAD Corporation, antes de Blood Bros., seu sucessor espiritual com tema western.</text>
+</text>
 </view>
 </theme>

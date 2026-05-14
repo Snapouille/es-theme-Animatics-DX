@@ -39,5 +39,40 @@ originally based on: "carbon"
 			<text>L’Enterprise 64 e 128 sono microcomputer europei progettati per un uso familiare ed educativo. Concepite come macchine versatili, permettevano sia l’apprendimento e la programmazione sia l’intrattenimento domestico. Grazie alle loro capacità grafiche e sonore avanzate per l’epoca, i sistemi Enterprise ospitarono numerosi giochi e produzioni originali rappresentative dell’era dei micro 8 bit.</text>
 		</text>
 
-	</view>
+	
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Nodes of Yesod (1985)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The astronaut from Nodes of Yesod explores a hostile moon filled with creatures and dangers in a platform game mixing action and exploration. The player must collect items while avoiding enemies and mastering movement through trapped environments, with progress requiring precision and observation on Enterprise machines.
+Fun fact: Nodes of Yesod is the spiritual sequel to Arc of Yesod and stands out for its 1980s science-fiction setting and enemies with unpredictable behavior.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le cosmonaute de Nodes of Yesod explore une lune hostile remplie de créatures et de dangers dans un jeu de plateforme mêlant action et exploration. Le joueur doit collecter des objets tout en évitant les ennemis et en maîtrisant ses déplacements dans des environnements piégeux, avec une progression qui demande précision et observation sur les machines Enterprise.
+Fun fact : Nodes of Yesod est la suite spirituelle de Arc of Yesod et se distingue par son univers inspiré de la science-fiction des années 80 et ses ennemis aux comportements imprévisibles.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>El cosmonauta de Nodes of Yesod explora una luna hostil llena de criaturas y peligros en un juego de plataformas que mezcla acción y exploración. El jugador debe recoger objetos, evitar enemigos y dominar sus movimientos en entornos llenos de trampas, con un avance que exige precisión y observación.
+Dato curioso: Nodes of Yesod es la secuela espiritual de Arc of Yesod y destaca por su ambientación de ciencia ficción de los años 80 y enemigos imprevisibles.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Il cosmonauta di Nodes of Yesod esplora una luna ostile piena di creature e pericoli in un platform che mescola azione ed esplorazione. Il giocatore deve raccogliere oggetti, evitare nemici e padroneggiare i movimenti in ambienti pieni di trappole, con una progressione che richiede precisione e osservazione.
+Curiosità: Nodes of Yesod è il seguito spirituale di Arc of Yesod e si distingue per l’ambientazione fantascientifica anni 80 e nemici imprevedibili.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Der Kosmonaut aus Nodes of Yesod erkundet einen feindlichen Mond voller Kreaturen und Gefahren in einem Plattformspiel mit Action und Erkundung. Der Spieler sammelt Objekte, meidet Gegner und muss Bewegungen in tückischen Umgebungen präzise beherrschen.
+Interessante Tatsache: Nodes of Yesod ist der geistige Nachfolger von Arc of Yesod und fällt durch sein Science-Fiction-Setting der 80er und unberechenbare Gegner auf.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>O cosmonauta de Nodes of Yesod explora uma lua hostil cheia de criaturas e perigos num jogo de plataformas que mistura ação e exploração. O jogador deve recolher objetos, evitar inimigos e dominar os movimentos em ambientes traiçoeiros, com progressão baseada em precisão e observação.
+Curiosidade: Nodes of Yesod é a sequela espiritual de Arc of Yesod e destaca-se pelo cenário de ficção científica dos anos 80 e inimigos imprevisíveis.</text>
+</text>
+
+</view>
 </theme>

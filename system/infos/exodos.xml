@@ -1,0 +1,71 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>System dedicated to classic PC games primarily designed for MS-DOS, featuring rich and varied experiences from early PC gaming, including cinematic adventures, complex simulations and iconic titles from the 80s and 90s. Some games require early Windows environments such as Windows 3.x or Windows 9x. All titles are preconfigured for immediate play.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Système dédié aux jeux PC classiques principalement conçus pour MS-DOS, regroupant des expériences variées issues de l’âge d’or du jeu sur ordinateur, entre aventures cinématographiques, simulations exigeantes et titres emblématiques des années 80 et 90. Certains jeux nécessitent des environnements Windows anciens comme Windows 3.x ou Windows 9x. L’ensemble est préconfiguré pour un accès immédiat.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Sistema dedicado a juegos clásicos de PC diseñados principalmente para MS-DOS, reuniendo experiencias variadas de la era dorada del PC, con aventuras cinematográficas, simulaciones complejas y títulos emblemáticos de los años 80 y 90. Algunos juegos requieren entornos Windows antiguos como Windows 3.x or Windows 9x. Todo está preconfigurado para jugar de inmediato.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Sistema dedicato ai giochi classici per PC progettati principalmente per MS-DOS, che raccoglie esperienze della grande epoca del PC tra avventure cinematografiche, simulazioni complesse e titoli iconici degli anni 80 e 90. Alcuni giochi richiedono ambienti Windows datati come Windows 3.x o Windows 9x. Tutto è preconfigurato per un utilizzo immediato.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>System für klassische PC-Spiele, hauptsächlich für MS-DOS entwickelt, mit vielfältigen Erlebnissen aus der Blütezeit des PC-Gamings, darunter cineastische Adventures, komplexe Simulationen und ikonische Titel der 80er und 90er Jahre. Einige Spiele benötigen ältere Windows-Umgebungen wie Windows 3.x oder Windows 9x. Alles ist vorkonfiguriert für sofortigen Spielstart.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Sistema dedicado a jogos clássicos de PC desenvolvidos principalmente para MS-DOS, reunindo experiências da era de ouro do PC, com aventuras cinematográficas, simulações complexas e títulos icônicos dos anos 80 e 90. Alguns jogos exigem ambientes Windows antigos como Windows 3.x ou Windows 9x. Tudo está pré-configurado para uso imediato.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Another World (1991)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Lester Knight Chaykin is a young physicist thrown into a hostile world after an experiment goes wrong. Fragile hero, slender silhouette and cautious stance, he moves through a strange universe where observation, escape and a few precise actions matter more than strength. The whole game conveys cinematic staging, stripped-down scenery and constant quiet tension.
+Fun fact: Eric Chahi filmed himself to reproduce the character's movements, then redrew them by hand, giving the game its distinctive fluid animation.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Lester Knight Chaykin est un jeune physicien projeté dans un monde hostile après une expérience qui tourne mal. Héros fragile, silhouette fine et attitude prudente, il évolue dans un univers étrange où l’observation, la fuite et quelques actions précises priment sur la force. L’ensemble traduit une mise en scène cinématographique, des décors épurés et une tension silencieuse constante.
+Fun fact : Eric Chahi s’est filmé lui-même pour reproduire les mouvements du personnage, puis les a redessinés à la main, donnant au jeu son animation fluide si caractéristique.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Lester Knight Chaykin es un joven físico proyectado a un mundo hostil tras un experimento que sale mal. Héroe frágil, de silueta fina y actitud prudente, avanza por un universo extraño donde la observación, la huida y unas pocas acciones precisas importan más que la fuerza. El conjunto transmite una puesta en escena cinematográfica, decorados depurados y una tensión silenciosa constante.
+Dato curioso: Eric Chahi se filmó a sí mismo para reproducir los movimientos del personaje y luego los redibujó a mano, dando al juego su animación fluida tan característica.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Lester Knight Chaykin è un giovane fisico proiettato in un mondo ostile dopo un esperimento finito male. Eroe fragile, dalla silhouette sottile e dall’atteggiamento prudente, avanza in un universo strano dove osservazione, fuga e poche azioni precise contano più della forza. L’insieme rende una regia cinematografica, scenari essenziali e una tensione silenziosa costante.
+Curiosità: Eric Chahi si filmò per riprodurre i movimenti del personaggio, poi li ridisegnò a mano, dando al gioco la sua animazione fluida così riconoscibile.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Lester Knight Chaykin ist ein junger Physiker, der nach einem fehlgeschlagenen Experiment in eine feindliche Welt geschleudert wird. Verletzlicher Held mit schmaler Silhouette und vorsichtiger Haltung, bewegt er sich in einem fremden Universum, in dem Beobachtung, Flucht und wenige präzise Aktionen wichtiger sind als Kraft. Das Ganze vermittelt filmische Inszenierung, reduzierte Kulissen und konstante stille Spannung.
+Interessante Tatsache: Eric Chahi filmte sich selbst, um die Bewegungen der Figur nachzubilden, und zeichnete sie anschließend von Hand neu, was dem Spiel seine markante flüssige Animation gab.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Lester Knight Chaykin é um jovem físico lançado num mundo hostil depois de uma experiência que corre mal. Herói frágil, de silhueta fina e postura cautelosa, avança por um universo estranho onde a observação, a fuga e algumas ações precisas importam mais do que a força. O conjunto transmite uma encenação cinematográfica, cenários depurados e uma tensão silenciosa constante.
+Curiosidade: Eric Chahi filmou-se a si próprio para reproduzir os movimentos da personagem e depois redesenhou-os à mão, dando ao jogo a sua animação fluida tão característica.</text>
+</text>
+
+</view>
+</theme>

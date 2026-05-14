@@ -6,29 +6,51 @@ originally based on: "carbon"
 -->
 <theme>
 	<formatVersion>7</formatVersion>
-
 	<view name="system">
-
-		
-				<text name="system_description" extra="true">
+		<text name="system_description" extra="true">
 			<text>OpenBOR (Open Beats of Rage) is an open source continuation of the Beats of Rage engine. Although Beats of Rage was intended to be a stand alone game, the modular design of in game elements and engine meant end users were able to replace assets.</text>
 		</text>
-		
-				<text name="system_description" extra="true" lang="es">
-			<text>OpenBOR es la evolución del motor o juego Beats of Rage. Beats of Rage estaba destinado a ser un juego independiente, pero al ser concebido desde un inicio como programa de código libre para la creación de juegos tipo beat'em up, ha propiciado la aparición de un sinfín de fangames, algunos de ellos considerados verdaderas joyas de culto hoy en dia.</text>
-		</text>
-		
-				<text name="system_description" extra="true" lang="fr">
+		<text name="system_description" extra="true" lang="fr">
 			<text>OpenBOR (Open Beats of Rage) est une suite open source du moteur Beats of Rage. Bien que Beats of Rage ait été conçu pour être un jeu indépendant, la conception modulaire des éléments et du moteur de jeu a permis aux utilisateurs finaux de remplacer les graphismes.</text>
 		</text>
-
-				<text name="system_description" extra="true" lang="pt">
+		<text name="system_description" extra="true" lang="es">
+			<text>OpenBOR es la evolución del motor o juego Beats of Rage. Beats of Rage estaba destinado a ser un juego independiente, pero al ser concebido desde un inicio como programa de código libre para la creación de juegos tipo beat'em up, ha propiciado la aparición de un sinfín de fangames, algunos de ellos considerados verdaderas joyas de culto hoy en dia.</text>
+		</text>
+		<text name="system_description" extra="true" lang="it">
+			<text>OpenBOR è una continuazione open source del motore Beats of Rage. La sua struttura modulare permette di sostituire graphismes, personnages, sons et décors pour créer de nombreux beat'em up personnalisés.</text>
+		</text>
+		<text name="system_description" extra="true" lang="de">
+			<text>OpenBOR ist eine Open-Source-Fortsetzung der Beats-of-Rage-Engine. Durch den modularen Aufbau können Grafiken, Figuren, Sounds und Hintergründe ersetzt werden, um viele eigene Beat'em-ups zu erstellen.</text>
+		</text>
+		<text name="system_description" extra="true" lang="pt">
 			<text>OpenBOR (Open Beats of Rage) é uma continuação de código aberto do mecanismo Beats of Rage. Embora o Beats of Rage pretendesse ser um jogo autônomo, o design modular dos elementos e do mecanismo dos jogos significava que os usuários finais podiam substituir assets.</text>
 		</text>
-
-		
-		
-				
-
+		<text name="figurine_title, figurine_title_mask" extra="true">
+			<text>&#160;&#160;Streets of Rage Remake (2011)&#160;&#160;</text>
+		</text>
+		<text name="figurine_desc" extra="true">
+			<text>Adam Hunter is a former police officer determined to take back streets ruled by crime. Stronger but slower than Axel and Blaze, he stands out with heavy strikes, effective throws and a direct fighting style. In Streets of Rage Remake, he returns with gameplay faithful to the original trilogy, expanded for modern supports and OpenBOR collections.
+Fun fact: Streets of Rage Remake was developed by fans over several years and offers far more content than the original games, with many characters, stages and variants.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="fr">
+			<text>Adam Hunter est un ancien policier déterminé à reprendre les rues d’une ville gangrenée par le crime. Plus puissant mais moins rapide qu’Axel et Blaze, il se distingue par ses coups lourds, ses projections et son style direct. Dans Streets of Rage Remake, il retrouve sa place avec un gameplay fidèle à la trilogie d’origine, adapté et enrichi pour OpenBOR.
+Fun fact : Streets of Rage Remake a été développé par des fans pendant plusieurs années et propose un contenu riche, avec de nombreux personnages, niveaux et variantes.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="es">
+			<text>Adam Hunter es un antiguo policía decidido a recuperar las calles dominadas por el crimen. Más fuerte pero menos rápido que Axel y Blaze, destaca por sus golpes pesados, agarres eficaces y estilo directo. En Streets of Rage Remake, vuelve con una jugabilidad fiel a la trilogía original, ampliada para soportes modernos y colecciones OpenBOR.
+Dato curioso: Streets of Rage Remake fue desarrollado por fans durante varios años y ofrece mucho más contenido que los juegos originales, con muchos personajes, fases y variantes.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="it">
+			<text>Adam Hunter è un ex poliziotto deciso a riprendersi le strade dominate dal crimine. Più potente ma meno rapido di Axel e Blaze, si distingue per colpi pesanti, prese efficaci e uno stile diretto. In Streets of Rage Remake torna con un gameplay fedele alla trilogia originale, ampliato per supporti moderni e raccolte OpenBOR.
+Curiosità: Streets of Rage Remake è stato sviluppato da fan per diversi anni e offre molti più contenuti dei giochi originali, con numerosi personaggi, livelli e varianti.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="de">
+			<text>Adam Hunter ist ein ehemaliger Polizist, der die von Verbrechen beherrschten Straßen zurückerobern will. Stärker, aber langsamer als Axel und Blaze, fällt er durch schwere Schläge, wirksame Würfe und einen direkten Kampfstil auf. In Streets of Rage Remake kehrt er mit einem Spielgefühl zurück, das der ursprünglichen Trilogie treu bleibt.
+Interessante Tatsache: Streets of Rage Remake wurde über mehrere Jahre von Fans entwickelt und bietet deutlich mehr Inhalte als die Originalspiele, mit vielen Figuren, Stufen und Varianten.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="pt">
+			<text>Adam Hunter é um antigo polícia decidido a recuperar as ruas dominadas pelo crime. Mais forte mas menos rápido do que Axel e Blaze, destaca-se pelos golpes pesados, projeções eficazes e estilo direto. Em Streets of Rage Remake, regressa com uma jogabilidade fiel à trilogia original, ampliada para suportes modernos e coleções OpenBOR.
+Curiosidade: Streets of Rage Remake foi desenvolvido por fãs durante vários anos e oferece muito mais conteúdo do que os jogos originais, com muitas personagens, fases e variantes.</text>
+		</text>
 	</view>
 </theme>

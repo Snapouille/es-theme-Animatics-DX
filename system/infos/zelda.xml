@@ -16,7 +16,58 @@ originally based on: "carbon"
 <text name="system_description" extra="true" lang="fr">
 <text>The Legend of Zelda est une série d'action-aventure créée par Nintendo en 1986. Elle se distingue par son exploration, ses donjons, ses énigmes et son monde ouvert riche en secrets. Le joueur incarne Link, un héros chargé de sauver la princesse Zelda et d’affronter le maléfique Ganon. La saga a révolutionné le jeu vidéo avec des titres cultes comme Ocarina of Time sur Nintendo 64 et plus récemment Breath of the Wild sur Nintendo Switch.</text>
 </text>
+<text name="system_description" extra="true" lang="es">
+<text>The Legend of Zelda es una serie de acción y aventura creada por Nintendo en 1986. Destaca por la exploración, mazmorras, puzles y mundos llenos de secretos. El jugador controla a Link, un héroe encargado de salvar a la princesa Zelda y combatir al malvado Ganon. La saga revolucionó los videojuegos con títulos de culto como Ocarina of Time y Breath of the Wild.</text>
+</text>
 
+<text name="system_description" extra="true" lang="it">
+<text>The Legend of Zelda è una serie action-adventure creata da Nintendo nel 1986. Si distingue per esplorazione, dungeon, enigmi e mondi ricchi di segreti. Il giocatore interpreta Link, un eroe incaricato di salvare la principessa Zelda e affrontare il malvagio Ganon. La saga ha rivoluzionato i videogiochi con titoli cult come Ocarina of Time e Breath of the Wild.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>The Legend of Zelda ist eine von Nintendo 1986 geschaffene Action-Adventure-Reihe. Sie zeichnet sich durch Erkundung, Dungeons, Rätsel und geheimnisvolle offene Welten aus. Der Spieler übernimmt die Rolle von Link, einem Helden, der Prinzessin Zelda retten und den bösen Ganon bekämpfen muss. Die Saga prägte Videospiele mit Klassikern wie Ocarina of Time und Breath of the Wild.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>The Legend of Zelda é uma série de ação e aventura criada pela Nintendo em 1986. Destaca-se pela exploração, masmorras, enigmas e mundos ricos em segredos. O jogador controla Link, um herói encarregado de salvar a princesa Zelda e enfrentar o maligno Ganon. A saga revolucionou os videogames com títulos marcantes como Ocarina of Time e Breath of the Wild.</text>
+</text>
+
+
+
+<!-- FIGURINE -->
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;The Legend of Zelda: Ocarina of Time (Nintendo 64, 1998)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Link appears here in a more mature form, representing a hero shaped by time and trials, armed with his sword and ready to face evil, symbolizing a darker and more ambitious adventure blending exploration, combat and destiny. Fun fact: Ocarina of Time is one of the first games to feature Link as both a child and an adult, a core mechanic that directly impacts gameplay and progression.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Link apparaît ici dans une version plus mature, incarnant un héros marqué par le temps et les épreuves, armé de son épée et prêt à affronter les forces du mal, symbolisant une évolution du personnage vers des thèmes plus sombres et une aventure plus ambitieuse mêlant exploration, combat et destinée.
+Fun fact : Ocarina of Time est l’un des premiers jeux à présenter Link sous deux âges différents, enfant et adulte, une mécanique centrale qui influence directement le gameplay et la progression.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Link aparece aquí en una versión más madura, como un héroe marcado por el tiempo y las pruebas, armado con su espada y listo para enfrentar al mal, simbolizando una aventura más oscura y ambiciosa que une exploración, combate y destino.
+Dato curioso: Ocarina of Time presenta a Link como niño y adulto, una mecánica central que cambia la progresión.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Link appare qui in una versione più matura, un eroe segnato dal tempo e dalle prove, armato di spada e pronto ad affrontare il male, simbolo di un’avventura più oscura e ambiziosa tra esplorazione, combattimento e destino.
+Curiosità: Ocarina of Time mostra Link bambino e adulto, una meccanica centrale che influenza la progressione.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Link erscheint hier in einer reiferen Form, geprägt von Zeit und Prüfungen, mit seinem Schwert bereit, sich dem Bösen zu stellen, und steht für ein dunkleres Abenteuer voller Erkundung, Kampf und Schicksal.
+Interessante Tatsache: Ocarina of Time zeigt Link als Kind und Erwachsenen, eine zentrale Mechanik für den Fortschritt.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Link aparece aqui em uma versão mais madura, moldado pelo tempo e pelas provações, armado com sua espada e pronto para enfrentar o mal, simbolizando uma aventura mais sombria que mistura exploração, combate e destino.
+Curiosidade: Ocarina of Time mostra Link criança e adulto, uma mecânica central que influencia a progressão.</text>
+</text>
 
 </view>
 </theme>

@@ -49,5 +49,40 @@ originally based on: "carbon"
 <text>BBC Micro - это серия микрокомпьютеров, выпущенных компанией Acorn Computers Ltd. Они были разработаны для использования в учебных заведениях. Компьютеры этой серии, предназначенные для использования в образовательных учреждениях, известны своей модульностью и качеством операционных систем.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>  Elite (1984)  </text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Elite’s iconic ship captures the full ambition of the game on BBC Micro. Despite the machine’s limits, it impresses with its open universe, wireframe 3D battles and a powerful sense of freedom. Navigation is demanding but rewarding, asking for control, timing and anticipation while drawing the player into a living galaxy where trade and combat flow naturally together.
+Fun fact: Elite was one of the first games to offer a procedurally generated universe, with hundreds of star systems to explore.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Vaisseau emblématique d’Elite, ce chasseur spatial incarne toute l’ambition du titre sur BBC Micro. Malgré les limites de la machine, le jeu impressionne par son univers ouvert, ses combats en 3D filaire et sa sensation de liberté totale. La navigation, exigeante mais grisante, demande maîtrise et anticipation, renforçant l’immersion dans une galaxie vivante où commerce et affrontements se mêlent avec fluidité.
+Fun fact : Elite est l’un des premiers jeux à proposer un univers généré procéduralement, avec des centaines de systèmes stellaires à explorer.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>La nave emblemática de Elite resume toda la ambición del juego en BBC Micro. Pese a los límites de la máquina, impresiona por su universo abierto, sus combates en 3D vectorial y una enorme sensación de libertad. La navegación, exigente pero gratificante, requiere control y anticipación, reforzando la inmersión en una galaxia viva donde comercio y combate se mezclan con fluidez.
+Fun fact: Elite fue uno de los primeros juegos en ofrecer un universo generado por procedimientos, con cientos de sistemas estelares por explorar.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>La nave simbolo di Elite racchiude tutta l’ambizione del gioco su BBC Micro. Nonostante i limiti della macchina, colpisce per l’universo aperto, i combattimenti in 3D wireframe e una forte sensazione di libertà. La navigazione, esigente ma appagante, richiede controllo e anticipo, immergendo il giocatore in una galassia viva dove commercio e scontri si fondono con naturalezza.
+Fun fact: Elite fu uno dei primi giochi a proporre un universo generato proceduralmente, con centinaia di sistemi stellari da esplorare.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Das ikonische Schiff aus Elite verkörpert den ganzen Anspruch des Spiels auf dem BBC Micro. Trotz der Grenzen der Hardware beeindruckt es mit offener Galaxie, 3D-Drahtgitterkämpfen und einem starken Gefühl von Freiheit. Die Navigation ist fordernd, aber packend, verlangt Kontrolle und Vorausplanung und zieht den Spieler in eine lebendige Welt aus Handel und Gefechten.
+Fun fact: Elite gehörte zu den ersten Spielen mit einem prozedural erzeugten Universum und Hunderten von Sternsystemen zum Erkunden.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>A nave icónica de Elite resume toda a ambição do jogo no BBC Micro. Apesar dos limites da máquina, impressiona pelo universo aberto, pelos combates em 3D vetorial e pela sensação de liberdade total. A navegação é exigente, mas envolvente, pedindo domínio e antecipação enquanto mergulha o jogador numa galáxia viva onde comércio e combate se cruzam com fluidez.
+Fun fact: Elite foi um dos primeiros jogos a oferecer um universo gerado proceduralmente, com centenas de sistemas estelares para explorar.</text>
+</text>
+
 </view>
 </theme>

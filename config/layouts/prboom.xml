@@ -33,72 +33,70 @@
   
   
   
-  <customView name="legendary">
-  	
+<customView name="legendary">
 	
 	<image name="ecran_console" extra="static">
-			<pos>0.509 0.18</pos>
-			<pos ifHelpPrompts="false">0.509 0.20</pos>
-			<size>0.4427083 0.525</size>
-			<scale>0.9</scale>
-			<opacity>1</opacity>
-			<color>FFFFFF</color>
-			<zIndex>31</zIndex>
+		<pos>0.509 0.18</pos>
+		<pos ifHelpPrompts="false">0.509 0.20</pos>
+		<size>0.4427083 0.525</size>
+		<scale>0.9</scale>
+		<opacity>1</opacity>
+		<color>FFFFFF</color>
+		<zIndex>31</zIndex>
+		
+		<storyboard event="open">
+			<animation property="x" to="0.554" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
 			
-				<storyboard event="open">
-					<animation property="x" to="0.554" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="x" to="0.554" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
+		<storyboard event="activate">
+				<animation property="x" to="0.554" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
 			
-		</image>
+		<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</image>
   
-		<video name="md_video">
-		  <pos>0.711 0.414</pos>
-		  <pos ifHelpPrompts="false">0.711 0.434</pos>
-		  <size>0.239 0.317</size>
-		  <roundCorners>0.02</roundCorners>
-		  
-		  
-				<storyboard event="open">
+	<video name="md_video">
+	  <pos>0.711 0.414</pos>
+	  <pos ifHelpPrompts="false">0.711 0.434</pos>
+	  <size>0.239 0.317</size>
+	  <roundCorners>0.02</roundCorners>
+	  
+	  
+			<storyboard event="open">
+				<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
 					<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
-		  
-		</video>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	  
+	</video>
   
-		<!-- fond noir de l'écran -->
-		<image name="black_bg">
-		  <pos>0.711 0.414</pos>
-		  <pos ifHelpPrompts="false">0.711 0.434</pos>
-		  <size>0.239 0.317</size>
-		  
-				<storyboard event="open">
+	<!-- fond noir de l'écran -->
+	<image name="black_bg">
+	  <pos>0.711 0.414</pos>
+	  <pos ifHelpPrompts="false">0.711 0.434</pos>
+	  <size>0.239 0.317</size>
+	  
+			<storyboard event="open">
+				<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
 					<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
-		</image>
-  
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
   
   
 	<image name="md_thumbnail">
@@ -108,7 +106,6 @@
 		<scale>0.55</scale>
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
-		
 		
 		<storyboard event="open">
                 <animation property="x" to="0.419" begin="1200" duration="200" mode="linear"/>
@@ -125,16 +122,8 @@
 		<storyboard event="deactivate">
 			    <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
-		
-		
-		
-		
 	</image>
 	
-	
-	
-	
-	
-	
-   </customView>           </theme>
+   </customView>   
+   
+   </theme>

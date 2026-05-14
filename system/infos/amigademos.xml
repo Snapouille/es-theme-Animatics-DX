@@ -1,0 +1,54 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Amiga Demos system brings together a wide selection of productions created by the demo scene on Commodore Amiga computers. Blending animation, music, visual effects and technical demonstrations, these creations often pushed the limits of the hardware of their time. A true playground for programmers, graphic artists and musicians, the Amiga scene became one of the most iconic in European computing history.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le système Démos Amiga regroupe une vaste sélection de productions réalisées par la grande scène des demomakers. Mélangeant animations, musiques, effets visuels et démonstrations techniques, ces créations repoussaient souvent les limites du matériel de l’époque. Véritable terrain d’expression pour les programmeurs, graphistes et musiciens, la scène Amiga est devenue l’une des plus emblématiques de l’histoire informatique européenne.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Das System Amiga-Demos vereint eine große Auswahl an Produktionen der Demoszene auf Commodore-Amiga-Computern. Mit Animationen, Musik, visuellen Effekten und technischen Vorführungen reizten diese Werke oft die Grenzen der damaligen Hardware aus. Als echtes Ausdrucksfeld für Programmierer, Grafiker und Musiker wurde die Amiga-Szene zu einer der prägendsten der europäischen Computergeschichte.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El sistema Demos Amiga reúne una amplia selección de producciones realizadas por la escena demo en los ordenadores Commodore Amiga. Combinando animaciones, músicas, efectos visuales y demostraciones técnicas, estas creaciones solían llevar al límite el hardware de la época. Como espacio de expresión para programadores, grafistas y músicos, la escena Amiga se convirtió en una de las más emblemáticas de la historia informática europea.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il sistema Demos Amiga raccoglie un’ampia selezione di produzioni realizzate dalla scena demo sui computer Commodore Amiga. Unendo animazioni, musiche, effetti visivi e dimostrazioni tecniche, queste creazioni spingevano spesso al limite l’hardware dell’epoca. Vero terreno espressivo per programmatori, grafici e musicisti, la scena Amiga è diventata una delle più emblematiche della storia informatica europea.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Démos Amigaシステムは、Commodore Amiga向けにデモシーンが制作した多彩な作品を集めたものです。アニメーション、音楽、視覚効果、技術デモを組み合わせ、当時のハードウェアの限界に挑んだ作品も少なくありません。プログラマー、グラフィックアーティスト、ミュージシャンの表現の場として、Amigaのデモシーンは欧州コンピューター史を代表する存在となりました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Het systeem Demos Amiga bundelt een ruime selectie producties van de demoscene op Commodore Amiga-computers. Met animaties, muziek, visuele effecten en technische demonstraties verlegden deze creaties vaak de grenzen van de hardware uit die tijd. Als echt expressieterrein voor programmeurs, grafici en muzikanten groeide de Amiga-scene uit tot een van de meest iconische in de Europese computergeschiedenis.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>System Demos Amiga gromadzi szeroki wybór produkcji stworzonych przez scenę demo na komputerach Commodore Amiga. Łącząc animacje, muzykę, efekty wizualne i pokazy techniczne, dzieła te często przesuwały granice możliwości ówczesnego sprzętu. Jako przestrzeń ekspresji dla programistów, grafików i muzyków scena Amigi stała się jedną z najbardziej ikonicznych w historii europejskiej informatyki.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O sistema Demos Amiga reúne uma ampla seleção de produções criadas pela cena demo nos computadores Commodore Amiga. Misturando animações, músicas, efeitos visuais e demonstrações técnicas, estas criações muitas vezes levavam ao limite o hardware da época. Como verdadeiro espaço de expressão para programadores, artistas gráficos e músicos, a cena Amiga tornou-se uma das mais emblemáticas da história informática europeia.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Система Demos Amiga объединяет большую подборку работ, созданных демосценой для компьютеров Commodore Amiga. Сочетая анимацию, музыку, визуальные эффекты и технические демонстрации, эти проекты часто раскрывали пределы возможностей железа своего времени. Сцена Amiga стала важной площадкой для программистов, художников и музыкантов и одной из самых знаковых в истории европейской компьютерной культуры.</text>
+</text>
+
+
+</view>
+</theme>

@@ -17,16 +17,20 @@ originally based on: "carbon"
 <text>Le Vectrex pensé dès l'origine comme une mini borne d'arcade s'en distingue dans la mesure où il s'agit d'un appareil autonome disposant de son propre moniteur qui affiche des graphismes vectoriels. Bien que l'écran soit monochrome, tous les jeux sont fournis avec un filtre en acétate de cellulose coloré qui devait être glissé devant l'écran.</text>
 </text>
 
-<text name="system_description" extra="true" lang="de">
-<text>Der Vectrex, der ursprünglich als Mini-Arcade gedacht war, unterscheidet sich von diesem insofern, als es sich um ein eigenständiges Gerät mit einem eigenen Monitor handelt, der Vektorgrafiken anzeigt. Obwohl der Bildschirm einfarbig war, wurden alle Spiele mit einem farbigen Celluloseacetatfilter geliefert, der vor den Bildschirm geschoben werden musste.</text>
-</text>
-
 <text name="system_description" extra="true" lang="es">
 <text>La Vectrex, concebida originalmente como una mini máquina recreativa, difiere en que es un dispositivo autónomo con su propio monitor que muestra gráficos vectoriales. Aunque la pantalla era monocroma, todos los juegos se suministraban con un filtro de acetato de celulosa coloreado que había que deslizar delante de la pantalla.</text>
 </text>
 
 <text name="system_description" extra="true" lang="it">
 <text>Il Vectrex, originariamente concepito come una mini macchina arcade, si differenzia per essere un dispositivo autonomo con un proprio monitor che visualizza grafica vettoriale. Sebbene lo schermo fosse monocromatico, tutti i giochi venivano forniti con un filtro colorato in acetato di cellulosa che doveva essere fatto scorrere davanti allo schermo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Vectrex, der ursprünglich als Mini-Arcade gedacht war, unterscheidet sich von diesem insofern, als es sich um ein eigenständiges Gerät mit einem eigenen Monitor handelt, der Vektorgrafiken anzeigt. Obwohl der Bildschirm einfarbig war, wurden alle Spiele mit einem farbigen Celluloseacetatfilter geliefert, der vor den Bildschirm geschoben werden musste.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Vectrex, originalmente concebido como uma mini máquina de arcada, difere no facto de ser um dispositivo autónomo com o seu próprio monitor a exibir gráficos vectoriais. Embora o ecrã fosse monocromático, todos os jogos eram fornecidos com um filtro de acetato de celulose colorido que tinha de ser deslizado para a frente do ecrã.</text>
 </text>
 
 <text name="system_description" extra="true" lang="ja">
@@ -41,12 +45,42 @@ originally based on: "carbon"
 <text>Vectrex, pierwotnie pomyślany jako mini automat do gier, różni się tym, że jest samodzielnym urządzeniem z własnym monitorem wyświetlającym grafikę wektorową. Chociaż ekran był monochromatyczny, wszystkie gry były dostarczane z kolorowym filtrem z octanu celulozy, który należało wsunąć przed ekran.</text>
 </text>
 
-<text name="system_description" extra="true" lang="pt">
-<text>O Vectrex, originalmente concebido como uma mini máquina de arcada, difere no facto de ser um dispositivo autónomo com o seu próprio monitor a exibir gráficos vectoriais. Embora o ecrã fosse monocromático, todos os jogos eram fornecidos com um filtro de acetato de celulose colorido que tinha de ser deslizado para a frente do ecrã.</text>
-</text>
-
 <text name="system_description" extra="true" lang="ru">
 <text>Vectrex, изначально задуманный как аркадный мини-автомат, отличается тем, что это автономное устройство с собственным монитором, на котором отображается векторная графика. Хотя экран был монохромным, все игры поставлялись с цветным фильтром из ацетата целлюлозы, который нужно было задвигать перед экраном.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Mine Storm (1982)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The ship from Mine Storm moves through a vector minefield where rotation, thrust and firing demand precision under pressure. Each wave brings mobile enemies and unpredictable paths, increasing the tension. This figurine highlights the Vectrex look, with sharp light-traced graphics and direct arcade-inspired gameplay.
+Fun fact: Early versions could crash at level 13; Mine Storm II was sent free to players who reported the bug.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le vaisseau de Mine Storm évolue au cœur d’un champ de mines vectoriel, où rotation, poussée et tir demandent précision et sang-froid. Chaque vague introduit des ennemis mobiles et des trajectoires imprévisibles, renforçant la tension. Cette figurine met en avant l’esthétique unique de la Vectrex, avec ses tracés lumineux nets et son gameplay direct inspiré des bornes d’arcade.
+Fun fact : Les premières versions pouvaient planter au niveau 13 ; Mine Storm II était envoyé gratuitement aux joueurs qui signalaient le bug.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>La nave de Mine Storm avanza por un campo de minas vectorial donde rotación, impulso y disparo exigen precisión y calma. Cada oleada añade enemigos móviles y trayectorias imprevisibles, aumentando la tensión. Esta figura destaca el estilo único de Vectrex, con trazos luminosos nítidos y una acción directa inspirada en los arcades.
+Dato curioso: Las primeras versiones podían fallar en el nivel 13; Mine Storm II se enviaba gratis a quienes reportaban el bug.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>La nave di Mine Storm si muove in un campo minato vettoriale dove rotazione, spinta e fuoco richiedono precisione e sangue freddo. Ogni ondata introduce nemici mobili e traiettorie imprevedibili, aumentando la tensione. Questa statuetta valorizza lo stile unico di Vectrex, con tracce luminose nette e azione diretta da sala giochi.
+Curiosità: Le prime versioni potevano bloccarsi al livello 13; Mine Storm II veniva inviato gratis ai giocatori che segnalavano il bug.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Das Schiff aus Mine Storm bewegt sich durch ein Vektor-Minenfeld, in dem Rotation, Schub und Feuer Präzision und Ruhe verlangen. Jede Welle bringt bewegliche Gegner und unvorhersehbare Bahnen, wodurch die Spannung steigt. Diese Figur betont den einzigartigen Vectrex-Look mit klaren Lichtlinien und direkter, arcade-inspirierter Action.
+Interessante Tatsache: Frühe Versionen konnten auf Level 13 abstürzen; Mine Storm II wurde Spielern kostenlos zugesandt, die den Fehler meldeten.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>A nave de Mine Storm atravessa um campo minado vetorial onde rotação, impulso e disparo exigem precisão e sangue-frio. Cada vaga traz inimigos móveis e trajetórias imprevisíveis, aumentando a tensão. Esta figura destaca o visual único da Vectrex, com traços luminosos nítidos e ação direta inspirada nas arcades.
+Curiosidade: As primeiras versões podiam falhar no nível 13; Mine Storm II era enviado grátis aos jogadores que comunicavam o bug.</text>
 </text>
 
 </view>

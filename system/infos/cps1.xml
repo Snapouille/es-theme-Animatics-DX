@@ -49,5 +49,39 @@ originally based on: "carbon"
 <text>CPS (CP System) - это аркадная игровая система стандарта JAMMA, созданная японской компанией Capcom в 1988 году с выходом игры Forgotten Worlds. Она основана на архитектуре X68000 компании Sharp. На ней было выпущено несколько известных игр 1990-х годов, таких как Ghouls'n Ghosts, Strider, Final fight, 1941, Willow и Street Fighter 2.</text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+	<text>&#160;&#160;Street Fighter II (1991)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+	<text>Ryu is the iconic fighter of Street Fighter II, recognizable by his white karate gi and his disciplined fighting style. A solitary traveler seeking self-improvement, he faces the world’s strongest opponents using signature techniques like the Hadoken and Shoryuken, which became defining elements of fighting games.
+Fun fact: Ryu and Ken originally shared the same moveset, and were later differentiated to deepen gameplay.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+	<text>Ryu est le combattant emblématique de Street Fighter II, reconnaissable à son karaté gi blanc et à son style basé sur la maîtrise et la discipline. Voyageur solitaire en quête de perfection, il affronte les meilleurs combattants du monde en utilisant des techniques iconiques comme le Hadoken et le Shoryuken, qui ont marqué durablement le jeu de combat.
+Fun fact : Ryu et Ken partagent à l’origine le même style de combat, mais ont été différenciés progressivement pour enrichir le gameplay.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+	<text>Ryu es el luchador emblemático de Street Fighter II, reconocible por su gi blanco y su estilo basado en la disciplina y el control. Viajero solitario en busca de perfección, se enfrenta a los mejores combatientes del mundo usando técnicas icónicas como Hadoken y Shoryuken, que marcaron el género de lucha.
+Dato curioso: Ryu y Ken compartían originalmente el mismo estilo de combate, diferenciándose con el tiempo para enriquecer la jugabilidad.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+	<text>Ryu è il combattente simbolo di Street Fighter II, riconoscibile per il suo kimono bianco e il suo stile basato su disciplina e controllo. Viaggiatore solitario in cerca di perfezione, affronta i migliori combattenti del mondo usando tecniche iconiche come Hadoken e Shoryuken, diventate fondamentali per il genere picchiaduro.
+Curiosità: Ryu e Ken condividevano inizialmente lo stesso stile di combattimento, poi differenziato per arricchire il gameplay.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+	<text>Ryu ist der ikonische Kämpfer aus Street Fighter II, erkennbar an seinem weißen Karateanzug und seinem auf Disziplin basierenden Kampfstil. Als einsamer Wanderer auf der Suche nach Perfektion tritt er gegen die stärksten Gegner der Welt an und nutzt Techniken wie Hadoken und Shoryuken, die das Kampfspiel-Genre geprägt haben.
+Interessante Tatsache: Ryu und Ken hatten ursprünglich das gleiche Moveset und wurden erst später zur Verbesserung des Gameplays unterschieden.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+	<text>Ryu é o lutador icônico de Street Fighter II, reconhecido por seu kimono branco e seu estilo baseado em disciplina e controle. Um viajante solitário em busca de aperfeiçoamento, ele enfrenta os melhores lutadores do mundo usando técnicas como Hadoken e Shoryuken, que marcaram o gênero de luta.
+Curiosidade: Ryu e Ken originalmente compartilhavam o mesmo estilo de combate, sendo diferenciados posteriormente para enriquecer a jogabilidade.</text>
+</text>
+
 </view>
 </theme>

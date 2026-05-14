@@ -21,5 +21,54 @@ originally based on: "carbon"
 <text>Esta colección es tu mejor amiga de la memoria. Es donde guardarás todos los juegos que has empezado y que juraste que terminarías algún día. Al menos aquí no se perderán entre tus interminables juegos y podrás volver a echarle el guante con facilidad.</text>
 </text>
 
+
+<text name="system_description" extra="true" lang="it">
+<text>Questa collezione è la tua migliore alleata per la memoria. Qui puoi conservare tutti i giochi iniziati e promessi di finire un giorno, evitando che si perdano tra i tuoi set infiniti e ritrovandoli facilmente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Diese Sammlung ist dein bester Gedächtnishelfer. Hier bewahrst du alle Spiele auf, die du begonnen hast und eines Tages beenden willst, damit sie nicht in deinen endlosen Sets verloren gehen und leicht wiederzufinden sind.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Esta coleção é sua melhor aliada da memória. É aqui que você guarda todos os jogos que começou e prometeu terminar um dia, evitando que se percam nos seus sets infinitos e podendo encontrá-los facilmente.</text>
+</text>
+
+<!-- FIGURINE -->
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Captain Blood (Amiga, 1988)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The alien hand from Captain Blood embodies the game’s strange organic universe, where players interact with unknown life forms through visual and symbolic communication rather than direct action in a disorienting alien world.
+Fun fact: Captain Blood uses an icon-based communication system to speak with aliens, an innovative mechanic that replaces traditional language.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>La main extraterrestre de Captain Blood symbolise l’univers étrange et organique du jeu, où le joueur interagit avec des formes de vie inconnues à travers une communication visuelle et symbolique, incarnant une approche unique centrée sur la rencontre et la compréhension.
+Fun fact : Captain Blood utilise un système de communication basé sur des icônes permettant de dialoguer avec des aliens, une mécanique innovante pour l’époque qui remplace entièrement le langage traditionnel.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>La mano alienígena de Captain Blood simboliza el universo extraño y orgánico del juego, donde el jugador interactúa con formas de vida desconocidas mediante una comunicación visual y simbólica.
+Dato curioso: Captain Blood utiliza un sistema de iconos para dialogar con alienígenas, reemplazando el lenguaje tradicional.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>La mano aliena di Captain Blood simboleggia l’universo strano e organico del gioco, dove il giocatore interagisce con forme di vita sconosciute tramite comunicazione visiva e simbolica.
+Curiosità: Captain Blood usa un sistema di icone per dialogare con gli alieni, sostituendo il linguaggio tradizionale.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Die außerirdische Hand aus Captain Blood steht für die fremdartige organische Welt des Spiels, in der der Spieler unbekannten Lebensformen über visuelle Symbole begegnet.
+Interessante Tatsache: Captain Blood nutzt ein ikonbasiertes System zur Kommunikation mit Aliens und ersetzt klassische Sprache.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>A mão alienígena de Captain Blood simboliza o universo estranho e orgânico do jogo, onde o jogador interage com formas de vida desconhecidas por comunicação visual e simbólica.
+Curiosidade: Captain Blood usa um sistema de ícones para dialogar com alienígenas, substituindo a linguagem tradicional.</text>
+</text>
+
 </view>
 </theme>

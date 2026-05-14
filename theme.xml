@@ -72,7 +72,12 @@ originally based on: "carbon"
 	<user.logo>Your Logo</user.logo>
 	<user.username>Your Nickname</user.username>
 	<system-description>System descriptions</system-description>
-	<video-preview>Video Preview</video-preview>
+	<video-preview>Random Video Preview</video-preview>
+	<figurine-description>Figurine Description</figurine-description>
+	<figurine-description-delay>Figurine Description Delay</figurine-description-delay>
+	<delay-1-second>1 second</delay-1-second>
+	<delay-3-seconds>3 seconds</delay-3-seconds>
+	<delay-8-seconds>8 seconds</delay-8-seconds>	
 	<system-controllers>Controllers</system-controllers>
 	<show>Show</show>
 	<hide>Hide</hide>
@@ -142,6 +147,7 @@ originally based on: "carbon"
 	<onthegreen>on the Green</onthegreen>
 	
 	<figurine.Display>figurines</figurine.Display>
+	<figurine.Animation>Figurine Animations</figurine.Animation>
 	<figurine.systemOnly>Display only system figurines</figurine.systemOnly>
 	<figurine.addonOrSystem>Display add-on figurines or system if missing</figurine.addonOrSystem>
 	<figurine.addonOnly>Display only add-on figurines</figurine.addonOnly>
@@ -297,7 +303,39 @@ originally based on: "carbon"
 	<include name="Midnightblue" displayName="${midnightblue}"/>
 </subset>
 
- <subset name="Grid_View_Size" displayName="${subset.Grid_View_Size}">
+
+  
+<!-- Affichage des logos couleur/n&b -->
+<subset name="logostyle"  ifSubset="SystemView:wheel-animatics|wheel|vertical|horizontal" displayName="${subset.logostyle}">
+	<include name="color" displayName="${color}"/>
+	<include name="black" displayName="${blackandwhite}"/>
+</subset>
+			  
+  
+<!-- Informations complémentaires (statistiques) sur les sets  -->
+<subset name="InfoCustomView" displayName="${InfoCustomView}" extra="true">
+    <include name="detailed" displayName="${infoDetailed}">./config/system/extendedinfo.xml</include>
+    <include name="total" displayName="${totalGamesInfos}"/>
+    <include name="nothing" displayName="${none}"/>
+</subset>
+  
+  
+<!-- 21/11/2025 Vue simple désactivée, je pense que personne ne l'utilise -->
+<!-- je laisse la selection des vues systèmes à ce niveau car sinon j'ai un bug avec l'affichage des statistiques, je sais pas pourquoi     -->
+<!-- Subset options for screen -->
+<subset name="SystemView" displayName="${systemViewName}">
+	<include name="wheel-animatics"  displayName="${systemview.wheel-animatics}">./config/system/systemview/wheel-animatics.xml</include>
+	<include name="wheel" displayName="${systemview.wheel}">./config/system/systemview/wheel.xml</include>
+    <include name="vertical"  displayName="${systemview.vertical}">./config/system/systemview/vertical.xml</include>
+	<include name="horizontal"  displayName="${systemview.horizontal}">./config/system/systemview/horizontal.xml</include>
+	<include name="grid"  displayName="${systemview.grid}">./config/system/systemview/grid.xml</include>
+	<include name="figurines"  displayName="${systemview.figurines}">./config/system/systemview/figurines.xml</include>
+	<!-- <include name="simple" displayName="${systemview.simple}">./config/system/systemview/simple.xml</include> -->
+	<!-- <include name="vertical-arts"  displayName="${systemview.vertical-arts}">./config/system/systemview/vertical-arts.xml</include> -->
+</subset>
+
+
+ <subset name="Grid_View_Size"  ifSubset="SystemView:grid" displayName="${subset.Grid_View_Size}">
     <include name="auto" displayName="auto"/>
     <include name="1x1" displayName="1X1"/>
     <include name="1x2" displayName="1X2"/>
@@ -350,42 +388,25 @@ originally based on: "carbon"
     <include name="7x7" displayName="7X7"/>
   </subset>
 
-  
-<!-- Affichage des logos couleur/n&b -->
-<subset name="logostyle" displayName="${subset.logostyle}">
-	<include name="color" displayName="${color}"/>
-	<include name="black" displayName="${blackandwhite}"/>
-</subset>
-			  
-  
-<!-- Informations complémentaires (statistiques) sur les sets  -->
-<subset name="InfoCustomView" displayName="${InfoCustomView}" extra="true">
-    <include name="detailed" displayName="${infoDetailed}">./config/system/extendedinfo.xml</include>
-    <include name="total" displayName="${totalGamesInfos}"/>
-    <include name="nothing" displayName="${none}"/>
-</subset>
-  
-  
-<!-- 21/11/2025 Vue simple désactivée, je pense que personne ne l'utilise -->
-    
-<!-- Subset options for screen -->
-<subset name="SystemView" displayName="${systemViewName}">
-	<include name="wheel-animatics"  displayName="${systemview.wheel-animatics}">./config/system/systemview/wheel-animatics.xml</include>
-	<include name="wheel" displayName="${systemview.wheel}">./config/system/systemview/wheel.xml</include>
-    <include name="vertical"  displayName="${systemview.vertical}">./config/system/systemview/vertical.xml</include>
-	<include name="horizontal"  displayName="${systemview.horizontal}">./config/system/systemview/horizontal.xml</include>
-	<include name="grid"  displayName="${systemview.grid}">./config/system/systemview/grid.xml</include>
-	<include name="figurines"  displayName="${systemview.figurines}">./config/system/systemview/figurines.xml</include>
-	<!-- <include name="simple" displayName="${systemview.simple}">./config/system/systemview/simple.xml</include> -->
-	<!-- <include name="vertical-arts"  displayName="${systemview.vertical-arts}">./config/system/systemview/vertical-arts.xml</include> -->
+
+<!-- Affichage description des figurines (ou description animation à voir plus tard) -->
+<subset name="figurine-description" ifSubset="SystemView:figurines" displayName="${figurine-description}">
+	<include name="Hide" displayName="${hide}"/>
+	<include name="Show" displayName="${show}"/>
 </subset>
 
+<!-- Subset délai d'affichage des descriptions de figurines -->
+<subset name="figurine-description-delay" ifSubset="SystemView:figurines" displayName="${figurine-description-delay}">
+	<include name="Delay1s" displayName="${delay-1-second}"/>
+	<include name="Delay3s" displayName="${delay-3-seconds}"/>
+	<include name="Delay8s" displayName="${delay-8-seconds}"/>
+</subset>
 
 <!-- 21/11/2025 Trop de bug dans la vue carboncontrol (manettes fil de fer) mis en standbye pour l'instant -->
 <!-- je pense que plus personne ne l'utilise, on verra ... -->
   
 <!-- Subset option for System view background -->
-<subset name="systembackground" displayName="${systemBackgroundName}">
+<subset name="systembackground" ifSubset="SystemView:wheel-animatics|wheel|vertical|horizontal|grid" displayName="${systemBackgroundName}">
     <include name="snap legacy" displayName="${systembackground.snap}">./config/system/systembackground/snaplegacy.xml</include>
     <include name="smooth wallpaper" displayName="${systembackground.wallpaper}">./config/system/systembackground/smoothwallpaper.xml</include>
 	<!-- <include name="carbon control" displayName="${systembackground.carboncontrol}">./config/system/systembackground/carboncontrollers.xml</include> -->
@@ -393,6 +414,11 @@ originally based on: "carbon"
     <include name="random box" displayName="${systembackground.fanart}">./config/system/systembackground/fanart.xml</include>
     <include name="random video + fanart" displayName="${systembackground.videofanart}">./config/system/systembackground/videofanart.xml</include>
 </subset>
+
+<subset name="systembackground" ifSubset="SystemView:figurines" displayName="${systemBackgroundName}">
+    <include name="smooth wallpaper" displayName="${systembackground.wallpaper}">./config/system/systembackground/smoothwallpaper.xml</include>
+</subset>
+
   
 <!-- Affichage des Controlleurs-->
 <subset name="system-controllers" displayName="${system-controllers}">
@@ -574,6 +600,9 @@ originally based on: "carbon"
 <include>./config/system/system.xml</include>
 <include>./config/system/user.xml</include>
 <include>./config/colorset/color-options.xml</include>
+
+<!-- on charge d'abord des infos par défault pour prévenir si le système est manquant -->
+<include>./system/infos/default.xml</include>
 <include>./system/infos/${system.theme}.xml</include>
   
 
@@ -681,11 +710,11 @@ originally based on: "carbon"
 		<include name="none"           displayName="${figurine.none}"/>
 	</subset>	
 	
-	<!-- Choix d'afficher les figurines ou non -->
-		<!-- <subset name="figurineDisplay" displayName="${figurine.Display}" appliesTo="gamecarousel"> -->
-			<!-- <include name="Show" displayName="${show}"/> -->
-			<!-- <include name="Hide" displayName="${hide}"/> -->
-		<!-- </subset> -->
+	<!-- Choix d'animer les figurines ou non -->
+		<subset name="figurineAnimation" displayName="${figurine.Animation}" appliesTo="gamecarousel">
+			<include name="yes" displayName="${yes}"/>
+			<include name="no" displayName="${no}"/>
+		</subset>
 	
 	<!-- Choix de la direction de la roue, soit arrondi soit droite -->
 	<subset name="wheelshape" displayName="${wheel.shape}" appliesTo="gamecarousel">

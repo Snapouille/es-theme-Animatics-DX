@@ -49,5 +49,40 @@ originally based on: "carbon"
 <text>Epoch Game Pocket Computer (ゲームポケコン) - портативная игровая консоль, продававшаяся только в Японии. Предшествовавшая Game Boy на 5 лет, консоль была коммерчески неудачной, для нее было разработано всего 5 игр. В систему были встроены игра-головоломка и программа для рисования.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Sokoban (1985)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Sokoban is a puzzle game where each crate must be pushed onto its target without ever being pulled back. On the Epoch Game Pocket Computer, the sparse display keeps every stage clear and puts the focus on planning, precise moves and mistakes that can block progress. This portable version preserves the quiet tension of the Japanese classic despite the console's limits.
+Fun fact: The Game Pocket Computer version includes 65 levels and belongs to the very small official library of the console.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Sokoban est un jeu de réflexion où chaque caisse doit être poussée vers son emplacement sans jamais pouvoir être tirée. Sur Game Pocket, l'affichage minimal garde les niveaux lisibles et met la pression sur l'anticipation, les déplacements précis et les erreurs qui bloquent la progression. Cette version portable conserve la tension du classique japonais malgré les limites de la console.
+Fun fact : La version Game Pocket Computer propose 65 niveaux et fait partie du très petit catalogue officiel de la console.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Sokoban es un juego de puzles en el que cada caja debe empujarse hasta su casilla sin poder tirarse nunca hacia atrás. En Epoch Game Pocket Computer, la pantalla sencilla mantiene los niveles claros y centra la tensión en la planificación, los movimientos precisos y los errores que bloquean el avance. Esta versión portátil conserva la esencia del clásico japonés pese a los límites de la consola.
+Dato curioso: La versión de Game Pocket Computer incluye 65 niveles y forma parte del pequeño catálogo oficial de la consola.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Sokoban è un rompicapo in cui ogni cassa deve essere spinta sul proprio punto senza poter essere tirata indietro. Su Epoch Game Pocket Computer, lo schermo essenziale mantiene i livelli leggibili e concentra la tensione su pianificazione, mosse precise ed errori che possono bloccare l'avanzamento. Questa versione portatile conserva lo spirito del classico giapponese nonostante i limiti della console.
+Curiosità: La versione Game Pocket Computer include 65 livelli e fa parte del piccolissimo catalogo ufficiale della console.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Sokoban ist ein Denkspiel, in dem jede Kiste auf ihr Zielfeld geschoben werden muss, ohne sie jemals zurückziehen zu können. Auf dem Epoch Game Pocket Computer hält die einfache Darstellung die Ebenen gut lesbar und lenkt den Druck auf Planung, genaue Züge und Fehler, die den Fortschritt blockieren. Diese portable Fassung bewahrt die Spannung des japanischen Klassikers trotz der Grenzen der Konsole.
+Interessante Tatsache: Die Game-Pocket-Computer-Version bietet 65 Level und gehört zur sehr kleinen offiziellen Spielbibliothek der Konsole.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Sokoban é um jogo de lógica em que cada caixa deve ser empurrada até ao seu lugar sem nunca poder ser puxada. Na Epoch Game Pocket Computer, o ecrã simples mantém os níveis legíveis e concentra a pressão no planeamento, nos movimentos precisos e nos erros que podem bloquear o avanço. Esta versão portátil conserva a tensão do clássico japonês apesar dos limites da consola.
+Curiosidade: A versão Game Pocket Computer inclui 65 níveis e faz parte do pequeno catálogo oficial da consola.</text>
+</text>
+
 </view>
 </theme>

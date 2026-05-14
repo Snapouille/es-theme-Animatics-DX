@@ -1,0 +1,73 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Information for this system is not yet available in the Animatics-DX theme. If you would like to contribute or suggest a description, please do so on the theme GitHub: https://github.com/Snapouille/es-theme-Animatics-DX 
+or via the Batocera or RetroBat Discord servers.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Les informations pour ce système ne sont pas encore disponibles dans le thème Animatics-DX. Si vous souhaitez contribuer ou proposer une description, merci de le faire sur le GitHub du thème : https://github.com/Snapouille/es-theme-Animatics-DX 
+ou bien via les discords de Batocera ou de RetroBat.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La información de este sistema aún no está disponible en el tema Animatics-DX. Si desea contribuir o proponer una descripción, puede hacerlo en el GitHub del tema: https://github.com/Snapouille/es-theme-Animatics-DX 
+o a través de los Discord de Batocera o RetroBat.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Le informazioni per questo sistema non sono ancora disponibili nel tema Animatics-DX. Se vuoi contribuire o proporre una descrizione, puoi farlo sul GitHub del tema: https://github.com/Snapouille/es-theme-Animatics-DX 
+oppure tramite i Discord di Batocera o RetroBat.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Informationen zu diesem System sind im Animatics-DX-Theme noch nicht verfügbar. Wenn du beitragen oder eine Beschreibung vorschlagen möchtest, kannst du dies auf dem GitHub des Themes tun: https://github.com/Snapouille/es-theme-Animatics-DX 
+oder über die Discord-Server von Batocera oder RetroBat.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>As informações para este sistema ainda não estão disponíveis no tema Animatics-DX. Se quiser contribuir ou sugerir uma descrição, pode fazê-lo no GitHub do tema: https://github.com/Snapouille/es-theme-Animatics-DX 
+ou através dos Discords do Batocera ou do RetroBat.</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Information for this figurine is not available. If you would like to contribute or suggest a description, please do so on the theme GitHub: https://github.com/Snapouille/es-theme-Animatics-DX 
+or through the Batocera or RetroBat communities on Discord by asking for "Snapouille".</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Informations pour cette figurine non disponibles. Si vous souhaitez contribuer ou proposer une description, merci de le faire sur le GitHub du thème : https://github.com/Snapouille/es-theme-Animatics-DX 
+ou via les communautés Batocera ou RetroBat sur Discord en demandant "Snapouille".</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Información para esta figura no disponible. Si desea contribuir o proponer una descripción, puede hacerlo en el GitHub del tema: https://github.com/Snapouille/es-theme-Animatics-DX 
+o a través de las comunidades Batocera o RetroBat en Discord preguntando por "Snapouille".</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Informazioni per questa statuetta non disponibili. Se vuoi contribuire o proporre una descrizione, puoi farlo sul GitHub del tema: https://github.com/Snapouille/es-theme-Animatics-DX 
+oppure tramite le comunità Batocera o RetroBat su Discord chiedendo di "Snapouille".</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Informationen zu dieser Figur sind nicht verfügbar. Wenn du beitragen oder eine Beschreibung vorschlagen möchtest, kannst du dies auf dem GitHub des Themes tun: https://github.com/Snapouille/es-theme-Animatics-DX 
+oder über die Batocera- oder RetroBat-Communitys auf Discord, indem du nach "Snapouille" fragst.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Informações para esta figura não disponíveis. Se quiser contribuir ou sugerir uma descrição, pode fazê-lo no GitHub do tema: https://github.com/Snapouille/es-theme-Animatics-DX 
+ou através das comunidades Batocera ou RetroBat no Discord, perguntando por "Snapouille".</text>
+</text>
+
+</view>
+</theme>

@@ -39,5 +39,28 @@ originally based on: "carbon"
 			<text>DICE permette di simulare le prime console elettroniche dedicate, ispirate al concetto di Pong. Riproducendo sistemi molto semplici senza cartucce né processori complessi, propone varianti di gioco minimaliste basate su tennis, squash o hockey. Con il suo gameplay immediato e il suo approccio storico, DICE offre uno sguardo alle origini del videogioco domestico.</text>
 		</text>
 
+		<text name="figurine_title, figurine_title_mask" extra="true">
+			<text>&#160;&#160;Pong (1972)&#160;&#160;</text>
+		</text>
+
+		<text name="figurine_desc" extra="true">
+			<text>This figurine imagines an original mascot for DICE, featuring a character with a dice-shaped head that echoes the emulator’s name rather than any official figure. It accompanies Pong, a foundational arcade game built on simple electronic logic without a CPU, where two paddles and a ball capture the raw beginnings of video games.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="fr">
+			<text>Cette figurine imagine une mascotte originale pour DICE, avec un personnage à tête de dé représentant le nom de l’émulateur plutôt qu’un héros officiel. Elle accompagne Pong, jeu d’arcade fondateur basé sur une logique électronique sans CPU, où deux raquettes et une balle suffisent à illustrer les débuts les plus bruts du jeu vidéo.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="es">
+			<text>Esta figura imagina una mascota original para DICE, con un personaje de cabeza de dado que refleja el nombre del emulador más que un personaje oficial. Acompaña a Pong, un juego arcade fundamental basado en lógica electrónica sin CPU, donde dos palas y una pelota representan los inicios más básicos del videojuego.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="it">
+			<text>Questa figurina immagina una mascotte originale per DICE, con un personaggio dalla testa a forma di dado che richiama il nome dell’emulatore più che un eroe ufficiale. Accompagna Pong, gioco arcade fondamentale basato su logica elettronica senza CPU, dove due racchette e una palla rappresentano gli inizi più essenziali del videogioco.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="de">
+			<text>Diese Figur stellt ein originales Maskottchen für DICE dar, mit einer Figur mit Würfelkopf, die eher auf den Namen des Emulators als auf eine offizielle Figur anspielt. Sie begleitet Pong, ein grundlegendes Arcade-Spiel auf Basis einfacher Elektronik ohne CPU, bei dem zwei Schläger und ein Ball die rohesten Anfänge des Videospiels darstellen.</text>
+		</text>
+		<text name="figurine_desc" extra="true" lang="pt">
+			<text>Esta figura imagina uma mascote original para o DICE, com um personagem de cabeça em forma de dado que remete ao nome do emulador e não a um herói oficial. Ela acompanha Pong, um jogo arcade fundamental baseado em lógica eletrônica sem CPU, onde duas raquetes e uma bola representam os primórdios mais simples dos videogames.</text>
+		</text>
+
 	</view>
 </theme>

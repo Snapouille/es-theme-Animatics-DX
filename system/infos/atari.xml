@@ -17,16 +17,20 @@ originally based on: "carbon"
 <text>Atari est à l'origine une entreprise américaine fondée en 1972 par Nolan Bushnell et Ted Dabney, considérée comme pionnière et fondatrice de l'industrie du jeu vidéo, devenue française en 2003 par son rachat par Infogrames. Elle est spécialisée dans le développement des jeux vidéo et fabrique des bornes d'arcade, des consoles de jeux et des ordinateurs personnels des années 1970 à 1990.</text>
 </text>
 
-<text name="system_description" extra="true" lang="de">
-<text>Atari ist ursprünglich ein 1972 von Nolan Bushnell und Ted Dabney gegründetes US-amerikanisches Unternehmen, das als Pionier und Begründer der Videospielindustrie gilt und 2003 durch die Übernahme durch Infogrames französisch wurde. Das Unternehmen ist auf die Entwicklung von Videospielen spezialisiert und stellt Arcade-Terminals, Spielkonsolen und Personalcomputer aus den 1970er bis 1990er Jahren her.</text>
-</text>
-
 <text name="system_description" extra="true" lang="es">
 <text>Atari es una empresa estadounidense fundada en 1972 por Nolan Bushnell y Ted Dabney, considerado pionero y fundador de la industria del videojuego. Está especializada en el desarrollo de videojuegos y fabrica terminales arcade, videoconsolas y ordenadores personales desde los años 70 hasta los 90.</text>
 </text>
 
 <text name="system_description" extra="true" lang="it">
 <text>Atari è un'azienda americana fondata nel 1972 da Nolan Bushnell e Ted Dabney, considerato un pioniere e fondatore dell'industria dei videogiochi. È specializzata nello sviluppo di videogiochi e produce terminali arcade, console di gioco e personal computer dagli anni '70 agli anni '90.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Atari ist ursprünglich ein 1972 von Nolan Bushnell und Ted Dabney gegründetes US-amerikanisches Unternehmen, das als Pionier und Begründer der Videospielindustrie gilt und 2003 durch die Übernahme durch Infogrames französisch wurde. Das Unternehmen ist auf die Entwicklung von Videospielen spezialisiert und stellt Arcade-Terminals, Spielkonsolen und Personalcomputer aus den 1970er bis 1990er Jahren her.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Atari foi originalmente uma empresa americana fundada em 1972 por Nolan Bushnell e Ted Dabney, considerado um pioneiro e fundador da indústria dos jogos de vídeo. É especializada no desenvolvimento de jogos de vídeo e fabrica terminais de arcade, consolas de jogos e computadores pessoais desde os anos 70 até aos anos 90.</text>
 </text>
 
 <text name="system_description" extra="true" lang="ja">
@@ -41,13 +45,42 @@ originally based on: "carbon"
 <text>Atari to pierwotnie amerykańska firma założona w 1972 roku przez Nolana Bushnella i Teda Dabneya, uważana za pioniera i założyciela branży gier wideo. Specjalizuje się w rozwoju gier wideo i produkuje terminale arcade, konsole do gier i komputery osobiste od lat 70. do 90.</text>
 </text>
 
-<text name="system_description" extra="true" lang="pt">
-<text>Atari foi originalmente uma empresa americana fundada em 1972 por Nolan Bushnell e Ted Dabney, considerado um pioneiro e fundador da indústria dos jogos de vídeo. É especializada no desenvolvimento de jogos de vídeo e fabrica terminais de arcade, consolas de jogos e computadores pessoais desde os anos 70 até aos anos 90.</text>
-</text>
-
 <text name="system_description" extra="true" lang="ru">
 <text>Atari изначально была американской компанией, основанной в 1972 году Ноланом Бушнеллом и Тедом Дабни, которые считаются пионерами и основателями индустрии видеоигр. Она специализируется на разработке видеоигр и производит аркадные терминалы, игровые приставки и персональные компьютеры с 1970-х по 1990-е годы.</text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Centipede (1981)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Centipede places the player at the bottom of a mushroom field invaded by a centipede moving downward in zigzags. Fast, readable and instantly tense, the game relies on precise shots, space control and the gradual destruction of enemy segments, while spiders, scorpions and fleas disrupt the rhythm.
+Fun fact: Centipede is one of Atari's rare arcade classics co-directed by a woman, Dona Bailey.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Centipede place le joueur au bas d’un champ de champignons envahi par un mille-pattes qui descend en zigzag vers lui. Rapide, lisible et immédiatement tendu, le jeu repose sur des tirs précis, la gestion de l’espace et l’élimination progressive des segments ennemis, tout en ajoutant araignées, scorpions et puces pour perturber le rythme.
+Fun fact : Centipede est l’un des rares grands classiques arcade d’Atari codirigés par une femme, Dona Bailey.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Centipede sitúa al jugador en la parte baja de un campo de setas invadido por un ciempiés que desciende en zigzag. Rápido, claro y tenso desde el primer instante, el juego se basa en disparos precisos, control del espacio y destrucción gradual de segmentos enemigos, mientras arañas, escorpiones y pulgas alteran el ritmo.
+Dato curioso: Centipede es uno de los pocos grandes clásicos arcade de Atari codirigidos por una mujer, Dona Bailey.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Centipede mette il giocatore nella parte bassa di un campo di funghi invaso da un millepiedi che scende a zigzag. Rapido, leggibile e subito teso, il gioco si basa su colpi precisi, controllo dello spazio e distruzione graduale dei segmenti nemici, mentre ragni, scorpioni e pulci spezzano il ritmo.
+Curiosità: Centipede è uno dei pochi grandi classici arcade Atari codiretti da una donna, Dona Bailey.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Centipede setzt den Spieler an den unteren Rand eines Pilzfeldes, in dem ein Tausendfüßler im Zickzack nach unten kriecht. Schnell, klar lesbar und sofort angespannt, lebt das Spiel von präzisen Schüssen, Raumkontrolle und dem schrittweisen Zerstören feindlicher Segmente, während Spinnen, Skorpione und Flöhe den Rhythmus stören.
+Interessante Tatsache: Centipede ist einer der wenigen großen Atari-Arcade-Klassiker, die von einer Frau mitgeleitet wurden: Dona Bailey.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Centipede coloca o jogador na parte inferior de um campo de cogumelos invadido por uma centopeia que desce em zigue-zague. Rápido, claro e tenso desde o início, o jogo aposta em disparos precisos, controlo do espaço e destruição gradual dos segmentos inimigos, enquanto aranhas, escorpiões e pulgas quebram o ritmo.
+Curiosidade: Centipede é um dos poucos grandes clássicos arcade da Atari codirigidos por uma mulher, Dona Bailey.</text>
+</text>
 </view>
 </theme>

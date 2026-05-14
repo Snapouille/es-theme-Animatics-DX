@@ -18,5 +18,45 @@ originally based on: "carbon"
 </text>
 
 
+<text name="system_description" extra="true" lang="es">
+<text>GemRB (Game Engine Made with Ruby and Bean) es un motor de juego de código abierto diseñado para ejecutar los clásicos Baldur's Gate, Icewind Dale y Planescape: Torment en sistemas modernos. Permite jugar a estos RPG con mejoras gráficas y de rendimiento, conservando la experiencia y la jugabilidad originales. El motor permite usar mods para personalizar los juegos.</text>
+</text>
+<text name="system_description" extra="true" lang="it">
+<text>GemRB (Game Engine Made with Ruby and Bean) è un motore di gioco open source progettato per eseguire i classici Baldur's Gate, Icewind Dale e Planescape: Torment su sistemi moderni. Permette di giocare a questi RPG con miglioramenti grafici e prestazionali, mantenendo l'esperienza e il gameplay originali. Il motore consente il modding per personalizzare i giochi.</text>
+</text>
+<text name="system_description" extra="true" lang="de">
+<text>GemRB (Game Engine Made with Ruby and Bean) ist eine Open-Source-Spielengine, die dafür entwickelt wurde, Klassiker wie Baldur's Gate, Icewind Dale und Planescape: Torment auf modernen Systemen auszuführen. Sie ermöglicht diese RPGs mit Grafik- und Leistungsverbesserungen, während das ursprüngliche Erlebnis und Gameplay erhalten bleiben. Die Engine unterstützt Modding zur Anpassung der Spiele.</text>
+</text>
+<text name="system_description" extra="true" lang="pt">
+<text>GemRB (Game Engine Made with Ruby and Bean) é um motor de jogo de código aberto criado para executar os clássicos Baldur's Gate, Icewind Dale e Planescape: Torment em sistemas modernos. Ele permite jogar estes RPGs com melhorias gráficas e de desempenho, mantendo a experiência e a jogabilidade originais. O motor permite modding para personalizar os jogos.</text>
+</text>
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Baldur's Gate (1998)&#160;&#160;</text>
+</text>
+<text name="figurine_desc" extra="true">
+<text>The Beholder is a floating aberration with a central eye and several eyestalks able to project deadly rays with varied effects. Unpredictable and feared, it controls its surroundings with terrifying precision, cancelling magic or disintegrating enemies. It represents an iconic opponent from worlds inspired by Dungeons and Dragons.
+Fun fact: Each secondary eye has a different power, such as petrification, sleep or disintegration, making it a highly dangerous enemy.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le Beholder est une créature flottante, dotée d’un œil central et de multiples tentacules oculaires capables de projeter des rayons mortels aux effets variés. Imprévisible et redouté, il contrôle son environnement avec une précision terrifiante, annulant la magie ou désintégrant ses ennemis. Il incarne un adversaire emblématique des univers inspirés de Donjons et Dragons.
+Fun fact : Chaque œil secondaire du Beholder possède un pouvoir différent, comme la pétrification, le sommeil ou la désintégration, ce qui en fait un ennemi extrêmement dangereux.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="es">
+<text>El Beholder es una criatura aberrante flotante, con un ojo central y varios tentáculos oculares capaces de lanzar rayos mortales de efectos variados. Imprevisible y temido, controla su entorno con una precisión aterradora, anulando la magia o desintegrando enemigos. Encarna a un adversario emblemático de los mundos inspirados en Dragones y Mazmorras.
+Dato curioso: Cada ojo secundario tiene un poder diferente, como petrificación, sueño o desintegración, lo que lo convierte en un enemigo muy peligroso.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="it">
+<text>Il Beholder è una creatura aberrante fluttuante, dotata di un occhio centrale e di vari peduncoli oculari capaci di lanciare raggi mortali dagli effetti diversi. Imprevedibile e temuto, controlla l’ambiente con precisione terrificante, annullando la magia o disintegrando i nemici. Rappresenta un avversario iconico dei mondi ispirati a Dungeons and Dragons.
+Curiosità: Ogni occhio secondario possiede un potere diverso, come pietrificazione, sonno o disintegrazione, rendendolo molto pericoloso.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="de">
+<text>Der Beholder ist eine schwebende aberrante Kreatur mit einem zentralen Auge und mehreren Augenstielen, die tödliche Strahlen mit unterschiedlichen Effekten abfeuern können. Unberechenbar und gefürchtet, kontrolliert er seine Umgebung mit erschreckender Präzision, hebt Magie auf oder zerfällt seine Feinde. Steht er für einen ikonischen Gegner aus von Dungeons and Dragons inspirierten Welten.
+Interessante Tatsache: Jedes Nebenauge besitzt eine andere Kraft, etwa Versteinerung, Schlaf oder Desintegration, was ihn extrem gefährlich macht.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="pt">
+<text>O Beholder é uma criatura aberrante flutuante, com um olho central e vários tentáculos oculares capazes de lançar raios mortais com efeitos variados. Imprevisível e temido, controla o ambiente com precisão assustadora, anulando magia ou desintegrando inimigos. Representa um adversário emblemático dos mundos inspirados em Dungeons and Dragons.
+Curiosidade: Cada olho secundário possui um poder diferente, como petrificação, sono ou desintegração, tornando-o um inimigo extremamente perigoso.</text>
+</text>
+
 </view>
 </theme>

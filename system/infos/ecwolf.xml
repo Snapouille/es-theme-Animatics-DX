@@ -49,5 +49,39 @@ originally based on: "carbon"
 <text>ECWolf - это порт движка Wolfenstein 3D на базе Wolf4SDL. Он сочетает в себе оригинальный движок Wolfenstein 3D с пользовательским опытом ZDoom, создавая наиболее дружественный к пользователю и автору модов порт исходного кода Wolf3D.</text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+            <text>&#160;&#160;Wolfenstein 3D (1992)&#160;&#160;</text>
+        </text>
+
+        <text name="figurine_desc" extra="true">
+            <text>Wolfenstein 3D is a first-person shooter where the player controls B.J. Blazkowicz escaping an enemy fortress. The gameplay focuses on fast movement through maze-like corridors, eliminating enemies and finding secrets, setting the foundation for the genre.
+Fun fact: Wolfenstein 3D is widely regarded as one of the pioneers of the modern FPS, paving the way for games like Doom released the following year.</text>
+        </text>
+
+        <text name="figurine_desc" extra="true" lang="fr">
+            <text>Wolfenstein 3D est un jeu de tir à la première personne où le joueur incarne B.J. Blazkowicz tentant de s’échapper d’une forteresse ennemie. Le gameplay repose sur des déplacements rapides dans des couloirs labyrinthiques, l’élimination d’ennemis et la recherche de secrets, avec une action directe qui a posé les bases du genre.
+Fun fact : Wolfenstein 3D est considéré comme l’un des pionniers du FPS moderne, popularisant une formule ensuite perfectionnée par Doom l’année suivante.</text>
+        </text>
+
+        <text name="figurine_desc" extra="true" lang="es">
+            <text>Wolfenstein 3D es un juego de disparos en primera persona donde el jugador controla a B.J. Blazkowicz escapando de una fortaleza enemiga. El juego se basa en movimiento rápido, combate y secretos.
+Dato curioso: Es uno de los pioneros del FPS moderno.</text>
+        </text>
+
+        <text name="figurine_desc" extra="true" lang="it">
+            <text>Wolfenstein 3D è uno sparatutto in prima persona in cui il giocatore controlla B.J. Blazkowicz mentre fugge da una fortezza nemica. Il gioco è basato su movimento rapido e combattimenti.
+Curiosità: È uno dei pionieri del genere FPS.</text>
+        </text>
+
+        <text name="figurine_desc" extra="true" lang="de">
+            <text>Wolfenstein 3D ist ein Ego-Shooter, in dem der Spieler B.J. Blazkowicz steuert und aus einer Festung entkommt. Schnelles Gameplay und Action prägen das Spiel.
+Interessante Tatsache: Es gilt als einer der Begründer des modernen FPS.</text>
+        </text>
+
+        <text name="figurine_desc" extra="true" lang="pt">
+            <text>Wolfenstein 3D é um jogo de tiro na primeira pessoa onde o jogador controla B.J. Blazkowicz escapando de uma fortaleza inimiga. O jogo foca-se em ação rápida.
+Curiosidade: É considerado um dos pioneiros do género FPS.</text>
+        </text>
+
 </view>
 </theme>

@@ -17,16 +17,16 @@ originally based on: "carbon"
 <text>Liste de jeux automatique. Vous avez la gâchette qui démange ? Alors vous êtes au bon endroit pour satisfaire vos envies !</text>
 </text>
 
-<text name="system_description" extra="true" lang="de">
-<text>Automatische Liste von Spielen. Juckt es Sie in den Fingern, den Abzug zu betätigen? Dann sind Sie hier genau richtig, um Ihre Lust zu befriedigen!</text>
-</text>
-
 <text name="system_description" extra="true" lang="es">
 <text>Lista automática de juegos. ¿Le pica el dedo en el gatillo? Entonces ha venido al lugar adecuado para satisfacer sus ansias.</text>
 </text>
 
 <text name="system_description" extra="true" lang="it">
 <text>Elenco automatico dei giochi. Vi prude il dito del grilletto? Allora siete nel posto giusto per soddisfare le vostre voglie!</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Automatische Liste von Spielen. Juckt es Sie in den Fingern, den Abzug zu betätigen? Dann sind Sie hier genau richtig, um Ihre Lust zu befriedigen!</text>
 </text>
 
 <text name="system_description" extra="true" lang="ja">
@@ -49,6 +49,39 @@ originally based on: "carbon"
 <text>Автоматический список игр. У вас чешется палец? Тогда вы пришли в правильное место, чтобы удовлетворить свои желания!</text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Operation Wolf (1987)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Operation Wolf is a fixed-scrolling shooting game where the player advances through an enemy camp, taking down soldiers, vehicles and helicopters with a mounted machine gun. Its action relies on precision, ammo management and fast reactions against constant enemy waves, in the spirit of 1980s military action cinema.
+Fun fact: The arcade cabinet used a mounted machine-gun controller, a striking setup that helped shape later light gun shooting games.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Operation Wolf est un jeu de tir à défilement fixe où le joueur progresse dans un camp ennemi en éliminant soldats, véhicules et hélicoptères à la mitrailleuse. Son action repose sur la précision, la gestion des munitions et la rapidité face à des vagues continues, dans l’esprit du cinéma militaire des années 80.
+Fun fact : La borne utilisait une mitrailleuse montée comme contrôleur, un dispositif marquant qui a influencé de nombreux jeux lightgun.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Operation Wolf es un juego de disparos de avance fijo donde el jugador recorre un campamento enemigo eliminando soldados, vehículos y helicópteros con una ametralladora. Su acción se basa en precisión, gestión de munición y reflejos rápidos ante oleadas constantes, con aire de cine militar de los años 80.
+Dato curioso: La recreativa usaba una ametralladora montada como mando, un montaje impactante que influyó en muchos juegos lightgun.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Operation Wolf è uno sparatutto a scorrimento fisso in cui il giocatore avanza in un campo nemico eliminando soldati, veicoli ed elicotteri con una mitragliatrice. L’azione punta su precisione, gestione delle munizioni e reazioni rapide contro ondate continue, nello spirito del cinema militare anni 80.
+Curiosità: Il cabinato usava una mitragliatrice montata come controller, una soluzione d’impatto che influenzò molti giochi lightgun.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Operation Wolf ist ein Schießspiel mit festem Bildlauf, in dem der Spieler ein feindliches Lager durchquert und Soldaten, Fahrzeuge sowie Hubschrauber mit einem Maschinengewehr ausschaltet. Die Action setzt auf Präzision, Munitionskontrolle und schnelle Reaktionen gegen ständige Gegnerwellen im Stil des Militärkinos der 80er.
+Interessante Tatsache: Der Automat nutzte ein montiertes Maschinengewehr als Controller, ein prägendes Konzept für viele spätere Lightgun-Spiele.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Operation Wolf é um jogo de tiro de avanço fixo em que o jogador atravessa um campo inimigo eliminando soldados, veículos e helicópteros com uma metralhadora. A ação depende de precisão, gestão de munições e reações rápidas contra vagas contínuas, no espírito do cinema militar dos anos 80.
+Curiosidade: A máquina arcade usava uma metralhadora montada como comando, uma solução marcante que influenciou muitos jogos lightgun.</text>
+</text>
+
 </view>
 </theme>
-

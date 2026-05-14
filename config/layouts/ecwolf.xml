@@ -2,159 +2,101 @@
 
 
 <view name="gamecarousel">
+
+	<image name="figurines,shadow_figurines" extra="true">
+		<pos>0.33 0.69</pos>									
+		<pos ifHelpPrompts="false">0.33 0.74</pos>
+		<maxSize>0.12 0.24</maxSize>	
+	</image>
   
 	<image name="ecran_console" extra="static">
-		<origin>0.5 0.5</origin>									
 		<path>./../../system/pc/ecran_console.png</path>
-<size>0.4119792 0.5231481</size>									
-<pos>0.5382813 0.649537</pos>									
-									
-		<color>FFFFFF</color>
-		<flipY>false</flipY>
-		<zIndex>31</zIndex>
-		
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.4119792 0.5231481</size>									
+		<pos>0.5382813 0.649537</pos>									
+		<pos ifHelpPrompts="false">0.5382813 0.709537</pos>
 	</image>
-  
   
 	<video name="md_video">
-		<origin>0.5 0.5</origin>									
-
-<size>0.1723958 0.225</size>									
-<pos>0.5065104 0.5347222</pos>									
-
-		<zIndex>30</zIndex>
-
-	  
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.1723958 0.225</size>									
+		<pos>0.5065104 0.5347222</pos>									
+		<pos ifHelpPrompts="false">0.5065104 0.5947222</pos>
 	</video>
 	
-  
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<path>./../../art/divers/white.png</path>
-		<color>000000</color>
-		<origin>0.5 0.5</origin>
-<size>0.1723958 0.225</size>									
-<pos>0.5065104 0.5347222</pos>									
-		<zIndex>14</zIndex>
-			<storyboard event="open">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="200" mode="linear"/>
-			</storyboard>
-				
-			<storyboard event="deactivate">
-					<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
+		<size>0.1723958 0.225</size>									
+		<pos>0.5065104 0.5347222</pos>	
+		<pos ifHelpPrompts="false">0.5065104 0.5947222</pos>
 	</image>
-	
-
-
-	<text name="md_description">
-	  <pos>0.18 0.181</pos>
-	</text>
-
-
-
-	<image name="md_thumbnail">
-	  <pos>0.137 0.691</pos>
-	  <pos ifHelpPrompts="false">0.137 0.73</pos>
-	  <maxSize>0.22 0.467</maxSize>
-	</image>	
-
-
 	
 </view>   
   
   
   
-   <customView name="legendary">
- 
+<customView name="legendary">
 	
 	<image name="ecran_console" extra="static">
-			<path>./../../system/pc/ecran_console.png</path>
-			<pos>0.515 0.17</pos>
-			<scale>0.9</scale>
-			<opacity>1</opacity>
-			<color>FFFFFF</color>
-			<zIndex>31</zIndex>
+		<pos>0.509 0.18</pos>
+		<pos ifHelpPrompts="false">0.509 0.20</pos>
+		<size>0.4427083 0.525</size>
+		<scale>0.9</scale>
+		<opacity>1</opacity>
+		<color>FFFFFF</color>
+		<zIndex>31</zIndex>
+		
+		<storyboard event="open">
+			<animation property="x" to="0.554" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
 			
-				<storyboard event="open">
-					<animation property="x" to="0.545" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="x" to="0.545" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
+		<storyboard event="activate">
+				<animation property="x" to="0.554" begin="1200" duration="200" mode="linear"/>
+		</storyboard>
 			
-		</image>
+		<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</image>
   
+	<video name="md_video">
+	  <pos>0.711 0.414</pos>
+	  <pos ifHelpPrompts="false">0.711 0.434</pos>
+	  <size>0.239 0.317</size>
+	  <roundCorners>0.02</roundCorners>
+	  
+	  
+			<storyboard event="open">
+				<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+					<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	  
+	</video>
   
-		<video name="md_video">
-		  <pos>0.684 0.305</pos>
-		  <size>0.164 0.2</size>
-		  
-		  
-				<storyboard event="open">
-					<animation property="x" to="0.714" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="x" to="0.714" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
-		  
-		</video>
-  
-		<!-- fond noir de l'écran -->
-		<image name="black_bg">
-		  <pos>0.684 0.305</pos>
-		  <size>0.164 0.2</size>
-		  
-		  
-				<storyboard event="open">
-					<animation property="x" to="0.714" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="activate">
-						<animation property="x" to="0.714" begin="1200" duration="200" mode="linear"/>
-				</storyboard>
-					
-				<storyboard event="deactivate">
-						<animation property="opacity" to="0" duration="1" mode="linear"/>
-				</storyboard>
-		</image>
-  
+	<!-- fond noir de l'écran -->
+	<image name="black_bg">
+	  <pos>0.711 0.414</pos>
+	  <pos ifHelpPrompts="false">0.711 0.434</pos>
+	  <size>0.239 0.317</size>
+	  
+			<storyboard event="open">
+				<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="activate">
+					<animation property="x" to="0.756" begin="1200" duration="200" mode="linear"/>
+			</storyboard>
+				
+			<storyboard event="deactivate">
+					<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
   
   
 	<image name="md_thumbnail">
@@ -165,35 +107,23 @@
 		<zIndex>100</zIndex>
 		<roundCorners>0.01</roundCorners>
 		
-		
 		<storyboard event="open">
-                <animation property="x" to="0.418" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.419" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.32" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="activate">
-                <animation property="x" to="0.418" begin="1200" duration="200" mode="linear"/>
+                <animation property="x" to="0.419" begin="1200" duration="200" mode="linear"/>
 				<animation property="y" to="0.32" begin="1200" duration="200" mode="linear"/>
 				<animation property="scale" to="1" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 			
 		<storyboard event="deactivate">
-			   <animation property="opacity" to="0" duration="1" mode="linear"/>
+			    <animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
-		
-		
-		
-		
 	</image>
 	
-	
-	
-	
-		
-   </view>
-  
-  
-  
-</theme>
+   </customView>   
+   
+   </theme>

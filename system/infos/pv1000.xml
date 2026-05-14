@@ -49,5 +49,39 @@ originally based on: "carbon"
 <text>Casio PV-1000 - игровая приставка, продававшаяся только в Японии. Она была снята с производства менее чем через год после выпуска. Она работает на микропроцессоре Z80A, имеет 2 КБ оперативной памяти, из которых 1 КБ отводится под генератор символов. Разрешение экрана составляет 256 × 192 пикселей в восьми цветах.</text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+	<text>&#160;&#160;Pooyan (1983)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+	<text>Pooyan features a family of pigs in this arcade conversion, positioned on a moving platform and tasked with defending themselves against wolves by shooting arrows and using various objects. Despite their simple appearance, they represent gameplay focused on precision and timing.
+Fun fact: Pooyan combines shooting, managing enemies at different heights, and using items like meat to disrupt wolves, offering a variety of actions that was rare for its time.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+	<text>Les cochons de Pooyan sont les protagonistes de cette conversion d’arcade, alignés sur une plateforme mobile et chargés de repousser des loups en tirant des flèches et en utilisant différents objets. Malgré leur apparence simple, ils incarnent un gameplay basé sur la précision et le timing.
+Fun fact : Pooyan alterne tir, gestion des ennemis en hauteur et utilisation d’objets comme la viande pour perturber les loups, offrant une variété d’actions rare pour l’époque.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+	<text>Los cerdos de Pooyan son los protagonistas de esta conversión arcade, alineados en una plataforma móvil y encargados de defenderse de los lobos disparando flechas y utilizando distintos objetos. A pesar de su apariencia simple, representan un gameplay basado en la precisión y el ritmo.
+Dato curioso: Pooyan combina disparos, gestión de enemigos en altura y uso de objetos como la carne para perturbar a los lobos, ofreciendo una variedad de acciones poco común en la época.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+	<text>I maiali di Pooyan sono i protagonisti di questa conversione arcade, posizionati su una piattaforma mobile e incaricati di respingere i lupi sparando frecce e utilizzando vari oggetti. Nonostante l’aspetto semplice, rappresentano un gameplay basato su precisione e tempismo.
+Curiosità: Pooyan combina tiro, gestione dei nemici in altezza e uso di oggetti come la carne per disturbare i lupi, offrendo una varietà di azioni rara per l’epoca.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+	<text>Die Schweine aus Pooyan sind die Protagonisten dieser Arcade-Umsetzung und befinden sich auf einer beweglichen Plattform, von der aus sie Wölfe mit Pfeilen und verschiedenen Objekten bekämpfen. Trotz ihres einfachen Designs steht das Gameplay ganz im Zeichen von Präzision und Timing.
+Interessante Tatsache: Pooyan kombiniert Schießen, das Management von Gegnern in unterschiedlichen Höhen und den Einsatz von Objekten wie Fleisch, was für die damalige Zeit eine ungewöhnliche Spielvielfalt bot.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+	<text>Os porcos de Pooyan são os protagonistas desta conversão de arcade, posicionados em uma plataforma móvel e encarregados de se defender dos lobos disparando flechas e utilizando diversos objetos. Apesar da aparência simples, o gameplay é baseado em precisão e tempo.
+Curiosidade: Pooyan combina disparos, gestão de inimigos em diferentes alturas e uso de itens como carne para atrapalhar os lobos, oferecendo uma variedade de ações incomum para a época.</text>
+</text>
+
 </view>
 </theme>

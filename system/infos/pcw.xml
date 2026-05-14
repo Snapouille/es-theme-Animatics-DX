@@ -1,0 +1,88 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Amstrad PCW is a family of computers launched by Amstrad in 1985 mainly designed for word processing and home office use. Sold with a monochrome monitor and printer, it became very popular in Europe thanks to its affordable price and ready-to-use concept. Despite its professional orientation, the PCW also received many games and video game adaptations on floppy disks.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>L’Amstrad PCW est une gamme d’ordinateurs lancée par Amstrad en 1985 principalement destinée au traitement de texte et à la bureautique familiale. Livré avec un écran monochrome et une imprimante, il a rencontré un immense succès en Europe grâce à son prix abordable et son approche « ordinateur prêt à l’emploi ». Malgré son orientation professionnelle, le PCW a également accueilli de nombreux jeux et adaptations vidéoludiques sur disquettes.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Amstrad PCW ist eine Computerreihe, die 1985 von Amstrad eingeführt wurde und hauptsächlich für Textverarbeitung und Büroarbeiten gedacht war. Mit monochromem Monitor und Drucker ausgeliefert, wurde er dank seines günstigen Preises und seines sofort einsatzbereiten Konzepts besonders in Europa sehr erfolgreich. Trotz seiner beruflichen Ausrichtung erschienen auch zahlreiche Spiele und Videospielumsetzungen auf Diskette.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Amstrad PCW es una gama de ordenadores lanzada por Amstrad en 1985, destinada principalmente al procesamiento de textos y a la informática doméstica. Vendido con monitor monocromo e impresora, tuvo un enorme éxito en Europa gracias a su precio asequible y a su concepto listo para usar. A pesar de su orientación profesional, el PCW también recibió numerosos juegos y adaptaciones de videojuegos en disquete.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L’Amstrad PCW è una gamma di computer lanciata da Amstrad nel 1985 principalmente destinata all’elaborazione testi e all’uso domestico. Venduto con monitor monocromatico e stampante, ebbe un enorme successo in Europa grazie al prezzo accessibile e al concetto pronto all’uso. Nonostante l’orientamento professionale, il PCW accolse anche numerosi giochi e adattamenti videoludici su floppy disk.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text></text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text></text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text></text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Amstrad PCW é uma linha de computadores lançada pela Amstrad em 1985, voltada principalmente para processamento de texto e uso doméstico. Vendido com monitor monocromático e impressora, tornou-se extremamente popular na Europa graças ao preço acessível e ao conceito pronto para usar. Apesar da orientação profissional, o PCW também recebeu muitos jogos e adaptações em disquete.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text></text>
+</text>
+
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Batman (1986)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Batman throws the player into an isometric 3D adventure mixing exploration, action and puzzles. With its isometric environments, precise movement and strong 1980s atmosphere, the game became one of the most famous superhero adaptations. Its technical achievement and visual style left a strong impression on Amstrad and other 8-bit computer players.
+Fun fact: The first Batman computer adaptations were released several years before Tim Burton's movie helped make the character even more popular.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Batman plonge le joueur dans une aventure en 3D isométrique mêlant exploration, action et énigmes. Avec ses décors en vue iso, ses déplacements précis et son ambiance très marquée, le jeu fait partie des adaptations de super-héros les plus connues. Sa réalisation technique et son style visuel ont marqué de nombreux joueurs sur Amstrad et autres machines 8 bits.
+Fun fact : Les premières adaptations de Batman sur ordinateurs sont sorties plusieurs années avant le film de Tim Burton qui popularisera encore davantage le personnage.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Batman sumerge al jugador en una aventura en 3D isométrica que mezcla exploración, acción y puzles. Con sus escenarios en vista iso, movimientos precisos y una marcada atmósfera ochentera, el juego forma parte de las adaptaciones de superhéroes más conocidas. Su realización técnica y estilo visual marcaron a muchos jugadores de Amstrad y otros ordenadores de 8 bits.
+Dato curioso: Las primeras adaptaciones de Batman para ordenador aparecieron varios años antes de la película de Tim Burton que hizo al personaje aún más popular.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Batman porta il giocatore in un’avventura in 3D isometrica che mescola esplorazione, azione ed enigmi. Con ambientazioni in vista iso, movimenti precisi e una forte atmosfera anni ’80, il gioco è diventato una delle più celebri trasposizioni di supereroi. La realizzazione tecnica e lo stile visivo hanno colpito molti giocatori su Amstrad e altri computer a 8 bit.
+Curiosità: Le prime versioni videoludiche di Batman per computer uscirono diversi anni prima del film di Tim Burton che rese il personaggio ancora più popolare.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Batman schickt den Spieler in ein isometrisches 3D-Abenteuer voller Erkundung, Action und Rätsel. Mit seinen Iso-Ansichten, präzisen Bewegungen und der typischen Atmosphäre der 80er Jahre zählt das Spiel zu den bekanntesten Superhelden-Adaptionen. Seine technische Umsetzung und sein visueller Stil beeindruckten viele Spieler auf Amstrad- und anderen 8-Bit-Computern.
+Interessante Tatsache: Die ersten Batman-Computerspiele erschienen mehrere Jahre vor dem Film von Tim Burton, der die Figur noch populärer machte.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Batman leva o jogador para uma aventura em 3D isométrico misturando exploração, ação e enigmas. Com cenários em vista iso, movimentos precisos e uma atmosfera marcante dos anos 80, o jogo tornou-se uma das adaptações de super-heróis mais conhecidas. Sua realização técnica e estilo visual marcaram muitos jogadores de Amstrad e outros computadores de 8 bits.
+Curiosidade: As primeiras adaptações de Batman para computadores foram lançadas vários anos antes do filme de Tim Burton tornar o personagem ainda mais popular.</text>
+</text>
+
+</view>
+</theme>

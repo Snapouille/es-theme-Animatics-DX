@@ -1,0 +1,88 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The SC-3000 is an 8-bit microcomputer launched by Sega in 1983, alongside the SG-1000, with which it shares much of its architecture. Equipped with an integrated keyboard and designed for family and educational use, it could run cartridges, tapes and several external peripherals. Particularly appreciated in Japan and Australia, it remains one of Sega’s earliest attempts to enter the home computer market.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le SC-3000 est un micro-ordinateur 8 bits lancé par Sega en 1983, en même temps que la SG-1000 avec laquelle il partage une grande partie de son architecture. Doté d’un clavier intégré et pensé pour un usage familial et éducatif, il pouvait utiliser des cartouches, des cassettes ainsi que plusieurs périphériques externes. Très populaire au Japon et en Australie, il représente aujourd’hui l’une des premières tentatives de Sega dans le domaine de l’informatique domestique.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der SC-3000 ist ein 8-Bit-Mikrocomputer, den Sega 1983 parallel zur SG-1000 veröffentlichte und der einen großen Teil ihrer Architektur teilt. Mit integrierter Tastatur und einem klaren Fokus auf Familie und Bildung konnte er Module, Kassetten und mehrere externe Peripheriegeräte nutzen. Besonders in Japan und Australien beliebt, gilt er heute als einer von Segas frühen Schritten in die Welt der Heimcomputer.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El SC-3000 es un microordenador de 8 bits lanzado por Sega en 1983, al mismo tiempo que la SG-1000, con la que comparte gran parte de su arquitectura. Con teclado integrado y pensado para un uso familiar y educativo, podía utilizar cartuchos, cintas y varios periféricos externos. Muy popular en Japón y Australia, hoy representa uno de los primeros intentos de Sega en el campo de la informática doméstica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Lo SC-3000 è un microcomputer a 8 bit lanciato da Sega nel 1983, insieme alla SG-1000, con cui condivide gran parte dell’architettura. Dotato di tastiera integrata e pensato per un uso familiare ed educativo, poteva utilizzare cartucce, cassette e diverse periferiche esterne. Molto apprezzato in Giappone e in Australia, rappresenta oggi uno dei primi tentativi di Sega nel campo dell’informatica domestica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>SC-3000は、セガが1983年にSG-1000と同時期に発売した8ビットの家庭用マイクロコンピューターです。SG-1000と多くの設計を共有しながら、内蔵キーボードを備え、家庭や教育向けの用途を意識して作られました。カートリッジやカセット、外部周辺機器に対応し、セガが家庭用コンピューター分野へ踏み出した初期の一台として知られています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De SC-3000 is een 8-bit microcomputer die Sega in 1983 uitbracht, naast de SG-1000 waarmee hij een groot deel van zijn architectuur deelt. Met een ingebouwd toetsenbord en een duidelijke focus op gezins- en educatief gebruik kon hij cartridges, cassettes en verschillende externe randapparaten gebruiken. Vooral in Japan en Australië werd hij gewaardeerd, en vandaag geldt hij als een van Sega’s eerste stappen in de wereld van thuiscomputers.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>SC-3000 to 8-bitowy mikrokomputer wydany przez Segę w 1983 roku, równolegle z SG-1000, z którym dzieli dużą część architektury. Wyposażony w zintegrowaną klawiaturę i pomyślany do użytku rodzinnego oraz edukacyjnego, obsługiwał kartridże, kasety i różne urządzenia zewnętrzne. Szczególnie popularny w Japonii i Australii, pozostaje dziś jedną z pierwszych prób Segi na rynku domowych komputerów.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O SC-3000 é um microcomputador de 8 bits lançado pela Sega em 1983, ao lado do SG-1000, com o qual compartilha grande parte de sua arquitetura. Com teclado integrado e pensado para uso familiar e educativo, podia utilizar cartuchos, fitas e vários periféricos externos. Bastante popular no Japão e na Austrália, hoje representa uma das primeiras tentativas da Sega no campo da informática doméstica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>SC-3000 — это 8-битный микрокомпьютер, выпущенный Sega в 1983 году одновременно с SG-1000, с которой он разделял значительную часть архитектуры. Оснащенный встроенной клавиатурой и ориентированный на семейное и образовательное использование, он поддерживал картриджи, кассеты и разные внешние устройства. Особенно заметный в Японии и Австралии, он стал одной из первых попыток Sega выйти на рынок домашних компьютеров.</text>
+</text>
+
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Hustle Chumy (1984)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Chumy the mouse runs through mazes filled with traps and enemies in a colorful action game typical of the mid-1980s. With his round, expressive look, this figurine recalls Sega’s early mascot-like characters before Alex Kidd or Sonic became familiar names. His simple but effective world mixes exploration, collectible items and quick movement through arcade-inspired stages.
+Fun fact: Japanese illustrations sometimes show Chumy with a noticeably different design, which can still confuse retro collectors today.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Chumy la souris traverse des labyrinthes remplis de pièges et d’ennemis dans un jeu d’action coloré. Avec son apparence ronde et expressive, cette figurine rappelle les premières mascottes créées par Sega avant l’arrivée d’Alex Kidd ou Sonic. Son univers simple mais efficace mélange exploration, objets à récupérer et déplacements rapides dans des niveaux inspirés de l'arcade.
+Fun fact : Les illustrations japonaises montrent parfois un Chumy assez différent, ce qui porte encore à confusion chez les collectionneurs.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Chumy el ratón recorre laberintos llenos de trampas y enemigos en un juego de acción colorido típico de mediados de los años 80. Con su aspecto redondo y expresivo, esta figura recuerda a las primeras mascotas creadas por Sega antes de la llegada de Alex Kidd o Sonic. Su universo sencillo pero eficaz mezcla exploración, objetos por recoger y movimientos rápidos en escenarios inspirados en los arcade.
+Dato curioso: Las ilustraciones japonesas muestran a veces un Chumy bastante diferente, algo que aún puede confundir a los coleccionistas retro.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Chumy il topo attraversa labirinti pieni di trappole e nemici in un gioco d’azione colorato tipico della metà degli anni 80. Con il suo aspetto rotondo ed espressivo, questa statuetta ricorda le prime mascotte create da Sega prima dell’arrivo di Alex Kidd o Sonic. Il suo mondo semplice ma efficace unisce esplorazione, oggetti da raccogliere e movimenti rapidi in livelli ispirati agli arcade.
+Curiosità: Le illustrazioni giapponesi mostrano a volte un Chumy piuttosto diverso, dettaglio che può ancora confondere i collezionisti retro.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Chumy die Maus läuft durch Labyrinthe voller Fallen und Gegner in einem farbenfrohen Actionspiel, typisch für die Mitte der 80er Jahre. Mit seinem runden und ausdrucksstarken Aussehen erinnert diese Figur an Segas frühe Maskottchen vor Alex Kidd oder Sonic. Seine einfache, aber wirkungsvolle Welt verbindet Erkundung, sammelbare Objekte und schnelle Bewegungen in arcade-inspirierten Leveln.
+Interessante Tatsache: Japanische Illustrationen zeigen Chumy manchmal deutlich anders, was Retro-Sammler bis heute verwirren kann.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Chumy, o rato, atravessa labirintos cheios de armadilhas e inimigos em um jogo de ação colorido típico de meados dos anos 80. Com seu visual redondo e expressivo, esta figura lembra as primeiras mascotes criadas pela Sega antes da chegada de Alex Kidd ou Sonic. Seu universo simples, mas eficiente, mistura exploração, itens para coletar e movimentos rápidos em fases inspiradas nos arcades.
+Curiosidade: As ilustrações japonesas às vezes mostram um Chumy bem diferente, detalhe que ainda pode confundir colecionadores retrô.</text>
+</text>
+
+</view>
+</theme>

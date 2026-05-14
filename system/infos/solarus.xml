@@ -49,5 +49,39 @@ originally based on: "carbon"
 <text>Solarus - это кроссплатформенный игровой движок, специализирующийся на 2D-графике и жанре Action-RPG. Он выпускается под свободной лицензией с открытым исходным кодом. Изначально он был создан для устранения недостатков программы RPG Maker.</text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;The Legend of Zelda: Mystery of Solarus DX (2011)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Link appears here in a style close to the NES and Game Boy episodes, with a top-down view and exploration mechanics faithful to the series' origins. The game offers a full adventure mixing dungeons, puzzles and combat, using the Solarus engine to recreate the spirit of early Zelda in a modernized and fluid version.
+Fun fact: Mystery of Solarus DX is a highly accomplished French fan game, often seen as one of the unofficial projects closest to the quality of the official episodes.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Link apparaît ici dans un style proche des épisodes NES et Game Boy, avec une vue de dessus et des mécaniques d’exploration fidèles aux origines de la série. Le jeu propose une aventure complète mêlant donjons, énigmes et combats, en s’appuyant sur le moteur Solarus pour recréer l’esprit des premiers Zelda dans une version modernisée et fluide.
+Fun fact : Mystery of Solarus DX est un jeu amateur français très abouti, souvent considéré comme l’un des projets non officiels les plus proches de la qualité des épisodes officiels.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Link aparece aquí con un estilo cercano a los episodios de NES y Game Boy, con vista cenital y mecánicas de exploración fieles a los orígenes de la serie. El juego ofrece una aventura completa con mazmorras, puzles y combates, usando el motor Solarus para recrear el espíritu de los primeros Zelda.
+Dato curioso: Mystery of Solarus DX es un juego amateur francés muy logrado, a menudo visto como uno de los proyectos no oficiales más cercanos a la calidad de los episodios oficiales.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Link appare qui in uno stile vicino agli episodi NES e Game Boy, con visuale dall’alto e meccaniche di esplorazione fedeli alle origini della serie. Il gioco propone un’avventura completa con dungeon, enigmi e combattimenti, usando il motore Solarus per ricreare lo spirito dei primi Zelda.
+Curiosità: Mystery of Solarus DX è un fan game francese molto curato, spesso considerato uno dei progetti non ufficiali più vicini alla qualità degli episodi ufficiali.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Link erscheint hier in einem Stil nahe an den NES- und Game-Boy-Episoden, mit Draufsicht und Erkundungsmechaniken, die den Ursprüngen der Serie treu bleiben. Das Spiel bietet ein komplettes Abenteuer mit Dungeons, Rätseln und Kämpfen und nutzt die Solarus-Engine, um den Geist früher Zelda-Spiele neu zu schaffen.
+Interessante Tatsache: Mystery of Solarus DX ist ein sehr ausgereiftes französisches Fan-Spiel und gilt oft als eines der inoffiziellen Projekte, die den offiziellen Episoden am nächsten kommen.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Link surge aqui num estilo próximo dos episódios de NES e Game Boy, com vista de cima e mecânicas de exploração fiéis às origens da série. O jogo oferece uma aventura completa com masmorras, enigmas e combates, usando o motor Solarus para recriar o espírito dos primeiros Zelda.
+Curiosidade: Mystery of Solarus DX é um jogo amador francês muito bem conseguido, frequentemente visto como um dos projetos não oficiais mais próximos da qualidade dos episódios oficiais.</text>
+</text>
+
 </view>
 </theme>

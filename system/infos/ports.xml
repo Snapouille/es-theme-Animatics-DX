@@ -49,5 +49,41 @@ originally based on: "carbon"
 <text>Портирование - это термин, используемый, когда видеоигра, разработанная для запуска на одной платформе, будь то аркада, игровая консоль или персональный компьютер, преобразуется для запуска на другой платформе.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Craft (2011)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Craft is a fan-made port inspired by Minecraft, built around open worlds made of blocks to explore, mine and reshape freely. The player finds the basic sandbox loop of gathering resources and building, in a simplified version adapted to alternative systems and independent projects.
+Fun fact: Many Craft-style ports were made by hobbyists on limited machines, each reworking Minecraft’s idea around its own technical limits.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Craft est un portage amateur inspiré de Minecraft, reprenant son principe de monde ouvert basé sur des blocs à explorer, miner et construire librement. Le joueur y retrouve les bases du sandbox, entre collecte de ressources et création, dans une version simplifiée adaptée à des systèmes alternatifs et des projets indépendants.
+Fun fact : De nombreux portages de type Craft ont été développés par des amateurs sur des machines limitées, chacun adaptant le concept avec ses propres contraintes techniques.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Craft es un port amateur inspirado en Minecraft, que retoma su idea de mundo abierto basado en bloques para explorar, minar y construir libremente. El jugador encuentra las bases del sandbox, entre recolección de recursos y creación, en una versión simplificada adaptada a sistemas alternativos y proyectos independientes.
+Dato curioso: Muchos ports de tipo Craft fueron creados por aficionados en máquinas limitadas, adaptando la idea de Minecraft a sus propias restricciones técnicas.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Craft è un port amatoriale ispirato a Minecraft, basato su un mondo aperto fatto di blocchi da esplorare, scavare e costruire liberamente. Il giocatore ritrova le basi del sandbox, tra raccolta di risorse e creazione, in una versione semplificata per sistemi alternativi e progetti indipendenti.
+Curiosità: Molti port in stile Craft sono stati creati da appassionati su macchine limitate, adattando l’idea di Minecraft ai propri vincoli tecnici.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Craft ist eine Fan-Portierung, inspiriert von Minecraft, mit einer offenen Blockwelt zum Erkunden, Abbauen und freien Bauen. Der Spieler findet die Grundlagen des Sandbox-Prinzips wieder, zwischen Ressourcensammeln und Gestaltung, in einer vereinfachten Version für alternative Systeme und unabhängige Projekte.
+Interessante Tatsache: Viele Craft-artige Portierungen entstanden durch Hobbyentwickler auf begrenzter Hardware und passten Minecrafts Idee an eigene technische Grenzen an.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Craft é um port amador inspirado em Minecraft, baseado num mundo aberto de blocos para explorar, minerar e construir livremente. O jogador encontra as bases do sandbox, entre recolha de recursos e criação, numa versão simplificada adaptada a sistemas alternativos e projetos independentes.
+Curiosidade: Muitos ports do tipo Craft foram criados por amadores em máquinas limitadas, adaptando a ideia de Minecraft às suas próprias restrições técnicas.</text>
+</text>
+
+
 </view>
 </theme>

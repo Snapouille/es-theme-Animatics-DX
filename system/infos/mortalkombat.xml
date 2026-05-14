@@ -4,19 +4,53 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
-
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
-
 <text name="system_description" extra="true">
 <text>Mortal Kombat is a fighting game series created by Midway, famous for its violent confrontations and “Fatalities”. Each character has unique fighting styles and special powers, with storylines often centered on inter-dimensional tournaments. The saga is known for its realistic graphics, tactical gameplay and iconic characters. Mortal Kombat remains one of the most controversial and influential franchises in the genre.</text>
 </text>
-
 <text name="system_description" extra="true" lang="fr">
 <text>Mortal Kombat est une série de jeux de combat créée par Midway, célèbre pour ses affrontements violents et ses "Fatalities". Chaque personnage a des styles de combat uniques et des pouvoirs spéciaux, avec des intrigues souvent centrées sur des tournois inter-dimensionnels. La saga est connue pour ses graphismes réalistes, son gameplay tactique et ses personnages iconiques. Mortal Kombat reste l'une des franchises les plus controversées et influentes du genre.</text>
 </text>
-
-
+<text name="system_description" extra="true" lang="es">
+<text>Mortal Kombat es una serie de juegos de lucha creada por Midway, famosa por sus combates violentos y sus “Fatalities”. Cada personaje cuenta con estilos de lucha únicos y poderes especiales, con historias a menudo centradas en torneos interdimensionales. La saga es conocida por sus gráficos realistas, su juego táctico y sus personajes icónicos. Mortal Kombat sigue siendo una de las franquicias más controvertidas e influyentes del género.</text>
+</text>
+<text name="system_description" extra="true" lang="it">
+<text>Mortal Kombat è una serie di giochi di combattimento creata da Midway, famosa per gli scontri violenti e le “Fatalities”. Ogni personaggio ha stili di lotta unici e poteri speciali, con trame spesso incentrate su tornei interdimensionali. La saga è nota per la grafica realistica, il gameplay tattico e i personaggi iconici. Mortal Kombat resta una delle serie più controverse e influenti del genere.</text>
+</text>
+<text name="system_description" extra="true" lang="de">
+<text>Mortal Kombat ist eine von Midway entwickelte Kampfspielreihe, bekannt für brutale Duelle und ihre “Fatalities”. Jede Figur besitzt eigene Kampfstile und Spezialkräfte, während die Geschichten oft um interdimensionale Turniere kreisen. Die Reihe ist für realistische Grafik, taktisches Gameplay und ikonische Charaktere bekannt. Mortal Kombat bleibt eine der umstrittensten und einflussreichsten Serien des Genres.</text>
+</text>
+<text name="system_description" extra="true" lang="pt">
+<text>Mortal Kombat é uma série de jogos de luta criada pela Midway, famosa pelos confrontos violentos e pelos “Fatalities”. Cada personagem tem estilos de combate únicos e poderes especiais, com histórias muitas vezes centradas em torneios interdimensionais. A saga é conhecida pelos gráficos realistas, pela jogabilidade tática e por personagens icônicos. Mortal Kombat continua sendo uma das franquias mais controversas e influentes do gênero.</text>
+</text>
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Mortal Kombat (Arcade, 1992)&#160;&#160;</text>
+</text>
+<text name="figurine_desc" extra="true">
+<text>Scorpion is an undead ninja specter driven by vengeance after the destruction of his clan. Recognizable by his yellow mask and chained spear, he hunts his enemies without respite. His fighting style combines teleportation, quick strikes and mastery of fire, making him one of the most feared warriors in the Mortal Kombat universe.
+Fun fact: His famous “Get over here!” became iconic and was originally recorded by Ed Boon, co-creator of Mortal Kombat.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Scorpion est un ninja spectre revenu d’entre les morts, guidé par la vengeance après la destruction de son clan. Reconnaissable à son masque jaune et à son harpon enchaîné, il traque ses ennemis sans relâche. Son style de combat combine téléportation, attaques rapides et maîtrise du feu, faisant de lui l’un des combattants les plus redoutés de l’univers Mortal Kombat.
+Fun fact : Son célèbre “Get over here!” est devenu culte, enregistré à l’origine par Ed Boon, co-créateur de Mortal Kombat.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="es">
+<text>Scorpion es un ninja espectro vuelto de entre los muertos, guiado por la venganza tras la destrucción de su clan. Reconocible por su máscara amarilla y su arpón con cadena, persigue a sus enemigos sin descanso. Su estilo combina teletransporte, ataques rápidos y dominio del fuego, convirtiéndolo en uno de los luchadores más temidos de Mortal Kombat.
+Dato curioso: Su famoso “Get over here!” se volvió icónico y fue grabado originalmente por Ed Boon, cocreador de Mortal Kombat.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="it">
+<text>Scorpion è un ninja spettro tornato dalla morte, guidato dalla vendetta dopo la distruzione del suo clan. Riconoscibile dalla maschera gialla e dall’arpione con catena, bracca i nemici senza tregua. Il suo stile unisce teletrasporto, colpi rapidi e dominio del fuoco, rendendolo uno dei combattenti più temuti di Mortal Kombat.
+Curiosità: Il celebre “Get over here!” è diventato iconico e fu registrato in origine da Ed Boon, co-creatore di Mortal Kombat.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="de">
+<text>Scorpion ist ein untoter Ninja-Geist, getrieben von Rache nach der Vernichtung seines Clans. Erkennbar an gelber Maske und Kettenharpune, jagt er seine Gegner ohne Nachlassen. Sein Kampfstil verbindet Teleportation, schnelle Angriffe und Feuerkraft, wodurch er zu den gefürchtetsten Kämpfern im Mortal-Kombat-Universum zählt.
+Interessante Tatsache: Sein berühmtes “Get over here!” wurde Kult und ursprünglich von Ed Boon, Mitschöpfer von Mortal Kombat, aufgenommen.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Scorpion é um ninja espectro que voltou dos mortos, guiado pela vingança após a destruição de seu clã. Reconhecido pela máscara amarela e pelo arpão com corrente, persegue seus inimigos sem descanso. Seu estilo combina teletransporte, ataques rápidos e domínio do fogo, tornando-o um dos lutadores mais temidos de Mortal Kombat.
+Curiosidade: O famoso “Get over here!” virou ícone e foi gravado originalmente por Ed Boon, cocriador de Mortal Kombat.</text>
+</text>
 </view>
 </theme>

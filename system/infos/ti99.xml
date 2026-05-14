@@ -49,5 +49,41 @@ originally based on: "carbon"
 <text>Произведенный компанией Texas Instruments, этот компьютер имеет некоторое сходство с концепцией игровой приставки. Он может быть подключен к телевизору через разъем SCART, может считывать картриджи и имеет разъем для двух джойстиков. Он также может использовать аудиокассеты.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Hunt the Wumpus (1981)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Hunt the Wumpus is an exploration and deduction game where the player moves through a cave network to hunt a hidden creature. Each room gives clues about nearby dangers, such as the Wumpus, pits or bats, forcing the player to remember the map and plan each move before shooting.
+Fun fact: Created in 1973 on mainframe computers such as the PDP-10, the game was later adapted for many home computers.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Hunt the Wumpus est un jeu d’exploration et de déduction où le joueur progresse dans un réseau de cavernes pour traquer une créature cachée. Chaque salle fournit des indices sur les dangers proches, comme le Wumpus, les fosses ou les chauves-souris, obligeant à mémoriser la carte et à anticiper ses déplacements avant de tirer.
+Fun fact : Créé en 1973 sur ordinateur mainframe comme le PDP-10, le jeu a ensuite été adapté sur de nombreux micro-ordinateurs.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Hunt the Wumpus es un juego de exploración y deducción donde el jugador avanza por una red de cuevas para cazar a una criatura oculta. Cada sala ofrece pistas sobre peligros cercanos, como el Wumpus, pozos o murciélagos, obligando a recordar el mapa y anticipar cada movimiento antes de disparar.
+Dato curioso: Creado en 1973 en ordenadores centrales como el PDP-10, el juego fue adaptado después a muchos microordenadores.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Hunt the Wumpus è un gioco di esplorazione e deduzione in cui il giocatore avanza in una rete di caverne per cacciare una creatura nascosta. Ogni stanza offre indizi sui pericoli vicini, come il Wumpus, le fosse o i pipistrelli, obbligando a ricordare la mappa e prevedere le mosse prima di tirare.
+Curiosità: Creato nel 1973 su computer mainframe come il PDP-10, il gioco fu poi adattato su molti microcomputer.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Hunt the Wumpus ist ein Erkundungs- und Deduktionsspiel, in dem der Spieler ein Höhlennetz durchquert, um eine verborgene Kreatur zu jagen. Jeder Raum liefert Hinweise auf nahe Gefahren wie den Wumpus, Gruben oder Fledermäuse, sodass Karte und Bewegungen gut geplant werden müssen.
+Interessante Tatsache: Das Spiel entstand 1973 auf Mainframe-Computern wie dem PDP-10 und wurde später auf viele Heimcomputer angepasst.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Hunt the Wumpus é um jogo de exploração e dedução onde o jogador avança por uma rede de cavernas para caçar uma criatura escondida. Cada sala dá pistas sobre perigos próximos, como o Wumpus, poços ou morcegos, obrigando a memorizar o mapa e antecipar os movimentos antes de disparar.
+Curiosidade: Criado em 1973 em computadores mainframe como o PDP-10, o jogo foi depois adaptado para muitos microcomputadores.</text>
+</text>
+
+
 </view>
 </theme>

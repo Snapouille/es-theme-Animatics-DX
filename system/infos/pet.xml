@@ -49,5 +49,40 @@ originally based on: "carbon"
 <text>Commodore PET - это серия персональных компьютеров, выпускавшихся с 1977 года компанией Commodore International. В одной универсальной коробке объединены микропроцессор MOS Technology 6502, Commodore BASIC в памяти только для чтения, клавиатура, компьютерный монитор и, в ранних моделях, кассетная дека.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Adventureland (1978)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The dragon from Adventureland represents one of the memorable threats in this text adventure, where each place is discovered through typed commands and minimal descriptions. On PET 2001 Series, imagination does most of the work: the monster exists mainly through words, puzzles and the tension created by the machine's limits.
+Fun fact: Adventureland is often considered the first commercial adventure game released for microcomputers.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le dragon d’Adventureland représente l’une des menaces marquantes de cette aventure textuelle, où chaque lieu se découvre par commandes tapées et descriptions minimalistes. Sur PET 2001 Series, l’imagination fait tout le travail : le monstre existe surtout à travers les mots, les énigmes et la tension créée par les limites de la machine.
+Fun fact : Adventureland est souvent considéré comme le premier jeu d’aventure commercialisé sur micro-ordinateur.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>El dragón de Adventureland representa una de las amenazas más recordadas de esta aventura de texto, donde cada lugar se descubre mediante comandos escritos y descripciones mínimas. En PET 2001 Series, la imaginación hace casi todo el trabajo: el monstruo existe sobre todo a través de palabras, enigmas y la tensión creada por los límites de la máquina.
+Dato curioso: Adventureland suele considerarse el primer juego de aventura comercial lanzado para microordenadores.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Il drago di Adventureland rappresenta una delle minacce più memorabili di questa avventura testuale, in cui ogni luogo si scopre tramite comandi digitati e descrizioni minime. Su PET 2001 Series, l’immaginazione fa quasi tutto il lavoro: il mostro esiste soprattutto attraverso parole, enigmi e la tensione creata dai limiti della macchina.
+Curiosità: Adventureland è spesso considerato il primo gioco di avventura commerciale pubblicato per microcomputer.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Der Drache aus Adventureland steht für eine der einprägsamen Gefahren dieses Textadventures, in dem jeder Ort über getippte Befehle und knappe Beschreibungen entdeckt wird. Auf PET 2001 Series übernimmt die Vorstellungskraft fast alles: Das Monster entsteht vor allem durch Worte, Rätsel und die Spannung, die aus den Grenzen der Maschine wächst.
+Interessante Tatsache: Adventureland gilt oft als erstes kommerzielles Adventure-Spiel für Mikrocomputer.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>O dragão de Adventureland representa uma das ameaças mais marcantes desta aventura em texto, onde cada local é descoberto por comandos digitados e descrições mínimas. No PET 2001 Series, a imaginação faz quase todo o trabalho: o monstro existe sobretudo pelas palavras, enigmas e tensão criada pelos limites da máquina.
+Curiosidade: Adventureland é frequentemente considerado o primeiro jogo de aventura comercial lançado para microcomputadores.</text>
+</text>
+
 </view>
 </theme>

@@ -49,5 +49,39 @@ originally based on: "carbon"
 <text>Аббревиатура от "Script Creation Utility for Maniac Mansion". SCUMM - это игровой движок, разработанный программистами Роном Гилбертом и Ариком Вилмундером для облегчения создания приключенческих игр и переноса их на различные платформы. ScummVM - это виртуальная машина, позволяющая играть в игры, использующие систему SCUMM.</text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;The Secret of Monkey Island (1990)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+            <text>Elaine Marley is the governor of Melee Island, an intelligent and independent figure at the heart of the Monkey Island universe. Facing LeChuck and Guybrush’s clumsy advances, she keeps control with wit and composure. The game mixes exploration, absurd dialogue and puzzles in a cult pirate adventure.
+Fun fact: For over 30 years, the “secret” of Monkey Island remained an elusive mystery before finally being hinted at in Return to Monkey Island.</text>
+        </text>
+
+        <text name="figurine_desc" extra="true" lang="fr">
+            <text>Elaine Marley est la gouverneure de Mêlée Island, une figure intelligente et indépendante au cœur de l’univers Monkey Island. Face aux avances de LeChuck et aux maladresses de Guybrush, elle garde toujours le contrôle avec sang-froid et esprit. Le jeu mêle exploration, dialogues absurdes et énigmes de point and click dans une aventure pirate devenue culte.
+Fun fact : Pendant plus de 30 ans, le “secret” de Monkey Island est resté une énigme insaisissable, alimentant théories et imaginaire, avant de se laisser enfin entrevoir dans Return to Monkey Island.</text>
+        </text>
+
+        <text name="figurine_desc" extra="true" lang="es">
+            <text>Elaine Marley es la gobernadora de Melee Island, una figura inteligente e independiente en el corazón del universo Monkey Island. Frente a LeChuck y Guybrush, mantiene el control con ingenio. El juego mezcla exploración, diálogos absurdos y puzles en una aventura pirata de culto.
+Dato curioso: Durante más de 30 años, el “secreto” de Monkey Island fue un misterio hasta insinuarse en Return to Monkey Island.</text>
+        </text>
+
+        <text name="figurine_desc" extra="true" lang="it">
+            <text>Elaine Marley è la governatrice di Melee Island, una figura intelligente e indipendente nel mondo di Monkey Island. Mantiene il controllo con astuzia tra LeChuck e Guybrush. Il gioco unisce esplorazione, dialoghi e enigmi in un’avventura pirata cult.
+Curiosità: Per oltre 30 anni il “segreto” di Monkey Island è rimasto un mistero fino a essere suggerito in Return to Monkey Island.</text>
+        </text>
+
+        <text name="figurine_desc" extra="true" lang="de">
+            <text>Elaine Marley ist die Gouverneurin von Melee Island und eine kluge, unabhängige Figur im Monkey Island Universum. Sie bleibt stets souverän. Das Spiel kombiniert Erkundung, Humor und Rätsel in einem Kultabenteuer.
+Interessante Tatsache: Über 30 Jahre blieb das Geheimnis von Monkey Island ungelöst, bis es in Return to Monkey Island angedeutet wurde.</text>
+        </text>
+
+        <text name="figurine_desc" extra="true" lang="pt">
+            <text>Elaine Marley é a governadora de Melee Island, uma figura inteligente e independente no universo Monkey Island. O jogo mistura exploração, humor e puzzles numa aventura clássica.
+Curiosidade: Durante mais de 30 anos, o “segredo” de Monkey Island permaneceu um mistério até ser sugerido em Return to Monkey Island.</text>
+        </text>
+
 </view>
 </theme>

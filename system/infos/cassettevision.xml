@@ -21,16 +21,50 @@ originally based on: "carbon"
 			<text>La Cassette Vision de Epoch es una consola japonesa pensada para ofrecer una experiencia de juego simple e inmediata, al estilo arcade. Con cartuchos intercambiables, ofrecía partidas cortas y accesibles centradas en la acción, la puntuación y el multijugador local. Gracias a su diseño directo y a su temprana presencia en la historia de las consolas, la Cassette Vision sigue siendo un sistema destacado de los inicios del juego en cartucho.</text>
 		</text>
 
-		<text name="system_description" extra="true" lang="pt">
-			<text>O Cassette Vision da Epoch é um console japonês criado para oferecer uma experiência simples e imediata, no espírito dos arcades. Usando cartuchos intercambiáveis, oferecia partidas curtas e acessíveis, focadas em ação, pontuação e multiplayer local. Com seu design direto e seu lugar inicial na história dos consoles, o Cassette Vision permanece como um sistema marcante dos primeiros tempos dos jogos em cartucho.</text>
+		<text name="system_description" extra="true" lang="it">
+			<text>La Cassette Vision di Epoch è una console giapponese pensata per offrire un’esperienza di gioco semplice e immediata, nello spirito dell’arcade. Utilizzando cartucce intercambiabili, proponeva partite brevi e accessibili, incentrate su azione, punteggio e multigiocatore locale. Con il suo design diretto e il suo ruolo precoce nella storia delle console, la Cassette Vision resta un sistema importante degli inizi del gioco su cartuccia.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="de">
 			<text>Die Cassette Vision von Epoch ist eine japanische Heimkonsole, die für ein einfaches und unmittelbares Spielerlebnis im Arcade-Stil entwickelt wurde. Mit austauschbaren Modulen bot sie kurze und zugängliche Spiele, die auf Action, Highscores und lokalen Mehrspielermodus ausgerichtet waren. Durch ihr klares Konzept und ihre frühe Rolle in der Konsolengeschichte bleibt die Cassette Vision ein prägendes System aus den Anfängen des Modulspiels.</text>
 		</text>
 
-		<text name="system_description" extra="true" lang="it">
-			<text>La Cassette Vision di Epoch è una console giapponese pensata per offrire un’esperienza di gioco semplice e immediata, nello spirito dell’arcade. Utilizzando cartucce intercambiabili, proponeva partite brevi e accessibili, incentrate su azione, punteggio e multigiocatore locale. Con il suo design diretto e il suo ruolo precoce nella storia delle console, la Cassette Vision resta un sistema importante degli inizi del gioco su cartuccia.</text>
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Cassette Vision da Epoch é um console japonês criado para oferecer uma experiência simples e imediata, no espírito dos arcades. Usando cartuchos intercambiáveis, oferecia partidas curtas e acessíveis, focadas em ação, pontuação e multiplayer local. Com seu design direto e seu lugar inicial na história dos consoles, o Cassette Vision permanece como um sistema marcante dos primeiros tempos dos jogos em cartucho.</text>
+		</text>
+
+		<text name="figurine_title, figurine_title_mask" extra="true">
+			<text>&#160;&#160;Baseball (1981)&#160;&#160;</text>
+		</text>
+
+		<text name="figurine_desc" extra="true">
+			<text>On Epoch Cassette Vision, the baseball player is shown as a compact, readable figure with movements reduced to the essentials: pitching, batting, and timing. The action stays direct despite very simple animation, capturing the rough charm of early home consoles, where clear silhouettes and immediate play mattered more than detail.
+Fun fact: The Cassette Vision became one of Japan’s popular home consoles before the Famicom, with several games built around simple arcade ideas.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="fr">
+			<text>Sur Epoch Cassette Vision, le joueur de baseball est représenté de manière simple mais lisible, avec une silhouette compacte et des mouvements limités à l’essentiel, frappe et lancer. L’action repose sur un timing précis malgré des animations rudimentaires. Cette figurine évoque une époque où la lisibilité primait sur le détail, avec un charme brut typique des premières consoles.
+Fun fact : La Cassette Vision était l’une des premières consoles populaires au Japon avant la Famicom, avec des jeux souvent très proches de l’arcade.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="es">
+			<text>En Epoch Cassette Vision, el jugador de béisbol aparece como una figura simple pero clara, con una silueta compacta y movimientos reducidos a lo esencial: batear, lanzar y medir el tiempo. La acción sigue siendo directa pese a las animaciones rudimentarias, con el encanto áspero de las primeras consolas domésticas.
+Dato curioso: La Cassette Vision fue una de las consolas populares en Japón antes de Famicom, con juegos muy cercanos al espíritu arcade.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="it">
+			<text>Su Epoch Cassette Vision, il giocatore di baseball è rappresentato in modo semplice ma leggibile, con una sagoma compatta e movimenti ridotti all’essenziale: battuta, lancio e tempismo. L’azione resta diretta nonostante animazioni rudimentali, con il fascino grezzo delle prime console domestiche.
+Curiosità: La Cassette Vision fu una delle console popolari in Giappone prima del Famicom, con giochi molto vicini allo spirito arcade.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="de">
+			<text>Auf der Epoch Cassette Vision erscheint der Baseballspieler als einfache, aber gut lesbare Figur mit kompakter Silhouette und Bewegungen, die auf das Wesentliche reduziert sind: Schlagen, Werfen und Timing. Die Aktion bleibt trotz rudimentärer Animation direkt und bewahrt den rauen Reiz früher Heimkonsolen.
+Interessante Tatsache: Die Cassette Vision war vor dem Famicom eine der populären Konsolen in Japan, mit stark arcade-nahen Spielen.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="pt">
+			<text>No Epoch Cassette Vision, o jogador de beisebol aparece como uma figura simples, mas legível, com silhueta compacta e movimentos reduzidos ao essencial: rebater, lançar e acertar o tempo. A ação permanece direta apesar das animações rudimentares, com o charme bruto dos primeiros consoles domésticos.
+Curiosidade: O Cassette Vision foi um dos consoles populares no Japão antes do Famicom, com jogos muito próximos do espírito arcade.</text>
 		</text>
 
 	</view>

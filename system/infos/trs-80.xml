@@ -49,5 +49,40 @@ originally based on: "carbon"
 <text>TRS-80 - это серия микрокомпьютеров и карманных компьютеров, созданных компанией Tandy RadioShack. Оснащенная микропроцессором Zilog Z80 с тактовой частотой 1,77 МГц, модель 1 в своей первой версии имеет 4 кБ ОЗУ и 4 кБ ПЗУ.</text>
 </text>
 
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Dungeons of Daggorath (1982)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Dungeons of Daggorath is a first-person dungeon crawler where the player explores dark corridors and fights creatures through typed commands. Its atmosphere relies on tension, orientation and an unusual heartbeat system that makes every encounter feel more oppressive.
+Fun fact: The game used heartbeat sound effects to show the hero’s condition, a highly immersive idea for a 1982 home computer title.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Dungeons of Daggorath est un jeu d’exploration en donjon à la première personne, où le joueur avance dans des couloirs sombres en affrontant créatures et dangers par commandes textuelles. Son ambiance repose sur la tension, l’orientation et une gestion originale du souffle et du rythme cardiaque, qui rendent chaque rencontre plus oppressante.
+Fun fact : Le jeu utilisait des effets sonores de battements de cœur pour signaler l’état du héros, une idée très immersive pour un jeu micro de 1982.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Dungeons of Daggorath es un juego de exploración de mazmorras en primera persona, donde el jugador avanza por pasillos oscuros y combate criaturas mediante comandos escritos. Su ambiente se apoya en la tensión, la orientación y un sistema de latidos que vuelve cada encuentro más opresivo.
+Dato curioso: El juego usaba efectos de latidos para indicar el estado del héroe, una idea muy inmersiva para un microordenador de 1982.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Dungeons of Daggorath è un gioco di esplorazione in prima persona, dove il giocatore avanza in corridoi bui e affronta creature tramite comandi testuali. La sua atmosfera si basa su tensione, orientamento e un sistema di battito cardiaco che rende ogni incontro più opprimente.
+Curiosità: Il gioco usava effetti sonori di battito cardiaco per indicare lo stato dell’eroe, un’idea molto immersiva per un home computer del 1982.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Dungeons of Daggorath ist ein Dungeon-Spiel aus der Ego-Perspektive, in dem der Spieler dunkle Gänge erkundet und Kreaturen per Texteingabe bekämpft. Die Atmosphäre entsteht durch Spannung, Orientierung und ein Herzschlag-System, das jede Begegnung bedrückender wirken lässt.
+Interessante Tatsache: Das Spiel nutzte Herzschlag-Geräusche, um den Zustand des Helden zu zeigen, eine sehr immersive Idee für einen Heimcomputer von 1982.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Dungeons of Daggorath é um jogo de exploração de masmorras em primeira pessoa, onde o jogador avança por corredores escuros e enfrenta criaturas com comandos de texto. A sua atmosfera baseia-se na tensão, orientação e num sistema de batimentos cardíacos que torna cada encontro mais opressivo.
+Curiosidade: O jogo usava efeitos sonoros de batimentos cardíacos para indicar o estado do herói, uma ideia muito imersiva para um microcomputador de 1982.</text>
+</text>
+
 </view>
 </theme>

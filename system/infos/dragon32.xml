@@ -1,0 +1,71 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Dragon 32 is a home computer released in 1982, known for its keyboard-based design and its close relationship with the TRS-80 Color Computer. It offered a typical early-80s microcomputer experience, with games, programming and educational software.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le Dragon 32 est un micro-ordinateur sorti en 1982, reconnaissable à son format clavier et à sa proximité avec le TRS-80 Color Computer. Il propose une expérience typique du début des années 80, entre jeux, programmation et logiciels éducatifs.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Dragon 32 es un microordenador lanzado en 1982, reconocible por su formato con teclado y por su cercanía al TRS-80 Color Computer. Ofrece una experiencia típica de principios de los años 80, entre juegos, programación y software educativo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Dragon 32 è un microcomputer lanciato nel 1982, riconoscibile per il suo formato con tastiera e per la vicinanza al TRS-80 Color Computer. Offre un’esperienza tipica dei primi anni ’80, tra giochi, programmazione e software educativo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Dragon 32 ist ein Heimcomputer aus dem Jahr 1982, erkennbar an seinem Tastaturformat und seiner Nähe zum TRS-80 Color Computer. Er bietet eine typische Erfahrung der frühen 80er Jahre mit Spielen, Programmierung und Lernsoftware.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Dragon 32 é um microcomputador lançado em 1982, reconhecível pelo seu formato com teclado e pela proximidade com o TRS-80 Color Computer. Oferece uma experiência típica do início dos anos 80, entre jogos, programação e software educativo.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Jet Set Willy (1984)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Jet Set Willy tells the story of a wealthy owner after a party held in his own mansion, forced to clean everything up before he can rest. The player freely explores the many rooms of the house, collecting objects left by the guests through a demanding route full of traps.
+Fun fact: The game is the direct sequel to Manic Miner, bringing back the same main character while offering a much larger, non-linear world.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Jet Set Willy raconte l’histoire d’un riche propriétaire rentrant d’une fête organisée dans son propre manoir et contraint de tout nettoyer avant de pouvoir se reposer. Le joueur explore librement les nombreuses pièces de la demeure, récupérant les objets laissés par les invités dans un parcours exigeant et rempli de pièges.
+Fun fact : Le jeu est la suite directe de Manic Miner, dont il reprend le personnage principal tout en proposant un monde beaucoup plus vaste et non linéaire.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Jet Set Willy cuenta la historia de un rico propietario tras una fiesta organizada en su propia mansión, obligado a limpiarlo todo antes de poder descansar. El jugador explora libremente las numerosas habitaciones de la casa, recogiendo los objetos dejados por los invitados en un recorrido exigente y lleno de trampas.
+Dato curioso: El juego es la secuela directa de Manic Miner, recuperando al mismo protagonista y ofreciendo un mundo mucho más amplio y no lineal.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Jet Set Willy racconta la storia di un ricco proprietario dopo una festa organizzata nel suo stesso maniero, costretto a ripulire tutto prima di potersi riposare. Il giocatore esplora liberamente le numerose stanze della casa, raccogliendo gli oggetti lasciati dagli invitati in un percorso impegnativo e pieno di trappole.
+Curiosità: Il gioco è il seguito diretto di Manic Miner, riprendendo lo stesso protagonista e offrendo un mondo molto più vasto e non lineare.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Jet Set Willy erzählt die Geschichte eines reichen Besitzers nach einer Feier in seinem eigenen Anwesen, der alles aufräumen muss, bevor er sich ausruhen darf. Der Spieler erkundet frei die vielen Räume des Hauses und sammelt Gegenstände ein, die die Gäste auf einem anspruchsvollen, fallenreichen Weg zurückgelassen haben.
+Interessante Tatsache: Das Spiel ist die direkte Fortsetzung von Manic Miner und bringt dieselbe Hauptfigur in eine deutlich größere, nichtlineare Welt zurück.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Jet Set Willy conta a história de um rico proprietário depois de uma festa organizada na sua própria mansão, obrigado a limpar tudo antes de poder descansar. O jogador explora livremente as muitas divisões da casa, recolhendo objetos deixados pelos convidados num percurso exigente e cheio de armadilhas.
+Curiosidade: O jogo é a sequência direta de Manic Miner, trazendo de volta o mesmo protagonista e oferecendo um mundo muito maior e não linear.</text>
+</text>
+
+</view>
+</theme>

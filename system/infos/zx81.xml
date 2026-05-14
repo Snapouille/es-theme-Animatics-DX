@@ -17,16 +17,20 @@ originally based on: "carbon"
 <text>Le Sinclair ZX81 est un ordinateur personnel 8 bits, conçu par Sinclair Research et commercialisé par Timex Corporation. Basé sur un microprocesseur Zilog Z80A cadencé à 3,25 MHz, il possédait 1 ko de mémoire vive. L'affichage se faisait en noir et blanc (24 lignes de 32 caractères) sur un téléviseur standard. L'ordinateur ne possédait pas de sortie son.</text>
 </text>
 
-<text name="system_description" extra="true" lang="de">
-<text>Der Sinclair ZX81 war ein 8-Bit-Personalcomputer, der von Sinclair Research entwickelt und von der Timex Corporation vermarktet wurde. Er basierte auf einem Zilog Z80A Mikroprozessor mit einer Taktfrequenz von 3,25 MHz und verfügte über 1 KB RAM. Die Anzeige erfolgte in Schwarz-Weiß (24 Zeilen à 32 Zeichen) auf einem Standardfernseher. Der Computer verfügte über keinen Tonausgang.</text>
-</text>
-
 <text name="system_description" extra="true" lang="es">
 <text>El Sinclair ZX81 fue un ordenador personal de 8 bits diseñado por Sinclair Research y comercializado por Timex Corporation. Basado en un microprocesador Zilog Z80A que funcionaba a 3,25 MHz, tenía 1 kB de RAM. La pantalla era en blanco y negro (24 líneas de 32 caracteres) en un televisor estándar. El ordenador no tenía salida de sonido.</text>
 </text>
 
 <text name="system_description" extra="true" lang="it">
 <text>Il Sinclair ZX81 era un personal computer a 8 bit progettato da Sinclair Research e commercializzato da Timex Corporation. Basato su un microprocessore Zilog Z80A funzionante a 3,25 MHz, aveva 1 kB di RAM. La visualizzazione era in bianco e nero (24 righe di 32 caratteri) su un televisore standard. Il computer non disponeva di un'uscita audio.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Sinclair ZX81 war ein 8-Bit-Personalcomputer, der von Sinclair Research entwickelt und von der Timex Corporation vermarktet wurde. Er basierte auf einem Zilog Z80A Mikroprozessor mit einer Taktfrequenz von 3,25 MHz und verfügte über 1 KB RAM. Die Anzeige erfolgte in Schwarz-Weiß (24 Zeilen à 32 Zeichen) auf einem Standardfernseher. Der Computer verfügte über keinen Tonausgang.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O Sinclair ZX81 era um computador pessoal de 8 bits, concebido pela Sinclair Research e comercializado pela Timex Corporation. Baseado num microprocessador Zilog Z80A que funciona a 3,25 MHz, tinha 1 kB de RAM. O visor estava a preto e branco (24 linhas de 32 caracteres) num aparelho de televisão padrão. O computador não tinha uma saída de som.</text>
 </text>
 
 <text name="system_description" extra="true" lang="ja">
@@ -41,12 +45,42 @@ originally based on: "carbon"
 <text>Sinclair ZX81 był 8-bitowym komputerem osobistym zaprojektowanym przez Sinclair Research i sprzedawanym przez Timex Corporation. Oparty na mikroprocesorze Zilog Z80A pracującym z częstotliwością 3,25 MHz, posiadał 1 kB pamięci RAM. Wyświetlacz był czarno-biały (24 linie po 32 znaki) na standardowym telewizorze. Komputer nie posiadał wyjścia dźwiękowego.</text>
 </text>
 
-<text name="system_description" extra="true" lang="pt">
-<text>O Sinclair ZX81 era um computador pessoal de 8 bits, concebido pela Sinclair Research e comercializado pela Timex Corporation. Baseado num microprocessador Zilog Z80A que funciona a 3,25 MHz, tinha 1 kB de RAM. O visor estava a preto e branco (24 linhas de 32 caracteres) num aparelho de televisão padrão. O computador não tinha uma saída de som.</text>
-</text>
-
 <text name="system_description" extra="true" lang="ru">
 <text>Sinclair ZX81 был 8-битным персональным компьютером, разработанным компанией Sinclair Research и продаваемым корпорацией Timex. Основанный на микропроцессоре Zilog Z80A, работающем на частоте 3,25 МГц, он имел 1 кБ оперативной памяти. Дисплей был черно-белым (24 строки по 32 символа) и отображался на экране стандартного телевизора. Компьютер не имел звукового выхода.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;3D Monster Maze (1981)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The dinosaur from 3D Monster Maze embodies a sudden threat inside a first-person maze where the player moves square by square while trying to escape its unpredictable appearances, creating constant tension despite the ZX81’s strict limits.
+Fun fact: 3D Monster Maze is often considered one of the first first-person horror games on a home computer.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le dinosaure de 3D Monster Maze incarne une menace invisible puis soudaine dans un labyrinthe en vue subjective où le joueur avance case par case, tente d’échapper à ses apparitions imprévisibles et ressent une tension constante malgré les limites du ZX81.
+Fun fact : 3D Monster Maze est souvent considéré comme l’un des premiers jeux d’horreur en vue subjective sur micro-ordinateur.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>El dinosaurio de 3D Monster Maze encarna una amenaza repentina en un laberinto en primera persona donde el jugador avanza casilla a casilla, intenta escapar de sus apariciones imprevisibles y mantiene una tensión constante pese a los límites del ZX81.
+Dato curioso: 3D Monster Maze suele considerarse uno de los primeros juegos de terror en primera persona para microordenador.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Il dinosauro di 3D Monster Maze incarna una minaccia improvvisa in un labirinto in prima persona dove il giocatore avanza casella dopo casella, cerca di sfuggire alle sue apparizioni imprevedibili e vive una tensione costante nonostante i limiti dello ZX81.
+Curiosità: 3D Monster Maze è spesso considerato uno dei primi giochi horror in prima persona su microcomputer.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Der Dinosaurier aus 3D Monster Maze verkörpert eine plötzliche Bedrohung in einem Ego-Labyrinth, in dem sich der Spieler Feld für Feld bewegt, seinen unberechenbaren Auftritten entkommen muss und trotz der Grenzen des ZX81 ständige Spannung erlebt.
+Interessante Tatsache: 3D Monster Maze gilt oft als eines der ersten Ego-Horrorspiele auf einem Heimcomputer.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>O dinossauro de 3D Monster Maze representa uma ameaça súbita num labirinto em primeira pessoa onde o jogador avança casa a casa, tenta escapar às suas aparições imprevisíveis e sente tensão constante apesar dos limites do ZX81.
+Curiosidade: 3D Monster Maze é muitas vezes considerado um dos primeiros jogos de terror em primeira pessoa para microcomputador.</text>
 </text>
 
 </view>

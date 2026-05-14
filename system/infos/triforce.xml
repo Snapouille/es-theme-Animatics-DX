@@ -49,5 +49,39 @@ originally based on: "carbon"
 <text>Triforce - это аркадная система, разработанная совместно Nintendo, Sega и Namco и впервые представленная в 2002 году. Название Triforce отсылает к серии игр The Legend of Zelda от Nintendo, а также символизирует союз трех компаний, участвовавших в проекте. Система основана на архитектуре Nintendo GameCube.</text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;F-Zero AX (2003)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The F-Zero AX machine is a futuristic racing craft built for extreme speed on suspended tracks demanding precision and control. Its sharp design and energy management allow it to boost, absorb impacts and stay competitive against aggressive rivals.
+Fun fact: Arcade cabinets used magnetic cards to save pilots and progress, compatible with F-Zero GX on GameCube to unlock shared content.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le vaisseau de F-Zero AX est une machine de course futuriste conçue pour filer à très haute vitesse sur des circuits suspendus exigeant précision et maîtrise. Son design affûté et sa gestion de l’énergie permettent d’accélérer, encaisser les chocs et rester en piste face à des adversaires agressifs.
+Fun fact : Les bornes utilisaient une carte magnétique pour sauvegarder pilote et progression, compatible avec F-Zero GX sur GameCube pour débloquer du contenu entre arcade et console.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>La nave de F-Zero AX es una máquina futurista diseñada para correr a gran velocidad en circuitos suspendidos que exigen precisión y control. Su diseño afilado y gestión de energía permiten acelerar, resistir impactos y mantenerse frente a rivales agresivos.
+Dato curioso: Las recreativas usaban tarjetas magnéticas para guardar piloto y progreso, compatibles con F-Zero GX en GameCube para desbloquear contenido compartido.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Il veicolo di F-Zero AX è una macchina futuristica progettata per correre ad altissima velocità su tracciati sospesi che richiedono precisione e controllo. Il suo design affilato e la gestione dell’energia permettono di accelerare, resistere agli urti e restare competitivo.
+Curiosità: Le cabine arcade usavano carte magnetiche per salvare pilota e progressi, compatibili con F-Zero GX su GameCube per sbloccare contenuti condivisi.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Das F-Zero AX Fahrzeug ist eine futuristische Rennmaschine für extreme Geschwindigkeiten auf schwebenden Strecken, die Präzision und Kontrolle verlangen. Sein scharfes Design und Energiemanagement ermöglichen Beschleunigung, Stöße zu verkraften und konkurrenzfähig zu bleiben.
+Interessante Tatsache: Arcade-Automaten nutzten Magnetkarten zum Speichern von Pilot und Fortschritt, kompatibel mit F-Zero GX auf dem GameCube für gemeinsame Inhalte.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>A nave de F-Zero AX é uma máquina futurista criada para correr a alta velocidade em pistas suspensas que exigem precisão e controlo. O seu design afiado e gestão de energia permitem acelerar, resistir a impactos e manter-se competitiva.
+Curiosidade: As máquinas arcade usavam cartões magnéticos para guardar piloto e progresso, compatíveis com F-Zero GX na GameCube para desbloquear conteúdo partilhado.</text>
+</text>
+
 </view>
 </theme>

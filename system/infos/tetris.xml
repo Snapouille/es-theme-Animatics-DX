@@ -17,6 +17,57 @@ originally based on: "carbon"
 <text>Tetris, créée par Alexey Pajitnov en 1984, est emblématique pour ses blocs géométriques que les joueurs doivent assembler pour former des lignes complètes. Initialement développé en Union Soviétique, Tetris est devenu un phénomène mondial grâce à sa simplicité addictive et sa capacité à transcender les générations. Avec des adaptations sur pratiquement toutes les consoles et appareils, Tetris reste un symbole durable de jeu de puzzle et de stratégie.</text>
 </text>
 
+<text name="system_description" extra="true" lang="es">
+<text>Tetris, creado por Alexey Pajitnov en 1984, es emblemático por sus bloques geométricos que los jugadores deben ensamblar para formar líneas completas. Desarrollado originalmente en la Unión Soviética, Tetris se convirtió en un fenómeno mundial gracias a su simplicidad adictiva y su capacidad para trascender generaciones. Con adaptaciones en prácticamente todas las consolas y dispositivos, Tetris sigue siendo un símbolo duradero del puzzle y la habilidad estratégica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Tetris, creato da Alexey Pajitnov nel 1984, è emblematico per i suoi blocchi geometrici che i giocatori devono assemblare per formare linee complete. Sviluppato originariamente in Unione Sovietica, Tetris è diventato un fenomeno mondiale grazie alla sua semplicità coinvolgente e alla capacità di attraversare le generazioni. Con adattamenti su praticamente ogni console e dispositivo, Tetris resta un simbolo duraturo del puzzle game e dell’abilità strategica.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Tetris, 1984 von Alexey Pajitnov entwickelt, ist für seine geometrischen Blöcke bekannt, die Spieler zu vollständigen Linien zusammensetzen müssen. Ursprünglich in der Sowjetunion entwickelt, wurde Tetris dank seiner fesselnden Einfachheit und seiner generationsübergreifenden Wirkung zu einem weltweiten Phänomen. Mit Umsetzungen auf nahezu jeder Konsole und jedem Gerät bleibt Tetris ein dauerhaftes Symbol für Puzzle-Spiel und strategisches Geschick.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Tetris, criado por Alexey Pajitnov em 1984, é emblemático por seus blocos geométricos que os jogadores devem encaixar para formar linhas completas. Originalmente desenvolvido na União Soviética, Tetris tornou-se um fenômeno mundial graças à sua simplicidade viciante e à capacidade de atravessar gerações. Com adaptações em praticamente todos os consoles e dispositivos, Tetris continua sendo um símbolo duradouro dos jogos de puzzle e da habilidade estratégica.</text>
+</text>
+
+<!-- FIGURINE -->
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Tetris (Game Boy, 1989)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Tetris blocks, called tetrominoes, stack to form lines in gameplay built on logic and speed, embodying a simple but demanding system where space management and quick decisions become essential under pressure.
+Fun fact: In 2024, a player managed to crash the NES version of Tetris by reaching an extreme level, an achievement long thought impossible after decades of play.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Les blocs de Tetris, appelés tétriminos, s’assemblent pour former des lignes dans un gameplay basé sur la logique et la rapidité, incarnant une mécanique simple mais exigeante où l’accumulation mène inévitablement à l’erreur, symbole d’un jeu intemporel reposant sur la gestion de l’espace et la prise de décision sous pression.
+Fun fact : En 2024, un joueur a réussi à faire planter la version NES de Tetris en atteignant un niveau extrême, exploit longtemps considéré comme impossible après des décennies de jeu.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Los bloques de Tetris, llamados tetrominós, se ensamblan para formar líneas en una jugabilidad basada en lógica y rapidez, con una mecánica simple pero exigente donde la gestión del espacio y las decisiones rápidas son esenciales.
+Dato curioso: En 2024, un jugador logró hacer fallar la versión NES de Tetris al alcanzar un nivel extremo, algo considerado imposible durante décadas.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>I blocchi di Tetris, chiamati tetramini, si assemblano per formare linee in un gameplay basato su logica e velocità, con una meccanica semplice ma esigente dove gestione dello spazio e decisioni rapide sono essenziali.
+Curiosità: Nel 2024 un giocatore è riuscito a far crashare la versione NES di Tetris raggiungendo un livello estremo, impresa ritenuta impossibile per decenni.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Die Blöcke von Tetris, Tetrominos genannt, werden zu Linien zusammengesetzt in einem Spielprinzip aus Logik und Tempo, bei dem Raumkontrolle und schnelle Entscheidungen unter Druck entscheidend sind.
+Interessante Tatsache: 2024 brachte ein Spieler die NES-Version von Tetris durch ein extremes Level zum Absturz, was jahrzehntelang als unmöglich galt.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Os blocos de Tetris, chamados tetrominós, se encaixam para formar linhas em uma jogabilidade baseada em lógica e rapidez, com uma mecânica simples mas exigente onde espaço e decisões rápidas são essenciais.
+Curiosidade: Em 2024, um jogador conseguiu travar a versão NES de Tetris ao atingir um nível extremo, feito considerado impossível por décadas.</text>
+</text>
 
 </view>
 </theme>

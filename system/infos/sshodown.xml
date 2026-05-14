@@ -4,19 +4,53 @@ author: Snapouille
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
-
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
-
 <text name="system_description" extra="true">
-<text>Samurai Shodown is a fighting game series developed by SNK, focusing on sword duels between samurai and warriors inspired by feudal Japan. Gameplay focuses on precision, strategy and powerful attacks. Each character has unique weapons and techniques, and Samurai Shodown is renowned for its tactical depth and violent, stylized combat.</text>
+<text>Samurai Shodown is a fighting game series developed by SNK, focusing on weapon-based duels between samurai and warriors inspired by feudal Japan. Gameplay emphasizes precision, distance, timing and powerful attacks. Each character has unique weapons and techniques, and the series is known for its tactical depth and violent, stylized combat.</text>
 </text>
-
 <text name="system_description" extra="true" lang="fr">
-<text>Samurai Shodown est une série de jeux de combat développée par SNK, centrée sur des duels au sabre entre samouraïs et guerriers inspirés du Japon féodal. Le gameplay met l'accent sur la précision, la stratégie et les attaques puissantes. Chaque personnage possède des armes et techniques uniques, Samurai Shodown est reconnu pour sa profondeur tactique et ses combats violents et stylisés.</text>
+<text>Samurai Shodown est une série de jeux de combat développée par SNK, centrée sur des duels armés entre samouraïs et guerriers inspirés du Japon féodal. Le gameplay met l'accent sur la précision, la distance, le timing et les attaques puissantes. Chaque personnage possède ses propres armes et techniques, avec des combats tactiques, violents et stylisés.</text>
 </text>
-
-
+<text name="system_description" extra="true" lang="es">
+<text>Samurai Shodown es una serie de juegos de lucha desarrollada por SNK, centrada en duelos con armas entre samuráis y guerreros inspirados en el Japón feudal. Su jugabilidad enfatiza la precisión, la distancia, el ritmo y los ataques potentes. Cada personaje tiene armas y técnicas propias, con combates tácticos, violentos y estilizados.</text>
+</text>
+<text name="system_description" extra="true" lang="it">
+<text>Samurai Shodown è una serie di picchiaduro sviluppata da SNK, incentrata su duelli armati tra samurai e guerrieri ispirati al Giappone feudale. Il gameplay punta su precisione, distanza, tempismo e attacchi potenti. Ogni personaggio possiede armi e tecniche proprie, con combattimenti tattici, violenti e stilizzati.</text>
+</text>
+<text name="system_description" extra="true" lang="de">
+<text>Samurai Shodown ist eine von SNK entwickelte Kampfspielreihe, die sich auf bewaffnete Duelle zwischen Samurai und Kriegern nach Vorbildern aus dem feudalen Japan konzentriert. Das Gameplay betont Präzision, Abstand, Timing und starke Angriffe. Jede Figur besitzt eigene Waffen und Techniken, mit taktischen, brutalen und stilisierten Kämpfen.</text>
+</text>
+<text name="system_description" extra="true" lang="pt">
+<text>Samurai Shodown é uma série de jogos de luta desenvolvida pela SNK, centrada em duelos com armas entre samurais e guerreiros inspirados no Japão feudal. A jogabilidade valoriza precisão, distância, tempo de ataque e golpes poderosos. Cada personagem possui armas e técnicas próprias, com combates táticos, violentos e estilizados.</text>
+</text>
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Samurai Shodown VI (Arcade, 2005)&#160;&#160;</text>
+</text>
+<text name="figurine_desc" extra="true">
+<text>Iroha is an enigmatic maid with a gentle appearance, but she is deadly in combat. Using blades hidden in her sleeves, she relies on speed, precision and fluid combos to surprise her opponents. Behind her polite attitude stands an agile and unpredictable fighter whose style contrasts with the raw brutality of other Samurai Shodown warriors.
+Fun fact: Iroha is known for her very suggestive design, deliberately at odds with her maid role, a contrast that struck players from her debut.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Iroha est une servante énigmatique à l’apparence douce, mais redoutable au combat. Maniant des lames dissimulées dans ses manches, elle privilégie la vitesse, la précision et des enchaînements fluides pour surprendre ses adversaires. Derrière son attitude polie se cache une combattante agile et imprévisible, dont le style contraste avec la brutalité des autres guerriers du jeu.
+Fun fact : Iroha est connue pour son design très suggestif, volontairement en décalage avec son rôle de servante, un contraste qui a marqué les joueurs dès son apparition.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="es">
+<text>Iroha es una criada enigmática de apariencia dulce, pero temible en combate. Con hojas ocultas en sus mangas, apuesta por la velocidad, la precisión y los encadenamientos fluidos para sorprender a sus rivales. Tras su actitud educada se esconde una luchadora ágil e imprevisible, cuyo estilo contrasta con la brutalidad de otros guerreros de Samurai Shodown.
+Dato curioso: Iroha es conocida por su diseño muy sugerente, en contraste deliberado con su papel de criada, algo que impactó a los jugadores desde su debut.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="it">
+<text>Iroha è una serva enigmatica dall’aspetto dolce, ma temibile in combattimento. Con lame nascoste nelle maniche, punta su velocità, precisione e combo fluide per sorprendere gli avversari. Dietro il suo atteggiamento educato si nasconde una combattente agile e imprevedibile, il cui stile contrasta con la brutalità degli altri guerrieri di Samurai Shodown.
+Curiosità: Iroha è nota per il suo design molto suggestivo, volutamente in contrasto con il ruolo di serva, un dettaglio che colpì i giocatori dal debutto.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="de">
+<text>Iroha ist eine rätselhafte Dienerin mit sanfter Erscheinung, doch im Kampf ist sie gefährlich. Mit in den Ärmeln verborgenen Klingen setzt sie auf Tempo, Präzision und flüssige Kombinationen, um Gegner zu überraschen. Hinter ihrer höflichen Art steckt eine wendige und unberechenbare Kämpferin, deren Stil zur Brutalität anderer Samurai-Shodown-Krieger kontrastiert.
+Interessante Tatsache: Iroha ist für ihr sehr suggestives Design bekannt, das bewusst mit ihrer Dienerinnenrolle bricht und Spieler seit ihrem Debüt auffiel.</text>
+</text>
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Iroha é uma criada enigmática de aparência delicada, mas perigosa em combate. Com lâminas escondidas nas mangas, ela usa velocidade, precisão e sequências fluidas para surpreender os adversários. Por trás de sua postura educada existe uma lutadora ágil e imprevisível, cujo estilo contrasta com a brutalidade de outros guerreiros de Samurai Shodown.
+Curiosidade: Iroha é conhecida por seu design muito sugestivo, em contraste deliberado com seu papel de criada, algo que marcou os jogadores desde sua estreia.</text>
+</text>
 </view>
 </theme>

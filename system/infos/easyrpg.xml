@@ -49,5 +49,39 @@ originally based on: "carbon"
 <text>EasyRPG - это проект сообщества, целью которого является создание бесплатного инструмента для создания игр RPG Maker 2000/2003 с открытым исходным кодом. Проект позволяет вам наслаждаться этими играми на различных носителях.</text>
 </text>
 
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;RPG Maker 2000 (2000)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>This young red-haired archer wears a light dress and handles a short bow with confidence. Agile and quick, she favors ranged attacks and precise movement to avoid blows. Her simple, practical gear suggests the start of an adventure, where each fight depends on timing and positioning more than raw power.
+Fun fact: In RPG Maker 2000 games, archers often use the same animations as other weapons because there is no dedicated ranged-attack system.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Cette jeune archère aux cheveux rouges porte une robe légère et manie un arc court avec assurance. Agile et rapide, elle privilégie les attaques à distance et les déplacements précis pour éviter les coups. Son équipement simple et fonctionnel évoque les débuts d’aventure, où chaque combat repose sur le timing et la position plutôt que sur la puissance brute.
+Fun fact : Dans les jeux RPG Maker 2000, les archers utilisent souvent les mêmes animations que les autres armes, faute de système dédié aux tirs à distance.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Esta joven arquera pelirroja lleva un vestido ligero y maneja un arco corto con seguridad. Ágil y rápida, prefiere los ataques a distancia y los movimientos precisos para esquivar golpes. Su equipo simple y funcional evoca el inicio de una aventura, donde cada combate depende más del ritmo y la posición que de la fuerza bruta.
+Dato curioso: En los juegos de RPG Maker 2000, los arqueros suelen usar las mismas animaciones que otras armas, al no existir un sistema dedicado a disparos a distancia.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Questa giovane arciera dai capelli rossi indossa un abito leggero e usa un arco corto con sicurezza. Agile e rapida, preferisce gli attacchi a distanza e i movimenti precisi per evitare i colpi. Il suo equipaggiamento semplice e funzionale richiama l’inizio di un’avventura, dove ogni scontro dipende più dal tempismo e dalla posizione che dalla forza bruta.
+Curiosità: Nei giochi RPG Maker 2000, gli arcieri usano spesso le stesse animazioni delle altre armi, perché manca un sistema dedicato ai tiri a distanza.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Diese junge rothaarige Bogenschützin trägt ein leichtes Kleid und führt einen kurzen Bogen mit sicherer Hand. Beweglich und schnell, setzt sie auf Fernangriffe und präzise Schritte, um Treffer zu vermeiden. Ihre einfache, zweckmäßige Ausrüstung erinnert an den Beginn eines Abenteuers, in dem Timing und Position wichtiger sind als rohe Kraft.
+Interessante Tatsache: In RPG Maker 2000-Spielen nutzen Bogenschützen oft dieselben Animationen wie andere Waffen, da es kein eigenes System für Fernkampfschüsse gibt.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Esta jovem arqueira ruiva usa um vestido leve e maneja um arco curto com confiança. Ágil e rápida, prefere ataques à distância e movimentos precisos para evitar golpes. O seu equipamento simples e funcional evoca o início de uma aventura, onde cada combate depende mais do timing e da posição do que da força bruta.
+Curiosidade: Nos jogos RPG Maker 2000, arqueiros costumam usar as mesmas animações de outras armas, pois não há um sistema dedicado a disparos à distância.</text>
+</text>
+
 </view>
 </theme>

@@ -5,39 +5,69 @@ license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
 <theme>
-  <formatVersion>7</formatVersion>
+	<formatVersion>7</formatVersion>
 
-  <view name="system">
+	<view name="system">
+	    
 
-    <!-- Default language (EN) -->
-    <text name="system_description" extra="true">
-      <text>Xash3D FWGS is a fork of the Xash3D Engine that is compatible with the GoldSrc engine. It lets you play Half-Life out of the box, as well as many Half-Life-based mods.</text>
-    </text>
+		<text name="system_description" extra="true" >
+			<text>Xash3D FWGS is a fork of the Xash3D engine, compatible with GoldSrc. It allows Half-Life and many Half-Life based mods to run on modern systems.</text>
+		</text>
 
-    <!-- French -->
-    <text name="system_description" extra="true" lang="fr">
-      <text>Xash3D FWGS est un fork du moteur Xash3D, compatible avec le moteur GoldSrc. Il permet de jouer à Half-Life ainsi qu'à de nombreux mods basés sur Half-Life.</text>
-    </text>
+		<text name="system_description" extra="true" lang="fr" >
+			<text>Xash3D FWGS est un fork de Xash3D Engine, compatible avec le moteur GoldSrc. Il permet de jouer à Half-Life et à de nombreux mods d'Half-Life sur des systèmes modernes.</text>
+		</text>
 
-    <!-- Spanish -->
-    <text name="system_description" extra="true" lang="es">
-      <text>Xash3D FWGS es una bifurcación del motor Xash3D, compatible con el motor GoldSrc. Permite jugar Half-Life desde el primer momento y muchas modificaciones basadas en Half-Life.</text>
-    </text>
+		<text name="system_description" extra="true" lang="es">
+			<text>Xash3D FWGS es una bifurcación del motor Xash3D, compatible con GoldSrc. Permite ejecutar Half-Life y muchos mods basados en Half-Life en sistemas modernos.</text>
+		</text>
 
-    <!-- Portuguese -->
-    <text name="system_description" extra="true" lang="pt">
-      <text>O Xash3D FWGS é um fork do motor Xash3D, compatível com o motor GoldSrc. Permite jogar Half-Life imediatamente e muitas modificações baseadas em Half-Life.</text>
-    </text>
+		<text name="system_description" extra="true" lang="it">
+			<text>Xash3D FWGS è un fork del motore Xash3D, compatibile con GoldSrc. Permette di eseguire Half-Life e molti mod basati su Half-Life su sistemi moderni.</text>
+		</text>
 
-    <!-- German -->
-    <text name="system_description" extra="true" lang="de">
-      <text>Xash3D FWGS ist ein Fork der Xash3D-Engine, der mit der GoldSrc-Engine kompatibel ist. Es ermöglicht das Spielen von Half-Life direkt nach der Installation sowie vieler Half-Life-basierter Mods.</text>
-    </text>
+		<text name="system_description" extra="true" lang="de">
+			<text>Xash3D FWGS ist ein Fork der Xash3D-Engine, kompatibel mit GoldSrc. Es ermöglicht Half-Life und viele darauf basierende Mods auf modernen Systemen.</text>
+		</text>
 
-    <!-- Italian -->
-    <text name="system_description" extra="true" lang="it">
-      <text>Xash3D FWGS è un fork del motore Xash3D, compatibile con il motore GoldSrc. Permette di giocare a Half-Life fin da subito e a molte modifiche basate su Half-Life.</text>
-    </text>
+		<text name="system_description" extra="true" lang="pt" >
+			<text>O Xash3D FWGS é um fork do motor Xash3D, compatível com GoldSrc. Permite executar Half-Life e muitos mods baseados em Half-Life em sistemas modernos.</text>
+		</text>
 
-  </view>
+		<text name="figurine_title, figurine_title_mask" extra="true">
+			<text>&#160;&#160;Half-Life (1998)&#160;&#160;</text>
+		</text>
+
+		<text name="figurine_desc" extra="true">
+			<text>Gordon Freeman is a Black Mesa scientist thrown into disaster after a resonance cascade. Recognizable by his orange HEV suit, glasses and crowbar, he moves through a facility invaded by Xen creatures and hostile military forces. In Xash3D, he keeps the tense exploration and sharp action of the original classic.
+Fun fact: Gordon Freeman never speaks in Half-Life, a silence that strengthens the player's immersion in his role.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="fr">
+			<text>Gordon Freeman est un scientifique de Black Mesa projeté au cœur d’une catastrophe expérimentale après l’incident de résonance. Reconnaissable à sa combinaison HEV orange, ses lunettes et son pied-de-biche, il progresse dans un complexe envahi par des créatures venues de Xen et des forces militaires hostiles.
+Fun fact : Gordon Freeman ne prononce jamais un mot dans Half-Life, ce silence renforçant l’immersion du joueur dans son rôle.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="es">
+			<text>Gordon Freeman es un científico de Black Mesa atrapado en una catástrofe experimental tras la cascada de resonancia. Reconocible por su traje HEV naranja, sus gafas y su palanca, avanza por un complejo invadido por criaturas de Xen y fuerzas militares hostiles.
+Dato curioso: Gordon Freeman no dice ni una palabra en Half-Life, un silencio que refuerza la inmersión del jugador en su papel.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="it">
+			<text>Gordon Freeman è uno scienziato di Black Mesa travolto da una catastrofe sperimentale dopo la cascata di risonanza. Riconoscibile per la tuta HEV arancione, gli occhiali e il piede di porco, attraversa una struttura invasa da creature di Xen e forze militari ostili.
+Curiosità: Gordon Freeman non pronuncia mai una parola in Half-Life, un silenzio che rafforza l’immersione del giocatore nel suo ruolo.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="de">
+			<text>Gordon Freeman ist ein Wissenschaftler aus Black Mesa, der nach der Resonanzkaskade in eine experimentelle Katastrophe gerät. Erkennbar an seinem orangefarbenen HEV-Anzug, der Brille und dem Brecheisen, bewegt er sich durch eine Anlage voller Xen-Kreaturen und feindlicher Soldaten.
+Interessante Tatsache: Gordon Freeman spricht in Half-Life kein einziges Wort, was die Immersion des Spielers in seine Rolle verstärkt.</text>
+		</text>
+
+		<text name="figurine_desc" extra="true" lang="pt">
+			<text>Gordon Freeman é um cientista de Black Mesa lançado numa catástrofe experimental após a cascata de ressonância. Reconhecível pelo traje HEV laranja, óculos e pé de cabra, avança por uma instalação invadida por criaturas de Xen e forças militares hostis.
+Curiosidade: Gordon Freeman nunca diz uma palavra em Half-Life, um silêncio que reforça a imersão do jogador em seu papel.</text>
+		</text>
+				
+
+	</view>
 </theme>
