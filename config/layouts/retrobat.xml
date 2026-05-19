@@ -73,6 +73,83 @@
 	
 	
 </view>
+
+<customView name="collector">
+  
+	
+	<image name="thumbnail-gamecarousel">
+		<visible>false</visible>
+	</image>
+	
+	<text name="md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players">
+		<visible>false</visible>
+	</text>
+	
+	<image name="ghost_hidden, md_hidden, ghost_cheevos, md_cheevos,md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate,md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual, md_flag">
+		<visible>false</visible>
+	</image>
+	
+	<rating name="md_rating">
+		<visible>false</visible>
+	</rating>
+	
+	<image name="preview_titleshots_collector">
+		<maxSize>0.32 0.33</maxSize>									
+	</image>
+	
+<video name="preview_video_collector">
+		<maxSize>0.32 0.33</maxSize>									
+	</video>
+	
+	<text name="genre_Id" extra="true">
+		<pos>0.18 0.100</pos>
+	</text>
+	
+	
+	<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_playcount, md_lastplayed, md_gametime">
+		<visible>false</visible>
+	</text>
+
+	
+	
+	<image name="gear1, gear2, gear3">
+		 <origin>0.5 0.5</origin>
+		 <path>./../../art/divers/gear.png</path>
+		 <zIndex>10</zIndex>
+		<linearSmooth>true</linearSmooth>
+	</image>
+		
+	<image name="gear1" extra="true">
+		<size>0.0708333 0.1259259</size>									
+		<pos>0.1125 0.1814815</pos>	
+		<color>${dataColor}</color>
+			<storyboard>
+				<animation property="rotation" to="1000" begin="" duration="30000" autoreverse="true" repeat="forever" mode="easeInOut"/>
+			</storyboard>
+	</image>
+
+	<image name="gear2" extra="true">
+		<size>0.0614583 0.1092593</size>									
+		<pos>0.0776042 0.2787037</pos>	
+		<color>${baseColor}</color>
+			<storyboard>
+				<animation property="rotation" to="-1000" begin="" duration="30000" autoreverse="true" repeat="forever" mode="easeInOut"/>
+			</storyboard>
+	</image>
+
+	<image name="gear3" extra="true">
+		<size>0.0489583 0.087037</size>									
+		<pos>0.1234375 0.3324074</pos>
+		<color>${infoColor}</color>
+			<storyboard>
+				<animation property="rotation" to="1000" begin="" duration="30000" autoreverse="true" repeat="forever" mode="easeInOut"/>
+			</storyboard>
+	</image>
+	
+	
+	
+	
+</customView>
   
   
  

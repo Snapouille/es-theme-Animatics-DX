@@ -5,12 +5,12 @@ Theme for Emulation Station compatible with
 - [Batocera](https://batocera.org/)
 - [RetroBat](https://www.retrobat.org/)
 
-**V 2.48 - (2026 05 14) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
+**V 2.49 - (2026 05 19) - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)** 
 
 Features :
 
     6 Animated System Views (Wheel-Animatics, Grid, Wheel, Figurines, Vertical and Horizontal)
-    10 Gamelist Views
+    12 Gamelist Views
     9 languages (German, Spanish, French, Italian, Japanese, Dutch, Polish, Portuguese and Russian)
     Regional Logos and Artwork (EU, US and JAP)
     16/9 Only, not compatible with 4/3 or 5/4 for now
@@ -121,11 +121,12 @@ Link: upcoming
 - EvilDindon Arcade Planet (large inspiration for gamelist view)
 - Lehcimcramtrebor know as the great HelMic Hexa and RCBX (many many tips and code tricks)
 - Elardramora known as my savior (tips and tricks + tricks and tips, and more)
+- CkauNui and his wonderful ckau-book theme for some consoles arts
 - Bob morane manufacturer logo and many tricks
 - Pequetren oval wheel design
 - Lesebio and Zaldred square wheel design 
 
-and never forget f.caruso and Lbrpdx, without whom none of this would be possible :)
+and never forget f.caruso, Susan and Lbrpdx, without whom none of this would be possible :)
 
 ---  
 

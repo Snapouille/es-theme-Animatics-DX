@@ -1,0 +1,88 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>ExoWin9x brings together a selection of Windows 95, 98 and Millennium games configured to run easily on modern machines thanks to the preservation work of the eXoDOS project. The system highlights a period marked by accelerated 3D graphics, massive CD-ROM games, cult multiplayer PC titles and worlds that became iconic in late 1990s and early 2000s computer gaming.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>ExoWin9x regroupe une sélection de jeux Windows 95, 98 et Millennium configurés pour fonctionner facilement sur les machines modernes grâce au travail de préservation du projet eXoDOS. Le système met en avant une période marquée par l’arrivée de la 3D accélérée, des CD-ROM massifs, des jeux multijoueurs PC cultes et des univers devenus emblématiques du jeu vidéo sur ordinateur durant la fin des années 90 et le début des années 2000.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>ExoWin9x vereint eine Auswahl an Windows-95-, 98- und Millennium-Spielen, die dank der Erhaltungsarbeit des eXoDOS-Projekts problemlos auf modernen Rechnern laufen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>ExoWin9x reúne una selección de juegos de Windows 95, 98 y Millennium configurados para funcionar fácilmente en equipos modernos gracias al trabajo de preservación del proyecto eXoDOS.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>ExoWin9x riunisce una selezione di giochi Windows 95, 98 e Millennium configurati per funzionare facilmente sui computer moderni grazie al lavoro di conservazione del progetto eXoDOS.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text></text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text></text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text></text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>ExoWin9x reúne uma seleção de jogos de Windows 95, 98 e Millennium configurados para funcionar facilmente em máquinas modernas graças ao trabalho de preservação do projeto eXoDOS.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text></text>
+</text>
+
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;StarCraft (1998)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>The Hydralisk is a fast and aggressive Zerg creature capable of firing bone spines from long range. In StarCraft, this iconic unit perfectly represents the Zerg swarm’s playstyle, built around numbers, constant pressure and organic evolution. Its reptilian appearance and threatening posture made it one of the most recognizable monsters in PC strategy gaming.
+Fun fact: StarCraft remained played competitively for more than twenty years thanks to the balance of its gameplay.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>L’Hydralisk est une créature Zerg rapide et agressive capable de projeter des épines osseuses à longue distance. Cette unité emblématique représente parfaitement le style de jeu de l’essaim Zerg, basé sur le nombre, la pression constante et l’évolution organique. Son apparence reptilienne et sa posture menaçante en ont fait l’un des monstres les plus reconnaissables du jeu.
+Fun fact : StarCraft est resté joué en compétition pendant plus de vingt ans grâce à l’équilibre de son gameplay.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>El Hydralisk es una criatura Zerg rápida y agresiva capaz de lanzar espinas óseas a larga distancia. En StarCraft, esta unidad emblemática representa perfectamente el estilo de juego del enjambre Zerg, basado en la presión constante y la evolución orgánica.
+Dato curioso: StarCraft siguió jugándose en competición durante más de veinte años gracias al equilibrio de su jugabilidad.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>L’Hydralisk è una creatura Zerg veloce e aggressiva capace di lanciare spine ossee a lunga distanza. In StarCraft, questa unità iconica rappresenta perfettamente lo stile di gioco dello sciame Zerg, basato sulla pressione costante e sull’evoluzione organica.
+Curiosità: StarCraft è rimasto giocato in competizioni per oltre vent’anni grazie all’equilibrio del suo gameplay.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Der Hydralisk ist eine schnelle und aggressive Zerg-Kreatur, die knöcherne Stacheln aus großer Entfernung verschießen kann. In StarCraft verkörpert diese ikonische Einheit perfekt den Spielstil des Zerg-Schwarms, basierend auf konstantem Druck und organischer Evolution.
+Interessante Tatsache: StarCraft wurde dank seines ausgeglichenen Gameplays über mehr als zwanzig Jahre hinweg kompetitiv gespielt.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>O Hydralisk é uma criatura Zerg rápida e agressiva capaz de disparar espinhos ósseos a longa distância. Em StarCraft, esta unidade icónica representa perfeitamente o estilo de jogo do enxame Zerg, baseado em pressão constante e evolução orgânica.
+Curiosidade: StarCraft continuou a ser jogado competitivamente durante mais de vinte anos graças ao equilíbrio do seu gameplay.</text>
+</text>
+
+</view>
+</theme>

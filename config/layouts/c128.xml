@@ -34,6 +34,45 @@
 	
 </view>
 
+<customView name="collector">
+
+	<image name="ecran_console_defaut" extra="static">
+			<visible>false</visible>
+	</image>
+	
+	<image name="figurines,shadow_figurines" extra="true">
+		<pos>0.37 0.56</pos>									
+		<pos ifHelpPrompts="false">0.37 0.61</pos>
+	</image>
+	 
+	<image name="ecran_console" extra="static">
+		<path>./../../system/c20/ecran_console2.png</path>
+		<size>0.3421875 0.5777778</size>									
+		<pos>0.5361979 0.6337037</pos>									
+		<pos ifHelpPrompts="false">0.5361979 0.6737037</pos>
+	</image>
+  
+	<image name="preview_titleshots_collector">
+		<size>0.1822917 0.2472222</size>									
+		<pos>0.5875 0.5156481</pos>									
+		<pos ifHelpPrompts="false">0.5875 0.5556481</pos>
+	</image>
+	
+<video name="preview_video_collector">
+		<size>0.1822917 0.2472222</size>									
+		<pos>0.5875 0.5156481</pos>									
+		<pos ifHelpPrompts="false">0.5875 0.5556481</pos>
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.1822917 0.2472222</size>									
+		<pos>0.5875 0.5156481</pos>		
+		<pos ifHelpPrompts="false">0.5875 0.5556481</pos>
+	</image>
+	
+</customView>
+
 
 
   

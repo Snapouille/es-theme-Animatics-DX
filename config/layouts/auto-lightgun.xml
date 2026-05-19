@@ -164,4 +164,117 @@
 
 
 
+<customView name="collector">
+
+	<image name="desc_cadre_droit" extra="true">
+		<h>0.212037</h>									
+		<h ifHelpPrompts="false">0.2694444</h>									
+	</image>
+	
+	<image name="desc_cadre_bas" extra="true">
+		<y>0.2574074</y>	
+		<y ifHelpPrompts="false">0.3148148</y>	
+	</image>
+	
+	<image name="desc_fond_black" extra="true">
+		<y>0.05</y>
+		<h>0.2083333</h>
+		<h ifHelpPrompts="false">0.2648148</h>
+	</image>
+	
+
+	
+	<text name="description_Id" extra="true">
+		<y>0.132</y>
+		<y ifHelpPrompts="false">0.146</y>
+		<h ifHelpPrompts="false">0.15</h>
+	</text>
+
+  
+	<image name="ecran_console" extra="static">
+		<path>${themePath}/art/screen/lightgun_cab.png</path>
+		<origin>0.5 0.5</origin>									
+		<size>0.4010417 0.6787037</size>									
+		<pos>0.5036458 0.5976852</pos>		
+		<size ifHelpPrompts="false">0.4010417 0.6787037</size>									
+		<pos ifHelpPrompts="false">0.5036458 0.6560185</pos>									
+		<color>FFFFFF</color>
+		<flipY>false</flipY>
+		<zIndex>31</zIndex>
+	</image>
+		
+	<image name="preview_titleshots_collector">
+		<path>{game:image}</path>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>17</zIndex> 
+		<origin>0.5 0.5</origin>
+		<pos>0.4973958 0.6236111</pos>									
+		<h>0.3305556</h>	
+		<maxSize>0.2458333 0.3305556</maxSize>
+		<pos ifHelpPrompts="false">0.4973958 0.6819444</pos>									
+		<h ifHelpPrompts="false">0.3305556</h>	
+		<maxSize ifHelpPrompts="false">0.2458333 0.3305556</maxSize>									
+		<storyboard event="open">
+			<animation enabled="exists({game:video})" property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+		</storyboard>
+		<storyboard event="activate">
+			<animation enabled="exists({game:video})" property="opacity" to="0" begin="1000" duration="250" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" begin="" duration="" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	<video name="preview_video_collector">
+		<path>{game:video}</path>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>15</zIndex> 
+		<origin>0.5 0.5</origin>
+		<pos>0.4973958 0.6236111</pos>									
+		<h>0.3305556</h>	
+		<maxSize>0.2458333 0.3305556</maxSize>	
+		<pos ifHelpPrompts="false">0.4973958 0.6819444</pos>									
+		<h ifHelpPrompts="false">0.3305556</h>	
+		<maxSize ifHelpPrompts="false">0.2458333 0.3305556</maxSize>									
+	</video>
+  
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<path>./../../art/divers/white.png</path>
+		<color>000000</color>
+		<origin>0.5 0.5</origin>
+		<zIndex>14</zIndex>
+		<size>0.265625 0.3638889</size>									
+		<pos>0.4979167 0.6236111</pos>									
+		<size ifHelpPrompts="false">0.2458333 0.3305556</size>									
+		<pos ifHelpPrompts="false">0.4973958 0.6819444</pos>									
+	</image>
+	
+	<!-- Marquee BLACK -->
+	<image name="marquee_black" extra="true">
+		<path>${themePath}/art/divers/white.png</path>
+		<color>000000</color>
+		<zIndex>28</zIndex>
+		<origin>0 0</origin>									
+		<size>0.2979167 0.1453704</size>									
+		<pos>0.3479167 0.2592593</pos>									
+		<pos ifHelpPrompts="false">0.3479167 0.3175926</pos>
+	</image>
+
+	<!-- Logo du jeu dans le Marquee BLACK -->
+	<image name="marquee_logosjeux" extra="true">
+		<path>{game:marquee}</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.4955729 0.3342593</pos>
+		<pos ifHelpPrompts="false">0.4955729 0.3925926</pos>
+		<maxSize>0.2161458 0.1092593</maxSize>									
+		<zIndex>29</zIndex> 
+	</image>
+	
+</customView>
+
+
+
+
+
 </theme>

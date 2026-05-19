@@ -30,6 +30,41 @@
 	
 </view>
 
+<customView name="collector">
+
+	<image name="figurines,shadow_figurines" extra="true">
+		<pos>0.32 0.65</pos>									
+		<pos ifHelpPrompts="false">0.32 0.695</pos>
+	</image>
+
+	<image name="ecran_console" extra="static">
+		<path>./../../system/thomson/ecran_console2.png</path>
+		<size>0.3520833 0.5935185</size>									
+		<pos>0.546875 0.6317593</pos>	
+		<pos ifHelpPrompts="false">0.546875 0.6717593</pos>
+	</image>
+  
+	<image name="preview_titleshots_collector">
+		<size>0.1541667 0.2074074</size>									
+		<pos>0.5432292 0.5053704</pos>	
+		<pos ifHelpPrompts="false">0.5432292 0.5453704</pos>
+	</image>
+	
+<video name="preview_video_collector">
+		<size>0.1541667 0.2074074</size>									
+		<pos>0.5432292 0.5053704</pos>	
+		<pos ifHelpPrompts="false">0.5432292 0.5453704</pos>
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.1541667 0.2074074</size>									
+		<pos>0.5432292 0.5053704</pos>	
+		<pos ifHelpPrompts="false">0.5432292 0.5453704</pos>
+	</image>
+	
+</customView>
+
 
  
   

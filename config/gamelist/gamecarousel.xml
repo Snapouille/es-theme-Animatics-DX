@@ -723,11 +723,12 @@ originally based on: "carbon"
 
 <image name="ecran_console_defaut" extra="static">
 	<visible>!exists("${themePath}/system/" + stem({system:theme}) + "/ecran_console.png")</visible>
-	<path>${themePath}/art/screen/default.png</path>	
-	<origin>0.5 0.5</origin>
-	<size>0.3614583 0.4294444</size>									
-	<pos>0.5103125 0.6352778</pos>	
-	<pos ifHelpPrompts="false">0.5103125 0.6852778</pos>
+	<path>${themePath}/art/screen/modern.png</path>	
+	<zIndex>32</zIndex>
+	<origin>0.5 0.5</origin>									
+	<size>0.4166667 0.5064815</size>									
+	<pos>0.4778125 0.6030556</pos>									
+	<pos ifHelpPrompts="false">0.4778125 0.6230556</pos>
 </image>
 
 <video name="md_video">
@@ -739,9 +740,9 @@ originally based on: "carbon"
 	<loops>1</loops>
 	<zIndex>30</zIndex>
 	<defaultSnapshot>./../../art/divers/mediamissing.png</defaultSnapshot>
-	<maxSize>0.3395833 0.3462963</maxSize>									
-	<pos>0.5102083 0.6092593</pos>	
-	<pos ifHelpPrompts="false">0.5102083 0.6592593</pos>
+	<maxSize>0.3901042 0.3925926</maxSize>									
+	<pos>0.4770313 0.5674074</pos>									
+	<pos ifHelpPrompts="false">0.4770313 0.5874074</pos>
 </video>
 
 <!-- fond noir de l'écran -->
@@ -750,9 +751,9 @@ originally based on: "carbon"
 	<color>000000</color>
 	<origin>0.5 0.5</origin>
 	<zIndex>10</zIndex>
-	<size>0.3395833 0.3462963</size>									
-	<pos>0.5102083 0.6092593</pos>	
-	<pos ifHelpPrompts="false">0.5102083 0.6592593</pos>
+	<size>0.395 0.3925926</size>									
+	<pos>0.4770313 0.5674074</pos>									
+	<pos ifHelpPrompts="false">0.4770313 0.5874074</pos>
 </image>
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->

@@ -12,7 +12,7 @@ originally based on: "carbon"
 	<view name="splash">
 	
 		<text name="version" extra="true">
-			<text>V 2.48 - 2026 05 14 -</text>
+			<text>V 2.49 - 2026 05 19 -</text>
 			<pos>0.02 0.951</pos>
 			<color>f4ff1a</color>
 			<fontPath>./art/fonts/ubuntu.ttf</fontPath>
@@ -70,28 +70,31 @@ originally based on: "carbon"
 	
 	
 		<!-- TOUT ENLEVER CAR SINON GROS ES_LOG.TXT !!! -->
-		<!-- <image name="logo-user" extra="static"> -->
-			<!-- <origin>0.5 0</origin> -->
-			<!-- <pos>0.5 0.341</pos> -->
-			<!-- <maxSize>0.222 0.222</maxSize> -->
-			<!-- <backgroundColor>ff000000</backgroundColor> -->
-			<!-- <linearSmooth>true</linearSmooth> -->
-			<!-- <zIndex>10</zIndex> -->
+		<image name="logo-user" extra="static">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.341</pos>
+			<maxSize>0.222 0.222</maxSize>
+			<backgroundColor>ff000000</backgroundColor>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>10</zIndex>
 		
-			 <!-- <path>./art/logo-user/${image.logo}</path> -->
-			 <!-- <path ifSubset="user-logo:custom">./your-logo.png</path> -->
-			 <!-- <path ifSubset="user-logo:custom">./../../../../your-logo.png</path>  -->
-			 <!-- <path ifSubset="user-logo:custom">./../your-logo.png</path> -->
-			 <!-- <path ifSubset="user-logo:custom">./your-logo.gif</path> -->
-			 <!-- <path ifSubset="user-logo:custom">./../../../../your-logo.gif</path>  -->
-			 <!-- <path ifSubset="user-logo:custom">./../your-logo.gif</path> -->
+			 <path>./art/logo-user/${image.logo}</path>
+			 <!-- si logo none on en force un pour éviter d'emballer le ES_LOG -->
+			 <path ifSubset="user-logo:none">${themePath}/art/divers/white.png</path>
+			 <path ifSubset="user-logo:custom">./your-logo.png</path>
+			 <path ifSubset="user-logo:custom">./../../../../your-logo.png</path> 
+			 <path ifSubset="user-logo:custom">./../your-logo.png</path>
+			 <path ifSubset="user-logo:custom">./your-logo.gif</path>
+			 <path ifSubset="user-logo:custom">./../../../../your-logo.gif</path> 
+			 <path ifSubset="user-logo:custom">./../your-logo.gif</path>
 			 
-			 <!-- <path ifSubset="user-logo:cheevos">./art/logo-user/retroachievements.png</path> -->
+			 <path ifSubset="user-logo:cheevos">./art/logo-user/retroachievements.png</path>
 			 
-			 <!-- <visible ifSubset="user-logo:none">false</visible> -->
-		<!-- </image> -->
+			 <visible ifSubset="user-logo:none">false</visible>
+		</image>
 		
 		<!-- Recup de l'avatar RA sur le net -->
+		<!-- ATTENTION a l'ES_LOG qui s'affole !!!! -->
 		<!-- FONCTIONNE PAS POUR L'INSTANT, dernier test : Retrobat v6.2 et Batocera v39 -->
 		<!-- <webimage name="logo-user"  extra="static" if="{global.cheevos} == true" ifSubset="user-logo:cheevos"> -->
          <!-- <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path> -->
@@ -100,6 +103,7 @@ originally based on: "carbon"
 			<!-- <pos>0.9692708 0.9462963</pos>									 -->
          <!-- <linearSmooth>true</linearSmooth> -->
 		<!-- </webimage>		 -->
+		
 		
 
 	</view>

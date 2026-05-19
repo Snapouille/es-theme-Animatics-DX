@@ -23,7 +23,37 @@
 		<pos ifHelpPrompts="false">0.5198958 0.7149074</pos>
 	</image>
 		
-</view>  
+</view>
+
+<customView name="collector">
+
+	<image name="ecran_console" extra="static">
+		<size>0.4416667 0.4046296</size>									
+		<pos>0.5019792 0.6723148</pos>									
+		<pos ifHelpPrompts="false">0.5019792 0.7223148</pos>
+	</image>
+  
+	<image name="preview_titleshots_collector">
+		<size>0.290625 0.2898148</size>									
+		<pos>0.4998958 0.6649074</pos>									
+		<pos ifHelpPrompts="false">0.4998958 0.7149074</pos>
+	</image>
+	
+<video name="preview_video_collector">
+		<size>0.290625 0.2898148</size>									
+		<pos>0.4998958 0.6649074</pos>									
+		<pos ifHelpPrompts="false">0.4998958 0.7149074</pos>
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<origin>0.5 0.5</origin>
+		<size>0.290625 0.2898148</size>									
+		<pos>0.4998958 0.6649074</pos>	
+		<pos ifHelpPrompts="false">0.4998958 0.7149074</pos>
+	</image>
+		
+</customView>  
   
 
 

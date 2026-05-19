@@ -27,7 +27,42 @@
 		<pos ifHelpPrompts="false">0.4630208 0.5552778</pos>
 	</image>
 	
-</view>  
+</view>
+
+<customView name="collector">
+  
+	<image name="figurines,shadow_figurines" extra="true">
+		<pos>0.295 0.62</pos>									
+		<pos ifHelpPrompts="false">0.295 0.67</pos>
+	</image>
+
+	<image name="ecran_console" extra="static">
+		<path>./../../system/atari800/ecran_console2.png</path>
+		<size>0.3895833 0.5546296</size>									
+		<pos>0.4958333 0.640463</pos>									
+		<pos ifHelpPrompts="false">0.4958333 0.690463</pos>
+	</image>
+  
+	<image name="preview_titleshots_collector">
+		<pos>0.4630208 0.5052778</pos>	
+		<pos ifHelpPrompts="false">0.4630208 0.5552778</pos>
+		<size>0.1447917 0.2009259</size>															
+	</image>
+	
+<video name="preview_video_collector">
+		<pos>0.4630208 0.5052778</pos>	
+		<pos ifHelpPrompts="false">0.4630208 0.5552778</pos>
+		<size>0.1447917 0.2009259</size>															
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.1447917 0.2009259</size>																
+		<pos>0.4630208 0.5052778</pos>
+		<pos ifHelpPrompts="false">0.4630208 0.5552778</pos>
+	</image>
+	
+</customView>  
   
     
   

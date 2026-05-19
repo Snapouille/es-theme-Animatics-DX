@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Dusklight is an unofficial PC port project of The Legend of Zelda: Twilight Princess, aiming to reproduce the original experience as faithfully as possible on modern hardware. The system highlights a world shaped by the Twilight Realm, massive dungeons, epic battles and the unique atmosphere that made Twilight Princess one of the most beloved entries in the Zelda series.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Dusklight est un projet de portage non officiel de The Legend of Zelda: Twilight Princess sur PC moderne, cherchant à reproduire l’expérience originale aussi fidèlement que possible sur des configurations actuelles. Le système met en avant un univers marqué par le royaume du Crépuscule, les donjons imposants, les combats épiques et l’ambiance unique qui a fait de Twilight Princess l’un des épisodes les plus appréciés de la série Zelda.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Dusklight ist ein inoffizielles PC-Portierungsprojekt von The Legend of Zelda: Twilight Princess, das die ursprüngliche Erfahrung möglichst originalgetreu auf moderner Hardware nachbilden soll.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Dusklight es un proyecto no oficial de port para PC de The Legend of Zelda: Twilight Princess, que busca reproducir la experiencia original de la forma más fiel posible en equipos modernos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Dusklight è un progetto non ufficiale di porting PC di The Legend of Zelda: Twilight Princess, pensato per riprodurre l’esperienza originale nel modo più fedele possibile su hardware moderno.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text></text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text></text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text></text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Dusklight é um projeto não oficial de port para PC de The Legend of Zelda: Twilight Princess, procurando reproduzir a experiência original da forma mais fiel possível em hardware moderno.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text></text>
+</text>
+
+</view>
+</theme>

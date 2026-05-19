@@ -27,6 +27,38 @@
 		
 </view>
 
+<customView name="collector">
+  
+  
+	<image name="ecran_console" extra="static">
+		<size>0.1989583 0.6018519</size>									
+		<pos>0.5995833 0.5822222</pos>									
+		<pos ifHelpPrompts="false">0.5995833 0.6322222</pos>
+	</image>
+  
+	<image name="preview_titleshots_collector">
+		<size>0.1020833 0.1805556</size>									
+		<pos>0.5995833 0.4363889</pos>									
+		<pos ifHelpPrompts="false">0.5995833 0.4863889</pos>
+	</image>
+	
+<video name="preview_video_collector">
+		<size>0.1020833 0.1805556</size>									
+		<pos>0.5995833 0.4363889</pos>									
+		<pos ifHelpPrompts="false">0.5995833 0.4863889</pos>
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.1020833 0.1805556</size>									
+		<pos>0.5995833 0.4363889</pos>	
+		<pos ifHelpPrompts="false">0.5995833 0.4863889</pos>
+	</image>
+	
+	
+		
+</customView>
+
 
 
 <customView name="fanart">

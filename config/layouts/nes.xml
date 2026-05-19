@@ -30,6 +30,42 @@
 	</image>
 </view>
 
+<customView name="collector">
+  	
+	<image name="Consoles" extra="static">
+		<visible>true</visible>
+		<size>0.2338542 0.2824074</size>									
+		<pos>0.6413854 0.8067593</pos>	
+		<pos ifHelpPrompts="false">0.6413854 0.8467593</pos>
+    </image>
+  
+	<image name="ecran_console" extra="static">
+		<path>./../../art/screen/grey1985.png</path>
+		<size>0.3895833 0.4611111</size>									
+		<pos>0.4379167 0.5888889</pos>	
+		<pos ifHelpPrompts="false">0.4379167 0.6388889</pos>
+	</image>
+    
+	<image name="preview_titleshots_collector">
+		<size>0.2443125 0.325</size>
+		<pos>0.4006771 0.574537</pos>		
+		<pos ifHelpPrompts="false">0.4006771 0.624537</pos>		
+	</image>
+	
+	<video name="preview_video_collector">
+		<size>0.2443125 0.325</size>
+		<pos>0.4006771 0.574537</pos>		
+		<pos ifHelpPrompts="false">0.4006771 0.624537</pos>		
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.2443125 0.325</size>																
+		<pos>0.4006771 0.574537</pos>
+		<pos ifHelpPrompts="false">0.4006771 0.624537</pos>
+	</image>
+</customView>
+
 	
 <customView name="fanart">
 

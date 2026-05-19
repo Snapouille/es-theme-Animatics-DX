@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>ExoWin3x brings together a selection of games and entertainment software from the Windows 3.x era, a period marked by the first mass-market graphical interfaces on PC compatibles. The system highlights games distributed on floppy disks or CD-ROMs in the early 1990s, including puzzle games, educational titles, experimental software and classics that became emblematic of early Windows environments.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>ExoWin3x regroupe une sélection de jeux et logiciels ludiques issus de l’ère Windows 3.x, une période marquée par les premières interfaces graphiques grand public sur PC compatibles. Le système met en avant les jeux distribués sur disquettes ou CD-ROM au début des années 90, avec des puzzle games, jeux éducatifs, titres expérimentaux et classiques devenus emblématiques des premiers environnements Windows.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>ExoWin3x vereint eine Auswahl an Spielen und Unterhaltungssoftware aus der Windows-3.x-Ära.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>ExoWin3x reúne una selección de juegos y programas lúdicos de la era Windows 3.x.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>ExoWin3x riunisce una selezione di giochi e software ludici dell’era Windows 3.x.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text />
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text />
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text />
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>ExoWin3x reúne uma seleção de jogos e softwares lúdicos da era Windows 3.x.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text />
+</text>
+
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Chip’s Challenge (1991)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Chip McCallahan travels through a series of labyrinths filled with keys, switches, traps and mechanical creatures in a cult puzzle game. Adapted from the original Atari Lynx release, it mixes logic, observation and precise movement through increasingly complex stages that became emblematic of early graphical-interface gaming.
+Fun fact: Chip’s Challenge was often included with the Microsoft Entertainment Pack, helping it become very popular on Windows PCs during the 1990s.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Chip McCallahan traverse une série de labyrinthes remplis de clés, interrupteurs, pièges et créatures mécaniques dans un puzzle game devenu culte. Adapté du jeu Atari Lynx original, il mélange réflexion, observation et déplacements précis à travers des niveaux de plus en plus complexes devenus emblématiques des premiers jeux en interface graphique.
+Fun fact : Chip’s Challenge était souvent installé avec le Microsoft Entertainment Pack, ce qui lui a permis de devenir très populaire sur les PC Windows des années 90.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Chip McCallahan atraviesa laberintos llenos de llaves, interruptores y trampas en un puzzle game de culto.
+Dato curioso: Chip’s Challenge solía incluirse con el Microsoft Entertainment Pack.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Chip McCallahan attraversa labirinti pieni di chiavi, interruttori e trappole in un puzzle game cult.
+Curiosità: Chip’s Challenge era spesso incluso nel Microsoft Entertainment Pack.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Chip McCallahan durchquert Labyrinthe voller Schlüssel, Schalter und Fallen in einem Kult-Puzzlespiel.
+Interessante Tatsache: Chip’s Challenge war oft Teil des Microsoft Entertainment Pack.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Chip McCallahan atravessa labirintos cheios de chaves, interruptores e armadilhas em um puzzle game cult.
+Curiosidade: Chip’s Challenge vinha frequentemente com o Microsoft Entertainment Pack.</text>
+</text>
+
+</view>
+</theme>

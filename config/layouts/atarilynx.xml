@@ -28,7 +28,42 @@
 		<pos ifHelpPrompts="false">0.5138542 0.6848148</pos>
 	</image>
 	
-</view>  
+</view>
+
+<customView name="collector">
+
+	<image name="figurines,shadow_figurines" extra="true">
+		<pos>0.31 0.74</pos>									
+		<pos ifHelpPrompts="false">0.31 0.8</pos>
+		<maxSize>0.13 0.35</maxSize>	
+	</image>
+
+	<image name="ecran_console" extra="static">
+		<size>0.4421875 0.3694444</size>									
+		<pos>0.4825521 0.6521296</pos>									
+		<pos ifHelpPrompts="false">0.4825521 0.6871296</pos>
+	</image>
+  
+	<image name="preview_titleshots_collector">
+		<size>0.1416667 0.1592593</size>									
+		<pos>0.4838542 0.6498148</pos>	
+		<pos ifHelpPrompts="false">0.4838542 0.6848148</pos>
+	</image>
+	
+<video name="preview_video_collector">
+		<size>0.1416667 0.1592593</size>									
+		<pos>0.4838542 0.6498148</pos>	
+		<pos ifHelpPrompts="false">0.4838542 0.6848148</pos>
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.1416667 0.1592593</size>									
+		<pos>0.4838542 0.6498148</pos>
+		<pos ifHelpPrompts="false">0.4838542 0.6848148</pos>
+	</image>
+	
+</customView>  
   
   
 

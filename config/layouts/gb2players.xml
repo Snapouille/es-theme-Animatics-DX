@@ -53,6 +53,37 @@
     </image>
 </view>
 
+<customView name="collector">
+
+	
+	<image name="ecran_console" extra="static">
+		<size>0.1989583 0.6046296</size>									
+		<pos>0.604375 0.5736111</pos>									
+		<pos ifHelpPrompts="false">0.604375 0.6036111</pos>
+	</image>
+  
+	<image name="preview_titleshots_collector">
+		<size>0.1052083 0.1685185</size>									
+		<pos>0.6060417 0.4435185</pos>									
+		<pos ifHelpPrompts="false">0.6060417 0.4735185</pos>
+	</image>
+	
+	<video name="preview_video_collector">
+		<size>0.1052083 0.1685185</size>									
+		<pos>0.6060417 0.4435185</pos>									
+		<pos ifHelpPrompts="false">0.6060417 0.4735185</pos>
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.1104167 0.1759259</size>																
+		<pos>0.6059375 0.4444444</pos>	
+		<pos ifHelpPrompts="false">0.6059375 0.4744444</pos>
+	</image>
+		
+	
+</customView> 
+
 
 
 

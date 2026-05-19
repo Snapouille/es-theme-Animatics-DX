@@ -46,6 +46,7 @@ originally based on: "carbon"
     <systemview.wheel>Wheel</systemview.wheel>
     <systemview.grid>Grid</systemview.grid>
     <systemview.figurines>Figurines (New)</systemview.figurines>
+	<collectorview>Collector</collectorview>
     <colored>Colored</colored>
 	<subset.region>Region</subset.region>
     <subset.colorset>Colorset</subset.colorset>
@@ -648,19 +649,19 @@ originally based on: "carbon"
 	</subset>
 	
 	<!-- Choix d'afficher les box en 2D ou 3D -->
-	<subset name="boxfrontDisplay" displayName="${boxfront.Display}" appliesTo="detailed, rvgm, videofull, primacy, gamecarousel">
+	<subset name="boxfrontDisplay" displayName="${boxfront.Display}" appliesTo="detailed, collector, rvgm, videofull, primacy, gamecarousel">
 		<include name="2d" displayName="${2d}"/>
 		<include name="3d" displayName="${3d}"/>
 	</subset>
 
 	<!-- Choix d'afficher les boxback ou non -->
-	<subset name="boxbackDisplay" displayName="${boxback.Display}" appliesTo="detailed, rvgm, videofull, primacy">
+	<subset name="boxbackDisplay" displayName="${boxback.Display}" appliesTo="detailed, collector, rvgm, videofull, primacy">
 		<include name="Show" displayName="${show}"/>
 		<include name="Hide" displayName="${hide}"/>
 	</subset>
 	
 	<!-- Choix d'afficher les cartridges ou non -->
-	<subset name="cartridgeDisplay" displayName="${cartridge.Display}" appliesTo="videofull, primacy, gamecarousel, rvgm">
+	<subset name="cartridgeDisplay" displayName="${cartridge.Display}" appliesTo="videofull, primacy, gamecarousel, collector, rvgm">
 		<include name="Show" displayName="${show}"/>
 		<include name="Hide" displayName="${hide}"/>
 	</subset>
@@ -675,13 +676,13 @@ originally based on: "carbon"
 	</subset>
 	
 	<!-- Permet la mise en place des bornes arcades si add-on installé -->
-	<subset name="add-on.Arcade" displayName="${add-on.Arcade}" appliesTo="gamecarousel">
+	<subset name="add-on.Arcade" displayName="${add-on.Arcade}" appliesTo="gamecarousel, collector">
 		<include name="no" displayName="${no}"/>
 		<include name="yes" displayName="${yes}"/>
 	</subset>	
 	
 	<!-- Choix du type de bureau -->
-	<subset name="deskType" displayName="${desk.type}" appliesTo="gamecarousel">
+	<subset name="deskType" displayName="${desk.type}" appliesTo="gamecarousel, collector">
 		<include name="wood1" 		displayName="${wood1}"/>
 		<include name="wood2" 		displayName="${wood2}"/>
 		<include name="wood3" 		displayName="${wood3}"/>
@@ -703,7 +704,7 @@ originally based on: "carbon"
 	</subset>	
 	
 	<!-- Choix de l'affichage des figurines -->
-	<subset name="figurineDisplay"     displayName="${figurine.Display}" appliesTo="gamecarousel">
+	<subset name="figurineDisplay"     displayName="${figurine.Display}" appliesTo="gamecarousel, collector">
 		<include name="systemOnly"     displayName="${figurine.systemOnly}"/>
 		<include name="addonOnly"      displayName="${figurine.addonOnly}"/>
 		<include name="addonOrSystem"  displayName="${figurine.addonOrSystem}"/>
@@ -711,19 +712,19 @@ originally based on: "carbon"
 	</subset>	
 	
 	<!-- Choix d'animer les figurines ou non -->
-		<subset name="figurineAnimation" displayName="${figurine.Animation}" appliesTo="gamecarousel">
+		<subset name="figurineAnimation" displayName="${figurine.Animation}" appliesTo="gamecarousel, collector">
 			<include name="yes" displayName="${yes}"/>
 			<include name="no" displayName="${no}"/>
 		</subset>
 	
 	<!-- Choix de la direction de la roue, soit arrondi soit droite -->
-	<subset name="wheelshape" displayName="${wheel.shape}" appliesTo="gamecarousel">
+	<subset name="wheelshape" displayName="${wheel.shape}" appliesTo="gamecarousel, collector">
 		<include name="curved" displayName="${curved}"/>
 		<include name="vertical" displayName="${vertical}"/>
 	</subset>
 	
 	<!-- Choix de l'encadrement du logo -->
-	<subset name="logo.style" displayName="${logo.style}" appliesTo="gamecarousel">
+	<subset name="logo.style" displayName="${logo.style}" appliesTo="gamecarousel, collector">
 		<include name="rectcustom" displayName="${rectcustom}">${themePath}/config/gamelist/gamecarousel/rectcustom.xml</include>
 		<include name="ovalcustom" displayName="${ovalcustom}">${themePath}/config/gamelist/gamecarousel/ovalcustom.xml</include>
 		<include name="ovalcarbon" displayName="${ovalcarbon}">${themePath}/config/gamelist/gamecarousel/ovalcarbon.xml</include>
@@ -765,7 +766,7 @@ originally based on: "carbon"
 	</subset>
 	
 	
-	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="detailed, rvgm, videofull   (AUTO=ubuntu)">
+	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="detailed, collector, rvgm, videofull   (AUTO=ubuntu)">
         <include name="auto"/>
 		<include name="ubuntu"/>
 		<include name="ubuntu-bold"/>
@@ -773,7 +774,7 @@ originally based on: "carbon"
 		<include name="charge-vector"/>
         <include name="flatwheat"/>
     </subset>
-	<subset name="gamelistLines" displayName="${gamelistLines}" appliesTo="detailed, rvgm, videofull, primacy   (AUTO=17)">
+	<subset name="gamelistLines" displayName="${gamelistLines}" appliesTo="detailed, collector, rvgm, videofull, primacy   (AUTO=17)">
         <include name="auto"/>
         <include name="9"/>
         <include name="11"/>
@@ -786,7 +787,7 @@ originally based on: "carbon"
         <include name="25"/>
 		<include name="27"/>
     </subset>
-    <subset name="gamelistFontSize" displayName="${gamelistFontSize}" appliesTo="detailed, rvgm, videofull, primacy   (AUTO=0.021)">
+    <subset name="gamelistFontSize" displayName="${gamelistFontSize}" appliesTo="detailed, collector, rvgm, videofull, primacy   (AUTO=0.021)">
         <include name="auto"/>
 		<include name="0.017"/>
         <include name="0.018"/>
@@ -813,7 +814,7 @@ originally based on: "carbon"
         <include name="0.039"/>
         <include name="0.040"/>
     </subset>
-    <subset name="descriptionFontSize" displayName="${descriptionFontSize}" appliesTo="detailed, rvgm, videofull   (AUTO=0.023)">
+    <subset name="descriptionFontSize" displayName="${descriptionFontSize}" appliesTo="detailed, collector, rvgm, videofull   (AUTO=0.023)">
         <include name="auto"/>
 		<include name="mini"/>
         <include name="small"/>
@@ -821,7 +822,7 @@ originally based on: "carbon"
         <include name="large"/>
         <include name="maxi"/>
     </subset>
-    <subset name="fanartOpacity" displayName="${fanartOpacity}" appliesTo="detailed, rvgm, videofull   (AUTO=0.7)">
+    <subset name="fanartOpacity" displayName="${fanartOpacity}" appliesTo="detailed, collector, rvgm, videofull   (AUTO=0.7)">
         <include name="auto"/>
         <include name="100 %"/>
         <include name="90 %"/>
@@ -835,7 +836,7 @@ originally based on: "carbon"
         <include name="10 %"/>
         <include name="0 %"/>
     </subset>
-    <subset name="gamelistOpacity" displayName="${gamelistOpacity}" appliesTo="detailed, rvgm, videofull   (AUTO=0.8)">
+    <subset name="gamelistOpacity" displayName="${gamelistOpacity}" appliesTo="detailed, collector, rvgm, videofull   (AUTO=0.8)">
         <include name="auto"/>
         <include name="100 %"/>
         <include name="90 %"/>
@@ -857,6 +858,7 @@ originally based on: "carbon"
 	<include>./config/gamelist/gamecarousel.xml</include>
 	<include>./config/gamelist/grid.xml</include>
 	<!-- Custom Views  -->
+	<include>./config/gamelist/collector.xml</include>
 	<include>./config/gamelist/legendary.xml</include>
 	<include>./config/gamelist/primacy.xml</include>
 	<include>./config/gamelist/primacy_alt.xml</include>

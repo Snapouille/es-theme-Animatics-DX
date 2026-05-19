@@ -30,6 +30,44 @@
 	</image>
 	
 </view>
+
+<customView name="collector">
+  
+	<image name="figurines,shadow_figurines" extra="true">
+		<pos>0.315 0.66</pos>									
+		<pos ifHelpPrompts="false">0.315 0.71</pos>
+		<maxSize>0.09 0.25</maxSize>	
+	</image>
+  
+	<image name="ecran_console" extra="static">
+		<path>./../../system/${system.theme}/ecran_console2.png</path>
+		<size>0.4401042 0.5277778</size>									
+		<pos>0.5186979 0.6264815</pos>									
+		<pos ifHelpPrompts="false">0.5186979 0.6764815</pos>
+	</image>
+  
+	<image name="preview_titleshots_collector">
+		<pos>0.5189583 0.5088889</pos>	
+		<pos ifHelpPrompts="false">0.5189583 0.5588889</pos>
+		<size>0.1458333 0.1867407</size>									
+		<roundCorners>0.03</roundCorners>
+	</image>
+	
+<video name="preview_video_collector">
+		<pos>0.5189583 0.5088889</pos>	
+		<pos ifHelpPrompts="false">0.5189583 0.5588889</pos>
+		<size>0.1458333 0.1867407</size>									
+		<roundCorners>0.03</roundCorners>
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.1458333 0.1867407</size>																
+		<pos>0.5189583 0.5088889</pos>
+		<pos ifHelpPrompts="false">0.5189583 0.5588889</pos>
+	</image>
+	
+</customView>
   
   
   <customView name="legendary">

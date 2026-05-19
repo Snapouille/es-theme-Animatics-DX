@@ -32,6 +32,44 @@
 	
 </view>
 
+<customView name="collector">
+
+	<image name="figurines,shadow_figurines" extra="true">
+		<pos>0.32 0.57</pos>									
+		<pos ifHelpPrompts="false">0.32 0.61</pos>
+		<maxSize>0.13 0.28</maxSize>	
+	</image>
+  
+	<image name="ecran_console" extra="static">
+		<path>./../../system/msx2/ecran_console2.png</path>
+		<size>0.381796 0.60</size>																
+		<pos>0.5751563 0.6116667</pos>																
+		<pos ifHelpPrompts="false">0.5751563 0.6516667</pos>
+	</image>
+   
+	<image name="preview_titleshots_collector">
+		<size>0.139 0.217</size>									
+		<pos>0.594 0.4636074</pos>									
+		<pos ifHelpPrompts="false">0.594 0.5036074</pos>
+		<zIndex>20</zIndex>
+	</image>
+	
+	<video name="preview_video_collector">
+		<size>0.139 0.217</size>									
+		<pos>0.594 0.4636074</pos>									
+		<pos ifHelpPrompts="false">0.594 0.5036074</pos>
+		<zIndex>20</zIndex>
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.139 0.217</size>									
+		<pos>0.594 0.4636074</pos>
+		<pos ifHelpPrompts="false">0.594 0.5036074</pos>
+	</image>
+	
+</customView>
+
  
   
   

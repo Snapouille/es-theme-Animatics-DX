@@ -44,6 +44,55 @@
 	
 </view>
 
+<customView name="collector">
+
+	<image name="Consoles" extra="static">
+		<size>0.2291667 0.3305556</size>									
+		<visible>true</visible>
+		<pos>0.6560417 0.7905556</pos>	
+		<pos ifHelpPrompts="false">0.6560417 0.8405556</pos>
+		<scale>0.9</scale>
+    </image>
+  
+	<image name="ecran_console" extra="static">
+		<path>./../../art/screen/sharp.png</path>
+		<size>0.4015625 0.5148148</size>									
+		<pos>0.4755729 0.6016667</pos>									
+		<pos ifHelpPrompts="false">0.4755729 0.6216667</pos>
+	</image>
+	
+	<image name="sensorbar" extra="static">
+		<origin>0.5 0.5</origin>
+		<path>./../../art/screen/sensorbar.png</path>
+		<size>0.1421875 0.0194444</size>									
+		<pos>0.4758854 0.3456481</pos>									
+		<pos ifHelpPrompts="false">0.4758854 0.3656481</pos>
+		<color>FFFFFF</color>
+		<flipY>false</flipY>
+		<zIndex>31</zIndex>
+	</image>
+	
+	<image name="preview_titleshots_collector">
+		<size>0.3557292 0.3648148</size>									
+		<pos>0.4760521 0.572963</pos>		
+		<pos ifHelpPrompts="false">0.4760521 0.592963</pos>
+	</image>
+	
+<video name="preview_video_collector">
+		<size>0.3557292 0.3648148</size>									
+		<pos>0.4760521 0.572963</pos>		
+		<pos ifHelpPrompts="false">0.4760521 0.592963</pos>
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.3557292 0.3648148</size>																
+		<pos>0.4760521 0.572963</pos>	
+		<pos ifHelpPrompts="false">0.4760521 0.592963</pos>
+	</image> 
+	
+</customView>
+
 
 
 

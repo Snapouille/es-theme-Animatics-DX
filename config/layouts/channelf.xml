@@ -31,6 +31,42 @@
 	
 </view>
 
+<customView name="collector">
+
+	<image name="Consoles" extra="static">
+		<visible>true</visible>
+		<pos>0.67 0.825</pos>	
+		<pos ifHelpPrompts="false">0.67 0.875</pos>
+    </image>
+	
+	<image name="ecran_console" extra="static">
+		<path>./../../art/screen/vintage.png</path>
+		<size>0.3807292 0.4527778</size>									
+		<pos>0.4476563 0.6191667</pos>	
+		<pos ifHelpPrompts="false">0.4476563 0.6491667</pos>
+	</image>
+
+	<image name="preview_titleshots_collector">
+		<pos>0.4132813 0.6001852</pos>	
+		<pos ifHelpPrompts="false">0.4132813 0.6301852</pos>
+		<size>0.2401042 0.312963</size>									
+	</image>
+	
+	<video name="preview_video_collector">
+		<pos>0.4132813 0.6001852</pos>	
+		<pos ifHelpPrompts="false">0.4132813 0.6301852</pos>
+		<size>0.2401042 0.312963</size>									
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.2401042 0.312963</size>									
+		<pos>0.4132813 0.6001852</pos>	
+		<pos ifHelpPrompts="false">0.4132813 0.6301852</pos>
+	</image>
+	
+</customView>
+
 
   
   

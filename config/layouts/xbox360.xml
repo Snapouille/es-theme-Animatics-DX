@@ -42,6 +42,53 @@
 	
 </view>
 
+<customView name="collector">
+
+	<image name="Consoles" extra="static">
+		<visible>true</visible>
+		<pos>0.655 0.735</pos>	
+		<pos ifHelpPrompts="false">0.655 0.78</pos>
+		<zIndex>32</zIndex>
+		<size>0.3229167 0.462963</size>	
+		<scale>0.75</scale>
+    </image>
+  
+	<image name="ecran_console" extra="static">
+		<path>./../../art/screen/sharp.png</path>
+		<size>0.4015625 0.5148148</size>									
+		<pos>0.4655729 0.6066667</pos>									
+		<pos ifHelpPrompts="false">0.4655729 0.6516667</pos>
+	</image>
+	
+	<image name="kinect" extra="static">
+		<origin>0.5 0.5</origin>
+		<path>./../../art/screen/kinect.png</path>
+		<size>0.0822917 0.0222222</size>									
+		<pos>0.4666667 0.3501852</pos>									
+		<pos ifHelpPrompts="false">0.4666667 0.3951852</pos>
+	</image>
+		
+	<image name="preview_titleshots_collector">
+		<pos>0.4650521 0.572963</pos>		
+		<pos ifHelpPrompts="false">0.4650521 0.622963</pos>
+		<size>0.3557292 0.3698148</size>
+	</image>
+	
+<video name="preview_video_collector">
+		<pos>0.4650521 0.572963</pos>		
+		<pos ifHelpPrompts="false">0.4650521 0.622963</pos>
+		<size>0.3557292 0.3698148</size>
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.3557292 0.3648148</size>																
+		<pos>0.4650521 0.577963</pos>	
+		<pos ifHelpPrompts="false">0.4650521 0.622963</pos>
+	</image>
+	
+</customView>
+
 
 
  <customView name="fanart">

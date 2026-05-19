@@ -1,0 +1,71 @@
+ <!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>A fan-made native PC port of The Legend of Zelda: Majora’s Mask, built from the N64 decompilation and featuring a modernized experience with higher framerate, widescreen support and various quality-of-life options.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Portage PC fan-made de The Legend of Zelda: Majora’s Mask, basé sur la décompilation du jeu N64, proposant une expérience modernisée avec framerate amélioré, affichage écran large et diverses options de confort.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Port nativo para PC creado por fans de The Legend of Zelda: Majora’s Mask, basado en la decompilación del juego de N64 y con una experiencia modernizada, mayor framerate, pantalla panorámica y varias opciones de comodidad.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Porting nativo per PC realizzato dai fan di The Legend of Zelda: Majora’s Mask, basato sulla decompilazione del gioco N64 e dotato di un’esperienza modernizzata, framerate più alto, supporto widescreen e varie opzioni di comfort.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Ein von Fans erstellter nativer PC-Port von The Legend of Zelda: Majora’s Mask, basierend auf der N64-Dekompilierung und mit modernisiertem Spielerlebnis, höherer Bildrate, Widescreen-Unterstützung und verschiedenen Komfortoptionen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Port nativo para PC feito por fãs de The Legend of Zelda: Majora’s Mask, baseado na descompilação do jogo de N64 e com uma experiência modernizada, maior taxa de quadros, suporte a tela widescreen e várias opções de conforto.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;The Legend of Zelda: Majora’s Mask (2000)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Majora’s Mask is an ancient artifact with a malevolent power, able to influence and corrupt its wearer. Its fixed stare and colorful spikes make it an unsettling presence at the center of Termina’s fate. This figurine highlights the game’s central symbol, tied to the imminent danger threatening the world.
+Fun fact: The mask draws on ritual and tribal imagery, strengthening its strange appearance and mystical aura in the game.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Le masque de Majora est un artefact ancien doté d’un pouvoir malveillant, capable d’influencer et de corrompre son porteur. Son regard fixe et ses pointes colorées en font une présence inquiétante, au cœur des événements de Termina. Cette figurine met en avant un symbole central du jeu, lié au danger imminent qui menace le monde.
+Fun fact : Le masque s’inspire d’objets rituels et tribaux, renforçant son apparence étrange et son aura mystique dans le jeu.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>La máscara de Majora es un antiguo artefacto con un poder malévolo, capaz de influir y corromper a quien la lleva. Su mirada fija y sus puntas de colores la convierten en una presencia inquietante en el destino de Termina. Esta figura destaca el símbolo central del juego, ligado al peligro inminente que amenaza el mundo.
+Dato curioso: La máscara se inspira en objetos rituales y tribales, reforzando su aspecto extraño y su aura mística en el juego.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>La maschera di Majora è un antico artefatto dotato di un potere malevolo, capace di influenzare e corrompere chi la indossa. Lo sguardo fisso e le punte colorate la rendono una presenza inquietante al centro del destino di Termina. Questa statuetta mette in risalto il simbolo centrale del gioco, legato al pericolo imminente che minaccia il mondo.
+Curiosità: La maschera si ispira a oggetti rituali e tribali, rafforzando il suo aspetto strano e la sua aura mistica nel gioco.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Majora’s Mask ist ein altes Artefakt mit unheilvoller Macht, das seinen Träger beeinflussen und verderben kann. Sein starrer Blick und die farbigen Stacheln machen es zu einer beunruhigenden Präsenz im Schicksal von Termina. Diese Figur hebt das zentrale Symbol des Spiels hervor, verbunden mit der unmittelbaren Gefahr für die Welt.
+Interessante Tatsache: Die Maske greift rituelle und tribale Motive auf, was ihr fremdartiges Aussehen und ihre mystische Aura im Spiel verstärkt.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>A máscara de Majora é um artefato antigo com um poder malévolo, capaz de influenciar e corromper quem a usa. Seu olhar fixo e seus espinhos coloridos fazem dela uma presença inquietante no destino de Termina. Esta figura destaca o símbolo central do jogo, ligado ao perigo iminente que ameaça o mundo.
+Curiosidade: A máscara se inspira em objetos rituais e tribais, reforçando sua aparência estranha e sua aura mística no jogo.</text>
+</text>
+
+</view>
+</theme>

@@ -60,6 +60,59 @@
 	</rating>
 	
 </view>
+
+<customView name="collector">
+  
+	<image name="ecran_console, ecran_console_defaut, desc_cadre_gauche, desc_cadre_droit, desc_cadre_haut, desc_cadre_bas, desc_fond_black" extra="static">
+		<visible>false</visible>
+	</image>
+	
+	<text name="WhatSystemGAME, publisher_text" extra="static">
+		<visible>false</visible>
+	</text>
+	
+	<text name="name_Id" extra="true">
+		<pos>0.05 0.03</pos>
+		<size>0.88 0.08</size>
+	</text>
+	
+	<image name="figurines,shadow_figurines" extra="true">
+		<pos>0.25 0.7</pos>									
+		<pos ifHelpPrompts="false">0.25 0.75</pos>
+		<maxSize>0.11 0.22</maxSize>	
+	</image>
+	
+	<image name="preview_titleshots_collector">
+	  <pos>0.47 0.52</pos>
+	  <pos ifHelpPrompts="false">0.47 0.57</pos>
+	  <maxSize>0.45 0.7</maxSize>																
+	</image>
+		
+	
+	<image name="thumbnail-gamecarousel">
+		<maxSize>0.15 0.25</maxSize>
+		<maxSize ifHelpPrompts="false">0.15 0.25</maxSize>
+		<pos>0.1 0.25</pos>
+		<pos ifHelpPrompts="false">0.1 0.25</pos>
+	</image>
+	
+	<text name="md_playcount, md_lastplayed, md_gametime, md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, genre_Id, description_Id, developer_Id, md_description, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_genre, md_genre, md_developer, md_publisher, md_releasedate, md_players">
+		<visible>false</visible>
+	</text>
+	
+	<datetime name="md_releasedate">
+		<visible>false</visible>
+    </datetime>
+	
+	<image name="black_bg, md_flag, ghost_hidden, md_hidden, ghost_cheevos, md_cheevos, md_notcheevos, ghost_kidgame, md_kidgame, md_notkidgame, ghost_savestate, md_savestate, md_nosavestate, ghost_md_map, md_map, md_nomap, ghost_manual, md_manual,md_nomanual">
+		<visible>false</visible>
+	</image>
+	
+	<rating name="md_rating">
+		<visible>false</visible>
+	</rating>
+	
+</customView>
   
   
   

@@ -58,6 +58,43 @@
 	
 </view>
 
+<customView name="collector">
+
+	<image name="figurines,shadow_figurines" extra="true">
+		<pos>0.415 0.79</pos>									
+		<pos ifHelpPrompts="false">0.415 0.84</pos>
+		<maxSize>0.13 0.25</maxSize>	
+	</image>
+  
+	<image name="ecran_console" extra="static">
+		<path>./../../system/vectrex/ecran_console.png</path>
+		<size>0.2010417 0.6018519</size>									
+		<pos>0.6075208 0.5774074</pos>									
+		<pos ifHelpPrompts="false">0.6075208 0.6274074</pos>
+	</image>
+  
+	<image name="preview_titleshots_collector">
+		<pos>0.60 0.5010185</pos>	
+		<pos ifHelpPrompts="false">0.60 0.5510185</pos>
+		<size>0.13 0.2898148</size>									
+	</image>
+	
+	<video name="preview_video_collector">
+		<pos>0.60 0.5010185</pos>	
+		<pos ifHelpPrompts="false">0.60 0.5510185</pos>
+		<size>0.13 0.2898148</size>									
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.15 0.3</size>																
+		<pos>0.60 0.5010185</pos>	
+		<pos ifHelpPrompts="false">0.60 0.5510185</pos>
+	</image>
+		
+	
+</customView>
+
 
 
 

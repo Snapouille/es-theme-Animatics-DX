@@ -31,6 +31,42 @@
 	
 </view>
 
+<customView name="collector">
+
+	<image name="figurines,shadow_figurines" extra="true">
+		<pos>0.29 0.69</pos>									
+		<pos ifHelpPrompts="false">0.29 0.74</pos>
+		<scale>0.85</scale>
+	</image>
+  
+	<image name="ecran_console" extra="static">
+		<path>./../../system/amigacdtv/ecran_console2.png</path>
+		<size>0.4869792 0.5768519</size>									
+		<pos>0.5095313 0.6326852</pos>									
+		<pos ifHelpPrompts="false">0.5095313 0.6826852</pos>
+	</image>
+  
+	<image name="preview_titleshots_collector">
+		<size>0.1665083 0.219</size>									
+		<pos>0.5112708 0.4993519</pos>	
+		<pos ifHelpPrompts="false">0.5112708 0.5493519</pos>
+	</image>
+	
+	<video name="preview_video_collector">
+		<size>0.1665083 0.219</size>									
+		<pos>0.5112708 0.4993519</pos>	
+		<pos ifHelpPrompts="false">0.5112708 0.5493519</pos>
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<size>0.16657083 0.219</size>									
+		<pos>0.5112708 0.4993519</pos>	
+		<pos ifHelpPrompts="false">0.5112708 0.5493519</pos>
+	</image>
+	
+</customView>
+
   
   
   

@@ -1,3 +1,10 @@
+## V 2.49 - (19 05 2026)
+- Added a new Gamelist view with figurines,desk and textlist called "Collector"
+- Added Dusklight system
+- Added ExoWin3x system
+- Added ExoWin9x system
+- Added N64recomp system
+
 ## V 2.48 - (14 05 2026)
 - Added Amiga Demos system from Another Kif pack (link : https://www.youtube.com/watch?v=Guu-xQfqXDc)
 - Added Sega SC-3000 system

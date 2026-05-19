@@ -32,6 +32,44 @@
 	
 </view>
 
+<customView name="collector">
+
+	<image name="Consoles" extra="static">
+		<pos>0.63 0.815</pos>	
+		<pos ifHelpPrompts="false">0.63 0.865</pos>
+		<scale>1.05</scale>
+		<visible>true</visible>
+		<rotation>-2</rotation>
+    </image>
+  
+	<image name="ecran_console" extra="static">
+		<path>./../../art/screen/matsui.png</path>
+		<size>0.3630208 0.4777778</size>									
+		<pos>0.4334896 0.6024074</pos>
+		<pos ifHelpPrompts="false">0.4334896 0.6524074</pos>
+	</image>
+    
+	<image name="preview_titleshots_collector">
+		<pos>0.4297604 0.5698519</pos>	
+		<pos ifHelpPrompts="false">0.4297604 0.6198519</pos>
+		<size>0.2496875 0.335</size>										
+	</image>
+	
+	<video name="preview_video_collector">
+		<pos>0.4297604 0.5698519</pos>	
+		<pos ifHelpPrompts="false">0.4297604 0.6198519</pos>
+		<size>0.2496875 0.335</size>										
+	</video>
+	
+	<!-- fond noir de l'écran -->
+	<image name="black_bg" extra="true">
+		<pos>0.4297604 0.5698519</pos>	
+		<pos ifHelpPrompts="false">0.4297604 0.6198519</pos>
+		<size>0.2496875 0.335</size>
+	</image>
+	
+</customView>
+
 
   
 <customView name="fanart">

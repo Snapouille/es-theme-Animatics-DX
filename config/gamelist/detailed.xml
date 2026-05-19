@@ -76,14 +76,14 @@
 		<glowColor>00000010</glowColor>
 		<glowSize>2</glowSize>
 		<alignment>left</alignment>
-		<zIndex>30</zIndex> 
+		<zIndex>1501</zIndex> 
 		
 		<primaryColor>C0C0C0</primaryColor>
 		<secondaryColor>F0F0F0</secondaryColor>
 		<selectorColor>${centerFadeColor}</selectorColor>
 		<selectedColor>fdde0b</selectedColor>
 		<extraTextColor>c0a767</extraTextColor>
-		<extraTextColor if="${system.theme} == 'RA multiplayer'" >FFFFFF00</extraTextColor>
+		<!-- <extraTextColor if="${system.theme} == 'RA multiplayer'" >FFFFFF00</extraTextColor> -->
 		
 		<scrollbarColor>000000</scrollbarColor>
 		<scrollbarCorner>0.49</scrollbarCorner>
@@ -583,7 +583,8 @@
 	<image name="md_flag">
 		<origin>0.5 0.5</origin>									
 		<pos>0.765625 0.9296296</pos>									
-		<maxSize>0.025 0.0296296</maxSize>																
+		<maxSize>0.025 0.0296296</maxSize>	
+		<zIndex>1500</zIndex>
 	</image>
 
 	<image name="md_manual,md_nomanual, ghost_manual, 
@@ -595,7 +596,7 @@
 		<origin>0.5 0.5</origin>
 		<maxSize>0.02 0.03</maxSize>
 		<color>dddddd</color>
-		<zIndex>150</zIndex>
+		<zIndex>1500</zIndex>
 	</image>
 
 	<image name="md_manual,md_nomanual, ghost_manual">
