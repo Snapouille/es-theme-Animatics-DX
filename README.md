@@ -50,7 +50,10 @@ Features :
 
 ## Gamelist view : Game Carousel
 <img width="1920" height="1080" alt="2025-08-30 09_42_58-EmulationStation" src="https://github.com/user-attachments/assets/4e3cb4fc-43f1-433c-a1bc-fbbfecf43db8" />
-  
+
+## Gamelist view : Collector
+<img width="1920" height="1080" alt="2026-05-19 10_41_11-EmulationStation" src="https://github.com/user-attachments/assets/e7368915-433c-412e-b442-e7e51eef7969" />
+
 ## Gamelist view : Legendary
 ![legendary](https://github.com/user-attachments/assets/c7b45496-be87-4e9b-98e2-a171ea25ef54)
 
