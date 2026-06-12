@@ -4,12 +4,12 @@
 			<!-- Choix de la Police, Taille et Nombres de lignes dans la gamelist 
 			     J'ai une erreur dans le script, quand on mettait "auto" ça met la denière lignes
 				 donc j'ai du rajouter la ligne auto a la fin de chaque Subset pour que ça passe bien -->
-			<fontPath ifSubset="gamelistFont:ubuntu">./../../art/fonts/ubuntu.ttf</fontPath>
-			<fontPath ifSubset="gamelistFont:ubuntu-bold">./../../art/fonts/ubuntu-bold.ttf</fontPath>
-			<fontPath ifSubset="gamelistFont:charge-vector">./../../art/fonts/charge-vector.otf</fontPath>
-			<fontPath ifSubset="gamelistFont:barlow">./../../art/fonts/BarlowCondensed-Regular.ttf</fontPath>
-			<fontPath ifSubset="gamelistFont:flatwheat">./../../art/fonts/flatwheat.ttf</fontPath>
-			<fontPath ifSubset="gamelistFont:auto">./../../art/fonts/ubuntu.ttf</fontPath>
+			<fontPath ifSubset="gamelistFont:ubuntu">${themePath}/art/fonts/ubuntu.ttf</fontPath>
+			<fontPath ifSubset="gamelistFont:ubuntu-bold">${themePath}/art/fonts/ubuntu-bold.ttf</fontPath>
+			<fontPath ifSubset="gamelistFont:charge-vector">${themePath}/art/fonts/charge-vector.otf</fontPath>
+			<fontPath ifSubset="gamelistFont:barlow">${themePath}/art/fonts/BarlowCondensed-Regular.ttf</fontPath>
+			<fontPath ifSubset="gamelistFont:flatwheat">${themePath}/art/fonts/flatwheat.ttf</fontPath>
+			<fontPath ifSubset="gamelistFont:auto">${themePath}/art/fonts/ubuntu.ttf</fontPath>
 			<fontSize ifSubset="gamelistFontSize:0.017">0.017</fontSize>
 			<fontSize ifSubset="gamelistFontSize:0.018">0.018</fontSize>
 			<fontSize ifSubset="gamelistFontSize:0.019">0.019</fontSize>

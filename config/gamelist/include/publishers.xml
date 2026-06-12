@@ -1,0 +1,95 @@
+﻿<theme>
+<formatVersion>7</formatVersion>
+
+<!-- On a 2 blocs pour gérer les publishers dans les views basic et les custom views -->
+   
+<view name="gamecarousel,detailed">
+
+<image name="publisher_logo" extra="true">
+
+	<!-- on recupère la variable du publisher qu'on force en minuscule pour éviter les problèmes de CASSE -->
+	<!-- en firstfile on test d'abord quand les publishers ont plusieurs logo suivant les années -->
+	<path>firstfile(
+		lower(${game_publi}) == 'activision' && {game:releasedate} &gt;= '19920101T000000' ? "${themePath}/art/publisher/activision1992.png" :
+		lower(${game_publi}) == 'american softworks' && {game:releasedate} &gt;= '19960101T000000' ? "${themePath}/art/publisher/american softworks1996.png" :
+		lower(${game_publi}) == 'american softworks' && {game:releasedate} &gt;= '19930101T000000' ? "${themePath}/art/publisher/american softworks1993.png" :
+		lower(${game_publi}) == 'american softworks corporation' && {game:releasedate} &gt;= '19960101T000000' ? "${themePath}/art/publisher/american softworks corporation1996.png" :
+		lower(${game_publi}) == 'american softworks corporation' && {game:releasedate} &gt;= '19930101T000000' ? "${themePath}/art/publisher/american softworks corporation1993.png" :
+		lower(${game_publi}) == 'codemasters' && {game:releasedate} &gt;= '20120101T000000' ? "${themePath}/art/publisher/codemasters2012.png" :
+		lower(${game_publi}) == 'codemasters' && {game:releasedate} &gt;= '20070101T000000' ? "${themePath}/art/publisher/codemasters2007.png" :
+		lower(${game_publi}) == 'codemasters' && {game:releasedate} &gt;= '19930101T000000' ? "${themePath}/art/publisher/codemasters1993.png" :
+		lower(${game_publi}) == 'cryo interactive' && {game:releasedate} &gt;= '19990101T000000' ? "${themePath}/art/publisher/cryo interactive1999.png" :
+		lower(${game_publi}) == 'domark' && {game:releasedate} &gt;= '19910101T000000' ? "${themePath}/art/publisher/domark1991.png" :
+		lower(${game_publi}) == 'domark' && {game:releasedate} &gt;= '19900101T000000' ? "${themePath}/art/publisher/domark1990.png" :
+		lower(${game_publi}) == 'ea sports' && {game:releasedate} &gt;= '20000101T000000' ? "${themePath}/art/publisher/ea sports2000.png" :
+		lower(${game_publi}) == 'ea sports' && {game:releasedate} &gt;= '19920101T000000' ? "${themePath}/art/publisher/ea sports1992.png" :
+		lower(${game_publi}) == 'eidos interactive' && {game:releasedate} &gt;= '20030101T000000' ? "${themePath}/art/publisher/eidos interactive2003.png" :
+		lower(${game_publi}) == 'electronic arts' && {game:releasedate} &gt;= '20000101T000000' ? "${themePath}/art/publisher/electronic arts 2000.png" :
+		lower(${game_publi}) == 'gathering of developers' && {game:releasedate} &gt;= '20030101T000000' ? "${themePath}/art/publisher/gathering of developers2003.png" :
+		lower(${game_publi}) == 'gathering of developers' && {game:releasedate} &gt;= '20010101T000000' ? "${themePath}/art/publisher/gathering of developers2001.png" :
+		lower(${game_publi}) == 'hal laboratory' && {game:releasedate} &gt;= '19980101T000000' ? "${themePath}/art/publisher/hal laboratory1998.png" :
+		lower(${game_publi}) == 'hal laboratory' && {game:releasedate} &gt;= '19940101T000000' ? "${themePath}/art/publisher/hal laboratory1994.png" :
+		lower(${game_publi}) == 'hal laboratory' && {game:releasedate} &gt;= '19900101T000000' ? "${themePath}/art/publisher/hal laboratory1990.png" :
+		lower(${game_publi}) == 'infogrames' && {game:releasedate} &gt;= '19990101T000000' ? "${themePath}/art/publisher/infogrames1999.png" :
+		lower(${game_publi}) == 'infogrames' && {game:releasedate} &gt;= '19960101T000000' ? "${themePath}/art/publisher/infogrames1996.png" :
+		lower(${game_publi}) == 'konami' && {game:releasedate} &gt;= '20130101T000000' ? "${themePath}/art/publisher/konami2013.png" :
+		lower(${game_publi}) == 'konami' && {game:releasedate} &gt;= '20030101T000000' ? "${themePath}/art/publisher/konami2003.png" :
+		lower(${game_publi}) == 'microïds' && {game:releasedate} &gt;= '20190101T000000' ? "${themePath}/art/publisher/microïds2019.png" :
+		lower(${game_publi}) == 'microïds' && {game:releasedate} &gt;= '20050101T000000' ? "${themePath}/art/publisher/microïds2005.png" :
+		lower(${game_publi}) == 'microïds' && {game:releasedate} &gt;= '19950101T000000' ? "${themePath}/art/publisher/microïds1995.png" :
+		lower(${game_publi}) == 'psygnosis' && {game:releasedate} &gt;= '19960101T000000' ? "${themePath}/art/publisher/psygnosis1996.png" :
+		lower(${game_publi}) == 'sierra' && {game:releasedate} &gt;= '20140101T000000' ? "${themePath}/art/publisher/sierra2014.png" :
+		lower(${game_publi}) == 'sierra' && {game:releasedate} &gt;= '20020101T000000' ? "${themePath}/art/publisher/sierra2002.png" :
+		lower(${game_publi}) == 'sierra' && {game:releasedate} &gt;= '20010101T000000' ? "${themePath}/art/publisher/sierra2001.png" :
+		lower(${game_publi}) == 'sierra' && {game:releasedate} &gt;= '19980101T000000' ? "${themePath}/art/publisher/sierra1998.png" :
+		lower(${game_publi}) == 'sierra' && {game:releasedate} &gt;= '19930101T000000' ? "${themePath}/art/publisher/sierra1993.png" :
+		lower(${game_publi}) == 'thq' && {game:releasedate} &gt;= '20110101T000000' ? "${themePath}/art/publisher/thq 2011.png" :
+		lower(${game_publi}) == 'thq' && {game:releasedate} &gt;= '20000101T000000' ? "${themePath}/art/publisher/thq2000.png" :
+		lower(${game_publi}) == 'thq' && {game:releasedate} &gt;= '19940101T000000' ? "${themePath}/art/publisher/thq1994.png" :
+		lower(${game_publi}) == 'ubisoft' && {game:releasedate} &gt;= '20170101T000000' ? "${themePath}/art/publisher/ubisoft2017.png" :
+		lower(${game_publi}) == 'ubisoft' && {game:releasedate} &gt;= '20030101T000000' ? "${themePath}/art/publisher/ubisoft2003.png" :
+		lower(${game_publi}) == 'ubisoft' && {game:releasedate} &gt;= '19950101T000000' ? "${themePath}/art/publisher/ubisoft1995.png" :
+		lower(${game_publi}) == 'ubisoft' && {game:releasedate} &gt;= '19900101T000000' ? "${themePath}/art/publisher/ubisoft1990.png" :
+		lower(${game_publi}) == 'universal interactive' && {game:releasedate} &gt;= '20020101T000000' ? "${themePath}/art/publisher/universal interactive2002.png" :
+		lower(${game_publi}) == 'universal interactive' && {game:releasedate} &gt;= '19970101T000000' ? "${themePath}/art/publisher/universal interactive1997.png" :
+		lower(${game_publi}) == 'virgin' && {game:releasedate} &gt;= '19970101T000000' ? "${themePath}/art/publisher/virgin1997.png" :
+		lower(${game_publi}) == 'virgin' && {game:releasedate} &gt;= '19950101T000000' ? "${themePath}/art/publisher/virgin1995.png" :
+		lower(${game_publi}) == 'virgin' && {game:releasedate} &gt;= '19940101T000000' ? "${themePath}/art/publisher/virgin1994.png" :
+		lower(${game_publi}) == 'virgin' && {game:releasedate} &gt;= '19890101T000000' ? "${themePath}/art/publisher/virgin1989.png" :
+		lower(${game_publi}) == 'warner bros. games' && {game:releasedate} &gt;= '20050101T000000' ? "${themePath}/art/publisher/warner bros. games2005.png" :		
+		"${themePath}/art/publisher/" + lower(${game_publi}) + ".png",
+		"${themePath}/art/publisher/" + lower(${game_publi}) + ".jpg")
+	</path>	
+	<origin>0.5 0.5</origin>									
+	<pos>0.096875 0.153</pos>									
+	<maxSize>0.0822917 0.0564815</maxSize>									
+	<color>FFFFFF</color>
+	<zIndex>8</zIndex>
+	<verticalAlignment>bottom</verticalAlignment>
+	<horizontalAlignment>right</horizontalAlignment>
+	<linearSmooth>true</linearSmooth>
+</image>
+	
+<!-- on affiche le publisher en texte si on trouve pas de logo -->
+<text name="publisher_text" extra="true">
+	<visible>!exists("${themePath}/art/publisher/" + lower({game:publisher}) + ".png")</visible> 
+	<visible if="${system.theme} == 'amigademos'">false</visible> 
+	<text>{game:publisher}</text>
+	<origin>0.5 0.5</origin>									
+	<size>0.0994792 0.0527778</size>									
+	<pos>0.0950521 0.155</pos>									
+	<color>${dataColor}</color>
+	<alignment>center</alignment>
+	<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
+	<fontSize>0.019</fontSize>
+	<lineSpacing>1</lineSpacing>
+	<glowColor>00000066</glowColor>
+	<glowSize>2</glowSize>
+	<zIndex>8</zIndex>
+	<!-- <linearSmooth>true</linearSmooth> -->
+</text>	
+
+</view>
+
+
+</theme>

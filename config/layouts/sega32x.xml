@@ -6,10 +6,9 @@
 
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
-		<size>0.2302083 0.262037</size>									
-		<pos>0.675 0.81</pos>	
-		<pos ifHelpPrompts="false">0.675 0.86</pos>
-		<scale>0.85</scale>
+		<maxSize>0.31 0.31</maxSize>									
+		<pos>0.715 0.805</pos>	
+		<pos ifHelpPrompts="false">0.715 0.865</pos>
     </image>
   
 	<image name="ecran_console" extra="static">
@@ -38,35 +37,34 @@
 
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
-		<size>0.2302083 0.262037</size>									
-		<pos>0.63 0.81</pos>	
-		<pos ifHelpPrompts="false">0.63 0.86</pos>
-		<scale>0.85</scale>
+		<maxSize>0.31 0.31</maxSize>									
+		<pos>0.685 0.805</pos>	
+		<pos ifHelpPrompts="false">0.685 0.865</pos>
     </image>
   
 	<image name="ecran_console" extra="static">
 		<path>./../../art/screen/matsui.png</path>
 		<size>0.3630208 0.4777778</size>									
-		<pos>0.4634896 0.6224074</pos>
-		<pos ifHelpPrompts="false">0.4634896 0.6624074</pos>
+		<pos>0.4334896 0.6204074</pos>
+		<pos ifHelpPrompts="false">0.4334896 0.6604074</pos>
 	</image>
     
 	<image name="preview_titleshots_collector">
-		<pos>0.4597604 0.5898519</pos>	
-		<pos ifHelpPrompts="false">0.4597604 0.6298519</pos>
+		<pos>0.4297604 0.5878519</pos>	
+		<pos ifHelpPrompts="false">0.4297604 0.6278519</pos>
 		<size>0.2496875 0.335</size>										
 	</image>
 	
 	<video name="preview_video_collector">
-		<pos>0.4597604 0.5898519</pos>	
-		<pos ifHelpPrompts="false">0.4597604 0.6298519</pos>
+		<pos>0.4297604 0.5878519</pos>	
+		<pos ifHelpPrompts="false">0.4297604 0.6278519</pos>
 		<size>0.2496875 0.335</size>										
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<pos>0.4597604 0.5898519</pos>	
-		<pos ifHelpPrompts="false">0.4597604 0.6298519</pos>
+		<pos>0.4297604 0.5878519</pos>	
+		<pos ifHelpPrompts="false">0.4297604 0.6278519</pos>
 		<size>0.2496875 0.335</size>
 	</image>
 	

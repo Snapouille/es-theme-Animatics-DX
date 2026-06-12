@@ -79,8 +79,8 @@
 	</image>
 	
 	<image name="preview_titleshots_collector">
-	  <pos>0.47 0.63</pos>
-	  <pos ifHelpPrompts="false">0.47 0.68</pos>
+	  <pos>0.47 0.59</pos>
+	  <pos ifHelpPrompts="false">0.47 0.64</pos>
 	  <maxSize>0.45 0.7</maxSize>
 		<shader>
 			<path>${themePath}/art/shaders/border.glsl</path>

@@ -37,9 +37,9 @@
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
 		<size>0.3354167 0.2240741</size>									
-		<pos>0.61 0.82</pos>
-		<pos ifHelpPrompts="false">0.61 0.875</pos>
-		<scale>0.9</scale>
+		<pos>0.61 0.83</pos>
+		<pos ifHelpPrompts="false">0.61 0.895</pos>
+		<scale>0.85</scale>
     </image>
   
 	<image name="ecran_console" extra="static">

@@ -35,9 +35,9 @@
 <customView name="collector">
   
 	<image name="Consoles" extra="static">
-		<maxSize>0.23 0.27</maxSize>									
-		<pos>0.635 0.80</pos>	
-		<pos ifHelpPrompts="false">0.635 0.86</pos>
+		<maxSize>0.23 0.25</maxSize>									
+		<pos>0.64 0.81</pos>	
+		<pos ifHelpPrompts="false">0.635 0.865</pos>
 		<visible>true</visible>
     </image>
 	

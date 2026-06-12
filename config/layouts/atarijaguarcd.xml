@@ -5,7 +5,7 @@
 	<image name="Consoles" extra="static">
 		<maxSize>0.27 0.25</maxSize>									
 		<pos>0.65 0.81</pos>	
-		<pos ifHelpPrompts="false">0.65 0.86</pos>
+		<pos ifHelpPrompts="false">0.65 0.87</pos>
 		<visible>true</visible>
     </image>
   
@@ -36,7 +36,7 @@
 	<image name="Consoles" extra="static">
 		<maxSize>0.27 0.25</maxSize>									
 		<pos>0.6 0.82</pos>	
-		<pos ifHelpPrompts="false">0.6 0.87</pos>
+		<pos ifHelpPrompts="false">0.6 0.875</pos>
 		<visible>true</visible>
     </image>
   
@@ -53,7 +53,7 @@
 		<size>0.2496875 0.335</size>										
 	</image>
 	
-<video name="preview_video_collector">
+	<video name="preview_video_collector">
 		<pos>0.4497604 0.5898519</pos>	
 		<pos ifHelpPrompts="false">0.4497604 0.6298519</pos>
 		<size>0.2496875 0.335</size>										

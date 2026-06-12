@@ -1,3 +1,28 @@
+## V 2.50 - (12 06 2026)
+- Legendary view: Added automatic support for Japanese box art layouts  
+- Collector view: Improved layouts with and without the helpbar
+  
+Publisher logos now automatically match the correct historical logo based on the game's release year : 
+- Activision 
+- Codemasters
+- Cryo interactive 
+- Domark 
+- EA Sports 
+- Eidos Interactive 
+- Electronic Arts 
+- Gathering of Developers 
+- HAL Laboratory 
+- Infogrames 
+- Konami
+- Microids
+- Psygnosis
+- Sierra
+- THQ
+- Ubisoft
+- Universal Interactive
+- Virgin
+- Warner bros games
+
 ## V 2.49 - (19 05 2026)
 - Added a new Gamelist view with figurines,desk and textlist called "Collector"
 - Added Dusklight system

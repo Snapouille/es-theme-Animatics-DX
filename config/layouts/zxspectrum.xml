@@ -5,9 +5,9 @@
  
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
-		<scale>0.9</scale>
-		<pos>0.695 0.815</pos>	
-		<pos ifHelpPrompts="false">0.695 0.865</pos>
+		<maxSize>0.31 0.31</maxSize>									
+		<pos>0.65 0.86</pos>									
+		<pos ifHelpPrompts="false">0.65 0.91</pos>
     </image>
 
 	<image name="ecran_console" extra="static">
@@ -36,9 +36,9 @@
  
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
-		<scale>0.9</scale>
-		<pos>0.65 0.825</pos>	
-		<pos ifHelpPrompts="false">0.65 0.875</pos>
+		<maxSize>0.31 0.31</maxSize>									
+		<pos>0.62 0.86</pos>									
+		<pos ifHelpPrompts="false">0.62 0.91</pos>
     </image>
 
 	<image name="ecran_console" extra="static">

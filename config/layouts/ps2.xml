@@ -4,11 +4,11 @@
 <view name="gamecarousel">
   
 	<image name="Consoles" extra="static">
-		<size>0.1666667 0.3703704</size>									
-		<pos>0.6860417 0.7405556</pos>	
-		<pos ifHelpPrompts="false">0.6860417 0.7905556</pos>
+		<maxSize>0.37 0.35</maxSize>									
+		<pos>0.67 0.755</pos>	
+		<pos ifHelpPrompts="false">0.67 0.81</pos>
 		<visible>true</visible>
-		<scale>0.95</scale>
+		<rotation>1</rotation>
     </image>
 
 	<image name="ecran_console" extra="static">
@@ -36,11 +36,11 @@
 <customView name="collector">
   
 	<image name="Consoles" extra="static">
-		<size>0.1666667 0.3703704</size>									
-		<pos>0.6460417 0.7405556</pos>	
-		<pos ifHelpPrompts="false">0.6460417 0.7905556</pos>
+		<maxSize>0.37 0.35</maxSize>									
+		<pos>0.63 0.755</pos>	
+		<pos ifHelpPrompts="false">0.63 0.81</pos>
 		<visible>true</visible>
-		<scale>0.95</scale>
+		<rotation>1</rotation>
     </image>
 
 	<image name="ecran_console" extra="static">

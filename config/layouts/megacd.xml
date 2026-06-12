@@ -6,8 +6,8 @@
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
 		<maxSize>0.22 0.26</maxSize>									
-		<pos>0.67 0.815</pos>	
-		<pos ifHelpPrompts="false">0.67 0.865</pos>
+		<pos>0.69 0.815</pos>	
+		<pos ifHelpPrompts="false">0.69 0.865</pos>
     </image>
   
 	<image name="ecran_console" extra="static">
@@ -38,7 +38,7 @@
 		<visible>true</visible>
 		<maxSize>0.22 0.26</maxSize>									
 		<pos>0.625 0.815</pos>	
-		<pos ifHelpPrompts="false">0.625 0.865</pos>
+		<pos ifHelpPrompts="false">0.625 0.875</pos>
     </image>
   
 	<image name="ecran_console" extra="static">

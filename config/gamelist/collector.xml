@@ -504,26 +504,17 @@
 <!--   LOGOS PUBLISHERS    -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
 
+<!-- VOIR le include/publishers.xml -->
+
 <!-- on masque le developper qu'on remplace par le genre pour gagner une ligne de description -->
 <text name="developer_Id" extra="true">
 	<visible>false</visible>
 </text>
 
-<image name="publisher_logo" extra="static">
-	<!-- on recupère la variable du publisher qu'on force en minuscule pour éviter les problèmes de CASSE -->
-	<path>firstfile(
-		"${themePath}/art/publisher/" + lower(${game_publi}) + ".png",
-		"${themePath}/art/publisher/" + lower(${game_publi}) + ".jpg")
-	</path>
-	<!-- <path if="${system.theme} == 'amigademos'">${themePath}/art/logos/amigademos.png</path> -->
-	<origin>0.5 0.5</origin>									
-	<pos>0.096875 0.153</pos>									
+<image name="publisher_logo" extra="true">
 	<maxSize>0.0822917 0.0564815</maxSize>									
-	<color>FFFFFF</color>
-	<zIndex>8</zIndex>
 	<verticalAlignment>bottom</verticalAlignment>
 	<horizontalAlignment>right</horizontalAlignment>
-	<linearSmooth>true</linearSmooth>
 	<storyboard event="open">
 		<animation property="offsetY" to="-0.1" begin="150" duration="600" mode="easeOut"/>
 	</storyboard>
@@ -534,24 +525,10 @@
 		<animation property="opacity" to="0" duration="1" mode="linear"/>
 	</storyboard>
 </image>
+
 	
 <!-- on affiche le publisher en texte si on trouve pas de logo -->
 <text name="publisher_text" extra="true">
-	<visible>!exists("${themePath}/art/publisher/" + lower({game:publisher}) + ".png")</visible> 
-	<visible if="${system.theme} == 'amigademos'">false</visible> 
-	<text>{game:publisher}</text>
-	<origin>0.5 0.5</origin>									
-	<size>0.0994792 0.0527778</size>									
-	<pos>0.0950521 0.155</pos>									
-	<color>${dataColor}</color>
-	<alignment>center</alignment>
-	<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>
-	<fontSize>0.019</fontSize>
-	<lineSpacing>1</lineSpacing>
-	<glowColor>00000066</glowColor>
-	<glowSize>2</glowSize>
-	<zIndex>8</zIndex>
-	<!-- <linearSmooth>true</linearSmooth> -->
 	<storyboard event="open">
 		<animation property="offsetY" to="-0.1" begin="150" duration="600" mode="easeOut"/>
 	</storyboard>
@@ -562,6 +539,9 @@
 		<animation property="opacity" to="0" duration="1" mode="linear"/>
 	</storyboard>
 </text>	
+
+
+
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~ -->
 <!--   STYLE DE BUREAU     -->
@@ -833,6 +813,12 @@
 	<visible>false</visible>
 </image>
 
+<!-- si on est dans amiga demos on affiche d'office la figurine pour toutes les démos -->
+<image name="figurines,shadow_figurines" if="${system.theme} == 'amigademos'">
+	<path>${themePath}/art/figurines/amigademos.png</path>
+</image>
+
+
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -1047,7 +1033,7 @@
 	
 <text name="name_Id" extra="true">
 	<text>{game:name}</text>
-	<size>0.5 0.08</size>
+	<size>0.525 0.08</size>
 	<color>ffffff</color>
 	<pos>0.18 0.055</pos>
 	<fontPath>./../../art/fonts/flatwheat.ttf</fontPath>
@@ -1362,7 +1348,6 @@
 </customView>
 
 
-
-<include>./gamelistParameters.xml</include>
+<include>./include/publishers.xml</include>
 
 </theme>

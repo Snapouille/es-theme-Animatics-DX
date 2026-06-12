@@ -6,9 +6,9 @@
 
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
-		<size>0.2260417 0.1722222</size>									
-		<pos>0.681 0.835</pos>	
-		<pos ifHelpPrompts="false">0.681 0.885</pos>
+		<maxSize>0.25 0.25</maxSize>									
+		<pos>0.68 0.835</pos>	
+		<pos ifHelpPrompts="false">0.68 0.885</pos>
     </image>
 	
 	<image name="Consoles2" extra="static">
@@ -44,11 +44,10 @@
 
 	<image name="Consoles" extra="static">
 		<visible>true</visible>
-		<size>0.2260417 0.1722222</size>									
-		<pos>0.61 0.835</pos>	
-		<pos ifHelpPrompts="false">0.61 0.885</pos>
+		<maxSize>0.23 0.23</maxSize>									
+		<pos>0.64 0.84</pos>	
+		<pos ifHelpPrompts="false">0.63 0.9</pos>
     </image>
-	
   
 	<image name="ecran_console" extra="static">
 		<path>./../../art/screen/matsui.png</path>
