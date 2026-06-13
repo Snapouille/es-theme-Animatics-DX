@@ -70,28 +70,28 @@ originally based on: "carbon"
 	
 	
 		<!-- TOUT ENLEVER CAR SINON GROS ES_LOG.TXT !!! -->
-		<image name="logo-user" extra="static">
-			<origin>0.5 0</origin>
-			<pos>0.5 0.341</pos>
-			<maxSize>0.222 0.222</maxSize>
-			<backgroundColor>ff000000</backgroundColor>
-			<linearSmooth>true</linearSmooth>
-			<zIndex>10</zIndex>
-		
-			 <path>./art/logo-user/${image.logo}</path>
-			 <!-- si logo none on en force un pour éviter d'emballer le ES_LOG -->
-			 <path ifSubset="user-logo:none">${themePath}/art/divers/white.png</path>
-			 <path ifSubset="user-logo:custom">./your-logo.png</path>
-			 <path ifSubset="user-logo:custom">./../../../../your-logo.png</path> 
-			 <path ifSubset="user-logo:custom">./../your-logo.png</path>
-			 <path ifSubset="user-logo:custom">./your-logo.gif</path>
-			 <path ifSubset="user-logo:custom">./../../../../your-logo.gif</path> 
-			 <path ifSubset="user-logo:custom">./../your-logo.gif</path>
-			 
-			 <path ifSubset="user-logo:cheevos">./art/logo-user/retroachievements.png</path>
-			 
-			 <visible ifSubset="user-logo:none">false</visible>
-		</image>
+		<!-- je pense qu'on peut plus rien mettre dans le splash -->
+				<!-- <image name="logo-user" extra="static"> -->
+					<!-- <origin>0.5 0</origin> -->
+					<!-- <pos>0.5 0.341</pos> -->
+					<!-- <maxSize>0.222 0.222</maxSize> -->
+					<!-- <backgroundColor>ff000000</backgroundColor> -->
+					<!-- <linearSmooth>true</linearSmooth> -->
+					<!-- <zIndex>10</zIndex> -->
+				
+					 <!-- <path>./art/logo-user/${image.logo}</path> -->
+					 <!-- <path ifSubset="user-logo:none">${themePath}/art/divers/white.png</path> -->
+					 <!-- <path ifSubset="user-logo:custom">./your-logo.png</path> -->
+					 <!-- <path ifSubset="user-logo:custom">./../../../../your-logo.png</path>  -->
+					 <!-- <path ifSubset="user-logo:custom">./../your-logo.png</path> -->
+					 <!-- <path ifSubset="user-logo:custom">./your-logo.gif</path> -->
+					 <!-- <path ifSubset="user-logo:custom">./../../../../your-logo.gif</path>  -->
+					 <!-- <path ifSubset="user-logo:custom">./../your-logo.gif</path> -->
+					 
+					 <!-- <path ifSubset="user-logo:cheevos">./art/logo-user/retroachievements.png</path> -->
+					 
+					 <!-- <visible ifSubset="user-logo:none">false</visible> -->
+				<!-- </image> -->
 		
 		<!-- Recup de l'avatar RA sur le net -->
 		<!-- ATTENTION a l'ES_LOG qui s'affole !!!! -->
