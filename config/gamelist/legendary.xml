@@ -29,9 +29,13 @@ originally based on: "carbon"
 		<visible>true</visible>
 	</image>
 	
-	<image name="md_image_new">
+	<image name="md_image_new, publisher_logo">
 		<visible>false</visible>
     </image>
+	
+	<text name="publisher_text" extra="true">
+		<visible>false</visible>
+	</text>	
 
 	<video name="md_video_new">
 		<visible>false</visible>
@@ -899,32 +903,16 @@ originally based on: "carbon"
 	
 	
 	
-    <textlist name="gamelist">
+    <textlist name="gamelist" extra="true" >
 		<origin>0 0</origin>									
-	    <glowColor>00000010</glowColor>
-	    <glowSize>2</glowSize>
-		<zIndex>30</zIndex> 
 		<!-- <selectorHeight>0.04</selectorHeight> -->
-		<primaryColor>C0C0C0</primaryColor>
-		<secondaryColor>F0F0F0</secondaryColor>
-		<selectorColor>${centerFadeColor}</selectorColor>
-		<selectedColor>fdde0b</selectedColor>
-		<extraTextColor>c0a767</extraTextColor>
 		<extraTextColor if="${system.theme} == 'RA multiplayer'" >ffffff00</extraTextColor>
 		<forceUppercase>0</forceUppercase>
 		<pos>0.01 0.17</pos>
 		<size>0.291 0.755</size>
 		<alignment>left</alignment>
 		<horizontalMargin>0.00</horizontalMargin>
-		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<lines>17</lines>
-		<scrollSound>./../../art/sounds/scroll.wav</scrollSound>
 		<scrollbarColor>96969620</scrollbarColor>
-		<scrollbarCorner>0.49</scrollbarCorner>
-		<scrollbarSize>0.0065</scrollbarSize>
-		<scrollbarAlignment>outerright</scrollbarAlignment>
-		<horizontalMargin>0.005</horizontalMargin> 
     </textlist>
 	
 	
@@ -1072,11 +1060,11 @@ originally based on: "carbon"
 		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
 		<fontSize>0.022</fontSize>
 		<storyboard event="open">
-			<animation property="size" to="0.45 0.196" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.45 0.191" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		<storyboard event="activate">
 			<animation property="opacity" to="1" begin="1200" duration="100" mode="linear"/>
-			<animation property="size" to="0.45 0.196" begin="1200" duration="200" mode="linear"/>
+			<animation property="size" to="0.45 0.191" begin="1200" duration="200" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivate">
 		   <animation property="opacity" to="0" duration="1" mode="linear"/>

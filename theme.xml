@@ -766,7 +766,7 @@ originally based on: "carbon"
 	</subset>
 	
 	
-	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="detailed, collector, rvgm, videofull   (AUTO=ubuntu)">
+	<subset name="gamelistFont" displayName="${gamelistFont}" appliesTo="detailed, collector, legendary, rvgm, videofull   (AUTO=ubuntu)">
         <include name="auto"/>
 		<include name="ubuntu"/>
 		<include name="ubuntu-bold"/>
@@ -774,7 +774,7 @@ originally based on: "carbon"
 		<include name="charge-vector"/>
         <include name="flatwheat"/>
     </subset>
-	<subset name="gamelistLines" displayName="${gamelistLines}" appliesTo="detailed, collector, rvgm, videofull, primacy   (AUTO=17)">
+	<subset name="gamelistLines" displayName="${gamelistLines}" appliesTo="detailed, collector, legendary, rvgm, videofull, primacy   (AUTO=17)">
         <include name="auto"/>
         <include name="9"/>
         <include name="11"/>
@@ -787,7 +787,7 @@ originally based on: "carbon"
         <include name="25"/>
 		<include name="27"/>
     </subset>
-    <subset name="gamelistFontSize" displayName="${gamelistFontSize}" appliesTo="detailed, collector, rvgm, videofull, primacy   (AUTO=0.021)">
+    <subset name="gamelistFontSize" displayName="${gamelistFontSize}" appliesTo="detailed, collector, legendary, rvgm, videofull, primacy   (AUTO=0.021)">
         <include name="auto"/>
 		<include name="0.017"/>
         <include name="0.018"/>

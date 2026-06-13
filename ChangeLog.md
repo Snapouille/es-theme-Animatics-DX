@@ -1,3 +1,6 @@
+## V 2.51 - (13 06 2026)
+Legendary view : fixed gamelist customization settings
+
 ## V 2.50 - (12 06 2026)
 - Legendary view: Added automatic support for Japanese box art layouts  
 - Collector view: Improved layouts with and without the helpbar
