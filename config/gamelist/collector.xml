@@ -794,6 +794,7 @@
 	<path>firstfile(
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/manual-override/" + lower(${fig_family}) + ".png",
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/genre/" + lower(${fig_genre}) + ".png")
 	</path>
 </image>
@@ -803,6 +804,7 @@
 	<path>firstfile(
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/manual-override/" + lower(${fig_family}) + ".png",
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/genre/" + lower(${fig_genre}) + ".png",
 	    "${themePath}/art/figurines/" + {game:system:theme} + "-default.png",
 		"${themePath}/art/figurines/" + {game:system:theme} + ".png")
@@ -1102,6 +1104,58 @@
 	<size>0.55625 0.2675926</size>									
 	<pos>0.1640625 0.05</pos>									
 </image>
+
+
+
+
+	<!-- on fait sortir la cartridge par la gauche de derrrière le boxart -->		
+	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
+		<path>{game:cartridge}</path>
+		<pos>-0.185 0.691</pos>
+		<pos ifHelpPrompts="false">-0.185 0.73</pos>		
+		<maxSize>0.25 0.25</maxSize>
+		<opacity>0</opacity>
+		<zIndex>100</zIndex>
+		<storyboard event="open">   
+			<animation property="opacity" to="1" begin="100" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="100" duration="300" mode="EaseOut"/>
+		</storyboard>
+		<storyboard event="activateNext">     
+			<animation property="opacity" to="1" begin="100" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="100" duration="300" mode="EaseOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">     
+			<animation property="opacity" to="1" begin="100" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="100" duration="300" mode="EaseOut"/>
+		</storyboard>      
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+    </image>
+
+
+	<!-- AMSTRAD CPC -->
+	<image name="cartridge_ID" if="${system.theme} == 'amstradcpc' " extra="true">
+		<maxSize>0.165 0.236600</maxSize>
+		<pos>-0.25 0.69</pos>
+		<pos ifHelpPrompts="false">-0.25 0.75</pos>		
+    </image>
+
+
+	<!-- ATARI LYNX -->
+	<image name="cartridge_ID" if="${system.theme} == 'atarilynx' " extra="true">
+		<maxSize>0.169248 0.178002</maxSize>
+		<pos>-0.17 0.75</pos>
+		<pos ifHelpPrompts="false">-0.17 0.79</pos>		
+    </image>
+
+
+
+
+
 	
 
 

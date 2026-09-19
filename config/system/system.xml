@@ -1338,6 +1338,11 @@ originally based on: "carbon"
 	  <zIndex>2001</zIndex>
     </image>
 	
+	<!-- On masque l'icone STAT par défaut -->
+	<image name="stats-icon" extra="true">
+		<visible>false</visible>
+	</image>
+	
 	<!-- On affiche l'icone STAT seulement si l'utilisateur à choisi Total des jeux ou stats détaillés -->
 	<image name="stats-icon" ifSubset="InfoCustomView:total|detailed" extra="true">
 		<color>FFFFFF</color>
@@ -1561,13 +1566,24 @@ originally based on: "carbon"
 	  <zIndex>2001</zIndex>
     </image>
 	
+	
+	
+	
+	<!-- On masque l'icone STAT par défaut -->
+	<image name="stats-icon" extra="true">
+		<visible>false</visible>
+	</image>
+	
 	<!-- On affiche l'icone STAT seulement si l'utilisateur à choisi Total des jeux ou stats détaillés -->
 	<image name="stats-icon" ifSubset="InfoCustomView:total|detailed" extra="true">
+		<visible>true</visible>
 		<color>FFFFFF</color>
 		<size>0.028125 0.05</size>									
 		<pos>0.3810417 0.3138889</pos>									
 		<path>./../../art/icons/rvgm-playcount-icon.png</path>
 	</image>
+	
+	
 </view>
 
 
@@ -1586,7 +1602,7 @@ originally based on: "carbon"
 		<visible>false</visible>
     </screenshader>
 	
-	<text name="systemInfoEx, systemInfoEx2,systemInfoExNull" extra="static">
+	<text name="systemInfoEx, systemInfoEx2, systemInfoExNull, systemInfo" extra="static">
 		<fontSize>0.023</fontSize>
 		<size>0.45 0.28</size>
 		<pos>0.03 -0.095</pos>

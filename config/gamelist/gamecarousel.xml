@@ -811,6 +811,7 @@ originally based on: "carbon"
 	<path>firstfile(
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/manual-override/" + lower(${fig_family}) + ".png",
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/genre/" + lower(${fig_genre}) + ".png")
 	</path>
 </image>
@@ -820,6 +821,7 @@ originally based on: "carbon"
 	<path>firstfile(
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/manual-override/" + lower(${fig_family}) + ".png",
 		"${themePath}/../zzz-DX_Add-On/_inc/figurines/genre/" + lower(${fig_genre}) + ".png",
 	    "${themePath}/art/figurines/" + {game:system:theme} + "-default.png",
 		"${themePath}/art/figurines/" + {game:system:theme} + ".png")

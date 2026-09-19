@@ -656,14 +656,14 @@ originally based on: "carbon"
 
 	<!-- Choix d'afficher les boxback ou non -->
 	<subset name="boxbackDisplay" displayName="${boxback.Display}" appliesTo="detailed, collector, rvgm, videofull, primacy">
-		<include name="Show" displayName="${show}"/>
 		<include name="Hide" displayName="${hide}"/>
+		<include name="Show" displayName="${show}"/>
 	</subset>
 	
 	<!-- Choix d'afficher les cartridges ou non -->
 	<subset name="cartridgeDisplay" displayName="${cartridge.Display}" appliesTo="videofull, primacy, gamecarousel, collector, rvgm">
-		<include name="Show" displayName="${show}"/>
 		<include name="Hide" displayName="${hide}"/>
+		<include name="Show" displayName="${show}"/>
 	</subset>
 	
 	<!-- ===================================== -->

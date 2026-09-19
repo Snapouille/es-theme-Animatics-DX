@@ -16,16 +16,16 @@
 	</image>
   
 	<video name="md_video">
-		<pos>0.5144271 0.5782407</pos>		
-		<pos ifHelpPrompts="false">0.5144271 0.6342407</pos>
-		<size>0.1442708 0.1824074</size>									
+		<pos>0.51433 0.578777</pos>
+		<pos ifHelpPrompts="false">0.51433 0.634777</pos>
+		<size>0.137572 0.173309</size>
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<size>0.1442708 0.1824074</size>																
-		<pos>0.5144271 0.5732407</pos>	
-		<pos ifHelpPrompts="false">0.5144271 0.6342407</pos>
+		<pos>0.51433 0.578777</pos>
+		<size>0.158416 0.199259</size>
+		<pos ifHelpPrompts="false">0.5144271 0.634777</pos>
 	</image>
 	
 </view>
@@ -45,22 +45,22 @@
 	</image>
   
 	<image name="preview_titleshots_collector">
-		<pos>0.4844271 0.5782407</pos>		
-		<pos ifHelpPrompts="false">0.4844271 0.6342407</pos>
-		<size>0.1442708 0.1824074</size>									
+		<pos>0.484627 0.578384</pos>
+		<pos ifHelpPrompts="false">0.484627 0.634384</pos>
+		<size>0.137572 0.173309</size>
 	</image>
 	
 	<video name="preview_video_collector">
-		<pos>0.4844271 0.5782407</pos>		
-		<pos ifHelpPrompts="false">0.4844271 0.6342407</pos>
-		<size>0.1442708 0.1824074</size>									
+		<pos>0.484627 0.578384</pos>
+		<pos ifHelpPrompts="false">0.484627 0.634384</pos>
+		<size>0.137572 0.173309</size>
 	</video>
 	
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
-		<size>0.1442708 0.1824074</size>																
-		<pos>0.4844271 0.5732407</pos>	
-		<pos ifHelpPrompts="false">0.4844271 0.6342407</pos>
+		<pos>0.484627 0.578384</pos>
+		<pos ifHelpPrompts="false">0.484627 0.634384</pos>
+		<size>0.158416 0.199259</size>	
 	</image>
 	
 </customView>  
