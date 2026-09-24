@@ -1,3 +1,8 @@
+## V 2.53 - (24 09 2026)
+- Collector view : Added cartridge and disc layout animations
+- Added Delphine Software multiple publisher logo
+
+
 ## V 2.52 - (19 09 2026)
 - Added support for displaying figurines with special characters in their name  
 - Set BoxBack and Cartridge to Hide by default  

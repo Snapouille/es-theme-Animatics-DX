@@ -5,20 +5,27 @@
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
+	
 		<image name="avatar" extra="true">
 			<origin>0.5 0.5</origin>
 			<size>0.1776042 0.4555556</size>									
-			<pos>0.23 0.4777778</pos>	
+			<pos>0.23 0.479</pos>	
 			<path>./avatar.png</path>
-
+			
 			<storyboard>
 				<animation property="x" to="0.28" begin="700" duration="2000" mode="EaseOut"/>
 				<animation property="size" to="0.2796875 0.7481481" begin="2700" duration="375" mode="bump"/>
-				<animation property="pos"  to="0.4908854 0.4064815"  begin="2700" duration="375" mode="EaseOut"/>
+				<animation property="pos"  to="0.4908854 0.4055"  begin="2700" duration="375" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard ifHelpPrompts="false">
+				<animation property="x" to="0.28" begin="700" duration="2000" mode="EaseOut"/>
+				<animation property="size" to="0.2796875 0.7481481" begin="2700" duration="375" mode="bump"/>
+				<animation property="pos"  to="0.4908854 0.4755"  begin="2700" duration="375" mode="EaseOut"/>
 			</storyboard>
 		
 		</image>
+		
 	</view>
 
 </theme>
-<pos></pos>									

@@ -33,6 +33,7 @@
 	<image name="figurines,shadow_figurines" extra="true">
 		<pos>0.25 0.795</pos>	
 		<pos ifHelpPrompts="false">0.25 0.845</pos>
+		<x ifSubset="cartridgeDisplay:Show">0.26</x>
 	</image>
   
 	<image name="ecran_console" extra="static">

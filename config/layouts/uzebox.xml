@@ -43,6 +43,7 @@
 		<pos ifHelpPrompts="false">0.297 0.755</pos>
 		<maxSize>0.11 0.25</maxSize>	
 		<scale>0.85</scale>
+		<x ifSubset="cartridgeDisplay:Show">0.297</x>
 	</image>
 	
 	<image name="ecran_console_defaut">

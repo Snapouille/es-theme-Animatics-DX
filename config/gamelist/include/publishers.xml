@@ -19,6 +19,9 @@
 		lower(${game_publi}) == 'codemasters' && {game:releasedate} &gt;= '20070101T000000' ? "${themePath}/art/publisher/codemasters2007.png" :
 		lower(${game_publi}) == 'codemasters' && {game:releasedate} &gt;= '19930101T000000' ? "${themePath}/art/publisher/codemasters1993.png" :
 		lower(${game_publi}) == 'cryo interactive' && {game:releasedate} &gt;= '19990101T000000' ? "${themePath}/art/publisher/cryo interactive1999.png" :
+		lower(${game_publi}) == 'delphine software' && {game:releasedate} &gt;= '19970101T000000' ? "${themePath}/art/publisher/delphine software1997.png" :
+		lower(${game_publi}) == 'delphine software' && {game:releasedate} &gt;= '19940101T000000' ? "${themePath}/art/publisher/delphine software1994.png" :
+		lower(${game_publi}) == 'delphine software' && {game:releasedate} &gt;= '19920101T000000' ? "${themePath}/art/publisher/delphine software1992.png" :
 		lower(${game_publi}) == 'domark' && {game:releasedate} &gt;= '19910101T000000' ? "${themePath}/art/publisher/domark1991.png" :
 		lower(${game_publi}) == 'domark' && {game:releasedate} &gt;= '19900101T000000' ? "${themePath}/art/publisher/domark1990.png" :
 		lower(${game_publi}) == 'ea sports' && {game:releasedate} &gt;= '20000101T000000' ? "${themePath}/art/publisher/ea sports2000.png" :

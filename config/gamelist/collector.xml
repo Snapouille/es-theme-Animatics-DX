@@ -751,6 +751,7 @@
 	<origin>0.5 0.5</origin>
 	<pos>0.3 0.795</pos>									
 	<pos ifHelpPrompts="false">0.3 0.845</pos>
+	<x ifSubset="cartridgeDisplay:Show">0.33</x>
 	<maxSize>0.11 0.25</maxSize>	
 	<verticalAlignment>bottom</verticalAlignment>
 	<color>FFFFFF</color>
@@ -877,36 +878,40 @@
 		<reflexion>0 0</reflexion>
 		<!-- <default>./../../art/divers/noboxart.png</default> -->
 		<zIndex>30</zIndex>
-			<storyboard event="open">
-                <animation property="offsetX" from="-0.5" to="0" duration="400" mode="EaseOutQuint"/>
-			</storyboard>
-			<storyboard event="activateNext">
-                <animation property="offsetX" from="-0.5" to="0" duration="400" mode="EaseOutQuint"/>
-			</storyboard>
-			<storyboard event="activatePrev">
-                <animation property="offsetX" from="-0.5" to="0" duration="400" mode="EaseOutQuint"/>
-			</storyboard>
-			<storyboard event="deactivate">
-			    <animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>		
+		
+		
 			<storyboard ifSubset="boxbackDisplay:Show" event="open">        
-				<animation enabled="exists({game:boxback})" property="scale" to="0.8" begin="7000" duration="150" mode="linear"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7000" duration="150" mode="linear"/>
-				<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15000" duration="150" mode="linear"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15000" duration="150" mode="linear"/>
+				<!-- la box avant part légèrement vers la gauche -->
+				<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="7000" duration="250" mode="EaseIn"/>
+				<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="7000" duration="250" mode="EaseIn"/>
+				<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7200" duration="50" mode="linear"/>
+
+				<!-- retour de la box avant -->
+				<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="15250" duration="250" mode="EaseOut"/>
+				<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15250" duration="250" mode="EaseOut"/>
+				<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15250" duration="50" mode="linear"/>
 			</storyboard>
+
 			<storyboard ifSubset="boxbackDisplay:Show" event="activateNext">        
-				<animation enabled="exists({game:boxback})" property="scale" to="0.8" begin="7000" duration="150" mode="linear"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7000" duration="150" mode="linear"/>
-				<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15000" duration="150" mode="linear"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15000" duration="150" mode="linear"/>
+				<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="7000" duration="250" mode="EaseIn"/>
+				<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="7000" duration="250" mode="EaseIn"/>
+				<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7200" duration="50" mode="linear"/>
+
+				<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="15250" duration="250" mode="EaseOut"/>
+				<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15250" duration="250" mode="EaseOut"/>
+				<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15250" duration="50" mode="linear"/>
 			</storyboard>
+
 			<storyboard ifSubset="boxbackDisplay:Show" event="activatePrev">        
-				<animation enabled="exists({game:boxback})" property="scale" to="0.8" begin="7000" duration="150" mode="linear"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7000" duration="150" mode="linear"/>
-				<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15000" duration="150" mode="linear"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15000" duration="150" mode="linear"/>
-			</storyboard>            
+				<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="7000" duration="250" mode="EaseIn"/>
+				<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="7000" duration="250" mode="EaseIn"/>
+				<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7200" duration="50" mode="linear"/>
+
+				<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="15250" duration="250" mode="EaseOut"/>
+				<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15250" duration="250" mode="EaseOut"/>
+				<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15250" duration="50" mode="linear"/>
+			</storyboard>
+			
 			<storyboard ifSubset="boxbackDisplay:Show" event="deactivateNext">
 				<animation property="opacity" to="1" duration="1" mode="linear"/>
 			</storyboard>
@@ -927,30 +932,48 @@
 		<scale>0.9</scale>
 		<opacity>0</opacity>
 		<zIndex>35</zIndex>
+		
+		
 		<storyboard event="open">        
-			<animation property="scale" to="1" begin="7000" duration="150" mode="linear"/>
-			<animation property="opacity" to="1" begin="7000" duration="150" mode="linear"/>
-			<animation property="scale" to="0.8" begin="15000" duration="150" mode="linear"/>
-			<animation property="opacity" to="0" begin="15000" duration="150" mode="linear"/>
+			<!-- la boxback arrive légèrement depuis la droite -->
+			<animation property="opacity" to="1" begin="7250" duration="50" mode="linear"/>
+			<animation property="offsetX" from="0.025" to="0" begin="7250" duration="250" mode="EaseOut"/>
+			<animation property="scale" from="0.75" to="1" begin="7250" duration="250" mode="EaseOut"/>
+
+			<!-- la boxback repart vers la gauche -->
+			<animation property="offsetX" to="-0.025" begin="15000" duration="250" mode="EaseIn"/>
+			<animation property="scale" to="0.75" begin="15000" duration="250" mode="EaseIn"/>
+			<animation property="opacity" to="0" begin="15200" duration="50" mode="linear"/>
 		</storyboard>
+
 		<storyboard event="activateNext">        
-			<animation property="scale" to="1" begin="7000" duration="150" mode="linear"/>
-			<animation property="opacity" to="1" begin="7000" duration="150" mode="linear"/>
-			<animation property="scale" to="0.8" begin="15000" duration="150" mode="linear"/>
-			<animation property="opacity" to="0" begin="15000" duration="150" mode="linear"/>
+			<animation property="opacity" to="1" begin="7250" duration="50" mode="linear"/>
+			<animation property="offsetX" from="0.025" to="0" begin="7250" duration="250" mode="EaseOut"/>
+			<animation property="scale" from="0.75" to="1" begin="7250" duration="250" mode="EaseOut"/>
+
+			<animation property="offsetX" to="-0.025" begin="15000" duration="250" mode="EaseIn"/>
+			<animation property="scale" to="0.75" begin="15000" duration="250" mode="EaseIn"/>
+			<animation property="opacity" to="0" begin="15200" duration="50" mode="linear"/>
 		</storyboard>
+
 		<storyboard event="activatePrev">        
-			<animation property="scale" to="1" begin="7000" duration="150" mode="linear"/>
-			<animation property="opacity" to="1" begin="7000" duration="150" mode="linear"/>
-			<animation property="scale" to="0.8" begin="15000" duration="150" mode="linear"/>
-			<animation property="opacity" to="0" begin="15000" duration="150" mode="linear"/>
-		</storyboard>      
+			<animation property="opacity" to="1" begin="7250" duration="50" mode="linear"/>
+			<animation property="offsetX" from="0.025" to="0" begin="7250" duration="250" mode="EaseOut"/>
+			<animation property="scale" from="0.75" to="1" begin="7250" duration="250" mode="EaseOut"/>
+
+			<animation property="offsetX" to="-0.025" begin="15000" duration="250" mode="EaseIn"/>
+			<animation property="scale" to="0.75" begin="15000" duration="250" mode="EaseIn"/>
+			<animation property="opacity" to="0" begin="15200" duration="50" mode="linear"/>
+		</storyboard>
+		
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivatePrev">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
+		
+		
     </image>
 	
 	<!-- pour les box plus en mode paysage on descend un peu le tout -->
@@ -1107,56 +1130,519 @@
 
 
 
+	<!-- animation 1 remplacer finalement pour la suivante -->
+	<!-- on fait sortir la cartridge par la gauche -->		
+	<!-- <image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true"> -->
+		<!-- <path>{game:cartridge}</path> -->
+		<!-- <maxSize>0.27 0.27</maxSize> -->
+		<!-- <pos>-0.19 0.66</pos> -->
+		<!-- <pos ifHelpPrompts="false">-0.19 0.71</pos>		 -->
+		<!-- <opacity>0</opacity> -->
+		<!-- <zIndex>100</zIndex> -->
+		
+		
+		<!-- <storyboard event="open"> -->
+			<!-- <animation property="opacity" to="1" begin="600" duration="40" mode="linear"/> -->
+			<!-- <animation property="offsetX" to="0.32" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" from="20" to="-4" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="scale" from="0.72 0.92" to="1.04 1.04" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="offsetX" to="0.3" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" to="0" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="scale" to="1 1" begin="860" duration="140" mode="EaseOut"/> -->
+		<!-- </storyboard> -->
 
-	<!-- on fait sortir la cartridge par la gauche de derrrière le boxart -->		
-	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
-		<path>{game:cartridge}</path>
-		<pos>-0.185 0.691</pos>
-		<pos ifHelpPrompts="false">-0.185 0.73</pos>		
-		<maxSize>0.25 0.25</maxSize>
-		<opacity>0</opacity>
-		<zIndex>100</zIndex>
-		<storyboard event="open">   
-			<animation property="opacity" to="1" begin="100" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.3" begin="100" duration="300" mode="EaseOut"/>
-		</storyboard>
-		<storyboard event="activateNext">     
-			<animation property="opacity" to="1" begin="100" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.3" begin="100" duration="300" mode="EaseOut"/>
-		</storyboard>
-		<storyboard event="activatePrev">     
-			<animation property="opacity" to="1" begin="100" duration="1" mode="linear"/>
-			<animation property="offsetX" to="0.3" begin="100" duration="300" mode="EaseOut"/>
-		</storyboard>      
-		<storyboard event="deactivateNext">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
-		<storyboard event="deactivatePrev">
-			<animation property="opacity" to="0" duration="1" mode="linear"/>
-		</storyboard>
+		<!-- <storyboard event="activateNext"> -->
+			<!-- <animation property="opacity" to="1" begin="600" duration="40" mode="linear"/> -->
+			<!-- <animation property="offsetX" to="0.32" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" from="20" to="-4" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="scale" from="0.72 0.92" to="1.04 1.04" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="offsetX" to="0.3" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" to="0" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="scale" to="1 1" begin="860" duration="140" mode="EaseOut"/> -->
+		<!-- </storyboard> -->
+
+		<!-- <storyboard event="activatePrev"> -->
+			<!-- <animation property="opacity" to="1" begin="600" duration="40" mode="linear"/> -->
+			<!-- <animation property="offsetX" to="0.32" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" from="20" to="-4" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="scale" from="0.72 0.92" to="1.04 1.04" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="offsetX" to="0.3" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" to="0" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="scale" to="1 1" begin="860" duration="140" mode="EaseOut"/> -->
+		<!-- </storyboard> -->
+
+		
+		<!-- <storyboard event="deactivateNext"> -->
+			<!-- <animation property="opacity" to="0" duration="1" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="deactivatePrev"> -->
+			<!-- <animation property="opacity" to="0" duration="1" mode="linear"/> -->
+		<!-- </storyboard> -->
+    <!-- </image> -->
+	
+	
+	
+	<!-- dans un premier temps on installe des maxsize et des pos suivant les systèmes -->
+	
+	<image name="cartridge_ID, cartridge_back" extra="true">
+		<maxSize>0.27 0.27</maxSize>
+		<pos>-0.19 0.66</pos>
+		<pos ifHelpPrompts="false">-0.19 0.71</pos>
     </image>
-
-
-	<!-- AMSTRAD CPC -->
-	<image name="cartridge_ID" if="${system.theme} == 'amstradcpc' " extra="true">
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'scummvm'" extra="true">
 		<maxSize>0.165 0.236600</maxSize>
-		<pos>-0.25 0.69</pos>
-		<pos ifHelpPrompts="false">-0.25 0.75</pos>		
+		<pos>-0.2 0.688</pos>
+		<pos ifHelpPrompts="false">-0.2 0.74</pos>		
     </image>
 
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'nes'" extra="true">
+		<maxSize>0.265 0.265</maxSize>
+		<pos>-0.195 0.655</pos>
+		<pos ifHelpPrompts="false">-0.195 0.705</pos>		
+    </image>
 
-	<!-- ATARI LYNX -->
-	<image name="cartridge_ID" if="${system.theme} == 'atarilynx' " extra="true">
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == '3do'
+							|| 	   ${system.theme} == 'dreamcast'
+							|| 	   ${system.theme} == 'neogeocd'
+						    || 	   ${system.theme} == 'pce-cd' 
+							|| 	   ${system.theme} == 'psx'
+							|| 	   ${system.theme} == 'ps2'
+							|| 	   ${system.theme} == 'ps3'
+							|| 	   ${system.theme} == 'ps4'
+							|| 	   ${system.theme} == 'saturn'
+							" extra="true">
+		<maxSize>0.31 0.31</maxSize>
+		<pos>-0.21 0.61</pos>
+		<pos ifHelpPrompts="false">-0.21 0.66</pos>		
+    </image>
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'pce-cd' 
+							|| 	   ${system.theme} == 'wiiu'
+							" extra="true">
+		<maxSize>0.31 0.31</maxSize>
+		<pos>-0.225 0.61</pos>
+		<pos ifHelpPrompts="false">-0.225 0.66</pos>		
+    </image>
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'megacd'
+							|| 	   ${system.theme} == 'megacd'
+							" extra="true">
+		<maxSize>0.31 0.31</maxSize>
+		<pos>-0.22 0.61</pos>
+		<pos ifHelpPrompts="false">-0.22 0.66</pos>		
+    </image>
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'amstradcpc'  
+							|| 	   ${system.theme} == 'c64' 
+						    || 	   ${system.theme} == 'pc88' 
+						    || 	   ${system.theme} == 'pet' 
+						    || 	   ${system.theme} == 'thomson' 
+						    || 	   ${system.theme} == 'x1' 
+						    || 	   ${system.theme} == 'x68000' 
+						    || 	   ${system.theme} == 'zxspectrum' 
+							" extra="true">
+		<maxSize>0.165 0.236600</maxSize>
+		<pos>-0.25 0.688</pos>
+		<pos ifHelpPrompts="false">-0.25 0.74</pos>		
+    </image>
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'atarilynx'  
+						    || 	   ${system.theme} == 'arduboy' 
+						    || 	   ${system.theme} == 'gamate' 
+						    || 	   ${system.theme} == 'gamepock'
+						    || 	   ${system.theme} == 'gx4000'
+						    || 	   ${system.theme} == 'gp32'
+						    || 	   ${system.theme} == 'gmaster'
+							|| 	   ${system.theme} == 'megaduck'
+							|| 	   ${system.theme} == 'ngp'
+							|| 	   ${system.theme} == 'ngpc'
+							|| 	   ${system.theme} == 'pokemini'
+							|| 	   ${system.theme} == 'psp'
+							|| 	   ${system.theme} == 'sgb'
+							|| 	   ${system.theme} == 'sgb-msu1'
+							|| 	   ${system.theme} == 'solarus'
+						    || 	   ${system.theme} == 'virtualboy' 
+							|| 	   ${system.theme} == 'wasm4'
+							" extra="true">
 		<maxSize>0.169248 0.178002</maxSize>
 		<pos>-0.17 0.75</pos>
 		<pos ifHelpPrompts="false">-0.17 0.79</pos>		
     </image>
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'gb'
+						    || 	   ${system.theme} == 'gb2players'
+						    || 	   ${system.theme} == 'gbc'
+						    || 	   ${system.theme} == 'gbc2players'
+							" extra="true">
+		<maxSize>0.169248 0.178002</maxSize>
+		<pos>-0.15 0.73</pos>
+		<pos ifHelpPrompts="false">-0.15 0.77</pos>		
+    </image>
+	
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'atari800'  
+						    || 	   ${system.theme} == 'atari2600' 
+						    || 	   ${system.theme} == 'atari5200' 
+						    || 	   ${system.theme} == 'atari7800' 
+						    || 	   ${system.theme} == 'arcadia' 
+						    || 	   ${system.theme} == 'astrocade' 
+						    || 	   ${system.theme} == 'amiga' 
+						    || 	   ${system.theme} == 'amiga500' 
+						    || 	   ${system.theme} == 'amiga1200' 
+						    || 	   ${system.theme} == 'amiga4000' 
+						    || 	   ${system.theme} == 'colecovision' 
+						    || 	   ${system.theme} == 'channelf' 
+						    || 	   ${system.theme} == 'creativision' 
+						    || 	   ${system.theme} == 'ecwolf' 
+						    || 	   ${system.theme} == 'fds' 
+						    || 	   ${system.theme} == 'fm7' 
+						    || 	   ${system.theme} == 'intellivision' 
+						    || 	   ${system.theme} == 'odyssey2' 
+						    || 	   ${system.theme} == 'pc' 
+						    || 	   ${system.theme} == 'pcengine' 
+						    || 	   ${system.theme} == 'prboom' 
+						    || 	   ${system.theme} == 'pv1000' 
+						    || 	   ${system.theme} == 'supracan' 
+						    || 	   ${system.theme} == 'supergrafx' 
+						    || 	   ${system.theme} == 'xegs'
+						    || 	   ${system.theme} == 'zx81'
+							" extra="true">
+		<maxSize>0.25 0.23</maxSize>
+		<pos>-0.19 0.695</pos>
+		<pos ifHelpPrompts="false">-0.19 0.733</pos>		
+    </image>
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'atarijaguar'  
+						    || 	   ${system.theme} == 'vectrex'
+						    || 	   ${system.theme} == 'msx' 
+						    || 	   ${system.theme} == 'msx1' 
+						    || 	   ${system.theme} == 'msx2' 
+						    || 	   ${system.theme} == 'neogeo' 
+							" extra="true">
+		<maxSize>0.21 0.21</maxSize>
+		<pos>-0.19 0.705</pos>
+		<pos ifHelpPrompts="false">-0.19 0.755</pos>		
+    </image>
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'snes' 
+						    || 	   ${system.theme} == 'n64'
+						    || 	   ${system.theme} == 'sg-1000' 
+							" extra="true">
+		<maxSize>0.21 0.21</maxSize>
+		<pos>-0.23 0.705</pos>
+		<pos ifHelpPrompts="false">-0.23 0.755</pos>		
+    </image>
+	
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'mastersystem' 
+						    || 	   ${system.theme} == 'megadrive' 
+						    || 	   ${system.theme} == 'sega32x' 
+							" extra="true">
+		<maxSize>0.16 0.18</maxSize>
+		<pos>-0.22 0.745</pos>
+		<pos ifHelpPrompts="false">-0.22 0.795</pos>		
+    </image>
+	
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'gamegear'  
+						    || 	   ${system.theme} == 'gc'
+						    || 	   ${system.theme} == 'supervision'
+							" extra="true">
+		<maxSize>0.19 0.19</maxSize>
+		<pos>-0.17 0.735</pos>
+		<pos ifHelpPrompts="false">-0.17 0.773</pos>		
+    </image>
+	
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'wonderswancolor' 
+						    || 	   ${system.theme} == 'wonderswan'
+							" extra="true">
+		<maxSize>0.15 0.15</maxSize>
+		<pos>-0.19 0.765</pos>
+		<pos ifHelpPrompts="false">-0.19 0.815</pos>		
+    </image>
 
 
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'psvita'  
+						    || 	   ${system.theme} == 'gamecom' 
+						    || 	   ${system.theme} == 'switch' 
+							" extra="true">
+		<maxSize>0.15 0.135</maxSize>
+		<pos>-0.13 0.765</pos>
+		<pos ifHelpPrompts="false">-0.13 0.815</pos>		
+		
+    </image>
 
 
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'gba'  
+						    || 	   ${system.theme} == 'gba2players' 
+						    || 	   ${system.theme} == 'nds' 
+						    || 	   ${system.theme} == '3ds'
+							" extra="true">
+		<maxSize>0.13 0.12</maxSize>
+		<pos>-0.205 0.765</pos>
+		<pos ifHelpPrompts="false">-0.205 0.815</pos>		
+    </image>
 
 	
+	<!-- Puis on commence le mouvement avec la cartouche derrière la box -->
+	
+	<!-- CARTOUCHE ARRIERE -->
+	<image name="cartridge_back" ifSubset="cartridgeDisplay:Show" extra="true">
+		<path>{game:cartridge}</path>
+
+		<scale>0.75</scale>
+		
+		<!-- si système avec un CD on passe direct à un scale à 0.75 -->
+		<scale if="${system.theme} == 'amigacd32' ||
+				   ${system.theme} == 'amigacdtv' ||
+				   ${system.theme} == 'atarijaguarcd' ||
+				   ${system.theme} == 'cdi' ||
+				   ${system.theme} == 'dreamcast' ||
+				   ${system.theme} == 'fmtowns' ||
+				   ${system.theme} == 'neogeocd' ||
+				   ${system.theme} == 'pce-cd' ||
+				   ${system.theme} == 'pcfx' ||
+				   ${system.theme} == 'psx' ||
+				   ${system.theme} == 'saturn' ||
+				   ${system.theme} == 'segacd' ||
+				   ${system.theme} == 'megacd' ||
+				   ${system.theme} == 'snes-msu1' ||
+				   ${system.theme} == 'windows' ||
+				   ${system.theme} == '3do' ||
+				   ${system.theme} == 'daphne' ||
+				   ${system.theme} == 'gc' ||
+				   ${system.theme} == 'naomi' ||
+				   ${system.theme} == 'naomi2' ||
+				   ${system.theme} == 'ps2' ||
+				   ${system.theme} == 'ps3' ||
+				   ${system.theme} == 'singe' ||
+				   ${system.theme} == 'triforce' ||
+				   ${system.theme} == 'wii' ||
+				   ${system.theme} == 'wiiu' ||
+				   ${system.theme} == 'xbox' ||
+				   ${system.theme} == 'xbox360'">0.75</scale>		
+		   
+		<offsetY>-0.15</offsetY>
+		
+		<!-- pour les grosses cartouches ou système ayant un problème de visuels, on change aussi l'animation -->
+		<offsetY if="${system.theme} == 'dreamcast' ||
+					 ${system.theme} == 'snes' ||
+					 ${system.theme} == 'n64' ||
+					 ${system.theme} == 'gba' ||
+					 ${system.theme} == 'wonderswan' ||
+					 ${system.theme} == 'wonderswancolor' ||
+					 ${system.theme} == 'amigacd32' ||
+					 ${system.theme} == 'amigacdtv' ||
+					 ${system.theme} == 'atarijaguarcd' ||
+					 ${system.theme} == 'cdi' ||
+					 ${system.theme} == 'fmtowns' ||
+					 ${system.theme} == 'neogeocd' ||
+					 ${system.theme} == 'pce-cd' ||
+					 ${system.theme} == 'pcfx' ||
+					 ${system.theme} == 'psx' ||
+					 ${system.theme} == 'saturn' ||
+					 ${system.theme} == 'segacd' ||
+					 ${system.theme} == 'megadrive' ||
+					 ${system.theme} == 'megacd' ||
+					 ${system.theme} == 'snes-msu1' ||
+					 ${system.theme} == 'windows' ||
+					 ${system.theme} == '3do' ||
+					 ${system.theme} == 'daphne' ||
+					 ${system.theme} == 'gc' ||
+					 ${system.theme} == 'naomi' ||
+					 ${system.theme} == 'naomi2' ||
+					 ${system.theme} == 'ps2' ||
+					 ${system.theme} == 'ps3' ||
+					 ${system.theme} == 'singe' ||
+					 ${system.theme} == 'triforce' ||
+					 ${system.theme} == 'wiiu' ||
+					 ${system.theme} == 'xbox' ||
+					 ${system.theme} == 'xbox360'">-0.1</offsetY>
+					 
+		<opacity>0</opacity>
+		<zIndex>8</zIndex>
+
+		<storyboard event="open">
+			<animation property="opacity" to="1" begin="500" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="850" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activateNext">
+			<animation property="opacity" to="1" begin="500" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="850" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="activatePrev">
+			<animation property="opacity" to="1" begin="500" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="850" duration="1" mode="linear"/>
+		</storyboard>
+		
+		
+		<!-- <storyboard event="open" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'"> -->
+			<!-- <animation property="opacity" to="1" begin="500" duration="1" mode="linear"/> -->
+			<!-- <animation property="offsetX" from="0.3" to="-0.10" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="opacity" to="0" begin="850" duration="1" mode="linear"/> -->
+		<!-- </storyboard> -->
+
+		<!-- <storyboard event="activateNext" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'"> -->
+			<!-- <animation property="opacity" to="1" begin="500" duration="1" mode="linear"/> -->
+			<!-- <animation property="offsetX" from="0.3" to="-0.10" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="opacity" to="0" begin="850" duration="1" mode="linear"/> -->
+		<!-- </storyboard> -->
+
+		<!-- <storyboard event="activatePrev" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'"> -->
+			<!-- <animation property="opacity" to="1" begin="500" duration="1" mode="linear"/> -->
+			<!-- <animation property="offsetX" from="0.3" to="-0.10" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/> -->
+			<!-- <animation property="opacity" to="0" begin="850" duration="1" mode="linear"/> -->
+		<!-- </storyboard> -->
+
+
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</image>
+
+
+
+	<!-- et la cartouche passe devant la box -->
+	<!-- CARTOUCHE AVANT -->
+	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
+		<path>{game:cartridge}</path>
+
+		<scale>0.82</scale>
+		<opacity>0</opacity>
+		<zIndex>100</zIndex>
+
+		<storyboard event="open">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+		</storyboard>
+
+		<storyboard event="activateNext">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+		</storyboard>
+
+		<storyboard event="activatePrev">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+		</storyboard>
+		
+		<storyboard event="open" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
+			<animation property="offsetX" from="-0.10" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+		</storyboard>
+
+		<storyboard event="activateNext" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
+			<animation property="offsetX" from="-0.10" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+		</storyboard>
+
+		<storyboard event="activatePrev" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
+			<animation property="offsetX" from="-0.10" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+		</storyboard>
+
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</image>	
+	
+	
+	
+	<!-- on masque les cartridges si on est dans une collection -->
+	<image name="cartridge_ID, cartridge_back" if="{system.sortedBy} == 'Collections' || 
+														${system.theme} == 'lcdgames' || 
+														${system.theme} == 'mess' || 
+														${system.theme} == 'ports'" extra="true">
+		<visible>false</visible>
+	</image>
+	
+
+
+
+
+
+
 
 
 

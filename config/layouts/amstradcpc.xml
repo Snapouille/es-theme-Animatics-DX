@@ -36,7 +36,8 @@
 	<image name="figurines,shadow_figurines" extra="true">
 		<pos>0.29 0.61</pos>									
 		<pos ifHelpPrompts="false">0.29 0.653</pos>
-		<maxSize>0.09 0.25</maxSize>	
+		<maxSize>0.09 0.25</maxSize>
+		<x ifSubset="cartridgeDisplay:Show">0.295</x>
 	</image>
 
 	<image name="ecran_console" extra="static">
