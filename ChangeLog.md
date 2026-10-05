@@ -1,16 +1,19 @@
-## V 2.53 - (24 09 2026)
-- Collector view : Added cartridge and disc layout animations
-- Added Delphine Software multiple publisher logo
+## V 2.54 - (05 10 2026)
+- Arcade systems: added multiple selectable bar styles
+- Collector view: Japanese NES cartridge layout fix  
+- Collector view: synchronized cartridge and boxback display  
+- Added the NelfePlay collection (thanks to Another Kif)
+- Various animation improvements  
 
+## V 2.53 - (24 09 2026)
+- Collector view: Added cartridge and disc layout animations
+- Added Delphine Software multiple publisher logo
 
 ## V 2.52 - (19 09 2026)
 - Added support for displaying figurines with special characters in their name  
 - Set BoxBack and Cartridge to Hide by default  
 - Collector view : fixed gamegear screen  
 - GameCarousel view : fixed gamegear screen  
-  
-Cartridge layout in the Collector view is still a work in progress and will be available in the next update.  
-  
   
 ## V 2.51 - (13 06 2026)
 Legendary view : fixed gamelist customization settings

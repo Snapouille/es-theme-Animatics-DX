@@ -879,45 +879,43 @@
 		<!-- <default>./../../art/divers/noboxart.png</default> -->
 		<zIndex>30</zIndex>
 		
+		<storyboard ifSubset="boxbackDisplay:Show" event="open" repeatAt="11410">
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="12910" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="20960" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="54331" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard ifSubset="boxbackDisplay:Show" event="activateNext" repeatAt="11410">
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="12910" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="20960" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="54331" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard ifSubset="boxbackDisplay:Show" event="activatePrev" repeatAt="11410">
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="12910" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="20960" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="54331" duration="1" mode="linear"/>
+		</storyboard>	
 		
-			<storyboard ifSubset="boxbackDisplay:Show" event="open">        
-				<!-- la box avant part légèrement vers la gauche -->
-				<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="7000" duration="250" mode="EaseIn"/>
-				<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="7000" duration="250" mode="EaseIn"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7200" duration="50" mode="linear"/>
-
-				<!-- retour de la box avant -->
-				<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="15250" duration="250" mode="EaseOut"/>
-				<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15250" duration="250" mode="EaseOut"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15250" duration="50" mode="linear"/>
-			</storyboard>
-
-			<storyboard ifSubset="boxbackDisplay:Show" event="activateNext">        
-				<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="7000" duration="250" mode="EaseIn"/>
-				<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="7000" duration="250" mode="EaseIn"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7200" duration="50" mode="linear"/>
-
-				<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="15250" duration="250" mode="EaseOut"/>
-				<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15250" duration="250" mode="EaseOut"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15250" duration="50" mode="linear"/>
-			</storyboard>
-
-			<storyboard ifSubset="boxbackDisplay:Show" event="activatePrev">        
-				<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="7000" duration="250" mode="EaseIn"/>
-				<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="7000" duration="250" mode="EaseIn"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="7200" duration="50" mode="linear"/>
-
-				<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="15250" duration="250" mode="EaseOut"/>
-				<animation enabled="exists({game:boxback})" property="scale" to="1" begin="15250" duration="250" mode="EaseOut"/>
-				<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="15250" duration="50" mode="linear"/>
-			</storyboard>
+		<storyboard ifSubset="boxbackDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="boxbackDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="1" duration="1" mode="linear"/>
+		</storyboard>
 			
-			<storyboard ifSubset="boxbackDisplay:Show" event="deactivateNext">
-				<animation property="opacity" to="1" duration="1" mode="linear"/>
-			</storyboard>
-			<storyboard ifSubset="boxbackDisplay:Show" event="deactivatePrev">
-				<animation property="opacity" to="1" duration="1" mode="linear"/>
-			</storyboard>
 	</image>
 	
 	<!-- On affiche le boxback-->	
@@ -933,46 +931,42 @@
 		<opacity>0</opacity>
 		<zIndex>35</zIndex>
 		
-		
-		<storyboard event="open">        
-			<!-- la boxback arrive légèrement depuis la droite -->
-			<animation property="opacity" to="1" begin="7250" duration="50" mode="linear"/>
-			<animation property="offsetX" from="0.025" to="0" begin="7250" duration="250" mode="EaseOut"/>
-			<animation property="scale" from="0.75" to="1" begin="7250" duration="250" mode="EaseOut"/>
-
-			<!-- la boxback repart vers la gauche -->
-			<animation property="offsetX" to="-0.025" begin="15000" duration="250" mode="EaseIn"/>
-			<animation property="scale" to="0.75" begin="15000" duration="250" mode="EaseIn"/>
-			<animation property="opacity" to="0" begin="15200" duration="50" mode="linear"/>
+		<storyboard ifSubset="boxbackDisplay:Show" event="open" repeatAt="11410">
+			<animation property="opacity" to="1" begin="12960" duration="50" mode="linear"/>
+			<animation property="offsetX" from="0.025" to="0" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="scale" from="0.75" to="1" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="offsetX" to="-0.025" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="scale" to="0.75" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="opacity" to="0" begin="20910" duration="50" mode="linear"/>
+			<animation property="opacity" to="0" begin="54331" duration="1" mode="linear"/>
 		</storyboard>
 
-		<storyboard event="activateNext">        
-			<animation property="opacity" to="1" begin="7250" duration="50" mode="linear"/>
-			<animation property="offsetX" from="0.025" to="0" begin="7250" duration="250" mode="EaseOut"/>
-			<animation property="scale" from="0.75" to="1" begin="7250" duration="250" mode="EaseOut"/>
-
-			<animation property="offsetX" to="-0.025" begin="15000" duration="250" mode="EaseIn"/>
-			<animation property="scale" to="0.75" begin="15000" duration="250" mode="EaseIn"/>
-			<animation property="opacity" to="0" begin="15200" duration="50" mode="linear"/>
+		<storyboard ifSubset="boxbackDisplay:Show" event="activateNext" repeatAt="11410">
+			<animation property="opacity" to="1" begin="12960" duration="50" mode="linear"/>
+			<animation property="offsetX" from="0.025" to="0" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="scale" from="0.75" to="1" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="offsetX" to="-0.025" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="scale" to="0.75" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="opacity" to="0" begin="20910" duration="50" mode="linear"/>
+			<animation property="opacity" to="0" begin="54331" duration="1" mode="linear"/>
 		</storyboard>
 
-		<storyboard event="activatePrev">        
-			<animation property="opacity" to="1" begin="7250" duration="50" mode="linear"/>
-			<animation property="offsetX" from="0.025" to="0" begin="7250" duration="250" mode="EaseOut"/>
-			<animation property="scale" from="0.75" to="1" begin="7250" duration="250" mode="EaseOut"/>
-
-			<animation property="offsetX" to="-0.025" begin="15000" duration="250" mode="EaseIn"/>
-			<animation property="scale" to="0.75" begin="15000" duration="250" mode="EaseIn"/>
-			<animation property="opacity" to="0" begin="15200" duration="50" mode="linear"/>
-		</storyboard>
-		
+		<storyboard ifSubset="boxbackDisplay:Show" event="activatePrev" repeatAt="11410">
+			<animation property="opacity" to="1" begin="12960" duration="50" mode="linear"/>
+			<animation property="offsetX" from="0.025" to="0" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="scale" from="0.75" to="1" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="offsetX" to="-0.025" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="scale" to="0.75" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="opacity" to="0" begin="20910" duration="50" mode="linear"/>
+			<animation property="opacity" to="0" begin="54331" duration="1" mode="linear"/>
+		</storyboard>	
+	
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
 		<storyboard event="deactivatePrev">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
-		
 		
     </image>
 	
@@ -1197,7 +1191,7 @@
     </image>
 
 	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'nes'" extra="true">
-		<maxSize>0.265 0.265</maxSize>
+		<maxSize>0.15 0.265</maxSize>
 		<pos>-0.195 0.655</pos>
 		<pos ifHelpPrompts="false">-0.195 0.705</pos>		
     </image>
@@ -1464,62 +1458,88 @@
 		<opacity>0</opacity>
 		<zIndex>8</zIndex>
 
-		<storyboard event="open">
+		<storyboard event="open" repeatAt="11960">
 			<animation property="opacity" to="1" begin="500" duration="1" mode="linear"/>
 			<animation property="offsetX" from="0.3" to="0.06" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="opacity" to="0" begin="850" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11960" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="21960" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="-0.055" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="22310" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="33070" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
 		</storyboard>
 
-		<storyboard event="activateNext">
+		<storyboard repeatAt="11960" event="activateNext">
 			<animation property="opacity" to="1" begin="500" duration="1" mode="linear"/>
 			<animation property="offsetX" from="0.3" to="0.06" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="opacity" to="0" begin="850" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11960" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="21960" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="-0.055" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="22310" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="33070" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
 		</storyboard>
 
-		<storyboard event="activatePrev">
+		<storyboard repeatAt="11960" event="activatePrev">
 			<animation property="opacity" to="1" begin="500" duration="1" mode="linear"/>
 			<animation property="offsetX" from="0.3" to="0.06" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/>
 			<animation property="opacity" to="0" begin="850" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11960" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="21960" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="-0.055" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="22310" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="33070" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
 		</storyboard>
 		
 		
-		<!-- <storyboard event="open" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'"> -->
-			<!-- <animation property="opacity" to="1" begin="500" duration="1" mode="linear"/> -->
-			<!-- <animation property="offsetX" from="0.3" to="-0.10" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="opacity" to="0" begin="850" duration="1" mode="linear"/> -->
-		<!-- </storyboard> -->
-
-		<!-- <storyboard event="activateNext" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'"> -->
-			<!-- <animation property="opacity" to="1" begin="500" duration="1" mode="linear"/> -->
-			<!-- <animation property="offsetX" from="0.3" to="-0.10" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="opacity" to="0" begin="850" duration="1" mode="linear"/> -->
-		<!-- </storyboard> -->
-
-		<!-- <storyboard event="activatePrev" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'"> -->
-			<!-- <animation property="opacity" to="1" begin="500" duration="1" mode="linear"/> -->
-			<!-- <animation property="offsetX" from="0.3" to="-0.10" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/> -->
-			<!-- <animation property="opacity" to="0" begin="850" duration="1" mode="linear"/> -->
-		<!-- </storyboard> -->
-
-
 		<storyboard event="deactivateNext">
 			<animation property="opacity" to="0" duration="1" mode="linear"/>
 		</storyboard>
@@ -1540,7 +1560,7 @@
 		<opacity>0</opacity>
 		<zIndex>100</zIndex>
 
-		<storyboard event="open">
+		<storyboard event="open" repeatAt="11960">
 			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
@@ -1551,9 +1571,36 @@
 			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
 			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
 			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
 		</storyboard>
 
-		<storyboard event="activateNext">
+		<storyboard repeatAt="11960" event="activateNext">
 			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
@@ -1564,9 +1611,36 @@
 			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
 			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
 			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
 		</storyboard>
 
-		<storyboard event="activatePrev">
+		<storyboard repeatAt="11960" event="activatePrev">
 			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
@@ -1577,10 +1651,37 @@
 			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
 			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
 			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
 		</storyboard>
 		
-		<storyboard event="open" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
-			<animation property="offsetX" from="-0.10" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+		<storyboard repeatAt="11960" event="open" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
@@ -1590,10 +1691,37 @@
 			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
 			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
 			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
 		</storyboard>
 
-		<storyboard event="activateNext" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
-			<animation property="offsetX" from="-0.10" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+		<storyboard repeatAt="11960" event="activateNext" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
@@ -1603,10 +1731,37 @@
 			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
 			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
 			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
 		</storyboard>
 
-		<storyboard event="activatePrev" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
-			<animation property="offsetX" from="-0.10" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+		<storyboard repeatAt="11960" event="activatePrev" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
 			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
@@ -1616,6 +1771,33 @@
 			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
 			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
 			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
 		</storyboard>
 
 		<storyboard event="deactivateNext">
@@ -1847,23 +2029,107 @@
 	<video name="md_video">
 	  <audio>false</audio>
 	</video>
+	
+<!-- on affiche pas les éléments du bureau ni certains médias -->
+	<image name="bureau, mini, ecran_console_defaut, background-art, thumbnail-gamecarousel, boxback_ID, cartridge_ID, cartridge_back" extra="static">
+		<visible>false</visible>
+	</image>
 
-<!-- on décale légèrement les box (flyers) vers la droite -->
-	<image name="thumbnail-gamecarousel" extra="true">
-		<pos>0.135 0.691</pos>
-		<pos ifHelpPrompts="false">0.135 0.723</pos>
-	</image>
+
+<image name="background-bar" extra="true">
+	<path ifSubset="barType:classic">${themePath}/art/divers/bar_classic.png</path>
+	<path ifSubset="barType:modern">${themePath}/art/divers/bar_modern.png</path>
+	<path ifSubset="barType:steampunk">${themePath}/art/divers/bar_steampunk.png</path>	
+	<path ifSubset="barType:retro80s">${themePath}/art/divers/bar_retro80s.png</path>
+	<path ifSubset="barType:scandinavian">${themePath}/art/divers/bar_scandinavian.png</path>
+	<path ifSubset="barType:artdeco">${themePath}/art/divers/bar_artdeco.png</path>
+	<pos>0.5 0.5</pos>
+	<minSize>1 1</minSize>
+	<origin>0.5 0.5</origin>
+	<zIndex>3</zIndex> 
+</image>
+
+<image name="bar_concept_cadre1_thumbnail" extra="true">
+	<path>${themePath}/art/divers/bar-cadre1.png</path>
+	<size>0.084375 0.3962963</size>									
+	<pos>0.0651042 0.5833333</pos>									
+	<origin>0.5 0.5</origin>
+	<zIndex>1</zIndex> 
+	<visible>!exists({game:thumbnail})</visible>
+</image>
+
+<image name="bar_concept_cadre2_fanart" extra="true">
+	<path>${themePath}/art/divers/bar-cadre2.png</path>
+	<size>0.1177083 0.2537037</size>									
+	<pos>0.1963542 0.5444444</pos>									
+	<origin>0.5 0.5</origin>
+	<zIndex>1</zIndex>
+	<visible>!exists({game:fanart})</visible>	
+</image>
+
+
+<!-- PREMIER CADRE -->
+<!-- Flyers ou boxfront Arcade -->
+<image name="thumbnail-arcade" extra="true">
+	<path>{game:thumbnail}</path>
+	<pos>0.0275 0.410</pos>
+	<size>0.085 0.350</size>
+	<origin>0 0</origin>
+	<zIndex>2</zIndex>
+	<shader>
+		<path>./../../art/shaders/animatics-perspective.glsl</path>
+		<hautGauche>-9 -19</hautGauche>
+		<hautDroit>-14 4</hautDroit>
+		<basGauche>-8 23</basGauche>
+		<basDroit>-12 -33</basDroit>
+	</shader>
+</image>	
+
+
+<!-- DEUXIEME CADRE -->
+<!-- Fanart Arcade -->
+<image name="fanart-arcade" extra="true">
+	<path>{game:fanart}</path>
+	<pos>0.13 0.45</pos>
+	<size>0.142 0.18</size>
+	<origin>0 0</origin>
+	<zIndex>2</zIndex>
+	<shader>
+		<path>./../../art/shaders/animatics-perspective.glsl</path>
+		<hautGauche>17 -35</hautGauche>
+		<basGauche>12 48</basGauche>
+		<hautDroit>-28 -40</hautDroit>
+		<basDroit>-30 -35</basDroit>
+	</shader>
+</image>
+
 	
-<!-- on affiche pas les éléments du bureau-->
-	<image name="bureau, mini, ecran_console_defaut" extra="static">
-		<visible>false</visible>
-	</image>
 	
-<!-- On masque les figurines pour les systèmes Arcades et Collections sans bureau -->
+	
+<!-- Repositionnement des figurines pour les systèmes Arcades -->
 	<image name="figurines,shadow_figurines" extra="true">
-		<visible>false</visible>
+		<x>0.17</x>
+		<y>0.70</y>
+		<maxSize>0.07 0.19</maxSize>	
 	</image>
-	
+
+<!-- animation des figurines  moins violente que sur les bureaux -->
+	<image name="figurines,shadow_figurines" ifSubset="figurineAnimation:yes">
+		<storyboard event="activate" repeatAt="10">
+			<animation property="offsetY"  	to="-0.02" 	begin="6000"  duration="300" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="-3" 	begin="6000"  duration="150" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="3" 		begin="6000"  duration="150" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="3"   	begin="12000" duration="200" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="-3"   	begin="12000" duration="200" mode="Bump" autoreverse="true"/>
+			<animation property="offsetX"  	to="0.005"   begin="12000" duration="400" mode="Bump" autoreverse="true"/>
+		</storyboard>
+	</image>
+
+
+
+
+
+
 <!-- Nouvel Encadrement de la zone Description -->
 	 
 	<image name="desc_cadre_droit" extra="true">

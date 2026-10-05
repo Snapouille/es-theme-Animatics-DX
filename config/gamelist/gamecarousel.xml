@@ -2170,21 +2170,101 @@ originally based on: "carbon"
 	<video name="md_video">
 	  <audio>false</audio>
 	</video>
+	
+<!-- on affiche pas les éléments du bureau ni certains médias -->
+	<image name="bureau, mini, ecran_console_defaut, background-art, thumbnail-gamecarousel, boxback_ID, cartridge_ID, cartridge_back" extra="static">
+		<visible>false</visible>
+	</image>
 
-<!-- on décale légèrement les box (flyers) vers la droite -->
-	<image name="thumbnail-gamecarousel" extra="true">
-		<pos>0.135 0.691</pos>
-		<pos ifHelpPrompts="false">0.135 0.723</pos>
-	</image>
+
+<image name="background-bar" extra="true">
+	<path ifSubset="barType:classic">${themePath}/art/divers/bar_classic.png</path>
+	<path ifSubset="barType:modern">${themePath}/art/divers/bar_modern.png</path>
+	<path ifSubset="barType:steampunk">${themePath}/art/divers/bar_steampunk.png</path>	
+	<path ifSubset="barType:retro80s">${themePath}/art/divers/bar_retro80s.png</path>
+	<path ifSubset="barType:scandinavian">${themePath}/art/divers/bar_scandinavian.png</path>
+	<path ifSubset="barType:artdeco">${themePath}/art/divers/bar_artdeco.png</path>
+	<pos>0.5 0.5</pos>
+	<minSize>1 1</minSize>
+	<origin>0.5 0.5</origin>
+	<zIndex>3</zIndex> 
+</image>
+
+<image name="bar_concept_cadre1_thumbnail" extra="true">
+	<path>${themePath}/art/divers/bar-cadre1.png</path>
+	<size>0.084375 0.3962963</size>									
+	<pos>0.0651042 0.5833333</pos>									
+	<origin>0.5 0.5</origin>
+	<zIndex>1</zIndex> 
+	<visible>!exists({game:thumbnail})</visible>
+</image>
+
+<image name="bar_concept_cadre2_fanart" extra="true">
+	<path>${themePath}/art/divers/bar-cadre2.png</path>
+	<size>0.1177083 0.2537037</size>									
+	<pos>0.1963542 0.5444444</pos>									
+	<origin>0.5 0.5</origin>
+	<zIndex>1</zIndex>
+	<visible>!exists({game:fanart})</visible>	
+</image>
+
+
+<!-- PREMIER CADRE -->
+<!-- Flyers ou boxfront Arcade -->
+<image name="thumbnail-arcade" extra="true">
+	<path>{game:thumbnail}</path>
+	<pos>0.0275 0.410</pos>
+	<size>0.085 0.350</size>
+	<origin>0 0</origin>
+	<zIndex>2</zIndex>
+	<shader>
+		<path>./../../art/shaders/animatics-perspective.glsl</path>
+		<hautGauche>-9 -19</hautGauche>
+		<hautDroit>-14 4</hautDroit>
+		<basGauche>-8 23</basGauche>
+		<basDroit>-12 -33</basDroit>
+	</shader>
+</image>	
+
+
+<!-- DEUXIEME CADRE -->
+<!-- Fanart Arcade -->
+<image name="fanart-arcade" extra="true">
+	<path>{game:fanart}</path>
+	<pos>0.13 0.45</pos>
+	<size>0.142 0.18</size>
+	<origin>0 0</origin>
+	<zIndex>2</zIndex>
+	<shader>
+		<path>./../../art/shaders/animatics-perspective.glsl</path>
+		<hautGauche>17 -35</hautGauche>
+		<basGauche>12 48</basGauche>
+		<hautDroit>-28 -40</hautDroit>
+		<basDroit>-30 -35</basDroit>
+	</shader>
+</image>
+
+
 	
-<!-- on affiche pas les éléments du bureau-->
-	<image name="bureau, mini, ecran_console_defaut" extra="static">
-		<visible>false</visible>
-	</image>
 	
-<!-- On masque les figurines pour les systèmes Arcades et Collections sans bureau -->
+	
+<!-- Repositionnement des figurines pour les systèmes Arcades -->
 	<image name="figurines,shadow_figurines" extra="true">
-		<visible>false</visible>
+		<x>0.173</x>
+		<y>0.70</y>
+		<maxSize>0.07 0.19</maxSize>	
+	</image>
+
+<!-- animation des figurines  moins violente que sur les bureaux -->
+	<image name="figurines,shadow_figurines" ifSubset="figurineAnimation:yes">
+		<storyboard event="activate" repeatAt="10">
+			<animation property="offsetY"  	to="-0.02" 	begin="6000"  duration="300" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="-3" 	begin="6000"  duration="150" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="3" 		begin="6000"  duration="150" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="3"   	begin="12000" duration="200" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="-3"   	begin="12000" duration="200" mode="Bump" autoreverse="true"/>
+			<animation property="offsetX"  	to="0.005"   begin="12000" duration="400" mode="Bump" autoreverse="true"/>
+		</storyboard>
 	</image>
 	
 	

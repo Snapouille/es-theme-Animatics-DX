@@ -127,6 +127,14 @@ originally based on: "carbon"
 	<logo.opacity>Unselected logos opacity</logo.opacity>
 	<add-on.Arcade>Arcade add-on installed?</add-on.Arcade>
 	
+	<arcade.bar.type>Arcade Systems Bar Style</arcade.bar.type>
+	<classic>Classic</classic>
+	<modern>Modern</modern>
+	<steampunk>Steampunk</steampunk>
+	<retro80s>Retro 80s</retro80s>
+	<scandinavian>Scandinavian</scandinavian>
+	<artdeco>Art Deco</artdeco>
+	
 	<desk.type>Desk Type</desk.type>
 	<wood1>Oakwood</wood1>
 	<wood2>Walnutwood</wood2>
@@ -679,7 +687,17 @@ originally based on: "carbon"
 	<subset name="add-on.Arcade" displayName="${add-on.Arcade}" appliesTo="gamecarousel, collector">
 		<include name="no" displayName="${no}"/>
 		<include name="yes" displayName="${yes}"/>
-	</subset>	
+	</subset>
+
+	<!-- Choix du type de bar pour les systèmes Arcade -->
+	<subset name="barType" displayName="${arcade.bar.type}" appliesTo="gamecarousel, collector">
+		<include name="classic" 		displayName="${classic}"/>
+		<include name="modern" 			displayName="${modern}"/>
+		<include name="steampunk" 		displayName="${steampunk}"/>
+		<include name="retro80s" 		displayName="${retro80s}"/>
+		<include name="scandinavian" 	displayName="${scandinavian}"/>
+		<include name="artdeco" 		displayName="${artdeco}"/>
+	</subset>
 	
 	<!-- Choix du type de bureau -->
 	<subset name="deskType" displayName="${desk.type}" appliesTo="gamecarousel, collector">

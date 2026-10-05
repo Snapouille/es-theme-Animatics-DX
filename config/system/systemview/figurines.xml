@@ -89,9 +89,12 @@
 					<padding>3 3 -3 -3</padding>
 					<color>000000</color>
 					<storyboard event="activate" repeatAt="1000">
-						<animation property="offsetY"  to="-0.015" begin="500"   duration="300" mode="Bump"/>
-						<animation property="offsetY"  to="-0.035" begin="7000"  duration="300" mode="Bump"   autoreverse="true"/>
-						<animation property="offsetX"  to="0.005"   begin="19000" duration="200" mode="Bump"   repeat="2" autoreverse="true"/>
+						<animation property="offsetY" to="-0.015" begin="500" duration="300" mode="Bump"/>
+						<animation property="offsetY" to="-0.035" begin="7000" duration="300" mode="Bump" autoreverse="true"/>
+						<animation property="rotation" from="0" to="-4" begin="7000" duration="120" mode="easeOut"/>
+						<animation property="rotation" from="-4" to="4" begin="7120" duration="180" mode="easeIn"/>
+						<animation property="rotation" from="4" to="0" begin="7300" duration="120" mode="easeOut"/>
+						<animation property="offsetX" to="0.005" begin="19000" duration="200" mode="Bump" repeat="2" autoreverse="true"/>
 					</storyboard>
 				</image>
 				<image name="figurine">
@@ -102,9 +105,12 @@
 					<saturation>0.9</saturation>
 					<zIndex>6</zIndex>
 					<storyboard event="activate" repeatAt="1000">
-						<animation property="offsetY" to="-0.015"  begin="500"   duration="300" mode="Bump"/>
-						<animation property="offsetY" to="-0.035"  begin="7000"  duration="300" mode="Bump"   autoreverse="true"/>
-						<animation property="offsetX"  to="0.005"   begin="19000" duration="200" mode="Bump"   repeat="2" autoreverse="true"/>
+						<animation property="offsetY" to="-0.015" begin="500" duration="300" mode="Bump"/>
+						<animation property="offsetY" to="-0.035" begin="7000" duration="300" mode="Bump" autoreverse="true"/>
+						<animation property="rotation" from="0" to="-4" begin="7000" duration="120" mode="easeOut"/>
+						<animation property="rotation" from="-4" to="4" begin="7120" duration="180" mode="easeIn"/>
+						<animation property="rotation" from="4" to="0" begin="7300" duration="120" mode="easeOut"/>
+						<animation property="offsetX" to="0.005" begin="19000" duration="200" mode="Bump" repeat="2" autoreverse="true"/>
 					</storyboard>
 				</image>
 				<image name="shadow_logo">
@@ -523,8 +529,13 @@
 	</text>
 	
 		
-	<!-- si on Affichage toutes les stats avec animation (Nombre de jeux, jeux joués, favoris et 2ème ligne jeu le plus joué)	 -->
-    <text name="systemInfoEx, systemInfoEx2,systemInfoExNull" ifSubset="InfoCustomView:detailed" extra="true">
+
+	<!-- Affichage de toutes les stats avec animation -->
+	<!-- 1 : Nombre de jeux, jeux joués, favoris -->
+	<!-- 2 : Jeu le plus joué -->
+	<!-- 3 : Date de la dernière partie -->
+
+	<text name="systemInfoEx,systemInfoEx2,systemInfoEx3,systemInfoExNull" ifSubset="InfoCustomView:detailed" extra="true">
 		<fontPath>./../../../art/fonts/charge-vector.otf</fontPath>
 		<fontSize>0.025</fontSize>
 		<zIndex>2001</zIndex>
@@ -533,45 +544,73 @@
 		<glowSize>1</glowSize>
 		<size>0.47 0.28</size>
 		<pos>0.405 0.18</pos>
-		<visible>true</visible>  
+		<visible>true</visible>
 		<multiLine>false</multiLine>
 	</text>
-		
-		
-	  <text name="systemInfoEx" ifSubset="InfoCustomView:detailed" extra="static">
-		 <text>{system:total} ${GamesNumber} • {system:gamesPlayed} ${NumberPlayed} • {system:favorites} ${GamesFavs}</text>
-		 <visible>{system:total} &gt; 0 ? 1 : 0</visible>
-	  </text>
-	  
-      <text name="systemInfoEx2" ifSubset="InfoCustomView:detailed" extra="static">
-         <text>${theme.mostplayed} {system:mostPlayed}</text>
-         <opacity>0</opacity>
-		 <color>f9ffa1</color>
-         <visible>{system:total} &gt; 0 ? 1 : 0</visible>
-      </text>
 
-      <text name="systemInfoExNull" ifSubset="InfoCustomView:detailed" extra="static">
-         <text>0 ${GameNumber}</text>
-         <visible>{system:total} == 0 ? 1 : 0</visible>
-      </text>
+	<text name="systemInfoEx" ifSubset="InfoCustomView:detailed" extra="static">
+		<text>{system:total} ${GamesNumber} • {system:gamesPlayed} ${NumberPlayed} • {system:favorites} ${GamesFavs}</text>
+		<visible>{system:total} &gt; 0 ? 1 : 0</visible>
+	</text>
 
-      <control name="systemInfoEx">
-         <storyboard repeat="forever">
-            <animation property="opacity" from="1" to="0" begin="3000" duration="350" mode="easeOut" />
-            <animation property="offsetY" to="-0.02" begin="3000" duration="350" mode="easeOut" />
-            <animation property="opacity" from="0" to="1" begin="6000" duration="350" mode="easeIn" />
-            <animation property="offsetY" to="0" begin="6000" duration="350" mode="easeOut" />
-         </storyboard>
-      </control>
+	<text name="systemInfoEx2" ifSubset="InfoCustomView:detailed" extra="static">
+		<text>${theme.mostplayed} {system:mostPlayed}</text>
+		<opacity>0</opacity>
+		<color>f9ffa1</color>
+		<visible>{system:total} &gt; 0 ? 1 : 0</visible>
+	</text>
 
-      <control name="systemInfoEx2">
-         <storyboard repeat="forever">
-            <animation property="opacity" from="0" to="1" begin="3000" duration="350" mode="easeIn" />
-            <animation property="offsetY" from="0.02" begin="3000" duration="350" mode="easeOut" />
-            <animation property="opacity" from="1" to="0" begin="6000" duration="350" mode="easeOut" />
-            <animation property="offsetY" to="0.02" begin="6000" duration="350" mode="easeIn" />
-         </storyboard>
-      </control>
+	<text name="systemInfoEx3" ifSubset="InfoCustomView:detailed" extra="static">
+		<text>${theme.lastplayedLabel} {binding:lastPlayedDate}</text>
+		<opacity>0</opacity>
+		<color>8deaff</color>
+		<visible>{system:total} &gt; 0 ? 1 : 0</visible>
+	</text>
+
+	<text name="systemInfoExNull" ifSubset="InfoCustomView:detailed" extra="static">
+		<text>0 ${GameNumber}</text>
+		<visible>{system:total} == 0 ? 1 : 0</visible>
+	</text>
+
+
+	<control name="systemInfoEx">
+		<storyboard repeat="forever">
+			<animation property="offsetY" from="0" to="-0.018" begin="4000" duration="300" mode="easeIn" />
+			<animation property="opacity" from="1" to="0" begin="4100" duration="250" mode="easeOut" />
+
+			<animation property="offsetY" from="0.018" to="0" begin="11800" duration="200" mode="easeOut" />
+			<animation property="opacity" from="0" to="1" begin="11800" duration="200" mode="easeIn" />
+
+			<animation property="opacity" from="1" to="1" begin="12000" duration="1" />
+		</storyboard>
+	</control>
+
+	<control name="systemInfoEx2">
+		<storyboard repeat="forever">
+			<animation property="offsetY" from="0.018" to="0" begin="4200" duration="400" mode="easeOut" />
+			<animation property="opacity" from="0" to="1" begin="4250" duration="300" mode="easeIn" />
+
+			<animation property="offsetY" from="0" to="-0.018" begin="8000" duration="300" mode="easeIn" />
+			<animation property="opacity" from="1" to="0" begin="8100" duration="250" mode="easeOut" />
+
+			<animation property="opacity" from="0" to="0" begin="12000" duration="1" />
+		</storyboard>
+	</control>
+
+	<control name="systemInfoEx3">
+		<storyboard repeat="forever">
+			<animation property="offsetY" from="0.018" to="0" begin="8200" duration="400" mode="easeOut" />
+			<animation property="opacity" from="0" to="1" begin="8250" duration="300" mode="easeIn" />
+
+			<animation property="offsetY" from="0" to="-0.018" begin="11600" duration="300" mode="easeIn" />
+			<animation property="opacity" from="1" to="0" begin="11700" duration="250" mode="easeOut" />
+
+			<animation property="opacity" from="0" to="0" begin="12000" duration="1" />
+		</storyboard>
+	</control>
+
+
+
 		
 
 	<image name="right_BottomFrame" extra="true">

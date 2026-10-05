@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>With NelfePlay on RetroBat, play at home and challenge the world! Enter the global retro and neo-retro gaming leaderboards from your Windows PC or personal arcade cabinet. Discover other players' replays, improve your skills, and try to beat their records.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Avec NelfePlay sur RetroBat, jouez chez vous et défiez le monde ! Entrez dans les classements mondiaux du jeu rétro et néo-rétro depuis votre PC Windows ou votre borne personnelle. Découvrez les replays des autres joueurs, progressez et tentez de battre leurs records.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Spiele zu Hause mit NelfePlay auf RetroBat und fordere die Welt heraus! Steige von deinem Windows-PC oder deinem eigenen Arcade-Automaten in die globalen Bestenlisten für Retro- und Neo-Retro-Spiele ein. Entdecke die Replays anderer Spieler, verbessere dich und versuche, ihre Rekorde zu brechen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>¡Con NelfePlay en RetroBat, juega en casa y desafía al mundo! Entra en las clasificaciones mundiales de juegos retro y neorretro desde tu PC con Windows o tu máquina recreativa personal. Descubre las repeticiones de otros jugadores, progresa e intenta superar sus récords.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Con NelfePlay su RetroBat, gioca a casa tua e sfida il mondo! Entra nelle classifiche mondiali dei giochi retro e neo-retro dal tuo PC Windows o dal tuo cabinato personale. Scopri i replay degli altri giocatori, migliora e prova a battere i loro record.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>RetroBatのNelfePlayで、自宅でプレイして世界に挑もう！Windows PCやアーケード筐体から、レトロゲームおよびネオレトロゲームの世界ランキングに参加できます。他のプレイヤーのリプレイを見て上達し、記録更新を目指しましょう。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Speel thuis met NelfePlay op RetroBat en daag de wereld uit! Betreed de wereldwijde ranglijsten voor retro- en neoretrogames vanaf je Windows-pc of eigen speelautomaat. Ontdek de herhalingen van andere spelers, boek vooruitgang en probeer hun records te verbreken.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Z NelfePlay na RetroBat graj w domu i rzuć wyzwanie światu! Wejdź do światowych rankingów gier retro i neo-retro ze swojego komputera z systemem Windows lub własnego automatu do gier. Odkrywaj powtórki innych graczy, rozwijaj się i próbuj pobić ich rekordy.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Com o NelfePlay no RetroBat, jogue em casa e desafie o mundo! Entre nas tabelas de classificação mundiais de jogos retrô e neo-retrô a partir do seu PC Windows ou da sua máquina de arcade pessoal. Descubra os replays de outros jogadores, evolua e tente bater os recordes deles.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Играйте дома с NelfePlay на RetroBat и бросайте вызов всему миру! Попадайте в мировые таблицы лидеров ретро и нео-ретро игр с вашего ПК под управлением Windows или личного игрового автоматом. Смотрите повторы других игроков, совершенствуйтесь и пытайтесь побить их рекорды.</text>
+</text>
+
+</view>
+</theme>

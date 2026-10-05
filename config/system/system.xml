@@ -1617,30 +1617,60 @@ originally based on: "carbon"
 <!-- disposition si l'utilisateur affiche les controlleurs -->
 <view name="system" ifSubset="SystemView:figurines,system-controllers:Show">
 
-	<image name="Consoles" extra="static">
-		<storyboard repeat="forever">
-			<animation property="scale" 	to="0.01" 	begin="5500" 	duration="200" mode="linear"/>
-			<animation property="opacity" 	to="0" 		begin="5500" 	duration="200" mode="linear"/>
-			<animation property="scale" 	to="1" 		begin="11000" 	duration="200" mode="linear"/>
-			<animation property="opacity" 	to="1" 		begin="11000" 	duration="10" mode="linear"/>
-		</storyboard>		
-    </image>
-	
-	<image name="controllers2" extra="true">
-		<pos>0.88625 0.19</pos>									
-		<maxSize>0.17 0.23</maxSize>									
-		<origin>0.5 0.5</origin>
-		<zIndex>2000</zIndex>
-		<scale>0.01</scale>
-		<opacity>0</opacity>
-	  
-		<storyboard repeat="forever">
-			<animation property="opacity" 	to="1" 		begin="5500" duration="10" mode="linear"/>
-			<animation property="scale" 	to="1" 		begin="5500" duration="200" mode="linear"/>
-			<animation property="scale" 	to="0.01" 	begin="11000" duration="200" mode="linear"/>
-			<animation property="opacity" 	to="0" 		begin="11150" duration="50" mode="linear"/>
-		</storyboard>	
-	</image>
+<image name="Consoles" extra="static">
+	<storyboard repeat="forever">
+
+		<animation property="rotation" from="0" to="-8" begin="7300" duration="200" mode="easeIn"/>
+		<animation property="rotation" from="-8" to="-25" begin="7500" duration="300" mode="easeIn"/>
+		<animation property="scale" from="1" to="0.01" begin="7500" duration="300" mode="easeIn"/>
+		<animation property="offsetY" from="0" to="0.035" begin="7500" duration="300" mode="easeIn"/>
+		<animation property="opacity" from="1" to="0" begin="7650" duration="150" mode="easeOut"/>
+
+		<animation property="rotation" from="-25" to="25" begin="7900" duration="1"/>
+		<animation property="offsetY" from="0.035" to="0.035" begin="7900" duration="1"/>
+
+		<animation property="scale" from="0.01" to="1" begin="15000" duration="350" mode="easeOut"/>
+		<animation property="rotation" from="25" to="8" begin="15000" duration="250" mode="easeOut"/>
+		<animation property="rotation" from="8" to="0" begin="15250" duration="150" mode="easeOut"/>
+		<animation property="offsetY" from="0.035" to="0" begin="15000" duration="350" mode="easeOut"/>
+		<animation property="opacity" from="0" to="1" begin="15000" duration="200" mode="easeIn"/>
+
+		<animation property="opacity" from="1" to="1" begin="15500" duration="1"/>
+
+	</storyboard>
+</image>
+
+
+<image name="controllers2" extra="true">
+	<pos>0.88625 0.19</pos>
+	<maxSize>0.17 0.23</maxSize>
+	<origin>0.5 0.5</origin>
+	<zIndex>2000</zIndex>
+	<scale>0.01</scale>
+	<rotation>25</rotation>
+	<opacity>0</opacity>
+
+	<storyboard repeat="forever">
+
+		<animation property="scale" from="0.01" to="1" begin="7500" duration="350" mode="easeOut"/>
+		<animation property="rotation" from="25" to="8" begin="7500" duration="250" mode="easeOut"/>
+		<animation property="rotation" from="8" to="0" begin="7750" duration="150" mode="easeOut"/>
+		<animation property="offsetY" from="0.035" to="0" begin="7500" duration="350" mode="easeOut"/>
+		<animation property="opacity" from="0" to="1" begin="7500" duration="200" mode="easeIn"/>
+
+		<animation property="rotation" from="0" to="-8" begin="14800" duration="200" mode="easeIn"/>
+		<animation property="rotation" from="-8" to="-25" begin="15000" duration="300" mode="easeIn"/>
+		<animation property="scale" from="1" to="0.01" begin="15000" duration="300" mode="easeIn"/>
+		<animation property="offsetY" from="0" to="0.035" begin="15000" duration="300" mode="easeIn"/>
+		<animation property="opacity" from="1" to="0" begin="15150" duration="150" mode="easeOut"/>
+
+		<animation property="rotation" from="-25" to="25" begin="15400" duration="1"/>
+		<animation property="offsetY" from="0.035" to="0.035" begin="15400" duration="1"/>
+
+		<animation property="opacity" from="0" to="0" begin="15500" duration="1"/>
+
+	</storyboard>
+</image>
 
 </view>
 
