@@ -12,7 +12,7 @@ originally based on: "carbon"
 	<view name="splash">
 	
 		<text name="version" extra="true">
-			<text>V 2.54 - 2026 10 05 -</text>
+			<text>V 2.55 - 2026 10 06</text>
 			<pos>0.02 0.951</pos>
 			<color>f4ff1a</color>
 			<fontPath>./art/fonts/ubuntu.ttf</fontPath>
@@ -22,8 +22,8 @@ originally based on: "carbon"
 		</text>
 		
 		<text name="contact" extra="true">
-			<text> https://github.com/Snapouille/es-theme-Animatics-DX </text>
-			<pos>0.13 0.951</pos>
+			<text> | https://github.com/Snapouille/es-theme-Animatics-DX |</text>
+			<pos>0.145 0.951</pos>
 			<color>22e2f3</color>
 			<fontPath>./art/fonts/ubuntu.ttf</fontPath>
 			<fontSize>0.0220</fontSize>

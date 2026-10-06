@@ -2044,10 +2044,12 @@
 	<path ifSubset="barType:scandinavian">${themePath}/art/divers/bar_scandinavian.png</path>
 	<path ifSubset="barType:artdeco">${themePath}/art/divers/bar_artdeco.png</path>
 	<pos>0.5 0.5</pos>
-	<minSize>1 1</minSize>
+	<size>1 1</size>
 	<origin>0.5 0.5</origin>
-	<zIndex>3</zIndex> 
+	<zIndex>3</zIndex>
 </image>
+
+
 
 <image name="bar_concept_cadre1_thumbnail" extra="true">
 	<path>${themePath}/art/divers/bar-cadre1.png</path>
@@ -2072,46 +2074,68 @@
 <!-- Flyers ou boxfront Arcade -->
 <image name="thumbnail-arcade" extra="true">
 	<path>{game:thumbnail}</path>
+
 	<pos>0.0275 0.410</pos>
 	<size>0.085 0.350</size>
 	<origin>0 0</origin>
 	<zIndex>2</zIndex>
-	<shader>
-		<path>./../../art/shaders/animatics-perspective.glsl</path>
-		<hautGauche>-9 -19</hautGauche>
-		<hautDroit>-14 4</hautDroit>
-		<basGauche>-8 23</basGauche>
-		<basDroit>-12 -33</basDroit>
-	</shader>
-</image>	
+
+<shader>
+	<path>./../../art/shaders/animatics-perspective.glsl</path>
+
+	<hautGauche>-9 -19</hautGauche>
+	<hautDroit>-14 4</hautDroit>
+	<basGauche>-8 23</basGauche>
+	<basDroit>-12 -33</basDroit>
+
+	<hautGauche if="{screen.ratio} == '16/10'">-8 -17</hautGauche>
+	<hautDroit if="{screen.ratio} == '16/10'">-13 4</hautDroit>
+	<basGauche if="{screen.ratio} == '16/10'">-7 21</basGauche>
+	<basDroit if="{screen.ratio} == '16/10'">0 -20</basDroit>
+</shader>
+
+</image>
 
 
 <!-- DEUXIEME CADRE -->
 <!-- Fanart Arcade -->
 <image name="fanart-arcade" extra="true">
 	<path>{game:fanart}</path>
+
 	<pos>0.13 0.45</pos>
 	<size>0.142 0.18</size>
 	<origin>0 0</origin>
 	<zIndex>2</zIndex>
-	<shader>
-		<path>./../../art/shaders/animatics-perspective.glsl</path>
-		<hautGauche>17 -35</hautGauche>
-		<basGauche>12 48</basGauche>
-		<hautDroit>-28 -40</hautDroit>
-		<basDroit>-30 -35</basDroit>
-	</shader>
-</image>
-
 	
+	
+
+<shader>
+	<path>./../../art/shaders/animatics-perspective.glsl</path>
+
+	<hautGauche>17 -35</hautGauche>
+	<basGauche>12 48</basGauche>
+	<hautDroit>-28 -40</hautDroit>
+	<basDroit>-30 -35</basDroit>
+
+	<hautGauche if="{screen.ratio} == '16/10'">5 -32</hautGauche>
+	<basGauche if="{screen.ratio} == '16/10'">11 43</basGauche>
+	<hautDroit if="{screen.ratio} == '16/10'">-25 -36</hautDroit>
+	<basDroit if="{screen.ratio} == '16/10'">-7 -32</basDroit>
+</shader>
+
+</image>	
 	
 	
 <!-- Repositionnement des figurines pour les systèmes Arcades -->
-	<image name="figurines,shadow_figurines" extra="true">
-		<x>0.17</x>
-		<y>0.70</y>
-		<maxSize>0.07 0.19</maxSize>	
-	</image>
+<image name="figurines,shadow_figurines" extra="true">
+	<x>0.17</x>
+	<y>0.70</y>
+	<maxSize>0.07 0.19</maxSize>
+	
+	<maxSize if="{screen.ratio} == '16/10'">0.08 0.20</maxSize>
+	<x if="{screen.ratio} == '16/10'">0.155</x>
+</image>
+
 
 <!-- animation des figurines  moins violente que sur les bureaux -->
 	<image name="figurines,shadow_figurines" ifSubset="figurineAnimation:yes">
