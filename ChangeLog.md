@@ -1,4 +1,8 @@
-## V 2.55 - (06 10 2026)
+## V 2.56 - (14 10 2026)
+- Arcade systems: Improved shader properties for better rendering (16/9 and 16/10)
+
+
+ ## V 2.55 - (06 10 2026)
 - Arcade systems: fixed layout issues on 16/10 displays (Steamdeck)  
   
 
