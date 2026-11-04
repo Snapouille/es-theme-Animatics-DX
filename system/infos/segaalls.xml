@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Sega ALLS (Amusement Linkage Live System) is a family of arcade system boards developed by Sega that, unlike the custom systems of the past, uses conventional PC components to facilitate maintenance and reduce costs.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le Sega ALLS (Amusement Linkage Live System) est une famille de cartes mères pour bornes d'arcade développées par Sega qui, contrairement aux systèmes personnalisés du passé, utilisent des composants PC classiques pour faciliter la maintenance et réduire les coûts.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Das Sega ALLS (Amusement Linkage Live System) ist eine Familie von Arcade-Systemplatinen, die von Sega entwickelt wurden und im Gegensatz zu den Custom-Systemen der Vergangenheit herkömmliche PC-Komponenten verwenden, um die Wartung zu vereinfachen und die Kosten zu senken.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>El Sega ALLS (Amusement Linkage Live System) es una familia de placas de sistemas arcade desarrolladas por Sega que, a diferencia de los sistemas personalizados del pasado, utiliza componentes de PC convencionales para facilitar el mantenimiento y reducir costes.</text>
+</text>
+
+</view>
+</theme>

@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>NESiCAxLive is a digital distribution system for arcade machines developed by Taito, originally released in 2010. Its main function is to allow arcade operators to download and swap titles on a single cabinet (based on PC hardware such as the Taito Type X), instead of having to swap heavy physical boards every time they want a new game.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>NESiCAxLive est un système de distribution numérique pour bornes d'arcade développé par Taito et sorti initialement en 2010. Sa fonction principale est de permettre aux exploitants de salles d'arcade de télécharger et d'échanger des titres sur une seule borne (basée sur du matériel PC tel que le Taito Type X), au lieu d'avoir à remplacer de lourdes cartes physiques à chaque fois qu'ils veulent un nouveau jeu.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>RNESiCAxLive ist ein digitales Vertriebssystem für Arcade-Automaten, das von Taito entwickelt und ursprünglich im Jahr 2010 veröffentlicht wurde. Seine Hauptfunktion besteht darin, Arcade-Betreibern das Herunterladen und Austauschen von Titeln auf einem einzigen Automaten (basierend auf PC-Hardware wie dem Taito Type X) zu ermöglichen, anstatt jedes Mal schwere physische Platinen austauschen zu müssen, wenn sie ein neues Spiel wünschen.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>NESiCAxLive es un sistema de distribución digital para máquinas arcade desarrollado por Taito, lanzado originalmente en 2010. Su función principal es permitir que los operadores de salas de juegos descarguen y cambien títulos en un solo mueble (basado en hardware de PC como el Taito Type X), en lugar de tener que cambiar placas físicas pesadas cada vez que quieren un juego nuevo.  </text>
+</text>
+
+</view>
+</theme>

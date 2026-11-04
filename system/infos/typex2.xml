@@ -1,0 +1,31 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Taito Type X2 is an arcade motherboard released by Taito Corporation in 2007. Unlike traditional arcade systems, it is based entirely on the architecture of a commercial PC, which greatly facilitated game development and maintenance.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La Taito Type X2 est une carte mère d'arcade sortie par Taito Corporation en 2007. Contrairement aux systèmes d'arcade traditionnels, elle est entièrement basée sur l'architecture d'un PC commercial, ce qui a grandement facilité le développement et la maintenance des jeux.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Das Taito Type X2 ist ein Arcade-Motherboard, das 2007 von der Taito Corporation auf den Markt gebracht wurde. Im Gegensatz zu herkömmlichen Arcade-Systemen basiert es vollständig auf der Architektur eines kommerziellen PCs, was die Spieleentwicklung und -wartung erheblich erleichterte.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>La Taito Type X2 es una placa base de arcade lanzada por Taito Corporation en 2007. A diferencia de los sistemas arcade tradicionales, está basada íntegramente en la arquitectura de una PC comercial, lo que facilitó enormemente el desarrollo de juegos y su mantenimiento.
+</text>
+</text>
+
+</view>
+</theme>

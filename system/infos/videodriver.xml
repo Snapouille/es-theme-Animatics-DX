@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>It was a very curious and unusual system released by Sega in the late 1980s (in Japan it was called Family Driver). It wasn't a piece of software, but an interactive toy that ran on VHS tapes.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Il s'agissait d'un système très curieux et inhabituel, commercialisé par Sega à la fin des années 1980 (au Japon, il s'appelait Family Driver). Ce n'était pas un logiciel, mais un jouet interactif fonctionnant sur cassettes VHS.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Es handelte sich um ein sehr kurioses und ungewöhnliches System, das Ende der 1980er Jahre von Sega veröffentlicht wurde (in Japan hieß es Family Driver). Es war keine Software, sondern ein interaktives Spielzeug, das auf VHS-Kassetten lief.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>Fue un sistema muy curioso y poco común lanzado por Sega a finales de los 80 (en Japón se llamó Family Driver). No era una pieza de software, sino un juguete interactivo que funcionaba con cintas de video (VHS).</text>
+</text>
+
+</view>
+</theme>

@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The MSU is a custom coprocessor that allows playback of CD quality audio (44.1 kHz, 16 bit), as well as addressing up to 4 GB of data. This allows ROM hacks to replace background music in games with high quality versions, and even play animated videos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le MSU est un coprocesseur personnalisé qui permet la lecture d'audio de qualité CD (44,1 kHz, 16 bits), ainsi que l'adressage jusqu'à 4 Go de données. Cela permet aux hacks ROM de remplacer la musique de fond des jeux par des versions de haute qualité, et même de lire des vidéos animées.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der MSU ist ein angepasster Koprozessor, der die Wiedergabe von Audio in CD-Qualität (44,1 kHz, 16 Bit) sowie die Adressierung von bis zu 4 GB Daten ermöglicht. Dadurch können ROM-Hacks die Hintergrundmusik von Spielen durch qualitativ hochwertige Versionen ersetzen und sogar animierte Videos abspielen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El MSU es un coprocesador personalizado que permite reproducir audio con calidad de CD (44,1 kHz, 16 bits), así como direccionar hasta 4 GB de datos. Esto permite realizar hacks de ROM para sustituir la música de fondo de los juegos por versiones de alta calidad, e incluso reproducir vídeos animados.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>L'MSU è un coprocessore personalizzato che consente di riprodurre audio di qualità CD (44,1 kHz, 16 bit) e di indirizzare fino a 4 GB di dati. Questo permette agli hack ROM di sostituire la musica di sottofondo nei giochi con versioni di alta qualità e persino di riprodurre video animati.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>MSUはカスタムコプロセッサで、CDクオリティのオーディオ（44.1kHz、16bit）の再生や、最大4GBのデータのアドレス指定が可能です。これにより、ROMハックでゲームのBGMを高音質版に置き換えたり、アニメーションの動画を再生したりすることも可能です。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De MSU is een aangepaste coprocessor waarmee audio van CD-kwaliteit (44,1 kHz, 16 bit) kan worden afgespeeld, en waarmee tot 4 GB aan gegevens kan worden geadresseerd. Hierdoor kunnen ROM-hacks achtergrondmuziek in spellen vervangen door versies van hoge kwaliteit, en zelfs geanimeerde video's afspelen.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>MSU jest niestandardowym koprocesorem, który umożliwia odtwarzanie dźwięku o jakości CD (44,1 kHz, 16 bitów), a także adresowanie do 4 GB danych. Dzięki temu ROM hacki mogą zastąpić muzykę w grach jej wysokiej jakości wersjami, a nawet odtwarzać animowane filmy.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A MSU é um coprocessador personalizado que permite a reprodução de áudio com qualidade de CD (44,1 kHz, 16 bit), bem como o endereçamento de até 4 GB de dados. Isto permite aos hacks de ROM substituir a música de fundo em jogos por versões de alta qualidade, e até mesmo reproduzir vídeos animados.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>MSU - это пользовательский сопроцессор, который позволяет воспроизводить аудио CD-качества (44,1 кГц, 16 бит), а также адресовать до 4 Гб данных. Это позволяет ROM-хакам заменять фоновую музыку в играх высококачественными версиями и даже воспроизводить анимированное видео.</text>
+</text>
+
+</view>
+</theme>

@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The TurboGrafx-CD (known as PC Engine CD-ROM² in Japan) was the first CD peripheral for a home console in history, released by NEC and Hudson Soft in late 1988 in Japan and in 1989 in North America.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le TurboGrafx-CD (connu sous le nom de PC Engine CD-ROM² au Japon) a été le premier périphérique CD pour une console de salon de l'histoire, sorti par NEC et Hudson Soft fin 1988 au Japon et en 1989 en Amérique du Nord.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Das TurboGrafx-CD (in Japan als PC Engine CD-ROM² bekannt) war das erste CD-Peripheriegerät für eine Heimkonsole überhaupt. Es wurde von NEC und Hudson Soft Ende 1988 in Japan und 1989 in Nordamerika veröffentlicht.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>El TurboGrafx-CD (conocido como PC Engine CD-ROM² en Japón) fue el primer periférico de CD para una consola de sobremesa en la historia, lanzado por NEC y Hudson Soft a finales de 1988 en Japón y en 1989 en Norteamérica.</text>
+</text>
+
+</view>
+</theme>

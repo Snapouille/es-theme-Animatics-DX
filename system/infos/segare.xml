@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Sega RingEdge is an arcade board released by Sega in 2009. It was designed as a PC-based architecture to facilitate game development and reduce costs compared to its predecessor, the Lindbergh board. It uses the Microsoft Windows Embedded Standard 2009 operating system and was the debut system for the popular robot combat game Border Break.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La Sega RingEdge est une borne d'arcade sortie par Sega en 2009. Conçue avec une architecture basée sur PC, elle facilite le développement de jeux et réduit les coûts par rapport à son prédécesseur, la carte Lindbergh. Elle utilise le système d'exploitation Microsoft Windows Embedded Standard 2009 et a servi de système de lancement pour le célèbre jeu de combat de robots Border Break.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Das Sega RingEdge ist ein Arcade-Board, das 2009 von Sega veröffentlicht wurde. Es wurde als PC-basierte Architektur konzipiert, um die Spieleentwicklung zu vereinfachen und die Kosten im Vergleich zum Vorgänger, dem Lindbergh-Board, zu senken. Es nutzt das Betriebssystem Microsoft Windows Embedded Standard 2009 und war das Debütsystem für das beliebte Roboter-Kampfspiel Border Break.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>El Sega RingEdge es una placa de arcade lanzada por Sega en 2009. Fue diseñada como una arquitectura basada en PC para facilitar el desarrollo de juegos y reducir costos en comparación con su predecesora, la placa Lindbergh. Utiliza el sistema operativo Microsoft Windows Embedded Standard 2009 y fue el sistema de debut para el popular juego de combate de robots Border Break.</text>
+</text>
+
+</view>
+</theme>

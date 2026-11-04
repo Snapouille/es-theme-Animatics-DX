@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Raw Thrills, Inc. is a leading designer and manufacturer of modern arcade machines, founded in 2001 by legendary designer Eugene Jarvis (creator of Defender and Cruis'n). The company specializes in high-impact simulators, shooters, and redemption systems based on popular licenses..</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Raw Thrills, Inc. est un concepteur et fabricant de premier plan de bornes d'arcade modernes. Fondée en 2001 par le légendaire concepteur Eugene Jarvis (créateur de Defender et Cruis'n), l'entreprise se spécialise dans les simulateurs, les jeux de tir et les systèmes de rachat de points à sensations fortes basés sur des licences populaires.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Raw Thrills, Inc. ist ein führender Entwickler und Hersteller moderner Arcade-Automaten. Das Unternehmen wurde 2001 von dem legendären Spieledesigner Eugene Jarvis (Schöpfer von Defender und Cruis'n) gegründet. Raw Thrills, Inc. hat sich auf actionreiche Simulatoren, Shooter und Gewinnspielsysteme auf Basis beliebter Lizenzen spezialisiert.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>Raw Thrills, Inc. es una de las empresas líderes en el diseño y fabricación de máquinas arcade modernas, fundada en 2001 por el legendario diseñador Eugene Jarvis (creador de Defender y Cruis'n). La compañía se especializa en simuladores de alto impacto, juegos de disparos y sistemas de redención basados en licencias populares. </text>
+</text>
+
+</view>
+</theme>

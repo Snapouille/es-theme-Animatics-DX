@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>NESiCAxLive 2 is a digital distribution system for arcade machines developed by Taito, a subsidiary of Square Enix. Released in June 2017, it is an evolution of the original 2010 system and operates primarily in Japan, allowing operators to download games directly to arcade cabinets.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>NESiCAxLive 2 est un système de distribution numérique pour bornes d'arcade développé par Taito, une filiale de Square Enix. Sorti en juin 2017, il s'agit d'une évolution du système original de 2010 et il est principalement utilisé au Japon, permettant aux exploitants de télécharger des jeux directement sur les bornes d'arcade.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>NESiCAxLive 2 ist ein digitales Vertriebssystem für Arcade-Automaten, entwickelt von Taito, einer Tochtergesellschaft von Square Enix. Es wurde im Juni 2017 veröffentlicht und ist eine Weiterentwicklung des ursprünglichen Systems von 2010. Hauptsächlich in Japan im Einsatz, ermöglicht es Betreibern, Spiele direkt auf die Arcade-Automaten herunterzuladen.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>NESiCAxLive 2 es un sistema de distribución digital para máquinas arcade desarrollado por Taito, una subsidiaria de Square Enix. Lanzado en junio de 2017, es la evolución del sistema original de 2010 y funciona principalmente en Japón, permitiendo a los operadores descargar juegos directamente a los muebles arcade.  </text>
+</text>
+
+</view>
+</theme>

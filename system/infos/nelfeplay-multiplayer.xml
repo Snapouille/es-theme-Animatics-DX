@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>A great game, opponents that match your skills, and a rematch that won't wait: your evenings are bound to run long! With NelfePlay MULTIPLAYER, get together for an intense duel or a great cooperative session. In your NelfePlay MULTIPLAYER collection, a long press on the game of your choice is all it takes to jump into the action. It's your turn to play!</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Un bon jeu, des adversaires à votre taille et une revanche qui n'attend pas : les soirées risquent de se prolonger ! Avec NelfePlay MULTIPLAYER, retrouvez-vous pour un duel acharné ou un bon moment de coopération. Dans votre collection NelfePlay MULTIPLAYER, un appui long sur le jeu sélectionné de votre choix suffit pour rejoindre l'action. À vous de jouer !</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Ein gutes Spiel, Gegner in deiner Größe und eine Revanche, die nicht auf sich warten lässt: Die Abende werden sich wohl in die Länge ziehen! Trefft euch mit NelfePlay MULTIPLAYER zu einem erbitterten Duell oder einer tollen Koop-Runde. In eurer NelfePlay MULTIPLAYER-Sammlung reicht ein langer Druck auf das von euch ausgewählte Spiel, um ins Geschehen einzusteigen. Viel Spaß!</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Un buen juego, oponentes a tu altura y una revancha que no se hace esperar: ¡las noches prometen alargarse! Con NelfePlay MULTIPLAYER, reuniros para un duelo encarnizado o un buen rato de cooperación. En vuestra colección NelfePlay MULTIPLAYER, basta con una pulsación larga en el juego seleccionado para unirse a la acción. ¡Os toca jugar!</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Un bel gioco, avversari alla tua altezza e una rivincita che non si fa attendere: le serate rischiano di prolungarsi! Con NelfePlay MULTIPLAYER, ritrovatevi per un duello agguerrito o un bel momento di cooperazione. Nella vostra collezione NelfePlay MULTIPLAYER, una pressione prolungata sul gioco selezionato è sufficiente per entrare nell'azione. A voi il turno!</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>良いゲーム、自分にぴったりの対戦相手、そしてすぐに始まるリベンジマッチ。夜が長くなりそうです！NelfePlay MULTIPLAYERで集まって、白熱したデュエルや楽しい協力プレイを楽しみましょう。NelfePlay MULTIPLAYERコレクションでは、選択したゲームを長押しするだけでアクションに参加できます。さあ、プレイしましょう！</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Een goed spel, tegenstanders van jouw niveau en een revanche die niet lang op zich laat wachten: de avonden worden vast lang! Kom met NelfePlay MULTIPLAYER samen voor een verhit duel of een fijne coöp-sessie. In je NelfePlay MULTIPLAYER-collectie hoef je lang te drukken op het spel naar keuze om actie te ondernemen. Veel plezier!</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Dobra gra, przeciwnicy dopasowani do Twoich możliwości i rewanż, który nie znosi zwłoki – te wieczory mogą się przeciągnąć! Z NelfePlay MULTIPLAYER spotkajcie się na zacięty pojedynek lub świetną współpracę. W Twojej kolekcji NelfePlay MULTIPLAYER wystarczy długie przytrzymanie wybranej gry, aby dołączyć do akcji. Do dzieła!</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Um bom jogo, adversários à sua altura e uma desforra que não espera: as noites prometem prolongar-se! Com o NelfePlay MULTIPLAYER, juntem-se para um duelo aguerrido ou um ótimo momento de cooperação. Na vossa coleção NelfePlay MULTIPLAYER, um toque longo no jogo selecionado da vossa escolha é suficiente para entrar em ação. Divirtam-se!</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Хорошая игра, достойные соперники и реванш, который не заставит себя ждать: вечера явно затянутся! С NelfePlay MULTIPLAYER собирайтесь вместе для жаркой дуэли или отличного кооператива. В вашей коллекции NelfePlay MULTIPLAYER достаточно долгого нажатия на выбранную игру, чтобы присоединиться к действию. Ваша очередь!</text>
+</text>
+
+</view>
+</theme>

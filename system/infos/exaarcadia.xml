@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The exA-Arcadia is a modern arcade motherboard, released in late 2019. Its concept is heavily inspired by classic systems like the legendary Neo-Geo (MVS), seeking to revive the motherboard model with interchangeable cartridges in the 21st century, focusing mainly on traditional genres such as shoot 'em ups, fighting games, and classic platformers.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>L'exA-Arcadia est une carte mère d'arcade moderne, sortie fin 2019. Son concept est fortement inspiré des systèmes classiques comme le légendaire Neo-Geo (MVS), cherchant à faire revivre le modèle de carte mère avec des cartouches interchangeables au 21e siècle, en se concentrant principalement sur des genres traditionnels tels que les shoot 'em up, les jeux de combat et les jeux de plateforme classiques.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Das exA-Arcadia ist ein modernes Arcade-Motherboard, das Ende 2019 auf den Markt kam. Sein Konzept ist stark von klassischen Systemen wie dem legendären Neo-Geo (MVS) inspiriert und zielt darauf ab, das Motherboard-Modell mit austauschbaren Modulen im 21. Jahrhundert wiederzubeleben. Der Fokus liegt dabei hauptsächlich auf traditionellen Genres wie Shoot 'em ups, Kampfspielen und klassischen Jump'n'Runs.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>La exA-Arcadia es una placa base para máquinas recreativas (arcades) moderna, lanzada a finales de 2019. Su concepto está fuertemente inspirado en sistemas clásicos como la mítica Neo-Geo (MVS), buscando revivir el modelo de placa base con cartuchos intercambiables en pleno siglo XXI, orientándose sobre todo a géneros tradicionales como los shoot 'em ups (matamarcianos), juegos de lucha y plataformas de corte clásico.</text>
+</text>
+
+</view>
+</theme>

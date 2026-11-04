@@ -1,0 +1,89 @@
+<!--
+Theme: Nomado-DX for Retrobat / Batocera / Knulli
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<image name="frame-cadre-info" extra="true">
+	<path>${themePath}/art/white.png</path>
+	<origin>0.5 0.5</origin>	
+	<size>2 2</size>									
+	<pos>0.5 0.5</pos>
+	<color>000000</color>
+	<zIndex>10000</zIndex>
+</image>
+
+<text name="theme_info" extra="true">
+	<origin>0 0</origin>	
+	<fontPath>${themePath}/_inc/fonts/Cabin-Bold.ttf</fontPath>
+	<alignment>left</alignment>
+	<fontSize>0.033</fontSize>
+	<zIndex>10001</zIndex>
+	<size>0.92 0.9</size>									
+	<pos>0.05 0.1</pos>
+	<pos if="{screen.ratio} == '4/3'">0.05 0.05</pos>
+	<verticalAlignment>top</verticalAlignment>
+	<autoScroll>vertical</autoScroll>
+	<lineSpacing>1.3</lineSpacing>
+	<color>f3d486</color>
+</text>
+
+
+<text name="theme_info" extra="true">
+<text>Welcome to Nomado-DX!
+
+The priority of this theme was focused on fluidity but also readability on small screens. If you spot a bug or anything else please open an issue directly on my github :
+
+     → https://github.com/Snapouille/Nomado-DX ←
+
+You can also contact me on the Batocera, Retrobat or Knulli discords.
+
+To remove this information window I invite you to do START, Display settings, Theme configuration, Theme information and change the value to ‘Hide’.
+
+I hope you enjoy (ツ)
+
+Snapouille</text></text>
+
+
+<text name="theme_info" extra="true" lang="fr">
+<text>Bienvenue dans Nomado-DX !
+
+La priorité de ce thème a été axée sur la fluidité mais aussi sur la lisibilité sur petits écrans. Si vous apercevez un bug ou autre merci de bien vouloir ouvrir une issue directement sur mon github :
+
+     →   https://github.com/Snapouille/Nomado-DX   ←
+
+Vous pouvez aussi me contacter sur les discords de Batocera, Retrobat ou encore Knulli.
+
+Pour enlever cette fenêtre d'information je vous invite à faire START, Paramètres d'affichage, Configuration du thème, Theme information et de passer la valeur à "Masquer".
+
+Je vous souhaite un bon amusement (ツ)
+
+Snapouille</text>
+</text>
+
+<text name="theme_info" extra="true" lang="es">
+<text>Bienvenido a Nomado-DX!
+
+La prioridad de este tema se centró en la fluidez, sino también la legibilidad en pantallas pequeñas. Si detectas un bug o cualquier otra cosa por favor abre un issue directamente en mi github :
+
+     → https://github.com/Snapouille/Nomado-DX ←
+
+También puedes contactar conmigo en los discords de Batocera, Retrobat o Knulli.
+
+Para eliminar esta ventana de información te invito a que hagas START, Display settings, Theme configuration, Theme information y cambies el valor a ‘Hide’.
+
+Espero que lo disfrutes (ツ)
+
+Snapouille</text>
+</text>
+
+
+
+
+
+</view>
+</theme>

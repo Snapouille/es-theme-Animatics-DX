@@ -831,6 +831,7 @@
 	
 
 <image name="background-art" extra="true">
+	<visible ifSubset="roomDisplay:room">!exists("${themePath}/art/room/" + {system:theme} + ".png")</visible>
 	<path>{game:fanart}</path>
 	<pos>0.5 0.5</pos>
 	<minSize>1 1</minSize>
@@ -860,6 +861,43 @@
 	<path>${themePath}/art/divers/bg.png</path>
 </image>
 
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!--        GESTION AUTOMATIQUE DES ROOMS SI DISPO        -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!-- Décor de la room -->
+<image name="background-room" extra="true">
+    <path>"${themePath}/art/room/" + {system:theme} + ".png"</path>
+    <visible ifSubset="roomDisplay:fanart">false</visible>
+    <visible ifSubset="roomDisplay:room">exists("${themePath}/art/room/" + {system:theme} + ".png")</visible>
+    <pos>0.5 0.5</pos>
+    <size>1 1</size>
+    <origin>0.5 0.5</origin>
+    <zIndex>3</zIndex>
+</image>
+
+<!-- Fanart dans le cadre -->
+<image name="fanart-room" extra="true">
+    <path>{game:fanart}</path>
+    <visible ifSubset="roomDisplay:fanart">false</visible>
+    <visible ifSubset="roomDisplay:room">exists("${themePath}/art/room/" + {system:theme} + ".png") &amp;&amp; exists({game:fanart})</visible>
+    <size>0.3020833 0.2972222</size>
+    <pos>0.0442708 0.3546296</pos>
+    <origin>0 0</origin>
+    <zIndex>2</zIndex>
+</image>
+
+<!-- Image par défaut si le jeu ne possède pas de fanart -->
+<image name="background-default-fanart" extra="true">
+    <path>"${themePath}/art/room/" + {system:theme} + "-default.jpg"</path>
+    <visible ifSubset="roomDisplay:fanart">false</visible>
+    <visible ifSubset="roomDisplay:room">exists("${themePath}/art/room/" + {system:theme} + ".png") &amp;&amp; !exists({game:fanart})</visible>
+    <size>0.3020833 0.2972222</size>
+    <pos>0.0442708 0.3546296</pos>
+    <origin>0 0</origin>
+    <zIndex>2</zIndex>
+</image>
 
 
 
@@ -1122,57 +1160,6 @@
 	<pos>0.1640625 0.05</pos>									
 </image>
 
-
-
-	<!-- animation 1 remplacer finalement pour la suivante -->
-	<!-- on fait sortir la cartridge par la gauche -->		
-	<!-- <image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true"> -->
-		<!-- <path>{game:cartridge}</path> -->
-		<!-- <maxSize>0.27 0.27</maxSize> -->
-		<!-- <pos>-0.19 0.66</pos> -->
-		<!-- <pos ifHelpPrompts="false">-0.19 0.71</pos>		 -->
-		<!-- <opacity>0</opacity> -->
-		<!-- <zIndex>100</zIndex> -->
-		
-		
-		<!-- <storyboard event="open"> -->
-			<!-- <animation property="opacity" to="1" begin="600" duration="40" mode="linear"/> -->
-			<!-- <animation property="offsetX" to="0.32" begin="600" duration="260" mode="EaseOut"/> -->
-			<!-- <animation property="rotation" from="20" to="-4" begin="600" duration="260" mode="EaseOut"/> -->
-			<!-- <animation property="scale" from="0.72 0.92" to="1.04 1.04" begin="600" duration="260" mode="EaseOut"/> -->
-			<!-- <animation property="offsetX" to="0.3" begin="860" duration="140" mode="EaseOut"/> -->
-			<!-- <animation property="rotation" to="0" begin="860" duration="140" mode="EaseOut"/> -->
-			<!-- <animation property="scale" to="1 1" begin="860" duration="140" mode="EaseOut"/> -->
-		<!-- </storyboard> -->
-
-		<!-- <storyboard event="activateNext"> -->
-			<!-- <animation property="opacity" to="1" begin="600" duration="40" mode="linear"/> -->
-			<!-- <animation property="offsetX" to="0.32" begin="600" duration="260" mode="EaseOut"/> -->
-			<!-- <animation property="rotation" from="20" to="-4" begin="600" duration="260" mode="EaseOut"/> -->
-			<!-- <animation property="scale" from="0.72 0.92" to="1.04 1.04" begin="600" duration="260" mode="EaseOut"/> -->
-			<!-- <animation property="offsetX" to="0.3" begin="860" duration="140" mode="EaseOut"/> -->
-			<!-- <animation property="rotation" to="0" begin="860" duration="140" mode="EaseOut"/> -->
-			<!-- <animation property="scale" to="1 1" begin="860" duration="140" mode="EaseOut"/> -->
-		<!-- </storyboard> -->
-
-		<!-- <storyboard event="activatePrev"> -->
-			<!-- <animation property="opacity" to="1" begin="600" duration="40" mode="linear"/> -->
-			<!-- <animation property="offsetX" to="0.32" begin="600" duration="260" mode="EaseOut"/> -->
-			<!-- <animation property="rotation" from="20" to="-4" begin="600" duration="260" mode="EaseOut"/> -->
-			<!-- <animation property="scale" from="0.72 0.92" to="1.04 1.04" begin="600" duration="260" mode="EaseOut"/> -->
-			<!-- <animation property="offsetX" to="0.3" begin="860" duration="140" mode="EaseOut"/> -->
-			<!-- <animation property="rotation" to="0" begin="860" duration="140" mode="EaseOut"/> -->
-			<!-- <animation property="scale" to="1 1" begin="860" duration="140" mode="EaseOut"/> -->
-		<!-- </storyboard> -->
-
-		
-		<!-- <storyboard event="deactivateNext"> -->
-			<!-- <animation property="opacity" to="0" duration="1" mode="linear"/> -->
-		<!-- </storyboard> -->
-		<!-- <storyboard event="deactivatePrev"> -->
-			<!-- <animation property="opacity" to="0" duration="1" mode="linear"/> -->
-		<!-- </storyboard> -->
-    <!-- </image> -->
 	
 	
 	
@@ -2026,14 +2013,27 @@
 			" extra="true">		
 
 <!-- On coupe le son des md_video si on est dans un système arcade pour éviter le son en double -->
-	<video name="md_video">
-	  <audio>false</audio>
-	</video>
+<video name="md_video">
+  <audio>false</audio>
+</video>
 	
-<!-- on affiche pas les éléments du bureau ni certains médias -->
-	<image name="bureau, mini, ecran_console_defaut, background-art, thumbnail-gamecarousel, boxback_ID, cartridge_ID, cartridge_back" extra="static">
-		<visible>false</visible>
-	</image>
+	
+<!-- Éléments masqués dans toutes les ambiances Arcade -->
+<image name="bureau, mini, ecran_console_defaut, boxback_ID, cartridge_ID, cartridge_back" extra="static">
+	<visible>false</visible>
+</image>
+
+<image name="background-room, fanart-room, background-default-fanart" extra="true">
+    <visible>false</visible>
+</image>	
+
+
+<!-- Fond fanart uniquement dans le mode Fanart -->
+<image name="background-art, thumbnail-gamecarousel" extra="true">
+	<visible ifSubset="barType:fanart">true</visible>
+	<visible ifSubset="barType:classic|modern|artdeco|retro80s|scandinavian|steampunk">false</visible>
+</image>	
+	
 
 
 <image name="background-bar" extra="true">
@@ -2110,9 +2110,9 @@
 	<shader>
 		<path>${themePath}/art/shaders/animatics-perspective.glsl</path>
 		<dimensions>307.2 172.8</dimensions>
-		<hautGauche>17 -35</hautGauche>
+		<hautGauche>17 -39</hautGauche>
 		<basGauche>12 65</basGauche>
-		<hautDroit>-70 -40</hautDroit>
+		<hautDroit>-70 -35</hautDroit>
 		<basDroit>-70 -10</basDroit>
 		
 		<!-- Perspective 16:10 -->
@@ -2128,6 +2128,8 @@
 	
 <!-- Repositionnement des figurines pour les systèmes Arcades -->
 <image name="figurines,shadow_figurines" extra="true">
+	<visible ifSubset="barType:classic|modern|artdeco|retro80s|scandinavian|steampunk">true</visible>
+	<visible ifSubset="barType:fanart">false</visible>
 	<x>0.17</x>
 	<y>0.70</y>
 	<maxSize>0.07 0.19</maxSize>

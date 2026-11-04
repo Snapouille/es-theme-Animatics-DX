@@ -1,0 +1,35 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Konami’s internal "PC-based" platform is known in the arcade preservation community as "Konami PC-Based Hardware"—or, in its most famous musical variant, the "BEMANI PC" architecture.
+Unlike older arcade machines, these Konami boards—released from 2003/2004 onwards—no longer relied on specialized, proprietary chips. Instead, they utilized standard computers running Windows XP Embedded or Windows IoT, equipped with Intel/AMD processors and off-the-shelf graphics cards (such as the classic Nvidia GeForce or ATI Radeon series), all secured by physical hardware dongles.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La plateforme interne « PC-based » de Konami est techniquement désignée, dans le milieu de la préservation des jeux d'arcade, sous le nom de « Konami PC Based Hardware » — ou, dans sa variante musicale la plus célèbre, « architecture BEMANI PC ».
+Contrairement aux anciennes bornes d'arcade, ces systèmes de Konami, lancés à partir de 2003-2004, n'utilisaient plus de puces propriétaires spécifiques, mais des ordinateurs standard fonctionnant sous Windows XP Embedded ou Windows IoT. Ils étaient équipés de processeurs Intel ou AMD ainsi que de cartes graphiques courantes (telles que les classiques Nvidia GeForce ou ATI Radeon), le tout étant sécurisé par des clés matérielles (dongles).</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die interne „PC-basierte“ Plattform von Konami ist in der Welt der Arcade-Archivierung technisch als „Konami PC Based Hardware“ bekannt – oder in ihrer berühmtesten, auf Musikspiele ausgerichteten Variante als „BEMANI PC“-Architektur.
+Im Gegensatz zu älteren Arcade-Automaten kamen bei diesen Systemen von Konami, die ab 2003/2004 auf den Markt kamen, keine speziellen, proprietären Chips mehr zum Einsatz. Stattdessen basierten sie auf Standard-Computern mit Windows XP Embedded oder Windows IoT, ausgestattet mit Intel- oder AMD-Prozessoren sowie handelsüblichen Grafikkarten (etwa den klassischen Modellen von Nvidia GeForce oder ATI Radeon), wobei der Schutz durch physische Hardware-Dongles gewährleistet wurde.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>La plataforma interna "PC-based" de Konami se conoce técnicamente en el mundo de la preservación arcade como Konami PC Based Hardware o su variante musical más famosa, la arquitectura BEMANI PC.
+A diferencia de las recreativas antiguas, estas placas de Konami lanzadas a partir de 2003/2004 ya no utilizaban chips dedicados extraños, sino computadores estándar con Windows XP Embedded o Windows IoT, procesadores Intel/AMD y tarjetas gráficas comunes (como las veteranas Nvidia GeForce o ATI Radeon) protegidos por llaves físicas dongles.
+</text>
+</text>
+
+</view>
+</theme>

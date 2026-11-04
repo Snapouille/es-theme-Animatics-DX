@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Sega Channel was a subscription service for the Sega Genesis (Mega Drive) console that allowed users to download and play titles directly over the cable television signal. Officially launched in 1994, it was a spiritual precursor to current services such as Xbox Game Pass or PlayStation Plus.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La chaîne Sega était un service d'abonnement pour la console Sega Genesis (Mega Drive) qui permettait aux utilisateurs de télécharger et de lire des titres directement via le signal de télévision par câble. Lancé officiellement en 1994, il était un précurseur spirituel des services actuels comme le Xbox Game Pass ou le PlayStation Plus.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Sega Channel war ein Abonnementdienst für die Sega Genesis (Mega Drive)-Konsole, der es Benutzern ermöglichte, Titel direkt über das Kabelfernsehsignal herunterzuladen und abzuspielen. Es wurde 1994 offiziell eingeführt und war ein spiritueller Vorläufer aktueller Dienste wie Xbox Game Pass oder PlayStation Plus.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>El Sega Channel fue un servicio de suscripción para la consola Sega Genesis (Mega Drive) que permitía a los usuarios descargar y jugar títulos directamente a través de la señal de televisión por cable. Lanzado oficialmente en 1994, fue un precursor espiritual de servicios actuales como Xbox Game Pass o PlayStation Plus.</text>
+</text>
+
+</view>
+</theme>

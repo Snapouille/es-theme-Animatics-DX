@@ -1,0 +1,46 @@
+<!-- Super Cassette Vision -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>									
+			<size>0.3510417 0.8157407</size>									
+			<pos>0.14 0.14</pos>
+			<scale>0.9</scale>
+			<zIndex>18</zIndex>
+			
+			<storyboard>
+				
+        		<animation property="offsetY" from="0.01" to="0" begin="" duration="700" mode="EaseInOut"/>
+				
+			</storyboard>	
+			
+			
+			
+		</image>
+
+		<image name="avatar2" extra="static">
+			<origin>0 0</origin>									
+			<size>0.1880208 0.512963</size>									
+			<pos>0.5 0.2</pos>
+			<scale>0.9</scale>
+			<path>./avatar2.png</path>
+			<zIndex>18</zIndex>
+			<linearSmooth>true</linearSmooth>
+		
+			<storyboard>
+				
+        		<animation property="offsetY" from="-0.01" to="0" begin="" duration="700" mode="EaseInOut"/>
+				
+			</storyboard>	
+		
+		</image>
+		
+		
+
+	</view>
+	
+</theme>

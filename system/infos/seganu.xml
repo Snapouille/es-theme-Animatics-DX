@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Sega Nu is an arcade hardware architecture and board developed by Sega. It was originally released in 2013 as the direct successor to the RingEdge family of systems, using standard personal computer (PC) components and running embedded Windows operating systems.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Sega Nu est une architecture matérielle et une carte d'arcade développée par Sega. Sortie initialement en 2013, elle succède directement à la famille de systèmes RingEdge, utilisant des composants d'ordinateur personnel (PC) standard et fonctionnant sous Windows embarqué.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Sega Nu ist eine von Sega entwickelte Arcade-Hardwarearchitektur und -platine. Sie wurde ursprünglich 2013 als direkter Nachfolger der RingEdge-Systemfamilie veröffentlicht und verwendet Standard-PC-Komponenten sowie eingebettete Windows-Betriebssysteme.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>Sega Nu es una arquitectura y placa de hardware para máquinas recreativas (arcades) desarrollada por Sega. Fue lanzada originalmente en el año 2013 como la sucesora directa de la familia de sistemas RingEdge, utilizando componentes basados en una computadora personal (PC) estándar y ejecutando sistemas operativos embebidos de Windows.</text>
+</text>
+
+</view>
+</theme>

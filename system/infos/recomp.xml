@@ -1,0 +1,88 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Rediscover iconic video games in a whole new light thanks to recompilation and decompilation projects that give them a second life on PC. These native adaptations push beyond the original technical limits with optimized performance, modern resolutions and new features. A fresh way to enjoy the great classics, blending nostalgia with modern technology!</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Redécouvrez les jeux vidéo cultes sous un nouveau jour grâce aux projets de recompilation et de décompilation qui leur offrent une seconde vie sur PC. Ces adaptations natives repoussent les limites techniques d'origine avec des performances optimisées, des résolutions modernes et de nouvelles fonctionnalités. Une nouvelle façon de profiter des grands classiques, entre nostalgie et modernité !</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Entdecke Kult-Videospiele neu – dank Rekompilierungs- und Dekompilierungsprojekten, die ihnen auf dem PC ein zweites Leben schenken. Diese nativen Umsetzungen überwinden die technischen Grenzen der Originale mit optimierter Leistung, modernen Auflösungen und neuen Funktionen. Erlebe große Klassiker auf neue Weise – zwischen Nostalgie und Moderne!</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Redescubre los videojuegos de culto desde una nueva perspectiva gracias a proyectos de recompilación y descompilación que les dan una segunda vida en PC. Estas adaptaciones nativas superan las limitaciones técnicas originales con un rendimiento optimizado, resoluciones modernas y nuevas funciones. ¡Una nueva forma de disfrutar de los grandes clásicos, entre nostalgia y modernidad!</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Riscopri i videogiochi di culto sotto una nuova luce grazie ai progetti di ricompilazione e decompilazione che danno loro una seconda vita su PC. Questi adattamenti nativi superano i limiti tecnici originali con prestazioni ottimizzate, risoluzioni moderne e nuove funzionalità. Un nuovo modo di godersi i grandi classici, tra nostalgia e modernità!</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>再コンパイルや逆コンパイルのプロジェクトによってPCで新たな命を吹き込まれた名作ゲームを、これまでとは違う魅力で再発見しよう。ネイティブ移植により、最適化された動作、現代的な解像度、新機能で当時の技術的制約を超えた体験が楽しめます。懐かしさと新しさが融合した、名作の新たな楽しみ方です！</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Herontdek iconische videogames dankzij recompilatie- en decompilatieprojecten die ze een tweede leven geven op de pc. Deze native versies doorbreken de oorspronkelijke technische grenzen met geoptimaliseerde prestaties, moderne resoluties en nieuwe functies. Geniet op een nieuwe manier van grote klassiekers, met een mix van nostalgie en moderne techniek!</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Odkryj kultowe gry wideo na nowo dzięki projektom rekompilacji i dekompilacji, które dają im drugie życie na PC. Te natywne adaptacje przekraczają pierwotne ograniczenia techniczne, oferując zoptymalizowaną wydajność, nowoczesne rozdzielczości i nowe funkcje. To nowy sposób na poznanie wielkich klasyków, łączący nostalgię z nowoczesnością!</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Redescubra os videogames clássicos sob uma nova perspectiva graças a projetos de recompilação e descompilação que lhes dão uma segunda vida no PC. Essas adaptações nativas superam as limitações técnicas originais com desempenho otimizado, resoluções modernas e novos recursos. Uma nova forma de aproveitar os grandes clássicos, unindo nostalgia e modernidade!</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Откройте культовые видеоигры заново благодаря проектам рекомпиляции и декомпиляции, которые дарят им вторую жизнь на ПК. Эти нативные версии преодолевают технические ограничения оригиналов благодаря оптимизированной производительности, современным разрешениям и новым возможностям. Новый способ насладиться великой классикой на стыке ностальгии и современных технологий!</text>
+</text>
+
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Peter Jackson's King Kong: The Official Game of the Movie (2005)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>King Kong is a gigantic gorilla who rules Skull Island, a wild island inhabited by prehistoric creatures. In this adaptation of Peter Jackson's film, players alternate between Jack Driscoll's survival sequences and the famous primate's spectacular fights.
+Fun fact: To heighten immersion, the sequences played as Jack feature almost no on-screen interface, a striking feature when the game was released.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>King Kong est un gorille gigantesque qui règne sur Skull Island, une île sauvage peuplée de créatures préhistoriques. Dans cette adaptation du film de Peter Jackson, le joueur alterne entre les séquences de survie de Jack Driscoll et les combats spectaculaires du célèbre primate.
+Fun fact : Pour renforcer l'immersion, les séquences jouées avec Jack n'affichent quasiment aucune interface à l'écran, une particularité marquante du jeu à sa sortie.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>King Kong es un gorila gigantesco que reina en Skull Island, una isla salvaje poblada de criaturas prehistóricas. Con su fuerza colosal, se enfrenta a dinosaurios y otros monstruos para proteger a Ann Darrow. En esta adaptación de la película de Peter Jackson, el jugador alterna entre la supervivencia de Jack Driscoll y los espectaculares combates del famoso primate.
+Dato curioso: Para reforzar la inmersión, las secuencias de Jack apenas muestran interfaz en pantalla, algo llamativo cuando salió el juego.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>King Kong è un gorilla gigantesco che regna su Skull Island, un'isola selvaggia popolata da creature preistoriche. Grazie alla sua forza colossale affronta dinosauri e altri mostri per proteggere Ann Darrow. In questo adattamento del film di Peter Jackson, il giocatore alterna le sequenze di sopravvivenza di Jack Driscoll agli spettacolari combattimenti del celebre primate.
+Curiosità: Per aumentare l'immersione, le sequenze con Jack mostrano pochissimi elementi dell'interfaccia, una scelta notevole all'uscita del gioco.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>King Kong ist ein riesiger Gorilla, der über Skull Island herrscht, eine wilde Insel voller prähistorischer Kreaturen. Mit gewaltiger Kraft kämpft er gegen Dinosaurier und andere Monster, um Ann Darrow zu beschützen. In der Umsetzung von Peter Jacksons Film wechselt der Spieler zwischen Jack Driscolls Überlebenskampf und den spektakulären Kämpfen des berühmten Primaten.
+Fun Fact: Für mehr Immersion verzichten Jacks Spielabschnitte fast vollständig auf Bildschirmanzeigen – eine Besonderheit bei Erscheinen des Spiels.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>King Kong é um gorila gigantesco que domina Skull Island, uma ilha selvagem habitada por criaturas pré-históricas. Com sua força colossal, enfrenta dinossauros e outros monstros para proteger Ann Darrow. Nesta adaptação do filme de Peter Jackson, o jogador alterna entre a sobrevivência de Jack Driscoll e os combates espetaculares do famoso primata.
+Curiosidade: Para aumentar a imersão, as sequências com Jack quase não exibem interface na tela, algo marcante na época do lançamento.</text>
+</text>
+
+</view>
+</theme>

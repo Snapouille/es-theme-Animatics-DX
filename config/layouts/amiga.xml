@@ -10,7 +10,6 @@
 		<maxSize>0.10 0.22</maxSize>	
 	</image>
 	
-	
 	<image name="ecran_console" extra="static">
 		<path>./../../system/amiga/ecran_console2.png</path>
 		<size>0.4197917 0.5694444</size>									
@@ -18,15 +17,12 @@
 		<pos ifHelpPrompts="false">0.555625 0.6893519</pos>
 	</image>
   
-  
-  
 	<video name="md_video">
 		<size>0.175 0.229</size>									
 		<pos>0.5911458 0.5066667</pos>									
 		<pos ifHelpPrompts="false">0.5811458 0.5666667</pos>
 	</video>
 	
-  
 	<!-- fond noir de l'écran -->
 	<image name="black_bg" extra="true">
 		<size>0.1770833 0.237037</size>									
@@ -61,10 +57,19 @@
 	</image>
 	
 	
+		
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--                   ROOM                               -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Position et dimensions du cadre de la room -->
+	<image name="fanart-room, background-default-fanart" extra="true">
+		<size>0.3078125 0.3037037</size>									
+		<pos>0.1140625 0.35</pos>									
+	</image>	
+		
 </view>
 
 <customView name="collector">
-  
   
 	<image name="figurines,shadow_figurines" extra="true">
 		<pos>0.305 0.61</pos>									
@@ -99,8 +104,6 @@
 		<pos ifHelpPrompts="false">0.5711458 0.5666667</pos>
 	</image>
 	
-
-	
 	<!-- Pour l'amiga quand il est regroupé on est obliger de forcer le bureau large -->
 	<!-- le " ${system.theme} == 'amiga' " n'est pas pris en compte dans le gamecarousel.xml -->
 	<image name="bureau" extra="static">
@@ -127,6 +130,16 @@
 			<pos ifHelpPrompts="false">0.5 0.8421296</pos>
 	</image>
 	
+		
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--                   ROOM                               -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Position et dimensions du cadre de la room -->
+	<image name="fanart-room, background-default-fanart" extra="true">
+		<size>0.3078125 0.3037037</size>									
+		<pos>0.1140625 0.35</pos>									
+	</image>	
+		
 	
 </customView>
 

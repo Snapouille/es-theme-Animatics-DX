@@ -1,0 +1,26 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Your machine's toolbox :
+- OD commander is a file manager.
+- RGB settings will allow you to manage your console's LED display.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La boite à outils de votre machine :
+- OD commander is a file manager.
+- RGB settings va vous permettre de gérér l'affichage des leds de votre console.</text>
+</text>
+
+
+</view>
+</theme>

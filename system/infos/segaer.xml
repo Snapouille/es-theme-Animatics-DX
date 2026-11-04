@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Arcade board developed by Sega Amusements Europe. Unlike other PC-based systems from the company, this hardware was originally designed in Europe for the release of Sega Rally 3.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Carte d'arcade développée par Sega Amusements Europe. Contrairement aux autres systèmes PC de la société, ce matériel a été initialement conçu en Europe pour la sortie de Sega Rally 3.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Arcade-Platine, entwickelt von Sega Amusements Europe. Im Gegensatz zu anderen PC-basierten Systemen des Unternehmens wurde diese Hardware ursprünglich in Europa für die Veröffentlichung von Sega Rally 3 entwickelt.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>Placa de arcade desarrollada por Sega Amusements Europe. A diferencia de otros sistemas de la compañía basados en PC, este hardware fue diseñado en Europa originalmente para el lanzamiento de Sega Rally 3.</text>
+</text>
+
+</view>
+</theme>

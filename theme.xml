@@ -134,6 +134,11 @@ originally based on: "carbon"
 	<retro80s>Retro 80s</retro80s>
 	<scandinavian>Scandinavian</scandinavian>
 	<artdeco>Art Deco</artdeco>
+	<barTypeFanartOnly>No bar, fanart only</barTypeFanartOnly>
+
+	<room.display>Room style - Other systems</room.display>
+	<room.fanart>Fullscreen fanart</room.fanart>
+	<room.room>Room ambience</room.room>
 	
 	<desk.type>Desk Type</desk.type>
 	<wood1>Oakwood</wood1>
@@ -674,12 +679,12 @@ originally based on: "carbon"
 		<include name="Show" displayName="${show}"/>
 	</subset>
 	
-	<!-- ===================================== -->
-	<!-- ===================================== -->
-	<!-- MENU SPECIAL POUR LA VUE GAMECAROUSEL -->
-	<!-- ===================================== -->
-	<!-- ===================================== -->
-	<subset name="spacer001" displayName="______________________________________________________________" appliesTo="›››››››››››››››››››››››››››››››››››››››››››››››››››››››››››   GameCarousel Options   ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹">
+	<!-- ==================================================== -->
+	<!-- ==================================================== -->
+	<!-- MENU SPECIAL POUR LES VUES GAMECAROUSEL et COLLECTOR -->
+	<!-- ==================================================== -->
+	<!-- ==================================================== -->
+	<subset name="spacer001" displayName="______________________________________________________________" appliesTo="››››››››››››››››››››››››››››››››››››››   Gamecarousel&#160;and&#160;Collector&#160;views Options   ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹">
 		<include name=" " displayName=" "/>
 	</subset>
 	
@@ -697,6 +702,13 @@ originally based on: "carbon"
 		<include name="retro80s" 		displayName="${retro80s}"/>
 		<include name="scandinavian" 	displayName="${scandinavian}"/>
 		<include name="artdeco" 		displayName="${artdeco}"/>
+		<include name="fanart" 			displayName="${barTypeFanartOnly}"/>
+	</subset>
+	
+	<!-- Choix du type d'ambiance pour les systèmes hors Arcade -->
+	<subset name="roomDisplay" displayName="${room.display}" appliesTo="gamecarousel, collector">
+		<include name="room"   displayName="${room.room}"/>
+		<include name="fanart" displayName="${room.fanart}"/>
 	</subset>
 	
 	<!-- Choix du type de bureau -->

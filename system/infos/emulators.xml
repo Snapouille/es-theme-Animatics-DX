@@ -1,0 +1,22 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>For more in-depth settings of emulators such as PPSSPP for PSP emulation and ScummVM for emulation of point'n'click and other adventure/narrative games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Pour les réglages plus approfondies des émulateurs comme PPSSPP pour l'émulation PSP et ScummVM pour l'émulation des jeux point'n'click et autre jeux d'aventure/narratifs.</text>
+</text>
+
+
+</view>
+</theme>

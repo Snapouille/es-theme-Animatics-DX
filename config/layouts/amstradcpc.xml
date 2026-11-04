@@ -28,6 +28,15 @@
 		<pos>0.5453125 0.5271481</pos>									
 		<pos ifHelpPrompts="false">0.5653125 0.5661481</pos>
 	</image>
+		
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--                   ROOM                               -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Position et dimensions du cadre de la room -->
+	<image name="fanart-room, background-default-fanart" extra="true">
+		<size>0.3020833 0.2972222</size>
+		<pos>0.0442708 0.3546296</pos>
+	</image>	
 	
 </view>
 
@@ -67,6 +76,17 @@
 		<pos>0.5153125 0.5271481</pos>									
 		<pos ifHelpPrompts="false">0.5153125 0.5661481</pos>
 	</image>
+	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--                   ROOM                               -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Position et dimensions du cadre de la room -->
+	<image name="fanart-room, background-default-fanart" extra="true">
+		<size>0.3020833 0.2972222</size>
+		<pos>0.0442708 0.3546296</pos>
+	</image>	
+	
 	
 </customView>
 

@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Global VR is an American video game company founded in 1998 and based in San Jose, California, that specializes in the development and manufacturing of coin-operated arcade machines. Although its name refers to virtual reality—a technology the company experimented with early on, between 2003 and 2004—its true commercial success came from adapting popular PC and console franchises for the arcade format, through agreements with major publishers such as Electronic Arts.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Global VR est une entreprise américaine de jeux vidéo, fondée en 1998 et basée à San José, en Californie, spécialisée dans le développement et la fabrication de bornes d'arcade fonctionnant avec des pièces. Bien que son nom fasse référence à la réalité virtuelle — une technologie qu'elle a explorée à ses débuts, entre 2003 et 2004 —, son véritable succès commercial est né de l'adaptation de franchises populaires issues du PC et des consoles au format des salles d'arcade, grâce à des accords conclus avec de grands éditeurs tels qu'Electronic Arts.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Global VR ist ein 1998 gegründetes US-amerikanisches Videospielunternehmen mit Sitz in San José, Kalifornien, das sich auf die Entwicklung und Herstellung von münzbetriebenen Arcade-Automaten spezialisiert hat. Obwohl der Name auf Virtual Reality verweist – eine Technologie, mit der das Unternehmen in seiner Anfangsphase zwischen 2003 und 2004 experimentierte –, stellte sich der eigentliche kommerzielle Erfolg erst ein, als es durch Vereinbarungen mit großen Publishern wie Electronic Arts beliebte PC- und Konsolen-Franchises für den Arcade-Bereich adaptierte.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>Global VR es una empresa estadounidense de videojuegos fundada en 1998 y con sede en San José, California, que se especializa en el desarrollo y fabricación de máquinas recreativas (arcades) operadas por monedas. Aunque su nombre hace referencia a la realidad virtual (tecnología con la que experimentaron en sus inicios entre 2003 y 2004), su verdadero éxito comercial llegó al adaptar populares franquicias de PC y consolas al formato de los salones recreativos mediante acuerdos con grandes editoras como Electronic Arts.</text>
+</text>
+
+</view>
+</theme>

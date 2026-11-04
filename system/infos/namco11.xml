@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Namco System 11 is an arcade motherboard released in 1994, jointly developed by Namco and Sony Computer Entertainment. Its design was based on the hardware of the original Sony PlayStation (specifically prototypes prior to the console's launch), allowing many of its games to be ported almost identically to the home system.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La Namco System 11 est une carte mère d'arcade sortie en 1994, développée conjointement par Namco et Sony Computer Entertainment. Sa conception était basée sur le matériel de la PlayStation originale de Sony (en particulier les prototypes antérieurs au lancement de la console), permettant à bon nombre de ses jeux d'être portés presque à l'identique sur le système domestique.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Das Namco System 11 ist ein 1994 veröffentlichtes Arcade-Motherboard, das gemeinsam von Namco und Sony Computer Entertainment entwickelt wurde. Das Design basierte auf der Hardware der ursprünglichen Sony PlayStation (insbesondere Prototypen vor der Veröffentlichung der Konsole), sodass viele ihrer Spiele nahezu identisch auf das Heimsystem portiert werden konnten.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>El Namco System 11 es una placa base de arcade lanzada en 1994, desarrollada conjuntamente por Namco y Sony Computer Entertainment. Su diseño se basó en el hardware de la Sony PlayStation original (específicamente en prototipos previos al lanzamiento de la consola), lo que permitió que muchos de sus juegos fueran portados de manera casi idéntica al sistema doméstico.</text>
+</text>
+
+</view>
+</theme>

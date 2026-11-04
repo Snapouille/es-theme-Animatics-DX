@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>UNIS Technology (Universal Space) is one of the world's largest manufacturers of arcade machines, specializing in redemption games (tickets), virtual reality (VR) experiences and officially licensed titles.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>UNIS Technology (Universal Space) est l'un des plus grands fabricants mondiaux de machines d'arcade, spécialisé dans les jeux à tickets, les expériences de réalité virtuelle (VR) et les titres sous licence officielle.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>UNIS Technology (Universal Space) ist einer der weltweit größten Hersteller von Arcade-Automaten und spezialisiert auf Gewinnspiele (Tickets), Virtual-Reality-Erlebnisse (VR) und offiziell lizenzierte Titel.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>UNIS Technology (Universal Space) es uno de los mayores fabricantes mundiales de máquinas de arcade, especializado en juegos de redención (tickets), experiencias de realidad virtual (VR) y títulos con licencias oficiales.</text>
+</text>
+
+</view>
+</theme>

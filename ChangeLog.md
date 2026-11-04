@@ -1,11 +1,38 @@
+## V 2.57 - (04 11 2026)
+- Added a new "Room Display" option for non-Arcade systems in GameCarousel and Collector views, allowing users to choose between Room and Fanart backgrounds. Currently available for Amstrad CPC and Amiga only.
+- Added Recomp system
+- Added the NelfePlay multiplayer (thanks to Another Kif)
+
+Added 22 new custom systems (thanks to Joseledos) :
+- exA-Arcadia
+- Global VR
+- Konami PC-Based Hardware
+- Milton Bradley Microvision
+- Namco System 11
+- Namco System 22
+- NESiCAxLive
+- NESiCAxLive 2
+- Raw Thrills
+- Sega ALLS
+- Sega Channel
+- Sega Europa-R
+- Sega Nu
+- Sega RingEdge
+- Sega RingWide
+- Exidy Sorcerer
+- NEC TurboGrafx-16
+- NEC TurboGrafx-CD
+- Taito Type X
+- Taito Type X2
+- UNIS Technology
+- Sega Video Driver
+  
 ## V 2.56 - (14 10 2026)
 - Arcade systems: Improved shader properties for better rendering (16/9 and 16/10)
-
 
  ## V 2.55 - (06 10 2026)
 - Arcade systems: fixed layout issues on 16/10 displays (Steamdeck)  
   
-
 ## V 2.54 - (05 10 2026)
 - Arcade systems: added multiple selectable bar styles
 - Collector view: Japanese NES cartridge layout fix  

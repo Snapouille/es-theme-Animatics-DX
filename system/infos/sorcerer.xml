@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Released in 1978, the Exidy Sorcerer was one of the most advanced personal computers of its time, notable for being the first system with interchangeable ROM cartridges (ROM PACs) and user-definable graphics.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Sorti en 1978, l'Exidy Sorcerer était l'un des ordinateurs personnels les plus avancés de son époque, notamment parce qu'il s'agissait du premier système doté de cartouches ROM interchangeables (ROM PAC) et de graphismes personnalisables par l'utilisateur.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der 1978 erschienene Exidy Sorcerer war einer der fortschrittlichsten Personalcomputer seiner Zeit und zeichnete sich dadurch aus, dass er das erste System mit austauschbaren ROM-Kassetten (ROM PACs) und benutzerdefinierbarer Grafik war.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>Lanzado en 1978, el Exidy Sorcerer fue una de las computadoras personales más avanzadas de su época, destacando por ser el primer sistema con cartuchos de ROM intercambiables (ROM PACs) y gráficos definibles por el usuario.</text>
+</text>
+
+</view>
+</theme>

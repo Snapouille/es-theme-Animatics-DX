@@ -1,0 +1,24 @@
+<!-- sc-3000 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+
+		<image name="avatar" extra="true">
+			<scale>0.85</scale>
+			<linearSmooth>true</linearSmooth>
+			<size>0.3504167 0.4235185</size>									
+			<storyboard>
+				
+				<animation property="offsetX" to="0.09" begin="" duration="1000" mode="EaseInOut"/>
+				<animation property="offsetY" to="0.36" begin="" duration="10" mode="EaseIn"/>
+				
+			</storyboard>					
+
+		</image>
+		
+		
+	</view>
+</theme>

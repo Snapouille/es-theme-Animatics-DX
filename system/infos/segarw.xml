@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Sega RingWide is a PC architecture-based arcade system board released by Sega in 2009. It was designed as a lower-cost, more modestly specified alternative to its high-end counterpart, the Sega RingEdge.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La Sega RingWide est une carte système d'arcade basée sur une architecture PC, sortie par Sega en 2009. Elle a été conçue comme une alternative moins coûteuse et aux spécifications plus modestes à son homologue haut de gamme, la Sega RingEdge.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Das Sega RingWide ist eine Arcade-Systemplatine auf PC-Architekturbasis, die 2009 von Sega auf den Markt gebracht wurde. Es wurde als kostengünstigere und einfacher ausgestattete Alternative zu seinem High-End-Pendant, dem Sega RingEdge, konzipiert.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>Sega RingWide es una placa de sistema arcade basada en arquitectura de PC, lanzada por Sega en 2009. Fue diseñada como una alternativa de menor costo y especificaciones más modestas en comparación con su contraparte de gama alta, la Sega RingEdge.</text>
+</text>
+
+</view>
+</theme>

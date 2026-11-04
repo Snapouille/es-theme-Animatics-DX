@@ -906,6 +906,7 @@ originally based on: "carbon"
 	
 
 <image name="background-art" extra="true">
+	<visible ifSubset="roomDisplay:room">!exists("${themePath}/art/room/" + {system:theme} + ".png")</visible>
 	<path>{game:fanart}</path>
 	<pos>0.5 0.5</pos>
 	<minSize>1 1</minSize>
@@ -935,6 +936,43 @@ originally based on: "carbon"
 	<path>${themePath}/art/divers/bg.png</path>
 </image>
 
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!--        GESTION AUTOMATIQUE DES ROOMS SI DISPO        -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!-- Décor de la room -->
+<image name="background-room" extra="true">
+    <path>"${themePath}/art/room/" + {system:theme} + ".png"</path>
+    <visible ifSubset="roomDisplay:fanart">false</visible>
+    <visible ifSubset="roomDisplay:room">exists("${themePath}/art/room/" + {system:theme} + ".png")</visible>
+    <pos>0.5 0.5</pos>
+    <size>1 1</size>
+    <origin>0.5 0.5</origin>
+    <zIndex>3</zIndex>
+</image>
+
+<!-- Fanart dans le cadre -->
+<image name="fanart-room" extra="true">
+    <path>{game:fanart}</path>
+    <visible ifSubset="roomDisplay:fanart">false</visible>
+    <visible ifSubset="roomDisplay:room">exists("${themePath}/art/room/" + {system:theme} + ".png") &amp;&amp; exists({game:fanart})</visible>
+    <size>0.3020833 0.2972222</size>
+    <pos>0.0442708 0.3546296</pos>
+    <origin>0 0</origin>
+    <zIndex>2</zIndex>
+</image>
+
+<!-- Image par défaut si le jeu ne possède pas de fanart -->
+<image name="background-default-fanart" extra="true">
+    <path>"${themePath}/art/room/" + {system:theme} + "-default.jpg"</path>
+    <visible ifSubset="roomDisplay:fanart">false</visible>
+    <visible ifSubset="roomDisplay:room">exists("${themePath}/art/room/" + {system:theme} + ".png") &amp;&amp; !exists({game:fanart})</visible>
+    <size>0.3020833 0.2972222</size>
+    <pos>0.0442708 0.3546296</pos>
+    <origin>0 0</origin>
+    <zIndex>2</zIndex>
+</image>
 
 
 
@@ -2167,14 +2205,20 @@ originally based on: "carbon"
 			" extra="true">		
 
 <!-- On coupe le son des md_video si on est dans un système arcade pour éviter le son en double -->
-	<video name="md_video">
-	  <audio>false</audio>
-	</video>
+<video name="md_video">
+  <audio>false</audio>
+</video>
 	
-<!-- on affiche pas les éléments du bureau ni certains médias -->
-	<image name="bureau, mini, ecran_console_defaut, background-art, thumbnail-gamecarousel, boxback_ID, cartridge_ID, cartridge_back" extra="static">
-		<visible>false</visible>
-	</image>
+<!-- Éléments masqués dans toutes les ambiances Arcade -->
+<image name="bureau, mini, ecran_console_defaut, boxback_ID, cartridge_ID, cartridge_back" extra="static">
+	<visible>false</visible>
+</image>
+
+<!-- Fond fanart uniquement dans le mode Fanart -->
+<image name="background-art, thumbnail-gamecarousel" extra="true">
+	<visible ifSubset="barType:fanart">true</visible>
+	<visible ifSubset="barType:classic|modern|artdeco|retro80s|scandinavian|steampunk">false</visible>
+</image>	
 
 
 <image name="background-bar" extra="true">
@@ -2269,6 +2313,8 @@ originally based on: "carbon"
 	
 <!-- Repositionnement des figurines pour les systèmes Arcades -->
 <image name="figurines,shadow_figurines" extra="true">
+	<visible ifSubset="barType:classic|modern|artdeco|retro80s|scandinavian|steampunk">true</visible>
+	<visible ifSubset="barType:fanart">false</visible>
 	<x>0.17</x>
 	<y>0.70</y>
 	<maxSize>0.07 0.19</maxSize>

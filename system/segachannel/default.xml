@@ -1,0 +1,30 @@
+<!-- sc-3000 -->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+
+		<image name="avatar" extra="true">
+			<scale>0.85</scale>
+			<linearSmooth>true</linearSmooth>
+			<size>0.1604167 0.2935185</size>									
+			<storyboard>
+				
+				<animation property="offsetX" to="0.27" begin="" duration="2000" mode="EaseInOut"/>
+				<animation property="offsetY" to="0.55" begin="" duration="2000" mode="EaseIn"/>
+				<!-- 2. PARPADEO (COMIENZA DESPUÉS DEL MOVIMIENTO Y SE REPETE SIEMPRE) -->
+                <!-- Propiedad: Opacidad. De 1 (visible) a 0.5 (semi-transparente). -->
+                <!-- begin="2000": Espera a que terminen los 2 segundos de movimiento. -->
+                <!-- autoreverse="true": Hace que el parpadeo sea suave (1 -> 0.5 -> 1). -->
+                <!-- repeat="forever": No se detiene nunca. -->
+                <animation property="opacity" from="1" to="0.5" begin="2000" duration="1000" mode="EaseInOut" autoreverse="true" repeat="forever"/>
+				
+			</storyboard>					
+
+		</image>
+		
+		
+	</view>
+</theme>

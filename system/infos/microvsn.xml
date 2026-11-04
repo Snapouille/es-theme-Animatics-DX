@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The MB Microvision, launched by Milton Bradley in November 1979, is historically recognized as the first portable video game console with interchangeable cartridges. It was designed by Jay Smith, who would later create the Vectrex console.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Die MB Microvision wurde im November 1979 von Milton Bradley auf den Markt gebracht und gilt historisch als die erste tragbare Videospielkonsole mit austauschbaren Kassetten. Es wurde von Jay Smith entworfen, der später die Vectrex-Konsole entwickelte.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die MB Microvision wurde im November 1979 von Milton Bradley auf den Markt gebracht und gilt historisch als die erste tragbare Videospielkonsole mit austauschbaren Kassetten. Es wurde von Jay Smith entworfen, der später die Vectrex-Konsole entwickelte.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>La MB Microvision, lanzada por Milton Bradley en noviembre de 1979, es reconocida históricamente como la primera videoconsola portátil con cartuchos intercambiables. Fue diseñada por Jay Smith, quien más tarde crearía la consola Vectrex. </text>
+</text>
+
+</view>
+</theme>

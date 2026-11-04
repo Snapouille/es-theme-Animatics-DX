@@ -1,0 +1,2183 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+<variables>
+	<!-- variable servant à récupérer le binding afin de pouvoir la traiter en minuscule pour éviter les problèmes de CASSE -->
+    <fig_name>{game:name}</fig_name>
+    <fig_family>{game:family}</fig_family>
+    <fig_genre>{game:genre}</fig_genre>
+    <game_publi>{game:publisher}</game_publi>
+</variables>
+
+
+<customView name="collector" inherits="detailed" displayName="${collectorview}">
+
+	<!-- TOUT LES ELEMENTS QU'IL FAUT MASQUER DE LA VUE DETAILED -->
+	<text name="md_description, md_developer, md_publisher, md_genre">
+		<visible>false</visible>
+	</text>
+	
+	<image name="md_image,thumbnail_ID, controller2
+				rvgm-playcount-icon, rvgm-date-icon, rvgm-developer-icon, rvgm-publisher-icon, rvgm-genre-icon, rvgm-lastplayed-icon, rvgm-gametime-icon, icon-pads
+				bg-infos, border-info-top, border-info-bottom, border-info-left, border-info-right
+				overlay_fixe, overlay_fanart_fixe, overlay_fanart, frame_barreAnim"> 
+		<visible>false</visible>
+	</image>
+	
+    <screenshader name="bg-infos-blur" extra="true">
+		<visible>false</visible>
+    </screenshader>
+	
+	<image name="md_image_new"> 
+		<visible>false</visible>
+	</image>
+	
+	<video name="md_video_new, md_video">
+		<visible>false</visible>
+	</video>	
+	
+	
+	
+	<!-- deplacement léger sur la droite de tout le bloc de la textlist -->
+	<!-- + déplacement vers le haut quand la barre d'aide et afficher -->
+	<textlist extra="true" name="gamelist">
+		<pos>0.862 0.526</pos>									
+		<pos ifHelpPrompts="true">0.862 0.506</pos>									
+	</textlist>
+	
+	<image name="triangle-rvgm-haut" extra="true">
+		<x>0.86</x>	
+		<y ifHelpPrompts="true">0.1665741</y>									
+	</image>
+
+	<image name="triangle-rvgm-bas" extra="true">
+		<x>0.86</x>	
+		<y ifHelpPrompts="true">0.842963</y>											
+	</image>
+	
+	<image name="logo, overlay_gamelist">
+		<offsetX>0.008</offsetX>									
+		<offsetY ifHelpPrompts="true">-0.02</offsetY>									
+	</image>
+	
+	<image name="md_manual,md_nomanual, ghost_manual, 
+	             md_savestate,md_nosavestate,ghost_savestate
+				 md_kidgame, md_notkidgame, ghost_kidgame
+				 md_map, md_nomap, ghost_md_map
+				 md_cheevos,md_notcheevos, ghost_cheevos
+				 md_hidden, ghost_hidden">
+		<offsetX>-0.022</offsetX>									
+		<offsetY ifHelpPrompts="true">-0.02</offsetY>									
+	</image>
+	
+	<!-- Logo des systèmes -->
+	<image name="logo" extra="true">
+		<visible>false</visible>
+	</image>
+	
+	<image name="logo-système, marquee-game" extra="true">
+		<origin>0.5 0.5</origin>
+		<linearSmooth>true</linearSmooth>
+		<alignment>right</alignment>
+		<zIndex>200</zIndex>
+		<pos>0.862 0.087</pos>									
+		<pos ifHelpPrompts="false">0.862 0.107</pos>			
+		<maxSize>0.2072917 0.0907407</maxSize>	
+	</image>
+		
+	<image name="logo-système" extra="true">
+		<path>./../../art/logos/${system.theme}.png</path>
+		<path>./../../art/logos/${system.theme}-${lang}.png</path>
+		<path ifSubset="artworkregion:us">./../../art/logos/us/${system.theme}.png</path>
+		<path ifSubset="artworkregion:jp">./../../art/logos/jp/${system.theme}.png</path>
+		
+		  <storyboard event="open" repeat="forever">
+			<animation enabled="exists({game:marquee})" property="scale" 	to="0.1" 	begin="500" duration="200" mode="easeIn"/>
+			<animation enabled="exists({game:marquee})" property="opacity" 	to="0" 		begin="650" duration="50" mode="linear"/>
+			<animation enabled="exists({game:marquee})" property="opacity" 	to="1" 		begin="9150" duration="50" mode="linear"/>
+			<animation enabled="exists({game:marquee})" property="scale" 	to="1" 		begin="9100" duration="200" mode="easeIn"/>
+			<animation enabled="exists({game:marquee})" property="scale" 	to="1" 		begin="13999" duration="1" mode="easeIn"/>
+		  </storyboard>
+		  <storyboard event="activateNext" repeat="forever">
+			<animation enabled="exists({game:marquee})" property="scale" 	to="0.1" 	begin="500" duration="200" mode="easeIn"/>
+			<animation enabled="exists({game:marquee})" property="opacity" 	to="0" 		begin="650" duration="50" mode="linear"/>
+			<animation enabled="exists({game:marquee})" property="opacity" 	to="1" 		begin="9150" duration="50" mode="linear"/>
+			<animation enabled="exists({game:marquee})" property="scale" 	to="1" 		begin="9100" duration="200" mode="easeIn"/>
+			<animation enabled="exists({game:marquee})" property="scale" 	to="1" 		begin="13999" duration="1" mode="easeIn"/>
+		  </storyboard>
+		  <storyboard event="activatePrev" repeat="forever">
+			<animation enabled="exists({game:marquee})" property="scale" 	to="0.1" 	begin="500" duration="200" mode="easeIn"/>
+			<animation enabled="exists({game:marquee})" property="opacity" 	to="0" 		begin="650" duration="50" mode="linear"/>
+			<animation enabled="exists({game:marquee})" property="opacity" 	to="1" 		begin="9150" duration="50" mode="linear"/>
+			<animation enabled="exists({game:marquee})" property="scale" 	to="1" 		begin="9100" duration="200" mode="easeIn"/>
+			<animation enabled="exists({game:marquee})" property="scale" 	to="1" 		begin="13999" duration="1" mode="easeIn"/>
+		  </storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		  
+	</image>
+	
+	
+	<!-- Logo du jeu -->
+	<image name="marquee-game" extra="true">
+		<maxSize>0.19 0.09</maxSize>	
+		<path>{game:marquee}</path>
+		<scale>0.01</scale>
+		<opacity>0</opacity>
+		
+		  <storyboard event="open" repeat="forever">
+			<animation property="opacity" 	to="1" 	begin="650" duration="50" 	mode="linear"/>
+			<animation property="scale" 	to="1" 	begin="600" duration="200" mode="easeIn"/>
+			<animation property="scale" 	to="0" 	begin="9000" duration="200" mode="easeIn"/>
+			<animation property="opacity" 	to="1"	begin="9150" duration="50" 	mode="linear"/>
+			<animation property="opacity" 	to="1"	begin="13999" duration="1" 	mode="linear"/>
+		  </storyboard>
+		  <storyboard event="activateNext" repeat="forever">
+			<animation property="opacity" 	to="1" 	begin="650" duration="50" 	mode="linear"/>
+			<animation property="scale" 	to="1" 	begin="600" duration="200" mode="easeIn"/>
+			<animation property="scale" 	to="0" 	begin="9000" duration="200" mode="easeIn"/>
+			<animation property="opacity" 	to="1"	begin="9150" duration="50" 	mode="linear"/>
+			<animation property="opacity" 	to="1"	begin="13999" duration="1" 	mode="linear"/>
+		  </storyboard>
+		  <storyboard  event="activatePrev" repeat="forever">
+			<animation property="opacity" 	to="1" 	begin="650" duration="50" 	mode="linear"/>
+			<animation property="scale" 	to="1" 	begin="600" duration="200" mode="easeIn"/>
+			<animation property="scale" 	to="0" 	begin="9000" duration="200" mode="easeIn"/>
+			<animation property="opacity" 	to="1"	begin="9150" duration="50" 	mode="linear"/>
+			<animation property="opacity" 	to="1"	begin="13999" duration="1" 	mode="linear"/>
+		  </storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+	</image>
+	
+	
+	
+	
+	
+	
+	
+	
+
+	<!-- Encadrement de la textlist -->
+	<image name="textlist_gauche, textlist_droit, textlist_haut, textlist_bas">
+		<path>./../../art/divers/white.png</path>
+		<color>${baseColor}</color>
+		<origin>0.5 0.5</origin>
+		<zIndex>57</zIndex>
+		<offsetY ifHelpPrompts="true">-0.02</offsetY>									
+	</image>
+	 
+	<image name="textlist_gauche" extra="true">
+		<size>0.0020833 0.9342593</size>									
+		<pos>0.7421875 0.500463</pos>									
+	</image>
+
+	<image name="textlist_droit" extra="true">
+		<size>0.0020833 0.9342593</size>									
+		<pos>0.9817708 0.500463</pos>									
+	</image>
+
+	<image name="textlist_haut" extra="true">
+		<size>0.2416667 0.0037037</size>									
+		<pos>0.8619792 0.0333333</pos>									
+	</image>
+
+	<image name="textlist_bas" extra="true">
+		<size>0.2416667 0.0037037</size>									
+		<pos>0.8619792 0.9657407</pos>									
+	</image>
+	
+	<rating name="md_rating">
+		<size>0.1 0.03</size>									
+		<pos>0.015 0.3</pos>
+		<color>FFFF00</color>
+		<color ifSubset="backgroundAmbience:Light">fffc00</color>
+		<horizontalAlignment>right</horizontalAlignment>
+		<rotation>90</rotation>
+		<unfilledColor>606060</unfilledColor>
+		<unfilledPath>:/star_filled.svg</unfilledPath>
+		<zIndex>99</zIndex>
+	</rating>
+	
+	<!-- On démasque le cadre de l'aide -->
+	<image name="up_BottomFrame, down_BottomFrame, left_BottomFrame, right_BottomFrame, black_BottomFrame" extra="true">
+		<visible>true</visible>
+	</image>
+	
+	<helpsystem name="help">
+		<fontSize>0.028</fontSize>
+		<pos>0.009 0.955</pos>
+	</helpsystem>  
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~ -->
+<!--  AFFICHAGE DES STATS  -->
+<!--   CADRE ET DONNEES    -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!-- Encadrement des stats sur les jeux -->
+<image name="cadre_gauche, cadre_droit, cadre_haut, cadre_bas, AngleCadre">
+	<path>./../../art/divers/white.png</path>
+	<color>${baseColor}</color>
+	<origin>0 0</origin>
+	<zIndex>57</zIndex>
+</image>
+ 
+<image name="cadre_gauche" extra="true">
+    <pos>0.0268 0.09</pos>
+    <size>0.0031 0.315</size>
+</image>
+
+<image name="cadre_droit" extra="true">
+    <pos>0.163 0.09</pos>
+    <size>0.0031 0.315</size>
+</image>
+
+<image name="cadre_haut" extra="true">
+    <pos>0.0268 0.09</pos>
+    <size>0.1394 0.006</size>
+</image>
+
+<image name="cadre_bas" extra="true">
+    <pos>0.0268 0.401</pos>
+    <size>0.1394 0.006</size>
+</image>
+
+<!-- Angle du Cadre -->
+<image name="AngleCadre" extra="static">
+    <origin>0.5 0.5</origin>
+    <size>0.0302083 0.0546296</size>
+    <pos>0.0418667 0.3791667</pos>
+    <path>./../../art/divers/AngleCadre.png</path>
+</image> 
+
+	
+<!-- Quadrillage au niveau des metadata (Nombre de parties, Dernier jeu, ...)  -->
+<image name="info_background" extra="true">
+	 <origin>0 0</origin>
+	 <pos>0.03 0.09</pos>
+	 <size>0.135 0.311</size>
+	 <tile>true</tile>
+	 <path>./../../art/divers/bg_square.png</path>
+	 <zIndex>10</zIndex>
+</image>
+  
+<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->
+<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime">
+	<size>0.115 0.03</size>
+	<color>C0C0C0</color>
+	<alignment>right</alignment>
+	<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+	<fontSize>0.022</fontSize>
+</text>
+
+<text name="md_lbl_playcount">
+	<pos>0.04 0.105</pos>
+</text>
+
+<text name="md_lbl_lastplayed">
+	<pos>0.04 0.178</pos>
+</text>
+
+<text name="md_lbl_gametime">
+	<pos>0.04 0.255</pos>
+</text>
+
+<text name="md_lbl_players">
+	<visible>false</visible>
+</text>
+		
+<!-- METADATA -->
+
+
+<text name="md_playcount, md_lastplayed, md_gametime">
+   <fontPath>./../../art/fonts/ubuntu-bold.ttf</fontPath>
+   <fontSize>0.023</fontSize>
+   <color>${dataColor}</color>
+   <alignment>right</alignment>
+   <size>0.115 0.03</size>
+   <x>0.092</x>
+</text>
+
+<text name="md_playcount">
+	<y>0.148</y>
+</text>
+
+<datetime name="md_lastplayed">
+	<y>0.221</y>
+</datetime>
+
+<text name="md_gametime">
+	<y>0.298</y>	
+</text>
+
+<text name="md_players">
+	<origin>0.5 0.5</origin>
+	<fontPath>./../../art/fonts/players_snap.ttf</fontPath>
+	<size>0.123 0.103</size>
+	<pos>0.093 0.36</pos>
+	<alignment>right</alignment>
+	<fontSize>0.043</fontSize>
+	<color>dddddd</color>
+	<singleLineScroll>true</singleLineScroll>
+		<storyboard event="open">
+			<animation property="color" to="FFFF00" begin="6000" duration="100" autoreverse="true" repeat="10" mode="linear"/>
+		</storyboard>
+		<storyboard event="activate">
+			<animation property="color" to="FFFF00" begin="5000" duration="100" autoreverse="true" repeat="10" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="opacity" to="0" duration="10" mode="linear"/>
+		</storyboard>
+</text>
+
+
+<!-- Barre and Round en dessous cadre stats -->
+<image name="BarAndRound" extra="static">
+	<origin>0.5 0.5</origin>									
+	<size>0.0510417 0.312963</size>									
+	<path>./../../art/divers/BarAndRound.png</path>
+	<color>${baseColor}</color>
+	<zIndex>7</zIndex>
+	<opacity>0</opacity>
+	<pos>0.0765625 0.289</pos>	
+	<storyboard event="open">
+		<animation property="y" to="0.2481481" duration="1" mode="linear"/>
+		<animation property="x" to="0.0554167" duration="1" mode="linear"/>
+		<animation property="opacity" to="1" begin="500" duration="10" mode="linear"/>
+		<animation property="y" to="0.289" begin="500" duration="200" mode="linear"/>
+		<animation property="x" to="0.0765625" begin="700" duration="300" mode="linear"/>
+	</storyboard>
+	<storyboard event="activate">
+		<animation property="offsetX" to="-0.005" duration="50" autoreverse="true" mode="linear"/>
+		<animation property="opacity" to="1" duration="10" mode="linear"/>
+	</storyboard>
+	<storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="10" mode="linear"/>
+	</storyboard>
+</image>
+
+<!-- Animation barre diagonales -->
+<!-- Diago de base qui s'affiche que à l'ouverture -->
+<image name="diagobase1, diagobase2, diagobase3, diagobase4, diagobase5, diagoyellow1, diagoyellow2, diagoyellow3, diagoyellow4, diagoyellow5">
+	<path>./../../art/divers/diago.png</path>
+	<flipX>true</flipX>
+	<origin>0.5 0.5</origin>					
+	<size>0.015625 0.0259259</size>									
+	<color>${baseColor}</color>
+	<zIndex>13</zIndex>
+	<opacity>0</opacity>
+</image>
+
+<image name="diagobase1" extra="static">
+	<pos>0.1192708 0.4324074</pos>									
+	<storyboard>
+		<animation property="opacity" to="1" begin="800" duration="100" mode="linear"/>
+	</storyboard>
+</image>
+
+<image name="diagobase2" extra="static">
+	<pos>0.1348958 0.4324074</pos>									
+	<storyboard>
+		<animation property="opacity" to="1" begin="900" duration="100" mode="linear"/>
+	</storyboard>
+</image>
+
+<image name="diagobase3" extra="static">
+	<pos>0.1505208 0.4324074</pos>									
+	<storyboard>
+		<animation property="opacity" to="1" begin="1000" duration="100" mode="linear"/>
+	</storyboard>
+</image>
+
+<image name="diagobase4" extra="static">
+	<pos>0.1661458 0.4324074</pos>									
+	<storyboard>
+		<animation property="opacity" to="1" begin="1100" duration="100" mode="linear"/>
+	</storyboard>
+</image>
+
+<image name="diagobase5" extra="static">
+	<pos>0.1817708 0.4324074</pos>									
+	<storyboard>
+		<animation property="opacity" to="1" begin="1200" duration="100" mode="linear"/>
+	</storyboard>
+</image>
+
+<!-- Diago qui clignote à chaque changement -->
+<image name="diagoyellow1" extra="static">
+	<pos>0.1192708 0.4324074</pos>
+	<color>FFFF00</color>
+	<zIndex>14</zIndex>
+	<storyboard event="open">
+		<animation property="opacity" to="1" begin="1400" duration="100" mode="linear"/>
+		<animation property="opacity" to="0" begin="1900" duration="100" mode="linear"/>
+	</storyboard>
+	<storyboard event="activate">
+		<animation property="opacity" to="1" begin="100" duration="100" mode="linear"/>
+		<animation property="opacity" to="0" begin="700" duration="100" mode="linear"/>
+	</storyboard>
+	<storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="10" mode="linear"/>
+	</storyboard>			
+</image>
+
+<image name="diagoyellow2" extra="static">
+	<pos>0.1348958 0.4324074</pos>									
+	<color>FFFF00</color>
+	<zIndex>14</zIndex>
+	<storyboard event="open">
+		<animation property="opacity" to="1" begin="1500" duration="100" mode="linear"/>
+		<animation property="opacity" to="0" begin="2000" duration="100" mode="linear"/>
+	</storyboard>
+	<storyboard event="activate">
+		<animation property="opacity" to="1" begin="200" duration="100" mode="linear"/>
+		<animation property="opacity" to="0" begin="800" duration="100" mode="linear"/>
+	</storyboard>
+	<storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="10" mode="linear"/>
+	</storyboard>			
+</image>
+
+<image name="diagoyellow3" extra="static">
+	<pos>0.1505208 0.4324074</pos>									
+	<color>FFFF00</color>
+	<zIndex>14</zIndex>
+	<storyboard event="open">
+		<animation property="opacity" to="1" begin="1600" duration="100" mode="linear"/>
+		<animation property="opacity" to="0" begin="2100" duration="100" mode="linear"/>
+	</storyboard>
+	<storyboard event="activate">
+		<animation property="opacity" to="1" begin="300" duration="100" mode="linear"/>
+		<animation property="opacity" to="0" begin="900" duration="100" mode="linear"/>
+	</storyboard>
+	<storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="10" mode="linear"/>
+	</storyboard>			
+</image>
+
+<image name="diagoyellow4" extra="static">
+	<pos>0.1661458 0.4324074</pos>									
+	<color>FFFF00</color>
+	<zIndex>14</zIndex>
+	<storyboard event="open">
+		<animation property="opacity" to="1" begin="1700" duration="100" mode="linear"/>
+		<animation property="opacity" to="0" begin="2200" duration="100" mode="linear"/>
+	</storyboard>
+	<storyboard event="activate">
+		<animation property="opacity" to="1" begin="400" duration="100" mode="linear"/>
+		<animation property="opacity" to="0" begin="1000" duration="100" mode="linear"/>
+	</storyboard>
+	<storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="10" mode="linear"/>
+	</storyboard>			
+</image>
+
+<image name="diagoyellow5" extra="static">
+	<pos>0.1817708 0.4324074</pos>									
+	<color>FFFF00</color>
+	<zIndex>14</zIndex>
+	<storyboard event="open">
+		<animation property="opacity" to="1" begin="1800" duration="100" mode="linear"/>
+		<animation property="opacity" to="0" begin="2300" duration="100" mode="linear"/>
+	</storyboard>
+	<storyboard event="activate">
+		<animation property="opacity" to="1" begin="500" duration="100" mode="linear"/>
+		<animation property="opacity" to="0" begin="1100" duration="100" mode="linear"/>
+	</storyboard>
+	<storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="10" mode="linear"/>
+	</storyboard>			
+</image>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~ -->
+<!--   LOGOS PUBLISHERS    -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!-- VOIR le include/publishers.xml -->
+
+<!-- on masque le developper qu'on remplace par le genre pour gagner une ligne de description -->
+<text name="developer_Id" extra="true">
+	<visible>false</visible>
+</text>
+
+<image name="publisher_logo" extra="true">
+	<maxSize>0.0822917 0.0564815</maxSize>									
+	<verticalAlignment>bottom</verticalAlignment>
+	<horizontalAlignment>right</horizontalAlignment>
+	<storyboard event="open">
+		<animation property="offsetY" to="-0.1" begin="150" duration="600" mode="easeOut"/>
+	</storyboard>
+	<storyboard event="activate">
+		<animation property="offsetY" to="-0.1" begin="150" duration="600" mode="easeOut"/>
+	</storyboard>
+	<storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="1" mode="linear"/>
+	</storyboard>
+</image>
+
+	
+<!-- on affiche le publisher en texte si on trouve pas de logo -->
+<text name="publisher_text" extra="true">
+	<storyboard event="open">
+		<animation property="offsetY" to="-0.1" begin="150" duration="600" mode="easeOut"/>
+	</storyboard>
+	<storyboard event="activate">
+		<animation property="offsetY" to="-0.1" begin="150" duration="600" mode="easeOut"/>
+	</storyboard>
+	<storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="1" mode="linear"/>
+	</storyboard>
+</text>	
+
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~ -->
+<!--   STYLE DE BUREAU     -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!-- Le bureau est mis en visible FALSE si le fichier ecran_console.png et ecran_console2 n'existe pas -->
+<image name="bureau" extra="true">
+	<!-- <visible>exists("${themePath}/system/" + stem({system:theme}) + "/ecran_console.png")</visible>  -->
+	<origin>0.5 0.5</origin>	
+	<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1.png</path>
+	<path ifSubset="deskType:wood2">${themePath}/art/desk/wood2.png</path>
+	<path ifSubset="deskType:wood3">${themePath}/art/desk/wood3.png</path>
+	<path ifSubset="deskType:wood4">${themePath}/art/desk/wood4.png</path>
+	<path ifSubset="deskType:wood5">${themePath}/art/desk/wood5.png</path>
+	<path ifSubset="deskType:wood6">${themePath}/art/desk/wood6.png</path>
+	<path ifSubset="deskType:wood7">${themePath}/art/desk/wood7.png</path>
+	<path ifSubset="deskType:wood8">${themePath}/art/desk/wood8.png</path>
+	<path ifSubset="deskType:metal1">${themePath}/art/desk/metal1.png</path>
+	<path ifSubset="deskType:metal2">${themePath}/art/desk/metal2.png</path>
+	<path ifSubset="deskType:leather1">${themePath}/art/desk/leather1.png</path>
+	<path ifSubset="deskType:leather2">${themePath}/art/desk/leather2.png</path>
+	<path ifSubset="deskType:leather3">${themePath}/art/desk/leather3.png</path>
+	<path ifSubset="deskType:cosmos">${themePath}/art/desk/cosmos.png</path>
+	<path ifSubset="deskType:leopard">${themePath}/art/desk/leopard.png</path>
+	<path ifSubset="deskType:magma">${themePath}/art/desk/magma.png</path>
+	<path ifSubset="deskType:marble">${themePath}/art/desk/marble.png</path>
+	<path ifSubset="deskType:onthegreen">${themePath}/art/desk/onthegreen.png</path>
+	<size>1 0.2240741</size>									
+	<pos>0.5 0.833</pos>	
+	<pos ifHelpPrompts="false">0.5 0.883</pos>
+	<color>FFFFFF</color>
+	<zIndex>4</zIndex>
+</image>
+
+
+
+<!-- Système nécessitant un bureau plus profond -->
+<image name="bureau" if="${system.theme} == 'amstradcpc' 
+					|| 	 ${system.theme} == 'amiga' 
+					|| 	 ${system.theme} == 'amiga500' 
+					|| 	 ${system.theme} == 'amiga1200' 
+					|| 	 ${system.theme} == 'amiga4000' 
+					|| 	 ${system.theme} == 'amigademos' 
+					|| 	 ${system.theme} == 'atari8bit' 
+					|| 	 ${system.theme} == 'atari800' 
+					|| 	 ${system.theme} == 'atari5200' 
+					|| 	 ${system.theme} == 'bbcmicro' 
+					|| 	 ${system.theme} == 'electron' 
+					|| 	 ${system.theme} == 'msx1' 
+					|| 	 ${system.theme} == 'msx' 
+					|| 	 ${system.theme} == 'camplynx' 
+					|| 	 ${system.theme} == 'dreamcast' 
+					|| 	 ${system.theme} == 'fm7' 
+					|| 	 ${system.theme} == 'thomson' 
+					|| 	 ${system.theme} == 'x1' 
+					|| 	 ${system.theme} == 'pet'" extra="true">
+	<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1-wide.png</path>
+	<path ifSubset="deskType:wood2">${themePath}/art/desk/wood2-wide.png</path>
+	<path ifSubset="deskType:wood3">${themePath}/art/desk/wood3-wide.png</path>
+	<path ifSubset="deskType:wood4">${themePath}/art/desk/wood4-wide.png</path>
+	<path ifSubset="deskType:wood5">${themePath}/art/desk/wood5-wide.png</path>
+	<path ifSubset="deskType:wood6">${themePath}/art/desk/wood6-wide.png</path>
+	<path ifSubset="deskType:wood7">${themePath}/art/desk/wood7-wide.png</path>
+	<path ifSubset="deskType:wood8">${themePath}/art/desk/wood8-wide.png</path>
+	<path ifSubset="deskType:metal1">${themePath}/art/desk/metal1-wide.png</path>
+	<path ifSubset="deskType:metal2">${themePath}/art/desk/metal2-wide.png</path>
+	<path ifSubset="deskType:leather1">${themePath}/art/desk/leather1-wide.png</path>
+	<path ifSubset="deskType:leather2">${themePath}/art/desk/leather2-wide.png</path>
+	<path ifSubset="deskType:leather3">${themePath}/art/desk/leather3-wide.png</path>
+	<path ifSubset="deskType:cosmos">${themePath}/art/desk/cosmos-wide.png</path>
+	<path ifSubset="deskType:leopard">${themePath}/art/desk/leopard-wide.png</path>
+	<path ifSubset="deskType:magma">${themePath}/art/desk/magma-wide.png</path>
+	<path ifSubset="deskType:marble">${themePath}/art/desk/marble-wide.png</path>
+	<path ifSubset="deskType:onthegreen">${themePath}/art/desk/onthegreen-wide.png</path>
+		<size>1 0.3064815</size>									
+		<pos>0.5 0.7821296</pos>	
+		<pos ifHelpPrompts="false">0.5 0.8421296</pos>
+</image>
+
+
+<!-- Système nécessitant un bureau très profond -->
+<image name="bureau" if="${system.theme} == 'atarist' 
+					|| 	 ${system.theme} == 'c20' 
+					|| 	 ${system.theme} == 'c64' 
+					|| 	 ${system.theme} == 'c128' 
+					|| 	 ${system.theme} == 'cplus4' 
+					|| 	 ${system.theme} == 'msx2' 
+					|| 	 ${system.theme} == 'msx2+' 
+					|| 	 ${system.theme} == 'msxturbor'" extra="true">
+	<path ifSubset="deskType:wood1">${themePath}/art/desk/wood1-wide.png</path>
+	<path ifSubset="deskType:wood2">${themePath}/art/desk/wood2-wide.png</path>
+	<path ifSubset="deskType:wood3">${themePath}/art/desk/wood3-wide.png</path>
+	<path ifSubset="deskType:wood4">${themePath}/art/desk/wood4-wide.png</path>
+	<path ifSubset="deskType:wood5">${themePath}/art/desk/wood5-wide.png</path>
+	<path ifSubset="deskType:wood6">${themePath}/art/desk/wood6-wide.png</path>
+	<path ifSubset="deskType:wood7">${themePath}/art/desk/wood7-wide.png</path>
+	<path ifSubset="deskType:wood8">${themePath}/art/desk/wood8-wide.png</path>
+	<path ifSubset="deskType:metal1">${themePath}/art/desk/metal1-wide.png</path>
+	<path ifSubset="deskType:metal2">${themePath}/art/desk/metal2-wide.png</path>
+	<path ifSubset="deskType:leather1">${themePath}/art/desk/leather1-wide.png</path>
+	<path ifSubset="deskType:leather2">${themePath}/art/desk/leather2-wide.png</path>
+	<path ifSubset="deskType:leather3">${themePath}/art/desk/leather3-wide.png</path>
+	<path ifSubset="deskType:cosmos">${themePath}/art/desk/cosmos-wide.png</path>
+	<path ifSubset="deskType:leopard">${themePath}/art/desk/leopard-wide.png</path>
+	<path ifSubset="deskType:magma">${themePath}/art/desk/magma-wide.png</path>
+	<path ifSubset="deskType:marble">${themePath}/art/desk/marble-wide.png</path>
+	<path ifSubset="deskType:onthegreen">${themePath}/art/desk/onthegreen-wide.png</path>
+		<size>1.0755208 0.38</size>									
+		<pos>0.53 0.775</pos>									
+		<pos ifHelpPrompts="false">0.53 0.81</pos>
+</image>
+
+
+
+
+<!-- l'Ecran prévue pour la console, on le recherche dans le répertoire du système  -->
+<image name="ecran_console" extra="static">
+	<origin>0.5 0.5</origin>
+	<path>./../../system/${system.theme}/ecran_console.png</path>
+	<color>FFFFFF</color>
+	<zIndex>32</zIndex>		
+</image>
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- si pas d'ecran console on affiche un écran PC standard -->
+<!-- cette image n'est visible que si le ficher ecran_console.png n'existe pas -->
+<!-- Pour l'instant c'est un moniteur d'ordinateur -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<image name="ecran_console_defaut" extra="static">
+	<visible>!exists("${themePath}/system/" + stem({system:theme}) + "/ecran_console.png")</visible>
+	<path>${themePath}/art/screen/modern.png</path>	
+	<zIndex>32</zIndex>
+	<origin>0.5 0.5</origin>									
+	<size>0.4166667 0.5064815</size>									
+	<pos>0.4778125 0.6030556</pos>									
+	<pos ifHelpPrompts="false">0.4778125 0.6230556</pos>
+</image>
+
+<image name="preview_titleshots_collector" extra="true">
+	<path>{game:image}</path>
+	<zIndex>19</zIndex>
+	<origin>0.5 0.5</origin>									
+	<maxSize>0.3901042 0.3925926</maxSize>									
+	<pos>0.4770313 0.5674074</pos>									
+	<pos ifHelpPrompts="false">0.4770313 0.5874074</pos>
+</image>
+
+<video name="preview_video_collector" extra="true">
+	<path>{game:video}</path>
+	<zIndex>19</zIndex>
+	<origin>0.5 0.5</origin>									
+	<delay>1.4</delay>
+	<effect>none</effect>
+	<!-- <loops>2</loops> -->
+	<maxSize>0.3901042 0.3925926</maxSize>									
+	<pos>0.4770313 0.5674074</pos>									
+	<pos ifHelpPrompts="false">0.4770313 0.5874074</pos>
+</video>
+
+<!-- fond noir de l'écran -->
+<image name="black_bg" extra="true">
+	<path>./../../art/divers/white.png</path>
+	<zIndex>18</zIndex>
+	<color>000000</color>
+	<origin>0.5 0.5</origin>
+	<size>0.395 0.3925926</size>									
+	<pos>0.4770313 0.5674074</pos>									
+	<pos ifHelpPrompts="false">0.4770313 0.5874074</pos>
+</image>
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+
+<!-- On affiche la mini console à partir des layouts de chaque système -->
+<!-- par défaut elle est en visible FALSE, elle est mis en TRUE dans les layouts des systèmes -->
+<image name="Consoles" extra="static">
+	<visible>false</visible>
+	<path>./../../art/consoles/${system.theme}.png</path>
+	<path>./../../art/consoles/${system.theme}.svg</path>
+	<path ifSubset="artworkregion:US">./../../art/consoles/US/${system.theme}.png</path>
+	<path ifSubset="artworkregion:JP">./../../art/consoles/JP/${system.theme}.png</path>
+	<path>${themePath}/system/${system.theme}/console-alt.png</path>
+	<linearSmooth>true</linearSmooth>
+	<origin>0.5 0.5</origin>									
+	<maxSize>0.26499996 0.21111108</maxSize>									
+	<pos>0.6260417 0.8305556</pos>	
+	<pos ifHelpPrompts="false">0.6260417 0.8805556</pos>
+	<zIndex>33</zIndex>
+</image>
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~ AFFICHAGE DES FIGURINES ~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<image name="figurines,shadow_figurines" extra="true">
+	<origin>0.5 0.5</origin>
+	<pos>0.3 0.795</pos>									
+	<pos ifHelpPrompts="false">0.3 0.845</pos>
+	<x ifSubset="cartridgeDisplay:Show">0.33</x>
+	<maxSize>0.11 0.25</maxSize>	
+	<verticalAlignment>bottom</verticalAlignment>
+	<color>FFFFFF</color>
+	<zIndex>40</zIndex>
+</image>
+
+<image name="shadow_figurines" extra="true">
+	<color>000000</color>
+	<opacity>0.9</opacity>
+	<zIndex>39</zIndex>
+	<padding>1 5 -1 -5</padding>
+</image>
+
+
+
+<!-- animation des figurines  -->
+<image name="figurines,shadow_figurines" ifSubset="figurineAnimation:yes">
+	<storyboard event="activate" repeatAt="10">
+		<animation property="offsetY"  	to="-0.02" 	begin="6000"  duration="300" mode="Bump" autoreverse="true"/>
+		<animation property="rotation"  to="-3" 	begin="6000"  duration="150" mode="Bump" autoreverse="true"/>
+		<animation property="rotation"  to="3" 		begin="6000"  duration="150" mode="Bump" autoreverse="true"/>
+		<animation property="rotation"  to="3"   	begin="12000" duration="200" mode="Bump" autoreverse="true"/>
+		<animation property="rotation"  to="-3"   	begin="12000" duration="200" mode="Bump" autoreverse="true"/>
+		<animation property="offsetX"  	to="0.01"   begin="12000" duration="400" mode="Bump" autoreverse="true"/>
+	</storyboard>
+	<storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="1" mode="linear"/>
+	</storyboard>
+</image>
+
+<!-- figurines systemes incluses dans le thème -->
+<image name="figurines,shadow_figurines" ifSubset="figurineDisplay:systemOnly">
+	<path>firstfile(
+	    "${themePath}/art/figurines/" + {game:system:theme} + "-default.png",
+	    "${themePath}/art/figurines/" + {game:system:theme} + ".png")
+	</path>
+</image>
+
+<!-- on recherche uniquement dans les Add-on, en premier par nom du jeu puis par famille puis par genre -->
+<image name="figurines,shadow_figurines" ifSubset="figurineDisplay:addonOnly">
+	<path>firstfile(
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/manual-override/" + lower(${fig_family}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/genre/" + lower(${fig_genre}) + ".png")
+	</path>
+</image>
+
+<!-- on recherche en premier par nom du jeu puis par famille puis par genre puis la figurine par défaut si on trouve rien -->
+<image name="figurines,shadow_figurines" ifSubset="figurineDisplay:addonOrSystem">
+	<path>firstfile(
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/gameName/" + lower(${fig_name}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/family/" + lower(${fig_family}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/manual-override/" + lower(${fig_family}) + ".png",
+		"${themePath}/../zzz-DX_Add-On/_inc/figurines/genre/" + lower(${fig_genre}) + ".png",
+	    "${themePath}/art/figurines/" + {game:system:theme} + "-default.png",
+		"${themePath}/art/figurines/" + {game:system:theme} + ".png")
+	</path>
+</image>
+
+<image name="figurines,shadow_figurines" ifSubset="figurineDisplay:none">
+	<visible>false</visible>
+</image>
+
+<!-- si on est dans amiga demos on affiche d'office la figurine pour toutes les démos -->
+<image name="figurines,shadow_figurines" if="${system.theme} == 'amigademos'">
+	<path>${themePath}/art/figurines/amigademos.png</path>
+</image>
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+
+	
+
+<image name="background-art" extra="true">
+	<path>{game:fanart}</path>
+	<pos>0.5 0.5</pos>
+	<minSize>1 1</minSize>
+	<origin>0.5 0.5</origin>
+	<color>000000</color>
+	<colorEnd>727272</colorEnd>
+	<gradientType>horizontal</gradientType>
+	<linearSmooth>true</linearSmooth>
+	<zIndex>3</zIndex>
+	<!-- si on trouve pas de fanart on met le legacy par défaut -->
+	<default>${themePath}/system/${system.theme}/background.png</default>
+	<default>${themePath}/system/${system.theme}/background.jpg</default>
+	<default>${themePath}/system/${system.theme}/background-grid.jpg</default>
+		<storyboard ifSubset="backgroundMove:yes" repeat="forever">
+				<animation property="scale" from="1.2" to="1.1" duration="15000" autoreverse="true" mode="easeInOut" />
+				<animation property="offsetX" to="-0.05" duration="15000" autoreverse="true" mode="easeInOut" />
+		</storyboard>
+</image>
+	
+<image name="background-art" ifSubset="backgroundDisplay:legacy" extra="true">
+	<path>${themePath}/system/${system.theme}/background.png</path>
+	<path>${themePath}/system/${system.theme}/background.jpg</path>
+	<path>${themePath}/system/${system.theme}/background-grid.jpg</path>
+</image>
+
+<image name="background-art" ifSubset="backgroundDisplay:retro" extra="true">
+	<path>${themePath}/art/divers/bg.png</path>
+</image>
+
+
+
+
+	
+	<!-- en remplacement de l'ancien <image name="md_thumbnail"> devenu obscolète pour éviter le bug quand il n'y a pas de thumbnail -->
+	<image name="thumbnail-gamecarousel" extra="true">
+		<path ifSubset="boxfrontDisplay:2d">{game:thumbnail}</path>
+		<path ifSubset="boxfrontDisplay:3d">firstfile({game:boxart},{game:thumbnail})</path>	 
+		<visible>true</visible>
+		<linearSmooth>true</linearSmooth>
+		<maxSize>0.21 0.457</maxSize>
+		<maxSize ifHelpPrompts="false">0.21 0.475</maxSize>
+		<pos>0.12 0.691</pos>
+		<pos ifHelpPrompts="false">0.12 0.72</pos>
+		<origin>0.5 0.5</origin>
+		<reflexion>0 0</reflexion>
+		<!-- <default>./../../art/divers/noboxart.png</default> -->
+		<zIndex>30</zIndex>
+		
+		<storyboard ifSubset="boxbackDisplay:Show" event="open" repeatAt="11410">
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="12910" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="20960" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="54331" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard ifSubset="boxbackDisplay:Show" event="activateNext" repeatAt="11410">
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="12910" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="20960" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="54331" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard ifSubset="boxbackDisplay:Show" event="activatePrev" repeatAt="11410">
+			<animation enabled="exists({game:boxback})" property="offsetX" to="-0.025" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="0.75" begin="12710" duration="250" mode="EaseIn"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="0" begin="12910" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="offsetX" from="0.025" to="0" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="scale" to="1" begin="20960" duration="250" mode="EaseOut"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="20960" duration="50" mode="linear"/>
+			<animation enabled="exists({game:boxback})" property="opacity" to="1" begin="54331" duration="1" mode="linear"/>
+		</storyboard>	
+		
+		<storyboard ifSubset="boxbackDisplay:Show" event="deactivateNext">
+			<animation property="opacity" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard ifSubset="boxbackDisplay:Show" event="deactivatePrev">
+			<animation property="opacity" to="1" duration="1" mode="linear"/>
+		</storyboard>
+			
+	</image>
+	
+	<!-- On affiche le boxback-->	
+    <image name="boxback_ID" ifSubset="boxbackDisplay:Show" extra="true">
+		<path>{game:boxback}</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.12 0.691</pos>
+		<pos ifHelpPrompts="false">0.12 0.73</pos>		
+		<maxSize>0.22 0.457</maxSize>
+		<maxSize ifHelpPrompts="false">0.22 0.475</maxSize>		
+		<verticalAlignment>center</verticalAlignment>
+		<scale>0.9</scale>
+		<opacity>0</opacity>
+		<zIndex>35</zIndex>
+		
+		<storyboard ifSubset="boxbackDisplay:Show" event="open" repeatAt="11410">
+			<animation property="opacity" to="1" begin="12960" duration="50" mode="linear"/>
+			<animation property="offsetX" from="0.025" to="0" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="scale" from="0.75" to="1" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="offsetX" to="-0.025" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="scale" to="0.75" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="opacity" to="0" begin="20910" duration="50" mode="linear"/>
+			<animation property="opacity" to="0" begin="54331" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard ifSubset="boxbackDisplay:Show" event="activateNext" repeatAt="11410">
+			<animation property="opacity" to="1" begin="12960" duration="50" mode="linear"/>
+			<animation property="offsetX" from="0.025" to="0" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="scale" from="0.75" to="1" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="offsetX" to="-0.025" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="scale" to="0.75" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="opacity" to="0" begin="20910" duration="50" mode="linear"/>
+			<animation property="opacity" to="0" begin="54331" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard ifSubset="boxbackDisplay:Show" event="activatePrev" repeatAt="11410">
+			<animation property="opacity" to="1" begin="12960" duration="50" mode="linear"/>
+			<animation property="offsetX" from="0.025" to="0" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="scale" from="0.75" to="1" begin="12960" duration="250" mode="EaseOut"/>
+			<animation property="offsetX" to="-0.025" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="scale" to="0.75" begin="20710" duration="250" mode="EaseIn"/>
+			<animation property="opacity" to="0" begin="20910" duration="50" mode="linear"/>
+			<animation property="opacity" to="0" begin="54331" duration="1" mode="linear"/>
+		</storyboard>	
+	
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+		
+    </image>
+	
+	<!-- pour les box plus en mode paysage on descend un peu le tout -->
+	<image name="thumbnail-gamecarousel, boxback_ID" extra="true" if="${system.theme} == 'snes' || ${system.theme} == 'n64'  ">
+		<pos>0.12 0.707</pos>
+		<pos ifHelpPrompts="false">0.12 0.746</pos>
+    </image>
+	
+	
+	<image name="md_marquee">
+	  <visible>false</visible>
+	</image>	  
+	
+	
+	<datetime name="md_releasedate">
+		 <pos>0.196 0.115</pos>
+         <origin>0.5 0.5</origin>
+         <alignment>left</alignment>
+         <size>0.031 0.05</size>
+         <color>fffc00</color>
+         <format>%Y</format>
+		 <rotation>0</rotation>
+         <fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+         <fontSize>0.021</fontSize>
+         <zIndex>51</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+    </datetime>
+	
+<!-- ICONE POUR LES DRAPEAUX -->
+	<image name="md_flag">
+		<origin>0.5 0.5</origin>
+		<pos>0.22 0.1146481</pos>									
+		<maxSize>0.0166667 0.0194444</maxSize>									
+		<linearSmooth>true</linearSmooth>
+		<zIndex>50</zIndex>
+	</image>
+	
+	<text name="genre_Id" extra="true">
+		<text>{game:genre}</text>
+		<color>00d8ff</color>
+		<visible>true</visible>
+		<origin>0 0</origin>
+		<fontSize>0.021</fontSize>
+		<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+		<forceUppercase>1</forceUppercase>
+		<size>0.48 0.03</size>
+		<pos>0.235 0.100</pos>
+		<alignment>left</alignment>
+		<singleLineScroll>true</singleLineScroll>
+	</text>
+
+
+<!-- Affiche le nom du system dans les collections -->
+<text name="WhatSystemGAME" if="{system.sortedBy} == 'Collections' || 
+							   ${system.theme} == 'mess' || 
+							   ${system.theme} == 'ports'" extra="true"> 
+	<origin>0.5 0.5</origin>									
+	<size>0.4 0.03</size>									
+	<pos>0.5 0.0335</pos>
+	<text> - {game:systemName} - </text> 
+	<alignment>right</alignment>
+	<verticalAlignment>top</verticalAlignment>
+	<forceUppercase>1</forceUppercase>
+	<color>${dataColor}</color>
+	<fontPath>./../../art/fonts/gobold-blocky-regular.otf</fontPath>
+	<fontSize>0.023</fontSize>
+	<linearSmooth>true</linearSmooth>
+	<zIndex>13</zIndex>
+	<storyboard event="open">
+		<animation property="offsetX" to="-0.1" begin="6000" duration="350" autoreverse="true" mode="easeIn"/>
+		<animation property="color" to="FFFF00" begin="7000" duration="1500" autoreverse="true" mode="linear"/>
+	</storyboard>
+	<storyboard event="activate">
+		<animation property="offsetX" to="-0.1" begin="6000" duration="350" autoreverse="true" mode="easeIn"/>
+		<animation property="color" to="FFFF00" begin="7000" duration="1500" autoreverse="true" mode="linear"/>
+	</storyboard>
+	<storyboard event="deactivate">
+	   <animation property="opacity" to="0" duration="1" mode="linear"/>
+	</storyboard>
+	
+</text>
+	
+<text name="name_Id" extra="true">
+	<text>{game:name}</text>
+	<size>0.525 0.08</size>
+	<color>ffffff</color>
+	<pos>0.18 0.055</pos>
+	<fontPath>./../../art/fonts/flatwheat.ttf</fontPath>
+	<fontSize>0.03</fontSize>
+	<origin>0 0</origin>
+	<glowColor>00000035</glowColor>
+	<glowSize>1</glowSize>
+	<glowOffset>3 2</glowOffset>
+	<zIndex>502</zIndex>
+	<linearSmooth>true</linearSmooth>
+	<singleLineScroll>true</singleLineScroll>
+	<backgroundColor>ff000000</backgroundColor>
+	<alignment>left</alignment>
+	<verticalAlignment>top</verticalAlignment>
+</text>
+
+<text name="description_Id" extra="true">
+	<text>{game:desc}</text>
+	<origin>0 0</origin>
+	<color>928e94D0</color>
+	<fontSize>0.021</fontSize>
+	<fontPath>./../../art/fonts/ubuntu.ttf</fontPath>
+	<pos>0.18 0.146</pos>
+	<size>0.525 0.15</size>
+	<linearSmooth>true</linearSmooth>
+	<alignment>left</alignment>
+	<verticalAlignment>top</verticalAlignment>
+	<autoScroll>vertical</autoScroll>
+</text>
+	
+<!-- Encadrement de la zone Description -->
+<image name="desc_cadre_gauche, desc_cadre_droit, desc_cadre_haut, desc_cadre_bas">
+	<path>./../../art/divers/white.png</path>
+	<color>${baseColor}</color>
+	<origin>0 0</origin>
+	<zIndex>57</zIndex>
+</image>
+ 
+<image name="desc_cadre_gauche" extra="true">
+	<size>0.003125 0.237037</size>									
+	<pos>0.1630208 0.0490741</pos>									
+</image>
+
+<image name="desc_cadre_haut" extra="true">
+	<size>0.5552083 0.0037037</size>									
+	<pos>0.1661458 0.0490741</pos>	
+</image>
+
+<image name="desc_cadre_bas" extra="true">
+	<size>0.5552083 0.0037037</size>									
+	<pos>0.1661458 0.3148148</pos>									
+</image>
+
+<image name="desc_cadre_droit" extra="true">
+	<size>0.003125 0.2694444</size>									
+	<pos>0.7182292 0.0490741</pos>									
+</image>
+
+							
+<image name="desc_fond_black" extra="true">
+	<path>./../../art/divers/white.png</path>
+	<color>000000</color>
+	<origin>0 0</origin>
+	<zIndex>5</zIndex>
+	<opacity>0.7</opacity>
+	<size>0.55625 0.2675926</size>									
+	<pos>0.1640625 0.05</pos>									
+</image>
+
+
+
+	<!-- animation 1 remplacer finalement pour la suivante -->
+	<!-- on fait sortir la cartridge par la gauche -->		
+	<!-- <image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true"> -->
+		<!-- <path>{game:cartridge}</path> -->
+		<!-- <maxSize>0.27 0.27</maxSize> -->
+		<!-- <pos>-0.19 0.66</pos> -->
+		<!-- <pos ifHelpPrompts="false">-0.19 0.71</pos>		 -->
+		<!-- <opacity>0</opacity> -->
+		<!-- <zIndex>100</zIndex> -->
+		
+		
+		<!-- <storyboard event="open"> -->
+			<!-- <animation property="opacity" to="1" begin="600" duration="40" mode="linear"/> -->
+			<!-- <animation property="offsetX" to="0.32" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" from="20" to="-4" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="scale" from="0.72 0.92" to="1.04 1.04" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="offsetX" to="0.3" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" to="0" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="scale" to="1 1" begin="860" duration="140" mode="EaseOut"/> -->
+		<!-- </storyboard> -->
+
+		<!-- <storyboard event="activateNext"> -->
+			<!-- <animation property="opacity" to="1" begin="600" duration="40" mode="linear"/> -->
+			<!-- <animation property="offsetX" to="0.32" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" from="20" to="-4" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="scale" from="0.72 0.92" to="1.04 1.04" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="offsetX" to="0.3" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" to="0" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="scale" to="1 1" begin="860" duration="140" mode="EaseOut"/> -->
+		<!-- </storyboard> -->
+
+		<!-- <storyboard event="activatePrev"> -->
+			<!-- <animation property="opacity" to="1" begin="600" duration="40" mode="linear"/> -->
+			<!-- <animation property="offsetX" to="0.32" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" from="20" to="-4" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="scale" from="0.72 0.92" to="1.04 1.04" begin="600" duration="260" mode="EaseOut"/> -->
+			<!-- <animation property="offsetX" to="0.3" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="rotation" to="0" begin="860" duration="140" mode="EaseOut"/> -->
+			<!-- <animation property="scale" to="1 1" begin="860" duration="140" mode="EaseOut"/> -->
+		<!-- </storyboard> -->
+
+		
+		<!-- <storyboard event="deactivateNext"> -->
+			<!-- <animation property="opacity" to="0" duration="1" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="deactivatePrev"> -->
+			<!-- <animation property="opacity" to="0" duration="1" mode="linear"/> -->
+		<!-- </storyboard> -->
+    <!-- </image> -->
+	
+	
+	
+	<!-- dans un premier temps on installe des maxsize et des pos suivant les systèmes -->
+	
+	<image name="cartridge_ID, cartridge_back" extra="true">
+		<maxSize>0.27 0.27</maxSize>
+		<pos>-0.19 0.66</pos>
+		<pos ifHelpPrompts="false">-0.19 0.71</pos>
+    </image>
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'scummvm'" extra="true">
+		<maxSize>0.165 0.236600</maxSize>
+		<pos>-0.2 0.688</pos>
+		<pos ifHelpPrompts="false">-0.2 0.74</pos>		
+    </image>
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'nes'" extra="true">
+		<maxSize>0.15 0.265</maxSize>
+		<pos>-0.195 0.655</pos>
+		<pos ifHelpPrompts="false">-0.195 0.705</pos>		
+    </image>
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == '3do'
+							|| 	   ${system.theme} == 'dreamcast'
+							|| 	   ${system.theme} == 'neogeocd'
+						    || 	   ${system.theme} == 'pce-cd' 
+							|| 	   ${system.theme} == 'psx'
+							|| 	   ${system.theme} == 'ps2'
+							|| 	   ${system.theme} == 'ps3'
+							|| 	   ${system.theme} == 'ps4'
+							|| 	   ${system.theme} == 'saturn'
+							" extra="true">
+		<maxSize>0.31 0.31</maxSize>
+		<pos>-0.21 0.61</pos>
+		<pos ifHelpPrompts="false">-0.21 0.66</pos>		
+    </image>
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'pce-cd' 
+							|| 	   ${system.theme} == 'wiiu'
+							" extra="true">
+		<maxSize>0.31 0.31</maxSize>
+		<pos>-0.225 0.61</pos>
+		<pos ifHelpPrompts="false">-0.225 0.66</pos>		
+    </image>
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'megacd'
+							|| 	   ${system.theme} == 'megacd'
+							" extra="true">
+		<maxSize>0.31 0.31</maxSize>
+		<pos>-0.22 0.61</pos>
+		<pos ifHelpPrompts="false">-0.22 0.66</pos>		
+    </image>
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'amstradcpc'  
+							|| 	   ${system.theme} == 'c64' 
+						    || 	   ${system.theme} == 'pc88' 
+						    || 	   ${system.theme} == 'pet' 
+						    || 	   ${system.theme} == 'thomson' 
+						    || 	   ${system.theme} == 'x1' 
+						    || 	   ${system.theme} == 'x68000' 
+						    || 	   ${system.theme} == 'zxspectrum' 
+							" extra="true">
+		<maxSize>0.165 0.236600</maxSize>
+		<pos>-0.25 0.688</pos>
+		<pos ifHelpPrompts="false">-0.25 0.74</pos>		
+    </image>
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'atarilynx'  
+						    || 	   ${system.theme} == 'arduboy' 
+						    || 	   ${system.theme} == 'gamate' 
+						    || 	   ${system.theme} == 'gamepock'
+						    || 	   ${system.theme} == 'gx4000'
+						    || 	   ${system.theme} == 'gp32'
+						    || 	   ${system.theme} == 'gmaster'
+							|| 	   ${system.theme} == 'megaduck'
+							|| 	   ${system.theme} == 'ngp'
+							|| 	   ${system.theme} == 'ngpc'
+							|| 	   ${system.theme} == 'pokemini'
+							|| 	   ${system.theme} == 'psp'
+							|| 	   ${system.theme} == 'sgb'
+							|| 	   ${system.theme} == 'sgb-msu1'
+							|| 	   ${system.theme} == 'solarus'
+						    || 	   ${system.theme} == 'virtualboy' 
+							|| 	   ${system.theme} == 'wasm4'
+							" extra="true">
+		<maxSize>0.169248 0.178002</maxSize>
+		<pos>-0.17 0.75</pos>
+		<pos ifHelpPrompts="false">-0.17 0.79</pos>		
+    </image>
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'gb'
+						    || 	   ${system.theme} == 'gb2players'
+						    || 	   ${system.theme} == 'gbc'
+						    || 	   ${system.theme} == 'gbc2players'
+							" extra="true">
+		<maxSize>0.169248 0.178002</maxSize>
+		<pos>-0.15 0.73</pos>
+		<pos ifHelpPrompts="false">-0.15 0.77</pos>		
+    </image>
+	
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'atari800'  
+						    || 	   ${system.theme} == 'atari2600' 
+						    || 	   ${system.theme} == 'atari5200' 
+						    || 	   ${system.theme} == 'atari7800' 
+						    || 	   ${system.theme} == 'arcadia' 
+						    || 	   ${system.theme} == 'astrocade' 
+						    || 	   ${system.theme} == 'amiga' 
+						    || 	   ${system.theme} == 'amiga500' 
+						    || 	   ${system.theme} == 'amiga1200' 
+						    || 	   ${system.theme} == 'amiga4000' 
+						    || 	   ${system.theme} == 'colecovision' 
+						    || 	   ${system.theme} == 'channelf' 
+						    || 	   ${system.theme} == 'creativision' 
+						    || 	   ${system.theme} == 'ecwolf' 
+						    || 	   ${system.theme} == 'fds' 
+						    || 	   ${system.theme} == 'fm7' 
+						    || 	   ${system.theme} == 'intellivision' 
+						    || 	   ${system.theme} == 'odyssey2' 
+						    || 	   ${system.theme} == 'pc' 
+						    || 	   ${system.theme} == 'pcengine' 
+						    || 	   ${system.theme} == 'prboom' 
+						    || 	   ${system.theme} == 'pv1000' 
+						    || 	   ${system.theme} == 'supracan' 
+						    || 	   ${system.theme} == 'supergrafx' 
+						    || 	   ${system.theme} == 'xegs'
+						    || 	   ${system.theme} == 'zx81'
+							" extra="true">
+		<maxSize>0.25 0.23</maxSize>
+		<pos>-0.19 0.695</pos>
+		<pos ifHelpPrompts="false">-0.19 0.733</pos>		
+    </image>
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'atarijaguar'  
+						    || 	   ${system.theme} == 'vectrex'
+						    || 	   ${system.theme} == 'msx' 
+						    || 	   ${system.theme} == 'msx1' 
+						    || 	   ${system.theme} == 'msx2' 
+						    || 	   ${system.theme} == 'neogeo' 
+							" extra="true">
+		<maxSize>0.21 0.21</maxSize>
+		<pos>-0.19 0.705</pos>
+		<pos ifHelpPrompts="false">-0.19 0.755</pos>		
+    </image>
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'snes' 
+						    || 	   ${system.theme} == 'n64'
+						    || 	   ${system.theme} == 'sg-1000' 
+							" extra="true">
+		<maxSize>0.21 0.21</maxSize>
+		<pos>-0.23 0.705</pos>
+		<pos ifHelpPrompts="false">-0.23 0.755</pos>		
+    </image>
+	
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'mastersystem' 
+						    || 	   ${system.theme} == 'megadrive' 
+						    || 	   ${system.theme} == 'sega32x' 
+							" extra="true">
+		<maxSize>0.16 0.18</maxSize>
+		<pos>-0.22 0.745</pos>
+		<pos ifHelpPrompts="false">-0.22 0.795</pos>		
+    </image>
+	
+	
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'gamegear'  
+						    || 	   ${system.theme} == 'gc'
+						    || 	   ${system.theme} == 'supervision'
+							" extra="true">
+		<maxSize>0.19 0.19</maxSize>
+		<pos>-0.17 0.735</pos>
+		<pos ifHelpPrompts="false">-0.17 0.773</pos>		
+    </image>
+	
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'wonderswancolor' 
+						    || 	   ${system.theme} == 'wonderswan'
+							" extra="true">
+		<maxSize>0.15 0.15</maxSize>
+		<pos>-0.19 0.765</pos>
+		<pos ifHelpPrompts="false">-0.19 0.815</pos>		
+    </image>
+
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'psvita'  
+						    || 	   ${system.theme} == 'gamecom' 
+						    || 	   ${system.theme} == 'switch' 
+							" extra="true">
+		<maxSize>0.15 0.135</maxSize>
+		<pos>-0.13 0.765</pos>
+		<pos ifHelpPrompts="false">-0.13 0.815</pos>		
+		
+    </image>
+
+
+	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'gba'  
+						    || 	   ${system.theme} == 'gba2players' 
+						    || 	   ${system.theme} == 'nds' 
+						    || 	   ${system.theme} == '3ds'
+							" extra="true">
+		<maxSize>0.13 0.12</maxSize>
+		<pos>-0.205 0.765</pos>
+		<pos ifHelpPrompts="false">-0.205 0.815</pos>		
+    </image>
+
+	
+	<!-- Puis on commence le mouvement avec la cartouche derrière la box -->
+	
+	<!-- CARTOUCHE ARRIERE -->
+	<image name="cartridge_back" ifSubset="cartridgeDisplay:Show" extra="true">
+		<path>{game:cartridge}</path>
+
+		<scale>0.75</scale>
+		
+		<!-- si système avec un CD on passe direct à un scale à 0.75 -->
+		<scale if="${system.theme} == 'amigacd32' ||
+				   ${system.theme} == 'amigacdtv' ||
+				   ${system.theme} == 'atarijaguarcd' ||
+				   ${system.theme} == 'cdi' ||
+				   ${system.theme} == 'dreamcast' ||
+				   ${system.theme} == 'fmtowns' ||
+				   ${system.theme} == 'neogeocd' ||
+				   ${system.theme} == 'pce-cd' ||
+				   ${system.theme} == 'pcfx' ||
+				   ${system.theme} == 'psx' ||
+				   ${system.theme} == 'saturn' ||
+				   ${system.theme} == 'segacd' ||
+				   ${system.theme} == 'megacd' ||
+				   ${system.theme} == 'snes-msu1' ||
+				   ${system.theme} == 'windows' ||
+				   ${system.theme} == '3do' ||
+				   ${system.theme} == 'daphne' ||
+				   ${system.theme} == 'gc' ||
+				   ${system.theme} == 'naomi' ||
+				   ${system.theme} == 'naomi2' ||
+				   ${system.theme} == 'ps2' ||
+				   ${system.theme} == 'ps3' ||
+				   ${system.theme} == 'singe' ||
+				   ${system.theme} == 'triforce' ||
+				   ${system.theme} == 'wii' ||
+				   ${system.theme} == 'wiiu' ||
+				   ${system.theme} == 'xbox' ||
+				   ${system.theme} == 'xbox360'">0.75</scale>		
+		   
+		<offsetY>-0.15</offsetY>
+		
+		<!-- pour les grosses cartouches ou système ayant un problème de visuels, on change aussi l'animation -->
+		<offsetY if="${system.theme} == 'dreamcast' ||
+					 ${system.theme} == 'snes' ||
+					 ${system.theme} == 'n64' ||
+					 ${system.theme} == 'gba' ||
+					 ${system.theme} == 'wonderswan' ||
+					 ${system.theme} == 'wonderswancolor' ||
+					 ${system.theme} == 'amigacd32' ||
+					 ${system.theme} == 'amigacdtv' ||
+					 ${system.theme} == 'atarijaguarcd' ||
+					 ${system.theme} == 'cdi' ||
+					 ${system.theme} == 'fmtowns' ||
+					 ${system.theme} == 'neogeocd' ||
+					 ${system.theme} == 'pce-cd' ||
+					 ${system.theme} == 'pcfx' ||
+					 ${system.theme} == 'psx' ||
+					 ${system.theme} == 'saturn' ||
+					 ${system.theme} == 'segacd' ||
+					 ${system.theme} == 'megadrive' ||
+					 ${system.theme} == 'megacd' ||
+					 ${system.theme} == 'snes-msu1' ||
+					 ${system.theme} == 'windows' ||
+					 ${system.theme} == '3do' ||
+					 ${system.theme} == 'daphne' ||
+					 ${system.theme} == 'gc' ||
+					 ${system.theme} == 'naomi' ||
+					 ${system.theme} == 'naomi2' ||
+					 ${system.theme} == 'ps2' ||
+					 ${system.theme} == 'ps3' ||
+					 ${system.theme} == 'singe' ||
+					 ${system.theme} == 'triforce' ||
+					 ${system.theme} == 'wiiu' ||
+					 ${system.theme} == 'xbox' ||
+					 ${system.theme} == 'xbox360'">-0.1</offsetY>
+					 
+		<opacity>0</opacity>
+		<zIndex>8</zIndex>
+
+		<storyboard event="open" repeatAt="11960">
+			<animation property="opacity" to="1" begin="500" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="850" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11960" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="21960" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="-0.055" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="22310" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="33070" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard repeatAt="11960" event="activateNext">
+			<animation property="opacity" to="1" begin="500" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="850" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11960" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="21960" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="-0.055" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="22310" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="33070" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard repeatAt="11960" event="activatePrev">
+			<animation property="opacity" to="1" begin="500" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.055" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="500" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="850" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="11610" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11960" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="21960" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.3" to="0.06" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="-0.055" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="90" to="25" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="21960" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="22310" duration="1" mode="linear"/>
+			<animation property="opacity" to="1" begin="33070" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.3" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="-0.03" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="90" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="scale" to="0.65" begin="33070" duration="350" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
+		</storyboard>
+		
+		
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</image>
+
+
+
+	<!-- et la cartouche passe devant la box -->
+	<!-- CARTOUCHE AVANT -->
+	<image name="cartridge_ID" ifSubset="cartridgeDisplay:Show" extra="true">
+		<path>{game:cartridge}</path>
+
+		<scale>0.82</scale>
+		<opacity>0</opacity>
+		<zIndex>100</zIndex>
+
+		<storyboard event="open" repeatAt="11960">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard repeatAt="11960" event="activateNext">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard repeatAt="11960" event="activatePrev">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
+		</storyboard>
+		
+		<storyboard repeatAt="11960" event="open" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard repeatAt="11960" event="activateNext" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard repeatAt="11960" event="activatePrev" if="${system.theme} == 'dreamcast' || ${system.theme} == 'snes' || ${system.theme} == 'n64' || ${system.theme} == 'gba' || ${system.theme} == 'wonderswan' || ${system.theme} == 'wonderswancolor'">
+			<animation property="offsetX" from="0.06" to="0.32" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="850" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="850" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="1050" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="1170" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="1270" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="11410" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="11530" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="11610" duration="1" mode="linear"/>
+			<animation property="offsetX" from="0.06" to="0.32" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="-0.055" to="0.006" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="25" to="-4" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="1" begin="22310" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="1" begin="22310" duration="1" mode="linear"/>
+			<animation property="offsetX" to="0.3" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="0.008" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="rotation" to="0" begin="22510" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" to="-0.012" begin="22630" duration="100" mode="EaseOut"/>
+			<animation property="offsetY" to="0" begin="22730" duration="140" mode="EaseOut"/>
+			<animation property="offsetX" from="0.3" to="0.32" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetY" from="0" to="0.006" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="rotation" from="0" to="-4" begin="32870" duration="120" mode="EaseOut"/>
+			<animation property="offsetX" from="0.32" to="0.06" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="offsetY" from="0.006" to="-0.055" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="rotation" from="-4" to="25" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="scale" to="0.82" begin="32990" duration="200" mode="EaseOut"/>
+			<animation property="opacity" to="0" begin="33070" duration="1" mode="linear"/>
+			<animation property="opacity" to="0" begin="33420" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="1" mode="linear"/>
+		</storyboard>
+	</image>	
+	
+	
+	
+	<!-- on masque les cartridges si on est dans une collection -->
+	<image name="cartridge_ID, cartridge_back" if="{system.sortedBy} == 'Collections' || 
+														${system.theme} == 'lcdgames' || 
+														${system.theme} == 'mess' || 
+														${system.theme} == 'ports'" extra="true">
+		<visible>false</visible>
+	</image>
+	
+
+
+
+
+
+
+
+
+
+</customView>
+
+
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- Système Haute comme la gameboy, vectrex, x1, ....... -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<customView name="collector" if=" 
+			   ${system.theme} == 'arduboy' 
+			|| ${system.theme} == 'gb' 
+			|| ${system.theme} == 'gb2players' 
+			|| ${system.theme} == 'gbc' 
+			|| ${system.theme} == 'gbc2players' 
+			|| ${system.theme} == 'fm7' 
+			|| ${system.theme} == 'msx' 
+			|| ${system.theme} == 'msx1' 
+			|| ${system.theme} == 'msx2' 
+			|| ${system.theme} == 'msx2+' 
+			|| ${system.theme} == 'msxturbor' 
+			|| ${system.theme} == 'supervision' 
+			|| ${system.theme} == 'vectrex' 
+			|| ${system.theme} == 'wasm4' 
+			|| ${system.theme} == 'x1'
+			" extra="true">	
+
+		
+
+
+<image name="figurines,shadow_figurines" extra="true">
+	<pos>0.4 0.73</pos>									
+	<pos ifHelpPrompts="false">0.4 0.77</pos>
+</image>
+
+<!-- on repositionne le nom du système sur le cadre	 -->
+<text name="WhatSystemGAME" extra="static">
+	<pos>0.23 0.0335</pos>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>	
+</text>
+
+<!-- on resize le nom du jeu et on empeche le resize par animation	 -->
+<text name="name_Id" extra="true">
+	 <size>0.265 0.08</size>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>	
+</text>
+	
+
+<text name="genre_Id" extra="true">
+	<size>0.215 0.03</size>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>	
+</text>
+	
+<text name="description_Id" extra="true">
+	<size>0.268 0.24</size>									
+	<pos>0.18 0.135</pos>	
+	<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
+	<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
+	<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
+	<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext"></storyboard>
+	<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>		
+</text>
+
+	
+<!-- Encadrement de la zone Description, on bloque l'animation pour ces systèmes -->
+<image name="desc_cadre_gauche, desc_cadre_droit, desc_cadre_haut, desc_cadre_bas, desc_fond_black">
+		<storyboard ifSubset="cartridgeDisplay:Show" event="open"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activateNext"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="activatePrev"></storyboard>      
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivateNext"></storyboard>
+		<storyboard ifSubset="cartridgeDisplay:Show" event="deactivatePrev"></storyboard>
+</image>
+ 
+<image name="desc_cadre_gauche" extra="true">
+	<size>0.003125 0.237037</size>									
+	<pos>0.1630208 0.0490741</pos>									
+</image>
+
+<image name="desc_cadre_haut" extra="true">
+	<size>0.3010417 0.0037037</size>									
+	<pos>0.1661458 0.0490741</pos>									
+</image>
+
+<image name="desc_cadre_droit" extra="true">
+	<size>0.0036458 0.3342593</size>									
+	<pos>0.4635417 0.0490741</pos>									
+</image>
+
+<image name="desc_cadre_bas" extra="true">
+	<size>0.3010417 0.0037037</size>									
+	<pos>0.1661458 0.3796296</pos>									
+</image>
+
+<image name="desc_fond_black" extra="true">
+	<size>0.3010417 0.3305556</size>									
+	<pos>0.1640625 0.0509259</pos>									
+</image>
+	
+	
+	
+	
+	
+	
+	
+	
+</customView>
+
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!--        pour les systèmes ARCADE  		 			  -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+		
+<customView name="collector" if=" 
+               ${system.theme} == 'arcade' 
+			|| ${system.theme} == 'auto-verticalarcade' 
+			|| ${system.theme} == 'auto-lightgun' 
+			|| ${system.theme} == 'auto-wheel' 
+			|| ${system.theme} == 'alphadenshi' 
+			|| ${system.theme} == 'atari' 
+			|| ${system.theme} == 'atlus' 
+			|| ${system.theme} == 'openbor'	
+			|| ${system.theme} == 'banpresto' 
+			|| ${system.theme} == 'capcom' 
+			|| ${system.theme} == 'cave' 
+			|| ${system.theme} == 'centurye' 
+			|| ${system.theme} == 'comad' 
+			|| ${system.theme} == 'cps1' 
+			|| ${system.theme} == 'cps2' 
+			|| ${system.theme} == 'cps3' 
+			|| ${system.theme} == 'dataeast' 
+			|| ${system.theme} == 'eighting' 
+			|| ${system.theme} == 'fbneo' 
+			|| ${system.theme} == 'gaelco' 
+			|| ${system.theme} == 'gottlieb' 
+			|| ${system.theme} == 'hikaru' 
+			|| ${system.theme} == 'igs' 
+			|| ${system.theme} == 'incredibletech' 
+			|| ${system.theme} == 'irem' 
+			|| ${system.theme} == 'jaleco' 
+			|| ${system.theme} == 'kaneko' 
+			|| ${system.theme} == 'konami' 
+			|| ${system.theme} == 'mame' 
+			|| ${system.theme} == 'midway' 
+			|| ${system.theme} == 'mitchell' 
+			|| ${system.theme} == 'model2' 
+			|| ${system.theme} == 'model3' 
+			|| ${system.theme} == 'namco' 
+			|| ${system.theme} == 'neogeo64' 
+			|| ${system.theme} == 'nichibutsu' 
+			|| ${system.theme} == 'nintendo' 
+			|| ${system.theme} == 'nmk' 
+			|| ${system.theme} == 'psikyo' 
+			|| ${system.theme} == 'sammy' 
+			|| ${system.theme} == 'sega' 
+			|| ${system.theme} == 'segastv' 
+			|| ${system.theme} == 'seibukaihatsu' 
+			|| ${system.theme} == 'semicom'
+			|| ${system.theme} == 'snk' 
+			|| ${system.theme} == 'taito' 
+			|| ${system.theme} == 'taitox' 
+			|| ${system.theme} == 'technos' 
+			|| ${system.theme} == 'tecmo' 
+			|| ${system.theme} == 'toaplan' 
+			|| ${system.theme} == 'universal' 
+			|| ${system.theme} == 'visco' 
+			|| ${system.theme} == 'vsc' 
+			|| ${system.theme} == 'williams' 
+			|| ${system.theme} == 'atomiswave' 
+			|| ${system.theme} == 'fbneo' 
+			|| ${system.theme} == 'hbmame' 
+			|| ${system.theme} == 'mame' 
+			|| ${system.theme} == 'teknoparrot' 
+			|| ${system.theme} == 'daphne' 
+			|| ${system.theme} == 'singe' 
+			|| ${system.theme} == 'naomi' 
+			|| ${system.theme} == 'naomi2'
+			" extra="true">		
+
+<!-- On coupe le son des md_video si on est dans un système arcade pour éviter le son en double -->
+	<video name="md_video">
+	  <audio>false</audio>
+	</video>
+	
+<!-- on affiche pas les éléments du bureau ni certains médias -->
+	<image name="bureau, mini, ecran_console_defaut, background-art, thumbnail-gamecarousel, boxback_ID, cartridge_ID, cartridge_back" extra="static">
+		<visible>false</visible>
+	</image>
+
+
+<image name="background-bar" extra="true">
+	<path ifSubset="barType:classic">${themePath}/art/divers/bar_classic.png</path>
+	<path ifSubset="barType:modern">${themePath}/art/divers/bar_modern.png</path>
+	<path ifSubset="barType:steampunk">${themePath}/art/divers/bar_steampunk.png</path>	
+	<path ifSubset="barType:retro80s">${themePath}/art/divers/bar_retro80s.png</path>
+	<path ifSubset="barType:scandinavian">${themePath}/art/divers/bar_scandinavian.png</path>
+	<path ifSubset="barType:artdeco">${themePath}/art/divers/bar_artdeco.png</path>
+	<pos>0.5 0.5</pos>
+	<size>1 1</size>
+	<origin>0.5 0.5</origin>
+	<zIndex>3</zIndex>
+</image>
+
+
+
+<image name="bar_concept_cadre1_thumbnail" extra="true">
+	<path>${themePath}/art/divers/bar-cadre1.png</path>
+	<size>0.084375 0.3962963</size>									
+	<pos>0.0651042 0.5833333</pos>									
+	<origin>0.5 0.5</origin>
+	<zIndex>1</zIndex> 
+	<visible>!exists({game:thumbnail})</visible>
+</image>
+
+<image name="bar_concept_cadre2_fanart" extra="true">
+	<path>${themePath}/art/divers/bar-cadre2.png</path>
+	<size>0.1177083 0.2537037</size>									
+	<pos>0.1963542 0.5444444</pos>									
+	<origin>0.5 0.5</origin>
+	<zIndex>1</zIndex>
+	<visible>!exists({game:fanart})</visible>	
+</image>
+
+
+<!-- PREMIER CADRE -->
+<!-- Flyers ou boxfront Arcade -->
+<image name="thumbnail-arcade" extra="true">
+	<path>{game:thumbnail}</path>
+	<pos>0.0275 0.410</pos>
+	<size>0.085 0.350</size>
+	<origin>0 0</origin>
+	<zIndex>2</zIndex>
+
+	<shader>
+		<path>${themePath}/art/shaders/animatics-perspective.glsl</path>
+		<dimensions>163.2 378</dimensions>
+		<hautGauche>-9 -19</hautGauche>
+		<hautDroit>-14 4</hautDroit>
+		<basGauche>-8 23</basGauche>
+		<basDroit>-12 -33</basDroit>
+		
+		<!-- Perspective 16:10 -->
+		<hautGauche if="{screen.ratio} == '16/10'">-9 -21</hautGauche>
+		<hautDroit if="{screen.ratio} == '16/10'">-5 -20</hautDroit>
+		<basGauche if="{screen.ratio} == '16/10'">-8 25.5</basGauche>
+		<basDroit if="{screen.ratio} == '16/10'">-5 -20</basDroit>
+	</shader>
+
+
+</image>
+
+
+<!-- DEUXIEME CADRE -->
+<!-- Fanart Arcade -->
+<image name="fanart-arcade" extra="true">
+	<path>{game:fanart}</path>
+	<pos>0.13 0.45</pos>
+	<size>0.160 0.160</size>
+	<origin>0 0</origin>
+	<zIndex>2</zIndex>
+	
+	<shader>
+		<path>${themePath}/art/shaders/animatics-perspective.glsl</path>
+		<dimensions>307.2 172.8</dimensions>
+		<hautGauche>17 -35</hautGauche>
+		<basGauche>12 65</basGauche>
+		<hautDroit>-70 -40</hautDroit>
+		<basDroit>-70 -10</basDroit>
+		
+		<!-- Perspective 16:10 -->
+		<dimensions 	if="{screen.ratio} == '16/10'">307.2 192</dimensions>
+		<hautGauche 	if="{screen.ratio} == '16/10'">10 -32</hautGauche>
+		<basGauche 		if="{screen.ratio} == '16/10'">7 53</basGauche>
+		<hautDroit 		if="{screen.ratio} == '16/10'">-45 -26</hautDroit>
+		<basDroit 		if="{screen.ratio} == '16/10'">-42 -10</basDroit>
+	</shader>
+
+</image>	
+	
+	
+<!-- Repositionnement des figurines pour les systèmes Arcades -->
+<image name="figurines,shadow_figurines" extra="true">
+	<x>0.17</x>
+	<y>0.70</y>
+	<maxSize>0.07 0.19</maxSize>
+	
+	<maxSize if="{screen.ratio} == '16/10'">0.08 0.20</maxSize>
+	<x if="{screen.ratio} == '16/10'">0.155</x>
+</image>
+
+
+<!-- animation des figurines  moins violente que sur les bureaux -->
+	<image name="figurines,shadow_figurines" ifSubset="figurineAnimation:yes">
+		<storyboard event="activate" repeatAt="10">
+			<animation property="offsetY"  	to="-0.02" 	begin="6000"  duration="300" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="-3" 	begin="6000"  duration="150" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="3" 		begin="6000"  duration="150" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="3"   	begin="12000" duration="200" mode="Bump" autoreverse="true"/>
+			<animation property="rotation"  to="-3"   	begin="12000" duration="200" mode="Bump" autoreverse="true"/>
+			<animation property="offsetX"  	to="0.005"   begin="12000" duration="400" mode="Bump" autoreverse="true"/>
+		</storyboard>
+	</image>
+
+
+
+
+
+
+<!-- Nouvel Encadrement de la zone Description -->
+	 
+	<image name="desc_cadre_droit" extra="true">
+		<h>0.2324074</h>									
+	</image>
+	
+	<image name="desc_cadre_bas" extra="true">
+		<y>0.2777778</y>	
+		<!-- <pos ifHelpPrompts="false">0.1661458 0.3148148</pos>									 -->
+	</image>
+	
+	<image name="desc_fond_black" extra="true">
+		<y>0.0527778</y>
+		<h>0.225</h>
+	</image>
+	
+	<text name="description_Id" extra="true">
+		<y>0.14</y>
+		<h>0.115</h>
+	</text>
+	
+</customView>
+
+
+<include>./include/publishers.xml</include>
+
+</theme>

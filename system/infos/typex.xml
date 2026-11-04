@@ -1,0 +1,31 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>An arcade board based on PC architecture released by Taito in 2004. It was a revolutionary system because it allowed developers to create games using standard computer components (Windows Embedded), which greatly facilitated conversions to consoles like PS3 or Xbox 360.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Une borne d'arcade basée sur l'architecture PC, sortie par Taito en 2004. C'était un système révolutionnaire car il permettait aux développeurs de créer des jeux en utilisant des composants informatiques standard (Windows Embedded), ce qui facilitait grandement les conversions vers des consoles comme la PS3 ou la Xbox 360.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Eine Arcade-Platine auf PC-Architektur, die 2004 von Taito auf den Markt gebracht wurde. Es handelte sich um ein revolutionäres System, da es Entwicklern ermöglichte, Spiele mit Standard-Computerkomponenten (Windows Embedded) zu erstellen, was die Konvertierung auf Konsolen wie PS3 oder Xbox 360 erheblich erleichterte.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>Placa de arcade basada en arquitectura de PC lanzada por Taito en 2004. Fue un sistema revolucionario porque permitió a los desarrolladores crear juegos usando componentes de computadora estándar (Windows Embedded), lo que facilitó mucho las conversiones a consolas como PS3 o Xbox 360.
+</text>
+</text>
+
+</view>
+</theme>
