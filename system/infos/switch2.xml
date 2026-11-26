@@ -1,0 +1,91 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: DreamerCG for Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Nintendo Switch 2 is Nintendo’s next-generation hybrid console. It can be played on a larger built-in screen or connected to a TV, and its magnetic Joy-Con 2 controllers can also function as a mouse in compatible games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La Nintendo Switch 2 est la nouvelle console hybride de Nintendo. Elle permet de jouer sur un écran intégré plus grand ou sur un téléviseur, et ses manettes Joy-Con 2 magnétiques peuvent aussi servir de souris dans les jeux compatibles.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die Nintendo Switch 2 ist Nintendos neue Hybridkonsole. Sie kann auf einem größeren integrierten Bildschirm oder am Fernseher genutzt werden. In kompatiblen Spielen lassen sich die magnetischen Joy-Con-2-Controller auch als Maus verwenden.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Nintendo Switch 2 è la nuova console ibrida di Nintendo. Permette di giocare sullo schermo integrato più grande o su un televisore, e i controller magnetici Joy-Con 2 possono essere usati anche come mouse nei giochi compatibili.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Nintendo Switch 2 è la console ibrida di prossima generazione di Nintendo in uscita nel 2025. Dispone di un display più grande da 7,9", un processore più potente e controller Joy-Con 2 migliorati con nuove funzioni come modalità mouse e GameChat. La console può connettersi a una TV per giochi ad alte prestazioni o essere utilizzata come dispositivo portatile, mantenendo la flessibilità ibrida che ha reso il Switch originale così di successo. Supporta tutti i giochi Switch originali con prestazioni migliorate.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Nintendo Switch 2は、任天堂の新しいハイブリッドゲーム機です。大きくなった本体画面でもテレビでも遊ぶことができ、マグネット式のJoy-Con 2は対応ソフトでマウスとしても使えます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Nintendo Switch 2 is de nieuwe hybride console van Nintendo. Je kunt spelen op het grotere ingebouwde scherm of op een tv. De magnetische Joy-Con 2-controllers kunnen in compatibele games ook als muis worden gebruikt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Nintendo Switch 2 é a nova consola híbrida da Nintendo. Permite jogar no ecrã integrado, agora maior, ou num televisor. Os comandos magnéticos Joy-Con 2 também podem funcionar como rato em jogos compatíveis.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Nintendo Switch 2 — новая гибридная консоль Nintendo. На ней можно играть на увеличенном встроенном экране или на телевизоре, а магнитные контроллеры Joy-Con 2 в совместимых играх можно использовать как мышь.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Nintendo Switch 2 — новая гибридная консоль Nintendo. На ней можно играть на увеличенном встроенном экране или на телевизоре, а магнитные контроллеры Joy-Con 2 в совместимых играх можно использовать как мышь.</text>
+</text>
+
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Donkey Kong Bananza (2025)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Donkey Kong and Pauline journey through a vast underground world, smashing through terrain, uncovering secrets and collecting bananas. With powerful punches, climbing and special Bananza transformations, DK can carve new paths through destructible environments and tackle each area in his own way.
+Fun fact: Much of the terrain can be smashed apart, letting players uncover hidden items and create their own routes.</text>
+</text>
+
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Donkey Kong et Pauline s’aventurent dans un vaste monde souterrain, où ils brisent le terrain, découvrent des secrets et récoltent des bananes. Grâce à ses puissants coups de poing, à l’escalade et aux transformations Bananza, DK peut ouvrir de nouveaux passages et explorer chaque zone à sa manière.
+Fun fact : Une grande partie du terrain peut être détruite, ce qui permet de révéler des objets cachés et de créer ses propres chemins.</text>
+</text>
+
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Donkey Kong y Pauline se adentran en un vasto mundo subterráneo, rompiendo el terreno, descubriendo secretos y recogiendo bananas. Con sus potentes puñetazos, la posibilidad de escalar y las transformaciones Bananza, DK puede abrir nuevos caminos y explorar cada zona a su manera.
+Dato curioso: Se puede destruir gran parte del terreno para encontrar objetos ocultos y crear rutas propias.</text>
+</text>
+
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Donkey Kong e Pauline si avventurano in un vasto mondo sotterraneo, distruggendo il terreno, scoprendo segreti e raccogliendo banane. Grazie ai suoi potenti pugni, alla possibilità di arrampicarsi e alle trasformazioni Bananza, DK può aprire nuovi passaggi ed esplorare ogni area a modo suo.
+Curiosità: Gran parte del terreno può essere distrutta per scoprire oggetti nascosti e creare percorsi personalizzati.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Donkey Kong und Pauline erkunden eine weitläufige Unterwelt, zerstören Gelände, entdecken Geheimnisse und sammeln Bananen. Mit kräftigen Schlägen, Kletterkünsten und den Bananza-Verwandlungen kann DK neue Wege freilegen und jedes Gebiet auf seine eigene Weise erkunden.
+Interessante Tatsache: Ein großer Teil der Umgebung lässt sich zerstören, um versteckte Gegenstände zu finden und eigene Wege zu schaffen.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Donkey Kong e Pauline exploram um vasto mundo subterrâneo, destruindo o terreno, descobrindo segredos e recolhendo bananas. Com os seus poderosos murros, a capacidade de escalar e as transformações Bananza, DK pode abrir novos caminhos e explorar cada área à sua maneira.
+Curiosidade: Grande parte do terreno pode ser destruída para revelar objetos escondidos e criar os seus próprios percursos.</text>
+</text>
+
+</view>
+</theme>

@@ -1,0 +1,86 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>PSX Arcade takes you back to the golden age of 3D arcade machines in the 1990s, when PlayStation-derived technology was transforming amusement arcades. Boards such as Sony ZN-1 and ZN-2 and Namco System 11 and 12 powered spectacular fighting and racing games with striking polygonal graphics. An era when arcade thrills pushed beyond the limits of home consoles.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>PSX Arcade vous replonge dans l'âge d'or des bornes d'arcade 3D des années 90, lorsque la technologie de la PlayStation révolutionnait aussi les salles de jeux. Des cartes comme les Sony ZN-1 et ZN-2 ou les Namco System 11 et 12 ont donné naissance à des titres spectaculaires, mêlant combats nerveux, courses effrénées et graphismes polygonaux. Une époque où les sensations de l'arcade repoussaient les limites des consoles de salon.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>PSX Arcade te transporta a la edad de oro de las máquinas recreativas 3D de los años 90, cuando la tecnología de PlayStation también revolucionaba los salones arcade. Placas como Sony ZN-1 y ZN-2 o Namco System 11 y 12 impulsaron espectaculares juegos de lucha y carreras con gráficos poligonales. Una época en la que la emoción del arcade superaba los límites de las consolas domésticas.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>PSX Arcade ti riporta all’epoca d’oro dei cabinati arcade 3D degli anni ’90, quando la tecnologia PlayStation rivoluzionava anche le sale giochi. Schede come Sony ZN-1 e ZN-2 e Namco System 11 e 12 diedero vita a spettacolari giochi di combattimento e corse con grafica poligonale. Un’epoca in cui le emozioni dell’arcade superavano i limiti delle console domestiche.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>PSX Arcade führt zurück in das goldene Zeitalter der 3D-Spielhallen der 1990er-Jahre, als die PlayStation-Technologie auch die Automatenwelt revolutionierte. Platinen wie Sony ZN-1 und ZN-2 sowie Namco System 11 und 12 ermöglichten spektakuläre Kampf- und Rennspiele mit Polygon-Grafik. Eine Ära, in der das Arcade-Erlebnis die Grenzen der Heimkonsolen sprengte.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>PSX Arcade leva-te de volta à era dourada das máquinas arcade 3D dos anos 90, quando a tecnologia da PlayStation também revolucionava os salões de jogos. Placas como Sony ZN-1 e ZN-2 e Namco System 11 e 12 deram origem a jogos de luta e corridas espetaculares com gráficos poligonais. Uma época em que a emoção das arcadas ultrapassava os limites das consolas domésticas.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>PSX Arcadeは、PlayStation系の技術がゲームセンターにも革命をもたらした1990年代、3Dアーケード黄金期へと誘います。Sony ZN-1・ZN-2やNamco System 11・12などの基板から、ポリゴン映像を駆使した迫力ある格闘ゲームやレースゲームが誕生しました。家庭用ゲーム機の限界を超える興奮がアーケードにあった時代です。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>PSX Arcade neemt je mee terug naar de gouden tijd van 3D-arcadekasten in de jaren 90, toen PlayStation-technologie ook de speelhallen veranderde. Systemen als Sony ZN-1 en ZN-2 en Namco System 11 en 12 brachten spectaculaire vecht- en racegames met polygonale graphics. Een tijd waarin de arcade-ervaring de grenzen van thuisconsoles verlegde.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>PSX Arcade przenosi do złotej ery automatów 3D lat 90., kiedy technologia PlayStation odmieniła również salony gier. Płyty Sony ZN-1 i ZN-2 oraz Namco System 11 i 12 napędzały widowiskowe bijatyki i wyścigi z grafiką wielokątową. Były to czasy, gdy emocje z automatów wykraczały poza możliwości konsol domowych.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>PSX Arcade возвращает в золотую эпоху трёхмерных аркадных автоматов 1990-х, когда технологии PlayStation преобразили и игровые залы. Платы Sony ZN-1 и ZN-2, а также Namco System 11 и 12 подарили зрелищные файтинги и гонки с полигональной графикой. В те годы аркадные впечатления выходили за рамки возможностей домашних консолей.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Rival Schools: United by Fate (1997)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Ran Hibiki is a student at Taiyo High who loves journalism and is always chasing the next big scoop for the school newspaper. Energetic and determined, she fights with an unusual style, using her camera to dazzle opponents and a paper fan to fend off attacks. A spirited fighter in the world of Rival Schools.
+Fun fact: In Project Justice, Ran has to reload her camera after six flash attacks, a playful nod to the limitations of film photography.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Ran Hibiki est une lycéenne de Taiyo High passionnée de journalisme, toujours à l'affût du scoop qui fera la une du journal scolaire. Énergique et déterminée, elle se distingue dans les combats par un style aussi original qu'imprévisible : elle utilise son appareil photo pour éblouir ses adversaires et un éventail en papier pour repousser leurs attaques.
+Fun fact : Ran doit changer la pellicule de son appareil après six attaques au flash, un détail amusant qui rappelle les contraintes de la photographie argentique.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Ran Hibiki es una estudiante de Taiyo High apasionada por el periodismo y siempre en busca de una exclusiva para el periódico escolar. En combate utiliza su cámara para deslumbrar a sus rivales y un abanico de papel para repeler ataques. Una luchadora llena de energía en Rival Schools.
+Dato curioso: En Project Justice, Ran debe cambiar la película de su cámara tras seis ataques con flash, un guiño a la fotografía analógica.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Ran Hibiki è una studentessa della Taiyo High appassionata di giornalismo, sempre alla ricerca dello scoop per il giornale scolastico. In combattimento usa la macchina fotografica per abbagliare gli avversari e un ventaglio di carta per respingerne gli attacchi. Una combattente piena di energia in Rival Schools.
+Curiosità: In Project Justice, Ran deve cambiare la pellicola dopo sei attacchi con il flash, un richiamo alla fotografia analogica.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Ran Hibiki ist eine Schülerin der Taiyo High und begeisterte Nachwuchsjournalistin, die stets nach der nächsten großen Story für die Schülerzeitung sucht. Im Kampf blendet sie Gegner mit ihrer Kamera und wehrt Angriffe mit einem Papierfächer ab. Eine temperamentvolle Kämpferin aus Rival Schools.
+Fun Fact: In Project Justice muss Ran nach sechs Blitzangriffen den Film ihrer Kamera wechseln – eine Anspielung auf die analoge Fotografie.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Ran Hibiki é uma estudante da Taiyo High apaixonada por jornalismo, sempre à procura de uma grande notícia para o jornal escolar. Nos combates, usa a máquina fotográfica para encandear os adversários e um leque de papel para afastar ataques. Uma lutadora cheia de energia no universo de Rival Schools.
+Curiosidade: Em Project Justice, Ran tem de trocar o rolo da máquina após seis ataques com flash, uma referência à fotografia analógica.</text>
+</text>
+</view>
+</theme>

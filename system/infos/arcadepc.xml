@@ -1,0 +1,29 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: DreamerCG
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Arcade PC brings together modern arcade games built around instant action, simple controls and fast-paced challenges. From high-score chases to colorful shoot 'em ups and competitive action, these games deliver pick-up-and-play fun with a contemporary twist.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Arcade PC réunit des jeux d'arcade modernes misant sur l'action immédiate, des commandes simples et des défis dynamiques. Course aux meilleurs scores, jeux de tir colorés ou action compétitive : ces jeux offrent des parties faciles à lancer, avec une touche résolument actuelle.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Arcade PC vereint moderne Arcade-Spiele mit sofortiger Action, einfacher Steuerung und temporeichen Herausforderungen. Ob Highscore-Jagd, farbenfrohe Shoot-'em-ups oder packende Wettkämpfe – diese Spiele bieten unkomplizierten Spielspaß mit einem zeitgemäßen Twist.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Arcade PC reúne juegos arcade modernos basados en la acción inmediata, controles sencillos y desafíos trepidantes. Desde competir por la máxima puntuación hasta disfrutar de coloridos juegos de disparos y acción competitiva, ofrece partidas rápidas y divertidas con un toque actual.</text>
+</text>
+
+</view>
+</theme>

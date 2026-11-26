@@ -10,27 +10,43 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-<text>MSU-1 Game Boy games are hacks or modifications of Game Boy games that use the MSU-1 chip. This chip makes it possible to add high-quality audio tracks. This can give games a new lease of life with enhanced sounds, often made by passionate retro-gaming fans.</text>
+<text>The Super Game Boy (スーパーゲームボーイ) is a peripheral device for playing Game Boy cartridges on a Super NES console. This system only worked with cartridges compatible with the original monochrome Game Boy, the system could then convert all four levels of grey to colour.</text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-<text>Les jeux MSU-1 sur Game Boy sont des hacks ou des modifications de jeux Game Boy qui utilisent la puce MSU-1. Cette puce permet d'ajouter des pistes audio de haute qualité. Cela peut donner aux jeux une nouvelle vie avec des sons améliorés, souvent réalisés par des fans passionnés de rétro-gaming.</text>
-</text>
-
-<text name="system_description" extra="true" lang="es">
-<text>Los juegos MSU-1 de Game Boy son hacks o modificaciones de juegos de Game Boy que utilizan el chip MSU-1. Este chip permite añadir pistas de audio de alta calidad. Esto puede dar nueva vida a los juegos con sonidos mejorados, a menudo creados por apasionados aficionados al retro-gaming.</text>
-</text>
-
-<text name="system_description" extra="true" lang="it">
-<text>I giochi MSU-1 per Game Boy sono hack o modifiche di giochi Game Boy che utilizzano il chip MSU-1. Questo chip permette di aggiungere tracce audio di alta qualità. Può dare nuova vita ai giochi con suoni migliorati, spesso realizzati da appassionati di retro-gaming.</text>
+<text>Le Super Game Boy (スーパーゲームボーイ) est un périphérique permettant de jouer aux cartouches Game Boy sur une console Super NES. Ce système fonctionnait uniquement avec des cartouches compatibles avec la Game Boy monochrome originale, le système pouvait alors convertir en couleur les quatre niveaux de gris.</text>
 </text>
 
 <text name="system_description" extra="true" lang="de">
-<text>MSU-1-Game-Boy-Spiele sind Hacks oder Modifikationen von Game-Boy-Spielen, die den MSU-1-Chip nutzen. Dieser Chip ermöglicht das Hinzufügen hochwertiger Audiospuren. So können Spiele mit verbesserten Klängen neues Leben erhalten, oft erstellt von leidenschaftlichen Retro-Gaming-Fans.</text>
+<text>Der Super Game Boy (スーパーゲームボーイ) ist ein Gerät, mit dem man Game Boy-Kassetten auf einer Super NES-Konsole spielen kann. Dieses System funktionierte nur mit Kassetten, die mit dem ursprünglichen monochromen Game Boy kompatibel waren; das System konnte dann alle vier Graustufen in Farbe umwandeln.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La Super Game Boy (スーパーゲームボーイ) es un dispositivo periférico para reproducir cartuchos de Game Boy en una consola Super NES. Este sistema sólo funcionaba con cartuchos compatibles con la Game Boy monocroma original, el sistema podía entonces convertir los cuatro niveles de gris a color.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Super Game Boy (スーパーゲームボーイ) è una periferica per la riproduzione di cartucce Game Boy su una console Super NES. Questo sistema funzionava solo con cartucce compatibili con il Game Boy monocromatico originale; il sistema poteva quindi convertire tutti e quattro i livelli di grigio in colore.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>スーパーゲームボーイ（スーパーゲームボーイ）は、ゲームボーイカートリッジをスーパーファミコンでプレイするための周辺機器です。このシステムは、オリジナルのモノクロゲームボーイと互換性のあるカートリッジでのみ動作し、システムは4段階のグレーをすべてカラーに変換することができます。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Super Game Boy (スパーゲームボーイ) is een randapparaat voor het afspelen van Game Boy-cartridges op een Super NES-console. Dit systeem werkte alleen met cartridges die compatibel waren met de originele monochrome Game Boy, het systeem kon dan alle vier niveaus van grijs omzetten naar kleur.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Super Game Boy (スーパーゲームボーイ) to urządzenie peryferyjne służące do odtwarzania kartridży Game Boy na konsoli Super NES. System ten działał tylko z kartridżami kompatybilnymi z oryginalnym monochromatycznym Game Boyem, system mógł wtedy konwertować wszystkie cztery poziomy szarości na kolor.</text>
 </text>
 
 <text name="system_description" extra="true" lang="pt">
-<text>Os jogos MSU-1 para Game Boy são hacks ou modificações de jogos Game Boy que utilizam o chip MSU-1. Este chip permite adicionar faixas de áudio de alta qualidade. Isso pode dar nova vida aos jogos com sons melhorados, muitas vezes criados por fãs apaixonados de retro-gaming.</text>
+<text>O Super Game Boy (スーパーゲームボーイ) é um dispositivo periférico para jogar cartuchos de Game Boy numa consola Super NES. Este sistema só funcionava com cartuchos compatíveis com o Game Boy monocromático original, o sistema podia então converter os quatro níveis de cinzento para cor.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Super Game Boy (スーパーゲームボーイ) - это периферийное устройство для воспроизведения картриджей Game Boy на консоли Super NES. Эта система работала только с картриджами, совместимыми с оригинальным монохромным Game Boy, после чего система могла преобразовывать все четыре уровня серого цвета в цветной.</text>
 </text>
 
 <text name="figurine_title, figurine_title_mask" extra="true">

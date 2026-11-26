@@ -1,0 +1,86 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Released exclusively in Japan in 1994, Bandai's Playdia was a multimedia console designed mainly for children. With its CD-ROM drive, wireless controller and catalogue packed with Japanese anime franchises, it favoured interactive adventures and animated sequences over traditional games. Dragon Ball, Sailor Moon and Gundam were among its best-known worlds, making this unusual machine a fascinating curiosity in retro gaming.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Commercialisée au Japon en 1994, la Playdia est une console multimédia de Bandai destinée principalement aux enfants. Avec son lecteur CD-ROM, sa manette sans fil et son catalogue riche en licences d'animation japonaise, elle privilégie les aventures interactives et les séquences vidéo aux jeux traditionnels. Dragon Ball, Sailor Moon et Gundam figurent parmi les univers emblématiques de cette machine originale, aujourd'hui devenue une curiosité du rétrogaming.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Lanzada en Japón en 1994, Playdia es una consola multimedia de Bandai dirigida principalmente a los niños. Con lector de CD-ROM, mando inalámbrico y un catálogo basado en populares series de animación japonesa, apuesta por aventuras interactivas y secuencias de vídeo en lugar de juegos tradicionales. Dragon Ball, Sailor Moon y Gundam destacan entre sus universos más conocidos, convirtiéndola en una curiosidad del videojuego retro.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Lanciata in Giappone nel 1994, Playdia è una console multimediale Bandai pensata soprattutto per i bambini. Con lettore CD-ROM, controller wireless e un catalogo ricco di serie animate giapponesi, privilegia avventure interattive e sequenze video rispetto ai giochi tradizionali. Dragon Ball, Sailor Moon e Gundam sono tra i suoi universi più celebri, rendendo questa macchina una curiosità del retrogaming.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die 1994 ausschließlich in Japan erschienene Playdia ist eine Multimedia-Konsole von Bandai, die sich vor allem an Kinder richtet. Mit CD-ROM-Laufwerk, kabellosem Controller und zahlreichen japanischen Anime-Lizenzen setzt sie stärker auf interaktive Abenteuer und Videosequenzen als auf klassische Spiele. Dragon Ball, Sailor Moon und Gundam gehören zu ihren bekanntesten Welten. Heute ist sie eine ungewöhnliche Rarität der Retrospielgeschichte.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lançada no Japão em 1994, a Playdia é uma consola multimédia da Bandai destinada sobretudo às crianças. Com leitor de CD-ROM, comando sem fios e um catálogo repleto de séries de animação japonesa, privilegia aventuras interativas e sequências de vídeo em vez de jogos tradicionais. Dragon Ball, Sailor Moon e Gundam estão entre os seus universos mais conhecidos, tornando-a uma curiosidade do retrogaming.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>1994年に日本で発売されたバンダイのプレイディアは、主に子ども向けに作られたマルチメディアゲーム機です。CD-ROMドライブとワイヤレスコントローラーを備え、従来のゲームよりも映像を使ったインタラクティブな冒険を重視しました。ドラゴンボール、セーラームーン、ガンダムなどの人気アニメ作品がそろい、今ではレトロゲーム史に残るユニークな存在です。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Playdia verscheen in 1994 in Japan als een multimediaconsole van Bandai, vooral bedoeld voor kinderen. Met een cd-romspeler, draadloze controller en een catalogus vol Japanse animatieseries draaide het systeem meer om interactieve avonturen en videobeelden dan om traditionele spellen. Dragon Ball, Sailor Moon en Gundam behoren tot de bekendste titels. Tegenwoordig is deze bijzondere console een curiositeit binnen retrogaming.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Playdia firmy Bandai zadebiutowała w Japonii w 1994 roku jako konsola multimedialna przeznaczona głównie dla dzieci. Wyposażona w napęd CD-ROM i bezprzewodowy kontroler, stawiała na interaktywne przygody i sekwencje filmowe zamiast tradycyjnych gier. W jej katalogu znalazły się światy Dragon Ball, Sailor Moon i Gundam. Dziś pozostaje niezwykłą ciekawostką historii retrogrania.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Playdia от Bandai вышла в Японии в 1994 году и предназначалась прежде всего для детей. Консоль с CD-ROM и беспроводным контроллером делала ставку на интерактивные приключения и видеосцены, а не на традиционные игры. В её каталоге были проекты по мотивам Dragon Ball, Sailor Moon и Gundam. Сегодня эта необычная система считается любопытной страницей истории ретроигр.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Dragon Ball Z: Shin Saiyajin Zetsumetsu Keikaku - Chikyu-Hen (1994)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Son Goku, the famous Saiyan warrior, defends Earth alongside his friends. In this interactive adventure inspired by Dragon Ball Z, players follow an animated story in which their choices shape the course of events. Between battles, exploration and scenes drawn from Toriyama's universe, the game feels like a cartoon in which the viewer becomes a participant.
+Fun fact: Goku's real Saiyan name is Kakarot, a play on the English word 'carrot', following the tradition of naming Saiyans after vegetables.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Son Goku, célèbre guerrier Saiyan, est le héros de cette aventure interactive inspirée de Dragon Ball Z, les joueurs suivent une histoire animée où leurs choix déterminent la progression des événements. Le jeu mise sur une expérience proche d'un dessin animé dont le spectateur devient acteur.
+Fun fact : Le véritable nom Saiyan de Goku est Kakarot, un jeu de mots sur le mot anglais « carrot » (carotte), suivant la tradition des noms de Saiyans inspirés de légumes.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Son Goku, el famoso guerrero saiyajin, defiende la Tierra junto a sus amigos. En esta aventura interactiva inspirada en Dragon Ball Z, las decisiones del jugador influyen en una historia animada. Entre combates, exploración y escenas del universo de Toriyama, el juego convierte al espectador en protagonista de un dibujo animado.
+Dato curioso: El verdadero nombre saiyajin de Goku es Kakarot, un juego de palabras con 'carrot' (zanahoria), siguiendo la tradición de nombres de verduras.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Son Goku, celebre guerriero Saiyan, difende la Terra insieme ai suoi amici. In questa avventura interattiva ispirata a Dragon Ball Z, le scelte del giocatore guidano una storia animata. Tra combattimenti, esplorazione e scene tratte dall'universo di Toriyama, il gioco trasforma lo spettatore nel protagonista di un cartone animato.
+Curiosità: Il vero nome Saiyan di Goku è Kakarot, un gioco di parole con l'inglese 'carrot' (carota), secondo la tradizione dei nomi ispirati alle verdure.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Son Goku, der berühmte Saiyajin-Krieger, verteidigt mit seinen Freunden die Erde. In diesem interaktiven Abenteuer nach Dragon Ball Z beeinflussen die Entscheidungen der Spieler eine animierte Geschichte. Kämpfe, Erkundungen und Szenen aus Toriyamas Welt lassen die Zuschauer selbst Teil eines Zeichentrickfilms werden.
+Fun Fact: Gokus ursprünglicher Saiyajin-Name ist Kakarot, ein Wortspiel mit dem englischen Wort 'carrot' (Karotte), passend zur Gemüse-Namenstradition der Saiyajin.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Son Goku, o célebre guerreiro Saiyan, defende a Terra ao lado dos amigos. Nesta aventura interativa inspirada em Dragon Ball Z, as escolhas do jogador influenciam uma história animada. Entre combates, exploração e cenas do universo de Toriyama, o jogo transforma o espectador numa personagem do próprio desenho animado.
+Curiosidade: O verdadeiro nome Saiyan de Goku é Kakarot, um trocadilho com a palavra inglesa 'carrot' (cenoura), seguindo a tradição de nomes inspirados em vegetais.</text>
+</text>
+</view>
+</theme>

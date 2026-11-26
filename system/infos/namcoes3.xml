@@ -1,0 +1,30 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Joseledos
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Namco System ES3 is an arcade board based on PC architecture, released by Bandai Namco in 2013. It runs on a modified version of Windows Embedded Standard 7 and was used in highly popular arcade games such as Tekken 7, Pokkén Tournament, and Mario Kart Arcade GP DX.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le Namco System ES3 est une carte d'arcade basée sur une architecture PC, lancée par Bandai Namco en 2013. Il fonctionne avec une version modifiée de Windows Embedded Standard 7 et a été utilisé dans des bornes d'arcade très populaires, telles que Tekken 7, Pokkén Tournament et Mario Kart Arcade GP DX.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Das Namco System ES3 ist ein auf PC-Architektur basierendes Arcade-System, das 2013 von Bandai Namco veröffentlicht wurde. Es läuft mit einer modifizierten Version von Windows Embedded Standard 7 und kam in sehr populären Arcade-Automaten wie Tekken 7, Pokkén Tournament und Mario Kart Arcade GP DX zum Einsatz.</text>
+</text>
+
+
+<text name="system_description" extra="true" lang="es">
+<text>La Namco System ES3 es una placa arcade basada en arquitectura PC lanzada por Bandai Namco en 2013. Funciona con una versión modificada de Windows Embedded Standard 7 y se empleó en máquinas recreativas muy populares como Tekken 7, Pokkén Tournament y Mario Kart Arcade GP DX.</text>
+</text>
+
+</view>
+</theme>

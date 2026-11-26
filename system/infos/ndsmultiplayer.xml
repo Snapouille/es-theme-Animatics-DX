@@ -1,0 +1,86 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Nintendo DS transformed portable multiplayer gaming with its wireless connection and DS Download Play feature, sometimes allowing friends to play together using just one game cartridge. Fast-paced races, battles, mini-games and cooperative adventures made every gathering a chance to play. From Mario Kart to Animal Crossing, rediscover a time when bringing a few consoles together was all it took to share hours of fun!</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La Nintendo DS a révolutionné le jeu multijoueur portable grâce à sa connexion sans fil et à sa fonction Téléchargement DS, permettant parfois de jouer à plusieurs avec une seule cartouche. Courses endiablées, combats, mini-jeux et aventures coopératives ont transformé les rencontres entre amis en véritables parties de plaisir. De Mario Kart à Animal Crossing, revivez une époque où il suffisait de rapprocher quelques consoles pour partager des heures de jeu !</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Nintendo DS revolucionó el multijugador portátil con su conexión inalámbrica y la función Descarga DS, que a veces permitía jugar a varios con un solo cartucho. Carreras trepidantes, combates, minijuegos y aventuras cooperativas convirtieron las reuniones entre amigos en momentos inolvidables. De Mario Kart a Animal Crossing, revive la época en que bastaba reunir unas cuantas consolas para compartir horas de diversión.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Nintendo DS ha rivoluzionato il multigiocatore portatile grazie alla connessione wireless e alla funzione Download DS, che in alcuni giochi permetteva di giocare insieme con una sola cartuccia. Gare frenetiche, sfide, minigiochi e avventure cooperative animavano gli incontri tra amici. Da Mario Kart ad Animal Crossing, rivivi un'epoca in cui bastava avvicinare qualche console per divertirsi insieme per ore.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der Nintendo DS revolutionierte das mobile Mehrspielererlebnis mit drahtloser Verbindung und DS-Download-Spiel, das bei manchen Titeln gemeinsame Partien mit nur einem Modul ermöglichte. Rasante Rennen, Kämpfe, Minispiele und kooperative Abenteuer machten Treffen mit Freunden zum Spielerlebnis. Von Mario Kart bis Animal Crossing: Erlebe die Zeit, als ein paar Konsolen für stundenlangen gemeinsamen Spaß genügten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A Nintendo DS revolucionou os jogos multijogador portáteis com a ligação sem fios e a função Download DS, que por vezes permitia jogar em grupo com um único cartucho. Corridas emocionantes, combates, minijogos e aventuras cooperativas tornaram os encontros entre amigos ainda mais divertidos. De Mario Kart a Animal Crossing, revive a época em que bastava juntar algumas consolas para partilhar horas de diversão!</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>ニンテンドーDSは、ワイヤレス通信と、ソフト1本で複数人が遊べるタイトルもある「DSダウンロードプレイ」によって、携帯ゲームの対戦・協力プレイを大きく変えました。レース、バトル、ミニゲーム、協力型の冒険が友達との集まりを盛り上げました。マリオカートからどうぶつの森まで、DSを持ち寄るだけで何時間も楽しめた時代を振り返りましょう！</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Nintendo DS veranderde multiplayergaming onderweg met draadloze verbindingen en DS Download Play, waarmee je bij sommige spellen met één spelkaart samen kon spelen. Razendsnelle races, gevechten, minigames en coöperatieve avonturen maakten samenzijn met vrienden extra leuk. Van Mario Kart tot Animal Crossing: beleef de tijd opnieuw waarin een paar consoles genoeg waren voor uren speelplezier!</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Nintendo DS odmieniło przenośną rozgrywkę wieloosobową dzięki łączności bezprzewodowej i funkcji DS Download Play, która w niektórych grach pozwalała bawić się wspólnie z jednym kartridżem. Wyścigi, pojedynki, minigry i przygody kooperacyjne umilały spotkania ze znajomymi. Od Mario Kart po Animal Crossing - przypomnij sobie czasy, gdy wystarczyło zebrać kilka konsol, by grać godzinami!</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Nintendo DS изменила портативные многопользовательские игры благодаря беспроводной связи и функции DS Download Play, которая в некоторых играх позволяла играть вместе с одним картриджем. Гонки, сражения, мини-игры и совместные приключения превращали встречи с друзьями в настоящий праздник. От Mario Kart до Animal Crossing - вспомните время, когда для часов веселья хватало нескольких консолей!</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Animal Crossing: Wild World (2005)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>Tom Nook is the well-known tanuki shopkeeper from Animal Crossing, always ready to welcome newcomers to the village. As the owner of the local store, he gives players their first tasks. With his business sense and seemingly generous nature, this memorable character has become one of the series' most recognizable faces.
+Fun fact: The name “Tom Nook” is a play on “tanuki”, the Japanese animal that inspired the character.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Tom Nook est le célèbre tanuki commerçant d'Animal Crossing, toujours prêt à accueillir les nouveaux habitants dans son village. Propriétaire de la boutique locale, il confie au joueur ses premières missions. Avec son sens des affaires et son apparente générosité, ce personnage incontournable est devenu l'une des figures les plus reconnaissables de la série.
+Fun fact : Le nom « Tom Nook » est un jeu de mots sur « tanuki », l'animal japonais dont il s'inspire.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Tom Nook es el famoso tanuki comerciante de Animal Crossing, siempre dispuesto a recibir a los nuevos vecinos. Como dueño de la tienda local, encarga al jugador sus primeras tareas. Su olfato para los negocios y su aparente generosidad lo han convertido en uno de los personajes más reconocibles de la serie.
+Dato curioso: El nombre «Tom Nook» es un juego de palabras con «tanuki», el animal japonés en el que se inspira.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Tom Nook è il celebre tanuki negoziante di Animal Crossing, sempre pronto ad accogliere i nuovi abitanti del villaggio. Proprietario del negozio locale, affida al giocatore i suoi primi incarichi. Con il suo fiuto per gli affari e la sua apparente generosità, è diventato uno dei personaggi più riconoscibili della serie.
+Curiosità: Il nome «Tom Nook» è un gioco di parole su «tanuki», l'animale giapponese a cui si ispira.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Tom Nook ist der bekannte Tanuki-Ladenbesitzer aus Animal Crossing, der neue Dorfbewohner stets willkommen heißt. In seinem Geschäft gibt er den Spielern ihre ersten Aufgaben. Mit seinem Geschäftssinn und seiner scheinbaren Großzügigkeit wurde er zu einer der bekanntesten Figuren der Reihe.
+Fun Fact: Der Name „Tom Nook“ ist ein Wortspiel mit „Tanuki“, dem japanischen Tier, das als Vorlage für die Figur diente.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Tom Nook é o famoso tanuki comerciante de Animal Crossing, sempre pronto a receber novos habitantes na aldeia. Dono da loja local, confia ao jogador as primeiras tarefas. Com o seu jeito para os negócios e a sua aparente generosidade, tornou-se uma das personagens mais reconhecidas da série.
+Curiosidade: O nome «Tom Nook» é um trocadilho com «tanuki», o animal japonês que inspirou a personagem.</text>
+</text>
+</view>
+</theme>

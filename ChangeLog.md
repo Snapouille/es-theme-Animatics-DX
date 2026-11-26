@@ -1,3 +1,16 @@
+## V 2.58 - (26 11 2026)
+- Added PSX Arcade system
+- Added Playdia system
+- Added NDS multiplayer system
+- Added Model1 system
+- Added Arcade PC system
+- Added IGSPC system
+- Added Namco system Es3
+- Added PS5 system
+- Added Switch 2 system
+- Added NelfePlay Challenges
+
+
 ## V 2.57 - (04 11 2026)
 - Added a new "Room Display" option for non-Arcade systems in GameCarousel and Collector views, allowing users to choose between Room and Fanart backgrounds. Currently available for Amstrad CPC and Amiga only.
 - Added Recomp system

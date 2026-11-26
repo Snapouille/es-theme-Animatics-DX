@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Take on the clock and the community through dedicated leaderboards for each level, boss, or full game, whether in classic Speedrun, via uncertified Challenges with imposed rules and constraints, or during live Mass Runs bringing together dozens of players at the same start to score points in the permanent leaderboard.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Affrontez le chrono et la communauté grâce à NelfePlay CHALLENGES &amp; SPEEDRUNS sur des classements dédiés par niveau, boss ou jeu complet. Mesurez-vous aux autres en Speedrun classique, relevez des Challenges aux règles imposées, ou participez à des Mass Runs en direct réunissant des dizaines de joueurs sur un même départ pour grimper dans le classement général.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Stelle dich der Uhr und der Community über eigene Bestenlisten für jedes Level, jeden Boss oder das gesamte Spiel – sei es im klassischen Speedrun, über unzertifizierte Challenges mit festgelegten Regeln und Einschränkungen oder bei Live-Mass-Runs, bei denen Dutzende Spieler zeitgleich starten, um Punkte für die dauerhafte Rangliste zu sammeln.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Enfréntate al cronómetro y a la comunidad a través de clasificaciones dedicadas para cada nivel, jefe o juego completo, ya sea en Speedrun clásico, mediante Challenges sin certificar con reglas y restricciones impuestas, o en Mass Runs en directo que reúnen a decenas de jugadores en una misma salida para sumar puntos en la clasificación permanente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Sfida il cronometro e la community attraverso classifiche dedicate per ogni livello, boss o gioco completo, sia nel Speedrun classico, sia tramite Challenges non certificate con regole e vincoli imposti, o durante Mass Runs in diretta che riuniscono decine di giocatori alla stessa partenza per guadagnare punti nella classifica permanente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>クラシックなスピードラン、ルールや制約が課された非公認のチャレンジ、あるいは数十人のプレイヤーが同時にスタートして常設ランキングのポイントを競い合うライブのマスランを通じて、各レベル、ボス、またはフルゲーム専用のリーダーボードでタイマーやコミュニティに挑みましょう。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Neem het op tegen de klok en de community via speciale klassementen voor elk niveau, elke boss of de volledige game, of dit nu is in klassieke Speedruns, via niet-gecertificeerde Challenges met opgelegde regels en beperkingen, of tijdens live Mass Runs waar tientallen spelers op hetzelfde moment starten om punten te scoren voor het permanente klassement.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Zmierz się z czasem i społecznością dzięki dedykowanym rankingom dla każdego poziomu, bossa lub całej gry – niezależnie od tego, czy grasz w klasycznym Speedrunie, bierzesz udział w niecertyfikowanych Challenges z narzuconymi zasadami i ograniczeniami, czy uczestniczysz w transmisjach na żywo Mass Runs, gdzie dziesiątki graczy startuje w tym samym momencie, aby zdobywać punkty w stałym rankingu.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Desafie o cronómetro e a comunidade através de classificações dedicadas para cada nível, chefe ou jogo completo, seja em Speedrun clássico, através de Challenges não certificados com regras e restrições impostas, ou em Mass Runs em direto que reúnem dezenas de jogadores numa mesma partida para pontuar na classificação permanente.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Бросьте вызов секундомеру и сообществу с помощью специальных таблиц лидеров для каждого уровня, босса или всей игры — будь то классический Speedrun, несертифицированные Challenges с навязанными правилами и ограничениями, или прямые эфиры Mass Runs, объединяющие десятки игроков на одном старте для набора очков в постоянном рейтинге.</text>
+</text>
+
+</view>
+</theme>

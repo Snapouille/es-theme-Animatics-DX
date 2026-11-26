@@ -35,8 +35,8 @@
 		<visible>!exists({system:logo})</visible>
 		<text>${system.theme}</text>
 		<origin>0.5 0.5</origin>									
-		<size>0.2 0.1</size>									
-		<pos>0.175 0.155</pos>									
+		<size>0.3 0.1</size>									
+		<pos>0.18 0.155</pos>									
 		<color>ff0033</color>
 		<alignment>center</alignment>
 		<fontPath>${themePath}/art/fonts/charge-vector.otf</fontPath>

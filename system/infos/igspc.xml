@@ -1,0 +1,29 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: DreamerCG
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>IGS (International Games System) is a renowned Taiwanese developer and arcade machine manufacturer, founded in 1991. IGS is celebrated worldwide for its innovative arcade cabinets and iconic hardware systems that have captivated players in arcades globally. Known for their cutting-edge technology and diverse game portfolio, IGS has established itself as a major player in the arcade industry, delivering high-quality entertainment experiences through both classic and contemporary arcade games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>IGS (International Games System) est un développeur et constructeur de bornes d'arcade taïwanais réputé, fondé en 1991. IGS est célèbre mondialement pour ses cabines d'arcade innovantes et ses systèmes matériels emblématiques qui ont captivé les joueurs dans les salles d'arcade du monde entier. Reconnu pour sa technologie de pointe et son large portefeuille de jeux, IGS s'est imposé comme un acteur majeur de l'industrie des jeux d'arcade, offrant des expériences ludiques de haute qualité grâce à des jeux d'arcade classiques et contemporains.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>IGS (International Games System) ist ein angesehener taiwanesischer Entwickler und Hersteller von Arcade-Automaten, gegründet 1991. IGS ist weltweit für seine innovativen Arcade-Cabinets und ikonischen Hardwaresysteme bekannt, die Spieler in Spielhallen auf der ganzen Welt fasziniert haben. IGS zeichnet sich durch modernste Technologie und ein vielfältiges Spielangebot aus und hat sich als Hauptakteur der Arcade-Industrie etabliert und bietet hochwertige Unterhaltungserlebnisse durch klassische und zeitgenössische Arcade-Spiele.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>IGS (International Games System) es un desarrollador y fabricante taiwanés de máquinas de arcade de renombre, fundado en 1991. IGS es célebre mundialmente por sus cabinas de arcade innovadoras y sus sistemas de hardware emblemáticos que han cautivado a los jugadores en salones de juegos de todo el mundo. Reconocido por su tecnología de vanguardia y su diverso portafolio de juegos, IGS se ha establecido como un actor importante en la industria de las máquinas arcade, ofreciendo experiencias de entretenimiento de alta calidad a través de juegos de arcade clásicos y contemporáneos.</text>
+</text>
+
+</view>
+</theme>

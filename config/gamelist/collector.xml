@@ -1348,6 +1348,7 @@
 	<image name="cartridge_ID, cartridge_back" if="${system.theme} == 'psvita'  
 						    || 	   ${system.theme} == 'gamecom' 
 						    || 	   ${system.theme} == 'switch' 
+						    || 	   ${system.theme} == 'switch2' 
 							" extra="true">
 		<maxSize>0.15 0.135</maxSize>
 		<pos>-0.13 0.765</pos>

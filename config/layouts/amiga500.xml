@@ -4,8 +4,8 @@
 <view name="gamecarousel">
   
 	<image name="figurines,shadow_figurines" extra="true">
-		<pos>0.315 0.61</pos>									
-		<pos ifHelpPrompts="false">0.315 0.67</pos>
+		<pos>0.315 0.615</pos>									
+		<pos ifHelpPrompts="false">0.315 0.675</pos>
 		<maxSize>0.10 0.22</maxSize>	
 	</image>
 		
@@ -44,8 +44,8 @@
 <customView name="collector">
   
 	<image name="figurines,shadow_figurines" extra="true">
-		<pos>0.305 0.61</pos>									
-		<pos ifHelpPrompts="false">0.305 0.67</pos>
+		<pos>0.305 0.615</pos>									
+		<pos ifHelpPrompts="false">0.305 0.675</pos>
 		<maxSize>0.10 0.22</maxSize>	
 		<x ifSubset="cartridgeDisplay:Show">0.31</x>
 	</image>

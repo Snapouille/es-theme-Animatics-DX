@@ -1,0 +1,41 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<image name="avatar" extra="static">
+			<origin>0 0</origin>
+			<size>0.3817708 0.5277778</size>									
+			<pos>0.30 0.31</pos>
+			<scale>1.00</scale>
+			<flipX>false</flipX>
+			<storyboard repeatAt="700">
+				<animation property="opacity" from="0" to="1" duration="700" mode="linear"/>
+				<animation property="x" from="1" begin="0" duration="700" mode="easyOut"/>
+				<animation property="origin" to="0.01 0.01" begin="700" duration="1000" mode="linear"/>
+				<animation property="origin" to="0.02 0" begin="1700" duration="1000" mode="linear"/>
+				<animation property="origin" to="0.01 0.01" begin="2700" duration="1000" mode="linear"/>
+				<animation property="origin" to="0 0" begin="3700" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="avatar-wolf" extra="static">
+			<origin>0.5 0.5</origin>
+			<size>0.1515625 0.2111111</size>									
+			<pos>0.15 0.21</pos> <!-- Posición final donde se detendrá -->
+			<scale>1.00</scale>
+			<path>./avatar-wolf.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>25</zIndex>
+			<storyboard repeatAt="1600">
+				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+				<!-- Modificado: Hace que aparezca desde más arriba (fuera de pantalla o parte superior) bajando hasta su posición Y -->
+				<animation property="y" from="-0.2" begin="0" duration="400" mode="easyOut"/>
+				<!-- Efecto de Zoom In y Zoom Out en bucle -->
+				<animation property="scale" from="1.0" to="1.15" begin="400" duration="600" mode="easeInOut"/>
+				<animation property="scale" from="1.15" to="1.0" begin="1000" duration="600" mode="easeInOut"/>
+			</storyboard>
+		</image>
+
+	</view>
+</theme>

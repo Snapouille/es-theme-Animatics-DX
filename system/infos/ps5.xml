@@ -1,0 +1,27 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: DreamerCG
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<text name="system_description" extra="true">
+<text>The PlayStation 5 (PS5) is Sony's ninth-generation gaming console, released in 2020. Featuring stunning graphics, ultra-fast loading times and an immersive gaming experience.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La PlayStation 5 (PS5) est la console de neuvième génération de Sony, sortie en 2020. Elle offre des graphismes époustouflants, des temps de chargement ultra-rapides et une expérience de jeu immersive.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die PlayStation 5 (PS5) ist Sonys Spielekonsole der neunten Generation, die 2020 veröffentlicht wurde. Sie bietet beeindruckende Grafik, ultraschnelle Ladezeiten und ein immersives Spielerlebnis.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La PlayStation 5 (PS5) es la consola de videojuegos de novena generación de Sony, lanzada en 2020. Ofrece gráficos impresionantes, tiempos de carga ultrarrápidos y una experiencia de juego inmersiva.</text>
+</text>
+</view>
+</theme>

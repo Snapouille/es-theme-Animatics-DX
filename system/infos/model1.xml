@@ -1,0 +1,86 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Introduced in 1992, Sega Model 1 marked a turning point in arcade history with fully polygonal 3D environments. This groundbreaking hardware powered iconic games such as Virtua Racing, Virtua Fighter and Star Wars Arcade. With colorful polygons, fluid animation and unprecedented thrills, Sega Model 1 paved the way for a new generation of video games.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Lancée en 1992, la Sega Model 1 marque un tournant dans l'histoire des jeux d'arcade en introduisant des environnements entièrement réalisés en 3D polygonale. Grâce à cette technologie révolutionnaire pour l'époque, Sega donne naissance à des titres emblématiques comme Virtua Racing, Virtua Fighter et Star Wars Arcade. Avec ses polygones colorés, ses animations fluides et ses sensations inédites, cette carte d'arcade ouvre la voie à une nouvelle génération de jeux vidéo.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Lanzada en 1992, Sega Model 1 marcó un antes y un después en los salones recreativos al introducir entornos completamente poligonales en 3D. Esta tecnología revolucionaria impulsó juegos emblemáticos como Virtua Racing, Virtua Fighter y Star Wars Arcade. Con sus polígonos coloridos, animaciones fluidas y sensaciones inéditas, esta placa abrió el camino a una nueva generación de videojuegos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Lanciata nel 1992, Sega Model 1 segnò una svolta nella storia dei giochi arcade introducendo ambienti interamente realizzati in 3D poligonale. Questa tecnologia rivoluzionaria diede vita a titoli iconici come Virtua Racing, Virtua Fighter e Star Wars Arcade. Con poligoni colorati, animazioni fluide e sensazioni inedite, questa scheda arcade aprì la strada a una nuova generazione di videogiochi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Das 1992 eingeführte Sega Model 1 markierte einen Wendepunkt in der Arcade-Geschichte und ermöglichte vollständig polygonale 3D-Welten. Diese damals revolutionäre Technik brachte legendäre Spiele wie Virtua Racing, Virtua Fighter und Star Wars Arcade hervor. Mit farbenfrohen Polygonen, flüssigen Animationen und völlig neuen Spielerlebnissen ebnete die Arcade-Platine den Weg für eine neue Videospielgeneration.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lançada em 1992, a Sega Model 1 marcou uma viragem na história dos jogos de arcade ao apresentar ambientes inteiramente construídos em 3D poligonal. Esta tecnologia revolucionária deu origem a títulos emblemáticos como Virtua Racing, Virtua Fighter e Star Wars Arcade. Com polígonos coloridos, animações fluidas e sensações inéditas, esta placa abriu caminho a uma nova geração de videojogos.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>1992年に登場したセガのModel 1は、フルポリゴンの3D空間を実現し、アーケードゲームの歴史に転機をもたらしました。当時としては画期的な技術から、『バーチャレーシング』『バーチャファイター』『スター・ウォーズ アーケード』などの名作が誕生。色鮮やかなポリゴン、滑らかな動き、新鮮な臨場感によって、次世代のゲームへの道を切り開きました。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Sega Model 1 verscheen in 1992 en betekende een keerpunt in de arcadegeschiedenis dankzij volledig polygonale 3D-omgevingen. Deze baanbrekende technologie bracht klassiekers voort als Virtua Racing, Virtua Fighter en Star Wars Arcade. Met kleurrijke polygonen, vloeiende animaties en ongekende sensaties maakte dit arcadebord de weg vrij voor een nieuwe generatie videogames.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Wprowadzona w 1992 roku Sega Model 1 była przełomem w historii automatów arcade dzięki w pełni wielokątnym środowiskom 3D. Ta rewolucyjna technologia umożliwiła powstanie takich hitów jak Virtua Racing, Virtua Fighter i Star Wars Arcade. Kolorowe wielokąty, płynne animacje i niespotykane dotąd wrażenia otworzyły drogę nowej generacji gier.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Появившаяся в 1992 году Sega Model 1 стала поворотным моментом в истории аркадных игр благодаря полностью полигональным трёхмерным мирам. Эта революционная для своего времени технология подарила игрокам Virtua Racing, Virtua Fighter и Star Wars Arcade. Яркие полигоны, плавная анимация и новые ощущения проложили путь следующему поколению видеоигр.</text>
+</text>
+
+<text name="figurine_title, figurine_title_mask" extra="true">
+<text>&#160;&#160;Virtua Racing (1992)&#160;&#160;</text>
+</text>
+
+<text name="figurine_desc" extra="true">
+<text>With its angular shapes and bright colors, the Formula One car of Virtua Racing takes players into a new era of motorsport. Developed by Sega AM2 under Yu Suzuki's direction, this arcade game revolutionized racing with fully 3D tracks, spectacular camera changes and an exciting sense of speed. A true pioneer that helped lay the foundations of modern racing games.
+Fun fact: Virtua Racing let players switch viewpoints during a race using four dedicated buttons, a spectacular innovation for an arcade game in 1992.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="fr">
+<text>Cette monoplace de Formule 1 propulse les joueurs dans une nouvelle dimension de la course automobile. Développé par Sega AM2 sous la direction de Yu Suzuki, ce jeu d'arcade révolutionne le genre grâce à ses circuits entièrement en 3D, ses changements de caméra spectaculaires et ses sensations de vitesse. Un véritable pionnier qui a posé les bases des jeux de course modernes.
+Fun fact : Virtua Racing permettait de changer de vue en pleine course grâce à quatre boutons dédiés, une innovation spectaculaire pour un jeu d'arcade en 1992.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="es">
+<text>Con su monoplaza de Fórmula 1 de formas angulosas y colores vivos, Virtua Racing lleva las carreras a una nueva dimensión. Desarrollado por Sega AM2 bajo la dirección de Yu Suzuki, revolucionó el género con circuitos completamente en 3D, cambios de cámara espectaculares y una gran sensación de velocidad. Un pionero que sentó las bases de los juegos de carreras modernos.
+Dato curioso: Virtua Racing permitía cambiar de vista durante la carrera mediante cuatro botones dedicados, toda una innovación en 1992.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="it">
+<text>Con la sua monoposto di Formula 1 dalle forme spigolose e dai colori vivaci, Virtua Racing porta le corse in una nuova dimensione. Sviluppato da Sega AM2 sotto la direzione di Yu Suzuki, rivoluzionò il genere grazie a circuiti interamente in 3D, spettacolari cambi di visuale e un'intensa sensazione di velocità. Un pioniere che gettò le basi dei moderni giochi di guida.
+Curiosità: Virtua Racing permetteva di cambiare visuale durante la gara con quattro pulsanti dedicati, un'innovazione spettacolare nel 1992.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="de">
+<text>Mit kantigen Formen und leuchtenden Farben führt der Formel-1-Rennwagen aus Virtua Racing die Spieler in eine neue Dimension des Motorsports. Das von Sega AM2 unter Yu Suzuki entwickelte Arcade-Spiel revolutionierte das Genre mit vollständig dreidimensionalen Strecken, spektakulären Kameraperspektiven und einem packenden Geschwindigkeitsgefühl. Ein Wegbereiter moderner Rennspiele.
+Fun Fact: In Virtua Racing konnte man während des Rennens mit vier eigenen Tasten die Kameraperspektive wechseln - 1992 eine spektakuläre Arcade-Neuheit.</text>
+</text>
+
+<text name="figurine_desc" extra="true" lang="pt">
+<text>Com o seu monolugar de Fórmula 1 de formas angulosas e cores vivas, Virtua Racing transporta os jogadores para uma nova dimensão das corridas. Desenvolvido pela Sega AM2 sob a direção de Yu Suzuki, revolucionou o género com pistas inteiramente em 3D, mudanças de câmara espetaculares e uma intensa sensação de velocidade. Um pioneiro que lançou as bases dos jogos de corridas modernos.
+Curiosidade: Virtua Racing permitia mudar de perspetiva durante a corrida através de quatro botões próprios, uma inovação impressionante em 1992.</text>
+</text>
+</view>
+</theme>
